@@ -8,15 +8,29 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
+    "develop": "gatsby develop -p 8585",
+    "start": "gatsby develop -p 8585",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "lint": "prettier --write . --loglevel=warn",
+    "check": "prettier --check .",
+    "build:fetch": "npm run lint && tsc && mkdir -p dist/utilities && cp src/utilities/slugify.js dist/utilities",
+    "parse": "node dist/feed/parse.js"
   },
   "dependencies": {
-    "gatsby": "^4.6.2",
+    "gatsby": "^4.11.1",
+    "luxon": "^2.3.0",
+    "node-fetch": "^2.6.7",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-markdown": "^8.0.2",
+    "rehype-raw": "^6.1.1",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.13",
+    "prettier": "2.6.1",
+    "typescript": "^4.5.5"
   }
 }

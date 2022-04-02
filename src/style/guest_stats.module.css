@@ -1,0 +1,27 @@
+.stat_table {
+  /* margin-top: 3rem; */
+  position: sticky;
+  top: 1rem;
+  margin-left: 1rem;
+  background-color: var(--dark);
+  border-radius: var(--corder-radius-sm);
+  border: 1px solid var(--white-200);
+  overflow: hidden;
+}
+
+.stat_table.stat_table tr td {
+  background: none;
+}
+
+.stat_table.stat_table tr td:first-child {
+  padding-top: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--white-600);
+}
+
+.stat_table td:first-child {
+  text-align: right;
+  font-family: 'Gill Sans MT', 'Gill Sans', 'Gill Sans Std', Verdana,
+    'Bitstream Vera Sans', sans-serif;
+  text-transform: uppercase;
+}

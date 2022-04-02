@@ -1,0 +1,185 @@
+:root {
+  --white: rgb(238, 238, 238);
+  --white-100: rgba(238, 238, 238, 0.1);
+  --white-200: rgba(238, 238, 238, 0.2);
+  --white-300: rgba(238, 238, 238, 0.33);
+  --white-500: rgba(238, 238, 238, 0.5);
+  --white-600: rgba(238, 238, 238, 0.66);
+  --white-800: rgba(238, 238, 238, 0.8);
+  --light-text: #ddd;
+  --dark: rgba(0, 0, 0, 0.2);
+  --background: #4a525a;
+  --background-600: rgba(74, 82, 91, 0.66);
+  --bright-background: #606870;
+
+  --corder-radius-sm: 8px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.8em;
+  background-color: var(--background);
+  color: var(--white);
+  /* DF's fonts, then system fonts */
+  font-family: Verdana, 'Bitstream Vera Sans', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+hr {
+  border-color: var(--white-300);
+}
+
+.container {
+  max-width: 60rem;
+  padding: 0 max(8px, 1vw);
+  margin: 0 auto 7rem;
+}
+.container_narrow {
+  max-width: 35rem;
+  padding: 0 max(8px, 1vw);
+  margin: 0 auto 7rem;
+}
+
+header a {
+  border: none;
+}
+
+.headline,
+.title {
+  color: var(--white);
+  font-family: 'Gill Sans MT', 'Gill Sans', 'Gill Sans Std', Verdana,
+    'Bitstream Vera Sans', sans-serif;
+  text-transform: uppercase;
+}
+.headline_thin,
+.title_thin {
+  color: var(--white);
+  text-align: center;
+  font-family: 'Gill Sans MT', 'Gill Sans', 'Gill Sans Std', Verdana,
+    'Bitstream Vera Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 1.05em;
+  letter-spacing: 0.2em;
+}
+
+.text_center {
+  text-align: center;
+}
+
+em {
+  font-family: script;
+  font-weight: normal;
+}
+
+.headline em {
+  font-family: script;
+  font-weight: normal;
+  font-size: 0.675em;
+  margin: 0.5em 0;
+  display: block;
+  text-transform: lowercase;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+/* yeah not really but its fine for now */
+.sixty_fourty {
+  display: flex;
+  align-items: flex-start;
+}
+.fifty_fifty {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+  border-bottom: 1px solid var(--white-300);
+}
+
+a:hover,
+a:active {
+  background-color: var(--white-100);
+}
+
+audio {
+  height: 3em;
+  width: 100%;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  color: var(--white-800);
+}
+
+.center {
+  text-align: center;
+}
+
+.m_top_0 {
+  margin-top: 0;
+}
+.m_top_lg {
+  margin-top: 4rem;
+}
+.m_bot_lg {
+  margin-bottom: 4rem;
+}
+.m_top_sm {
+  margin-top: 2rem;
+}
+.m_bot_sm {
+  margin-bottom: 2rem;
+}
+
+.event.color-1 {
+  background-color: hsl(56, 85%, 89%);
+  color: hsl(56, 85%, 29%);
+}
+.event.color-2 {
+  background-color: hsl(27, 92%, 90%);
+  color: hsl(27, 92%, 30%);
+}
+.event.color-3 {
+  background-color: hsl(356, 100%, 91%);
+  color: hsl(356, 100%, 31%);
+}
+.event.color-4 {
+  background-color: hsl(311, 64%, 85%);
+  color: hsl(311, 64%, 25%);
+}
+.event.color-5 {
+  background-color: hsl(263, 64%, 84%);
+  color: hsl(263, 64%, 24%);
+}
+.event.color-6 {
+  background-color: hsl(215, 77%, 80%);
+  color: hsl(215, 77%, 20%);
+}
+.event.color-7 {
+  background-color: hsl(195, 82%, 76%);
+  color: hsl(195, 82%, 16%);
+}
+.event.color-8 {
+  background-color: hsl(185, 84%, 76%);
+  color: hsl(185, 84%, 16%);
+}
+.event.color-9 {
+  background-color: hsl(167, 82%, 78%);
+  color: hsl(167, 82%, 18%);
+}
+.event.color-10 {
+  background-color: hsl(126, 89%, 85%);
+  color: hsl(126, 89%, 25%);
+}

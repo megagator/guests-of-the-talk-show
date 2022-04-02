@@ -1,0 +1,15 @@
+.day {
+  color: var(--white);
+}
+
+.date {
+  color: var(--white-800);
+}
+
+.year {
+  color: var(--white-500);
+}
+
+.time {
+  color: var(--white);
+}
