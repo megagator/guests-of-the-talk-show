@@ -1,0 +1,30 @@
+{
+  "componentChunkName": "component---src-templates-episode-template-js",
+  "path": "/episode/155-medium-rare-macbook",
+  "result": {
+    "pageContext": {
+      "episode": {
+        "number": 155,
+        "title": "Medium Rare MacBook",
+        "slug": "155-medium-rare-macbook",
+        "rawTitle": "155: ‘Medium Rare MacBook’ With MG Siegler",
+        "guests": ["MG Siegler"],
+        "link": "http://daringfireball.net/thetalkshow/2016/05/28/ep-155",
+        "pubDate": "2016-05-28T22:40:25.000Z",
+        "file": {
+          "url": "http://feeds.soundcloud.com/stream/266374721-thetalkshow-155-mg-siegler.mp3",
+          "fileSizeBytes": 102888111,
+          "type": "audio/mpeg"
+        },
+        "duration": "02:22:50",
+        "durationSeconds": 8570,
+        "explicit": false,
+        "imageUrl": "https://daringfireball.net/thetalkshow/graphics/df-the-talk-show-album-art.png",
+        "author": "Daring Fireball / John Gruber",
+        "description": "Special guest MG Siegler returns to the show. (Finally.) Topics include rumors of an upcoming Siri SDK and an Amazon Echo-like device from Apple, the future of the MacBook lineup, Peter Thiel's secretive role as the financial backer of Hulk Hogan's lawsuit against Gawker, and my hatred of Roman numerals.",
+        "showNotes": "<p>Special guest MG Siegler returns to the show. (Finally.) Topics include rumors of an upcoming Siri SDK and an Amazon Echo-like device from Apple, the future of the MacBook lineup, Peter Thiel's secretive role as the financial backer of Hulk Hogan's lawsuit against Gawker, and my hatred of Roman numerals.</p>\n\n<p>Sponsored by:</p>\n\n<ul>\n<li><a href=\"http://wealthfront.com/thetalkshow\">Wealthfront</a>: An automated investment service with over $3 billion in client assets under management.</li>\n<li><a href=\"http://audible.com/talkshow\">Audible.com</a>: With over 250,000 audiobooks, you’ll find what you’re looking for. Get a free 30-day trial.</li>\n<li><a href=\"http://casper.com/thetalkshow\">Casper</a>: An obsessively engineered mattress at a shockingly fair price. Use code <strong>thetalkshow</strong> for $50 toward your mattress.</li>\n</ul>\n\n<p>Links:</p>\n\n<ul>\n<li><a href=\"https://500ish.com/\">500ish Words</a> -- the new home for MG's writing.</li>\n<li><a href=\"http://movies.stackexchange.com/questions/10149/why-do-studios-use-roman-numerals-in-the-copyright-notice-in-the-end-credits\">Why do movie studios use Roman numerals for the copyright year in end credits?</a></li>\n<li><a href=\"http://fusion.net/story/306927/peter-thiel-gawker-dangerous-blueprint/\">Felix Salmon on the strategy behind Peter Thiel's heretofore secret campaign to bankrupt Gawker</a>.</li>\n<li>9to5Mac on purported upcoming MacBook Pros that <a href=\"http://9to5mac.com/2016/05/23/apple-prepping-thinner-macbook-pros-with-oled-screen-above-keyboard-touch-id-for-q4/\">replace the function keys with an LED touchscreen</a>.</li>\n<li><a href=\"http://www.artlebedev.com/everything/optimus/popularis/\">The Optimus Popularis</a> -- a humongous $1500 keyboard where each key cap is a small LED.</li>\n</ul>\n\n<p><em>This episode of The Talk Show was edited by Caleb Sexton.</em></p>"
+      }
+    }
+  },
+  "staticQueryHashes": []
+}

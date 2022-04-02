@@ -1,0 +1,30 @@
+{
+  "componentChunkName": "component---src-templates-episode-template-js",
+  "path": "/episode/288-it-shouldnt-be-hard-to-get-a-smoothie",
+  "result": {
+    "pageContext": {
+      "episode": {
+        "number": 288,
+        "title": "It Shouldn’t Be Hard to Get a Smoothie",
+        "slug": "288-it-shouldnt-be-hard-to-get-a-smoothie",
+        "rawTitle": "288: ‘It Shouldn’t Be Hard to Get a Smoothie’ With Dan Frommer",
+        "guests": ["Dan Frommer"],
+        "link": "https://daringfireball.net/thetalkshow/2020/06/30/ep-288",
+        "pubDate": "2020-07-01T03:53:54.000Z",
+        "file": {
+          "url": "https://traffic.libsyn.com/secure/daringfireball/thetalkshow-288-dan-frommer.mp3",
+          "fileSizeBytes": 40654335,
+          "type": "audio/mpeg"
+        },
+        "duration": "01:24:04",
+        "durationSeconds": 5044,
+        "explicit": false,
+        "imageUrl": "https://daringfireball.net/thetalkshow/graphics/df-the-talk-show-album-art.png",
+        "author": "Daring Fireball / John Gruber",
+        "description": "Dan Frommer returns to the show for more analysis of WWDC 2020, including App Clips and the Mac's transition to Apple silicon.",
+        "showNotes": "<p>Dan Frommer returns to the show for more analysis of WWDC 2020, including App Clips and the Mac’s transition to Apple silicon.</p>\n\n<p>Sponsored by:</p>\n\n<ul>\n<li><a href=\"https://squarespace.com/talkshow\">Squarespace</a>: Make your next move. Use code <strong>talkshow</strong> for 10% off your first order.</li>\n<li><a href=\"https://feals.com/talkshow\">Feals</a>: Premium CBD delivered directly to your doorstep. Get 50% off your first order with free shipping.</li>\n<li><a href=\"https://linode.com/thetalkshow\">Linode</a>: Instantly deploy and manage an SSD server in the Linode Cloud. New accounts get a $20 credit with code <strong>talkshow20</strong>.</li>\n</ul>\n\n<p>Links:</p>\n\n<ul>\n<li>Dan at The New Consumer: “<a href=\"https://newconsumer.com/2020/06/apple-app-clips-wwdc-keynote/\">Why Apple’s New ‘App Clips’ Matter</a>”.</li>\n<li><a href=\"https://developer.apple.com/news/?id=dsd023qd\">WWDC 2020 sessions on App Clips</a>.</li>\n</ul>\n\n<p><em>This episode of The Talk Show was edited by Caleb Sexton.</em></p>"
+      }
+    }
+  },
+  "staticQueryHashes": []
+}
