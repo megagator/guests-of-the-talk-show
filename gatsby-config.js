@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Guests of the Talk Show`,
-    siteUrl: `https://www.yourdomain.tld`,
+    pathPrefix: "/guests-of-the-talk-show",
   },
   plugins: [],
 }
