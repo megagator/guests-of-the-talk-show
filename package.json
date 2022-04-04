@@ -17,7 +17,7 @@
     "check": "prettier --check .",
     "build:fetch": "npm run lint && tsc && mkdir -p dist/utilities && cp src/utilities/slugify.js dist/utilities",
     "parse": "node dist/feed/parse.js",
-    "deploy": "npm run check && gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "npm run check && gatsby build && gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^4.11.1",
