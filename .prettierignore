@@ -1,3 +1,6 @@
-dist
-content
-node_modules
+node_modules/
+.cache/
+public/
+dist/
+episodes.json
+guests.json
