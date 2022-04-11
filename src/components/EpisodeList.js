@@ -83,72 +83,74 @@ const EpsisodeList = (props) => {
   })
 
   return (
-    <table className={tableStyle.graph}>
-      <thead>
-        <tr>
-          <td>
-            <button
-              onClick={() => reorderTable(SortKey.Episode)}
-              className={`${mainStyle.title} ${
-                sort === SortKey.Episode ? tableStyle.active : ''
-              } ${
-                order === SortOrder.Asc
-                  ? tableStyle.sort_asc
-                  : tableStyle.sort_desc
-              }`}
-              title={makeSortTitle(sort, order, SortKey.Episode)}
-            >
-              {SortKey.Episode}
-            </button>
-          </td>
-          <td>
-            <button
-              onClick={() => reorderTable(SortKey.Date)}
-              className={`${mainStyle.title} ${
-                sort === SortKey.Date ? tableStyle.active : ''
-              } ${
-                order === SortOrder.Asc
-                  ? tableStyle.sort_asc
-                  : tableStyle.sort_desc
-              }`}
-              title={makeSortTitle(sort, order, SortKey.Date)}
-            >
-              {SortKey.Date}
-            </button>
-          </td>
-          <td>
-            <button
-              onClick={() => reorderTable(SortKey.Duration)}
-              className={`${mainStyle.title} ${
-                sort === SortKey.Duration ? tableStyle.active : ''
-              } ${
-                order === SortOrder.Asc
-                  ? tableStyle.sort_asc
-                  : tableStyle.sort_desc
-              }`}
-              title={makeSortTitle(sort, order, SortKey.Duration)}
-            >
-              {SortKey.Duration}
-            </button>
-          </td>
-        </tr>
-      </thead>
-      <tbody>
-        {filteredEpisodes.map((epi, i) => {
-          return (
-            <tr key={`episode_${epi.number}`}>
-              <td>
-                <Link to={`/episode/${epi.slug}`}>
-                  {`${epi.number}: ${epi.title}`}
-                </Link>
-              </td>
-              <td>{isoToLocalString(epi.pubDate)}</td>
-              <td>{friendlyDuration(epi.durationSeconds)}</td>
-            </tr>
-          )
-        })}
-      </tbody>
-    </table>
+    <div className={tableStyle.graph_wrapper}>
+      <table className={tableStyle.graph}>
+        <thead>
+          <tr>
+            <td>
+              <button
+                onClick={() => reorderTable(SortKey.Episode)}
+                className={`${mainStyle.title} ${
+                  sort === SortKey.Episode ? tableStyle.active : ''
+                } ${
+                  order === SortOrder.Asc
+                    ? tableStyle.sort_asc
+                    : tableStyle.sort_desc
+                }`}
+                title={makeSortTitle(sort, order, SortKey.Episode)}
+              >
+                {SortKey.Episode}
+              </button>
+            </td>
+            <td>
+              <button
+                onClick={() => reorderTable(SortKey.Date)}
+                className={`${mainStyle.title} ${
+                  sort === SortKey.Date ? tableStyle.active : ''
+                } ${
+                  order === SortOrder.Asc
+                    ? tableStyle.sort_asc
+                    : tableStyle.sort_desc
+                }`}
+                title={makeSortTitle(sort, order, SortKey.Date)}
+              >
+                {SortKey.Date}
+              </button>
+            </td>
+            <td>
+              <button
+                onClick={() => reorderTable(SortKey.Duration)}
+                className={`${mainStyle.title} ${
+                  sort === SortKey.Duration ? tableStyle.active : ''
+                } ${
+                  order === SortOrder.Asc
+                    ? tableStyle.sort_asc
+                    : tableStyle.sort_desc
+                }`}
+                title={makeSortTitle(sort, order, SortKey.Duration)}
+              >
+                {SortKey.Duration}
+              </button>
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          {filteredEpisodes.map((epi, i) => {
+            return (
+              <tr key={`episode_${epi.number}`}>
+                <td>
+                  <Link to={`/episode/${epi.slug}`}>
+                    {`${epi.number}: ${epi.title}`}
+                  </Link>
+                </td>
+                <td>{isoToLocalString(epi.pubDate)}</td>
+                <td>{friendlyDuration(epi.durationSeconds)}</td>
+              </tr>
+            )
+          })}
+        </tbody>
+      </table>
+    </div>
   )
 }
 

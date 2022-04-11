@@ -1,5 +1,12 @@
+.graph_wrapper {
+  width: 100%;
+  overflow: scroll;
+}
+
 .graph {
+  width: 100%;
   border-spacing: 0;
+  text-align: left;
 }
 
 .hidden {

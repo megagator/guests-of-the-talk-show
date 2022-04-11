@@ -6,6 +6,7 @@ import EpisodeList from '../components/EpisodeList.js'
 import GuestStats from '../components/GuestStats.js'
 
 import * as mainStyle from '../style/main.module.css'
+import * as guestStyle from '../style/guest.module.css'
 
 const guestTemplate = (props) => {
   const { pageContext } = props
@@ -21,9 +22,10 @@ const guestTemplate = (props) => {
         >
           {guest}
         </h1>
-        <div className={mainStyle.sixty_fourty}>
-          <EpisodeList guest={guest} />
+        <div className={guestStyle.episode_guest_wrapper}>
+          {/* order flipped in css when two up */}
           <GuestStats guest={guest} />
+          <EpisodeList guest={guest} />
         </div>
         <DurationChart guest={guest} />
       </div>

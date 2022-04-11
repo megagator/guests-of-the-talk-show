@@ -9,6 +9,14 @@
   overflow: hidden;
 }
 
+@media (max-width: 760px) {
+  .stat_table {
+    position: static;
+    display: inline-block;
+    margin: 0 auto 2rem;
+  }
+}
+
 .stat_table.stat_table tr td {
   background: none;
 }

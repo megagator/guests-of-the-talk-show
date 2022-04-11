@@ -89,11 +89,6 @@ em {
   margin: 0 auto;
 }
 
-/* yeah not really but its fine for now */
-.sixty_fourty {
-  display: flex;
-  align-items: flex-start;
-}
 .fifty_fifty {
   display: flex;
   justify-content: space-between;

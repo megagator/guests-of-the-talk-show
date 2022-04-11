@@ -106,89 +106,91 @@ const AppearanceTable = () => {
   }
 
   return (
-    <table className={tableStyle.graph}>
-      <thead>
-        <tr>
-          <td>
-            <button
-              onClick={() => reorderTable(SortKey.Appearances)}
-              className={`${mainStyle.title} ${
-                sort === SortKey.Appearances ? tableStyle.active : ''
-              } ${
-                order === SortOrder.Asc
-                  ? tableStyle.sort_asc
-                  : tableStyle.sort_desc
-              }`}
-              title={makeSortTitle(sort, order, SortKey.Appearances)}
-            >
-              Appearances
-            </button>
-          </td>
-          <td>
-            <button
-              onClick={() => reorderTable(SortKey.GuestName)}
-              className={`${mainStyle.title} ${
-                sort === SortKey.GuestName ? tableStyle.active : ''
-              } ${
-                order === SortOrder.Asc
-                  ? tableStyle.sort_asc
-                  : tableStyle.sort_desc
-              }`}
-              title={makeSortTitle(sort, order, SortKey.GuestName)}
-            >
-              Guest
-            </button>
-          </td>
-          <td>
-            <button
-              onClick={() => reorderTable(SortKey.PodcastNumber)}
-              className={`${mainStyle.title} ${
-                sort === SortKey.PodcastNumber ? tableStyle.active : ''
-              } ${
-                order === SortOrder.Asc
-                  ? tableStyle.sort_asc
-                  : tableStyle.sort_desc
-              }`}
-              title={makeSortTitle(sort, order, SortKey.PodcastNumber)}
-            >
-              Last Podcast
-            </button>
-          </td>
-          <td>
-            <button
-              onClick={() => reorderTable(SortKey.AppearanceDate)}
-              className={`${mainStyle.title} ${
-                sort === SortKey.AppearanceDate ? tableStyle.active : ''
-              } ${
-                order === SortOrder.Asc
-                  ? tableStyle.sort_asc
-                  : tableStyle.sort_desc
-              }`}
-              title={makeSortTitle(sort, order, SortKey.AppearanceDate)}
-            >
-              Last Appearance
-            </button>
-          </td>
-        </tr>
-      </thead>
-      <tbody>
-        {Object.keys(sortedGuests).map((guest, i) => {
-          return (
-            <tr
-              key={guest}
-              className={`${mainStyle.event} ${mainStyle[`color-${i % 10}`]}`}
-            >
-              <td>{Guests[guest].length}</td>
-              <td>
-                <Link to={`/guest/${slugify(guest)}`}>{guest}</Link>
-              </td>
-              <td>{latestAppearanceEpisode(Guests[guest])}</td>
-              <td>{latestAppearanceDate(Guests[guest])}</td>
-            </tr>
-          )
-        })}
-      </tbody>
-    </table>
+    <div className={tableStyle.graph_wrapper}>
+      <table className={tableStyle.graph}>
+        <thead>
+          <tr>
+            <td>
+              <button
+                onClick={() => reorderTable(SortKey.Appearances)}
+                className={`${mainStyle.title} ${
+                  sort === SortKey.Appearances ? tableStyle.active : ''
+                } ${
+                  order === SortOrder.Asc
+                    ? tableStyle.sort_asc
+                    : tableStyle.sort_desc
+                }`}
+                title={makeSortTitle(sort, order, SortKey.Appearances)}
+              >
+                Appearances
+              </button>
+            </td>
+            <td>
+              <button
+                onClick={() => reorderTable(SortKey.GuestName)}
+                className={`${mainStyle.title} ${
+                  sort === SortKey.GuestName ? tableStyle.active : ''
+                } ${
+                  order === SortOrder.Asc
+                    ? tableStyle.sort_asc
+                    : tableStyle.sort_desc
+                }`}
+                title={makeSortTitle(sort, order, SortKey.GuestName)}
+              >
+                Guest
+              </button>
+            </td>
+            <td>
+              <button
+                onClick={() => reorderTable(SortKey.PodcastNumber)}
+                className={`${mainStyle.title} ${
+                  sort === SortKey.PodcastNumber ? tableStyle.active : ''
+                } ${
+                  order === SortOrder.Asc
+                    ? tableStyle.sort_asc
+                    : tableStyle.sort_desc
+                }`}
+                title={makeSortTitle(sort, order, SortKey.PodcastNumber)}
+              >
+                Last Podcast
+              </button>
+            </td>
+            <td>
+              <button
+                onClick={() => reorderTable(SortKey.AppearanceDate)}
+                className={`${mainStyle.title} ${
+                  sort === SortKey.AppearanceDate ? tableStyle.active : ''
+                } ${
+                  order === SortOrder.Asc
+                    ? tableStyle.sort_asc
+                    : tableStyle.sort_desc
+                }`}
+                title={makeSortTitle(sort, order, SortKey.AppearanceDate)}
+              >
+                Last Appearance
+              </button>
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          {Object.keys(sortedGuests).map((guest, i) => {
+            return (
+              <tr
+                key={guest}
+                className={`${mainStyle.event} ${mainStyle[`color-${i % 10}`]}`}
+              >
+                <td>{Guests[guest].length}</td>
+                <td>
+                  <Link to={`/guest/${slugify(guest)}`}>{guest}</Link>
+                </td>
+                <td>{latestAppearanceEpisode(Guests[guest])}</td>
+                <td>{latestAppearanceDate(Guests[guest])}</td>
+              </tr>
+            )
+          })}
+        </tbody>
+      </table>
+    </div>
   )
 }
 
