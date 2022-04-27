@@ -1,0 +1,24 @@
+{
+  "name": "guests-of-the-talk-show-feed-parser",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Guests of the Talk Show Feed Parser",
+  "author": "Mike Reinhard",
+  "type": "module",
+  "scripts": {
+    "lint": "prettier --write . --loglevel=warn",
+    "check": "prettier --check .",
+    "build": "npm run lint && tsc",
+    "parse": "node --es-module-specifier-resolution=node dist/parse.js"
+  },
+  "dependencies": {
+    "luxon": "^2.3.0",
+    "node-fetch": "^3.2.3",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.13",
+    "prettier": "2.6.1",
+    "typescript": "^4.5.5"
+  }
+}
