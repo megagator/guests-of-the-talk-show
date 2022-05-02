@@ -38,7 +38,10 @@ const GuestStats = (props) => {
     }
 
     const sum = daysInBetween.reduce((prev, curr) => prev + curr, 0)
-    const averageDays = Math.round(sum / filteredEpisodes.length)
+    let averageDays = 0
+    if (sum > 0 && daysInBetween > 0) {
+      averageDays = Math.round(sum / daysInBetween.length)
+    }
     setCadence(averageDays)
 
     if (averageDays > 0) {
