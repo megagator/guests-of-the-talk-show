@@ -54,7 +54,7 @@ const makeSortTitle = (currentSort, currentOrder, buttonsSort) => {
 }
 
 const AppearanceTable = () => {
-  let [sort, setSort] = React.useState(SortKey.Appearances)
+  let [sort, setSort] = React.useState(SortKey.PodcastNumber)
   let [order, setOrder] = React.useState(SortOrder.Desc)
 
   const reorderTable = (newSort) => {
