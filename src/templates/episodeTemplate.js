@@ -9,6 +9,7 @@ import StylishLongDateTime from '../components/StylishLongDateTime.js'
 
 import * as mainStyle from '../style/main.module.css'
 import * as epiStyle from '../style/episode.module.css'
+import { Helmet } from 'react-helmet'
 
 const episodesShowNotesInMarkdown = [223, 305]
 
@@ -18,9 +19,9 @@ const guestTemplate = (props) => {
 
   return (
     <main className={mainStyle.container_narrow}>
-      <title>
-        {episode.number}: {episode.title} | Guest of The Talk Show
-      </title>
+      <Helmet>
+        <title>{`${episode.number}: ${episode.title} | Guest of The Talk Show`}</title>
+      </Helmet>
       <div className={mainStyle.container}>
         <Header />
         <h2 className={mainStyle.title_thin} title={episode.rawTitle}>

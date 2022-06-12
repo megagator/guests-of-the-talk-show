@@ -5,11 +5,14 @@ import * as mainStyle from '../style/main.module.css'
 import Header from '../components/Header.js'
 import AppearanceTable from '../components/AppearancesTable.js'
 import DurationChart from '../components/DurationChart.js'
+import { Helmet } from 'react-helmet'
 
 const IndexPage = () => {
   return (
     <main className={mainStyle.container}>
-      <title>Guests of The Talk Show</title>
+      <Helmet>
+        <title>Guests of The Talk Show</title>
+      </Helmet>
       <div className={mainStyle.container}>
         <Header />
         <AppearanceTable />

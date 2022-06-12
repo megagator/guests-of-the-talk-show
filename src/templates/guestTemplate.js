@@ -7,6 +7,7 @@ import GuestStats from '../components/GuestStats.js'
 
 import * as mainStyle from '../style/main.module.css'
 import * as guestStyle from '../style/guest.module.css'
+import { Helmet } from 'react-helmet'
 
 const guestTemplate = (props) => {
   const { pageContext } = props
@@ -14,7 +15,9 @@ const guestTemplate = (props) => {
 
   return (
     <main className={mainStyle.container}>
-      <title>{guest} | Guest of The Talk Show</title>
+      <Helmet>
+        <title>{guest} | Guest of The Talk Show</title>
+      </Helmet>
       <div className={mainStyle.container}>
         <Header isSingular={true} />
         <h1
