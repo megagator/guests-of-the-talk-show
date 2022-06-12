@@ -15,14 +15,14 @@ const latestAppearanceEpisode = (appearances) => {
     <span>
       <span>
         <Link
-          to={`/episode/${latest.episodeNumber}-${slugify(latest.episodeTitle)}`}
+          to={`/episode/${latest.episodeNumber}-${slugify(
+            latest.episodeTitle
+          )}`}
         >
           {latest.episodeNumber}: {latest.episodeTitle}
         </Link>
       </span>
-      <span>
-        {isoToLocaleString(latest.date)}
-      </span>
+      <span>{isoToLocaleString(latest.date)}</span>
     </span>
   )
 }
@@ -157,11 +157,10 @@ const AppearanceTable = () => {
         <tbody>
           {Object.keys(sortedGuests).map((guest, i) => {
             return (
-              <tr
-                key={guest}
-                className={mainStyle.event}
-              >
-                <td><strong>{Guests[guest].length}</strong></td>
+              <tr key={guest} className={mainStyle.event}>
+                <td>
+                  <strong>{Guests[guest].length}</strong>
+                </td>
                 <td>
                   <Link to={`/guest/${slugify(guest)}`}>{guest}</Link>
                 </td>

@@ -145,22 +145,22 @@ h6 {
 .event td span span:last-child {
   padding-left: 1rem;
   text-align: right;
-} 
+}
 
 @media (max-width: 500px) {
   .event td > span,
   .event td > span span {
     display: block;
-  } 
+  }
 
   .event td span span:last-child {
     text-align: left;
     font-family: 'Gill Sans MT', 'Gill Sans', 'Gill Sans Std', Verdana,
-    'Bitstream Vera Sans', sans-serif;
+      'Bitstream Vera Sans', sans-serif;
     text-transform: uppercase;
     color: var(--white-600);
     padding-left: 0;
-  } 
+  }
 }
 
 .event.color-1 {

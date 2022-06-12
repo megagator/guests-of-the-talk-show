@@ -127,9 +127,7 @@ const EpsisodeList = (props) => {
                         {`${epi.number}: ${epi.title}`}
                       </Link>
                     </span>
-                    <span>
-                      {isoToLocalString(epi.pubDate)}
-                    </span>
+                    <span>{isoToLocalString(epi.pubDate)}</span>
                   </span>
                 </td>
                 <td>{friendlyDuration(epi.durationSeconds)}</td>
