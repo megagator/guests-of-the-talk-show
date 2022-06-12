@@ -67,9 +67,6 @@ const EpsisodeList = (props) => {
       case SortKey.Episode:
         sortResult = a.number - b.number
         break
-      case SortKey.Date:
-        sortResult = DateTime.fromISO(a.pubDate) - DateTime.fromISO(b.pubDate)
-        break
       case SortKey.Duration:
         sortResult = a.durationSeconds - b.durationSeconds
     }
@@ -104,21 +101,6 @@ const EpsisodeList = (props) => {
             </td>
             <td>
               <button
-                onClick={() => reorderTable(SortKey.Date)}
-                className={`${mainStyle.title} ${
-                  sort === SortKey.Date ? tableStyle.active : ''
-                } ${
-                  order === SortOrder.Asc
-                    ? tableStyle.sort_asc
-                    : tableStyle.sort_desc
-                }`}
-                title={makeSortTitle(sort, order, SortKey.Date)}
-              >
-                {SortKey.Date}
-              </button>
-            </td>
-            <td>
-              <button
                 onClick={() => reorderTable(SortKey.Duration)}
                 className={`${mainStyle.title} ${
                   sort === SortKey.Duration ? tableStyle.active : ''
@@ -137,13 +119,19 @@ const EpsisodeList = (props) => {
         <tbody>
           {filteredEpisodes.map((epi, i) => {
             return (
-              <tr key={`episode_${epi.number}`}>
+              <tr key={`episode_${epi.number}`} className={mainStyle.event}>
                 <td>
-                  <Link to={`/episode/${epi.slug}`}>
-                    {`${epi.number}: ${epi.title}`}
-                  </Link>
+                  <span>
+                    <span>
+                      <Link to={`/episode/${epi.slug}`}>
+                        {`${epi.number}: ${epi.title}`}
+                      </Link>
+                    </span>
+                    <span>
+                      {isoToLocalString(epi.pubDate)}
+                    </span>
+                  </span>
                 </td>
-                <td>{isoToLocalString(epi.pubDate)}</td>
                 <td>{friendlyDuration(epi.durationSeconds)}</td>
               </tr>
             )

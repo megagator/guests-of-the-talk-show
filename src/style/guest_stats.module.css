@@ -3,9 +3,9 @@
   position: sticky;
   top: 1rem;
   margin-left: 1rem;
+  margin-top: 2.75rem;
   background-color: var(--dark);
   border-radius: var(--corder-radius-sm);
-  border: 1px solid var(--white-200);
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -33,4 +33,7 @@
   font-family: 'Gill Sans MT', 'Gill Sans', 'Gill Sans Std', Verdana,
     'Bitstream Vera Sans', sans-serif;
   text-transform: uppercase;
+}
+.stat_table td:last-child {
+  text-align: left;
 }

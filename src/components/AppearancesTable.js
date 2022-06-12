@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { DateTime } from 'luxon'
 import { Link } from 'gatsby'
 
 import isoToLocaleString from '../utilities/isoToLocaleString.js'
@@ -13,17 +12,19 @@ import Guests from '../../content/guests.json'
 const latestAppearanceEpisode = (appearances) => {
   const latest = appearances[0]
   return (
-    <Link
-      to={`/episode/${latest.episodeNumber}-${slugify(latest.episodeTitle)}`}
-    >
-      {latest.episodeNumber}: {latest.episodeTitle}
-    </Link>
+    <span>
+      <span>
+        <Link
+          to={`/episode/${latest.episodeNumber}-${slugify(latest.episodeTitle)}`}
+        >
+          {latest.episodeNumber}: {latest.episodeTitle}
+        </Link>
+      </span>
+      <span>
+        {isoToLocaleString(latest.date)}
+      </span>
+    </span>
   )
-}
-
-const latestAppearanceDate = (appearances) => {
-  const latest = appearances[0]
-  return isoToLocaleString(latest.date)
 }
 
 // sudo-enums
@@ -31,7 +32,6 @@ const SortKey = {
   Appearances: 'appearances',
   GuestName: 'guest-name',
   PodcastNumber: 'podcast-number',
-  AppearanceDate: 'last-appearance-date',
 }
 const SortOrder = {
   Asc: 'ascending',
@@ -87,9 +87,6 @@ const AppearanceTable = () => {
       case SortKey.PodcastNumber:
         sortResult = a.value[0].episodeNumber - b.value[0].episodeNumber
         break
-      case SortKey.AppearanceDate:
-        sortResult =
-          DateTime.fromISO(a.value[0].date) - DateTime.fromISO(b.value[0].date)
     }
 
     // defaults to ascending
@@ -122,7 +119,7 @@ const AppearanceTable = () => {
                 }`}
                 title={makeSortTitle(sort, order, SortKey.Appearances)}
               >
-                Appearances
+                Shows
               </button>
             </td>
             <td>
@@ -155,21 +152,6 @@ const AppearanceTable = () => {
                 Last Podcast
               </button>
             </td>
-            <td>
-              <button
-                onClick={() => reorderTable(SortKey.AppearanceDate)}
-                className={`${mainStyle.title} ${
-                  sort === SortKey.AppearanceDate ? tableStyle.active : ''
-                } ${
-                  order === SortOrder.Asc
-                    ? tableStyle.sort_asc
-                    : tableStyle.sort_desc
-                }`}
-                title={makeSortTitle(sort, order, SortKey.AppearanceDate)}
-              >
-                Last Appearance
-              </button>
-            </td>
           </tr>
         </thead>
         <tbody>
@@ -177,14 +159,13 @@ const AppearanceTable = () => {
             return (
               <tr
                 key={guest}
-                className={`${mainStyle.event} ${mainStyle[`color-${i % 10}`]}`}
+                className={mainStyle.event}
               >
-                <td>{Guests[guest].length}</td>
+                <td><strong>{Guests[guest].length}</strong></td>
                 <td>
                   <Link to={`/guest/${slugify(guest)}`}>{guest}</Link>
                 </td>
                 <td>{latestAppearanceEpisode(Guests[guest])}</td>
-                <td>{latestAppearanceDate(Guests[guest])}</td>
               </tr>
             )
           })}

@@ -108,7 +108,7 @@ const DurationChart = (props) => {
           </div>
         )}
       </div>
-      <div>sort is {currentSort}</div>
+      {/* <div>sort is {currentSort}</div>
       <fieldset>
         {sortOptionsKeys.map((sort) => (
           <label>
@@ -120,7 +120,7 @@ const DurationChart = (props) => {
             {sort.toUpperCase()}
           </label>
         ))}
-      </fieldset>
+      </fieldset> */}
     </section>
   )
 }
