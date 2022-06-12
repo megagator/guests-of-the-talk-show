@@ -146,6 +146,9 @@ h6 {
   padding-left: 1rem;
   text-align: right;
 }
+.event td:last-child {
+  text-align: right;
+}
 
 @media (max-width: 500px) {
   .event td > span,
