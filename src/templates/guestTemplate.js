@@ -8,6 +8,7 @@ import GuestStats from '../components/GuestStats.js'
 import * as mainStyle from '../style/main.module.css'
 import * as guestStyle from '../style/guest.module.css'
 import { Helmet } from 'react-helmet'
+import WeekChart from '../components/WeekChart.js'
 
 const guestTemplate = (props) => {
   const { pageContext } = props
@@ -31,6 +32,7 @@ const guestTemplate = (props) => {
           <EpisodeList guest={guest} />
         </div>
         <DurationChart guest={guest} />
+        <WeekChart guest={guest} />
       </div>
     </main>
   )

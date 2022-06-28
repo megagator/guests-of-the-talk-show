@@ -13,6 +13,27 @@
   --bright-background: #606870;
 
   --corder-radius-sm: 8px;
+
+  --colorful-1: hsl(56, 85%, 89%);
+  --colorful-dark-1: hsl(56, 85%, 29%);
+  --colorful-2: hsl(27, 92%, 90%);
+  --colorful-dark-2: hsl(27, 92%, 30%);
+  --colorful-3: hsl(356, 100%, 91%);
+  --colorful-dark-3: hsl(356, 100%, 31%);
+  --colorful-4: hsl(311, 64%, 85%);
+  --colorful-dark-4: hsl(311, 64%, 25%);
+  --colorful-5: hsl(263, 64%, 84%);
+  --colorful-dark-5: hsl(263, 64%, 24%);
+  --colorful-6: hsl(215, 77%, 80%);
+  --colorful-dark-6: hsl(215, 77%, 20%);
+  --colorful-7: hsl(195, 82%, 76%);
+  --colorful-dark-7: hsl(195, 82%, 16%);
+  --colorful-8: hsl(185, 84%, 76%);
+  --colorful-dark-8: hsl(185, 84%, 16%);
+  --colorful-9: hsl(167, 82%, 78%);
+  --colorful-dark-9: hsl(167, 82%, 18%);
+  --colorful-10: hsl(126, 89%, 85%);
+  --colorful-dark-10: hsl(126, 89%, 25%);
 }
 
 html,
@@ -125,6 +146,9 @@ h6 {
 .m_top_0 {
   margin-top: 0;
 }
+.m_v_lg {
+  margin: 4rem 0;
+}
 .m_top_lg {
   margin-top: 4rem;
 }
@@ -164,45 +188,4 @@ h6 {
     color: var(--white-600);
     padding-left: 0;
   }
-}
-
-.event.color-1 {
-  background-color: hsl(56, 85%, 89%);
-  color: hsl(56, 85%, 29%);
-}
-.event.color-2 {
-  background-color: hsl(27, 92%, 90%);
-  color: hsl(27, 92%, 30%);
-}
-.event.color-3 {
-  background-color: hsl(356, 100%, 91%);
-  color: hsl(356, 100%, 31%);
-}
-.event.color-4 {
-  background-color: hsl(311, 64%, 85%);
-  color: hsl(311, 64%, 25%);
-}
-.event.color-5 {
-  background-color: hsl(263, 64%, 84%);
-  color: hsl(263, 64%, 24%);
-}
-.event.color-6 {
-  background-color: hsl(215, 77%, 80%);
-  color: hsl(215, 77%, 20%);
-}
-.event.color-7 {
-  background-color: hsl(195, 82%, 76%);
-  color: hsl(195, 82%, 16%);
-}
-.event.color-8 {
-  background-color: hsl(185, 84%, 76%);
-  color: hsl(185, 84%, 16%);
-}
-.event.color-9 {
-  background-color: hsl(167, 82%, 78%);
-  color: hsl(167, 82%, 18%);
-}
-.event.color-10 {
-  background-color: hsl(126, 89%, 85%);
-  color: hsl(126, 89%, 25%);
 }

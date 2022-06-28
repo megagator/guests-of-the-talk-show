@@ -6,6 +6,7 @@ import slugify from '../utilities/slugify.js'
 
 import GuestList from './GuestList.js'
 
+import * as mainStyle from '../style/main.module.css'
 import * as graphStyle from '../style/duration_chart.module.css'
 
 import Episodes from '../../content/episodes.json'
@@ -50,7 +51,8 @@ const DurationChart = (props) => {
   }
 
   return (
-    <section onMouseLeave={() => selectEpisodeIndex(null)}>
+    <section className={mainStyle.m_top_lg} onMouseLeave={() => selectEpisodeIndex(null)}>
+      <h2 className={mainStyle.title}>Duration</h2>
       <div className={graphStyle.duration_chart_wrapper}>
         <div className={graphStyle.chart_labels}>
           <ul>

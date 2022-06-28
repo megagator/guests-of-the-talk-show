@@ -6,6 +6,7 @@ import Header from '../components/Header.js'
 import AppearanceTable from '../components/AppearancesTable.js'
 import DurationChart from '../components/DurationChart.js'
 import { Helmet } from 'react-helmet'
+import WeekChart from '../components/WeekChart'
 
 const IndexPage = () => {
   return (
@@ -17,6 +18,7 @@ const IndexPage = () => {
         <Header />
         <AppearanceTable />
         <DurationChart />
+        <WeekChart />
       </div>
     </main>
   )
