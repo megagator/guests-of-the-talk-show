@@ -51,7 +51,10 @@ const DurationChart = (props) => {
   }
 
   return (
-    <section className={mainStyle.m_top_lg} onMouseLeave={() => selectEpisodeIndex(null)}>
+    <section
+      className={mainStyle.m_top_lg}
+      onMouseLeave={() => selectEpisodeIndex(null)}
+    >
       <h2 className={mainStyle.title}>Duration</h2>
       <div className={graphStyle.duration_chart_wrapper}>
         <div className={graphStyle.chart_labels}>
