@@ -64,12 +64,12 @@ const WeekChart = (props) => {
     return a
   })()
 
-  console.log(daysOfTheWeek, cummulativeDotwPercent)
+  const weekDayColors = [1,3,4,5,7,8,10]
   const gradient = []
   for (var i = 0; i < 7; i++) {
     // +3 just to shift to the higher range of colors
     gradient.push(
-      `var(--colorful-${i + 3}) ${cummulativeDotwPercent[i]}% ${
+      `var(--colorful-${weekDayColors[i]}) ${cummulativeDotwPercent[i]}% ${
         cummulativeDotwPercent[i + 1]
       }%`
     )
@@ -112,7 +112,7 @@ const WeekChart = (props) => {
             <li
               key={day}
               style={{
-                color: `var(--colorful-dark-${index + 3})`,
+                color: `var(--colorful-dark-${weekDayColors[index]})`,
                 // backgroundColor: `var(--colorful-${index + 3})`,
                 padding: '2px 4px',
                 borderRadius: '3px',

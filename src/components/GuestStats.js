@@ -69,7 +69,7 @@ const GuestStats = (props) => {
           <tr>
             <td>Next</td>
             {next === null ? (
-              <td>None</td>
+              <td>Never</td>
             ) : (
               <td>
                 {next.toLocaleString(DateTime.DATE_MED)}

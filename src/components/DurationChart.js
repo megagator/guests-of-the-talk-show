@@ -21,11 +21,11 @@ const setPositionLocation = (e, setFunc) => {
   setFunc(location)
 }
 
-const sortOptions = {
-  date: 'date',
-  duration: 'duration',
-}
-const sortOptionsKeys = Object.keys(sortOptions)
+// const sortOptions = {
+//   date: 'date',
+//   duration: 'duration',
+// }
+// const sortOptionsKeys = Object.keys(sortOptions)
 
 // dynamic
 // const upperBound = Episodes.reduce((prev, currEp) => Math.max(prev, currEp.durationSeconds), 0)
@@ -37,18 +37,18 @@ const DurationChart = (props) => {
   let [episodeInfoPosition, setEpisodeInfoPosition] = React.useState(
     graphStyle.right
   )
-  let [currentSort, setSort] = React.useState(sortOptions.date)
+  // let [currentSort, setSort] = React.useState(sortOptions.date)
 
   let filteredEpisodes = Episodes
   if (props.guest) {
     filteredEpisodes = Episodes.filter((e) => e.guests.includes(props.guest))
   }
 
-  if (currentSort === sortOptions.duration) {
-    filteredEpisodes = filteredEpisodes.sort((a, b) => {
-      return a.durationSeconds < b.durationSeconds
-    })
-  }
+  // if (currentSort === sortOptions.duration) {
+  //   filteredEpisodes = filteredEpisodes.sort((a, b) => {
+  //     return a.durationSeconds < b.durationSeconds
+  //   })
+  // }
 
   return (
     <section

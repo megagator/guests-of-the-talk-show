@@ -90,3 +90,36 @@ tbody tr:nth-child(2n) td:last-child {
   border-top-right-radius: var(--corder-radius-sm);
   border-bottom-right-radius: var(--corder-radius-sm);
 }
+
+.event td > span {
+  display: flex;
+  justify-content: space-between;
+}
+.event td span span:last-child {
+  padding-left: 1rem;
+  text-align: right;
+}
+.event td:last-child {
+  text-align: right;
+}
+
+@media (max-width: 500px) {
+  .event td > span,
+  .event td > span span {
+    display: block;
+  }
+
+  .event td span span:last-child {
+    /* text-align: left; */
+    font-family: 'Gill Sans MT', 'Gill Sans', 'Gill Sans Std', Verdana,
+    'Bitstream Vera Sans', sans-serif;
+    text-transform: uppercase;
+    color: var(--white-600);
+    padding-left: 0;
+  }
+  
+  .appearances .event td span span:last-child {
+    text-align: left;
+  }
+    
+}

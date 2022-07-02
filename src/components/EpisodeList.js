@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { DateTime } from 'luxon'
 import { Link } from 'gatsby'
 
 import friendlyDuration from '../utilities/friendlyDuration.js'
@@ -80,7 +79,7 @@ const EpsisodeList = (props) => {
   })
 
   return (
-    <div className={tableStyle.graph_wrapper}>
+    <div className={`${tableStyle.graph_wrapper} ${mainStyle.appearances}`}>
       <table className={tableStyle.graph}>
         <thead>
           <tr>
