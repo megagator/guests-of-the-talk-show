@@ -112,14 +112,13 @@ tbody tr:nth-child(2n) td:last-child {
   .event td span span:last-child {
     /* text-align: left; */
     font-family: 'Gill Sans MT', 'Gill Sans', 'Gill Sans Std', Verdana,
-    'Bitstream Vera Sans', sans-serif;
+      'Bitstream Vera Sans', sans-serif;
     text-transform: uppercase;
     color: var(--white-600);
     padding-left: 0;
   }
-  
+
   .appearances .event td span span:last-child {
     text-align: left;
   }
-    
 }

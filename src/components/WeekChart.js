@@ -64,7 +64,7 @@ const WeekChart = (props) => {
     return a
   })()
 
-  const weekDayColors = [1,3,4,5,7,8,10]
+  const weekDayColors = [1, 3, 4, 5, 7, 8, 10]
   const gradient = []
   for (var i = 0; i < 7; i++) {
     // +3 just to shift to the higher range of colors

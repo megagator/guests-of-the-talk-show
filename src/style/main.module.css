@@ -165,52 +165,52 @@ h6 {
 .colorful_1 {
   background-color: var(--colorful-1);
   color: var(--colorful-dark-1);
-  border-color: var(--colorful-dark-1)
+  border-color: var(--colorful-dark-1);
 }
 .colorful_2 {
   background-color: var(--colorful-2);
   color: var(--colorful-dark-2);
-  border-color: var(--colorful-dark-2)
+  border-color: var(--colorful-dark-2);
 }
 .colorful_3 {
   background-color: var(--colorful-3);
   color: var(--colorful-dark-3);
-  border-color: var(--colorful-dark-3)
+  border-color: var(--colorful-dark-3);
 }
 .colorful_4 {
   background-color: var(--colorful-4);
   color: var(--colorful-dark-4);
-  border-color: var(--colorful-dark-4)
+  border-color: var(--colorful-dark-4);
 }
 .colorful_5 {
   background-color: var(--colorful-5);
   color: var(--colorful-dark-5);
-  border-color: var(--colorful-dark-5)
+  border-color: var(--colorful-dark-5);
 }
 .colorful_6 {
   background-color: var(--colorful-6);
   color: var(--colorful-dark-6);
-  border-color: var(--colorful-dark-6)
+  border-color: var(--colorful-dark-6);
 }
 .colorful_7 {
   background-color: var(--colorful-7);
   color: var(--colorful-dark-7);
-  border-color: var(--colorful-dark-7)
+  border-color: var(--colorful-dark-7);
 }
 .colorful_8 {
   background-color: var(--colorful-8);
   color: var(--colorful-dark-8);
-  border-color: var(--colorful-dark-8)
+  border-color: var(--colorful-dark-8);
 }
 .colorful_9 {
   background-color: var(--colorful-9);
   color: var(--colorful-dark-9);
-  border-color: var(--colorful-dark-9)
+  border-color: var(--colorful-dark-9);
 }
 .colorful_10 {
   background-color: var(--colorful-10);
   color: var(--colorful-dark-10);
-  border-color: var(--colorful-dark-10)
+  border-color: var(--colorful-dark-10);
 }
 
 .event td > span {
@@ -234,12 +234,12 @@ h6 {
   .event td span span:last-child {
     /* text-align: left; */
     font-family: 'Gill Sans MT', 'Gill Sans', 'Gill Sans Std', Verdana,
-    'Bitstream Vera Sans', sans-serif;
+      'Bitstream Vera Sans', sans-serif;
     text-transform: uppercase;
     color: var(--white-600);
     padding-left: 0;
   }
-  
+
   .appearances .event td span span:last-child {
     text-align: left;
   }
