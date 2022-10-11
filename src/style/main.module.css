@@ -244,3 +244,11 @@ h6 {
     text-align: left;
   }
 }
+
+.site_footer {
+  text-align: center;
+  color: var(--white-600);
+  font-size: 0.875rem;
+  padding: 2rem 0 2rem;
+  line-height: 1.65;
+}
