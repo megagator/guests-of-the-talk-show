@@ -1,0 +1,1269 @@
+[00:00.000 --> 00:07.400]  All right, back to the worst episode ever this is gonna be four hours long. It's well now. I'm gonna wrap it up soon
+[00:09.440 --> 00:11.440]  But it's summertime. I need long episodes
+[00:13.080 --> 00:18.820]  You know, didn't I do a two-parter with you last time? Yeah, son. Yeah, I think we're incapable of making one that's under two hours
+[00:18.820 --> 00:20.820]  Oh, well, maybe we'll do that again
+[00:20.820 --> 00:27.240]  I wanted to talk about custom fonts and conk in yeah, overcast and you're using a font called concourse
+[00:27.240 --> 00:29.240]  uh, by Matthew
+[00:30.800 --> 00:38.040]  Butterick yep, love it great font face. I remember talking to you about this font. Oh my god. It might have been a year ago
+[00:39.480 --> 00:44.280]  I remember you just like running it up the flagpole like hey, what do you think?
+[00:44.840 --> 00:48.320]  About this and I was like oh my god. That is beautiful
+[00:49.440 --> 00:56.720]  Yeah, I want about about last summer. Yeah, about a year ago. I was looking at tons of fonts for overcast looking at various interface fonts
+[00:56.720 --> 01:00.440]  With insta paper. I was all using I was using almost all
+[01:00.800 --> 01:03.040]  Serif fonts for all the reading faces
+[01:03.320 --> 01:07.240]  There were some sand Serif ones that were more popular, but I always like the serif ones better
+[01:07.680 --> 01:13.280]  When they were large like on an iPad and everything it it felt like serif was somehow the proper
+[01:13.800 --> 01:18.360]  Solution for you know reading text it should be in serifs because serifs are old and fancy
+[01:19.480 --> 01:21.480]  And it could like print
+[01:21.480 --> 01:24.920]  yeah, exactly I kind of I kind of got burnt out on them though and
+[01:24.920 --> 01:28.840]  whenever I would do I would design something with a serif font I
+[01:29.680 --> 01:31.680]  Would always think it should look better
+[01:32.360 --> 01:40.160]  But then it didn't actually look better and it didn't work as well on screens or it looked good big but not small or something like that like there was
+[01:40.880 --> 01:42.880]  That there were problems with serifs
+[01:43.680 --> 01:51.160]  In practice, so I burned out on them. So I was looking at good sans serif interface fonts for overcast and the and one of the problem of sand serifs is that
+[01:51.160 --> 01:58.880]  There aren't that many distinct styles that are generalizable to look good enough in an interface as an interface font
+[02:00.400 --> 02:04.040]  Maybe this is a terrible statement, but that's that's how I see no, I think it's true
+[02:04.640 --> 02:09.680]  Well, and I I also think that and confit on another end of it is
+[02:10.280 --> 02:15.960]  There's an awful lot of them that are all that are really good fonts really good fonts that I like
+[02:16.080 --> 02:20.160]  But they're too close to Helvetica to justify not using Helvetica
+[02:20.160 --> 02:22.840]  It's like an uncanny valley situation
+[02:23.760 --> 02:27.200]  specifically given iOS like in the general
+[02:27.840 --> 02:37.720]  world if you want to use Franklin Gothic instead or you want to use universe, so it's a great great Helvetica ish font
+[02:38.560 --> 02:40.560]  great fantastic font
+[02:41.120 --> 02:45.520]  But in the context of iOS where Helvetica is the ubiquitous
+[02:45.520 --> 02:51.520]  Ever present default if you're gonna use something different it should be different enough that it's oh, yeah
+[02:51.520 --> 02:52.720]  It's a different font
+[02:52.720 --> 02:56.320]  Exactly, and there's an awful lot that have ruled out on on those grounds
+[02:56.800 --> 03:00.480]  exactly and and yeah, I mean, I I looked at tons of fonts
+[03:01.200 --> 03:06.040]  from big and small foundries and designers and I had that problem with many of them that it was like, you know
+[03:06.040 --> 03:07.400]  This is just too close
+[03:07.400 --> 03:12.880]  To Helvetica and just looks kind of weird not being Helvetica. I fit this close. Yeah, so I
+[03:12.880 --> 03:16.200]  I looked at a bunch what what I liked about concourse
+[03:17.320 --> 03:18.720]  the most
+[03:18.720 --> 03:20.720]  Was that it was narrow?
+[03:21.520 --> 03:26.680]  And and not by not by a massive amount it doesn't look like a condensed version of a font like you know
+[03:26.680 --> 03:32.680]  A lot of these want to have condensed variants or even compressed for like the super condensed very convinced very convinced ultra of narrow
+[03:32.680 --> 03:34.680]  whatever and
+[03:35.880 --> 03:42.600]  Concourse is narrower without looking like a narrow font and what that allowed me to do is
+[03:42.600 --> 03:44.600]  fit more
+[03:44.600 --> 03:46.600]  characters on a line
+[03:46.600 --> 03:49.880]  And for for an app that I knew is gonna be used primarily on iPhones
+[03:50.440 --> 03:53.600]  Where I had to display lots of like one-line titles for things
+[03:53.960 --> 03:59.080]  That is actually a really nice feature to have right cuz then it makes it a little bit less likely that you're gonna have to
+[03:59.200 --> 04:01.120]  Putty lips is in there and truncate it
+[04:01.120 --> 04:05.800]  Karan even if you do you'll at least get more a little bit more of the actual title in right
+[04:05.800 --> 04:07.480]  I'll at least get like one or two more words out of it
+[04:08.120 --> 04:11.480]  and and it had a it had a great balance on screen of
+[04:11.480 --> 04:19.280]  Size versus weight and it came in it comes in like nine different weights and it also has this awesome small caps variant
+[04:19.280 --> 04:24.800]  Yeah, which I think is used it's great effect. Yeah, it's one of my favorite little things in concourse
+[04:25.160 --> 04:28.920]  Yes, says the guy who who got a small caps
+[04:30.280 --> 04:33.280]  Option into an app that you know for text editing
+[04:34.040 --> 04:38.920]  I always like small caps titles. No, I mean like and and and that gave me like the the pairing of
+[04:38.920 --> 04:40.920]  of like, you know full
+[04:41.960 --> 04:49.080]  Full regular text as like, you know medium medium weight regular text as like a body and title font and then a
+[04:49.640 --> 04:50.760]  thinner
+[04:50.760 --> 04:59.160]  Usually lighter in color small caps font for like a caption font or like a subtitle and then using it on the buttons and and the links like that
+[04:59.880 --> 05:05.640]  I found that combination early on and I liked it so much and it just it works so well for an interface to have like
+[05:05.640 --> 05:11.360]  That like that like to it the two different styles that can serve those two different roles and have them paired nicely on screen together
+[05:11.360 --> 05:17.000]  Yeah, I think it works, you know, it it fits naturally with what is clearly your
+[05:17.880 --> 05:21.720]  Taste in interfaces, you know in your personal style
+[05:21.720 --> 05:28.840]  And I think you know, and I think you'll probably agree with me that iOS 7 has been very good for you
+[05:28.840 --> 05:35.000]  personally as an app developer who does the whole thing yourself for the most part and and
+[05:36.520 --> 05:40.840]  Cover that asterisk in this one quick second, but you're like a one
+[05:41.720 --> 05:50.120]  One-man show you did the development into the backend and you didn't eat the interface and you know the the some of the stuff that was
+[05:50.840 --> 05:58.320]  Expected pre-IS7 and an app was things that you couldn't do, you know the stuff that it has to be done like in Photoshop
+[05:58.320 --> 06:00.000]  Right textures
+[06:00.000 --> 06:05.640]  Materials stuff like that. I I am not a graphical artist where I could not do those things
+[06:05.640 --> 06:10.040]  Instapaper maybe got away with it and was a good app for you to do with your
+[06:10.600 --> 06:15.920]  Your abilities as a designer because it was so, you know literally just the text. It was all about the text
+[06:16.200 --> 06:18.880]  But there's other ways where maybe insta paper circa
+[06:20.680 --> 06:23.000]  You know 2009
+[06:23.000 --> 06:30.200]  2010 maybe should have not in a while you're reading but while you weren't reading should have had more visual to fit in
+[06:30.520 --> 06:32.360]  exactly
+[06:32.360 --> 06:37.120]  Whereas iOS 7 really plays into the like the skill sets that you have
+[06:37.560 --> 06:41.040]  Yeah, I mean I I was seven was extremely lucky for me
+[06:41.360 --> 06:46.720]  Because like this this shift happened that that departed from all the things I couldn't do myself
+[06:47.000 --> 06:52.240]  All these like heavily textured heavily graphically themed apps from from six and earlier
+[06:52.240 --> 06:55.520]  Although even by six it was fading out. It's really from five and earlier
+[06:56.520 --> 06:59.040]  All of that went out of style very quickly
+[06:59.040 --> 07:00.640]  and
+[07:00.640 --> 07:05.520]  And then what was brought in was this this visual language that I could do myself and
+[07:06.040 --> 07:09.840]  I was not expecting that at all. I was very very happy on that
+[07:10.600 --> 07:15.200]  Because you know otherwise like the magazine I design with a lot of help from Pacific helm
+[07:16.440 --> 07:19.440]  and the magazine was a very simple app and and
+[07:19.440 --> 07:23.200]  I mean the design work you know number it in the thousands of dollars
+[07:23.720 --> 07:25.720]  to have a professional designer
+[07:26.040 --> 07:28.480]  Help me on overcast would have been
+[07:29.240 --> 07:32.760]  probably easily tens of thousands of dollars worth of design work and
+[07:34.400 --> 07:36.400]  It also would have taken longer
+[07:36.400 --> 07:40.880]  So, you know would have been more expensive and then I would have had to I would have had to keep going back and forth with the designer
+[07:40.960 --> 07:46.320]  To work out some of these things and the whole process would have been more complicated more expensive longer
+[07:46.320 --> 07:52.720]  You know, it just would have been harder for me and and to be able to do it all myself
+[07:53.280 --> 07:56.480]  It's so valuable because I can tweak things immediately
+[07:56.480 --> 07:59.280]  I can I can visualize something in my head and just do it
+[07:59.280 --> 08:01.760]  I can see how things look I can play with it
+[08:02.160 --> 08:08.440]  And then I can do it all myself and it all cost me nothing except my own time which I'm already, you know kind of getting for free in a way
+[08:09.400 --> 08:15.760]  And to suit your personality, I think clearly it does you know like one of the reasons why I never went the whole like full-textured
+[08:15.760 --> 08:19.280]  iOS 5 app route is that that wasn't really my thing
+[08:19.280 --> 08:21.320]  I wasn't really my style like I would use the app to do that
+[08:21.320 --> 08:24.000]  But I was never that into that style whereas
+[08:24.640 --> 08:31.320]  This style this is really me. This is and it's just it just so happens that what I like and what I can do
+[08:32.040 --> 08:34.600]  Just became fashionable a year ago. Yeah
+[08:35.040 --> 08:36.600]  The one thing you did get help on it
+[08:36.600 --> 08:40.480]  Here's my asterisk from a couple of seconds ago was the app icon, right?
+[08:40.480 --> 08:44.840]  Right and that logo shape the the the tower inside the circles and yeah
+[08:44.840 --> 08:49.200]  That was all Louis Mantia right at Pacific helm. Yeah, or not. Yeah
+[08:49.800 --> 08:57.400]  Yep Pacific helm slash Louis Mantia. Yeah, yeah, and it's great. I love the icon. I know that the icons are are
+[08:59.640 --> 09:03.520]  God everybody will have an opinion on an icon and I'm hearing from all of them
+[09:03.520 --> 09:07.640]  I'm what that this was this was my question is to me
+[09:08.160 --> 09:14.200]  This is such a great icon and it does everything and I can't do where it's recognizable
+[09:14.200 --> 09:15.440]  It's
+[09:15.440 --> 09:20.040]  Distinctive it's it gives it a brand. It does all these new things
+[09:20.040 --> 09:25.760]  I happen to also think that it's just an attractive shade of orange. I like it. I've always been a fan of orange
+[09:27.400 --> 09:29.960]  If ever there was an icon that might be
+[09:30.840 --> 09:35.680]  Beyond, you know, oh the sidecon sucks. Maybe this was it, but you're saying it's not
+[09:36.400 --> 09:38.400]  It does not
+[09:38.400 --> 09:41.560]  Most people love it. However, I'm hearing from all the ones who don't
+[09:41.560 --> 09:44.720]  I'm not here if people who do it, which is why I know that most people love it
+[09:45.440 --> 09:50.760]  But there's there's a handful of people who are like extremely offended by it like I I
+[09:51.760 --> 09:58.120]  You know, I'm not to get all Ben Brooks on you, but I like I've never cared about icons that strongly like yeah
+[09:58.120 --> 10:00.840]  I mean I'll I will notice a bad icon for an app
+[10:00.840 --> 10:05.280]  But I'm not gonna like make my usage decision based on which one has the best icon
+[10:05.680 --> 10:09.800]  Like that's I don't like I would rather have a good app even if the icons awful
+[10:09.800 --> 10:17.080]  I think people people who have opinions on apps in general and just want to express their opinions will often
+[10:17.080 --> 10:20.560]  I cons the app icon gets a disproportionate
+[10:20.960 --> 10:25.640]  Share of that feedback right like you said it's because it's not it probably is
+[10:25.840 --> 10:31.560]  Like if you had really had to use a beautiful great app that had what you thought was a lousy icon
+[10:31.560 --> 10:35.920]  It's like well, that's the best problem I could have with this app, right? It's like yeah, exactly
+[10:35.920 --> 10:38.920]  You know, or it's like if if the app has a bad name
+[10:39.960 --> 10:45.000]  You know, it's like okay. Well. Yeah, you can control that a little bit, but who cares really?
+[10:45.280 --> 10:47.480]  Yeah, it's you know ideally you know
+[10:47.480 --> 10:51.800]  We have a great name a memorable name and you know, but if it has a lousy name who cares?
+[10:52.640 --> 10:56.720]  It just seems like it's so much better than having deep problems with the software itself
+[10:56.720 --> 11:01.160]  But yet icons get all this feedback and I think it's because it's just so
+[11:01.160 --> 11:08.760]  neatly encapsulated and so petty that it just draws, you know, it's like the old's adage about
+[11:13.560 --> 11:21.520]  Politics in college universities like Woodrow Wilson was you know always said that being president at states was easier than being president of Princeton because
+[11:22.560 --> 11:26.800]  The politics there was just so meaningless that made it made it up. It was worse
+[11:26.800 --> 11:33.600]  Something like that and the icon here like I I almost didn't use this icon
+[11:34.000 --> 11:38.400]  I went back and forth and and I think it's easy to
+[11:39.320 --> 11:45.320]  It's easy for people to get angry at modern app icons for iOS 7 because iOS 7
+[11:46.160 --> 11:49.200]  totally changed what icons are supposed to look like and
+[11:50.360 --> 11:55.240]  The new style is much more polarizing the old style ever was yeah
+[11:55.240 --> 12:03.080]  And so the new style a lot of the rigs that you get for a new app icon is rage against the iOS 7 general aesthetic for icons and
+[12:04.880 --> 12:07.040]  What this icon did thanks to Louie?
+[12:07.800 --> 12:12.400]  Because you know Louie is is is one of those people who like he he knows
+[12:13.200 --> 12:16.160]  which rules to break and when to break them and
+[12:16.840 --> 12:18.840]  And that's unusual
+[12:18.840 --> 12:20.760]  And it's one of the things that makes you get designer
+[12:20.760 --> 12:25.480]  I actually think that it could have it would translate very well to the old world like if you it
+[12:25.480 --> 12:27.800]  If we took this app back in time two years
+[12:27.800 --> 12:32.960]  You'd have to redo the whole app interface, but you could use this icon and exactly you know
+[12:32.960 --> 12:36.560]  Just a little bit of 3d shading around the edges or something like that, but
+[12:37.400 --> 12:44.600]  Exactly, yeah, and I like this icon like what I like about like Louie was really was interested about using the white as the inner color
+[12:44.600 --> 12:53.080]  As that circle the inner color and then having this black outline that like goes into the shape like it's most iOS 7 icons have like
+[12:53.880 --> 12:55.880]  one fewer color
+[12:55.880 --> 12:57.080]  basically
+[12:57.080 --> 13:02.320]  And and this like Louie Louie try this out and I'm like, you know that actually looks really nice now
+[13:02.320 --> 13:07.720]  I want to think we even further at first if you look at the the overcast FM Twitter account
+[13:07.720 --> 13:17.640]  That artwork is I asked Louie to take this icon and make something that might make a good like podcast album art background
+[13:17.640 --> 13:21.400]  So I could maybe show it as the default album art for someone that didn't have art and
+[13:22.120 --> 13:24.120]  I liked it so much that
+[13:24.840 --> 13:26.840]  For a while and for beta one
+[13:26.840 --> 13:28.840]  This was the app icon
+[13:28.840 --> 13:31.120]  And you guys all hated it and that and then and you can miss me
+[13:31.120 --> 13:38.760]  No, I don't but but like I I even like I like doing things that are mostly conforming to style
+[13:38.760 --> 13:39.560]  So it looks good
+[13:39.560 --> 13:45.000]  But just like poking someone in the ribs a bit with some part of it because oftentimes that's what makes it good and
+[13:45.760 --> 13:51.480]  So like you know Louie did it with like having the white inner color and having this black outline around around that inner shape
+[13:52.160 --> 13:53.720]  I would have
+[13:53.720 --> 13:58.160]  Push it even further if I was totally unchecked by reason and logic and then you know
+[13:58.160 --> 14:01.800]  I try this like fiery textured version of the background a little bit
+[14:02.280 --> 14:03.480]  in the background
+[14:03.480 --> 14:08.800]  I mean as the beta one icon and and everyone hated except me and so I changed it back to this and I was like
+[14:08.800 --> 14:12.880]  You know, okay, actually you're right. This does look better. Having been here. I don't think hate it's not fair
+[14:12.880 --> 14:19.120]  I think it was just everybody was just like I think everybody was just like no, you're not to the other ones better
+[14:19.120 --> 14:26.280]  Trust me every like this is like I work best in an environment like that where I am able to try crazy things
+[14:26.280 --> 14:32.360]  But I have some people who can like edit me a little bit and say you know what actually you know that that's a little bit far
+[14:32.360 --> 14:33.520]  You got to pick your battles
+[14:33.520 --> 14:39.120]  And I think part of what makes somebody a good beta tester is whether they know how to pick their battles and therefore in other
+[14:39.120 --> 14:44.640]  Words that that they're only going to be adamant about things they genuinely feel adamant about and they're gonna
+[14:44.640 --> 14:48.000]  They'll they'll offer suggestions or I wish hey
+[14:48.000 --> 14:49.280]  I wish this were like this
+[14:49.280 --> 14:51.800]  But if they don't feel that strongly about it and you disagree
+[14:51.800 --> 14:56.200]  They just let it go and they'll but they'll and they won't give up though, and they'll keep sending that feedback
+[14:56.680 --> 14:57.800]  They won't you know
+[14:57.800 --> 15:00.560]  They're feelings won't be hurt because you took one of their things the wrong way
+[15:01.000 --> 15:08.680]  But I would do that I would if you if you're two option choices for the icon were one that was good and one that was bad and you
+[15:09.520 --> 15:10.960]  Insisted on a bad one
+[15:10.960 --> 15:14.440]  I would have written you privately and said you know made my case for the good one
+[15:14.640 --> 15:18.760]  Whereas if you had picked this icon I would I would have you know
+[15:18.760 --> 15:23.880]  Gave in you my two cents, and I think the other ones better and if you disagreed then I would have never said it again
+[15:24.360 --> 15:26.640]  Yeah, but I probably wouldn't have brought it up on this show
+[15:28.880 --> 15:32.680]  Yeah, I mean like ultimately like I'm glad I tried this other icon
+[15:33.320 --> 15:35.320]  Because it was pushing that boundary
+[15:35.320 --> 15:38.840]  So people get so you got to keep it up. You can't leave take it off the Twitter account now
+[15:38.840 --> 15:41.720]  I know these for a couple of weeks. That shows is a
+[15:42.600 --> 15:47.400]  Green I mean I like it on Twitter. It adds a little bit more personality. All right
+[15:47.400 --> 15:52.800]  Two more things I want to talk about the one how long it took you to make the app sounds like it took from your
+[15:52.800 --> 15:56.240]  To write up on Marko.org. It took about 14 months
+[15:56.880 --> 15:59.520]  With maybe a little bit of work that you'd done before that
+[16:00.040 --> 16:05.840]  Yeah, the audience and I prototyped earlier than that but you had a you know spring you said spring 2013
+[16:05.840 --> 16:11.520]  And you shipped in the app store this week in the middle of July 2014. Yeah, so yeah about about 14 months
+[16:11.520 --> 16:16.000]  Yeah, so I'll take this and I mean this I'm not buttering you up because you're my friend because you're on my show
+[16:16.000 --> 16:20.840]  One of the things I really like best about this app is that to me it feels like a 2.0
+[16:21.040 --> 16:24.640]  It does not feel like a 1.0 app and thanks
+[16:24.640 --> 16:29.360]  I mean in many ways that's because of the beta because like like what I think what I shipped for beta one
+[16:29.840 --> 16:35.280]  Was like a 1.5. Yeah, yeah, maybe it was a remarkably productive beta
+[16:36.920 --> 16:42.200]  That is true, but even then it was polished afterwards though and to me and maybe again
+[16:42.200 --> 16:48.800]  It's Vespir colored eyes where we shipped first after a couple of months without sync and then
+[16:49.280 --> 16:50.560]  spend a
+[16:50.560 --> 16:53.320]  Well the majority of this year to date overwhelmingly
+[16:54.040 --> 16:59.320]  Doing sync and then a you know another way to put it is that you know
+[16:59.320 --> 17:06.480]  Maybe Vespir 1.0 didn't really ship until last month when we shipped the version with sync and we had a version that was usable
+[17:06.480 --> 17:09.800]  And I don't regret it none of us regret it, but it never really
+[17:09.800 --> 17:18.880]  It wasn't it clearly wasn't complete without some kind of online sync and I also think it's interesting that it took about the same amount of time
+[17:19.880 --> 17:23.960]  You know, it's somewhere a little bit over a year to ship a good app that hasn't
+[17:25.080 --> 17:27.080]  Online sync
+[17:27.080 --> 17:30.520]  Companion to it. Yeah, it may be for me. Maybe that's streaming
+[17:31.080 --> 17:33.880]  Yeah, maybe maybe but I don't know there's a certain
+[17:34.200 --> 17:37.920]  You know because you could have shipped a podcast client that didn't have the online component
+[17:37.920 --> 17:43.760]  That was more like a lot of other ones, you know, just to ship it sooner and have it do it and you could have shipped a version
+[17:44.120 --> 17:50.760]  That didn't have the custom audio stuff that just helped you manage your podcasts, but didn't have the custom audio stuff first
+[17:52.040 --> 18:01.200]  I to me picked you picked off two or three really difficult things the custom audio engine and the complete online
+[18:02.000 --> 18:04.000]  version
+[18:04.000 --> 18:11.200]  That I to me it shows that it it feels like it clearly must have taken you over a year
+[18:11.200 --> 18:13.000]  Like I don't think you should feel like you were late
+[18:13.000 --> 18:18.240]  I know you get you gave yourself a hard time that back in September you thought you were six months away from shipping
+[18:18.240 --> 18:23.160]  I I thought you were out of your mind when you said that at XOXO. I thought it was like Jesus Christ
+[18:23.160 --> 18:25.160]  He's not gonna ship for two years
+[18:25.160 --> 18:27.160]  Yeah, and it's you know, I
+[18:29.240 --> 18:32.760]  It's it's interesting. There's two sides. I mean number one. I'm very proud of what I shipped
+[18:32.760 --> 18:36.000]  And I'm very happy with how it went number two though
+[18:36.000 --> 18:38.560]  I was shipping this into an
+[18:39.120 --> 18:48.560]  Extremely mature market and so over the last 24 hours. I have heard so many people who are who are very happy with it
+[18:48.560 --> 18:50.560]  But I've also heard so many people who
+[18:50.840 --> 18:55.360]  Who expect a lot more because like if you're it doesn't matter that's a 1.0
+[18:55.360 --> 19:00.760]  It matters that I'm shipping a podcast after the iOS app store in 2014 and the and the bars raised
+[19:00.760 --> 19:05.080]  Yeah, it's true and shipping it into a market full of these years old apps and
+[19:06.240 --> 19:12.520]  Although actually Castro is only one year old roughly and Castro is one of the most popular apps for iOS
+[19:12.520 --> 19:19.120]  Oh, and I'll bet it's also even more disproportionately and popular with listeners of this show
+[19:19.120 --> 19:22.000]  It's a great app almost certainly. It's a fantastic app
+[19:23.000 --> 19:28.200]  I would I wouldn't be surprised if a majority of people listening to us talk right now
+[19:28.200 --> 19:30.520]  are using either overcast or
+[19:31.520 --> 19:35.880]  Castro probably Castro first cuz if only because it's older and overcast because
+[19:37.040 --> 19:39.200]  Everybody who reads my sights and early adopter
+[19:39.560 --> 19:43.360]  It's very possible and and you know, and I like Castro because
+[19:44.640 --> 19:52.640]  Castro and I I really don't think are competing for the same people. Yeah, I think that's because it's there's they're two very different takes on
+[19:52.640 --> 19:55.200]  An app. It's it's like Twitter if it's tweetbot
+[19:55.200 --> 19:59.320]  You know, like it's it's these two very different styles different sets of priorities
+[20:00.520 --> 20:02.720]  You know different features inclusive to one or the other
+[20:03.480 --> 20:08.400]  I I don't really see them as like a cutthroat competitor for the same people
+[20:08.400 --> 20:13.440]  Yeah, I see as both doing two very different takes on the same problem that are going to appeal to
+[20:14.040 --> 20:16.760]  Mostly non overlapping circles of people
+[20:17.280 --> 20:21.200]  And the other thing you did that I think is pretty nice and I hope it catches on
+[20:21.200 --> 20:26.240]  I've never seen it before though is you've got a section is it in the settings or the about screen?
+[20:26.920 --> 20:30.680]  So you settings where you're gonna say it
+[20:30.920 --> 20:31.960]  It's so great
+[20:31.960 --> 20:33.840]  It's so Marco and whiskey
+[20:33.840 --> 20:36.560]  I think Whiska said to me the other day privately because he thinks it's gonna
+[20:36.800 --> 20:39.640]  He thinks like by next year. Everybody's gonna have this
+[20:40.160 --> 20:43.280]  Or at least everybody in our circle you have a section you're like hey
+[20:43.960 --> 20:45.720]  Overcast is not for you
+[20:45.720 --> 20:52.160]  Try these other great apps, and you've got a list of five other iOS podcasting apps. I think it's five
+[20:52.520 --> 20:58.440]  I think so yeah Castro downcast instacass pocketcast podcatcher or a pod wrangler, right?
+[20:58.440 --> 21:01.160]  And did you randomize the order?
+[21:01.360 --> 21:04.040]  Yeah, every time the screen loads it shows in an a random order
+[21:04.040 --> 21:09.840]  So there's no alphabetical bias and there's no I've no like friendship bias right no friendship bias
+[21:09.840 --> 21:11.840]  But here's five apps
+[21:11.840 --> 21:17.720]  That you might want to try if this app is not meeting your needs as as a podcast app
+[21:17.720 --> 21:20.560]  And it's great, and it's it's part of the gene
+[21:20.560 --> 21:23.240]  Part of the reason I think it's genius is is somewhere out there
+[21:23.240 --> 21:29.320]  There's marketing somebody with a real marketing title capital and marketing in their background who's choking right now
+[21:29.320 --> 21:34.240]  I'm thinking this is insane. That's the stupidest thing. I've ever heard you never why would you ever you know?
+[21:34.720 --> 21:40.400]  You know you there's no thing on the back of a can of a Coke that says don't like the taste try a Pepsi and
+[21:40.400 --> 21:42.400]  write the logo
+[21:42.400 --> 21:43.960]  and
+[21:43.960 --> 21:49.320]  Instructions for the nearest way to go try one. It's the quickest way to go try a Pepsi
+[21:50.600 --> 21:52.600]  But I think apps are different, right?
+[21:52.600 --> 21:56.760]  It's like you're showing it to people who already have the app on their phone, right?
+[21:56.760 --> 22:00.840]  You've got them right if you if if the app is for them. You've got them
+[22:00.840 --> 22:05.800]  They've they've downloaded the app. They've put it on their phone, and they're even checking out the settings
+[22:05.800 --> 22:10.160]  If you aren't making them happy why not
+[22:11.240 --> 22:13.240]  Show them the other apps
+[22:13.920 --> 22:18.880]  Yeah, and that was kind of that was kind of the rationale there was like you know
+[22:18.880 --> 22:23.320]  I'm not gonna pretend like there's no other apps in this category like that's you know that that doesn't you know
+[22:23.320 --> 22:26.680]  That's just stupid. I'm not I'm not gonna pretend like I'm the first podcast I have on the app store and
+[22:28.600 --> 22:30.600]  And I think it's a way to
+[22:30.600 --> 22:35.920]  To help everyone it it helps them potentially bite by getting them sales
+[22:37.040 --> 22:39.040]  and it helps me by by
+[22:39.960 --> 22:45.560]  Making people respect me and my app even more and and it's like there's no downside to this
+[22:46.760 --> 22:48.760]  The fact is if you want to try
+[22:49.480 --> 22:52.280]  Every one of these podcast apps you're spending less than 20 bucks
+[22:52.640 --> 22:57.640]  You know like it's we're not talking about major investments huge lock-in like I
+[22:57.640 --> 23:03.960]  Know like as we've been talking about like all these different expectations of people have a podcast apps and how they want things to behave
+[23:04.920 --> 23:08.560]  I know as a user of these things has a listener of podcasts. I
+[23:09.000 --> 23:13.800]  Know that you know that that certain apps will just fit you and certain ones just won't and
+[23:14.600 --> 23:21.720]  I don't want something to be using my app if they hate it, you know like that's like I don't want to like force them to use my app if there's a better one out there and
+[23:21.720 --> 23:27.200]  And so you know, hey, I'd rather I'd rather you be happy like I've
+[23:28.040 --> 23:31.880]  With Instapaper I I talked a little bit a little bit about this on my tp this week
+[23:31.880 --> 23:34.040]  So I won't be too overlapping here, but with Instapaper
+[23:34.800 --> 23:38.680]  By by the time I sold it I was getting about half of the money from the
+[23:39.360 --> 23:44.240]  Optional subscription which was a dollar a month and you got almost nothing for it and I advertised it that way
+[23:44.600 --> 23:49.400]  And it was it was mostly a way to just like you know give me more money if you feel like it that was basically it and
+[23:49.400 --> 23:52.840]  and to be making almost half your income from that is crazy and
+[23:53.840 --> 23:56.480]  I would way more than I ever expected and
+[23:57.080 --> 24:02.640]  The reason that worked was because over time I had built up a surplus of goodwill among my customers
+[24:02.640 --> 24:08.560]  By giving them free updates all the time and everything and you know, but just by giving them more than giving them more value than what they spent on the app
+[24:08.560 --> 24:13.720]  I'd built up a surplus of goodwill and so when I put up a thing saying hey, you can give me more money if you want
+[24:14.240 --> 24:16.080]  many of them did
+[24:16.080 --> 24:20.480]  And so I feel like you know like like good will is something you can
+[24:21.720 --> 24:28.320]  Monetize and that's that sounds awful. I know but like if you put it in better terms like like
+[24:29.360 --> 24:31.360]  It will be returned to you
+[24:31.520 --> 24:38.520]  Like it comes around and not you know not completely not everyone's gonna give you money for nothing but a decent portion of it
+[24:38.520 --> 24:41.000]  more than you probably think will come around and so
+[24:41.000 --> 24:46.400]  Being good to people is an important part of a business model
+[24:47.040 --> 24:51.960]  It's it's you know, it's in addition to just being a nice cool thing to do. It's also smart
+[24:51.960 --> 24:56.600]  I think it's the only way to approach it with any kind of interest in the long term and
+[24:57.440 --> 25:04.160]  My long term. I I have trouble thinking more than five years ahead five years to me seems like a long way off
+[25:04.160 --> 25:10.880]  But it's almost certain that I'm still gonna be writing Daring Fireball and probably still doing this show
+[25:13.800 --> 25:21.040]  You know probably still working with Dave and Brent on something some app with Q branch, you know maybe Vesper will be not done but but
+[25:22.760 --> 25:26.160]  You know move aside to the next app or something like that
+[25:26.160 --> 25:36.360]  But the only you know so many ways of doing business you could you're not they're not thinking that many even five years ahead
+[25:36.400 --> 25:41.920]  Right because it's like you're gonna burn through good will right you can't you can't last long at all while you're burning through
+[25:41.920 --> 25:48.280]  Goodwill I think in the business and it's you know it's just a short-sighted
+[25:48.280 --> 25:54.400]  Let's just burn through good will for 18 months and then see if somebody will buy us because we have a lot of users mentality
+[25:54.400 --> 26:02.760]  There's another question I had sort of related to the last is pricing and I know that you've spent a lot of time thinking about this and
+[26:03.760 --> 26:05.760]  You've come up with
+[26:06.080 --> 26:11.720]  The app is free. There's only one version of it. It's you just get it. You download it for free
+[26:12.400 --> 26:16.480]  You can use it. You can use it forever for free
+[26:16.480 --> 26:25.760]  Yeah, but you pay there's only one in that purchase. It's for right now. It's $4.99. That's it and you buy that and it unlocks a
+[26:26.080 --> 26:28.080]  bunch of cool features
+[26:28.320 --> 26:31.680]  Yep, that's it. I I thought about so many different models
+[26:32.320 --> 26:36.800]  I at various times in the last like you know six months to a year
+[26:37.360 --> 26:40.080]  I've been mentally committed to a
+[26:40.880 --> 26:42.880]  Pay what you want model
+[26:42.880 --> 26:48.480]  With multiple buckets that you know you just pay something anything and if you pay anything at all
+[26:48.480 --> 26:51.600]  I give you all the features, but you can pay it like three different levels, right?
+[26:51.600 --> 26:54.000]  I also thought about the same thing with subscriptions
+[26:54.400 --> 26:59.680]  Same thing with subscriptions, but named pledges because you know using like NPR terminology public radio terminology
+[26:59.680 --> 27:04.080]  Because this is about podcasts and so you can be a pledging member. Maybe that would make more people do it who knows
+[27:05.520 --> 27:07.520]  Also thought about paid up front
+[27:07.520 --> 27:10.880]  free with ads free with Squarespace advertising inside the app
+[27:10.880 --> 27:16.000]  all sorts of stuff like that and I I came up with
+[27:16.960 --> 27:21.920]  Relatively towards the end of development is when I settle on this. It was a very recent decision
+[27:22.480 --> 27:27.600]  I just came up with this because I realized like the more complicated I make it the fewer people are gonna do it
+[27:27.600 --> 27:31.120]  And and the more headaches I will have dealing with it support headaches
+[27:31.200 --> 27:35.200]  You know customer expectations not matching what they're what they're getting stuff like that
+[27:35.200 --> 27:44.320]  Just was not it was not gonna be worth complexity and so I went with just okay five bucks in that purchase unlocks limits period a very simple old model
+[27:45.520 --> 27:49.440]  Rels will be old in the iOS release, but you know a simple model that
+[27:50.640 --> 27:52.640]  would give me the most flexibility to
+[27:53.440 --> 27:58.240]  To do things in the future like I can I can make a web payment form
+[27:58.560 --> 28:02.960]  So that people who can't use in that purchases for whatever reason can can use the web version and buy it there
+[28:02.960 --> 28:05.840]  Stuff like that and you know, it's easy to support and
+[28:06.560 --> 28:11.760]  It's clear to the customers what they're getting and what they're paying for and and when they're gonna be paying and how much you're gonna be paying
+[28:12.000 --> 28:17.280]  Yeah, you know any any kind of subscription or donation type model. It becomes less clear to people
+[28:17.280 --> 28:22.240]  Okay, what am I paying for how much will I be charged is this forever or just for a year or what and?
+[28:23.680 --> 28:29.680]  And you do it without thinking much in summer of 2014 and then all of a sudden in summer of 2015 when you're charged again
+[28:29.680 --> 28:33.680]  Or you're reminded, you know by iOS or get or however, you know the
+[28:33.680 --> 28:37.600]  Magnets you're like why is this thing that I haven't used this app in 11 months
+[28:37.600 --> 28:41.520]  Why is it trying to charge me right and then you forget about the developer and demand be fun?
+[28:41.520 --> 28:44.800]  Which they can't give you so yeah, it's it's a mess right so
+[28:45.600 --> 28:47.600]  This method was just way easier
+[28:48.800 --> 28:53.760]  For everybody for me and for the customers and I think that ease will result in better sales
+[28:54.480 --> 28:56.640]  There was this hey day. I mean we've talked about it
+[28:56.640 --> 29:00.800]  You and I have probably talked about it on the show and other shows, you know
+[29:00.800 --> 29:04.400]  We've all talked about everybody's involved in indie apps in general
+[29:04.400 --> 29:07.520]  It's talked about it in the post app store world where yes
+[29:07.520 --> 29:12.800]  We've been exposed to a massive market and especially for those of us who were in the Mac before
+[29:13.360 --> 29:20.400]  Way bigger than we ever could have imagined before and now it's getting to the point where maybe it's even this big in terms of people as
+[29:20.560 --> 29:23.600]  Even windows was as a market size in terms of people
+[29:23.600 --> 29:32.160]  Which is amazing and it's a great opportunity and we've destroyed the one thing that we found before that worked as a way
+[29:32.480 --> 29:36.000]  To get people to buy it which was to let you try the app for free
+[29:37.360 --> 29:40.320]  And then pay for it if you want and I feel like you've
+[29:41.280 --> 29:46.080]  Used this in that purchase to be to me. It's like I thought about it like you announced
+[29:46.240 --> 29:50.000]  You know, you know, here's how I'm going to charge for it and I thought about it
+[29:50.000 --> 29:54.720]  And I was like it seems very very obvious. This seems like this is the way to go
+[29:54.720 --> 30:02.000]  You get lots of people to try it with the no risk and then if they like it they'll buy it because I thought that the
+[30:04.080 --> 30:06.080]  You know, it seemed like a good
+[30:06.880 --> 30:11.360]  Line you drew on what you get when you pay for it because you know, it seems like a no brainer to me
+[30:12.560 --> 30:16.480]  I don't think it's hard, you know, it's hard for any app to know where to draw that line
+[30:16.480 --> 30:22.560]  You know, and I don't know I don't know that I've drawn the right line necessarily time will tell people people are nuts about the whole
+[30:22.800 --> 30:27.680]  Cup of coffee thing, you know, like oh my god. I can't believe you want to do the same thing as a cup of coffee
+[30:27.680 --> 30:29.680]  But there's this weird
+[30:29.680 --> 30:35.520]  I don't think it's that crazy though. There's a weird psychological thing where you somehow don't even want to pay a dollar
+[30:36.240 --> 30:36.800]  I do it
+[30:36.800 --> 30:41.760]  I spend the dollar willy nilly here there to buy new apps just to see what they look like but I you know
+[30:41.760 --> 30:46.720]  I'm an I'm an outlier. I don't look at software the way normal people do
+[30:46.720 --> 30:49.040]  I think it's kind of normal that people see
+[30:49.680 --> 30:51.360]  99 cents
+[30:51.360 --> 30:55.120]  before they even get to see if the app really works on their phone as
+[30:56.000 --> 31:01.680]  As a risk and they just don't want to take it and there's a number of factors here that that you know
+[31:01.680 --> 31:03.680]  Make the coffee analogy not work
+[31:03.680 --> 31:11.200]  And you know part of it is like people have been burned a lot in the past by bad apps and like they've paid for an app
+[31:11.680 --> 31:16.080]  That was not as good as they wanted or didn't do what they thought it would and then they're just out that money
+[31:16.080 --> 31:18.720]  I mean you can you can like email Apple and request a refund
+[31:18.720 --> 31:23.280]  But most people don't even know that you can do that let alone how to do that and they would actually go through with it
+[31:23.280 --> 31:28.000]  You know, so so for the most part you're just out of this money and so that's that's no good
+[31:28.000 --> 31:34.640]  I'll bet that even even on platforms where refunds are easier and I think windows phone is still the easiest windows phone
+[31:34.640 --> 31:36.640]  Makes it really pretty easy to initiate a
+[31:37.680 --> 31:39.680]  Refund and it goes through
+[31:39.680 --> 31:43.440]  I forget what the time period is. I don't know if it's an hour or a day
+[31:43.840 --> 31:46.760]  But let's just say it's an hour you download that you pay for an app
+[31:46.760 --> 31:52.200]  You download it you load on your phone and you don't like it you just go back to the app store and you say I want to refund and
+[31:52.880 --> 31:54.000]  the
+[31:54.000 --> 31:56.000]  app is removed from your phone and
+[31:56.000 --> 32:00.960]  The developer never gets the money. It's almost like it like the transaction doesn't even happen
+[32:01.520 --> 32:07.680]  Right, and I do think I think it would be great if Apple implemented that but at this point, you know if they haven't already
+[32:07.680 --> 32:09.680]  I don't think they ever are
+[32:09.680 --> 32:14.240]  But I still don't think that would get people over the hump. I don't think it would do much
+[32:14.240 --> 32:17.200]  I think it would be can it would be better than not having it at all
+[32:17.440 --> 32:23.040]  But I don't think it would get people over that psychological hump of giving over a dollar before they even try the app
+[32:23.040 --> 32:28.560]  Right, I mean, I wouldn't do that on the Mac like on the Mac where I you know, it's a different environment
+[32:28.560 --> 32:30.560]  And we've had previous expectations
+[32:31.040 --> 32:35.840]  When something is available only in the Mac app store for a paid price and there's no trial
+[32:35.840 --> 32:41.520]  Right, I probably won't buy it like I expect a trial in the Mac because there have always been trials and a lot of times
+[32:41.520 --> 32:44.160]  These apps cost like 30 50 75 $100
+[32:44.560 --> 32:51.440]  It's very hard to justify spending 80 bucks on an on a fancy app that you've never tried before that you can't try
+[32:51.440 --> 32:58.480]  When refunds are difficult, you know, you know, it's a very hard thing to do paid web apps have never really become a thing
+[32:58.800 --> 33:05.760]  For various reasons. Yeah, I mean they have like in in like certain verticals right, but it's not like a mass market thing right
+[33:06.240 --> 33:08.240]  and I think that the
+[33:09.040 --> 33:15.360]  But what they have done though is that they've still they've reinforced the idea that for something that you see on your computer screen
+[33:15.520 --> 33:17.840]  You should be able to just check it out first
+[33:17.840 --> 33:23.040]  And of course for a lot of people it's turned it into everything should just be free period forever
+[33:23.440 --> 33:25.440]  Um
+[33:25.440 --> 33:26.560]  And that's a separate argument
+[33:26.560 --> 33:33.360]  But I still think that the thing that made indie software development possible on the Mac and and had this great
+[33:34.000 --> 33:36.240]  Still great. I think in a reason
+[33:36.240 --> 33:40.880]  It's still great on the Mac is that you can still go to developers websites and download it demo
+[33:41.600 --> 33:42.400]  Exactly
+[33:42.400 --> 33:44.400]  Even if you eventually do go to the app sort of buy it
+[33:44.400 --> 33:49.200]  Well, I don't know if it's different, but iOS and and another reason why I like the coffee analogy does not work
+[33:49.600 --> 33:54.160]  Um is yeah, you can say well, you know you you it's been three dollars on coffee without thinking about it
+[33:54.880 --> 33:56.880]  That's true, but
+[33:57.600 --> 34:02.560]  There aren't people giving away coffee that's pretty good for free on every single street corner
+[34:03.040 --> 34:08.000]  Right like imagine Starbucks made every coffee free. Yeah, if every if on every street corner
+[34:08.000 --> 34:12.240]  You could walk out of any building anywhere or your house you could end on this quarter of the street
+[34:12.240 --> 34:15.120]  There were people giving away pretty good coffee for free all the time
+[34:15.440 --> 34:19.360]  like then it would be harder to be a coffee shop that charges for coffee, right?
+[34:19.680 --> 34:24.240]  like it it isn't about the amount of money. It's about the competition and the alternatives and
+[34:25.440 --> 34:28.240]  The fact is there is so many apps
+[34:28.560 --> 34:30.560]  There's so many apps
+[34:30.560 --> 34:39.240]  That it doesn't matter that you're charging only a few dollars up front the fact is there's 10 free ones right next to you in the app store and people will just pick those
+[34:39.240 --> 34:41.240]  um
+[34:41.240 --> 34:46.280]  Same thing applies to the web, you know, it's the reason why pay balls in the web don't often do very well
+[34:46.920 --> 34:49.880]  Is because there's just tons of alternatives that are all free and it's like okay
+[34:49.880 --> 34:54.040]  Well, I can't read your site fine. I was doing you a favor by reading your site. I'll just go read someone else's site
+[34:54.520 --> 34:57.560]  You know, it's and it's terrible, but that's that's the reality
+[34:58.040 --> 35:03.240]  Yeah, and you're in that like just give me something to read right now and it's too if you could go read something
+[35:03.400 --> 35:04.760]  That you're not as interested in
+[35:04.760 --> 35:07.400]  But it's only two clicks away or you can read the thing you're interested in
+[35:07.400 --> 35:10.920]  But you've got to take out your credit card and fill in a form forget it, you know
+[35:11.000 --> 35:12.040]  That's the big problem
+[35:12.040 --> 35:16.120]  I have I think paywall's face is that that right now at this moment
+[35:16.440 --> 35:19.080]  Even if you've got it in your back your head that maybe a
+[35:19.480 --> 35:21.800]  Maybe this month. I will sign up for the New York Times paywall
+[35:21.800 --> 35:25.560]  Maybe but in the meantime at any given moment when you're just looking for something to read
+[35:25.880 --> 35:29.160]  You're just going to keep clicking into if somebody gives you something that you can actually read
+[35:30.120 --> 35:32.120]  It's a little different with apps
+[35:32.200 --> 35:35.400]  But anyway, I think that the free app and then pay for it eventually
+[35:35.400 --> 35:39.080]  I don't know I pay for it to unlock the rest of the features and I
+[35:40.520 --> 35:46.680]  Not that it's overcast is the first app to do it that way, but I think it's played perfectly and I think it's
+[35:47.240 --> 35:49.240]  probably going to be
+[35:49.480 --> 35:51.480]  I think we're going to see a lot more of that
+[35:51.480 --> 35:56.600]  I hope so I mean and I I wish Apple give us more options in this regard because this model doesn't work for all apps
+[35:56.600 --> 35:59.880]  Like certain apps. It's very hard to know where to draw that line of okay
+[35:59.880 --> 36:03.480]  What do you offer for free and what do you charge for because
+[36:03.480 --> 36:07.720]  You know certain things like it it works well for like games for instance
+[36:07.720 --> 36:11.960]  You can like you can give away the first few levels and then have additional levels for purchase or you can you know
+[36:11.960 --> 36:16.760]  Do things with like oh you can get a power up that you you can only you have to unlock the game to get this power up stuff like that
+[36:16.760 --> 36:21.960]  You can do but think about like a calculator like what do you do charge for like the nine button?
+[36:22.600 --> 36:25.960]  Like how do you where do you draw that line in a calculator like how it's like true?
+[36:26.520 --> 36:27.800]  It's it's a hard thing
+[36:28.360 --> 36:29.880]  It's a hard thing to do
+[36:29.880 --> 36:34.680]  Right and with all credit to James Thompson of Peacock who I think originally made that joke
+[36:35.480 --> 36:37.000]  but
+[36:37.000 --> 36:43.080]  You know it doesn't work so like Apple has it has a rule against time bomb demos like you can't just say all right
+[36:43.080 --> 36:48.920]  You can try everything in the app for a week and then it stops working unless you pay like you you actually can't do that by policy
+[36:49.480 --> 36:54.120]  For free app correct even for free app. You can't think a lot of people know that I think developers know it
+[36:54.120 --> 36:58.520]  But I don't think a lot of people know that right and and and I think that rule
+[36:58.520 --> 37:02.360]  I'm sure Apple was well intentioned when they made that rule
+[37:02.360 --> 37:07.160]  But I think that rule holds back a lot of a lot of like trial wear. Yeah, it might be their goal
+[37:07.160 --> 37:12.280]  But I think it's that hierarchy of Apple's priorities where it's
+[37:12.920 --> 37:18.440]  First Apple second their users and third developers in that order and
+[37:19.640 --> 37:21.640]  Maybe it's irrelevant to Apple
+[37:22.280 --> 37:27.560]  So one is out to it's better for users if the app doesn't get time-bombed
+[37:27.560 --> 37:34.600]  So therefore the apps can't be time-bombed because it users are annoyed when they app that they've been using for the last 30 days suddenly stops working
+[37:35.640 --> 37:42.040]  I think that you know and and whatever extra money Apple would get from the 30% cut from the extra apps
+[37:42.040 --> 37:47.480]  That would be sold if that was allowed because it does work. That's the thing. It's is time bombing
+[37:47.560 --> 37:48.440]  You know
+[37:48.440 --> 37:55.480]  Done appropriately is a very effective way for indie developers to get let people try an app and then and then buy it
+[37:55.480 --> 38:00.120]  Yeah, but it's yeah, and unfortunately that like for so many you know
+[38:00.120 --> 38:05.640]  Like the calculator like there's so many apps where that is the best way to do it because the other problem is if you have something like
+[38:06.120 --> 38:08.120]  suppose you have a calculator app and
+[38:08.840 --> 38:12.200]  There's some like you know certain like special logarithm button
+[38:12.760 --> 38:15.960]  That most people don't need and you you want to put that behind the wall
+[38:15.960 --> 38:20.200]  So the only people who really need that will pay for it. Well then most your users won't pay for it
+[38:20.760 --> 38:24.280]  You know so that then you have a very bad conversion rate of free to pay
+[38:24.280 --> 38:29.640]  But if you like you have to be careful what you limit like somebody asked me on Twitter today or any mail
+[38:29.640 --> 38:31.640]  I forget where it's all it's all a blur
+[38:32.040 --> 38:37.240]  At this point somebody asked me they were angry at the implementation. I put in place and they said
+[38:38.440 --> 38:45.720]  Why don't you offer all features for free and just limit you to only subscribe to like five podcasts?
+[38:46.360 --> 38:47.880]  And I thought about that that was one of the options
+[38:47.880 --> 38:53.720]  I consider the reason why I didn't do that is because when you set that limit first of all that would complicate things like if you
+[38:53.720 --> 38:59.080]  Only can listen to five podcasts. What do I do when you import your pml file full of 20 podcasts?
+[38:59.480 --> 39:04.600]  You know there's there's problems with that right and if and you know right along that line
+[39:05.000 --> 39:08.440]  If it's really important to me as a user that you can import my 100
+[39:09.080 --> 39:13.560]  Podcast OPM file. How could I know that that the app is even going to work for me? Right exactly
+[39:14.120 --> 39:19.400]  So so that's problem number one but the problem number two you have to be very careful what you do here because
+[39:20.280 --> 39:22.280]  Anything you put behind a paywall
+[39:22.280 --> 39:27.320]  Most people will try to find a reason to justify not getting it
+[39:28.040 --> 39:33.560]  They will they will try to stay on the free side and try to not need what's on the other side
+[39:34.440 --> 39:36.440]  and so if I say
+[39:36.440 --> 39:38.440]  Limit five podcasts
+[39:39.000 --> 39:45.560]  Then I have all these discovery features that try to promote new podcasts and people stay a far away from that because now
+[39:45.560 --> 39:53.880]  They now they have to pay yeah, like well, no, I don't like then what I'm doing is I am discouraging people from trying out new podcasts
+[39:54.200 --> 39:56.600]  That's a terrible thing to do. Why would I want to do that?
+[39:57.080 --> 40:01.720]  Like so you have to be very careful what you limit because whatever you limit you're going to then
+[40:02.200 --> 40:04.440]  Strongly discourage people from crossing that limit
+[40:05.000 --> 40:11.400]  So that's why I've limited things that are basically power user features that don't really have a major downside
+[40:11.400 --> 40:16.440]  That most if you don't get it like I've limited a number of playlists
+[40:16.680 --> 40:21.880]  You can only have one you know number of items in a playlist. I don't just play the top five like these are things like you know power users
+[40:21.880 --> 40:23.880]  Okay, most people won't
+[40:24.040 --> 40:26.440]  playback speeds and the effects and
+[40:27.000 --> 40:28.600]  Cellular downloads
+[40:28.600 --> 40:32.040]  Those are all things that power users would like to do
+[40:32.360 --> 40:37.200]  But the app is very functional without them and so like that I feel like
+[40:37.200 --> 40:42.440]  Those are safer limits to put in place and I mean who knows I could change all these next month if it doesn't work out
+[40:42.440 --> 40:44.440]  But but I feel like that's a
+[40:44.720 --> 40:52.600]  Those are like safer lines to draw then I'm going to make you not want to listen to more podcasts in my podcast app because that's terrible
+[40:52.920 --> 40:59.920]  All right, let me take this break take this opportunity to thank our next sponsor our good friends at Harry's
+[41:01.440 --> 41:03.440]  Harry's
+[41:03.440 --> 41:04.640]  provides
+[41:04.640 --> 41:06.320]  high quality
+[41:06.320 --> 41:09.760]  Men's shaving stuff at a great price
+[41:10.880 --> 41:13.360]  whole point is it's I've told you this before
+[41:15.200 --> 41:20.520]  The founders were some of the founders of Warby Parker the eyeglass company same basic idea
+[41:20.520 --> 41:24.520]  They looked at the market. They said hey everything on the market. Why is this stuff so expensive?
+[41:24.640 --> 41:28.000]  Why can't we make good stuff at a way lower price?
+[41:28.800 --> 41:30.800]  Same thing with shaving
+[41:32.360 --> 41:34.840]  You buy blades from Harry's and
+[41:34.840 --> 41:39.160]  And they're half the price of the equivalent blades from
+[41:39.800 --> 41:42.680]  Like Gillette or what's the other big company?
+[41:43.480 --> 41:47.560]  Shick is that check. Yeah, there you go. I wasn't I was a Gillette person
+[41:47.560 --> 41:50.200]  So that's the one I was familiar with yeah, yeah, I was too. I don't know why
+[41:50.840 --> 41:56.280]  And that's what I can compare to is is Gillette and it's the same type of quality to me
+[41:56.440 --> 42:00.520]  Where it just feels like a nice quality blade. Here's how seriously these guys take it
+[42:00.520 --> 42:06.040]  This is what I love. I love this story that they bought their own razor blade factory in Germany
+[42:07.640 --> 42:11.320]  So that they could control the sharpness and strength of their blades
+[42:11.320 --> 42:16.360]  They're not just like white labeling generic razor blades and putting them in a stylish package
+[42:17.480 --> 42:20.840]  They have to you know really really control over the quality
+[42:22.200 --> 42:26.200]  And I love the design style of their stuff. I don't think it's just cheaper than Gillette
+[42:26.200 --> 42:30.840]  I think it's actually better looking than Gillette to me like the the blade that I got the
+[42:32.280 --> 42:34.280]  The razor I got from from
+[42:35.160 --> 42:43.080]  Harry's it looks to me like I could be using it in 20 years and it would look just as new and just as stylish whereas Gillette's
+[42:43.560 --> 42:45.560]  you know like
+[42:46.360 --> 42:48.360]  architecture or
+[42:48.840 --> 42:53.800]  Industrial design to me it looks so trendy and it's you know
+[42:53.800 --> 42:57.960]  It's like it's like looking at the Transformers movies. It looks like you know by next year
+[42:57.960 --> 43:00.280]  It's gonna look like you're using a 2013 razor
+[43:01.160 --> 43:03.640]  The price the price difference is truly truly
+[43:04.360 --> 43:05.560]  significant
+[43:05.560 --> 43:10.280]  I think it's like two bucks to get a for each blade with Harry's it's even less if you order a book
+[43:10.280 --> 43:11.880]  I think it's like a dollar fifty if you get the big pack
+[43:12.440 --> 43:17.400]  Yeah, so get the end and Gillette. It's you know, it's like even at Amazon. It's like three fifty four dollars a blade
+[43:17.400 --> 43:24.360]  And the quality is I'm telling it's there. I use it. You you switch to using it, right?
+[43:24.760 --> 43:28.680]  Yeah, yeah, I've been using it for this. They sent me the simplified one that when I sponsored my show
+[43:28.680 --> 43:35.400]  I'm almost through it. I think we're more I the handle is is amazing and the blades. I would say are
+[43:36.440 --> 43:38.440]  Probably I would say on par
+[43:38.600 --> 43:42.520]  With Gillette fusion blades which it works your my previous favorite and at half the price
+[43:42.520 --> 43:47.160]  You can't beat it handle was the word I was looking for when I was trying to just choose between
+[43:47.640 --> 43:53.480]  You know razor and blade that the you know the handle the thing you stick into it. I hand your pass as a shaving nerd
+[43:54.680 --> 44:01.400]  I have a brush and everything. Yeah, I used to double the double edge safety razor and the blades from Israel and everything adds
+[44:01.880 --> 44:02.920]  Yeah
+[44:02.920 --> 44:08.880]  This is good stuff. It is not it's not just me telling you to go out there and buy this
+[44:08.880 --> 44:14.400]  Cheaper shaving some I'm telling you the quality is there. It's really good. They're very very serious about it
+[44:14.720 --> 44:20.000]  I really do I like it better just because it to me and it's it's I remember you said this on ATP this week
+[44:20.000 --> 44:23.280]  There's like a heft to the handle. Yeah, exactly. It's very nicely weighted
+[44:23.760 --> 44:27.600]  Right in a way that the disposables from Gillette and stuff well
+[44:27.600 --> 44:30.640]  And even the ones that they don't call disposables. They they pretty much are
+[44:31.280 --> 44:37.760]  They like I feel like the Gillette one like it just needs 17 blue LEDs to complete the aesthetic
+[44:37.760 --> 44:44.480]  It just it looks like a Transformers movie. Yeah, it's just it's like it's like the very first droid ads
+[44:45.120 --> 44:52.560]  Remember they were like a little like like tacky masculine robot crazy. They did they actually had like they had like laser beams and stuff
+[44:52.560 --> 44:54.560]  And weapons
+[44:54.560 --> 45:00.400]  You always feel like there's yeah, there's gonna be a laser coming out yet. I there's a trend and I love it where
+[45:00.960 --> 45:06.640]  I've been getting more sponsors like Harry's where they're not technology at all. This isn't an app
+[45:06.640 --> 45:10.320]  It's it's you know real physical product and I
+[45:11.120 --> 45:15.920]  Think it's a great market because I feel like my show my website
+[45:16.400 --> 45:19.440]  You know and yours Marcos, you know in ATP
+[45:19.840 --> 45:27.600]  It's it's not about tech really because there's mass market tech sites that I think I've a wildly different audience
+[45:27.600 --> 45:31.280]  I think the audience that I have that you have this audience is
+[45:32.560 --> 45:35.360]  More like people who care about nice things
+[45:35.360 --> 45:41.040]  Including tech or maybe even especially tech, but what they really are interested in is nice things
+[45:41.440 --> 45:44.400]  I'd rather have one nice thing than 10 mediocre things
+[45:45.120 --> 45:50.360]  And Harry's to me fits exactly in that line where here's the thing where if you go into a typical drugstore
+[45:50.360 --> 45:52.480]  You have zero choices that qualify for that
+[45:53.040 --> 45:57.600]  Go online and get it there go to here's what you do go to Harry's calm
+[45:57.680 --> 46:02.520]  H a R R Y S calm use this promo code talk show
+[46:02.520 --> 46:08.960]  They didn't put the gun there, but that's not that's not hold it against them. Just talk show t a L K S H O W
+[46:09.720 --> 46:14.920]  And you will get five bucks off your first purchase
+[46:15.720 --> 46:18.840]  I don't I can't see why anybody would do this
+[46:19.400 --> 46:25.640]  Try it out and then not just sign up and use this stuff henceforth because it's cheaper and better
+[46:26.200 --> 46:29.320]  How do you beat that even the box is nice? Yeah?
+[46:29.320 --> 46:33.800]  Boxes if you like it's the like all the packaging is really nice. Like wow
+[46:34.680 --> 46:41.320]  Right, I think that the when they first sponsored to show they sent me a handle and three blades and I've since reordered
+[46:41.320 --> 46:44.040]  You know out of my own pocket, you know the replacement blades
+[46:45.000 --> 46:49.560]  I didn't even want to throw the empty box out from the first set of blades because I was so nice
+[46:49.560 --> 46:51.880]  But that's just bad throwing away the boxes
+[46:51.880 --> 46:54.600]  I mean, I do it because you know, but I have to because it's right
+[46:54.600 --> 46:56.600]  But it's I feel bad like they're really nice
+[46:56.600 --> 47:01.000]  Right because next thing you know 20 years from now. You're you're you know the crazy person with
+[47:01.720 --> 47:03.720]  40 years or 20 years of
+[47:04.040 --> 47:07.400]  Shaving cartridge box right just trying to figure out like what you what can I put in here?
+[47:07.800 --> 47:11.480]  You're like everything that's like small and you know a trap is a way and I go
+[47:11.480 --> 47:13.720]  Let me I can put my screws in here
+[47:14.360 --> 47:17.320]  All right to me that's as good as I that's when I knew that it was the real deal
+[47:17.320 --> 47:21.160]  I knew as soon as I opened up the box. I was like oh man these guys have got it going on
+[47:22.200 --> 47:23.000]  The other great thing
+[47:23.000 --> 47:28.440]  I just had one other thing and I actually thought about this when when I was listening to ATP this weekend and you know
+[47:28.440 --> 47:30.440]  You did your read for Harry's
+[47:32.600 --> 47:39.160]  With the cheaper blades to me one of the big differences in my life is I remember when when I was in college
+[47:39.160 --> 47:45.440]  You know at first even had to start shaving and I didn't have money and I would use shaving blades forever or too long
+[47:46.760 --> 47:51.720]  What a difference it made when I started I woke up and it's like you know what you don't use in that long go
+[47:51.720 --> 47:58.040]  If you pay less for them, you'll you'll use them less and use a fresher one more often
+[47:58.760 --> 48:02.840]  You don't have to sweat it. That's actually a nice trick like I read back when I was a shaving nerd
+[48:03.240 --> 48:06.360]  I there was like this one post that kind of stuck with me from a guy who was like
+[48:06.920 --> 48:10.040]  You can basically shave however you want with whatever blade you can find
+[48:11.080 --> 48:15.880]  As long as you use a new blade every single time and if you use a new blade every single time
+[48:15.880 --> 48:21.000]  You're you will like if you had sensitive skin which I do like all those problems will go away and
+[48:21.720 --> 48:23.720]  I've never been that extreme
+[48:23.720 --> 48:27.240]  Because blades are expensive usually, you know, especially in my years as a Gillette owner
+[48:27.480 --> 48:32.840]  You know I'm paying you know 375 a blade usually. It's it's expensive. It seems wasteful through those away every time
+[48:34.520 --> 48:37.880]  But when when the cost goes so dramatically down like it does with Harry's
+[48:38.840 --> 48:44.760]  It becomes more plausible and more practical to only only keep a blade for like three or four shapes
+[48:44.760 --> 48:48.440]  And it's I'm telling you it makes it makes a nice difference with every blade. I've tried
+[48:49.160 --> 48:53.720]  You know to not try to extract a month worth of use out of a blade
+[48:54.360 --> 48:59.160]  And if they're cheaper you can do that. Yeah, I actually shave more often now because I have a Harry's
+[49:00.120 --> 49:04.520]  That's a I can say that I'm not even just say that the sponsor read is over
+[49:04.520 --> 49:10.040]  I'm just saying that that's actually the truth and they even their cream like I I've tried a lot of shaving cream because again
+[49:10.040 --> 49:12.040]  I've been this shaving nerd
+[49:12.040 --> 49:17.880]  and and and the one I found was the best for me was the pro rasa
+[49:18.520 --> 49:20.520]  green variant I
+[49:20.520 --> 49:26.680]  Would and I've tried many others trendy ones like the tailor of old bonds to eat like all the fancy boutique ones I
+[49:27.320 --> 49:30.120]  Would say the Harry's cream for me was number two
+[49:30.840 --> 49:36.120]  And really I've tried a lot and it did it didn't quite top per rasa for me, but it was really close and
+[49:37.080 --> 49:41.080]  That's saying a lot. It's nice and simple gets the job done nothing fancy
+[49:41.080 --> 49:43.720]  Yeah, it's not made it doesn't look like a blue laser
+[49:44.200 --> 49:46.520]  Yeah, exactly. It looked very tasteful and modern
+[49:47.240 --> 49:51.640]  Yeah, looks like what shaving cream is supposed to look and the funny thing is too since I've since I visited their site recently
+[49:52.360 --> 49:59.080]  Now I'm seeing their ads and all the Google AdSense boxes all over the internet as I browse and their ads are so much more tasteful looking
+[50:00.280 --> 50:04.680]  Because they're you know, it's the graphical banner version because Google you know that whole thing when Google said oh we're not going to do banners
+[50:05.000 --> 50:07.160]  You know, we're originally they have of course. That's not the window now
+[50:07.160 --> 50:13.480]  And so now I'm seeing nice like trendy beautifully designed to Harry's ads on all the websites
+[50:15.160 --> 50:19.720]  They aren't they're nice at so there you go. You'll improve your ad viewing experience as well by checking out
+[50:20.520 --> 50:26.840]  Harry's aside, but anyway great product glad to have mom board and and you're not to be don't try them
+[50:27.640 --> 50:30.360]  I'm not doing you any favors trying to keep this show short
+[50:30.840 --> 50:33.640]  Well, that's good because I feel terrible. I feel like I've taken up
+[50:33.640 --> 50:38.040]  I mean you're a very busy man with a brand new app and I've taken up eight hours of your of your
+[50:38.760 --> 50:42.600]  Thursday night. Well, I believe man rather be doing this than answering what is now
+[50:43.960 --> 50:47.800]  1139 emails. I believe that's about 45 more than we started
+[50:48.520 --> 50:51.720]  We could measure the length of the episode and how many emails have come in
+[50:52.520 --> 50:57.160]  To the overcast support mailbox. Yeah, and it's it's just about midnight eastern time
+[50:57.400 --> 51:00.840]  I like I mean, obviously these people aren't all in US eastern time
+[51:00.840 --> 51:04.120]  But like just still be getting this a rate of emails now
+[51:05.160 --> 51:10.280]  Do you still use you just use email for support? It's just it because it's just you and why not right?
+[51:10.760 --> 51:12.760]  I have in like with insta paper
+[51:13.000 --> 51:15.000]  I hired somebody to help me with support
+[51:15.000 --> 51:19.480]  You know, just I know you did that. Did you still use email or did you switch to some sort of?
+[51:20.600 --> 51:23.880]  You know like online system for a while
+[51:24.840 --> 51:29.960]  I would just I just gave him an email address and gave him hosting and it just went to his inbox
+[51:29.960 --> 51:32.840]  Because it was just one guy and so that was you know, that was fine
+[51:33.080 --> 51:37.400]  And then after a while he said hey, I you know, I'd like to try some of some of these tools that are out recently
+[51:37.400 --> 51:39.720]  You know, see if they're easier in the case. Sure. So
+[51:40.600 --> 51:45.000]  He tried Zen desk. I think was the one means that going with he tried a couple of them. I
+[51:45.880 --> 51:47.880]  Have I used a few of these tools
+[51:48.200 --> 51:49.880]  before
+[51:49.880 --> 51:53.160]  And I hate all of them like everyone I've ever tried. I've hated
+[51:53.160 --> 52:02.840]  What's the one from the other the guy who co-founded Stack Overflow Joel yeah fog bucks. Yeah, and I use that actually that was what tumblr used for a long time and
+[52:03.160 --> 52:06.040]  I I hated it in different ways at least
+[52:06.520 --> 52:12.280]  What's nice about that one is that it's free if you have a small team, which is really nice at least it was six years ago
+[52:12.280 --> 52:14.280]  I think it's still it probably is
+[52:16.040 --> 52:20.280]  All of these products try to do too much in in different ways
+[52:20.280 --> 52:26.840]  They're there are very few that are focused only on just answer support emails and tweets like that. That's all you really need
+[52:27.800 --> 52:31.400]  Even if you leave out the tweets even if someone else doesn't even if you could do email like that's that'd be great
+[52:31.960 --> 52:39.320]  The problem is it's very hard for any of those things to actually be better than email. You know email is is a very old
+[52:39.720 --> 52:45.800]  mature and very versatile tool you can do a lot with with just email and you know a lot of things like all the like
+[52:45.800 --> 52:53.960]  I still email things to myself from my phone because it's easier than X Y or Z or it works better or it's more more robust or I can do
+[52:54.200 --> 52:56.200]  this extra thing if I need to with it
+[52:57.800 --> 53:02.360]  Email at for all its problems of which there are many for all of its problems
+[53:03.160 --> 53:05.160]  It is a really good generalist
+[53:05.880 --> 53:07.880]  and so I
+[53:08.680 --> 53:11.240]  So anyway, so for now. I'm just using email I
+[53:11.240 --> 53:16.760]  In the future at enemies in tech techs band or to help a lot with some of the snippets like some of the common stuff same
+[53:16.760 --> 53:18.760]  This is a known bug. Thank you. You know stuff like that
+[53:19.480 --> 53:23.640]  Or like my email signature, you know, it's it helps to have all that stuff be
+[53:24.680 --> 53:27.440]  the helpful it helpfully automated but I
+[53:28.600 --> 53:36.360]  Have never I've never found one of these tools that if you're just one person obviously email has problems when you try to scale to multiple people trying to address the same
+[53:36.360 --> 53:41.080]  Support inbox then then it then I I definitely suggest using something else
+[53:41.800 --> 53:45.960]  It also is kind of inconvenient if you hear from the same people a lot
+[53:46.600 --> 53:55.080]  Because like the fancy systems. They'll they'll be able to like bring up. Oh, this person emailed you before and they'll show their previous emails along with their like a sort of CRM type
+[53:55.080 --> 53:59.480]  Yeah, yeah, so you know if you have certain certain needs then you need something else
+[54:00.440 --> 54:02.440]  but for just one person
+[54:02.440 --> 54:08.400]  Answering their own support inbound requests for an app that you know, like I'm probably not like once this all settles down
+[54:08.400 --> 54:11.520]  I would I would estimate I'll probably get
+[54:12.760 --> 54:18.200]  Fewer than 20 emails a day for it. Hopefully much fewer than 20. I would I'd love to be under 10
+[54:20.520 --> 54:24.720]  That's obviously a total blind guess out of my ass. I have no idea
+[54:24.720 --> 54:29.640]  But I assume that's gonna be the level I'm talking about and so for that
+[54:29.640 --> 54:33.160]  It's like is the complexity of another system really worth it because these system
+[54:33.160 --> 54:39.840]  They all have you know, they have these web interfaces that are slow and clunky and I don't know. I I'm a big fan of native apps
+[54:39.840 --> 54:42.800]  I like I like a lot about native apps
+[54:42.800 --> 54:47.480]  And so like just being able to just do this all my email client which I'm already very fast at using
+[54:48.120 --> 54:51.000]  I guess use mail app, you know, it's not not anything fancy
+[54:51.480 --> 54:54.120]  I've been using mail app for years. I know it extremely well
+[54:54.120 --> 54:56.520]  I'm very fast with it and it works everywhere
+[54:56.520 --> 55:01.480]  I don't have to like get us a different app for each device because I already have mail on my devices and
+[55:01.920 --> 55:06.080]  So it's like it's it's just it's just easier in so many ways
+[55:06.480 --> 55:12.360]  If you're just one person answering one inbox for it when I was at barebones, and this is you know
+[55:13.360 --> 55:18.240]  12 13 years ago, you know early the early 2000 2000 to 2001 2002
+[55:19.240 --> 55:24.560]  And a lot of my job was you know help pitching in on that the support queue
+[55:24.560 --> 55:28.960]  We did it all at the time. We did it all by I map even though it was multiple people yeah shared
+[55:28.960 --> 55:34.000]  I'm at folder, but it worked for a few reasons which was a the only people who had access to it
+[55:34.000 --> 55:42.200]  We're we're all trusted there wasn't anybody who who was you know doing support email who wasn't like a truly trusted employee
+[55:43.160 --> 55:45.080]  and
+[55:45.080 --> 55:50.440]  Be it was it's really simple system where nobody you didn't answer anything from the inbox
+[55:50.440 --> 55:54.400]  Everybody we just made top level folders for each of us, you know like
+[55:54.960 --> 55:59.840]  You know John rich and you know, however else was was doing stuff Patrick
+[56:00.560 --> 56:03.480]  And you would you know if you were gonna you know
+[56:03.480 --> 56:05.200]  I'm gonna do support for the next hour
+[56:05.200 --> 56:11.400]  You would just dig in go through the inbox and drag any messages that you were gonna take to your inbox and
+[56:12.120 --> 56:15.920]  You know, you're it wasn't even an inbox, but your box. Yeah, your fans are them from there
+[56:15.920 --> 56:17.920]  So your folder should almost always be empty
+[56:17.920 --> 56:22.320]  except for maybe like one or two flagged things that you were you know
+[56:22.320 --> 56:26.080]  Hey, I need to I got to go I got to go talk to rich about this and get in it
+[56:26.080 --> 56:29.320]  You know, I can't answer that I'll write them back now and say hey
+[56:29.320 --> 56:31.880]  I'll get back to you later, but I actually don't know the answer to that
+[56:31.880 --> 56:33.680]  You know, I'll keep it
+[56:33.680 --> 56:41.800]  But you know by the end of the day your yours should be empty and then and then nobody would be double answering the same email from the inbox or something like that
+[56:42.080 --> 56:44.080]  Yeah, and that kind of system you're like, you know
+[56:44.080 --> 56:48.880]  And when you're in a when you're in an environment where like, you know, everyone's trusted and everyone's like, you know able to do
+[56:49.320 --> 56:51.720]  They're able to treat it properly
+[56:52.400 --> 56:58.280]  Then it was super simple and then everyone can use their own app and there's no like weird additional
+[56:58.280 --> 57:06.280]  You know third-party thing to integrate and pay for and support and move with and then migrate off of when they go out of business and it's just
+[57:06.280 --> 57:13.760]  It's yeah, I mean email again for all of its problems. It's really good at a lot of things and and more importantly
+[57:13.840 --> 57:20.440]  It's good enough at a lot of things. Yeah, and I also like the you kind of know what the customer is gonna see from you
+[57:20.440 --> 57:24.040]  I mean, you don't know exactly how they have their font set up in their mail client or whatever
+[57:24.040 --> 57:27.520]  But if you just write them an email, you know, it's gonna look like you know all the other email
+[57:27.520 --> 57:37.440]  It's not gonna be some weird, you know, HTML formatted thing and it's not gonna have a whole bunch of auto-generated
+[57:38.720 --> 57:45.040]  Administrative stuff, you know that to reply to this message please include this text and a subject line
+[57:45.040 --> 57:51.320]  Yeah, yeah, all that crap and you know make sure you write your entire reply above this line
+[57:52.000 --> 57:56.640]  You know, yeah, like customer hostile experiences. Yeah, that you're you know
+[57:56.640 --> 58:01.600]  They're writing to you they're your customer and you're giving them all these rules to follow about not changing the subject and
+[58:02.240 --> 58:07.640]  You know, make sure it makes for God's sake make sure everything you write is above this line and stuff like that
+[58:08.440 --> 58:11.760]  You know, it's just an email just text here. You go. Here's your answer
+[58:14.240 --> 58:16.240]  I guess we should cover the news
+[58:17.000 --> 58:20.760]  Why don't I do my last sponsor? Why don't we talk about our last sponsor? It's a good friends at
+[58:22.120 --> 58:23.560]  Hover
+[58:23.560 --> 58:29.560]  You guys know hover. I use hover. They are the domain registrar that does not suck
+[58:30.640 --> 58:32.640]  Quite possibly the only one
+[58:32.920 --> 58:35.640]  It's the best way to buy and manage domain names
+[58:35.720 --> 58:39.480]  So when you have a great idea you want to get a domain name for it
+[58:39.480 --> 58:44.820]  Guess what really really hard because it's hard to find a good domain name because so many of them are taken
+[58:45.280 --> 58:50.280]  Hover has some great tools for helping you find domain name that's available
+[58:50.280 --> 58:57.600]  And that's going to work with the name that you have in mind whether it's trying other top-level domains or whether it's combining other things
+[58:57.680 --> 59:00.280]  Before the top-level domain to get something that you like
+[59:01.760 --> 59:04.560]  They're going to give you exactly what you need to get the job done
+[59:05.400 --> 59:13.000]  And you can trust them one thing I've got to tell you domain name registrars are so scammy in general that I have never trusted before
+[59:13.000 --> 59:14.040]  I started using hover
+[59:14.040 --> 59:15.400]  I never trusted
+[59:15.400 --> 59:23.200]  using their tool to see if a name is available because I always suspected that half of them would just if I say hey is you know
+[59:23.920 --> 59:25.920]  You know is
+[59:25.920 --> 59:32.400]  You know Marko's new car.com available that they're going to register it and then hold it hostage to me because they was available
+[59:32.400 --> 59:37.560]  But they know I want it so they took it. Yeah, it's it's unfortunate. It's a business. That's full of
+[59:38.360 --> 59:43.040]  Opportunities for sleaziness. I don't know if any domain registrars ever done something that's scammy
+[59:43.040 --> 59:47.160]  But the fact that they've occurred to me it you know with hover
+[59:47.160 --> 59:53.800]  I'm telling you you can trust these guys. They've been in business forever. I mean, I think like all the way back to the 90s
+[59:54.320 --> 59:59.080]  Great reputation just search the web for what people who use hover say about them
+[1:00:00.400 --> 1:00:05.400]  Great tools great service customer service including
+[1:00:07.320 --> 1:00:10.520]  What they called the what they called the white glove service
+[1:00:10.520 --> 1:00:18.680]  The valetransfer valetransfer's right they this is what you do you sign up from become their customer and you have a domain name
+[1:00:19.040 --> 1:00:25.080]  Probably at a shitty register. Really, you know, that's I'm not going to name names, but you know who it probably is
+[1:00:27.440 --> 1:00:33.760]  It's really hard to tricky to transfer domains especially because most of us aren't DNS experts
+[1:00:33.760 --> 1:00:38.400]  We can't really remember the exact step-by-step thing of what you do and
+[1:00:38.400 --> 1:00:45.720]  And DNS is the thing that you can screw up you can screw it up and it's a pain in the ass to fix it once you've screwed it up
+[1:00:46.800 --> 1:00:51.560]  Use hover's valetransfer service and they'll walk you through the steps
+[1:00:51.560 --> 1:00:53.080]  they'll help you
+[1:00:53.080 --> 1:00:55.640]  transfer they'll even transfer it for you and
+[1:00:56.400 --> 1:00:59.720]  You move it from your crappy register to hover and
+[1:01:00.640 --> 1:01:03.240]  That's free. They just take care of that process for you
+[1:01:03.240 --> 1:01:10.560]  Just by you paying to become their customer. It's just included in the price of being a hover customer great support
+[1:01:11.400 --> 1:01:15.440]  They have other things. They have volume discounts. That's a new thing that they're offering
+[1:01:16.240 --> 1:01:20.680]  They give you a discount on domain renewals starting at just 10 domains
+[1:01:21.080 --> 1:01:26.240]  So if you've got you're like me and you know like an idiot every time you have a good idea for a domain
+[1:01:26.920 --> 1:01:31.720]  Even though you've only started like one website that you've stuck within your life and you just keep registering them
+[1:01:31.720 --> 1:01:37.400]  But God forbid you let anybody else take over them. They'll help you out with this
+[1:01:38.360 --> 1:01:42.840]  Discount on renewals if you've got 10 or more. So what do you do to check them out?
+[1:01:43.960 --> 1:01:47.000]  easy easy go to
+[1:01:49.400 --> 1:01:52.440]  hover.com HOVER
+[1:01:52.440 --> 1:01:54.440]  there's a promo code
+[1:01:54.680 --> 1:01:56.680]  use this promo code and
+[1:01:56.680 --> 1:02:04.080]  Here's what you get. There's a sale. You'll get 10% off your first purchase by typing a promo code
+[1:02:04.600 --> 1:02:06.840]  This week's promo code is IBM
+[1:02:07.640 --> 1:02:09.240]  IBM
+[1:02:09.240 --> 1:02:10.920]  Just type that in
+[1:02:10.920 --> 1:02:15.560]  They'll know you came from this show. You'll get 10% off your first purchase and
+[1:02:16.120 --> 1:02:22.200]  All new domain extensions are on sale through September first. That's all these crazy new top-level domains
+[1:02:22.200 --> 1:02:28.280]  Here's some of the ones that they've got there. They've got dot club dot ninja dot guru
+[1:02:28.680 --> 1:02:30.680]  Don't sign up for dot guru
+[1:02:31.160 --> 1:02:36.520]  Dot company. I would go as far as to say don't set up for almost any of the new tlds if they weren't great for all the old ones
+[1:02:37.160 --> 1:02:41.160]  Well, I don't know and dot ninja might be cool if you're using it ironically
+[1:02:42.680 --> 1:02:46.920]  They should day is there a dot parking lot? They should have a dot parking lot for fans of a
+[1:02:46.920 --> 1:02:52.280]  Tp not yet, but I'm sure I'm sure there's some committee that's trying to add it right now head over to hover dot com
+[1:02:52.360 --> 1:02:55.160]  See the full list of all these crazy new top-level domains
+[1:02:55.800 --> 1:03:02.120]  There's hundreds of new options a lot of great names are still available and they're on sale through September first and use that
+[1:03:02.760 --> 1:03:04.760]  code IBM and
+[1:03:05.080 --> 1:03:10.200]  And you know, they'll know you came from here from my show where where we talk about IBM every week
+[1:03:11.240 --> 1:03:13.240]  Of course
+[1:03:13.240 --> 1:03:16.360]  I love that like obviously that code is not used by anybody else
+[1:03:16.360 --> 1:03:23.160]  Like that's how a relevant IBM is to the consumer web these days is like that they can just throw that out there
+[1:03:23.160 --> 1:03:25.160]  No one's gonna use that code
+[1:03:25.880 --> 1:03:27.720]  I wonder
+[1:03:27.720 --> 1:03:34.920]  I think that's part of what had me so head scratching about the whole IBM Apple news this week, which I guess is really the only news
+[1:03:34.920 --> 1:03:37.320]  I don't know is there anything else you want to talk about but not really
+[1:03:38.040 --> 1:03:38.840]  Um
+[1:03:38.840 --> 1:03:45.000]  Is why why is this why is it even Apple presenting this is such a big deal?
+[1:03:45.000 --> 1:03:49.160]  right cuz Apple put out a big press release and they made Tim Cook
+[1:03:50.520 --> 1:03:57.080]  Available for a bunch of interviews, you know, which to me is the bigger sign that Apple thinks it's a big deal if Tim Cook is gonna
+[1:03:57.080 --> 1:03:59.080]  Spend the day talking to
+[1:03:59.080 --> 1:04:05.560]  CNBC and the Wall Street Journal and a bunch of other things a day of Tim Cook's time means it's important and
+[1:04:06.360 --> 1:04:12.280]  I that's you know my thought and this is just one of those things where it's like it didn't instantly make any sense
+[1:04:12.280 --> 1:04:15.880]  Not that didn't make sense, but it didn't make sense to me why it was a big deal I
+[1:04:17.000 --> 1:04:24.520]  Think I mean I I don't know anything about the world of enterprise computing and thank God for that because the little bits of it
+[1:04:24.520 --> 1:04:26.520]  That I've touched here and there I've hated
+[1:04:26.520 --> 1:04:33.320]  I'm very badly suited to it if that like I'm not saying it sucks. I'm saying sucks for me
+[1:04:35.320 --> 1:04:37.320]  Although, let's be honest it probably does suck, but anyway
+[1:04:37.320 --> 1:04:42.280]  I think there's there's probably a lot of value in
+[1:04:42.680 --> 1:04:48.680]  Apple making a big deal out of this in all the ways the consumers will never hear about or care about
+[1:04:49.240 --> 1:04:56.360]  But the business as will because the whole point of this is to try to try to push the iPhone and iOS platform more
+[1:04:57.080 --> 1:04:58.920]  into business and make it make it
+[1:04:58.920 --> 1:05:07.480]  You kind of fight fight the notion that that has plagued it for a while, which is this is like only for consumers or it's it's
+[1:05:07.480 --> 1:05:10.040]  inferior for business purposes to things like blackberry
+[1:05:10.920 --> 1:05:15.320]  You know they they're trying to fight that that perception and and that perception has been
+[1:05:15.880 --> 1:05:19.720]  Declining for a while as iOS devices have been pushing to business anyway
+[1:05:19.720 --> 1:05:26.840]  because people wanted them so badly and they they kind of were forced to adopt them and and then iOS got better with some of its enterprise stuff
+[1:05:26.840 --> 1:05:34.760]  But ultimately that perception is still there among a lot of like IT managers that oh the iOS Apple stuff is not is not for business
+[1:05:35.000 --> 1:05:38.840]  You know, it's not it's not ready for the enterprise or whatever. You know, whatever crap they spew out. I
+[1:05:39.560 --> 1:05:40.360]  Think that's true
+[1:05:40.360 --> 1:05:43.640]  I've said this before. I mean, it's like a recurring thing
+[1:05:43.640 --> 1:05:47.480]  I come back to every couple months because something else will pop up right it occurs to me
+[1:05:47.480 --> 1:05:51.480]  But it's the human beings are psychologically
+[1:05:51.480 --> 1:05:59.560]  Set up to make first impressions difficult to break, you know, and it's a cliche to say first impressions
+[1:05:59.560 --> 1:06:04.520]  You know or super important and they're you know like when you have a job interview you should do you know
+[1:06:05.240 --> 1:06:10.680]  Get all stressed out and do all these things right and dress exactly right and answer all the questions right and have a good handshake
+[1:06:10.680 --> 1:06:16.040]  And all these things but you know what it's one of those cliches that's kind of true and I'm not saying it's fair or it's right
+[1:06:16.040 --> 1:06:22.120]  Um, but it matters and so people's and it matters not just for your impressions of people
+[1:06:22.120 --> 1:06:28.120]  But your impressions of everything and if you're first impression of Apple is that they're not for business
+[1:06:28.840 --> 1:06:30.840]  And it was reinforced for a while
+[1:06:31.560 --> 1:06:34.840]  It doesn't matter if it was it's set back in
+[1:06:35.400 --> 1:06:39.480]  1996 when it was almost literally a completely different Apple
+[1:06:40.200 --> 1:06:42.840]  It it still stands for some people today
+[1:06:42.840 --> 1:06:44.840]  Yeah
+[1:06:44.840 --> 1:06:47.800]  Definitely and and a lot of those people are IT managers and big companies
+[1:06:48.760 --> 1:06:52.040]  Yeah, and I think so true. I think so. I think that's exactly true
+[1:06:52.360 --> 1:06:58.120]  Yeah, and so that's why I'm saying like you know Tim Cook going around doing all these like BS interviews with business people about business things
+[1:06:58.600 --> 1:07:03.880]  I think it's all about attacking that it's all about like getting out there and you know a press release
+[1:07:04.200 --> 1:07:07.560]  Well, what consumer is gonna give crap about a press release? No, and no one's ever gonna hear about it
+[1:07:07.560 --> 1:07:10.280]  You know like my pizza guy who asked me about Apple rumors every time I got a pizza
+[1:07:10.280 --> 1:07:14.040]  Because he reads all like he reads like all the worst Apple rumors sites
+[1:07:14.360 --> 1:07:19.160]  So he always asked me about all the ridiculous like the most ridiculous rumors possible things that are so ridiculous
+[1:07:19.320 --> 1:07:21.320]  You won't even comment on them
+[1:07:21.320 --> 1:07:25.160]  I get every time I get pizza, which is pretty often. I get asked about those things
+[1:07:25.880 --> 1:07:29.480]  And and you know he's never gonna hear about this ever
+[1:07:30.200 --> 1:07:35.800]  Because it is so unimportant to even consumers who are interested in Apple never gonna cross his radar
+[1:07:35.800 --> 1:07:41.400]  But the business community this will be like there's gonna be a white paper somewhere
+[1:07:41.400 --> 1:07:44.920]  There's gonna be like things the business community needs like sources
+[1:07:44.920 --> 1:07:48.200]  You know references. Oh, well, this is apparently getting into business
+[1:07:48.200 --> 1:07:55.320]  This is this is something that that IT managers can show each other and the CF and the CTO and the CEO above them
+[1:07:55.400 --> 1:07:57.880]  Like they can show each other and everyone here
+[1:07:57.880 --> 1:08:01.680]  We should maybe consider this here's some supporting documents to support this
+[1:08:01.680 --> 1:08:08.160]  You know, it's it's all about placating the needs of the business world in using their language and and their
+[1:08:08.960 --> 1:08:10.960]  Methods of of communicating
+[1:08:10.960 --> 1:08:14.800]  Yeah tech even even at the enterprise level it moves fast
+[1:08:15.440 --> 1:08:20.560]  But it it tech moving fast at the enterprise level is a hell of a lot slower
+[1:08:21.200 --> 1:08:23.280]  Than it moves at the consumer level
+[1:08:23.840 --> 1:08:26.320]  Yeah, I'm pretty sure my banks lose a bit of 2000
+[1:08:26.320 --> 1:08:34.160]  Well, right. That's a perfect example like God on how many ATMs are out there that are still running crazy the old windows systems and stuff like that
+[1:08:38.160 --> 1:08:43.840]  I just saw a thing about ATMs like windows 98 based now maybe they maybe it was a POS system
+[1:08:43.840 --> 1:08:50.880]  I don't know and it sure know that yeah, and I know that the yeah target the target hack was based on a crazy old
+[1:08:50.880 --> 1:08:56.720]  Ancient version of windows that they'd still been rolling out and brand new target stores, you know decades later
+[1:08:57.360 --> 1:09:00.960]  But it does you know it compared to the world at large. It still moves fast
+[1:09:01.520 --> 1:09:06.800]  but it's it's easy to miss because it's so much slower than the daily
+[1:09:09.280 --> 1:09:14.640]  Barrage of tech news that it's easy to miss the trends until they're already in the rearview mirror
+[1:09:14.640 --> 1:09:19.920]  And I kind of feel like what what Apple this Apple IBM deal is showing is it sort of
+[1:09:19.920 --> 1:09:23.680]  Stage two the beginning of stage two of Apple's
+[1:09:24.320 --> 1:09:32.560]  Renaissance in the business market stage one was just getting iPhones and iPads in it all and it's literally what they've bragged about for the
+[1:09:32.560 --> 1:09:36.080]  Last few years is the percentage of Fortune 500 companies
+[1:09:36.800 --> 1:09:41.680]  Where iOS devices are used and it's you know, it's now it's up to like a ridiculous number
+[1:09:41.680 --> 1:09:46.560]  It's like 98% but it's always been a little conspicuous that they don't say how many are being used in each one
+[1:09:46.560 --> 1:09:50.880]  It's right it's a lot of times like they aren't officially supported like a lot of times
+[1:09:51.120 --> 1:09:53.520]  You know the the devices have gotten into these companies
+[1:09:54.000 --> 1:09:56.000]  reluctantly because
+[1:09:56.000 --> 1:09:59.520]  Somebody in a position of power got an iPhone or iPad and wanted to use it at work
+[1:09:59.840 --> 1:10:03.200]  And so then the IT department which didn't really want to support it like all right fine
+[1:10:03.440 --> 1:10:06.320]  You know the CEO got an iPhone who wants to use it. We have to do this
+[1:10:06.560 --> 1:10:10.960]  So yeah, we'll support it in a half-assed minimal way, but we're not going to let everyone do this
+[1:10:11.200 --> 1:10:12.960]  I don't think that's what Apple's counting though
+[1:10:12.960 --> 1:10:18.000]  I think when Apple says 98% of the Fortune 500 is using the knife is using the iPhone
+[1:10:18.240 --> 1:10:20.880]  I think that they they're they're I think Apple's
+[1:10:21.360 --> 1:10:23.360]  Honest enough that that means that they on it
+[1:10:23.360 --> 1:10:28.480]  They have some kind of corporate relationship through the and Apple's enterprise, you know salespeople
+[1:10:29.520 --> 1:10:31.520]  That they can legitimately say that
+[1:10:31.520 --> 1:10:36.240]  Yeah, probably I mean companies that big a yeah, but I don't think it necessarily translates to a high
+[1:10:36.720 --> 1:10:38.640]  Unit count or head count right
+[1:10:38.640 --> 1:10:44.880]  I mean just to pick one example of a company who I know is must be in the Fortune 500 because they're the second biggest company in the world
+[1:10:44.880 --> 1:10:45.920]  The exon
+[1:10:45.920 --> 1:10:49.440]  You know, so let's say if summing exon is part of that 98%
+[1:10:49.760 --> 1:10:55.360]  Doesn't mean there's a thousand people with iPhones and exon because that's not that big a deal because exon probably has this you know
+[1:10:56.160 --> 1:10:58.160]  Tens and tens of thousands of employees
+[1:10:58.800 --> 1:10:59.920]  I
+[1:10:59.920 --> 1:11:04.720]  Think that that stage one though is just getting any relationship at all maybe it's you know
+[1:11:04.720 --> 1:11:08.960]  I use it. Maybe it's just the sea level people. Maybe it's just like hey the CEO wanted an iPhone
+[1:11:08.960 --> 1:11:13.920]  So officially, you know anybody who who works in the CEO's office can use an iPhone
+[1:11:14.000 --> 1:11:19.920]  But like the rank and file of tens of thousands of people, you know, still you're using whatever, you know
+[1:11:20.800 --> 1:11:22.800]  I don't know blackberries or something like that
+[1:11:23.440 --> 1:11:24.720]  um
+[1:11:24.720 --> 1:11:33.120]  I think stage two is about getting that number bigger and Tim Cook kind of alluded to that in one of his interviews that that there's a huge
+[1:11:33.120 --> 1:11:37.440]  That yes, we've got this huge number of Fortune 500 companies doing it
+[1:11:37.680 --> 1:11:44.960]  But that there's tons of devices and you know of various, you know, whether the phones or PCs or whatever that could be replaced
+[1:11:45.840 --> 1:11:47.840]  with iOS devices
+[1:11:48.320 --> 1:11:54.880]  And that there's huge upside there in terms of just sheer numbers and I think that's what this is about
+[1:11:55.680 --> 1:11:57.840]  Yeah, maybe I mean to some degree
+[1:11:57.840 --> 1:12:02.560]  Having like using iOS devices as
+[1:12:03.680 --> 1:12:07.600]  Like custom work terminals or like you know like my UPS guy hands me
+[1:12:08.160 --> 1:12:12.560]  Some kind of crazy-ass thing to sign digitally when I when I get a package delivered
+[1:12:13.040 --> 1:12:17.040]  Yeah, and you know the idea of that someday being an iPhone or an iPad
+[1:12:18.160 --> 1:12:20.480]  I actually have a hard time buying that because
+[1:12:22.000 --> 1:12:25.200]  The characteristics that that business is expected if they're gonna do something like that
+[1:12:25.200 --> 1:12:32.800]  Like they're gonna expect a platform that is highly customizable to exactly their needs and stable and will basically bend over backwards to support them indefinitely
+[1:12:33.840 --> 1:12:44.160]  None of those things are Apple strong points or even Apple wanting to do those things like like Apple is perfectly happy to like drop support for old things lockdown control
+[1:12:44.800 --> 1:12:46.800]  all sorts of all sorts of
+[1:12:47.360 --> 1:12:49.920]  Of characteristics that that let them produce good devices
+[1:12:50.800 --> 1:12:52.800]  As long as you fit within their needs
+[1:12:52.800 --> 1:13:01.120]  But also tend to shut out corporate needs like that. Yeah, well, I think that's though it potentially plays to Apple's traditional strengths though
+[1:13:01.120 --> 1:13:04.560]  Where Apple has never been about selling all of anything?
+[1:13:05.360 --> 1:13:07.360]  You know that they don't need
+[1:13:09.120 --> 1:13:16.400]  You know that's what Microsoft was always about Microsoft wanted every single computing device in the entire building to be running some version of Windows
+[1:13:16.880 --> 1:13:18.880]  Whereas Apple I don't think is going to shoot for that
+[1:13:18.880 --> 1:13:23.000]  I don't you know if Apple would say the UPS you still want to have all I mean
+[1:13:23.000 --> 1:13:29.520]  I wonder how many UPS guys didn't are like the delivery guys. Oh, I don't know probably I don't know 30, 40,000
+[1:13:29.520 --> 1:13:35.960]  No idea though. It's one of those terrible like job interview questions. I was gonna guess 25,000
+[1:13:35.960 --> 1:13:39.840]  So I don't know that that's just a guess, but you know, let's say 25,000
+[1:13:39.840 --> 1:13:47.600]  So let's say they have I don't know 30,000 of those signer things because they want to have more of them than they have people
+[1:13:48.560 --> 1:13:53.880]  And then they say you know what we don't really want to use iOS devices for this for X, Y and Z reasons
+[1:13:53.880 --> 1:13:59.120]  I think Apple would say, okay, that sounds good, you know, but if you know what about if every every manager at
+[1:14:00.320 --> 1:14:07.560]  The Depot centers where their dispatch was using an iPhone and using an iPhone app a custom iPhone app to manage whatever he did
+[1:14:07.560 --> 1:14:12.160]  He does all day I think you know if that's all they got
+[1:14:12.160 --> 1:14:16.480]  They'd be great because it's all upside for them because they never sold anything to those companies
+[1:14:16.800 --> 1:14:18.240]  That's a good point
+[1:14:18.240 --> 1:14:22.560]  You know that the only the places where you could see the need for a
+[1:14:23.000 --> 1:14:27.800]  $500 iPad, you know, but if it's possible that a $500 iPad would make sense for you
+[1:14:27.800 --> 1:14:31.080]  And it totally makes sense it may be for a UPS delivery guy
+[1:14:31.480 --> 1:14:34.480]  Who's got a really physical job that a
+[1:14:34.480 --> 1:14:36.960]  $500 device with a glass screen
+[1:14:38.200 --> 1:14:42.080]  Or even you know a sapphire screen it doesn't make any sense
+[1:14:42.080 --> 1:14:46.040]  You know, it's not durable enough and it's too expensive when it's to replace when it's broken
+[1:14:46.560 --> 1:14:52.640]  But there are still all sorts of opportunities where an iOS device might make sense and never you know
+[1:14:52.640 --> 1:14:57.120]  It's all upside for Apple because they never had anything no foothold in that market
+[1:14:57.120 --> 1:15:03.640]  Yeah, that's fine. I asked today. I don't even saw you were real busy today, but I asked today
+[1:15:04.720 --> 1:15:09.920]  Yeah, well my question is yeah
+[1:15:09.920 --> 1:15:13.520]  Where Tim Cook said he uses an iPad for 80% of his work and then I
+[1:15:14.000 --> 1:15:17.240]  Which I think is you know, I think it's interesting and I kind of believe him
+[1:15:17.240 --> 1:15:17.880]  I like I said
+[1:15:17.880 --> 1:15:23.680]  I don't know that I'm sure he didn't scientifically measure or have somebody follow him around with a stopwatch and measure how much you don't
+[1:15:23.680 --> 1:15:31.080]  The biggest red flag that that sounds suspicious to me is text input like does he use a keyboard? I doubt it
+[1:15:31.080 --> 1:15:33.080]  I mean that wouldn't look very good
+[1:15:33.640 --> 1:15:40.000]  You know, how does he manage text input does he just send a lot of very short email responses because I would imagine the CEO
+[1:15:40.000 --> 1:15:42.840]  I would imagine a big part of his job is responding to email
+[1:15:44.480 --> 1:15:50.520]  It's a good question. I would think so too, but maybe it's you know send short emails Steve Jobs sent short emails, you know
+[1:15:50.520 --> 1:15:57.600]  I think Steve Jobs his latter his latter year is an awful lot of the member of one knows email does those mac rumors things
+[1:15:57.600 --> 1:16:03.760]  Oh, yeah, some some random guy on the internet got an answer from Steve Jobs and awful lot of those in the last few years were
+[1:16:04.080 --> 1:16:08.600]  Had sent sent from my iPhone. Yeah, I'd say most of them actually did. Yeah
+[1:16:09.520 --> 1:16:14.760]  So Steve Jobs was sending a lot of email from his iPhone. I don't know that it's it's ridiculous that Tim Cook is too
+[1:16:14.760 --> 1:16:15.920]  That's fair
+[1:16:15.920 --> 1:16:21.920]  I always thought as an aside. I always thought it was very noble that Steve Jobs kept that default
+[1:16:23.080 --> 1:16:27.080]  Sick on his email which is terrible. I think yeah
+[1:16:27.440 --> 1:16:32.880]  Yeah, but it kind of makes sense that it would be Steve Jobs a signature, you know that I could see that like that
+[1:16:32.880 --> 1:16:33.920]  It's a very fair
+[1:16:33.920 --> 1:16:41.600]  That's honestly very fair like like like when you buy a new Samsung Galaxy S and the default Sig is sent from my
+[1:16:42.080 --> 1:16:44.560]  Samsung trademark galaxy trademark
+[1:16:44.560 --> 1:16:46.560]  Six trademark
+[1:16:47.680 --> 1:16:51.360]  On AT&T LTE 4G internet
+[1:16:52.360 --> 1:16:54.520]  From the now trademark network trademark
+[1:16:56.080 --> 1:17:01.400]  Do you really think that AT&T CEO is is using that signature on his phone?
+[1:17:01.400 --> 1:17:02.360]  I
+[1:17:02.360 --> 1:17:10.160]  Hope so, but I doubt it. Yeah, I really doubt I think it should be a rule that if you if you are the kind of if you're at that kind of position where you can dictate a
+[1:17:10.160 --> 1:17:14.320]  Default email signature that will be used by thousands of people. Yeah, you should have to use it yourself
+[1:17:14.320 --> 1:17:18.160]  I absolutely believe whatever the default is that you said you should have to use it
+[1:17:18.640 --> 1:17:24.160]  Right, I I you know, I believe in personal freedom and liberty, but I would support making that a law and
+[1:17:25.280 --> 1:17:31.960]  You know what there's an easy way that you can you can set your email signature to whatever you want by just shipping a default email signature
+[1:17:31.960 --> 1:17:37.280]  That's a blank exactly and ask them, you know, what do you want to put at the bottom of your emails?
+[1:17:38.240 --> 1:17:42.960]  Anyway, I always thought that was great about jobs. So I believe it about Tim Cook and I think it's great that he uses the iPad
+[1:17:42.960 --> 1:17:50.040]  And but my question and it was prompted by the the great contra on Twitter
+[1:17:53.960 --> 1:18:02.080]  AKA counter notions one of the great anonymous or suit animus, I guess Twitter Twitter personalities
+[1:18:02.080 --> 1:18:13.440]  Um, does IBM CEO Jenny Rometty use an iPhone and I'm totally serious when I say that I think that's an interesting and telling
+[1:18:13.840 --> 1:18:15.840]  You know question
+[1:18:16.080 --> 1:18:19.360]  Do you agree? I think that would be interesting to know the answer to
+[1:18:20.080 --> 1:18:25.360]  It's if you could actually trust the answer like you know if they just gave it in a in a press statement. Oh, yes
+[1:18:25.360 --> 1:18:28.160]  I've been I usually like then you know that's probably BS who knows
+[1:18:28.160 --> 1:18:33.120]  But if if you actually could get like a authoritative like trustworthy information that says oh, yeah
+[1:18:33.120 --> 1:18:36.400]  Yeah, they've been using an iPhone for for you know months or years or whatever
+[1:18:37.120 --> 1:18:39.120]  That's interesting to know
+[1:18:40.320 --> 1:18:43.960]  But it's I think it's a little bit less interesting because I
+[1:18:44.800 --> 1:18:50.000]  Vm doesn't make phones do they right? So it's well, but let's just do because of that but right?
+[1:18:50.000 --> 1:18:56.960]  Um, but I don't know I I think you're right though like that that could show a level of caring that like you know
+[1:18:56.960 --> 1:18:59.680]  If the CEO doesn't even use an iPhone
+[1:19:00.400 --> 1:19:05.120]  How committed is you know how how much does this new partnership really matter?
+[1:19:05.120 --> 1:19:07.360]  Like what is this really likely to actually go anywhere or not?
+[1:19:07.840 --> 1:19:11.920]  You know if the CEO doesn't care deeply enough to even try it themselves
+[1:19:12.480 --> 1:19:15.520]  Right and if their own enter prize because you know
+[1:19:15.520 --> 1:19:20.880]  IBM itself is is like it's like a fractal like where they're their business is
+[1:19:21.520 --> 1:19:23.520]  you know consulting and
+[1:19:23.520 --> 1:19:30.960]  Services for the enterprise, but they themselves are like the canonical enterprise right if they're not good enough for their own enterprise needs
+[1:19:30.960 --> 1:19:32.160]  Then you know
+[1:19:32.160 --> 1:19:36.880]  Right because they themselves are a massive company with very large needs and and
+[1:19:37.520 --> 1:19:39.520]  Conservative you know
+[1:19:39.520 --> 1:19:52.320]  Technically conservative not politically conservative, you know, but that that they still use
+[1:19:52.320 --> 1:19:57.360]  I think that I think their conservatism technically I mean partly that's what they sell
+[1:19:57.360 --> 1:20:02.400]  That that is their product. It is also their culture and that's that's why I think this is interesting at all
+[1:20:02.880 --> 1:20:06.400]  You know if Apple had a partnership with somebody smaller or somebody more dynamic
+[1:20:06.400 --> 1:20:12.240]  It would be less interesting the fact that partnering with IBM is more interesting because
+[1:20:13.600 --> 1:20:15.600]  It is so
+[1:20:15.600 --> 1:20:17.600]  Opposite of what you would expect
+[1:20:19.200 --> 1:20:21.440]  But then when they explain it and they say oh well, you know
+[1:20:21.440 --> 1:20:26.480]  We have no overlap this makes sense then it's like okay. Yeah, I kind of get that okay that that does kind of make sense
+[1:20:26.960 --> 1:20:29.280]  Yeah, I don't know. I just think it would be telling like I said
+[1:20:29.280 --> 1:20:32.480]  I don't think if it turns out she doesn't if she uses something else
+[1:20:32.480 --> 1:20:39.600]  Um, you know, which my question though is at this point in time and maybe that's telling about the state of
+[1:20:40.160 --> 1:20:43.920]  The mobile you know world. How crazy is it in a way?
+[1:20:43.920 --> 1:20:50.320]  It seems crazy to think that the I president or the CEO of IBM uses an Apple iPhone as her phone
+[1:20:51.200 --> 1:20:55.600]  Well, but else should she use yeah, what exactly what else should she use blackberry?
+[1:20:56.000 --> 1:21:02.400]  I you know blackberry is you know clearly on the way out and just can't do things that people expect to do on them
+[1:21:02.400 --> 1:21:06.800]  Mobile platform right now. Yeah, I would say like two years ago blackberry would have still been a plausible guess
+[1:21:07.200 --> 1:21:08.720]  Right to like and like two years ago
+[1:21:08.720 --> 1:21:12.960]  They were probably still a lot of like you know quote business people who are still playing with their blackberries
+[1:21:12.960 --> 1:21:14.960]  I have to imagine today
+[1:21:15.200 --> 1:21:19.840]  It's getting much more rare to see a very actually in use by somebody who like
+[1:21:20.560 --> 1:21:23.920]  By somebody who just bought a new phone and like yeah, I got a new phone yesterday
+[1:21:24.000 --> 1:21:28.640]  It's a new blackberry like how often do you ever see that even even now in the business community?
+[1:21:28.640 --> 1:21:30.640]  I have to imagine that's extremely rare
+[1:21:30.640 --> 1:21:34.960]  Yeah, I've I've never seen somebody using the touchscreen blackberries
+[1:21:35.600 --> 1:21:40.080]  Yeah, neither of you and I you know, I don't fly frequently by a fly frequently enough
+[1:21:40.080 --> 1:21:43.440]  And I'd you know that would be a place where I would spot it and I'd never seen it
+[1:21:43.440 --> 1:21:47.360]  I still see people with the the buttony ones, but fewer and fewer
+[1:21:47.840 --> 1:21:52.320]  Yeah, they're done quickly. Well, it's it's so it's possible. She uses a blackberry
+[1:21:53.040 --> 1:21:57.920]  It's I would guess it's probable. She at least used to use a blackberry so maybe she's still holding out
+[1:21:57.920 --> 1:22:04.320]  But you know, wouldn't that be a distressing sign? No that the CEO of IBM is still holding onto a blackberry
+[1:22:04.320 --> 1:22:10.480]  Which is clearly a dying platform? What else Android? I don't think so. Why would it make sense?
+[1:22:10.720 --> 1:22:14.560]  Why would it make any more sense for the president of IBM to be using
+[1:22:15.280 --> 1:22:17.040]  Android phone than
+[1:22:17.040 --> 1:22:18.800]  an iPhone I mean if anything
+[1:22:18.800 --> 1:22:22.000]  I think it made the most sense for the president of IBM to use one of those like stalman phones
+[1:22:22.000 --> 1:22:26.480]  It's just all Linux and crazy stuff like the still exist people still trying to make those
+[1:22:26.480 --> 1:22:30.640]  I think there's people trying to make them, but I don't think that they would work in the enterprise at all
+[1:22:30.640 --> 1:22:34.840]  I mean, I think there's a security angle there, but I don't think there's an integration with
+[1:22:35.920 --> 1:22:41.040]  You know all the software that they have to integrate with that's gonna happen those even get certified or run on a network
+[1:22:41.040 --> 1:22:43.040]  I don't even know probably not
+[1:22:43.760 --> 1:22:47.120]  That's probably incompatible with being open source. I bet they can't do it
+[1:22:47.760 --> 1:22:53.200]  Yeah, I don't know about that. I don't think so. I've never heard of any company that's that's using those
+[1:22:53.200 --> 1:22:58.680]  It seems to me like the people who that appeals to are security experts, you know, and I think there's a that's a
+[1:22:59.360 --> 1:23:05.560]  Very small niche. Yeah, it's a great argument for but it's not. I don't think it's something that IBM would use or standardize on
+[1:23:06.800 --> 1:23:11.360]  You know, and there's a bunch of people on Twitter who answered my question and said that they don't know
+[1:23:11.360 --> 1:23:16.200]  But that there are people in IBM using iPhones and that there's a lot of people who work at IBM
+[1:23:16.200 --> 1:23:22.720]  Who use iPads on a regular basis that there is a lot of dog-fooding in that regard within IBM
+[1:23:23.280 --> 1:23:24.480]  You know, it makes sense
+[1:23:24.480 --> 1:23:25.720]  IBM
+[1:23:25.720 --> 1:23:32.840]  the what most people think of them as is not what they do anymore, you know, most people think of of their days as a
+[1:23:33.160 --> 1:23:35.160]  computer manufacturer, right and
+[1:23:35.920 --> 1:23:39.640]  That is not their business anymore. They have gotten rid of I believe that entire business
+[1:23:39.640 --> 1:23:41.640]  I don't think they have any parts of it left. Nope
+[1:23:41.640 --> 1:23:47.480]  They are a services that they're enterprise services company and so they might do servers, but I
+[1:23:48.040 --> 1:23:51.080]  Think it's more of that anymore. I haven't seen an IBM server for sale in a long time
+[1:23:51.440 --> 1:23:56.240]  Well, and if they do I think it's I think it counts more as consulting than server sales
+[1:23:56.240 --> 1:24:00.040]  Yeah, you know, I think that and I think when you bought if it's if they have them
+[1:24:00.040 --> 1:24:03.640]  I'll bet it costs way more for the service contract and everything than the actual hardware
+[1:24:03.640 --> 1:24:08.760]  Yeah, and like I don't think you can just go buy one IBM server for Amazon like I think you'd have to like yeah
+[1:24:08.760 --> 1:24:12.640]  It'd be involved anyway, so you know, they have all these like services, you know
+[1:24:12.640 --> 1:24:19.640]  They they will they will contract to your business to build your CRM system for you like stuff like that like that
+[1:24:19.640 --> 1:24:23.000]  That's or you can use a big lotus notes installation
+[1:24:23.000 --> 1:24:26.720]  Yeah, I mean, and I don't know most of what they do because I don't I'm in that industry
+[1:24:26.720 --> 1:24:29.480]  but that's that's like the high level version of it basically and
+[1:24:30.720 --> 1:24:36.840]  And it's like if that's your business then yeah, it helps it helps to some degree to
+[1:24:36.840 --> 1:24:42.280]  Primarily sell your stuff when you have something in a certain market, you know, you know, if they have their own
+[1:24:42.880 --> 1:24:49.480]  Their own document management server then it makes sense for them to sell that as much as they can as as part of these deals
+[1:24:50.400 --> 1:24:51.400]  but
+[1:24:51.400 --> 1:24:53.400]  if the business world is demanding
+[1:24:53.840 --> 1:24:59.400]  integration with iOS devices and if they don't sell iOS devices or something like iOS devices
+[1:24:59.600 --> 1:25:01.600]  it totally makes sense for them to
+[1:25:01.600 --> 1:25:11.000]  address the demand and not be religious about it not be like oh, we can't deal with them because you know, they're Apple and we used to be enemies
+[1:25:11.720 --> 1:25:19.800]  you know, they the fact is they're not enemies now and I have a IBM or an extremely different positions now than where they both were
+[1:25:19.880 --> 1:25:21.880]  respectively in the early 80s and
+[1:25:23.080 --> 1:25:28.760]  And IBM is no longer like they don't they they have no reason to care whose phones they're selling anymore
+[1:25:28.760 --> 1:25:34.520]  Right and in fact, well, I don't think they should care that it's anyone particular one
+[1:25:34.520 --> 1:25:40.000]  But I can see why it would appeal to them to sell Apple because Apple, you know, is is a single source
+[1:25:40.240 --> 1:25:45.200]  That would make it easier for them than if they did were doing the same thing with Android. All right
+[1:25:45.600 --> 1:25:49.200]  And if there's demand in these companies, you know the same way that so many people
+[1:25:49.280 --> 1:25:53.400]  You know brought in iPhones because they wanted to and they made the company support them afterwards
+[1:25:53.400 --> 1:25:59.040]  If if there are compelling reasons for companies whether it's employees who want to use iPads
+[1:25:59.600 --> 1:26:04.600]  Employees who already are using them any way and want them to work better and be more integrated at the companies networks and stuff
+[1:26:05.400 --> 1:26:12.040]  Or just you know things like deploying custom iOS devices as part of you know the UPS guy tools or whatever
+[1:26:13.200 --> 1:26:19.240]  If if the businesses are demanding that stuff it is an IBM's best interest to work with Apple to
+[1:26:19.240 --> 1:26:25.400]  To offer that to integrate that into the contract and the services they're providing otherwise because that's what their customers are demanding
+[1:26:25.840 --> 1:26:29.080]  Yeah, maybe it you know part of the fallout of this is
+[1:26:29.880 --> 1:26:31.720]  Isn't really even about Apple at all?
+[1:26:31.720 --> 1:26:37.960]  But really about the way that IBM is not the IBM we've always thought of and I knew that but this is just sort of
+[1:26:38.240 --> 1:26:45.320]  Crystallizing it I mean the only people who should be upset about this are Microsoft because this this is their business before this is exactly like
+[1:26:45.320 --> 1:26:51.280]  This is the business that that I've argued for a while that Microsoft should be getting into more heavily
+[1:26:51.280 --> 1:26:53.280]  They already have a very strong enterprise division
+[1:26:53.640 --> 1:26:56.320]  And and certainly I I assume
+[1:26:57.120 --> 1:27:00.840]  I don't know this for sure, but I'm sure Microsoft is is probably
+[1:27:01.640 --> 1:27:05.760]  IBM's biggest competitor for enterprise services that that might not be true certainly they're up there
+[1:27:06.280 --> 1:27:10.840]  And and enterprise services are a great business for that kind of thing because it's a big profitable
+[1:27:10.840 --> 1:27:18.120]  relatively stable industry to be in compared to consumer tech which is very hard and fickle and low margin usually so right
+[1:27:18.400 --> 1:27:20.080]  so you know
+[1:27:20.080 --> 1:27:25.720]  Microsoft should this is what Microsoft should be doing but they're not for various reasons and
+[1:27:26.440 --> 1:27:28.440]  I think
+[1:27:28.440 --> 1:27:34.640]  More than more than anything it's a sign of the times not that Apple and IBM are working together
+[1:27:35.280 --> 1:27:39.660]  But that there's a major enterprise partnership that does not involve Microsoft at all
+[1:27:39.660 --> 1:27:44.660]  Yeah, well in that and not just the partnership
+[1:27:44.660 --> 1:27:51.580]  But that that the landscape is changing in a way that such a partnership could exist without Microsoft at all
+[1:27:51.580 --> 1:27:55.100]  Exactly because even if Microsoft weren't involved at the enterprise sales level
+[1:27:55.900 --> 1:28:01.140]  It still up until very recently still would have implicitly meant
+[1:28:02.060 --> 1:28:08.700]  Everybody who was getting one of the devices was getting a Windows PC and the custom office license
+[1:28:08.700 --> 1:28:12.460]  The custom app that was being written would be a Windows app
+[1:28:12.940 --> 1:28:18.700]  Exactly and and or the very least would be an app that runs on Windows because maybe a
+[1:28:19.180 --> 1:28:23.700]  Small part of the trend over the last decade has been web apps, you know, even in the enterprise
+[1:28:23.700 --> 1:28:27.500]  But of course, you know, Windows isn't cut off from that right and there are all those web
+[1:28:27.500 --> 1:28:33.020]  I was usually running IE and these businesses right, but once you're talking about iOS apps now you're talking about
+[1:28:33.500 --> 1:28:38.300]  Something where Microsoft is just completely out of the out of the loop. Yeah, they're cut out
+[1:28:38.300 --> 1:28:46.420]  They are completely irrelevant to to the solutions that it like any any any product or solution that Apple and IBM will work on together
+[1:28:46.820 --> 1:28:49.940]  Will almost certainly not involve anything from Microsoft at all?
+[1:28:49.940 --> 1:28:54.660]  It will almost certainly only serve to make Microsoft stuff irrelevant and an unnecessary
+[1:28:55.340 --> 1:28:57.260]  Yeah, like I said before this
+[1:28:57.260 --> 1:29:05.380]  I think this is all upside for Apple and every additional every time this works and IBM makes one of these deals that gets iPads and iPhones into an enterprise
+[1:29:05.380 --> 1:29:11.460]  It's all upside for Apple. It's iPhones and iPads. They will they will sell now that they wouldn't have sold before
+[1:29:11.820 --> 1:29:20.020]  Maybe it'll be a huge increase. Maybe it'll be like, you know, five percent increase in iPad and an iPhone sales six seven eight percent
+[1:29:20.020 --> 1:29:26.100]  I don't know maybe it'll be small maybe we're one percent, but everyone that sold is upside, but at the same time it's almost
+[1:29:27.060 --> 1:29:30.540]  Probable that everyone is a loss for Microsoft
+[1:29:30.540 --> 1:29:36.820]  Right because these are these are all tasks that Microsoft stuff was mostly was almost all used for before
+[1:29:37.060 --> 1:29:41.580]  All right, maybe with the phones. It's not because Microsoft never really had a big phone thing
+[1:29:41.980 --> 1:29:46.740]  But people are now using their phones for things they previously used to have to use a laptop for it
+[1:29:46.740 --> 1:29:52.540]  And certainly anything that you use an iPad for in these situations is something that would have otherwise been a Windows PC
+[1:29:52.940 --> 1:29:54.940]  Yeah, oh definitely
+[1:29:54.940 --> 1:29:58.260]  And I think that's that's really really a big deal
+[1:29:58.260 --> 1:30:03.180]  Yeah, this is this is probably one of those things where you know in a year
+[1:30:03.460 --> 1:30:07.220]  We're gonna we will have forgotten about it, but then like in five years
+[1:30:07.220 --> 1:30:11.060]  We might look back on this and say oh that that was the sort of of a big shift
+[1:30:11.540 --> 1:30:17.460]  Yeah, and I think we'll probably see it like me and you who don't enter the enterprise at all physically
+[1:30:19.460 --> 1:30:23.980]  I don't know let us know at this point. Yeah, I don't think so either even if we wanted to we couldn't get it
+[1:30:23.980 --> 1:30:28.740]  All right, we would encounter it in as slides and a Tim Cook keynote
+[1:30:29.220 --> 1:30:33.220]  instead of instead of talking about what percentage of Fortune 500
+[1:30:34.740 --> 1:30:42.540]  Are using iOS devices? It's gonna switch to something like percentage of mobile devices in fortune 500 company, right?
+[1:30:43.580 --> 1:30:48.700]  Because that's something they've never talked about, but if that becomes a sizable number that could be huge
+[1:30:48.700 --> 1:30:55.780]  All right, like even if Apple just gets 20% 20% of all mobile devices in fortune 500 companies
+[1:30:55.780 --> 1:31:04.100]  That's enormous because it's also almost certainly the most expensive 20% of the mobile devices in the fortune 500 company almost certainly
+[1:31:05.140 --> 1:31:10.660]  You know, and that's how Apple that's exactly how apples come to dominate the revenue and profits in the consumer
+[1:31:10.660 --> 1:31:15.100]  And in the consumer side of the market is just by taking the 20% where the most money is
+[1:31:15.700 --> 1:31:17.700]  Yeah, seems to be working well so far
+[1:31:17.700 --> 1:31:23.060]  Yeah, pretty good strategy. All right, I wanted to keep this show short. So let's let's wrap it up
+[1:31:23.060 --> 1:31:27.620]  All right, anything else you wanted to talk about anything else on your mind this week? No, I'm just trying to get through now
+[1:31:28.620 --> 1:31:30.620]  1147 emails
+[1:31:30.620 --> 1:31:33.540]  So what was the count for the episode? I think about 60 something
+[1:31:36.260 --> 1:31:38.820]  Yeah, well everything is for the listeners that
+[1:31:39.660 --> 1:31:44.380]  Because of the way that both of us talk I would expect this episode to be about
+[1:31:44.380 --> 1:31:47.540]  45 minutes shorter and overcast I
+[1:31:48.740 --> 1:31:51.780]  Think we're gonna have to split it into but else you'll still save the both
+[1:31:51.780 --> 1:31:58.620]  You'll still save the 45 minutes as you get through both episodes. You're gonna really boost the the smart speed total stats with this episode
+[1:32:03.260 --> 1:32:11.740]  Where can they go to find out more the website is overcast dot FM yep, all right the Twitter account is
+[1:32:11.740 --> 1:32:17.260]  Is overcast FM yep, and of course you are at
+[1:32:17.860 --> 1:32:19.860]  Marco org
+[1:32:19.860 --> 1:32:23.460]  Yeah, that's right Marco armends on on Twitter
+[1:32:24.700 --> 1:32:28.500]  You can save save five characters and you're just Marco on
+[1:32:30.540 --> 1:32:35.860]  What was the other thing we were using for Twitter? Oh, yeah app.net. Yeah, yeah, is that still up? I
+[1:32:35.860 --> 1:32:40.500]  I really wanted that to work, but I think it was hopeless from the start honestly
+[1:32:41.060 --> 1:32:44.860]  I think it had it had a good run like it had a longer run than I expected for it
+[1:32:45.060 --> 1:32:47.260]  But you guys had a great
+[1:32:47.660 --> 1:32:51.260]  Dissection postmortem and sadly I think postmortem is the right word
+[1:32:51.820 --> 1:32:55.500]  ATP about it and that it was I think it was sort of a
+[1:32:56.700 --> 1:33:02.460]  You know, and you can apply you can circle back to what we were talking about with free apps and paid apps and stuff like that
+[1:33:02.460 --> 1:33:06.180]  But there's something about a social network. We're pay first. It was just never going to work
+[1:33:06.820 --> 1:33:10.780]  Yeah, never it's also it's very hard for a social network
+[1:33:11.180 --> 1:33:13.460]  To have something else created that is
+[1:33:14.180 --> 1:33:18.140]  Extremely similar to one that's already successful to have a new one take off
+[1:33:18.260 --> 1:33:22.860]  Like it has to be like a app.net was not different enough from Twitter
+[1:33:22.860 --> 1:33:28.620]  And I know they thought they were but the what the product that most people saw wasn't yeah
+[1:33:28.620 --> 1:33:34.660]  You know, that's if it's a common problem when you're on the inside of a product or service is that you're so intimately familiar with it
+[1:33:34.740 --> 1:33:39.580]  That you can you sense in your bones that you're different enough to matter
+[1:33:39.860 --> 1:33:43.220]  But if ever hey, but yeah, and you you're right
+[1:33:43.220 --> 1:33:43.940]  I'll bet they're right
+[1:33:43.940 --> 1:33:46.900]  I think that they're a hundred percent right that they were different enough to matter
+[1:33:48.340 --> 1:33:55.140]  But sadly it wasn't different enough in a way that was obvious from the outside and so thus to everybody else it didn't matter
+[1:33:55.140 --> 1:34:01.260]  Yeah, exactly it's a very common problem though. Yeah, and you keep yelling to yourself in your head
+[1:34:01.260 --> 1:34:07.340]  No, look it's like YouTube for dog videos. It's totally different than you two and you're never like well
+[1:34:07.340 --> 1:34:11.660]  Why don't we just put our dog videos on YouTube? Yeah, it's it's exactly the same problem
+[1:34:12.260 --> 1:34:17.180]  Well, and part of it like you could build weird other apps that were built on the app net
+[1:34:17.820 --> 1:34:23.420]  Infrastructure that you could never build on Twitter, but correct. Yeah, but that was all stuff that was not only added later
+[1:34:23.420 --> 1:34:26.660]  But also stuff that was just it just never got a foothold
+[1:34:26.660 --> 1:34:28.020]  It wasn't really addressing
+[1:34:28.020 --> 1:34:34.620]  Pressing need that a lot of people had and the whole model of like having to pay for an account for so long before they had the free thing
+[1:34:34.620 --> 1:34:40.500]  Yeah, I never gave people a reason to sign up for it and never gave the people who did sign up a reason to keep using it
+[1:34:40.500 --> 1:34:44.780]  And it never gave developers enough of a reason to require it to
+[1:34:45.980 --> 1:34:48.180]  Build those cool promised apps on it
+[1:34:48.180 --> 1:34:54.980]  Like the the cost of requiring it was so high because you you then have all your customers who had then get app net accounts
+[1:34:55.100 --> 1:34:59.020]  Like it was a that was a big burden to place on on those apps
+[1:34:59.540 --> 1:35:05.540]  So that very few apps ever got made for it that were compelling. Yeah, and by the time they came out it was too late
+[1:35:06.220 --> 1:35:10.820]  Yeah, I think so. Yeah, I think their best chance at that point was if Twitter had imploded
+[1:35:11.820 --> 1:35:17.540]  In terms of you know like the way that there was like the sense that the Twitter was really burning all of the
+[1:35:17.540 --> 1:35:20.860]  Bridges with third party app development, right?
+[1:35:20.860 --> 1:35:24.500]  Like if let's say Twitter just completely pulled the plug on third party
+[1:35:24.900 --> 1:35:29.060]  API's and it was used the official Twitter client or don't use Twitter at all
+[1:35:29.340 --> 1:35:33.420]  There's a chance that some number of us might have switched a lot of our daily
+[1:35:34.100 --> 1:35:39.220]  Chitter chatter to app.net. No, they we still wouldn't I think it would take a bigger
+[1:35:39.220 --> 1:35:46.900]  Inclusion and that like I think if Twitter did what Facebook does now with their timelines where all right Facebook Facebook like you can't
+[1:35:47.540 --> 1:35:54.460]  I don't come by combined with it combined with nuking the third party API's the use the third party API's and the reason
+[1:35:54.460 --> 1:36:00.900]  They knew third party API's is they want to do Twitter Facebook like things with the feed right where like they they don't show you
+[1:36:00.980 --> 1:36:06.980]  Everything that you want to be seeing and they should they can don't want to see right and that way they can then go
+[1:36:06.980 --> 1:36:10.660]  But a business account and say oh, even though you've earned a million followers
+[1:36:10.900 --> 1:36:14.260]  Based on your merit and what people that people who want to hear from you
+[1:36:14.580 --> 1:36:19.880]  We're only going to show about 10% of them what you post unless you pay us that's what Facebook does and
+[1:36:21.100 --> 1:36:27.620]  Yeah, and and it confuses the crap out of people on Facebook, but they don't care because you know Facebook was never a great place to follow
+[1:36:27.620 --> 1:36:29.460]  What was being posted?
+[1:36:29.460 --> 1:36:34.500]  If Twitter did something like that that fundamentally changes the way that product works
+[1:36:34.500 --> 1:36:37.700]  Then that might anger enough people like us
+[1:36:38.420 --> 1:36:44.420]  To leave, but it would it would take something but even that like even that example might not be enough
+[1:36:44.420 --> 1:36:46.820]  It you have to like really do something
+[1:36:47.220 --> 1:36:50.500]  Majorly messing up your product and permanently messing up your product
+[1:36:51.060 --> 1:36:55.220]  Before enough people would leave to make a difference. Well, I think there was a time
+[1:36:55.460 --> 1:36:59.940]  You know a year ago where it seemed like Twitter might have been not teetering on the edge of that
+[1:36:59.940 --> 1:37:07.940]  But maybe looking longingly in that direction and you know stroking their collective chin and thinking hmm. Maybe I
+[1:37:09.540 --> 1:37:15.220]  Still wouldn't put it past them. I mean yeah Twitter like God knows what Twitter will do next month like they're it's always
+[1:37:15.780 --> 1:37:18.500]  It's such a crap shoe. They're their leadership has been so
+[1:37:18.900 --> 1:37:24.100]  A radical to us. Yeah, and a radical is a great word for it. It's like you never know what Twitter is gonna do
+[1:37:24.100 --> 1:37:27.300]  They they've always had this great product that was
+[1:37:27.300 --> 1:37:32.340]  that it could be made into a much more monetizable product by ruining it and
+[1:37:33.060 --> 1:37:36.740]  so far they've kind of walked the line of trying to only minimally ruin it and
+[1:37:38.420 --> 1:37:45.220]  They fundamentally don't understand their own value. No, and they also don't I think they also fundamentally don't value their own
+[1:37:45.540 --> 1:37:51.860]  Employees because there are some great people working at Twitter. You know people who have been working there and have left
+[1:37:51.860 --> 1:38:00.260]  And people who I know are still there on the design teams who are you know, just have great track records and clearly aren't being
+[1:38:02.900 --> 1:38:08.740]  You know listen to and not and aren't given enough authority over the direction of product. Yeah, it's
+[1:38:09.780 --> 1:38:16.980]  I'm I'm shocked at how that company continues to operate given how badly it seems to be led most of the time. Yeah
+[1:38:18.420 --> 1:38:20.420]  I totally agree
+[1:38:20.420 --> 1:38:27.780]  Longest wrap-up ever. Yeah, right now. I might as well just tack on the the ATP theme song
+[1:38:28.740 --> 1:38:34.180]  Then we talk from the 45 minutes afterwards. Exactly. I think my single favorite tweet
+[1:38:34.180 --> 1:38:36.180]  I saw today about overcast
+[1:38:36.740 --> 1:38:41.540]  Was somebody I don't know who it was but somebody sent you a fake screenshot where there's the
+[1:38:42.020 --> 1:38:44.580]  There's a setting where you can you can set how long
+[1:38:44.580 --> 1:38:50.260]  The fast forward goes. Yeah, yeah, and and they said I thought it would have been like this
+[1:38:50.260 --> 1:38:57.220]  And it says 15 seconds 30 seconds 60 seconds and then the last option is however long the ATP theme song
+[1:38:59.940 --> 1:39:02.740]  That was that was the true. That was very good. God
+[1:39:02.740 --> 1:39:05.780]  I got to look it up and and put it in the show not I think I retweeted it
+[1:39:05.780 --> 1:39:08.900]  So you could probably find it there. All right. I will find it there. Thank you Marco armant
+[1:39:08.900 --> 1:39:10.580]  You've been
+[1:39:10.580 --> 1:39:16.500]  Quadrupoli kind with your time anytime. All right. Good luck with the overcast. Thanks
+[1:39:16.500 --> 1:39:44.420]  All right, I'm hitting stop. You are a saint. We should never be allowed to podcast together

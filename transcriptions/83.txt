@@ -1,0 +1,1849 @@
+[00:00.000 --> 00:11.680]  Welcome to the talk show.
+[00:11.680 --> 00:13.200]  A few things up front before we get started.
+[00:13.200 --> 00:22.080]  I want to thank MailChimp, MailChimp is sponsoring this open bar.
+[00:22.080 --> 00:26.000]  So raise a glass to MailChimp, everybody here is drinking on their dime.
+[00:26.000 --> 00:31.400]  If you never heard of them, they do great email newsletters, so go get another drink
+[00:31.400 --> 00:38.800]  and then later tonight go set up a drunk newsletter with MailChimp.
+[00:38.800 --> 00:42.200]  I want to thank Microsoft, our flagship event sponsor.
+[00:42.200 --> 00:43.600]  They've got the banners here.
+[00:43.600 --> 00:50.600]  This is the second year in a row that they've sponsored this event, Azure mobile services.
+[00:50.600 --> 00:51.600]  Truly truly great stuff.
+[00:51.600 --> 00:55.320]  A year ago, I think it maybe was a little bit weirder that Microsoft and their online
+[00:55.320 --> 01:00.680]  stuff was sponsoring this show at this conference, and I think this year it's a little bit
+[01:00.680 --> 01:01.680]  less weird.
+[01:01.680 --> 01:02.680]  I don't know.
+[01:02.680 --> 01:07.120]  I mean, you guys know that with the stuff we're doing at Q brands for the Vesper, we're
+[01:07.120 --> 01:08.120]  using them.
+[01:08.120 --> 01:11.880]  We build our entire backend on their stuff.
+[01:11.880 --> 01:13.640]  Certainly wouldn't do that just because they sponsored the show.
+[01:13.640 --> 01:17.520]  I'm happy that they're sponsoring the show because I really like their stuff.
+[01:17.520 --> 01:18.520]  Really amazing stuff.
+[01:18.520 --> 01:22.520]  So if you're building anything with an online component, I really, really encourage you
+[01:22.520 --> 01:25.560]  to look at what they have to offer.
+[01:25.560 --> 01:31.120]  It's really great, even if you're like us and only develop for iOS and Mac OS, even
+[01:31.120 --> 01:40.840]  if you're really, really firmly in the Apple developer ecosystem, they have great options.
+[01:40.840 --> 01:42.240]  And so check them out.
+[01:42.240 --> 01:45.520]  How many people here have ever checked out Azure mobile services?
+[01:45.520 --> 01:48.520]  Well, we've got to get that up by the end of the night.
+[01:48.520 --> 01:55.640]  So maybe I'll go backstage and let you guys investigate your online storage needs.
+[01:55.640 --> 01:59.480]  Now, I'm going to get started.
+[01:59.480 --> 02:03.720]  So the first part of the show, I have three very special guests.
+[02:03.720 --> 02:14.120]  I have the guides from ATP, Marco Arman, John Syracuse and Casey Liss.
+[02:14.120 --> 02:28.120]  All right, so we've got each got mics, nice, nice soft leather.
+[02:28.120 --> 02:32.720]  Then we just put Casey in the middle, like you never looked.
+[02:32.720 --> 02:36.760]  I was expecting him to be at the edge, so it would be, oh yeah, just sit there and look
+[02:36.760 --> 02:38.440]  pretty for a while.
+[02:38.440 --> 02:43.840]  Even when they build themselves, I think it's Marco Arman, Casey Liss and John Syracuse
+[02:43.840 --> 02:44.840]  so you're always in a car.
+[02:44.840 --> 02:45.840]  It's fabulous.
+[02:45.840 --> 02:46.840]  It's fine.
+[02:46.840 --> 02:47.840]  It's by serening.
+[02:47.840 --> 02:52.840]  Well, it flows really nicely that way, you know, it's the best for the last two.
+[02:52.840 --> 02:57.920]  It's the first time I made the site and that's, I kind of cheated.
+[02:57.920 --> 03:05.080]  So big, do we all agree this was a big WWDC, a big keynote, right, very much, everybody
+[03:05.080 --> 03:06.080]  agrees?
+[03:06.080 --> 03:07.880]  Oh, yeah.
+[03:07.880 --> 03:13.120]  I was sitting in the press section two or three seats away from John and I took a picture.
+[03:13.120 --> 03:17.440]  It didn't come out because it's so dark in the area, you know, with the, you know, the
+[03:17.440 --> 03:19.200]  audience isn't lit, the stage is lit.
+[03:19.200 --> 03:24.240]  But I got a picture of them looking happy, but that's amazing.
+[03:24.240 --> 03:27.800]  We were so disappointed because generally for the last few years, it's been the three of
+[03:27.800 --> 03:33.680]  us in the keynote and we were genuinely disappointed that we couldn't see his like victory
+[03:33.680 --> 03:38.040]  dance and his seat because, you know, I'm assuming that there was some sort of complete
+[03:38.040 --> 03:43.080]  space attack that happened and we had a body experience like I didn't have much recollection
+[03:43.080 --> 03:44.080]  of that.
+[03:44.080 --> 03:49.080]  I had already tweeted earlier in the thing, is this real life when he called Dr. Drake.
+[03:49.080 --> 03:51.760]  But I still couldn't use that one again, but it's exactly what I was thinking.
+[03:51.760 --> 03:52.760]  Is this real life?
+[03:52.760 --> 03:53.760]  Does that slide really go up?
+[03:53.760 --> 03:59.200]  Well, you know, the reality is like wild exuberance from John is, you know, just like,
+[03:59.200 --> 04:00.200]  right.
+[04:00.200 --> 04:04.240]  I had a big smile, I showed teeth their pictures.
+[04:04.240 --> 04:07.960]  So they announced, you know, so I forget the exact way they framed it, but it was, look,
+[04:07.960 --> 04:11.840]  we've got it as SDK and there's the awkward thing where Tim Cook had to explain, you
+[04:11.840 --> 04:15.320]  know, for everybody I've heard, it's never heard of an SDK, it's a software development
+[04:15.320 --> 04:17.120]  kid.
+[04:17.120 --> 04:20.640]  And there's this weird thing there where it's like, come on, come on, really you're going
+[04:20.640 --> 04:22.920]  to explain what SDK is at a developer conference.
+[04:22.920 --> 04:28.040]  I know that this is being simulcast to 100 million people and there's press and these
+[04:28.040 --> 04:33.920]  people don't really get it, but come on, but then, you know, it was, we're proud to announce
+[04:33.920 --> 04:38.720]  today we're introducing a brand new programming language.
+[04:38.720 --> 04:44.040]  And I look over at John and there was still no reaction and I think it was like, I think
+[04:44.040 --> 04:48.560]  his initial thought was, there's got to be a catch.
+[04:48.560 --> 04:53.120]  I don't even remember when he said that, I don't have all I remember is the orange Swift
+[04:53.120 --> 04:58.160]  logo and I was just, seriously, I have very little recollection, I was happy, I was just so
+[04:58.160 --> 05:02.320]  happy that this was really happening and then like everyone else was like, everyone else
+[05:02.320 --> 05:06.760]  like, you're seeing this too, right, it's not just me, was it like, was it the Grinch
+[05:06.760 --> 05:12.880]  where like the smile just like very slowly just spreads, I can only imagine.
+[05:12.880 --> 05:18.280]  I'm very jealous that you got to witness this first hand, yeah, I, it was the highlight
+[05:18.280 --> 05:22.480]  of the keynote for me, it was seeing his reaction because it really was and I feel like
+[05:22.480 --> 05:29.240]  then they kind of immediately kind of framed it that way where it was sort of a, if you've
+[05:29.240 --> 05:32.760]  been following this platform long enough, you hear new programming language and it's like,
+[05:32.760 --> 05:37.560]  well, is it going to be another bridge, is it, we mean new programming language, like
+[05:37.560 --> 05:42.040]  new to you, it's going to be Python or you're going to elevate the Ruby or, you know, or
+[05:42.040 --> 05:48.600]  is it the real deal, is it really a new Apple programming language, custom built for our
+[05:48.600 --> 05:51.320]  frameworks and it's like, holy shit, yes, it is.
+[05:51.320 --> 05:56.440]  Yeah, different, different syntax, it's not object to see 4.0, you know, all the things
+[05:56.440 --> 06:00.640]  that they could have done, if it's the whole debate amongst all of us is like, oh, why
+[06:00.640 --> 06:03.040]  they need a new language, they could just do, actually, they could just do why, look
+[06:03.040 --> 06:06.200]  at how they've improved the objective to see it, it's like, I mean, nobody thought
+[06:06.200 --> 06:10.160]  that they were ever settled, they'll sell that debate, you know, it's unequivocal looks
+[06:10.160 --> 06:14.320]  unlike objectively in any way.
+[06:14.320 --> 06:19.760]  So how much have you guys looked at Swift so far, only a little bit, and I didn't go to,
+[06:19.760 --> 06:24.080]  no, you went to the introduction to Swift, I mean, if we had all just had time to read
+[06:24.080 --> 06:27.880]  that big, I books or PDF thing, we would know a lot about it, but we haven't, but I bet
+[06:27.880 --> 06:31.280]  if you read that, you know more than you knew from going to that session.
+[06:31.280 --> 06:36.360]  Yeah, I mean, I, I poked, I poked through, I poked through that book with little bits and
+[06:36.360 --> 06:39.640]  pieces to see things that I thought like were interesting, like we were talking the
+[06:39.640 --> 06:43.440]  other night about how closures were going to be handled and whether or not you need to
+[06:43.440 --> 06:46.600]  do memory stuff and it turns out, yeah, you need to do that.
+[06:46.600 --> 06:52.120]  But I mean, really, I'm just thrilled that it's not Pearl because dealing with, dealing
+[06:52.120 --> 06:56.920]  with, it's almost Pearl, well, dealing with the smogness of it just being a new language.
+[06:56.920 --> 06:57.920]  Oh, I know.
+[06:57.920 --> 06:58.920]  Oh, I know.
+[06:58.920 --> 07:08.960]  I'm going to cut you off because this is my, I want to let you guys shine, but I, I listened
+[07:08.960 --> 07:09.960]  to ATP every week.
+[07:09.960 --> 07:17.840]  I don't need another episode, because that's a whole, that you complaining about Pearl
+[07:17.840 --> 07:18.840]  and forget it.
+[07:18.840 --> 07:22.040]  We're not, no more Pearl, last time we say that we have months of material.
+[07:22.040 --> 07:26.560]  For our show out of this.
+[07:26.560 --> 07:31.200]  When is the last time I don't know that I did, like usual, I've done no research, when
+[07:31.200 --> 07:35.080]  is the last time Apple introduced its own programming language off the top of my head,
+[07:35.080 --> 07:42.240]  I want to say Apple script, Dylan, maybe, yeah, Dylan, but Dylan never did a chip?
+[07:42.240 --> 07:45.040]  Could you ever write an actual thing in the real world using it?
+[07:45.040 --> 07:46.520]  I don't know, maybe not.
+[07:46.520 --> 07:47.520]  Right.
+[07:47.520 --> 07:49.480]  Does courts compose or count for anything?
+[07:49.480 --> 07:52.240]  I don't think that's a programming language.
+[07:52.240 --> 07:54.120]  I think Apple script was the last.
+[07:54.120 --> 07:55.840]  That's a type of talk, right?
+[07:55.840 --> 07:58.320]  No, Apple script came after hyper talk.
+[07:58.320 --> 07:59.320]  Hyper talk was first.
+[07:59.320 --> 08:04.280]  I'm almost sure somebody, I'm looking at some of the chat room, looking at them.
+[08:04.280 --> 08:05.280]  Right.
+[08:05.280 --> 08:11.960]  No, I think, well, off the top of my head, I'm going to say hyper card was like 1989 or so,
+[08:11.960 --> 08:15.080]  and Apple script came out in somewhere in a system seven years.
+[08:15.080 --> 08:17.520]  So it was, I think it was like system seven one.
+[08:17.520 --> 08:18.520]  You could be right.
+[08:18.520 --> 08:24.080]  And I think that big picture, not getting down into the nitty gritty of the details
+[08:24.080 --> 08:28.360]  of what Swift is actually like as a programming language, zoom out and just kind of look
+[08:28.360 --> 08:29.440]  at it and get the basics.
+[08:29.440 --> 08:37.240]  I really do think that it is a very Appley programming language, or at least representative
+[08:37.240 --> 08:42.280]  of today's Apple, the modern, I was going to say like Dylan represents the 90s Apple.
+[08:42.280 --> 08:50.800]  And, and Apple script, I think Apple script is very much of a language of and, and by 1991,
+[08:50.800 --> 08:57.680]  92 Apple, where, you know, the whole idea of, we're not going to make programmers happy,
+[08:57.680 --> 08:59.680]  we're going to make regular people programmers.
+[08:59.680 --> 09:03.280]  Or even just like the hippie-dippy kind of academic language, like I have a high flute
+[09:03.280 --> 09:06.880]  and idea, and I'm going to embody that idea in a beautiful, perfect language, or whatever
+[09:06.880 --> 09:11.120]  it where as, you know, Swift is pragmatic, it's, it's crystallat in her eyes, like it is
+[09:11.120 --> 09:14.880]  a hundred percent, like everything else they've done, it's like down brass tacks, we need
+[09:14.880 --> 09:17.720]  this thing to do x, y, and z, and we're going to make it, and if it's a little bit ugly,
+[09:17.720 --> 09:18.720]  we don't care.
+[09:18.720 --> 09:19.720]  Totally pragmatic.
+[09:19.720 --> 09:27.080]  Yeah, and I, and I compare my analogy is to the use of Helvetica throughout the UI on iOS
+[09:27.080 --> 09:35.240]  and now on, on OS X, Helvetica is a great fun, and I, I've always been a big fan of it,
+[09:35.240 --> 09:38.440]  but it's also famously a very plain fun.
+[09:38.440 --> 09:42.440]  Some people, a lot of people consider it to be the most neutral font that exists, that,
+[09:42.440 --> 09:47.000]  that, that, you know, they call it Swiss typography, but that, you know, I think part of
+[09:47.000 --> 09:50.840]  the reason that phrase even comes out, not just that the Swiss used fonts like Helvetica,
+[09:50.840 --> 09:53.320]  but that, it's the sense of neutrality.
+[09:53.320 --> 09:57.920]  And when you use Helvetica for anything, nobody ever says, my God, you're so clever,
+[09:57.920 --> 10:03.800]  you found this amazing font that I never heard of, it's a very plain font, and, and
+[10:03.800 --> 10:07.240]  I think when they first unveiled the iPhone, I remember people complained about it that,
+[10:07.240 --> 10:11.320]  wow, what an uninspiring choice, Helvetica.
+[10:11.320 --> 10:17.200]  I think Swift is that kind of programming language, where there's no real, amazing, complicated,
+[10:17.200 --> 10:21.880]  it's got weird serifs though, like it is, I think Swift has pointy edges, I think the more
+[10:21.880 --> 10:25.280]  you look into it, the more you see some strain, it's kind of more of a mongrel, like
+[10:25.280 --> 10:28.320]  it's like Helvetica, but occasionally, like, they have like ding bats in the middle of
+[10:28.320 --> 10:29.320]  customers.
+[10:29.320 --> 10:35.320]  Right, it's like Helvetica and they've added a couple of Apple-specific emoji, right to
+[10:35.320 --> 10:40.520]  the main link, right to the main character set.
+[10:40.520 --> 10:43.520]  So you, Marco, you haven't looked at it yet, so.
+[10:43.520 --> 10:53.040]  Well, you know, I think it's not PHP, you know, I've looked at it, you know, for 10 minutes.
+[10:53.040 --> 10:57.080]  So, you know, none of us, well, unless there's random Apple people here, although even
+[10:57.080 --> 11:01.480]  they didn't use much of it yet, but none of us have really used it yet, you know, we're
+[11:01.480 --> 11:04.600]  not going to know whether it's a good language or not for a while.
+[11:04.600 --> 11:09.680]  You know, it's going to, because it takes, you have to almost master a language to really
+[11:09.680 --> 11:14.280]  know whether it's good or not, and usually most languages aren't, you know, categorically
+[11:14.280 --> 11:15.520]  good or bad.
+[11:15.520 --> 11:16.520]  There's, you know, pleasant minds.
+[11:16.520 --> 11:21.880]  So, I think right now you can look at it the same way that when a whole rush of programmers
+[11:21.880 --> 11:26.480]  came to iOS for the first time to make apps for the app store and the big gold rush.
+[11:26.480 --> 11:29.720]  Everyone looked at objective C and was like, what a weird language, there's all these brackets
+[11:29.720 --> 11:34.120]  everywhere and what the heck does that method definition, what's that weird syntax?
+[11:34.120 --> 11:37.800]  And it looked weird and foreign to them, but the language is actually much better than that
+[11:37.800 --> 11:39.600]  once you get used to it.
+[11:39.600 --> 11:44.360]  With Swift, I think we're looking at it now, and a lot of us are saying, this is amazing,
+[11:44.360 --> 11:47.440]  but it might actually end up being worse than we think because we aren't familiar with
+[11:47.440 --> 11:48.440]  it yet.
+[11:48.440 --> 11:52.120]  It's probably going to be better than we think, but it's going to take just a while before
+[11:52.120 --> 11:54.680]  any of us are familiar enough to really make that call.
+[11:54.680 --> 11:59.360]  I think it has the same effect as like the new look for like iOS 7 or your assembly.
+[11:59.360 --> 12:02.800]  When I was saying this back there, when they put objective C up on the slides now after
+[12:02.800 --> 12:07.040]  you've seen Swift for a while, you can't go back to look at the old like, I mean, if
+[12:07.040 --> 12:10.920]  whether it's better or not, it seems it's such a huge leap over objective C in terms
+[12:10.920 --> 12:15.680]  of capabilities and like compactness and expressiveness that it's really hard to go back
+[12:15.680 --> 12:19.960]  and look at objective C examples, because you see all this noise that's not there and Swift,
+[12:19.960 --> 12:22.440]  and it's has, I don't think we'll ever be able to go back.
+[12:22.440 --> 12:26.280]  No matter how it's Swift ends up, maybe it has terrible words or real design problems or
+[12:26.280 --> 12:29.160]  whatever, it's clear that Apple is committed to it and we're going to be using it.
+[12:29.160 --> 12:30.960]  Well, you guys are.
+[12:30.960 --> 12:36.520]  It's also kind of weird that it kind of came out as this fully formed idea, and they
+[12:36.520 --> 12:41.760]  mentioned they're going to revise it slightly over time with our feedback, but it came
+[12:41.760 --> 12:47.680]  out of nowhere and all of a sudden it's boom, this pretty advanced language with tons
+[12:47.680 --> 12:56.200]  of capabilities out of the blue and fully designed within this very small subset of Apple,
+[12:56.200 --> 13:01.680]  fully designed here. This is our language period. Yeah, it came out and it not only
+[13:01.680 --> 13:09.480]  wasn't leaked or rumored, it wasn't even on people's wish list like, you know, there
+[13:09.480 --> 13:16.800]  was one of us, but you know, I don't think any of us expected this would come out this
+[13:16.800 --> 13:22.200]  year at all. I mean, many of us, myself included, didn't expect objective C to be replaced
+[13:22.200 --> 13:30.000]  for the next decade. And you mentioned this specifically that it's Tuesday. We've only
+[13:30.000 --> 13:36.720]  known about it for 36 hours or so. You're not going to say, hey, when I rewrite the
+[13:36.720 --> 13:44.680]  overcast download manager for the fifth time, I'm going to use Swift. But it does seem
+[13:44.680 --> 13:50.920]  like it seems like one of the ways that I think I would bet heavily on it working out
+[13:50.920 --> 13:56.600]  and very quickly, you know, like in a way, like that whatever you thought about the iOS
+[13:56.600 --> 14:00.840]  7 look when it first came out, whether you loved it right away or you hated or whatever,
+[14:00.840 --> 14:06.920]  I think a year in to the, you know, to the week, when you look back at the old iOS, it's
+[14:06.920 --> 14:12.800]  like, oh, you know, it's really looks bad. It looks old. And I think that it's not going
+[14:12.800 --> 14:16.520]  to take long before objective C takes on that look of, oh my God.
+[14:16.520 --> 14:21.160]  We're already there. Absolutely. I mean, and during the presentations, they'll flip back
+[14:21.160 --> 14:25.480]  and forth between slides and objective C and slides and Swift. And just like John said,
+[14:25.480 --> 14:28.880]  the moment you get back to objective C, it's like, well, that feels cushy and familiar,
+[14:28.880 --> 14:33.080]  but it's like an old girlfriend or boyfriend, right? You know, it's like, at the time,
+[14:33.080 --> 14:38.360]  that was, I really liked him or her, but now 10, 15 years on, oh, they didn't do too
+[14:38.360 --> 14:52.360]  well after that. Wow. There's two ways, two ways that I think that it's going to get
+[14:52.360 --> 14:58.280]  uptake quickly is one is that they're, they still have all the same frameworks. The frameworks
+[14:58.280 --> 15:02.720]  are the same. It's a new language on top of the framework. So they're not saying we've
+[15:02.720 --> 15:07.960]  introduced this new thing and it's all new. And it's the next generation thing and you
+[15:07.960 --> 15:12.240]  kind of have to go all in at once. And oh, and we've only done this much of it so far.
+[15:12.240 --> 15:17.440]  It's already all of the frameworks. And I think that's huge. And it means that you can't
+[15:17.440 --> 15:21.120]  think about starting to use it right away. And then I think the other thing is the way
+[15:21.120 --> 15:24.760]  that they're really encouraging and emphasizing, at least at the I've seen so far just
+[15:24.760 --> 15:29.920]  in the first day, that you can start taking existing apps and just rewrite one class using
+[15:29.920 --> 15:35.080]  Swift. And you know, just go like that or just start adding your new, you know, new features
+[15:35.080 --> 15:38.200]  in Swift and keep the old stuff. You don't have to rewrite the whole app. You don't have
+[15:38.200 --> 15:43.720]  to have a Swift app or an Objective-C app. They're just cocoa apps and parts are written
+[15:43.720 --> 15:48.680]  and Objective-C and parts are written in Swift. Yeah, we saw this before with ARK. What
+[15:48.680 --> 15:51.680]  is it two years ago, something like that? It was a similar situation where, look at
+[15:51.680 --> 15:56.960]  this really new cool thing and you can use it selectively here and there, but clearly it's
+[15:56.960 --> 16:01.360]  in everyone's best interest. It's an Apple's best interest. It's an AR best interest to embrace
+[16:01.360 --> 16:05.480]  this and really run with it. And so it's a very similar tact as to what what happened
+[16:05.480 --> 16:10.960]  with ARK. I'm also pretty confident that, you know, if you think about, I think the chance
+[16:10.960 --> 16:15.720]  of this being a very good language are very high because Objective-C is a very good language
+[16:15.720 --> 16:21.400]  in a lot of ways. I'm a big fan of it. Probably because I know it like PHP, but that's
+[16:21.400 --> 16:27.960]  we all know, you know. But if you think about the amount of thought and criticism that
+[16:27.960 --> 16:33.160]  must have come to this language during its development from the people at Apple who decide
+[16:33.160 --> 16:38.880]  what programming language they use, those people are probably not only very smart, but also
+[16:38.880 --> 16:44.000]  extremely critical and careful when making a change like this. And so I think that it's
+[16:44.000 --> 16:48.800]  very, very likely to end up being a very good language because of how it came to be.
+[16:48.800 --> 16:51.400]  But what about the small, what we're talking about this backstage, what about the small
+[16:51.400 --> 16:54.640]  group of people that have seen this, because it has been so secret and some Apple, some
+[16:54.640 --> 16:58.560]  groups inside Apple have been looking at it, but like, I think, I'm going to test out
+[16:58.560 --> 17:02.680]  who's developers here in the audience, I'm presuming, like when they showed you dot dot
+[17:02.680 --> 17:05.400]  and dot dot dot and explained how they were different.
+[17:05.400 --> 17:08.720]  Did you do it like that? Right after the slide where they told you about how they don't
+[17:08.720 --> 17:12.440]  have a cow, fall throughs on the case statements and they require brackets on the F's and
+[17:12.440 --> 17:15.480]  then, but then we made our own mistake that you're going to regret 20 years from now.
+[17:15.480 --> 17:18.720]  We made two different operators that are different by a period that behave differently
+[17:18.720 --> 17:23.200]  to make off by one errors. I don't think that would have survived like contact with the
+[17:23.200 --> 17:28.400]  outside world. And so it shows that the group that they have inside Apple, I mean, I'm
+[17:28.400 --> 17:31.480]  not saying it's like insular, but they have to keep it secret for four years.
+[17:31.480 --> 17:39.000]  All right, time out, I'll explain. It's called a rain job. But there's thousands of people
+[17:39.000 --> 17:45.360]  out there listening to the show later. I'm talking to them. So there's something called
+[17:45.360 --> 17:52.800]  a rain operator and you can write that like the digit one dot dot dot five and that returns
+[17:52.800 --> 17:59.200]  an array of one, two, three, four, five. It fills it in with, it knows if it are integers,
+[17:59.200 --> 18:05.120]  it knows that the ones in the middle are the dot dot dot. It makes plain counting to the
+[18:05.120 --> 18:14.200]  audience. Good job. But if you only use two dots, if you do one dot dot five, it doesn't
+[18:14.200 --> 18:19.720]  return the last item. It returns one, two, three, four. The missing dot means don't give
+[18:19.720 --> 18:24.680]  me the last one. And so it makes total sense to a Pearl programmer.
+[18:24.680 --> 18:28.360]  No, I think you said that the other thing is two dots includes both end points and three dots
+[18:28.360 --> 18:33.760]  doesn't include the last one. I forget. No, more dots includes more. Anyway, I didn't come
+[18:33.760 --> 18:38.080]  up. I didn't come up with an amount of corporate out. Pearl uses just two dots and it's
+[18:38.080 --> 18:43.440]  a rain job writer. It's also a flip flapping scale of context, but don't worry about it.
+[18:43.440 --> 18:48.480]  But like, no, that's the type of mistake that makes me wonder about it. And again, they
+[18:48.480 --> 18:51.840]  said that we reserve the right to change the syntax. We hope we'll get feedback. So it's
+[18:51.840 --> 18:56.760]  not a big deal. But like, you know, that being secret for four years is going to have effects.
+[18:56.760 --> 19:02.200]  It really says something. This feature is so bad. It's not even in PHP. It's not a PHP yet,
+[19:02.200 --> 19:10.360]  couldn't time. I do think, you know, a programming language is no different in broad aspects
+[19:10.360 --> 19:14.600]  from anything, even something visual. And I think Apple runs into this time and time again
+[19:14.600 --> 19:20.240]  with the secrecy and the way you keep stuff secret is by keeping it a small team and not
+[19:20.240 --> 19:24.680]  going outside the team. And then the smaller the team, the more likely that there's some sort
+[19:24.680 --> 19:30.560]  of blind spot on the team. And whenever we see a major new initiative, I think iOS 7 is a
+[19:30.560 --> 19:34.560]  good example. And that probably wasn't a super tightly held secret within a company, but
+[19:34.560 --> 19:40.400]  it was secret enough that there weren't screenshots that leaked. And what they showed us a
+[19:40.400 --> 19:46.720]  year ago at WWDC had a couple of really glaring like, really, you're going to go that
+[19:46.720 --> 19:50.120]  thin on the font for mail that I can't see it.
+[19:50.120 --> 19:54.840]  It's not so much a blind spot is that the group that's doing it has a hierarchy. And so
+[19:54.840 --> 19:58.720]  even if there's feedback within the group that we think this is a bad idea, if enough
+[19:58.720 --> 20:01.680]  people in charge don't think it is the over way, the masses, whereas when you put it
+[20:01.680 --> 20:06.400]  out to the public, then it's, you know, what a however many million iOS programmers out
+[20:06.400 --> 20:09.520]  there sending feedback. And that is like, all right, well, we can't, there's no hierarchy
+[20:09.520 --> 20:15.460]  among them. It's just a, you know, that's the public telling us, well, it's not a straight
+[20:15.460 --> 20:19.200]  forward is reporting relationships inside Apple corporate zone.
+[20:19.200 --> 20:23.240]  So one of the other things I took away from the keynote yesterday is, and I think it's,
+[20:23.240 --> 20:28.720]  I don't see how anybody could deny it. I think it was a year ago at the all things
+[20:28.720 --> 20:32.280]  D conference. Now it's the recode conference. But I think that's when Tim Cook said that
+[20:32.280 --> 20:36.480]  he was going to Apple was going to double down on secrecy. You know, I think that the question
+[20:36.480 --> 20:39.520]  was post-zone along the lines of, hey, you guys are so famously secretive, but you've
+[20:39.520 --> 20:42.560]  had some leaks. Are you guys going to open up some more? And he's like, no, no, we're
+[20:42.560 --> 20:46.720]  going to double down on secrecy. We're more committed to it than other. We think our customers
+[20:46.720 --> 20:51.400]  like to have a surprise. And we think competitively it's to our advantages. And then other
+[20:51.400 --> 20:55.480]  stuff leaks, you know, mostly hardware and everybody laughs at it. And so I got to have
+[20:55.480 --> 21:01.240]  Tim Cook says they're doubling down on secrecy, but look at all the stuff that leaks. I think
+[21:01.240 --> 21:05.600]  it's very clear, at least, and there might be some exception somewhere that I'm thinking.
+[21:05.600 --> 21:11.560]  But in general terms, the only stuff that leaks from Apple recently is hardware from
+[21:11.560 --> 21:16.640]  the supply chain in Asia that it just seems like there's too many places there where
+[21:16.640 --> 21:22.600]  there's factories and bribes and too many people who are seeing these prototype shells
+[21:22.600 --> 21:26.640]  coming out and too much money from the case, you know, the people who make the cases
+[21:26.640 --> 21:30.960]  to put on a phone, who want them and willing to pay tens of thousands of dollars to get
+[21:30.960 --> 21:35.960]  them so that they can have their case ready before their competitors. But in terms of
+[21:35.960 --> 21:41.360]  stuff that just happens at Apple's campus, the secrecy, I think, is better than ever,
+[21:41.360 --> 21:46.320]  especially, you know, the whole programming language. The screenshots, like Yosemite, and
+[21:46.320 --> 21:49.440]  I mean, everybody had guesses what it was going to look like, but to my knowledge not
+[21:49.440 --> 21:55.000]  a single actual screenshot leaked. Yeah, I mean, that's one of the most impressive parts
+[21:55.000 --> 21:59.920]  about the keynote is how much stuff blew our minds, not only because it was major, but
+[21:59.920 --> 22:04.600]  because we didn't see it coming, you know, and like, you know, Yosemite is a great example,
+[22:04.600 --> 22:09.080]  you know, it even like a week ago, two weeks ago, you were predicting that they would
+[22:09.080 --> 22:13.200]  have problems with how to deal with Windows shadows in a new flattened environment, because
+[22:13.200 --> 22:18.680]  we were all predicting, oh, you know, iOS 7 was a radical redesign, and so therefore,
+[22:18.680 --> 22:22.600]  this is going to be a radical redesign, and it's going to look nothing like it did before,
+[22:22.600 --> 22:27.360]  and it turns out it looks a lot like it did before. It's an evolution of the design,
+[22:27.360 --> 22:33.000]  and it's a little bit, you know, it's a bigger step than they usually take in one revision,
+[22:33.000 --> 22:37.120]  but you could see them like making small steps over the next four releases, getting where
+[22:37.120 --> 22:42.800]  it is anyway, you know, and so all these crazy predictions that we had that it would look
+[22:42.800 --> 22:47.200]  crazy, you know, just totally unfamiliar, totally different, everything's all flattened
+[22:47.200 --> 22:52.880]  within lines, that didn't come to be, and what they gave us is something that honestly
+[22:52.880 --> 22:59.720]  just makes a lot more sense. Yeah, it doesn't look like iOS, it looks related to iOS,
+[22:59.720 --> 23:04.120]  you know, like siblings who don't even look that much alike, but they kind of look clearly
+[23:04.120 --> 23:09.000]  like siblings. It's definitely not like iOS running on the iPad, which is what I was kind
+[23:09.000 --> 23:12.320]  of worried about. Yeah, oh, yeah, I think we were all probably worried about that, and
+[23:12.320 --> 23:16.280]  I, you know, I think when they were about to show it, I think we were all probably like,
+[23:16.280 --> 23:20.320]  here we go, they're going to kill our beloved Mac, it's going to be really weird, and I guess
+[23:20.320 --> 23:23.920]  we'll eventually get used to it, but we didn't have to do that, you know, it turns out
+[23:23.920 --> 23:30.280]  it's fine. What about the icons? Because that to me is the one thing that everybody loves
+[23:30.280 --> 23:35.200]  to gripe about, and in iOS 7, I would say like, like, at this time a year ago, I would
+[23:35.200 --> 23:39.800]  say 80% of what I was hearing was about, how fucking ugly the iOS 7 icons were, and
+[23:39.800 --> 23:43.600]  it's like, all right, that's just even concede the point that these icons are ugly.
+[23:43.600 --> 23:47.800]  The whole OS was redesigned. Can we talk about something else? And I feel like with the
+[23:47.800 --> 23:51.760]  Mac OS 10, they didn't go to a unified shape, which is what I kind of thought they were
+[23:51.760 --> 23:55.120]  going to do, because it just seemed, I didn't know if it would be the same as iOS, or
+[23:55.120 --> 23:59.400]  if it would be a circle, but I kind of thought they would, because it seemed like that's
+[23:59.400 --> 24:02.480]  the direction they were going, but they didn't. It's, you know, they're just a little bit
+[24:02.480 --> 24:06.080]  more iOSy, but not really. But it's three shapes, right?
+[24:06.080 --> 24:11.160]  Yeah, it was three. It's like the, it's circular, and then like a tilted rectangle, right?
+[24:11.160 --> 24:15.040]  And then around it, or something along those lines. Yeah. And I actually really like
+[24:15.040 --> 24:18.440]  them. I don't know if it's like, ooh, shiny. And I'm just excited about something new,
+[24:18.440 --> 24:22.080]  but I actually really like them. I don't like them as much as John likes the settings
+[24:22.080 --> 24:28.080]  icon, which is a lot. But, but, but I do, I do like them overall.
+[24:28.080 --> 24:34.720]  Yeah. And I think it's, if you look at what we have today in previous to, to Yosemite,
+[24:34.720 --> 24:37.600]  it was looking a little bit dated. When you have like a dog full of all these icons that
+[24:37.600 --> 24:42.160]  are all radically different shapes, and some of them haven't been updated in a decade,
+[24:42.160 --> 24:46.760]  it, it does kind of look dated. And I think this is a nice, a nice way to modernize it
+[24:46.760 --> 24:53.840]  without being too restrictive to iOSy. And maybe the reason why we got these, this flexibility
+[24:53.840 --> 24:57.600]  of having three shapes we choose from, which for Apple is flexibility.
+[24:57.600 --> 25:02.160]  Wait, I maybe, though, is that actually like the, like the, the recommending you choose
+[25:02.160 --> 25:03.160]  one of those?
+[25:03.160 --> 25:05.360]  It's just a recommendation. People is still good. It's like an iOS. People still going to do
+[25:05.360 --> 25:08.480]  whatever they want with their icon. Right. But they've officially said, though, that these
+[25:08.480 --> 25:10.520]  are the three shapes you should choose from.
+[25:10.520 --> 25:13.560]  Yeah. I didn't even Apple would be like, are they going to update font book to be
+[25:13.560 --> 25:16.440]  looked to have one of the new icons? Like, so there's always some app that doesn't get
+[25:16.440 --> 25:17.440]  the nice treatment.
+[25:17.440 --> 25:20.880]  I didn't know that. Well, and, and I think that, I think that's why we got these options
+[25:20.880 --> 25:26.200]  because I bet even Apple internally could not decide on any of these shapes to have all
+[25:26.200 --> 25:31.480]  of their icons become that shape. So we got choice on the one thing I'm also very excited
+[25:31.480 --> 25:35.840]  about is perhaps the sea of blue icons on my dock. At least they'll be like a circular
+[25:35.840 --> 25:39.240]  blue icon and a tilted blue icon and then a square blue icon.
+[25:39.240 --> 25:42.840]  Yeah, I think it was an orange now. I think that probably, I think iTunes is red.
+[25:42.840 --> 25:45.000]  I think we do. I think, right?
+[25:45.000 --> 25:48.440]  Oh, do you think it's safe to say, and we can pull the audience in a second. But do
+[25:48.440 --> 25:56.040]  you think it's safe to say that the Yosemite design is far less contentious than iOS 7?
+[25:56.040 --> 26:00.120]  Only because iOS 7 came first, though, this came before iOS 7 when we flipping out because
+[26:00.120 --> 26:04.040]  we wouldn't know that taking borders off the buttons was even an option if iOS 7 didn't
+[26:04.040 --> 26:06.640]  come over. And now we're like, thank God, the buttons have boxes around them.
+[26:06.640 --> 26:08.720]  Right. It's everything's fine.
+[26:08.720 --> 26:14.280]  That's honestly my, I think I texted Dave Whiskis afterwards where we're talking about,
+[26:14.280 --> 26:18.720]  you know, how we're going to do Vesper from Mac and like, I just like all capped it. I was like,
+[26:18.720 --> 26:29.120]  buttons look like buttons. I have it. I have a review unit or they Apple, so gaming, running
+[26:29.120 --> 26:34.560]  10, 8 already. So I've spent a couple hours on it today. And you do too. But you guys
+[26:34.560 --> 26:37.640]  haven't really, I mean, it's only one day. You guys haven't installed it yet.
+[26:37.640 --> 26:38.640]  I've been care about the Mac.
+[26:38.640 --> 26:40.440]  Only half of us get press passes.
+[26:40.440 --> 26:43.600]  You just have a Mac just to open up Xcode, right?
+[26:43.600 --> 26:47.440]  I mean, I haven't sold Xcode 6, which looks good. I played with the playground stuff for
+[26:47.440 --> 26:51.200]  Swift, and that looks really awesome. But I, I'll, the only stuff on, you know, 70, I've
+[26:51.200 --> 26:54.840]  seen is watching over John Shoulder as he was fiddling with it earlier today. We're
+[26:54.840 --> 26:59.000]  not special enough to get review units. So I, you know, just poking around and going
+[26:59.000 --> 27:05.200]  through settings and stuff. It, I'm surprised, maybe even in a good way, I think in a good
+[27:05.200 --> 27:13.200]  way that it's really is mostly a skin deep change. It's really just a new theme. And very
+[27:13.200 --> 27:17.120]  little else has changed. Even little things that I really thought were going to go away
+[27:17.120 --> 27:25.160]  like the blue or graphite highlight color choice thing, which, you know, I know why they
+[27:25.160 --> 27:30.080]  did it back in 2001. It was because everybody flipped out because my God, bright blue,
+[27:30.080 --> 27:33.280]  you know, I don't like bright blue. And they're like, all right, here you go. There's something
+[27:33.280 --> 27:39.680]  dull, which I've been running for 14 years. But that, that option is still there. Exactly.
+[27:39.680 --> 27:43.760]  The wording is unchanged. The, you know, I think what you were all afraid of was that it
+[27:43.760 --> 27:47.240]  was going to be like Windows 8 where like, finders gone. All it is is a big sidebar that
+[27:47.240 --> 27:51.280]  sweeps in from the side that has a grid of icon or lunch pad is the new finder or system
+[27:51.280 --> 27:55.280]  preferences. Now is a full screen app and the icons are giant. Like it's not. It's just,
+[27:55.280 --> 28:00.760]  like you said, a re-spent. And there's an awful lot of apps that to me just look, just,
+[28:00.760 --> 28:03.840]  the theme is different. Everything else is pretty much the same. There's, you know, a lot of
+[28:03.840 --> 28:08.840]  apps that are just unchanged. And I'm, I'm pretty happy about that. And the new look
+[28:08.840 --> 28:11.960]  at like, when you start on the slides, you're like, I'm not sure about it or whatever. But
+[28:11.960 --> 28:15.040]  when you see it, when you see it in the element, like, like, look in the new Safari,
+[28:15.040 --> 28:18.880]  when it's all kind of comes together, you're like, all right, it's coherent. It is all of
+[28:18.880 --> 28:22.560]  a piece. Whether you like it or not, it doesn't look like something slapped together. You
+[28:22.560 --> 28:27.480]  can kind of see a continuous aesthetic on it, which, which is nice. I mean, apps that have
+[28:27.480 --> 28:30.920]  not been completely converted. Like, if you just take your app that had never knew Yosemite
+[28:30.920 --> 28:34.840]  existed, launch it, maybe that'll look odd, but Apple's own apps are leading the way in a
+[28:34.840 --> 28:38.680]  reasonable way of saying, this is what they could look like. Check it out. And their apps
+[28:38.680 --> 28:42.280]  are simple. They have like one title bar, one sidebar and a source list or whatever. Like,
+[28:42.280 --> 28:47.320]  I don't know what Photoshop would look like, not that they use native UI. But I think
+[28:47.320 --> 28:51.640]  when I, when I've seen the screenshots and little demos using it here and there, like,
+[28:51.640 --> 28:56.560]  the most jarring change to me is the font change, which we were all, you know, like, we've
+[28:56.560 --> 29:00.440]  been thinking for, for a long time, oh, yeah, well, they're probably going to change
+[29:00.440 --> 29:03.320]  the font. It's probably going to be a, a, a, a, a, a, a, a, a, a, a, a variant. We're
+[29:03.320 --> 29:06.520]  going to have to deal with that along with as they blow up the rest of the interface,
+[29:06.520 --> 29:10.040]  you know, and that ends up, that's like, that's like the biggest, most noticeable change
+[29:10.040 --> 29:11.200]  in most of the time.
+[29:11.200 --> 29:16.040]  I also think that it looks, it looks natural on a retina display. And maybe that's because
+[29:16.040 --> 29:19.560]  that's the, the reviewing of the game is a retina MacBook Pro. So that's what I've seen
+[29:19.560 --> 29:24.520]  it on. But I, I've never thought that Mac OS X looked quite right on a retina display
+[29:24.520 --> 29:29.720]  until now because it just always looked to me fake, like a fake version of Mac OS X
+[29:29.720 --> 29:33.240]  gined up for a movie. Yeah, it's like when you have an HD version of movie, you can see
+[29:33.240 --> 29:37.160]  the actors make up. Right. Yeah, that's what it always looked like to me. It's like, and, and
+[29:37.160 --> 29:42.080]  part of it is the font, but Lucid, a grand whatever, you know, however great it was in 2001,
+[29:42.080 --> 29:47.960]  2002 with our big fat pixels on CRT displays back then, and the way that all the hinting
+[29:47.960 --> 29:53.520]  helped the strokes fall on the pixel grid. We don't need to worry about that shit anymore.
+[29:53.520 --> 29:59.880]  I mean, we've retina displays and nobody at doing 300 DPI print output, whatever use,
+[29:59.880 --> 30:04.320]  you said a grand. Well, the thing about the old look was that all of the interest was in
+[30:04.320 --> 30:07.360]  the surface details. This looks like it's kind of made out of metal and this looks like
+[30:07.360 --> 30:10.840]  it's kind of shiny or whatever. And when you take all that away and they did take it all
+[30:10.840 --> 30:15.000]  away with the flatness and everything, the only thing you have left to lean on aesthetically
+[30:15.000 --> 30:19.200]  speaking is sharpness. And so this looks great on a, I think it looks doesn't look as good
+[30:19.200 --> 30:23.640]  on a non retina display on a retina display. It's like what we have here is cleanliness, sharpness
+[30:23.640 --> 30:27.960]  and this theme takes advantage of that. And I think this, this theme would not be a successful
+[30:27.960 --> 30:33.400]  retina didn't exist. Oh, I definitely think so. I don't think, you know, no way that
+[30:33.400 --> 30:37.560]  this theme would look. And I don't think iOS would either. You know, I don't think there
+[30:37.560 --> 30:43.120]  was any world where the iOS 7 look would have ever hit before those devices all went
+[30:43.120 --> 30:44.120]  red.
+[30:44.120 --> 30:49.040]  So for the poor iPad mini first gen, that's a sad device that really is. Because we
+[30:49.040 --> 30:53.600]  all bought them because they were so small and so light. And it's, oh man, the screen.
+[30:53.600 --> 30:56.920]  And now that the retina ones exist and you look at that, you're like, first of all,
+[30:56.920 --> 31:00.680]  like how long are they going to actually keep supporting the A5? Like, you know, we lucked
+[31:00.680 --> 31:07.840]  out this year, but it's now the minimum. So I'm thinking, it's not getting iOS 9.
+[31:07.840 --> 31:12.320]  Apple PR, well, they're all, everybody works. There's, you know, a pro and they'll never
+[31:12.320 --> 31:18.080]  ever utter even off the record, a single word that is against Apple's interest. Because
+[31:18.080 --> 31:23.120]  they're PR people. That's what they do. And I remember at WWDC last year after the keynote,
+[31:23.120 --> 31:26.840]  when I got the briefing and they, you know, what do you think about iOS 7? And do you
+[31:26.840 --> 31:30.720]  have any questions? I got to ask questions. And one of my questions was, everything you're
+[31:30.720 --> 31:33.440]  showing, this all looks great. I really like it. I think it's a great direction. But
+[31:33.440 --> 31:37.680]  every device you're showing it to me on is a retina display. What about the iPad mini? Is
+[31:37.680 --> 31:41.200]  it going to get the same look? And they're like, yeah, yeah. And I was like, can I see
+[31:41.200 --> 31:47.360]  it? And they were like, not yet. And I was like, is it going to look good? And there
+[31:47.360 --> 31:53.360]  was like, no answer. It was like, yeah. It looks fine. And then they were like, you know,
+[31:53.360 --> 31:59.080]  somebody was there already with like another question. Like, you know, how's your son?
+[31:59.080 --> 32:03.560]  And they're still selling those new. Right. Like, there's going to be a lot of disappointed
+[32:03.560 --> 32:09.800]  retina. I mean, non retina iPad mini owners in about a year, you know, like, I hope this
+[32:09.800 --> 32:14.120]  fall they at least stop selling them. And then, you know, next year, iOS 9's announced
+[32:14.120 --> 32:18.240]  no more A5 devices. There's a lot of A5 devices out there.
+[32:18.240 --> 32:25.240]  Yeah, totally. The other, the last big ticket thing is that to me with the keynote yesterday
+[32:25.240 --> 32:32.080]  was a sign of how Apple is playing a very long game in most of these regards. And I think
+[32:32.080 --> 32:40.640]  that they've got a year's long roadmap and plan. And we only see them on these four
+[32:40.640 --> 32:47.120]  months, six months intervals of here's what we have ready for you now. And it's so easy.
+[32:47.120 --> 32:51.320]  And I think so many people who misunderstand the company think that in between one in the
+[32:51.320 --> 32:55.520]  next, everything they've done is what they've done in between the next. That everything
+[32:55.520 --> 33:00.040]  they announced today is all the stuff that they've decided to do in the last 12 months
+[33:00.040 --> 33:05.760]  since last WWDC. And so you see it like you see it like with the keyboards on the third
+[33:05.760 --> 33:11.520]  party keyboards for iOS. And there were questions, people in the press area after the
+[33:11.520 --> 33:14.960]  thing they're asking, like, well, what made you change your mind on these? What, you
+[33:14.960 --> 33:19.960]  know, is it because they're so popular on Android? You know, is it customers' last point?
+[33:19.960 --> 33:23.440]  And we've been working on this for years, you know, that we really, you know, and you
+[33:23.440 --> 33:26.960]  can argue maybe engineering-wise, it shouldn't have taken years, but their explanation
+[33:26.960 --> 33:31.080]  is that they've been thinking about it for a long time. I mean, we've been talking about
+[33:31.080 --> 33:38.120]  XPC at WWDCs for years of inter-application communication and how are they going to do it?
+[33:38.120 --> 33:42.880]  And I think that, you know, typical Apple, they wanted to get it right. And that's just
+[33:42.880 --> 33:43.880]  the sign of it.
+[33:43.880 --> 33:46.640]  People have short memories, though. It wasn't it last year's WWDC, where third-party
+[33:46.640 --> 33:50.120]  keyboards was like guaranteed a lock for the keynote. Remember that? Remember that? And
+[33:50.120 --> 33:52.120]  that's why they even published it on their site.
+[33:52.120 --> 33:53.120]  Yeah.
+[33:53.120 --> 33:57.160]  Yeah. Well, I mean, you know, the press, to be fair, you know, the press usually, most of
+[33:57.160 --> 34:01.720]  them aren't as smart as you. They, most of them, you know, they, we asked them to remember
+[34:01.720 --> 34:08.440]  a lot. You know, in this business, we asked them to remember a lot. Like, can you, can
+[34:08.440 --> 34:15.960]  you name the, whatever phone 12 months ago was the iPhone killer that month? There's a
+[34:15.960 --> 34:21.040]  lot going on in the press. There's a lot of Apple keeps dying and being doomed and, you
+[34:21.040 --> 34:25.640]  know, and they just, they just can't remember simple things like that, you know, products
+[34:25.640 --> 34:28.280]  take more than a year to develop.
+[34:28.280 --> 34:33.880]  The one thing they announced yesterday that I, that I makes me wonder whether they've changed
+[34:33.880 --> 34:43.160]  their mind over the last few years is iCloud Drive, because it, it seemed to me, and maybe
+[34:43.160 --> 34:46.560]  that was just the spin at the time before they had the fun function, but it seemed to
+[34:46.560 --> 34:52.760]  me that there were an awful lot of people who were saying, okay, with the iCloud documents,
+[34:52.760 --> 34:57.480]  why can't you build something that is just like Dropbox, right? Long story short, just
+[34:57.480 --> 35:00.920]  build a thing that's just like Dropbox, but takes my iCloud credentials and then it's,
+[35:00.920 --> 35:05.600]  you know, it's not like a nasty Finder hack, it's built into the system. And their answer
+[35:05.600 --> 35:10.120]  was, you know, I don't know, no.
+[35:10.120 --> 35:13.920]  I mean, maybe, you know, again, maybe, who knows, maybe who even knows who's in the audience?
+[35:13.920 --> 35:17.360]  There's some poor guy from Apple in the audience who's been working on iCloud Drive
+[35:17.360 --> 35:22.480]  for six years and, you know, non-stop with the original vision that is exactly like what
+[35:22.480 --> 35:26.280]  they announced yesterday. But I don't know, it makes me think that maybe they thought
+[35:26.280 --> 35:31.000]  they could get away with not having a, here's where you're going to save your files,
+[35:31.000 --> 35:36.960]  experience on iOS, and maybe they've come to conclude that that was wrong or shortsighted?
+[35:36.960 --> 35:42.960]  Yeah, you know, when I first launched the magazine, I tried not having a settings panel,
+[35:42.960 --> 35:47.920]  so I was like, you know, settings panels are a clunky hack. Let me see if I can just get
+[35:47.920 --> 35:51.120]  away with not having any settings at all. I'll just make good decisions and I'll, like,
+[35:51.120 --> 35:54.800]  you know, surface things can actually, and it turned out that that was a bad idea. It
+[35:54.800 --> 36:00.400]  was, it required me to do other bad hacks that made the overall product actually worse and
+[36:00.400 --> 36:06.040]  I had to eventually backtrack on that. iCloud document model storage and I cloud, you
+[36:06.040 --> 36:10.560]  know, file storage. I think it had a similar problem where they designed it with, with
+[36:10.560 --> 36:15.560]  this goal in mind of let's get rid of files and folders exposed to the user and, and let's
+[36:15.560 --> 36:18.960]  make this thing just sink and it helped the, you know, iOS never had to never had that
+[36:18.960 --> 36:23.400]  from the start. So let's just give these little silos inside of each app and they'll all
+[36:23.400 --> 36:28.440]  have these flat lists of files in that app and they won't be able to talk to each other
+[36:28.440 --> 36:31.520]  and that'll be fine. That's kind of how iOS works. And then they brought it to Mac and
+[36:31.520 --> 36:36.320]  it was like, well, they're kind of in this hidden folder buried somewhere deeply in the hierarchy
+[36:36.320 --> 36:39.160]  that you're not supposed to deal with, but just trust us, it's there somewhere, plus
+[36:39.160 --> 36:44.440]  two of those other files somewhere. And I think that proved to be a model that they,
+[36:44.440 --> 36:50.400]  they had this goal in mind of the simplicity, but the, the reality of that, the practicality
+[36:50.400 --> 36:55.000]  of, of people using that and, and, you know, multiple app productivity and things just
+[36:55.000 --> 36:59.760]  simple things like where are these files so I can back them up. You know, it simple things
+[36:59.760 --> 37:05.080]  like that. The reality made that idea worse in practice and they would have had to do
+[37:05.080 --> 37:11.080]  a bunch of crazy hacks. They tried to do a bunch of crazy hacks to make it work out
+[37:11.080 --> 37:14.440]  that actually made a worse overall experience. And so I think this is them recognizing,
+[37:14.440 --> 37:21.160]  you know what, one common place where you store files that behaves like a folder full
+[37:21.160 --> 37:26.120]  of other folders, people are okay with that. You know, give people a little bit of credit
+[37:26.120 --> 37:29.360]  that folder might not be where you want it to be. It might be their desktop, but people
+[37:29.360 --> 37:34.680]  do that. They, they are okay with having all files live in one place for all applications
+[37:34.680 --> 37:38.480]  with these little subfolders maybe for some application like that's a model that works.
+[37:38.480 --> 37:43.280]  Dropbox has proven it, computers before that, proved it. People are okay with that. And
+[37:43.280 --> 37:46.920]  I think this is Apple realizing like if we're going to start breaking down some of these
+[37:46.920 --> 37:51.160]  productivity barriers between iOS and Mac and everything like that and in their applications
+[37:51.160 --> 37:55.600]  something that this is, this will go a long way if we just give up a little bit of our
+[37:55.600 --> 37:58.360]  vision about what I was supposed to be.
+[37:58.360 --> 38:02.040]  So are you at all nervous, John, about the fact that they are putting a lot of eggs in
+[38:02.040 --> 38:07.200]  the iCloud basket? And I know it's almost trendy to pitch in moan about how iCloud doesn't
+[38:07.200 --> 38:12.760]  work the way they say it should and so on. But I mean, it seems to me like they're going
+[38:12.760 --> 38:17.680]  all in on iCloud and that could be dangerous. Like how do you feel about that?
+[38:17.680 --> 38:18.680]  Dangerous how?
+[38:18.680 --> 38:22.760]  Just because we, especially as developers, a lot of us don't have any faith in the fact
+[38:22.760 --> 38:30.120]  that iCloud is really strong, stable, available, et cetera. And so now Apple is saying,
+[38:30.120 --> 38:34.000]  oh really, we are all in on iCloud. So you guys are, you might as well come along and I
+[38:34.000 --> 38:38.080]  didn't go to the cloud kit session today, but I've heard unbelievably positive things
+[38:38.080 --> 38:42.520]  about it. So do you have, like how does that make you feel? Are you nervous at all?
+[38:42.520 --> 38:48.360]  No, I think it's inevitable. I don't think they have a choice. And I think that, again,
+[38:48.360 --> 38:51.640]  I might be reading into this, John, you might know because you were actually at the conference
+[38:51.640 --> 38:57.960]  all day not sleeping. But it seems like they're not doing away with it because if you're
+[38:57.960 --> 39:00.600]  already using it, they're going to keep counting. But it seems like the thing that they're
+[39:00.600 --> 39:03.720]  no longer talking about is iCloud core data sinking.
+[39:03.720 --> 39:06.600]  Well, they're still talking about at the end of the end of the cloud kit session. They were
+[39:06.600 --> 39:10.200]  like, we got all these iCloud things. When should I use each one? Remember them all key
+[39:10.200 --> 39:15.240]  value storage and documents in the cloud and iCloud core data and now cloud kit. And they
+[39:15.240 --> 39:18.280]  went through them all and said, because when you should use this, when they get down to iCloud
+[39:18.280 --> 39:22.840]  core data, they're going to say never, but they didn't. I mean, they put a brain face on it,
+[39:22.840 --> 39:27.000]  but cloud kit does a lot of similar things like in a different way to iCloud core data. So
+[39:27.000 --> 39:30.200]  I'm not sure they didn't come right out and say, we're deprecating the ways that didn't work
+[39:30.200 --> 39:34.840]  and this is the new way, but they have, they have a suite of things under the umbrella of iCloud,
+[39:34.840 --> 39:38.440]  and some of them are better than others. And we're all hoping these new ones are the best,
+[39:38.440 --> 39:43.320]  yeah, we'll find out. Right. You know, I think, I think they'll make a work. I think because I
+[39:43.320 --> 39:48.040]  think that they know, I don't think there's any doubt that they know that they have to do well at it.
+[39:48.040 --> 39:51.160]  I think the things you have to worry about with Apple are the things where it seems like they don't,
+[39:52.360 --> 39:56.200]  they don't seem to think it's important. Well, they committed to iCloud the first time when
+[39:56.200 --> 39:59.560]  jobs was up there and said, oh, it's not a long and digital hub. Now the cloud is in the middle
+[39:59.560 --> 40:03.960]  lines come out from that. And that seemed like a recommitment to it, but then what they offered was like,
+[40:03.960 --> 40:08.200]  yeah, some good, some bad. I'm getting a better vibe from the new stuff because it seems like
+[40:09.000 --> 40:13.720]  all the things that you liked that worked well about iCloud, these are more like those or cloud
+[40:13.720 --> 40:17.080]  in the case of cloud kit. This is more like what everyone was doing instead of using iCloud
+[40:17.080 --> 40:20.920]  core data. They were forced to do their own thing and they would use, you know, SQLite database
+[40:20.920 --> 40:26.120]  was like FC model or FMDB or whatever. This is like that, but with an Apple twist and really awesome
+[40:26.120 --> 40:31.880]  and everything. And that's actually pretty similar. Like the, what happened between core data plus iCloud
+[40:31.880 --> 40:35.000]  and now the new cloud kit is actually very similar to what I was just saying about like how like
+[40:35.000 --> 40:41.000]  their original view or their original vision of this is how we're going to do iCloud. It's going to
+[40:41.000 --> 40:45.640]  have this magical thing. You just keep using core data. Everything's, you keep you guys normal and
+[40:45.640 --> 40:51.080]  it just magically sinks. And of course, that, that wasn't a server problem. That was a design problem.
+[40:51.080 --> 40:53.640]  Well, the core data predated iCloud, that was the problem. It's like, well, we have this
+[40:53.640 --> 40:57.480]  run called core data. It would be great to put up a slide that says, then it works on iCloud
+[40:57.480 --> 41:00.360]  and then everything will be fine. Well, that's basically, and they basically, that's what they,
+[41:00.360 --> 41:05.480]  when they announced core data for iCloud, that's what they did. And so I think cloud kit is them,
+[41:05.480 --> 41:09.880]  again, it's like it's similar to how they kind of made iCloud file picking a little more like
+[41:09.880 --> 41:14.760]  Dropbox because that's what people actually need. And it's a, it's a better overall design in reality.
+[41:14.760 --> 41:21.240]  I think cloud kit is solving many of the same needs as iCloud core data, but it is a much better
+[41:21.240 --> 41:26.840]  design for reality. The one thing and, you know, no surprise, I mean, everybody knows Apple is an
+[41:26.840 --> 41:30.840]  ecosystem company and that they want, you know, stuff is supposed to work better. And we're,
+[41:30.840 --> 41:35.080]  we don't have time to get into all the continuity stuff, but the continuity stuff is an acknowledgement
+[41:35.080 --> 41:41.320]  of that. That if, if you have an iPhone and a Mac, you get this amazing feature that you could
+[41:41.320 --> 41:46.280]  not have if you used an Android phone where you can start writing an email and switch to the Mac.
+[41:47.400 --> 41:52.680]  And I played with that and I got a demo of it and it works. It's very, very cool. I can definitely see
+[41:53.400 --> 41:58.600]  using it. But that they're adding all these other developer things, though, I think with the
+[41:58.600 --> 42:05.960]  hopes of getting more apps to go Apple only, you know, like, I think the idea would be like,
+[42:05.960 --> 42:12.360]  take an app like Instagram that had enormous server side costs because it's photos and lots of
+[42:12.360 --> 42:17.480]  users and they want to be social and they want to get a lot of people to sign up. And I think that
+[42:17.480 --> 42:24.680]  iCloud, or a cloud kit is sort of a, hey, you want to build a thing like Instagram. Don't even
+[42:24.680 --> 42:29.800]  worry about the server stuff and we'll give you really, really generous amounts of storage and
+[42:29.800 --> 42:35.800]  bandwidth. Well, for getting it off the ground, right? And there's a big question mark like they
+[42:35.800 --> 42:39.960]  were like, here, it's free and you get all this for free. And then there was no, like, what happens
+[42:39.960 --> 42:45.480]  after that? I think what happens is you get a phone call from Apple and they're like, we need to talk.
+[42:46.200 --> 42:49.080]  I'm guessing though it's going to be pretty price competitive. That's what I think.
+[42:49.080 --> 42:53.400]  Well, it's hard. You know, if you're looking at, let's, let's build a business on this,
+[42:53.400 --> 42:58.840]  you know, let's, let's talk about Vesper. Right. So the limit that they, they published this in
+[42:58.840 --> 43:02.200]  a public document. So I could, I don't know what the ND, the ND situation is weird. It's kind
+[43:02.200 --> 43:07.560]  of unspecified who knows. But the limit is, you know, it's something like 100 megs per user
+[43:07.560 --> 43:11.480]  for like, you know, blob storage and then one meg for database storage. Now,
+[43:12.600 --> 43:18.920]  that, those sound low to me. Like, you couldn't, it would be irresponsible for you to design
+[43:18.920 --> 43:24.440]  something like Instagram knowing that as soon as one of those users hit 100 megs of photos,
+[43:24.440 --> 43:30.680]  something would stop and who knows what your options would be at that point, whether you'd even
+[43:30.680 --> 43:35.720]  have any options or whether like the call to cloud kit would just fail with an error parameter.
+[43:35.720 --> 43:38.840]  It's, it's a lot of stuff. It's suddenly to be outside your control.
+[43:38.840 --> 43:43.720]  Right. And like, that's kind of, it would be irresponsible to build on that, knowing that like,
+[43:43.720 --> 43:48.600]  there's this wall that you could very, you know, it's not like the limit is five terabytes per
+[43:48.600 --> 43:53.960]  user. Like these are, these are limits that are very plausibly hit and exceeded. And so, you
+[43:53.960 --> 43:57.960]  know, what do you do? Do you just hope no one hits that? That's not very smart.
+[43:57.960 --> 44:02.200]  But like John said, though, like, if, if you're going to build any service like this,
+[44:02.200 --> 44:06.200]  it's like a network based service that has like a cloud backend, you're going to do it on an
+[44:06.200 --> 44:12.040]  Apple only in that platform. And like, they're, maybe, I mean, they, the A players in the
+[44:12.040 --> 44:15.000]  server side space and then you're going to like, because if you start getting big, you're going
+[44:15.000 --> 44:18.840]  to be like, oh, we're getting big. We should make an Android version. We should be on the Kindle.
+[44:18.840 --> 44:23.160]  We should, oh, and then you can't like you're, you're putting a cap on your potential. If you
+[44:23.160 --> 44:27.800]  ever want to be the next Instagram, don't build on cloud kid. But it's great for people who
+[44:27.800 --> 44:30.920]  are not going to be the next Instagram. They just want to have a great application. Like, I mean,
+[44:30.920 --> 44:34.440]  again, with Vesper, if you built an uncloud kid, you're going to be an iOS on the Mac, you could
+[44:34.440 --> 44:38.920]  use cloud kid to, you know, who knows what we would have done a year ago if cloud kid came out a
+[44:38.920 --> 44:42.440]  year ago. But I don't think we would have done anything differently. I haven't seen anything that
+[44:42.440 --> 44:48.280]  really makes me regret doing our own backend because of that issue. Like, do we have plans to write
+[44:48.280 --> 44:54.360]  an Android app? Well, I don't think Brent knows how to write Android apps and no. But it's a maybe
+[44:54.360 --> 44:58.280]  down the road, you know, or we have the web app. Right. We could do a web app. We couldn't even do a
+[44:58.280 --> 45:04.360]  web app. And we want to have those options. And our thinking in broad strokes was, well, we could
+[45:04.360 --> 45:09.000]  maybe do something quicker if we build an undrop box or, you know, had an option to do
+[45:09.000 --> 45:14.360]  Dropbox or had an option to do something with the core data iCloud thinking. And then we'd work
+[45:14.360 --> 45:20.200]  on our own thing that we'd roll out. But I think whenever you make an engineering decision like that,
+[45:20.200 --> 45:24.680]  and you think, well, we'll do this stopgap first because it's quicker and dirtier and easier and
+[45:24.680 --> 45:29.080]  we'll ship something first. And then we'll do the real good version. Then you never do the good
+[45:29.080 --> 45:32.680]  version and you're stuck with the crappy one. The data migration would kill you anyway.
+[45:32.680 --> 45:37.320]  Right. You never want to do a good version. So if we wanted to do it eventually, then we should
+[45:37.320 --> 45:41.640]  have done it first. And I think that we did it the right way. I think Sprite Kit is the same sort of
+[45:41.640 --> 45:46.200]  idea, the idea with Sprite Kit. And it's a good one. It's not all about lock-in. It's not purely
+[45:46.200 --> 45:51.240]  cynical, hey, write your game with Sprite Kit. And you will save all this work. But then you'll be
+[45:51.240 --> 45:57.720]  stuck with an iOS only game. I think it's, you know, from Apple's perspective, it's win-win. That's
+[45:57.720 --> 46:05.880]  what Coco and Coco Dutch have done for close to 30 years is take TDM away from programmers and
+[46:05.880 --> 46:11.480]  do a really good framework that you can count on. But I wonder, I don't know like what the uptake
+[46:11.480 --> 46:16.680]  is on to Sprite Kit because it just seems to me like most major effort, mobile games,
+[46:17.400 --> 46:22.040]  more than any other kind of app because of the nature of games want to be cross-platform or want
+[46:22.040 --> 46:26.440]  to be cross-platform eventually. And so I just don't know if Sprite Kit's ever going to really
+[46:26.440 --> 46:32.200]  take off. I think we're looking at this from the point of view of, I mean, I'm looking at
+[46:32.200 --> 46:36.280]  something like Cloud Kit and saying, all right, well, from the point of view of wanting to design
+[46:36.280 --> 46:42.600]  a really big web service that has going to have, you know, the six-year lifespan or more than
+[46:42.600 --> 46:48.840]  that maybe and, you know, possibly get to a billion dollar valuation somehow. Like that's,
+[46:50.200 --> 46:54.360]  yeah, it might not be good for that. But there's a massive class of problems that these kind of
+[46:54.360 --> 46:59.160]  frameworks solve that are on a much smaller scale. Like most developers are not working on things
+[46:59.160 --> 47:05.320]  like that. Most developers are working on much smaller apps that like, if the alternative is
+[47:05.320 --> 47:10.840]  no backend, then Cloud Kit is really nice because it's a backend you can use for limited value
+[47:10.840 --> 47:16.920]  or for limited purposes, but that's enough for tons of applications. Sprite Kit very similar,
+[47:16.920 --> 47:22.920]  like, yeah, you're not going to make the next, you know, rovio company on that because you're not
+[47:22.920 --> 47:25.960]  going to be able to address all these other platforms without hiring people to rewrite the
+[47:25.960 --> 47:30.600]  engine for all of them and eventually convert it to open jail or whatever. But that's not what
+[47:30.600 --> 47:37.960]  it's made to solve. It's made to solve much smaller needs for a far larger number of developers.
+[47:37.960 --> 47:41.240]  And, you know, once you exceed those limits for one of these things, then you're probably big
+[47:41.240 --> 47:45.000]  enough that you can't afford to migrate. Yeah, so for those of you who've listed DTP,
+[47:45.000 --> 47:49.560]  I've talked on and off about how I really just want a really solid app to share grocery list
+[47:49.560 --> 47:53.960]  with my wife. And reminders will do it, but it's crummy and there's other apps out there.
+[47:53.960 --> 47:57.960]  And for me, if I wanted to write something, I don't want to have to worry about
+[47:57.960 --> 48:02.360]  VPSs. I don't want to have to worry about a lot of other things. And so something like
+[48:02.360 --> 48:06.680]  Cloud Kit is perfect for this app that I want to write really to scratch my own itch. And,
+[48:06.680 --> 48:10.600]  you know, if I'd make a few bucks off of it, sweet, but I'm never going to be a vesper. I'm never
+[48:10.600 --> 48:14.920]  going to be an insta paper and overcast or anything like that. And that's okay. We see that.
+[48:14.920 --> 48:17.320]  Well, you know, yeah, you never know. You never know, man. You never know.
+[48:17.320 --> 48:24.040]  How's the confidence? Yeah, you can be a non-shipping app. That's true. That is very true.
+[48:24.040 --> 48:34.600]  All right, one last topic on the nerd path. Because I think it's very telling about where Apple is
+[48:34.600 --> 48:40.440]  today in a keynote, especially at WWDC keynote, because the event ones are more focused because
+[48:40.440 --> 48:45.000]  it's hey, we've just got this new iPad we want to show you. But WWDC, you can see what Apple
+[48:45.000 --> 48:50.840]  thinks is important based on what kind of stint it gets on stage, right? There's the basic level
+[48:50.840 --> 48:54.200]  of, oh, yeah, there's this thing. And it'll just tell you and it'll put up a slide and the thing.
+[48:54.200 --> 49:00.920]  And then it's on to the next topic. Then there's like, bring out a special guest and bring out like,
+[49:00.920 --> 49:05.640]  you know, that's like at the far end is like bring out like a third party and say we brought them
+[49:05.640 --> 49:10.520]  here a month ago. We tied them up in a room and made them write this thing. And the one that got
+[49:10.520 --> 49:16.040]  that, the only third party that came on stage yesterday was epic. And that was for metal.
+[49:16.040 --> 49:23.640]  And yeah, that's really, you know, it goes against the idea that they were focusing on the consumer
+[49:23.640 --> 49:29.240]  stuff, right? Metal and it's a replacement for open GL and blah, blah, blah, you know, millions of
+[49:29.240 --> 49:35.080]  triangles per second. But Apple clearly sees it as important because they spent a lot of time on it
+[49:35.080 --> 49:40.840]  and had a big demo. And I think it's so interesting about where Apple is as a company today
+[49:40.840 --> 49:46.520]  because it's not just that they've replaced open GL, it's that they've gotten out of now the headache
+[49:46.520 --> 49:53.080]  of open GL is like a, it's open. It's got like a consortium behind it. And so if they want to get
+[49:53.080 --> 49:59.160]  improvements to open GL so that it runs better on an A7, they've got to go through this process.
+[49:59.160 --> 50:09.320]  And now, fuck all that, right? Metal is exactly what Apple wants for talking to the GPUs that they've
+[50:09.320 --> 50:16.040]  designed. It's like, now they've got an API for using the GPUs that was designed hand-in-hand
+[50:16.040 --> 50:22.680]  with the hardware guys who were making the GPUs. And that is not something Apple 10 years ago could
+[50:22.680 --> 50:25.880]  have done because Apple wasn't big enough. Microsoft could do it. And they did it with
+[50:26.680 --> 50:32.520]  Direct X. Direct X. And Microsoft could get away with it because there were, you know,
+[50:32.520 --> 50:38.040]  3,400 million PCs out in the world and 100 million of them were people who wanted to play games.
+[50:38.040 --> 50:43.880]  And so Microsoft could say, we've got Direct X. You're going to program to Direct X. And
+[50:43.880 --> 50:49.480]  game developers said, yes. Direct X had the advantage of learning from all of open GL's mistakes because
+[50:49.480 --> 50:54.520]  open GL was older. So it is a little bit newer. And Direct X Apple, Microsoft has evolved it.
+[50:54.520 --> 50:59.000]  And it is a very capable API. But I think on the metal front, a lot of that I think was coming
+[50:59.000 --> 51:03.880]  from game developers who were saying, you've got a great GPU, but you're making us use open GL
+[51:03.880 --> 51:08.280]  yes. And here's where it's stupid. And like you said, Apple's like, well, we don't make open GL. We
+[51:08.280 --> 51:12.040]  don't define the standard. We work with the consortium. And it's like trying to work with W3C.
+[51:12.040 --> 51:16.360]  It's a slow process. And so game developers like, well, what about now? My shipping game now,
+[51:16.360 --> 51:20.760]  I want to, you know, I want to get closer to the metal. And they pulled the name right out.
+[51:20.760 --> 51:25.800]  And, you know, it's like AMD's mantle. Like, it's game developers wanted this. A game developer
+[51:25.800 --> 51:29.240]  and what can Apple do? Apple can't. They're not going to go off and make their own Direct X because
+[51:29.240 --> 51:32.760]  that's like, no, that's not what we want. We know exactly what we want. We know what the GPU is
+[51:32.760 --> 51:36.600]  capable of just give us more control. So it's one of the rare cases where Apple enters a new API
+[51:36.600 --> 51:40.760]  that's lower level and that it's because developers wanted it. It's going to want to lower level.
+[51:40.760 --> 51:45.240]  Well, and then I think the other way that it'll work and it'll get uptake is that they've clearly,
+[51:45.240 --> 51:49.480]  this is one of those things where they were a little open, slightly with a short list, but they had
+[51:49.480 --> 51:55.720]  Epic. They've got like, I think the four big game engines on board already. And so it's the
+[51:55.720 --> 52:00.760]  game engines that provide the higher level API that most game developers spend most of their time in.
+[52:00.760 --> 52:07.240]  And they just get to take advantage of this 10X improvement. But I know, and I know the guy even
+[52:07.240 --> 52:11.000]  said like an order of magnitude improvement, but I don't think people, maybe some people don't
+[52:11.000 --> 52:15.400]  really think that that could be true that like, year over year, there's a 10X improvement in graphics,
+[52:15.400 --> 52:19.880]  but it's really that true. Well, I mean, it's specific cases like open GL API that want you to
+[52:19.880 --> 52:23.400]  like batch up your stuff and not do a bunch of different calls, but just get it to gather up all
+[52:23.400 --> 52:27.400]  your crap and make one call because doing the calls is expensive. And this is saying, well, I got a
+[52:27.400 --> 52:31.000]  10X speed up because I don't have to do that anymore. And I have to do this careful batching and
+[52:31.000 --> 52:34.200]  trying to play nice with open GL. I can just send the calls. And I mean, I don't know the
+[52:34.200 --> 52:38.120]  enough of the details of it, but it's like, it is kind of a Taylor pick benchmark. I'll like,
+[52:38.120 --> 52:41.800]  oh, 10X in this particular operation, but that particular operation happens all the time. And you
+[52:41.800 --> 52:45.480]  could work around with the old way, but it was annoying. And I said, geez, just let me talk to the
+[52:45.480 --> 52:47.800]  GPU the way it wants me to talk to it. And I have to deal with this stuff.
+[52:50.920 --> 52:51.560]  All right, whatever.
+[52:51.560 --> 52:58.200]  Now let's take a break. I want to end up the nerdy part of the show. I think that was pretty
+[52:58.200 --> 53:05.880]  good. But I have a surprise. And I have a surprise guest from our friends at Apple. And I
+[53:05.880 --> 53:15.720]  know it was in the news last week. No, even better. I have a gift for you, Marco. And it's here
+[53:15.720 --> 53:26.920]  from Dr. Dre, ladies and gentlemen, Dr. Dre. I read your site. I listen to your podcast. I know
+[53:26.920 --> 53:36.760]  that you love high-end headphones. You can go ahead and open that. I'll hold this. I think it would
+[53:36.760 --> 53:45.400]  be fair for you to throw those on real quick. So we use this reel? So I had Dre, I called Dre, and, you
+[53:45.400 --> 53:49.960]  know, he takes phone calls. He answered right on his Mac and I said, Dre, well, we all have his
+[53:49.960 --> 53:54.360]  number now. I need the best headphones in the world because this guy is really fucking picky. I mean,
+[53:54.360 --> 53:58.200]  I send him the URL of his headphone comparison. He's like, holy shit, man, that guy really knows his
+[53:58.200 --> 54:03.320]  shit. I got just the phone's for him. Beats studio, special edition. You know, the funny thing is
+[54:03.320 --> 54:06.760]  actually, I was in an Apple store recently and I tried these on and I thought, you know, actually,
+[54:06.760 --> 54:12.280]  of all the beats, these actually don't sound that bad. Like, I was like, you know, of all the
+[54:12.280 --> 54:18.280]  all those here, if I had to buy a pair of beats, the studios are actually the least crappy sounding
+[54:18.280 --> 54:26.200]  ones that they make. Way to ruin the bit. And they're overcast themed too. Totally. Yeah. It's
+[54:26.200 --> 54:31.080]  top secret. My color is orange. I want to take a moment. We have one more sponsor for the episode
+[54:31.080 --> 54:37.320]  who I want to thank. And that is our good friends at Market Circle. Market Circle has two great
+[54:37.320 --> 54:41.160]  apps. You've probably heard of them both because they've sponsored my show before. They've sponsored
+[54:41.160 --> 54:46.680]  the site. But they have Billings Pro. Now, that's a time tracking and invoicing app. So, anybody
+[54:46.680 --> 54:50.760]  who does freelance work where you have to track your time, send invoices. If you haven't looked at
+[54:50.760 --> 54:57.960]  Billings Pro, you're nuts. It's great app. They've got clients for all your devices. And when you
+[54:57.960 --> 55:02.040]  make your invoice, they've got templates and themes and they come out looking great. So, it's not
+[55:02.040 --> 55:08.040]  like some kind of ugly thing where it looks like a 1978 Vax printed out your invoice. Really,
+[55:08.040 --> 55:15.320]  really top-notch design. Great stuff. And daylight. Daylight is software for organizing your business.
+[55:15.320 --> 55:22.520]  The way they describe it is CRM with productivity features first, as opposed to the other way around.
+[55:22.520 --> 55:26.760]  So, you can actually organize the people who are involved into people you know in your company
+[55:26.760 --> 55:34.680]  in a way that looks like a real nice Mac or iOS app, not some piece of crap, typical CRM stuff.
+[55:34.680 --> 55:38.840]  So, Market Circle, you can go to MarketCircle.com and check out their great stuff. But they help
+[55:38.840 --> 55:42.440]  sponsor this show. And that's great. And the other thing I wanted to do is I wanted to mention it.
+[55:42.440 --> 55:49.240]  So, AJ is the guy from Market Circle. And he's been a long time fan of the show. And a couple
+[55:49.240 --> 55:57.320]  weeks ago, I got a nice email from somebody at iTunes about the explicit tag on this podcast. And
+[55:57.320 --> 56:01.960]  the fact that it wasn't there. And it was just, we all love your show. It was very nice, very
+[56:01.960 --> 56:07.000]  personal. And we know there's not a lot of swearing on your show, but it does come up occasionally.
+[56:07.000 --> 56:13.880]  And we've started to get some complaints from parents. And so, I've started. If you look at the
+[56:13.880 --> 56:19.080]  feed, there's at least two episodes from the last three or four that have the explicit tag because
+[56:19.080 --> 56:22.840]  they're swearing. Obviously, this show is probably going to have to have the explicit tag. And that
+[56:22.840 --> 56:29.160]  very day, I got an email. And it just said, subject, my son and the talk show. And I thought, oh, God,
+[56:29.160 --> 56:34.680]  here it is. And I almost didn't even read it. I don't want to read this. And I clicked it in red.
+[56:34.680 --> 56:39.960]  And instead, it was AJ, writing me. And he just said, he's a 10-year-old son. And he's a huge fan
+[56:39.960 --> 56:44.440]  of the show. And I was like, wow, 10 years old, my son does not want to listen to me talk about any
+[56:44.440 --> 56:50.600]  of this stuff. That's amazing. 10 years old. And he loves the talk show. And it's the only show
+[56:50.600 --> 56:55.800]  he likes. Sorry, guys. The only show he likes to listen to. And so, AJ said that he'll listen to
+[56:55.800 --> 57:00.280]  the talk show because he's been a longtime listener. And then he's driving a son to school or
+[57:00.280 --> 57:02.920]  soccer practicing. And he's like, I want to listen to the talk show. And he's got to listen to the
+[57:02.920 --> 57:05.800]  episodes again because he's already listened to him. And his son wants to listen to him.
+[57:05.800 --> 57:11.960]  Anyway, his son plays soccer. And a week or so ago, he was playing. And he got injured. He got
+[57:11.960 --> 57:17.080]  a concussion. And he's been laid up since. Can't play soccer. Can't even listen. He's got like
+[57:17.080 --> 57:23.000]  headaches. Can't even listen to podcasts. So his son's name is Caden. And I just wanted to
+[57:23.960 --> 57:26.920]  say something to him right here on the show because whenever he's better from this concussion,
+[57:26.920 --> 57:32.760]  he's going to listen to it. And I hope it's a nice thrill. But let's everybody here in the show.
+[57:32.760 --> 57:39.000]  Let's hear it for Caden, the 10-year-old fan of the talk show.
+[57:39.000 --> 57:53.880]  All right, you lose your mic, Casey. All right. My next guest is my good friend, Mr. Scott Simpson.
+[58:09.000 --> 58:18.760]  Thank you. All you ever did was run. And me, I came in like a row.
+[58:19.480 --> 58:23.000]  Yeah, I just closed my house and saw.
+[58:23.000 --> 58:32.280]  Let me crunch it in a place and saw. All you ever did was run and reach.
+[58:32.280 --> 58:39.480]  Yeah, you, you, you, you, you, you, you, you, you, you.
+[58:41.400 --> 58:44.600]  What's up, San Francisco, the talk show worldwide developer something something.
+[58:47.640 --> 58:53.160]  Means clap your hands. I feel like the show, I realized when I was backstage waiting to go up,
+[58:53.160 --> 59:04.360]  the show is going to be a mullet. This business is over. Now it's party. Hi, my name is Scott Simpson.
+[59:05.560 --> 59:11.880]  I worked at Apple for about eight years. And then I left to do stand-up comedy about a year and a
+[59:11.880 --> 59:21.160]  half ago for the money. Let's know that Marco is looking at my butt right now.
+[59:21.160 --> 59:30.680]  It's right there. I mean, and it's been going well. And if you don't know who I am,
+[59:31.560 --> 59:35.640]  that's fine. I assume you're a Creighton or some type of hill person.
+[59:37.480 --> 59:41.640]  That's fine, though. And I was talking to a friend of mine like, hey, how can I get my name out there
+[59:41.640 --> 59:47.240]  more as a comedian now that I'm doing comedy? And he was like, well, what's your theme song?
+[59:47.240 --> 59:52.200]  And I was like, what do you mean theme song? He's like, dude, you've got to have a theme song.
+[59:53.000 --> 59:57.480]  I was like, I don't have a theme song. He's like, if you have a theme song, then people remember it.
+[59:57.480 --> 1:00:06.280]  They know it's you. It sounds like a great idea. So I sat down with my guitar in my office and I knocked
+[1:00:06.280 --> 1:00:12.360]  out a little theme song. Do you guys want to hear it? All right. Let's listen to the theme song that
+[1:00:12.360 --> 1:00:18.360]  I wrote for myself.
+[1:00:18.360 --> 1:00:33.080]  Sorry.
+[1:00:33.080 --> 1:00:35.080]  Turn down for what?
+[1:00:37.880 --> 1:00:38.880]  Turn down for what?
+[1:00:38.880 --> 1:00:39.880]  Scott!
+[1:00:43.080 --> 1:00:44.080]  Turn down for what?
+[1:00:44.080 --> 1:00:44.580]  Scott!
+[1:00:48.080 --> 1:00:49.080]  Turn down for what?
+[1:00:49.080 --> 1:00:50.080]  Fun dad!
+[1:00:54.080 --> 1:00:55.080]  Scott!
+[1:01:00.080 --> 1:01:02.080]  That's my theme song.
+[1:01:02.080 --> 1:01:03.080]  Thank you.
+[1:01:03.080 --> 1:01:04.080]  Thank you.
+[1:01:05.080 --> 1:01:08.080]  It was really fun to work with Lil' John on that.
+[1:01:09.080 --> 1:01:12.080]  My friend Jesse Char has a great idea about Lil' John.
+[1:01:12.080 --> 1:01:14.080]  She's like, you know what, 2014?
+[1:01:14.080 --> 1:01:17.080]  We have exactly the right amount of Lil' John.
+[1:01:17.080 --> 1:01:19.080]  Like Lil' John's not food.
+[1:01:19.080 --> 1:01:20.080]  Lil' John's like a spice.
+[1:01:20.080 --> 1:01:22.080]  You don't want too much Lil' John.
+[1:01:22.080 --> 1:01:24.080]  You just want a Lil' John.
+[1:01:25.080 --> 1:01:27.080]  I took that back to my people.
+[1:01:27.080 --> 1:01:29.080]  And they were like, you know what, that's great.
+[1:01:29.080 --> 1:01:34.080]  But it's a little, maybe a little edgy for your crowd.
+[1:01:34.080 --> 1:01:37.080]  So I went back to the drawing board.
+[1:01:37.080 --> 1:01:40.080]  And I tried another route.
+[1:01:40.080 --> 1:01:42.080]  So let's hear that next one.
+[1:01:42.080 --> 1:01:59.080]  Scott!
+[1:01:59.080 --> 1:02:01.080]  Then they were like, well, it skews a little young.
+[1:02:01.080 --> 1:02:02.080]  Like, it's a little poppy.
+[1:02:02.080 --> 1:02:04.080]  And maybe that's not your style.
+[1:02:04.080 --> 1:02:07.080]  Try something a little more classic, a little older.
+[1:02:07.080 --> 1:02:09.080]  So I went back to the drawing board.
+[1:02:09.080 --> 1:02:12.080]  Scott!
+[1:02:12.080 --> 1:02:14.080]  I agree with you guys.
+[1:02:14.080 --> 1:02:16.080]  That one sucks.
+[1:02:16.080 --> 1:02:18.080]  So that one was too old.
+[1:02:18.080 --> 1:02:22.080]  So I tried like another tack.
+[1:02:22.080 --> 1:02:25.080]  Scott!
+[1:02:25.080 --> 1:02:41.080]  Scott!
+[1:02:41.080 --> 1:02:44.080]  And they were like, the voice is good.
+[1:02:44.080 --> 1:02:46.080]  And I was, I was into it.
+[1:02:46.080 --> 1:02:49.080]  Cause like, I thought I sounded really good on that track.
+[1:02:49.080 --> 1:02:51.080]  So they were like, try that same voice.
+[1:02:51.080 --> 1:02:53.080]  And it's like some setting in garage band.
+[1:02:53.080 --> 1:02:56.080]  Try that voice, but try it like a little more rocky.
+[1:02:56.080 --> 1:03:05.080]  Scott!
+[1:03:05.080 --> 1:03:10.080]  Scott!
+[1:03:10.080 --> 1:03:15.080]  Cool dad!
+[1:03:15.080 --> 1:03:20.080]  I realized now that I made too many of these.
+[1:03:20.080 --> 1:03:24.080]  But we're still going to do them.
+[1:03:24.080 --> 1:03:29.080]  And then, you know, we realized like it does need to be a little more current, a little
+[1:03:29.080 --> 1:03:31.080]  more interesting and fun.
+[1:03:31.080 --> 1:03:34.080]  Maybe bring it up a little bit in terms of energy.
+[1:03:34.080 --> 1:03:36.080]  So let's give this one a listen.
+[1:03:36.080 --> 1:03:39.080]  She just felt like big Scott.
+[1:03:39.080 --> 1:03:41.080]  And I came out alive.
+[1:03:41.080 --> 1:03:43.080]  You other brother's kid did not.
+[1:03:43.080 --> 1:03:46.080]  I want to grow walks in with any big waste and a round thing in your face.
+[1:03:46.080 --> 1:03:47.080]  You get Scott.
+[1:03:47.080 --> 1:03:52.080]  I want to pull out some of it but you know the fact that it's stuck.
+[1:03:52.080 --> 1:03:59.080]  Mix a lot and I agreed that the messaging on that was a little weird.
+[1:03:59.080 --> 1:04:01.080]  So we got to this.
+[1:04:01.080 --> 1:04:03.080]  Let's listen to this next one.
+[1:04:03.080 --> 1:04:23.080]  Scott!
+[1:04:23.080 --> 1:04:26.080]  Are you as bored of this joke as I am?
+[1:04:26.080 --> 1:04:27.080]  Fuck you.
+[1:04:27.080 --> 1:04:31.080]  That was a rhetorical question, clappers.
+[1:04:31.080 --> 1:04:34.080]  Damn it.
+[1:04:34.080 --> 1:04:35.080]  All right.
+[1:04:35.080 --> 1:04:36.080]  There's one more.
+[1:04:36.080 --> 1:04:37.080]  I said it on this one.
+[1:04:37.080 --> 1:04:38.080]  This is it.
+[1:04:38.080 --> 1:04:39.080]  Are you booing me motherfucker?
+[1:04:39.080 --> 1:04:41.080]  Get the fuck out of here.
+[1:04:41.080 --> 1:04:42.080]  All right.
+[1:04:42.080 --> 1:04:47.080]  This is one one.
+[1:04:47.080 --> 1:04:49.080]  Scott.
+[1:04:49.080 --> 1:05:04.080]  Yeah.
+[1:05:04.080 --> 1:05:06.080]  I'm going to go with turn down for Scott.
+[1:05:06.080 --> 1:05:07.080]  I feel like that's the best one.
+[1:05:07.080 --> 1:05:09.080]  I'm going to live with that.
+[1:05:09.080 --> 1:05:13.080]  Thank you.
+[1:05:13.080 --> 1:05:15.080]  It is very nice to be in San Francisco.
+[1:05:15.080 --> 1:05:16.080]  I live here.
+[1:05:16.080 --> 1:05:18.080]  I know a lot of you folks traveled here from elsewhere.
+[1:05:18.080 --> 1:05:22.080]  Over the weekend, I want to tell you this brief story.
+[1:05:22.080 --> 1:05:27.080]  I went to Indiana to perform in a comedy festival there.
+[1:05:27.080 --> 1:05:30.080]  And before I went, my friend was like,
+[1:05:30.080 --> 1:05:32.080]  are you going to Bloomington?
+[1:05:32.080 --> 1:05:34.080]  Oh, Bloomington's fun.
+[1:05:34.080 --> 1:05:35.080]  But watch out.
+[1:05:35.080 --> 1:05:39.080]  They like to drink.
+[1:05:39.080 --> 1:05:46.080]  And I was like, that's also how people introduce me.
+[1:05:46.080 --> 1:05:48.080]  Watch out.
+[1:05:48.080 --> 1:05:50.080]  He likes to drink.
+[1:05:50.080 --> 1:05:51.080]  So I took it as a challenge.
+[1:05:51.080 --> 1:05:52.080]  I think I won.
+[1:05:52.080 --> 1:05:53.080]  I might have lost.
+[1:05:53.080 --> 1:05:54.080]  I'm not sure.
+[1:05:54.080 --> 1:05:55.080]  I got drunk the whole time.
+[1:05:55.080 --> 1:05:56.080]  It was great.
+[1:05:56.080 --> 1:05:59.080]  But a couple other amazing things happened to me when I was in Indiana.
+[1:05:59.080 --> 1:06:01.080]  Is anybody here from Indiana?
+[1:06:01.080 --> 1:06:02.080]  Clapping for from Indiana.
+[1:06:02.080 --> 1:06:03.080]  All right.
+[1:06:03.080 --> 1:06:05.080]  That's a decent number.
+[1:06:05.080 --> 1:06:10.080]  Here's what I thought about Indiana before I went.
+[1:06:10.080 --> 1:06:14.080]  As I was driving from Indianapolis in the airport,
+[1:06:14.080 --> 1:06:17.080]  I was driving on the highway.
+[1:06:17.080 --> 1:06:20.080]  It was so beautiful.
+[1:06:20.080 --> 1:06:25.080]  As I drove, a majestic water bird, like a heron or a crane,
+[1:06:25.080 --> 1:06:31.080]  a four-foot wingspan, came and flew next to my car.
+[1:06:31.080 --> 1:06:32.080]  Four about a minute.
+[1:06:32.080 --> 1:06:35.080]  It just flew there next to my car.
+[1:06:35.080 --> 1:06:38.080]  And I swear to God at one point, it looked over at me.
+[1:06:38.080 --> 1:06:43.080]  I was like, I'm pretty sure I got sucked by a heron.
+[1:06:43.080 --> 1:06:45.080]  It was awesome.
+[1:06:45.080 --> 1:06:48.080]  It was like that moment in easy rider
+[1:06:48.080 --> 1:06:50.080]  when somebody does something do a thing, whatever.
+[1:06:50.080 --> 1:06:53.080]  It doesn't matter.
+[1:06:53.080 --> 1:06:55.080]  But I was riding along with this goddamn heron
+[1:06:55.080 --> 1:06:56.080]  and it was beautiful.
+[1:06:56.080 --> 1:06:57.080]  Now we have to use the explicit tag.
+[1:06:57.080 --> 1:06:58.080]  I'm sorry.
+[1:06:58.080 --> 1:06:59.080]  I'm sorry, Caden.
+[1:06:59.080 --> 1:07:00.080]  Caden.
+[1:07:00.080 --> 1:07:02.080]  Man, I know you're not going to listen to this,
+[1:07:02.080 --> 1:07:05.080]  but you're going to get so much pus based on that.
+[1:07:05.080 --> 1:07:08.080]  That applause.
+[1:07:08.080 --> 1:07:10.080]  Oh, bro.
+[1:07:10.080 --> 1:07:14.080]  It's fucking Caden. Can we sub in Scott for that later?
+[1:07:14.080 --> 1:07:16.080]  It's kind of my thing.
+[1:07:23.080 --> 1:07:25.080]  Scott's 10.
+[1:07:25.080 --> 1:07:26.080]  He had a concussion.
+[1:07:26.080 --> 1:07:27.080]  And he's ready to fuck.
+[1:07:27.080 --> 1:07:28.080]  That's not true.
+[1:07:28.080 --> 1:07:29.080]  I'm not.
+[1:07:29.080 --> 1:07:31.080]  I'm sorry.
+[1:07:31.080 --> 1:07:35.080]  So, back to Indiana.
+[1:07:35.080 --> 1:07:37.080]  There I was in Indiana.
+[1:07:37.080 --> 1:07:40.080]  And his majestic bird was flying next to me.
+[1:07:40.080 --> 1:07:43.080]  And then at one moment, it arched off.
+[1:07:43.080 --> 1:07:46.080]  And I saw it fly over a large warehouse.
+[1:07:46.080 --> 1:07:50.080]  And on the side of the warehouse was a bed sheet.
+[1:07:50.080 --> 1:07:58.080]  And on the bed sheet was hand painted the word fireworks.
+[1:07:58.080 --> 1:08:01.080]  As I left the fireworks store
+[1:08:01.080 --> 1:08:06.080]  with a bag full of way more shit than I can use in three days.
+[1:08:06.080 --> 1:08:08.080]  I thought to myself, this is amazing.
+[1:08:08.080 --> 1:08:10.080]  This is two amazing human achievements.
+[1:08:10.080 --> 1:08:13.080]  Two amazing human perceptions in one day.
+[1:08:13.080 --> 1:08:14.080]  I got to view.
+[1:08:14.080 --> 1:08:18.080]  I got to see the majesty of nature.
+[1:08:18.080 --> 1:08:22.080]  And I also got to experience the majesty of using some shit
+[1:08:22.080 --> 1:08:24.080]  to blow other shit up.
+[1:08:24.080 --> 1:08:25.080]  Right?
+[1:08:25.080 --> 1:08:26.080]  It's great.
+[1:08:26.080 --> 1:08:28.080]  Like, I feel like that is core to us as people.
+[1:08:28.080 --> 1:08:30.080]  Whether you believe in God or not,
+[1:08:30.080 --> 1:08:35.080]  you recognize that the world is a magical, wonderful place.
+[1:08:35.080 --> 1:08:39.080]  And sometimes you want to make it fucking explode.
+[1:08:44.080 --> 1:08:47.080]  The rest that we can spend in my hotel room
+[1:08:47.080 --> 1:08:49.080]  listening to Lionel Richie,
+[1:08:49.080 --> 1:08:52.080]  just sitting on a pile of fireworks.
+[1:08:52.080 --> 1:08:55.080]  Not dancing on the ceiling.
+[1:08:55.080 --> 1:08:56.080]  Hello.
+[1:08:56.080 --> 1:09:01.080]  I listened to Hello on repeat in my underwear.
+[1:09:01.080 --> 1:09:04.080]  Surrounded by bottle rockets and Roman candles.
+[1:09:04.080 --> 1:09:08.080]  And I thought to myself, God damn it, Heartland,
+[1:09:08.080 --> 1:09:10.080]  there are some things you do right.
+[1:09:10.080 --> 1:09:11.080]  Like, I'm a California guy.
+[1:09:11.080 --> 1:09:13.080]  I'm as blue state as they come.
+[1:09:13.080 --> 1:09:15.080]  But I loved being in Indiana.
+[1:09:15.080 --> 1:09:16.080]  Because you know what?
+[1:09:16.080 --> 1:09:19.080]  If a dumb, meaty, bro wants to ride around
+[1:09:19.080 --> 1:09:20.080]  and it's motorcycle with his helmet off,
+[1:09:20.080 --> 1:09:22.080]  that's kind of great.
+[1:09:22.080 --> 1:09:24.080]  I feel like we can learn from,
+[1:09:24.080 --> 1:09:27.080]  I can learn certainly from that perspective.
+[1:09:27.080 --> 1:09:32.080]  Certainly, I believe that a woman has a right
+[1:09:32.080 --> 1:09:35.080]  to a legal and safe abortion.
+[1:09:35.080 --> 1:09:36.080]  Thank you.
+[1:09:36.080 --> 1:09:37.080]  I think if you believe in it,
+[1:09:37.080 --> 1:09:39.080]  why don't we clap for that if you believe in it?
+[1:09:39.080 --> 1:09:45.080]  I also want to clap for this next one.
+[1:09:45.080 --> 1:09:48.080]  I also believe that that same woman
+[1:09:48.080 --> 1:09:52.080]  has a legal unsafe right to enough fireworks
+[1:09:52.080 --> 1:09:55.080]  to freak out all the cats in her neighborhood.
+[1:09:55.080 --> 1:09:56.080]  Right?
+[1:09:56.080 --> 1:09:57.080]  Like, both of those things.
+[1:09:57.080 --> 1:09:59.080]  That's great.
+[1:09:59.080 --> 1:10:02.080]  And what I was going to say based on that was,
+[1:10:02.080 --> 1:10:04.080]  you know, I think the same thing sort of applies
+[1:10:04.080 --> 1:10:06.080]  a lot of times in technology.
+[1:10:06.080 --> 1:10:10.080]  Like, there's a partisanship between two opposing sides.
+[1:10:10.080 --> 1:10:14.080]  Like, iOS versus Android or something like that.
+[1:10:14.080 --> 1:10:17.080]  And we really gain a lot when we come together
+[1:10:17.080 --> 1:10:20.080]  and figure stuff out that works on both sides.
+[1:10:20.080 --> 1:10:21.080]  I was going to say that.
+[1:10:21.080 --> 1:10:22.080]  That's boring as fuck.
+[1:10:22.080 --> 1:10:25.080]  I just want to talk about being in my underwear in my hotel room.
+[1:10:25.080 --> 1:10:32.080]  Turn down from me, you guys.
+[1:10:32.080 --> 1:10:38.080]  The other thing that I wanted to talk about with you guys
+[1:10:38.080 --> 1:10:42.080]  specifically, huh?
+[1:10:42.080 --> 1:10:43.080]  Mark, no, nothing.
+[1:10:43.080 --> 1:10:44.080]  It's cool.
+[1:10:44.080 --> 1:10:47.080]  You got those sweet beets.
+[1:10:47.080 --> 1:10:51.080]  I'm going to call you sweet beets from now on.
+[1:10:51.080 --> 1:10:52.080]  It's good.
+[1:10:52.080 --> 1:10:59.080]  Have you guys ever heard of a place called Draper University?
+[1:10:59.080 --> 1:11:00.080]  No.
+[1:11:00.080 --> 1:11:03.080]  Has anybody here ever heard of Draper University?
+[1:11:03.080 --> 1:11:04.080]  A few people?
+[1:11:04.080 --> 1:11:05.080]  Okay.
+[1:11:05.080 --> 1:11:06.080]  Okay.
+[1:11:06.080 --> 1:11:11.080]  You might not like the next half an hour of what we talk about.
+[1:11:11.080 --> 1:11:12.080]  Oh, thank you guys.
+[1:11:12.080 --> 1:11:16.080]  Thank you so much.
+[1:11:16.080 --> 1:11:18.080]  Ladies and gentlemen,
+[1:11:18.080 --> 1:11:25.080]  friends and gentlemen, Chuck.
+[1:11:25.080 --> 1:11:27.080]  So, and booze.
+[1:11:27.080 --> 1:11:28.080]  And booze.
+[1:11:28.080 --> 1:11:32.080]  Clap for booze.
+[1:11:32.080 --> 1:11:35.080]  And Jesse char.
+[1:11:35.080 --> 1:11:38.080]  So, I do a lot of stuff in San Mateo.
+[1:11:38.080 --> 1:11:42.080]  I spend a lot of time at the public library in San Mateo
+[1:11:42.080 --> 1:11:47.080]  because they have the most relaxed sleeping policy.
+[1:11:47.080 --> 1:11:52.080]  And I've often walked by this place that is an old converted hotel.
+[1:11:52.080 --> 1:11:54.080]  And I walked past the other day.
+[1:11:54.080 --> 1:11:58.080]  And in the window were two giant photographs,
+[1:11:58.080 --> 1:12:02.080]  one of Steve Jobs and one of Elon Musk.
+[1:12:02.080 --> 1:12:07.080]  Looking like he needs some sun, like he always does.
+[1:12:07.080 --> 1:12:09.080]  And I was like, what is this place?
+[1:12:09.080 --> 1:12:13.080]  So, I did some research online to find out what Draper University is.
+[1:12:13.080 --> 1:12:14.080]  And I thought I'd share it with you.
+[1:12:14.080 --> 1:12:19.080]  Mostly because I feel like, as good, we're all good people, right?
+[1:12:19.080 --> 1:12:24.080]  Like, I feel like we should combat the doucheiness in our midst.
+[1:12:24.080 --> 1:12:29.080]  And technology often encourages a lot of that behavior.
+[1:12:29.080 --> 1:12:31.080]  It's rampant out in a valley.
+[1:12:31.080 --> 1:12:33.080]  Yeah, oh yeah, exactly.
+[1:12:33.080 --> 1:12:35.080]  And so that's where this is.
+[1:12:35.080 --> 1:12:38.080]  So, I looked it up online, Draper University,
+[1:12:38.080 --> 1:12:41.080]  and I got this information.
+[1:12:41.080 --> 1:12:47.080]  Located in Silicon Valley, Draper University of Heroes.
+[1:12:47.080 --> 1:12:50.080]  It's the first sign.
+[1:12:50.080 --> 1:12:53.080]  It's Draper University of Heroes.
+[1:12:53.080 --> 1:12:57.080]  And then I remembered a bunch of young people walking around town
+[1:12:57.080 --> 1:13:00.080]  wearing this t-shirt that just says hero on it.
+[1:13:00.080 --> 1:13:03.080]  I'm like, what did you, did you save a cat from a burning building?
+[1:13:03.080 --> 1:13:05.080]  You don't look like it.
+[1:13:05.080 --> 1:13:08.080]  And I realized that there are attendees of Draper University.
+[1:13:08.080 --> 1:13:12.080]  Draper University of Heroes is the brainchild of free-spirited venture capitalist,
+[1:13:12.080 --> 1:13:19.080]  Tim Draper, AKA the risk master.
+[1:13:19.080 --> 1:13:24.080]  I think Tim Draper is a good stand-in for a Silicon Valley proto douche.
+[1:13:24.080 --> 1:13:27.080]  Like, the last generation.
+[1:13:27.080 --> 1:13:31.080]  Like, he's got like a fun tie, and he hates all taxes.
+[1:13:31.080 --> 1:13:40.080]  I thought when you said it, I never heard of it.
+[1:13:40.080 --> 1:13:43.080]  I thought it was maybe like a Don Draper University.
+[1:13:43.080 --> 1:13:48.080]  And I feel like anybody who would enroll in thinking along the lines that I'm thinking
+[1:13:48.080 --> 1:13:51.080]  is probably going to be very disappointed when the classes start.
+[1:13:51.080 --> 1:13:54.080]  Like, they probably think classes are going to start like this.
+[1:13:54.080 --> 1:13:56.080]  That's right.
+[1:13:56.080 --> 1:13:57.080]  That's right.
+[1:13:57.080 --> 1:13:58.080]  That's right.
+[1:13:58.080 --> 1:13:59.080]  We do a shot.
+[1:13:59.080 --> 1:14:00.080]  And then we learn how to harass.
+[1:14:00.080 --> 1:14:03.080]  You unlearn all those classes you took.
+[1:14:03.080 --> 1:14:05.080]  Apparently, it's a very different university.
+[1:14:05.080 --> 1:14:06.080]  It is.
+[1:14:06.080 --> 1:14:10.080]  So what they say on their website, top of the line website, it's not.
+[1:14:10.080 --> 1:14:12.080]  It's terrible.
+[1:14:12.080 --> 1:14:17.080]  We are an unconventional world class, residential and online school for the brightest young
+[1:14:17.080 --> 1:14:19.080]  entrepreneurs from around the world.
+[1:14:19.080 --> 1:14:25.080]  Our core curriculum, our core curriculum includes some of the following topics,
+[1:14:25.080 --> 1:14:31.080]  media training, negotiations, various topics in finance.
+[1:14:31.080 --> 1:14:39.080]  This gloss over the stuff that's actually a school subject.
+[1:14:39.080 --> 1:14:45.080]  And then they dive into other things like lean startups, creativity crash course,
+[1:14:45.080 --> 1:14:51.080]  design thinking, innovation, and some other terrible stuff.
+[1:14:51.080 --> 1:14:55.080]  And so I was like, what is it?
+[1:14:55.080 --> 1:14:56.080]  So I looked further.
+[1:14:56.080 --> 1:14:57.080]  I watched a video.
+[1:14:57.080 --> 1:15:00.080]  There's a great video online about Draper University.
+[1:15:00.080 --> 1:15:06.080]  Instead of desks, students sit in colorful beanbag chairs.
+[1:15:06.080 --> 1:15:10.080]  And the video is great because obviously he had this idea, he's like, oh, this will be great.
+[1:15:10.080 --> 1:15:12.080]  We'll be unconventional as fuck.
+[1:15:12.080 --> 1:15:16.080]  We'll just sit in beanbag chairs and bandie about great ideas for how to change the world.
+[1:15:16.080 --> 1:15:19.080]  And you see the kids in the beanbag chairs.
+[1:15:19.080 --> 1:15:23.080]  And they're like sliding down.
+[1:15:23.080 --> 1:15:25.080]  Did you have a beanbag chair when you were growing up?
+[1:15:25.080 --> 1:15:31.080]  No, I wanted one, but I was not allowed to have one because I was told before we ever even tried it
+[1:15:31.080 --> 1:15:34.080]  that it would break and make a ginormous mess.
+[1:15:34.080 --> 1:15:37.080]  You had good parents.
+[1:15:37.080 --> 1:15:40.080]  Yeah, the beanbag chair is the great lie.
+[1:15:40.080 --> 1:15:42.080]  It's like the hungry, hungry hippos of chairs.
+[1:15:42.080 --> 1:15:44.080]  It seems like it's gonna be the best thing in the world.
+[1:15:44.080 --> 1:15:48.080]  And then you get it and somebody swallows a marble in the emergency room.
+[1:15:48.080 --> 1:15:55.080]  Every common area in hallway is covered in whiteboard paint for brainstorming.
+[1:15:55.080 --> 1:15:59.080]  And there's a shot of the class schedule at one point.
+[1:15:59.080 --> 1:16:03.080]  One of the classes is called futureology.
+[1:16:03.080 --> 1:16:08.080]  It's making up words.
+[1:16:08.080 --> 1:16:13.080]  And then there's a quote from an article about the university.
+[1:16:13.080 --> 1:16:18.080]  Earlier that day, I watched Draper change the agenda line for a planned activity,
+[1:16:18.080 --> 1:16:22.080]  a gathering of Draper U students and his daughter's college friends.
+[1:16:22.080 --> 1:16:32.080]  He changed it from mixer with sorority to heroathon.
+[1:16:32.080 --> 1:16:39.080]  The private school is not accredited.
+[1:16:39.080 --> 1:16:46.080]  And never will be Draper says, that's a box we don't want to be put into.
+[1:16:46.080 --> 1:16:52.080]  Oh, the actual university box.
+[1:16:52.080 --> 1:16:54.080]  So here's my favorite part.
+[1:16:54.080 --> 1:16:57.080]  And then I have a question for you guys.
+[1:16:57.080 --> 1:17:06.080]  At the end of the session, each student doesn't receive a B.A. or a B.S. or again, an actual degree.
+[1:17:06.080 --> 1:17:13.080]  Every student receives a C.A., which stands for, can you guess what C.A. stands for?
+[1:17:13.080 --> 1:17:15.080]  Creative achievement.
+[1:17:15.080 --> 1:17:16.080]  Creative achievement?
+[1:17:16.080 --> 1:17:18.080]  That's a terrible guess, John.
+[1:17:18.080 --> 1:17:21.080]  It's actually a fine guess.
+[1:17:21.080 --> 1:17:25.080]  It stands for change agent.
+[1:17:25.080 --> 1:17:30.080]  Which sounds like what Ebola turns into when it's human catchable.
+[1:17:30.080 --> 1:17:35.080]  We could have given John six months and he never would have thought of that because it's such bullshit.
+[1:17:35.080 --> 1:17:36.080]  Yeah, that's right.
+[1:17:36.080 --> 1:17:37.080]  That's right.
+[1:17:37.080 --> 1:17:42.080]  You just proved yourself to be bullshit free.
+[1:17:42.080 --> 1:17:43.080]  All right.
+[1:17:43.080 --> 1:17:44.080]  So here's my favorite part.
+[1:17:44.080 --> 1:17:55.080]  In lieu of diplomas, Draper U students receive masks and superhero capes.
+[1:17:55.080 --> 1:18:02.080]  Printed guy up front said, no.
+[1:18:02.080 --> 1:18:07.080]  They receive masks and capes printed with their superhero nicknames.
+[1:18:07.080 --> 1:18:09.080]  Gets better.
+[1:18:09.080 --> 1:18:17.080]  And are instructed to jump on each of a series of three small trampolines placed in a line in front of them.
+[1:18:17.080 --> 1:18:26.080]  While bouncing from trampoline to trampoline, they're told to shout, up, up, and away.
+[1:18:26.080 --> 1:18:28.080]  Then they assemble for a group photo.
+[1:18:28.080 --> 1:18:30.080]  What a bullshit place.
+[1:18:30.080 --> 1:18:36.080]  So why are we doing this show instead of doing a show where all of us go there and videotape it?
+[1:18:36.080 --> 1:18:37.080]  That would be great.
+[1:18:37.080 --> 1:18:46.080]  I also thought maybe we could do a Kickstarter where we all send John to it.
+[1:18:46.080 --> 1:18:49.080]  So again, it's called a university.
+[1:18:49.080 --> 1:18:51.080]  It's an eight week course.
+[1:18:51.080 --> 1:18:52.080]  So it's an eight week course.
+[1:18:52.080 --> 1:18:53.080]  It costs $10,000.
+[1:18:53.080 --> 1:18:56.080]  Which frankly is not that crazy.
+[1:18:56.080 --> 1:19:01.080]  I mean, you get breakfast.
+[1:19:01.080 --> 1:19:06.080]  I thought maybe we could, because actually the application deadline, this is true.
+[1:19:06.080 --> 1:19:13.080]  The application deadline for the summer quarter, I think they call it, even though that's a lie, is tomorrow.
+[1:19:13.080 --> 1:19:17.080]  On the application block, on the application screen, it's an online application.
+[1:19:17.080 --> 1:19:24.080]  There's one box that just says, tell us a story.
+[1:19:24.080 --> 1:19:25.080]  Which I love.
+[1:19:25.080 --> 1:19:31.080]  But then I realized that you have to be 18 to 26 to go there.
+[1:19:31.080 --> 1:19:38.080]  And I don't think we could doctor know the fuck out of you with some makeup.
+[1:19:38.080 --> 1:19:42.080]  But I don't think there'd be enough to make you look 26.
+[1:19:42.080 --> 1:19:44.080]  To make you look 26, yeah.
+[1:19:44.080 --> 1:19:47.080]  But then that got me thinking too.
+[1:19:47.080 --> 1:19:55.080]  So look, Draper U, let's just work to combat that element of bullshit, tech speak.
+[1:19:55.080 --> 1:19:57.080]  And entrepreneurial, mumble, jumbo.
+[1:19:57.080 --> 1:20:02.080]  Mumble jumbo, I just said.
+[1:20:02.080 --> 1:20:06.080]  But I thought maybe, well, here's my dream.
+[1:20:06.080 --> 1:20:08.080]  My dream is this.
+[1:20:08.080 --> 1:20:10.080]  Not Draper U.
+[1:20:10.080 --> 1:20:14.080]  My dream is Gruber U.
+[1:20:14.080 --> 1:20:16.080]  Gruber University.
+[1:20:16.080 --> 1:20:20.080]  I don't know, not of heroes.
+[1:20:20.080 --> 1:20:22.080]  But I don't know what that would look like.
+[1:20:22.080 --> 1:20:24.080]  And I thought maybe you guys could help me out with that.
+[1:20:24.080 --> 1:20:27.080]  I think Joe, I already told you, it's like Mad Men University.
+[1:20:27.080 --> 1:20:28.080]  That's true.
+[1:20:28.080 --> 1:20:34.080]  It's still called Draper University.
+[1:20:34.080 --> 1:20:35.080]  So there's a lot of drinking.
+[1:20:35.080 --> 1:20:38.080]  There's no suits, though.
+[1:20:38.080 --> 1:20:40.080]  Morning classes, no.
+[1:20:40.080 --> 1:20:42.080]  No morning classes.
+[1:20:42.080 --> 1:20:43.080]  You'll have classes.
+[1:20:43.080 --> 1:20:45.080]  You'll have classes that too in the morning.
+[1:20:45.080 --> 1:20:49.080]  Well, that doesn't count as a morning.
+[1:20:49.080 --> 1:20:50.080]  Well, that's a good question.
+[1:20:50.080 --> 1:20:51.080]  I don't know.
+[1:20:51.080 --> 1:20:53.080]  I feel like I'm in a poor position to judge.
+[1:20:53.080 --> 1:20:57.080]  I feel like it's, I feel like you guys maybe would have better ideas than me.
+[1:20:57.080 --> 1:21:00.080]  Well, it is a curriculum, anything outside of mixology?
+[1:21:00.080 --> 1:21:05.080]  Or is that pretty much the extent of it all?
+[1:21:05.080 --> 1:21:07.080]  No, I have other interests.
+[1:21:07.080 --> 1:21:09.080]  I mean, it would be a wide range of curriculum.
+[1:21:09.080 --> 1:21:11.080]  But they all just fund.
+[1:21:11.080 --> 1:21:12.080]  We'd have a very good-
+[1:21:12.080 --> 1:21:13.080]  That's true.
+[1:21:13.080 --> 1:21:15.080]  That's true.
+[1:21:15.080 --> 1:21:17.080]  But you went to school, and you did like the student things.
+[1:21:17.080 --> 1:21:18.080]  You were in that school newspaper.
+[1:21:18.080 --> 1:21:19.080]  You did all that study.
+[1:21:19.080 --> 1:21:21.080]  So, Draper University and Draper, sorry.
+[1:21:21.080 --> 1:21:24.080]  The Guru University's got to take you through that arc of like,
+[1:21:24.080 --> 1:21:27.080]  once he was a good student and belonged to the newspaper.
+[1:21:27.080 --> 1:21:30.080]  And then you got to transition into the dandere.
+[1:21:30.080 --> 1:21:31.080]  Oh, yeah.
+[1:21:31.080 --> 1:21:32.080]  It's an arc.
+[1:21:32.080 --> 1:21:33.080]  That's genius.
+[1:21:33.080 --> 1:21:36.080]  The Gruber Memorial Rotunda.
+[1:21:36.080 --> 1:21:40.080]  That tells the story of your life from a young shitty kid
+[1:21:40.080 --> 1:21:43.080]  to a middle-aged shitty man.
+[1:21:43.080 --> 1:21:45.080]  It is true.
+[1:21:45.080 --> 1:21:47.080]  I'll tell you, it's funny you're bringing it up.
+[1:21:47.080 --> 1:21:48.080]  I didn't know you're going to bring this up.
+[1:21:48.080 --> 1:21:52.080]  But I've been haunted my entire life by dreams.
+[1:21:52.080 --> 1:21:53.080]  And it's very common.
+[1:21:53.080 --> 1:21:54.080]  Everybody has.
+[1:21:54.080 --> 1:21:57.080]  But dreams of school unpreparedness.
+[1:21:57.080 --> 1:21:59.080]  In the dream, it's an exam day.
+[1:21:59.080 --> 1:22:01.080]  Or there's a big homework assignment.
+[1:22:01.080 --> 1:22:02.080]  And it's like, oh my god, I blew it off.
+[1:22:02.080 --> 1:22:04.080]  But why would I blow it off until now?
+[1:22:04.080 --> 1:22:05.080]  It's due now.
+[1:22:05.080 --> 1:22:06.080]  Shit.
+[1:22:06.080 --> 1:22:08.080]  And it's a very unpleasant dream.
+[1:22:08.080 --> 1:22:10.080]  And I'd feel stressed out because when I was young,
+[1:22:10.080 --> 1:22:12.080]  I wanted to get good grades, et cetera, et cetera.
+[1:22:12.080 --> 1:22:15.080]  But I've started, like, in the last few years,
+[1:22:15.080 --> 1:22:18.080]  it's really me in the dream now.
+[1:22:18.080 --> 1:22:20.080]  And I don't care.
+[1:22:20.080 --> 1:22:24.080]  And I literally had a dream that I grew up.
+[1:22:24.080 --> 1:22:27.080]  My parent's house is across the street from the elementary school
+[1:22:27.080 --> 1:22:28.080]  I went to, literally across the street.
+[1:22:28.080 --> 1:22:32.080]  And I had a dream that my high school social studies teacher
+[1:22:32.080 --> 1:22:36.080]  was great, great guy, Mr. Choyka, and he taught us
+[1:22:36.080 --> 1:22:38.080]  civics and stuff.
+[1:22:38.080 --> 1:22:39.080]  And taught us, cool shit to teach high schoolers.
+[1:22:39.080 --> 1:22:41.080]  Like, hey, when cops come to your door,
+[1:22:41.080 --> 1:22:42.080]  you don't have to let them in.
+[1:22:42.080 --> 1:22:43.080]  And we use that high school parties.
+[1:22:43.080 --> 1:22:46.080]  It's like, no, you cannot come in.
+[1:22:46.080 --> 1:22:47.080]  And nobody else knew that.
+[1:22:47.080 --> 1:22:48.080]  He was a great teacher.
+[1:22:48.080 --> 1:22:53.080]  And in my dream, for some reason,
+[1:22:53.080 --> 1:22:55.080]  he's teaching in the elementary school.
+[1:22:55.080 --> 1:22:57.080]  But it's I'm in high school.
+[1:22:57.080 --> 1:23:00.080]  And he's just like, and I'm there.
+[1:23:00.080 --> 1:23:02.080]  And people are noisy.
+[1:23:02.080 --> 1:23:03.080]  And I'm annoyed.
+[1:23:03.080 --> 1:23:05.080]  And Choyka, Mr. Choyka, because I could use it
+[1:23:05.080 --> 1:23:06.080]  fucking drink.
+[1:23:06.080 --> 1:23:08.080]  And I said, I could get one of my parents' house
+[1:23:08.080 --> 1:23:10.080]  across the street.
+[1:23:10.080 --> 1:23:12.080]  And he goes, that'd be great.
+[1:23:12.080 --> 1:23:13.080]  And I said, what do you want?
+[1:23:13.080 --> 1:23:15.080]  He goes, well, we've got to make it look like water.
+[1:23:15.080 --> 1:23:16.080]  What?
+[1:23:16.080 --> 1:23:17.080]  I swear to god, just a real dream I had.
+[1:23:17.080 --> 1:23:18.080]  Oh, this is the dream.
+[1:23:18.080 --> 1:23:19.080]  I thought this is the real thing that happened.
+[1:23:19.080 --> 1:23:20.080]  I thought this is the real thing that happened.
+[1:23:20.080 --> 1:23:21.080]  It's never happened.
+[1:23:21.080 --> 1:23:23.080]  I stopped listening for a second.
+[1:23:23.080 --> 1:23:25.080]  And I was like, your teacher was the best teacher.
+[1:23:25.080 --> 1:23:27.080]  No, it's like, my dreams of being in school now,
+[1:23:27.080 --> 1:23:28.080]  it's just me.
+[1:23:28.080 --> 1:23:29.080]  I'm like, yeah, I'll get you a drink.
+[1:23:29.080 --> 1:23:30.080]  And I went across the street.
+[1:23:30.080 --> 1:23:32.080]  And the funny thing is, and I got him like a gin and tonic.
+[1:23:32.080 --> 1:23:33.080]  And he told me in the dream.
+[1:23:33.080 --> 1:23:36.080]  He told me to put extra pepper in it.
+[1:23:36.080 --> 1:23:38.080]  I was like, all right, you're the teacher.
+[1:23:38.080 --> 1:23:41.080]  And the funny thing is my parents don't even have gin in the house.
+[1:23:41.080 --> 1:23:42.080]  I don't know.
+[1:23:42.080 --> 1:23:44.080]  But in my dream world, they do.
+[1:23:44.080 --> 1:23:47.080]  I think I would go visit them a lot more.
+[1:23:47.080 --> 1:23:50.080]  Can I just quickly, quick aside, somebody in the front,
+[1:23:50.080 --> 1:23:53.080]  does somebody in the front have an iPhone that they would be willing to use?
+[1:23:53.080 --> 1:23:54.080]  Would you be willing to use?
+[1:23:54.080 --> 1:24:00.080]  Would you keep track of the Gruber University Core curriculum for us?
+[1:24:00.080 --> 1:24:03.080]  Let's see, 9 to 10 at 10 a.m.
+[1:24:03.080 --> 1:24:05.080]  That's blank.
+[1:24:05.080 --> 1:24:09.080]  10 to 2 p.m. is blank.
+[1:24:09.080 --> 1:24:10.080]  Study hall.
+[1:24:14.080 --> 1:24:16.080]  2 to 3 is Yankees.
+[1:24:25.080 --> 1:24:29.080]  3 to 301 is Yankees suck.
+[1:24:29.080 --> 1:24:36.080]  301 to 302 is that lady gets unmetriculated.
+[1:24:36.080 --> 1:24:41.080]  We have to address grading, evaluation of the students in
+[1:24:41.080 --> 1:24:44.080]  Draper Gruber University.
+[1:24:44.080 --> 1:24:47.080]  Because what you said about, you used to care a lot about grades
+[1:24:47.080 --> 1:24:52.080]  until you got smarter and realized, so just forgive me.
+[1:24:52.080 --> 1:24:55.080]  This is a bit of a risk, but I think probably not.
+[1:24:55.080 --> 1:24:59.080]  Many of you out there were A students.
+[1:24:59.080 --> 1:25:00.080]  Okay.
+[1:25:00.080 --> 1:25:03.080]  How many of you out there were C students?
+[1:25:03.080 --> 1:25:08.080]  The C students always have a way more fun reaction to that.
+[1:25:08.080 --> 1:25:11.080]  How many, I would guess that on average,
+[1:25:11.080 --> 1:25:15.080]  and this is totally out of my ass, on average,
+[1:25:15.080 --> 1:25:18.080]  C students probably do better in reality than A students.
+[1:25:18.080 --> 1:25:20.080]  Because the C students are the ones.
+[1:25:20.080 --> 1:25:22.080]  The C students tell themselves, anyway.
+[1:25:22.080 --> 1:25:26.080]  Because the C students were the ones who figured out that you
+[1:25:26.080 --> 1:25:30.080]  don't have to do about 80% of what they assign you in school.
+[1:25:30.080 --> 1:25:31.080]  Right.
+[1:25:31.080 --> 1:25:35.080]  So I think part of Gruber Draper University would just be,
+[1:25:35.080 --> 1:25:38.080]  you know, you don't tell anybody this for a while.
+[1:25:38.080 --> 1:25:41.080]  And then like, you know, senior year, whatever, last week of it,
+[1:25:41.080 --> 1:25:45.080]  you take everyone with a GPA above like 3.8, and you guys fail.
+[1:25:45.080 --> 1:25:46.080]  Sorry.
+[1:25:46.080 --> 1:25:47.080]  That's brilliant.
+[1:25:47.080 --> 1:25:48.080]  That's brilliant.
+[1:25:48.080 --> 1:25:52.080]  You've wasted way too much time studying on it's not exactly.
+[1:25:52.080 --> 1:25:53.080]  That's brilliant.
+[1:25:53.080 --> 1:25:54.080]  You did everything we asked.
+[1:25:54.080 --> 1:25:56.080]  Why didn't you question that?
+[1:25:56.080 --> 1:26:01.080]  You know, I remember when Bushy was the president,
+[1:26:01.080 --> 1:26:05.080]  and famously it was not the sharpest pencil in the box,
+[1:26:05.080 --> 1:26:08.080]  and didn't have a terrific school record.
+[1:26:08.080 --> 1:26:12.080]  There was actually news stories about that there is a
+[1:26:12.080 --> 1:26:18.080]  correlation to achieving sea level positions in major Fortune
+[1:26:18.080 --> 1:26:22.080]  500 corporations and having extraordinarily
+[1:26:22.080 --> 1:26:24.080]  mediocre scholastic records.
+[1:26:24.080 --> 1:26:25.080]  Right.
+[1:26:25.080 --> 1:26:28.080]  Well, it's that there's even a phrase for us,
+[1:26:28.080 --> 1:26:32.080]  the gentleman C, that, you know, that as long as you put up a
+[1:26:32.080 --> 1:26:36.080]  modicum of effort, and, you know, you're not going to never show up for
+[1:26:36.080 --> 1:26:38.080]  class, you're going to show up and you're going to take the
+[1:26:38.080 --> 1:26:39.080]  exam and fail terribly.
+[1:26:39.080 --> 1:26:43.080]  They'll at least give you a C, and that is the people who take advantage of
+[1:26:43.080 --> 1:26:45.080]  that role and are like, well, wait a second.
+[1:26:45.080 --> 1:26:48.080]  If the worst I can do is to see, I can do nothing.
+[1:26:48.080 --> 1:26:49.080]  Yeah.
+[1:26:49.080 --> 1:26:51.080]  I never did homework.
+[1:26:51.080 --> 1:26:55.080]  I literally did zero homework for my entire academic career,
+[1:26:55.080 --> 1:26:58.080]  and I always, almost failed some classes here and there,
+[1:26:58.080 --> 1:27:01.080]  and got A's in the easy classes here and there, and I came out
+[1:27:01.080 --> 1:27:02.080]  okay.
+[1:27:02.080 --> 1:27:03.080]  I almost even graduated.
+[1:27:03.080 --> 1:27:04.080]  All right.
+[1:27:04.080 --> 1:27:08.080]  So I think we can probably guess that description does not
+[1:27:08.080 --> 1:27:09.080]  apply to John.
+[1:27:09.080 --> 1:27:10.080]  You would guess wrong.
+[1:27:10.080 --> 1:27:13.080]  I mean, also we did not like doing homework at all.
+[1:27:13.080 --> 1:27:15.080]  I just did enough of it to get A's, but.
+[1:27:15.080 --> 1:27:18.080]  Oh, what an asshole.
+[1:27:18.080 --> 1:27:24.080]  No, I did not want to do homework at all.
+[1:27:24.080 --> 1:27:26.080]  I thought it was in a front that I should ever have.
+[1:27:26.080 --> 1:27:28.080]  And now my, I get it back as now my son comes home and thinks it
+[1:27:28.080 --> 1:27:31.080]  is like the worst injustice in the world that when he comes home from
+[1:27:31.080 --> 1:27:33.080]  school, there's still more school to do.
+[1:27:33.080 --> 1:27:34.080]  Right.
+[1:27:34.080 --> 1:27:35.080]  Well, it's the same way.
+[1:27:35.080 --> 1:27:36.080]  He's right.
+[1:27:36.080 --> 1:27:39.080]  Nobody would ever accuse you of being a type A personality.
+[1:27:39.080 --> 1:27:41.080]  Type A is I've got to be valedictorian.
+[1:27:41.080 --> 1:27:44.080]  And if I'm salutatorian, I'm going to find a loophole where
+[1:27:44.080 --> 1:27:49.080]  the valedictorian, you know, took a weird class and seventh grade
+[1:27:49.080 --> 1:27:52.080]  and their 4.0 should be a 3.999.
+[1:27:52.080 --> 1:27:53.080]  That's not you.
+[1:27:53.080 --> 1:27:55.080]  Well, this is what I said in my report card every year for my
+[1:27:55.080 --> 1:27:56.080]  whole life.
+[1:27:56.080 --> 1:28:00.080]  Not working up to potential.
+[1:28:00.080 --> 1:28:01.080]  I've got them all saved.
+[1:28:01.080 --> 1:28:03.080]  Does every teacher have to teach you what to write it?
+[1:28:03.080 --> 1:28:05.080]  But I don't think anybody is surprised by this.
+[1:28:05.080 --> 1:28:07.080]  I think, you know, this comes very clear.
+[1:28:07.080 --> 1:28:10.080]  And your baseline of the minimum work to get an A.
+[1:28:10.080 --> 1:28:13.080]  And you probably did more work to figure out what the minimum
+[1:28:13.080 --> 1:28:17.080]  work is to get an A than the actual work that you did.
+[1:28:17.080 --> 1:28:18.080]  Like, you probably knew exactly.
+[1:28:18.080 --> 1:28:19.080]  Oh, well, I...
+[1:28:19.080 --> 1:28:20.080]  Well, the work is more like subterfuge.
+[1:28:20.080 --> 1:28:23.080]  How many notes home can I hide from my parents before they
+[1:28:23.080 --> 1:28:24.080]  find one?
+[1:28:24.080 --> 1:28:27.080]  This is probably a CPAN module somewhere to calculate.
+[1:28:27.080 --> 1:28:28.080]  Did you know your grades?
+[1:28:28.080 --> 1:28:30.080]  Like, were you ever surprised by your report card?
+[1:28:30.080 --> 1:28:31.080]  Did you know your grades?
+[1:28:31.080 --> 1:28:32.080]  No, I knew my grades.
+[1:28:32.080 --> 1:28:34.080]  I mean, I was with the nerds.
+[1:28:34.080 --> 1:28:36.080]  Like, valedictorian was my best friend, right?
+[1:28:36.080 --> 1:28:38.080]  Oh, I knew where you were with the nerds.
+[1:28:38.080 --> 1:28:39.080]  You were with the nerds?
+[1:28:39.080 --> 1:28:42.080]  Oh, look, look where you are, sir.
+[1:28:46.080 --> 1:28:47.080]  That's true.
+[1:28:47.080 --> 1:28:50.080]  I'm the one who's going to get beat up, for sure.
+[1:28:50.080 --> 1:28:53.080]  Nah, you can pass.
+[1:28:53.080 --> 1:28:56.080]  But Casey, Casey, to me, you're a mystery man.
+[1:28:56.080 --> 1:28:57.080]  Where did you fall on this?
+[1:28:57.080 --> 1:28:59.080]  What kind of a high school student were you?
+[1:28:59.080 --> 1:29:02.080]  So when I was in grade school, when I was in middle school,
+[1:29:02.080 --> 1:29:05.080]  like, I will do every bit of homework.
+[1:29:05.080 --> 1:29:07.080]  I'll ask for extra credit, total freakin' nerd.
+[1:29:07.080 --> 1:29:11.080]  And then around high school, I realized,
+[1:29:11.080 --> 1:29:13.080]  I just don't fucking care.
+[1:29:13.080 --> 1:29:16.080]  And so I was an okay high school student.
+[1:29:16.080 --> 1:29:18.080]  I was a terrible college student.
+[1:29:18.080 --> 1:29:20.080]  Marco and I, I think, could probably get into a pretty
+[1:29:20.080 --> 1:29:23.080]  serious pissing match over who was the worst student in
+[1:29:23.080 --> 1:29:24.080]  college.
+[1:29:24.080 --> 1:29:28.080]  But yeah, so then I just realized, well, it's enough to
+[1:29:28.080 --> 1:29:29.080]  get by.
+[1:29:29.080 --> 1:29:32.080]  And all that matters in the end is that I have a degree,
+[1:29:32.080 --> 1:29:36.080]  not a, what it was, change agent certificate of authenticity
+[1:29:36.080 --> 1:29:37.080]  whatever it was.
+[1:29:37.080 --> 1:29:39.080]  And that's all I needed.
+[1:29:39.080 --> 1:29:41.080]  But you Scott, were you a good college student?
+[1:29:41.080 --> 1:29:46.080]  Well, much like Casey, at a certain point, I realized that
+[1:29:46.080 --> 1:29:48.080]  that stuff wasn't important.
+[1:29:48.080 --> 1:29:52.080]  And I stopped being as, as rule-following as I was.
+[1:29:52.080 --> 1:29:56.080]  For me, that moment came when I was 37.
+[1:29:56.080 --> 1:29:59.080]  I was gonna say, it's when you left Apple, right?
+[1:29:59.080 --> 1:30:02.080]  Yeah, I was like, this is stupid.
+[1:30:02.080 --> 1:30:04.080]  I mean, it's, well, it's stupid.
+[1:30:04.080 --> 1:30:07.080]  But, you know, for me, it was the wrong thing.
+[1:30:07.080 --> 1:30:11.080]  And I finally was like, okay, I can, I can jump out of this,
+[1:30:11.080 --> 1:30:14.080]  this path that I thought I had to be on.
+[1:30:14.080 --> 1:30:18.080]  I was stressed throughout my college career because I,
+[1:30:18.080 --> 1:30:24.080]  I went to Drexel on Drexel, Drexel has just
+[1:30:24.080 --> 1:30:27.080]  Logan, much like Drexel, Drexel has an official slogan.
+[1:30:27.080 --> 1:30:30.080]  It's, we're right next to Penn.
+[1:30:30.080 --> 1:30:33.080]  That is their slogan.
+[1:30:33.080 --> 1:30:35.080]  I forget if I've ever told this story.
+[1:30:35.080 --> 1:30:37.080]  I don't know if this is going to be too long.
+[1:30:37.080 --> 1:30:40.080]  But the long story short is, I was, okay, student,
+[1:30:40.080 --> 1:30:42.080]  never really cared about grades, but I was an exceptionally
+[1:30:42.080 --> 1:30:44.080]  talented test taker.
+[1:30:44.080 --> 1:30:47.080]  I have truly gifted at taking things like the SAT,
+[1:30:47.080 --> 1:30:50.080]  because it was like being in a matrix where I could see
+[1:30:50.080 --> 1:30:51.080]  why they were asking the question.
+[1:30:51.080 --> 1:30:53.080]  I couldn't even answer it, but I can see clearly they
+[1:30:53.080 --> 1:30:56.080]  mean, see, I don't understand what these words mean,
+[1:30:56.080 --> 1:31:00.080]  but I could understand the SAT at a meta level and scored
+[1:31:00.080 --> 1:31:01.080]  very, very high.
+[1:31:01.080 --> 1:31:04.080]  This is in the early 90s before they rescored them
+[1:31:04.080 --> 1:31:06.080]  and let people get high grades.
+[1:31:06.080 --> 1:31:11.080]  But in like 10th grade, I took the SAT as a test.
+[1:31:11.080 --> 1:31:13.080]  Like, yeah, this isn't for real.
+[1:31:13.080 --> 1:31:15.080]  We're going to take it for real next year.
+[1:31:15.080 --> 1:31:17.080]  And when you take the SAT, at least you did back then,
+[1:31:17.080 --> 1:31:20.080]  you'd say, what schools do you want it sent to for free?
+[1:31:20.080 --> 1:31:23.080]  And I hadn't done any research on where to go.
+[1:31:23.080 --> 1:31:25.080]  And I picked basketball schools that I like.
+[1:31:25.080 --> 1:31:29.080]  I picked North Carolina and Villanova and Syracuse.
+[1:31:29.080 --> 1:31:32.080]  Yeah, I picked all the big East teams and everybody
+[1:31:32.080 --> 1:31:35.080]  but Duke and ACC.
+[1:31:35.080 --> 1:31:37.080]  And I had no intention of going to any of these schools.
+[1:31:37.080 --> 1:31:39.080]  And they were still open slots.
+[1:31:39.080 --> 1:31:41.080]  And my friend who was with me, his sister,
+[1:31:41.080 --> 1:31:42.080]  went to Drexel.
+[1:31:42.080 --> 1:31:43.080]  He was put Drexel down there, cool.
+[1:31:43.080 --> 1:31:44.080]  And I was like, all right, Drexel.
+[1:31:44.080 --> 1:31:46.080]  And I got a really high score.
+[1:31:46.080 --> 1:31:48.080]  I got like a 1420.
+[1:31:48.080 --> 1:31:51.080]  And it goes next year, and I got a 1460.
+[1:31:51.080 --> 1:31:53.080]  And by that time, though, I knew where I wanted to go.
+[1:31:53.080 --> 1:31:54.080]  And I had this list of schools.
+[1:31:54.080 --> 1:31:56.080]  And it was a lot more practical.
+[1:31:56.080 --> 1:31:58.080]  And Drexel wasn't even listened, blah, blah, blah.
+[1:31:58.080 --> 1:31:59.080]  And I thought I was going to Penn State.
+[1:31:59.080 --> 1:32:01.080]  And one day, the phone rings.
+[1:32:01.080 --> 1:32:03.080]  And somebody is like, I'm somebody from Drexel University.
+[1:32:03.080 --> 1:32:05.080]  I want to speak to John Gruber.
+[1:32:05.080 --> 1:32:06.080]  And I said, yeah, that's me.
+[1:32:06.080 --> 1:32:08.080]  And I said, yes, we'd like you to come to Drexel
+[1:32:08.080 --> 1:32:10.080]  on a full tuition scholarship.
+[1:32:10.080 --> 1:32:13.080]  And I said, well, what do I have to do?
+[1:32:13.080 --> 1:32:15.080]  And I'd already been filling out all these essays
+[1:32:15.080 --> 1:32:17.080]  for scholarships to other schools.
+[1:32:17.080 --> 1:32:21.080]  He was like, can you play Bad Minton?
+[1:32:21.080 --> 1:32:24.080]  Their answer was, you, well, you need to apply.
+[1:32:24.080 --> 1:32:27.080]  And I was like, all right.
+[1:32:27.080 --> 1:32:29.080]  I was like, it seems like we're already.
+[1:32:29.080 --> 1:32:32.080]  I was like, but then what?
+[1:32:32.080 --> 1:32:35.080]  And I know that's it.
+[1:32:35.080 --> 1:32:40.080]  And we have a policy where if you've scored a 1400 or higher
+[1:32:40.080 --> 1:32:43.080]  on your SAT, you can come to Drexel for free.
+[1:32:43.080 --> 1:32:47.080]  You know, it's pronounced SAT.
+[1:32:47.080 --> 1:32:49.080]  It's a more efficient way to say it.
+[1:32:49.080 --> 1:32:50.080]  Well, it's a Tim Cook.
+[1:32:50.080 --> 1:32:52.080]  It's Tim Cook.
+[1:32:52.080 --> 1:32:55.080]  And I was like, do you mean that's all I have to do is apply?
+[1:32:55.080 --> 1:32:56.080]  And then I go for free.
+[1:32:56.080 --> 1:32:57.080]  And they're like, yeah.
+[1:32:57.080 --> 1:32:58.080]  And I was like, well, what is tuition?
+[1:32:58.080 --> 1:32:59.080]  Because I hadn't done any research.
+[1:32:59.080 --> 1:33:01.080]  And they're like, and it just is 1991.
+[1:33:01.080 --> 1:33:03.080]  So it's probably like $50,000 a year now.
+[1:33:03.080 --> 1:33:05.080]  They're like, it's $16,000 a year.
+[1:33:05.080 --> 1:33:07.080]  And I was like, and I don't have to pay any of it.
+[1:33:07.080 --> 1:33:08.080]  And they're like, yeah.
+[1:33:08.080 --> 1:33:09.080]  And I was like, oh.
+[1:33:09.080 --> 1:33:10.080]  And I got the phone.
+[1:33:10.080 --> 1:33:11.080]  And my dad was like, who is that?
+[1:33:11.080 --> 1:33:13.080]  And I was like, I don't know.
+[1:33:13.080 --> 1:33:14.080]  It's Drexel.
+[1:33:14.080 --> 1:33:15.080]  I guess I'm going there?
+[1:33:15.080 --> 1:33:18.080]  Because I was like, I had, I don't know.
+[1:33:18.080 --> 1:33:21.080]  So I would complicate, you know, money for college.
+[1:33:21.080 --> 1:33:22.080]  It's crazy how much college costs.
+[1:33:22.080 --> 1:33:25.080]  And we had this complicated thing where we were taking out loans
+[1:33:25.080 --> 1:33:26.080]  and all this stuff.
+[1:33:26.080 --> 1:33:31.080]  And the only catch was I had to keep a 3.0 grade point average
+[1:33:31.080 --> 1:33:33.080]  for my whole academic career.
+[1:33:33.080 --> 1:33:34.080]  No deal.
+[1:33:34.080 --> 1:33:37.080]  It was very, very stressful my first two years.
+[1:33:37.080 --> 1:33:40.080]  But then I knew other people who had this scholarship
+[1:33:40.080 --> 1:33:43.080]  and the backstory of it is that Drexel is really,
+[1:33:43.080 --> 1:33:44.080]  well, maybe they're better now.
+[1:33:44.080 --> 1:33:46.080]  But when I was there, they were really not a good school.
+[1:33:46.080 --> 1:33:49.080]  And they had really low average SAT scores.
+[1:33:49.080 --> 1:33:51.080]  They were like safety school.
+[1:33:51.080 --> 1:33:54.080]  And so their idea for raising the average SAT score was,
+[1:33:54.080 --> 1:33:58.080]  we'll let people who score 1,300 or higher go for half tuition
+[1:33:58.080 --> 1:34:01.080]  and 1,400, you go for free.
+[1:34:01.080 --> 1:34:04.080]  And so I ended up like I had like six roommates
+[1:34:04.080 --> 1:34:06.080]  in a big apartment at one point.
+[1:34:06.080 --> 1:34:09.080]  And like half of us were there for free because we'd scored 1,400
+[1:34:09.080 --> 1:34:13.080]  and couldn't go to a good school because we couldn't pay for it.
+[1:34:13.080 --> 1:34:16.080]  But then I figured out halfway through my college career
+[1:34:16.080 --> 1:34:19.080]  that there was a grace period on the GPA thing.
+[1:34:19.080 --> 1:34:22.080]  Like they don't just like you fall to a 2.9
+[1:34:22.080 --> 1:34:24.080]  and they're like, oh, sorry.
+[1:34:24.080 --> 1:34:25.080]  You have to go.
+[1:34:25.080 --> 1:34:28.080]  You get like, I don't know what you call it.
+[1:34:28.080 --> 1:34:33.080]  Just to note the daily curriculum of 3 to 4 grace period.
+[1:34:33.080 --> 1:34:39.080]  But I like that. I had a good time there.
+[1:34:39.080 --> 1:34:44.080]  I think I finished with like a 3.000002 GPA.
+[1:34:44.080 --> 1:34:47.080]  It was incredibly close, but I never did dip down
+[1:34:47.080 --> 1:34:49.080]  and I never got the letter.
+[1:34:49.080 --> 1:34:52.080]  I think about this a lot, especially having moved from the East Coast
+[1:34:52.080 --> 1:34:53.080]  to the West Coast.
+[1:34:53.080 --> 1:34:56.080]  So when I was on the East Coast, also it was the early 90s.
+[1:34:56.080 --> 1:34:58.080]  It was like you go to college.
+[1:34:58.080 --> 1:35:01.080]  It's just what you do, obviously.
+[1:35:01.080 --> 1:35:03.080]  But then coming to the West Coast
+[1:35:03.080 --> 1:35:06.080]  and seeing all these people achieve amazing things
+[1:35:06.080 --> 1:35:08.080]  without ever having gone to college
+[1:35:08.080 --> 1:35:13.080]  and also watching college tuition go from super expensive
+[1:35:13.080 --> 1:35:16.080]  to what the cadence has been.
+[1:35:16.080 --> 1:35:18.080]  You used to pay like you buy a car for college tuition.
+[1:35:18.080 --> 1:35:20.080]  Now you can buy like a really, really nice car.
+[1:35:20.080 --> 1:35:22.080]  Yeah, you can buy a nice car for like the whole,
+[1:35:22.080 --> 1:35:26.080]  you can buy like four cars for the four years.
+[1:35:26.080 --> 1:35:29.080]  So, it's not that expensive.
+[1:35:29.080 --> 1:35:31.080]  You could buy a Tesla.
+[1:35:31.080 --> 1:35:33.080]  You could buy four Teslas for the cost that it goes to.
+[1:35:33.080 --> 1:35:34.080]  Or for the college cost.
+[1:35:34.080 --> 1:35:36.080]  You know how much college cost KZR, KZR.
+[1:35:36.080 --> 1:35:38.080]  Marko, you'll find out.
+[1:35:38.080 --> 1:35:41.080]  How many people here went to college?
+[1:35:41.080 --> 1:35:43.080]  Well, we went to college.
+[1:35:43.080 --> 1:35:45.080]  We can't see shit.
+[1:35:45.080 --> 1:35:46.080]  All right.
+[1:35:46.080 --> 1:35:47.080]  Okay.
+[1:35:47.080 --> 1:35:50.080]  How many people graduated from college?
+[1:35:50.080 --> 1:35:55.080]  And how many people never went to college?
+[1:35:55.080 --> 1:35:56.080]  I love you guys.
+[1:35:56.080 --> 1:35:57.080]  Those are my people.
+[1:35:57.080 --> 1:36:02.080]  They're the people who got smart at an earlier age, right?
+[1:36:02.080 --> 1:36:04.080]  So do you believe that college is necessary?
+[1:36:04.080 --> 1:36:07.080]  So for folks like this, for, you know,
+[1:36:07.080 --> 1:36:09.080]  going in the world of like being a developer,
+[1:36:09.080 --> 1:36:11.080]  something like that, do you need to go to college?
+[1:36:11.080 --> 1:36:13.080]  Still, I don't know.
+[1:36:13.080 --> 1:36:16.080]  I think you need to go to college if you think you do
+[1:36:16.080 --> 1:36:18.080]  so that you can learn that you don't.
+[1:36:18.080 --> 1:36:23.080]  That's really profound advice,
+[1:36:23.080 --> 1:36:26.080]  but I totally can't believe it with those beats around your neck.
+[1:36:26.080 --> 1:36:29.080]  This lends me credibility among the youths, right?
+[1:36:29.080 --> 1:36:32.080]  Isn't that why Apple bought them?
+[1:36:32.080 --> 1:36:34.080]  The youths.
+[1:36:34.080 --> 1:36:35.080]  The youths.
+[1:36:35.080 --> 1:36:39.080]  Did you say youth?
+[1:36:39.080 --> 1:36:42.080]  I don't know.
+[1:36:42.080 --> 1:36:44.080]  Did you guys have anything else?
+[1:36:44.080 --> 1:36:45.080]  Do we want to talk about school?
+[1:36:45.080 --> 1:36:47.080]  I mean, we should wrap up soon.
+[1:36:47.080 --> 1:36:48.080]  School is great.
+[1:36:48.080 --> 1:36:51.080]  Love school.
+[1:36:51.080 --> 1:36:53.080]  School is good for the life stuff.
+[1:36:53.080 --> 1:36:57.080]  Like, it's good to learn how to drink in college.
+[1:36:57.080 --> 1:37:01.080]  It's good to learn how to live by yourself for the first time.
+[1:37:01.080 --> 1:37:02.080]  That's nice.
+[1:37:02.080 --> 1:37:04.080]  So there's an adulthood element to it.
+[1:37:04.080 --> 1:37:07.080]  Is it worth $60,000 a year?
+[1:37:07.080 --> 1:37:08.080]  No.
+[1:37:08.080 --> 1:37:10.080]  But while we're, you know, open kimono life story,
+[1:37:10.080 --> 1:37:13.080]  porn and all on the table, I went to college.
+[1:37:13.080 --> 1:37:15.080]  I did not drink.
+[1:37:15.080 --> 1:37:19.080]  I started to drink slightly while I was in college,
+[1:37:19.080 --> 1:37:25.080]  but didn't really start drinking until, like, my mid-20s.
+[1:37:25.080 --> 1:37:27.080]  I actually had a fairly similar experience.
+[1:37:27.080 --> 1:37:30.080]  I vividly remember it was one day over the summer before I'm
+[1:37:30.080 --> 1:37:31.080]  about to go to college.
+[1:37:31.080 --> 1:37:32.080]  I went to college at Virginia Tech.
+[1:37:32.080 --> 1:37:35.080]  And my dad sits me down.
+[1:37:35.080 --> 1:37:38.080]  Just to note, nobody applauded for Virginia Tech.
+[1:37:38.080 --> 1:37:39.080]  Thank you.
+[1:37:39.080 --> 1:37:40.080]  That's all right.
+[1:37:40.080 --> 1:37:41.080]  I'm the other guy.
+[1:37:41.080 --> 1:37:42.080]  It's fine.
+[1:37:42.080 --> 1:37:43.080]  So my dad sits me down.
+[1:37:43.080 --> 1:37:44.080]  My dad sits me down.
+[1:37:44.080 --> 1:37:45.080]  And he puts something in front of me.
+[1:37:45.080 --> 1:37:46.080]  I can't remember what it was.
+[1:37:46.080 --> 1:37:49.080]  And he says, you need to drink this.
+[1:37:49.080 --> 1:37:50.080]  OK.
+[1:37:50.080 --> 1:37:53.080]  You're going to drink more than one.
+[1:37:53.080 --> 1:37:54.080]  What is it?
+[1:37:54.080 --> 1:37:55.080]  And I took a little sip.
+[1:37:55.080 --> 1:37:56.080]  And God knows what it was.
+[1:37:56.080 --> 1:37:57.080]  And I probably choked it up.
+[1:37:57.080 --> 1:37:58.080]  How old were you?
+[1:37:58.080 --> 1:37:59.080]  I was 18.
+[1:37:59.080 --> 1:38:01.080]  Because I'd never really had booze before.
+[1:38:01.080 --> 1:38:03.080]  And my dad basically sat me down and said,
+[1:38:03.080 --> 1:38:05.080]  you're getting fucking hammered tonight.
+[1:38:05.080 --> 1:38:08.080]  So this way, when you go to school, you know what this feels like.
+[1:38:08.080 --> 1:38:10.080]  And you will be OK.
+[1:38:10.080 --> 1:38:15.080]  Casey drank 11 melantinis that night.
+[1:38:15.080 --> 1:38:17.080]  It was easy on the teeny.
+[1:38:17.080 --> 1:38:19.080]  Dad, why are you giving me melantinis?
+[1:38:19.080 --> 1:38:20.080]  Shut up.
+[1:38:20.080 --> 1:38:21.080]  Drink it.
+[1:38:21.080 --> 1:38:23.080]  Did he also make you smoke a whole bag of cigarettes?
+[1:38:23.080 --> 1:38:25.080]  No, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
+[1:38:25.080 --> 1:38:27.080]  But no, that was my first real drinking experience.
+[1:38:27.080 --> 1:38:29.080]  And then I drank a little bit in college.
+[1:38:29.080 --> 1:38:33.080]  And now supposedly drunk me is somewhere in the audience.
+[1:38:33.080 --> 1:38:34.080]  So I'm told.
+[1:38:34.080 --> 1:38:36.080]  So it's here for drunk Casey out in the audience.
+[1:38:36.080 --> 1:38:37.080]  Mystery.
+[1:38:37.080 --> 1:38:38.080]  Mystery tweeter.
+[1:38:38.080 --> 1:38:42.080]  So used to be a drunk grouper account,
+[1:38:42.080 --> 1:38:44.080]  but then the guy stopped updating it.
+[1:38:44.080 --> 1:38:46.080]  Yeah, cirrhosis.
+[1:38:46.080 --> 1:38:48.080]  It took him.
+[1:38:48.080 --> 1:38:50.080]  Poor one out for drunk grouper.
+[1:38:56.080 --> 1:39:04.080]  What he used to do is try to guess which tweets of mine I tweeted while intoxicated.
+[1:39:04.080 --> 1:39:07.080]  And it was funny because he was pretty good.
+[1:39:07.080 --> 1:39:08.080]  But not that good.
+[1:39:08.080 --> 1:39:10.080]  It was like, you know what, it is pretty late,
+[1:39:10.080 --> 1:39:11.080]  but I'm actually still cold sober tonight.
+[1:39:11.080 --> 1:39:13.080]  And I actually just tweeted that.
+[1:39:13.080 --> 1:39:17.080]  Yeah.
+[1:39:17.080 --> 1:39:19.080]  Now, you never really were drinkers.
+[1:39:19.080 --> 1:39:21.080]  Oh, no, you got it out of your system.
+[1:39:21.080 --> 1:39:22.080]  You don't get all my drinking in high school.
+[1:39:22.080 --> 1:39:24.080]  Then it stopped.
+[1:39:24.080 --> 1:39:25.080]  It pains me.
+[1:39:25.080 --> 1:39:26.080]  That's true.
+[1:39:26.080 --> 1:39:27.080]  No, is that true?
+[1:39:27.080 --> 1:39:28.080]  You know, that's totally true.
+[1:39:28.080 --> 1:39:30.080]  Like in high school is like we'd have the guy with the receiving hairline
+[1:39:30.080 --> 1:39:31.080]  and get beer at the gas station.
+[1:39:31.080 --> 1:39:32.080]  And we would all drink.
+[1:39:32.080 --> 1:39:34.080]  Wait, see you Marco in high school?
+[1:39:34.080 --> 1:39:37.080]  No, I said.
+[1:39:37.080 --> 1:39:39.080]  Zing.
+[1:39:39.080 --> 1:39:40.080]  There is a function.
+[1:39:40.080 --> 1:39:42.080]  There is an evolutionary niche for those people.
+[1:39:42.080 --> 1:39:45.080]  Bold move for the guy holding Marco's microphone.
+[1:39:48.080 --> 1:39:49.080]  Pretty good one now.
+[1:39:49.080 --> 1:39:51.080]  I wasn't going to have Casey come out.
+[1:39:51.080 --> 1:39:54.080]  I was just going to, you know, glad I did.
+[1:39:54.080 --> 1:39:57.080]  Let's hear it for Casey with the Zing.
+[1:39:57.080 --> 1:40:00.080]  I'm glad I've earned my keep after all.
+[1:40:00.080 --> 1:40:03.080]  No, I did not drink a lick in high school.
+[1:40:03.080 --> 1:40:05.080]  I had friends who did and they'd have parties.
+[1:40:05.080 --> 1:40:10.080]  And I was the official just in case the cops show up.
+[1:40:10.080 --> 1:40:13.080]  The guy who paid attention to Mr. Troika's class and knows how to deal with it.
+[1:40:13.080 --> 1:40:14.080]  Guy.
+[1:40:14.080 --> 1:40:17.080]  Yeah, right now Mr. Troika dream.
+[1:40:17.080 --> 1:40:19.080]  Four to five.
+[1:40:19.080 --> 1:40:20.080]  Yeah, that's a class.
+[1:40:20.080 --> 1:40:21.080]  That's a, that's a, yeah.
+[1:40:21.080 --> 1:40:22.080]  It's a mess.
+[1:40:22.080 --> 1:40:26.080]  You talking about your dreams that you had about your high school teacher.
+[1:40:26.080 --> 1:40:29.080]  So can we go back, can we explore what drunk John was like?
+[1:40:29.080 --> 1:40:31.080]  Like, I never got drunk.
+[1:40:31.080 --> 1:40:36.080]  Oh, I shouldn't be surprised by this, but that's terrible.
+[1:40:36.080 --> 1:40:39.080]  I just, I envision like this really chipper happy,
+[1:40:39.080 --> 1:40:42.080]  like touchy feely John, like, hey man, give me a hug.
+[1:40:42.080 --> 1:40:45.080]  Like, oh, that's all in your head.
+[1:40:45.080 --> 1:40:46.080]  Yeah, I know.
+[1:40:46.080 --> 1:40:47.080]  That's my dream.
+[1:40:47.080 --> 1:40:48.080]  That's my dream.
+[1:40:48.080 --> 1:40:49.080]  It's meeting drunk John.
+[1:40:49.080 --> 1:40:51.080]  What was the high school drinking situation like where you went?
+[1:40:51.080 --> 1:40:54.080]  Was it like a go out in the woods type of situation?
+[1:40:54.080 --> 1:40:57.080]  It was people's houses where parents weren't home, totally.
+[1:40:57.080 --> 1:40:58.080]  Right.
+[1:40:58.080 --> 1:41:01.080]  What is wrong with those parents?
+[1:41:01.080 --> 1:41:02.080]  Right.
+[1:41:02.080 --> 1:41:05.080]  I mean, now that we're adults and we're the parents,
+[1:41:05.080 --> 1:41:09.080]  the idea that I would leave, maybe she'd like, if you were my son,
+[1:41:09.080 --> 1:41:12.080]  then I'd like, oh, I had that in my house too.
+[1:41:12.080 --> 1:41:15.080]  You know when you've got the kid who's going to have a party
+[1:41:15.080 --> 1:41:16.080]  when the parents go.
+[1:41:16.080 --> 1:41:18.080]  I bet that's exactly what my parents thought, but they were wrong
+[1:41:18.080 --> 1:41:20.080]  because it's not like I made the party.
+[1:41:20.080 --> 1:41:22.080]  It's like whose parents are at home, okay, everyone go there.
+[1:41:22.080 --> 1:41:24.080]  I did not think that we would relate on anything.
+[1:41:24.080 --> 1:41:32.080]  My mother was a, she met a man,
+[1:41:32.080 --> 1:41:34.080]  and he lived in Minnesota.
+[1:41:34.080 --> 1:41:37.080]  So she would travel to visit him and she'd be like, well,
+[1:41:37.080 --> 1:41:39.080]  the house is yours, take care of it.
+[1:41:39.080 --> 1:41:42.080]  And I was very similar, like she just trusted me.
+[1:41:42.080 --> 1:41:45.080]  What a bad idea.
+[1:41:45.080 --> 1:41:49.080]  It was a party every time she left.
+[1:41:49.080 --> 1:41:51.080]  It was crazy and it was fun.
+[1:41:51.080 --> 1:41:54.080]  I'm pretty sure because of those parties,
+[1:41:54.080 --> 1:41:58.080]  I was voted most well-rounded in high school.
+[1:41:58.080 --> 1:41:59.080]  That's the only thing that I did.
+[1:41:59.080 --> 1:42:01.080]  I didn't do sports.
+[1:42:01.080 --> 1:42:03.080]  So I think that was what it was for me.
+[1:42:03.080 --> 1:42:07.080]  So there's actually, so I was left alone all summer
+[1:42:07.080 --> 1:42:09.080]  for most high school summers.
+[1:42:09.080 --> 1:42:11.080]  That's just because they forgot about you.
+[1:42:11.080 --> 1:42:12.080]  Yeah.
+[1:42:12.080 --> 1:42:16.080]  And I am actually such a nerd that I didn't do anything bad.
+[1:42:16.080 --> 1:42:19.080]  I'm actually more of a nerd than John Syracuse on something.
+[1:42:19.080 --> 1:42:20.080]  You had nicer friends.
+[1:42:20.080 --> 1:42:22.080]  I mean, I had people who were bad influence on me.
+[1:42:22.080 --> 1:42:23.080]  I wouldn't have done it on my own.
+[1:42:23.080 --> 1:42:25.080]  I was, I was ripped into it.
+[1:42:25.080 --> 1:42:26.080]  Oh sure, yeah, it's there fall.
+[1:42:26.080 --> 1:42:28.080]  You were left at home for the whole summer.
+[1:42:28.080 --> 1:42:29.080]  Yeah.
+[1:42:29.080 --> 1:42:30.080]  My mom is a teacher.
+[1:42:30.080 --> 1:42:32.080]  She would go upstate, upstate New York for the summer,
+[1:42:32.080 --> 1:42:34.080]  and I would go when I was younger.
+[1:42:34.080 --> 1:42:36.080]  But then once I get older, I didn't want to go up there.
+[1:42:36.080 --> 1:42:38.080]  I wanted to stay with my friends in high school.
+[1:42:38.080 --> 1:42:41.080]  And so yeah, I was like, you know, 17, 18 alone all summer.
+[1:42:41.080 --> 1:42:42.080]  It was awesome.
+[1:42:42.080 --> 1:42:45.080]  And you just stayed home like drinking soda and playing video games.
+[1:42:45.080 --> 1:42:46.080]  Pretty much.
+[1:42:46.080 --> 1:42:48.080]  Yeah.
+[1:42:48.080 --> 1:42:50.080]  I was doing all this crap programming.
+[1:42:50.080 --> 1:42:51.080]  And all that, yeah.
+[1:42:51.080 --> 1:42:53.080]  That's how I started programming.
+[1:42:53.080 --> 1:42:56.080]  Instead of having a social life, just like probably many of you
+[1:42:56.080 --> 1:43:01.080]  out there, I was doing that.
+[1:43:01.080 --> 1:43:03.080]  So at that point, you were in college.
+[1:43:03.080 --> 1:43:05.080]  And then you went to the actual college
+[1:43:05.080 --> 1:43:07.080]  to not really do anything productive.
+[1:43:07.080 --> 1:43:09.080]  So that was your college.
+[1:43:09.080 --> 1:43:13.080]  Well, yeah, in college, I just found new ways to be a nerd.
+[1:43:13.080 --> 1:43:17.080]  Just more, you know, I drank someone in college.
+[1:43:17.080 --> 1:43:23.080]  You know, I have a very vivid memory from my freshman year of college.
+[1:43:23.080 --> 1:43:25.080]  I'm in the dorm.
+[1:43:25.080 --> 1:43:27.080]  And my roommate was a guy I went to high school with.
+[1:43:27.080 --> 1:43:30.080]  He was actually the guy who told me back in 10th grade
+[1:43:30.080 --> 1:43:32.080]  to put Drexel on the thing.
+[1:43:32.080 --> 1:43:35.080]  And I didn't want to take a random roommate.
+[1:43:35.080 --> 1:43:36.080]  That seemed like a sucker move.
+[1:43:36.080 --> 1:43:38.080]  So I was like, oh, we should be roommates.
+[1:43:38.080 --> 1:43:39.080]  Even we weren't best friends.
+[1:43:39.080 --> 1:43:41.080]  But I knew I could live with a guy.
+[1:43:41.080 --> 1:43:42.080]  He pledged fraternity.
+[1:43:42.080 --> 1:43:44.080]  A lot of the guys in my floor pledged fraternities.
+[1:43:44.080 --> 1:43:46.080]  And they went to these fraternity parties.
+[1:43:46.080 --> 1:43:49.080]  And I remember very specifically what the game was.
+[1:43:49.080 --> 1:43:53.080]  I stayed to play Leisure Suit Larry.
+[1:43:53.080 --> 1:44:00.080]  A bit boobs.
+[1:44:00.080 --> 1:44:02.080]  And I felt like I was being pretty badass.
+[1:44:02.080 --> 1:44:04.080]  There were boobs in the game.
+[1:44:04.080 --> 1:44:05.080]  Four to five to six.
+[1:44:05.080 --> 1:44:06.080]  Where are we?
+[1:44:06.080 --> 1:44:07.080]  Five to six.
+[1:44:07.080 --> 1:44:11.080]  Leisure Suit Larry.
+[1:44:11.080 --> 1:44:16.080]  A bit boobs.
+[1:44:16.080 --> 1:44:17.080]  We're getting late on time.
+[1:44:17.080 --> 1:44:18.080]  I don't know.
+[1:44:18.080 --> 1:44:19.080]  Do you guys have anything else?
+[1:44:19.080 --> 1:44:20.080]  Any more stuff?
+[1:44:20.080 --> 1:44:21.080]  All right.
+[1:44:21.080 --> 1:44:22.080]  Why don't we wrap it up.
+[1:44:22.080 --> 1:44:24.080]  I would like to do some thanks.
+[1:44:24.080 --> 1:44:26.080]  I have a lot of people.
+[1:44:26.080 --> 1:44:27.080]  Well, no.
+[1:44:27.080 --> 1:44:29.080]  A couple people.
+[1:44:29.080 --> 1:44:30.080]  That I would like to think.
+[1:44:30.080 --> 1:44:33.080]  I would like to thank Megan here at Mezzanine and the whole staff
+[1:44:33.080 --> 1:44:34.080]  in Mezzanine.
+[1:44:34.080 --> 1:44:38.080]  And what a great place this is.
+[1:44:38.080 --> 1:44:40.080]  We did the show here last year.
+[1:44:40.080 --> 1:44:41.080]  I hope we do it again next year.
+[1:44:41.080 --> 1:44:43.080]  But what a great place.
+[1:44:43.080 --> 1:44:44.080]  It's just a great facility.
+[1:44:44.080 --> 1:44:47.080]  But the staff in the bar, everything great.
+[1:44:47.080 --> 1:44:50.080]  So thanks to Megan and everybody here at Mezzanine.
+[1:44:50.080 --> 1:44:52.080]  Jessie Char.
+[1:44:52.080 --> 1:44:53.080]  She helped produce the show.
+[1:44:53.080 --> 1:44:55.080]  She's here in San Francisco.
+[1:44:55.080 --> 1:44:58.080]  She runs a place.
+[1:44:58.080 --> 1:45:02.080]  She runs an app design development shop.
+[1:45:02.080 --> 1:45:03.080]  Pacific helm.
+[1:45:03.080 --> 1:45:04.080]  Pacific helm.
+[1:45:04.080 --> 1:45:06.080]  They do great work.
+[1:45:06.080 --> 1:45:07.080]  They do such good work.
+[1:45:07.080 --> 1:45:09.080]  It's probably hard to get in on them.
+[1:45:09.080 --> 1:45:12.080]  But if you need to check out, need somebody to help you design
+[1:45:12.080 --> 1:45:13.080]  or develop an app.
+[1:45:13.080 --> 1:45:14.080]  Check out Pacific helm.
+[1:45:14.080 --> 1:45:15.080]  Great stuff.
+[1:45:15.080 --> 1:45:19.080]  I want to give a special thank you to someone who I
+[1:45:19.080 --> 1:45:20.080]  should have thanked a couple episodes ago.
+[1:45:20.080 --> 1:45:21.080]  But Caleb Sexton.
+[1:45:21.080 --> 1:45:24.080]  Caleb Sexton is here.
+[1:45:24.080 --> 1:45:26.080]  He's helping with the audio.
+[1:45:26.080 --> 1:45:27.080]  Make sure everything sounds good.
+[1:45:27.080 --> 1:45:29.080]  But he's at Mule Radio.
+[1:45:29.080 --> 1:45:35.080]  And I should have thanked him a couple episodes when I did the show
+[1:45:35.080 --> 1:45:38.080]  with Mike Monteiro and the last show that I did while the show was on
+[1:45:38.080 --> 1:45:39.080]  Mule.
+[1:45:39.080 --> 1:45:42.080]  But Caleb has been helping me with the talk show ever since I've
+[1:45:42.080 --> 1:45:48.080]  taken its solo and everything good about the audio quality and
+[1:45:48.080 --> 1:45:52.080]  the editing and finding funny little things to stick into the audio
+[1:45:52.080 --> 1:45:54.080]  for two years.
+[1:45:54.080 --> 1:45:57.080]  99.97% of that is from Caleb Sexton.
+[1:45:57.080 --> 1:46:00.080]  And I should have thanked him two weeks ago.
+[1:46:00.080 --> 1:46:02.080]  But let me thank him tonight when he's here.
+[1:46:02.080 --> 1:46:04.080]  Let's give it up for Caleb Sexton, my friend.
+[1:46:04.080 --> 1:46:11.080]  I want to thank our sponsors, Microsoft for sponsoring this big
+[1:46:11.080 --> 1:46:12.080]  event.
+[1:46:12.080 --> 1:46:15.080]  Microsoft, check out Azure Mobile Services if you haven't looked
+[1:46:15.080 --> 1:46:20.080]  at a great market circle with their great apps, daylight,
+[1:46:20.080 --> 1:46:22.080]  and Billings Pro.
+[1:46:22.080 --> 1:46:27.080]  And probably the biggest applause here, but our good friends
+[1:46:27.080 --> 1:46:31.080]  at who sponsored the bar?
+[1:46:31.080 --> 1:46:32.080]  I forget.
+[1:46:32.080 --> 1:46:33.080]  The email company.
+[1:46:33.080 --> 1:46:37.080]  The cool guys who make it easy to do an email to a lot of people.
+[1:46:37.080 --> 1:46:38.080]  I don't get it.
+[1:46:38.080 --> 1:46:40.080]  Oh, yeah, MailChimp.
+[1:46:40.080 --> 1:46:42.080]  No, but let's hear from MailChimp.
+[1:46:42.080 --> 1:46:52.080]  Oh, also, shooting video tonight.
+[1:46:52.080 --> 1:46:53.080]  I don't know when it's going to come out.
+[1:46:53.080 --> 1:46:55.080]  We're going to hopefully release this at some point.
+[1:46:55.080 --> 1:46:59.080]  But a couple of guys here from, they're putting together a
+[1:46:59.080 --> 1:47:03.080]  documentary called app, the human story.
+[1:47:03.080 --> 1:47:07.080]  And it's a documentary about the rise of apps as like a thing
+[1:47:07.080 --> 1:47:08.080]  that we care about.
+[1:47:08.080 --> 1:47:10.080]  And like even probably just like a word.
+[1:47:10.080 --> 1:47:13.080]  Like the fact that everybody like in the developed world knows
+[1:47:13.080 --> 1:47:15.080]  what an app is now.
+[1:47:15.080 --> 1:47:18.080]  They have a website appdocumentary.com.
+[1:47:18.080 --> 1:47:20.080]  They're going to do a Kickstarter soon.
+[1:47:20.080 --> 1:47:21.080]  It's not open yet.
+[1:47:21.080 --> 1:47:23.080]  But it's a really cool idea for a documentary.
+[1:47:23.080 --> 1:47:27.080]  I think it's really sort of a story of the decade and tech.
+[1:47:27.080 --> 1:47:31.080]  They're here shooting video to, so we have an archive of the
+[1:47:31.080 --> 1:47:32.080]  show.
+[1:47:32.080 --> 1:47:33.080]  So let's hear it for them.
+[1:47:33.080 --> 1:47:35.080]  Stay tuned to Daring Fireball.
+[1:47:35.080 --> 1:47:38.080]  Tweet when they have their Kickstarter.
+[1:47:38.080 --> 1:47:42.080]  And then last but not least, you for gentlemen.
+[1:47:42.080 --> 1:47:47.080]  Marco Arment, Casey List, John Syracuse, and Scott Simpson.
+[1:47:47.080 --> 1:47:50.080]  Thank you.
+[1:47:50.080 --> 1:47:54.080]  And last but not least, thanks to all of you for coming.
+[1:47:54.080 --> 1:47:57.080]  Blows my mind that so many people come to see us be up here
+[1:47:57.080 --> 1:47:58.080]  and be dummies.
+[1:47:58.080 --> 1:48:01.080]  Clever, John's cool purple shirt.
+[1:48:01.080 --> 1:48:03.080]  He's branching out.
+[1:48:03.080 --> 1:48:04.080]  Give it to him.
+[1:48:04.080 --> 1:48:06.080]  What a delightful man.
+[1:48:06.080 --> 1:48:07.080]  John Gruber.
+[1:48:07.080 --> 1:48:08.080]  John.
+[1:48:08.080 --> 1:48:09.080]  He's the best.
+[1:48:09.080 --> 1:48:10.080]  Dr. Smith.
+[1:48:10.080 --> 1:48:11.080]  Right.
+[1:48:11.080 --> 1:48:18.080]  Provost.
+[1:48:18.080 --> 1:48:19.080]  I think that's the end of the show.
+[1:48:19.080 --> 1:48:20.080]  We'll call that.
+[1:48:20.080 --> 1:48:21.080]  We'll say the show's over.
+[1:48:21.080 --> 1:48:22.080]  We're in the post-script plan.
+[1:48:22.080 --> 1:48:25.080]  I think we're technically supposed to be out of here by nine.
+[1:48:25.080 --> 1:48:27.080]  It's ten of, you know, you guys want to have another,
+[1:48:27.080 --> 1:48:29.080]  I don't know if they close the bar.
+[1:48:29.080 --> 1:48:30.080]  I don't know.
+[1:48:30.080 --> 1:48:32.080]  But you don't have to rush out.
+[1:48:32.080 --> 1:48:34.080]  Let's comment orderly.
+[1:48:34.080 --> 1:48:35.080]  If you want to chill.
+[1:48:35.080 --> 1:48:37.080]  If you want to chug another drink, have another drink.
+[1:48:37.080 --> 1:48:39.080]  It's all on MailChimp.
+[1:48:39.080 --> 1:48:41.080]  But thank you for coming.
+[1:48:41.080 --> 1:48:44.080]  But we got to get out of here at 10, 15 minutes.
+[1:48:44.080 --> 1:49:08.080]  Thanks.

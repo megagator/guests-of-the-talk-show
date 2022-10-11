@@ -1,0 +1,1512 @@
+[00:00.000 --> 00:05.360]  So anyway, did you have you ever noticed a Ben Thompson joining me this week on the on the talk show
+[00:05.880 --> 00:11.200]  Do you notice there's some websites where like the username and password don't get auto-filled?
+[00:11.720 --> 00:15.520]  Yeah, I think usually it's the website's fault like mislabel the field or something
+[00:15.520 --> 00:21.600]  Yeah, and it's not like the thing where it works like certain financial sites have like an opt-out thing
+[00:21.600 --> 00:23.600]  It's like a site where there's nothing really
+[00:24.240 --> 00:26.400]  Super confidential about it. It should work
+[00:26.400 --> 00:35.000]  It just doesn't yeah, well, I'm still scarred from the whole like they've had auto-complete for just like addresses like when you're buying something and
+[00:35.760 --> 00:40.120]  I swear those never worked for like the first three years and maybe they work today
+[00:40.120 --> 00:44.480]  But I will never know because I refuse to use them. All right, you don't use the auto
+[00:44.480 --> 00:50.800]  I still tapping through every field which then reads me to the even worse annoyance when they have the fields in the wrong order in your tab
+[00:50.800 --> 00:52.800]  Silly lands you on the bottom of the page
+[00:52.800 --> 00:59.840]  Hmm the credit card thing works perfectly for me. I can't remember the last time that the credit card auto-filled didn't work
+[01:00.840 --> 01:09.560]  but the the password thing drives me nuts and I sometimes I think it's because it's like I've already saved a password for
+[01:10.240 --> 01:14.360]  www.example.com, but right now I'm on
+[01:14.800 --> 01:20.320]  Store.example.com and so it doesn't see it as the same website and doesn't fill it in
+[01:20.320 --> 01:27.640]  I don't even know and then other times I think it's like you said like they don't have the password field correctly labeled as a password field like
+[01:28.280 --> 01:33.320]  Yeah, I don't know. I mean I've used one password for a long time
+[01:33.320 --> 01:37.800]  But the funny thing is I actually rarely use it because I have this you know
+[01:38.160 --> 01:42.120]  this super convoluted system for for passwords that
+[01:42.720 --> 01:46.280]  You know it involves like a a a seed or an abstrain
+[01:46.280 --> 01:50.240]  Shifting your your fingers like two things over on the keyboard
+[01:50.800 --> 01:52.800]  Explain it explain it in detail for us
+[01:53.720 --> 01:59.800]  Well, no, it was basically it's it I actually don't mind I feel pretty I mean I've never seen it some of this
+[02:00.200 --> 02:02.200]  Actually, I'm not gonna say anything as
+[02:02.200 --> 02:06.280]  For those that listed at ATP and Casey's showbot. I know that
+[02:07.080 --> 02:10.680]  Challenging challenging tech listeners to do anything is not a good idea
+[02:10.680 --> 02:16.320]  But it's it's quite convoluted. It takes it would take me like 10 minutes to explain it, which is
+[02:17.160 --> 02:22.880]  Hopefully a sign that it's it's robust, but it's good though. I actually I switched to this when
+[02:24.240 --> 02:27.840]  When the iPhone first came out and you couldn't use like one password or anything like that
+[02:28.280 --> 02:32.780]  And I needed I wanted to have complex passwords and different passwords in every site
+[02:33.240 --> 02:35.720]  But still be able to somehow memorize them all
+[02:35.720 --> 02:41.200]  And so it's it's been it's been pretty good that you know most of the thing is when like a site has a
+[02:42.040 --> 02:48.360]  You know a breakdown or you know passwords you stole and then to reset it and then you have to like a backup system for sites that have been
+[02:48.560 --> 02:50.880]  Compromised once and it gets it gets messy pretty quickly
+[02:51.080 --> 02:58.400]  Well, the thing that gets me is that I'm more annoyed now when I run into a site where the password auto field doesn't work
+[02:58.400 --> 03:06.040]  Then I was back in the days when no passwords got auto filled. Yeah, because it's like you it wasn't an annoyance before right
+[03:06.040 --> 03:11.440]  I think it's probably like when they invented modern plumbing and people who grew up
+[03:11.680 --> 03:16.080]  Always having to go to an outhouse every time they wanted to go and then all of a sudden
+[03:16.080 --> 03:20.560]  Most places had indoor plumbing, but then every once in a while you'd get to a place where you'd have to go out in the outhouse
+[03:20.560 --> 03:24.120]  It was worse. I'm sure that that was worse than when they were
+[03:24.120 --> 03:31.680]  Child children and had to go in the outhouse every single dump. Yep. Everything's relative. Right. It's like you once the bar is raised
+[03:32.160 --> 03:34.160]  You can never go back. Yep
+[03:34.160 --> 03:35.800]  I
+[03:35.800 --> 03:41.440]  Think there's there's probably I was gonna make some sort of well, there's a funny there's a funny tweet on Twitter that they about
+[03:42.200 --> 03:45.200]  So I'm gonna make a podcast cut up of everyone saying can I swear?
+[03:46.040 --> 03:50.600]  And there's some shitty joke to be made there except that I remember the last time I was on the show
+[03:50.600 --> 03:54.920]  That was the time you I think you actually did get busted for swearing I have your podcast
+[03:54.920 --> 03:57.400]  Oh, you think it was your was it your episode? I think so
+[03:57.400 --> 03:59.560]  I think it was you cuz you I think you pay me a couple days later
+[03:59.560 --> 04:03.760]  Could be a talk about a podcast like yeah, so I actually I met the guy from a flood podcast
+[04:03.760 --> 04:05.760]  He has to be to tone it down
+[04:05.760 --> 04:07.760]  Yeah, and that was the one where the shit hit the van
+[04:08.240 --> 04:13.480]  Maybe I don't remember who knows but that's funny because you don't seem you seem like one of my least profane
+[04:13.480 --> 04:19.600]  I know I think I had what what maybe it's the exact same thing you just talked about when there's one pastor that doesn't work
+[04:19.600 --> 04:26.520]  It stands out more whereas you know if there's just a whole string of expletives they kind of just run into each other at some point
+[04:28.040 --> 04:31.280]  Yeah, but they're just one one finally placed one you really really jumps out
+[04:32.120 --> 04:34.720]  I'd like to be known for that the well placed X with it
+[04:37.280 --> 04:39.600]  The wealth is textbook if that's a good site
+[04:42.760 --> 04:47.320]  So I guess there's not much going on except that word it seems like everybody has has
+[04:47.320 --> 04:49.320]  collectively sort of
+[04:52.640 --> 04:54.640]  Finished digesting
+[04:54.640 --> 04:57.440]  WWDC and Google I.O
+[04:58.600 --> 05:00.600]  Yeah, I agree and
+[05:02.080 --> 05:06.640]  Couple of good pieces this week. You had a good piece on let me try this strategicery
+[05:07.440 --> 05:09.880]  Stretechery second ones the charm
+[05:09.880 --> 05:16.880]  Stretechery because it's tech yep, and I did switch it up. So it's my fault that now no one knows how to say it
+[05:18.120 --> 05:22.920]  But you did have a good piece on on Samsung because that's the other a little tidbit and who knows?
+[05:22.920 --> 05:27.680]  You know one one quarter is is a data point not necessarily a trend
+[05:29.120 --> 05:31.800]  But Samsung had a pretty bad quarter
+[05:32.640 --> 05:36.400]  Oh the other option wasn't hot either. So it right this is it was soft
+[05:36.400 --> 05:43.160]  Yeah, I think it was the word that they use so this is a this is not by any means out of the blue
+[05:45.640 --> 05:48.640]  Well, let's talk about them first. I think in broad
+[05:49.440 --> 05:52.760]  Strokes what it seems like we're seeing is that
+[05:53.560 --> 05:56.760]  Samsung had for a while occupied a
+[05:57.440 --> 05:59.440]  certain middle ground
+[05:59.440 --> 06:03.440]  floating you know making some money on a lot of high quantity of
+[06:03.440 --> 06:08.640]  lower and smart phones and a decent-sized chunk of
+[06:10.040 --> 06:12.520]  Higher-end smart phones
+[06:12.520 --> 06:19.560]  But that they're we're seeing signs that they're getting pinched on both sides that Apple still it dominates the high-end and as
+[06:19.560 --> 06:23.920]  you know has the throughout the whole era of smart phones in terms of profit and
+[06:25.040 --> 06:27.040]  revenue and
+[06:27.040 --> 06:29.680]  on the low end they're running into
+[06:29.680 --> 06:36.760]  various competitors, right and China in particular with how do you how do you say it?
+[06:37.560 --> 06:40.120]  Xiaomi Xiaomi now. How do you spell that?
+[06:41.480 --> 06:49.160]  X I A O M I which is the the it's actually it's originally a Chinese character and that's how you use us
+[06:49.160 --> 06:51.480]  What's called pinning to to write it in English so
+[06:52.120 --> 06:57.360]  But it actually it works works well any name with an accident looks good and and it's it's
+[06:57.360 --> 07:03.280]  It's a company that's very interesting to me and you know far more about them than then I do
+[07:03.280 --> 07:08.800]  It's actually one of the main reasons that I thought that invite you on the show this week and if I don't know a lot about
+[07:08.800 --> 07:15.240]  I can't help but think that there's an awful lot of listeners of the show who don't and maybe even haven't heard of them before but I think
+[07:18.840 --> 07:25.080]  I think they should be on everybody's radar especially when it comes to Samsung even though I think for the last year or so
+[07:25.080 --> 07:31.400]  There's been a lot of stuff in the press and in the the investor world that sort of has them as and
+[07:32.720 --> 07:38.960]  Somebody who Apple should be looking out for but I think I think it's actually I think you've made this point pretty well that it's Samsung
+[07:39.400 --> 07:43.400]  Well, I mean, I think the the number one thing about Xiaomi in particular is
+[07:44.400 --> 07:46.400]  Is you have to really
+[07:47.520 --> 07:49.720]  There was this really like breathless like
+[07:49.720 --> 07:56.920]  Feature and Boomburg and they had like Xiaomi week, you know a tie-bought to Xiaomi that this big this big thing that like you have to
+[07:56.920 --> 08:00.840]  queerly delineate between China and the rest of the world and
+[08:02.560 --> 08:07.640]  And in China Xiaomi deserves all the hype like they are they're killing it
+[08:08.560 --> 08:12.040]  They are a Chinese company. They are a Chinese company and and
+[08:13.120 --> 08:16.840]  Just in general and this goes for a lot of the Chinese companies in general like
+[08:16.840 --> 08:22.600]  Like do I China really is its own completely separate world where very whittle
+[08:23.240 --> 08:28.760]  applies to what happens the rest of the world particularly in the West and and vice versa and a lot
+[08:28.760 --> 08:30.760]  That's because of the great firewall
+[08:30.760 --> 08:33.320]  Part of it is because of you know, just cultural differences
+[08:33.960 --> 08:37.480]  And part of it just because it's such a huge market. It's like I mean US
+[08:38.040 --> 08:42.280]  US companies get criticized for being you know to US focus
+[08:42.280 --> 08:47.720]  But why wouldn't they be it's you know, it's 300 million of the richest consumers in the world like it makes sense to
+[08:48.280 --> 08:53.160]  Start out there same thing if you're a Chinese company like you're you're sitting you have a billion customers
+[08:53.960 --> 08:56.920]  um a very large, you know again this
+[08:57.880 --> 09:02.520]  An absolute number of which are very rich and a good number of which are getting richer
+[09:03.640 --> 09:05.640]  so why not focus there and
+[09:05.640 --> 09:10.280]  And so that's just it just in any time you talk about Xiaomi or anything about China
+[09:10.280 --> 09:12.680]  It's really important to kind of like draw the two
+[09:13.160 --> 09:15.400]  I think Xiaomi is not much of a threat outside China
+[09:15.880 --> 09:19.960]  but in China they are they're a big deal and in China they're threat to Apple as well
+[09:21.000 --> 09:23.000]  And but that's why you have to make the distinction
+[09:23.560 --> 09:29.080]  Right and China is big enough that that even if they're a Chinese only company, it's
+[09:30.120 --> 09:32.440]  It's big enough to matter. Oh, it's big enough to matter. I mean
+[09:32.840 --> 09:38.200]  China is going to be Apple's biggest market in like five years or something like so it matters
+[09:38.200 --> 09:45.480]  Just to give you an idea of of of what a massive market. It is like and so it does matter even if even if
+[09:46.040 --> 09:47.400]  Xiaomi
+[09:47.640 --> 09:51.640]  Only threaten Samsung in China or only threaten Apple in China
+[09:52.200 --> 09:55.400]  Because China is such a significant market for both companies
+[09:56.040 --> 09:58.280]  That means the companies as a whole are threatened
+[10:01.000 --> 10:03.400]  And part of it too is this is where
+[10:03.400 --> 10:07.800]  Being based on Android can
+[10:08.680 --> 10:13.480]  Work in their favor is if they were running their own proprietary platform
+[10:13.720 --> 10:18.680]  It might be a problem that they were strong only in China right right like maybe
+[10:19.320 --> 10:26.760]  Sort of like what what blackberry was like back when blackberry had a huge market share in the US and and was sort of
+[10:26.760 --> 10:34.440]  Non-existent elsewhere. This is now. This is going back pre-iPhone. This is like early 2000s when blackberry was this abnormality
+[10:35.080 --> 10:39.400]  It worked for them because they didn't need software. It wasn't really about apps yet
+[10:39.400 --> 10:45.240]  It was just about communicating and the people in the US who had blackberries were for the most part communicating with other people
+[10:45.240 --> 10:47.240]  had blackberry so it was it was okay
+[10:47.960 --> 10:50.200]  Whereas now where you need an app
+[10:50.920 --> 10:54.520]  ecosystem, right, you know, just show me can can
+[10:54.520 --> 10:56.520]  Capitalize on that
+[10:57.080 --> 11:00.680]  Even if they're only really strong in China because Android is Android
+[11:01.320 --> 11:06.680]  Well, I mean that it's actually funny because that's the other part where China is just a different world, right?
+[11:06.920 --> 11:10.840]  We like I as a rule. I think we talked about this this last time
+[11:12.680 --> 11:15.720]  Is you know you have to you have to be one of the two
+[11:18.200 --> 11:20.200]  Sorry, I was wondering I thought
+[11:20.200 --> 11:24.760]  You have to be one of the two but in China, that's the big exception, right?
+[11:24.760 --> 11:28.920]  Because most of phones in China are on a OSP the the open source
+[11:29.640 --> 11:34.600]  Android and there's a whole plethora of services that fill in there like there's you see web
+[11:34.600 --> 11:39.400]  Which is the biggest browser? There's just bought by Alibaba. There is a whole bunch of app stores
+[11:40.040 --> 11:44.520]  A few which like there's been some competitions on which are kind of emerging as the key ones and
+[11:45.320 --> 11:49.320]  So there's almost like there is a whole separate ecosystem of services
+[11:49.320 --> 11:55.840]  That most of the phones there use and it actually in so in in China Chinese developers are used to this right?
+[11:55.840 --> 11:59.680]  There's actually services that help you get your app on all the different stores
+[11:59.680 --> 12:06.280]  So you can be everywhere and it's funny like if that if that sort of whole ecosystem were in the West
+[12:07.240 --> 12:14.320]  that would it would actually totally transform the market here because it would really weaken the the kind of
+[12:14.320 --> 12:20.720]  The importance that the play store does have and kind of making giving Google full control
+[12:21.360 --> 12:26.480]  Of that if that makes sense. So it's I mean everything there is just really it's really so different and
+[12:27.440 --> 12:32.800]  There's lots of things that are interesting for for Western companies and means Google is really not important at all there
+[12:33.680 --> 12:36.080]  They're not important because they're blocked as far search
+[12:36.080 --> 12:38.800]  But they're also not important because they don't really control Android there and
+[12:38.800 --> 12:44.280]  The only Western company actually that really matters is Apple and that's because they sell hardware
+[12:45.240 --> 12:46.560]  so
+[12:46.560 --> 12:52.840]  Do you think that's already having an effect on Samsung's numbers? Oh, yeah, what do you think it's more?
+[12:53.080 --> 12:57.800]  It's already partly China, but is it is it only China? Is it is it worldwide?
+[12:57.800 --> 13:04.960]  I think I think for sure so you you you alluded before I think Samsung has as a problem on both ends
+[13:04.960 --> 13:07.920]  The on the high-end
+[13:09.040 --> 13:14.240]  They I think they they got a lot of high-end customers
+[13:14.240 --> 13:17.280]  I think for two specific reasons again
+[13:17.280 --> 13:23.160]  This was more conjecture previously, but now that's actually happening. I think we can say a little you know a little more certainty
+[13:23.600 --> 13:28.920]  One was the iPhone has always been relatively limited. It comes to carrier distribution
+[13:29.560 --> 13:31.800]  You know, they were they were stuck at like
+[13:31.800 --> 13:36.520]  220 for like two or three years and even before then there was even lower
+[13:37.240 --> 13:42.920]  and and that left a good 500 carriers around the world where there was no iPhone and
+[13:43.760 --> 13:48.640]  Presuming you were well to your carrier and in richer countries people tend to be more loyal to their carriers
+[13:50.160 --> 13:54.680]  You would and you wanted a high-end phone. Well, there there was no iPhone choice
+[13:54.680 --> 13:59.120]  You it was Samsung or HCC or whatever those and Samsung has always been
+[13:59.120 --> 14:01.880]  You know a very good competitor
+[14:02.440 --> 14:06.320]  You know, whatever you think about their design decisions. They're they're very well-encompening
+[14:06.320 --> 14:12.560]  They're very good competitor. They have great marketing. They pull all the all the levers and if there were no iPhone
+[14:12.760 --> 14:14.760]  You know, they they would
+[14:15.080 --> 14:19.040]  Continue you I think to do very well at the high end and HCC probably be doing much better as well
+[14:20.560 --> 14:23.400]  but now the iPhone is really started to again
+[14:23.400 --> 14:31.360]  You expand its carriers and part of that is the big ones which entity don't come on to in Japan and China mobile in China
+[14:31.360 --> 14:35.080]  But also lots of little ones like I'm here in in I'm back in the states
+[14:35.080 --> 14:39.160]  Now I'm in Madison just for the summer and a big carrier here is US cellular, right?
+[14:39.160 --> 14:41.800]  It's the fifth largest in US, but still a lot smaller the other ones
+[14:41.800 --> 14:46.280]  They've never had the iPhone now they do and there's lots of these little ones that
+[14:46.280 --> 14:53.840]  Any one of them by themselves doesn't mean much, but when you're adding like 50 of them like Apple has that that just
+[14:54.600 --> 15:01.440]  Increases Samsung's competition. We're pussy. They didn't have any competition there. Yeah, it's filling out the long tail of carriers
+[15:01.440 --> 15:07.480]  Right exactly exactly and Samsung has own that long tail like Sam's Samsung's big advantage still remains
+[15:09.240 --> 15:11.240]  They're they're
+[15:11.240 --> 15:16.080]  Relations with carriers and how they own that whole connection. They deliver exact what the carriers want what they need
+[15:16.840 --> 15:21.040]  And really they've kind of stepped into the Nokia role which that used to be Nokia
+[15:21.040 --> 15:24.400]  Nokia had all the except for except for the US Nokia had
+[15:25.120 --> 15:32.000]  Relations with every carrier they delivered everything that the carriers wanted they needed and that gave them a that's really important in
+[15:32.000 --> 15:36.080]  The mobile business and Samsung has kind of inherited that and they still have that advantage
+[15:36.080 --> 15:42.160]  You know what made the iPhone so unique when it came to carriers and that sort of thing was it was the first phone that people
+[15:42.680 --> 15:52.840]  Were people valued the phone more than they valued their relationship with their carrier and that really you know upset the whole Apple cart and it is less in Samsung's advantage
+[15:54.320 --> 15:58.960]  In the carriers where they're competing directly with with the iPhone. Yeah, I think like go back
+[15:59.240 --> 16:04.440]  You know pre-smartphone, you know and you'd go in and you know the big ones
+[16:04.440 --> 16:06.880]  I remember at least here in the States were always Nokia and
+[16:07.840 --> 16:10.320]  Ericsson and eventually Sony Ericsson
+[16:11.200 --> 16:16.960]  But they were seen to me like somebody who never was really into cell phones before that
+[16:16.960 --> 16:22.200]  I mean I'd have one just for the sake of making calls and and truly rudimentary texting
+[16:23.520 --> 16:28.680]  But it just seemed to me that those were the two brands and you'd go in but it never really seemed to matter too much
+[16:29.120 --> 16:32.540]  You know it was it was far far more about choosing between
+[16:32.540 --> 16:38.500]  You know Verizon and singular or or whoever, you know, whatever the names of the various carriers were in the States then
+[16:38.500 --> 16:46.020]  It was really mostly about which carrier store you're gonna go into yep and and even even now I mean what made the iPhone so
+[16:47.180 --> 16:53.220]  so unique is you know is the first phone that people were really willing to switch carriers for and
+[16:54.500 --> 16:59.660]  That gave Apple all the negotiating leverage with with carriers from that from that point on
+[16:59.660 --> 17:07.020]  Yeah, but even then there were there was still a women's number people who would who would do that like you know
+[17:07.020 --> 17:10.380]  there were still people who were gonna stay with Verizon no matter what and
+[17:11.340 --> 17:19.180]  And so it's it's been that dynamic, you know has has helped Samsung and continues to help them
+[17:20.180 --> 17:27.180]  But as Apple expands that kind of again picks off, you know just a lot of these while the long tail exactly as I said
+[17:27.180 --> 17:34.580]  Yeah, and you made the point that one of the things to understand the dynamics of this is that if for practical purposes
+[17:34.580 --> 17:38.540]  No, it's not really a hundred percent. Of course nothing ever is but practically speaking
+[17:39.260 --> 17:43.340]  It it's best to think of it as this everybody is going to own a smart phone right
+[17:44.460 --> 17:49.180]  Which is it there's there's very few things in the world that are like that
+[17:49.820 --> 17:55.980]  And especially in tech a lot of the things that are like that are things like I don't know like like
+[17:55.980 --> 18:02.700]  Wash machines or yeah having a toilet in your house. Yeah TV a TV is a good. Oh TV sure what but this a thing though
+[18:02.700 --> 18:03.820]  TV is even
+[18:03.820 --> 18:08.540]  We'll ultimately have less penetration than then a smartphone, which is which is pretty amazing
+[18:08.860 --> 18:14.460]  Right because a lot of it's gonna end up I think maybe a little bit more towards one TV per household and
+[18:15.180 --> 18:17.180]  One cell phone per person
+[18:17.580 --> 18:21.940]  Right yeah, exactly. Yep, and even if you go to multiple TVs per household
+[18:21.940 --> 18:25.860]  It still is probably going to trend not towards one per person, but
+[18:27.620 --> 18:31.860]  But less than one per person. Maybe you'll have one in the master bedroom in one in the living room
+[18:32.180 --> 18:38.180]  But tablets are clearly eating into that, you know, where a lot of you know personal consumption of video
+[18:39.460 --> 18:43.140]  Is clearly going towards tablets and smartphones, you know like like if
+[18:44.420 --> 18:46.500]  You know the average number of TVs in a house
+[18:46.580 --> 18:51.540]  I'm sure has if anything it might be going down because if you were going to have one like for your teenager
+[18:51.540 --> 18:53.860]  And like your teenager have a TV in their room
+[18:55.540 --> 19:02.580]  That might be a PC and a tablet now, right, you know PC for the games and and a tablet for watching video and TV
+[19:02.980 --> 19:06.260]  Well, just to just kind of rattle a little bit more
+[19:06.660 --> 19:11.140]  One thing that's actually really interesting about these Samsung results. We'll get back to the high and low and stuff
+[19:11.140 --> 19:18.860]  But is they talked about the fact that they felt their tablet sales have been hurt by their big phones their tablets
+[19:18.860 --> 19:24.380]  Which which building on this point? I think there's there's a lot of conjecture
+[19:24.380 --> 19:29.260]  I think rightly so that a lot of tablets are used primarily for for TV viewing basically
+[19:30.140 --> 19:36.140]  But actually worldwide you know not the US market where the iPad has disproportionate share
+[19:36.140 --> 19:38.140]  But if you look worldwide
+[19:38.140 --> 19:43.900]  tablets and and so many people had so many observations from CES this year that there were a lot of the
+[19:44.380 --> 19:47.180]  No-name brand Android tablets that clearly
+[19:47.180 --> 19:54.300]  Design knowing that they're just going to be used for a consuming video. Yeah, and the other thing about video
+[19:54.860 --> 19:56.860]  Is like video
+[19:57.420 --> 20:00.940]  Video in Asia is is a lot different than here in that
+[20:02.220 --> 20:08.100]  Basically everything is available very easily like I mean it's yes
+[20:08.100 --> 20:09.700]  There's things like Hulu and Netflix here
+[20:09.700 --> 20:14.380]  But there's always kind of a bit of a challenge of seeing like whatever is up up next like whatever
+[20:14.380 --> 20:17.780]  Hot show is going on and right now. They're mostly Korean shows
+[20:18.780 --> 20:20.780]  like these soap operas or
+[20:21.140 --> 20:26.540]  Like once it's aired it is available for streaming within like an hour
+[20:27.340 --> 20:32.900]  If not faster and it's it's interesting because I don't think it's actually there's not really correct
+[20:32.900 --> 20:37.020]  It's it's not really frowned upon. It's not. I don't think it wouldn't really seize it as an issue
+[20:37.020 --> 20:45.140]  It was it legally. It's it's not you're saying it's not legal, but the the the IP infrastructure there is such that
+[20:45.580 --> 20:49.020]  Nobody really I'm not I'm not sure to be honest. I mean I I
+[20:50.780 --> 20:55.260]  It may be one of those things where it's normally legal, but like no one actually no one known really cares
+[20:55.260 --> 20:59.900]  It is forced it is true that in many countries the IP infrastructure is not there
+[21:00.060 --> 21:05.380]  But also or maybe even the IP culture frankly. Yeah, that's a big part of it
+[21:05.380 --> 21:07.500]  That's a big part of it as well. Yeah thing is like
+[21:08.260 --> 21:12.940]  Yeah, just in general. There's a different there. I mean because it's very open, right?
+[21:12.940 --> 21:15.540]  I mean even in in some of the more more
+[21:15.860 --> 21:17.380]  You know
+[21:17.380 --> 21:23.780]  I don't advances in the word, but countries that have had a longer history of IP enforcement like like Japan or
+[21:24.580 --> 21:25.620]  I mean
+[21:25.620 --> 21:28.620]  Taiwan a little bit more so I mean the like
+[21:29.220 --> 21:34.340]  Although sign there's still you can still find like counterfeit bags and stuff, but they're more like in the alleys, right?
+[21:34.340 --> 21:38.780]  It's not like on the street corner like like in some parts of Asia, so it's a little stronger
+[21:39.500 --> 21:42.860]  but there's yeah, they're they're very publicly available and
+[21:44.500 --> 21:50.380]  and to watch them and to watch and so do watch TV like that is is very common and I
+[21:50.940 --> 21:59.980]  Don't know all the countries in Asia obviously, but in my experience, you know TV is is just as much a thing there as it is here if not more so
+[22:00.540 --> 22:02.020]  and and
+[22:02.020 --> 22:08.580]  so yeah the that whole idea of that them being used primarily for that use rings very very true to me
+[22:09.900 --> 22:16.540]  Well, all right, and then you were saying that Samsung explicitly said with regard to their poor results or disappointing results
+[22:16.900 --> 22:24.500]  They had a and it's not just that they're down never down. It was somewhere around 16% less profit than then was expected
+[22:24.820 --> 22:29.100]  Right, I mean that's the weird thing about reporting results, right. It's all about expectations and right
+[22:29.100 --> 22:35.140]  They were they were under their expectations. They're under analysts expectations and by you know pretty significant amount and
+[22:35.780 --> 22:42.220]  So we can even even if we go with the hey, come on in let's just make this stuff up at least Samsung's own guidance
+[22:42.900 --> 22:49.020]  Is a you know should be a fair measure that most companies, you know usually put out guidance that they expect to at least be able to meet
+[22:49.020 --> 22:52.380]  Like it's a genuine it's one if it's just
+[22:52.380 --> 22:59.500]  You know an apple has run into this many times over the years where where Apple will post results that are pretty close to their guidance
+[23:00.140 --> 23:01.820]  Maybe a little up maybe a little down
+[23:01.820 --> 23:08.220]  But generally pretty close, but if they're way less than what analysts had had projected it's it's
+[23:09.020 --> 23:14.700]  Headline does a big miss. Yeah, well, it's weird because like the worst so the worst thing you can do is miss your own guidance
+[23:14.700 --> 23:16.700]  Right, you're gonna get hammered for that
+[23:16.700 --> 23:22.620]  The second worst thing you can do it was the missing analyst guidance
+[23:22.620 --> 23:30.220]  But then there's also if your guidance is lower than what analysts expect your guidance to be like and so that's that's when Apple takes
+[23:30.220 --> 23:37.740]  Hits after earnings. It's usually because their guidance for the following quarter is lower than what analysts anticipated it would be
+[23:38.780 --> 23:44.460]  Whereas everything that happened in the previous quarter like that's almost always baked in and apples never missed like
+[23:44.460 --> 23:46.460]  Meaningfully
+[23:46.620 --> 23:53.660]  At least in you know recent history. They're recent results. So yeah, it's all it's all and it's all an expectations game
+[23:53.660 --> 23:55.660]  I know people
+[23:55.660 --> 24:03.100]  Get frustrated with Wall Street, but it's a lot more. It's not as it's not as ridiculous as people think I think the the main thing with Wall Street is
+[24:03.740 --> 24:09.660]  Wall Street is is a stock inherently is all about the future. It's all about so whatever you've done the past
+[24:09.660 --> 24:15.260]  It's only useful in so much as it's an indicator for what will happen going forward, right?
+[24:15.260 --> 24:17.260]  It's not a reward system
+[24:17.260 --> 24:22.260]  Bringing Apple into it is sort of an aside, but I think it's interesting because there has been I mean it's not
+[24:22.260 --> 24:24.260]  This is something that they actually
+[24:24.380 --> 24:28.460]  Came out and said is that we're going to try to be a little bit more accurate with our
+[24:28.980 --> 24:33.100]  Disappled that you know couple it maybe it was a year or so ago maybe a little bit more
+[24:33.100 --> 24:34.100]  Yeah, I think it's been a couple years
+[24:34.100 --> 24:39.260]  Yeah, and that they said look we got we used to you know give you a lower end of our guidance
+[24:39.260 --> 24:45.740]  Yeah, which is translated means we really low-bought the numbers and always put out a number that we knew that we could be
+[24:46.180 --> 24:50.540]  Yeah, and therefore you know anybody who was trying to accurately gauge
+[24:51.060 --> 24:59.100]  You know what to expect from Apple had to pick a number that was higher than that and so you had to you know and analysts had to
+[24:59.100 --> 25:04.300]  Pick a number that was different from Apple's always higher because Apple, you know
+[25:05.700 --> 25:11.980]  Low-bought it's Syria. I significantly low-bought them. Yep. I think that the change, you know
+[25:11.980 --> 25:16.340]  And this is one of those it's something that started in the post-Steve Jobs era
+[25:17.180 --> 25:25.460]  I think it's probably had the intended effect in that it seems as though Apple's guidance and Wall Street guidance have become
+[25:25.820 --> 25:27.820]  much more largely aligned and
+[25:27.820 --> 25:31.220]  Whether it's a little bit up or a little bit worse
+[25:32.940 --> 25:35.940]  It seems like the stock has become a little bit less volatile
+[25:36.580 --> 25:41.300]  Just when results are our issue. No, that's a really good point
+[25:41.300 --> 25:46.260]  I think you're probably exactly right that this is probably a cook thing, you know jobs probably enjoyed
+[25:46.860 --> 25:52.660]  Beating expectations, you know by a lot, but the reality is that actually introduced more uncertainty
+[25:52.660 --> 25:59.860]  Yeah, I think jobs is perspective was probably a long lens of screw those guys screw them. Well, I think what jobs like the surprise, right?
+[25:59.860 --> 26:04.860]  He liked to pop out and say wow, look at we we just murder results, right? I mean it was another chance
+[26:06.500 --> 26:08.500]  You know, he loved the reveal
+[26:08.500 --> 26:14.220]  Where but I think it was bad for Apple you're exactly right because analysts had to make had to pick something up and
+[26:14.500 --> 26:20.700]  What I just said about about the current results no longer being interesting is because of this change
+[26:20.700 --> 26:26.940]  It's because they they are almost exactly right every time and so now everyone's focused on their they're going forward estimates
+[26:26.940 --> 26:31.340]  Yeah, yeah, I think that out. I think under jobs with the low ball numbers
+[26:31.340 --> 26:33.820]  It was like screw them let them figure it out
+[26:34.260 --> 26:37.740]  Whereas the cook idea is let's help these guys out
+[26:38.300 --> 26:42.500]  Because they're wrong. They're always wrong and it hurts Apple because you know
+[26:42.500 --> 26:47.620]  We don't we keep so much closed-door vest so let's yeah and them being wrong hurts us
+[26:47.620 --> 26:51.220]  So it's in our interest to help these guys and give them
+[26:51.860 --> 26:59.540]  Guidance that actually is truly guidance. Yeah, wait the other I mean this is another thing that just really a test to kind of like cooks
+[27:01.220 --> 27:11.620]  How impressive cooks operation is is how the way that Apple is so exact on their numbers every single time and that that that goes back to the
+[27:11.620 --> 27:19.140]  Operations side of it right operations is it's not just actually making it's the predicting it's the you know modeling like knowing like what
+[27:19.140 --> 27:21.140]  We're gonna sell of what and like Apple
+[27:22.340 --> 27:29.300]  For you know ever since they did this change and I think a horse did you it has a chart that shows like how much off
+[27:29.300 --> 27:36.220]  They've been like has been in almost almost exactly and I think of a lot of the optimism for Apple actually is because last quarter
+[27:36.220 --> 27:42.300]  They actually did beat themselves right in a way that they hadn't previously and so that show that even Apple was surprised
+[27:43.020 --> 27:45.220]  But I mean it's it's kind of uncanny
+[27:45.700 --> 27:49.420]  How perfectly almost it feels like they can predict the future?
+[27:50.220 --> 27:55.100]  Yeah, and sometimes I feel like it's because of changes that they couldn't foresee like not necessarily demand
+[27:55.100 --> 28:02.980]  But pricing of components or something like that like something maybe dropped in you know dropped in price and and help margins and
+[28:02.980 --> 28:06.780]  You know, they just couldn't foresee that, you know, right?
+[28:06.780 --> 28:09.500]  Well, I think right no if if that's what happens
+[28:09.500 --> 28:10.340]  It's usually what it is
+[28:10.340 --> 28:15.300]  But I do think it was last quarter like they genuinely beat their numbers and they're like yeah
+[28:15.460 --> 28:20.300]  we we had a really good quarter and I think that's why like right now
+[28:20.660 --> 28:26.020]  You know, there is so much positive sentiment around Apple. I think is they've kind of you know
+[28:26.020 --> 28:32.340]  I the challenge with you know, I think Apple is actually mostly gotten past the the kind of big number
+[28:32.340 --> 28:34.980]  It's not really a big nor problem like the the problem where
+[28:35.620 --> 28:41.940]  Because they're such a big company now like any percentage increase is going to be small because the the denominator is so huge
+[28:42.420 --> 28:45.940]  right and conversely any small percentage
+[28:46.900 --> 28:50.100]  Difference is actually going to be a large number of dollars right right?
+[28:50.100 --> 28:53.860]  So Apple could miss by half a billion dollars and it's like holy shit
+[28:53.860 --> 29:01.540]  They miss by half a billion dollars and it's you know, it's it's a couple of percent right no exactly and but I think like so
+[29:01.540 --> 29:10.260]  2012 I think late 2012 was like with their their growth rate peaked right that ever since then they're growth has slowed considerably and
+[29:10.500 --> 29:12.500]  I think like that really
+[29:13.060 --> 29:16.980]  I think justifiably like really depressed the stock for for a few years now
+[29:17.300 --> 29:22.980]  But I feel like like that's been worked through the system and like this is the like with any company that's like changing up
+[29:23.140 --> 29:30.660]  Like that's just shifting in a different phase. There's there's this part where it's in like a lot of stock is is an expect
+[29:30.660 --> 29:37.140]  Expectation sort of thing like people understanding grappling with your business as your business changes. There's going to be upheaval and and
+[29:37.460 --> 29:44.500]  I think in so you talk about a company like Intel or like Microsoft that has to like that has to you know make big changes
+[29:45.780 --> 29:51.140]  Once once you get through those changes and you've kind of shifted expectations and people are now used to something else
+[29:51.540 --> 29:58.660]  Then you actually do get more breathing room and actually feel like Apple has kind of crossed that that housing a lot of ways people are cool with
+[29:58.660 --> 30:00.180]  You know
+[30:00.180 --> 30:02.180]  6% growth 10% growth
+[30:02.180 --> 30:06.900]  And whereas before they were punished because they were no longer growing, you know, 20 30 percent
+[30:07.380 --> 30:13.540]  And I think that's that's just go back to like there's there's the famous saying like in this what is it in the
+[30:14.100 --> 30:17.940]  Something about the stock market the short term is a is a something machine in the long term
+[30:17.940 --> 30:22.180]  It's a weighing machine the idea is like over over time over a few years
+[30:22.660 --> 30:28.020]  Like the stock market actually is very very rational and it does exactly what you'd expect it to and
+[30:28.020 --> 30:34.500]  And there's no point getting caught up on kind of what happens day-to-day or quarter to quarter because it it usually does work
+[30:34.500 --> 30:38.180]  It's all thought in a way that makes sense. All right. I'm gonna take a break in just a moment
+[30:39.140 --> 30:44.020]  But I come back to that because I think it plays into the next point. I want to talk to you about which is software is
+[30:44.500 --> 30:45.460]  differentiation
+[30:45.460 --> 30:49.460]  Which I think and the reason I think it's a good parlay is I think it helps explain
+[30:49.860 --> 30:53.060]  Samsung's problem which is something you wrote about this week
+[30:53.060 --> 31:02.740]  And I also think it's something it might finally be sinking in in Wall Street's consensus consensus estimate of Apple is that
+[31:03.220 --> 31:09.060]  Tablets aren't just tablets, you know that the iPad and iPhone do have a a sustainable
+[31:09.700 --> 31:13.420]  Position because of the differentiation, but but hold that thought think about it while I
+[31:14.500 --> 31:16.660]  Think our first sponsor are good friends
+[31:17.540 --> 31:20.340]  At square space now you guys know square space
+[31:20.340 --> 31:25.580]  I talk about them all the time because there are long-time supporters of this podcast and many others
+[31:26.260 --> 31:28.260]  You can get a free trial
+[31:28.260 --> 31:35.300]  10% off if you visit squarespace.com and enter offer code jg just jg my initials check out
+[31:35.860 --> 31:43.460]  What do they do they let you you sign up for square space and they help you build a website and it's so easy simple easy
+[31:44.020 --> 31:45.540]  beautiful design
+[31:45.540 --> 31:51.380]  a whole bunch of beautiful templates to choose from drag and drop content just you don't have to code it up
+[31:51.380 --> 31:57.060]  You look at it and you add the features you want position them on the page where you want by drag and drop
+[31:57.620 --> 32:02.780]  If you want to get into the nitty gritty you want to edit CSS you want to inject JavaScript and stuff like that
+[32:02.780 --> 32:09.700]  You can do that too if you're if you want to if you know how to but if you don't you can build a complete website by drag and drop
+[32:10.100 --> 32:12.700]  The other thing square space has that is again
+[32:12.700 --> 32:16.220]  I'll use the word differentiation is award-winning
+[32:16.620 --> 32:25.020]  24 seven support they do it through live chat and email and it's located they have support centers in
+[32:25.820 --> 32:34.460]  New York City Dublin and Portland Portland is new I think and I think the logic behind that is that's what helps them have
+[32:34.780 --> 32:37.920]  24 seven is you know between Dublin and New York City and
+[32:40.460 --> 32:42.460]  Portland Oregon
+[32:42.460 --> 32:49.900]  It's coverage all across time zones. They've got plans that started eight bucks a month eight bucks and include a free domain name
+[32:49.900 --> 32:51.900]  if you sign up for a year
+[32:51.980 --> 32:56.540]  Responsive design everything looks great from phones and tablets to 30 inch
+[32:57.500 --> 32:59.500]  Displays and
+[32:59.660 --> 33:02.220]  Online stores every site comes with an online store
+[33:03.020 --> 33:05.260]  So go there go to squarespace
+[33:05.260 --> 33:13.580]  dot com slash Gruber you can go that way you can use that URL don't know you came from the show and when you sign up
+[33:13.580 --> 33:17.980]  Use that code JG and you get 10% off your first purchase and I'll know that
+[33:18.380 --> 33:21.020]  You're a listener of the talk show, so I think it's a square space
+[33:22.580 --> 33:24.580]  All right, so tell me about the
+[33:24.580 --> 33:32.460]  Tell me you tell me about software differentiation as as an advantage and and the lack thereof is a disadvantage in
+[33:32.460 --> 33:37.820]  In the mobile I think these is the thing is look at look at computers
+[33:37.820 --> 33:44.660]  I mean like I have if you have a MacBook it runs OS 10 if you have any other computer it runs it runs windows and
+[33:45.660 --> 33:51.020]  Even if you had the exact same hardware if you have a preference for OS 10
+[33:52.700 --> 34:01.540]  You're going to buy the one that has OS 10 and and even if they have virtually identical hardware if the OS 10 machine cost
+[34:01.540 --> 34:07.780]  $1,000 and the windows machine cost $800 well turns out there are a lot of people that will pay the extra
+[34:07.780 --> 34:12.180]  $200 for that machine and that $200 is pure profit, right?
+[34:12.180 --> 34:14.180]  Even if they don't perceive a
+[34:14.580 --> 34:21.380]  Difference in the hardware exactly it even if you're there and if side-by-side with the screens off
+[34:21.860 --> 34:28.140]  You don't see an advantage to the MacBook Air versus the HP
+[34:28.140 --> 34:34.060]  You know HP air whatever they call their their you know well even if Apple even if Apple
+[34:35.180 --> 34:37.980]  Licenseed out their hardware, right?
+[34:37.980 --> 34:42.460]  And it was like literally every single component on this computer is identical
+[34:42.780 --> 34:49.980]  It has the same trackpad as the same people doesn't run OS 10, but does run OS 10 like people will pay a premium for that
+[34:50.780 --> 34:57.660]  You know, I'm sure I'm speaking to the choir here with you know with you and your audience and and but and by
+[34:57.660 --> 35:00.220]  Definition that premium is is profit
+[35:01.260 --> 35:05.980]  Because like you know Samsung's a big guy like all these guys are big guys HP is a big guy like well
+[35:05.980 --> 35:10.620]  They're there are all going to get the economies of scale that Apple is getting, you know
+[35:10.620 --> 35:13.580]  So if the parts for this machine costs
+[35:14.060 --> 35:16.060]  $750 let's say
+[35:17.020 --> 35:23.180]  And the guy who has windows charges 800 well. He has $50 a profit. That's not very great
+[35:23.900 --> 35:26.540]  Meanwhile Apple's charging a thousand that's
+[35:26.540 --> 35:30.620]  $250 a profit. That's 33 percent. That's pretty. That's very good
+[35:31.020 --> 35:33.020]  um and that
+[35:33.500 --> 35:35.500]  That difference is solely because
+[35:36.300 --> 35:44.220]  That it runs it runs OS 10 and it turns out that Apple is the only company that that sells OS 10 and you can't buy
+[35:44.220 --> 35:49.340]  OS 10 separately and put on your own computer. You have to buy the hardware to get the software and
+[35:50.140 --> 35:53.180]  And that makes the hardware that makes the hardware valuable and
+[35:53.340 --> 35:54.140]  um
+[35:54.140 --> 35:56.460]  You know, I think just it's
+[35:57.660 --> 36:01.020]  It's it's valuable in a way that generates profit, right?
+[36:01.020 --> 36:05.020]  It's all it's all upside because software is software is free like I mean
+[36:05.020 --> 36:08.700]  It doesn't it's not free to make but to make one additional copy of software is free, right?
+[36:08.700 --> 36:13.100]  If I already have OS 10 to make another OS 10 is literally just clicking a button and
+[36:13.820 --> 36:15.820]  And it's the exact same thing with phones
+[36:16.220 --> 36:19.980]  They're you know if you prefer iOS or the house ecosystem
+[36:19.980 --> 36:26.540]  Um, guess what there's only one way to get iOS and that's to buy hardware from Apple and so even if
+[36:27.020 --> 36:31.340]  Hc or Samsung like made in an iPhone
+[36:31.740 --> 36:37.900]  Where every single component was the same and looking feel was the same and the camera was the same and the button was the same
+[36:38.380 --> 36:43.260]  Um, Apple could still charge a premium because people will pay for iOS
+[36:43.260 --> 36:51.180]  Yet iOS doesn't cost Apple anything and you know, so that's that's why Apple dominates profits and that's why
+[36:51.900 --> 36:56.780]  I think to your point why Apple Apple is safe in a lot of ways like
+[36:57.420 --> 37:01.660]  It leads to less fluctuation year over year and less pressure
+[37:02.380 --> 37:08.940]  To come out with and this is something Apple has gotten dinged in the press year after year after year with new iPhones
+[37:08.940 --> 37:15.420]  Well, geez, this is almost just like last year's iPhone, but it's a little smarter and the small, you know a little faster in the camera's better
+[37:16.300 --> 37:23.580]  Uh, and I think you see that with Samsung flailing around with a lot of gimmickry in their new phones like went
+[37:24.060 --> 37:27.260]  Year and a half ago when they came out with the ones that that tried to read your eyes
+[37:28.060 --> 37:33.180]  You know for hey, you look up will pause the video for you or will scroll the web page while you're moving your eyes
+[37:33.980 --> 37:36.060]  Which wasn't you know and by all the reviews
+[37:36.060 --> 37:43.900]  I've seen wasn't really a good feature, but it they needed some way to to do that to stay above the fray of all the other Android
+[37:44.780 --> 37:48.940]  Phones that are you know, we're similar to the previous Samsung phone
+[37:49.420 --> 37:54.060]  Whereas Apple doesn't really need to worry about gimmicks like that because
+[37:54.860 --> 38:01.100]  You know people who want to buy an iPhone are gonna buy the new iPhone no matter what right and so and the problem is
+[38:01.100 --> 38:07.020]  And this is actually why in the long run you end up not having hardware comparable to Apple
+[38:07.020 --> 38:13.660]  Why why did I mean why doesn't some you hear this a lot like why aren't there any laptops as good as MacBooks? I mean there there are some
+[38:14.780 --> 38:21.260]  Lenovo I would I would always hold up as the one who's who's closest and I would I would take I would take I would
+[38:21.260 --> 38:27.180]  Take a think pad if they had better screens. I would take a think pad over Macbook those machines are are amazing
+[38:27.180 --> 38:32.180]  Well, I've always said that if I couldn't it like as a what if scenario
+[38:32.180 --> 38:33.700]  You know, it's it's not gonna happen
+[38:33.700 --> 38:35.700]  But if you had to choose
+[38:35.700 --> 38:41.500]  Between a let's say a think pad running OS 10 or a MacBook pro running windows
+[38:41.500 --> 38:45.540]  Which would you prefer and I wouldn't even hesitate I'd rather have a think pad running?
+[38:46.940 --> 38:51.380]  OS 10 I don't think I would prefer a think pad running OS 10 versus a MacBook running OS 10
+[38:52.620 --> 38:55.220]  But I would at least try the nope. It's the software
+[38:55.220 --> 39:03.220]  It's the software. That's more important right. No exactly what happens though is so so let's say you start out at
+[39:03.980 --> 39:05.980]  point zero right and
+[39:05.980 --> 39:14.980]  The Apple you have two you have Samsung and Apple say and they make identical phones and they and one runs Android and other runs runs
+[39:14.980 --> 39:16.980]  OS 10 or sorry iOS
+[39:18.180 --> 39:23.980]  Yeah, right like like hypothetically speaking, let's take Samsung's copying to the logical extreme and
+[39:23.980 --> 39:30.380]  And legalities decide let's say that they made a genuine complete clone of the iPhone right so so it's perfect
+[39:30.380 --> 39:36.940]  It's exactly the same the problem is and so they're the problem is is obvious is because Android's open and there's lots of hardware
+[39:36.940 --> 39:38.300]  Manufacturers out there
+[39:38.300 --> 39:44.300]  Someone's gonna come along and make another another Android phone and maybe they copy it too
+[39:44.300 --> 39:47.140]  And they make it the exact same way. But what are they gonna do it?
+[39:47.540 --> 39:51.700]  Samsung so Apple's priced it at $600 Samsung's priced at $600
+[39:51.700 --> 39:54.940]  Well, you guys don't come in. He's gonna price it at five hundred and seventy-five dollars and
+[39:55.780 --> 39:58.180]  Then Sam everyone's gonna go buy the other one
+[39:58.740 --> 40:05.060]  And then Sam and so what happens happens to respond by lowering the price but the problem is as you lower the price now your margin is getting compressed and
+[40:05.540 --> 40:13.580]  So you start cutting corners so suddenly the display is not quite as good or the button quality is a little lower or you know
+[40:13.580 --> 40:17.380]  And so what and so what happens is because you're forced to
+[40:18.100 --> 40:20.100]  compete on price
+[40:20.100 --> 40:25.060]  The quality actually ends up going down along the way because it's like you know
+[40:25.060 --> 40:32.020]  It's death by a thousand cuts and that's why and you saw this in PCs. This is why laptops have always been
+[40:32.900 --> 40:37.540]  Windows laptops have mostly always been inferior from a quality perspective
+[40:37.540 --> 40:40.740]  It's not it's not be has nothing to do with the software per se
+[40:40.820 --> 40:44.660]  It's because they're stuck in this game where they have to find margins somewhere
+[40:44.660 --> 40:53.300]  All right, and but then they screw up the software because to try to squeeze little bits of margin is why they do things like pre-installed
+[40:54.500 --> 40:56.500]  Norton
+[40:56.500 --> 40:59.540]  Bug you until you try to sign up for Norton
+[41:00.340 --> 41:05.300]  Experience right you go in and buy a brand new laptop and you open it up and if it's running windows
+[41:05.300 --> 41:12.900]  And it's from most OEMs you're gonna have stuff that's not from Microsoft not officially part of windows and it's all annoying
+[41:12.900 --> 41:19.540]  And it's it's there to try to a lot of it is there to try to increase the margins because Norton gives them
+[41:19.540 --> 41:22.780]  You know two or three bucks for everybody who who has a pre-installed
+[41:22.780 --> 41:30.340]  So that's actually that's actually where most OEMs make all their margin like actually most most computers are made at cost
+[41:30.340 --> 41:35.860]  And then any profit margin they make is from the crap where right and that's why to get a crap where free machine
+[41:35.860 --> 41:37.860]  you have to pay more and
+[41:37.860 --> 41:42.500]  And like and the thing is like the you know in windows, you know
+[41:42.500 --> 41:46.100]  I have to work for Microsoft and work for windows and they would bitch and moan about how
+[41:46.660 --> 41:50.580]  Terrible the hardware was, but this is all Microsoft's fault, right? They
+[41:51.220 --> 41:56.740]  It's one of those things where it was always to their benefit right the the whole thing where you want to
+[41:57.220 --> 42:01.380]  Commoditize your compliments like the things that are important for your product
+[42:01.540 --> 42:05.860]  But that you don't sell you want them to be as cheap and as as low-cost as possible
+[42:05.860 --> 42:10.020]  And so it was in Microsoft's great benefit that computers
+[42:10.740 --> 42:14.820]  Decreased and cost so rapidly and there was all this competition and driving down prices
+[42:15.060 --> 42:20.180]  but the problem is as with anything you take it too far and then oops you're stuck with
+[42:20.580 --> 42:28.020]  You're stuck with these terrible machines with creaky hinges and crap were all over them and and then that rolls back
+[42:28.020 --> 42:33.220]  And now it's being ascribed to Microsoft and they're like well Microsoft always has on crappy machines and whatever
+[42:33.220 --> 42:38.660]  And and it's the same thing with Google except our league Google's even more ruthless, right?
+[42:38.660 --> 42:43.060]  They don't they want everything to be free. They want everything to not cost anything
+[42:43.060 --> 42:46.980]  They want people to be online as much as possible as easily as possible and
+[42:47.700 --> 42:53.380]  They are more than happy to watch Samsung and HTC and everyone kind of kill themselves here
+[42:53.780 --> 42:59.620]  And again, Google is quite smart about this because to our earlier point because smartphones are going to be everywhere
+[42:59.620 --> 43:07.460]  Everyone's going to have one like they're there really is no floor to like how cheap or crappy
+[43:07.860 --> 43:10.900]  A phone can be because someone is going to buy it. All right
+[43:11.700 --> 43:17.540]  There's a tweet from earlier today. I think it was earlier. Yeah earlier today from our
+[43:18.500 --> 43:21.300]  Mutual friend Benedict Evans and I think it's very
+[43:22.020 --> 43:27.460]  Very well some summarizes the situation in the long term. There's this whole tweet positive
+[43:27.460 --> 43:31.940]  OEMs will be able to differentiate on this common platform
+[43:32.900 --> 43:34.900]  Has been a false promise for 30 years
+[43:36.020 --> 43:38.020]  right that's and because
+[43:38.020 --> 43:39.940]  And kicking at old school here
+[43:39.940 --> 43:44.100]  But I mean this was something like when Apple was in trouble in the 90s that was over and over and over again
+[43:44.100 --> 43:46.100]  People would say well what Apple should do is
+[43:46.900 --> 43:50.500]  Start making windows machines too and differentiate on
+[43:50.500 --> 43:58.180]  On design right so Apple you know Apple's strength isn't Mac OS are getting killed because the Mac is so much smaller than windows
+[43:58.180 --> 44:05.860]  And everybody's on windows what Apple's good at is design so Apple should make windows machines and differentiate on design and that's it's
+[44:07.140 --> 44:11.940]  Actually, that's exactly I would say that's exactly the Sony PC business
+[44:12.740 --> 44:17.140]  Right that was the art you know a whole idea of Sony's piece right and how'd that work out?
+[44:17.140 --> 44:20.100]  They they're by always now its own company
+[44:21.220 --> 44:23.220]  And they money losing one at that
+[44:23.220 --> 44:27.460]  I would say Sony gave that as good a run as anybody
+[44:27.940 --> 44:31.620]  Yeah, they were very nice computers right and and you know
+[44:32.660 --> 44:35.540]  Innovative in certain ways too like they always got
+[44:36.740 --> 44:45.940]  Small like usable small laptops, you know label for everyone else right before everyone else with you know with with minimal compromises
+[44:45.940 --> 44:54.820]  And it just it's not sustainable on a common platform. Yeah, no, it's like I think like the analogy is almost like air travel
+[44:54.820 --> 44:57.420]  I mean this is I'm not sure if this is gonna work. It literally just occurred to me
+[44:58.420 --> 45:05.220]  But like everyone like bitches about like oh we want good service on airplanes and like we want more seats more more seeding
+[45:05.220 --> 45:10.980]  Area and stuff like that the problem is every single time an airline tries that like continental to the thing
+[45:10.980 --> 45:15.860]  Where we're gonna have better service air American Airlines is the thing where we're gonna have you know more more room in our
+[45:15.860 --> 45:21.140]  Isles and we're gonna advertise based on that and we're gonna be able to to charge a you know a slightly higher price
+[45:21.300 --> 45:28.660]  Well guess what everyone kept going next video or a kayak or whatever and picking the lowest the lowest number this is very painful to me because
+[45:29.700 --> 45:31.700]  I had two or three years ago
+[45:31.700 --> 45:39.460]  Virgin America came to Philadelphia and and it was the most welcome breath of fresh air in the history of
+[45:39.460 --> 45:41.460]  PHL International Airport
+[45:42.340 --> 45:47.640]  And they are leaving Philadelphia International Airport in two months because
+[45:47.980 --> 45:49.820]  No, it was big
+[45:49.820 --> 45:51.940]  Well, it's not you know, and they're not going away
+[45:51.940 --> 45:56.180]  But it clearly it wasn't a big success for them and they were always more expensive
+[45:56.180 --> 45:59.540]  U.S. Air is the carrier of the dominant H PHL and you know
+[45:59.540 --> 46:03.860]  It's one of their hubs and they're they're they've got this merger with American and
+[46:04.580 --> 46:06.580]  part of the
+[46:06.580 --> 46:10.260]  sessions for this merger is they had to give up gates at
+[46:11.700 --> 46:12.820]  Washington
+[46:12.820 --> 46:19.060]  National yeah, and one of the New York ones. I'm guessing it's probably JFK because JFK's bigger
+[46:20.820 --> 46:22.500]  That that combined
+[46:22.500 --> 46:28.180]  U.S. Air and American have to give up some some number of their gates at those and virgin
+[46:28.420 --> 46:31.380]  Decided to take I think I don't know if they took them at Washington too
+[46:31.380 --> 46:35.980]  But I know that they took some of their JFK ones and they literally don't have enough airplanes
+[46:35.980 --> 46:41.060]  So they have to take the airplanes that have been flying the Philly roots and they're gonna be flying JFK roots and
+[46:41.580 --> 46:47.780]  They're they're like it's like a waiting list. It's like trying to get Washington red skin season tickets or something that's like
+[46:48.620 --> 46:54.020]  There's there's like a five-year waiting list to get new airplanes from Boeing or something like that
+[46:54.020 --> 46:57.060]  They can't just order them. Yeah, and I don't think that they were I'd you know
+[46:57.060 --> 47:02.820]  I'd pretty sure virgin America has never turned to profit anyway on a quarter. No. Yeah, I was gonna mention that
+[47:02.820 --> 47:09.860]  Um, you like it just doesn't work because it's one of those things like air air travel is a is a commodity and
+[47:10.420 --> 47:12.260]  And it's so it's a I don't know
+[47:12.260 --> 47:13.580]  I think the analogy sort of holds up
+[47:13.580 --> 47:17.060]  It is a commodity and it's there's an economy of scale like it
+[47:17.220 --> 47:24.900]  It's that's the thing is that you've kind of and that's the magic you've got to get off the ground somehow and get this this
+[47:26.260 --> 47:28.260]  mass of
+[47:28.260 --> 47:35.660]  Users to sustain it if you're gonna be different. Yeah, it's it just don't have it that you virgin just America just didn't have it
+[47:35.660 --> 47:42.060]  At least out of Philly and you know, yeah, you know, I think you there's the whole business thing right because they're the ones that are
+[47:42.060 --> 47:44.060]  price insensitive
+[47:44.060 --> 47:47.620]  And yeah, I don't know where we're not in airlines. It is funny though
+[47:47.620 --> 47:52.060]  Like there's actually a ton of people that I know I myself am kind of an air air airlines geek
+[47:52.060 --> 47:57.220]  There's some people I follow in Twitter and it's funny like there's actually it's you like there's quite a few people in
+[47:57.220 --> 47:59.220]  In in
+[47:59.220 --> 48:03.180]  Tech or whatever that as a side thing like love to follow like the airline industry
+[48:04.180 --> 48:11.140]  It's so much better than others. I mean I and I'm what I actually have gold status on us air because I that's all I ever fly
+[48:11.140 --> 48:15.020]  I mean every flight I take whether it's a vacation or whether it's work to go to the west coast
+[48:15.020 --> 48:20.460]  It's always us air and because so many of my flights are entirely across the country
+[48:20.460 --> 48:22.460]  I've somehow gotten to gold status
+[48:22.460 --> 48:28.220]  Which is good customer service-wise like I can book tickets now that that are like
+[48:28.540 --> 48:34.340]  Refundable I can change my tickets and not not pay a fee like literally not even pay like a nominal fee
+[48:34.340 --> 48:39.940]  It's kind of awesome and if I could book a flight on Virgin America and it costs more
+[48:39.940 --> 48:42.580]  I would do it in a heartbeat because it's such a nicer experience
+[48:43.300 --> 48:47.460]  unfortunately, you know you you have a you know, well reputation for
+[48:47.460 --> 48:53.020]  valuing quality in the products you buy that that is on that is not broadly shared
+[48:53.580 --> 48:58.940]  I've been on I've been on flights. I can't remember the last time I flew in you know for the most part
+[48:58.940 --> 49:01.980]  It was all SFO to Philly although sometimes
+[49:02.580 --> 49:07.220]  Depending on the hour I would I would even take this is what I would do too is I would fly
+[49:08.220 --> 49:16.740]  Philly to LAX LAX to SFO on Virgin rather than a non-stop which I have numerous numerous choices between SFO and Philly on US air
+[49:16.740 --> 49:22.580]  Right rather have the layover in LAX. Oh, yeah. Well, and once you're flying far enough it it makes enough of a difference
+[49:23.100 --> 49:25.100]  right especially Wi-Fi
+[49:25.900 --> 49:30.700]  It's everything. I mean that's it's just so much more comfortable that playing doesn't have the funky smell
+[49:31.700 --> 49:36.700]  The the I don't but anyway, but yeah, there's not enough people like me to get it off the ground
+[49:36.700 --> 49:40.820]  It's funny because we should probably stop rattling on airlines, but um, you know
+[49:40.820 --> 49:48.300]  I'm based in Asia where like flying economy class on an Asian airline is like flying like above first class on a typical US airline
+[49:49.540 --> 49:55.980]  But it's I just it's US like to have like Stockholm syndrome like they're like business insider
+[49:55.980 --> 49:59.620]  Right they always do like the oh, I flew on this airline and like everyone clicks on it five million times
+[50:00.660 --> 50:06.900]  But I think Steve Steve Kovach did one that he's on like Singapore air and he's like marveling it like every seat had like its own television
+[50:06.900 --> 50:08.900]  It's like
+[50:09.340 --> 50:11.780]  For a forgot how bad no economy
+[50:11.780 --> 50:15.420]  And there's class on US air is literally just a bigger seat
+[50:15.420 --> 50:18.820]  They do give you a meal they do give you a meal that you don't get back there
+[50:18.820 --> 50:23.500]  But it's so bad that I mean you're a I honestly you're a fool if you eat it
+[50:23.500 --> 50:26.220]  I think I mean you're just asking to be made sick
+[50:26.220 --> 50:31.780]  I mean you get drinks, so I mean you know it's a bigger seat and you get you get alcoholic drinks
+[50:31.780 --> 50:41.340]  That's it which wouldn't should not frown upon too too much, but no, but it you know it's it's it's so much different than international airlines
+[50:41.340 --> 50:47.220]  Yeah, so you know we are we are massively it was funny it so we are way off right so you know that that that sounds
+[50:47.220 --> 50:52.340]  Well, I don't know that we're way off though. I do think it kind of explained the race to the bottom
+[50:53.580 --> 50:59.460]  In you know on a commodity platform like windows and I think that's where Android is heading
+[50:59.460 --> 51:03.620]  We're dealing with what makes it different though and and the weird well
+[51:03.700 --> 51:09.740]  Maybe it's the same because of the thing with the airline is because it is super heavily regulated right like you there's a certain like
+[51:09.740 --> 51:14.180]  Four of surface like even if you fly like frontier or spirit or ever like the really crap
+[51:14.180 --> 51:20.340]  You know like the cheap ones are like you can feel reasonably confident that they're gonna get you there in one piece
+[51:20.340 --> 51:25.220]  Right like because they all have to pass the same if a regulations they have the same maintenance like
+[51:25.220 --> 51:33.060]  You know regimes and so because of that like you it's not like you're flying and like wow this guy is like
+[51:33.380 --> 51:40.740]  $300 cheaper, but they have a plane crash every other week, right like it everyone's everyone's at a certain level
+[51:41.220 --> 51:46.820]  And what's happening with smartphones is you're getting actually a similar a similar idea like a few years ago
+[51:47.060 --> 51:53.540]  Even a couple years ago the difference between a $200 smartphone and a $400 smartphone was was huge
+[51:53.540 --> 52:01.060]  Um, now there really isn't that much of a difference at all and by the way that $200 smartphone is now a hundred and a dollar smartphone or
+[52:01.300 --> 52:04.980]  150 dollar smartphone and so like the the
+[52:05.540 --> 52:13.100]  The difference between the high and low end is shrinking and what's funny is everyone uses this to say what apples doomed
+[52:13.220 --> 52:16.300]  But they're only doomed if you ignore the software, right?
+[52:16.300 --> 52:20.700]  All those could in this actually I think the first time you've linked me out have been this article like I said well
+[52:20.700 --> 52:23.900]  Over a year ago that Samsung was in trouble because
+[52:25.260 --> 52:31.220]  Unlike Apple there's nothing to make a Samsung phone different from a no name phone
+[52:31.220 --> 52:34.860]  Yeah, and and especially in China where
+[52:36.460 --> 52:40.900]  In China like there's there well first off there's you think fewer things are different China like one
+[52:40.900 --> 52:44.060]  There's just way more because that's where all the manufacturing happens like
+[52:44.940 --> 52:50.300]  There's just way more phones there. There's way more companies making phones of the vast majority
+[52:50.300 --> 52:53.260]  Which don't export at all. So there's tons and tons and tons of
+[52:53.660 --> 52:58.540]  quote-unquote brands in China most of whom I've never heard of much less much less than anyone else
+[52:58.620 --> 53:00.620]  So one there's just way more competition
+[53:01.260 --> 53:03.260]  uh, and then two
+[53:03.260 --> 53:08.860]  In China mode for the most it's much more so the phone is separate from the
+[53:09.420 --> 53:15.100]  From the plan so you you usually not always I mean and actually the iPhone is pushed
+[53:15.100 --> 53:21.020]  More of a sub-sidation into the the system, but especially traditionally it's always been very separate where you buy your
+[53:21.500 --> 53:28.460]  Your you buy your service from the carrier and you buy your device from a device seller like there's different
+[53:28.620 --> 53:34.700]  Transactions and so that that neuter's Samsung's carrier advantage. It doesn't really exist as much there
+[53:35.260 --> 53:41.900]  And then you add on top of that Samsung did have more of a prestigious brand in China like if you're gonna buy
+[53:41.900 --> 53:47.020]  It'd be better to buy a $200 Samsung phone than a $200 Chinese phone because Samsung
+[53:47.020 --> 53:55.020]  You know was a meaningful brand and that's where you get into that massive spend that that Samsung still has on on marketing totally
+[53:55.020 --> 53:59.420]  Totally, but I'm but Xiaomi's just destroyed that like that's like Xiaomi is
+[53:59.980 --> 54:03.340]  Xiaomi what Xiaomi really does have a lot in common with Apple is
+[54:03.900 --> 54:10.940]  Like Xiaomi's founders are like rock stars right there are the Steve Jobs and you know and the the Craig Federige's of of
+[54:10.940 --> 54:15.740]  Of China and their phones actually do I've never held one of my hands
+[54:15.740 --> 54:19.900]  So I can't speak to build quality, but you take a look at them and they do to note to my eyes
+[54:20.380 --> 54:28.380]  Instantly look better designed than Samsung and and most other brands. Yeah, in the end there the quality the quality is decent
+[54:28.380 --> 54:34.620]  I'm the I've held both iron and the well when the well end was was wasn't the most previous one
+[54:34.700 --> 54:39.660]  It was a little like I thought it was a little flimsier, but it wasn't it was a
+[54:39.660 --> 54:47.580]  Fully functional like there's no problem. I use this day-to-day you can tell it's a you know a couple hundred bucks cheaper than it's sibling
+[54:48.780 --> 54:55.020]  But again, that's that's improving as well like those are way better than what was available at the price point previously and
+[54:55.660 --> 54:58.300]  And so for Xiaomi and then Xiaomi has like you know
+[54:58.300 --> 55:01.900]  So they have these rock stars and they there's the whole Chinese like social network
+[55:01.980 --> 55:07.540]  You know the which we talked about last time the we chat and and all these sort of things where they where they actually sell
+[55:07.540 --> 55:11.540]  They sell completely online, so they don't have to pay any overhead to carriers
+[55:11.540 --> 55:16.260]  They pay nothing for marketing. They just basically sell everything through their brand and through their website
+[55:16.900 --> 55:22.420]  And so they can keep their costs super low and then their whole business model is to basically sell at cost right
+[55:22.420 --> 55:25.620]  They say they're gonna make it up by selling by selling services by selling
+[55:26.180 --> 55:29.540]  You know app store and all that sort of stuff and and
+[55:29.780 --> 55:36.340]  Samsung is just getting wall up like Samsung can't compete with that and that's why Apple is more threatened in China
+[55:36.340 --> 55:38.820]  By Xiaomi as well because Xiaomi isn't just cheap
+[55:39.380 --> 55:44.580]  They're they're cheap and they're they're a brand and they're like they're a statement
+[55:44.980 --> 55:51.460]  Like they're you're saying something by carrying a Xiaomi phone and that is been Apple selling point in China always like China
+[55:52.020 --> 55:58.260]  Yes, the software is important, but it's not it's actually I think it's less it's less of a differentiator in
+[55:58.900 --> 56:03.860]  In China especially because there's all there's a lot of crazy stuff you can do with Android right that that
+[56:03.860 --> 56:06.500]  The china that Chinese value
+[56:07.060 --> 56:10.980]  And whereas Apple the lockdown actually works against them a lot of ways
+[56:11.540 --> 56:15.380]  This is actually an area where like the keyboard are gonna help that's I'm
+[56:15.940 --> 56:17.940]  There's lots of alternate Chinese keyboards
+[56:18.820 --> 56:23.220]  That I know people that's been a a hold up for not wanting to go with iOS
+[56:24.020 --> 56:29.140]  But even beyond that there's tons of stuff like the whole idea of skinning stuff and having all these cutesy things and all this
+[56:29.700 --> 56:32.180]  All this stuff on our phone that we in the West feels very
+[56:32.180 --> 56:39.460]  Very very like weird like that. It's just different there like you go to you go to like Yahoo China or or Alibaba in China
+[56:39.460 --> 56:46.420]  Or by do or like the pages are all busy and there's links everywhere and they're just like they hurt your eyes like it's just a very different aesthetic
+[56:47.780 --> 56:53.300]  And so in Xiaomi delivers all that and they let you customize that you do this all this store stuff yet
+[56:53.300 --> 56:55.300]  They're also cool
+[56:55.620 --> 56:59.780]  And so that but all those advantages only exist in China
+[56:59.780 --> 57:06.100]  And so that's why Xiaomi is a big deal in China, but I'm way more skeptical about them outside of China
+[57:07.220 --> 57:09.220]  Because it just doesn't translate as much
+[57:09.940 --> 57:11.940]  All right, let's hold this thought because we'll pick it right back up
+[57:11.940 --> 57:14.660]  I know where I want to go, but I want to thank our second sponsor
+[57:15.540 --> 57:17.540]  another long-time
+[57:17.700 --> 57:20.660]  supporter of the show our good friends at back plays
+[57:21.460 --> 57:27.300]  Backplays as online backup for your Mac unthrottle and unlimited
+[57:27.300 --> 57:34.580]  You download backplays you get a free trial risk-free no credit card required to sign up
+[57:34.580 --> 57:39.620]  Just go to backblaze.com slash daring fireball download it. You have 30 days
+[57:40.740 --> 57:47.060]  See how it works completely and after that only after that do they ask you for a credit card and I guarantee it
+[57:47.060 --> 57:49.060]  You're probably going to sign up because it's great
+[57:49.620 --> 57:51.460]  They have over
+[57:51.460 --> 57:57.780]  100 petabytes of data backed up among all their users now last week. I said I don't even know how much that is
+[57:58.980 --> 58:03.380]  Our good friends at backplays. They got in touch. So one petabyte is a thousand terabytes
+[58:04.260 --> 58:06.500]  They have a hundred petabytes of data backed up
+[58:07.940 --> 58:15.860]  That's how much they have stored they've just crossed the six billion file mark for how many files have been restored
+[58:15.860 --> 58:23.780]  By users. In other words users of backblaze have restored six billion files that have been backed up by backblaze
+[58:24.180 --> 58:26.180]  lots of users
+[58:26.180 --> 58:30.380]  Great track record great software and I've had an iPhone app. I mean
+[58:31.460 --> 58:34.420]  To access and share any of your files from anywhere
+[58:35.060 --> 58:38.980]  You can restore one file at a time if it's just like oh my god
+[58:38.980 --> 58:43.180]  I just need that one thing. I don't know where it is. It's not on my machine anymore, but I bet it backblaze has it backed up
+[58:43.180 --> 58:49.980]  Or all of your files easily with the web restore and 25% of all restores though are just one file
+[58:50.380 --> 58:56.780]  It's not just for computer disasters. Although it's great peace of mind and a great service if you do run into a disaster
+[58:58.540 --> 59:05.020]  Founded by X Apple engineers it runs natively on your Mac and on Mavericks. There's no add-ons no gimmicks
+[59:05.020 --> 59:12.620]  No additional charges. It's just five bucks a month per computer for unlimited and unthrottle back up
+[59:13.100 --> 59:15.100]  Go to backblaze.com
+[59:15.500 --> 59:19.740]  Slash daring fireball and just download it if you haven't already so my thanks to them
+[59:20.700 --> 59:26.380]  So I think the irony the irony of the whole Samsung Apple thing is that the the the consensus
+[59:26.780 --> 59:28.780]  Refrain against Apple
+[59:29.660 --> 59:33.660]  I would say what while like the stock was depressed after Tim Cook first took over
+[59:33.660 --> 59:39.820]  Is that they it's unsustainable for the minority market share or OS to you know
+[59:39.820 --> 59:48.060]  They they they can't sustain it against Android. They're inevitable that it's gonna be all commoditized and the whole thing's gonna collapse
+[59:48.860 --> 59:54.540]  And Samsung is gonna beat them Samsung is more innovative than Apple. They can't they can't beat Samsung
+[59:55.260 --> 59:58.300]  I think the irony is that it's really all those arguments really were
+[59:59.020 --> 1:00:01.820]  Do apply, but they don't apply to Apple. They apply to Samsung
+[1:00:01.820 --> 1:00:09.980]  Yeah, you know that the knock against Apple for most of 2011 2012 maybe even into 2013
+[1:00:10.780 --> 1:00:17.340]  Really was the case against Samsung that the the differentiation that they had for a while was not sustainable
+[1:00:17.980 --> 1:00:23.100]  No, that's that's exactly it. I mean, I think like like like that because when we first connected was you know
+[1:00:23.100 --> 1:00:26.140]  I wrote a piece called two bears like that
+[1:00:26.140 --> 1:00:32.620]  The basically it's it's this point. It's to like for some reason and it's funny like
+[1:00:33.580 --> 1:00:40.140]  I wrote another piece two bears revisited where I trudged up like some old like PC reviews of like MacBooks, right?
+[1:00:40.700 --> 1:00:46.860]  And in every single one of them. They don't talk about the operating system. They talk about like what forts it has
+[1:00:46.860 --> 1:00:53.820]  The screen quality the key market quality and it's like and analyst do the same thing and it's it's just it's so weird
+[1:00:53.820 --> 1:00:55.820]  Right, it's like
+[1:00:55.820 --> 1:01:04.460]  How can you how like I think the vast majority of the Apple is doomed narrative comes from people that fundamentally don't rock the the
+[1:01:04.860 --> 1:01:12.220]  Software differentiation angle right in it and if you don't understand that then yes, Apple is doomed
+[1:01:12.220 --> 1:01:18.140]  They're selling very expensive gadgets when you can get a perfectly good gadget for a quarter of the price right and it's
+[1:01:18.140 --> 1:01:28.940]  It's it's almost impossible to over state just how high the table stakes are
+[1:01:30.140 --> 1:01:35.100]  To get into that. Oh, you know that that you know so so
+[1:01:35.820 --> 1:01:41.900]  Clearly the biggest thing that's happened in tech. I mean, I mean we spent most of the last seven years talking about one thing
+[1:01:41.900 --> 1:01:46.540]  Which is the the revolution that iOS sparked. It's not all about iOS because Android followed
+[1:01:46.540 --> 1:01:55.420]  But it's changed the world, but it it wasn't just that Apple in 2005 through 2007 was able to create
+[1:01:55.660 --> 1:01:56.700]  iOS
+[1:01:56.700 --> 1:02:01.660]  That iOS entirely is based on work that started in 1988
+[1:02:02.620 --> 1:02:09.340]  With next and that it in some sense it was a continuous effort not that that in 1988 or
+[1:02:09.660 --> 1:02:13.020]  1989 that next had in mind something like the iPhone
+[1:02:13.020 --> 1:02:17.980]  But there's so much that is shared and that is built on you know
+[1:02:17.980 --> 1:02:22.460]  And why you know for example just just the simple aspect of and you know
+[1:02:22.460 --> 1:02:24.140]  Is it something that came up once again?
+[1:02:24.140 --> 1:02:26.780]  Just every single year just like it being the year of Linux
+[1:02:26.780 --> 1:02:29.740]  This is the year where Android gets 60 frames per second animation
+[1:02:30.060 --> 1:02:36.140]  Why does it does the iPhone have better less stuttery scrolling and animation than Android?
+[1:02:37.020 --> 1:02:42.780]  It's not because of work that Apple did not only because of work that Apple had did in 2006 through the
+[1:02:42.780 --> 1:02:46.220]  Present it's because of work that that Apple has done since 1988
+[1:02:46.620 --> 1:02:49.660]  What Apple and next well in why it's on the same point?
+[1:02:50.460 --> 1:02:54.620]  Windows phone came out after Android yet Windows one has always had better animation
+[1:02:54.860 --> 1:02:56.860]  Exactly because Microsoft's been writing
+[1:02:57.260 --> 1:03:04.380]  Device drivers and the a's right and and it has always to their credit for all the knocks you can give against windows
+[1:03:05.260 --> 1:03:07.260]  up until
+[1:03:08.380 --> 1:03:09.820]  Vista
+[1:03:09.820 --> 1:03:15.740]  Had a you know a tremendous reputation for at least the interface in windows was snappy and responsive
+[1:03:16.220 --> 1:03:19.580]  Especially like you know XP versus the early versions of Mac OS 10
+[1:03:20.700 --> 1:03:26.940]  You know Apple it wasn't Apple felt slap was interface felt slower because they were doing such so much more
+[1:03:27.020 --> 1:03:29.260]  Graphically it was like a long play
+[1:03:29.980 --> 1:03:34.300]  That got them to where they could do these things like the the you know stuff
+[1:03:34.300 --> 1:03:37.500]  But anyway it following different paths and with different priorities
+[1:03:37.500 --> 1:03:40.860]  Microsoft and Apple both have decades of
+[1:03:41.580 --> 1:03:46.300]  Work that that that's resulted in the snappiness of the interfaces. You see today
+[1:03:46.940 --> 1:03:49.580]  And so it's it's it's just so hard to
+[1:03:50.140 --> 1:03:55.020]  Overstate how hard it would be for somebody like Tizen or like Samsung to get ties in
+[1:03:55.580 --> 1:03:57.580]  established as a
+[1:03:58.380 --> 1:04:04.700]  True peer to those platforms. Yeah, wait. I mean I think yeah because I mean it's easy to look at the
+[1:04:04.700 --> 1:04:07.740]  The App Store, and that's certainly a big part of it, but like
+[1:04:08.540 --> 1:04:12.780]  If you think about that that's another part of the table stakes at this point though because it wasn't in
+[1:04:13.180 --> 1:04:20.940]  2007 or 2008 right now it is what is that that's my point right because everyone everyone you can stop there and say
+[1:04:20.940 --> 1:04:25.580]  That's reason enough that no one else is gonna is gonna break in but if you look at iOS like I'd to me
+[1:04:25.580 --> 1:04:29.580]  There's like three I mean everything's Unix right, but there's three kind of seminal
+[1:04:29.580 --> 1:04:36.220]  Proprietary things that happened that made iOS one and one is next back in the 80s
+[1:04:36.700 --> 1:04:39.820]  so if that's where it started to was
+[1:04:40.700 --> 1:04:42.700]  the iTunes store
+[1:04:42.700 --> 1:04:48.380]  And then three was was the App Store, which I guess which I guess is part of that but though like
+[1:04:49.580 --> 1:04:54.780]  What makes iOS what it is has been a decade long process and
+[1:04:54.780 --> 1:05:00.460]  and and that and that's that's the thing right. It's not just that Apple's differentiated
+[1:05:00.700 --> 1:05:03.180]  It's almost a little too simple to say Apple
+[1:05:03.900 --> 1:05:08.220]  Products are differentiated by software because it really is a differentiated by the entire ecosystem
+[1:05:08.540 --> 1:05:13.500]  Right everything that sits on top of it. So now and we saw this with Paul in a lot of ways
+[1:05:13.820 --> 1:05:20.060]  Even if you came out with an operating system that was as as elegant and as easy to use
+[1:05:20.060 --> 1:05:28.300]  Now that that is no longer enough and there is nothing like there are very few things in business
+[1:05:28.780 --> 1:05:33.420]  Broadly, I think that are more challenging than building an ecosystem
+[1:05:34.060 --> 1:05:38.060]  Because there's so many players involved like there's so much out of your control
+[1:05:38.060 --> 1:05:42.060]  I mean like when I was at Windows I was working on the Windows 8 App Store and you know
+[1:05:42.060 --> 1:05:48.540]  Manage a few categories in the App Store and trying to get get people on board and you need you need the users in place
+[1:05:48.540 --> 1:05:54.140]  You need the developers in place. You need the right you need the right capabilities in the system like there's it's this
+[1:05:54.620 --> 1:05:58.540]  It's like a speaking of watches like this inner inner locking watch right
+[1:05:59.020 --> 1:06:03.260]  But it's not like where you can put one piece in and add the next piece and then they all work together
+[1:06:03.660 --> 1:06:08.220]  You have to not just put all the pieces in but have to all fit in at the same time immediately
+[1:06:08.540 --> 1:06:13.260]  Right like they have to just magically come together and then work and without that
+[1:06:13.260 --> 1:06:19.420]  It's you your force to like go to shortcuts where it's paying developers whether it's
+[1:06:20.380 --> 1:06:26.380]  You know trying to come up with something that's so unique that people will look over the the holes
+[1:06:26.380 --> 1:06:28.700]  It was you know, I guess I was not trying to do
+[1:06:30.060 --> 1:06:32.060]  But it's it's
+[1:06:32.060 --> 1:06:38.060]  fiendishly hard and this is this is if Apple is discounted on Wall Street
+[1:06:38.460 --> 1:06:40.460]  And I think this is going away to your point
+[1:06:40.460 --> 1:06:43.580]  But it's it's on this is that people don't like
+[1:06:45.100 --> 1:06:47.100]  Someone at Microsoft told me um
+[1:06:47.580 --> 1:06:48.780]  That uh
+[1:06:48.940 --> 1:06:53.820]  You know what Wall Street values is knowing that you can totally fuck it up and you'll still be in business
+[1:06:54.060 --> 1:06:58.300]  Right and so Microsoft can release v-style and they're still going to make tons of money
+[1:06:58.700 --> 1:07:02.060]  Um, you know, they can lose windows a they're still going to be making tons of money
+[1:07:02.060 --> 1:07:05.900]  Their stock is is higher now than it's been in years. Well, that's an interesting point
+[1:07:05.900 --> 1:07:13.340]  Um, and this is this is one of the reasons why Amazon has always had such a strong stock is like people view them as being
+[1:07:14.220 --> 1:07:19.180]  Untouchable right like their core business. No one's going no one's no one's going to threaten it
+[1:07:19.580 --> 1:07:22.380]  And Apple has always been viewed as well
+[1:07:22.940 --> 1:07:27.500]  One bad break and and they're in trouble and that's why the intended gate what was a big deal
+[1:07:28.060 --> 1:07:32.540]  To to a lot of people is because they're just perception. What is this it? Is it did they finally?
+[1:07:32.540 --> 1:07:40.300]  Do they finally mess up and what I think they've missed and what most analysts miss is actually Apple could release a done
+[1:07:40.300 --> 1:07:42.300]  And they would be okay because
+[1:07:43.340 --> 1:07:47.500]  Their ecosystem advantage is so significant and it's so hard to
+[1:07:48.380 --> 1:07:52.140]  To catch up with that. Yeah, I totally agree
+[1:07:53.260 --> 1:08:00.300]  That's a good point and I do think that there is like and it's you know circling back a couple of minutes, you know
+[1:08:00.300 --> 1:08:08.620]  Segment to go that I do think that it's finally starting to dawn on the you know investor world
+[1:08:08.700 --> 1:08:10.700]  You know that Apple is
+[1:08:11.340 --> 1:08:14.460]  Not on the precipice, you know. Yeah, I you know
+[1:08:14.460 --> 1:08:16.460]  I still think you're gonna see
+[1:08:16.780 --> 1:08:20.380]  A lot of jackassery related to Apple. I still think that
+[1:08:20.940 --> 1:08:27.340]  You're going to see let's just say they you know that they ship something that you wear on your wrist and it costs
+[1:08:27.340 --> 1:08:33.500]  300 dollars and they sell five million of them which I think is pretty reasonable for a new thing
+[1:08:33.740 --> 1:08:36.460]  You know, let's just say I don't know who knows what the device does
+[1:08:36.460 --> 1:08:41.740]  It's a dingus that you wear on your wrist and it sells for three hundred dollars and they sell five million of them
+[1:08:42.060 --> 1:08:44.060]  And there's gonna be people who say
+[1:08:44.380 --> 1:08:51.420]  Multiply five million by three hundred dollars and say well, that's nothing that that that averages out to zero for Apple
+[1:08:51.420 --> 1:08:57.460]  They're four Apple is doomed because they needed to sell 50 million of them which doesn't happen with new products. Mm-hmm
+[1:08:57.460 --> 1:09:01.500]  Right, you're still gonna see that to some degree, but I think that
+[1:09:03.420 --> 1:09:08.860]  Most there's there's that it's gonna be the fringe that that holds on to that rather than the
+[1:09:09.660 --> 1:09:11.660]  conventional wisdom yep
+[1:09:12.060 --> 1:09:15.900]  No, it is that's part of the what we talked about like there there's kind of like this
+[1:09:16.700 --> 1:09:21.020]  Apple had to go through the valley a little bit as far as like and perception goes
+[1:09:21.020 --> 1:09:25.900]  And and this is something where I mean, I know I talk to the I talked to some people who you know
+[1:09:25.900 --> 1:09:29.260]  Been long close watch of Apple and we're very nervous about
+[1:09:30.140 --> 1:09:36.220]  Cook meeting with like Carl Carla Khan and stuff like that and and really holding that up as a counter to what you know
+[1:09:36.220 --> 1:09:38.220]  What jobs would have done?
+[1:09:38.220 --> 1:09:43.260]  But just tell Carl I kind of go fuck them right exactly and but I think this this was
+[1:09:43.820 --> 1:09:45.820]  And I was
+[1:09:45.820 --> 1:09:52.940]  Simpathetic to the degree. I've always been very sympathetic to cook's position that you know the stock price matters a lot for employee retention
+[1:09:54.940 --> 1:10:01.900]  It's kind of in my my position, but I think what you're seeing now is is that kind of effort paying off right like Apple
+[1:10:03.740 --> 1:10:06.460]  I feel like Apple has gotten a lot more breathing room
+[1:10:07.260 --> 1:10:12.860]  exactly what you just said and and that actually is to I think cooks credit quite a bit as well
+[1:10:12.860 --> 1:10:17.740]  Yeah, I think it may be you know, I don't want to psychoanalyze them because you know
+[1:10:17.980 --> 1:10:20.220]  I'm not a psycho analyst and I'm too distant
+[1:10:20.220 --> 1:10:26.860]  But that there's something you know to be said that among the ways that cook is a great CEO for Apple right now in way and ways
+[1:10:27.020 --> 1:10:29.020]  Ways that he is better than Steve Jobs
+[1:10:29.580 --> 1:10:34.860]  Is ego right that obvious. I mean famously. I don't think it takes and you know
+[1:10:34.940 --> 1:10:38.540]  You don't have to be a psychologist to say that Steve Jobs had a very large ego
+[1:10:38.540 --> 1:10:40.540]  Um
+[1:10:40.540 --> 1:10:47.580]  You know, and I think it's while Apple was an upstart it helped you know it helped to have a rock star at the helm of the company and
+[1:10:49.340 --> 1:10:56.220]  But doing something like going to dinner with Carl I can that that shows that that not that Tim Cook doesn't have a large ego
+[1:10:56.220 --> 1:10:59.740]  But that he's willing to sublimate it, you know, he's willing to say look
+[1:11:00.300 --> 1:11:05.000]  You know, I really doubt I'll bet I really doubt that he felt like going to dinner with Carl
+[1:11:05.000 --> 1:11:08.700]  I can but he did it because it was good for the company, you know, I think there's a certain
+[1:11:09.900 --> 1:11:11.900]  Extraordinary diligence to
+[1:11:12.540 --> 1:11:20.300]  To the way cook is is doing that a humility. Maybe yeah, maybe that's a better word that there's a humility to Tim Cook
+[1:11:21.300 --> 1:11:25.220]  You know, whether that's innate whether that's partly of his southern upbringing
+[1:11:25.220 --> 1:11:29.420]  I don't know, but it's you know one thing you nobody would say about Steve Jobs is that he was humble
+[1:11:29.420 --> 1:11:31.260]  Yeah, well, and I think you know
+[1:11:31.260 --> 1:11:37.180]  But it's one of those things where it's super easy to like look back on someone right and you only see the positive sides
+[1:11:37.380 --> 1:11:44.380]  But if if Steve Jobs acted like Steve Jobs does well Apple is the most valuable company in the world like
+[1:11:45.700 --> 1:11:48.900]  You would like to think that everything is logical and like
+[1:11:49.300 --> 1:11:55.580]  No one like this a lot easier to see them getting themselves in trouble whether it be with the government whether it be with like
+[1:11:56.060 --> 1:11:58.060]  with other people like
+[1:11:58.060 --> 1:12:01.700]  You know the whether it be the app store sort of stuff
+[1:12:01.700 --> 1:12:05.700]  I mean, I don't know what it would be, but that kind of imperiousness
+[1:12:06.620 --> 1:12:12.860]  Where is much better to your point when you're when you're the underdog as opposed to when you're the eight-on-pound gorilla and
+[1:12:13.700 --> 1:12:18.900]  You know what I was when I this was something that was talked about a lot. You know, I was there at you know
+[1:12:18.900 --> 1:12:21.660]  University was like like we have to change
+[1:12:22.380 --> 1:12:24.380]  like
+[1:12:24.380 --> 1:12:28.220]  by virtue of being huge we have changed and
+[1:12:28.980 --> 1:12:33.940]  We can either accept that and then try to figure out how to preserve what makes Apple Apple
+[1:12:34.540 --> 1:12:36.260]  or we can
+[1:12:36.260 --> 1:12:41.620]  continuous we are but but that's actually a worse place to be because we're kind of being blind about the reality
+[1:12:41.620 --> 1:12:44.540]  which is the fact that we're at this massive company now and and
+[1:12:45.020 --> 1:12:48.540]  We can't it can never be the way it was just because
+[1:12:48.540 --> 1:12:57.540]  Things have changed the world has changed. Yeah, and I think the flip side of that exact same thinking is what I wrote about last month
+[1:12:57.540 --> 1:13:02.540]  with the the only Apple piece that I killed myself knocking out and and
+[1:13:03.140 --> 1:13:05.140]  About the way that you know
+[1:13:05.540 --> 1:13:11.700]  That I I seemed it seems very clear to me that Tim Cook has has brought about in the same way that the operations
+[1:13:12.940 --> 1:13:15.860]  Manufacturing has always been very very well-oiled
+[1:13:15.860 --> 1:13:23.300]  You know, I use that a multi-part watch that all works together that he's bringing that sort of efficiency to apples
+[1:13:23.620 --> 1:13:30.260]  Internals in Cupertino with divisions working together across you know that that things like just a perfect example
+[1:13:30.260 --> 1:13:37.300]  The way that this extension system is coming to Yosemite and iOS 8 the same time because they're working together
+[1:13:37.300 --> 1:13:39.700]  I had WWDC I spoke to some of the engineers
+[1:13:40.540 --> 1:13:44.140]  You know, and that to Apple just was not set up that way those were silos
+[1:13:44.140 --> 1:13:49.500]  Previously, and it would have been you know, it was that they even called it the one time back to the Mac
+[1:13:49.540 --> 1:13:52.820]  It's like, okay, here's a bunch of stuff where iOS got ahead of the Mac
+[1:13:53.820 --> 1:13:58.740]  It's already shipped. It shipped last year. You know in last year's version of iOS now. We're bringing it to the Mac
+[1:14:00.540 --> 1:14:06.380]  Apple isn't working like that now they're developing these things together, you know, and some of them are things that have to be
+[1:14:06.660 --> 1:14:08.660]  done together like
+[1:14:08.660 --> 1:14:14.700]  I keep forgetting the name of the feature, but you know, hey, there's a web page in front of me in Safari on my Mac
+[1:14:14.700 --> 1:14:19.300]  And I want to fling it over to my phone continuity continuity well that continuity is the the
+[1:14:20.220 --> 1:14:24.940]  The parent name for all of these features, but there's a specific name handoff right?
+[1:14:25.460 --> 1:14:30.860]  Handoff is the is continuity is like the umbrella name for all of the features that are like this
+[1:14:31.860 --> 1:14:34.700]  Like answering a phone call on your Mac is part of continuity too
+[1:14:34.700 --> 1:14:40.980]  But they're all, you know that it's you know, and to me it's a realization
+[1:14:42.180 --> 1:14:46.420]  That it's not just about Tim Cook having a different personality than Steve Jobs
+[1:14:46.420 --> 1:14:52.980]  I think it's about Apple being big enough that they can do things like this like it's not that
+[1:14:53.140 --> 1:14:55.140]  Let's say Apple circa
+[1:14:55.140 --> 1:15:00.100]  2003 or 2004 could have been operating like that or should have been operating like that
+[1:15:00.100 --> 1:15:05.020]  Under Steve Jobs and that the different you know Steve Jobs Mercurial Nature kept them from doing it
+[1:15:05.020 --> 1:15:07.340]  They weren't big enough to do it yet and they weren't you know
+[1:15:07.340 --> 1:15:11.580]  They needed to be more focused. I think it was the right. I think it was the right strategy
+[1:15:11.780 --> 1:15:14.140]  But they've you know, they've crossed a certain
+[1:15:14.860 --> 1:15:21.340]  Chasm in terms of size where if they didn't embrace a more collaborative culture
+[1:15:21.660 --> 1:15:25.740]  They were missing an enormous opportunity, you know that they were leaving an
+[1:15:26.580 --> 1:15:28.580]  enormous amount of
+[1:15:28.580 --> 1:15:34.220]  Wasted potential on the floor because they could be doing so much more in in the same amount of time
+[1:15:34.500 --> 1:15:37.060]  With a more collaborative culture than they would otherwise
+[1:15:37.500 --> 1:15:42.820]  So here's the question though. So I mean I agree with you. I wrote I wrote a similar thing
+[1:15:42.820 --> 1:15:45.460]  But something that after your piece
+[1:15:46.260 --> 1:15:51.700]  my on my on my podcast exponent with with James all worth we talked about this is
+[1:15:52.700 --> 1:15:54.020]  like
+[1:15:54.020 --> 1:15:56.700]  Yeah, it's it's what's so fascinating and
+[1:15:56.700 --> 1:15:59.180]  You talked about Apple growing up
+[1:15:59.740 --> 1:16:05.460]  and I talked about them, you know kind of forgetting like the 1997 mindset, you know that's kind of holding them
+[1:16:05.860 --> 1:16:07.860]  holding them back and
+[1:16:07.980 --> 1:16:13.460]  What's what's so striking about this is the language that we are using
+[1:16:14.460 --> 1:16:20.020]  And I literally went back and looked up articles and profiles was the exact same language that was used for
+[1:16:20.460 --> 1:16:25.820]  Accompanately Microsoft in their early 2000s like oh, they've grown up like they're gonna stop being you know
+[1:16:25.820 --> 1:16:31.660]  Bully's that in there are gonna be more collaborative and and yes again. I'm not saying Apple's Microsoft at all
+[1:16:32.140 --> 1:16:35.580]  There's lots of important differences, but it
+[1:16:36.300 --> 1:16:41.300]  You you it it is worth thinking of I didn't I'm just curious what you think right? See jobs said
+[1:16:41.460 --> 1:16:47.460]  You know stay hungry stay foolish, but we're talking about them kind of growing up and and being a little less foolish
+[1:16:47.460 --> 1:16:49.460]  I mean do you worry at all
+[1:16:49.940 --> 1:16:54.340]  That maybe there might be something that gets lost in this. Oh, definitely
+[1:16:54.340 --> 1:17:00.580]  I maybe worries a wrong word, but you know, I definitely file it under things to keep an eye on
+[1:17:02.900 --> 1:17:08.340]  Because I think it's uncharted territory. I don't think that they're following Microsoft's footsteps
+[1:17:08.340 --> 1:17:11.700]  I you know and some people if there was any
+[1:17:12.180 --> 1:17:21.380]  Criticism of my only Apple piece. It was a long the lines of how is this different from what you know Steve Balmer taking over from Bill Gates
+[1:17:21.380 --> 1:17:28.420]  You know and and they you know first couple of well actually the whole time he did lead Microsoft to significantly
+[1:17:28.420 --> 1:17:31.060]  Higher revenue and profits on a consistent basis
+[1:17:31.860 --> 1:17:37.300]  While driving the you know a ship that with the product categories that we're heading over a cliff
+[1:17:38.740 --> 1:17:41.220]  Strategically by being a little bit more conservative and
+[1:17:41.700 --> 1:17:44.820]  You know focusing on what we already have rather than new stuff
+[1:17:44.820 --> 1:17:50.460]  Well, but I think that's not true though because Microsoft did know that mobile was next and so yeah
+[1:17:50.460 --> 1:17:55.940]  But they didn't want to disrupt themselves and they didn't want to do mobile in a way that might decrease sales of Windows PCs
+[1:17:56.580 --> 1:18:01.140]  Right, I think that's the fundamental difference and that's to me is like the thing that I don't worry about is
+[1:18:01.140 --> 1:18:07.100]  I don't think if Tim if somebody came to Tim Cook with an idea that I don't know what it would be
+[1:18:07.100 --> 1:18:11.700]  But clearly that the the sacred coward at Apple financially is the iPhone
+[1:18:11.700 --> 1:18:15.380]  It's you know, it's I think it's over half of profits and half of revenue
+[1:18:15.380 --> 1:18:19.860]  Even though the iPad is still growing and it's huge and the Mac is doing very well
+[1:18:19.900 --> 1:18:25.620]  The iPhone is the thing if they came up with something that would make people less likely to buy iPhones
+[1:18:25.620 --> 1:18:26.540]  I don't know what it would be
+[1:18:26.540 --> 1:18:33.420]  But if this is say a watch that is so it doesn't it's not a something that you Bluetooth tethered earphone
+[1:18:33.540 --> 1:18:38.440]  It's just a watch and it would make people not buy iPhones and it only costs
+[1:18:38.780 --> 1:18:44.780]  $300 but it's so awesome that do it would genuinely drive a rational person to think I don't even need an iPhone anymore
+[1:18:44.780 --> 1:18:49.580]  I don't think Tim Cook would hesitate to do that to go ahead with it because if somebody could do it
+[1:18:49.580 --> 1:18:53.540]  It might just you know that that logic of being able to to you know
+[1:18:53.820 --> 1:18:58.500]  Rather disrupting yourself than having somebody else disrupt you it holds true
+[1:18:58.500 --> 1:19:02.500]  I think he has the common sense to think well, you know, that's where it's going
+[1:19:02.500 --> 1:19:07.140]  You know, I don't think he would hesitate to to chase that and pursue that yeah
+[1:19:07.140 --> 1:19:12.820]  I mean I think the the the best the best thing in support of that is probably the iPad
+[1:19:12.820 --> 1:19:14.820]  which
+[1:19:15.260 --> 1:19:18.260]  You know, it's cheaper than a Mac and and don't cannibalize the Mac
+[1:19:18.260 --> 1:19:22.540]  I do think that you know, and I don't think they care right and it sells for
+[1:19:23.260 --> 1:19:29.900]  Significantly lower average selling price than even you know the cheapest MacBook Air let alone the average selling price of
+[1:19:29.900 --> 1:19:36.100]  Of a regular MacBook right, you know, it's probably half the price at least of you know average selling price
+[1:19:36.100 --> 1:19:41.300]  And I don't think Apple regrets it at one bit. Yeah. Well, they've increased increased volume, right?
+[1:19:41.300 --> 1:19:48.820]  Um, right I think the the only thing the only the only like hesitation I have is people always point to like oh the the iPhone
+[1:19:48.820 --> 1:19:53.740]  Replace the iPod well the problem is they're making more money on iPhones and they were like on one iPhone
+[1:19:53.740 --> 1:19:59.300]  They do on one iPod so it's not a great example. That's why I like iPad one, but it's it. I mean it is interesting
+[1:19:59.300 --> 1:20:03.940]  I think I I do I the other reason I think that Apple's not Microsoft is
+[1:20:03.940 --> 1:20:13.460]  Um, you know, my Microsoft's strengths and advantages were not in the product, right? I mean they they
+[1:20:13.820 --> 1:20:21.580]  Microsoft has always been a marketing company where by marketing I mean not advertising, but they've they've always done very a very good job of
+[1:20:21.740 --> 1:20:25.660]  Understanding their customers needs and then building exactly what what they want, right?
+[1:20:25.660 --> 1:20:32.420]  Yeah, and that's why they have all the backwards compatibility stuff and all the like all multiple all the driver issues and stuff
+[1:20:32.420 --> 1:20:34.420]  It all that is because
+[1:20:34.660 --> 1:20:36.660]  It's everything they do has been
+[1:20:37.540 --> 1:20:41.580]  They've really have gone all bent over backwards to meet people's needs, right?
+[1:20:42.580 --> 1:20:50.020]  But that didn't doesn't work so well when it comes to consumer products where you can't ask every consumer what they want
+[1:20:50.020 --> 1:20:54.060]  You have to build like the right profit the right product and make them want it. I
+[1:20:54.940 --> 1:20:58.740]  I've always said that it one of the things I think is underestimated is
+[1:20:58.740 --> 1:21:04.540]  The importance of the exact order of your priorities
+[1:21:04.540 --> 1:21:09.060]  Yeah, if you even if you only care as an institution or you're in a person about three things
+[1:21:09.300 --> 1:21:15.300]  It really makes a difference which ones number one and which ones number two because they're always going to decision where you have to choose
+[1:21:15.540 --> 1:21:21.340]  Right like all I really care about him in life is you know, I don't know it's the same person
+[1:21:21.340 --> 1:21:26.460]  But let's say you know Apple that I still think that their number one priority is creating great products and
+[1:21:26.460 --> 1:21:29.940]  and great experiences for the users and
+[1:21:30.660 --> 1:21:36.180]  Maybe number two is doing it at a profit because the profits sustain everything and
+[1:21:36.580 --> 1:21:44.020]  You know, but it makes a huge difference that one is in front of two and that all sorts of things fall out from that
+[1:21:44.020 --> 1:21:46.020]  especially in the long run
+[1:21:46.420 --> 1:21:48.420]  It's gonna be interesting to see the
+[1:21:48.780 --> 1:21:51.420]  Because it's not that Microsoft doesn't care about experience
+[1:21:51.420 --> 1:21:57.660]  I just don't think that they place it quite as high in the priority list institutionally as Apple and then there's in the long run
+[1:21:57.660 --> 1:21:59.980]  There's been profound differences because of that
+[1:22:00.660 --> 1:22:05.980]  Well, and there's different there's different kinds of experiences, right to satisfy a a business is
+[1:22:06.620 --> 1:22:08.460]  needs
+[1:22:08.460 --> 1:22:15.500]  You you often prioritize things other than like the the and user experience of actually using the product, right?
+[1:22:15.500 --> 1:22:21.940]  It's a because the buyer is different than the user and so you prioritize what the buyer values
+[1:22:22.700 --> 1:22:32.980]  And yeah, and I think that's the real kind of big difference between the consumer market and the and the business market is is the end user is the
+[1:22:33.580 --> 1:22:35.580]  is the buyer and
+[1:22:35.580 --> 1:22:39.380]  That yeah, that makes Apple strategy much more
+[1:22:39.980 --> 1:22:44.460]  Much better Apple's priorities a much better match for the consumer market
+[1:22:44.460 --> 1:22:49.540]  Here's another example. I'll give you an example that I think is very clear and that this
+[1:22:50.580 --> 1:22:52.580]  this months Android Wear
+[1:22:54.660 --> 1:22:56.660]  watches
+[1:22:56.660 --> 1:22:58.660]  show Google and
+[1:22:59.420 --> 1:23:04.020]  OEMs like LG and Samsung plays a much higher well
+[1:23:04.020 --> 1:23:05.500]  Maybe not much. It's just a different word
+[1:23:05.500 --> 1:23:10.380]  But they place a higher priority on being first to market than Apple does
+[1:23:10.380 --> 1:23:18.380]  No doubt in my mind and it's watches to me or proof of it that they're clearly rushed to their clunky
+[1:23:18.580 --> 1:23:22.980]  There's a lot of you read the reviews. There's a lot of things that are just our half-baked
+[1:23:24.380 --> 1:23:30.540]  You know, Joanna Stern had it my favorite review of them in the Wall Street Journal. I guess it was last week, but
+[1:23:31.660 --> 1:23:35.500]  Great review, but right now notifications are all or nothing
+[1:23:35.500 --> 1:23:41.260]  You either say all of your notifications from your phone go to your watch or none of them do at least on an app
+[1:23:41.260 --> 1:23:41.860]  By app basis
+[1:23:41.860 --> 1:23:47.100]  So it's like you either have if you want a notifications for incoming email on your phone then every time you get an email
+[1:23:47.100 --> 1:23:53.220]  Your wrist is gonna buzz which is maddening at least for some people about Joanna, and it is for me because I've tried it with a pebble
+[1:23:54.340 --> 1:24:00.180]  But you might want something like look just these two people my wife and my boss
+[1:24:00.180 --> 1:24:07.380]  You know when they email me I want or like an Apple terms the VIP list right if my it just if there's nothing like that
+[1:24:07.380 --> 1:24:13.380]  Of course it's going to come eventually, but I mean that just seems like a why would you buy that and then a even better example
+[1:24:13.380 --> 1:24:17.380]  the Moto 360 which is to me it's the most controversial
+[1:24:18.180 --> 1:24:20.900]  Product I can remember in years
+[1:24:21.860 --> 1:24:27.940]  Because I so many people on the Android side are saying that now here's a beautiful thing and it's like no
+[1:24:27.940 --> 1:24:37.060]  It's not it is not a beautiful thing. It's it is better looking than the other two clunkers so far from LG and Samsung
+[1:24:37.060 --> 1:24:44.100]  That's for sure, but it is not a beautiful thing it and and that stupid bar at the bottom of of the screen
+[1:24:44.100 --> 1:24:48.380]  Oh, it's awful. It's awful Apple wouldn't ship that in a million years
+[1:24:48.380 --> 1:24:53.060]  And the only reason Motorola is shipping it is because it's rushed to market everything relative right you right
+[1:24:53.060 --> 1:24:55.060]  Yeah, it looks great compared to the LG, but
+[1:24:55.060 --> 1:25:02.260]  But it might watch it's right clearly Motorola and if the designers in the team that built that Moto 360 place a higher priority on
+[1:25:02.260 --> 1:25:07.460]  design then then the the idiots at LG and and Samsung who made their watches
+[1:25:08.100 --> 1:25:09.300]  and
+[1:25:09.300 --> 1:25:14.580]  Even if they if they value designs much as Apple they also have this higher priority of wanting to ship it
+[1:25:15.460 --> 1:25:20.860]  As soon as possible and clearly I guess an anticipation of Apple coming out was something shipping it before Apple does
+[1:25:20.860 --> 1:25:25.660]  And so they were willing to compromise and ship this thing with a black bar at the bottom of the circle
+[1:25:25.660 --> 1:25:30.400]  Which is ridiculous. So so here's here's what's interesting is you know because the counter would be oh, that's okay
+[1:25:30.400 --> 1:25:32.400]  We're gonna iterate on a word from the market
+[1:25:32.940 --> 1:25:34.940]  But in the meantime are charging people
+[1:25:35.500 --> 1:25:43.420]  $225 for these things well, it's not just that though because think about it if you if you're actually you realize that you
+[1:25:43.420 --> 1:25:46.220]  Only want notifications for one to two people
+[1:25:47.900 --> 1:25:49.900]  Do then need a screen
+[1:25:49.900 --> 1:25:53.580]  Well, that's a good question. Let's come back to that
+[1:25:53.580 --> 1:25:58.620]  Let me thank our third sponsor and then we'll do one more segment on the show and we'll start with with that with the watches
+[1:25:58.620 --> 1:26:00.620]  I want to thank another
+[1:26:01.340 --> 1:26:07.060]  Long-time friend of the show are good friends at igloo the intranet. You'll actually like
+[1:26:07.980 --> 1:26:09.980]  I was listening to
+[1:26:09.980 --> 1:26:15.300]  ATP podcasts this week and I'm just gonna steal the line from Marco
+[1:26:15.300 --> 1:26:20.980]  Which is that it's always a good if if there's ever anything in your life that's annoying it's a great idea for new products in general
+[1:26:20.980 --> 1:26:27.420]  If you can find something where all of your options are annoying and you can think of a way to build a version that's not annoying and doesn't suck
+[1:26:27.420 --> 1:26:32.900]  That's generally a good idea. Well, that's what igloo is done with intranets intranets suck
+[1:26:34.020 --> 1:26:39.460]  So igloo has attacked the problem and built an intranet product that doesn't suck
+[1:26:39.460 --> 1:26:44.740]  They have a new update that's coming soon. We've talked about it on the show before
+[1:26:44.740 --> 1:26:47.220]  It's called unicorn and it has a ton of new features
+[1:26:47.540 --> 1:26:54.020]  But the best part of it is integrated task management that will change the way you stay on track with work
+[1:26:54.420 --> 1:26:59.140]  igloo tasks can be assigned in different ways depending on the work you're doing one of the coolest ways
+[1:26:59.780 --> 1:27:04.260]  To use tasks is creating them directly on your content. Why do you need this?
+[1:27:04.420 --> 1:27:08.860]  Well, you're requesting updates on a graphic or a text correction on a word document
+[1:27:08.860 --> 1:27:12.060]  You can create these tasks right on your content
+[1:27:12.060 --> 1:27:17.180]  So your team can stay up to date with what has to be done next to update the graphic or edit the text
+[1:27:18.140 --> 1:27:23.500]  When you're viewing content even if it's a blog entry and event a form topic inside your igloo
+[1:27:24.460 --> 1:27:30.860]  These tasks are all right there informing everyone of all the tasks that have been completed in what needs additional work
+[1:27:30.860 --> 1:27:37.100]  You can assign tasks to yourself to teammates. You can comment on the tasks and you can keep all the changes in one place
+[1:27:37.100 --> 1:27:43.020]  Huge feature. I think this is it's obviously turned igloo into more than just an internet
+[1:27:43.020 --> 1:27:46.300]  It's more of a project management platform for your small teams
+[1:27:47.980 --> 1:27:53.020]  Really great stuff. It's a free update for all igloo customers. It's coming this summer
+[1:27:53.500 --> 1:27:59.660]  You can learn more about it. Here's where you go igloo software.com slash the talk show
+[1:28:00.860 --> 1:28:03.740]  They've got all sorts of great stuff to I always throw this out there
+[1:28:03.740 --> 1:28:08.780]  It's free for up to 10 people not free for like a month. Just free period for up to 10 people
+[1:28:10.460 --> 1:28:14.460]  No obligation. So if you have a team of people working together
+[1:28:15.420 --> 1:28:19.900]  Go check them out igloo software.com slash the talk show
+[1:28:22.460 --> 1:28:25.580]  That's a great point. I think bottom line is I think
+[1:28:25.980 --> 1:28:30.300]  You're saying about do you need if you only want notification for one or two people do you need a screen on your wrist?
+[1:28:31.020 --> 1:28:33.020]  To me the answer is no
+[1:28:33.020 --> 1:28:34.220]  Well, I don't think so well
+[1:28:34.220 --> 1:28:38.940]  Just to before we actually get into that and I'd actually love your take as we as we've established
+[1:28:39.740 --> 1:28:41.980]  Back and forth your product sense is much further in mind
+[1:28:43.420 --> 1:28:48.220]  But what's interesting though is about these guys rushing to market is they can say that
+[1:28:48.540 --> 1:28:54.060]  Oh, we're just iterating but now they're locked into this paradigm right if it turns out that
+[1:28:55.660 --> 1:28:58.620]  You know the best sort of secondary device
+[1:28:59.980 --> 1:29:01.980]  Needs only to be screenless for example
+[1:29:01.980 --> 1:29:06.940]  Like now they're like not another kind of like it's like they've sailed up a dead end and not now
+[1:29:06.940 --> 1:29:11.180]  It's not just that they they need to iterate. They actually need to backtrack and like re
+[1:29:11.580 --> 1:29:15.900]  You know they've actually put themselves more behind than they might have been otherwise
+[1:29:16.220 --> 1:29:17.020]  Um
+[1:29:17.020 --> 1:29:22.940]  So that that's what would make something like that particularly interesting if they actually were pretty were pursuing the wrong paradigm to start out with
+[1:29:23.180 --> 1:29:24.940]  I'm not saying art. It's just I don't know
+[1:29:24.940 --> 1:29:31.020]  But I can't help but think that they are and you know and Joanna Stern's review just it went just explicitly called it
+[1:29:31.020 --> 1:29:38.380]  You know what I think it looks like is they've taken modern smart phones and shrunk them to two inches and put them on a wristband
+[1:29:38.700 --> 1:29:44.620]  And now they go in your wrist and we saw that worked with mobile, right? That's what Microsoft did taking it taking this conversation full circle
+[1:29:44.620 --> 1:29:47.020]  They'd try they literally had a start button
+[1:29:49.660 --> 1:29:51.660]  Lower left right
+[1:29:52.220 --> 1:29:56.060]  And I think they might have had it on the upper left just to switch it up
+[1:29:56.060 --> 1:30:02.540]  Oh maybe yeah, but it was the same thing though. You tap the start button and get a start menu and and go from there
+[1:30:02.540 --> 1:30:07.180]  Right, and so like I I really do think they're like their mobile shortcomings
+[1:30:07.180 --> 1:30:12.860]  We're first and foremost because they just made a bad product and they made a bad product because they couldn't break out of
+[1:30:13.580 --> 1:30:16.140]  Desktop thinking and to me
+[1:30:16.140 --> 1:30:20.460]  This is by far the biggest criticism of Android Android where I have a few criticisms
+[1:30:20.460 --> 1:30:28.380]  But the biggest one is it's it's Windows mobile 2.0. It's taking a smart phone and cramming it on to your wrist and
+[1:30:29.500 --> 1:30:30.540]  I
+[1:30:30.540 --> 1:30:35.180]  Anytime you're shifting a paradigm or shifting a device like I think we
+[1:30:35.900 --> 1:30:44.620]  Tech history isn't that old, but I think we can say pretty confidently that you have to change everything and they haven't done that and
+[1:30:44.620 --> 1:30:50.140]  Yeah, I'm for that reason alone plus some other reasons. I'm very skeptical
+[1:30:50.140 --> 1:30:56.620]  You know, and I've gotten some emails and I love them. I do and I know that my audience that there's a
+[1:30:57.180 --> 1:31:01.980]  Just human nature is such that and modern media is such that whether it's you know
+[1:31:01.980 --> 1:31:06.860]  Like national politics or whether it's tech that people tend to they enjoy reading
+[1:31:07.580 --> 1:31:10.460]  The things that come from the people who already think the way they think
+[1:31:10.460 --> 1:31:14.780]  But I do I love the people who are like big Android fans who are redaring fireball
+[1:31:15.980 --> 1:31:19.580]  Because their feedback to me I they seldom change my mind
+[1:31:19.980 --> 1:31:23.980]  But I always consider it and it's you know to me it's a great perspective
+[1:31:23.980 --> 1:31:28.700]  And I've already gotten some emails from people, you know who we're at IO and have you know
+[1:31:29.580 --> 1:31:32.220]  One of these where watches already and they say that they like it
+[1:31:32.220 --> 1:31:39.500]  You know, I've I've I've probably gotten more even with such emails than I've ever gotten from people who tell me that glasses actually
+[1:31:41.580 --> 1:31:44.780]  Well, you just allow you're talking about relativity and setting little bars
+[1:31:45.580 --> 1:31:51.740]  And basically, you know, it's saying, you know what I think it's great. I love having my notification people love with the
+[1:31:51.740 --> 1:31:59.700]  Mobile right yeah, I just don't think it's I don't dispute that there are some number of people who do like getting their notifications
+[1:31:59.700 --> 1:32:06.740]  on their wrist and just looking at it and my big thing with the pebble that I just thought was the deal breaker was that
+[1:32:07.460 --> 1:32:11.300]  Okay, I tried born a pebble and and god bless them. I love their their
+[1:32:11.700 --> 1:32:13.700]  You know their gumption, but you
+[1:32:14.420 --> 1:32:17.700]  Get a notification and if it was something you had to act on
+[1:32:18.420 --> 1:32:24.820]  There you had to take your phone out, right? So it's you know the one time I was wearing a pebble at one time
+[1:32:24.820 --> 1:32:30.020]  I word for a couple of weeks that it was actually useful as I was driving my car and
+[1:32:31.060 --> 1:32:36.020]  I was going to pick up my son at school and I got a text from my wife and I forget what it was said
+[1:32:36.020 --> 1:32:38.820]  But it was something I it was actually useful for me to get the text
+[1:32:38.820 --> 1:32:40.660]  But I needed to text her back
+[1:32:40.980 --> 1:32:45.140]  So I had to I and I do this. I I'm literally I'm like a fanatic about it
+[1:32:45.140 --> 1:32:47.300]  I will not use my phone while I'm driving a car
+[1:32:47.860 --> 1:32:49.940]  I had to like pull over and you know
+[1:32:49.940 --> 1:32:56.740]  park the car for a second and and then texture it wasn't that much better than just feeling the phone vibrate and
+[1:32:56.900 --> 1:33:01.300]  You know waiting until I got to the school and take the phone out and see the text
+[1:33:01.460 --> 1:33:04.340]  You know it wasn't an emergency. It was not an emergency thing
+[1:33:04.340 --> 1:33:06.340]  It was just but I had to write her back
+[1:33:06.340 --> 1:33:12.020]  The thing that the where has is they have the talk so that if you do get a text and your hands are for you
+[1:33:12.020 --> 1:33:15.220]  You can you can speak your reply to the thing
+[1:33:15.220 --> 1:33:22.020]  So there is that and that's a huge step over a pebble, but to me it's it is not an inconvenience to me
+[1:33:22.020 --> 1:33:25.940]  It's never felt like a burden to me to take my phone out when I feel a buzz
+[1:33:26.500 --> 1:33:28.500]  Well, I mean a church. I think
+[1:33:29.300 --> 1:33:33.780]  They've solved a problem that I don't think many people have and I can't tell how many people have told me over the years
+[1:33:33.780 --> 1:33:38.020]  All this time that watches have been rumored as the next area of innovation in text
+[1:33:38.020 --> 1:33:41.940]  I can't even count the number of emails and tweets. I've gotten from people who say
+[1:33:41.940 --> 1:33:45.620]  I used to wear a watch. We're a watch when I was in college. Whatever
+[1:33:46.820 --> 1:33:50.100]  Haven't worn a watch since I started carrying a cell phone. I want to know the time
+[1:33:50.100 --> 1:33:56.260]  I just take my phone out. So what's interesting is is I do think where it makes a big difference actually for women
+[1:33:57.140 --> 1:34:00.100]  Especially if they carry their phone in their bags like my I mean
+[1:34:00.900 --> 1:34:08.900]  That's a very good point right that it's it's harder to find a phone in a bag than it is to find a phone in your front pocket
+[1:34:08.900 --> 1:34:12.740]  Yep, and actually in Asia most men carry bags as well
+[1:34:12.740 --> 1:34:15.700]  Like that's actually another reason why the bigger phones are are a thing
+[1:34:16.180 --> 1:34:19.860]  And so we've made these watches that are so appealing to women
+[1:34:20.420 --> 1:34:25.860]  No, but that's the point is like so that actually probably the best market is women and these are yeah
+[1:34:27.540 --> 1:34:33.220]  The video you like our wish the listeners have to watch the Joanna Stern video right like I'll put it in the show
+[1:34:33.220 --> 1:34:37.380]  Yeah, don't get we won't give it away. Just it's it's it's it's really great
+[1:34:37.380 --> 1:34:39.380]  Yeah, which addresses that point
+[1:34:39.860 --> 1:34:43.700]  Civic right but anyway the one thing that watches have been best at
+[1:34:44.500 --> 1:34:46.660]  Ever since what they were invented is telling time
+[1:34:46.820 --> 1:34:48.100]  That's the one thing everybody
+[1:34:48.100 --> 1:34:50.100]  I think would agree is the one thing that you know
+[1:34:50.100 --> 1:34:55.860]  It's the definition of a watch everything else every other complication on a watch is isn't it like a secondary feature
+[1:34:56.420 --> 1:34:58.420]  Primary purpose is to find out what time it is
+[1:34:58.980 --> 1:35:05.780]  And I think for most people the phone has proven to be a good enough
+[1:35:05.780 --> 1:35:08.340]  solution and that that you know
+[1:35:08.340 --> 1:35:11.860]  I can't tell you how many people have told me that that the one thing watches specialize in
+[1:35:12.260 --> 1:35:15.460]  People are like I always have my cell phone on my pocket. I don't wear a watch anymore
+[1:35:16.020 --> 1:35:17.220]  Let alone
+[1:35:17.220 --> 1:35:23.620]  Let alone everything else like people who might be texting you pictures and longer texts and you know
+[1:35:25.060 --> 1:35:27.220]  Even on screenshots, you know, I don't know
+[1:35:27.220 --> 1:35:33.620]  There's just so many so many bizarre compromises in the design of this where and the pebbles the same way where it shows so few
+[1:35:33.620 --> 1:35:35.620]  characters because
+[1:35:35.620 --> 1:35:37.620]  You know, it's a tiny little you know
+[1:35:38.180 --> 1:35:44.420]  1.6 inch display and you can't just can't show even like a text message is hard to fit on and once yeah
+[1:35:44.820 --> 1:35:50.100]  I think yeah, this is like there's one thing watches are better at and even then people aren't willing to wear them
+[1:35:50.500 --> 1:35:55.540]  Why would they wear them for something that it's worth that and it's you know and again
+[1:35:55.860 --> 1:35:59.700]  Peating myself everybody's made this point, but it's also very decidedly
+[1:36:00.660 --> 1:36:02.660]  a generational thing
+[1:36:02.660 --> 1:36:09.460]  Where you know the younger you are the less like you in and the less like you you are to have ever worn a watch and
+[1:36:09.460 --> 1:36:12.420]  Therefore, why would I do that? Why would I buy a thing that just tells me the time?
+[1:36:12.420 --> 1:36:16.900]  I always know the time. I've got my phone with me. So I I increasingly feel
+[1:36:17.940 --> 1:36:22.500]  Again, I don't have great product sense, but just kind of thinking through this stuff through is
+[1:36:23.540 --> 1:36:25.540]  One I
+[1:36:25.540 --> 1:36:30.260]  Think there's gonna be a range. I don't think there is a AI watch or an watch
+[1:36:30.260 --> 1:36:35.220]  There's gonna be a whole bunch of devices. There might be rings. There might be watches. There might be clips
+[1:36:35.220 --> 1:36:38.500]  There might be like you know, it will might be like ten different things and
+[1:36:38.980 --> 1:36:45.300]  And two I think most of them won't have screens. Maybe there will be one or two that do but
+[1:36:46.420 --> 1:36:49.300]  I don't know that that's kind of it. Yeah, I don't know
+[1:36:49.300 --> 1:36:55.860]  I especially screens as we know them which are in enormous energy hogs and which is the reason why your gear watch
+[1:36:56.020 --> 1:36:59.060]  Hester or Android wear watch has to be charged daily
+[1:36:59.060 --> 1:37:03.380]  And I know I think I said this last week when whiskers was on the show
+[1:37:03.380 --> 1:37:08.020]  But I just think people are I think so many tech people are vastly vastly
+[1:37:09.540 --> 1:37:15.860]  Over estimating what an enormous burden is to carry even a single device that needs charging daily
+[1:37:15.860 --> 1:37:21.700]  And we've all made this decision. We all have decided that having these you know modern cell phones is important enough
+[1:37:23.540 --> 1:37:28.740]  To do it, but it's an enormous burden and every time you go to the airport and you see people sitting grown men
+[1:37:28.740 --> 1:37:31.140]  And suit sitting on the floor so they can be near
+[1:37:32.020 --> 1:37:34.900]  Electrical socket. That's for one device right?
+[1:37:35.380 --> 1:37:42.740]  Asking people to have a second device that you need to charge on a daily basis and one which requires a proprietary
+[1:37:43.220 --> 1:37:47.460]  Weirdo charger thing that you have to somehow carry around with you is
+[1:37:49.860 --> 1:37:54.340]  I'm not saying it's impossible, you know clearly the the cell phone river
+[1:37:54.340 --> 1:37:58.500]  If if it's possible to get everybody to carry one device that needs charging daily
+[1:37:59.460 --> 1:38:05.380]  It's possible to make them have to but don't underestimate just how crazy it is that we've convinced everybody to carry
+[1:38:05.380 --> 1:38:08.100]  Even one device that needs charging. Yeah, I don't think so
+[1:38:08.100 --> 1:38:12.460]  I mean because you just you just said it exactly right if that one device can do with that other device
+[1:38:12.460 --> 1:38:22.140]  Yeah, exactly if show notifications like you reply to them, you know, you know, like we are convincing me even more like I really don't think there's gonna be a screen because like
+[1:38:22.140 --> 1:38:27.420]  You know, there's a you think about a few ways like well one just to imagine the so much of right
+[1:38:27.420 --> 1:38:31.740]  It's gonna be like the whole like the iPhone has no buttons. Well, the eyewatch has no screen
+[1:38:33.020 --> 1:38:38.620]  But I think you have to think about it like you think back to the iPod like what what made the iPod so
+[1:38:39.340 --> 1:38:44.300]  Transformative it was that it removed features from music players
+[1:38:44.380 --> 1:38:49.620]  Right there were music players on the on the market, but they have these fiddly things to to change controls
+[1:38:49.620 --> 1:38:53.260]  And yes part of it was the thousand songs in the pocket and the and the and the design
+[1:38:53.340 --> 1:39:02.900]  But a big part of it was iTunes. It was that all this complex management stuff was removed from the device and put on a much more suitable device
+[1:39:02.900 --> 1:39:09.860]  Yeah, and and they're using it using it felt like going downhill not uphill right exactly like in all it did was was was like
+[1:39:09.860 --> 1:39:15.140]  What only it could do which was play music on the go and actually managing playlists all that sort of stuff
+[1:39:15.140 --> 1:39:21.060]  You did you did on your computer and I I and over time that change like now
+[1:39:21.380 --> 1:39:25.380]  My on my phone has never been connected to my computer, right, but that took like a
+[1:39:26.180 --> 1:39:29.860]  Over a decade, right? I think I think watches or these
+[1:39:30.420 --> 1:39:36.620]  Wearables are gonna start the same way like they their function will be something that only they can do that
+[1:39:36.620 --> 1:39:39.540]  I watch cannot do and it's probably it's gonna be the sensor stuff
+[1:39:39.540 --> 1:39:45.300]  Something's gonna be I think that I do think there will be a notification thing, but it will be the like only your favorites
+[1:39:45.300 --> 1:39:47.940]  Like you can do favorites on your phone like those will be the only ones
+[1:39:48.580 --> 1:39:52.180]  and people bitch and mowing about a limit it is but but
+[1:39:53.140 --> 1:39:59.540]  And then all the other stuff will be on the phone. There won't be there will be minimal if any duplication between
+[1:40:00.260 --> 1:40:05.380]  What one does and what the other does and on the flip side? I think apple is going to try to make these
+[1:40:05.380 --> 1:40:13.220]  Not tech devices that look good, but fashion accessories that happen to have electronic functions
+[1:40:13.220 --> 1:40:16.900]  Right you've got to work backwards and it's a you know a paraphrase it
+[1:40:16.900 --> 1:40:20.980]  But it's a Steve Jobs quote that you've got to work backwards from
+[1:40:21.620 --> 1:40:27.300]  The experience what it is you want to do to the technology and not the other way around and to me
+[1:40:27.700 --> 1:40:30.980]  These Android Wear devices are exactly the opposite
+[1:40:30.980 --> 1:40:36.100]  It's starting with and and Google even said this explicitly on stage at IO
+[1:40:36.420 --> 1:40:40.180]  It's now possible to build a smartphone like device that fits on your wrist
+[1:40:40.820 --> 1:40:44.580]  And it's true that that wasn't possible before that it's it's it's
+[1:40:45.220 --> 1:40:50.980]  You know it great increases in miniaturization great increases in you know
+[1:40:51.940 --> 1:40:55.380]  Just the ability to power the power that it's a little tiny screens
+[1:40:55.380 --> 1:41:03.220]  Even for a day does require new technology and Bluetooth LTE is new technology so that you can actually maintain a tethered connection
+[1:41:03.780 --> 1:41:05.940]  Even if you know one day's battery life is crappy
+[1:41:05.940 --> 1:41:07.220]  I think for a watch
+[1:41:07.220 --> 1:41:13.940]  But it says something that you can keep a Bluetooth and all the reviews indicate that you do get a full day out of the thing
+[1:41:14.340 --> 1:41:15.380]  That's new technology
+[1:41:15.540 --> 1:41:18.260]  But it's all working backwards from we can do this
+[1:41:18.340 --> 1:41:23.620]  So let's do it and here it is instead of starting with what would actually be a good experience for a thing
+[1:41:23.620 --> 1:41:26.660]  You wear on your wrist and what would look good. No, exactly
+[1:41:27.460 --> 1:41:32.100]  I do I have one more question for you. Okay. That I'm actually curious your take on so
+[1:41:32.740 --> 1:41:39.300]  That's my we just nailed my big Christmas Android Wear and where I'm I don't think like I I think it's it's
+[1:41:40.020 --> 1:41:42.020]  It's a misstep. I think it's Windows mobile
+[1:41:42.580 --> 1:41:45.700]  My other question is is what you think about Google now?
+[1:41:48.740 --> 1:41:50.740]  I you know, I
+[1:41:50.740 --> 1:41:54.500]  I think it's I wrote just a little thing about it
+[1:41:55.700 --> 1:42:02.900]  When I link to join a stern's review today that I do think that's where there's the most potential in
+[1:42:06.100 --> 1:42:12.340]  Android or Google-based wearables is that Google to me. I think has best of breed
+[1:42:12.340 --> 1:42:20.820]  Speed speech understanding speaking. Oh, it's it's amazing. It works every single time. Yeah, and I think Siri has gotten better
+[1:42:20.820 --> 1:42:24.660]  I really do I use it all the time walking and walking around the city while texting
+[1:42:24.660 --> 1:42:29.860]  I'll do use the speech and and I I series the umbrella term not Siri the intelligent agent
+[1:42:29.860 --> 1:42:33.580]  But Siri the hit the microphone next to the space bar to dictate a text
+[1:42:34.740 --> 1:42:36.900]  It's gotten better. It's gotten more accurate
+[1:42:36.900 --> 1:42:40.380]  And it has gotten the latency's improved and it works better over cellular
+[1:42:40.380 --> 1:42:45.500]  But it still is not as good as Google's and that's because I think Google's is is and standing still on that either
+[1:42:45.500 --> 1:42:51.340]  Right best of breed Google's best best of breed for speaking to a device and understanding it quickly
+[1:42:52.060 --> 1:42:54.620]  And I think there's a lot of potential there for wearables
+[1:42:54.940 --> 1:42:59.500]  But my problem is I don't buy into the let Google know everything about me
+[1:42:59.500 --> 1:43:03.900]  I don't use Google calendar. I don't want Google. I don't want Google knowing my location
+[1:43:03.980 --> 1:43:06.780]  I'm I'm genuinely creeped out by all that well
+[1:43:06.780 --> 1:43:10.860]  What if you weren't creeped out though? Like do you think that's something that you would find useful?
+[1:43:12.300 --> 1:43:14.620]  I mean the reason the reason I ask is is to me
+[1:43:15.420 --> 1:43:20.540]  I feel this is a there's a really interesting interview with
+[1:43:21.740 --> 1:43:25.260]  Vino closer of course of ventures and and Larry Page and Sergio Brin
+[1:43:26.460 --> 1:43:29.100]  Earlier this week and and they talk about this a bit
+[1:43:30.060 --> 1:43:34.540]  And I feel there's just a fundamentally different view of computing
+[1:43:34.540 --> 1:43:41.420]  Between Google and Apple and it really is personified right now more than anything by Siri versus Google now
+[1:43:41.900 --> 1:43:43.020]  Yeah, I think that's a good point
+[1:43:43.020 --> 1:43:49.340]  And I think I know you're going with that and part of it is I've been reading these reviews of the the wear devices and a lot of what
+[1:43:49.340 --> 1:43:54.540]  You see on them isn't what you've asked for it's what Google thinks you want to see right and like you don't
+[1:43:55.100 --> 1:43:57.100]  You don't say show me my flight
+[1:43:57.420 --> 1:44:03.020]  It it you've put your flight in your calendar and at a certain point Google says hey you've got a you've got a
+[1:44:03.020 --> 1:44:09.260]  One p.m. Flight and it's 10 30 in the morning and it's gonna take you at least 45 minutes to get there and
+[1:44:09.820 --> 1:44:15.500]  And it it comes up you didn't ask for it does it and and I've seen a couple of reviews mentioned weather is like that like
+[1:44:15.820 --> 1:44:19.500]  You'll get like a weather thing and once you dismiss it you can't make it come back
+[1:44:19.580 --> 1:44:22.220]  There's no way to say show me that weather card. I just dismissed
+[1:44:22.380 --> 1:44:25.740]  They they show you the weather when they think you'd know want to know about the weather
+[1:44:26.140 --> 1:44:29.420]  And I think I would find that madman. Well, yeah, I mean
+[1:44:29.420 --> 1:44:32.940]  Wait one thing I was interested in it. No exactly it's it's it's they
+[1:44:33.740 --> 1:44:35.340]  Their view is
+[1:44:35.340 --> 1:44:41.260]  Anticipating your needs and like taking care of them for you and it's it really is a um
+[1:44:41.980 --> 1:44:48.140]  Uh, you know very page said like that's why the I'm feeling lucky button was there because I'm feeling lucky is what Google
+[1:44:48.540 --> 1:44:50.940]  That's Google's ideal vision of Google search
+[1:44:51.580 --> 1:44:56.620]  Is that actually everyone always can hit? I feel lucky because we'll always serve exactly the right result
+[1:44:56.620 --> 1:45:01.740]  and but their vision now has even passed that it's like you don't even have to type something in the box
+[1:45:01.740 --> 1:45:06.860]  Like they will know what you want and and give it to you and it's like it really is um
+[1:45:07.580 --> 1:45:09.580]  Uh, you know Benedict Evans
+[1:45:10.220 --> 1:45:16.300]  We mentioned earlier posted a tweet during Google IO of saying Google he posted a picture of the scene from
+[1:45:17.660 --> 1:45:22.060]  Wally where the fat people you know everyone's fat and sitting in chairs and all their needs are being addressed
+[1:45:22.060 --> 1:45:26.620]  He's like oh Google and Apple are racing here and and I wrote in a piece. I'm like
+[1:45:26.620 --> 1:45:33.020]  I actually I think Google is going there, but I think Apple is very explicitly not going there
+[1:45:33.580 --> 1:45:40.460]  Um, and it goes back to you know, Steve Jobs saying the computer is a bicycle right a bicycle is still
+[1:45:41.420 --> 1:45:46.540]  Subject to a human's direction and a human's propulsion. It just it just enhances that
+[1:45:46.540 --> 1:45:52.460]  um, it's not it's not a self-driving car like taking you where you want to go and
+[1:45:53.100 --> 1:45:58.380]  Uh, and you see that with Siri Siri doesn't anticipate your needs it only responds to questions
+[1:45:58.940 --> 1:46:04.220]  And I don't think that's a technical limitation. I think it's a philosophical one and
+[1:46:04.860 --> 1:46:07.500]  And to me I think that's something that you know is very
+[1:46:08.220 --> 1:46:15.660]  Is really a question who's gonna own the future because if if Google's right they will own the future because they're so far ahead of everyone
+[1:46:15.660 --> 1:46:22.460]  Um, but if if if it's if computers stay a tool then
+[1:46:22.940 --> 1:46:26.940]  Apple and their their user user experience all sorts of stuff
+[1:46:27.340 --> 1:46:32.060]  Will continue to differentiate them. Yeah, maybe it's not either or either you know
+[1:46:32.060 --> 1:46:34.060]  Maybe it's you know
+[1:46:34.300 --> 1:46:38.380]  It's a bifurcation and it it you know one one group of
+[1:46:38.780 --> 1:46:44.380]  Depending on your personality is drawn to one side and one's drawn to another and it comes back to I think what what?
+[1:46:44.380 --> 1:46:47.500]  But um, Benedict Evans had written this week about
+[1:46:48.220 --> 1:46:49.740]  that that
+[1:46:49.740 --> 1:46:51.660]  Ever since 2007
+[1:46:51.660 --> 1:46:56.140]  iOS and Android have been converging and that they've been sign of picking up the same feet
+[1:46:56.140 --> 1:46:57.180]  You know
+[1:46:57.180 --> 1:47:00.940]  Google picked up drag drag from the top for notifications first and then Andrew
+[1:47:01.580 --> 1:47:05.580]  Apple picked it up and Android picked up a whole bunch of features from that iOS
+[1:47:05.580 --> 1:47:07.740]  It was way ahead of them on you know as the ears went on
+[1:47:08.060 --> 1:47:12.940]  But then eventually they picked up all both of them got all the low hanging fruit and with this year's
+[1:47:12.940 --> 1:47:16.700]  iOS 8 and Android L announcements now you're seeing them go in different directions
+[1:47:16.700 --> 1:47:22.700]  And I think you're you're talking about the same sort of thing. I think is you know, and I you know, maybe they're both
+[1:47:23.900 --> 1:47:26.940]  Sustainable, maybe it's not you know, but that they appealed to very different people
+[1:47:27.500 --> 1:47:30.940]  I don't know. I think one of the most telling things. I've I've read about Android Wear
+[1:47:31.580 --> 1:47:33.580]  I haven't written about it yet, but it was
+[1:47:33.660 --> 1:47:35.660]  Ron Amadeo's
+[1:47:36.700 --> 1:47:39.660]  Review and ours Technica of Android Wear
+[1:47:39.660 --> 1:47:46.220]  Just the software which when I first started reading it. I thought I expected to roll my eyes because I thought it was
+[1:47:48.140 --> 1:47:55.580]  A weird idea to review the software in the abstract as opposed to the actual experience of the watches
+[1:47:56.060 --> 1:47:58.060]  It on the actual devices
+[1:47:59.180 --> 1:48:04.140]  But you know to their credit ours did have reviews of the watches, but and it runs
+[1:48:04.140 --> 1:48:09.180]  Review of just Android Wear was interesting because it just sort of focused on the philosophy of it
+[1:48:09.180 --> 1:48:15.340]  And yeah, you know, and emphasize these things that a lot of what you see on it is what Google thinks you want to see
+[1:48:16.060 --> 1:48:21.020]  And that you know, and he mentioned specifically with the weather that it was frustrating that you couldn't just bring it back up
+[1:48:21.260 --> 1:48:26.300]  Right, and that to me would be maddening, but I think it's also very telling about the the
+[1:48:27.100 --> 1:48:29.100]  philosophy behind it
+[1:48:29.100 --> 1:48:30.140]  Yeah
+[1:48:30.140 --> 1:48:32.540]  No, I mean, I think you're exactly right that it is
+[1:48:32.540 --> 1:48:37.340]  Yeah, philosophical differences is that that exactly
+[1:48:38.460 --> 1:48:41.260]  And I saw the interview I didn't read the whole thing, but I saw the interview with
+[1:48:41.820 --> 1:48:45.660]  Where was that did I should probably link that up to the interview with surjay and
+[1:48:46.620 --> 1:48:50.780]  Yeah, I think that just if it was that he was saying that eventually the algorithms are going to be smarter than us
+[1:48:51.180 --> 1:48:57.340]  Right, I mean it really it's interesting too. I think this is um, this is part of the thing why Google you know
+[1:48:57.340 --> 1:49:04.300]  it is tends to have such a hold on uh kind of geeks in general is like this always kind of been
+[1:49:04.940 --> 1:49:10.620]  Been a very geeky domain the I you know like geeks aren't afraid of AI. They're not afraid of robots
+[1:49:10.780 --> 1:49:12.780]  Right like they're they're intrigued by them
+[1:49:12.780 --> 1:49:18.940]  They're kind of drawn to them like moths to a flame right and Google has always been very much in that sort of vibe
+[1:49:19.340 --> 1:49:25.100]  um, and but what's really interesting and is gonna be it's you see it starting to play out now
+[1:49:25.100 --> 1:49:30.540]  It's about even more is as you know tech has kind of spent the last 20 30 years eating itself right
+[1:49:30.620 --> 1:49:33.020]  We we we disrupt each other and all that sort of stuff
+[1:49:33.180 --> 1:49:35.740]  But now as it's touching every part of society
+[1:49:36.140 --> 1:49:43.500]  You're getting like people who don't think about this who who really do see computers as tools, right? They're they help them get stuff done
+[1:49:44.140 --> 1:49:45.340]  um
+[1:49:45.500 --> 1:49:50.380]  Now they're encountering this they're kind of stuff like Facebook and and the testing and all that which to most geeks
+[1:49:50.380 --> 1:49:56.300]  It's they'd be testing but to someone else like what the hell is going on here, right? And I think you're gonna
+[1:49:56.620 --> 1:50:02.620]  It's gonna be really interesting to see as this kind of collision happens with society as a whole and they start waking up to like
+[1:50:03.820 --> 1:50:07.340]  To this kind of like what what is almost were used to
+[1:50:07.820 --> 1:50:08.780]  um
+[1:50:08.780 --> 1:50:14.540]  I suspect that actually that I I obviously think it's gonna play out more in the
+[1:50:15.340 --> 1:50:19.500]  Computers as tools and it's how most people view them and want them to operate
+[1:50:19.500 --> 1:50:24.860]  um, but maybe Google's right and people do want you know personal assistance
+[1:50:25.900 --> 1:50:28.460]  All right, and that algorithms can deliver a
+[1:50:29.740 --> 1:50:37.020]  Satisfying superior. Yeah or superior, right? I mean, that's the whole I mean, it's not even new. It's not it's certainly not a new direction for Google
+[1:50:37.260 --> 1:50:40.620]  It's it's new terrain in the same
+[1:50:42.060 --> 1:50:46.860]  Direction, you know like Google news. That's the whole point behind Google news is that you could which you know
+[1:50:46.860 --> 1:50:49.420]  I don't think it's a major project product for them anymore
+[1:50:49.420 --> 1:50:53.420]  But the basic idea behind it that Google could algorithmically predict
+[1:50:54.380 --> 1:50:57.900]  the most important news and the news. I guess personalized that you know
+[1:50:57.900 --> 1:51:02.780]  We'd be most appealing to you as opposed to the editors of the New York Times or
+[1:51:03.420 --> 1:51:04.940]  uh
+[1:51:04.940 --> 1:51:11.180]  You know the verge or for technology or whatever. What's what's so interesting though is is Google's big product?
+[1:51:11.180 --> 1:51:18.140]  Still is today is search and search is actually much more if we're gonna call this divide like an Apple Google
+[1:51:18.140 --> 1:51:23.100]  Divide it's much more than the apple side of things like you it's it's directed you go there and you
+[1:51:23.500 --> 1:51:29.980]  Put in a word and you click the button or you press right into one Google product that Steve Jobs is adamantly said is a great
+[1:51:30.300 --> 1:51:35.740]  Product exactly and it's and it's funny because what Google is pushing for is
+[1:51:36.380 --> 1:51:40.300]  Is actually different than what their big successful product is?
+[1:51:40.300 --> 1:51:43.340]  Yeah, yeah, that's a great point. I agree with that
+[1:51:44.300 --> 1:51:48.620]  Briefly because I don't want to go past the two-hour mark, but well, I don't want to say I wanted to speak to you about
+[1:51:48.620 --> 1:51:53.100]  Well, I had you and I I'd I'd love that if I didn't is that
+[1:51:53.900 --> 1:51:56.300]  Just yesterday it broke that
+[1:51:58.140 --> 1:52:00.140]  Apple has hired
+[1:52:00.780 --> 1:52:08.620]  Yeah, yeah sales director sales executive from tag humor of high-end luxury watch brand
+[1:52:08.620 --> 1:52:13.440]  Which is part of it's not like an independent brand. It's part of LVM H
+[1:52:13.740 --> 1:52:18.780]  LVM H which is Louis Vuitton. What's the mh damn? I was get the m wrong cuz H is Hennessy. It's uh
+[1:52:20.460 --> 1:52:26.420]  Oh, I think it's like the champagne brand or something isn't it? Well, it's a fucking wrong every single time. Oh, I know this
+[1:52:26.420 --> 1:52:30.300]  All right, so but anyway French conglomerate that owns Louis Vuitton Hennessy
+[1:52:31.260 --> 1:52:34.780]  You know, it's true conglomerate cuz it's part of their moment
+[1:52:34.780 --> 1:52:38.780]  I'm a M.O.E.T. with a little with obelod on it. Right. So, you know
+[1:52:38.780 --> 1:52:44.140]  I think it's fair to say that any company that owns verse for both Louis Vuitton and the champagne and and
+[1:52:44.700 --> 1:52:46.700]  cognac brand
+[1:52:46.700 --> 1:52:49.580]  Is a conglomerate, but obviously there's a certain
+[1:52:51.420 --> 1:52:54.380]  Uh, you know luxury. It's quality
+[1:52:55.180 --> 1:52:57.180]  It's you know branding
+[1:52:57.180 --> 1:52:59.980]  Uh, they've hired a sales executive from from tag humor
+[1:52:59.980 --> 1:53:05.900]  And that joins Paul Deneve who came from Eve St. Lawrence and most famously Angela Arnt's
+[1:53:08.220 --> 1:53:10.220]  Burberry
+[1:53:11.580 --> 1:53:19.420]  And I wrote about this and said that I would include Jimmy E.O. Vine and Dr. Dre in that group and and I that's all I said last night
+[1:53:19.420 --> 1:53:22.220]  And I got a lot of stuff that I got beats is an luxury brand
+[1:53:23.180 --> 1:53:28.860]  And I realized luxury is the wrong word and says this is the clarifying thing I added today is that I
+[1:53:28.860 --> 1:53:32.860]  I include E.O. Vine and Dr. Dre because I don't think beats is a luxury brand
+[1:53:32.860 --> 1:53:37.420]  But I don't think luxury is the right word to explain these hires. It's about some kind of like
+[1:53:38.220 --> 1:53:43.020]  Circling around taste style branding. Yeah, see beats is a luxury brand though
+[1:53:43.020 --> 1:53:45.580]  It's a it's a luxury brand the same way apples a luxury brand
+[1:53:45.900 --> 1:53:50.220]  Right, well, and then I even said I here's where I think when people say I'm worried about this
+[1:53:50.220 --> 1:53:54.460]  I'm worried about the direction apples going is think about this the iPhone is nothing like virtue
+[1:53:54.460 --> 1:54:01.020]  The we were you buy like a $6,000 right? Symbian phone and it's got leather and jewels on it
+[1:54:01.660 --> 1:54:06.940]  And beats isn't like virtue either right because I never see people walking down the street with virtue phones
+[1:54:06.940 --> 1:54:10.540]  But every single day in Philadelphia. I see people where especially you know
+[1:54:10.540 --> 1:54:13.820]  It's certainly come to my attention since Apple bought them. I see them every day
+[1:54:13.900 --> 1:54:17.180]  I see people wearing beats every single day in Philadelphia
+[1:54:17.180 --> 1:54:23.660]  And virtue is not like that. It's it's beats is like an apple luxury brand where it's accessible luxury right?
+[1:54:24.380 --> 1:54:29.820]  And depending on your taste and music, you know, it's it's as good of I don't people are going to crucify
+[1:54:30.380 --> 1:54:35.820]  It's good for force you and get right. Yeah, people like that sound right. I know it's not technically accurate
+[1:54:36.300 --> 1:54:38.460]  Right, it's you know, it's you know
+[1:54:39.100 --> 1:54:42.700]  But the point is you're not you're not you're most people don't feel like they're sacrificing
+[1:54:42.700 --> 1:54:47.260]  Like to use a virtue you're sacrificing right you're not using an I right exactly well
+[1:54:47.260 --> 1:54:49.260]  They make right the know I think yeah, yeah
+[1:54:49.900 --> 1:54:54.060]  And don't you think I did there's some you know and quality, you know and it's certain sense
+[1:54:54.060 --> 1:54:57.340]  I've heard you know somebody told me for example, this is and this is the sort of thing
+[1:54:57.340 --> 1:54:58.540]  I don't know a lot about headphones
+[1:54:58.540 --> 1:55:03.100]  I really didn't know a lot about beats before they've Apple bought them but one guy wrote me and said you know why I buy beats headphones
+[1:55:03.500 --> 1:55:05.500]  They have an amazing return policy
+[1:55:06.140 --> 1:55:10.380]  And they'll take care of you like he said I bought a pair of beats cost me 300 bucks and like nine months later
+[1:55:10.380 --> 1:55:15.340]  They broke and I took him back and they just took him and gave me a new pair no questions asked and he goes
+[1:55:15.340 --> 1:55:19.100]  That's it's it can't be beat and you don't get that sort of thing from other companies
+[1:55:19.740 --> 1:55:25.980]  Yeah, I'm making people happy and building a relationship. I don't know I don't know I don't know a ton of about you know
+[1:55:26.060 --> 1:55:28.700]  Beats specifically, but what what strikes me about these
+[1:55:30.060 --> 1:55:34.700]  Yeah, I'm more interested not in your take on beats but on that just on the the hiring of you know that
+[1:55:35.180 --> 1:55:37.820]  One or two could be an outlier, but it seems to be a trend
+[1:55:37.820 --> 1:55:42.540]  Yeah, I mean to me that that suggests one that the wearable thing is multiple things
+[1:55:43.420 --> 1:55:45.420]  two that
+[1:55:46.540 --> 1:55:53.100]  They're focused on fashion first. Yeah, you know, I missed that word fashions an important word. I think but three
+[1:55:53.660 --> 1:55:57.820]  I thought I was most interesting that this guy was the sales director. Yep, because that's a tune
+[1:55:57.820 --> 1:56:00.380]  That's a completely different kettle of fish than
+[1:56:00.380 --> 1:56:08.300]  Then retail which they already do or or the CEO which you could certainly see him tie more into the product side of things
+[1:56:08.540 --> 1:56:12.620]  But this guy is not doing product. He's not actually making the things. He's he's selling thing
+[1:56:12.620 --> 1:56:20.620]  He presumably has connections with the department, you know these Asian department stores that sell LVMH products or with
+[1:56:22.060 --> 1:56:24.060]  You know the the duty-free
+[1:56:24.060 --> 1:56:31.260]  Shops and like you know over here that I'm not over here anymore, but like that that sell that had le bags. That's that sell
+[1:56:31.420 --> 1:56:32.540]  you know
+[1:56:32.540 --> 1:56:37.360]  Champagne that sell all the perfumes like I think they're Christian Dors part of them and all that sort of stuff
+[1:56:38.460 --> 1:56:42.460]  That's super interesting because it's just it's not just that Apple's doing a new product
+[1:56:42.460 --> 1:56:45.100]  But they're talking about a new channel a new distribution strategy
+[1:56:45.660 --> 1:56:50.380]  And I would suspect that errands would have a very a lot to say about that as well
+[1:56:50.380 --> 1:56:53.820]  Because you know the nutritional Burberry outlet
+[1:56:54.140 --> 1:57:00.380]  Yes, they are in the same place as Apple stores the Apple stores like Apple stores have been in malls and stuff like that like the
+[1:57:00.700 --> 1:57:04.060]  There's there's not a Burberry in in your typical suburban mall
+[1:57:04.780 --> 1:57:08.060]  There is a Burberry in like the you know
+[1:57:08.460 --> 1:57:13.020]  Dehanka Airport or like the type of one one building like which is like these super high-end
+[1:57:13.660 --> 1:57:15.660]  shopping destinations
+[1:57:15.660 --> 1:57:22.460]  Like the shops at Caesars in right in the middle of the like the most the best intersection of the strip and pegas
+[1:57:22.620 --> 1:57:24.620]  Right and Apple does do that
+[1:57:24.780 --> 1:57:31.180]  Internationally with their stores like so with this is only this really interesting to that that makes that's really interesting about analyzing Apple
+[1:57:31.420 --> 1:57:33.420]  And I wanted to get this
+[1:57:33.500 --> 1:57:43.180]  It's like it differs by region right the way Apple presents itself in the US is different than they're presented in like China for example
+[1:57:43.180 --> 1:57:49.260]  Where it's much more of a luxury good and their stores are next to it's next to the Louis Vuitton store
+[1:57:49.420 --> 1:57:52.540]  Whereas in the US. It's famously they're always next to Victoria secrets
+[1:57:53.820 --> 1:58:02.620]  It's just a different it's a different presentation and but yet they also have for example a true flagship
+[1:58:04.060 --> 1:58:10.940]  Destination store on Fifth Avenue in New York. Oh for sure. Yeah, they both in the US that they do both right that they're right there on Fifth Avenue
+[1:58:10.940 --> 1:58:16.140]  With the true flagship, you know, it's almost almost sickening out out
+[1:58:16.140 --> 1:58:20.620]  You know when you see how many people take pictures in front of it and you know with all the other landmarks in New York
+[1:58:21.660 --> 1:58:24.940]  But yet, you know at the same time they're at the burling ham mall in
+[1:58:25.580 --> 1:58:26.780]  New Hampshire, yeah
+[1:58:26.780 --> 1:58:33.420]  No, and so that that's and the other thing is like this this is why Apple will never release a well-end iPhone right because the that
+[1:58:34.380 --> 1:58:38.620]  That would hurt their that would hurt their brand and other parts of the world even if
+[1:58:38.620 --> 1:58:44.620]  And and so it's it's super interesting the the hiring the sales guy because
+[1:58:45.740 --> 1:58:50.860]  That's why that also makes me think like you're not going to get into these stores selling a a
+[1:58:51.740 --> 1:58:58.380]  Smart watch that looks good. You're gonna get in these stores by selling a desirable object that also
+[1:58:58.940 --> 1:59:00.940]  has this functionality
+[1:59:00.940 --> 1:59:06.140]  And and and that's again, I don't see if they're being a bulky screen on it
+[1:59:06.140 --> 1:59:08.860]  I don't see there being a charger with it. I think I see it being something that's very
+[1:59:09.900 --> 1:59:11.900]  Arrange of things
+[1:59:11.900 --> 1:59:14.700]  Yeah, I don't know. It's it's super interesting. Yeah
+[1:59:15.260 --> 1:59:18.700]  Let me correct myself rocking him all rocking him park. That's right
+[1:59:18.700 --> 1:59:21.660]  To go to the Apple store when I lived up in that message. It's great
+[1:59:21.660 --> 1:59:25.100]  That we know more about like suburban malls than we do the names of luxury goods companies
+[1:59:25.660 --> 1:59:27.660]  In beautiful Salem, New Hampshire
+[1:59:28.380 --> 1:59:32.380]  Yeah, I totally agree and like I said, I stand by this
+[1:59:32.380 --> 1:59:37.260]  I really do and the more than the weeks since I wrote it. I really do think that
+[1:59:38.460 --> 1:59:44.380]  It has to start with a design that before you even see what it does when you hold it up that you say
+[1:59:44.380 --> 1:59:49.660]  Oh, I might buy that and wear it. Yep. It has to and I know that that sounds there. There's a certain
+[1:59:51.740 --> 1:59:53.740]  Logical-minded
+[1:59:53.740 --> 1:59:56.700]  Engineering mindset out there, you know, and I think you know
+[1:59:56.860 --> 2:00:00.780]  Sort of people who might be drawn more towards the Google side of things than the Apple side of things
+[2:00:00.780 --> 2:00:04.300]  Who thinks that's that's crazy? Why in the world would you?
+[2:00:04.620 --> 2:00:07.500]  Why would that matter? You know, it's function first, right?
+[2:00:07.900 --> 2:00:11.100]  And I'm telling you that for me and I think for the mass market
+[2:00:11.100 --> 2:00:14.460]  You've got to start with something where you just hold it up and before you turn it on
+[2:00:15.020 --> 2:00:17.020]  People say oh, I want that yep
+[2:00:17.580 --> 2:00:19.100]  You know, I hate to say it
+[2:00:19.100 --> 2:00:20.380]  I think the iPhone was like that
+[2:00:20.380 --> 2:00:24.940]  And I think the most amazing thing about the iPhone was what the software did and how the screen worked
+[2:00:25.340 --> 2:00:26.380]  But I think you know
+[2:00:26.380 --> 2:00:31.100]  It could have just held that up and not even turned the screen on and said here's the iPhone and people would have been like
+[2:00:31.100 --> 2:00:32.140]  Oh, where do I get in line?
+[2:00:32.140 --> 2:00:34.380]  So what's interesting is this takes it full circle, right?
+[2:00:34.460 --> 2:00:39.180]  Because we just talked with the beginning where the hardware actually wasn't Apple's most important thing
+[2:00:39.180 --> 2:00:42.780]  It was the software but in a lot of ways for a new category
+[2:00:43.100 --> 2:00:47.260]  It's it's a hardware that gets you in the door. Yeah, and then you hook people and now
+[2:00:47.900 --> 2:00:50.860]  And now there's there's stuck on the software and they're not going anywhere
+[2:00:51.340 --> 2:00:54.140]  Right. Yeah, it's you know, it's never never you know
+[2:00:54.140 --> 2:00:58.300]  There's there's certain areas where the software is more important and certain areas where the hardware is more important
+[2:00:58.300 --> 2:01:01.660]  But it never never you you're always in trouble if you start saying
+[2:01:02.060 --> 2:01:07.100]  That Apple is either a hardware company that does software well or a software company that does hardware well
+[2:01:07.580 --> 2:01:11.900]  It's it's you got to see it as a virtuous cycle that they're you know
+[2:01:12.140 --> 2:01:17.340]  Neither is more important than the other they just there's certain aspects of the product cycle where one is more important than the other
+[2:01:18.540 --> 2:01:21.100]  All right, let's call that a show Ben Thompson
+[2:01:21.100 --> 2:01:26.380]  Thank you. Where can people find more? People who want more Ben Thompson can go to let's say there's
+[2:01:26.860 --> 2:01:29.020]  Stretechary Stretechary STR a
+[2:01:29.820 --> 2:01:33.860]  T E C H E R Y dot com. Yeah, just Google Ben Thompson blog
+[2:01:34.220 --> 2:01:40.100]  It would Ben Thompson I still fit I should open first people always give me a hard time because my website's like official name is
+[2:01:40.540 --> 2:01:45.740]  Stretechary by Ben Thompson both the name like Ben Thompson you have to like yeah, I don't blame you make sure you well
+[2:01:45.740 --> 2:01:47.740]  I don't blame you one bit
+[2:01:47.740 --> 2:01:54.100]  There's the exponent podcast. Yeah, I've been listening to very good. That's an exponent dot FM
+[2:01:54.100 --> 2:01:58.380]  I correct them. Yep. I just did that by memory. Yeah. No, I like I think I
+[2:01:58.940 --> 2:02:01.860]  Don't know if Mark was started. That's what I've seen where I got a from was the whole
+[2:02:01.860 --> 2:02:06.820]  Yeah, I'm for podcasts. Yeah. Oh, I think it's great. Yeah. Yeah. It gets totally memorable
+[2:02:06.820 --> 2:02:09.700]  It's easy to get names too because it costs like 80 bucks a year, right?
+[2:02:09.700 --> 2:02:12.220]  Which is high enough that people aren't gonna squad on it
+[2:02:12.220 --> 2:02:19.260]  Right, but not like crazy. So yeah, it's funny you get to be an adult and you have 80 bucks a year and
+[2:02:19.420 --> 2:02:24.900]  It's actually a good thing whereas I remember when I started registering domain names and it was like what do you mean?
+[2:02:24.900 --> 2:02:28.900]  You want $15 a year. I just registered one for eight dollars a year. It was boy though
+[2:02:28.900 --> 2:02:32.260]  I I have my domain registered at at a company called Gandhi
+[2:02:32.900 --> 2:02:41.340]  Yeah, and and they tell you like how much you've spent on domains. Oh, that's terrible. Why would you think I know it's it's it's it's
+[2:02:41.340 --> 2:02:46.660]  It's pretty because now it's been years, right? I've been carrying domains for like 10 15 years at this point
+[2:02:46.980 --> 2:02:51.260]  That's up. Oh my god. Yeah, that's like when Mike Monterra was on this show
+[2:02:51.260 --> 2:02:52.940]  It's like you never tell an addict how much they
+[2:02:54.140 --> 2:03:01.100]  Right, like you get a bar tab, but then they don't put like a thing at the bottom of your bar tab that tells you like here's what you've spent year-to-date
+[2:03:02.540 --> 2:03:08.380]  Right, nobody would do that like your peer distributor just not give you a year-to-date, you know
+[2:03:08.380 --> 2:03:15.780]  Tab it'd be crazy. Oh, anyway last but not least on Twitter excellent Twitter account. You are
+[2:03:16.780 --> 2:03:17.780]  at
+[2:03:17.780 --> 2:03:19.980]  Monk m o n k
+[2:03:19.980 --> 2:03:23.500]  Bent be and T as in Ben Thompson. That's me
+[2:03:24.340 --> 2:03:27.420]  So thank you very much. Great show. This was absolutely great
+[2:03:27.420 --> 2:03:32.340]  I think it was worth it just for thinking of Android where as as Windows mobile 2.0
+[2:03:32.340 --> 2:03:39.660]  Alone because to me that's it's just to put the finger right on the middle of the button of what I see as being the problem with it
+[2:03:39.660 --> 2:04:06.660]  Anyway, thank you, Ben. Good to be here. I'm hitting stop

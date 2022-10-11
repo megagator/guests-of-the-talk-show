@@ -1,0 +1,1481 @@
+[00:00.000 --> 00:06.640]  Here we are, we're recording on Friday, June 5th, so three days before WWDC
+[00:06.640 --> 00:14.800]  keynote, and my guest is Mark German from 95 Mac fame. Mark, I think what's
+[00:14.800 --> 00:19.480]  been about a year since you've been on the show? Yeah, I think last time was a
+[00:19.480 --> 00:24.360]  little bit after the previous WWDC. Well, I couldn't think of anybody better to
+[00:24.360 --> 00:31.720]  have for the WWDC parade load show as I would call it, then you. Appreciate it.
+[00:31.720 --> 00:35.600]  You've had a remarkable run this year in my opinion. Well, we'll see how it comes
+[00:35.600 --> 00:41.600]  on Monday, but it looks like you have scored an enormous number of scoops.
+[00:41.600 --> 00:46.000]  Thanks, I appreciate it. People who don't want Christmas spoils should probably
+[00:46.000 --> 00:53.680]  just stop listening now. Yeah, I agree with that one. Were you the type of kid who
+[00:53.680 --> 01:01.200]  hunted through the house for Christmas presents? I'm Jewish, so, okay. Well, Hanukkah,
+[01:01.200 --> 01:08.200]  no. Right, but we have Passover, and the tradition is to hide the mozzah somewhere in
+[01:08.200 --> 01:12.920]  the house, and I would always be the one to find it when I was growing up, so yeah, pretty
+[01:12.920 --> 01:17.560]  much. Yeah, but are you supposed to hide? You're supposed to find that. Right, what
+[01:17.560 --> 01:23.640]  about like birthday presents? Oh, yeah, yeah, maybe I go digging sometimes for those
+[01:23.640 --> 01:26.920]  because I don't really remember, but I get your point.
+[01:26.920 --> 01:33.040]  I remember twice doing it, and the thing is, is I found it the same place both times.
+[01:33.040 --> 01:41.080]  One time I found a brand new dirt bike, a bicycle in the basement. There's this like,
+[01:41.080 --> 01:46.400]  like in the back of my parents' basement, there's like a little like extra room behind the
+[01:46.400 --> 01:52.120]  door, and I wasn't even looking for presents. I just, I don't know what I was just bored
+[01:52.120 --> 01:55.600]  and like looking around the basement, and I went in there and there was this awesome brand
+[01:55.600 --> 02:03.880]  new shiny chrome dirt bike with red trim and red tires, and I was so naive, and this was,
+[02:03.880 --> 02:09.240]  I don't know, like a couple of weeks before my birthday, and I'm so naive. I didn't think
+[02:09.240 --> 02:14.120]  Holy shit, they got me a dirt bike for my birthday. I thought, why is there a dirt bike
+[02:14.120 --> 02:15.880]  in my parents' basement?
+[02:15.880 --> 02:23.640]  How old are you at the time? I was probably, I'm going to guess around like 10 or 11.
+[02:23.640 --> 02:28.720]  And then, and then I knew though, that's the room to look in, and then for that Christmas
+[02:28.720 --> 02:32.480]  I went in there and looked around, and I saw that I was getting the Millennium Falcon,
+[02:32.480 --> 02:39.680]  the Big Ass Kenner Millennium Falcon toy. And then, and this is true, I honestly thought,
+[02:39.680 --> 02:42.440]  you know what, I'm going to stop looking for Christmas presents, because it's now I
+[02:42.440 --> 02:50.720]  feel terrible. Yeah, I know what you mean. It's a little different with the Apple stuff.
+[02:50.720 --> 02:55.000]  I mean, there's a lot of people who, you know, all these stories are coming through, they're
+[02:55.000 --> 02:59.640]  like, why are you publishing this? This is a lot of information you're ruining the keynote.
+[02:59.640 --> 03:04.720]  I don't look at it that way at all. There's movie spoilers, you know, people hunting for
+[03:04.720 --> 03:09.320]  their birthday gifts, you don't have to read the stuff, but just doing my job as a reporter.
+[03:09.320 --> 03:14.960]  I think what people are a little angry about is that you're so accurate. Yeah, yeah, maybe
+[03:14.960 --> 03:20.200]  a little bit. We'll see. I have said, I was on, uh, Jostopolsky's
+[03:20.200 --> 03:25.960]  tomorrow, tomorrow podcast, uh, earlier this week, and then last week with Renee Ritchie
+[03:25.960 --> 03:32.160]  here on my show. But both times you came up, uh, just in the, I don't see how you can't come
+[03:32.160 --> 03:37.640]  up if you're going to start saying, what do you expect for WWDC? Um, but I mean this
+[03:37.640 --> 03:43.760]  sincerely, I, I, I've been reading, you know, Apple rumor websites ever since Apple rumor
+[03:43.760 --> 03:47.480]  websites started, uh, and I'm not even saying nine to five back is more than a rumor
+[03:47.480 --> 03:55.200]  website, but the type of sites that publish, you know, ostensibly, hopefully informed
+[03:55.200 --> 04:01.400]  well sourced, you know, information about, uh, upcoming Apple stuff that is not, you know,
+[04:01.400 --> 04:05.480]  not intended to be public information. I've been following it since, since they existed,
+[04:05.480 --> 04:09.800]  so it's at least what like 20 years, you know, the mid 90s when the web first came up.
+[04:09.800 --> 04:16.280]  Um, and I remember in the early days, nobody was accurate. They were, I, every site that
+[04:16.280 --> 04:21.640]  existed at that time that was like focused on rumors. I think there was like, um, Mac OS
+[04:21.640 --> 04:26.960]  rumors. I, I always used to get a confused with, with, uh, now the long-standing website
+[04:26.960 --> 04:32.640]  Mac rumors. Right. Um, but there was like Mac OS rumors and there were a couple more,
+[04:32.640 --> 04:38.760]  and their track records were atrocious to see. And it's, you know, it's, I didn't have
+[04:38.760 --> 04:43.760]  the name claim chowder yet from, from my good friend, uh, friends at panic that cable
+[04:43.760 --> 04:48.600]  saucer and Stephen Frank, but I've always been obsessed with the notion behind it, which
+[04:48.600 --> 04:54.680]  is why does nobody keep track of this crap? And, and just remember that these, this,
+[04:54.680 --> 04:58.880]  everybody's all excited about this site, you know, that is reporting something something
+[04:58.880 --> 05:03.920]  about, you know, at the time, you know, like Mac OS 8.1 or something like that. When these
+[05:03.920 --> 05:07.520]  were the same clowns who a year ago said this, that and the other thing, none of which
+[05:07.520 --> 05:11.440]  panned out. Right. Right. And in that time, there have been others who have had better
+[05:11.440 --> 05:18.880]  records. Um, I've dabbled my toes in it in my own, you know, coy way, but in my opinion,
+[05:18.880 --> 05:23.320]  nobody has had a run like you've had in the last two years with in terms of accuracy.
+[05:23.320 --> 05:28.720]  Yeah. I appreciate that. So, so they, I wanted to ask you about your run last year before
+[05:28.720 --> 05:34.840]  the Apple Watch came out. You had some coy line about, oh, something next month in September.
+[05:34.840 --> 05:39.720]  And everyone was expecting the watch to come out in October of last fall. Did you make
+[05:39.720 --> 05:44.600]  a mistake there and you happen to get it right? Or was that like a true like, coy, I know
+[05:44.600 --> 05:46.720]  it's coming out in September type of thing?
+[05:46.720 --> 05:58.680]  That's an excellent question mark. Uh, we want the truth here. I, I, I didn't know
+[05:58.680 --> 06:04.120]  no. And you know what? Here's the thing. Here's the reason that I don't even, I, I do
+[06:04.120 --> 06:12.000]  less and less of that now than ever before is I found that it makes me, um, unhappy and
+[06:12.000 --> 06:19.800]  life unsettled because these things can change. But at the time that I wrote that, I happened
+[06:19.800 --> 06:26.040]  to know that the watch was planned for September, but not, it was probably sometime in August
+[06:26.040 --> 06:30.560]  when I wrote that. And I do remember that it was sort of a, you know, got picked up by
+[06:30.560 --> 06:40.760]  tech meme and all this stuff. Um, I did know that that was the plan. Um, and I, you know,
+[06:40.760 --> 06:44.160]  but it could change, you know, definitely I could have been wrong, which is why I didn't
+[06:44.160 --> 06:48.800]  want to put it in, in more concrete terms. What I knew was I knew that they had the bigger
+[06:48.800 --> 06:57.120]  venue book for September. And, um, um, I just vague, you know, and just not first, it was
+[06:57.120 --> 07:01.640]  very, very distant, but just, you know, I put it all together and it was very clear that
+[07:01.640 --> 07:12.200]  it was September, not October. I think Patzkowski had it as, uh, October. Well, yeah,
+[07:12.200 --> 07:16.960]  but when he said October, that was like six months before the fall. Right. Between
+[07:16.960 --> 07:21.040]  two months, like you said, things can change. So right. Well, you know, it's what he's
+[07:21.040 --> 07:28.760]  talking about for sure. Oh, absolutely. Yeah, he's, you know, rock solid. Um, so where do
+[07:28.760 --> 07:32.960]  we start? I mean, there's actually a lot of stuff that has come out today. I mean, this
+[07:32.960 --> 07:39.320]  is always the case before the, the keynote. So there's two of the things that are, that
+[07:39.320 --> 07:44.560]  are today that I saw. I don't know if you saw these. So business week, or Bloomberg
+[07:44.560 --> 07:50.040]  business, I don't know what they're calling it this week. Um, Lucas Shaw and Tim Higgins
+[07:50.040 --> 07:56.360]  have a report that Apple, it, as of today, Friday, June 5th is still, uh, pushing to complete
+[07:56.360 --> 08:02.880]  the music deals before Monday that they don't have all of the music labels on board for
+[08:02.880 --> 08:08.800]  the, that I don't even see how it's, it's not even a secret anymore that they're going
+[08:08.800 --> 08:15.000]  to go out with the updated streaming service. Right. Um, yeah, they've always been a sort
+[08:15.000 --> 08:19.560]  of 11th hour with those details. I know you love that word, even with like the book deals
+[08:19.560 --> 08:24.880]  back on the first iPad and the new Stan stuff over the last few years. So I think this
+[08:24.880 --> 08:29.080]  is typical Apple every year or whenever they do a big media launch. We see stories that
+[08:29.080 --> 08:33.480]  say, Hey, you know, Apple's still working on those deals, faxing over some paperwork.
+[08:33.480 --> 08:39.320]  So this is not terribly surprising. Meanwhile, Eddie Q is, uh, court side at the warriors
+[08:39.320 --> 08:44.720]  game. Yeah. So who are you rooting for? Oh, I, you know what, I used to be, I used to
+[08:44.720 --> 08:51.120]  be a huge basketball fan. And, uh, I kind of fell out with the NBA and I've kind of been
+[08:51.120 --> 08:54.880]  getting back into it, especially this year. I felt like the playoffs this year have been
+[08:54.880 --> 08:59.000]  terribly exciting. Oh, yeah. Absolutely. So I'm going with the warriors. I, I like the
+[08:59.000 --> 09:05.200]  way they play. Uh, but I have to say, I like, I do like the comeback story with, uh,
+[09:05.200 --> 09:10.400]  with James going back to Cleveland and making them an instant contender. I think it's, I
+[09:10.400 --> 09:15.360]  think it's two good teams. And I like the way both teams play. Uh, I happened to really,
+[09:15.360 --> 09:20.720]  really like the offense that, that the warriors play though. I really like that penetrate
+[09:20.720 --> 09:26.520]  and, and dish back out style of, of play. Right. I mean, they're both fantastic teams.
+[09:26.520 --> 09:30.440]  I, I agree with you on the comeback story with LeBron, basically carrying the team through
+[09:30.440 --> 09:35.000]  the East himself. But I'm honestly not a fan of the whole Stephen Curry playing tops and
+[09:35.000 --> 09:39.840]  play on the warriors. It's too flashy when he takes that 25 foot three pointer and then
+[09:39.840 --> 09:46.320]  turns around before it's going in the basket. Like, that's, it's pretty pompous. I'd say.
+[09:46.320 --> 09:50.800]  I don't know. I like it. There's something about that that I, it feels to me. I feel like
+[09:50.800 --> 09:54.840]  if I had actually been a good player, the player that I could have, you know, would have dreamed
+[09:54.840 --> 09:59.240]  of being would have been like Curry. Yeah. You could have been in the NBA instead of writing
+[09:59.240 --> 10:04.400]  very farable. Yeah. Sort of a Reggie Miller style. When you say, you know, yeah, yeah,
+[10:04.400 --> 10:10.680]  yeah, I bet Reggie Miller similar, similar build, you know, dead, dead shooter from, you
+[10:10.680 --> 10:17.400]  know, incredible distance. Anywhere. That's crazy. Um, but anyway, there's a great picture
+[10:17.400 --> 10:25.040]  that's been circulating in the AP today of Eddie Cuse, sort of cheering, cheering LeBron
+[10:25.040 --> 10:29.160]  on from court side. Yeah. This is why the deals aren't done yet.
+[10:29.160 --> 10:36.000]  What a year. Eddie Q has had as a basketball fan. He's a Duke fan and a warrior season
+[10:36.000 --> 10:42.760]  ticket holder. So his college team already won the college championship. And, and his
+[10:42.760 --> 10:48.760]  pro team is one game up in the finals. Yeah. Yeah. Well, we'll see how that works out
+[10:48.760 --> 10:53.200]  over the next couple of weeks. I still think LeBron has to come back in him. I'll tell
+[10:53.200 --> 10:57.000]  you that's the thing about the NBA finals is it's where, you know, the team with the
+[10:57.000 --> 11:02.040]  greatest with it's, you know, it sounds stupid, but it's the one sport where I think it's
+[11:02.040 --> 11:07.560]  true where when it comes to the finals, the team that if there's two teams with like a
+[11:07.560 --> 11:11.000]  Hall of Fame type player, and I wouldn't even say that Curry's a Hall of Fame type player
+[11:11.000 --> 11:17.080]  it's too early. But, right. You know, if he continues where he is, he will be. But with
+[11:17.080 --> 11:24.080]  the greatest of the greater of the two All-Star stars usually wins regardless of the other peripheral
+[11:24.080 --> 11:29.360]  players on the team. Yeah. I had a group of that. Right. I mean, like, you know, the Jordan
+[11:29.360 --> 11:35.120]  teams were the perfect example. I mean, Pippen was great. And what was what's his name?
+[11:35.120 --> 11:40.760]  The crazy fellow Dennis Rodman. Right. Rodman was an incredible force to be reckoned with.
+[11:40.760 --> 11:45.720]  But the truth is, you know, Jordan, when it came down to it, could carry the team on his
+[11:45.720 --> 11:52.840]  back. Yeah. Same thing with Kobe. A few years. Yes. Oh, absolutely. Yeah. Like the Kobe
+[11:52.840 --> 11:58.320]  teams without Shaq. Right. I love Kobe. Right. Huge Kobe fan. But no, but he had that
+[11:58.320 --> 12:02.480]  ability. There's that's the weird thing. And you know, maybe the quarterback and football
+[12:02.480 --> 12:09.840]  is the closest you can get to that. But the idea of keep it within a handful of points
+[12:09.840 --> 12:15.880]  to three minutes to play. And then let, let him take over whoever, you know, that may
+[12:15.880 --> 12:20.840]  be. Yeah. And it's game over. Right. Yeah. So I don't know. Do you think Eddie's going
+[12:20.840 --> 12:26.840]  to go to the Sunday night game? I can't believe that. I good question. I'm going to watch
+[12:26.840 --> 12:31.480]  out for that. That's the thing to watch. Because, you know, my understanding and Apple,
+[12:31.480 --> 12:35.880]  you know, one of the things that they've always been pretty secretive about, if not totally
+[12:35.880 --> 12:42.440]  secret about is there, um, the process that they go through to rehearse keynotes. You
+[12:42.440 --> 12:45.760]  know, they just don't talk about it. You know, if he goes through the weekend, though,
+[12:45.760 --> 12:50.040]  they're there right now. I'll be there this weekend. Definitely goes through the weekend.
+[12:50.040 --> 12:56.440]  But I've heard stories that there have been times where it goes almost surprisingly late
+[12:56.440 --> 13:03.480]  Sunday night, given that, you know, you know, that it's going to be on stage. And they
+[13:03.480 --> 13:09.280]  want to look fresh, you know, 10 o'clock Monday morning. Right. Right. I don't know. We'll
+[13:09.280 --> 13:14.960]  see, uh, Eddie shows up in his warriors jersey or not. You know, well, and I expect that
+[13:14.960 --> 13:21.400]  Eddie would have a major role in it because the way that Apple does keynotes is whoever
+[13:21.400 --> 13:26.520]  is, I don't know if it's quite the, you know, that internal lingo of DRI, but whoever the
+[13:26.520 --> 13:32.520]  executive is who's in charge of whatever it is that's being keynoted is the one who
+[13:32.520 --> 13:37.520]  presents it. And if, you know, absolutely, it seems like there might be a big chunk of the
+[13:37.520 --> 13:43.880]  keynote that's going to be an eddy cues domain. Like what with, uh, Eddie Kidder's Apple
+[13:43.880 --> 13:51.200]  music and, uh, well, it's about it. Yeah. I guess if, if it's true that Apple TV isn't, uh,
+[13:51.200 --> 13:56.400]  making a cut. Yeah. I think that those were, I mean, there's three reports on it from three
+[13:56.400 --> 14:02.400]  reputable sites and just in the days before the keynote. So I think that that's probably
+[14:02.400 --> 14:05.880]  right that they cut it out. I didn't see three. I stopped right next channel at the New York
+[14:05.880 --> 14:13.200]  Times said no new Apple TV hardware. What else did you see? Uh, patchkowski at Buzzfeed
+[14:13.200 --> 14:18.000]  operated that and then reco it as well. All of the matter of minutes. Huh. I did not see
+[14:18.000 --> 14:23.840]  that. So that, that's really telling them. I'm surprised you didn't have any take on
+[14:23.840 --> 14:32.560]  Chen's report saying that they cut it out in mid May. Uh, what do you think about? I,
+[14:32.560 --> 14:41.360]  that sounds, it's unusual. I think, but it sounds about right given that what I had heard,
+[14:41.360 --> 14:46.960]  last I'd heard is it was set for WWDC, but I haven't heard anything. Likewise. I even spoke
+[14:46.960 --> 14:52.640]  to someone very reliable after those reports came out who said that the SDKs and all that they're
+[14:52.640 --> 15:00.480]  preparing for Monday still has or as of that day still had all the TV, uh, kit stuff intertwined
+[15:00.480 --> 15:05.200]  in there. So when developers pull the thing apart, I wouldn't be surprised to see some references
+[15:05.200 --> 15:10.080]  to that on Monday afternoon or whatever. People get their hands on it. Hmm. Explain that to me,
+[15:10.080 --> 15:14.800]  though. What do you mean by that? So besides the Apple TV hardware, they're going to have,
+[15:14.800 --> 15:20.560]  or they were planning an Apple TV SDK. So developers could write, you know, apps for it,
+[15:20.560 --> 15:26.960]  the control from an iPhone or that new controller. But now that, you know, they're pushing back
+[15:26.960 --> 15:30.320]  the hardware, it seems likely that they're probably going to push back the SDK as well.
+[15:31.040 --> 15:37.600]  So what I heard was in terms of the spin like a late decision that the SDK still has the tools
+[15:37.600 --> 15:42.400]  for developing the Apple TV apps in it, the SDK for iOS 9 that they're going to do.
+[15:42.400 --> 15:48.160]  Oh, I see what you mean. iOS 9. I got you guys. Right. So now I assume or it could be
+[15:48.160 --> 15:53.040]  assumed that they're scrambling to remove that functionality from the build or releasing an older
+[15:53.040 --> 15:58.880]  build without it. So or just they just say screw it and let let everybody rip it apart Monday afternoon
+[15:58.880 --> 16:05.200]  and so be it. Yeah, we'll see because they know. I mean, there's no, you know, when when everyone's
+[16:05.200 --> 16:11.920]  on something is left behind in an SDK and it seems pretty clear to mistake, something like this
+[16:11.920 --> 16:14.880]  would not be a mistake, something like this would be, what are we going to do?
+[16:15.440 --> 16:19.920]  Right. Back in the day when I first got my start writing, they would leave stuff back all the time.
+[16:19.920 --> 16:26.880]  I remember with the iPad too, every spec, wallpapers, everything was right and left in the SDK,
+[16:26.880 --> 16:31.680]  but they've gotten better over the years. Like the last big leak, I remember was the fingerprint
+[16:31.680 --> 16:38.080]  sensor in the iOS 8 SDK, but even that was pretty hidden. Yeah, and even everyone's around
+[16:38.080 --> 16:41.920]  something like icons or something like that. Right. Right. Yeah, I can't show something.
+[16:44.720 --> 16:52.000]  So why I'm I didn't read the patchcat. I don't know how I missed it, but what's the,
+[16:52.000 --> 16:58.880]  what did patchkowski say about why there's no Apple TV hardware? I don't remember what exactly
+[16:58.880 --> 17:04.400]  what he said, but something in the lines of it, not being ready for prime time or something like that.
+[17:04.400 --> 17:10.880]  Yeah. I think that there were some people who were speculating that it was because the TV service,
+[17:11.520 --> 17:16.240]  you know, with this idea that they're going to have like, you pay $20 a month, or I don't
+[17:16.240 --> 17:23.120]  I made the number up, but you pay X dollars a month to Apple, and then you get a package of 20 or 30
+[17:23.120 --> 17:28.960]  cable channels content. Yeah, I don't think that's the case at all. I think the plan along
+[17:28.960 --> 17:36.320]  was to announce the hardware apps SDK in June, release it soon after the keynote, and then introduce
+[17:36.320 --> 17:41.040]  the TV service and say, Hey, you're going to get the hardware now, and then the service will come
+[17:41.040 --> 17:45.760]  with a software update in the fall. And think that was always the plan. And in the meantime,
+[17:45.760 --> 17:51.440]  you can still get all of the iTunes content you already can. You can buy episodes by the episode,
+[17:51.440 --> 17:56.800]  you can rent and buy movies, you know, all the content you already know and love on Apple TV is
+[17:56.800 --> 18:01.440]  already there. Exactly. And for their marketing scheme, that would be, that would be amazing for
+[18:01.440 --> 18:06.240]  them, totally Apple to have it come out and roll out and then get all the exposure once again
+[18:06.240 --> 18:11.040]  when the new service is ready in the fall. Yeah. So I don't think the two are connected in terms of
+[18:11.920 --> 18:18.880]  the WWDC announcement being pushed back. Yeah. I suspect the same thing I have to say,
+[18:18.880 --> 18:24.240]  and I'm not being coyer. I really do know nothing. I'm as surprised by this as anybody because I
+[18:24.240 --> 18:29.680]  had heard just, you know, little things in it. You know, for months, I had heard that Apple TV hardware
+[18:29.680 --> 18:39.120]  was was on pace for WWDC along with the SDK, etc. I think though, just my spidey sense about the
+[18:39.120 --> 18:44.720]  company is that if they're not announcing it on Monday, that means it's not ready. Right. Right.
+[18:44.720 --> 18:49.680]  I got to agree because I think that they probably wanted to ship it just a few weeks or a few
+[18:49.680 --> 18:54.880]  months after the WWDC keynote. And they're probably not able to hit that anymore. So they want
+[18:54.880 --> 18:58.720]  to just push back the announcement and maybe they feel like if they wait till the fall to announce
+[18:58.720 --> 19:03.520]  it, they can release the hardware like a week and a half later to do with iPhones and have plenty
+[19:03.520 --> 19:10.320]  of quantity ready to go. Yeah. Yeah. And it might be the sort of thing where, you know, just loosely
+[19:10.320 --> 19:18.080]  speaking, I have a sense that, um, I mean, iPhone is still a huge deal for the company. It's the
+[19:18.080 --> 19:24.560]  biggest deal financially. But introducing new iPhones is harder and harder to make a big deal out of
+[19:24.560 --> 19:30.320]  because it's a well-known product. And so just like my example, like I've said about last year.
+[19:30.320 --> 19:36.640]  So again, the two most popular iPhones that I've ever introduced, you know, best selling
+[19:36.640 --> 19:42.480]  have propelled the company to new heights. But there wasn't that much to say about them. They
+[19:42.480 --> 19:47.360]  they were self-explanatory. It's the iPhone you know and love, except now it's thinner and it's
+[19:47.360 --> 19:53.120]  bigger or really bigger. Yeah. And it has an uncomfortable camera nubbin.
+[19:54.960 --> 20:02.400]  Yeah. If they hit in the marketing shot. Right. So, so that's why I think that they wanted to
+[20:02.400 --> 20:09.120]  pair it with the watch introduction. And the fact that they could throw in Apple Pay in between them
+[20:09.120 --> 20:13.520]  as an introduction is icing on the cake because then that way they can hold their biggest event of
+[20:13.520 --> 20:18.960]  the year or at least the biggest standalone event if you don't count WWEDC. Right. And have big
+[20:18.960 --> 20:24.560]  things to announce other than just the iPhone because it's really, really hard to, I think it was,
+[20:24.560 --> 20:28.240]  you know, however long Shiller was up there talking about the iPhones. I think it would have really
+[20:28.240 --> 20:32.640]  would have been hard for him to go much longer just because there's not that much more to say.
+[20:33.360 --> 20:37.120]  Right. Um, I agree there. And so this fall probably like you said, it would probably they'll probably
+[20:37.120 --> 20:43.120]  double up on the iPhone and TV. Yeah, in September and maybe have a big iPad event in October with
+[20:43.120 --> 20:47.600]  the new air mini and the bigger one, the pro, if that's ready. Yeah. And whatever other, you know,
+[20:47.600 --> 20:52.960]  others, you know, but like a smaller event, maybe on campus again. But I expect big event, September,
+[20:52.960 --> 20:58.800]  I really are skipping WWDC and talking about September, but that's what I would think. But and I think,
+[20:58.800 --> 21:03.040]  you know, if they're thinking, hey, the software's not ready. Why release it now? The only reason
+[21:03.040 --> 21:08.720]  to do it would be so that they could have whatever they're going to call it, TV kit, whatever,
+[21:08.720 --> 21:15.600]  you know, it's called TV kit sessions at WWDC. But if they introduce a new, a new developer API
+[21:15.600 --> 21:22.240]  outside WWDC in the fall, so be it, you know, right. Yeah. I mean, they've done that before.
+[21:22.240 --> 21:27.840]  I mean, they did that with the original iPad, right? They introduced the iPad and said, you've got,
+[21:27.840 --> 21:32.880]  you know, four weeks of update your apps to run on it. Go. Right. And I want to be surprised at some
+[21:32.880 --> 21:38.560]  big major out partners. Maybe get the SDK seated to them. And maybe July, August, late summer
+[21:38.560 --> 21:43.200]  timeframe ahead of time. Right. So all right. So I do think I think, you know, the writings on the wall
+[21:43.200 --> 21:50.080]  that TV is out. Right. Right. Right. Let me take a break and thank the first sponsor this,
+[21:50.080 --> 21:56.080]  this episode. I haven't been here as a sponsor for a while, but they used to be and I'm delighted
+[21:56.080 --> 22:03.760]  to have them back. It's our good friends at harvest harvest is a beautiful, well-designed business
+[22:03.760 --> 22:11.280]  tool for tracking time spent on client projects started. I believe I could be wrong, but my
+[22:11.280 --> 22:16.240]  recollection is that harvest started specifically as a product as a product for designers tracking
+[22:16.240 --> 22:20.560]  time. And then they've expanded it to be sort of a general purpose time tracking tool for anybody
+[22:20.560 --> 22:26.560]  with a job where you want to track time. But to me, the best part is that because they started with
+[22:26.560 --> 22:32.400]  these designer focused roots, it really is beautiful. It is a really, really good looking app and system.
+[22:33.440 --> 22:38.880]  So it's, and it's really, really focused on, on being as simple as possible so that it is,
+[22:38.880 --> 22:43.680]  is easy. And you don't even have to think about it to just get started. You just start a timer
+[22:43.680 --> 22:48.880]  from anywhere from your web browser from a desktop app, your mobile device. They've got apps for
+[22:48.880 --> 22:53.840]  everything. And you just start a timer, say what you're working on, and then when you're done,
+[22:53.840 --> 22:59.440]  you hit stop and all of your time is accounted for. So no matter where you find yourself working,
+[22:59.440 --> 23:06.160]  you know, your desktop or you've got a big 5K cinema iMac or in a coffee shop where you're on
+[23:06.160 --> 23:11.760]  a different device, you can still use the same system to track all of your time and it's really,
+[23:11.760 --> 23:16.800]  really focused on just making it easy. Then after you've done all the work, your tracked hours
+[23:16.800 --> 23:23.040]  appear in visual time reports designed to keep your projects on time and within budget,
+[23:23.040 --> 23:28.640]  and you can account for all your time, your projects are all separated the way you want them to be.
+[23:30.080 --> 23:35.200]  And then it's easy to use those reports to see which of your clients and projects are making
+[23:35.200 --> 23:40.240]  you the most money and which are the ones that are costing you. So it really helps you to be
+[23:40.240 --> 23:45.360]  a more efficient, you know, consultant, whatever you want to call it, whatever you're doing that
+[23:45.360 --> 23:51.680]  you're tracking your time with. You can also even create invoices with your billable hours right
+[23:51.680 --> 23:57.680]  from a harvest. So you can track your time, report your time, and then even invoice it all from
+[23:57.680 --> 24:03.760]  the same system. So here's where you go to find out more. Go to getharvest.com. Getharvest.com
+[24:03.760 --> 24:13.040]  and use this coupon code, the talk show, all one word, and you'll get a 30-day free trial and you'll
+[24:13.040 --> 24:19.600]  save 50% on your first month. So use the code, the talk show, 30-day free trial, 50% off your first month.
+[24:21.440 --> 24:22.800]  All right, well, so we got next week.
+[24:24.720 --> 24:30.800]  Obviously stuff, here's the stuff that's no surprise, just in broad strokes, new version of iOS,
+[24:30.800 --> 24:35.040]  going to be called iOS 9 and the new version of OS 10, 10.11.
+[24:35.920 --> 24:39.760]  Right. So what's the OS 10 name? You got last year. You'll save it. You know, what's your take
+[24:39.760 --> 24:45.440]  this year? You know what? So I mean, I mean, in the spirit of openness, I will tell you,
+[24:46.880 --> 24:52.640]  Yosemite was a complete guess on my part. Honest to God, nobody's nobody from Apple,
+[24:52.640 --> 24:56.800]  nobody ever said, I, you know, hey, it's called Yosemite. It did make a lot of sense.
+[24:56.800 --> 25:03.440]  Well, my thought was Mavericks gave away that they're the type of place they're looking for,
+[25:03.440 --> 25:10.720]  like a nature, you know, big scenic type thing. I knew that it was going to be the version that
+[25:10.720 --> 25:18.720]  has the big UI overall, which at least, you know, in marketing terms means it's a big OS update.
+[25:19.360 --> 25:24.560]  Sure. Because it looks new. And so Yosemite, to me, was the, it's the big obvious one,
+[25:24.560 --> 25:29.360]  sort of like with the cat names, the way that like lion was a big one that they were waiting for.
+[25:29.360 --> 25:35.840]  Tiger was, you know, tiger and lion were the two big ones. So I just guessed Yosemite.
+[25:35.840 --> 25:41.600]  I have no idea this year because I really, I don't, I'm not even familiar with with California's,
+[25:41.600 --> 25:46.800]  you know, natural park system or or beaches. So I know guess this year.
+[25:46.800 --> 25:56.080]  Okay. Um, hmm. Do you have a guess? Maybe big sir or see L cap, that's like a part of Yosemite,
+[25:56.080 --> 25:59.520]  right? I'm not too caught up in the geography either. Yeah, I think it is.
+[26:00.160 --> 26:08.560]  Right. And so this update from what I'm hearing is not going to be a huge update functionality wise
+[26:08.560 --> 26:15.760]  or user interface wise. So maybe going with OS 10 L cap, kind of like build off that Yosemite name
+[26:15.760 --> 26:20.000]  could make sense. Oh, that's a good guess. I've heard the same thing. And it's not just,
+[26:20.000 --> 26:25.520]  I know you've reported this, but I've heard, and especially, and we should, we should definitely talk,
+[26:25.520 --> 26:30.720]  we could, we can tie this in together. But, sure, um, I think you've, I don't want to, I don't
+[26:30.720 --> 26:35.760]  want to put word jam out, but I think you've reported that in both cases with both OS's,
+[26:35.760 --> 26:44.400]  there's more of emphasis on, on, cleaning up the edge cases and the details and bug fixes
+[26:44.400 --> 26:50.800]  and refinements, you know, not quite as, as drastic maybe as snow leopard was, but that sort of
+[26:50.800 --> 26:57.120]  OS update. But I think it's definitely, from what I've heard, that's more the case with OS 10
+[26:57.120 --> 27:03.280]  than with iOS. Yep, I heard the exact same thing. So on iOS, it's kind of like meeting in the middle
+[27:03.280 --> 27:10.160]  maybe with a snow leopard and like a standard annual upgrade. So they're really focusing on making
+[27:10.160 --> 27:15.840]  sure it works well through the QA processes and performance and efficiency wise, but also adding new
+[27:15.840 --> 27:23.040]  features. But on OS 10, the only user facing new feature I've heard about is control center.
+[27:23.040 --> 27:30.000]  Hmm. Interesting. I, yeah, I don't, I actually don't know of anything. Yeah, I don't know
+[27:30.000 --> 27:34.720]  of anything. And I only know about control center because of you. And there's like a lot of little
+[27:34.720 --> 27:40.880]  things that they'll have on OS 10. Like we talked about San Francisco for the font. Yeah. I
+[27:40.880 --> 27:45.760]  have you heard that as well by the way. Yeah, I have. Okay. And I've spoken to people who've seen
+[27:45.760 --> 27:51.280]  it on iOS nine. I don't know of anybody who's seen it on OS 10. Yeah. I mean, I'm sure you can
+[27:51.280 --> 27:56.720]  speak to this too. But it's not the exact same San Francisco as on the Apple watch and kind of a
+[27:56.720 --> 28:02.320]  little bit more curved. Yeah. Maybe like the activity app that is on the iPhone right now.
+[28:02.320 --> 28:07.840]  Well, I don't know the details of exactly what changes they may, but I am absolutely positively
+[28:07.840 --> 28:15.520]  convinced that it's not the same digitized version that's on the watch, right? Because if you
+[28:15.520 --> 28:21.680]  ran that hack that came out last year that let you, I didn't, I don't think anybody, I don't
+[28:21.680 --> 28:25.520]  know. I don't have a jailbroken device. So I couldn't try it on iOS nine. But I know on OS 10,
+[28:25.520 --> 28:30.240]  there was the thing on GitHub, you download the version of the font from Apple with a developer
+[28:30.240 --> 28:35.120]  account and you run a little script. And it makes a version of the font that if you put it in
+[28:35.120 --> 28:40.560]  system library fonts, and when you reboot your Mac, it'll use that instead of the system's
+[28:40.560 --> 28:48.080]  version of Helvetica Noya. And it didn't look bad, but it didn't look right. You kind of shifted
+[28:48.080 --> 28:54.400]  off a little bit. It screwed with the menu bar. So yeah, and just just in terms of being like
+[28:54.400 --> 29:02.320]  a person who's super finicky and about typography, it just didn't have the right feel to it.
+[29:02.320 --> 29:07.120]  Like it's just a feel of it thing, not a think of it thing, not there's no real way to put it in
+[29:07.120 --> 29:12.880]  words. And I think the reason why is that the version of San Francisco that Apple crafted for the
+[29:12.880 --> 29:21.680]  watch is shockingly designed to look best at the tiny little sizes that you see it on the watch.
+[29:21.680 --> 29:29.600]  Surprising, right? Which are way smaller than what the 16 point font that you see in the menu bar
+[29:29.600 --> 29:36.720]  on the Mac. So that, you know, it's just like a lot of modern day digital fonts. It's, you know,
+[29:36.720 --> 29:40.960]  different optical sizes have different curning and different details to certain other glyphs.
+[29:40.960 --> 29:45.600]  Right. And I think you touched upon this in an earlier podcast. I think maybe it was with Dan from
+[29:45.600 --> 29:48.640]  or something. They kind of, you said, I think is, you know, I don't want to put words in your
+[29:48.640 --> 29:52.880]  email that they're maybe partially doing this because they want to own the whole experience,
+[29:52.880 --> 29:58.560]  not have to license a font from other providers. Well, they're still going to have that font.
+[29:58.560 --> 30:03.280]  So they still have to license it. There's no way they're getting rid of Helvetica. But this way
+[30:03.280 --> 30:09.600]  they have a look that can't be copied. Okay. Right. Yeah. That's what I mean. So like HTC has used
+[30:09.600 --> 30:17.680]  Helvetica Neue for years. Yep. And like their custom skin for Android, you know, and honestly,
+[30:17.680 --> 30:23.680]  it makes their, you know, like their lock screen look a lot better than the other Android devices.
+[30:23.680 --> 30:28.880]  Yeah. Absolutely. It's a good fault. But this will put like a similarity across Apple's platforms.
+[30:28.880 --> 30:34.240]  It's good marketing wise. You know, they did the whole revamp of the OS in 13 and
+[30:34.240 --> 30:39.120]  iOS seven and last year for the Mac. I think changing up the font a little bit keeps everything
+[30:39.120 --> 30:45.440]  fresh. Yeah. And I think that, you know, there's been other people who've written about it
+[30:45.440 --> 30:53.440]  in detail. But Helvetica is, it's almost hard to talk about it because it's so it's a ubiquitous
+[30:53.440 --> 31:02.240]  font, but it's not that perfectly suited as a UI font. And a user interface font has to,
+[31:02.240 --> 31:08.800]  meaning the font for things like the labels on buttons, the menus, you know, the, the chrome of the
+[31:08.800 --> 31:15.600]  iOS as opposed to the content within it. It's just not that great for it. It's not really a great
+[31:15.600 --> 31:22.160]  font for that. It's not bad. And it looks better on retina screens than Lucidagrand did.
+[31:22.800 --> 31:27.600]  Absolutely. Yeah. But San Francisco does. It's sort of like being a little bit more industrial
+[31:27.600 --> 31:32.960]  and a little bit more sturdy where it's, you wouldn't want to read long passages. I'm suspecting
+[31:32.960 --> 31:39.440]  for example, like when you open mail, you're still going to see the contents of your messages
+[31:39.440 --> 31:44.800]  in Helvetica, Noya. It's the labels and the chrome of the OS. That'll be San Francisco. I could
+[31:44.800 --> 31:50.480]  be wrong. Maybe they'll go to San Francisco for content as well. Although I'd be really
+[31:50.480 --> 31:54.320]  surprised if they did that on the Mac. It's going to be interesting to see if third party
+[31:54.320 --> 31:59.360]  developers come out with lots of updates to support San Francisco now. Like there were all sorts
+[31:59.360 --> 32:05.520]  of retina display and touch ID API updates over the years. Well, you should, it should just
+[32:05.520 --> 32:09.680]  happen automatically because what they should be doing in the user interface is not specifying
+[32:09.680 --> 32:14.640]  how about a Noya, but specifying system font. Right. Right. But not all developers do that,
+[32:14.640 --> 32:20.640]  especially the custom graphics ones. No, but I've heard, I've heard the same thing. Yeah.
+[32:21.760 --> 32:24.640]  Yeah. So tell me what you know about control center for OS 10.
+[32:24.640 --> 32:30.720]  So before Yosemite came out, they were like the internal builds or Apple employees. If you
+[32:30.720 --> 32:35.600]  swiped on the left side of your trackpad, the exact opposite for how you open notification center,
+[32:35.600 --> 32:40.720]  control center would come out and it would actually move some of the menu bar to the side.
+[32:40.720 --> 32:48.400]  So the about this Mac, Wi-Fi controls, volume controls. I think some battery indicator things
+[32:48.400 --> 32:55.360]  to access system preferences more quickly, brightness, music controls, similar to how it is on iOS,
+[32:56.080 --> 33:02.560]  Bluetooth. Maybe they'll replicate the menu bar, but not remove the menu bar. So you can access it
+[33:02.560 --> 33:07.040]  on either side or maybe they'll just won't ship it with control center and all together. But
+[33:07.040 --> 33:13.040]  it's basically what you'd think it would be. Yeah. I think that part of it is whatever,
+[33:13.040 --> 33:18.160]  whenever Apple comes up with something new, it always helps me to think. Just take a big step
+[33:18.160 --> 33:23.280]  back and just think, well, why? And one thing I could think of when I read that is
+[33:24.480 --> 33:30.800]  all these tiny little icons in the menu bar have always been to me a bit of a hack
+[33:30.800 --> 33:36.880]  user interface wise. Like the thing that makes sense in the menu bar are just the menus,
+[33:36.880 --> 33:44.320]  file, edit, view, history, bookmarks, you can see, I'm in Safari. Those little status things
+[33:44.320 --> 33:50.400]  have never really felt at home up there. And I know why they're there. It's because you want them to
+[33:50.400 --> 33:57.520]  be accessible quickly. Like here, quick, how do I turn my sound down? Okay, I'll go up there to
+[33:57.520 --> 34:03.600]  the speaker thing and try to menu down. But it's never really felt right to me. I don't know how
+[34:03.600 --> 34:08.720]  to say it semantically, grammatically, in terms of the user interface. And there was a time, I don't
+[34:08.720 --> 34:14.560]  know if you remember this, there was a time in the early days of OS 10 where I don't remember
+[34:14.560 --> 34:18.720]  the names, but there were two ways to write those menu things. And there was one that was using a
+[34:18.720 --> 34:28.960]  private API and Apple used it. And another using the public API and developers, but they wanted to do
+[34:28.960 --> 34:34.800]  the extra stuff the private API could do. So they used that one in all sorts of ugliness and suit.
+[34:34.800 --> 34:40.400]  Do you think they'll offer a way for developers to tap into control center on the Mac?
+[34:40.400 --> 34:45.520]  Yeah, I do. I think if they come out with it, they definitely would in the same way that they
+[34:45.520 --> 34:55.120]  have with today widgets. Especially on the Mac. I think they're way more likely to give developers
+[34:55.120 --> 35:01.360]  access to new things like that on the Mac than they are on iOS. Right. Because iOS control center
+[35:01.360 --> 35:06.480]  is not, it's not really touchable. No. But I think that they would, and I think the reason that they
+[35:06.480 --> 35:14.080]  would is I think going all the way back to Mac OS 10.0 way back when, you know, when you were like
+[35:14.080 --> 35:22.400]  two years old. I don't think Apple has ever liked the idea of third parties putting stuff up in
+[35:22.400 --> 35:28.400]  the menu bar, the little icon menus. Just, you know, just like it's just a little bit gross.
+[35:28.400 --> 35:32.160]  And it kind of looks terrible too, just as an eyesore when they were doing the retina transition,
+[35:32.160 --> 35:36.640]  some of those icons weren't written yet. So you'd have like a retina Apple one and then a third party
+[35:36.640 --> 35:42.240]  that's all pixelated. Right. And what's, and what's the, what is the highest profile piece of
+[35:42.240 --> 35:48.400]  hardware that Apple has released so far this year? Of course, the, uh, the Markerman MacBook.
+[35:48.400 --> 35:55.680]  Yeah, the Markerman MacBook. And guess what? The Markerman MacBook has a very small screen.
+[35:55.680 --> 36:04.560]  Yep. And those icons run up against the side of, uh, the app, you know, it's very, very easy to have
+[36:04.560 --> 36:09.600]  so many icons up there that an app with a lot of menus like Xcode or something like that that they
+[36:09.600 --> 36:14.480]  run into each other. That's a good point. I didn't even think of that. Yeah. Yeah. I wouldn't
+[36:14.480 --> 36:18.640]  be able to move it on the iPad too, because on the iPad you swipe up for it. What if they move it to
+[36:18.640 --> 36:27.760]  the side on that as well? Hmm. I don't think so. I don't think so because I think the iPad follows
+[36:27.760 --> 36:33.360]  the iPhone or a phone, you know, really needs to come up from the bottom, not from the side.
+[36:33.360 --> 36:38.640]  Sure. Sure. Like I feel like with the iPad, if the iPad lived in its own universe,
+[36:38.640 --> 36:42.080]  it wouldn't make much difference whether it was a thing from the side or a thing from the bottom,
+[36:42.080 --> 36:46.400]  but because it's like, it's really just a big iPhone, it's got to come up from the bottom.
+[36:46.400 --> 36:55.200]  Hmm. Yeah. I think the only things Apple likes up there is the status stuff, the time, the battery
+[36:56.560 --> 37:03.040]  and, you know, the spotlight and what do you call it? What's the notification center?
+[37:03.040 --> 37:08.480]  Yeah. You know, the spotlight icon being there is interesting because when they came out with
+[37:08.480 --> 37:13.920]  spotlight with Tiger up through whatever was before Yosemite and Mavericks,
+[37:13.920 --> 37:18.400]  you would have a little pop out in the top right corner, but now you're clicking this
+[37:18.400 --> 37:23.280]  magnifying glass and top right corner, but the text field pops up in the middle of the screen.
+[37:23.280 --> 37:26.960]  So that doesn't make much sense. Yeah, you're actually right now that I think about it.
+[37:26.960 --> 37:32.400]  So maybe they'll get rid of that entirely and just tell people to do the command spacebar.
+[37:32.400 --> 37:37.440]  Right. And if you're the sort of person who doesn't think about using a command line thing,
+[37:37.440 --> 37:41.520]  then spotlight's not for you anyway. Exactly. Or maybe it moves to the dock?
+[37:41.520 --> 37:47.440]  Yeah. You know, they have the icon for spotlight in the file system anyways. They always have.
+[37:47.440 --> 37:52.320]  So right. Maybe we're a quick mouse to the corner, hot shortcut or something.
+[37:53.120 --> 37:54.880]  Yeah. I don't know. That's a good point.
+[37:57.920 --> 38:01.840]  Yeah. I haven't heard anything else about OS 10. I think that
+[38:03.200 --> 38:08.720]  there probably has got to be a few things. You know, I do expect, I just think that there's got
+[38:08.720 --> 38:13.440]  to be a few things, but I do think that it's a lot more like a snow leopard style release.
+[38:13.440 --> 38:18.080]  Yeah, absolutely. I mean, I heard there's a big focus on security with this new feature called
+[38:18.080 --> 38:23.920]  rootless, which sort of blocks the file system from being as accessible as it is now.
+[38:24.560 --> 38:28.080]  The finder won't go away. People will still be able to get into the file system,
+[38:28.080 --> 38:31.360]  but like the root directories and such will be, will be hidden.
+[38:31.360 --> 38:37.920]  Yeah. That's a good, it's an interesting feature. And to my knowledge, it's entirely a
+[38:39.280 --> 38:42.160]  german scoop. And you know, everything I've ever seen about it,
+[38:44.160 --> 38:48.000]  ultimately, somewhere at the bottom of the article, it says as first reported by Mark
+[38:48.000 --> 38:52.960]  German at 9 to 5. Yeah, it might be more of an iOS thing because it was designed initially to
+[38:52.960 --> 38:58.400]  sort of break jail breaks in the future from people people being able to tap deep into the system.
+[38:58.400 --> 39:01.600]  But there's some ways to apply it to the Mac as well.
+[39:01.600 --> 39:08.880]  Yeah, I can see it. And I think it ties into, you know, obviously it's your first
+[39:08.880 --> 39:16.800]  think of it as a security feature, but I think Apple more and more sees security and privacy
+[39:16.800 --> 39:24.880]  as being intertwined. And it's it's it's the sort of doubling down on features like this
+[39:24.880 --> 39:32.240]  has as much to do with their, their stance on privacy as it does on any sort of just the general
+[39:32.240 --> 39:37.040]  principle that you want your OS to be secure. Right. And it also goes back to the big picture stuff
+[39:37.040 --> 39:43.680]  of a bigger quality stability focus, not letting people tap into the core parts of the system.
+[39:43.680 --> 39:49.440]  We'll likely keep the OS stable overall. Yeah. The privacy thing is a good point because
+[39:49.440 --> 39:55.520]  there was a little, there's been a lot of talk about a Siri API. And I know, and I'm sure you
+[39:55.520 --> 39:59.840]  heard this as well that at some point they were considering a full-fledged way for developers to
+[39:59.840 --> 40:05.840]  tap into Siri. Yes. But for what I understand, they keep holding back on that because they're
+[40:05.840 --> 40:10.720]  concerned about the privacy implication. So let's say you give a command to Siri and you're trying
+[40:10.720 --> 40:18.640]  to tap into Yelp, but what if Siri misinterprets what you said and sends your data to another app,
+[40:18.640 --> 40:24.080]  a Google app, or a Shazam, or something like that. So they're concerned that Siri might send data
+[40:24.080 --> 40:30.320]  the wrong place because it misinterprets what you said. So yeah, I can see that interesting thing.
+[40:30.320 --> 40:35.520]  Or I just off the top of my head that if they opened it up to third parties,
+[40:38.960 --> 40:45.120]  even if they made it and I suspect that they would, I suspect that I'm a Mac.
+[40:45.120 --> 40:53.520]  Well, on iOS, it would definitely, you know, everything goes through the app store. But even if they
+[40:53.520 --> 40:58.720]  did it on the Mac, which doesn't really have proper Siri at any way. But if they, if they did,
+[40:58.720 --> 41:04.160]  I would see them as doing it only for Mac app store apps because I think they would want to
+[41:04.160 --> 41:09.440]  approve the apps because they wouldn't want it used in any context where what you might be saying
+[41:09.440 --> 41:14.960]  to Siri is stuff that Apple does not want going to their servers. For whatever reason, I'm not
+[41:14.960 --> 41:21.520]  reading to that what you will, but I don't think that they want you saying, you know, they don't
+[41:21.520 --> 41:27.280]  want you, even some, I'm not even, you know, there's, you know, porno or, you know, pirating movies or
+[41:27.280 --> 41:30.560]  something like that, any sorts of stuff that they may not want to be involved with. But even
+[41:30.560 --> 41:35.840]  something like that on the surface is on the up and up, like a medical records app, they're not
+[41:35.840 --> 41:40.720]  going to want you. But on the other hand, I guess they still allow it for dictation and that stuff
+[41:40.720 --> 41:48.320]  still round trips to the server. So I don't know. Right. I don't know. All I know is that the privacy
+[41:48.320 --> 41:56.400]  thing is from everything I've heard is super, super, super top priority across the company.
+[41:56.400 --> 42:01.040]  It's legit. It's not like a marketing thing. It's what they really actually focus on.
+[42:01.680 --> 42:07.280]  You can't say that for everything they do, but this is a real, this is a real concern for them.
+[42:07.280 --> 42:14.160]  I do think they will do something not a full-fledged CR API, but that deep linking app indexing
+[42:14.160 --> 42:19.920]  feature that Google announced a couple of weeks ago, I think that's going to be an iOS 9. It's
+[42:19.920 --> 42:24.320]  under the code name, bridecrumbs, which kind of it's like leading a trail of your app to be able to
+[42:24.320 --> 42:31.760]  be indexed by Syrians spotlight. So something a little smaller scale. Yeah, I could see that. And it's
+[42:31.760 --> 42:42.320]  sure would be good if you could, you know, like if you use things, you know, and that you could say,
+[42:42.320 --> 42:52.960]  hey, Siri, tell things to add blah, blah, blah to my next up list. Right. Have that parse correctly.
+[42:52.960 --> 42:57.360]  And I know if things maybe is a bad example, because I know things like a bunch of to-do apps
+[42:57.360 --> 43:02.480]  can integrate with your system wide reminders list just to get stuff into your inbox. But there's
+[43:02.480 --> 43:08.960]  no way to do like a custom, just it only makes sense in the context of this app, Siri input.
+[43:08.960 --> 43:13.440]  Right. And they kind of hacked it. Like I know, I use things in their settings. They they talk about
+[43:13.440 --> 43:18.160]  like reminders plus Siri integrating that with things. So they've recognized that. I think a
+[43:18.160 --> 43:22.800]  few other apps as well have. Right. And, you know, there's just all sorts of apps where,
+[43:22.800 --> 43:28.880]  where Siri specific input, like if Siri could be a smart about a third party app as it is about
+[43:28.880 --> 43:36.640]  some of the built in stuff, it would be great. Right. Well, hold on. And then let's talk about what's
+[43:36.640 --> 43:41.200]  coming. Let's up next remind me, we'll talk about what, what we think is coming up or what you know
+[43:41.200 --> 43:47.680]  is coming up next in iOS 9. But let me take a second break here and thank our next sponsor. These
+[43:47.680 --> 43:55.440]  guys were here last week. They're back again. Our good friends at mail route. M A I L R O U T E.
+[43:56.880 --> 44:02.480]  Here's their pitch. You know, who should be handling your email email nerds who do nothing,
+[44:02.480 --> 44:08.560]  but email these guys and mail route. That's all they do. They created the first cloud-based
+[44:08.560 --> 44:12.880]  email filtering solution. And then they sold it to Microsoft. Now they're back with mail route.
+[44:12.880 --> 44:20.240]  They've been there for a couple of years. And it's such a simple beautiful pitch. It's just
+[44:21.040 --> 44:27.760]  super effective spam and virus filtering for your own email that you host yourself.
+[44:28.720 --> 44:34.000]  So imagine a world with no spam, no viruses, no bounce mail. That's what it's like with mail
+[44:34.000 --> 44:39.040]  route. They don't host your email. You have your own domain, you run your own mail server,
+[44:39.040 --> 44:42.720]  or you have, you know, you go to somebody like Fastmail or something like that, where you have
+[44:43.360 --> 44:48.480]  email that's under your own control. What you do, but you have your own domain name. What you do
+[44:48.480 --> 44:54.400]  is you point your M X records at mail route. And then your mail goes through their filters first. And
+[44:54.400 --> 45:00.000]  then whatever passes through their filters goes on to your mail server. Just a little front end,
+[45:00.000 --> 45:05.440]  just like think of it as like a screen in the window in between the outside world and your mail
+[45:05.440 --> 45:11.520]  server. And it can make a tremendous, tremendous difference in the amount of spam that gets their
+[45:11.520 --> 45:17.520]  super accurate on both sides, super low for false positives, super low false negatives.
+[45:17.520 --> 45:21.920]  I don't even know how they do it. I don't know how their spam filtering is accurate as it is.
+[45:23.360 --> 45:31.440]  They have a great feature. So everybody, every email account under your control can get a quarantine
+[45:31.440 --> 45:37.600]  report on a regular basis. And what that means is you get an email from mail route in your inbox
+[45:37.600 --> 45:43.920]  that would just say, here's the emails that we were sort of like maybe on. And you can look through
+[45:43.920 --> 45:48.880]  that list. Instead of looking through like 5,000, I've got, I've got an email address over here,
+[45:48.880 --> 45:52.880]  I swear to God, and it's not on a, in front of mail route, although I should, I just don't use this
+[45:52.880 --> 45:57.600]  domain that much anymore. Has over 5,000 spams in the inbox right now. I know that they're all
+[45:57.600 --> 46:03.200]  almost all spam. An address that I've used like just for ordering stuff online in the past.
+[46:04.560 --> 46:08.880]  Mail route can filter all that crap out. But then you can get a report, this quarantine report,
+[46:08.880 --> 46:13.840]  and it'll say, here's seven that we were like, maybe on like, these aren't, we're not really sure.
+[46:14.480 --> 46:19.600]  I bought that list. If you see one that actually wasn't spam, you're like, two clicks away from
+[46:19.600 --> 46:24.240]  whitelisting that and then it'll never get flagged again. But that way, you don't have to go through
+[46:24.240 --> 46:29.360]  all 5,000 emails that they did flag a spam and look for the false positives. They give you this
+[46:29.360 --> 46:33.760]  quarantine list that is great. It just, it just gives you the ones that they were like, maybe on.
+[46:34.880 --> 46:39.680]  And there's very few of those. Super easy to set up, super reliable. And because you're just
+[46:39.680 --> 46:44.320]  pointing, you're just redirecting your MX record to go to mail route first, then onto your server.
+[46:44.320 --> 46:49.280]  It's so easy to try. And if you don't like it, although I can't imagine why that would be,
+[46:49.280 --> 46:53.280]  I've never heard of anybody who's tried to not stuck with it because it's so accurate. But if,
+[46:53.280 --> 46:58.000]  if that's the case, all you have to do is change your MX record back. You don't have to change
+[46:58.000 --> 47:04.240]  your email settings on your phone and on your laptop and on your thing, you don't have to copy
+[47:04.240 --> 47:09.680]  your mail from, you know, these big, huge gigabyte archives of your old, old mail from one server
+[47:09.680 --> 47:15.360]  to another. You're just changing your MX record. So it's super, super easy. If you're an IT pro,
+[47:15.360 --> 47:20.000]  they've got all sorts of APIs and tools, you know, that anything you'd want to do if you're like
+[47:20.000 --> 47:24.320]  an email admin, super, super advanced. But if you just want to hook it up and have it filter out
+[47:24.320 --> 47:30.640]  all the junk, it's so easy to do. They've got all sorts of other stuff, LDAP, an Active Directory,
+[47:30.640 --> 47:36.240]  TLS, mail bagging, I don't even know what that is. Outbound relay, anything you want from people handling
+[47:36.240 --> 47:40.880]  your mail, mail route, handles it, they've got great customer support, really, really great.
+[47:40.880 --> 47:49.920]  So here's what you do. Go to mail route.net, mail route.net, slash TTS, TTS for the talk show. And you'll
+[47:49.920 --> 47:57.840]  get a free trial. And then when you sign up to pay, you get 10% off for the lifetime of your account,
+[47:57.840 --> 48:06.720]  mail route.net slash TTS. My thanks to mail route. Great service to get spam. Me? All the time,
+[48:06.720 --> 48:12.160]  probably like a hundred of them a day. I sometimes I think about email. It's like, can you even
+[48:12.160 --> 48:19.200]  imagine anybody sitting up a new service today where it was like, you have a public address and
+[48:19.200 --> 48:26.560]  anybody else on the entire internet can just send stuff to you. It's crazy. I mean, I hardly read
+[48:26.560 --> 48:31.760]  emails seriously anymore. I go through it every morning when I wake up on my phone and I'm basically
+[48:31.760 --> 48:38.480]  selecting almost the time looking out for names I recognize are important domains and such. But
+[48:38.480 --> 48:44.240]  otherwise, it's spam. Yeah. It's so crazy. John Cirque, you said in Maryland, man,
+[48:44.240 --> 48:48.320]  I have a new podcast and they were talking about Cirque user was talking about being in college
+[48:48.320 --> 48:53.040]  in the 90s. He was a little bit younger than me. But at his college to get on the internet before
+[48:53.040 --> 48:57.440]  they had it and even like, you know, like ethernet connections in the dorm rooms, he'd go to the lab
+[48:57.440 --> 49:02.400]  and there were these VT 100 terminals. So do you ever see those there? Really, it was just, you know,
+[49:02.400 --> 49:05.680]  what you think of the terminal app. It was a computer that that's all it was. Was a terminal.
+[49:05.680 --> 49:10.240]  Yeah, sure. But they were. Those didn't have email. Well, you'd log in now and then you'd get your
+[49:10.240 --> 49:16.720]  email. You'd get your mail on, you know, using like Elm or Pine or one of those apps. But the fact
+[49:16.720 --> 49:20.720]  was like that, and I remember this, it was the same way at Drexel where I went where the terminals
+[49:20.720 --> 49:27.120]  themselves were world writable. So if you knew the terminal name next to you, you could just write
+[49:27.120 --> 49:32.400]  characters to the screen of that terminal. Oh, wow. And it, you know, so it was a great way
+[49:33.120 --> 49:38.160]  to prank people in the lab because the assumption was it's like the entire early internet was
+[49:38.160 --> 49:42.800]  sort of like built on academic roles, like why would anybody do that? This is, you know,
+[49:42.800 --> 49:50.000]  we're all in this together sort of thinking. Yeah. It's kind of like iCloud, but vintage. Right.
+[49:51.120 --> 49:57.040]  Sort of, you know, it's just crazy. And email is like this bizarre holdover from that,
+[49:57.040 --> 50:03.120]  that system. Yeah. It's amazing to me that Apple isn't playing in that email space. You see
+[50:03.120 --> 50:10.800]  Dropbox trying it. They spoke with their messaging and all that. And iCloud email in the mail
+[50:10.800 --> 50:17.600]  apps on iOS and OS 10 are basically just like like how email was handled five, 10 years ago.
+[50:17.600 --> 50:22.560]  I really think that if anyone would to, you know, come in here and, and it ate in some way in
+[50:22.560 --> 50:27.040]  the email space, it could be Apple. But here they are doing nothing at least publicly.
+[50:27.040 --> 50:32.160]  Yeah, that's interesting. I never really thought about that. But presumably in the same way that
+[50:32.160 --> 50:38.400]  anybody who can, I message each other. If, if they came out with their own Apple specific
+[50:38.400 --> 50:45.760]  Apple to Apple email 2.0 type thing, you know, just as many people who can get blue bubbles with
+[50:45.760 --> 50:51.920]  each other and I message could send, you know, some kind of new email type thing to each other.
+[50:51.920 --> 50:56.560]  Or maybe they'll just, you know, beef up by a message and try to make email go away.
+[50:56.560 --> 51:01.040]  Yeah. I almost feel like that would be the way that they would go. Yeah, probably because
+[51:01.040 --> 51:05.600]  they just would be easier for them to put it all in one or maybe not easier. That seems like
+[51:05.600 --> 51:11.760]  more Apple way. Yeah. Like males legacy and I message is the new thing. Yeah. I wonder how much,
+[51:13.680 --> 51:17.840]  I wonder how much of their communication takes place on I message internally now.
+[51:17.840 --> 51:22.400]  Because I know it used to be the, you know, probably still are, but I know they used to be
+[51:22.400 --> 51:28.000]  an incredibly email reliant company that they didn't really have any kind of complex.
+[51:30.240 --> 51:34.000]  I don't know if you want what you would call it, internet style, messaging type thing that,
+[51:34.000 --> 51:38.080]  you know, most communication within the company took place by email. Yeah, they probably use
+[51:38.080 --> 51:43.040]  Slack these days. Like everyone else. But they definitely have some teams on Slack because
+[51:43.040 --> 51:56.480]  remember when there was that there was a thing where you could type in a domain name and see
+[51:56.480 --> 51:59.840]  how many people, you know, how many Slack teams were registered for that domain.
+[51:59.840 --> 52:08.160]  Ah, yeah. And it was the idea was Slack added the feature to make it easy for you to connect,
+[52:08.160 --> 52:14.800]  you know, like if I think it was like you would type in like at nine to five Mac.com and then
+[52:14.800 --> 52:19.360]  it would like help, you know, trying to help you. It would be like, ah, here's the teams for your
+[52:19.360 --> 52:23.200]  organization, which one do you want to join. But that meant though that you could just take a
+[52:23.200 --> 52:28.400]  guess and type in at Microsoft.com and it would like tell you, here's all the teams from your company
+[52:28.400 --> 52:33.360]  that are in Slack. Oh, wow. I wish I knew that probably could have figured out that they had a
+[52:33.360 --> 52:38.400]  car team. Yeah, I want. No, I don't think I don't think there was anything. I don't recall anything.
+[52:38.400 --> 52:42.960]  Yeah. I don't think there was anything that was tell, I think they were kind of smart about it.
+[52:42.960 --> 52:46.400]  But it was, yeah, I'm just kidding. But I'll try to look it up for the show notes.
+[52:46.400 --> 52:50.400]  That's a big. I can't believe Slack even thought that would be a even half good idea to launch
+[52:50.400 --> 52:57.520]  something like that. Probably. Well, you know what though? It's exactly like, it's that it is. You're
+[52:57.520 --> 53:01.280]  right. And I'm sure that they were slapping themselves on the forehead over it. But it's like,
+[53:01.280 --> 53:07.680]  when you are a good person and you're just trying to help somebody, it's it's so easy to overlook
+[53:08.400 --> 53:15.360]  the, you know, well, what if you're a jerk? Right. Right. That somebody wrote an article a while
+[53:15.360 --> 53:22.720]  ago that everybody needs like a like a chief jerk officer who looks at everything and just says,
+[53:22.720 --> 53:33.280]  okay, but what if I'm a jerk? Right. That's a good point. Yeah. So iOS nine. Yeah. Here's where there's a
+[53:33.280 --> 53:40.880]  lot more action going on. Right. So what do we know? We know San Francisco. Right. We know that
+[53:40.880 --> 53:45.840]  user interface wise besides the font, it's going to look pretty much the same. I heard some new
+[53:45.840 --> 53:52.320]  splash of color is color changes on some icon, some user interface elements. But if you didn't
+[53:52.320 --> 53:56.800]  know the difference between Helvetica and San Francisco, you'd think it would be iOS eight.
+[53:58.720 --> 54:06.880]  What else do we know? We know about maps, maps is getting a big upgrade. So transit, finally,
+[54:07.760 --> 54:12.560]  they wanted that out the door last year. And I guess they're ready now, but it's only going to be
+[54:12.560 --> 54:22.000]  in a handful of cities. So San Francisco, New York, Toronto, London, Berlin, Paris, and they want
+[54:22.000 --> 54:28.240]  Boston and Tokyo by the end of the year. Also, they're going to have China launch sort of a small
+[54:28.240 --> 54:37.040]  skill rollout. Yeah. But, uh, the funny thing though about hitting those cities is that yes, it
+[54:37.040 --> 54:41.120]  sounds like a short list of cities. And it's, you know, clearly they are behind Google on this
+[54:41.120 --> 54:46.160]  regard because Google has transit information all over the world. But if you can get like the top 10
+[54:46.160 --> 54:52.640]  cities, you, you hit an enormous number of the people who need the transit information because
+[54:52.640 --> 54:56.640]  they're so population tense. Right. And I think they're going to move quickly on this because I
+[54:56.640 --> 55:03.440]  know that this new version is going to have a notification system that you can be alerted when
+[55:03.440 --> 55:08.240]  transit arrives in your city. So they're planning on updating this frequently over the year and
+[55:08.240 --> 55:11.920]  they have a whole road map of where they want to hit at what time is in the future.
+[55:11.920 --> 55:17.520]  Right. Like the big thing is having transit is the architecture for transit in general in the
+[55:17.520 --> 55:25.520]  OS. And then after that, they can do over the air updates, you know, iOS 9.1 or even 9.0.2 or
+[55:25.520 --> 55:29.920]  something like that. And it adds, you know, new cities around the world. Right. Or even over the
+[55:29.920 --> 55:34.640]  air without a software update, just through the back end infrastructure. Right. Maybe. Yeah.
+[55:34.640 --> 55:38.640]  I wouldn't be surprised if that's the case. Right. But I mean, if you were to say three cities in
+[55:38.640 --> 55:44.560]  North America, that if you can only hit three, I think they got those three. Which ones would you say
+[55:44.560 --> 55:50.320]  New York, Chicago or maybe Chicago? Yeah. But are you thinking of Los Angeles? What were you thinking?
+[55:50.320 --> 55:55.040]  You know, Los Angeles, because when I asked whoever I was talking to there, Los Angeles is actually
+[55:55.680 --> 56:02.080]  extremely and surprisingly low on the on the list of where they want to hit. But Los Angeles is a
+[56:02.080 --> 56:06.800]  driving city. Anyways, that's exactly why I wasn't why I put Chicago above it. Yeah. I didn't
+[56:06.800 --> 56:11.360]  even think of Chicago, but they got Toronto, San Francisco in New York. Yeah. Maybe Chicago later.
+[56:11.360 --> 56:18.320]  We'll see. Yeah. And I know Boston has a great infrastructure for it. Like, I'd fill it out
+[56:18.320 --> 56:22.880]  here is weird city for it. I don't, I know that there's some information, our public transportation
+[56:22.880 --> 56:30.080]  organizations called SEPTA, Southeast Pennsylvania Transportation Authority. But I think that
+[56:30.080 --> 56:35.120]  there's really behind a lot of the other cities. Like, when I was visiting friends in Boston
+[56:35.120 --> 56:40.800]  last year, like you could, it says like, Hey, your bus is coming in 45 seconds and like your bus
+[56:40.800 --> 56:46.560]  is coming in 45 seconds. Maybe that's why Boston is not ready because they want to integrate
+[56:46.560 --> 56:51.200]  that functionality. Yeah. I don't know. I don't know why Boston. Maybe I think maybe it's still
+[56:51.200 --> 56:56.000]  that goes by pro, by population now. I mean, I don't know. I know they really wanted Boston. It
+[56:56.000 --> 57:00.560]  just wasn't ready. Yeah. No, I don't know. And you know, I think all these APIs are different,
+[57:00.560 --> 57:05.600]  you know, and all the different, or you know, I, I, from what I've read about it, that there's no
+[57:05.600 --> 57:13.360]  like unifying standard and that one of the reasons that Google has had a year's long lead at this
+[57:13.360 --> 57:18.160]  is that Google, this is the sort of thing Google is good at. And if every single city reports
+[57:18.160 --> 57:22.480]  this transportation information in a different way, Google's really good at saying,
+[57:22.480 --> 57:28.160]  that's okay. We'll make sense of it. Yeah. Even if it's not like uniform. I would guess that Apple
+[57:28.160 --> 57:32.880]  could take, if they only did two cities, San Francisco in New York, it would, it would hit an
+[57:32.880 --> 57:40.720]  awful lot of the usage. Right. And the entirety of China. Right. That's a big one there. Yeah. Yeah.
+[57:42.720 --> 57:47.600]  Yeah. I guess China, it might even be more important. I think China that the number of people who
+[57:47.600 --> 57:52.320]  take public transportation has got to be insane. Yeah. But the interesting thing about China is that
+[57:52.320 --> 58:00.320]  there's some legal government monopoly on Alibaba who owns Auto Navi. So Apple is not allowed
+[58:00.320 --> 58:05.520]  to do their own transit data collection in China. So they've actually, you know, struck a deal
+[58:05.520 --> 58:11.280]  with Alibaba to get the data from them for China. Hmm. I wonder what the difference will be.
+[58:12.480 --> 58:21.920]  Yeah. I don't know. Probably reliability. Yeah. Um, anything else from maps? Yeah. So those vans
+[58:21.920 --> 58:26.720]  that they've been driving around are for a few things. One, they're redoing their entire base map.
+[58:26.720 --> 58:33.120]  The geography fundamentals of the map app. And they're wanting to launch that by 2017 or 18.
+[58:33.680 --> 58:40.400]  So the trucks are doing verification on that data. But they're also taking pictures of storefront.
+[58:40.400 --> 58:44.640]  So a lot of people thought these were street view cameras like what Google does. And they do
+[58:44.640 --> 58:50.000]  click data like that. For 3D stuff, they're going to do in the future. But the more short-term thing
+[58:50.000 --> 58:56.720]  is taking pictures of like a chipotle or a storefront for an office to replace Yelp.
+[58:56.720 --> 59:01.680]  So right now, when you go into a place in the maps app, let's say you go to a restaurant,
+[59:01.680 --> 59:07.440]  it'll show you a picture of a menu item at the top taken by someone who uploaded it to Yelp.
+[59:07.440 --> 59:12.480]  And a lot of times those pictures are very poor quality. So Apple's stepping back and saying,
+[59:12.480 --> 59:17.280]  hey, we want to do this ourselves. So they're taking stills of storefronts. And the plan was
+[59:17.280 --> 59:22.560]  start rolling that out with iOS 9. But it's more of a long-term initiative. So it might not be
+[59:22.560 --> 59:29.840]  ready yet. And there's also a browse around me feature. So let's say you're standing on a street
+[59:29.840 --> 59:37.440]  and you want to see a curated list of great places to go around you. So it's kind of like the app
+[59:37.440 --> 59:43.360]  around me. And it'll show you like a list of the best cafes, the best whatever around you,
+[59:43.360 --> 59:49.040]  best cell phone store. And they've also been testing that with an augmented reality view.
+[59:49.040 --> 59:54.640]  So if you can wave your phone around and see through the phone's camera lens, the stuff around you,
+[59:54.640 --> 59:58.880]  kind of like Yelp tested a feature like this a few years ago. Google had something like this.
+[59:59.840 --> 1:00:02.560]  Not sure if that's ready, but those are some things they've been testing.
+[1:00:03.360 --> 1:00:06.960]  Very interesting. I do think with some of the mapping stuff,
+[1:00:06.960 --> 1:00:13.600]  it's understandable that they're still behind Google just because Google had a lead.
+[1:00:13.600 --> 1:00:19.360]  And I do think that they've sort of, that they're roughly keeping pace. Like, I don't think they're,
+[1:00:20.080 --> 1:00:25.280]  my gut feeling is that they're closer than they were. I mean, when Apple Maps debuted
+[1:00:25.280 --> 1:00:31.280]  infamously, it was, you know, one of the worst received product rollouts in recent memory from
+[1:00:31.280 --> 1:00:39.040]  Apple. Um, I think since then, even if you don't count that first version, even if you fast 40
+[1:00:39.040 --> 1:00:44.240]  year, I still think that in the time since then, they've caught up more to Google than Google has
+[1:00:44.800 --> 1:00:48.480]  pulled further ahead. And I think that's just the way it is when you're behind that's fair.
+[1:00:48.480 --> 1:00:53.920]  Yeah. But here's my problem with that. My problem is that only now they're starting their own
+[1:00:53.920 --> 1:01:00.560]  data collection to release a more reliable version, three, four years from now. Instead of going
+[1:01:00.560 --> 1:01:05.520]  to Tom Tom and those other data sources back whenever they started this project in 2010,
+[1:01:05.520 --> 1:01:10.720]  2011, for the fall 2012 launch, instead of going to them, why didn't Apple start their own
+[1:01:10.720 --> 1:01:15.600]  data collection, you know, process at the very beginning? That's what I don't get.
+[1:01:15.600 --> 1:01:20.000]  Yeah. And I would broaden it a little bit and just say that, and again, I do think that they've
+[1:01:20.000 --> 1:01:24.560]  gotten better. I use Apple Maps. And I know with Tapulski on his show, he was, he would like
+[1:01:24.560 --> 1:01:28.480]  laugh to me and said, nobody uses Apple Maps, but that's not true. If you look at the stats,
+[1:01:28.480 --> 1:01:33.360]  like iPhone users overwhelmingly use Apple Maps. It's, you know, they use it.
+[1:01:33.360 --> 1:01:37.360]  They use it way more than Google Maps. And I've had some really good experiences with it.
+[1:01:37.360 --> 1:01:41.600]  But the thing that gets me is it seems like some of the stuff that they've done, it could be
+[1:01:41.600 --> 1:01:46.800]  expressed is that they've cheaped out. Like why not just, like you know, like you said, why not start
+[1:01:46.800 --> 1:01:52.960]  collecting the money? Like some of this is just sort of a manpower issue. Like Google Street View
+[1:01:52.960 --> 1:01:59.360]  is a pretty cool feature. But among many things that Google does, it to me is like, it's not the
+[1:01:59.360 --> 1:02:06.160]  most technically impressive. To me, it's like manpower impressive that they've sent so many cars
+[1:02:06.160 --> 1:02:14.160]  out with so many teams to take so many pictures all around the world. It's just like, it's like
+[1:02:14.160 --> 1:02:18.000]  how many companies have the resources to do that? Well, guess what? Apple is a company that has,
+[1:02:18.000 --> 1:02:21.920]  you know, it's, it to me seems like a problem that you can solve by throwing money at it.
+[1:02:21.920 --> 1:02:25.280]  Absolutely. And who has more money than Apple? They should have started throwing money at this
+[1:02:26.080 --> 1:02:33.120]  a bit longer ago. And the, the, and again, whenever this comes up on the show, I always
+[1:02:33.120 --> 1:02:37.440]  preface it by saying it is so much easier to spend somebody else's money than your own. So every
+[1:02:37.440 --> 1:02:44.000]  time I advocate Apple spending money, yes, I understand. And that the way that you build a massive
+[1:02:44.000 --> 1:02:49.040]  work test of money like they have is by not spending money frivolously. But that's that.
+[1:02:49.040 --> 1:02:57.200]  Why not buy every map being company with decent, you know, why not buy as many of them as they
+[1:02:57.200 --> 1:03:02.000]  can, or at least more than they have, why not buy Tom Tom, whatever it costs, because surely
+[1:03:02.000 --> 1:03:04.560]  whatever it would cost would be affordable to Apple.
+[1:03:05.520 --> 1:03:09.600]  All right. I mean, I know they looked at more than they, that they bought. They looked at
+[1:03:09.600 --> 1:03:14.400]  four square for sure. Yeah. They looked at, they looked at Yelp or a deeper partnership with the
+[1:03:14.400 --> 1:03:19.200]  Yelp. But I guess they felt they could do it better than their own, better on their own. And
+[1:03:19.200 --> 1:03:23.040]  what's the point of buying Tom Tom, and if you can have a cheaper partnership with them anyways?
+[1:03:24.560 --> 1:03:29.520]  I guess. But on the other, I don't know, it just in the back of my head, it just seems to me like
+[1:03:29.520 --> 1:03:36.000]  that the, yes, there's engineering problems, but that some of the stuff with maps could have
+[1:03:36.000 --> 1:03:41.200]  been accelerated by throwing money at it. And again, one thing is just putting manpower out there,
+[1:03:41.200 --> 1:03:47.280]  you know, and having more, you know, more of these teams with these goofy looking bands covered
+[1:03:47.280 --> 1:03:51.760]  with cameras out in the street. Right. What they've seemed to be doing with these acquisitions
+[1:03:51.760 --> 1:03:59.360]  is buying maps related technology and resource and science companies from that instead of buying
+[1:03:59.360 --> 1:04:05.200]  data companies. Yeah. So Tom Tom's data companies. So it's four square and Yelp. But they bought
+[1:04:05.200 --> 1:04:09.760]  all those transit apps who came up with like trip planning features and all that. They bought
+[1:04:09.760 --> 1:04:14.640]  Spot Center, which didn't provide data, but it sort of aggregated points of interest with
+[1:04:14.640 --> 1:04:18.960]  they'll be using for that other mass feature we talked about. So they're sort of buying the means
+[1:04:18.960 --> 1:04:23.520]  to build the data themselves. Right. And they bought the company that had the thing that they
+[1:04:23.520 --> 1:04:31.200]  use for the 3D view. Right. C3 technologies. Right. And I think that at the time that they're,
+[1:04:31.200 --> 1:04:36.720]  they're live, you know, it took Apple's acquisition of them for them to really beef up the amount
+[1:04:36.720 --> 1:04:42.400]  of image that they had. But it was, so it was, yes, they had some, but it was mostly a technology
+[1:04:42.400 --> 1:04:49.120]  acquisition, not a data acquisition. Well, they bought C3 before the maps came out. So they bought
+[1:04:49.120 --> 1:04:55.600]  C3 in 2011. Right. The maps was in 2012. But I guess it went to have been as good without them.
+[1:04:55.600 --> 1:05:00.720]  Right. I don't know if remember during like the beta period for iOS 6, they stripped all the
+[1:05:00.720 --> 1:05:06.160]  3D from one of the betas. And then the next release, all the 3D stuff came back and it was 10
+[1:05:06.160 --> 1:05:10.880]  times better than it was before. So no, I don't remember that. Something probably fixed in the
+[1:05:10.880 --> 1:05:16.400]  middle there. I do remember that it was a major part of four stalls demo of it when he unveiled it.
+[1:05:16.400 --> 1:05:22.240]  Right. The iPhone 5 of that. Right. The WWDC. Right. Yeah. That was also his fault. So
+[1:05:23.040 --> 1:05:28.800]  yeah. Maybe a little bit. Well, you know, I might have been the straw that broke the
+[1:05:28.800 --> 1:05:35.200]  camel's back is one way to look at it. Sure. I think that even if maps, I suspect that my
+[1:05:35.200 --> 1:05:42.000]  hunch is in the alternate universe where maps had a, let's say, lukewarm response because I
+[1:05:42.000 --> 1:05:44.960]  think that was the best they were going to do. There was no way that they were going to,
+[1:05:44.960 --> 1:05:52.880]  it's just not feasible to come out of the gate with a complete peer to Google maps.
+[1:05:52.880 --> 1:05:56.480]  But they had to make the switch because of contract reasons that they just couldn't,
+[1:05:56.480 --> 1:06:02.000]  they, or they did not want to give Google another year and what Google was asking for them,
+[1:06:02.000 --> 1:06:07.360]  you know, was more than they wanted to give and they wanted things like turn by turn directions.
+[1:06:07.360 --> 1:06:11.280]  So they needed to just rip the bandaid off and do it, even if it had been a better launch.
+[1:06:11.280 --> 1:06:14.160]  Like, hey, this is about as good as we could have done the first time. I still think
+[1:06:14.160 --> 1:06:17.680]  four stall would have been gone when he was gone. Oh, yeah. I agree.
+[1:06:18.480 --> 1:06:23.440]  But I think that, you know, it didn't help. I don't think it helped anybody. No.
+[1:06:23.440 --> 1:06:30.480]  No. What else in Mac, or not Mac OS iOS 9?
+[1:06:31.600 --> 1:06:35.440]  iOS 9, so we talked about San Francisco transit.
+[1:06:36.960 --> 1:06:42.560]  Oh, the proactive stuff. So last year's big term was continuity, right?
+[1:06:42.560 --> 1:06:46.240]  Right. This year, the big term. Now, I don't know if this expands marketing wise,
+[1:06:46.240 --> 1:06:50.560]  but internally, it's something called proactive and that maps browse around
+[1:06:50.560 --> 1:06:55.440]  the features one component, but another component. Now, I don't know if this is a hundred percent
+[1:06:55.440 --> 1:07:01.120]  a lock for next week, but they have been working on this with the intention back whenever they
+[1:07:01.120 --> 1:07:06.160]  were working on this for iOS 9. So I just want to preface by saying that, but it's an entirely new
+[1:07:06.160 --> 1:07:13.040]  spotlight. And instead of pulling down on the home screen, you swipe to the right to open the new
+[1:07:13.040 --> 1:07:19.600]  screen on the left, kind of like how you open spotlight pre iOS 7. Yeah, I when I read this on your
+[1:07:19.600 --> 1:07:24.400]  side, I misread it at first. And I didn't get it. And now I get it. It's sort of like to me,
+[1:07:24.400 --> 1:07:28.720]  it's like home screen zero. Like if you count your first home screen as home screen one,
+[1:07:28.720 --> 1:07:33.760]  now there's one at position zero to the left. Right. And I called it a layer in my story,
+[1:07:33.760 --> 1:07:39.600]  and that probably was not a good way to reference it probably better would have been a first home
+[1:07:39.600 --> 1:07:46.160]  screen. But it's part of the OS. And at the top, there's like the spotlight search bar that you
+[1:07:46.160 --> 1:07:52.320]  have now, but beneath that is a bunch of timely functionality, similar to Google now. So your next
+[1:07:52.320 --> 1:07:57.200]  calendar appointments, if you have an appointment at the airport, you're going on a flight,
+[1:07:57.200 --> 1:08:04.240]  the passport card for the airline ticket could appear. If I call you John every day at 5 30 PM,
+[1:08:04.800 --> 1:08:10.400]  a bubble could pop up saying it's time to call John or if it's 1 PM and it's lunch time,
+[1:08:10.400 --> 1:08:17.680]  another bubble with local restaurants around my location could pop up. So stuff of that nature.
+[1:08:17.680 --> 1:08:22.400]  Right. But that's where you'll go. If you know that you want to launch this app, and you don't
+[1:08:22.400 --> 1:08:26.000]  know which home screen it's on, instead of doing the pull down thing, you go over there to home
+[1:08:26.000 --> 1:08:33.280]  screen zero and start typing in the name of the app. Right. So yep. That there's that too,
+[1:08:33.280 --> 1:08:39.040]  but there also will be yeah, it's kind of like when you type in like a search term now,
+[1:08:39.040 --> 1:08:43.440]  it'll show you like Wikipedia or stuff like that. So if you were to type in,
+[1:08:44.880 --> 1:08:49.520]  you know, like call or food or calendar, whatever, those relevant search results could pop up,
+[1:08:49.520 --> 1:08:53.920]  or they could just be there waiting for you. It's to be seen what they do, but it's a big emphasis
+[1:08:53.920 --> 1:08:59.280]  on redoing spotlight for more contextual features. Yeah, I forget if we talked about, I think I
+[1:08:59.280 --> 1:09:03.120]  was with Renee last week where we talked about this, but the one reason that to me it makes a lot
+[1:09:03.120 --> 1:09:12.000]  of sense is that just from a basic, I don't even know what you want to call it, just a common sense
+[1:09:12.000 --> 1:09:18.320]  user interface design thing. The way it is now and the way it has been since iOS 7 doesn't make a
+[1:09:18.320 --> 1:09:24.240]  lot of sense to me because if you pull down from the edge, you get notification center and
+[1:09:24.240 --> 1:09:29.200]  today view. But if you pull down in the middle, then you get the spotlight search. And to me,
+[1:09:29.200 --> 1:09:36.080]  that pull down from two different places and you get two entirely different things is it's just
+[1:09:36.080 --> 1:09:41.280]  a bad idea. Oh, yeah. Yeah, for sure. Right. So give it its own side and then all of a sudden to me,
+[1:09:41.280 --> 1:09:45.680]  it makes a lot more sense. Right. And with the new functionality. So I think that if this is a
+[1:09:45.680 --> 1:09:51.840]  dozen deed launch next week, it will be the highlight of iOS 9. Yeah, I wouldn't be surprised. And
+[1:09:51.840 --> 1:09:57.760]  that would be a good place to where, where, who knows if they have any new partnerships to announce,
+[1:09:57.760 --> 1:10:02.960]  you know, from other third parties that, you know, that could sneak into those results.
+[1:10:02.960 --> 1:10:09.600]  Right. Have you seen the app Q that Apple acquired a couple of years ago? Only, I think through
+[1:10:09.600 --> 1:10:16.160]  your report, but it's spelled like Eddie's last name. See, yeah, that's what he bought and he wanted
+[1:10:16.160 --> 1:10:23.920]  the domain name. What you have to clarify, though, that it's not QUE. Right. Right. Right.
+[1:10:23.920 --> 1:10:31.440]  Right. See, maybe he bought it for trademark purposes. So what, well, what's the Q app? The Q app
+[1:10:31.440 --> 1:10:38.080]  is basically a list of things in your day based on your calendar. So basically what I explain,
+[1:10:38.080 --> 1:10:42.640]  kind of like Google now. So you have a Facebook event coming up or a calendar event that you're
+[1:10:42.640 --> 1:10:48.320]  going on a flight, or you want to pull up the airline ticket or restaurants, cafes, or offices,
+[1:10:48.320 --> 1:10:55.760]  or stores around you, type of deal. Also, local events, or let's say in my calendar, I have
+[1:10:55.760 --> 1:11:04.320]  podcasts with John at 1.30 PM, around 1.30 PM, I'll get a bubble saying podcast with John. It'll show
+[1:11:04.320 --> 1:11:11.680]  me your contact and phone number, and maybe emails related to it as well. It's very contact,
+[1:11:11.680 --> 1:11:19.520]  app, email, and maps oriented. Yeah. Yeah. That sounds right to me. And it's, you know,
+[1:11:19.520 --> 1:11:28.560]  let's face it, a lot of this stuff is it's no surprise that iOS and Android are sort of coalescing
+[1:11:28.560 --> 1:11:36.720]  around the same ideas. And, you know, I think in terms of UI, niceness, iOS was way out ahead.
+[1:11:36.720 --> 1:11:48.720]  And in terms of this sort of context about your life sensibility, Google was obviously ahead,
+[1:11:48.720 --> 1:11:53.680]  and is ahead. And so they're both playing catch up in each other's areas. And so it's no surprise
+[1:11:53.680 --> 1:11:58.160]  to me that, and I, you know, I didn't even make hay about it. I pointed it out, but, you know,
+[1:11:58.160 --> 1:12:05.200]  to me, it's no surprise that the new copy and paste UI in Android M is really, it's just their
+[1:12:05.200 --> 1:12:10.000]  version of the iOS copy and paste system. They tried their own thing with these inscrutable icons
+[1:12:10.000 --> 1:12:15.520]  at the top of the thing as opposed to putting it right above the selection. I think maybe they were
+[1:12:15.520 --> 1:12:20.240]  trying to do the noble thing and come up with their own UI. And you know what, there's, you know,
+[1:12:20.240 --> 1:12:25.360]  the bottom line is low these five, six years since iOS had copy and paste later. It's pretty clear
+[1:12:25.360 --> 1:12:31.600]  this is the way to do it on a touch screen. And now they're doing it. And I think that this sort of
+[1:12:31.600 --> 1:12:37.840]  look, your phone should know if you have a flight. And ideally it should know if traffic is bad
+[1:12:37.840 --> 1:12:42.400]  between where you are right now and the airport where you're going. Like, you know, that stuff will
+[1:12:42.400 --> 1:12:49.520]  be there. Right. Like this is not super advanced AI. Like, you know, you're in centers, you know,
+[1:12:49.520 --> 1:12:57.440]  me, I'm in center city Philadelphia. I have a flight today at five that leaves from the Philadelphia
+[1:12:57.440 --> 1:13:02.720]  airport. Well, it's not that hard for like the phone to figure out that at some point, I'm going
+[1:13:02.720 --> 1:13:08.880]  to need to leave where I am and get to the airport. And it can check the map and say, wow, traffic
+[1:13:08.880 --> 1:13:13.680]  is really bad. You should leave earlier than you think. And they've been building up to this
+[1:13:13.680 --> 1:13:18.080]  for the last few years. Anyways, with some of that data that you can see the places you go to
+[1:13:18.080 --> 1:13:24.560]  often. Well, I think this ties into another bit of news this week, which is Tim Cook's speech at
+[1:13:24.560 --> 1:13:30.400]  this epic EPIC dinner where, you know, depending on what I want to put, it's sort of a scathing
+[1:13:30.400 --> 1:13:38.720]  critique of without naming them, I'd say Google and Facebook. And the fact that they sell targeted
+[1:13:38.720 --> 1:13:44.960]  ads based on what they know about you. And, you know, it's got a lot of coverage, I think
+[1:13:44.960 --> 1:13:49.440]  deservedly so. I think it's definitely an interesting issue. I think it's one that that, you know,
+[1:13:49.440 --> 1:13:54.480]  whatever, even if you're all in on the Google platform that you want to be aware of,
+[1:13:56.240 --> 1:13:59.920]  I do think, I think Ben Thompson had a good piece. It's behind his paywall for the subscribers,
+[1:13:59.920 --> 1:14:04.480]  but he had a good piece that I would summarize like this that if Tim Cook's being dis and
+[1:14:04.480 --> 1:14:11.040]  genuous, it is in a way that he's phrasing it. And I think it's a sort of various
+[1:14:11.040 --> 1:14:18.560]  suit point from, from Ben, which is that Cook is saying that they're selling your information to
+[1:14:18.560 --> 1:14:26.000]  advertisers. And they're not actually what they're doing is promising advertisers that their
+[1:14:26.000 --> 1:14:30.560]  ads will go to the people who are interested, but they're not giving that information to the
+[1:14:30.560 --> 1:14:35.040]  advertisers. So an advertiser who pays for the targeted ad doesn't know a goddamn thing about
+[1:14:35.040 --> 1:14:41.920]  Mark Kerman. Right? It's, it's because that information is what enables them to sell the ads.
+[1:14:41.920 --> 1:14:46.880]  They're actually right. They, they do collect information about you. They do use that information
+[1:14:47.520 --> 1:14:52.160]  to make money from advertising, but they're not giving that information to advertisers because
+[1:14:52.160 --> 1:14:57.680]  it's that, that information that they have that is so valuable that if anything, they might be
+[1:14:57.680 --> 1:15:03.840]  more motivated to keep your stuff private than Apple is because it's the fact that nobody else
+[1:15:03.840 --> 1:15:08.640]  knows as much about you as Facebook and or Google in the different ways that they know stuff
+[1:15:08.640 --> 1:15:14.000]  about you, that makes them so valuable. It's actually an interesting point. But on the flip side,
+[1:15:14.000 --> 1:15:18.320]  where this ties in with what you and I have just been talking about is I think some people
+[1:15:18.320 --> 1:15:24.240]  are overlooking the fact that because Apple doesn't collect this stuff for the purpose of selling
+[1:15:24.240 --> 1:15:30.000]  you targeted ads, that they're not even in the ball game of exact context sensitive stuff.
+[1:15:30.000 --> 1:15:34.560]  And I don't think that I think that they're, they're, they're going to be very, very surprised by
+[1:15:34.560 --> 1:15:40.400]  the next year or two from Apple. Yeah, this is a differentiator here. I agree is that it's,
+[1:15:40.400 --> 1:15:44.320]  it's all about the data that Apple already has with from you on the phone. Maybe this will be
+[1:15:44.320 --> 1:15:50.080]  on the Mac too. They're not really opening this up to third party developers as much as they could
+[1:15:50.720 --> 1:15:57.200]  if they, they wanted to not care about privacy as much as they do. I'll, I'll retell an anecdote I
+[1:15:57.200 --> 1:16:01.120]  told to Polsky on his show earlier this week because I think it's so telling and it's an early
+[1:16:01.120 --> 1:16:08.400]  example of this sort of thing. But back in April, early April, I had an appointment with my
+[1:16:08.400 --> 1:16:12.480]  accountant. Am I, I live in center city Philadelphia, my accountant is out in the suburbs. I've been
+[1:16:12.480 --> 1:16:17.040]  going to him for years. I know how to get there. But I was testing the Apple watch. It was the first
+[1:16:17.040 --> 1:16:21.200]  week. It was actually the week in between when I got the review unit and when a review was due
+[1:16:21.200 --> 1:16:25.840]  and I don't drive that much. That well, here's the one, here's the chance to try out driving
+[1:16:25.840 --> 1:16:31.200]  directions. I'll let the watch give me driving directions there, even though I don't really need
+[1:16:31.200 --> 1:16:37.920]  them. And it worked great. But then like halfway there, it told me to get off the, we call it,
+[1:16:37.920 --> 1:16:45.280]  it's the school call expressway. It's the main artery west out of Philadelphia. And it told me
+[1:16:45.280 --> 1:16:51.280]  to get off and go a way that I never would have driven. Well, I listened, I listened to Siri,
+[1:16:51.280 --> 1:16:55.600]  let's see what happens. And as I took the exit, I looked ahead and I could see that it was
+[1:16:55.600 --> 1:17:02.480]  that I, that I, it had taken me off an exit. And traffic was at a standstill ahead. And I was like,
+[1:17:02.480 --> 1:17:08.240]  hmm. And it took me this weird way we, through North Philadelphia, that I never would have gone.
+[1:17:08.240 --> 1:17:14.640]  I've never driven near my life. And I ended up getting to my accountant maybe 10 minutes later
+[1:17:14.640 --> 1:17:19.840]  than I normally would have given when I left. But I was still early. I was on time. And I checked
+[1:17:19.840 --> 1:17:24.480]  on, on the news and on maps. And a tractor trailer had overturned on the school call expressway.
+[1:17:24.480 --> 1:17:29.520]  And if I had just stayed on the school, I never would have made the appointment. And it actually
+[1:17:29.520 --> 1:17:33.840]  was kind of a big deal because like rescheduling an appointment with your accountant in early
+[1:17:33.840 --> 1:17:40.000]  April is, it's like you're asking a huge favor because pretty much he's already booked 14 hours
+[1:17:40.000 --> 1:17:46.400]  a day. I was kind of blown away. It's very, very clear to me that the dry, turn by turn,
+[1:17:46.400 --> 1:17:52.400]  driving the directions I got from Siri took the traffic into consideration and gave me a bizarre,
+[1:17:52.400 --> 1:17:58.000]  to me, a bizarre plan B or root B until I found out that there was this traffic. And I think
+[1:17:58.000 --> 1:18:03.120]  little things like that are the sort of things that people, I think a lot of people think Apple
+[1:18:03.120 --> 1:18:07.520]  isn't doing at all. And then that's why they, you know, they think Google has a leg up in these
+[1:18:07.520 --> 1:18:12.720]  regards. Right. So you think they need a better pronounce that they're doing less? Yeah. And,
+[1:18:12.720 --> 1:18:15.920]  you know, I think it's going to sneak up on them. It might, you know, it might be the sort of thing
+[1:18:15.920 --> 1:18:20.080]  that they never get credit for because they might never completely catch up to Google. But they'll,
+[1:18:20.080 --> 1:18:24.880]  they'll keep pace and then these things are going to get better. But there's no doubt that this is
+[1:18:24.880 --> 1:18:31.040]  the future. This is like the next few years of, of like the whole ball game. Right. So maybe like
+[1:18:31.040 --> 1:18:36.800]  this new spotlight screen will show, it may be leave a few minutes early because there's a
+[1:18:36.800 --> 1:18:41.760]  car fire here and there. Yeah, or something like that. You know, and I wonder how that ties into
+[1:18:41.760 --> 1:18:49.280]  Siri too, like this new spotlight screen. Yeah. Um, to Siri, it's a compliment. It's not a replacement
+[1:18:49.280 --> 1:18:55.520]  or really anything like that. It's more of a works with Siri type of thing. Right. So it's,
+[1:18:55.520 --> 1:19:00.800]  I wouldn't call it a textual view of Siri. I'd more so call it a compliment. I think it's a good
+[1:19:00.800 --> 1:19:07.520]  way to do it. But some of it's already tied in, like when you do, you know, like, and it's,
+[1:19:07.520 --> 1:19:11.840]  some of it's just product marketing. What do they call? What do they call Siri? Exactly. See,
+[1:19:11.840 --> 1:19:15.840]  like, I honestly, when I was writing this report, I didn't have insight into how they're going to
+[1:19:15.840 --> 1:19:21.920]  market it because I don't even know if they settled on all that by the time this story was written.
+[1:19:21.920 --> 1:19:27.680]  But they could very well kill the name spotlight, not use the name proactive and call all this stuff
+[1:19:27.680 --> 1:19:33.120]  Siri, like the new Siri screen on the home screen. Yeah. Or they could just keep this as,
+[1:19:33.120 --> 1:19:36.880]  I mean, I think they're just going to keep this as spotlight as this whole thing called spotlight.
+[1:19:36.880 --> 1:19:41.040]  Right. So what if they even integrate this onto the Mac too? I mean, some of this stuff wouldn't
+[1:19:41.040 --> 1:19:46.720]  make sense, but maybe a better view for appointments and such. Yeah. Because some of the stuff
+[1:19:46.720 --> 1:19:54.240]  definitely involves some of the same partners, you know, where the auto fill results in Safari
+[1:19:54.240 --> 1:19:59.520]  come from some of the same partners that they have for Siri. That's, yeah, and that's the same
+[1:19:59.520 --> 1:20:04.720]  deal. It's all, it's all one backend type of deal here, the spotlight, the new proactive stuff,
+[1:20:04.720 --> 1:20:10.160]  and the results in Safari. And a lot of this is really to try to tackle Google and reduce
+[1:20:10.160 --> 1:20:16.080]  reliance on that. Eventually, you know, it's very hard to just wake up one day and decide to
+[1:20:16.080 --> 1:20:21.200]  drop Google search from your platform. But year over year, they're adding features that kind of
+[1:20:21.200 --> 1:20:26.560]  reduce the reliance on Google, kind of teaching the consumer that Google is not necessary.
+[1:20:26.560 --> 1:20:32.320]  So last year, they took some steps with the new spotlight with the Wikipedia results and all that.
+[1:20:32.320 --> 1:20:36.560]  And some news articles this year, they'll have this next year, maybe they'll have something else,
+[1:20:36.560 --> 1:20:40.800]  maybe a year, two or three after that. Everyone will be like, there's no point for Google search.
+[1:20:40.800 --> 1:20:48.560]  It would be easy to go away. I've noticed, and it's subtle. And I use DuckDuckGo a lot too,
+[1:20:48.560 --> 1:20:53.360]  but on, I don't even know why. I don't really have a strategy for it, but like on my Mac,
+[1:20:53.360 --> 1:20:58.560]  I have my default search for the search field in Safari said to DuckDuckGo. And I have had it set
+[1:20:58.560 --> 1:21:04.240]  for months. And I've tried it on and off ever since they made it an option. And at some point,
+[1:21:04.240 --> 1:21:09.840]  it was, it got to be good enough for it stuck. On a phone, I still have Google as my default
+[1:21:09.840 --> 1:21:16.000]  search. I don't know why. But I've noticed that even on the phone, how many times the top result
+[1:21:16.000 --> 1:21:21.200]  is, yes, that's what I'm looking for. And then I noticed that it's not going through Google,
+[1:21:21.200 --> 1:21:28.080]  it's the Safari suggestion, which is backed by Google, that they're more or less,
+[1:21:28.080 --> 1:21:34.160]  it's like their version of I feel lucky, right, except you get to preview it before you actually
+[1:21:34.160 --> 1:21:40.240]  tap it. And I, I've noticed on the phone that it's, it's exactly what I want an awful lot of time.
+[1:21:40.240 --> 1:21:43.920]  Right. And there's a big emphasis. Right. And there's also a big emphasis part of this
+[1:21:43.920 --> 1:21:50.080]  proactive thing to improve that, because right now, it's not a hundred percent of the time that
+[1:21:50.080 --> 1:21:54.240]  you'll get a Wikipedia result or a news article. The news article thing for a search term might
+[1:21:54.240 --> 1:22:00.480]  only fire 25% of the time. So they're working on improving the AI. So you can get more
+[1:22:00.480 --> 1:22:05.760]  quick results, like you said, more frequently. Let me take a break here and thank our third sponsor.
+[1:22:05.760 --> 1:22:11.520]  And it is our good friends at Squarespace. You guys know Squarespace. It's the all in one hosting
+[1:22:11.520 --> 1:22:18.880]  website building platform. You need a website. You go to Squarespace and they got it all everything.
+[1:22:18.880 --> 1:22:25.600]  You can register domain name. You have hosting is taking care of. They have all sorts of templates
+[1:22:25.600 --> 1:22:30.800]  you choose from visually through drag and drop. You want to get in there. You want to mess with
+[1:22:30.800 --> 1:22:35.120]  the code. You can mess with the code. You can do it all. But it's all there and the framework is there.
+[1:22:35.120 --> 1:22:41.200]  And it's the difference between starting like if you're building an app starting with a framework
+[1:22:41.200 --> 1:22:49.200]  like cocoa or cocoa touch or just starting with like a blank text file and building an app from
+[1:22:49.200 --> 1:22:54.240]  scratch. That's the difference. That's what Squarespace is like. It's like a framework for websites.
+[1:22:54.240 --> 1:23:00.880]  And you can use it to build almost any sort of website you can imagine. You want to build a store.
+[1:23:00.880 --> 1:23:07.840]  They've got it. They've got templates for that. They've got all of the commerce stuff built right
+[1:23:07.840 --> 1:23:11.840]  into the platform. You don't have to pay extra to get an ecommerce enabled account. That's
+[1:23:11.840 --> 1:23:17.040]  built in to a regular Squarespace account. So if you have stuff to sell, you can sell it. You want
+[1:23:17.040 --> 1:23:21.600]  to set up a podcast. They've got that. You can set up a podcast right there in Squarespace.
+[1:23:21.600 --> 1:23:28.560]  They've even got podcast specific stuff like the audio player, analytics and stuff like that.
+[1:23:28.560 --> 1:23:34.320]  They're analytics for any kind of website are absolutely dropped at gorgeous. I just linked to a guy
+[1:23:34.320 --> 1:23:39.440]  this week who after I linked to his blog, which I didn't even know what happened to be hosted at
+[1:23:39.440 --> 1:23:45.280]  Squarespace. And you know, it's this sound self-serving. But he went from serving,
+[1:23:45.280 --> 1:23:49.200]  you know, a couple hundred hits a month to serving a couple thousand in a day because I
+[1:23:49.200 --> 1:23:54.000]  linked to him from Daring Fireball. Well, A, his Squarespace blog held up perfectly. He didn't even
+[1:23:54.000 --> 1:23:58.720]  notice it took like a friend to text him that I had mentioned it. Your site doesn't go down if
+[1:23:58.720 --> 1:24:03.280]  you're suddenly get a lot of traffic. But then he posted these screenshots of his analytics and
+[1:24:03.280 --> 1:24:09.280]  they're gorgeous. Just drop dead, gorgeous analytics. Just looks like something from Edward
+[1:24:09.280 --> 1:24:16.400]  Tuff. Really, really great. Everything you need, all there in one platform. If you don't have any
+[1:24:16.400 --> 1:24:24.160]  kind of coding, well, skill, that's okay. You can go from signing up to having your completely
+[1:24:24.160 --> 1:24:28.800]  launched and perfect looking website all in one. If you do have coding skill, there's all sorts
+[1:24:28.800 --> 1:24:32.000]  of places where you can get in there and customize it to your heart's content.
+[1:24:33.360 --> 1:24:37.040]  Here's the thing. I just don't even get this. Doesn't make any sense to me. All of this
+[1:24:38.240 --> 1:24:43.680]  starts at just eight bucks a month. And if you sign up for a year in advance, you get a free domain
+[1:24:43.680 --> 1:24:49.120]  name. I don't know how they provide all this. They've got great support 24 hours a day,
+[1:24:49.120 --> 1:24:56.240]  seven days a week, 365 days a year. You just get on there and you can open up a chat with customer
+[1:24:56.240 --> 1:25:00.720]  support agents. The way they do it to get it 24 seven is they have some some in New York,
+[1:25:00.720 --> 1:25:05.840]  some over in Ireland and some out in Portland, I think, so that spreads it all around the world
+[1:25:05.840 --> 1:25:10.720]  different time zones. If you have a website that you want to make, if you have a website you
+[1:25:10.720 --> 1:25:15.760]  already have that you're not happy with the way it's hosted. Give them a try. You get a free trial,
+[1:25:15.760 --> 1:25:20.880]  no credit card required. Just go to squarespace.com. And when you sign up to pay,
+[1:25:20.880 --> 1:25:27.120]  here's the new code, Gruber, my last name, GRUBR, and you get 10% off. Use that code,
+[1:25:27.120 --> 1:25:32.080]  my last name, Gruber, and you'll save 10% off. So go there, sign up for your free account.
+[1:25:32.080 --> 1:25:41.200]  If we trial and go try squarespace, it can't recommend them highly enough. So iOS 9, we
+[1:25:41.200 --> 1:25:44.080]  were talking about proactive. That doesn't sound like a name that they would use.
+[1:25:44.960 --> 1:25:49.840]  No, especially with the acne cream with the same name, maybe it's just an internal thing.
+[1:25:50.640 --> 1:25:54.480]  Yeah, you never know, though. It's very hard to predict the product marketing stuff and it
+[1:25:54.480 --> 1:25:59.760]  tends to be the tightest kept secret. Probably because they can just change it at the last minute.
+[1:25:59.760 --> 1:26:04.400]  Right. All right. What else is on the agenda for iOS 9?
+[1:26:05.280 --> 1:26:12.240]  iOS 9. Some minor things are on the edges. So they've been testing a new feature for
+[1:26:12.240 --> 1:26:17.920]  iMessage where you can set read receipts per contact. So if I want messages sent to you
+[1:26:19.440 --> 1:26:24.640]  for you to know that if they've been read, that's fine. But if I don't want my parents to see
+[1:26:24.640 --> 1:26:30.240]  that I've read their messages, I can turn that off. Right. That makes a lot of sense.
+[1:26:31.600 --> 1:26:34.240]  That also makes me think that they're using it a lot internally.
+[1:26:34.880 --> 1:26:40.240]  Yeah, perhaps also, oh, this is maybe to your point about internal usage. They're also testing
+[1:26:41.040 --> 1:26:46.880]  read receipts for group chats. So you can see who in a chat has read each message.
+[1:26:48.080 --> 1:26:53.600]  Yeah, that makes sense too. Same thing. Yeah, same probably the same infrastructure deal there.
+[1:26:53.600 --> 1:26:59.840]  Yeah. Force touch support. Obviously, they want to announce that on Monday, but
+[1:26:59.840 --> 1:27:05.840]  right means that the success will have force touch. I'm sure they'll be a developer API for
+[1:27:05.840 --> 1:27:13.040]  that as well. Yeah, but I wonder, and I wonder if that's the sort of thing that will, I'm guessing
+[1:27:13.040 --> 1:27:19.520]  no, but it's, you know, obviously they're not going to talk about it. Right. But will it be in the beta
+[1:27:19.520 --> 1:27:24.080]  builds? Will it, will be people be able to look at it? I guess is no. I think they're,
+[1:27:24.080 --> 1:27:31.680]  I'm sure someone will find it hidden deep down. Um, try to think, oh, I'm the, the home kit app.
+[1:27:31.680 --> 1:27:37.040]  So a new app, at least, we're playing this now that they have home kit accessories in the market,
+[1:27:37.040 --> 1:27:41.280]  which just happened to come out this past week, you'll be able to set up install,
+[1:27:41.920 --> 1:27:48.080]  organize through virtual rooms, your home kit setups. So hmm, that's an interesting app.
+[1:27:48.080 --> 1:27:56.240]  They have home and then home kit health health kit and all that. I wonder how much home kit stuff
+[1:27:56.240 --> 1:28:02.080]  they're going to have to announce next week. Yeah, that's another one where where the word that I'd
+[1:28:02.080 --> 1:28:08.480]  understood was that it was sort of tied to that new Apple TV that the Apple TV would be the hub
+[1:28:09.200 --> 1:28:15.280]  for that sort of thing. Oh, right. Right. Yeah, I did hear that as well. And if they don't have
+[1:28:15.280 --> 1:28:21.360]  the Apple TV, I don't know what that means from kid, even though they're already out, you know,
+[1:28:21.360 --> 1:28:26.640]  publicly with that the first home kit products are, you know, shipping imminently and stuff like that.
+[1:28:27.440 --> 1:28:32.000]  It'll be interesting to see. Uh, also on the iPad, it sounds like split screen apps were finally
+[1:28:32.000 --> 1:28:38.000]  ready. Yeah, I saw that. And I'm curious that that's not like a thing that they held for new
+[1:28:38.000 --> 1:28:42.640]  hardware and that they might announce it next week. Oh, they, they may be holding it for new
+[1:28:42.640 --> 1:28:48.640]  hardware, but, but you're saying it's definitely in the, it's in the OS. Right. So they might not
+[1:28:48.640 --> 1:28:53.600]  announce it. It might not be in the betas, but they're working on it with the OS. Another thing is
+[1:28:54.320 --> 1:29:01.840]  multi users on the iPad. That for sure isn't ready for 9.0, but they are working on that too.
+[1:29:02.240 --> 1:29:09.120]  So maybe you know, is it true multi user support like like if, if, let's say somebody and their spouse
+[1:29:09.120 --> 1:29:16.400]  both share an iPad and that they could, you know, person A can use it and then when they put it
+[1:29:16.400 --> 1:29:22.480]  down, their spouse can pick it up and switch and then it'll like, you know, do something and then
+[1:29:22.480 --> 1:29:28.560]  it's completely the other person's iPad or is it just like a guest account? No, no, no, no, it's
+[1:29:28.560 --> 1:29:33.680]  true multi user on a Mac with different home directories and all that. Of course the user can't
+[1:29:33.680 --> 1:29:39.200]  see home directories in iOS, but in terms of the infrastructure and the fundamentals of it,
+[1:29:39.200 --> 1:29:45.840]  it's just like on the Mac from what I understand. All right, let's see if I still got a little
+[1:29:45.840 --> 1:29:53.520]  game left. All right, what about this? Have you heard anything about in iOS getting a dedicated iCloud
+[1:29:53.520 --> 1:30:02.000]  drive app? Yes, that there was a dedicated iCloud drive app, but I'm not sure if that's internal
+[1:30:02.000 --> 1:30:08.320]  only or if it's going to be released. The last person I talked to said they didn't see an iCloud
+[1:30:08.320 --> 1:30:13.920]  drive app on the iOS 9 build they were using. So maybe it's an app store download, you have to
+[1:30:13.920 --> 1:30:20.480]  be in settings, but for sure they have one in usage internally and able to be used and ready to go.
+[1:30:20.480 --> 1:30:25.920]  In fact, I'm surprised they didn't have an iCloud drive app released with iCloud drive last year,
+[1:30:25.920 --> 1:30:31.120]  but I wouldn't be surprised by an iCloud drive app at all. Right, which should probably be the
+[1:30:31.120 --> 1:30:35.920]  closest that iOS is ever going to get to having a finder. Yeah, I'd agree with that.
+[1:30:35.920 --> 1:30:41.920]  Right, instead of access to the file system, it's you get the access to this abstract file
+[1:30:41.920 --> 1:30:48.880]  system, which isn't really the file system. It's you know, like Dropbox, right, sort of or like in
+[1:30:50.560 --> 1:30:56.160]  in the finder, if you were just limited to the iCloud drive source list item. Right, it'll be
+[1:30:56.160 --> 1:31:01.040]  interesting to see. I mean, even thinking about myself right now, I use Dropbox. If they had a
+[1:31:01.040 --> 1:31:07.680]  full-fledged iOS app, I'd absolutely consider switching to iCloud drive. Yeah, because why
+[1:31:08.880 --> 1:31:12.640]  why duplicate right now? Let me tell you why I think that you could be right on this iCloud
+[1:31:12.640 --> 1:31:19.360]  drive app if you were implying that you had heard this. They are kind of going to be pushing iCloud
+[1:31:19.360 --> 1:31:27.600]  drive more as a service as in right now, the nodes app in the calendar app and all that uses an
+[1:31:27.600 --> 1:31:33.440]  iMap infrastructure through iCloud for syncing with your devices. But what they're wanting to do
+[1:31:33.440 --> 1:31:39.280]  is remove that and turn notes and calendar reminders into what they're calling iCloud
+[1:31:39.280 --> 1:31:47.120]  drive apps. So when you launch notes on iOS 9 or OS 10 10.11, it'll say, would you like to
+[1:31:47.120 --> 1:31:52.320]  transition your data over to iCloud drive? Now iCloud drive, obviously, they have more control over
+[1:31:52.320 --> 1:31:57.360]  it. It's more secure. It goes back to the privacy and security stuff we talked about. And also,
+[1:31:57.360 --> 1:32:02.000]  it's probably quicker than iMap syncing. So I think it's gotta be clear. If it's not quicker
+[1:32:02.000 --> 1:32:08.640]  than iMap, then they've got a real problem. iMap is not a quick syncing protocol. So there
+[1:32:08.640 --> 1:32:14.800]  could be a big iCloud drive portion then there. Yeah, and it's interesting. And it's always hard
+[1:32:14.800 --> 1:32:21.200]  to migrate. Because I can see why I can see why that when you launch it, they ask because it's
+[1:32:21.200 --> 1:32:26.720]  a big deal. Right. But the thing is now, and notes is the one near and dear to my heart as, you know,
+[1:32:26.720 --> 1:32:33.760]  the part of the developers behind vesper, I know just how bad iMap is as a note-syncing protocol.
+[1:32:33.760 --> 1:32:40.800]  And they've done what I think is the noble thing and allowed you for years to pick any of your
+[1:32:40.800 --> 1:32:46.000]  iMap accounts to be one of, you know, it's an option with every iMap account you set up. Do you
+[1:32:46.000 --> 1:32:51.040]  want notes to use this to? Right. And then they set up a secret mailbox called notes and
+[1:32:51.040 --> 1:32:56.080]  it's actually a mailbox on your mail account that Apple Mail is smart enough not to show you,
+[1:32:56.800 --> 1:33:01.520]  but the notes are all iMap messages. And it's behind the scenes, it's really a mess because iMap
+[1:33:01.520 --> 1:33:06.160]  was never meant to do that. Messages aren't meant to be read right. Some email systems get
+[1:33:06.160 --> 1:33:12.720]  screwed up. And as anybody who's ever had anything to do with email development or API's
+[1:33:12.720 --> 1:33:20.240]  notes, iMap server A and iMap server B never speak quite the same dialect of iMap. So notes is trying
+[1:33:20.240 --> 1:33:28.160]  to, you know, like a like a babblefish type thing and treat all these iMap things as
+[1:33:28.160 --> 1:33:33.040]  equivalent back ends when they're not. Right. So I guess this serves to fix all that and it could
+[1:33:33.040 --> 1:33:39.040]  be a bigger deal than what it would be. Yeah, it should. If you switch, I would switch immediately.
+[1:33:39.040 --> 1:33:43.680]  Yeah, absolutely. And it should make anything that you switched that way. What else is it besides
+[1:33:43.680 --> 1:33:50.880]  notes? I heard notes is the big one that that's the one that they really focused on,
+[1:33:50.880 --> 1:33:58.480]  but assuming that the other wanting to get this across the board is a service, notes,
+[1:33:58.480 --> 1:34:04.000]  reminders, contacts, and calendars would all be part of it. Well, what does reminders
+[1:34:04.000 --> 1:34:10.080]  is now? Is reminders iMap-based? I think it is. I'm not 100% sure. I don't know. Or even if it's
+[1:34:10.080 --> 1:34:15.760]  not, it's probably not using iCloud Drive, which is right. It's like a directional shift to
+[1:34:15.760 --> 1:34:21.280]  positioning iCloud Drive as the service for storing all the data now. Maybe some more developer
+[1:34:21.280 --> 1:34:29.200]  enhancements to that as well. No. The other benefit to this is it's always good when Apple is dog
+[1:34:29.200 --> 1:34:37.760]  food in its own iCloud stuff because it means that any kind of bugs or even if it's on a bug,
+[1:34:37.760 --> 1:34:42.480]  even if it's like, well, when you do this, it's actually kind of slow makes it way more likely
+[1:34:42.480 --> 1:34:47.920]  that it's going to get a higher priority to be addressed because quite frankly, Apple cares more
+[1:34:47.920 --> 1:34:52.480]  about their own stuff than they do everybody else's. Right. Another big thing. I don't know if
+[1:34:52.480 --> 1:34:59.680]  this interest most consumers, but big changes to Swift. So, you know, right now, this is not very
+[1:34:59.680 --> 1:35:04.560]  well known. Everyone hears the term Swift. Swift is Apple's new thing. But as you probably know,
+[1:35:04.560 --> 1:35:10.480]  iOS is not written in Swift. The Apple's native apps. They're not Swift apps. They're still
+[1:35:10.480 --> 1:35:17.440]  long objective C because Swift is still on its early stages. But I believe that on one day,
+[1:35:17.440 --> 1:35:22.400]  they're going to announce that Swift is moving into stage two, that it's meeting a new level
+[1:35:22.400 --> 1:35:27.840]  of stability where Apple's actually going to pre-install the Swift programming libraries into
+[1:35:27.840 --> 1:35:33.760]  iOS 9. So, developers could write Swift apps and not have to include the Swift libraries in
+[1:35:33.760 --> 1:35:40.400]  each of their binaries, which means that the OS will make app downloads for new iOS 9 apps
+[1:35:40.400 --> 1:35:47.440]  about 10 megabytes smaller or 8 megabytes smaller on average. And let's say you have 10, you know,
+[1:35:47.440 --> 1:35:53.840]  Swift apps on your iOS 8 phone. That's about 80 megabytes back, which is great for people on smaller
+[1:35:53.840 --> 1:36:02.640]  storage sizes. And then next year with iOS 10 and 10.12, they're hoping to hit like 3.0 and
+[1:36:02.640 --> 1:36:07.280]  ship their own apps written in Swift. So, that's going to be a major transition next year if they
+[1:36:07.280 --> 1:36:13.120]  stick to that pace. If they hit that, that's actually, you know, for anybody who's not a programmer
+[1:36:13.120 --> 1:36:17.920]  and doesn't understand just how deep Apple's roots with objective C goes. If they started shipping
+[1:36:18.560 --> 1:36:27.440]  Apple first party apps written in Swift in 2016, that's startlingly fast. Really, really, really
+[1:36:27.440 --> 1:36:32.560]  would be. I think even last year, everybody was blown away by the announcement of Swift and the
+[1:36:32.560 --> 1:36:37.520]  keynote. Even then, though, I think most people's best case scenario was three or four years out.
+[1:36:37.520 --> 1:36:42.880]  Yeah, I guess playing could change, but yeah. No, I've heard the same thing about the
+[1:36:42.880 --> 1:36:50.800]  libraries being built into the OS. And I think that there's two explanations for that. And I could be,
+[1:36:50.800 --> 1:36:56.240]  I think I'm right on both parts. But I think one of them is that Swift was developed in secret
+[1:36:56.240 --> 1:37:01.360]  and very few people knew about it before the keynote last year inside Apple. And so,
+[1:37:01.360 --> 1:37:07.520]  therefore, there was no way that no matter how stable it was when it debuted, there's no way that
+[1:37:07.520 --> 1:37:13.600]  it was going to make it into iOS 8. And number two, it wasn't that stable. It's a fast moving
+[1:37:13.600 --> 1:37:18.880]  target. They said so, you know, they did not over-promised, you know, they said, hey, some of the
+[1:37:18.880 --> 1:37:23.440]  stuff is going to change. You know, we're showing it to you now because we want it to change based
+[1:37:23.440 --> 1:37:29.120]  on the feedback we get from you guys outside. And so, because it was changing so fast,
+[1:37:29.120 --> 1:37:36.160]  I don't know that it was even feasible to include the libraries in the OS because if your app
+[1:37:36.160 --> 1:37:43.120]  was compiled against an earlier version of Swift from around September, and mine was compiled
+[1:37:43.120 --> 1:37:49.360]  with a newer version of Swift like the version 1.2, I think, which came out in February,
+[1:37:49.360 --> 1:37:54.160]  we need different libraries anyway. And so, yeah, you're exactly right, though, that every single
+[1:37:54.160 --> 1:37:59.920]  Swift app written to date includes the Swift libraries, you know, in the app bundle.
+[1:37:59.920 --> 1:38:05.440]  Right. It definitely adds up over wireless. I mean, when you're on cellular, right, yeah, that's
+[1:38:05.440 --> 1:38:13.040]  another big thing there. So, um, all part of the same quality, stability, overall level
+[1:38:13.040 --> 1:38:19.120]  improvements type of thing as well. Yeah, I definitely think so. Yeah, I, I don't know, you never
+[1:38:19.120 --> 1:38:23.280]  know. I mean, who knows what else going to be in the keynote and anything that I mean, all I know is
+[1:38:23.280 --> 1:38:28.480]  iOS 9 and OS 10. But I wouldn't be surprised if Swift made the keynote again and did not,
+[1:38:28.480 --> 1:38:33.120]  wasn't just relegated to the afternoon state of the platforms second keynote.
+[1:38:33.120 --> 1:38:37.840]  Right. Well, see, maybe they'll throw something up on the last slide that always do with the
+[1:38:37.840 --> 1:38:44.720]  the very small changes, smaller app downloads or something. First Swift apps. Yeah, maybe that's
+[1:38:44.720 --> 1:38:49.120]  certainly one way to make it compelling. Uh, who knows, you know, and, you know, the Swift team
+[1:38:49.120 --> 1:38:53.520]  was very secretive last year. And even though, you know, the, the public changes, there've been plenty
+[1:38:53.520 --> 1:38:57.200]  of them in the years since it's come out who knows what other secret stuff they've been working
+[1:38:57.200 --> 1:39:02.880]  on in terms of performance or something like that. Right. I mean, again, and it's so hard to say
+[1:39:02.880 --> 1:39:07.600]  because I know the conference is WWDC. And so ostensibly, the whole conference is about developers,
+[1:39:07.600 --> 1:39:12.640]  but let's share it that the Monday keynote is really a mass market Apple keynote.
+[1:39:12.640 --> 1:39:17.200]  Yeah. I mean, they're streaming it on their website. The whole album music thing. This again,
+[1:39:17.200 --> 1:39:22.560]  purely completely pulled out of my ass just, but it's just in terms of knowing what some of the
+[1:39:22.560 --> 1:39:27.920]  weak spots in Swift currently are. I know that debugging is a real weak spot. It's, it's not,
+[1:39:27.920 --> 1:39:32.480]  it's nothing. It has nothing like the apparatus that Objective C has for debugging. So if they
+[1:39:32.480 --> 1:39:40.720]  added awesome, amazing, you know, leaps ahead of Objective C develop debugging. Again, this might
+[1:39:40.720 --> 1:39:45.360]  make like the general press who are there watching the keynote be like, I don't know what that
+[1:39:45.360 --> 1:39:50.240]  means, but it's going to make the developers and the audience go nuts. They did a pretty good job
+[1:39:50.240 --> 1:39:55.680]  with that last year of trying to spin the developer or into announcements through consumer focus.
+[1:39:55.680 --> 1:40:00.080]  So like when they had the whole developer portion of the keynote, they really focused on high
+[1:40:00.080 --> 1:40:06.960]  level stuff, such as like the touch ID API, media could understand that. Yeah. But in like the
+[1:40:06.960 --> 1:40:12.880]  cool graphics, they show the Swift demo. So what else did iOS 9 new keyboard, better legacy device,
+[1:40:12.880 --> 1:40:19.040]  port? What do you know? What have you heard about that? Now that's something that I guess you
+[1:40:19.040 --> 1:40:26.000]  reported on that they're targeting a five, right? Okay. So when they traditionally created a new
+[1:40:26.000 --> 1:40:31.600]  iOS update, they would like test all the features and all the devices they wanted to support
+[1:40:31.600 --> 1:40:36.720]  and then pick apart features that didn't work well on the older hardware. And that's kind of why
+[1:40:36.720 --> 1:40:42.720]  older iPhones got bloated and stale and sluggish. This year, they're targeting at least the
+[1:40:42.720 --> 1:40:49.920]  iPhone 4S and iPad mini specifically to instead of throwing all the features on those from iOS
+[1:40:49.920 --> 1:40:55.600]  9 and then picking it apart, they're adding features one by one on top of the OS.
+[1:40:56.400 --> 1:41:02.320]  So on those older devices, it should still be much faster than even iOS 8. So
+[1:41:02.320 --> 1:41:12.560]  it goes far to say is iOS 9 will make iPad mini's iPhone 4S's on older OS's even faster. So that
+[1:41:12.560 --> 1:41:20.880]  sounds like a common sense, like it just sounds like well duh, but there's no doubt if that's true,
+[1:41:20.880 --> 1:41:28.880]  that is a seriously different strategy that they pursued. And in my opinion, extremely welcome.
+[1:41:28.880 --> 1:41:32.640]  I mean, for me personally, it's irrelevant because I'm an idiot and I buy a new iPhone every year.
+[1:41:34.480 --> 1:41:39.840]  As an observer of the company and as somebody who, you know, I always try to stay out of it,
+[1:41:39.840 --> 1:41:43.680]  like when family members like, should I go to a new iPhone or what computers are about? And I try
+[1:41:43.680 --> 1:41:48.640]  to be like, ask somebody else. Because I feel like it's like a, you break it, you bought it, like
+[1:41:48.640 --> 1:41:52.960]  you try to buy a MacBook Air and then you're on the hook for all the tech support going forward.
+[1:41:52.960 --> 1:41:57.200]  Exactly. But I hear it, you know what I mean? It's like, I don't know. I don't know. What do you say
+[1:41:57.200 --> 1:42:03.840]  to somebody who is like, you know, like somebody in your family who's like, I don't know. My iPhone
+[1:42:03.840 --> 1:42:08.800]  said I had an update and I said, okay, and then 10 minutes later, and now my iPhone is slow. And it's
+[1:42:08.800 --> 1:42:13.840]  like, well, that sucks. They're going to need to spend some time changing the narrative on that.
+[1:42:13.840 --> 1:42:18.480]  Because even with the people who don't follow Apple closely, there is this narrative going around
+[1:42:18.480 --> 1:42:23.920]  and like the mass market that iPhone updates screw with your phone. People don't want to update.
+[1:42:23.920 --> 1:42:29.200]  And so I think with this WWDC, they're going to have to step back and really promote the new
+[1:42:29.200 --> 1:42:33.600]  S as being a big quality and performance leap. And I think that's exactly what they're going to do.
+[1:42:34.320 --> 1:42:40.480]  Yeah. And I think that that's one of those things where Apple gets and it's this, the recent,
+[1:42:40.480 --> 1:42:49.280]  you know, thawing in the post Katie Cotton PR Apple, you know, and the sort of, you know,
+[1:42:49.280 --> 1:42:55.360]  maybe you wouldn't call them open, but they're opener. Sure. And they were that they're
+[1:42:55.360 --> 1:43:03.280]  sort of trying to get past that, which is that in the past, it was very easy to mistake their
+[1:43:03.280 --> 1:43:10.240]  complete and utter silence for ambivalence, whereas they might care very deeply about something,
+[1:43:10.240 --> 1:43:13.680]  but they're still not going to say anything. And you can't, how can you tell from the outside?
+[1:43:13.680 --> 1:43:19.760]  And I think that that's one, this might be one of those things where they've been they're aware
+[1:43:19.760 --> 1:43:23.520]  of the criticism, they're aware of the problem, not just the criticism, but they're aware that
+[1:43:23.520 --> 1:43:26.800]  it's a legitimate problem. And now they're doing something about it.
+[1:43:26.800 --> 1:43:31.120]  Right. And they were, of course, aware of this before, you know, it was written about like,
+[1:43:31.120 --> 1:43:35.680]  I know you were one of the first people to really highlight the, the bugs, right, earlier this
+[1:43:35.680 --> 1:43:41.360]  year in iOS 8, you know, 70 talking about that. But, you know, of course, engineers have been
+[1:43:41.360 --> 1:43:47.440]  pushing for a step back like this for a while, but apples really governed by marketing, right?
+[1:43:47.440 --> 1:43:58.160]  So, no, well, in perception, you know, and so, um, while we're on that subject, what about this
+[1:43:58.160 --> 1:44:06.480]  whole crazy discovery D thing? Yeah, I heard anything about that. Uh, yes, I did hear something about
+[1:44:06.480 --> 1:44:14.160]  that, the backstory, but I don't remember what I was told something about it being a mistake
+[1:44:15.280 --> 1:44:20.480]  that that wasn't the plan initially. I don't know, I have to go back and look, but I know that
+[1:44:20.480 --> 1:44:24.480]  they knew this was a problem. They wanted to fix it. What have you heard when I try to think about
+[1:44:24.480 --> 1:44:30.880]  this? Well, I rehashing a little bit from last week's show with her name, but it's what I've heard
+[1:44:30.880 --> 1:44:38.560]  is that it's become a whipping boy internally. And as it is, A, it is a bad piece of software
+[1:44:38.560 --> 1:44:42.400]  at the moment. Now, that doesn't mean it's unfixable. It just means it shouldn't have shipped
+[1:44:42.400 --> 1:44:47.600]  when it did. It should not have replaced M DNS responder yet. And the assumption that so many
+[1:44:47.600 --> 1:44:54.000]  people had on the outside was that, okay, this clearly this piece of software discovery D is buggy,
+[1:44:54.720 --> 1:45:00.240]  but they must have shipped it because these continuity features must have depended on it,
+[1:45:00.240 --> 1:45:04.640]  and they had to, you know, these continuity features were a tent pole, so they had to ship
+[1:45:04.640 --> 1:45:09.760]  discovery D when they did ready or not. And then it turns out that these, you know, the third
+[1:45:09.760 --> 1:45:16.240]  party people, the sort of hacker crowd who figured out, hey, if you put in M DNS responder from
+[1:45:16.240 --> 1:45:27.200]  macOS 10.8 or 10.9 and disable discovery D, everything still works. And the bugs from discovery
+[1:45:27.200 --> 1:45:31.680]  D go away and your printer doesn't disappear after a week and your Apple TV doesn't get renamed
+[1:45:31.680 --> 1:45:36.080]  Apple TV three. And again, like I said to Renee, I would never recommend that. I'm too old for that.
+[1:45:36.080 --> 1:45:39.760]  That's the sort of, you know, following advice like that is a sort of stuff. That's a young man's
+[1:45:39.760 --> 1:45:46.960]  game in my opinion. But it turns out with the latest, you know, that's exactly what Apple has done.
+[1:45:46.960 --> 1:45:51.760]  Now, you know, in a more official format and with more rigorous, you know, QA and stuff like that.
+[1:45:51.760 --> 1:45:56.320]  But more or less, they've just taken it and which raises the question of how to, if it wasn't
+[1:45:56.320 --> 1:46:00.720]  needed for those continuity features, how, how did discovery D get through in the first place?
+[1:46:00.720 --> 1:46:08.400]  So yeah, I just remembered, similar to what you said, what I heard was that the guy in charge of the
+[1:46:08.400 --> 1:46:15.280]  M DNS responder left Apple or retired was moved off the project. And then the airport hardware
+[1:46:15.280 --> 1:46:22.160]  team and the airport utility software team somehow inherited that whole infrastructure. And they
+[1:46:22.160 --> 1:46:27.760]  made the change because they weren't under great direction. And then when stuff hit the fan
+[1:46:27.760 --> 1:46:32.640]  about that earlier this year, then they realized they had to change it back with the software.
+[1:46:32.640 --> 1:46:37.600]  Right. And I, again, I don't know anything about the internals of M DNS responder and discovery D,
+[1:46:37.600 --> 1:46:42.560]  but I can imagine though that maybe MD and that's maybe there's like a theory that M DNS responder
+[1:46:42.560 --> 1:46:46.640]  is old code. It's been there forever. Maybe I don't know who knows. Maybe even dates back to the
+[1:46:46.640 --> 1:46:53.680]  next era. And it's built up over time and is therefore sort of an ugly, ugly, but it works type
+[1:46:53.680 --> 1:46:59.120]  thing. And that discovery D was, hey, let's start all over and make something beautiful and modern
+[1:46:59.760 --> 1:47:05.920]  and elegant. And, you know, a lot of times those things that sound like a good idea that involved
+[1:47:05.920 --> 1:47:11.520]  let's start over or not and turn up not being good ideas. That's my guess is what happened is that
+[1:47:11.520 --> 1:47:17.920]  somebody looked at M DNS responders code and thought, this is a mess. It's too big. It's convoluted.
+[1:47:18.560 --> 1:47:22.480]  We can replace this with something smaller and more elegant. And if it had worked, it would have
+[1:47:22.480 --> 1:47:28.400]  been a great idea. And it's the promise that it didn't. But I have heard though that internally
+[1:47:28.400 --> 1:47:35.200]  though that it became a whipping boy and took on internally was deemed as being largely responsible
+[1:47:35.200 --> 1:47:43.760]  for this whole, hey, Yosemite is an unstable release of the OS. And instead internally it was
+[1:47:43.760 --> 1:47:49.200]  chalked up to, it's not Yosemite's problem. It's discovery D's problem. And that politically,
+[1:47:49.200 --> 1:47:52.160]  you know, you don't really want to be the guy in charge of discovery D right now.
+[1:47:55.760 --> 1:47:59.600]  We'll see if they come out on stage and it's funny because we're not him.
+[1:47:59.600 --> 1:48:06.560]  Right, exactly. We wouldn't be laughing. All right, let me take one last break. I have one
+[1:48:06.560 --> 1:48:12.720]  more sponsor to thank and it is our good friends, really good friends of the show at Igloo.
+[1:48:12.720 --> 1:48:18.880]  You guys know Igloo. They make the internet that you will actually like. You sign up for Igloo,
+[1:48:18.880 --> 1:48:23.680]  you get an internet, private internet for your team and you can do things like share news,
+[1:48:23.680 --> 1:48:31.200]  organize your files, share files, coordinate calendars, manage projects and to-do's, that sort of
+[1:48:31.200 --> 1:48:37.200]  thing all in one place. You guys set up little micro blogs so you can have like the equivalent of
+[1:48:37.200 --> 1:48:42.000]  Twitter, but just for your internal team. We're a great little place where you can have a little
+[1:48:42.000 --> 1:48:45.920]  chronological thing just like tweets where you share links, little comments, stuff like that.
+[1:48:47.040 --> 1:48:52.880]  They're latest upgrade. They call it Viking revolves around documents and how you interact with them.
+[1:48:52.880 --> 1:48:58.800]  They really beefed up the ability to share documents, gather feedback, make changes. They've even
+[1:48:58.800 --> 1:49:04.880]  added the ability, speaking of read receipts for I message, Igloo has read receipts now for
+[1:49:04.880 --> 1:49:09.760]  documents that you've shared. So if there's a document that certain people on your team absolutely
+[1:49:09.760 --> 1:49:14.000]  have to see or have to sign off on, they've got the ability now. You can market where you'll receive
+[1:49:14.000 --> 1:49:18.800]  a read receipt from the critical people on the team who have to see it. It's just like read
+[1:49:18.800 --> 1:49:23.280]  receipts for email or iMessage or something like that. Not annoying because it's your own private team,
+[1:49:23.280 --> 1:49:26.720]  you're not getting them from everybody external. It's just a little thing for your team.
+[1:49:28.000 --> 1:49:32.800]  If your company, if your company or team has a legacy internet, something that you're using,
+[1:49:32.800 --> 1:49:37.440]  that looks like it was built in the 90s. And if you have an internet, it almost certainly was
+[1:49:37.440 --> 1:49:41.040]  something like SharePoint or something like that that probably was built in the 90s,
+[1:49:41.600 --> 1:49:48.560]  you should give Igloo a try. Here's what you do. Go to their soft, go to their website. Igloo
+[1:49:48.560 --> 1:49:57.760]  software.com slash the talk show. Igloo software.com slash the talk show. You'll get a free trial
+[1:49:58.720 --> 1:50:03.440]  and if your team is 10 people or under it, you can just use it free indefinitely. Just use it
+[1:50:03.440 --> 1:50:09.760]  for free. That's it. And then if you have more than 10 people, their prices are amazingly low per
+[1:50:09.760 --> 1:50:15.680]  person over 10. So go to Igloo software.com. If you have a team, you need to coordinate all the
+[1:50:15.680 --> 1:50:19.920]  stuff that teams need to do. Go there, check them out. My thanks to them. Great friends of the
+[1:50:19.920 --> 1:50:24.240]  show. Lots and lots of readers have signed up for this and have written to say just how much
+[1:50:24.240 --> 1:50:29.520]  they love Igloo. So that my thanks to Igloo. All right. What else we got before we
+[1:50:29.520 --> 1:50:35.520]  sign off for the for the episode? New keyboard, but I don't know much about that. What do you
+[1:50:35.520 --> 1:50:38.560]  what have you heard? I don't know anything about it. Nothing. Not a
+[1:50:38.560 --> 1:50:45.360]  big change. Hopefully it's just a fixed shift key. That's their fixed shift key. Yeah. Yeah,
+[1:50:45.360 --> 1:50:51.440]  it's it's funny, but like the D&S guy or Discovery D guys, it's not funny for them.
+[1:50:54.400 --> 1:50:58.960]  They did fix it a little bit. I find that whatever they did when they made it go wide, I guess
+[1:50:58.960 --> 1:51:03.520]  they fixed it and they broke it and they fixed it again. Yeah, I still don't know why they don't
+[1:51:03.520 --> 1:51:10.800]  just make it blue. Yeah. Like the blue to me. Like I just don't get that because the to me when
+[1:51:10.800 --> 1:51:17.520]  when the arrow went blue and shift was engaged was so unambiguous that nobody I never even had to
+[1:51:17.520 --> 1:51:21.280]  think about it. It's like I never even in the early years of iOS and never even occurred to me that
+[1:51:21.280 --> 1:51:25.680]  there was something to think about there. Right. Exactly. Like and to me, that's the hallmark of all
+[1:51:25.680 --> 1:51:30.800]  good design is all good design. It took tons of good thinking and tons of work and prototypes
+[1:51:30.800 --> 1:51:36.480]  to result in a thing that when you use it looks like it wasn't designed at all. Yeah. Whereas the
+[1:51:36.480 --> 1:51:47.200]  iOS 7 shift key was screamed. I was designed by somebody. Exactly. Who thought they were very clever.
+[1:51:48.880 --> 1:51:53.360]  No, I haven't heard anything about new keyboard. I haven't heard that much. Honestly, I don't really
+[1:51:53.360 --> 1:51:57.840]  I don't really know much. I know everything. I know comes from New Mark. Well, I'm happy to hear
+[1:51:57.840 --> 1:52:04.160]  them all right. I think you're pretty good. We should talk to them before we go. That's talk
+[1:52:04.160 --> 1:52:09.120]  to wrap the show. Unless you have something else for WWDC. I mean, we didn't really talk about the
+[1:52:09.120 --> 1:52:14.240]  Apple music stuff, but that's pretty straightforward, I guess. Yeah. And that stuff leaks like a
+[1:52:14.240 --> 1:52:20.240]  sieve because the media companies in general are blabber mouths like the TV companies,
+[1:52:20.240 --> 1:52:25.040]  but the music companies are the worst. The music companies, it's like you can practically,
+[1:52:25.040 --> 1:52:30.480]  it's like, Eddie Q isn't even out the door and they're calling people in the media to talk
+[1:52:30.480 --> 1:52:34.560]  about the meeting that they just had. Yeah. Yeah. Or he's at a Warriors game and they're sitting
+[1:52:34.560 --> 1:52:42.000]  right next to him. I still, I still, I cannot wait to see if he's at the game Sunday night. Yeah.
+[1:52:46.000 --> 1:52:50.000]  If you don't have anything else, though, I would just, you know, it's just briefly let's go back
+[1:52:50.000 --> 1:52:56.480]  a couple months and talk about the big feature profile you wrote. I guess it was last year on
+[1:52:56.480 --> 1:53:04.800]  Apple PR. Okay. Which was, I thought, you know, and there was, I have to admit, when you wrote
+[1:53:04.800 --> 1:53:10.480]  it, there, you know, behind the scenes, you know, that in my world, there, it definitely raised
+[1:53:10.480 --> 1:53:18.640]  a lot of discussion and the consensus. It was that you were half right in a lot of it in ways
+[1:53:18.640 --> 1:53:24.560]  that nobody had ever written about before, which is mainly because Apple PR doesn't want you
+[1:53:24.560 --> 1:53:31.840]  writing about the way Apple PR works. And there is a little bit of, you got to play ball and you don't,
+[1:53:32.480 --> 1:53:37.600]  you know, almost every interaction that I have with Apple PR is off the record, not for
+[1:53:37.600 --> 1:53:42.560]  attribution, whatever you want to call it. Right. And so therefore writing about those
+[1:53:42.560 --> 1:53:48.000]  machinations would there be, therefore be a violation of what I've agreed to and therefore
+[1:53:48.000 --> 1:53:52.960]  I don't write about it. Right. I'm not hiding it. It's, you know, it is what it is. And if, you know,
+[1:53:52.960 --> 1:53:57.200]  and if I felt otherwise, then I wouldn't agree to it in the first place. And a lot of the stuff
+[1:53:57.200 --> 1:54:03.040]  that you wrote about in your piece was accurate in that way. Then there was a quarter of it,
+[1:54:03.040 --> 1:54:08.880]  I would say that was, I don't know. I don't know. I don't even know what to say about it because I
+[1:54:08.880 --> 1:54:12.320]  just don't know. Could be right, could be wrong. And then there was another quarter of it,
+[1:54:12.320 --> 1:54:18.720]  I would say where I think you were wrong. Okay. So what's quarter of it? I don't remember specifically
+[1:54:18.720 --> 1:54:28.960]  if you talked about it. Or I think that you're take on how they do review units was wrong. Okay.
+[1:54:29.840 --> 1:54:36.240]  And obviously this is a little bit self-serving. And so, you know, anybody, both you and anybody
+[1:54:36.240 --> 1:54:41.280]  listening feel free to take it, you know, with your eyes rolled or with the big grain of salt
+[1:54:41.280 --> 1:54:46.000]  because obviously it's, it, I don't want to come across as defensive, but you can obviously see
+[1:54:46.000 --> 1:54:50.640]  how it might be. But not to put words in your mouth, but, or in your piece, but the gist of it was
+[1:54:50.640 --> 1:55:00.160]  that your take was that they seed review units to known friendly outlets. That's fair to say.
+[1:55:00.160 --> 1:55:04.800]  Yeah. Right. I don't think that's true. And in fact, I think I can think of some counter examples
+[1:55:04.800 --> 1:55:10.080]  where they seed them to people who they, I think, know are actually sort of not friendly.
+[1:55:10.080 --> 1:55:14.960]  And I would file, for example, the verge under that. And I wouldn't say the verge is hostile.
+[1:55:14.960 --> 1:55:20.240]  And I know that the verge is under has the most bizarre readership possible, where half of their
+[1:55:20.240 --> 1:55:26.640]  readers think that they are in the bag for Apple. And other half think that they're the worst
+[1:55:26.640 --> 1:55:32.560]  anti-Apple agitators on the entire internet. Right. And it's very bizarre to me. But I would say
+[1:55:32.560 --> 1:55:37.600]  that the verge, for example, I, and I think to placate the half that thinks that they're in a bag
+[1:55:37.600 --> 1:55:44.160]  for Apple, that the verge consistently bends over backwards to great Apple on a curve that doesn't
+[1:55:44.160 --> 1:55:49.520]  apply to other devices and that if they, it's, and it's my, and the fact though, that they still
+[1:55:49.520 --> 1:55:55.680]  have top tier access to Apple reviewing that's, is proof to me that they don't really
+[1:55:56.560 --> 1:56:03.040]  seed out friendly reviewers. Well, I mean, my response to that now I don't want to say that I remember
+[1:56:03.040 --> 1:56:07.840]  my discussions with whoever I talked to you through. Correct. These profiles, however long ago this
+[1:56:07.840 --> 1:56:13.440]  was six, seven, eight, nine months ago. But if I remember correctly, Apple stopped giving the
+[1:56:13.440 --> 1:56:19.840]  verge review units. They did. There was the one that is true. And it was, so I don't think that
+[1:56:19.840 --> 1:56:24.640]  counter examples completely valid just to be there. It's a good point. That's an excellent point.
+[1:56:24.640 --> 1:56:32.640]  I forget when it was a 90% sure to Polsky was still there. And if I believe, I think it was two
+[1:56:32.640 --> 1:56:37.920]  years ago, you should have asked them last week. Yeah, I should have. I forgot about it. I think
+[1:56:37.920 --> 1:56:45.680]  it was two, two years ago that they didn't get early access to the phone. Right. And then they,
+[1:56:45.680 --> 1:56:53.040]  but they did get day before access. And so see, there's different tiers, right? There's the right
+[1:56:53.040 --> 1:56:57.520]  after the keynote or couple weeks in advance, which I believe that you've been traditionally a part
+[1:56:57.520 --> 1:57:03.440]  of the last few years. All right. Then there's the day before day of or couple days before.
+[1:57:04.240 --> 1:57:10.240]  And then there's the review units given after the products available. That's correct. I think that
+[1:57:10.240 --> 1:57:19.120]  there's three tiers. One, and to my knowledge, there's nobody, nobody on the, nobody is on a pre
+[1:57:20.240 --> 1:57:26.400]  keynote tier. Even Mossberg, who I would think would, if anybody would be a would be Mossberg.
+[1:57:26.400 --> 1:57:33.280]  And I think Pope Pope post New York Times is, I think, you know, he still gets, he's still on
+[1:57:33.280 --> 1:57:38.080]  tier one, but I, I think everybody would agree that since he's gone to Yahoo, he's lost a bit of
+[1:57:38.080 --> 1:57:45.920]  relevancy. Yeah, I don't want to speak negatively, but right. Right. It's, it's all caddy and inside
+[1:57:45.920 --> 1:57:50.720]  baseball, but it's, you know, just being trying to be as honest as I can. I think Mossberg is the
+[1:57:50.720 --> 1:57:58.560]  only one. It's not like it used to be, right? It used to be that Mossberg, Pope, Ed Beg, and Stephen
+[1:57:58.560 --> 1:58:02.720]  Levy while he was still at Newsweek that they're, they're the four who got the iPhone and nobody
+[1:58:02.720 --> 1:58:08.160]  else got the iPhone before the iPhone came out. Um, that there were only four reviewers who
+[1:58:08.160 --> 1:58:13.600]  mattered. And the world has changed greatly since then and Apple PR's perspective on this stuff
+[1:58:13.600 --> 1:58:17.680]  has changed greatly since then. But as of right now, I think you're correct that there's three tiers,
+[1:58:17.680 --> 1:58:27.120]  post keynote, uh, day or two before, which I think is largely the reason it's like a day or two is
+[1:58:27.120 --> 1:58:34.640]  that to my knowledge, uh, and again, I could be, I could be wrong about certain people, but I,
+[1:58:34.640 --> 1:58:40.080]  I've, I've never heard of an exception. Nobody ever gets a review unit of serious hardware,
+[1:58:40.080 --> 1:58:44.160]  something that that is worth being in a keynote. There are minor things that they might ship to,
+[1:58:44.160 --> 1:58:49.840]  to reviewers. Um, but if it's a flagship new product, the only way you can get a review unit
+[1:58:49.840 --> 1:58:55.440]  is to have a product briefing with Apple, sure, where they give, you know, to give it to you by hand
+[1:58:55.440 --> 1:59:02.800]  and tell you in a, you know, one to one or one to two, you know, whatever meeting, um, you know,
+[1:59:02.800 --> 1:59:08.160]  what they think about it and what their main points are about it. And therefore, with an expanded,
+[1:59:08.160 --> 1:59:13.440]  um, like I got the impression, and I don't know when everybody got Apple watches, but I got the
+[1:59:13.440 --> 1:59:17.840]  impression that like the second tier for the Apple watch was spread over two or three days, because
+[1:59:17.840 --> 1:59:22.160]  I think they gave them to so many people that there was no way that they could do it all like
+[1:59:23.120 --> 1:59:28.320]  two days before the watch came out like April 22nd. Some of the people got April 23rd because
+[1:59:28.320 --> 1:59:31.920]  they're just aren't, isn't that way to meet that many people with a briefing?
+[1:59:31.920 --> 1:59:36.640]  When did you get yours a week before? Yeah, like a week and a half before.
+[1:59:36.640 --> 1:59:44.480]  Okay, is that early a week and a half? It's normal for most products. A lot of the time,
+[1:59:44.480 --> 1:59:49.680]  you could, there's no, I don't even have to be secret. I get with a watch, I don't think I,
+[1:59:49.680 --> 1:59:54.160]  I think of the NDA, I can't say exactly when I got it, but it was roughly a week and a half.
+[1:59:54.160 --> 2:00:00.800]  Um, with most products, there's a keynote, right? So for example, when the phones come out,
+[2:00:00.800 --> 2:00:07.840]  uh, there's a keynote, you get your review unit after the keynote in a product briefing and then
+[2:00:07.840 --> 2:00:14.000]  the, the embargo is always like Wednesday. I always, I actually miss that. I don't know,
+[2:00:14.000 --> 2:00:18.000]  but the products, you don't sell those privateers. You wait till now. I try to. I try to.
+[2:00:18.000 --> 2:00:24.480]  I try to make that smart. I do. Uh, the bar goes usually like Wednesday, like like 48 hours
+[2:00:24.480 --> 2:00:30.720]  before they go on sale on Friday or pre ordered one start shipping. Um, so like I'm
+[2:00:30.720 --> 2:00:36.080]  Monday keynote or Tuesday keynote with a Wednesday embargo the next day. Usually it's
+[2:00:36.080 --> 2:00:40.080]  usually they're like eight or nine day periods. Yeah. And I think that some, I don't know,
+[2:00:40.080 --> 2:00:45.920]  I'd have to look at a calendar, but I think that the watch review units were eight or nine days,
+[2:00:47.360 --> 2:00:52.560]  which felt way too short. It felt to me like I had the watch for two days. It was like,
+[2:00:52.560 --> 2:00:57.280]  I have my watch here. It took time to get used to it to want to wear it to want to use it, you know,
+[2:00:57.280 --> 2:01:02.400]  so I said before and I'll say again, hardest, hardest review I've ever written. And I think it
+[2:01:02.400 --> 2:01:07.280]  stands up and I'm pretty proud of what I wrote, but it's the pieces I wrote later in the month.
+[2:01:07.280 --> 2:01:12.160]  I think are way more like relevant and like years from now when I look back at what I thought
+[2:01:12.160 --> 2:01:18.400]  of the original Apple watch, it's the, the further pieces I wrote weeks later, I think are more,
+[2:01:18.400 --> 2:01:24.000]  more telling. I think Apple did it themselves into service, uh, waiting until that short before launch
+[2:01:24.000 --> 2:01:28.320]  to give it to the viewers, but maybe that has to do with, uh, the software not being ready.
+[2:01:29.040 --> 2:01:33.600]  Yeah. I really am not sure about that. And I wonder how much they went back and forth on that.
+[2:01:33.600 --> 2:01:39.200]  And I think that they knew, I, I, in fact, just talk, talking to people at Apple, uh,
+[2:01:39.200 --> 2:01:48.640]  I know that they knew that it takes time to really get the, you know, to acclimate it to your life.
+[2:01:48.640 --> 2:01:53.120]  Like it really doesn't kick in until you stop thinking about it, honestly. And I know that sounds
+[2:01:53.120 --> 2:01:58.640]  stupid, but it's, I think everybody I know who has one agrees that it's when you stop thinking about
+[2:01:58.640 --> 2:02:04.240]  it, that it really starts hitting you. And you're like, you know what, I am walking a lot more,
+[2:02:04.240 --> 2:02:10.480]  you know, and stuff like that. Right. Anyway, though, I am my experience and who knows it,
+[2:02:10.480 --> 2:02:19.840]  but the, the, I, I don't think that they seed out, uh, known to be friendly reviewers.
+[2:02:19.840 --> 2:02:23.760]  I think that they look for, and again, this is going to sound self-serving for me,
+[2:02:23.760 --> 2:02:32.000]  but I think they look in general for reviewers who are a, um, have a big following and that they're
+[2:02:32.000 --> 2:02:35.840]  going to write, you know, to get into tier one, you have to have a certain amount of influence.
+[2:02:35.840 --> 2:02:42.000]  And so I'm weird because I don't have a large audience, but I think that they consider the
+[2:02:42.000 --> 2:02:50.240]  during farable audience to be influential. Um, again, this sounds terribly self-serving and I'm blushing
+[2:02:50.240 --> 2:02:54.560]  as I say it, but I, you know, like talking about myself like this, but I don't think they look
+[2:02:54.560 --> 2:02:59.200]  for a positive review. I think they look generally for people who are going to get it, who are
+[2:02:59.200 --> 2:03:06.320]  getting what it is that they're going after. Uh, and I, I never get notes after I write my reviews,
+[2:03:06.320 --> 2:03:14.240]  never, not a word from them about anything. Um, in my honestly, I really think that they just
+[2:03:14.240 --> 2:03:19.760]  want reviewers to be fair. That's the, to me, the main thing that they're after. And the thing that
+[2:03:19.760 --> 2:03:29.600]  makes this all so hard to judge is that for the last decade, but at least in the time that I've
+[2:03:29.600 --> 2:03:37.040]  been doing it, it's been an unbelievable string of very good products. And I've done this
+[2:03:37.040 --> 2:03:41.840]  occasion. I've looked back at old reviews of things like Mike, what I wrote about, you know,
+[2:03:45.040 --> 2:03:50.720]  like the Verizon iPhone or iPhone 4S and stuff like that. And that did what I write,
+[2:03:50.720 --> 2:03:55.920]  hold up, or was I excited because it was new. And I've, so far, I've not found one where I felt
+[2:03:55.920 --> 2:04:00.240]  like I missed the mark. And even looking at people who've been doing it longer than I have, like
+[2:04:00.240 --> 2:04:06.720]  in rereading, like say, David Pogue's original review of the iPhone in 2007 and stuff like that,
+[2:04:06.720 --> 2:04:10.800]  I don't think that these reviews were positive just for the sake of being positive. I think
+[2:04:10.800 --> 2:04:16.960]  almost all of them were spot on. And in fact, some of them, especially, uh, like the Mossburg ones,
+[2:04:16.960 --> 2:04:21.840]  I think sometimes bend over backwards to emphasize things that just weren't that big a deal,
+[2:04:21.840 --> 2:04:27.440]  like, you know, devoting time in the 2007 review of the iPhone to talk about how it doesn't
+[2:04:27.440 --> 2:04:31.600]  have a hardware keyboard like a blackberry, which actually looked bad. It was like, well,
+[2:04:31.600 --> 2:04:35.120]  here's the cons, you know, a blackberry has a hardware keyboard and you can type faster on it.
+[2:04:36.320 --> 2:04:41.920]  And what about the maps stuff? A lot of people missed the maps problems in their iPhone 5 reviews.
+[2:04:42.880 --> 2:04:45.520]  I don't remember yours in particular. I don't remember that either.
+[2:04:45.520 --> 2:04:53.040]  And Siri as well. Siri does not a great product at launch, but people seem to have missed some
+[2:04:53.040 --> 2:04:58.640]  of the lack of functionality or accuracy there. The iPhone 4 and 10. I mean, I know that's
+[2:04:59.360 --> 2:05:04.880]  that's a subject that we can spend another two hours on. But yeah, I see people miss that.
+[2:05:04.880 --> 2:05:10.240]  Siri's a good example. I remember with maps in particular, I think I remember thinking I missed
+[2:05:10.240 --> 2:05:14.240]  the boat on that because I don't think I said anything one way or the other, but part of it was that
+[2:05:14.240 --> 2:05:18.320]  in the course of my testing, I didn't go anywhere. I know it was at home in Philadelphia.
+[2:05:18.320 --> 2:05:24.160]  And their maps in Philadelphia as far as I did test them were pretty good. And it really seemed like
+[2:05:24.160 --> 2:05:30.560]  the bigger problems with the initial 1.0 maps weren't so much in major metropolitan areas,
+[2:05:30.560 --> 2:05:35.760]  but just about everywhere else. That's fair. And the, you know, driving turn by turn directions,
+[2:05:35.760 --> 2:05:39.920]  you know, I don't drive most days. So if, you know, but again, that doesn't necessarily,
+[2:05:39.920 --> 2:05:45.520]  I'm not saying that that means I'm above blame. I mean, it's, it was a, I would rather,
+[2:05:45.520 --> 2:05:50.960]  my goal is always to be right. And I want my reviews to, I want to, my reviews like when people
+[2:05:50.960 --> 2:05:55.760]  look back at them in 10 years to be like, well, he really nailed it. And I think it's hard to say
+[2:05:55.760 --> 2:06:01.760]  for the. So what was that? Iowa 6? Yes. iPhone 5. Yep.
+[2:06:03.200 --> 2:06:08.400]  It's hard to say that a review of the Iowa 6 and iPhone 5 that if it didn't mention
+[2:06:08.400 --> 2:06:13.360]  maps and the problems that it had that it's accurate in the long term, but I don't think people
+[2:06:13.360 --> 2:06:18.160]  avoided it trying to curry favor with Apple PR. I don't, I can't say that for everybody,
+[2:06:18.720 --> 2:06:23.280]  but I really don't, I have never felt pressure like that at all from, from Apple.
+[2:06:23.920 --> 2:06:28.720]  Right. I really don't think so. But the, the tell is going to be
+[2:06:29.440 --> 2:06:33.440]  when the day comes that Apple releases a product that is not that good.
+[2:06:33.440 --> 2:06:39.040]  That's, well, the iPhone 5 and the maps thing is pretty good indicator there, but
+[2:06:39.920 --> 2:06:45.120]  yeah, but the iPhone 5 itself was actually a pretty, it was a great device. Yeah, but I mean,
+[2:06:45.120 --> 2:06:49.920]  maps was part of that Siri, Siri was the iPhone 4S's main feature, really.
+[2:06:52.800 --> 2:06:53.920]  We'll see, we'll see.
+[2:06:56.080 --> 2:07:01.120]  I don't know. I just think that I just, you know, again, I think it was an interesting piece,
+[2:07:01.120 --> 2:07:05.360]  and I will absolutely positively put this one in the show notes. I'm making a note to myself right
+[2:07:05.360 --> 2:07:09.360]  now because anybody who hasn't read it, you certainly can go back and nobody has ever written
+[2:07:09.360 --> 2:07:15.200]  anything like this before or since because I kind of get the sense that you've got a
+[2:07:15.200 --> 2:07:19.040]  fuck it. I don't care what they think attitude towards them. Like, I don't think that you were
+[2:07:19.040 --> 2:07:24.960]  trying to antagonize anybody with this article. I know, not at all. This was about more so, so I
+[2:07:24.960 --> 2:07:31.680]  never had access like, I mean, you admit to having off the record conversations with them. I mean,
+[2:07:31.680 --> 2:07:37.520]  I've never had all sorts of access. This started as sort of a research project to understand
+[2:07:38.560 --> 2:07:43.520]  how they operate and why they operate this way in order. So I could better understand my work,
+[2:07:43.520 --> 2:07:48.560]  my future work, what I've done in the past, but in terms of that attitude, it doesn't really
+[2:07:48.560 --> 2:07:53.600]  stem from an attitude. It stems from not having anything to lose. I have no relationship to lose.
+[2:07:53.600 --> 2:08:01.120]  I feel that my work is so much better off being independent, me doing what I want,
+[2:08:01.120 --> 2:08:06.320]  how I get to spread information, not having to fear that apples maybe not going to give me
+[2:08:06.320 --> 2:08:11.120]  a review unit or talk to me if I say something or position something or break something.
+[2:08:11.680 --> 2:08:16.800]  You know, the day that I, you know, work with a company on a story and get it out there from
+[2:08:16.800 --> 2:08:22.080]  their angles, the day that I don't want to do this anymore because I'm very happy with the way
+[2:08:22.080 --> 2:08:27.600]  that I do my work and how I do it my way. It's not a screw it type of thing that's published this,
+[2:08:27.600 --> 2:08:32.400]  it's more of a, that's just my mindset, how I how I like working independently.
+[2:08:33.360 --> 2:08:39.040]  Yeah, my perspective on it is so weird because I never really expected that I would be in this
+[2:08:39.040 --> 2:08:45.440]  position because when I started doing Fireball, it was, you know, 2002 and it was, you know, before
+[2:08:46.320 --> 2:08:51.920]  before the apples, you know, stuff was even that big of a deal, right? Like iPods came out at
+[2:08:51.920 --> 2:08:59.280]  little miniature events in town hall and stuff like that. And then the iPhone came out and it was
+[2:08:59.280 --> 2:09:03.920]  so big and such a huge deal, but they were, you know, reviewing it's only, like I said, only went to
+[2:09:03.920 --> 2:09:11.040]  four people. Right. And I'd built this whole thing up and turned it into, you know, something that
+[2:09:11.040 --> 2:09:17.040]  I could call a career and it was successful all without any of that. And in all the ways that it
+[2:09:17.040 --> 2:09:25.920]  was successful before I had any kind of, you know, access to Apple PR, it's still the same way.
+[2:09:25.920 --> 2:09:30.720]  So like if I stopped getting, I've said this, you know, you know, like Jim Dowl and I have talked
+[2:09:30.720 --> 2:09:35.680]  about it. Like I never have any assumption that I'm getting any future. And I know this sounds
+[2:09:35.680 --> 2:09:43.760]  like I'm now, it sounds like I'm being falsely humble. But honestly, like I don't, if I had to bet,
+[2:09:43.760 --> 2:09:50.480]  I guess I'll get the iPhone success come September. But if I don't, if like the call doesn't come
+[2:09:50.480 --> 2:09:56.320]  and, you know, and I, there's no brief, there's no briefing after the keynote, I'll be like, well,
+[2:09:56.320 --> 2:10:00.720]  I don't know, I must have, I don't know what happened there, but must have had Mark on my podcast
+[2:10:00.720 --> 2:10:04.880]  too many times. Yeah, I don't maybe, maybe it's because I had you on my podcast. I don't know. But
+[2:10:04.880 --> 2:10:10.560]  it's not going to hurt, it's not going to hurt my revenue at all. Like I don't have any kind of
+[2:10:10.560 --> 2:10:16.080]  ad, you know, I do get a lot of hits on the reviews when they come out. Sure. But the decades don't go
+[2:10:16.080 --> 2:10:22.160]  by page, you know, page count. It's, you know, every, and it by, by design, like I don't want to have
+[2:10:24.000 --> 2:10:27.200]  articles like that. I don't want to have articles where I get, I make more money if they get
+[2:10:27.200 --> 2:10:33.280]  read more. Right. It just for one thing. So if it dries up, it dries up, you know, or if, you know,
+[2:10:33.280 --> 2:10:37.600]  if, if somebody leaves somebody who's like a big fan of me and Apple PR is the reason I'm getting
+[2:10:37.600 --> 2:10:41.360]  these things and then they quit and take a job somewhere else. And I stopped getting them so
+[2:10:41.360 --> 2:10:50.320]  be it. Clearly wasn't Katie Cotton. I'm just kidding. I guess not. I was blown away that she even knew
+[2:10:50.320 --> 2:10:54.800]  who I was, but she was always very nice to me. I have no idea what, what she was like in private
+[2:10:54.800 --> 2:10:59.040]  though. I, you know, clearly though, strategically, she had a different vision for Apple PR. And that
+[2:10:59.040 --> 2:11:04.000]  that's the other reason I wanted to bring it up that you wrote about this. I kind of feel like
+[2:11:04.000 --> 2:11:09.680]  your piece serves as, as, well, definitive is the wrong word because I do think that there are gaps.
+[2:11:09.680 --> 2:11:12.480]  And I don't see how you could have filled him in. This is the thing. I don't mean this is like,
+[2:11:12.480 --> 2:11:18.320]  hey, you could have done a better job. I almost feel like it's remarkable how much you got colored in.
+[2:11:20.960 --> 2:11:27.200]  But I kind of feel like it was a kind of amazing timing coming at the end of the Katie Cotton
+[2:11:27.200 --> 2:11:32.800]  era, you know, because clearly strategically Apple PR has, has taken a strategic turn since then.
+[2:11:32.800 --> 2:11:37.840]  Right. And in this story, I know I talked about like who would replace Katie Cotton and I said it
+[2:11:37.840 --> 2:11:42.640]  would be Steve Dowling and all indications are pointing to him instead of Keras who was still at
+[2:11:42.640 --> 2:11:47.280]  Apple at the time. And you know, I got a lot of, you know, criticism privately saying,
+[2:11:47.280 --> 2:11:52.080]  how could you say that? There's no way that's true and all that. But, you know, look at the PR
+[2:11:52.080 --> 2:11:59.040]  bios page now. So my, my impression and I again, I, it's funny because I have like an official
+[2:11:59.040 --> 2:12:04.960]  relationship with Apple PR that you don't have, but like my unofficial, you know, back channel
+[2:12:06.800 --> 2:12:12.560]  input into the way Apple P. R works is way cloudier than yours for sure. Like there were names
+[2:12:12.560 --> 2:12:17.120]  that you had that I'd never heard of and stuff that, you know, asking around, you know, people
+[2:12:17.120 --> 2:12:23.280]  like, yeah, yeah, that's that's pretty accurate that I'd never heard of. But my sense from the outside
+[2:12:23.280 --> 2:12:31.680]  was that it was, I'm almost surprised they didn't name Dowling sooner. And my guess, I could be
+[2:12:31.680 --> 2:12:37.360]  wrong. I could be so totally wrong here that it's, there's people at Apple who, you know, we're
+[2:12:37.360 --> 2:12:41.840]  just laughing if they're listening to this. But my sense was that the delay in naming Dowling
+[2:12:41.840 --> 2:12:48.240]  was simply out of respect to Katie that her departure was not, it was amicable. It was, we're
+[2:12:48.240 --> 2:12:52.000]  going to, you know, I think she had been there a long time. I think she was ready for a break.
+[2:12:52.000 --> 2:12:56.880]  And I think Tim Cook was looking for a new direction, but it wasn't like bad blood. It wasn't like
+[2:12:56.880 --> 2:13:01.680]  she was pushed out the door like four stall. And therefore out of respect, they didn't name a
+[2:13:01.680 --> 2:13:06.800]  successor right away. I, you know, I honestly disagree with that. Okay, I could be wrong. No, no,
+[2:13:06.800 --> 2:13:12.720]  I don't think that it was as bad blood as the four saw situation because, you know, they talked
+[2:13:13.440 --> 2:13:18.320]  massive crap about him after the after his departure. You didn't see any of that with cotton,
+[2:13:18.320 --> 2:13:23.120]  but I don't think it was amicable in any sense of the word. All right, amicable, but you're right.
+[2:13:23.120 --> 2:13:28.160]  All right. I, I think we're in an agreement here. Right. I think we could be in the middle.
+[2:13:28.160 --> 2:13:33.520]  But yeah, I think the reason they didn't name Dowling. How about respectful? Sure. It was
+[2:13:33.520 --> 2:13:38.720]  respectable. That's very fair to say. Yeah, she, I'm still got like, I don't know if severance is the
+[2:13:38.720 --> 2:13:46.320]  right word, but like advisor status or something. Right. Stock options. But I think that they wanted to find
+[2:13:46.320 --> 2:13:53.200]  a, like a cool big name replacement for Katie Cotton, like they can make a splash with, take the
+[2:13:53.200 --> 2:13:57.840]  company a new friendlier direction. There were those rumors of Jay Carney, the White House guy,
+[2:13:58.480 --> 2:14:03.760]  but they didn't find anyone better. So I think they waited six months, nine months,
+[2:14:03.760 --> 2:14:07.680]  and they didn't find anyone that they would think would be better. So they named Dowling,
+[2:14:07.680 --> 2:14:12.960]  and they're going to go through him. My only thing about that, and I thought about that,
+[2:14:12.960 --> 2:14:18.480]  but, and again, I don't know, but the only thing about that that I can think of is I can't think of
+[2:14:18.480 --> 2:14:23.360]  another big splashing name other than Jay Carney. Yeah, who else? I don't know. Maybe say
+[2:14:23.360 --> 2:14:29.600]  one from the start up or something. Like the weird, the weird world of PR in general is that
+[2:14:30.240 --> 2:14:36.480]  PR people stay under the radar. Yeah. You know, and that there aren't, you know, like maybe like
+[2:14:36.480 --> 2:14:41.120]  inside baseball, there's big names. And if you work in PR, you'd be like, wow, they got so and so.
+[2:14:41.120 --> 2:14:47.200]  So, but from the outside, Jay Carney, who was the, you know, the White House press, what are they
+[2:14:47.200 --> 2:14:53.520]  called, press secretary, is the only big name that I even saw a toss about as a maybe. And that
+[2:14:53.520 --> 2:14:57.200]  sorry, it would have been a big get, but other than him, I can't think of anybody else who
+[2:14:57.200 --> 2:15:01.680]  would have even been. Yeah, I don't know. But they, I guess it would be fair to say, like, they
+[2:15:01.680 --> 2:15:06.560]  did their due diligence, try to find someone new from out of the company. It wouldn't be a great move
+[2:15:06.560 --> 2:15:12.080]  to just promote Steve Dowling without looking elsewhere first. They need to be tactical about
+[2:15:12.080 --> 2:15:16.720]  these types of things, especially exiting a regime that existed for 15 years.
+[2:15:18.560 --> 2:15:24.560]  Yeah. And I think the other thing, too, that you just, it, it just cannot be emphasized enough
+[2:15:24.560 --> 2:15:31.280]  was how much that Katie Cotton and Steve Jobs were like had like the symbiotic relationship,
+[2:15:31.280 --> 2:15:37.040]  you know, that that she was as much Steve Jobs is press representative as she was apples.
+[2:15:37.040 --> 2:15:42.720]  Right. And that it, that's not necessarily a bad thing because they were, you know, Steve
+[2:15:42.720 --> 2:15:48.480]  Jobs and Apple were so intertwined in the public eye. Yeah. Like she even did all the press stuff
+[2:15:48.480 --> 2:15:57.600]  for when Steve Jobs sold, um, Pixar Disney, that wasn't Apple. Right. So Steve, right. And, you know,
+[2:15:57.600 --> 2:16:02.640]  and according to, um, the becoming Steve Jobs book, she was one of only four Apple people who
+[2:16:02.640 --> 2:16:11.120]  were at his, you know, private funeral. Right. Her cute cook and, um, who was the fourth one?
+[2:16:11.120 --> 2:16:17.760]  Johnny Johnny, of course. Yeah. No fourth. Yeah. And no, Shiller, no, I mean, there's all sorts
+[2:16:17.760 --> 2:16:22.000]  of people who, who, you know, clearly worked with them a long time, but it was very, very short
+[2:16:22.000 --> 2:16:26.000]  unless John, you overlook Johnny because it was so obvious. Right. Right. Right. I saw that,
+[2:16:26.000 --> 2:16:30.080]  though. I don't think the book broke that as great as the book was. I read it in your, uh,
+[2:16:30.080 --> 2:16:34.240]  your post on, it was great. But I thought that was, I thought that was, I thought that was news
+[2:16:34.240 --> 2:16:40.480]  because his family, you know, the private family thing was so, so private. No, yeah, but I remember
+[2:16:40.480 --> 2:16:47.920]  reading that in the journal back when 2011 or so. I believe, well, I could be wrong, but I didn't know.
+[2:16:47.920 --> 2:16:57.680]  Um, I, uh, uh, before we go, it's, while we're still on the subject of Katie, uh, when I interviewed
+[2:16:58.400 --> 2:17:04.560]  Brent, uh, Shlander and, and Bruce Titzini, Titzelli, uh, the authors of becoming Steve Jobs,
+[2:17:04.560 --> 2:17:11.840]  when I did the event at the Apple store, uh, in New York a couple months ago, um, and did a little,
+[2:17:11.840 --> 2:17:17.680]  you know, interview with them in front of the, the crowd. Um, I asked them because they did get,
+[2:17:17.680 --> 2:17:22.880]  I forget who the list of people who were associated with Apple, who they got interviews with,
+[2:17:22.880 --> 2:17:29.840]  but it's, you know, there was Tim Cook, um, uh, Abby, you know, it was not there anymore, but,
+[2:17:29.840 --> 2:17:35.200]  but, but, you know, clearly, you know, had the permission from Apple to talk to him in Katie.
+[2:17:35.200 --> 2:17:40.080]  And so they had like a whole sit down interview with Katie Cotton and there's one sentence from
+[2:17:40.080 --> 2:17:49.280]  her in the book. And they, but I asked about it and they both laughed and, and the just was that,
+[2:17:49.280 --> 2:17:54.080]  you know, you could take Katie Cotton out of Apple, but it doesn't change her take on the press.
+[2:17:54.080 --> 2:18:00.080]  Like she gave them nothing. That's funny. That is funny. It was like one sentence and it was
+[2:18:00.080 --> 2:18:05.840]  like totally innocuous. Well, anyway, we've been going on long enough. This has been great.
+[2:18:05.840 --> 2:18:14.000]  I think that everybody is now well prepared for WWDC. Uh, Mark German, I thank you. I will link to,
+[2:18:14.000 --> 2:18:19.360]  probably the best thing I can link to is your free WWDC wrap up posts because you keep updating that,
+[2:18:19.360 --> 2:18:24.960]  right? Uh, no, we posted a new one this morning that one post that has everything. All right,
+[2:18:24.960 --> 2:18:29.440]  I will link to that in the show notes. Uh, and then if anything breaks over the weekend, you'll
+[2:18:29.440 --> 2:18:35.040]  update that same post. Yes. All right. That's great. Uh, and people can read you regularly,
+[2:18:35.040 --> 2:18:39.600]  um, sure they already do. They can either read you at the two places you can find Mark at nine
+[2:18:39.600 --> 2:18:49.760]  to five Mac dot com or at the top of tech meme. I think that they have a new ratings thing at tech
+[2:18:49.760 --> 2:18:55.440]  meme. And I believe you came out on top. Was this, am I overstating it? No, no, that's right. And they
+[2:18:55.440 --> 2:19:00.480]  have a section about you and the Q and A that you see that. Yeah. I just, I honest to God,
+[2:19:00.480 --> 2:19:04.480]  I'm not bullshit. Yeah, I don't know that. What's pretty funny. Yeah. Yeah. What's it? What does it say
+[2:19:04.480 --> 2:19:11.680]  this? Um, on that new leaderboard page, there's a question they did like a FAQ and the sample
+[2:19:11.680 --> 2:19:15.600]  question is why I love John Gruber. Why is he not on the top of the list? And then they have
+[2:19:15.600 --> 2:19:20.960]  like a whole answer about how you stick to analysis of other new stories and that doesn't really
+[2:19:20.960 --> 2:19:27.440]  fit in with tech memes, uh, tech memes position or goal. I honest to God did not know that. Now
+[2:19:27.440 --> 2:19:31.920]  I got to put this on the goddamn show notes about that. There's a fact. You got to send me the
+[2:19:31.920 --> 2:19:37.920]  link. I can't find it about these lists. Is it the blog post about it? Uh, you know what? It's
+[2:19:37.920 --> 2:19:41.920]  probably the blog post. Yeah. I think being linked to blog posts on the side. I don't know. I haven't
+[2:19:41.920 --> 2:19:51.760]  really looked at it. Holy shit. There it is. Yeah. I did not see that. Here's the answer. It says,
+[2:19:51.760 --> 2:19:56.880]  I love John Gruber. He's great. Why isn't he on your leadership leaderboard? Although he's in the top
+[2:19:56.880 --> 2:20:02.000]  150 is not in the top 100 and we only show the top 100 while his posts that make tech meme do tend
+[2:20:02.000 --> 2:20:07.200]  to be heavily cited in the tech world. They don't appear there too often. Just twice in the last 90
+[2:20:07.200 --> 2:20:12.240]  days in part because he mostly puts links with short commentary, which doesn't work well for tech
+[2:20:12.240 --> 2:20:16.800]  meme. That's exactly what I've, I've never really worried about this because I've always thought
+[2:20:16.800 --> 2:20:21.440]  it was exactly right. Yeah. Yeah. I've talked to Gabe about this. I met Gabe years ago at like an
+[2:20:21.440 --> 2:20:26.320]  early conference, the guy, you know, the guy behind tech meme. And we talked, we talked about years
+[2:20:26.320 --> 2:20:31.600]  ago about how I'm like an exception who doesn't fit into the tech meme thing. But I said, you know,
+[2:20:31.600 --> 2:20:35.600]  I don't break news. That's what this is about is I get, you know, doesn't bother me at all. I
+[2:20:35.600 --> 2:20:42.240]  don't expect to be there. Sure. I expect to link to people who are there. Like exactly. Yeah. That's
+[2:20:42.240 --> 2:20:48.880]  fascinating. I did not realize that I was listed there. The next question, I hate tech crunch.
+[2:20:48.880 --> 2:20:54.720]  They're jerks. Why is tech crunch number one on the publication leaderboard? Oh, that's great.
+[2:20:54.720 --> 2:21:01.120]  I got to send that to Panzirino. That is fantastic. What a great question. So glad they, so glad
+[2:21:01.120 --> 2:21:06.240]  they answered my question. You know, he's doing a great job there. Matt, he really is. He's
+[2:21:06.240 --> 2:21:14.720]  absolutely doing a great job there. He broke the Tim, Tim Cook epic, right. The privacy speech,
+[2:21:14.720 --> 2:21:18.400]  I think that would have, that was going to come out no matter what, but somehow he was on the ball
+[2:21:18.400 --> 2:21:26.320]  and had that before before the recording even came out. Yeah. All right. So nine to five Mac,
+[2:21:26.320 --> 2:21:33.520]  that's where Mark is kicking ass as an Apple reporter who really doesn't give a crap what
+[2:21:33.520 --> 2:21:38.080]  Apple thinks of him all for the better for the rest of us. I really do mean it. I think you're
+[2:21:38.080 --> 2:21:44.160]  doing great work. At night, I've said talking about you on these podcasts last few weeks,
+[2:21:44.160 --> 2:21:48.480]  I, here's the most amazing thing to me is I don't know where we would be without you. Well,
+[2:21:48.480 --> 2:21:53.280]  I know where we'd be. We'd be in the dark, you know, but it's absolutely astounding. If somebody
+[2:21:53.280 --> 2:21:58.640]  went around and assembled, and I'm sure Matt groomers well, like, what's the consensus on what's
+[2:21:58.640 --> 2:22:07.360]  coming at WWDC, a remarkable majority of that information is from you. So keep up, keep up the good
+[2:22:07.360 --> 2:22:11.920]  work. Thank you so much. I appreciate it. All right. Mark, thank you very much for your time. And
+[2:22:11.920 --> 2:22:18.320]  I'll see you after WWDC. Yep. I know that's a long, long podcast, but people love them.
+[2:22:18.320 --> 2:22:48.160]  Um, I'm hit and stop.
