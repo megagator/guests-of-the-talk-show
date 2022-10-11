@@ -3,6 +3,8 @@ import * as React from 'react'
 import * as mainStyle from '../style/main.module.css'
 
 import Header from '../components/Header.js'
+import GuestStats from '../components/GuestStats.js'
+import Footer from '../components/Footer.js'
 import AppearanceTable from '../components/AppearancesTable.js'
 import DurationChart from '../components/DurationChart.js'
 import { Helmet } from 'react-helmet'
@@ -18,7 +20,11 @@ const IndexPage = () => {
         <Header />
         <AppearanceTable />
         <DurationChart />
-        <WeekChart />
+        <div className={mainStyle.stats_wrapper}>
+          <WeekChart />
+          <GuestStats thing="Episodes" />
+        </div>
+        <Footer />
       </div>
     </main>
   )

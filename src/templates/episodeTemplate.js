@@ -9,7 +9,9 @@ import StylishLongDateTime from '../components/StylishLongDateTime.js'
 
 import * as mainStyle from '../style/main.module.css'
 import * as epiStyle from '../style/episode.module.css'
+
 import { Helmet } from 'react-helmet'
+import Transcript from '../components/Transcript.js'
 
 const episodesShowNotesInMarkdown = [223, 305]
 
@@ -31,18 +33,16 @@ const guestTemplate = (props) => {
             <a href={episode.link}>〝{episode.title}〞</a>
           </>
         </h2>
-        <div className={mainStyle.center}>
-          <p>
-            <em>
-              with <GuestList guests={episode.guests} />
-            </em>
-          </p>
-        </div>
+        <p>
+          <em>
+            with <GuestList guests={episode.guests} />
+          </em>
+        </p>
+        <audio controls preload="none">
+          <source src={episode.file.url} type={episode.file.type} />
+          Your browser does not support audio playback.
+        </audio>
         <section>
-          <audio controls preload="none">
-            <source src={episode.file.url} type={episode.file.type} />
-            Your browser does not support the audio element.
-          </audio>
           <div className={`${mainStyle.fifty_fifty} ${mainStyle.m_bot_sm}`}>
             <h4 className={epiStyle.pub_date} title={episode.pubDate}>
               <StylishLongDateTime date={episode.pubDate} />
@@ -66,6 +66,8 @@ const guestTemplate = (props) => {
             dangerouslySetInnerHTML={{ __html: episode.showNotes }}
           ></article>
         )}
+        <hr />
+        <Transcript episode={episode.number} />
       </div>
     </main>
   )

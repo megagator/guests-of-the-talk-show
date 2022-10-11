@@ -26,13 +26,12 @@ const guestTemplate = (props) => {
         >
           {guest}
         </h1>
-        <div className={guestStyle.episode_guest_wrapper}>
-          {/* order flipped in css when two up */}
-          <GuestStats guest={guest} />
-          <EpisodeList guest={guest} />
-        </div>
+        <EpisodeList guest={guest} />
         <DurationChart guest={guest} />
-        <WeekChart guest={guest} />
+        <div className={mainStyle.stats_wrapper}>
+          <WeekChart guest={guest} />
+          <GuestStats guest={guest} thing="Appearances" />
+        </div>
       </div>
     </main>
   )

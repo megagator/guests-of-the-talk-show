@@ -7,8 +7,17 @@
   text-transform: uppercase;
 }
 
+audio {
+  position: sticky;
+  top: 0;
+}
+
 .audio_details {
   margin: 0;
   text-align: right;
   flex-shrink: 0;
+}
+
+.transcript p {
+  cursor: pointer;
 }

@@ -1,6 +1,8 @@
 import * as React from 'react'
 import { DateTime } from 'luxon'
 
+import pluralize from '../utilities/pluralize'
+
 import * as statStyle from '../style/guest_stats.module.css'
 
 import Episodes from '../../content/episodes.json'
@@ -11,8 +13,11 @@ const GuestStats = (props) => {
   const [next, setNext] = React.useState(null)
   const [nextDiff, setNextDiff] = React.useState(null)
 
+  const deps = props.guest ? [props.guest] : []
   React.useEffect(() => {
     const filteredEpisodes = Episodes.filter((epi) => {
+      if (!props.guest) return true
+
       for (const guest of epi.guests) {
         if (guest === props.guest) {
           return true
@@ -52,19 +57,25 @@ const GuestStats = (props) => {
       const diffNow = projectedNextApp.diffNow('days').toObject().days
       setNextDiff(Math.round(diffNow))
     }
-  }, [props.guest])
+  }, deps)
 
   return (
     <div className={statStyle.stat_table}>
       <table>
         <tbody>
           <tr>
-            <td>Appearances</td>
+            <td>{props.thing}</td>
             <td>{episodes.length}</td>
           </tr>
           <tr>
             <td>Cadence</td>
-            {cadence === 0 ? <td>None</td> : <td>{cadence} days</td>}
+            {cadence === 0 ? (
+              <td>None</td>
+            ) : (
+              <td>
+                {cadence} {pluralize('day', cadence)}
+              </td>
+            )}
           </tr>
           <tr>
             <td>Next</td>
@@ -75,9 +86,14 @@ const GuestStats = (props) => {
                 {next.toLocaleString(DateTime.DATE_MED)}
                 <br />
                 {nextDiff > 0 ? (
-                  <em>(in {nextDiff} days)</em>
+                  <em>
+                    (in {nextDiff} {pluralize('day', nextDiff)})
+                  </em>
                 ) : (
-                  <em>({Math.abs(nextDiff).toLocaleString()} days ago)</em>
+                  <em>
+                    ({Math.abs(nextDiff).toLocaleString()}{' '}
+                    {pluralize('day', nextDiff)} ago)
+                  </em>
                 )}
               </td>
             )}
