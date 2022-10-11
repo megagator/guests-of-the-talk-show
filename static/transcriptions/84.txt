@@ -1,0 +1,2406 @@
+[00:00.000 --> 00:04.000]  Boy, we really had a hard time getting my hand on WWDC.
+[00:04.000 --> 00:05.000]  Still done?
+[00:05.000 --> 00:09.000]  Two weeks later, it still feels like a lot to digest.
+[00:09.000 --> 00:10.000]  There is a lot.
+[00:10.000 --> 00:12.000]  So there's a lot of technical stuff.
+[00:12.000 --> 00:13.000]  Yeah.
+[00:13.000 --> 00:15.000]  Huge amount of technical stuff.
+[00:15.000 --> 00:19.000]  And then there's the entire sort of cultural change.
+[00:19.000 --> 00:20.000]  Yeah.
+[00:20.000 --> 00:25.000]  Have you watched a lot of sessions in a week since,
+[00:25.000 --> 00:28.000]  or caught up or read the developer documentation?
+[00:28.000 --> 00:31.000]  Yeah, I've been absorbing as much as I can.
+[00:31.000 --> 00:32.000]  Yeah.
+[00:32.000 --> 00:33.000]  Impressive.
+[00:33.000 --> 00:35.000]  I literally don't know where to start.
+[00:35.000 --> 00:37.000]  Well, here's what I would think.
+[00:37.000 --> 00:39.000]  I think I mentioned this the whole thing as a goddamn blur
+[00:39.000 --> 00:41.000]  what I mentioned on stage, on the stage show,
+[00:41.000 --> 00:43.000]  which was the previous episode.
+[00:43.000 --> 00:45.000]  But I think I mentioned this.
+[00:45.000 --> 00:46.000]  But I think it deserves even more attention
+[00:46.000 --> 00:49.000]  because I think even more of it than I understood
+[00:49.000 --> 00:52.000]  the day after the keynote.
+[00:52.000 --> 00:55.000]  So much of what they announced technically
+[00:55.000 --> 00:59.000]  comes down to XPC.
+[00:59.000 --> 01:00.000]  Yes.
+[01:00.000 --> 01:05.000]  And we've known, and that's Apple's term for inner application
+[01:05.000 --> 01:08.000]  communication, the X I guess is.
+[01:08.000 --> 01:09.000]  Yeah.
+[01:09.000 --> 01:13.000]  It's a nice framework based on mock message passing.
+[01:13.000 --> 01:15.000]  OK.
+[01:15.000 --> 01:19.000]  And they've been working on it for a long time.
+[01:19.000 --> 01:24.000]  And I think you guys mentioned this on the debug roundtable.
+[01:24.000 --> 01:26.000]  Which was amazing to me.
+[01:26.000 --> 01:28.000]  Because you guys had like six guys in there.
+[01:28.000 --> 01:31.000]  And it really was like an orderly discussion
+[01:31.000 --> 01:35.000]  where everybody got to speak plenty.
+[01:35.000 --> 01:36.000]  Which is amazing.
+[01:36.000 --> 01:37.000]  Yeah.
+[01:37.000 --> 01:38.000]  It was kind of surprising.
+[01:38.000 --> 01:39.000]  Right.
+[01:39.000 --> 01:40.000]  We've all in the same moon.
+[01:40.000 --> 01:41.000]  So that helps.
+[01:41.000 --> 01:42.000]  Right.
+[01:42.000 --> 01:43.000]  That makes all the difference in the world.
+[01:43.000 --> 01:45.000]  Because you can do little things like you make eye contact.
+[01:45.000 --> 01:47.000]  And that's like, I've got a point.
+[01:47.000 --> 01:49.000]  You can kind of like, hey, I've got something.
+[01:49.000 --> 01:51.000]  And people can concede to you.
+[01:51.000 --> 01:53.000]  Whereas if you're all over Skype,
+[01:53.000 --> 01:55.000]  there's a lot more cross talk.
+[01:55.000 --> 01:56.000]  Yeah.
+[01:56.000 --> 01:57.000]  Like, I'm kind of sure.
+[01:57.000 --> 01:58.000]  Do you want this show?
+[01:58.000 --> 01:59.000]  I'm going to end up talking over you at some point.
+[01:59.000 --> 02:00.000]  Wow.
+[02:00.000 --> 02:01.000]  That's why I have you here, Guy.
+[02:01.000 --> 02:02.000]  Exactly.
+[02:02.000 --> 02:04.000]  But yeah, I know it went really well.
+[02:04.000 --> 02:06.000]  And I'm not just saying that because it's our show.
+[02:06.000 --> 02:07.000]  Right.
+[02:07.000 --> 02:08.000]  You know, I think listeners of your show
+[02:08.000 --> 02:10.000]  would probably get a kick out of that one.
+[02:10.000 --> 02:11.000]  Right.
+[02:11.000 --> 02:12.000]  But one of the points that was brought up,
+[02:12.000 --> 02:15.000]  I think it was Ryan Nielsen brought up,
+[02:15.000 --> 02:18.000]  that outside developers have known for a while
+[02:18.000 --> 02:22.000]  that Apple had this XPC architecture
+[02:22.000 --> 02:25.000]  using it for their own stuff in the system,
+[02:25.000 --> 02:28.000]  because you can see it in like the stack traces you get
+[02:28.000 --> 02:29.000]  when an app crashes.
+[02:29.000 --> 02:31.000]  You can see that stuff's going on.
+[02:31.000 --> 02:31.000]  Yeah.
+[02:31.000 --> 02:33.000]  Like, if you're being a very share sheets,
+[02:33.000 --> 02:34.000]  like the mail one, I think,
+[02:34.000 --> 02:37.000]  or the Facebook sharing stuff,
+[02:37.000 --> 02:38.000]  Facebook and Twitter.
+[02:38.000 --> 02:39.000]  Yes.
+[02:39.000 --> 02:41.000]  Like, stuff like that will come up.
+[02:41.000 --> 02:43.000]  And what's happening is in your process,
+[02:43.000 --> 02:45.000]  there's a UI remote view control that's called.
+[02:45.000 --> 02:49.000]  And that's basically just basically a canvas
+[02:49.000 --> 02:51.000]  in which some other processes interface
+[02:51.000 --> 02:55.000]  gets projected into your app.
+[02:55.000 --> 02:57.000]  And, you know, previously, if there was a bug
+[02:57.000 --> 02:59.000]  or something, you would crash,
+[02:59.000 --> 03:02.000]  and you'd see a stack trace of all of the private goodies
+[03:02.000 --> 03:04.000]  that went on behind the scenes in order to make that happen.
+[03:04.000 --> 03:06.000]  So we knew that stuff was going on,
+[03:06.000 --> 03:08.000]  and you could see, you know,
+[03:08.000 --> 03:09.000]  it didn't have to be a genius.
+[03:09.000 --> 03:11.000]  If you knew that was going on,
+[03:11.000 --> 03:14.000]  and you could see that that's how Apple implemented
+[03:14.000 --> 03:16.000]  the Twitter and Facebook sharing,
+[03:16.000 --> 03:18.000]  then you could kind of think,
+[03:18.000 --> 03:22.000]  then that could be an API so that anybody could get into that
+[03:22.000 --> 03:24.000]  share sheet.
+[03:24.000 --> 03:27.000]  And we all kind of hoped that that was going to happen last year,
+[03:27.000 --> 03:29.000]  and didn't.
+[03:29.000 --> 03:31.000]  Well, the reason for that is, like,
+[03:31.000 --> 03:33.000]  it had been at least two operating systems
+[03:33.000 --> 03:36.000]  that XPC had been in there.
+[03:36.000 --> 03:37.000]  Right.
+[03:37.000 --> 03:38.000]  I think it was iOS 6,
+[03:38.000 --> 03:40.000]  where some of that's the sharing stuff started, right?
+[03:40.000 --> 03:41.000]  It could have been,
+[03:41.000 --> 03:43.000]  I think XPC was even in 5.
+[03:43.000 --> 03:44.000]  Well, then it's 3, right?
+[03:44.000 --> 03:47.000]  5, 6, 7 before they opened it up to third parties.
+[03:47.000 --> 03:48.000]  Yeah.
+[03:48.000 --> 03:49.000]  Now, to be,
+[03:49.000 --> 03:51.000]  I don't actually believe XPC itself
+[03:51.000 --> 03:53.000]  has yet opened the third party,
+[03:53.000 --> 03:54.000]  so I can check.
+[03:54.000 --> 03:56.000]  No, but they've got this stuff on top of you, right?
+[03:56.000 --> 03:57.000]  Exactly.
+[03:57.000 --> 03:58.000]  Right.
+[03:58.000 --> 03:59.000]  They're building all this stuff on top of it,
+[03:59.000 --> 04:01.000]  and that's how the keyboards,
+[04:01.000 --> 04:02.000]  you know, all this crazy stuff,
+[04:02.000 --> 04:03.000]  well, not crazy,
+[04:03.000 --> 04:06.000]  but all this seemingly divergent stuff,
+[04:06.000 --> 04:09.000]  like the sharing sheets and keyboards,
+[04:09.000 --> 04:12.000]  and I'm pretty sure.
+[04:12.000 --> 04:17.000]  Sure.
+[04:17.000 --> 04:19.000]  There's an all new WebKit API,
+[04:19.000 --> 04:21.000]  and we went all the long time
+[04:21.000 --> 04:24.000]  where when Apple switched to the JIT,
+[04:24.000 --> 04:26.000]  the Justin time compiler,
+[04:26.000 --> 04:29.000]  which requires memory being marked as executable,
+[04:29.000 --> 04:31.000]  therefore didn't allow it
+[04:31.000 --> 04:33.000]  for the third party WebKit framework.
+[04:33.000 --> 04:37.000]  That only Safari got to use the faster WebKit,
+[04:37.000 --> 04:40.000]  and it didn't slow down third party WebKit,
+[04:40.000 --> 04:43.000]  it just didn't let third party apps
+[04:43.000 --> 04:46.000]  that embed WebKit use take advantage of the new thing,
+[04:46.000 --> 04:47.000]  which is a subtle difference,
+[04:47.000 --> 04:48.000]  but it's,
+[04:48.000 --> 04:49.000]  it's kind of funny.
+[04:49.000 --> 04:50.000]  Like, yeah, it's not that they slowed it down,
+[04:50.000 --> 04:52.000]  they just sped their own thing up,
+[04:52.000 --> 04:54.000]  but a lot of people took it
+[04:54.000 --> 04:56.000]  as that they slowed us down,
+[04:56.000 --> 04:57.000]  and that don't exist.
+[04:57.000 --> 04:58.000]  It was not the case.
+[04:58.000 --> 05:02.000]  I'm pretty sure that that's XPC too, right?
+[05:02.000 --> 05:04.000]  So it's not that,
+[05:04.000 --> 05:06.000]  you know, the way that they've done this,
+[05:06.000 --> 05:08.000]  and that they've given all apps
+[05:08.000 --> 05:10.000]  that use the new WebKit API,
+[05:10.000 --> 05:12.000]  the fastest WebKit on the system,
+[05:12.000 --> 05:17.000]  is not by having WebKit running within your app anymore.
+[05:17.000 --> 05:19.000]  It's a separate process,
+[05:19.000 --> 05:23.000]  and much like Safari has been on the Mac for a while,
+[05:23.000 --> 05:26.000]  where you've got the separate rendering processes
+[05:26.000 --> 05:28.000]  and a restricted sandbox
+[05:28.000 --> 05:30.000]  that only do the rendering,
+[05:30.000 --> 05:34.000]  and then they'd project their view into the app through XPC.
+[05:34.000 --> 05:35.000]  Right.
+[05:35.000 --> 05:39.000]  And so for now, for new WebKit on iOS,
+[05:39.000 --> 05:43.000]  the reason that they allow the just in time to compiler
+[05:43.000 --> 05:46.000]  is because you're completely shielded from your app.
+[05:46.000 --> 05:49.000]  You see the results presented in your application,
+[05:49.000 --> 05:51.000]  but malicious code can.
+[05:51.000 --> 05:52.000]  Right.
+[05:52.000 --> 05:55.000]  The actual rendering process is a separate process.
+[05:55.000 --> 05:58.000]  It's not just like a plugin or whatever.
+[05:58.000 --> 05:59.000]  Yeah.
+[05:59.000 --> 06:01.000]  Same thing with the keyboard.
+[06:01.000 --> 06:07.000]  It's, you're right, the big story is XPC.
+[06:07.000 --> 06:11.000]  So one of the things I was saying maybe last week was,
+[06:11.000 --> 06:13.000]  I think everybody's going to be talking about Swift a lot,
+[06:13.000 --> 06:16.000]  but the big story is basically the extensions
+[06:16.000 --> 06:21.000]  in XPC and what that allows it to happen now
+[06:21.000 --> 06:24.000]  and in the future.
+[06:24.000 --> 06:28.000]  And it's a very Apple-like way of doing that.
+[06:28.000 --> 06:32.000]  I mean, we repeat ourselves frequently where, you know,
+[06:32.000 --> 06:35.000]  so many times there's, you know, here's what we want.
+[06:35.000 --> 06:39.000]  Apple, please let us do this, and then they listen to it,
+[06:39.000 --> 06:41.000]  and they think about the actual problem,
+[06:41.000 --> 06:44.000]  and then they solve it in a way that we didn't expect.
+[06:44.000 --> 06:45.000]  Right.
+[06:45.000 --> 06:46.000]  Where everybody I think really was saying,
+[06:46.000 --> 06:51.000]  what we want is we want that super fast JavaScript engine.
+[06:51.000 --> 06:56.000]  And Apple didn't give it to us because or let third parties use it
+[06:56.000 --> 06:59.000]  because of the security issues.
+[06:59.000 --> 07:02.000]  But they figured out a way to give it to us
+[07:02.000 --> 07:04.000]  without having it running in the process.
+[07:04.000 --> 07:06.000]  Same thing with keyboards.
+[07:06.000 --> 07:07.000]  Yeah.
+[07:07.000 --> 07:11.000]  It's, you know, it's a measured twice cut once kind of philosophy.
+[07:11.000 --> 07:12.000]  Yeah.
+[07:12.000 --> 07:15.000]  Where I think they look at the actual problem to be solved
+[07:15.000 --> 07:17.000]  and try to come up with a solution for it,
+[07:17.000 --> 07:19.000]  rather than sort of cave to like,
+[07:19.000 --> 07:20.000]  well, okay, fine.
+[07:20.000 --> 07:22.000]  We'll let you run some JavaScript in your app.
+[07:22.000 --> 07:25.000]  There were rumors two years ago, a year ago.
+[07:25.000 --> 07:26.000]  I think I might have been last year,
+[07:26.000 --> 07:28.000]  but it was previous WWDC and there were rumors.
+[07:28.000 --> 07:32.000]  Somebody reported that there were going to be third party keyboards announced,
+[07:32.000 --> 07:35.000]  and it came and went and they weren't announced.
+[07:35.000 --> 07:39.000]  And, you know, I spoke to somebody from Apple,
+[07:39.000 --> 07:42.000]  you know, a friend in a position to know,
+[07:42.000 --> 07:44.000]  and they were like,
+[07:44.000 --> 07:46.000]  no, it wasn't definitely wasn't going to happen that year.
+[07:46.000 --> 07:50.000]  But, but they had looked at it extensively.
+[07:50.000 --> 07:54.000]  You know, like they knew an awful lot about how it worked on Android
+[07:54.000 --> 07:57.000]  and, you know, this person was like,
+[07:57.000 --> 08:00.000]  you wouldn't believe how it works on Android.
+[08:00.000 --> 08:02.000]  Like, it's more or less just a remote key logger.
+[08:02.000 --> 08:05.000]  And, you know, some of them, you know,
+[08:05.000 --> 08:07.000]  send every single key you press up to a server
+[08:07.000 --> 08:10.000]  because they're doing, you know, server-side stuff,
+[08:10.000 --> 08:13.000]  you know, and that there's nothing you can do as a user to stop it.
+[08:13.000 --> 08:15.000]  You install this thing from the Play Store
+[08:15.000 --> 08:19.000]  and everything you type could be sent to a server.
+[08:19.000 --> 08:20.000]  And that's bananas.
+[08:20.000 --> 08:23.000]  And in some cases is not necessarily that it is
+[08:23.000 --> 08:25.000]  that they're doing anything malicious with it,
+[08:25.000 --> 08:29.000]  but that they're doing it for, you know,
+[08:29.000 --> 08:32.000]  QA or for some kind of server-side stuff.
+[08:32.000 --> 08:34.000]  For whatever reason, yeah, you don't even need to believe
+[08:34.000 --> 08:35.000]  that they're bad actors.
+[08:35.000 --> 08:41.000]  Just the fact that the system can be exploited is just bad design.
+[08:41.000 --> 08:42.000]  Right.
+[08:42.000 --> 08:44.000]  And they were like, I mean, you know, we're looking at it,
+[08:44.000 --> 08:46.000]  but I mean, there's no way we're going to do it
+[08:46.000 --> 08:48.000]  if it, you know, if it works like that.
+[08:48.000 --> 08:49.000]  Right.
+[08:49.000 --> 08:54.000]  So the custom keyboards, you guess what you can't do.
+[08:54.000 --> 08:57.000]  You can't use them to type into a secure text field.
+[08:57.000 --> 08:58.000]  Oh, interesting.
+[08:58.000 --> 08:59.000]  Yeah.
+[08:59.000 --> 09:02.000]  Because when you think about it, that just makes sense.
+[09:02.000 --> 09:03.000]  Yeah.
+[09:03.000 --> 09:04.000]  So whenever you tap into a secure text field,
+[09:04.000 --> 09:09.000]  either like UIKit style or on the web,
+[09:09.000 --> 09:12.000]  you get switched to one of the system keyboards.
+[09:12.000 --> 09:14.000]  Hmm.
+[09:14.000 --> 09:16.000]  I understand that, but then I guess that defeats one of the
+[09:16.000 --> 09:19.000]  ideas that a bunch of us, like last week,
+[09:19.000 --> 09:24.000]  we're bandying about that it would be a cool idea for one
+[09:24.000 --> 09:26.000]  password to have a custom keyboard.
+[09:26.000 --> 09:28.000]  I guess that rules that out for them.
+[09:28.000 --> 09:30.000]  I mean, they still have a cool app for iOS.
+[09:30.000 --> 09:31.000]  Yeah.
+[09:31.000 --> 09:33.000]  But we were, you know, just bouncing ideas.
+[09:33.000 --> 09:35.000]  We had the idea, well, what if they made a keyboard?
+[09:35.000 --> 09:36.000]  Yeah.
+[09:36.000 --> 09:38.000]  I'm sure they'll come up with some way of making it nice.
+[09:38.000 --> 09:41.000]  And because you can't have the keyboard.
+[09:41.000 --> 09:43.000]  So up until you put the password in,
+[09:43.000 --> 09:45.000]  you can have your custom keyboard.
+[09:45.000 --> 09:49.000]  Maybe you can see what site you're on and just copy the
+[09:49.000 --> 09:52.000]  password to the page board.
+[09:52.000 --> 09:53.000]  So you can paste it in.
+[09:53.000 --> 09:54.000]  Yeah, something like that.
+[09:54.000 --> 09:55.000]  You know what I mean?
+[09:55.000 --> 09:56.000]  They can do something.
+[09:56.000 --> 09:59.000]  But when you do think about it, it's like, well, yeah,
+[09:59.000 --> 10:03.000]  it kind of makes sense to only trust the system to handle
+[10:03.000 --> 10:06.000]  those kinds of events, right?
+[10:06.000 --> 10:08.000]  Yeah, it's a key entry.
+[10:08.000 --> 10:09.000]  Yeah, I think so.
+[10:09.000 --> 10:11.000]  I think it kind of does.
+[10:11.000 --> 10:12.000]  What else?
+[10:12.000 --> 10:13.000]  What was the other kind?
+[10:13.000 --> 10:18.000]  There's the keyboards, there's the sharing extensions.
+[10:18.000 --> 10:20.000]  There's the stuff in the today screen.
+[10:20.000 --> 10:21.000]  Oh, right.
+[10:21.000 --> 10:22.000]  Yeah.
+[10:22.000 --> 10:24.000]  And that's the same thing where those are like,
+[10:24.000 --> 10:28.000]  they're little, more or less little standalone applications
+[10:28.000 --> 10:31.000]  that run in a different context instead of running
+[10:31.000 --> 10:34.000]  as regular apps in the system.
+[10:34.000 --> 10:39.000]  They're like little mini apps that run in that notification
+[10:39.000 --> 10:40.000]  center context.
+[10:40.000 --> 10:41.000]  Yeah.
+[10:41.000 --> 10:44.000]  And it's far more than less.
+[10:44.000 --> 10:47.000]  So what they are is like little bundles that sit inside your app
+[10:47.000 --> 10:48.000]  bundle.
+[10:48.000 --> 10:52.000]  And I don't want to get too techy.
+[10:52.000 --> 10:57.000]  But inside an app, you usually specify the principal class,
+[10:57.000 --> 11:01.000]  the objective C class that's going to be loaded and run.
+[11:01.000 --> 11:08.000]  And it's a UI application class on iOS or a subclass of it.
+[11:08.000 --> 11:14.000]  For these bundles rather than having the, you know,
+[11:14.000 --> 11:18.000]  rather than being an application that is sort of the root object,
+[11:18.000 --> 11:20.000]  it's just a view controller.
+[11:20.000 --> 11:24.000]  So these are little apps that just load up,
+[11:24.000 --> 11:27.000]  rather than booting up an entire application instance,
+[11:27.000 --> 11:31.000]  they just load up a view controller instance.
+[11:31.000 --> 11:34.000]  And from there on in, you're running in your own code space.
+[11:34.000 --> 11:37.000]  You've got pretty much all of the facilities that you would have.
+[11:37.000 --> 11:44.000]  In a regular app, modules and differences.
+[11:44.000 --> 11:49.000]  And it's, you know, that the space that you're given is yours to
+[11:49.000 --> 11:50.000]  play with.
+[11:50.000 --> 11:53.000]  It's, you have an app and you can do whatever you want in it.
+[11:53.000 --> 11:57.000]  It's not like you're just pushing some XML description language stuff
+[11:57.000 --> 11:59.000]  to the screen and the system's doing it.
+[11:59.000 --> 12:04.000]  It's like an honest to God full-on application.
+[12:04.000 --> 12:05.000]  Yeah, that's kind of amazing.
+[12:05.000 --> 12:10.000]  And that's how, again, sort of a,
+[12:10.000 --> 12:15.000]  like a recurring theme is that they've given us more than we expected.
+[12:15.000 --> 12:18.000]  I would not in a million years have expected that.
+[12:18.000 --> 12:19.000]  Yeah.
+[12:19.000 --> 12:23.000]  The API is interesting too, because when you,
+[12:23.000 --> 12:26.000]  when you start up one of these extensions,
+[12:26.000 --> 12:29.000]  it tells you what size you're going to be.
+[12:29.000 --> 12:34.000]  And they make no promises about, you know,
+[12:34.000 --> 12:35.000]  aspect ratio or anything.
+[12:35.000 --> 12:37.000]  They're just going to give you a size.
+[12:37.000 --> 12:40.000]  And so in theory, down the road,
+[12:40.000 --> 12:42.000]  they could be putting these, I don't know, like on the iPad,
+[12:42.000 --> 12:45.000]  they could make them huge or they could do different stuff.
+[12:45.000 --> 12:47.000]  Are they the same?
+[12:47.000 --> 12:49.000]  Are the notification, this is something I don't know.
+[12:49.000 --> 12:50.000]  It's still on my list.
+[12:50.000 --> 12:53.000]  I haven't watched the notification center sessions yet.
+[12:53.000 --> 13:00.000]  But are they the same for Mac and iOS?
+[13:00.000 --> 13:05.000]  Or they're very similar?
+[13:05.000 --> 13:09.000]  Because you don't have fat apps that one dot app bundle
+[13:09.000 --> 13:12.000]  that runs on both Mac and iOS,
+[13:12.000 --> 13:14.000]  it doesn't really matter if they're exactly the same.
+[13:14.000 --> 13:18.000]  But they're a lot more similar than, say,
+[13:18.000 --> 13:21.000]  a Mac app and an iOS app are.
+[13:21.000 --> 13:22.000]  Oh, yeah.
+[13:22.000 --> 13:23.000]  Yeah.
+[13:23.000 --> 13:25.000]  Well, I mean, ultimately you still got to do that,
+[13:25.000 --> 13:27.000]  you're doing UI code at some point, right?
+[13:27.000 --> 13:29.000]  So that's divergent.
+[13:29.000 --> 13:32.000]  The structure in the idea and the notion is,
+[13:32.000 --> 13:34.000]  is basically identical.
+[13:34.000 --> 13:39.000]  These things were not developed in the old
+[13:39.000 --> 13:40.000]  fiefdom system.
+[13:40.000 --> 13:43.000]  Here's OSD and here's iOS and maybe once
+[13:43.000 --> 13:45.000]  a few years we'll try to sync some stuff up.
+[13:45.000 --> 13:48.000]  These were clearly done together as one.
+[13:48.000 --> 13:53.000]  And in fact, the core technology is from the core OS group.
+[13:53.000 --> 13:56.000]  So I think, you know, core OS had to
+[13:56.000 --> 14:01.000]  drove the XPC and that kind of side of stuff
+[14:01.000 --> 14:04.000]  and then the various framework groups built on top of that.
+[14:04.000 --> 14:07.000]  But, you know, I think we're going to end up over using this word,
+[14:07.000 --> 14:10.000]  but clearly there's a lot of collaboration going on there.
+[14:10.000 --> 14:12.000]  Yeah, that's sort of the key word,
+[14:12.000 --> 14:16.000]  like the central part of the post WWDC essay
+[14:16.000 --> 14:18.000]  that I published today.
+[14:18.000 --> 14:19.000]  Well, recording today on Friday,
+[14:19.000 --> 14:21.000]  I don't know when the show's going to air,
+[14:21.000 --> 14:25.000]  but that collaboration press release from October 2012
+[14:25.000 --> 14:27.000]  when they announced the sort of reorganization
+[14:27.000 --> 14:29.000]  that forced all was gone,
+[14:29.000 --> 14:31.000]  and Federigi was taking overall engineering
+[14:31.000 --> 14:34.000]  and Johnny Eyeball design.
+[14:34.000 --> 14:38.000]  I was clearly seeing that that was not just an empty,
+[14:38.000 --> 14:40.000]  you know, let's put a positive spin
+[14:40.000 --> 14:44.000]  on an ugly, infighting that's been put to an end.
+[14:44.000 --> 14:47.000]  It was an actual statement of intent.
+[14:47.000 --> 14:48.000]  Yeah.
+[14:48.000 --> 14:49.000]  You know, it's funny, you actually,
+[14:49.000 --> 14:51.000]  you often make that argument that Apple just says
+[14:51.000 --> 14:53.000]  what they're like when they do say something,
+[14:53.000 --> 14:55.000]  they just say it straight.
+[14:55.000 --> 14:57.000]  Yeah.
+[14:57.000 --> 15:00.000]  But even that one, like that memo,
+[15:00.000 --> 15:02.000]  or that press release,
+[15:02.000 --> 15:04.000]  you know, people were kind of second guessing
+[15:04.000 --> 15:06.000]  wondering if they, if exactly what they meant.
+[15:06.000 --> 15:09.000]  But no, in terms of, that's what they meant.
+[15:09.000 --> 15:11.000]  They went into increased collaboration,
+[15:11.000 --> 15:14.000]  and here you go, use results of that.
+[15:14.000 --> 15:15.000]  It's fascinating.
+[15:15.000 --> 15:17.000]  And they've done a terrific job.
+[15:17.000 --> 15:19.000]  Well, I think it's a trust but verify situation.
+[15:19.000 --> 15:21.000]  I'm not putting it past them that someday
+[15:21.000 --> 15:24.000]  they'll find themselves in some sort of hole
+[15:24.000 --> 15:27.000]  where they have to lie,
+[15:27.000 --> 15:29.000]  or, you know,
+[15:29.000 --> 15:32.000]  you know, white lie or whatever you want to say,
+[15:32.000 --> 15:34.000]  just put a spin on something
+[15:34.000 --> 15:36.000]  and that what they put out is a misdirection.
+[15:36.000 --> 15:38.000]  I think you could certainly say that they did that with
+[15:38.000 --> 15:40.000]  a lot of the things that they had to say
+[15:40.000 --> 15:43.000]  about Steve Jobs' health in the last few years,
+[15:43.000 --> 15:46.000]  that that was not straightforward.
+[15:46.000 --> 15:47.000]  And it's an exceptional situation.
+[15:47.000 --> 15:49.000]  It was obviously up to Steve
+[15:49.000 --> 15:53.000]  and Apple PR had to more or less play along.
+[15:53.000 --> 15:55.000]  So there's a good example of, you know,
+[15:55.000 --> 15:58.000]  some press releases or official statements
+[15:58.000 --> 16:00.000]  from Apple that were not straightforward.
+[16:00.000 --> 16:02.000]  I also think that's kind of fair enough.
+[16:02.000 --> 16:04.000]  It's a little bit silacious to be digging into it.
+[16:04.000 --> 16:06.000]  Right. It was very, very personal, you know.
+[16:06.000 --> 16:09.000]  And maybe one more and maybe one that wasn't quite so personal
+[16:09.000 --> 16:11.000]  but that was an ugly situation that comes to mind
+[16:11.000 --> 16:14.000]  was the stock options back dating.
+[16:14.000 --> 16:16.000]  Now that's going back, I think, a decade.
+[16:16.000 --> 16:18.000]  I mean, you're talking about 2005.
+[16:18.000 --> 16:21.000]  But that they skated very close, you know,
+[16:21.000 --> 16:24.000]  maybe went over a line and, you know,
+[16:24.000 --> 16:27.000]  we're in a situation where they couldn't be straightforward.
+[16:27.000 --> 16:29.000]  Yeah, that seemed to be like duty pool for sure.
+[16:29.000 --> 16:31.000]  But an awful lot of the time, yeah.
+[16:31.000 --> 16:35.000]  Hindsight proves that they're actually pretty straightforward.
+[16:35.000 --> 16:39.000]  And I think that it's showing that that's clearly the case.
+[16:39.000 --> 16:41.000]  And that collaboration, like you said,
+[16:41.000 --> 16:46.000]  that it's a core OS effort.
+[16:46.000 --> 16:48.000]  It's at the framework level.
+[16:48.000 --> 16:51.000]  It's not about iOS and macOS 10
+[16:51.000 --> 16:54.000]  haven't really gotten any closer to each other.
+[16:54.000 --> 16:56.000]  They're not, if I'm a user perspective,
+[16:56.000 --> 16:58.000]  from the interface perspective,
+[16:58.000 --> 17:02.000]  there's still no touch on the Mac, you know,
+[17:02.000 --> 17:04.000]  changing the system fonts to match each other
+[17:04.000 --> 17:07.000]  is Helvetica Noya is not sure.
+[17:07.000 --> 17:09.000]  That's cosmetic, it's not technical.
+[17:09.000 --> 17:13.000]  But the frameworks have, they've really done a massive
+[17:13.000 --> 17:16.000]  job of getting as many of the frameworks that could
+[17:16.000 --> 17:19.000]  be shared between them to be shared between them.
+[17:19.000 --> 17:20.000]  Yeah.
+[17:20.000 --> 17:22.000]  And, you know, anything that doesn't touch the UI
+[17:22.000 --> 17:27.000]  is pretty much equivalent on either the platforms.
+[17:27.000 --> 17:30.000]  You know, this, you know, caveats here and there.
+[17:30.000 --> 17:32.000]  But, you know, like AV Foundation,
+[17:32.000 --> 17:34.000]  all of it, the video playback stuff,
+[17:34.000 --> 17:36.000]  certainly a lot of the core OS stuff.
+[17:36.000 --> 17:37.000]  Yeah.
+[17:37.000 --> 17:38.000]  And foundation itself.
+[17:38.000 --> 17:39.000]  Yeah.
+[17:39.000 --> 17:42.000]  AV Foundation is probably the first one I can remember.
+[17:42.000 --> 17:45.000]  It was a couple years ago.
+[17:45.000 --> 17:46.000]  Definitely.
+[17:46.000 --> 17:47.000]  Maybe two years ago, I forget.
+[17:47.000 --> 17:48.000]  It was when it first came out.
+[17:48.000 --> 17:50.000]  Maybe it was three years ago.
+[17:50.000 --> 17:51.000]  That's the first one.
+[17:51.000 --> 17:53.000]  That might have been a sign of things to come,
+[17:53.000 --> 17:55.000]  even though, you know, it was before this, you know,
+[17:55.000 --> 17:57.000]  the October 2012 reorganization.
+[17:57.000 --> 17:59.000]  But AV Foundation was one I can remember
+[17:59.000 --> 18:01.000]  where they were in the session, you know,
+[18:01.000 --> 18:04.000]  I was in the session and it was clearly a unification
+[18:04.000 --> 18:06.000]  between Mac and iOS.
+[18:06.000 --> 18:08.000]  Not all of that, it stumped on a quick time.
+[18:08.000 --> 18:09.000]  Right.
+[18:09.000 --> 18:12.000]  And it was kind of unimaginable, you know,
+[18:12.000 --> 18:13.000]  a number of years ago.
+[18:13.000 --> 18:14.000]  Yeah.
+[18:14.000 --> 18:16.000]  Could be a quick time being a crown jewel of the company.
+[18:16.000 --> 18:17.000]  Right.
+[18:17.000 --> 18:18.000]  I think they learned from it.
+[18:18.000 --> 18:20.000]  It wasn't like that they'd, you know,
+[18:20.000 --> 18:21.000]  threw it in the garbage,
+[18:21.000 --> 18:23.000]  but that they would have said, you know,
+[18:23.000 --> 18:25.000]  you've got to start over.
+[18:25.000 --> 18:26.000]  Yeah.
+[18:26.000 --> 18:27.000]  Quick time is what?
+[18:27.000 --> 18:28.000]  89 kind of thing.
+[18:28.000 --> 18:30.000]  Like, I think it was like 91,
+[18:30.000 --> 18:31.000]  but close.
+[18:31.000 --> 18:32.000]  There's probably,
+[18:32.000 --> 18:34.000]  they probably started work on it in 89 or 90.
+[18:34.000 --> 18:37.000]  And I remember running literally, like,
+[18:37.000 --> 18:40.000]  posted stamp size movies on my Mac LC
+[18:40.000 --> 18:42.000]  and being amazed.
+[18:42.000 --> 18:43.000]  Yeah.
+[18:43.000 --> 18:44.000]  I think this is the best thing ever.
+[18:44.000 --> 18:45.000]  Yeah.
+[18:45.000 --> 18:46.000]  I think like a very,
+[18:46.000 --> 18:48.000]  they were like what we would now use
+[18:48.000 --> 18:51.000]  as like animated gifts that fit on a line of text.
+[18:51.000 --> 18:53.000]  They were maybe like, I don't know, 80 pixels
+[18:53.000 --> 18:55.000]  by like 120 or something.
+[18:55.000 --> 18:57.000]  But it would peg your CPA too.
+[18:57.000 --> 18:58.000]  Oh, absolutely.
+[18:58.000 --> 18:59.000]  And drop frames.
+[18:59.000 --> 19:00.000]  Yeah.
+[19:00.000 --> 19:02.000]  You know, you've got like, you know,
+[19:02.000 --> 19:04.000]  12 frames per second or something.
+[19:04.000 --> 19:05.000]  256 colors?
+[19:05.000 --> 19:06.000]  Yeah.
+[19:06.000 --> 19:08.000]  But you'd have, you know,
+[19:08.000 --> 19:09.000]  you'd have a video playing on your computer.
+[19:09.000 --> 19:10.000]  It was amazing.
+[19:10.000 --> 19:11.000]  Which was pretty cool.
+[19:11.000 --> 19:12.000]  Actually, wait,
+[19:12.000 --> 19:15.000]  did Max do 256 colors with a color palette?
+[19:15.000 --> 19:18.000]  Did you just go 16 bit?
+[19:18.000 --> 19:20.000]  No, mine had 256 colors.
+[19:20.000 --> 19:22.000]  You had to have a better video card.
+[19:22.000 --> 19:24.000]  And then they went to,
+[19:24.000 --> 19:26.000]  they used to call it thousands of colors.
+[19:26.000 --> 19:27.000]  That's it.
+[19:27.000 --> 19:28.000]  They had a mode,
+[19:28.000 --> 19:29.000]  which was, I think,
+[19:29.000 --> 19:30.000]  what would it have been?
+[19:30.000 --> 19:33.000]  Would it have been like 16,000 colors?
+[19:33.000 --> 19:35.000]  Six, five, five, three, six.
+[19:35.000 --> 19:37.000]  Yeah, exactly.
+[19:37.000 --> 19:39.000]  But instead of giving you that number,
+[19:39.000 --> 19:40.000]  they just called it,
+[19:40.000 --> 19:41.000]  it was very Apple.
+[19:41.000 --> 19:42.000]  They just called it thousands.
+[19:42.000 --> 19:43.000]  Yeah.
+[19:43.000 --> 19:44.000]  And that was what,
+[19:44.000 --> 19:45.000]  that was, you know,
+[19:45.000 --> 19:46.000]  if you had a good,
+[19:46.000 --> 19:47.000]  good video card.
+[19:47.000 --> 19:50.000]  I'm trying to picture a Mac with a 256 bit color palette.
+[19:50.000 --> 19:52.000]  How did that work with different applications?
+[19:52.000 --> 19:55.000]  Man,
+[19:55.000 --> 19:56.000]  I wish circuits were here.
+[19:56.000 --> 19:59.000]  I remember it because I had it for years and years.
+[19:59.000 --> 20:03.000]  There was a standard system palette of 256 colors,
+[20:03.000 --> 20:06.000]  but an app could change that.
+[20:06.000 --> 20:12.000]  And it was a certain resident resource type
+[20:12.000 --> 20:14.000]  where you would,
+[20:14.000 --> 20:16.000]  you would more or less just give it,
+[20:16.000 --> 20:18.000]  give the system a two.
+[20:18.000 --> 20:22.000]  Here's the 256 colors I want in RGB.
+[20:22.000 --> 20:25.000]  So like, for example,
+[20:25.000 --> 20:26.000]  I remember I had like,
+[20:26.000 --> 20:28.000]  it wasn't called PGA golf.
+[20:28.000 --> 20:29.000]  I forget,
+[20:29.000 --> 20:31.000]  but I had a golf video game that I was
+[20:31.000 --> 20:34.000]  totally addicted to in college.
+[20:34.000 --> 20:35.000]  And I remember looking,
+[20:35.000 --> 20:36.000]  it was like a clut,
+[20:36.000 --> 20:38.000]  I think it was a CLUT resource.
+[20:38.000 --> 20:39.000]  I forget what that's good for.
+[20:39.000 --> 20:40.000]  Yeah, it could have a look up table.
+[20:40.000 --> 20:41.000]  Yeah, that's it.
+[20:41.000 --> 20:42.000]  That's it.
+[20:42.000 --> 20:43.000]  It was a clut resource.
+[20:43.000 --> 20:44.000]  And I remember being curious one time,
+[20:44.000 --> 20:45.000]  and I looked at it.
+[20:45.000 --> 20:46.000]  And of course,
+[20:46.000 --> 20:47.000]  they had like,
+[20:47.000 --> 20:48.000]  at 250 colors,
+[20:48.000 --> 20:49.000]  it had like,
+[20:49.000 --> 20:49.000]  I don't know,
+[20:49.000 --> 20:51.000]  180 shades of green.
+[20:51.000 --> 20:54.000]  And a couple of pinks
+[20:54.000 --> 20:55.000]  so you could wear like,
+[20:55.000 --> 20:57.000]  obnoxious golf shirts and stuff.
+[20:57.000 --> 21:00.000]  But then you'd see like,
+[21:00.000 --> 21:02.000]  you'd see like some weird flashing,
+[21:02.000 --> 21:05.000]  if you switched between two apps like that.
+[21:05.000 --> 21:06.000]  Okay. Yeah.
+[21:06.000 --> 21:07.000]  That's what,
+[21:07.000 --> 21:09.000]  because that's what I was curious about.
+[21:09.000 --> 21:10.000]  Because in the background,
+[21:10.000 --> 21:11.000]  the other app,
+[21:11.000 --> 21:13.000]  there's one palette for the entire screen.
+[21:13.000 --> 21:15.000]  So if you've got one image
+[21:15.000 --> 21:16.000]  with a nice palette,
+[21:16.000 --> 21:17.000]  the other one is just going to look like garbage.
+[21:17.000 --> 21:18.000]  Yeah.
+[21:18.000 --> 21:19.000]  And so I seem to recall,
+[21:19.000 --> 21:20.000]  mostly it was for games though,
+[21:20.000 --> 21:22.000]  so you wouldn't notice.
+[21:22.000 --> 21:23.000]  Most apps wouldn't switch it.
+[21:23.000 --> 21:26.000]  And I guess if you were looking at like an image editor
+[21:26.000 --> 21:27.000]  or something with,
+[21:27.000 --> 21:28.000]  you know,
+[21:28.000 --> 21:30.000]  in a regular not full screen mode,
+[21:30.000 --> 21:32.000]  you know, with windows overlapping,
+[21:32.000 --> 21:34.000]  it would make windows in the background
+[21:34.000 --> 21:36.000]  from other apps look, you know,
+[21:36.000 --> 21:37.000]  all sorts of goofy.
+[21:37.000 --> 21:40.000]  But goofy was sort of the name of the game back
+[21:40.000 --> 21:41.000]  in those days.
+[21:41.000 --> 21:42.000]  Yeah.
+[21:42.000 --> 21:43.000]  It somehow didn't really strike,
+[21:43.000 --> 21:44.000]  strike me as all that.
+[21:44.000 --> 21:45.000]  You know,
+[21:45.000 --> 21:46.000]  it seemed understandable.
+[21:46.000 --> 21:47.000]  It was gross,
+[21:47.000 --> 21:48.000]  but it was like,
+[21:48.000 --> 21:49.000]  well, of course,
+[21:49.000 --> 21:51.000]  because there's only six colors.
+[21:51.000 --> 21:52.000]  And sometimes you need more
+[21:52.000 --> 21:54.000]  than eight shades of green.
+[21:54.000 --> 21:56.000]  Exactly.
+[21:56.000 --> 21:57.000]  For golf.
+[21:57.000 --> 21:58.000]  Yeah.
+[21:58.000 --> 21:59.000]  Okay.
+[21:59.000 --> 22:01.000]  Memory lane.
+[22:01.000 --> 22:02.000]  What are we talking about?
+[22:02.000 --> 22:04.000]  The iOS extensions, right?
+[22:04.000 --> 22:05.000]  Yeah.
+[22:05.000 --> 22:06.000]  Well, let me take a break.
+[22:06.000 --> 22:08.000]  Because I have a couple sponsors to thank.
+[22:08.000 --> 22:10.000]  And let me thank our first sponsor,
+[22:10.000 --> 22:13.000]  our good friends at Hover.
+[22:13.000 --> 22:15.000]  Do you ever hear Hover?
+[22:15.000 --> 22:16.000]  I have.
+[22:16.000 --> 22:17.000]  Yeah.
+[22:17.000 --> 22:18.000]  Good people.
+[22:18.000 --> 22:19.000]  Yeah.
+[22:19.000 --> 22:20.000]  Really good people.
+[22:20.000 --> 22:21.000]  So you have a great idea.
+[22:21.000 --> 22:22.000]  You have a great idea.
+[22:22.000 --> 22:24.000]  You want to secure a domain name for your great idea.
+[22:24.000 --> 22:26.000]  So you want something catchy and memorable
+[22:26.000 --> 22:28.000]  to represent your online identity.
+[22:28.000 --> 22:31.000]  Hover gives you exactly what you need to get the job done.
+[22:31.000 --> 22:33.000]  You can find the perfect domain
+[22:33.000 --> 22:35.000]  for your idea and get started working on it
+[22:35.000 --> 22:38.000]  rather than wasting time looking for a cool domain name.
+[22:38.000 --> 22:40.000]  But it's more than just finding a good domain name.
+[22:40.000 --> 22:43.000]  The big advantage to Hover is what happens afterwards.
+[22:43.000 --> 22:47.000]  Because it's not like every other domain register I've ever seen
+[22:47.000 --> 22:52.000]  where it's full of spam and junk and upsells and gross ads
+[22:52.000 --> 22:54.000]  and stuff like that.
+[22:54.000 --> 22:58.000]  Hover, all they want is your business.
+[22:58.000 --> 22:59.000]  You pay them.
+[22:59.000 --> 23:02.000]  They give you a domain name and great service.
+[23:02.000 --> 23:03.000]  And that's it.
+[23:03.000 --> 23:06.000]  No upselling, no ads, no junk.
+[23:06.000 --> 23:08.000]  Geeks, developers, designers, programmers
+[23:08.000 --> 23:11.000]  have been using Hover for years and love it.
+[23:11.000 --> 23:13.000]  You don't have to be an expert to get a domain.
+[23:13.000 --> 23:16.000]  If you've never registered a domain name before,
+[23:16.000 --> 23:17.000]  you'll love Hover 2.
+[23:17.000 --> 23:18.000]  Really easy.
+[23:18.000 --> 23:20.000]  You don't have to be a DNS expert.
+[23:20.000 --> 23:23.000]  They give you easy use powerful tools to manage your domain
+[23:23.000 --> 23:26.000]  once you have it so that anyone can do it.
+[23:26.000 --> 23:29.000]  They have good technical support, great technical support,
+[23:29.000 --> 23:30.000]  really.
+[23:30.000 --> 23:32.000]  And here's the best part.
+[23:32.000 --> 23:33.000]  Let's say you're the opposite.
+[23:33.000 --> 23:35.000]  And I think the bliss and worship of this show,
+[23:35.000 --> 23:37.000]  let's face it, there's probably not a lot of you out there
+[23:37.000 --> 23:38.000]  who've never registered a domain.
+[23:38.000 --> 23:42.000]  You're probably more like me and you've got like 20, 30, 40
+[23:42.000 --> 23:45.000]  domains that you've never even used.
+[23:45.000 --> 23:47.000]  But you want to keep them because they're good domain names
+[23:47.000 --> 23:48.000]  that you might use in the future.
+[23:48.000 --> 23:51.000]  Here's the thing that Hover has that's great.
+[23:51.000 --> 23:55.000]  You've registered them with other hostings,
+[23:55.000 --> 23:57.000]  or registration services, that stink.
+[23:57.000 --> 23:58.000]  And you kind of hate them.
+[23:58.000 --> 24:02.000]  Hover will help you move those domains to hover
+[24:02.000 --> 24:05.000]  and stop doing business with registrars
+[24:05.000 --> 24:06.000]  who you feel gross about.
+[24:06.000 --> 24:07.000]  Hover will help you.
+[24:07.000 --> 24:08.000]  They've got this great service.
+[24:08.000 --> 24:10.000]  They do all the work for you.
+[24:10.000 --> 24:13.000]  Really, really impressive stuff.
+[24:13.000 --> 24:15.000]  Really, bottom line, it sounds goofy
+[24:15.000 --> 24:17.000]  because you think, well, why wouldn't they be honest?
+[24:17.000 --> 24:18.000]  But that's the thing.
+[24:18.000 --> 24:19.000]  Hover is honest.
+[24:19.000 --> 24:22.000]  And it's the truth is remain registration
+[24:22.000 --> 24:24.000]  as a dishonest, dirty business.
+[24:24.000 --> 24:28.000]  Hover is the good guy in the business.
+[24:28.000 --> 24:31.000]  Where do you go to find out more?
+[24:31.000 --> 24:32.000]  Easy.
+[24:32.000 --> 24:33.000]  Go to hover.com.
+[24:33.000 --> 24:35.000]  Now, they gave me a promo code.
+[24:35.000 --> 24:36.000]  This is great.
+[24:36.000 --> 24:39.000]  J-E-T-E-R.
+[24:39.000 --> 24:41.000]  I'll explain that to you in a minute, Guy.
+[24:41.000 --> 24:43.000]  But use that code.
+[24:43.000 --> 24:46.000]  They'll know you came from this show, the talk show.
+[24:46.000 --> 24:50.000]  And you'll get 10% off your first purchase
+[24:50.000 --> 24:52.000]  just by typing in that promo code.
+[24:52.000 --> 24:54.000]  So go to hover.com.
+[24:54.000 --> 24:56.000]  They've got all the new TLDs.
+[24:56.000 --> 24:57.000]  Everything you could want.
+[24:57.000 --> 25:01.000]  Hover.com, use the promo code Jeter
+[25:01.000 --> 25:03.000]  and find out more.
+[25:03.000 --> 25:06.000]  I can't recommend these guys highly enough.
+[25:06.000 --> 25:08.000]  So Jeter is a baseball player.
+[25:08.000 --> 25:09.000]  Got Derek Jeter.
+[25:09.000 --> 25:10.000]  Yeah.
+[25:10.000 --> 25:11.000]  So I hear.
+[25:11.000 --> 25:14.000]  He's played for the vet show, isn't he?
+[25:14.000 --> 25:17.000]  Well, he's in Brazil right now playing in the World Cup.
+[25:21.000 --> 25:23.000]  Nice.
+[25:23.000 --> 25:24.000]  You know, I saw a thing.
+[25:24.000 --> 25:26.000]  We have so much tech stuff to talk about.
+[25:26.000 --> 25:28.000]  But I know you're a fan of the football.
+[25:28.000 --> 25:30.000]  Kotke linked to a cool thing
+[25:30.000 --> 25:32.000]  the New York Times had showing the history
+[25:32.000 --> 25:34.000]  of the World Cup soccer balls.
+[25:34.000 --> 25:35.000]  He was just looking at it.
+[25:35.000 --> 25:36.000]  It's great.
+[25:36.000 --> 25:37.000]  Oh my god.
+[25:37.000 --> 25:38.000]  It's so great.
+[25:38.000 --> 25:39.000]  I got to link that up.
+[25:39.000 --> 25:41.000]  The first one looks like a medicine ball.
+[25:41.000 --> 25:44.000]  It looks like a misshapen American football.
+[25:44.000 --> 25:45.000]  Yeah.
+[25:45.000 --> 25:47.000]  Somebody took a US football and just pumped it up
+[25:47.000 --> 25:50.000]  until it went round.
+[25:50.000 --> 25:53.000]  Like, it's crazy.
+[25:53.000 --> 25:54.000]  I guess I do.
+[25:54.000 --> 25:55.000]  Because I've never.
+[25:55.000 --> 26:01.000]  I mean, I'm a sports fan, but I'm not a soccer fan.
+[26:01.000 --> 26:04.000]  I had always assumed that the soccer balls
+[26:04.000 --> 26:07.000]  from like the 70s, that iconic black
+[26:07.000 --> 26:10.000]  and white sort of checkered pattern
+[26:10.000 --> 26:14.000]  octagonal checkered pattern.
+[26:14.000 --> 26:16.000]  That was the way they always looked.
+[26:16.000 --> 26:17.000]  But it wasn't.
+[26:17.000 --> 26:19.000]  It was really just like a brief period
+[26:19.000 --> 26:21.000]  in our youth when they looked like that.
+[26:21.000 --> 26:23.000]  Yeah, but to me,
+[26:23.000 --> 26:24.000]  you know, basically the same age.
+[26:24.000 --> 26:25.000]  Yes.
+[26:25.000 --> 26:26.000]  That exact look.
+[26:26.000 --> 26:27.000]  That 70s checkered look.
+[26:27.000 --> 26:28.000]  That's soccer.
+[26:28.000 --> 26:29.000]  Yeah.
+[26:29.000 --> 26:31.000]  Did you like these new soccer balls?
+[26:31.000 --> 26:32.000]  I don't.
+[26:32.000 --> 26:35.000]  I think that they're messing around with them too much.
+[26:35.000 --> 26:36.000]  I totally agree.
+[26:36.000 --> 26:39.000]  No, I think they're kind of crappy actually.
+[26:39.000 --> 26:40.000]  But I don't know.
+[26:40.000 --> 26:42.000]  Maybe I'm just a traditionalist or something.
+[26:42.000 --> 26:44.000]  But I, you know,
+[26:44.000 --> 26:45.000]  they got to be black and white.
+[26:45.000 --> 26:47.000]  And they need to have some kind of checkered pattern
+[26:47.000 --> 26:48.000]  on them.
+[26:48.000 --> 26:49.000]  Yeah.
+[26:49.000 --> 26:50.000]  That's not a checkered pattern.
+[26:50.000 --> 26:51.000]  Yeah.
+[26:51.000 --> 26:53.000]  Even if they want to use these fewer panels,
+[26:53.000 --> 26:55.000]  they could somehow put the checkered pattern on.
+[26:55.000 --> 26:56.000]  But even then,
+[26:56.000 --> 26:58.000]  I kind of don't like the way they keep messing with it.
+[26:58.000 --> 27:01.000]  Like, it seems contrary to tradition.
+[27:01.000 --> 27:02.000]  Yeah.
+[27:02.000 --> 27:04.000]  And soccer is a lot about tradition.
+[27:04.000 --> 27:05.000]  Like, if you did something,
+[27:05.000 --> 27:07.000]  the same thing with baseball.
+[27:07.000 --> 27:09.000]  The baseball would look exactly the same.
+[27:09.000 --> 27:10.000]  Like, here it is.
+[27:10.000 --> 27:11.000]  Then, you know, 1920s.
+[27:11.000 --> 27:12.000]  It looks like a baseball.
+[27:12.000 --> 27:13.000]  1930s.
+[27:13.000 --> 27:14.000]  It looks like a baseball.
+[27:14.000 --> 27:15.000]  Yeah.
+[27:15.000 --> 27:17.000]  And there's always been rumors in Major League Baseball
+[27:17.000 --> 27:20.000]  that in certain decades that there's a secretiveness
+[27:20.000 --> 27:23.000]  to what's in the center of a baseball.
+[27:23.000 --> 27:24.000]  Okay.
+[27:24.000 --> 27:27.000]  Which I've never really bought into because,
+[27:27.000 --> 27:29.000]  you know, you don't have to be a baseball fan to know that,
+[27:29.000 --> 27:31.000]  you know, home runs and foul balls
+[27:31.000 --> 27:32.000]  go into the stands all the time.
+[27:32.000 --> 27:34.000]  Like, it's not every game.
+[27:34.000 --> 27:38.000]  Every game, some couple of dozen fans go home
+[27:38.000 --> 27:40.000]  with a real Major League Baseball.
+[27:40.000 --> 27:41.000]  Yeah.
+[27:41.000 --> 27:43.000]  So, it's there to be cut open and looked at.
+[27:43.000 --> 27:47.000]  But there's always been rumors like when home runs go up or down,
+[27:47.000 --> 27:50.000]  there's always conspiracies that they've changed the rubber
+[27:50.000 --> 27:52.000]  in the middle of the ball, you know,
+[27:52.000 --> 27:54.000]  that the commissioner has decided we need more home runs
+[27:54.000 --> 27:57.000]  and they've doctored the balls to make them easier
+[27:57.000 --> 27:59.000]  to hit further, et cetera, et cetera.
+[27:59.000 --> 28:01.000]  I think doctoring the players is.
+[28:01.000 --> 28:02.000]  Yeah.
+[28:02.000 --> 28:03.000]  That was a lot more of a problem.
+[28:03.000 --> 28:04.000]  And there was,
+[28:04.000 --> 28:06.000]  but you have to go back 100 years for this.
+[28:06.000 --> 28:09.000]  There was something called the dead ball error
+[28:09.000 --> 28:13.000]  where the baseballs were harder to hit further.
+[28:13.000 --> 28:14.000]  Huh.
+[28:14.000 --> 28:16.000]  Because they constructed differently?
+[28:16.000 --> 28:17.000]  Yeah, they were just,
+[28:17.000 --> 28:18.000]  I don't know what the technical,
+[28:18.000 --> 28:20.000]  I don't know what the actual technical difference was.
+[28:20.000 --> 28:22.000]  But this wasn't like a secret conspiracy.
+[28:22.000 --> 28:25.000]  This was, you know, just a stated fact.
+[28:25.000 --> 28:26.000]  Yeah.
+[28:26.000 --> 28:29.000]  And then, you know, there's like pre-bay booth.
+[28:29.000 --> 28:32.000]  I mean, so you're really talking like almost 100 years ago.
+[28:32.000 --> 28:34.000]  But it wouldn't be like that.
+[28:34.000 --> 28:35.000]  Same thing for basketball.
+[28:35.000 --> 28:38.000]  Like I think you could go back to like 1950.
+[28:38.000 --> 28:42.000]  And you know, a basketball looks like a basketball.
+[28:42.000 --> 28:43.000]  Yeah.
+[28:43.000 --> 28:44.000]  I imagine so.
+[28:44.000 --> 28:45.000]  I don't get it with soccer.
+[28:45.000 --> 28:46.000]  I can't.
+[28:46.000 --> 28:47.000]  I can't.
+[28:47.000 --> 28:48.000]  Well,
+[28:48.000 --> 28:51.000]  European fashionista, right?
+[28:51.000 --> 28:53.000]  Yeah, I guess so.
+[28:53.000 --> 28:54.000]  I guess so.
+[28:54.000 --> 28:55.000]  I don't know.
+[28:55.000 --> 28:57.000]  There's so much money in soccer though.
+[28:57.000 --> 28:58.000]  It's crazy.
+[28:58.000 --> 28:59.000]  Yeah.
+[28:59.000 --> 29:00.000]  I wonder if that's it.
+[29:00.000 --> 29:05.000]  Maybe, you know, if they, if they make a lot of money by selling like these updated soccer balls.
+[29:05.000 --> 29:08.000]  Because, you know, but I, I would think so, you know, like any sport that the balls
+[29:08.000 --> 29:12.000]  wear out anyway and that there's always going to be, you know, anybody who plays on a regular
+[29:12.000 --> 29:14.000]  basis has to buy balls on a regular basis.
+[29:14.000 --> 29:16.000]  And it doesn't matter if they change the design.
+[29:16.000 --> 29:17.000]  You're still buying a ball.
+[29:17.000 --> 29:18.000]  Yeah.
+[29:18.000 --> 29:21.000]  I've been getting a new design for the world cap.
+[29:21.000 --> 29:23.000]  Yeah, I guess it could spike up his thing.
+[29:23.000 --> 29:24.000]  Yeah.
+[29:24.000 --> 29:29.000]  And I guess what it does is it makes everybody want to get the official Adidas ball.
+[29:29.000 --> 29:33.000]  That it's more, it's, you know, it's, whereas I can basketball.
+[29:33.000 --> 29:36.000]  There's three, four, five major manufacturers of basketball.
+[29:36.000 --> 29:39.000]  And they all make same fundamental ball.
+[29:39.000 --> 29:42.000]  Are they used interchangeably during the game?
+[29:42.000 --> 29:47.000]  No, each league usually, at least at a serious level once you get to like serious like college
+[29:47.000 --> 29:53.000]  basketball or certainly in a professional level, it's, there's somebody has a licensing deal
+[29:53.000 --> 29:56.000]  and, you know, and for fairness sake, there's one manufacturer.
+[29:56.000 --> 30:01.000]  But like, you know, spalding has long made the NBA's balls.
+[30:01.000 --> 30:05.000]  But very few of the college teams use the spalding balls.
+[30:05.000 --> 30:07.000]  They use, you know, Wilson and other brands.
+[30:07.000 --> 30:08.000]  I don't know why that is.
+[30:08.000 --> 30:10.000]  I guess it's, you know, whatever.
+[30:10.000 --> 30:12.000]  Nice marketing deal.
+[30:12.000 --> 30:14.000]  Payola.
+[30:14.000 --> 30:16.000]  Okay.
+[30:16.000 --> 30:18.000]  Extend it.
+[30:18.000 --> 30:19.000]  Right on top.
+[30:19.000 --> 30:22.000]  We could talk about goofy stuff or ever.
+[30:22.000 --> 30:23.000]  Get a job to do.
+[30:23.000 --> 30:24.000]  Yeah.
+[30:24.000 --> 30:26.000]  I don't know.
+[30:26.000 --> 30:27.000]  Where do we get to?
+[30:27.000 --> 30:28.000]  Extension is good.
+[30:28.000 --> 30:32.000]  I think maybe you link to a piece by Sean Heber.
+[30:32.000 --> 30:33.000]  Yeah.
+[30:33.000 --> 30:35.000]  Interesting.
+[30:35.000 --> 30:36.000]  Yeah.
+[30:36.000 --> 30:39.000]  Cause it's, you know, it's this.
+[30:39.000 --> 30:45.000]  I guess a lot of people, Sean Heber had a piece where he sort of speculated.
+[30:45.000 --> 30:46.000]  He works.
+[30:46.000 --> 30:48.000]  He does all the work for a hockey berry.
+[30:48.000 --> 30:50.000]  You know, a hockey berry gets all the credit.
+[30:50.000 --> 30:52.000]  And Sean Heber, I guess does all the hard work.
+[30:52.000 --> 30:54.000]  And when your spig is hockey berry, you don't want to.
+[30:54.000 --> 30:55.000]  Yeah.
+[30:55.000 --> 30:57.000]  You don't really need, you know, to do the typing.
+[30:57.000 --> 31:06.000]  I don't want to read his piece, but basically he took a look at this new extension emphasis
+[31:06.000 --> 31:11.000]  on extensions and the safety, you know, the way that it's separate apps.
+[31:11.000 --> 31:15.000]  Really, just little apps running in a different context and speculated that that could be
+[31:15.000 --> 31:24.000]  the future of a new like a next generation Apple TV with, you know, with apps with an open,
+[31:24.000 --> 31:28.000]  like an open for Apple, an app store architecture.
+[31:28.000 --> 31:29.000]  Yeah.
+[31:29.000 --> 31:30.000]  It's an interesting piece.
+[31:30.000 --> 31:31.000]  It's worth checking out.
+[31:31.000 --> 31:32.000]  Yeah.
+[31:32.000 --> 31:35.000]  Cause the, I'll cut it in the show notes.
+[31:35.000 --> 31:36.000]  Yeah.
+[31:36.000 --> 31:37.000]  Okay.
+[31:37.000 --> 31:38.000]  Perfect.
+[31:38.000 --> 31:41.000]  Cause the cool thing about the extension thing is that they don't tell you really what
+[31:41.000 --> 31:42.000]  context you're going to be in.
+[31:42.000 --> 31:43.000]  Yeah.
+[31:43.000 --> 31:48.000]  It doesn't say, okay, now you're coming up for the today context or whatever.
+[31:48.000 --> 31:54.000]  It, it gives you a frame in which to project your UI in.
+[31:54.000 --> 32:03.000]  And now that you can actually use the GPU in the background, I, I can see them doing something
+[32:03.000 --> 32:09.000]  where like an app can be running and projecting a UI into like an off screen surface and having
+[32:09.000 --> 32:14.000]  that surface broadcast to a television using basically what do they call it?
+[32:14.000 --> 32:15.000]  Airplay.
+[32:15.000 --> 32:16.000]  Yeah.
+[32:16.000 --> 32:18.000]  Well, for video airplanes, great.
+[32:18.000 --> 32:19.000]  For games, it wouldn't be, right?
+[32:19.000 --> 32:20.000]  No.
+[32:20.000 --> 32:22.000]  And there's an, and just pie in the sky.
+[32:22.000 --> 32:27.000]  What if blah, blah, blah, the idea that the game is running on your iPad or your iPhone
+[32:27.000 --> 32:31.000]  and just projecting to the screen, it's just going to be way too much latency.
+[32:31.000 --> 32:37.000]  There's no way that you're going to get, you know, even fun casual game laced latency with
+[32:37.000 --> 32:38.000]  that type.
+[32:38.000 --> 32:39.000]  But yes.
+[32:39.000 --> 32:41.000]  Well, they would rule out a lot of games.
+[32:41.000 --> 32:43.000]  There's some games where that could work.
+[32:43.000 --> 32:44.000]  All right, I'll backtrack.
+[32:44.000 --> 32:48.000]  There's some games where it could still work, but there's a lot of games where it wouldn't.
+[32:48.000 --> 32:53.000]  I certainly don't think you'd get a big chunk of the console market through that method
+[32:53.000 --> 32:56.000]  because, yeah, you've had the latency wouldn't be there.
+[32:56.000 --> 32:57.000]  All right.
+[32:57.000 --> 33:04.000]  And the other thing that I keep coming back to is we know the basic, at least Apple TV as we know
+[33:04.000 --> 33:09.000]  it is the cheap parts of an iOS device by which I mean.
+[33:09.000 --> 33:15.000]  And it just seems funny because if you're old enough to think that the CPU is one of the
+[33:15.000 --> 33:23.000]  cheap parts is crazy because it used to be that a PC was a very expensive CPU surrounded
+[33:23.000 --> 33:25.000]  by other stuff.
+[33:25.000 --> 33:31.000]  And now, like the, you know, the A series systems on a chip, not that they're cheap,
+[33:31.000 --> 33:36.000]  but they're, you know, they're newer, near as expensive as the touchscreen, the display.
+[33:36.000 --> 33:42.000]  You know, the glass, the actual glass is the expensive part of an iPad and iPhone.
+[33:42.000 --> 33:43.000]  Bad, expensive, expensive.
+[33:43.000 --> 33:46.000]  Yeah, I think batteries are expensive.
+[33:46.000 --> 33:49.000]  And I think that it's the assembly too.
+[33:49.000 --> 33:54.000]  I think that the, you know, that's not, you can't really call it a component, but getting all that stuff
+[33:54.000 --> 33:57.000]  into these crazy, thin, small form factors.
+[33:57.000 --> 33:58.000]  Right.
+[33:58.000 --> 34:01.000]  And the differences they have that costs money in the tooling.
+[34:01.000 --> 34:02.000]  Right.
+[34:02.000 --> 34:08.000]  So, but then to take that little tiny system on a chip and put it into a relatively humongous
+[34:08.000 --> 34:12.000]  hockey puck like the Apple TV, I think is assembly wise, very cheap.
+[34:12.000 --> 34:17.000]  So they can sell them like right now today, they sell an Apple TV for $99 and it has the,
+[34:17.000 --> 34:20.000]  I think it has the A5 doesn't, they never updated it.
+[34:20.000 --> 34:23.000]  A5, yeah.
+[34:23.000 --> 34:28.000]  And, you know, it's been updated to the A5 for a while now.
+[34:28.000 --> 34:32.000]  I think it was sometime like 18 months, two years ago when it came out.
+[34:32.000 --> 34:36.000]  But when it did, the A5 was roughly a year old.
+[34:36.000 --> 34:43.000]  You know, they can put a year old system on a chip into a $99 Apple TV.
+[34:43.000 --> 34:50.000]  So that means like, sometimes soon, if not, if not in the second half of this year, maybe early next year,
+[34:50.000 --> 34:55.000]  they can put the A7 system on a chip in a $99 Apple TV.
+[34:55.000 --> 34:58.000]  And I, it doesn't make any sense.
+[34:58.000 --> 35:03.000]  If you've got a nice A7 in there, it doesn't make any sense to only use it for air play.
+[35:03.000 --> 35:05.000]  I mean, you'd want to have code running on it.
+[35:05.000 --> 35:09.000]  I, you know, graphics stuff running on metal on A7.
+[35:09.000 --> 35:10.000]  Ivy.
+[35:10.000 --> 35:13.000]  Yeah, especially because yeah, A7 starts with the,
+[35:13.000 --> 35:19.000]  or sorry, the metal API, the new 3D rendering API that they have requires an A7 right now.
+[35:19.000 --> 35:28.000]  Again, I think it's a business thing, depending on how they think that they can get into this market.
+[35:28.000 --> 35:38.000]  Ben Thompson had a good piece of yesterday about disrupting like Apple disrupting the console market and how it's right for it.
+[35:38.000 --> 35:41.000]  I agree with you, he at some point had two products.
+[35:41.000 --> 35:48.000]  He had like a $99 one out of games and a $179 one with games, which is bone headed.
+[35:48.000 --> 35:52.000]  Yeah, he over and it's funny because a year and I even updated it with a year prior.
+[35:52.000 --> 35:56.000]  He had the right idea that it would just be a $99 device that you could run games on.
+[35:56.000 --> 35:57.000]  Yeah.
+[35:57.000 --> 36:00.000]  I had a good lunch out with him yesterday on the.
+[36:00.000 --> 36:02.000]  I forget what the show electric strap shadow.
+[36:02.000 --> 36:03.000]  Anyway, that'll come out sometime soon.
+[36:03.000 --> 36:04.000]  He's a smart guy.
+[36:04.000 --> 36:05.000]  It was a lot.
+[36:05.000 --> 36:06.000]  It was a show.
+[36:06.000 --> 36:06.000]  Yeah.
+[36:06.000 --> 36:07.000]  Yeah.
+[36:07.000 --> 36:08.000]  We were on it together.
+[36:08.000 --> 36:09.000]  Exactly.
+[36:09.000 --> 36:10.000]  And Sandy.
+[36:10.000 --> 36:11.000]  Yeah.
+[36:11.000 --> 36:12.000]  That was funny.
+[36:12.000 --> 36:13.000]  Any excuse to talk to Sandy.
+[36:13.000 --> 36:27.000]  Yeah, the thing I thought his key observation was that historically zoom out to, to, you know, like the Atari 2600 and 1979 or whenever it came out for a very long stretch.
+[36:27.000 --> 36:33.000]  Consoles cost like a hundred bucks and then they try to make their money sell in the games.
+[36:33.000 --> 36:39.000]  And there was this hundred dollar hundred dollar, you know, give or take, you know, maybe sometimes closer to 200.
+[36:39.000 --> 36:49.000]  But that I guess probably starting with the PlayStation and certainly with like PlayStation 2 and then with Xbox.
+[36:49.000 --> 36:59.000]  They got more expensive, you know, and it used to be the PCs were thousands of dollars, you know, average price like $2,500, $3,000 back in like 1988.
+[36:59.000 --> 37:03.000]  And consoles that you just hooked up to your TV were like a hundred dollars.
+[37:03.000 --> 37:18.000]  And that, you know, he made a nice graph. It's pretty, I thought that was pretty insightful that they've converged that consoles have gotten more expensive because they've gotten more powerful and effectively they're gaming PCs and PCs have gotten cheaper and cheaper.
+[37:18.000 --> 37:24.000]  But that that that trend has left this pricing umbrella underneath.
+[37:24.000 --> 37:28.000]  Yeah, a big one like consoles now about 400 bucks.
+[37:28.000 --> 37:41.000]  Xbox was 500, but they dropped it down. And I think his argument is that the console manufacturers being chasing sort of the high end gaming market.
+[37:41.000 --> 37:51.000]  And that's, that's, that's made it necessary to sort of have high end machines all the time, which costs a bunch of money.
+[37:51.000 --> 37:56.000]  And they try to make the money back over, you know, the six year, seven year span of the console.
+[37:56.000 --> 38:00.000]  But yeah, that is carved out a giant section below it.
+[38:00.000 --> 38:06.000]  And I think for a long time that didn't really matter.
+[38:06.000 --> 38:12.000]  Because what was below sort of the high end consoles wasn't a compelling experience.
+[38:12.000 --> 38:17.000]  But now I think with, you know, with an A7 powered level chip.
+[38:17.000 --> 38:24.000]  I think he can have a pretty compelling experience that a lot of players would be happy with at a very low price point.
+[38:24.000 --> 38:32.000]  But if undercut the high end console market in a way that they don't expect and they can't really compete with it.
+[38:32.000 --> 38:37.000]  Yeah. And I don't think it's just about games. And I know that a lot of us, I'm not even a gamer.
+[38:37.000 --> 38:39.000]  I mean, I don't, I don't play a ton of games.
+[38:39.000 --> 38:42.000]  But I know you do have a background actually making games.
+[38:42.000 --> 38:51.000]  But I think maybe that's part of the thing that we're overlooking is we're only focused on
+[38:51.000 --> 38:57.000]  watching movies and TV shows right on an Apple TV or any of these, you know, devices that you hook up there.
+[38:57.000 --> 39:04.000]  But you could do that on a Tivo. You can do it on, you know, you can get movies and TV shows on your PlayStation and your Xbox and games.
+[39:04.000 --> 39:09.000]  But there's other, you could do anything you'd want to project on a TV, right?
+[39:09.000 --> 39:17.000]  So think about the way that, and we can talk about other things that have been Sherlock'd, you know, by announcements.
+[39:17.000 --> 39:28.000]  It occurred to me that maybe like panics status board could be Sherlock'd by a future Apple TV that runs notification center widgets.
+[39:28.000 --> 39:29.000]  Sure.
+[39:29.000 --> 39:34.000]  Right. And that, you know, you might not do it in your living room for your family.
+[39:34.000 --> 39:42.000]  But that if you're a business, you know, you might have a TV set up with, you know, Apple TV hooked up to it.
+[39:42.000 --> 39:48.000]  And just run notification center and have, you know, company information and, you know, status.
+[39:48.000 --> 39:50.000]  I'd do that in a second. I think it's a good idea.
+[39:50.000 --> 39:55.000]  Right. And it's powerful because then it's not just what here's the widgets Apple thinks you might want.
+[39:55.000 --> 40:03.000]  It's any widget from any app, including ones that you, the company with this board up on the wall, wrote yourselves for your own internal system.
+[40:03.000 --> 40:05.000]  Not totally great. Things to get idea.
+[40:05.000 --> 40:16.000]  You know, I need, you know, 99-dollar box that you just plug into a TV is pretty, that's like not a huge argument you have to have with the procurement office in order to get that, right?
+[40:16.000 --> 40:17.000]  Right.
+[40:17.000 --> 40:20.000]  Right. It's, you know, it's lunch for four or five people.
+[40:20.000 --> 40:21.000]  Exactly. Yeah.
+[40:21.000 --> 40:27.000]  So no, I think that's a good idea. Because, you know, I know, so you could project your slides on to it for when you want to do the presentation.
+[40:27.000 --> 40:28.000]  Yeah.
+[40:28.000 --> 40:44.000]  Yeah. Anywhere where you'd have a screen or project something is a possible place where you would use Apple TV and that, you know, having these extension APIs make it possible to do a lot more than just show video or play a game.
+[40:44.000 --> 40:45.000]  Yeah.
+[40:45.000 --> 40:48.000]  I think it's a, I think there's an interesting product in there.
+[40:48.000 --> 40:51.000]  I don't know if they're going to call it Apple TV.
+[40:51.000 --> 40:54.000]  Yeah. Who knows? Who knows if they changed the name of that?
+[40:54.000 --> 40:59.000]  And I'd also don't know if it's a this year thing or not.
+[40:59.000 --> 41:02.000]  I think that, I get a sense, it's a little bit further.
+[41:02.000 --> 41:05.000]  Yeah. I kind of did last week too.
+[41:05.000 --> 41:10.000]  And I don't know. It doesn't seem impossible. I don't know. I don't know anything for sure.
+[41:10.000 --> 41:17.000]  But I kind of get the feeling that it's not on the list of things that are coming at the end of the year.
+[41:17.000 --> 41:21.000]  No. And, you know, everybody seems excited about the list of stuff that is coming.
+[41:21.000 --> 41:29.000]  So, yeah. But I think there's a lot of people who assume that TV has to be one of them because it's the one that's been rumored for the longest.
+[41:29.000 --> 41:33.000]  Well, I mean, that's kind of the classic thing, right? Everybody assumes.
+[41:33.000 --> 41:39.000]  It gets back to what we're talking about about the extensions or the, you know, the accelerated WebKit.
+[41:39.000 --> 41:42.000]  People say they want a specific thing.
+[41:42.000 --> 41:47.000]  And then Apple just kind of delivers something different that does address a problem.
+[41:47.000 --> 41:52.000]  Yeah. So, I don't know if it's going to be a watch or a TV or whatever.
+[41:52.000 --> 41:55.000]  But whatever it is, they seem pretty pleased with it.
+[41:55.000 --> 41:57.000]  Sort of different topic.
+[41:57.000 --> 42:03.000]  One of the things I wanted to write about, but I skipped because I felt like I'd gone long enough in my piece.
+[42:03.000 --> 42:08.000]  But when you go to WWDC and you were there, I was there.
+[42:08.000 --> 42:15.000]  You see people who you don't see throughout the year, especially people who work at Apple.
+[42:15.000 --> 42:20.000]  You know, people who I'm friends with or semi-friends with or who at least have met before.
+[42:20.000 --> 42:23.000]  And there's a certain personal repertoire.
+[42:23.000 --> 42:35.000]  And like I said, with Mark German on this show a couple weeks ago that you develop, you know, not necessarily giving spilling secrets or, you know, tips that are, you know, super juicy or something like that.
+[42:35.000 --> 42:42.000]  But you can learn things that you wouldn't learn any other way because face-to-face communication is somehow more human.
+[42:42.000 --> 42:52.000]  Okay. I really got a sense talking to people at Apple last week at WWDC that they're happy.
+[42:52.000 --> 42:54.000]  Happy in a way that they haven't been again.
+[42:54.000 --> 42:59.000]  In fact, one friend literally said the words, it's fun again.
+[42:59.000 --> 43:02.000]  Yeah, that's good. Which I thought was pretty interesting.
+[43:02.000 --> 43:05.000]  I don't know, did you pick up on anything like that or...
+[43:05.000 --> 43:09.000]  Yeah, it's something to tell me almost exactly the same thing.
+[43:09.000 --> 43:12.000]  Like, yeah, I'm having a lot of fun.
+[43:12.000 --> 43:14.000]  So that's interesting.
+[43:14.000 --> 43:16.000]  Yeah, to me it's really interesting.
+[43:16.000 --> 43:20.000]  And I thought that that fun again was a big tell.
+[43:20.000 --> 43:25.000]  And again, it's not because they're taking it easy and relaxing.
+[43:25.000 --> 43:27.000]  I mean, these are people who love their work.
+[43:27.000 --> 43:29.000]  Yes. No, no, these people...
+[43:29.000 --> 43:32.000]  Fun again probably means that they're working the weekends.
+[43:32.000 --> 43:35.000]  Yeah, unfortunately. I hope not because that just burns people out.
+[43:35.000 --> 43:39.000]  But fun again means that they're tackling interesting problems and they're having a good time.
+[43:39.000 --> 43:42.000]  Well, and I think it gets to the part...
+[43:42.000 --> 43:46.000]  I think it is also part of what I did write about which is this sort of...
+[43:46.000 --> 43:52.000]  Go back to the collaboration and more parts of the company working together on the same things.
+[43:52.000 --> 44:00.000]  And that there were iOS people working on...
+[44:00.000 --> 44:05.000]  It's an umbrella term. Continuity isn't one feature.
+[44:05.000 --> 44:07.000]  It's an umbrella name for several features.
+[44:07.000 --> 44:13.000]  But that they're working hand in hand at the same time with people doing the same frameworks on the Mac side,
+[44:13.000 --> 44:16.000]  because the whole point of them is hand off.
+[44:16.000 --> 44:19.000]  Hand off doesn't exist if there aren't collaborating.
+[44:19.000 --> 44:24.000]  But it means that there's more people that nobody's sitting there twiddling their thumbs
+[44:24.000 --> 44:29.000]  while the attention of the top executives is all on iOS 8.
+[44:29.000 --> 44:36.000]  Well, I mean, the program office used to be divided between OS groups and now it's combined.
+[44:36.000 --> 44:43.000]  Right. And I think that it's meant that more a lot more, not just a little more,
+[44:43.000 --> 44:49.000]  but a lot more engineers are fully engaged on high priority projects than ever before.
+[44:49.000 --> 44:51.000]  And that's what makes them happy.
+[44:51.000 --> 44:54.000]  I think so. Yeah.
+[44:54.000 --> 45:00.000]  Plus, I mean, so last year, it had been a slog to get iOS 7 out.
+[45:00.000 --> 45:05.000]  The four-style departure probably soured some people.
+[45:05.000 --> 45:10.000]  Not that they were better necessarily, just that it's a big change-up.
+[45:10.000 --> 45:15.000]  So that there's always some kind of gnashing of teeth when there's a change-up.
+[45:15.000 --> 45:17.000]  Yeah, I worry about that too.
+[45:17.000 --> 45:21.000]  And I hope that when I wrote, didn't come across as being anti-four-style.
+[45:21.000 --> 45:24.000]  I feel like as time goes on, it's easy to slag on the guy.
+[45:24.000 --> 45:27.000]  And as time goes on, I actually think he doesn't deserve it.
+[45:27.000 --> 45:29.000]  No, I think it's an amazing job.
+[45:29.000 --> 45:31.000]  Everybody I've talked to that's worked with him.
+[45:31.000 --> 45:37.000]  Right. I think that's what might have soured some people is that the people who worked under him
+[45:37.000 --> 45:43.000]  who were in his division, the iOS division, mostly really, really liked and admired him.
+[45:43.000 --> 45:46.000]  And they always felt like that he had their back.
+[45:46.000 --> 45:55.000]  And because he was an effective corporate insider and was obviously, famously, you know, close to Steve Jobs,
+[45:55.000 --> 46:00.000]  that having their back meant that they, you know, that's a great boss, right?
+[46:00.000 --> 46:04.000]  That's a great guy to be working for.
+[46:04.000 --> 46:08.000]  And the other thing, I didn't know this till recently.
+[46:08.000 --> 46:18.000]  It's a Don Melton story, but the Don Melton story that, that four-stall was the guy who went to back for the carbon strategy.
+[46:18.000 --> 46:20.000]  No, we're going way back.
+[46:20.000 --> 46:23.000]  Now we're talking like 1988, 1999.
+[46:23.000 --> 46:28.000]  You know, you talked about this with Rich Seagull on debug recently.
+[46:28.000 --> 46:30.000]  A great, great episode of the show.
+[46:30.000 --> 46:35.000]  Rich was actually one of the few people who I could say is my former boss at Bearbund.
+[46:35.000 --> 46:38.000]  There's a blast to talk to you.
+[46:38.000 --> 46:41.000]  Oh, he's a super thoughtful guy.
+[46:41.000 --> 46:43.000]  Yeah, so he talked to you.
+[46:43.000 --> 46:45.000]  Yeah, exactly because of the carbon strategy.
+[46:45.000 --> 46:48.000]  But go long story short, you know, Apple buys next.
+[46:48.000 --> 46:55.000]  Next comes in, Steve Jobs and the next leadership effectively take over Apple.
+[46:55.000 --> 47:03.000]  Correctly, you know, that's, you know, the people who were, the whole reason Apple was in trouble was that their leadership was crap.
+[47:03.000 --> 47:10.000]  They come in, they come up with a strategy and their first strategy is, okay, everybody's going to write cocoa apps because cocoa is awesome.
+[47:10.000 --> 47:11.000]  Trust us, it's better.
+[47:11.000 --> 47:15.000]  Now they're correct that cocoa is great and that it was better.
+[47:15.000 --> 47:22.000]  They were not correct that that was an effective, that Apple was in a position to dictate something like that.
+[47:22.000 --> 47:31.000]  Because they needed big developers like Adobe and Microsoft to have their apps on the system
+[47:31.000 --> 47:38.000]  and rewriting from scratch was not something they were going to do for a system that might not even work, right?
+[47:38.000 --> 47:43.000]  Because Apple had been promising next generation operating systems for the whole decade of the night.
+[47:43.000 --> 47:57.000]  And at the smaller level developers like Bearbunds, the small ones weren't on board with it either because they could actually even less afford to gamble because they couldn't afford to spend a year rewriting for a new system.
+[47:57.000 --> 48:03.000]  You know, they could put a small developer out of business.
+[48:03.000 --> 48:05.000]  So a long comes this idea of carbon.
+[48:05.000 --> 48:06.000]  Right.
+[48:06.000 --> 48:14.000]  And it's surprising to me in hindsight, but not really having met forced all, you know, once or twice and knowing a little bit about him.
+[48:14.000 --> 48:24.000]  But knowing that he was a next guy had been there with the next, there was a perception on the Mac side that the next people all wanted that they were a little religious about cocoa and the next stuff.
+[48:24.000 --> 48:32.000]  And it's interesting to me that one of the next guys was the one who really fought for the carbon strategy within Apple.
+[48:32.000 --> 48:40.000]  And the whole reason, well, I think practical in terms of realizing that it was a good strategy for Apple to keep developers on board.
+[48:40.000 --> 48:46.000]  But I think it was also the case that forced all always, he was a supporter of third party developers.
+[48:46.000 --> 48:48.000]  Yeah, I think so too.
+[48:48.000 --> 48:58.000]  So we haven't released it yet, but we didn't interview with an Eden Ganatra, who was the director and church of iOS apps.
+[48:58.000 --> 49:02.000]  Like from the beginning of the project two, a couple of years ago.
+[49:02.000 --> 49:05.000]  This is going to be on debug.
+[49:05.000 --> 49:09.000]  It's not out yet, but it man, it went long.
+[49:09.000 --> 49:10.000]  It's like four hours long.
+[49:10.000 --> 49:12.000]  So it's going to be in two hours, I guess.
+[49:12.000 --> 49:17.000]  But the first half, he started in 93 and he was with the company during this entire process that you just described.
+[49:17.000 --> 49:20.000]  And he was working on carbon.
+[49:20.000 --> 49:23.000]  And it's sort of anything that John just said it interests you.
+[49:23.000 --> 49:30.000]  There's going to be more information than you can shake a stick at on a coming up debug show.
+[49:30.000 --> 49:31.000]  But Eden's awesome.
+[49:31.000 --> 49:33.000]  He's such a smart smart guy.
+[49:33.000 --> 49:36.000]  I don't want to say it's ancient history, but it's certainly history at this point.
+[49:36.000 --> 49:39.000]  And it's surprisingly little of that has come out.
+[49:39.000 --> 49:45.000]  I think it's just the nature of Apple's culture of not really talking about the internals of your work.
+[49:45.000 --> 49:47.000]  I mean, it's not secret anymore.
+[49:47.000 --> 49:51.000]  But it's not like I think Don Melton is burning any bridges by having said that.
+[49:51.000 --> 49:54.000]  But Apple people just don't talk about stuff like that.
+[49:54.000 --> 49:56.000]  So here are these stories.
+[49:56.000 --> 49:58.000]  Usually there's something new to learn.
+[49:58.000 --> 49:59.000]  Yeah, it's a treat.
+[49:59.000 --> 50:02.000]  That's kind of why the interview went so long.
+[50:02.000 --> 50:04.000]  I wanted to talk to him.
+[50:04.000 --> 50:07.000]  We tried to get the backstory on people and then focus on something.
+[50:07.000 --> 50:11.000]  I was going to focus on iOS development in the apps.
+[50:11.000 --> 50:15.000]  But it was just so fascinating on the historical stuff.
+[50:15.000 --> 50:18.000]  I just couldn't help but go down the rabbit hole on it.
+[50:18.000 --> 50:19.000]  Yeah.
+[50:19.000 --> 50:31.000]  So anyway, I think as time goes on the four-stall story and whatever friction there was with him and the other executives and cook's decision to oust him.
+[50:31.000 --> 50:37.000]  It's not a simple story of, well, four-stall was a bad guy or an asshole.
+[50:37.000 --> 50:46.000]  And I think it was a complicated story and probably without question in my mind, the most difficult decision that Tim Cook has made.
+[50:46.000 --> 50:48.000]  Do you have a piece?
+[50:48.000 --> 50:50.000]  Are you doing that?
+[50:50.000 --> 50:52.000]  I think so.
+[50:52.000 --> 51:00.000]  But I think as time goes on and we hear stories like that, like to hear that four-stall was the guy who went to bat for carbon, even though he was a next guy.
+[51:00.000 --> 51:05.000]  Who clearly was evangelizing for cocoa.
+[51:05.000 --> 51:09.000]  It just shows that he was good for third-party developers.
+[51:09.000 --> 51:15.000]  But that it still might have been the right, and I think more and more it seems like it was the right move to move on.
+[51:15.000 --> 51:20.000]  Well, it's hard to look at this WWDC and argue that they made a misstep.
+[51:20.000 --> 51:21.000]  Right.
+[51:21.000 --> 51:22.000]  It's clearly not in the gut.
+[51:22.000 --> 51:30.000]  I mean, as great as four-stall was, this is a, I don't want to say a new era because it's not, but it's, you know.
+[51:30.000 --> 51:35.000]  Corona, that's where I've chosen to frame it is that the company has grown up.
+[51:35.000 --> 51:36.000]  I like that.
+[51:36.000 --> 51:37.000]  That's good.
+[51:37.000 --> 51:38.000]  I don't know.
+[51:38.000 --> 51:43.000]  There's a maturity to their opening up internally.
+[51:43.000 --> 51:44.000]  Sure.
+[51:44.000 --> 51:48.000]  I mean, people have been saying it's a new Apple and maybe, but not really.
+[51:48.000 --> 51:56.000]  Ultimately, Apple is still going to do the thing that you can depend on them to do, which is act in their own interests first.
+[51:56.000 --> 51:58.000]  Because it's a company.
+[51:58.000 --> 51:59.000]  That's the way the world works.
+[51:59.000 --> 52:08.000]  But now that they seem to see their interests aligned with third parties in a much more open kind of way,
+[52:08.000 --> 52:13.000]  in that where maybe previously they thought they could just do everything in the today view.
+[52:13.000 --> 52:14.000]  We're all interested.
+[52:14.000 --> 52:15.000]  Right.
+[52:15.000 --> 52:21.000]  Being a grown up, and as a human, is largely to me about being disciplined.
+[52:21.000 --> 52:26.000]  That you can be an idiot when you're, you know, a teenager and, you know, college student,
+[52:26.000 --> 52:30.000]  and maybe even in three or 20s, but at a certain point you've got to stop being an idiot,
+[52:30.000 --> 52:36.000]  and you've got to be a little bit more disciplined and behave in a way that's not necessarily, you know,
+[52:36.000 --> 52:39.000]  whatever you want to do at the moment, but it's, you know, part of a larger plan.
+[52:39.000 --> 52:40.000]  Right.
+[52:40.000 --> 52:42.000]  And I think it's true for companies too.
+[52:42.000 --> 52:44.000]  And I think that immature.
+[52:44.000 --> 52:49.000]  I say new Apple is the new Apple after they reunified the next.
+[52:49.000 --> 52:50.000]  Yeah.
+[52:50.000 --> 52:51.000]  And that...
+[52:51.000 --> 52:52.000]  I love that term by the way.
+[52:52.000 --> 52:54.000]  I don't know if I'd heard it that way before.
+[52:54.000 --> 52:56.000]  Yeah, it's good.
+[52:56.000 --> 52:58.000]  I've been using it for a little bit and...
+[52:58.000 --> 53:00.000]  It just struck me last night when I beat the price.
+[53:00.000 --> 53:01.000]  Right.
+[53:01.000 --> 53:02.000]  Yeah.
+[53:02.000 --> 53:04.000]  Well, I've thought about that.
+[53:04.000 --> 53:09.000]  Because, you know, a lot of the next guys, there's guys like Bud Triple, who, like, bounced...
+[53:09.000 --> 53:13.000]  I think he was at Apple, then it next, and then he's back at Apple, you know?
+[53:13.000 --> 53:14.000]  I think it was.
+[53:14.000 --> 53:16.000]  It wasn't just Steve Jobs, right?
+[53:16.000 --> 53:22.000]  And when Jobs left, he took Apple people with him, or there were Apple people who, after Jobs,
+[53:22.000 --> 53:28.000]  was forced out of the company in 85, who then left Apple, and then went to next,
+[53:28.000 --> 53:31.000]  because they liked the Apple when Steve was there, right?
+[53:31.000 --> 53:33.000]  You know, and that, to me, that's the best way to see it.
+[53:33.000 --> 53:37.000]  I know that some people phrased it as, hey, it was a reverse acquisition.
+[53:37.000 --> 53:40.000]  That Apple bought next, and next took over Apple.
+[53:40.000 --> 53:42.000]  At a leadership level, that's true.
+[53:42.000 --> 53:45.000]  But I think reunification is, to me, the best way to look at it.
+[53:45.000 --> 53:46.000]  I love you.
+[53:46.000 --> 53:47.000]  Makes it sound happy too.
+[53:47.000 --> 53:48.000]  Right.
+[53:48.000 --> 53:52.000]  That in their hearts, they were always in alignment.
+[53:52.000 --> 53:55.000]  That they have two companies that valued the same things.
+[53:55.000 --> 53:56.000]  Oh, yeah.
+[53:56.000 --> 53:57.000]  For sure.
+[53:57.000 --> 53:59.000]  We'll design an interface for sure.
+[53:59.000 --> 54:00.000]  Yeah.
+[54:00.000 --> 54:01.000]  All right.
+[54:01.000 --> 54:02.000]  Well, let's come back.
+[54:02.000 --> 54:04.000]  I want to come back to this corporate maturity.
+[54:04.000 --> 54:05.000]  Remember that.
+[54:05.000 --> 54:09.000]  But let me take a second break here and thank our great friends at Squarespace.
+[54:09.000 --> 54:11.000]  Everybody knows Squarespace.
+[54:11.000 --> 54:13.000]  They've sponsored this show many times.
+[54:13.000 --> 54:15.000]  They sponsor a bunch of other shows.
+[54:15.000 --> 54:22.000]  They sponsor this show repeatedly because people keep signing up because they have a great service.
+[54:22.000 --> 54:24.000]  People haven't checked it out.
+[54:24.000 --> 54:26.000]  You've heard me talk about it.
+[54:26.000 --> 54:31.000]  But then when people do, they finally, hey, I do need a new website because I'm starting
+[54:31.000 --> 54:38.000]  my own podcast or you're starting a blog or you're selling t-search or something like that.
+[54:38.000 --> 54:43.000]  And then people who listen to these shows, they think, well, everybody's always telling me about Squarespace.
+[54:43.000 --> 54:45.000]  I'll go look at Squarespace.
+[54:45.000 --> 54:46.000]  Well, guess what?
+[54:46.000 --> 54:49.000]  When people look at Squarespace, there's a reason they tend to sign up.
+[54:49.000 --> 54:51.000]  And it's just a great thing.
+[54:51.000 --> 55:00.000]  It's an all-in-one service for hosting, building, designing a website, a website of almost any sort that you can imagine.
+[55:00.000 --> 55:06.000]  Like I said, you could do a blog, you could do a podcast, you could do a store, all sorts of things.
+[55:06.000 --> 55:12.000]  They have built-in templates professionally designed, really, really good looking to choose from.
+[55:12.000 --> 55:15.000]  You want to customize the design because you know CSS.
+[55:15.000 --> 55:16.000]  You can do that.
+[55:16.000 --> 55:21.000]  You want to decide which components to include on your website.
+[55:21.000 --> 55:26.000]  You can do it in their graphical interface, drag and drop, move stuff around.
+[55:26.000 --> 55:28.000]  On the other hand, you know code.
+[55:28.000 --> 55:32.000]  You can go in and you can inject your own JavaScript if you want.
+[55:32.000 --> 55:39.000]  So they've got high-level features, nice visual editing, low-level features where you can inject code.
+[55:39.000 --> 55:44.000]  If you feel you know how to do that, they have award-winning technical support.
+[55:44.000 --> 55:49.000]  They've just expanded, they used to all be in New York, now they're in New York and Dublin.
+[55:49.000 --> 55:52.000]  24 hours, seven days a week.
+[55:52.000 --> 55:55.000]  If you have a website, idea for a website that you want to build.
+[55:55.000 --> 55:59.000]  Or you have a website, you're not happy with the system you have running it right now.
+[55:59.000 --> 56:01.000]  Go check out Squarespace.
+[56:01.000 --> 56:04.000]  Squarespace.com slash Gruber.
+[56:04.000 --> 56:09.000]  And they also have an offer code.
+[56:09.000 --> 56:15.000]  The offer code is JG, just my initials, JG, and you save 10% off.
+[56:15.000 --> 56:21.000]  Big box over the lifetime of your account because once you go there you're going to stick there for years.
+[56:21.000 --> 56:24.000]  So my thanks to Squarespace.
+[56:24.000 --> 56:26.000]  So corporate maturity.
+[56:26.000 --> 56:28.000]  That's how I look at it.
+[56:28.000 --> 56:29.000]  I do.
+[56:29.000 --> 56:37.000]  And I think it's discipline and it takes discipline to do multiple things at once and to collaborate.
+[56:37.000 --> 56:38.000]  Yeah, for sure.
+[56:38.000 --> 56:49.000]  And I think when Apple's new Apple was immature, I think that it manifested itself in do one thing at a time.
+[56:49.000 --> 56:54.000]  And it left a lot of big parts of the company untapped.
+[56:54.000 --> 57:00.000]  And I'd linked to it today and Jalkit had a great piece on it in 2007.
+[57:00.000 --> 57:06.000]  But in 2007 when the iPhone first came out they had a press release.
+[57:06.000 --> 57:09.000]  They actually had the issue of press release before WWDC.
+[57:09.000 --> 57:14.000]  And because it wasn't that they were expected to announce Leopard.
+[57:14.000 --> 57:17.000]  They were expected to release Leopard.
+[57:17.000 --> 57:20.000]  Leopard was supposed to ship to consumers at WWDC.
+[57:20.000 --> 57:23.000]  Not like a developer beta, but the real thing.
+[57:23.000 --> 57:27.000]  And they had to say in advance of WWDC, this isn't going to happen.
+[57:27.000 --> 57:29.000]  We're going to shoot for October.
+[57:29.000 --> 57:34.000]  We'll have a beta for developers at WWDC, but it's nowhere near shipping.
+[57:34.000 --> 57:41.000]  Because we had a pool engineering and QA resources off macOS 10 to ship the iPhone.
+[57:41.000 --> 57:44.000]  And it's not the only example of it.
+[57:44.000 --> 57:51.000]  But that they were, I think a lot of it comes down to Steve Jobs.
+[57:51.000 --> 57:54.000]  And that's what we saw.
+[57:54.000 --> 57:57.000]  And, you know, what his attention was on was where he directed the company.
+[57:57.000 --> 57:59.000]  And it was really focused.
+[57:59.000 --> 58:00.000]  Well, both.
+[58:00.000 --> 58:02.000]  You know, that he was folk.
+[58:02.000 --> 58:07.000]  It's a different thing for the company to be focused than for one person to be focused.
+[58:07.000 --> 58:08.000]  Sure, I think.
+[58:08.000 --> 58:13.000]  And I think mature Apple is doing more things at the same time.
+[58:13.000 --> 58:17.000]  But in unity that they're not all over the place.
+[58:17.000 --> 58:21.000]  And an example, and maybe it's unfair.
+[58:21.000 --> 58:23.000]  Maybe you tell me if it's unfair.
+[58:23.000 --> 58:25.000]  So Apple announced a new programming language.
+[58:25.000 --> 58:27.000]  And it really is new.
+[58:27.000 --> 58:28.000]  And it's interesting.
+[58:28.000 --> 58:30.000]  I'd like to talk to you and see what you think about it.
+[58:30.000 --> 58:35.000]  Because what I've learned in two weeks since it was announced is pretty interesting.
+[58:35.000 --> 58:37.000]  But it really is a new language.
+[58:37.000 --> 58:38.000]  This is no joke.
+[58:38.000 --> 58:43.000]  They haven't just made a small tweak to some existing language.
+[58:43.000 --> 58:45.000]  And that's a pretty big deal.
+[58:45.000 --> 58:48.000]  And they expect to have very big deal.
+[58:48.000 --> 58:54.000]  Millions of apps written using this language, starting this year.
+[58:54.000 --> 58:57.000]  And it runs on both iOS and Mac.
+[58:57.000 --> 59:00.000]  So it's not like this abstract.
+[59:00.000 --> 59:02.000]  Here's a new language.
+[59:02.000 --> 59:05.000]  But it doesn't really, you know, you can't use it to write apps.
+[59:05.000 --> 59:07.000]  Or you can't use it to write Mac apps yet.
+[59:07.000 --> 59:10.000]  You can only use it to write iOS apps or the other way around.
+[59:10.000 --> 59:16.000]  It's no, here's a new language and you can start using it now or very soon.
+[59:16.000 --> 59:20.000]  Because the syntax is like in beta.
+[59:20.000 --> 59:22.000]  But I think they expect to finalize it.
+[59:22.000 --> 59:26.000]  At least finalize the 1.0 version of it very soon.
+[59:26.000 --> 59:29.000]  And you can start using it for real in production.
+[59:29.000 --> 59:34.000]  Now, compare and contrast it with Google, which put a cracker jack,
+[59:34.000 --> 59:40.000]  like Hall of Fame team together of language guys.
+[59:40.000 --> 59:42.000]  And they came up with a new language go.
+[59:42.000 --> 59:45.000]  Which has a, you know, I wouldn't call it that close to Swift.
+[59:45.000 --> 59:52.000]  But it's the same basic idea of let's solve the problems of C without losing the performance of C.
+[59:52.000 --> 59:54.000]  Let's do some things like safety.
+[59:54.000 --> 1:00:00.000]  Like at the big theme that's shared by almost all newer systems languages.
+[1:00:00.000 --> 1:00:06.000]  Which is, you know, Java was, you know, having it in a runtime is about safety and security.
+[1:00:06.000 --> 1:00:10.000]  Same thing with C sharp, which is, you know, in layman's terms,
+[1:00:10.000 --> 1:00:12.000]  Microsoft's version of Java.
+[1:00:12.000 --> 1:00:17.000]  Or maybe Microsoft's vision for something like Java.
+[1:00:17.000 --> 1:00:22.000]  Go is about, you know, getting rid of pointers and stuff like that.
+[1:00:22.000 --> 1:00:26.000]  Swift is about getting rid of pointers and memory management and stuff like that.
+[1:00:26.000 --> 1:00:28.000]  For safety and for programmer efficiency.
+[1:00:28.000 --> 1:00:31.000]  But while having that same performance.
+[1:00:31.000 --> 1:00:33.000]  But so Google has this new language.
+[1:00:33.000 --> 1:00:36.000]  Well respected, it's been out for a while now.
+[1:00:36.000 --> 1:00:39.000]  But it has absolutely nothing to do with Android.
+[1:00:39.000 --> 1:00:43.000]  So they've got this platform with hundreds of millions.
+[1:00:43.000 --> 1:00:45.000]  Maybe even close to a billion now.
+[1:00:45.000 --> 1:00:46.000]  Devices running it.
+[1:00:46.000 --> 1:00:48.000]  And a new programming language.
+[1:00:48.000 --> 1:00:51.000]  But the two are just, there's no relationship between them whatsoever.
+[1:00:51.000 --> 1:00:53.000]  Yeah, a completely divorced one another.
+[1:00:53.000 --> 1:00:56.000]  Android is a version of Java.
+[1:00:56.000 --> 1:00:59.000]  Right, and maybe that's unfair that, you know, that anything Google does
+[1:00:59.000 --> 1:01:01.000]  has to be part of Android or something like that.
+[1:01:01.000 --> 1:01:05.000]  But it just seems to me that Google is still an immature company in that regard
+[1:01:05.000 --> 1:01:09.000]  and that they have these different initiatives and they're not really pulling together.
+[1:01:09.000 --> 1:01:12.000]  It's a throw it all up against the wall and see what sticks.
+[1:01:12.000 --> 1:01:18.000]  Yeah, I think they do have a little bit of that sort of academia style thing,
+[1:01:18.000 --> 1:01:22.000]  which I'm really not knocking, but they will try a bunch of different stuff.
+[1:01:22.000 --> 1:01:25.000]  And sometimes they come up with really, really cool stuff.
+[1:01:25.000 --> 1:01:28.000]  Yeah, that's exactly what goes seems like.
+[1:01:28.000 --> 1:01:31.000]  And it just doesn't mean that there's anything wrong with Go or that, you know,
+[1:01:31.000 --> 1:01:33.000]  that they should have done differently.
+[1:01:33.000 --> 1:01:39.000]  But to me, there's something more interesting and more about Apple's swift
+[1:01:39.000 --> 1:01:42.000]  because it's so practically useful.
+[1:01:42.000 --> 1:01:46.000]  Yes, and in fact, you can tell from the design of it that it was built
+[1:01:46.000 --> 1:01:49.000]  to interact with the Objective-C.
+[1:01:49.000 --> 1:01:53.000]  Yeah, the way that they have like pseudo named functions,
+[1:01:53.000 --> 1:01:58.000]  pseudo named parameters and the functions, like Objective-C.
+[1:01:58.000 --> 1:02:02.000]  I don't know how nerdy you want to get here.
+[1:02:02.000 --> 1:02:06.000]  But in Objective-C, you have like multiple parts to the method name, right?
+[1:02:06.000 --> 1:02:10.000]  After each part, like I'm trying to think of one.
+[1:02:10.000 --> 1:02:15.000]  You URL for a resource by it or type.
+[1:02:15.000 --> 1:02:17.000]  That's a method. So there's two parameters.
+[1:02:17.000 --> 1:02:21.000]  So when a Go function, you can name them similarly.
+[1:02:21.000 --> 1:02:24.000]  So each parameter in a function can have a separate name.
+[1:02:24.000 --> 1:02:26.000]  But you can't swap them around.
+[1:02:26.000 --> 1:02:30.000]  In many languages with named parameters, you can name the parameters.
+[1:02:30.000 --> 1:02:32.000]  You may be Swift, not with Go.
+[1:02:32.000 --> 1:02:34.000]  Oh, sorry, Swift, yes, sorry.
+[1:02:34.000 --> 1:02:36.000]  With Swift, in many languages with named parameters,
+[1:02:36.000 --> 1:02:40.000]  you can put the parameters in arbitrary order.
+[1:02:40.000 --> 1:02:44.000]  That's not the case with Swift because it's built to interoperate with Objective-C.
+[1:02:44.000 --> 1:02:46.000]  And Objective-C, you couldn't move them around either.
+[1:02:46.000 --> 1:02:47.000]  No, you can't do it, right?
+[1:02:47.000 --> 1:02:50.000]  Because what happens in Objective-C is it basically takes all of those parts
+[1:02:50.000 --> 1:02:56.000]  and it sticks them into one string, a method name effectively called a selector.
+[1:02:56.000 --> 1:02:59.000]  And that's what gets looked up in the runtime.
+[1:02:59.000 --> 1:03:01.000]  Right?
+[1:03:01.000 --> 1:03:06.000]  Yeah, like the traditional way of doing it would be if you have two parameters
+[1:03:06.000 --> 1:03:10.000]  to a method call or call it a function, whatever.
+[1:03:10.000 --> 1:03:14.000]  Most languages, you have to know which order to put them.
+[1:03:14.000 --> 1:03:15.000]  And you say, here's my function.
+[1:03:15.000 --> 1:03:20.000]  My function parentheses, first parameter, second parameter,
+[1:03:20.000 --> 1:03:22.000]  and you have to know what those two are.
+[1:03:22.000 --> 1:03:23.000]  Yeah.
+[1:03:23.000 --> 1:03:24.000]  In that order.
+[1:03:24.000 --> 1:03:27.000]  And once you get to three, maybe if you get to four,
+[1:03:27.000 --> 1:03:31.000]  you've got a problem with your design of the function.
+[1:03:31.000 --> 1:03:34.000]  But three is not crazy, but then you've got three things to remember.
+[1:03:34.000 --> 1:03:36.000]  And you could easily screw that up.
+[1:03:36.000 --> 1:03:38.000]  And if they're both, if two of them are integers,
+[1:03:38.000 --> 1:03:41.000]  you're not going to get a compiler warning
+[1:03:41.000 --> 1:03:43.000]  and you might have a bug that's very good.
+[1:03:43.000 --> 1:03:45.000]  You could swap them around and you don't have the context
+[1:03:45.000 --> 1:03:46.000]  and understand what they are.
+[1:03:46.000 --> 1:03:48.000]  So the name parameter helps a lot.
+[1:03:48.000 --> 1:03:51.000]  Right, because it reads more like language,
+[1:03:51.000 --> 1:03:55.000]  where the purpose of the second parameter is right there
+[1:03:55.000 --> 1:03:57.000]  where you're putting it.
+[1:03:57.000 --> 1:03:59.000]  I see exactly what you mean though.
+[1:03:59.000 --> 1:04:02.000]  So in Swift, in theory they could have done it,
+[1:04:02.000 --> 1:04:04.000]  which sounds like a nice idea here.
+[1:04:04.000 --> 1:04:08.000]  Just put the name parameters in in whatever order you want.
+[1:04:08.000 --> 1:04:11.000]  But I see what you mean that it's meant to be
+[1:04:11.000 --> 1:04:13.000]  a sibling to object of C.
+[1:04:13.000 --> 1:04:15.000]  Because it runs on the same runtime.
+[1:04:15.000 --> 1:04:19.000]  So just explain object of C for a second.
+[1:04:19.000 --> 1:04:21.000]  There's the language of object of C,
+[1:04:21.000 --> 1:04:23.000]  and then there's what's called the runtime,
+[1:04:23.000 --> 1:04:26.000]  which is kind of what, you know, where the magic happens effectively.
+[1:04:26.000 --> 1:04:28.000]  The runtime is where all the classes are.
+[1:04:28.000 --> 1:04:33.000]  The runtime is where when you send a message to your class,
+[1:04:33.000 --> 1:04:37.000]  when you ask an object to do something,
+[1:04:37.000 --> 1:04:40.000]  under the hood, what happens is we go into the runtime
+[1:04:40.000 --> 1:04:42.000]  and you look up where the little piece of code
+[1:04:42.000 --> 1:04:46.000]  that can respond to that message lives in memory,
+[1:04:46.000 --> 1:04:48.000]  and then the computer jumps to it,
+[1:04:48.000 --> 1:04:50.000]  and it starts executing that code.
+[1:04:50.000 --> 1:04:54.000]  So that runtime is shared between Swift and Objective-C.
+[1:04:54.000 --> 1:04:56.000]  It's the same runtime.
+[1:04:56.000 --> 1:04:59.000]  What's different is the language layer on top.
+[1:04:59.000 --> 1:05:01.000]  So Objective-C is kind of, I guess,
+[1:05:01.000 --> 1:05:04.000]  now that the traditional way of addressing that language,
+[1:05:04.000 --> 1:05:06.000]  which is that runtime,
+[1:05:06.000 --> 1:05:14.000]  which is obviously C-based, so it's got all the power and folly of ancient C,
+[1:05:14.000 --> 1:05:16.000]  and it's got this objective layer on top of it,
+[1:05:16.000 --> 1:05:19.000]  which is where you get all the classes and the message handling
+[1:05:19.000 --> 1:05:23.000]  and all of the fancy stuff that you've come to expect from Cocoa.
+[1:05:23.000 --> 1:05:29.000]  So Swift is just another way of addressing that the runtime,
+[1:05:29.000 --> 1:05:33.000]  and it does away with all of the sort of the follies of C.
+[1:05:33.000 --> 1:05:36.000]  It picks up a few of its own here and there,
+[1:05:36.000 --> 1:05:39.000]  but it's, like you said, you get rid of pointers,
+[1:05:39.000 --> 1:05:42.000]  you get rid of all of the, hopefully,
+[1:05:42.000 --> 1:05:47.000]  most of the ways that you can kind of cause trouble and be insecure.
+[1:05:47.000 --> 1:05:50.000]  What do you make of,
+[1:05:50.000 --> 1:05:52.000]  some of the stuff I haven't followed too closely,
+[1:05:52.000 --> 1:05:54.000]  but in the keynote,
+[1:05:54.000 --> 1:06:01.000]  they put forth that not only was it as fast as Objective-C,
+[1:06:01.000 --> 1:06:05.000]  but they gave two examples where they showed that it was faster than C.
+[1:06:05.000 --> 1:06:07.000]  One of them seemed a little realistic,
+[1:06:07.000 --> 1:06:17.000]  which was some kind of standard security compression or encryption algorithm,
+[1:06:17.000 --> 1:06:23.000]  and that the same encryption algorithm mathematically intense in Swift
+[1:06:23.000 --> 1:06:26.000]  was actually faster than an Objective-C.
+[1:06:26.000 --> 1:06:28.000]  The other one though, and I think it was you at dinner last week,
+[1:06:28.000 --> 1:06:30.000]  I think you even pointed it out,
+[1:06:30.000 --> 1:06:32.000]  but at least it's just total bullshit.
+[1:06:32.000 --> 1:06:35.000]  It was a, quote, complex object sort.
+[1:06:35.000 --> 1:06:36.000]  Yeah, I was talking,
+[1:06:36.000 --> 1:06:39.000]  I think this is a recursion I was chatting about.
+[1:06:39.000 --> 1:06:41.000]  Like, that's not a thing.
+[1:06:41.000 --> 1:06:42.000]  I don't understand.
+[1:06:42.000 --> 1:06:46.000]  It's what it was at dinner with both of you at the prime rib,
+[1:06:46.000 --> 1:06:49.000]  where we were just talking about what a nonsense at all.
+[1:06:49.000 --> 1:06:51.000]  Like, it means nothing.
+[1:06:51.000 --> 1:06:52.000]  It could mean anything.
+[1:06:52.000 --> 1:06:53.000]  That's the thing.
+[1:06:53.000 --> 1:06:55.000]  It could literally just mean anything.
+[1:06:55.000 --> 1:06:58.000]  And so that one was much faster than Objective-C.
+[1:06:58.000 --> 1:07:02.000]  So the reason I'm going to guess that that one was faster is that
+[1:07:02.000 --> 1:07:07.000]  in Objective-C, every time you want to see if two objects are equal,
+[1:07:07.000 --> 1:07:11.000]  you need to go and look up the method, like the is equal method.
+[1:07:11.000 --> 1:07:12.000]  So you have to go to the runtime,
+[1:07:12.000 --> 1:07:15.000]  so you get one trip for the runtime per object to check if they're equal.
+[1:07:15.000 --> 1:07:20.000]  And if you're going to sort something, obviously you're checking stuff equal a lot.
+[1:07:20.000 --> 1:07:24.000]  Now, with Swift, because you can say that all of the objects
+[1:07:24.000 --> 1:07:27.000]  that you're going to sort are going to be the exact same type,
+[1:07:27.000 --> 1:07:31.000]  you only have to go look up that method once in the runtime.
+[1:07:31.000 --> 1:07:32.000]  Because once you've got it,
+[1:07:32.000 --> 1:07:35.000]  you know that it's going to apply to all of the objects in your collection.
+[1:07:35.000 --> 1:07:36.000]  Do you know what I mean?
+[1:07:36.000 --> 1:07:37.000]  Yeah, that makes sense.
+[1:07:37.000 --> 1:07:40.000]  So rather than asking each object,
+[1:07:40.000 --> 1:07:41.000]  okay, how do you want me to compare you?
+[1:07:41.000 --> 1:07:42.000]  Okay, here's a little bit.
+[1:07:42.000 --> 1:07:45.000]  Maybe it's not an expensive thing, but if you're doing it to sort.
+[1:07:45.000 --> 1:07:46.000]  It's going to add up.
+[1:07:46.000 --> 1:07:49.000]  And when they call it a complex object sort,
+[1:07:49.000 --> 1:07:51.000]  I'm pretty sure they just threw a whole bunch of crap at it.
+[1:07:51.000 --> 1:07:52.000]  Like a lot.
+[1:07:52.000 --> 1:07:55.000]  And Swift is faster.
+[1:07:55.000 --> 1:07:57.000]  Right.
+[1:07:57.000 --> 1:08:01.000]  In other words, I think it's let me see if I can put it in layman's terms.
+[1:08:01.000 --> 1:08:05.000]  It would Swift would allow you with objects
+[1:08:05.000 --> 1:08:08.000]  to do something just once,
+[1:08:08.000 --> 1:08:11.000]  even if it's 100,000 objects
+[1:08:11.000 --> 1:08:15.000]  that would have to happen 100,000 times in object of C.
+[1:08:15.000 --> 1:08:16.000]  And even if it's relatively lightweight,
+[1:08:16.000 --> 1:08:19.000]  you're still there's something that you don't have to do each iteration,
+[1:08:19.000 --> 1:08:20.000]  each comparison.
+[1:08:20.000 --> 1:08:25.000]  And it is. It's in object of C. It's very small.
+[1:08:25.000 --> 1:08:27.000]  But I scale everything adds up.
+[1:08:27.000 --> 1:08:28.000]  Right.
+[1:08:28.000 --> 1:08:29.000]  When you're doing something,
+[1:08:29.000 --> 1:08:31.000]  when you've got 100,000 items to compare,
+[1:08:31.000 --> 1:08:32.000]  anything you don't have,
+[1:08:32.000 --> 1:08:36.000]  you can do once instead of each time through the loop is a win.
+[1:08:36.000 --> 1:08:37.000]  Yeah.
+[1:08:37.000 --> 1:08:40.000]  So that's maybe a little bit of a contrived example.
+[1:08:40.000 --> 1:08:43.000]  Because you could actually trick that in objects of C2
+[1:08:43.000 --> 1:08:45.000]  if you fancy pants.
+[1:08:45.000 --> 1:08:49.000]  Well, the thing I'm thinking about though is the fact that
+[1:08:49.000 --> 1:08:52.000]  I would think, and so far from what I've seen,
+[1:08:52.000 --> 1:08:57.000]  I've seen some performance examples that people have written.
+[1:08:57.000 --> 1:09:01.000]  Simple little things where object of C still comes out ahead.
+[1:09:01.000 --> 1:09:06.000]  But that it's easily that Swift looks fast enough.
+[1:09:06.000 --> 1:09:07.000]  Oh, yeah.
+[1:09:07.000 --> 1:09:08.000]  Whether it's certainly fast enough.
+[1:09:08.000 --> 1:09:09.000]  Yeah.
+[1:09:09.000 --> 1:09:10.000]  Right.
+[1:09:10.000 --> 1:09:12.000]  If there are problems with Swift,
+[1:09:12.000 --> 1:09:14.000]  it's not going to be about performance.
+[1:09:14.000 --> 1:09:15.000]  Nope. No, no.
+[1:09:15.000 --> 1:09:19.000]  No, I don't want to, I was ragging on that particular thing.
+[1:09:19.000 --> 1:09:20.000]  Right.
+[1:09:20.000 --> 1:09:21.000]  Greg Titus.
+[1:09:21.000 --> 1:09:24.000]  That's more, and I think that's more of a marketing issue than,
+[1:09:24.000 --> 1:09:26.000]  you know, for the keynote than,
+[1:09:26.000 --> 1:09:27.000]  Yeah.
+[1:09:27.000 --> 1:09:29.000]  It's, let's face it.
+[1:09:29.000 --> 1:09:30.000]  I don't know this.
+[1:09:30.000 --> 1:09:33.000]  But the Swift team was probably rolling their eyes at that too.
+[1:09:33.000 --> 1:09:34.000]  Guy would not be surprised.
+[1:09:34.000 --> 1:09:35.000]  They are not done.
+[1:09:35.000 --> 1:09:37.000]  It's very, very smart people.
+[1:09:37.000 --> 1:09:39.000]  To say the least.
+[1:09:39.000 --> 1:09:42.000]  I think, I think it was Greg Titus,
+[1:09:42.000 --> 1:09:46.000]  I'm a group guy, a classic comp side problem.
+[1:09:46.000 --> 1:09:48.000]  It was called a trial, like a TRIE.
+[1:09:48.000 --> 1:09:51.000]  And he's got a very fast objective C code to sort of do it.
+[1:09:51.000 --> 1:09:53.000]  And he reloaded and Swift.
+[1:09:53.000 --> 1:09:57.000]  And his initial implementation was 80 times slower.
+[1:09:57.000 --> 1:10:00.000]  But he managed within a day of sort of optimizing and figuring things out.
+[1:10:00.000 --> 1:10:05.000]  He got it to be only 1.5 times slower than, than objective C.
+[1:10:05.000 --> 1:10:09.000]  Now, keep in mind his objective C one he's had since forever.
+[1:10:09.000 --> 1:10:14.000]  He's been using it for performance testing stuff for a long time, like 20 years.
+[1:10:14.000 --> 1:10:20.000]  And he got the Swift one within very close to it in only a day.
+[1:10:20.000 --> 1:10:25.000]  And his conclusion, and this is from a series of tweets,
+[1:10:25.000 --> 1:10:28.000]  so if I'm getting something wrong, I apologize.
+[1:10:28.000 --> 1:10:32.000]  But his conclusion was that it's going to take a little bit of time to figure out
+[1:10:32.000 --> 1:10:35.000]  how to make Swift fast.
+[1:10:35.000 --> 1:10:38.000]  But it's certainly got it where it counts.
+[1:10:38.000 --> 1:10:40.000]  Like you can, you can definitely get there.
+[1:10:40.000 --> 1:10:44.000]  And I'm eager, I'm looking forward to it.
+[1:10:44.000 --> 1:10:48.000]  I think it's telling that effectively what we now know,
+[1:10:48.000 --> 1:10:50.000]  and he didn't take credit for it.
+[1:10:50.000 --> 1:10:51.000]  And it's a typical Apple way.
+[1:10:51.000 --> 1:10:56.000]  But you know, it makes sense that they let Latin or Chris Latin or do the demo in the keynote.
+[1:10:56.000 --> 1:10:57.000]  Which was super cool.
+[1:10:57.000 --> 1:10:58.000]  Yeah, I was not.
+[1:10:58.000 --> 1:11:02.000]  Like, compiler guy comes out of his cave and just walks onto my stage.
+[1:11:02.000 --> 1:11:03.000]  That's pretty cool.
+[1:11:03.000 --> 1:11:06.000]  In a keynote where there were only five people on stage.
+[1:11:06.000 --> 1:11:07.000]  Yeah.
+[1:11:07.000 --> 1:11:08.000]  Right.
+[1:11:08.000 --> 1:11:13.000]  There was a cook, mostly Craig Federigi, a senior vice president.
+[1:11:13.000 --> 1:11:18.000]  One product demo by Brian Kroll, who's a, you know, like on Shiller's team,
+[1:11:18.000 --> 1:11:19.000]  a product marketing guy.
+[1:11:19.000 --> 1:11:25.000]  One by Jaws, who's, I think, second to Shiller in product marketing.
+[1:11:25.000 --> 1:11:30.000]  But those guys were both on stage very briefly, you know, maybe like five minutes each.
+[1:11:30.000 --> 1:11:36.000]  And then a nice big demo from Chris Latin in the keynote, which is crazy.
+[1:11:36.000 --> 1:11:41.000]  But it, you know, effectively what we now know is that for about a year,
+[1:11:41.000 --> 1:11:46.000]  it started in 2010 and for a first year, Latiner was doing it on his own.
+[1:11:46.000 --> 1:11:50.000]  So it's, you know, not that it's his language and it should be swift by Chris Latiner,
+[1:11:50.000 --> 1:11:52.000]  but that he's the, you know, he's the...
+[1:11:52.000 --> 1:11:53.000]  Oh, he's the father of an idiot.
+[1:11:53.000 --> 1:11:54.000]  The Virginia guy.
+[1:11:54.000 --> 1:11:55.000]  Yeah.
+[1:11:55.000 --> 1:11:58.000]  And he's the guy, you know, who did the compiler.
+[1:11:58.000 --> 1:12:00.000]  He's, you know, clang and LLVM.
+[1:12:00.000 --> 1:12:01.000]  Yeah.
+[1:12:01.000 --> 1:12:10.000]  I think it's interesting that the language came from the compiler and not the abstract,
+[1:12:10.000 --> 1:12:14.000]  you know, like, you know, like Ruby.
+[1:12:14.000 --> 1:12:19.000]  Like Ruby, it's like Matt's had the idea for the language, right?
+[1:12:19.000 --> 1:12:24.000]  And it, you know, that's how I, you know, not that it's anywhere near as complex as a programming language,
+[1:12:24.000 --> 1:12:25.000]  but that's how I did Markdown.
+[1:12:25.000 --> 1:12:26.000]  Here's what I want.
+[1:12:26.000 --> 1:12:27.000]  Right.
+[1:12:27.000 --> 1:12:33.000]  I want to put asterisks around the word and then have M tags come out around it in the output.
+[1:12:33.000 --> 1:12:37.000]  And then I, then I figured out, well, how do I make that happen in a pro script?
+[1:12:37.000 --> 1:12:44.000]  Whereas Latiner was starting with, here's a compiler and here's a runtime and here's a bunch of frameworks
+[1:12:44.000 --> 1:12:49.000]  for, you know, a huge, you know, wide frameworks.
+[1:12:49.000 --> 1:12:53.000]  How do I make a language that's optimal for this?
+[1:12:53.000 --> 1:12:58.000]  And so I don't think it's any, you know, I would probably be surprising if the performance was bad,
+[1:12:58.000 --> 1:13:01.000]  because, you know, he started starting with the compiler.
+[1:13:01.000 --> 1:13:02.000]  Yeah, yeah, exactly.
+[1:13:02.000 --> 1:13:10.000]  And there is a little bit of a language walk smell to Swift, but I could just be an old man.
+[1:13:10.000 --> 1:13:11.000]  I don't know.
+[1:13:11.000 --> 1:13:13.000]  Yeah, I think so too.
+[1:13:13.000 --> 1:13:15.000]  I guess, I don't know.
+[1:13:15.000 --> 1:13:17.000]  I don't know if I should be surprised or not.
+[1:13:17.000 --> 1:13:24.000]  I think it was crazy. I forget whose tweet it was where I was in a thing on, on Swift.
+[1:13:24.000 --> 1:13:27.000]  It was with Syracuse and we were talking about like how big the language was.
+[1:13:27.000 --> 1:13:29.000]  It might have been another Omni guy.
+[1:13:29.000 --> 1:13:37.000]  But somebody said, just go to a playground and go import Swift to import the Swift.
+[1:13:37.000 --> 1:13:38.000]  What is that?
+[1:13:38.000 --> 1:13:43.000]  Would you call it the, I don't even know what that is when you import Swift.
+[1:13:43.000 --> 1:13:48.000]  Like the, the, the framework?
+[1:13:48.000 --> 1:13:49.000]  Yeah.
+[1:13:49.000 --> 1:13:50.000]  Like the, not the runtime.
+[1:13:50.000 --> 1:13:52.000]  Well, whatever it is, but the Swift itself.
+[1:13:52.000 --> 1:13:53.000]  Yeah.
+[1:13:53.000 --> 1:13:55.000]  I think they have a name for it and I think again.
+[1:13:55.000 --> 1:14:01.000]  And then you command click Swift after you've imported it to bring it up in the playground and inspect it.
+[1:14:01.000 --> 1:14:02.000]  Yeah.
+[1:14:02.000 --> 1:14:07.000]  And you can see that Swift itself is actually written in Swift, that the language is actually the, the true.
+[1:14:07.000 --> 1:14:10.000]  What is the language itself is extremely thin.
+[1:14:10.000 --> 1:14:11.000]  Yeah.
+[1:14:11.000 --> 1:14:12.000]  Yeah.
+[1:14:12.000 --> 1:14:15.000]  So there's no, so all of the built-in operators.
+[1:14:15.000 --> 1:14:16.000]  Uh, right.
+[1:14:16.000 --> 1:14:19.000]  So an operator is like an equal or an addition or a minus.
+[1:14:19.000 --> 1:14:22.000]  Even just addition is not really part of the language.
+[1:14:22.000 --> 1:14:29.000]  It's in the Swift object or class, you know, that's implicitly imported into every Swift program.
+[1:14:29.000 --> 1:14:30.000]  Yeah.
+[1:14:30.000 --> 1:14:31.000]  It's a Swift function.
+[1:14:31.000 --> 1:14:32.000]  Yeah.
+[1:14:32.000 --> 1:14:33.000]  Right.
+[1:14:33.000 --> 1:14:35.000]  Cause I thought I was a little surprised they did operate or overall?
+[1:14:35.000 --> 1:14:36.000]  I did.
+[1:14:36.000 --> 1:14:37.000]  Were you at first?
+[1:14:37.000 --> 1:14:38.000]  Yeah.
+[1:14:38.000 --> 1:14:39.000]  I'm not a fan of operating over loading.
+[1:14:39.000 --> 1:14:43.000]  Um, in some cases, it's turning real comp.
+[1:14:43.000 --> 1:14:44.000]  Yeah.
+[1:14:44.000 --> 1:14:45.000]  I hope people are here.
+[1:14:45.000 --> 1:14:46.000]  Yeah.
+[1:14:46.000 --> 1:14:47.000]  Yeah.
+[1:14:47.000 --> 1:14:48.000]  Yeah.
+[1:14:48.000 --> 1:14:49.000]  Operator overloading.
+[1:14:49.000 --> 1:14:51.000]  C++ is the only language I ever did any work in that had operator overloading.
+[1:14:51.000 --> 1:14:58.000]  And the gist of operator overloading is you could, so you could say, right out of the bag, if you say four plus four,
+[1:14:58.000 --> 1:15:00.000]  you're going to get eight because it knows how to do integers.
+[1:15:00.000 --> 1:15:02.000]  But you can write your own class.
+[1:15:02.000 --> 1:15:06.000]  And your class could be, uh, I don't know, a color.
+[1:15:06.000 --> 1:15:11.000]  And you could say color A plus color B and get a new color.
+[1:15:11.000 --> 1:15:15.000]  And you define what it means to add one color to another.
+[1:15:15.000 --> 1:15:19.000]  And which in some cases, that's cool.
+[1:15:19.000 --> 1:15:24.000]  So you don't have to write a function that says add colors color A color B.
+[1:15:24.000 --> 1:15:27.000]  You could just say color A plus color B.
+[1:15:27.000 --> 1:15:31.000]  And you've, that's overriding the plus sign in the language.
+[1:15:31.000 --> 1:15:32.000]  Sounds great.
+[1:15:32.000 --> 1:15:35.000]  But in practice, it would drive you nuts because people who you were working with if you're sharing a code would do
+[1:15:35.000 --> 1:15:36.000]  stupid things.
+[1:15:36.000 --> 1:15:37.000]  Yeah.
+[1:15:37.000 --> 1:15:39.000]  Somebody would, somebody would have a cute idea.
+[1:15:39.000 --> 1:15:43.000]  And you would look at something like an expression like A plus B.
+[1:15:43.000 --> 1:15:45.000]  And it would not be A plus B.
+[1:15:45.000 --> 1:15:46.000]  It's like A plus B.
+[1:15:46.000 --> 1:15:50.000]  The B is like, well, we won't let any negative values in like some weird stuff.
+[1:15:50.000 --> 1:15:51.000]  And weird stuff.
+[1:15:51.000 --> 1:15:54.000]  That you would never guess by looking at the code.
+[1:15:54.000 --> 1:15:55.000]  You can't.
+[1:15:55.000 --> 1:15:56.000]  Right.
+[1:15:56.000 --> 1:15:57.000]  You have to.
+[1:15:57.000 --> 1:15:58.000]  Yeah.
+[1:15:58.000 --> 1:16:00.000]  So I'm not a fan of operator overloading.
+[1:16:00.000 --> 1:16:01.000]  Yeah.
+[1:16:01.000 --> 1:16:04.000]  It does ultimately come down to basically you're going to have to trust a team that you work with.
+[1:16:04.000 --> 1:16:05.000]  Yeah.
+[1:16:05.000 --> 1:16:10.000]  Which is true for like a lot of programming.
+[1:16:10.000 --> 1:16:17.000]  But I kind of fears that a lot of crazy shit is going to, excuse, going to sort of hit the fan.
+[1:16:17.000 --> 1:16:18.000]  Yeah.
+[1:16:18.000 --> 1:16:19.000]  I wonder.
+[1:16:19.000 --> 1:16:20.000]  I don't know.
+[1:16:20.000 --> 1:16:23.000]  But the reason, once you do go to a playground and do import Swift and command click Swift,
+[1:16:23.000 --> 1:16:28.000]  you can see why that's operator overloading because all of the operators in the language are defined and switched itself.
+[1:16:28.000 --> 1:16:29.000]  Yes.
+[1:16:29.000 --> 1:16:30.000]  Swift itself.
+[1:16:30.000 --> 1:16:37.000]  Which is like a sort of recursive mentality that I imagine comes natural to somebody like.
+[1:16:37.000 --> 1:16:38.000]  Yeah.
+[1:16:38.000 --> 1:16:46.000]  Like Chris Ladner is, you know, if I explain this to him, how in or he resting it is, he'd be like, well, you know, I probably like, why would I do it any other way?
+[1:16:46.000 --> 1:16:58.000]  You know, it seems, but as to me, it's sort of like mind bending, like, looking behind the matrix, like, whoa, all of these super simple things like, what does the plus sign mean when you have an integer or one side,
+[1:16:58.000 --> 1:17:01.000]  or a juror on the other is defined and swift itself.
+[1:17:01.000 --> 1:17:02.000]  Yeah.
+[1:17:02.000 --> 1:17:03.000]  It's kind of funny.
+[1:17:03.000 --> 1:17:09.000]  It's like basically the, you know, the design that the base language to have, like two things you can add and you can compare.
+[1:17:09.000 --> 1:17:12.000]  And then everything else just gets built on time.
+[1:17:12.000 --> 1:17:13.000]  Yeah.
+[1:17:13.000 --> 1:17:17.000]  And then you end up with a language that's not verbose.
+[1:17:17.000 --> 1:17:20.000]  It's, you know, really, really easy to read and simple.
+[1:17:20.000 --> 1:17:21.000]  Yeah.
+[1:17:21.000 --> 1:17:22.000]  Or it looks like it is.
+[1:17:22.000 --> 1:17:23.000]  It's pretty much, yeah.
+[1:17:23.000 --> 1:17:25.000]  I mean, I think people can abuse it, but you can abuse anything.
+[1:17:25.000 --> 1:17:30.000]  So we'll see, I'm really looking forward to actually getting some real work done with it.
+[1:17:30.000 --> 1:17:33.000]  Uh, I think it's going to be a long time.
+[1:17:33.000 --> 1:17:40.000]  I'm not sure if you put it on during fireball, but, uh, there was a piece recently by Aaron Hillguess.
+[1:17:40.000 --> 1:17:41.000]  You did like to it.
+[1:17:41.000 --> 1:17:44.000]  Uh, saying that you're still going to need to learn objective C.
+[1:17:44.000 --> 1:17:47.000]  Uh, I think, yes, I agree with him.
+[1:17:47.000 --> 1:17:53.000]  Again, I don't think that swift is harder to learn than objective C.
+[1:17:53.000 --> 1:18:00.000]  Uh, but I think what he does when he teaches is basically he just ignores all of the C stuff.
+[1:18:00.000 --> 1:18:06.000]  And the objective C is relatively easy, but if, you know, once you get into the C stuff, things get a little wonky.
+[1:18:06.000 --> 1:18:18.000]  Um, but I guess it's like at least two to five years out before objective C is something that you don't need in any way shape or form.
+[1:18:18.000 --> 1:18:19.000]  Like at least.
+[1:18:19.000 --> 1:18:25.000]  Like I know that they're not shipping, um, any frameworks with swift now.
+[1:18:25.000 --> 1:18:29.000]  Yeah, they, they're probably, I'll bet they'll start with apps, right?
+[1:18:29.000 --> 1:18:35.000]  And they even said at the WWDC that they, they rewrote the WWDC app in swift.
+[1:18:35.000 --> 1:18:42.000]  And, you know, assuming that they meant the whole thing, uh, I mean, I, I'm still using it to watch sessions and the app is great.
+[1:18:42.000 --> 1:18:43.000]  It's perfect.
+[1:18:43.000 --> 1:18:44.000]  It's perfect.
+[1:18:44.000 --> 1:18:47.000]  Never, never know anything better than any other previous year.
+[1:18:47.000 --> 1:18:54.000]  Um, yeah, and presumably as the language settles down, they will start writing frameworks with it.
+[1:18:54.000 --> 1:19:01.000]  But, you know, I can see why they're not, you know, they want to be super conservative with the friends.
+[1:19:01.000 --> 1:19:02.000]  Yeah.
+[1:19:02.000 --> 1:19:04.000]  Well, and the frameworks of the heart and soul of the company.
+[1:19:04.000 --> 1:19:06.000]  Yeah, they are definitely the kind you'll.
+[1:19:06.000 --> 1:19:10.000]  And I think that that came across last week at WWDC too.
+[1:19:10.000 --> 1:19:16.000]  It's, you know, that where Microsoft has one operating system windows that they want to run on all devices.
+[1:19:16.000 --> 1:19:21.000]  Apple has two very different operating systems, but that they do share the framework.
+[1:19:21.000 --> 1:19:23.000]  Yeah, definitely.
+[1:19:23.000 --> 1:19:24.000]  I don't know.
+[1:19:24.000 --> 1:19:26.000]  I thought I heard you make the red, you make that point.
+[1:19:26.000 --> 1:19:32.000]  But yeah, the like foundation and all of the other frameworks are really what Apple shares.
+[1:19:32.000 --> 1:19:39.000]  Like honestly, they could, they could probably just pull the, the kernel a bit out and stick it, the different kernel in there.
+[1:19:39.000 --> 1:19:44.000]  And, you know, so long as all the frameworks were good, they'd still be happy, you know?
+[1:19:44.000 --> 1:19:47.000]  It's the identity of the company at this point.
+[1:19:47.000 --> 1:19:55.000]  All right, I would almost assume that the, you know, not that I think that they, I don't know if they were ever going to replace the kernel, but I would almost assume that they've written them with that in mind.
+[1:19:55.000 --> 1:19:56.000]  Oh, yeah.
+[1:19:56.000 --> 1:20:02.000]  Like in the way that they wrote them in the mind that they should be CPU architecture in the past.
+[1:20:02.000 --> 1:20:03.000]  Yeah, definitely.
+[1:20:03.000 --> 1:20:13.000]  You know, and that so they could switch from PowerPC to Intel and that they could switch from Intel to ARM without, you know, any kind of pain.
+[1:20:13.000 --> 1:20:15.000]  Or the sort of pain that, that people have had before.
+[1:20:15.000 --> 1:20:20.000]  Yeah, I mean, that's a lot of the good stuff they got from next and on, like, off each of any of them.
+[1:20:20.000 --> 1:20:22.000]  They're trying those guys.
+[1:20:22.000 --> 1:20:27.000]  Very agnostic about the particular hardware that they were running on.
+[1:20:27.000 --> 1:20:28.000]  Yeah.
+[1:20:28.000 --> 1:20:30.000]  Let me take a third break here.
+[1:20:30.000 --> 1:20:32.000]  Thank our final sponsor of the show.
+[1:20:32.000 --> 1:20:34.000]  Another repeat sponsor.
+[1:20:34.000 --> 1:20:35.000]  Great guys.
+[1:20:35.000 --> 1:20:43.000]  Our good friends at Transporter, aka file transporter from connected data.
+[1:20:43.000 --> 1:20:46.000]  They've been on the show before, but if you don't, not familiar with them.
+[1:20:46.000 --> 1:20:47.000]  Here's the idea.
+[1:20:47.000 --> 1:20:56.000]  Would you like your own private cloud that lets you securely store and share files in a way that is completely private and resistant to governmental snooping?
+[1:20:56.000 --> 1:21:02.000]  You want a way to automatically back up all your photos and videos that you take on your iPhone and iPad?
+[1:21:02.000 --> 1:21:04.000]  Here's the idea.
+[1:21:04.000 --> 1:21:08.000]  How could that work, though, if you're not running your own server?
+[1:21:08.000 --> 1:21:10.000]  Well, you go there.
+[1:21:10.000 --> 1:21:12.000]  You buy Transporter from them.
+[1:21:12.000 --> 1:21:13.000]  It's a little gadget.
+[1:21:13.000 --> 1:21:14.000]  It's adorable.
+[1:21:14.000 --> 1:21:16.000]  Very small, very quiet.
+[1:21:16.000 --> 1:21:17.000]  Put it in your house.
+[1:21:17.000 --> 1:21:19.000]  Connect an Ethernet cable to it.
+[1:21:19.000 --> 1:21:25.000]  And then you install a little bit of software on your Mac or you install their app on your iPhone.
+[1:21:25.000 --> 1:21:29.000]  And now you've got your own little Dropbox,
+[1:21:29.000 --> 1:21:37.000]  except instead of the data being served somewhere in Amazon's cloud or Google's cloud or Apple's cloud.
+[1:21:37.000 --> 1:21:39.000]  It's right there on your device.
+[1:21:39.000 --> 1:21:40.000]  But you could buy two.
+[1:21:40.000 --> 1:21:46.000]  You could have one at home, one at work, and they'll sync with each other.
+[1:21:46.000 --> 1:21:54.000]  And all they do to go through the cloud is just to coordinate what their addresses are behind your network.
+[1:21:54.000 --> 1:21:58.000]  There's no place in the cloud where your data is copied.
+[1:21:58.000 --> 1:22:01.000]  It's right from the one transporter to the other.
+[1:22:01.000 --> 1:22:06.000]  And you can set up things just like with Dropbox where if I have an account and
+[1:22:06.000 --> 1:22:12.000]  Guy English has an account, I can share a file from him and instead of going to some sort of shared server,
+[1:22:12.000 --> 1:22:14.000]  it's only on our device.
+[1:22:14.000 --> 1:22:19.000]  So personally, for peace of mind, this is the appeal is obvious.
+[1:22:19.000 --> 1:22:21.000]  These guys, I've said this before when they sponsored it,
+[1:22:21.000 --> 1:22:27.000]  they could not have gone into business with this idea at a better time given what's happened in the last year with the NSA.
+[1:22:27.000 --> 1:22:31.000]  And other, you know, Western governments snooping on the internet.
+[1:22:31.000 --> 1:22:36.000]  But even from a legal perspective, for some people, you know, in healthcare and stuff like that,
+[1:22:36.000 --> 1:22:45.000]  they have things that they want to share with each other, but that they are legally not even allowed to put on a device that's not within their control.
+[1:22:45.000 --> 1:22:48.000]  Transporter can help solve that.
+[1:22:48.000 --> 1:22:51.000]  Really great idea. Well done. Nice hardware.
+[1:22:51.000 --> 1:22:55.000]  They've got two basic ways to do it.
+[1:22:55.000 --> 1:22:59.000]  You can get the, the puck.
+[1:22:59.000 --> 1:23:03.000]  Yeah, the puck is called transporter sync.
+[1:23:03.000 --> 1:23:07.000]  Little Apple TV sized puck. It's adorable. Very small.
+[1:23:07.000 --> 1:23:10.000]  Then you'd buy the puck, you plug your own hard drive in the back.
+[1:23:10.000 --> 1:23:14.000]  Just bring your own external hard drive, plug it in, and it works.
+[1:23:14.000 --> 1:23:17.000]  The regular transporter is a little bit bigger.
+[1:23:17.000 --> 1:23:22.000]  And you can get it right from them in various sizes with a hard drive right in there.
+[1:23:22.000 --> 1:23:26.000]  Or you could buy that transporter and just put the raw naked hard drive in there.
+[1:23:26.000 --> 1:23:30.000]  It's up to you. A lot of options.
+[1:23:30.000 --> 1:23:34.000]  Here's the idea. They had, or the sizes.
+[1:23:34.000 --> 1:23:38.000]  They have 500 gigabyte, one terabyte, two terabyte capacities.
+[1:23:38.000 --> 1:23:43.000]  So go there. Go to file transporter store.com.
+[1:23:43.000 --> 1:23:47.000]  File transporter store.com.
+[1:23:47.000 --> 1:23:52.000]  Use this code TTS, the talk show TTS 10.
+[1:23:52.000 --> 1:23:57.000]  TTS 10, and you'll save 10% off your purchase up to 35 bucks.
+[1:23:57.000 --> 1:24:02.000]  They're not that expensive, but hey, 35 bucks is 35 bucks.
+[1:24:02.000 --> 1:24:08.000]  So use that code TTS 10 at file transporter store.com.
+[1:24:08.000 --> 1:24:12.000]  And check them out. If you have any reason that you'd want to share stuff privately.
+[1:24:12.000 --> 1:24:16.000]  Great thing. I've got one here and works a charm.
+[1:24:16.000 --> 1:24:20.000]  I've got one too. Full disclosure, they also sponsored my show.
+[1:24:20.000 --> 1:24:24.000]  I'm trying to find my discount code.
+[1:24:24.000 --> 1:24:27.000]  So I can gin up my stats.
+[1:24:27.000 --> 1:24:30.000]  But no, they're great. I love it. Use it all the time.
+[1:24:30.000 --> 1:24:34.000]  Literally, you're going to use it to send this audio after Dave.
+[1:24:34.000 --> 1:24:40.000]  We're talking about going to wrap this up soon, but.
+[1:24:40.000 --> 1:24:44.000]  No, we never had this. We just keep rolling.
+[1:24:44.000 --> 1:24:47.000]  We should start talking about movies. Yeah. Yeah.
+[1:24:47.000 --> 1:24:49.000]  There's nothing good, isn't it?
+[1:24:49.000 --> 1:24:51.000]  You know what?
+[1:24:51.000 --> 1:24:54.000]  So here's a guy on Twitter.
+[1:24:54.000 --> 1:24:57.000]  I think he's being sarcastic.
+[1:24:57.000 --> 1:24:59.000]  Brian S. Hall.
+[1:24:59.000 --> 1:25:02.000]  I like people who criticize me on Twitter.
+[1:25:02.000 --> 1:25:04.000]  Just finished a long Gruber post.
+[1:25:04.000 --> 1:25:07.000]  And it's now clear that Tim Cook is Apple Steve Balmer,
+[1:25:07.000 --> 1:25:10.000]  which is exactly what Apple needs.
+[1:25:10.000 --> 1:25:14.000]  I don't understand. So well, I think what he's trying to say is,
+[1:25:14.000 --> 1:25:17.000]  I think he's trying to make an argument that.
+[1:25:17.000 --> 1:25:21.000]  I'm going to say that whatever's going on at Apple is good.
+[1:25:21.000 --> 1:25:25.000]  And if Tim Cook is a operations type minded guy,
+[1:25:25.000 --> 1:25:29.000]  not a design guide, then that's and now he's CEO that now that's
+[1:25:29.000 --> 1:25:33.000]  exactly what Apple needs to see you.
+[1:25:33.000 --> 1:25:35.000]  Yeah.
+[1:25:35.000 --> 1:25:41.000]  Where I would, I would say it's too, too early to tell,
+[1:25:41.000 --> 1:25:43.000]  whether it's eventually going to be a problem,
+[1:25:43.000 --> 1:25:46.000]  not having a product guy atop the company.
+[1:25:46.000 --> 1:25:49.000]  But I think the early signs are that he gets that,
+[1:25:49.000 --> 1:25:53.000]  and that he doesn't try to be a product guy.
+[1:25:53.000 --> 1:25:56.000]  Yeah. I think the, I think of anything,
+[1:25:56.000 --> 1:25:58.000]  the biggest mistake.
+[1:25:58.000 --> 1:26:02.000]  You know, Balmer or Tim Cook or anybody who wasn't necessarily
+[1:26:02.000 --> 1:26:06.000]  a product focus could make is to try to step into the shoes of like the
+[1:26:06.000 --> 1:26:08.000]  ultimate product guy. That's not going to happen.
+[1:26:08.000 --> 1:26:11.000]  And by which I mean both Bill Gates,
+[1:26:11.000 --> 1:26:17.000]  I think he was a product guy at the end of the day in a very
+[1:26:17.000 --> 1:26:18.000]  different way.
+[1:26:18.000 --> 1:26:23.000]  But, you know, he was also focused on what was actually
+[1:26:23.000 --> 1:26:26.000]  shipping, I think.
+[1:26:26.000 --> 1:26:30.000]  I say, and I pointed it out in my piece today,
+[1:26:30.000 --> 1:26:35.000]  that I think that the John Browitt hiring and quick firing
+[1:26:35.000 --> 1:26:39.000]  is a good sign because it wasn't,
+[1:26:39.000 --> 1:26:42.000]  and I had to tone down my initial language as I edited it,
+[1:26:42.000 --> 1:26:45.000]  because I think I called it a disastrous stint in my early draft,
+[1:26:45.000 --> 1:26:47.000]  maybe the one that you read last night.
+[1:26:47.000 --> 1:26:49.000]  But I changed it to ill-fated,
+[1:26:49.000 --> 1:26:50.000]  because it wasn't disastrous.
+[1:26:50.000 --> 1:26:53.000]  I mean, he wasn't there long enough to do anything really bad.
+[1:26:53.000 --> 1:26:54.000]  And it wasn't like,
+[1:26:54.000 --> 1:26:56.000]  yeah, he just looked shaky on the wheel and they...
+[1:26:56.000 --> 1:26:57.000]  Right.
+[1:26:57.000 --> 1:26:59.000]  It wasn't like, and it wasn't like people were,
+[1:26:59.000 --> 1:27:00.000]  you know, after he took over,
+[1:27:00.000 --> 1:27:02.000]  you were walking into the Apple Store,
+[1:27:02.000 --> 1:27:04.000]  and the computers were set up on folding tables,
+[1:27:04.000 --> 1:27:07.000]  you know, the lights were flickering,
+[1:27:07.000 --> 1:27:13.000]  and, you know, it smelled like you're in a subway station.
+[1:27:13.000 --> 1:27:16.000]  I mean, it was, I think most people who weren't really
+[1:27:16.000 --> 1:27:19.000]  finely tuned to what people who worked in the stores were saying
+[1:27:19.000 --> 1:27:20.000]  didn't even notice.
+[1:27:20.000 --> 1:27:22.000]  It wasn't there long enough.
+[1:27:22.000 --> 1:27:25.000]  I think it was just a cultural misfit.
+[1:27:25.000 --> 1:27:26.000]  Yeah.
+[1:27:26.000 --> 1:27:29.000]  And, you know, I think, you know,
+[1:27:29.000 --> 1:27:34.000]  I think Tim Cook knew that dismissing him was going to make him
+[1:27:34.000 --> 1:27:37.000]  that his Tim Cook looked bad, right?
+[1:27:37.000 --> 1:27:38.000]  Yeah.
+[1:27:38.000 --> 1:27:39.000]  In a way, because it's, you know,
+[1:27:39.000 --> 1:27:41.000]  the guy who was only on the job six months,
+[1:27:41.000 --> 1:27:42.000]  and they were like,
+[1:27:42.000 --> 1:27:43.000]  oh, by the way,
+[1:27:43.000 --> 1:27:45.000]  John Brown would his left a company.
+[1:27:45.000 --> 1:27:48.000]  You know, it's a tacit admission that,
+[1:27:48.000 --> 1:27:51.000]  hey, my first executive hire was a...
+[1:27:51.000 --> 1:27:52.000]  Oh, it does.
+[1:27:52.000 --> 1:27:53.000]  Right.
+[1:27:53.000 --> 1:27:57.000]  And I think it would have been a lot easier to,
+[1:27:57.000 --> 1:28:00.000]  or at least easier ego wise,
+[1:28:00.000 --> 1:28:03.000]  to just stick with the guy, you know,
+[1:28:03.000 --> 1:28:05.000]  and instead, you know,
+[1:28:05.000 --> 1:28:07.000]  I think he clearly took a look and thought,
+[1:28:07.000 --> 1:28:08.000]  you know what?
+[1:28:08.000 --> 1:28:13.000]  I think I needed entirely 180 degree different sort of person
+[1:28:13.000 --> 1:28:15.000]  to take over this job,
+[1:28:15.000 --> 1:28:18.000]  which is, you know, exactly what Angela Arnt's, you know,
+[1:28:18.000 --> 1:28:20.000]  clearly is.
+[1:28:20.000 --> 1:28:24.000]  You know, this is a bar, or brow it came from, you know,
+[1:28:24.000 --> 1:28:27.000]  a nickel and dime electronics reseller,
+[1:28:27.000 --> 1:28:29.000]  that has a reputation, you know,
+[1:28:29.000 --> 1:28:32.000]  for being pretty low, low margin, low rent.
+[1:28:32.000 --> 1:28:37.000]  And, you know, Angela Arnt's comes from a genuine luxury
+[1:28:37.000 --> 1:28:38.000]  retell.
+[1:28:38.000 --> 1:28:39.000]  Nothing.
+[1:28:39.000 --> 1:28:41.000]  I mean, the worst thing to do when you make a mistake
+[1:28:41.000 --> 1:28:43.000]  is to double down on it, right?
+[1:28:43.000 --> 1:28:44.000]  Exactly.
+[1:28:44.000 --> 1:28:45.000]  But it's easy.
+[1:28:45.000 --> 1:28:47.000]  Human nature makes it so easy to do that
+[1:28:47.000 --> 1:28:49.000]  because it feels like the worst thing to do
+[1:28:49.000 --> 1:28:50.000]  is to say, I'm wrong.
+[1:28:50.000 --> 1:28:51.000]  Oh, hell yeah.
+[1:28:51.000 --> 1:28:52.000]  Do that all the time.
+[1:28:52.000 --> 1:28:53.000]  Every time we order one too many drinks in it,
+[1:28:53.000 --> 1:28:54.000]  I'm like, no.
+[1:28:54.000 --> 1:28:56.000]  This is the right thing to do.
+[1:28:56.000 --> 1:29:04.000]  Sorry.
+[1:29:04.000 --> 1:29:10.000]  When I left, I left me that silly.
+[1:29:10.000 --> 1:29:12.000]  When I left WWE,
+[1:29:12.000 --> 1:29:13.000]  did I tell you this?
+[1:29:13.000 --> 1:29:14.000]  When I left, we,
+[1:29:14.000 --> 1:29:17.000]  uh, town,
+[1:29:17.000 --> 1:29:18.000]  I left early.
+[1:29:18.000 --> 1:29:19.000]  I left on Thursday morning,
+[1:29:19.000 --> 1:29:21.000]  and you were still there for a couple of days.
+[1:29:21.000 --> 1:29:23.000]  And I woke up and I thought,
+[1:29:23.000 --> 1:29:28.000]  oh, I hope I gave guy the rest of that bottle of bourbon,
+[1:29:28.000 --> 1:29:29.000]  uh,
+[1:29:29.000 --> 1:29:30.000]  because I can't get it on an airplane.
+[1:29:30.000 --> 1:29:31.000]  I only had a carry on,
+[1:29:31.000 --> 1:29:33.000]  and I would hate to throw it away.
+[1:29:33.000 --> 1:29:35.000]  Uh, and I got a quick hurry up in pack.
+[1:29:35.000 --> 1:29:36.000]  There was no Wama, you know,
+[1:29:36.000 --> 1:29:38.000]  you were probably still asleep.
+[1:29:38.000 --> 1:29:40.000]  I wasn't going to wake you up and run it to your room
+[1:29:40.000 --> 1:29:41.000]  and give it to you.
+[1:29:41.000 --> 1:29:42.000]  And I looked at the bottle and it was empty.
+[1:29:42.000 --> 1:29:43.000]  And I was like, oh, well,
+[1:29:43.000 --> 1:29:44.000]  from salt, from salt,
+[1:29:44.000 --> 1:29:45.000]  from salt.
+[1:29:45.000 --> 1:29:46.000]  From salt.
+[1:29:46.000 --> 1:29:47.000]  No wonder I didn't give it to bottle.
+[1:29:47.000 --> 1:29:50.000]  I was right to worry that I didn't give it to you,
+[1:29:50.000 --> 1:29:51.000]  to take with you,
+[1:29:51.000 --> 1:29:53.000]  and I was wrong to be worried.
+[1:29:53.000 --> 1:29:56.000]  I appreciate it.
+[1:29:56.000 --> 1:29:59.000]  And then my second thought was to realize that that was a mistake.
+[1:29:59.000 --> 1:30:03.000]  A different sort of mistake.
+[1:30:03.000 --> 1:30:05.000]  Here's what I have.
+[1:30:05.000 --> 1:30:08.000]  I think that
+[1:30:08.000 --> 1:30:12.000]  complacency is the problem
+[1:30:12.000 --> 1:30:15.000]  that besets giant companies.
+[1:30:15.000 --> 1:30:17.000]  I agree.
+[1:30:17.000 --> 1:30:19.000]  And I certainly think that that's what,
+[1:30:19.000 --> 1:30:21.000]  I think that's what,
+[1:30:21.000 --> 1:30:23.000]  Al Balmer's term,
+[1:30:23.000 --> 1:30:25.000]  at Microsoft, you know,
+[1:30:25.000 --> 1:30:27.000]  that he was too complacent,
+[1:30:27.000 --> 1:30:30.000]  too willing to keep making money.
+[1:30:30.000 --> 1:30:31.000]  And, you know,
+[1:30:31.000 --> 1:30:33.000]  and again, in defense of Balmer,
+[1:30:33.000 --> 1:30:35.000]  way higher profits and revenues
+[1:30:35.000 --> 1:30:37.000]  than they ever made under Bill Gates.
+[1:30:37.000 --> 1:30:39.000]  Uh, you know,
+[1:30:39.000 --> 1:30:41.000]  those financial things grew, grew,
+[1:30:41.000 --> 1:30:43.000]  grew under Steve Balmer,
+[1:30:43.000 --> 1:30:46.000]  but I think he got complacent in terms of moving onward
+[1:30:46.000 --> 1:30:49.000]  and being willing to cannibalize his own stuff,
+[1:30:49.000 --> 1:30:51.000]  and make something new
+[1:30:51.000 --> 1:30:53.000]  and take a chance that might take away
+[1:30:53.000 --> 1:30:55.000]  from the existing stuff.
+[1:30:55.000 --> 1:30:57.000]  And I don't get the sense that Tim Cook is like that at all.
+[1:30:57.000 --> 1:30:58.000]  No, I agree.
+[1:30:58.000 --> 1:31:02.000]  In fact, I was saying that similar to Ben last night,
+[1:31:02.000 --> 1:31:05.000]  I think Nintendo did the same thing.
+[1:31:05.000 --> 1:31:07.000]  Nintendo, for a long time,
+[1:31:07.000 --> 1:31:10.000]  was the only console manufacturer
+[1:31:10.000 --> 1:31:13.000]  that was, you know, making money on, on their devices.
+[1:31:13.000 --> 1:31:15.000]  And I think they kind of,
+[1:31:15.000 --> 1:31:18.000]  they got addicted to that kind of revenue stream.
+[1:31:18.000 --> 1:31:21.000]  And now they're kind of in a bad spot where,
+[1:31:21.000 --> 1:31:23.000]  you know, when a Apple does do something,
+[1:31:23.000 --> 1:31:25.000]  they're just going to take the legs out from underneath Nintendo.
+[1:31:25.000 --> 1:31:26.000]  Yeah.
+[1:31:26.000 --> 1:31:28.000]  And Nintendo can't be up on the high end,
+[1:31:28.000 --> 1:31:30.000]  because that's not what they were doing.
+[1:31:30.000 --> 1:31:31.000]  Yeah.
+[1:31:31.000 --> 1:31:32.000]  And complacencies are weird thing,
+[1:31:32.000 --> 1:31:33.000]  because everybody would say,
+[1:31:33.000 --> 1:31:34.000]  no, I'm not complacent.
+[1:31:34.000 --> 1:31:36.000]  Of course, any leader is going to say that they're not.
+[1:31:36.000 --> 1:31:38.000]  And I think Balmer would be the first to say,
+[1:31:38.000 --> 1:31:40.000]  I'm not complacent. I want to destroy everybody.
+[1:31:40.000 --> 1:31:44.000]  But denial is, is hard to recognize.
+[1:31:44.000 --> 1:31:44.000]  Yeah.
+[1:31:44.000 --> 1:31:47.000]  You know, you can go into denial about things like
+[1:31:47.000 --> 1:31:50.000]  what the iPhone was going to do to Windows Mobile.
+[1:31:50.000 --> 1:31:51.000]  Right.
+[1:31:51.000 --> 1:31:52.000]  Which wasn't really that big, really.
+[1:31:52.000 --> 1:31:54.000]  Windows Mobile never really was big.
+[1:31:54.000 --> 1:31:56.000]  Anyway, they were just thought they were going to be big.
+[1:31:56.000 --> 1:32:00.000]  And their whole attack plan was attacking Blackberry and Symbian.
+[1:32:00.000 --> 1:32:01.000]  Oh, it was weird.
+[1:32:01.000 --> 1:32:07.000]  They thought it felt to me like they felt entitled to be big.
+[1:32:07.000 --> 1:32:08.000]  Do you know what I mean?
+[1:32:08.000 --> 1:32:09.000]  It was more like...
+[1:32:09.000 --> 1:32:10.000]  Yes, exactly.
+[1:32:10.000 --> 1:32:11.000]  Right.
+[1:32:11.000 --> 1:32:13.000]  That, you know, that was Microsoft,
+[1:32:13.000 --> 1:32:16.000]  when Microsoft enters a market with a new platform,
+[1:32:16.000 --> 1:32:19.000]  it's going to be a majority share,
+[1:32:19.000 --> 1:32:21.000]  because not because of rational reasons,
+[1:32:21.000 --> 1:32:24.000]  but because that's what happens when Microsoft enters a market.
+[1:32:24.000 --> 1:32:25.000]  Yeah.
+[1:32:25.000 --> 1:32:27.000]  Because I don't...
+[1:32:27.000 --> 1:32:28.000]  They didn't really do anything.
+[1:32:28.000 --> 1:32:29.000]  I mean, they had...
+[1:32:29.000 --> 1:32:31.000]  So Windows CE was around for ages.
+[1:32:31.000 --> 1:32:32.000]  And they didn't really do anything.
+[1:32:32.000 --> 1:32:34.000]  And they had plenty of time to...
+[1:32:34.000 --> 1:32:35.000]  I don't know if they could have done...
+[1:32:35.000 --> 1:32:37.000]  So the iPhone's a leap.
+[1:32:37.000 --> 1:32:38.000]  Let's just say that, you know, whatever.
+[1:32:38.000 --> 1:32:41.000]  That's neither here nor there.
+[1:32:41.000 --> 1:32:46.000]  But they kept shipping something that looked like Windows 95 for years.
+[1:32:46.000 --> 1:32:47.000]  They didn't...
+[1:32:47.000 --> 1:32:49.000]  They never really bothered me thinking the problem.
+[1:32:49.000 --> 1:32:50.000]  They just...
+[1:32:50.000 --> 1:32:55.000]  I think they just thought eventually it's going to...
+[1:32:55.000 --> 1:32:57.000]  You know, eventually this is going to be a big thing.
+[1:32:57.000 --> 1:33:01.000]  And since we're already there, we'll be the ones who reap the value.
+[1:33:01.000 --> 1:33:02.000]  Yeah.
+[1:33:02.000 --> 1:33:03.000]  Well, to your point, it's almost immature.
+[1:33:03.000 --> 1:33:07.000]  So if they're just pouties, like, why aren't you buying our phones?
+[1:33:07.000 --> 1:33:11.000]  We're not going to give you a compelling reason to do it, but...
+[1:33:11.000 --> 1:33:12.000]  You should be.
+[1:33:12.000 --> 1:33:14.000]  Weird.
+[1:33:14.000 --> 1:33:16.000]  So I'm not worried about that.
+[1:33:16.000 --> 1:33:18.000]  I really...
+[1:33:18.000 --> 1:33:23.000]  I could not be more bullish on Tim Cook's leadership at Apple.
+[1:33:23.000 --> 1:33:24.000]  No.
+[1:33:24.000 --> 1:33:26.000]  I think he's staying at great job.
+[1:33:26.000 --> 1:33:30.000]  I think he knows his wheelhouse and sticks to it.
+[1:33:30.000 --> 1:33:36.000]  And leaves the other stuff that's out of his wheelhouse to people who are experts.
+[1:33:36.000 --> 1:33:37.000]  Yeah.
+[1:33:37.000 --> 1:33:40.000]  Well, everything we've seen is great.
+[1:33:40.000 --> 1:33:47.000]  Definitely closer collaboration between the teams or between the two operating system groups.
+[1:33:47.000 --> 1:33:53.000]  Way more opportunities for third-party developers than we've ever had on the platform before.
+[1:33:53.000 --> 1:33:57.000]  Speaking with friends in the company, everybody's happy and excited.
+[1:33:57.000 --> 1:34:01.000]  Everybody seemed happy and excited on stage.
+[1:34:01.000 --> 1:34:08.000]  They even tried to do some nice stuff in the App Store, which is, you know, that's kind of...
+[1:34:08.000 --> 1:34:12.000]  I don't think that's going to change much, but they tried, right?
+[1:34:12.000 --> 1:34:16.000]  There was almost nothing negative coming out of this, this WWDC.
+[1:34:16.000 --> 1:34:19.000]  Yeah, it's a good way to put it.
+[1:34:19.000 --> 1:34:22.000]  Very, very hard to find anything other than niggling details.
+[1:34:22.000 --> 1:34:23.000]  Oh, yeah.
+[1:34:23.000 --> 1:34:25.000]  Yeah, like I've got little complaints about Swift and...
+[1:34:25.000 --> 1:34:30.000]  But pretty much everything they announced was all good, all around for everyone.
+[1:34:30.000 --> 1:34:31.000]  Yeah.
+[1:34:31.000 --> 1:34:34.000]  Well, except that they show a lot to a couple of people, but...
+[1:34:34.000 --> 1:34:35.000]  Well, yeah.
+[1:34:35.000 --> 1:34:36.000]  Like, yeah.
+[1:34:36.000 --> 1:34:38.000]  Well, I got a minor show locking.
+[1:34:38.000 --> 1:34:40.000]  But the reveal lap guy's good.
+[1:34:40.000 --> 1:34:41.000]  That's stank.
+[1:34:41.000 --> 1:34:49.000]  Yeah, so reveal, it's worth, you know, porn went out for reveal because it was really clever.
+[1:34:49.000 --> 1:34:54.000]  Long story, you probably know more about it than me, but I would explain it as sort of like a
+[1:34:54.000 --> 1:34:56.000]  web kit inspector for cocoa apps.
+[1:34:56.000 --> 1:34:57.000]  Good enough.
+[1:34:57.000 --> 1:34:58.000]  Yeah.
+[1:34:58.000 --> 1:35:03.000]  And in terms of like the UI could show your app, you know, the layering, like which controls
+[1:35:03.000 --> 1:35:05.000]  are on top or...
+[1:35:05.000 --> 1:35:10.000]  Yeah, it would give you a three-dimensional look at the way that the controls are stacked
+[1:35:10.000 --> 1:35:11.000]  on top of each other.
+[1:35:11.000 --> 1:35:14.000]  So if you scroll in, you can see what's going to go behind one or the other.
+[1:35:14.000 --> 1:35:15.000]  It was handy.
+[1:35:15.000 --> 1:35:16.000]  Yeah.
+[1:35:16.000 --> 1:35:19.000]  And if you have like a drawing bug where you're seeing something that you shouldn't be able
+[1:35:19.000 --> 1:35:23.000]  to see or not seeing something you should be able to see, that 3D view can help you...
+[1:35:23.000 --> 1:35:25.000]  Oh, look, Doug, no wonder you can't see that button.
+[1:35:25.000 --> 1:35:28.000]  It's still the latch on the wrong way.
+[1:35:28.000 --> 1:35:32.000]  And it really cool, really advanced, very fancy stuff.
+[1:35:32.000 --> 1:35:36.000]  And it's like the same thing is now built into Xcode.
+[1:35:36.000 --> 1:35:37.000]  Yeah.
+[1:35:37.000 --> 1:35:41.000]  And more, you can do more with it obviously because it's built in, but it's pretty much a
+[1:35:41.000 --> 1:35:42.000]  direct rip off.
+[1:35:42.000 --> 1:35:44.000]  So good idea.
+[1:35:44.000 --> 1:35:49.000]  You know, it kind of deserves to be part of Xcode, I don't know what to say.
+[1:35:49.000 --> 1:35:52.000]  You know, sure locking is a double-edged sword, right?
+[1:35:52.000 --> 1:35:54.000]  Yeah, especially if you're doing developer tools.
+[1:35:54.000 --> 1:35:55.000]  Yes.
+[1:35:55.000 --> 1:36:02.000]  It's, you know, did you ever listen to the episode of Brent and Chris's, the record with John
+[1:36:02.000 --> 1:36:03.000]  Chaffee?
+[1:36:03.000 --> 1:36:04.000]  Yes, I did.
+[1:36:04.000 --> 1:36:08.000]  So Brent Simmons and your colleague at the age of 10 to Silt, Chris Paris have a podcast,
+[1:36:08.000 --> 1:36:15.000]  the record where they're talking to, you know, longstanding members of the indie Mac development
+[1:36:15.000 --> 1:36:16.000]  community.
+[1:36:16.000 --> 1:36:19.000]  John Chaffee of Busy Mac now.
+[1:36:19.000 --> 1:36:24.000]  You know, the great Busy Hulk and they're doing what's the new one that's coming out soon.
+[1:36:24.000 --> 1:36:28.000]  Busy contacts, is that what it's called?
+[1:36:28.000 --> 1:36:33.000]  And he talked about when he was an extensive, which used to make plugins.
+[1:36:33.000 --> 1:36:34.000]  Yeah.
+[1:36:34.000 --> 1:36:36.000]  And they made plugins for like Quirk Express and Photoshop.
+[1:36:36.000 --> 1:36:37.000]  Okay.
+[1:36:37.000 --> 1:36:42.000]  And I remember when I was doing like practically or even not even practically, like literally
+[1:36:42.000 --> 1:36:47.000]  full-time work doing graphic design layout and Quirk Express, there were some extensive
+[1:36:47.000 --> 1:36:53.000]  plugins that were essential, you know, that I don't use that word like that.
+[1:36:53.000 --> 1:36:55.000]  Once you had them, you just could not go back.
+[1:36:55.000 --> 1:37:01.000]  But his, you know, he said like we knew that our best extensions that Adobe and Quirk
+[1:37:01.000 --> 1:37:04.000]  were going to see that and they were going to see, well, you know, if everybody's using it,
+[1:37:04.000 --> 1:37:08.000]  that should be part of Photoshop or that should be part of Quirk Express.
+[1:37:08.000 --> 1:37:13.000]  And so he said it was like, you know, you had to stay ahead of them because we needed
+[1:37:13.000 --> 1:37:18.000]  hits, but once we had to hit, we knew that that hit was very likely going to be rolled into
+[1:37:18.000 --> 1:37:21.000]  the next version and that we weren't going to get a heads up about it.
+[1:37:21.000 --> 1:37:22.000]  Right.
+[1:37:22.000 --> 1:37:23.000]  Yeah.
+[1:37:23.000 --> 1:37:24.000]  That was a great show.
+[1:37:24.000 --> 1:37:25.000]  Great interview.
+[1:37:25.000 --> 1:37:26.000]  Yeah.
+[1:37:26.000 --> 1:37:29.000]  That's an especially insightful point because it's kind of funny because once you see the
+[1:37:29.000 --> 1:37:32.000]  number spike on a certain plugin, you're like, well, I once did.
+[1:37:32.000 --> 1:37:33.000]  Yeah.
+[1:37:33.000 --> 1:37:34.000]  Yeah.
+[1:37:34.000 --> 1:37:38.000]  Which is, you know, and I hate to say it, but the same is true for developer tools.
+[1:37:38.000 --> 1:37:39.000]  Yeah.
+[1:37:39.000 --> 1:37:45.000]  And it's, you know, it's been evident ever since again, to go back to the next reunification
+[1:37:45.000 --> 1:37:52.000]  that Apple is very, very serious about providing the definitive developer tool, you know,
+[1:37:52.000 --> 1:37:53.000]  for their platform.
+[1:37:53.000 --> 1:37:54.000]  Oh, yeah.
+[1:37:54.000 --> 1:37:55.000]  Definitely.
+[1:37:55.000 --> 1:37:56.000]  Yeah.
+[1:37:56.000 --> 1:38:00.000]  Like when they showed off Xcode for the first time, very clear indication that Code Warrior
+[1:38:00.000 --> 1:38:03.000]  was going to be persona non cut at pretty soon.
+[1:38:03.000 --> 1:38:04.000]  Yeah.
+[1:38:04.000 --> 1:38:09.000]  But they were going to do it, you know, they saw it as a strategic of strategic importance
+[1:38:09.000 --> 1:38:12.000]  to get all the members using the first party platform.
+[1:38:12.000 --> 1:38:13.000]  Yeah.
+[1:38:13.000 --> 1:38:14.000]  And it really is.
+[1:38:14.000 --> 1:38:20.000]  I mean, next, like, so the objective, well, Coco, the frameworks and the developer tools,
+[1:38:20.000 --> 1:38:25.000]  a particular interface builder, we're pretty much the crown jewels of next.
+[1:38:25.000 --> 1:38:30.000]  And they've taken that and they've sort of kept that as much as I can play in professionally
+[1:38:30.000 --> 1:38:33.000]  about Xcode or whatever going on.
+[1:38:33.000 --> 1:38:35.000]  They do take it very seriously.
+[1:38:35.000 --> 1:38:40.000]  I say this as a guy who still uses on a daily basis BB at it and loves BB at it and wants
+[1:38:40.000 --> 1:38:42.000]  bare bones to continue to thrive.
+[1:38:42.000 --> 1:38:48.000]  But there used to be like in the code warrior days really solid support for external
+[1:38:48.000 --> 1:38:53.000]  editors and that you could use BB at it as your editor for code warrior development.
+[1:38:53.000 --> 1:38:58.000]  And you miss a few things, but you gain things, you know, the things that are in BB at it,
+[1:38:58.000 --> 1:39:00.000]  they weren't in their editor.
+[1:39:00.000 --> 1:39:02.000]  And Xcode, does it still support Xcode?
+[1:39:02.000 --> 1:39:06.000]  Do you know what I'm looking right now at one point it did, but.
+[1:39:06.000 --> 1:39:09.000]  I did for a long time, but not in a robust way.
+[1:39:09.000 --> 1:39:10.000]  No.
+[1:39:10.000 --> 1:39:14.000]  And whenever you'd file, if you could get, if you could get the year of somebody on the
+[1:39:14.000 --> 1:39:20.000]  team or file a radar and get a response, and you'd ask for better external editor support
+[1:39:20.000 --> 1:39:22.000]  because I want to use BB at it.
+[1:39:22.000 --> 1:39:25.000]  And the answer would be, what would you, what features in BB at it?
+[1:39:25.000 --> 1:39:29.000]  Do you want us to add Xcode, which is sort of not what you want to hear if you're working
+[1:39:29.000 --> 1:39:33.000]  at bare phone, or if you're a legal, or even if you're a user who wants bare bones
+[1:39:33.000 --> 1:39:37.000]  to thrive so that you still have, you know, you know, the BB at it does well.
+[1:39:37.000 --> 1:39:40.000]  But, you know, I understand why.
+[1:39:40.000 --> 1:39:41.000]  Right.
+[1:39:41.000 --> 1:39:42.000]  I do understand why.
+[1:39:42.000 --> 1:39:46.000]  That if there's good features like that, that they want them in these free developer
+[1:39:46.000 --> 1:39:51.000]  tools that all developers can have and take advantage of and not have to do that.
+[1:39:51.000 --> 1:39:52.000]  Yeah.
+[1:39:52.000 --> 1:39:53.000]  But it does hurt.
+[1:39:53.000 --> 1:39:55.000]  And, you know, that's off to the reveal people.
+[1:39:55.000 --> 1:39:56.000]  Yeah, exactly.
+[1:39:56.000 --> 1:40:00.000]  I just gave up and I started using defaults and pretty much everything on a lot of time.
+[1:40:00.000 --> 1:40:04.000]  Like, I don't like, it used to be that it changed all my, my text colors for my,
+[1:40:04.000 --> 1:40:07.000]  yeah, I'm just like, I've given up.
+[1:40:07.000 --> 1:40:08.000]  I'm resigned.
+[1:40:08.000 --> 1:40:09.000]  I'm like, just give me the defaults.
+[1:40:09.000 --> 1:40:10.000]  I'll work with that.
+[1:40:10.000 --> 1:40:14.000]  Just at least when I go to somebody else's Mac, the odds are that they've also given up
+[1:40:14.000 --> 1:40:17.000]  and we're helping out and doing everything the exact same thing.
+[1:40:17.000 --> 1:40:22.000]  You know, when you do give up like that and it's, you know, then you get a new computer,
+[1:40:22.000 --> 1:40:27.000]  there's a huge advantage to think, hey, I used to spend three days when I got a new computer getting
+[1:40:27.000 --> 1:40:28.000]  everything set up the way I want it.
+[1:40:28.000 --> 1:40:33.000]  And now I just log in with three things and install Dropbox and I'm.
+[1:40:33.000 --> 1:40:37.000]  Yeah, the one thing I do is I speed up the mouse a little bit and I make the keyboard
+[1:40:37.000 --> 1:40:40.000]  so that it's not glacial speed.
+[1:40:40.000 --> 1:40:43.000]  I don't know why they default the keyboard to be that slow.
+[1:40:43.000 --> 1:40:47.000]  Oh, like when you repeat the repeat key stuff, which doesn't matter that much anymore because
+[1:40:47.000 --> 1:40:52.000]  they've kind of nerfed at, but the, yeah, because half the time, you know, if you hit like the E key,
+[1:40:52.000 --> 1:40:58.000]  it gives you the iOS style pop up for your little Frenchy things they put over there.
+[1:40:58.000 --> 1:41:03.000]  Yeah, but for me, it's normally like I just type something I hate and I just hold down delete.
+[1:41:03.000 --> 1:41:05.000]  And when it takes like half a second.
+[1:41:05.000 --> 1:41:06.000]  Oh, yeah, delete.
+[1:41:06.000 --> 1:41:07.000]  Yeah, delete would be the one.
+[1:41:07.000 --> 1:41:09.000]  Or if you want to add a bunch of returns, but I can see how delete.
+[1:41:09.000 --> 1:41:10.000]  Yeah.
+[1:41:10.000 --> 1:41:12.000]  Yeah, I definitely changed some of those.
+[1:41:12.000 --> 1:41:13.000]  Yeah.
+[1:41:13.000 --> 1:41:15.000]  What else happened?
+[1:41:15.000 --> 1:41:17.000]  So I was joking.
+[1:41:17.000 --> 1:41:21.000]  So Mark up kind of Sherlock's us a little bit Sherlock's napkin.
+[1:41:21.000 --> 1:41:24.000]  Um, and I was joking.
+[1:41:24.000 --> 1:41:29.000]  Last week saying that I would rather have it just be everywhere in this system
+[1:41:29.000 --> 1:41:31.000]  because that's a cool feature.
+[1:41:31.000 --> 1:41:32.000]  And it is a cool feature.
+[1:41:32.000 --> 1:41:33.000]  And guess what?
+[1:41:33.000 --> 1:41:35.000]  It's everywhere in the system.
+[1:41:35.000 --> 1:41:40.000]  Turns out that Mark up the one that the demo didn't mail is an extension.
+[1:41:40.000 --> 1:41:44.000]  Yeah, I knew I figured that out and I didn't want to tell you.
+[1:41:44.000 --> 1:41:46.000]  I don't know.
+[1:41:46.000 --> 1:41:48.000]  You didn't want to hurt my feelings.
+[1:41:48.000 --> 1:41:49.000]  Yeah.
+[1:41:49.000 --> 1:41:50.000]  Well, I didn't want to.
+[1:41:50.000 --> 1:41:52.000]  I figured it'd be better if you figured it out.
+[1:41:52.000 --> 1:41:53.000]  Yeah.
+[1:41:53.000 --> 1:41:54.000]  So I didn't know.
+[1:41:54.000 --> 1:41:55.000]  But that's cool.
+[1:41:55.000 --> 1:41:56.000]  That's really cool.
+[1:41:56.000 --> 1:42:00.000]  So in any app now, you can just get, well, in sort of something text added in mail.
+[1:42:00.000 --> 1:42:06.000]  So any text view on the system, you can edit an image in Mark up.
+[1:42:06.000 --> 1:42:07.000]  Was I calling it Mark down?
+[1:42:07.000 --> 1:42:08.000]  Whatever.
+[1:42:08.000 --> 1:42:09.000]  Mark up.
+[1:42:09.000 --> 1:42:11.000]  No, it's Mark up.
+[1:42:11.000 --> 1:42:17.000]  Or any other image, editing, capable extension on the system.
+[1:42:17.000 --> 1:42:18.000]  I love that idea.
+[1:42:18.000 --> 1:42:21.000]  I've always loved the idea of services that came from next.
+[1:42:21.000 --> 1:42:23.000]  They get super underused.
+[1:42:23.000 --> 1:42:27.000]  But hopefully with this new extensions mechanism,
+[1:42:27.000 --> 1:42:30.000]  that's going to sort of breathe new life into that idea.
+[1:42:30.000 --> 1:42:31.000]  Yeah.
+[1:42:31.000 --> 1:42:34.000]  It's a good, you know, and napkin getting Sherlock to stop.
+[1:42:34.000 --> 1:42:35.000]  Yeah.
+[1:42:35.000 --> 1:42:36.000]  It's got to be fine.
+[1:42:36.000 --> 1:42:38.000]  You're big boys.
+[1:42:38.000 --> 1:42:39.000]  But you're right.
+[1:42:39.000 --> 1:42:45.000]  It is more elegant to know that it's a feature that's implemented on the new extension mechanism,
+[1:42:45.000 --> 1:42:47.000]  and not hard-coded into mail.
+[1:42:47.000 --> 1:42:48.000]  Right.
+[1:42:48.000 --> 1:42:51.000]  It's not that the mail dot app team went in and made this feature.
+[1:42:51.000 --> 1:42:53.000]  It's a system level thing.
+[1:42:53.000 --> 1:42:56.000]  And I think you're exactly right that it's the second coming of services.
+[1:42:56.000 --> 1:43:00.000]  Because services, the things you see in the, you know, you go up to the application name
+[1:43:00.000 --> 1:43:04.000]  and go down to services, and you see this, or they put it in the control,
+[1:43:04.000 --> 1:43:07.000]  the right-click menu a couple years ago.
+[1:43:07.000 --> 1:43:09.000]  Powerful. I use them all the time.
+[1:43:09.000 --> 1:43:12.000]  But largely unchanged from the next days.
+[1:43:12.000 --> 1:43:13.000]  Very much so.
+[1:43:13.000 --> 1:43:18.000]  Yeah. In fact, I don't think, you know, maybe it takes one API change since then.
+[1:43:18.000 --> 1:43:21.000]  Like, yeah, you take an, you know, what type of data I'll take text.
+[1:43:21.000 --> 1:43:23.000]  I'll take files.
+[1:43:23.000 --> 1:43:24.000]  I only want here.
+[1:43:24.000 --> 1:43:25.000]  I'm a service.
+[1:43:25.000 --> 1:43:26.000]  I only want images.
+[1:43:26.000 --> 1:43:28.000]  If it's an image, I'm available.
+[1:43:28.000 --> 1:43:29.000]  Otherwise not.
+[1:43:29.000 --> 1:43:33.000]  And then you return the same, you return something optional.
+[1:43:33.000 --> 1:43:38.000]  So it works, it works super, basically.
+[1:43:38.000 --> 1:43:41.000]  You, you have an app, you, you, um, offer to provide a service in your app bundle,
+[1:43:41.000 --> 1:43:43.000]  the appeal list.
+[1:43:43.000 --> 1:43:47.000]  Um, and what happens is when you get fired up.
+[1:43:47.000 --> 1:43:50.000]  So when the user selects something and then chooses your service,
+[1:43:50.000 --> 1:43:53.000]  it copies it onto a special page board.
+[1:43:53.000 --> 1:43:54.000]  Right.
+[1:43:54.000 --> 1:43:57.000]  And then in your app, when you launch, you just look at that page board
+[1:43:57.000 --> 1:44:00.000]  and do something with it and then put it back on the page board and say that you're
+[1:44:00.000 --> 1:44:03.000]  done and the other, the app that's sent it to you gets the changes.
+[1:44:03.000 --> 1:44:07.000]  It's the most simple system you could think of, right?
+[1:44:07.000 --> 1:44:09.000]  Like, come on, I'm just going to put it on the page board.
+[1:44:09.000 --> 1:44:12.000]  You don't blow away the one that the, the, the user one, the copy paste one,
+[1:44:12.000 --> 1:44:13.000]  you just use another one.
+[1:44:13.000 --> 1:44:17.000]  It's simple and elegant, but it's simplicity and elegance almost shows that
+[1:44:17.000 --> 1:44:20.000]  it dates from like 1989 or 1999.
+[1:44:20.000 --> 1:44:23.000]  Computers needed, it had to be so lightweight because there wasn't
+[1:44:23.000 --> 1:44:27.000]  all that much disk space or memory or CPU time.
+[1:44:27.000 --> 1:44:30.000]  Precisely. They're very, very thin.
+[1:44:30.000 --> 1:44:33.000]  You know, they're elegant and powerful, but they're thin.
+[1:44:33.000 --> 1:44:41.000]  Whereas this new extension system is in 1990 or 91, it would have been
+[1:44:41.000 --> 1:44:42.000]  way too heavy.
+[1:44:42.000 --> 1:44:43.000]  It would have been too much.
+[1:44:43.000 --> 1:44:48.000]  It's too CPU intensive and takes too much memory.
+[1:44:48.000 --> 1:44:53.000]  It does bring back the, the, the heady days of 90s, sort of open dock stuff.
+[1:44:53.000 --> 1:44:54.000]  Yeah.
+[1:44:54.000 --> 1:44:55.000]  Exactly.
+[1:44:55.000 --> 1:44:59.000]  I thought the same thing that, you know, hey, why do I have to keep going
+[1:44:59.000 --> 1:45:03.000]  between different apps if I just want to take advantage of this app's
+[1:45:03.000 --> 1:45:04.000]  thing right here?
+[1:45:04.000 --> 1:45:05.000]  Like, I just want to tweet this.
+[1:45:05.000 --> 1:45:07.000]  Here's a URL.
+[1:45:07.000 --> 1:45:08.000]  I just want to tweet it out.
+[1:45:08.000 --> 1:45:12.000]  Why do I have to copy and paste it and then switch to another Twitter app
+[1:45:12.000 --> 1:45:16.000]  and then hit command and, and open a tweet and do this thing.
+[1:45:16.000 --> 1:45:18.000]  And then switch back to go to where I was.
+[1:45:18.000 --> 1:45:20.000]  It's exactly that.
+[1:45:20.000 --> 1:45:23.000]  It's sort of like that, the idea of open dock where you just,
+[1:45:23.000 --> 1:45:26.000]  here, just go to share, hit Twitter.
+[1:45:26.000 --> 1:45:30.000]  And a little view will open right here where you are.
+[1:45:30.000 --> 1:45:35.000]  But, you know, with this new safety thing where it's not actually
+[1:45:35.000 --> 1:45:37.000]  injecting any code into your process.
+[1:45:37.000 --> 1:45:38.000]  Which was kind of a problem.
+[1:45:38.000 --> 1:45:39.000]  It opened.
+[1:45:39.000 --> 1:45:40.000]  Well, there's a lot of problems with open dock.
+[1:45:40.000 --> 1:45:43.000]  Well, in open dock had problems, I think conceptually.
+[1:45:43.000 --> 1:45:47.000]  Where they, they lost, I think they lost the wheel by basing it on
+[1:45:47.000 --> 1:45:48.000]  documents, right?
+[1:45:48.000 --> 1:45:50.000]  The fundamental thing was a document instead of an app.
+[1:45:50.000 --> 1:45:53.000]  Yeah, I don't know.
+[1:45:53.000 --> 1:45:55.000]  Well, I think that they got caught up with what people were doing with computers
+[1:45:55.000 --> 1:45:57.000]  in the 90s, where everybody was making documents.
+[1:45:57.000 --> 1:46:00.000]  You know, it's new Excel files and new Word documents.
+[1:46:00.000 --> 1:46:02.000]  And Clara's works documents.
+[1:46:02.000 --> 1:46:05.000]  And everybody was doing documents and emailing documents.
+[1:46:05.000 --> 1:46:07.000]  And so they thought, well, why don't we make documents the first class?
+[1:46:07.000 --> 1:46:10.000]  So it only made sense in the 90s, I think.
+[1:46:10.000 --> 1:46:15.000]  I think, I think long term, the app is the fundamental metaphor in a system
+[1:46:15.000 --> 1:46:16.000]  is great.
+[1:46:16.000 --> 1:46:18.000]  I don't necessarily think that's true.
+[1:46:18.000 --> 1:46:21.000]  So let me back up.
+[1:46:21.000 --> 1:46:30.000]  That is an arguably true in our timeline to simplify it.
+[1:46:30.000 --> 1:46:34.000]  I think if computers had started with documents being the first class item,
+[1:46:34.000 --> 1:46:37.000]  like from day one, you were always working in a document.
+[1:46:37.000 --> 1:46:41.000]  So rather than a command prompt on your Apple II, where you'd run a program,
+[1:46:41.000 --> 1:46:47.000]  you had some kind of worksheet that, as you typed, stuff would happen to the worksheet.
+[1:46:47.000 --> 1:46:49.000]  Do you know what I mean?
+[1:46:49.000 --> 1:46:54.000]  I think you can grow an interesting computer platform based entirely about documents.
+[1:46:54.000 --> 1:46:55.000]  However.
+[1:46:55.000 --> 1:46:56.000]  But nobody's nobody's doing now.
+[1:46:56.000 --> 1:46:59.000]  And it was by the nine years of way too late to put the genie back in the bottle and rebooted.
+[1:46:59.000 --> 1:47:00.000]  Yeah.
+[1:47:00.000 --> 1:47:01.000]  And nobody pulled it off.
+[1:47:01.000 --> 1:47:02.000]  No, no, no.
+[1:47:02.000 --> 1:47:03.000]  Definitely not.
+[1:47:03.000 --> 1:47:07.000]  But it is that, you know, and the, man, I remember I had a job.
+[1:47:07.000 --> 1:47:14.000]  This is back when I was thought I was going to be a programmer, a college internship.
+[1:47:14.000 --> 1:47:19.000]  I think it was my third one. It was at a Windows software developer here that did project management.
+[1:47:19.000 --> 1:47:22.000]  I had to read the open doc spec.
+[1:47:22.000 --> 1:47:23.000]  Oh, God.
+[1:47:23.000 --> 1:47:24.000]  I'm sorry.
+[1:47:24.000 --> 1:47:26.000]  Because I wanted to know if they should do it.
+[1:47:26.000 --> 1:47:28.000]  And they were already going to do object linking and embedding.
+[1:47:28.000 --> 1:47:32.000]  And I had to read the open doc spec and actually like try to understand it.
+[1:47:32.000 --> 1:47:36.000]  And it was, it made me want to jump out a window.
+[1:47:36.000 --> 1:47:37.000]  Yeah, it's crazy.
+[1:47:37.000 --> 1:47:40.000]  It was so hard to get your head wrapped around.
+[1:47:40.000 --> 1:47:45.000]  Whereas, you know, even as an outsider, you know, not a sitting there in Xcode writing code,
+[1:47:45.000 --> 1:47:49.000]  it's like I can watch the extensions.
+[1:47:49.000 --> 1:47:52.000]  You know, WWDC sessions and read the high levels docs.
+[1:47:52.000 --> 1:47:53.000]  And I get it.
+[1:47:53.000 --> 1:47:56.000]  I see exactly, you know, all right, you just put it in a little bundle and
+[1:47:56.000 --> 1:47:59.000]  a little rectangle will open up and you're drawing in that rectangle.
+[1:47:59.000 --> 1:48:00.000]  Yeah, it's, it's terrific.
+[1:48:00.000 --> 1:48:03.000]  That institute editing is, is brilliant.
+[1:48:03.000 --> 1:48:04.000]  And I hope a lot of people adopt it.
+[1:48:04.000 --> 1:48:05.000]  And I really do.
+[1:48:05.000 --> 1:48:06.000]  Yeah.
+[1:48:06.000 --> 1:48:07.000]  Well, and the other thing too.
+[1:48:07.000 --> 1:48:10.000]  I think, see, I think it's great, because I think it's a very good conceptual
+[1:48:10.000 --> 1:48:11.000]  model for developers.
+[1:48:11.000 --> 1:48:12.000]  Yeah.
+[1:48:12.000 --> 1:48:13.000]  And developers will get it.
+[1:48:13.000 --> 1:48:14.000]  I think it's really, really easy.
+[1:48:14.000 --> 1:48:16.000]  It's almost like, well, why not do it?
+[1:48:16.000 --> 1:48:19.000]  It's a sort of thing you can, you know, you're working on a big complicated app.
+[1:48:19.000 --> 1:48:21.000]  You can take, you need a break.
+[1:48:21.000 --> 1:48:23.000]  You can work on a little sharing extension.
+[1:48:23.000 --> 1:48:24.000]  Yeah.
+[1:48:24.000 --> 1:48:26.000]  It's a nice little side project.
+[1:48:26.000 --> 1:48:30.000]  Like the way Martin Scorsese always likes to, after he directs a major motion picture,
+[1:48:30.000 --> 1:48:33.000]  he often afterwards directs like a commercial.
+[1:48:33.000 --> 1:48:36.000]  Often for like companies in Europe and stuff like that.
+[1:48:36.000 --> 1:48:37.000]  Because it's like a nice break.
+[1:48:37.000 --> 1:48:38.000]  Yeah.
+[1:48:38.000 --> 1:48:41.000]  Just go from a three hour, you know, woeful Wall Street.
+[1:48:41.000 --> 1:48:43.000]  Now, now we just want to do a 30 seconds.
+[1:48:43.000 --> 1:48:45.000]  That's just a survey between courses.
+[1:48:45.000 --> 1:48:46.000]  Yeah.
+[1:48:46.000 --> 1:48:51.000]  But I also think it's going to be huge for users because there's so much more
+[1:48:51.000 --> 1:48:52.000]  exposed.
+[1:48:52.000 --> 1:48:54.000]  I don't know what I really hope so.
+[1:48:54.000 --> 1:48:59.000]  I don't know what the percentage of Mac users have ever used a services menu item is,
+[1:48:59.000 --> 1:49:01.000]  but I'll bet it's in the single digits.
+[1:49:01.000 --> 1:49:02.000]  I bet.
+[1:49:02.000 --> 1:49:04.000]  Even once, let alone use them on a regular basis.
+[1:49:04.000 --> 1:49:07.000]  Where is that sharing button, which they know from their iPhones?
+[1:49:07.000 --> 1:49:08.000]  Yeah.
+[1:49:08.000 --> 1:49:10.000]  Boy, I think that's, I think they're already using it.
+[1:49:10.000 --> 1:49:15.000]  And I think that now that they can do more, I think that, I think they, it's really
+[1:49:15.000 --> 1:49:16.000]  nicely exposed in my opinion.
+[1:49:16.000 --> 1:49:17.000]  Yeah.
+[1:49:17.000 --> 1:49:18.000]  In my opinion.
+[1:49:18.000 --> 1:49:19.000]  I think so too.
+[1:49:19.000 --> 1:49:20.000]  Hopefully it takes off.
+[1:49:20.000 --> 1:49:21.000]  Yeah.
+[1:49:21.000 --> 1:49:22.000]  I think it's going to be a big deal.
+[1:49:22.000 --> 1:49:24.000]  I'd be less thrilled if they can't connect sales.
+[1:49:24.000 --> 1:49:27.000]  But other than that, I think it's a terrific idea.
+[1:49:27.000 --> 1:49:32.000]  And there's, there's equal exposure on iOS, right?
+[1:49:32.000 --> 1:49:37.000]  You can have photo editing extensions on iOS, which I think is going to be huge.
+[1:49:37.000 --> 1:49:38.000]  Yeah.
+[1:49:38.000 --> 1:49:39.000]  I think so too.
+[1:49:39.000 --> 1:49:43.000]  Like the first, the first person that writes a golf filter is going to get bought immediately
+[1:49:43.000 --> 1:49:44.000]  by Pinterest.
+[1:49:44.000 --> 1:49:45.000]  Yeah.
+[1:49:45.000 --> 1:49:50.000]  It's the easiest acquisition strategy.
+[1:49:50.000 --> 1:49:53.000]  It's like an immediate billion dollar payout for Pinterest.
+[1:49:53.000 --> 1:49:57.000]  Just put it, put it right in the Michael Lops.
+[1:49:57.000 --> 1:49:58.000]  Camera app.
+[1:49:58.000 --> 1:49:59.000]  All right.
+[1:49:59.000 --> 1:50:00.000]  I got to get going.
+[1:50:00.000 --> 1:50:01.000]  I got to go to there.
+[1:50:01.000 --> 1:50:02.000]  Okay.
+[1:50:02.000 --> 1:50:03.000]  It's been fun, man.
+[1:50:03.000 --> 1:50:04.000]  Yeah.
+[1:50:04.000 --> 1:50:05.000]  Guy English.
+[1:50:05.000 --> 1:50:10.000]  You guys can find Guy on the Twitter's at GTE.
+[1:50:10.000 --> 1:50:11.000]  I don't even know.
+[1:50:11.000 --> 1:50:12.000]  GTE.
+[1:50:12.000 --> 1:50:13.000]  Yeah.
+[1:50:13.000 --> 1:50:14.000]  Three.
+[1:50:14.000 --> 1:50:19.000]  You get all the space you'll have left for text because you only have to use.
+[1:50:19.000 --> 1:50:21.000]  It used to be at kicking bear.
+[1:50:21.000 --> 1:50:24.000]  And I pulled a whammy and I got it down to three letters.
+[1:50:24.000 --> 1:50:25.000]  Yeah.
+[1:50:25.000 --> 1:50:27.000]  Well, remember I've registered at Guy English for you.
+[1:50:27.000 --> 1:50:28.000]  You did.
+[1:50:28.000 --> 1:50:29.000]  Yeah.
+[1:50:29.000 --> 1:50:33.000]  I didn't, I did not post a single appropriate thing to it.
+[1:50:33.000 --> 1:50:34.000]  Kind of shoot it.
+[1:50:34.000 --> 1:50:35.000]  I don't know.
+[1:50:35.000 --> 1:50:37.000]  I think I've got the password somewhere.
+[1:50:37.000 --> 1:50:38.000]  I think I took it over at some point.
+[1:50:38.000 --> 1:50:39.000]  But yeah.
+[1:50:39.000 --> 1:50:40.000]  Anyway.
+[1:50:40.000 --> 1:50:41.000]  Yeah.
+[1:50:41.000 --> 1:50:42.000]  I did that at the chief.
+[1:50:42.000 --> 1:50:43.000]  That's a chief in here.
+[1:50:43.000 --> 1:50:44.000]  It's very, very handy.
+[1:50:44.000 --> 1:50:45.000]  Very handy.
+[1:50:45.000 --> 1:50:46.000]  And handed it over to you.
+[1:50:46.000 --> 1:50:49.000]  Like the friend that I had.
+[1:50:49.000 --> 1:50:52.000]  Kickingbear.com, you write once in a while.
+[1:50:52.000 --> 1:50:57.000]  But then the big thing is debug with you and Renee Ritchie.
+[1:50:57.000 --> 1:50:58.000]  Yeah.
+[1:50:58.000 --> 1:51:03.000]  You know, nerd listeners out there may enjoy debug.
+[1:51:03.000 --> 1:51:06.000]  If only because man, we've had some great guests.
+[1:51:06.000 --> 1:51:07.000]  Weird.
+[1:51:07.000 --> 1:51:14.000]  All of us are enjoying an incredible blossoming of cool nerd podcasts.
+[1:51:14.000 --> 1:51:15.000]  Yeah.
+[1:51:15.000 --> 1:51:18.000]  But not just because you're my guest on the show.
+[1:51:18.000 --> 1:51:21.000]  Debug is really been one of my favorites.
+[1:51:21.000 --> 1:51:23.000]  And especially recently, you guys are killing it.
+[1:51:23.000 --> 1:51:24.000]  Thanks, man.
+[1:51:24.000 --> 1:51:28.000]  Normally, I do mirror from that kind of stuff, but our guests are,
+[1:51:28.000 --> 1:51:29.000]  I don't know.
+[1:51:29.000 --> 1:51:30.000]  We've got some great guests.
+[1:51:30.000 --> 1:51:31.000]  Yeah.
+[1:51:31.000 --> 1:51:34.000]  That's the coolest thing about doing a podcast is you can just put it
+[1:51:34.000 --> 1:51:36.000]  all in the guests and be proud of it.
+[1:51:36.000 --> 1:51:37.000]  Yeah.
+[1:51:37.000 --> 1:51:38.000]  Anyway.
+[1:51:38.000 --> 1:51:39.000]  That was the best way to find it.
+[1:51:39.000 --> 1:51:40.000]  It's over at imore.
+[1:51:40.000 --> 1:51:42.000]  imore.com slash debug.
+[1:51:42.000 --> 1:51:43.000]  Oh.
+[1:51:43.000 --> 1:51:44.000]  Just got to go to iTunes.
+[1:51:44.000 --> 1:51:47.000]  Oh, you got to just got a nice little tweet from Sean Dewey,
+[1:51:47.000 --> 1:51:48.000]  I guess.
+[1:51:48.000 --> 1:51:49.000]  Oh, that guy.
+[1:51:49.000 --> 1:51:50.000]  I got to get him on.
+[1:51:50.000 --> 1:51:52.000]  Yeah, you got to stop.
+[1:51:52.000 --> 1:51:53.000]  Yeah.
+[1:51:53.000 --> 1:51:54.000]  You got to step it up.
+[1:51:54.000 --> 1:51:55.000]  You guessed, I think.
+[1:51:55.000 --> 1:52:18.000]  If it's not most, it's garbage.

@@ -1,0 +1,1386 @@
+[00:00.000 --> 00:02.800]  This is going to be an interesting conversation.
+[00:02.800 --> 00:07.600]  Yeah, because we're just totally freaking gassing about everything.
+[00:07.600 --> 00:14.720]  I, you know, it's funny. I'm not totally guessing it's it is it is easily maybe the
+[00:14.720 --> 00:20.800]  the thing I wrote about iPhone screen sizes is maybe the most John Gruberian thing I've ever written
+[00:20.800 --> 00:26.640]  like it's not totally out of the blue, but it's absolutely positively not informed by a
+[00:26.640 --> 00:38.000]  single person who's actually seen or touched a new iPhone. Right. But, but, but I have talked to
+[00:38.000 --> 00:41.840]  some people who claim to have talked to people who've seen or touched new iPhone. Right.
+[00:42.800 --> 00:51.200]  So it's it's not, you know, the big one the big one and the one that I'm we can I don't know
+[00:51.200 --> 00:55.840]  I think we'll do a good job of trying to explain this thing some of these things to everybody,
+[00:55.840 --> 01:05.760]  but the one that to me is weird is this idea of a 750 by 1334 iPhone because if that's the pixel
+[01:05.760 --> 01:16.080]  count, you divide by two to get the points and it they're both odd numbers 375 by 667. Yeah. And
+[01:16.080 --> 01:22.240]  and that's a little weird. Not quite as weird as a phone that had odd pixels, but
+[01:22.240 --> 01:31.280]  odd points is a little bit weird. Well, it's the one that you're thinking for the the 4.7 inch
+[01:31.280 --> 01:36.400]  display, you know, that's their one. Yeah, 1334 by 750. That's just
+[01:41.440 --> 01:48.160]  I'm sorry. Well, you know, for people who are out there and probably not, we're going,
+[01:48.160 --> 01:53.920]  well, what was the matter odd numbers even numbers all programming is like binary. Right.
+[01:54.640 --> 02:02.080]  It's powers of two on and off. You know, everything is nicely, you know, you can do a division
+[02:02.080 --> 02:08.800]  by two by just shifting a binary digit, you know, one place to the right. Everything is just kind
+[02:08.800 --> 02:16.880]  of really nice when it's, you know, some fact, some power of two. We're talking about a three.
+[02:16.880 --> 02:23.360]  It's like, oh, and it's just, in some ways, it's a little arbitrary. I mean, the factor of two,
+[02:23.360 --> 02:28.720]  the factors of two is our magic numbers. I've been talking to Jonas about that and he's actually
+[02:28.720 --> 02:34.080]  gotten that down with the Minecraft playing because everything in Minecraft is so pixelate that
+[02:34.080 --> 02:39.760]  8 and 16 and 32 are numbers that keep coming up in Minecraft. And I sort of, it was an interesting
+[02:39.760 --> 02:43.360]  conversation, but I was like, you know, you're going to find out as you, you know, get more and
+[02:43.360 --> 02:47.920]  more in the video games and stuff that those are those powers of two when you keep doubling
+[02:47.920 --> 02:55.120]  our magic numbers. But even so, even just avoiding the powers of two thing, it's just a little
+[02:55.120 --> 02:59.920]  weird because you can always split a screen in half and have two equal halves. But if you have an
+[02:59.920 --> 03:05.520]  odd number, now you can't. Right. Right. And that really is the root of the problem. Right. It's
+[03:05.520 --> 03:11.600]  like, and how do you center something at that point? Right. It's, you know, what's half of 667?
+[03:11.600 --> 03:17.040]  And, you know, what do you do with that extra 0.5 of a pixel? Right. You know,
+[03:17.040 --> 03:23.680]  I don't know. And it's, you know, or not 0.5 of a pixel is 0.5 of a point. All right. And, you know,
+[03:23.680 --> 03:29.440]  it's a little bit arbitrary because if you have an even number of points, you can always center
+[03:29.440 --> 03:34.720]  an even sized object, but you couldn't center an odd side to object. Now it's the other way
+[03:34.720 --> 03:39.200]  around. Now you can take an odd sized object and put that odd pixel right in the middle of the
+[03:39.200 --> 03:45.280]  screen. So it's, you know, but it, we're used to making things even, even sized widths.
+[03:46.000 --> 03:54.240]  Yeah. Well, to me, if this, if this goes down, like, we think it's going to go down,
+[03:54.240 --> 04:01.440]  it's really the end of thinking about pixels. Yes. And that's really, that's really the takeaway.
+[04:01.440 --> 04:07.680]  The, and you kind of see it in the, if you read between the lines, you always get a read
+[04:07.680 --> 04:12.720]  between the lines between, uh, with W W C presentations, right? Because they're, they're
+[04:12.720 --> 04:16.000]  telling you stuff that's going to happen in the fall, but they can't say it's going to happen
+[04:16.000 --> 04:21.760]  in the fall. Yeah. And that's all this thing about, you know, compact versus regular,
+[04:21.760 --> 04:32.160]  you know, uh, what's the, what's the, it's, uh, not traits. It's, uh, this, it's, it's,
+[04:32.160 --> 04:37.920]  it's layouts. Yeah, the display class display class display class. That's what it is. Um,
+[04:38.960 --> 04:42.160]  they're basically saying, you know, it's, you know, sometimes you're going to display on a
+[04:42.160 --> 04:46.720]  larger disk screen. Sometimes you're going to display on a more compact screen. All right,
+[04:46.720 --> 04:49.920]  and you're going to, you're going to create layouts for those few different scenarios. Now,
+[04:49.920 --> 04:57.920]  what are the number of points in those two? Well, you've got the iPad and the iPhone five,
+[04:57.920 --> 05:05.840]  right now is examples of the, the, the two cases, but, but there were, there were a couple of
+[05:05.840 --> 05:15.200]  sessions in W W W C, including the, um, the state of the union, as I like to call it, the technical
+[05:15.200 --> 05:20.960]  keynote, right? You know, the, the afternoon keynote on the keynote. Oh, I wouldn't say, well,
+[05:20.960 --> 05:25.600]  they're both good. They're both good. Yeah, but the, but the one where we all like are going,
+[05:25.600 --> 05:31.840]  oh, yeah. Oh, yeah. It's like a meal in reverse is because we get our dessert in the morning,
+[05:31.840 --> 05:36.640]  and then we get the meat and the nourishment in the afternoon. Right. Exactly.
+[05:36.640 --> 05:42.000]  That's a very, that's a great analogy, actually. Yeah. Yeah. We're all still a little dizzy.
+[05:42.720 --> 05:47.120]  Right. Exactly. Right. We've got the sugar rush going. And it's like, no, you're going to be a
+[05:47.120 --> 05:52.000]  steak. Right. And then all of a sudden they're, they're actually are putting code up on the screen.
+[05:52.000 --> 05:57.440]  And it's like, wait a second. I got it. I got a slow down. Thank you. Um, but even in the technical
+[05:57.440 --> 06:00.640]  keynote, even in the state of the union, there was a little bit where they,
+[06:02.160 --> 06:07.360]  immediately, it just was awkwardly phrased as to why in the world would they provide this for us
+[06:07.360 --> 06:12.960]  unless there are new sized devices coming out, but there is no way in hell they were going to
+[06:12.960 --> 06:17.680]  say anything about new sized devices, but it makes absolutely no sense whatsoever that they would
+[06:17.680 --> 06:22.880]  add this to the SDK otherwise. And then in the session that I've been talking about this week,
+[06:22.880 --> 06:30.560]  session 216, um, adaptive layouts, adaptive layouts in in Apple's parlance is exact. Well,
+[06:30.560 --> 06:36.800]  maybe not exactly analogous, but it's the same basic idea as responsive web design. Right. Right.
+[06:36.800 --> 06:45.600]  Where you have one web page that scales in perhaps dramatic ways to look good on a phone,
+[06:45.600 --> 06:52.000]  on a tablet, on a 30 inch display, like maybe when, you know, a lot of responsive websites,
+[06:52.000 --> 06:56.240]  when these show up on the phone, they get rid of whole things. They get rid of like menus
+[06:56.240 --> 07:01.680]  or all sorts of side bars and stuff like that and just show the, the text, or they might move it
+[07:01.680 --> 07:06.400]  to the bottom. They might move like sidebar material to the bottom. Well, that's what adaptive layout
+[07:06.400 --> 07:13.840]  in iOS is like where you don't effectively redesign for this phone, redesign for this phone,
+[07:13.840 --> 07:20.240]  redesign for the horizontal iPad, redesign for the vertical iPad. You just set these constraints
+[07:20.240 --> 07:26.400]  and say, you know, in a dynamic fashion, if it's between this and this, lay it out like this.
+[07:26.400 --> 07:31.200]  And if it gets smaller than this, you can just hide this control. Yeah. And on a way out,
+[07:31.200 --> 07:37.120]  which is the technology that underlies all of this is, is got a lot of parallels with CSS,
+[07:37.120 --> 07:41.360]  which is, yeah, that underlies responsive web designs. Yeah. Yeah. It's,
+[07:41.360 --> 07:48.000]  that was, you know, that was the first thing I, in learning about a lot of layout was like,
+[07:48.000 --> 07:54.880]  okay, this is a lot like CSS. It's a very different take on the, you know, the implementation is very
+[07:54.880 --> 08:00.720]  different than CSS, but it's solving the same problem. Yeah. For better you don't know what size
+[08:00.720 --> 08:05.760]  the screen is going to be deal with it. Right. Right. It's a very Apple like thing to do to
+[08:05.760 --> 08:10.960]  attack the same problem that CSS addresses and to just say, we don't like effectively, they're
+[08:10.960 --> 08:14.800]  saying, we don't like CSS, we're going to, you know, do it our own way. And there's lots not to
+[08:14.800 --> 08:20.320]  like about CSS. I mean, there's a reason why there's so many things like SAS that are front
+[08:20.320 --> 08:28.160]  ends to CSS. Yeah, that the CSS is a very general solution. Right. And this is a pretty specific
+[08:28.160 --> 08:34.640]  problem that we're dealing with in iOS right now. So I can see why they did that. Right. And the two,
+[08:34.640 --> 08:41.200]  the closest they came to, to just come on, you know, hitting us over the head with it is that in
+[08:41.200 --> 08:46.960]  the, and I don't think this is NDA. I don't know, I'm never, it's very unclear what is NDA
+[08:46.960 --> 08:49.920]  or not anymore, but the fact, I mean, there's all sorts of places where you can do that.
+[08:49.920 --> 08:54.560]  Well, the video that talked about what you're about to talk about is not, yeah, it's not
+[08:54.560 --> 08:58.960]  NDA. Yeah. And it's not, you don't have to have an NDA to watch those videos anymore.
+[09:00.240 --> 09:04.320]  I assume you're, you're talking about the fact that you can dial in the numbers that you want for
+[09:04.320 --> 09:09.280]  the iOS emulator. Yeah. Right. When you do, when you build and run your app in Xcode,
+[09:09.280 --> 09:16.320]  you used to be able to choose between a device, if you have like an actual physical iPad or iPhone
+[09:16.320 --> 09:20.640]  plugged in, you can, you know, you can pick it, you know, if your iPhone is named Craig's iPhone,
+[09:20.640 --> 09:26.800]  you could say, run this on Craig's iPhone. And then the app would build for ARM and Xcode would
+[09:26.800 --> 09:31.760]  copy it over and it launches right on your actual iPhone. And if you run it in the simulator,
+[09:31.760 --> 09:41.360]  you'd have to pick between actual virtual iPads, you know, iPad 2, iPad Air, iPad retina,
+[09:42.000 --> 09:50.320]  iPhone, iPhone 5, they added to this year, resizable iPad and resizable iPhone. And at the bottom
+[09:50.320 --> 09:55.600]  of those in the simulator, you get to pick how many pixels wide the device is, right, right,
+[09:55.600 --> 10:01.360]  and how, how high it is. And like in the demo, they picked, I forget, like 600 by 800 or something
+[10:01.360 --> 10:06.720]  like that. I don't know, something that, and it's, you know, you'd sit there and watch this video
+[10:06.720 --> 10:13.440]  and you're like, why, why would they allow this? Yeah. Again, that's the reading between the lines,
+[10:13.440 --> 10:21.920]  right? It's like, okay, there's going to be some display size that is not a multiple of
+[10:21.920 --> 10:29.920]  320 by 640 or, you know, 320 by 568. Yeah. I think of the number is, yeah.
+[10:29.920 --> 10:40.000]  Yeah. So, and, you know, to be honest, it doesn't really matter. You know, it's, I'm, the thing I'm
+[10:40.000 --> 10:43.840]  coming to, you know, the conclusion I'm coming to is like, okay, we're, we've got to start thinking
+[10:43.840 --> 10:52.400]  about this really in points. It really is, and that's that my only reservation here are those odd
+[10:52.400 --> 11:00.160]  numbered points. Right. It's like, you know, how do you split that in half? That's really the,
+[11:01.840 --> 11:06.800]  in fact, that's, that I think that, you know, people like Paul, Paul and Dodd, you know,
+[11:06.800 --> 11:14.240]  it was said, you know, this is really a pain in the ass, and Paul had died of a tap bot, tap bot,
+[11:14.240 --> 11:22.800]  yeah. And, you know, that's kind of where this, this, there was a conversation this weekend and,
+[11:22.800 --> 11:27.200]  you know, it's like, well, okay, this, and that's where I said, you know, this is the end of us,
+[11:27.200 --> 11:35.200]  you know, doing pixel perfect designs. And then you're comment about the, you know, how's this
+[11:35.200 --> 11:42.800]  like the retina MacBook Pro, right? You know, you can set whatever scaling factor you want,
+[11:42.800 --> 11:50.080]  right? Under behind the scenes, the retina MacBook Pro always works at two acts. It lays out a
+[11:50.080 --> 11:56.160]  frame buffer at two acts, right? It renders your images at, you know, two times their normal size,
+[11:56.160 --> 12:05.600]  but it may not display them at two times its size. It may display them at 1.6, you know,
+[12:05.600 --> 12:11.760]  the size. Well, there's five, I think there's five options. If you have, anybody who hasn't seen a retina
+[12:11.760 --> 12:19.040]  MacBook Pro, this might be very confusing. And it was, when I first heard about it two years ago,
+[12:19.040 --> 12:25.200]  when the first retina max came out, it sounded to me like, wow, those other four settings are
+[12:25.200 --> 12:31.520]  going to look awful. And the gist of it is, by default, your retina MacBook Pro shows up with,
+[12:31.520 --> 12:39.200]  it there's five settings. The one in the middle is like called best. And it's the one where
+[12:39.200 --> 12:43.760]  everything is rendered at exactly two acts because you have two X, you actually have two X,
+[12:43.760 --> 12:50.240]  the pixels on the display. And everything is rendered at that size. It is pixel for drag. And then
+[12:50.240 --> 12:56.400]  there's two more size options in each direction, bigger and smaller, where you go smaller,
+[12:56.400 --> 13:02.880]  everything on screen gets smaller. And you effectively get a virtually bigger display, where you have
+[13:02.880 --> 13:08.000]  more, I don't know, again, are they pixels? Are they points? They're points, I guess you'd call
+[13:08.000 --> 13:13.360]  them more points in the display. Right. And in other words, like your eyes are gray, you have good eyes,
+[13:13.360 --> 13:20.320]  and you would like to see more content rendered smaller. You have two steps, like small and really
+[13:20.320 --> 13:25.360]  small. And then in the opposite direction, you can go big and really big. And it zooms everything
+[13:25.360 --> 13:31.600]  up a little bit. And I can see it a little bit, especially if I take my glasses off and get real
+[13:31.600 --> 13:37.600]  close to the screen. But at typical viewing distance from a rat in the MacBook Pro, I actually
+[13:37.600 --> 13:43.280]  don't see it. It actually turns out it works really well. Yeah. Our eyes are old enough that it's
+[13:43.280 --> 13:49.280]  like, okay. Yeah, I close enough. You know, I was talking a little bit about that a couple of weeks
+[13:49.280 --> 13:55.520]  ago on the show about my eyes, you know, at 41 or whatever the hell I am. I'm hitting that,
+[13:55.520 --> 14:02.400]  hitting those limits. But I don't know. I actually think, because when I take my glasses off and
+[14:02.400 --> 14:06.720]  get real close to something, I can still see, you know, if I get it close enough to my eyes,
+[14:06.720 --> 14:10.480]  I can see it pretty sharp. And I've gotten really close to a rat in the MacBook Pro. And it's
+[14:10.480 --> 14:18.480]  pretty effective. Yeah. Well, I've been working on some stuff for Yosemite and then doing
+[14:18.480 --> 14:25.840]  retina versions. And I don't have a MacBook Pro with a retina display. But I do have a 30-inch
+[14:25.840 --> 14:33.360]  cinnamon display that I can put into a retina mode with some developer tools. So instead of having
+[14:33.360 --> 14:42.720]  25, 60 by 1500 pixels, I think it is, you know, I basically have that number. So I get a
+[14:42.720 --> 14:49.600]  it renders in retina on the 30-inch display. So basically, I've got like a 15-inch display
+[14:50.160 --> 14:57.040]  in 30 inches of physical space. And it's huge. But it's really readable. I don't have any
+[14:57.040 --> 15:01.360]  problems seeing it. And I can look at, you know, individual pixels. It's really good for testing.
+[15:02.720 --> 15:07.440]  But, you know, that's, that's an extreme case. You know, somebody had a vision problem.
+[15:07.440 --> 15:15.280]  You know, that 30 inches of real estate displaying a 15-inch image would be awesome.
+[15:15.280 --> 15:20.960]  Yeah. But M with, you know, text rendered as well as it could be at the actual size that it's
+[15:20.960 --> 15:27.040]  at. Right. You have, you know, big, there's no big jaggy's all over the place. It doesn't look
+[15:27.040 --> 15:33.280]  anything like when non-updated iPhone apps were running on the original iPhone 4.
+[15:33.280 --> 15:37.200]  Right. You know, everybody remembers that. They look terrible. Everybody, I mean, you
+[15:37.200 --> 15:43.680]  have to be, you know, maybe like borderline legally, you know, blind not to be able to notice. Wow,
+[15:43.680 --> 15:49.920]  that this looks pretty fuzzy. It's not like that at all. Like once the pixels get small
+[15:49.920 --> 15:54.160]  enough, you can start playing games like that. And I do think that's what it is. So it's,
+[15:54.160 --> 15:58.720]  you know, if, if this number I've come up with that I've heard, I haven't didn't just pull it
+[15:58.720 --> 16:04.800]  out of thin there. But I, you know, I can't, can't say bet on it. But if it's 1334 by 750,
+[16:04.800 --> 16:12.000]  and these point sizes are odd, what's, what's weird about it is that there's a, a, to our user
+[16:12.000 --> 16:19.200]  interface slash programmer minds, a much more obvious number right next door, just add two pixels
+[16:19.200 --> 16:29.680]  in each dimension. And one of them is divisible by 16, 336 1336, 1336, just add two pixels is
+[16:29.680 --> 16:37.520]  divisible by eight evenly. And 752 is divisible, not just by eight, but by 16, which is what
+[16:38.320 --> 16:47.280]  divisibility by 16 is what a lot of people just expect in a display. And it's only two pixels,
+[16:47.280 --> 17:02.640]  which is at 326 pixels per inch, one, one over 163 of an inch. So it's not, it's still 4.7 inch
+[17:02.640 --> 17:09.040]  display. It's literally one less than 100th of an inch difference in physical size.
+[17:09.040 --> 17:16.240]  So why would I do that? I don't know. I have no idea. But the, the, the, the little whispers
+[17:16.240 --> 17:21.680]  word on the street are 1334 by 750. I don't know, maybe that's just an estimate, maybe it's wrong.
+[17:21.680 --> 17:26.320]  And then, you know, fill shillers up on stage and the text specs come up and it says 1336 by
+[17:26.320 --> 17:30.800]  752. I don't know. And, you know, that was close enough to 750 where the word that came out and
+[17:30.800 --> 17:35.120]  was whispered around was, was off by a little. They don't talk about, they don't talk about pixels
+[17:35.120 --> 17:40.400]  and in text specs, typically. No, they do. They give you the exact pixel to spent dimensions,
+[17:40.400 --> 17:45.200]  in text specs. They don't talk about RAM. They never tell you the RAM and they don't tell you
+[17:45.200 --> 17:50.480]  clock speeds on processors, I don't think. But they definitely don't tell you about RAM. But they
+[17:50.480 --> 17:55.200]  do tell you, if you look at the text specs now, they, they tell you that. Okay. I think they remember
+[17:55.200 --> 18:00.880]  having a problem figuring out what the actual dimensions were for an iPhone 5 screen at one point.
+[18:00.880 --> 18:05.840]  But, you know, I think they do it because they, I think they do it because they want to brag
+[18:05.840 --> 18:11.760]  about the pixels per inch. And they do tell you the diagonal. And so they've give, you know,
+[18:11.760 --> 18:16.320]  you can just divide right there and you can, you know, it gives it away. Right. That the,
+[18:16.320 --> 18:23.360]  the diagonal size is actually an interesting thing to do. In fact, what, my wife and I were
+[18:23.360 --> 18:27.040]  talking about what we were going to talk about on the podcast while we were having dinner. And
+[18:29.200 --> 18:34.640]  she's like, well, what is a 4.7 inch display? And what's a 5.5 inch display? Like, and
+[18:34.640 --> 18:39.280]  it, there's a real simple thing you can do. You get out of a ruler that's got 5.5 inches on it
+[18:39.280 --> 18:46.240]  and put it diagonally across your screen and, you know, go out to 5.5 piece of the aspect ratio
+[18:46.240 --> 18:49.920]  is going to stay the same. Right. That's your, I use your iPhone 5. That's not going to change.
+[18:50.640 --> 18:57.200]  So you can just draw a line out to 5.5 and get an idea for how big that screen is. And it's,
+[18:57.200 --> 19:08.640]  it's hefty. Right. And then, and this is more fuel for the, you know, is the 5.5 inch display
+[19:09.520 --> 19:13.040]  going to behave like an iPad or is it going to behave like an iPhone?
+[19:14.000 --> 19:18.240]  Well, let's hold that thought and let me do, take a break and do our first sponsor.
+[19:19.680 --> 19:24.880]  Brand new sponsor. Really, really interesting. I can't, I almost can't believe it. It's like,
+[19:24.880 --> 19:31.200]  in terms of things I expected to be sponsoring my, my, my show, but here it is. It's Casper
+[19:32.880 --> 19:39.920]  Sleep, CasperSleep.com. They are brand new. They're, they're, they're like a warby Parker to glasses,
+[19:39.920 --> 19:48.400]  like a, like a harry's to shaving, except it's to premium mattresses, mattresses, things you sleep on.
+[19:48.400 --> 19:55.200]  I swear to God, here's the thing though, as part of the sponsorship, they sent me one, a demo,
+[19:55.200 --> 19:59.760]  they sent me a quiz. It sent you a mattress. Honest to God. I'll get back to this.
+[19:59.760 --> 20:03.120]  Craig, I'll get back to this because you think that's crazy. Yeah. Yeah. It is crazy.
+[20:03.120 --> 20:05.440]  I was like, how the hell are they going to send me a mattress? Well, here's the deal.
+[20:06.400 --> 20:10.400]  It's a new high, it's like a new, I don't know, they've got like some kind of new high
+[20:10.400 --> 20:15.760]  text of it. They call it a new hybrid mattress that combines premium latex foam with memory foam.
+[20:15.760 --> 20:20.000]  It's like a combination, but it's not like memory foam. It's not that thing where you,
+[20:20.000 --> 20:24.640]  you've got stuck in the bed. Yeah, like a wake up in the morning and there's like a crime scene
+[20:24.640 --> 20:28.560]  body thing. No, so I got it all. Just, honest with God, it just feels like a great mattress.
+[20:28.560 --> 20:35.840]  It's just, it's, it's, it's just like a nice combination of, you know, softness and a little bit
+[20:35.840 --> 20:43.040]  of that sort of, the same you like it. Yeah, yeah, it's great mattress. And it's exactly the same
+[20:43.040 --> 20:47.920]  sort of thing as like eyeglasses were where the mattress industry is just crooked as all hell
+[20:49.200 --> 20:54.720]  and they paid notoriously high markups. And the existing mattress companies like last time,
+[20:54.720 --> 20:58.320]  it has been a long time since I went mattress shopping, but I remember, you know, I remember reading
+[20:58.320 --> 21:02.640]  a thing on cocky about it where you go from one store to another and you look at like you take
+[21:02.640 --> 21:07.200]  one of the big name brands like Celia, whatever, and you go into the one store and you write down
+[21:07.200 --> 21:10.480]  the ones that they had that you thought you liked and then you go to another store and they
+[21:10.480 --> 21:14.880]  don't have those models. They sell like different models to every store with different names
+[21:14.880 --> 21:20.880]  so that you can't compare. Like they've, they've conspired successfully to avoid, you know,
+[21:20.880 --> 21:27.120]  allowing you to be informed. Try to price match. Yeah. Yeah. You can't. Casper undercut some
+[21:27.120 --> 21:32.160]  on price dramatically. Here's their prices. They're, they're not even afraid to tell you what
+[21:32.160 --> 21:38.240]  they are. Most mattresses, good mattresses cost start at over 1500 bucks. Casper's cost between
+[21:38.240 --> 21:43.120]  500. That's where a twin size mattress fits. That's, that's like what Craig would like keep his
+[21:43.120 --> 21:51.360]  arm on. Yeah. Uh, 600 for XL twin, 750 for full size mattress, 850 for a queen and only 950 bucks
+[21:51.360 --> 21:57.760]  for a king size mattress. Great prices. There's not a lot of complication between what type of
+[21:57.760 --> 22:01.760]  mattress. They just make one type of mattress that just feels great. You don't have to get all
+[22:01.760 --> 22:07.040]  complicated about it. It's just a nice soft mattress. They do this crazy thing when they ship it.
+[22:07.040 --> 22:10.240]  You think, well, how the hell are they going to ship a mattress? They, I don't know what the hell
+[22:10.240 --> 22:16.000]  they do, but it's like vacuum packed. It's still a big box, but it's like a big box that like,
+[22:16.000 --> 22:22.160]  maybe looks like it has like a dorm room fridge in it. It, it, it doesn't ship as like a big,
+[22:22.160 --> 22:26.640]  as like a full size mattress shows up in your house and this thing that, you know, actually you're
+[22:26.640 --> 22:31.360]  like a UPS guy could reasonably give you. It's actually kind of, it's actually one of the coolest
+[22:31.360 --> 22:36.000]  things you open. I was just going to say the epic kind of like stand back when you open. No,
+[22:36.000 --> 22:43.840]  it's actually kind of slow. Obsessively engineered mattresses at shockingly fair prices. A kiss can't
+[22:43.840 --> 22:49.360]  let it. It's got the right sink, just the right bounce. It is kind of bouncy. Two technologies,
+[22:49.360 --> 22:55.040]  latex foam and memory foam that come together for better nights, better days, risk free trial.
+[22:55.040 --> 22:59.440]  Because this again, anytime the first time you buy X on the internet, you think like this is
+[22:59.440 --> 23:05.200]  crazy that I'm buying a mattress on the internet. Risk free trial and return. You get to try
+[23:05.200 --> 23:11.120]  sleeping on it for a hundred days, free delivery, painless return if you don't actually like it.
+[23:11.120 --> 23:17.120]  Their mattresses are made in America. Prices are great. So here's what you do. Oh, and I haven't,
+[23:17.120 --> 23:24.480]  another deal. They've got this referral program. So you get one of these mattresses. Every friend
+[23:24.480 --> 23:30.640]  you refer to Casper gives you a $50 gift card. Plus any friend you refer also gets 50 bucks
+[23:30.640 --> 23:36.720]  toward their mattress. So they've offered us for the show the same opportunity. So you save,
+[23:36.720 --> 23:48.240]  use this code. It's giving you the URL, www.CASPER, CasperSleep.com slash talk show slash talk show.
+[23:48.800 --> 23:53.760]  And I think when you check out, you might have to use the promo code talk show. No, the just talk show.
+[23:53.760 --> 24:01.600]  You'll save 50 bucks. I get $50 referral fee, but my $50 referral fee, I'm not getting it. I don't
+[24:01.600 --> 24:05.920]  want that. They've already paid for the sponsorship. So we're going to give it all the charity. We're
+[24:05.920 --> 24:13.600]  going to give it to the the food analogy, anaphylactic network thing that my wife and son
+[24:14.880 --> 24:21.120]  participate in every year. So you save 50 bucks using the code on a mattress. 50 bucks goes to
+[24:21.120 --> 24:25.840]  a great charity. And it's it's serious. I just can't believe it here. I'm selling mattresses,
+[24:25.840 --> 24:30.320]  but it really is worth your attention. You'll save money and you get a great mattress.
+[24:31.360 --> 24:35.120]  I think the last time you had me on you were selling Caesar salads.
+[24:35.120 --> 24:41.520]  Yeah. Wasn't that great? That was awesome. You know, so it's kind of like an honor that I get
+[24:41.520 --> 24:48.560]  all the weird but kind of cool. I'm trying to find it. I think that the I think all sponsors,
+[24:48.560 --> 24:52.160]  I think, you know, the shows doing pretty good. I have a lot of repeat sponsors. I'm really happy
+[24:52.160 --> 24:57.920]  about that. And you know, to me, that's proof that it must be some kind of decent value. But I
+[24:57.920 --> 25:03.040]  love the sponsors that you don't think of as like, oh, it's a tech podcast, you know,
+[25:03.680 --> 25:08.720]  let's sponsor it. You know, the ones like the salad and eyeglasses and now mattresses.
+[25:08.720 --> 25:12.160]  But I think it's great. I don't know. I think that the core audience of Dering Farbell isn't
+[25:12.160 --> 25:18.240]  really defined by technology. I think it's people who like nice things and are willing to pay for
+[25:18.240 --> 25:24.800]  them. Yeah. That's, well, that's kind of just sums up the Apple customer base too. And,
+[25:24.800 --> 25:29.680]  you know, frustrated by bullshit and stuff like that. And buying a mattress is so, so much
+[25:29.680 --> 25:33.520]  bullshit. I don't know. I think that this, I don't know how many people buy a mattress per week,
+[25:33.520 --> 25:39.040]  but I'll bet I have just have a gut feeling that they could do really well. Yeah. No, it is,
+[25:39.760 --> 25:46.800]  it's, it's one of those sleazy, uh, you just, it just oozes, you know, oh my God, what am I doing here?
+[25:46.800 --> 25:50.240]  It's like a court tell because there's only like a couple of companies that control the whole
+[25:50.240 --> 25:55.600]  industry and they just sort of conspired to, to lock it up. So anyway, my thanks to them,
+[25:55.600 --> 26:01.280]  CasperSleep.com slash, uh, talk show. All right, like you were saying, this is a great,
+[26:01.280 --> 26:10.000]  great question. And that WWDC session raises points about it is, is this, especially the 5.51,
+[26:10.000 --> 26:15.520]  is this five, if it, you know, and if it ships this year, I do, I, I'm almost, I would say I'm 99
+[26:15.520 --> 26:21.200]  percent sure there's a 5.5 inch iPhone coming. Is it coming September 9th that I don't know,
+[26:21.200 --> 26:24.800]  you know, could be something, you know, who knows, maybe there'll be a special event in February
+[26:24.800 --> 26:31.840]  or something, but I, I do think it's coming. Um, and when it does, is it going to act like an iPhone
+[26:31.840 --> 26:38.400]  layout wise or more like an iPad? And so for example, in that session 216, they set up the,
+[26:38.400 --> 26:48.400]  um, adaptive layout constraints, such that when you rotate the phone to landscape that it works
+[26:48.400 --> 26:56.320]  like an iPad. And so if you have, uh, it was like a list of messages and you tap it, it showed it,
+[26:56.320 --> 27:01.280]  you know, it was like one third of the screen was for the list and the other two thirds shows
+[27:01.280 --> 27:06.400]  what you have selected. Right. And it stays on screen as opposed to the entire, you know,
+[27:06.400 --> 27:13.120]  two navigation, um, two view controllers on, on screen at once as opposed to the iPhone where it's
+[27:13.120 --> 27:21.760]  always only one at a time. It really is, from somebody who's, who's, has 54 year old eyes. Right.
+[27:22.800 --> 27:30.000]  I don't necessarily want a smaller version of the iPad. I want a larger version of the iPhone.
+[27:30.000 --> 27:39.120]  Right. Somebody, something that can give, you know, give me more space, bigger text
+[27:40.240 --> 27:44.640]  to, you know, read the stuff that I have a, you know, to be honest, there's some stuff on the iPhone
+[27:44.640 --> 27:54.240]  that I have trouble reading. Right. It's just, it just gets too small. Um, the flip side of that,
+[27:54.240 --> 28:00.320]  you know, somebody who's, you know, in their 20s, you know, they spend it a lot of time looking at
+[28:00.320 --> 28:06.320]  YouTube videos, you know, they've got Facebook, they're all their social networks. Right. You know,
+[28:06.320 --> 28:13.040]  they do all sorts of stuff on their phone. They got great eyes. They're going to want that phone
+[28:13.920 --> 28:21.600]  to work. Or like an iPad, right? Just tiny little font. Those shit loads of content on the screen.
+[28:21.600 --> 28:28.640]  So I, that's why I say, you know, pixels don't really matter anymore. Right. It's like,
+[28:29.680 --> 28:39.840]  this is, I see Apple telling us, you know, give up the idea of, of pixels and start thinking
+[28:39.840 --> 28:47.040]  about areas. Right. And trust that everything's going to look sharp. Yeah, it's, it's interesting.
+[28:47.040 --> 28:51.280]  One of the first things I did when I got an iPhone, right, is like, I want to understand what
+[28:51.280 --> 28:59.360]  that, that magic 44 pixel number was all about. And I actually got a ruler out and put my finger
+[28:59.360 --> 29:07.600]  against that ruler. And my fingertip covered about a quarter of an inch. Well, if you, if you take the
+[29:07.600 --> 29:17.680]  44, you know, 44 pixels divided by what was it? 163 was the DPI originally. 162 or 160. Yeah,
+[29:17.680 --> 29:23.040]  I think they call it 173. It works out to be about a quarter of an inch. Yeah, it's a little bit
+[29:23.040 --> 29:26.880]  bigger. A little tiny little bit bigger than the quarter of an inch. But, you know, that's the,
+[29:26.880 --> 29:32.080]  the size of your finger tip. Right. And, you know, as we go to these different size displays,
+[29:33.840 --> 29:39.920]  the number of pixels have changed, but our fingertips haven't changed. Right. We still, you know,
+[29:39.920 --> 29:45.280]  I still touch a piece of glass and it's about a quarter of an inch. So let's, let's keep the
+[29:45.280 --> 29:50.960]  controls that size. Yeah, something has to, I don't know, maybe I wasn't clear enough in the
+[29:50.960 --> 29:56.640]  piece that I wrote over the weekend, but something has to stay the same. And in, in, I think
+[29:56.640 --> 30:01.920]  what's been confusing and even to me, it's caught me off guard for the first couple of years,
+[30:01.920 --> 30:08.080]  a lot of things stayed the same as new iOS devices came out. It wasn't just one or two
+[30:08.080 --> 30:13.520]  factors that stayed the same. Lots stayed the same. And when they first went retina, it went,
+[30:13.520 --> 30:19.760]  they, they increased the resolution in such an easy to understand way. The screen size was exactly
+[30:19.760 --> 30:24.240]  the same. They just put four pixels into every spot where previously they don't even want.
+[30:26.240 --> 30:32.080]  And it made us, I think it fooled me definitely. And it still has given the people who, who,
+[30:32.080 --> 30:35.760]  who seem to be doubting my predictions. There's still a lot of people out there who think they're
+[30:35.760 --> 30:40.400]  going to stay and keep it that way, you know, that the only reasonable way to go up, they think
+[30:40.400 --> 30:49.120]  is 1704 by 960, which is exactly three times the pixels. But if they did that and increased the size
+[30:49.120 --> 30:57.120]  of the phone to 4.7 and 5.5, they would be changing the size of the points, right? And they would
+[30:57.120 --> 31:04.240]  be changing the size of those tap targets. And I don't think they're going to do that. I think
+[31:04.240 --> 31:08.400]  that that is not going to happen. Right. Well, and it could, I think they could make them a little
+[31:08.400 --> 31:13.520]  bigger. I do, and I think on the 5.5, they are going to make a little bigger. But I think that
+[31:13.520 --> 31:18.800]  to make it so that you get more content on the screen at once at a reasonable size, the point
+[31:18.800 --> 31:25.280]  is the thing that they're going to more or less keep centered. So if you have a 44 by 44
+[31:26.000 --> 31:32.640]  tap target, like for a, a, a, a tab controller at the bottom of the screen to switch between,
+[31:32.640 --> 31:38.080]  you know, your mentions or your, you know, your main timeline and a Twitter client or something
+[31:38.080 --> 31:45.360]  like that, that 44 by 44 point target is going to be roughly the same size on all devices,
+[31:45.360 --> 31:53.120]  no matter which, you know, from, from 4 inch iPhones to, you know, 9.7 inch iPads or,
+[31:53.120 --> 31:59.440]  you know, perhaps a 12 inch iPad, but that 44 by 44 point target is going to be mostly the same.
+[31:59.440 --> 32:06.160]  And some of those devices are going to have 460 pixels per inch, some 326 pixels per inch.
+[32:06.720 --> 32:11.440]  There's old ones, you know, there's still a lot of iPad first generation iPad minis out there
+[32:11.440 --> 32:18.080]  with 163 per inch. But the point is more or less the same size and that 44 by 44 tap target
+[32:18.080 --> 32:24.000]  button is something you can count on as a designer. And when you start messing with that, I mean,
+[32:24.000 --> 32:28.320]  everybody's come across a web page where the links on that page, you know, that they don't have
+[32:28.320 --> 32:35.280]  a responsive design on the web page. Right. So like, you know, the, the next button on that web page
+[32:35.280 --> 32:40.800]  is this tiny little target. And, you know, you, you try to get your finger to get right over that
+[32:40.800 --> 32:45.600]  and you, like, you hit the, you know, some other link or some other control or they put to
+[32:45.600 --> 32:50.560]  it. So frustrating. Right. Or it's not just that, it's not just that they're small, but that
+[32:50.560 --> 32:54.240]  there's, they're small and there's two right next to it. Exactly. It's like a page in control,
+[32:54.240 --> 32:57.840]  right? You know, you're trying to, you want to go to page two. And it's like, you hit page three,
+[32:57.840 --> 33:03.760]  it's like, Oh, Seth. And you swear at the web designer. Well, you know, if they start screwing
+[33:03.760 --> 33:10.320]  on the size of those tap targets, we're going to be swearing at every iOS developer in every,
+[33:10.320 --> 33:14.640]  you know, Apple developer. So it's just going to be that they're not going to screw with that.
+[33:15.360 --> 33:21.280]  It'll be, it may be, you know, slightly different like you're saying, you know, maybe,
+[33:21.280 --> 33:27.920]  you know, 5% different plus or minus, but it's not going to change significantly. Ever since
+[33:29.840 --> 33:35.120]  they were first rumors, even just vague ones that, that there would be future iPhones with
+[33:35.120 --> 33:40.000]  significantly bigger screens, not just the 4.0, but stay with the same aspect. Because that
+[33:40.000 --> 33:44.880]  wasn't really a change in size. When they went to four, it was more about changing the aspect ratio
+[33:44.880 --> 33:52.560]  because they kept the width exactly the same or 320 points, 640 pixels. They just added pixels
+[33:52.560 --> 33:59.120]  in one dimension to change the aspect ratio. Ever since there's been talk of a bigger iPhone,
+[33:59.680 --> 34:04.480]  I've always just started with the question of, well, what's the problem they're trying to solve?
+[34:04.480 --> 34:13.840]  Is it showing more content like more text per page, or is it about zooming it up and making the
+[34:13.840 --> 34:19.360]  text that is on the page bigger? You know, and there's different, you know, two totally, you know,
+[34:19.360 --> 34:25.360]  and it is largely age based, two totally different reasons to go each way, where if you're younger,
+[34:25.360 --> 34:29.760]  and you want to use your phone as more of your personal, more and more like it's your main
+[34:29.760 --> 34:36.160]  personal computer, you want more. You want, you want to show more at once. And if you're older,
+[34:36.160 --> 34:45.200]  you want bigger text. And so you can see it. I think that by putting a lot more pixels on the
+[34:45.200 --> 34:55.040]  screen, going to 3x and having something like, 22, 08 by 1242, which is my guess,
+[34:58.000 --> 35:03.840]  that by default, it's going to be mostly about showing more content because that's a 68%
+[35:03.840 --> 35:09.280]  increase in area. You know, multiply the number of visible, visible points on screen. Now,
+[35:09.280 --> 35:16.800]  pixels with points by 1.68, and you, that's a lot more. And it's a scaling factor of 6%, so it's
+[35:16.800 --> 35:22.160]  a little, you know, about 5 or 6% bigger. But I think that what they'll be able to do to make other,
+[35:22.160 --> 35:26.560]  you know, the people who want every, just want big text happy is I think that they, I don't know,
+[35:26.560 --> 35:31.680]  I mean, there's nothing, certainly nothing like this in the iOS 8 betas, but and maybe it won't
+[35:31.680 --> 35:36.000]  even be an iOS 8, maybe we'll have to wait for iOS 9 or something. But they could add something
+[35:36.000 --> 35:44.720]  like the retina MacBook Pro scaling factor, where you treat the 5.5 inch phone as a 2x device
+[35:44.720 --> 35:52.320]  instead of a 3x device. And all of the apps already have a 2x layout, and it just scales up.
+[35:52.320 --> 36:01.200]  And, well, it's even simpler than that, right? It's like there, there is that regular size or compact
+[36:01.200 --> 36:13.680]  size that they talk about in session 216. And, you know, you can say, okay, I want my 5.5 inch iPhone
+[36:13.680 --> 36:23.040]  to act like it's compact, or oh, no, no, no, I want it to act more like regular. And the code
+[36:23.040 --> 36:32.240]  that's written well for the new, you know, size classes works correctly, right? You get, oh,
+[36:32.240 --> 36:37.440]  all of a sudden this behaves like an iPad, or oh, all of a sudden this behaves like an iPhone,
+[36:37.440 --> 36:44.800]  given that display size, that physical display size that you're working with.
+[36:44.800 --> 36:55.680]  Yeah. So, I think it's, you're right. There are two sets of people, and it's all about content,
+[36:55.680 --> 37:02.000]  and some of them want more, some of them want bigger. And some of them want some kind of mix between
+[37:02.000 --> 37:07.840]  the two. Yeah, I mean, you know, and I think Apple did a brilliant thing with that written
+[37:07.840 --> 37:12.880]  on MacBook Pro, right? Because it handles a lot of different situations. From the software to
+[37:12.880 --> 37:20.160]  the other point of view, it's pretty simple, right? You just, you're rendering into a frame buffer
+[37:20.160 --> 37:27.360]  that's, you know, twice as big as it used to be. And those pixels make it to the screen,
+[37:27.360 --> 37:33.840]  however, they make them their way to the screen. Yeah. Another thing that's interesting,
+[37:33.840 --> 37:45.200]  that I've discovered recently in the, the Xcode data, is the ability to specify images,
+[37:46.160 --> 37:53.600]  specifically, you know, graphics and software as vectors. The ability to specify
+[37:53.600 --> 38:04.960]  your image as, say, for example, PDF file. What's interesting there is that that's always been
+[38:04.960 --> 38:13.040]  problematic in the past, because, you know, you take a, you know, it's saying the iOS 6 world,
+[38:13.040 --> 38:20.880]  right? You take a richly rendered button with gradients and all sorts of, you know, nice shadows
+[38:20.880 --> 38:28.240]  and things like that. And you take the PDF for that, and it's number one, it's a pretty complex
+[38:28.240 --> 38:35.840]  PDF file, right? It contains gradients and shadows and all sorts of stuff. And then you scale it
+[38:35.840 --> 38:42.240]  down to any kind of size, and it just, it never looks great, right? Unless it's really big,
+[38:42.240 --> 38:51.280]  then it looks awesome. But now with iOS 7, you know, since iOS 7, all of the graphics in our applications
+[38:51.280 --> 38:57.840]  are really just, you know, stroke lines, right? They're really simple, right? Arrow is just,
+[38:57.840 --> 39:05.760]  you know, two lines, you know, at a 90 degree angle, you know, rotated 45 degrees, right? It's,
+[39:05.760 --> 39:12.160]  it's, you know, and it literally is that that's how it's described in the PDF file, right? You know, this line is
+[39:12.160 --> 39:16.240]  so many points long, right? You know, it goes from this point to this point to this point to this point
+[39:16.240 --> 39:21.760]  to this point done. Yeah, and that reminds you, that's a very astute point, Craig, and it brings
+[39:21.760 --> 39:28.960]  me back to something that I remember now. Well, I suspected it might have that I might, it's something
+[39:28.960 --> 39:35.520]  to file away and remember, but last year in June, when I first saw iOS 7, when it was, you know,
+[39:35.520 --> 39:41.840]  here's, here's the big reveal, I was talking to somebody at Apple can't say who, but, you know,
+[39:41.840 --> 39:47.760]  but then what I was told was from someone who had a hand in the design, and it was something
+[39:47.760 --> 39:52.800]  to the effect of, well, we know some of the stuff that's coming and that informed some of our
+[39:52.800 --> 39:59.520]  decisions. Yeah. You know, and I can't tell you about it now, but, you know, that played that,
+[39:59.520 --> 40:03.520]  you know, part of this is not just about what it looks like now, which we think looks great,
+[40:03.520 --> 40:08.640]  and we really are, we really are proud of it, but part of it is about what's coming in the future,
+[40:08.640 --> 40:13.360]  and I do think that that's part of it, that this is clearly, it's the iOS 7 style is clearly
+[40:13.360 --> 40:19.680]  more scalable. Yeah, it's, it's malleable. It's that whole resolution independence thing is,
+[40:19.680 --> 40:24.800]  well, that was really wanted. Yeah, that's the old term, but it really is that God, that
+[40:24.800 --> 40:30.000]  you know, it's like, when I go, it's 10.4, 10.5. And it was always problematic because, you know,
+[40:30.000 --> 40:37.520]  it's like, Aqua was not an easy thing to scale, resolution wise. Yeah, I had all sorts of gradients
+[40:37.520 --> 40:47.440]  and shadows and all this, and now that we're in Yosemite land, and I was 7 land, it's a lot easier.
+[40:47.440 --> 40:56.240]  Yeah, the old time, the original era was, everybody knew that ultimately it was about
+[40:56.240 --> 41:01.520]  higher resolution displays and getting more pixels per inch in our displays, but we didn't,
+[41:01.520 --> 41:10.080]  we didn't have this retina terminology, and it's not so much that retina is a magic word,
+[41:10.080 --> 41:15.840]  you know, so it's, it's an arbitrary marketing term, and there's a basic, the basic idea that
+[41:15.840 --> 41:21.280]  at the distance at which, you know, the pixel isn't discernible from your eyes, as long as it's,
+[41:21.280 --> 41:25.760]  you know, a typical viewing distance, then that counts as retina. There's definitely some
+[41:25.760 --> 41:32.720]  scientific merit to that. But what wound up happening though is that it's sort of a binary
+[41:34.320 --> 41:39.440]  thing, an apple display, whether it's a Mac or an iOS device, is either retina or not.
+[41:40.400 --> 41:45.600]  And for those of us who care about the details, we can tell, yeah, this one's retina, this one's not,
+[41:45.600 --> 41:52.240]  like the first time you saw a retina iPhone, it was double. Even with the MacBook Pros though,
+[41:52.240 --> 41:57.360]  the first one was the 15 inch, right, the 15 inch MacBook Pros shipped first, and it was like,
+[41:57.360 --> 42:02.880]  it wasn't quite double the pixels, you know, I think you could fake it with that scaling factor
+[42:02.880 --> 42:07.600]  that we had to make it double the, you know, resolution, but the actual, at the native resolution,
+[42:07.600 --> 42:11.520]  everything was a little bit bigger because it wasn't, they didn't quite get to double the pixels,
+[42:11.520 --> 42:15.600]  but you could just tell as soon as you looked at it, you're like, wow, this is something unlike
+[42:15.600 --> 42:20.080]  anything I've ever seen on a Mac before at this level, like the fonts look like real fonts.
+[42:22.160 --> 42:26.320]  I think back in the original era, and it wasn't just us on the outside, I think even Apple had
+[42:26.320 --> 42:31.920]  this, that it was never, it wasn't quite, they didn't foresee doing it as like this binary
+[42:31.920 --> 42:36.240]  switch, it was going to be this continuum, wherever, maybe every couple years we'd get a couple
+[42:36.240 --> 42:42.560]  more pixels per inch, and that if we had retina, or not retina resolution independent assets,
+[42:42.560 --> 42:47.520]  we wouldn't have to keep redrawing everything, but it didn't work out that way, like it was never
+[42:47.520 --> 42:51.840]  really, it never really shipped a version of macOS 10 that was resolution independent.
+[42:51.840 --> 42:56.240]  It was a chicken, it was a chicken and egg problem, right, it's like developers aren't going to do
+[42:56.880 --> 43:01.200]  resolution independent graphics until they've got a resolution independent screen and Apple's not
+[43:01.200 --> 43:06.240]  going to release a resolution and it's green until there are apps that run resolution independently.
+[43:06.240 --> 43:12.480]  Except for panic. Yeah, of cable, those guys are just like, god, they're heroes.
+[43:13.440 --> 43:18.160]  I forget which one of their apps was, I don't know if it was code a 1.0 or something,
+[43:18.160 --> 43:26.720]  maybe it was an early version, but there were panic apps from 2006 or 2007, maybe even earlier,
+[43:26.720 --> 43:32.000]  that were resolution independent, they had PDF assets for everything, and they went to extraordinary
+[43:32.000 --> 43:39.760]  lengths to do that. Yeah. And cable was the guy, I remember going to WWWDC sessions,
+[43:39.760 --> 43:44.880]  I mean like, seriously, probably like close to 10 years ago, and me and cable sassard hanging out
+[43:44.880 --> 43:50.240]  in the back, and just giddy as they were talking about resolution independence, because we both,
+[43:50.240 --> 43:54.800]  like, we're thinking next year, we're going to have red and back, we didn't know the word
+[43:54.800 --> 43:59.760]  retina, but we thought we were going to get super high DPI max next year, and we were like,
+[43:59.760 --> 44:04.240]  just giddy, just crazy. They're like, there's no way they'd be putting this in WWWDC this year,
+[44:04.240 --> 44:09.440]  if they weren't coming, let's start saving our money and cable was like, I'm going to start building
+[44:09.440 --> 44:16.560]  apps. Yeah, it was awesome. You know, it's all come to come to fruition now, and there's,
+[44:16.560 --> 44:24.800]  you know, what the red flag for me is, it's the fact that they're using a Helvetica noise as the
+[44:25.920 --> 44:33.280]  system font. Oh, definitely no doubt about it. I mean, that it's okay on a non retina display,
+[44:33.280 --> 44:40.640]  but you see Helvetica noise on a retina display, and it's like, okay, you know, the eyes, the
+[44:40.640 --> 44:50.000]  tails, the ones all look okay. They're, it's a little, little muddy on a non retina display,
+[44:50.000 --> 44:56.400]  and Apple's making that, you know, they're planting the flags, and okay, this is the way we're
+[44:56.400 --> 45:02.960]  going forward, and it's clear that that way forward is everything's going to be retina.
+[45:02.960 --> 45:09.280]  Not just, I've said this before, but not just in hindsight, having used retina MacBook Pros now
+[45:09.280 --> 45:14.640]  for a while, but I've always thought, I mean, I mean, having used, I'm sorry, I told using
+[45:15.440 --> 45:20.640]  Yosemite on a retina MacBook Pro for the last couple months, Yosemite in particular, not just because
+[45:20.640 --> 45:27.200]  ever since the retina MacBook Pros shipped, I thought that the Aqua interface looked a little
+[45:27.200 --> 45:31.280]  weird. I thought the displays looked beautiful, and I thought everything about the UI looked a
+[45:31.280 --> 45:36.880]  little weird, looked fake. You know, it always looked to me like a fake version of macOS that
+[45:36.880 --> 45:43.200]  somebody made for a, like a Marvel superhero movie, so it would look really cool big on screen,
+[45:44.000 --> 45:52.480]  like they faked it and, you know, I love Lucid Grande. I mean, I, I still love it, but it looked a
+[45:52.480 --> 46:00.160]  little janky on retina to my eye. Yeah, because it's, you know, there's a reason why you don't
+[46:00.160 --> 46:07.520]  see that font used in print, right, or sell to see it. You very seldom see Lucid Grande in print,
+[46:07.520 --> 46:12.880]  because it just isn't, you know, it was designed to look good with chunky pixels, and it did a
+[46:12.880 --> 46:17.920]  great job of it. I mean, it looked great on, you know, non retina displays. Look better than
+[46:17.920 --> 46:23.680]  alvetic on non retina displays. It did, it served its job for over a decade fantastically,
+[46:23.680 --> 46:28.800]  but then once it went retina, it looked weird. It's because it's just not, just isn't a great font
+[46:28.800 --> 46:32.560]  at high resolution. Yeah, and the, you know, the people that are complaining about
+[46:34.080 --> 46:42.480]  alvetic annoy and not being a, you know, humanist font and, and, you know, it's, I can, I can get that
+[46:42.480 --> 46:47.920]  as, as far as, you know, content is concerned, and, you know, it's like, yeah, maybe your
+[46:47.920 --> 46:54.160]  content and your app should be displayed and some other kind of font, but, you know, menu bars
+[46:54.160 --> 47:00.160]  and dialog boxes and stuff like that. It's really no different than road signs, right? Yeah.
+[47:00.160 --> 47:08.400]  It's navigation, right? It did, you know, and Helvetica excels at, you know, you just go out
+[47:08.400 --> 47:14.960]  on public, you know, you know, get on the New York City subway and notice that Helvetica's all over
+[47:14.960 --> 47:25.360]  the place. It's good at doing that. I think that, you know, Apple moving to that as a system
+[47:25.360 --> 47:31.200]  font is just something that, you know, that lets us navigate through our apps. It's a good thing.
+[47:31.200 --> 47:36.240]  Hold that thought, because it's, it comes back to another thing I want to make about print design
+[47:38.000 --> 47:43.520]  and UI design, but I mean, I got to do another response. I mean, so I mean, and when I follow up
+[47:43.520 --> 47:49.120]  Casper with the actual one, I compared them to Warby Parker, our good friends at Warby Parker.
+[47:51.680 --> 47:58.560]  Super stylish, really cool, low priced, well crafted eyewear. That's what Warby Parker does.
+[47:58.560 --> 48:02.320]  You've heard me talk about it before, right? They go there. You go to the website.
+[48:02.320 --> 48:06.320]  They have a whole bunch of frames. Really cool. Really cool stuff on the website to help you
+[48:06.320 --> 48:10.720]  kind of see what they would look like on your face. Take a webcam picture and just, you know,
+[48:10.720 --> 48:14.720]  what does this look like on my face? And they do an amazing job kind of guessing the distance
+[48:14.720 --> 48:20.960]  between your eyes and stuff like that. Then you pick five pairs of glasses that you like.
+[48:21.600 --> 48:26.320]  They ship them to you free. They just show up. They, you know, none of your prescription lenses,
+[48:26.320 --> 48:31.200]  you just try them on at home, look in the mirror, see what your significant other things you look
+[48:31.200 --> 48:37.120]  best in. And then if you find one or more pairs that you like, you buy them. And if you don't,
+[48:37.120 --> 48:40.960]  you send them all back. And then a couple of days later, you get the glasses you picked.
+[48:42.720 --> 48:50.400]  No upsells on stuff like UV coating or anti glare or anything like that. All glasses include
+[48:50.400 --> 48:56.080]  that. Everything includes the anti glare. Everything includes the anti reflective coating,
+[48:56.080 --> 49:01.360]  no additional cost. All their glasses come with a hard case. We have a bunch of them in the house.
+[49:01.360 --> 49:08.480]  Now, really cool case, good cleaning cloth, everything like that. They have titanium frames, metal
+[49:08.480 --> 49:16.160]  ones, they start at $145. And their regular ones started just 95 bucks. They do an awesome thing
+[49:16.160 --> 49:22.320]  where every time they sell a pair of glasses, prescription glasses, they also send a pair of
+[49:22.320 --> 49:28.480]  prescription glasses to people who need around the world who need prescription glasses. Almost
+[49:28.480 --> 49:34.000]  a billion people around worldwide lack access to prescription glasses, 15% of the global population.
+[49:35.840 --> 49:40.960]  So they've partnered with various nonprofits, including there's one here called Vision Spring,
+[49:40.960 --> 49:45.680]  to ensure that for every pair of glasses, Warby Parker sells, another pair is distributed to someone
+[49:45.680 --> 49:52.640]  in need. It's a great deal at a great price. Or were we talking about, we were talking about older
+[49:52.640 --> 49:59.200]  eyes, get eyes getting older. They have progressive lenses that started just $295, including frames.
+[50:00.960 --> 50:05.040]  That's a lot more money, but I'll tell you what, prescription progressive lenses.
+[50:05.040 --> 50:08.080]  They're the ones that have, they have a distance prescription at the top of the lens,
+[50:08.080 --> 50:12.720]  and then they transition to a reading lens near the lens's bottom without any kind of harsh
+[50:12.720 --> 50:17.360]  line or anything like that. Usually those things are super, super expensive.
+[50:17.360 --> 50:27.520]  There's started just $295. Really, really cool stuff. So go there, check them out. You need
+[50:27.520 --> 50:34.160]  new glasses. Next time you need glasses or sunglasses, prescription, go to warbyparker. Warbyparker.com
+[50:34.160 --> 50:40.400]  slash the talk show. They've got the the the talk show, and they have a special deal. What is
+[50:40.400 --> 50:49.920]  the special deal here? Think everybody who uses that deal gets free shipping. They'll send them,
+[50:49.920 --> 50:57.680]  they'll get them on right away, use that code, and you get free shipping. So my thanks to Warby
+[50:57.680 --> 51:04.880]  Parker. Go buy them. Go check them out to buy your glasses. So print design. I wanted to make
+[51:04.880 --> 51:07.680]  this point a couple minutes ago, and you reminded me of it talking about the fonts.
+[51:07.680 --> 51:14.800]  That's the world I came from. Coming out of college in the 90s, I knew Cork Express,
+[51:14.800 --> 51:22.480]  and I did print design. I knew how to do exact layouts, but it wasn't down to what's the equivalent
+[51:22.480 --> 51:32.640]  of the pixel, which would be the dot of toner. If we had a 600 DPI laser printer, there's no way
+[51:32.640 --> 51:38.960]  in Cork or Illustrator or something like that to do dot of toner perfect design.
+[51:40.160 --> 51:44.240]  And yeah, 600 DPI laser printer is higher than any of these DPI's we're talking about,
+[51:44.240 --> 51:50.960]  but if it's right that we have a 461 pixel print phone coming up, that's actually in the ballpark,
+[51:50.960 --> 51:55.920]  right, where you really shouldn't be caring about the pixels. And that if you specify, if you just
+[51:55.920 --> 52:04.480]  tell the OS, give me, you know, I want to draw half the screen, black, half white. If the black
+[52:04.480 --> 52:11.200]  half is actually one pixel larger than the white half, that looks like half and half exactly.
+[52:11.200 --> 52:15.360]  There's no reason you shouldn't be worried about that. You should just say half, right?
+[52:15.360 --> 52:20.240]  It would be just the same way that in Cork Express, if I made an 8 and a half by 11 sheet of paper,
+[52:20.240 --> 52:26.720]  and I just drew a line at the halfway mark on the ruler, I don't know when it comes out on the
+[52:26.720 --> 52:32.160]  piece of paper, whether it's actually a half to the dot, it's, it's close enough.
+[52:32.160 --> 52:36.560]  Actually, actually, probably what would happen is you'd have an even number, even number of black
+[52:36.560 --> 52:43.680]  pixels, a 50% gray pixel, one single, and then all white. I mean, just, there would be
+[52:43.680 --> 52:48.880]  some sort of anti aliasing there, which would just make it smooth and look nice, right?
+[52:48.880 --> 52:54.080]  But I don't think we're supposed to worry about that. Yeah, exactly. That is kind of the takeaway
+[52:54.080 --> 53:00.640]  for me is that it's like, you know, just give it up. You know, the design is how you're going to
+[53:00.640 --> 53:06.480]  stroke these elements. How are they balance between each other? It's, you know, you think about
+[53:06.480 --> 53:14.400]  design at a higher level than, okay, it's 10 pixels of padding, you know, 15 pixels of content,
+[53:14.400 --> 53:18.960]  another 10 pixels of padding, you know, you got 25 pixels. Right. And it's not about getting
+[53:18.960 --> 53:26.400]  sloppy or not caring. It's about caring at its slightly higher level, right? I care about it at the
+[53:26.400 --> 53:31.600]  level of points and percentages, but don't, don't worry about it at the pixel level anymore.
+[53:31.600 --> 53:37.520]  Well, that, and that's, you know, the response of web designs, you know, the whole thing that
+[53:37.520 --> 53:44.800]  Ethan Mark got his champion is that, you know, think about things in percentages, right?
+[53:44.800 --> 53:52.000]  100% of my page width to show this paragraph. No, I really want 50% of my, you know, it's like,
+[53:52.000 --> 53:58.720]  how many pixels of that? Who cares? Now, somewhere out there are good friends,
+[53:58.720 --> 54:06.160]  many of them are colleagues who are pixel designer or are not pixel designers. Sure.
+[54:07.760 --> 54:13.120]  And you know what? They have nothing for air. No, no, no, no, no, no, they have not been dealing
+[54:13.120 --> 54:20.960]  with pixels for years. Really? No, that's why I want to have you on the show. It's, again,
+[54:22.320 --> 54:26.960]  you know, you got to think about things at a higher level. I mean, I think they'll probably
+[54:26.960 --> 54:33.200]  correct me when they hear this, but I believe they work at illustrator at 2048 by 2048 pixels.
+[54:33.840 --> 54:41.760]  That's where they start off. And they then scale it down to whatever pixel size, you know,
+[54:41.760 --> 54:47.520]  the client requests. But they're working at some ridiculously large size, you know, and they're
+[54:47.520 --> 54:56.800]  thinking about how things balance out in that large canvas. You know, what the final rendering size
+[54:56.800 --> 55:02.240]  is really just an implementation detail. You know, it's just something that, you know, it's like,
+[55:02.240 --> 55:09.280]  okay, they need it, you know, 512 by 512 on they also need a 256. Great. We'll render it out
+[55:09.280 --> 55:17.440]  that size. I mean, we had, I mean, it used to be that you'd go into like something like a
+[55:17.440 --> 55:28.000]  reset at it, right? And click a pixel, you know, set, you know, say what color you wanted, you know,
+[55:28.000 --> 55:31.280]  click another pixel. And to be fair that there is some of that still, right, you know, if you take that
+[55:31.280 --> 55:38.640]  2048 by 2048 image and illustrator and put it into Photoshop and rendered down at 16 by 16.
+[55:39.200 --> 55:43.280]  And it's got some text or something on it. You're going to have to go clean up that text,
+[55:43.280 --> 55:50.160]  right? It's not going to scale down nicely. And, you know, they do that still. That is,
+[55:50.160 --> 55:57.680]  there are some pixel clean up there. But to be honest, that's less and less of, you know,
+[55:57.680 --> 56:03.360]  something with a client even needs, right? I mean, people don't work at that size anymore.
+[56:05.520 --> 56:08.640]  Yeah, that's, you know, we've moved on from that.
+[56:08.640 --> 56:14.800]  Yeah, I go back to my, you know, my days as a printer designer and, you know, it sucked when somebody
+[56:14.800 --> 56:20.480]  would give you their logo and it was in a bit map, you know, it's a file or something. Not even if it
+[56:20.480 --> 56:24.240]  was, you know, if it was really low-res, you'd have to go back to them and say, you got to give
+[56:24.240 --> 56:27.760]  me something better. But even if it was high-res, it kind of stunk because you knew there was an
+[56:27.760 --> 56:31.840]  upper limit, you know, God, why can't you just give it to me as a vector? And when you did have,
+[56:31.840 --> 56:36.800]  you know, an EPS of the logo, you just, you didn't really worry about how it was going to turn out.
+[56:36.800 --> 56:41.840]  You've sized it right. You placed it exactly where you wanted in your layout and
+[56:41.840 --> 56:45.840]  corner express and then you just trusted that when it came off the printer, it was going to look good.
+[56:45.840 --> 56:52.480]  And we would do things too. I remember with some logos where if it was like a dark background with
+[56:52.480 --> 56:59.120]  white text, if you knew it was going into newsprint, you might have an alternate version where the
+[56:59.120 --> 57:04.720]  text was bolder because you knew the ink was going to bleed and to make it look right. You know,
+[57:04.720 --> 57:10.080]  there were some logos or things like that where you'd have an alternate version for something
+[57:10.080 --> 57:13.040]  like newsprint because you knew it was going to bleed a little bit. But for the most part,
+[57:13.040 --> 57:22.320]  you never had to worry about it. I think in UIs with vector graphics, you know, a lot of people
+[57:22.320 --> 57:29.680]  could confuse the graphic that you're using to develop with the actual graphic that gets rendered
+[57:29.680 --> 57:36.800]  on screen. You know, when you're talking about what you were doing with Quirk Express,
+[57:36.800 --> 57:41.760]  a very important part of that process was the rip, right? The thing that took that vector
+[57:41.760 --> 57:46.880]  representation and put it into a bit nap, which I think they could send on to the, you know, to the
+[57:46.880 --> 57:54.320]  press to, you know, physically print it. You know, when you say, okay, I'm going to put a PDF
+[57:54.320 --> 58:02.080]  into Xcode. I don't know this for a fact, but I'm guessing that all that PDF does is give
+[58:02.080 --> 58:07.680]  something Xcode to work on at compile time. And Xcode will know that it needs something that's
+[58:07.680 --> 58:14.640]  16 by 16 or it's going to know that needs something that's 256 by 256. And it'll render it
+[58:14.640 --> 58:24.160]  at the appropriate size. The reason being is that all our GPUs work with textures, right? They work
+[58:24.160 --> 58:31.920]  with bitmaps. You don't want a vector representation in your app at runtime. You just don't want
+[58:31.920 --> 58:39.440]  that. It's inefficient, right? If you have to have a iPhone 6 render out all these PDFs before it
+[58:39.440 --> 58:43.520]  can display them on the screen, your launch time's going to be slower, right? You know, it's going
+[58:43.520 --> 58:48.400]  to take more CPU. Exactly. It's not. I don't know that it works that way though. I don't know.
+[58:48.400 --> 58:54.560]  I don't, I don't either, but you know, just knowing how this works. But better to burn the
+[58:54.560 --> 59:01.360]  developer's CPU. Exactly. Right. You know, once on a Mac Pro, you know, oh, for all.
+[59:02.800 --> 59:10.800]  So, you know, you look at kind of Xcode 6 is the ripped now, right? It's the thing that takes
+[59:10.800 --> 59:17.280]  all these vector definitions. It takes our auto layout definitions. It's the thing that
+[59:18.240 --> 59:26.160]  that takes all this resolution independence and puts it into a format where at runtime the iPhone
+[59:26.160 --> 59:34.960]  or even, you know, a Yosemite now can take that and display it how these are
+[59:34.960 --> 59:46.560]  wants to see it. And it's a pretty, it's, it really, it's us as developers. We have to kind of
+[59:46.560 --> 59:52.560]  let go a little bit to say, okay, this is going to, and that in fact, web developers already
+[59:52.560 --> 59:56.800]  gone through this process, right? When they talk about responsive web designs, there's,
+[59:56.800 --> 1:00:02.480]  they're letting go of the notion that everything's going to align perfectly according to
+[1:00:02.480 --> 1:00:12.400]  their Photoshop mockup. It's not. It's not. It's just not. And what works, you know, what auto
+[1:00:12.400 --> 1:00:17.840]  layout is saying and what these size classes are saying, it's like in these different scenarios,
+[1:00:18.480 --> 1:00:26.240]  this is kind of how you want things to layout. And you don't necessarily know that it's going
+[1:00:26.240 --> 1:00:33.760]  to layout exactly the way you expect it to layout. I mean, yeah, who's to say that your font
+[1:00:33.760 --> 1:00:41.840]  settings are, you know, that's, you know, I, and I, unless you can go and say, I want larger type.
+[1:00:42.640 --> 1:00:51.200]  Yeah, right. How big, how big, yeah, how big is the text bubble in messages, you know,
+[1:00:51.200 --> 1:00:57.600]  how big is a text bubble that's three lines of text? I bet in my message, it's going to be
+[1:00:57.600 --> 1:01:06.480]  larger than in years. Yeah, because I 13 years older. Yeah, I bet it is. I think there's another
+[1:01:06.480 --> 1:01:11.760]  thing too that's implicit in the message coming from Apple, which is you can't look, even if we
+[1:01:11.760 --> 1:01:21.520]  add two new phones and one of them is 750 pixels wide and the other one is 1200 and whatever, 1224.
+[1:01:22.720 --> 1:01:32.160]  Don't take that as meaning, okay, and now I can expect either 640 or 750 or no, stop thinking that
+[1:01:32.160 --> 1:01:38.560]  you can make a list of the expected widths. You should make an app that is ready for any width,
+[1:01:38.560 --> 1:01:45.200]  right? You know, it, and instead of just 704, maybe it's 703, doesn't matter. Your app should be
+[1:01:45.200 --> 1:01:51.120]  ready for that, you know, that there's no, there shouldn't be any reasonable width in that area
+[1:01:51.120 --> 1:01:56.960]  that your app isn't ready to handle because I think it also ties into another rumor, which is
+[1:01:56.960 --> 1:02:04.560]  the rumor of split screen multitasking on the iPad, right? And, you know, and possibly combine that
+[1:02:04.560 --> 1:02:13.200]  with new iPad sizes if they come out with a bigger, precise iPad. Yeah, there's some problematic
+[1:02:13.200 --> 1:02:18.880]  things as far as that split screen on the iPad and the, you know, the whole, you know, status bar.
+[1:02:20.880 --> 1:02:25.120]  Oh, there's totally problems. I'm curious to see how it goes, but I'll tell you, there's no
+[1:02:25.120 --> 1:02:32.400]  doubt in my mind though that part of the message is don't, don't assume you can expect the
+[1:02:32.400 --> 1:02:37.760]  width to be from this short list of numbers. Right. The width could be anything. Yeah, exactly.
+[1:02:37.760 --> 1:02:45.120]  And if it turns out that this iPhone really does ship with a width of 750 and a weird 1334 height
+[1:02:46.240 --> 1:02:53.840]  instead of 1336 by 752, which would be neater, I think that that's that's Apple explicitly telling us
+[1:02:53.840 --> 1:03:03.200]  stop, stop trying to do pixel perfect 16 by 16 pixel grid displays. Yeah, designs. Yeah. What's
+[1:03:03.200 --> 1:03:12.400]  going to happen with iOS apps that are having to update haven't been updated for iOS 7 even.
+[1:03:12.960 --> 1:03:20.080]  I mean, I've got, I've got some apps that are still iOS 6. You know, that, that keyboard comes up
+[1:03:20.080 --> 1:03:25.520]  and it's like, it's, I can tell what the shift key is, but other than that, I don't like it.
+[1:03:26.720 --> 1:03:30.400]  You know what? It's gotten to the point now where I find that I have a couple of those apps too,
+[1:03:30.400 --> 1:03:34.560]  and I've gotten to the point where I, for whatever reason, even though it doesn't make any sense
+[1:03:34.560 --> 1:03:39.120]  because it has no actual physical feel, I find that I can't type right on it anymore. Yeah.
+[1:03:39.760 --> 1:03:44.240]  Yeah, it's, it's weird. It's, it's, it's, but I tell you the shift key is better.
+[1:03:44.240 --> 1:03:52.800]  It's a, it's a concert reminder that why is Apple being so reluctant to change that to fix it?
+[1:03:52.800 --> 1:03:59.840]  I would lie. I have, I have no idea. There's got to be somebody high in that company that says,
+[1:03:59.840 --> 1:04:05.440]  no, no, it's better this way. Somebody has, somebody has taken control of that. Nobody,
+[1:04:05.440 --> 1:04:11.200]  nobody over this person cares enough to overrule. Yeah. And nobody under them has been able to persuade
+[1:04:11.200 --> 1:04:20.640]  them. Yeah. Oh, my God. It's, it's, it's, it's, it's what been a year. And I'm still getting confused
+[1:04:20.640 --> 1:04:26.560]  by it. It's like, it's like the, it's like the USD cables, right? You know, you didn't want
+[1:04:26.560 --> 1:04:31.600]  it. Oh, no, I got to shift it enough. Fuck. Put it in there. Oh, there I got it.
+[1:04:33.760 --> 1:04:38.240]  It takes three tries. It, it takes three tries to get the shift right.
+[1:04:38.240 --> 1:04:42.320]  Did you see the tweet from, uh, speaking of our house. Oh, God. Yeah. Yeah.
+[1:04:46.000 --> 1:04:51.440]  It's my far away. It's why I love Stephen so much because I never quite thought of this.
+[1:04:51.440 --> 1:04:55.840]  So there's rampant rumors that Apple is going to come out of the reversible USB switch that's
+[1:04:55.840 --> 1:05:01.760]  going to just work in existing USB sockets. And if you look Google, if you haven't seen it,
+[1:05:01.760 --> 1:05:07.760]  Google it, look at the patent and their diagram makes total sense where it's, you know, it's like a,
+[1:05:07.760 --> 1:05:12.080]  they call it a tongue. It's a tongue that would go up or down depending on which way you put it in.
+[1:05:12.080 --> 1:05:16.640]  So it would be reversible. And Stephen Frank's tweet was, are you meaning to tell me that for the
+[1:05:16.640 --> 1:05:22.720]  last 15 years, there was nothing technically stopping us from having reversible USB cables?
+[1:05:25.120 --> 1:05:29.760]  And it is such a fascinating way to word it because it's like, oh my God, how many times have I
+[1:05:29.760 --> 1:05:36.000]  plugged it tried to, how many collectively, how many man hours have been wasted with USB cables being
+[1:05:36.000 --> 1:05:40.720]  plugged in wrong? It's got to be, it's got to be a staggering number because everybody does
+[1:05:40.720 --> 1:05:45.440]  it. I don't know about anybody else, but I do like do it at least once a day. And yeah, it's
+[1:05:45.440 --> 1:05:51.760]  only five seconds split on those Apple white chargers. I never opened up and down. Never know
+[1:05:51.760 --> 1:05:57.040]  which one's up and down. So it doesn't help me to look at the cable and say, Oh, the USB logo is up.
+[1:05:57.040 --> 1:06:01.920]  So I'll put it in this way. I don't know which way the thing is in the socket. Like it, you know,
+[1:06:01.920 --> 1:06:08.080]  it's all combined with the fact that in the US, our, our electrical sockets are reversible for a
+[1:06:08.080 --> 1:06:13.760]  lot of plugs, including those little white adapter plugs. If it's not a three prong plug, you can
+[1:06:15.360 --> 1:06:19.120]  put the charger in upside down. And even with the three prong ones on some
+[1:06:20.240 --> 1:06:21.840]  wall sockets, they're upside down.
+[1:06:21.840 --> 1:06:23.920]  Yeah, or something.
+[1:06:23.920 --> 1:06:32.880]  I've got one 30 pin connector on my desk still just for an old test device. And I tell you
+[1:06:32.880 --> 1:06:38.720]  the lightning being reversible. It's, it's, it seems like a stupid little thing.
+[1:06:40.080 --> 1:06:42.880]  But it's just like, oh, this is so much better.
+[1:06:43.840 --> 1:06:48.720]  I have a rant in me. I don't know that I've ever expressed it, but I think in hindsight
+[1:06:48.720 --> 1:06:54.880]  that the lightning adapter is the most happily thing Apple has done in 10 years.
+[1:06:55.840 --> 1:07:00.320]  It's the single, it's just epitomizes everything that either it's like killing me.
+[1:07:00.320 --> 1:07:05.840]  I've had many, right? It's like it was there. Everybody loved it. It worked great. All the hotels
+[1:07:05.840 --> 1:07:08.880]  had it. It's like, nope. Screw it.
+[1:07:08.880 --> 1:07:13.520]  Yeah. Yeah. I would say go back, you know, maybe the one preview prior to it was the, the iPod
+[1:07:13.520 --> 1:07:18.400]  nuking the iPad mini, even though it was the most popular device on the planet for the iPod
+[1:07:18.400 --> 1:07:21.360]  Nano, even though they were switching the more expensive components.
+[1:07:21.360 --> 1:07:28.320]  Yep. Yeah. I think doing it where everybody in industry uses these finicky little micro USB
+[1:07:28.320 --> 1:07:34.080]  things that are horrible because I still have to deal with them with like my Kindle. I have to deal
+[1:07:34.080 --> 1:07:38.720]  with them with the Mofy. And now that I've gotten used to lightning, it's only gotten worse
+[1:07:38.720 --> 1:07:44.560]  because I don't have patience for it. And I just stab. It cracks me up when we travel,
+[1:07:44.560 --> 1:07:48.960]  you know, and you arrive in a hotel room. And it's, you know, it's like, they've got like the little,
+[1:07:49.760 --> 1:07:55.520]  you know, they, oh, we have an iPod charger in the room and you go over and it's a 30-bit connection.
+[1:07:55.520 --> 1:08:02.480]  Yeah. It's like, oh, you okay? In another five years, you guys will get with the program.
+[1:08:02.480 --> 1:08:06.960]  Right. And like, hotels are on like a 15 year refurbishment cycle.
+[1:08:06.960 --> 1:08:10.240]  And it's like, that just does not work with something like, oh, tarts.
+[1:08:11.920 --> 1:08:16.080]  But I also think that the lightning adapter, in addition to being what I love about Apple,
+[1:08:16.080 --> 1:08:20.880]  that they're like, we don't care what everybody else is doing. And we're not happy with what we
+[1:08:20.880 --> 1:08:25.600]  ourselves have. We're not happy with our proprietary 30 pin plug because we could do so much,
+[1:08:25.600 --> 1:08:29.360]  but they were annoyed by their own ugly adapter. And they're like, we can make it smaller,
+[1:08:29.920 --> 1:08:35.920]  we can make it reversible. And that would be just eliminate a huge annoyance from all of our lives.
+[1:08:35.920 --> 1:08:39.360]  But it's also what drives some people who don't like Apple crazy,
+[1:08:39.360 --> 1:08:43.120]  which is why don't they just use micro USB and then every phone on a planet,
+[1:08:43.120 --> 1:08:49.120]  whatever the same adapter, which I have to admit, that's, that's not unreasonable,
+[1:08:49.120 --> 1:08:53.600]  you know, it's a trade off. Do you want to, you know, do what everybody else does,
+[1:08:53.600 --> 1:08:55.200]  or do you want to try to do something better?
+[1:08:56.080 --> 1:09:01.680]  Yeah, well, I look at micro USB and it's like, it's the epitome of design by committee,
+[1:09:01.680 --> 1:09:07.840]  right? And it's just, and it was, it's defined by a consortium of companies that
+[1:09:07.840 --> 1:09:15.040]  were saying, let's make a universal serial connector. And things that are designed by
+[1:09:15.040 --> 1:09:22.800]  committee are often not optimal, right? And I look at the lightning connector, and it's
+[1:09:22.800 --> 1:09:28.880]  pretty optimal. It's affecting, they've done some crazy stuff with that.
+[1:09:28.880 --> 1:09:32.960]  Well, it led very least it's better than anything I've ever seen from anybody else.
+[1:09:32.960 --> 1:09:37.920]  Yeah. Yeah. Mark Edwards, this is going back about five minutes.
+[1:09:37.920 --> 1:09:46.240]  Mark Edwards, who I think was very much in doubt about my predictions for screen sizes.
+[1:09:46.240 --> 1:09:50.400]  And he had a tweet earlier, you know, day or so after I published where he was,
+[1:09:50.400 --> 1:09:54.080]  you know, something defective, he was very skeptical of any screen sizes that aren't
+[1:09:54.080 --> 1:09:59.520]  divisible by 16. But then he went, he did something interesting that I didn't think to do is
+[1:10:00.880 --> 1:10:07.680]  made a whole list of recent iMac, MacBook Pro, MacBook Air, iPad, and etc.
+[1:10:09.120 --> 1:10:16.560]  Devices. And saw which ones were divisible by 32, 16, 8, 4. And
+[1:10:19.360 --> 1:10:24.000]  the MacBook Air, there's an 11 inch MacBook Air that
+[1:10:24.000 --> 1:10:31.440]  isn't divisible by any of those numbers, that it's got a 1366 screen size width, which isn't
+[1:10:31.440 --> 1:10:39.120]  even divisible by four, let alone eight or 16. There's a 13 inch MacBook Air where the height
+[1:10:39.840 --> 1:10:44.160]  is 900, which is only divisible by four, not even by eight.
+[1:10:46.400 --> 1:10:48.800]  And there's a couple others that aren't divisible by 16.
+[1:10:48.800 --> 1:10:53.680]  So it's not completely unprecedented. Like that was, there was a bunch of people who were like,
+[1:10:53.680 --> 1:10:59.680]  hey, graphics cards want everything in 16 pixel increments. That may be so, but that hasn't
+[1:10:59.680 --> 1:11:01.680]  stopped Apple with MacBooks before.
+[1:11:03.280 --> 1:11:07.760]  Yeah, well again, it's just a matter of getting those textures that are on the GP. And the textures
+[1:11:07.760 --> 1:11:13.280]  are going to be by the line. You know, that just for performance reasons, right? The whole
+[1:11:13.280 --> 1:11:19.600]  graphics pipeline is, it's going to want to be, you know, even numbers, probably, you know, even
+[1:11:19.600 --> 1:11:25.520]  word sizes, you know, so, right? So there's something that's going to line to 64 bits or 32 bits
+[1:11:25.520 --> 1:11:31.040]  or whatever that the bit size is for the, right? So in other words, they'll round up for when
+[1:11:31.040 --> 1:11:32.800]  they're sending stuff to the GPU.
+[1:11:32.800 --> 1:11:36.960]  Oh, that's just, yeah, that's just over right. You know, it's like, okay, yeah, okay, it, you know,
+[1:11:36.960 --> 1:11:41.680]  those last two pixels that would have been perfect, just go off into the ether, they don't go
+[1:11:41.680 --> 1:11:50.320]  actually go to the display. So yeah, it's, again, you know, that's, you know, the,
+[1:11:53.920 --> 1:12:01.680]  for so long, you know, we've, we've been tied to display hardware is the thing that this
+[1:12:01.680 --> 1:12:09.360]  driving our operating systems or resolutions in our software that, you know, the dimensions in
+[1:12:09.360 --> 1:12:20.320]  our software. And that's the thing that's going away is that we, we've got to stop thinking
+[1:12:20.320 --> 1:12:26.480]  about the hardware and start thinking about hard design, thinking about our layouts.
+[1:12:29.680 --> 1:12:34.400]  Yeah, that's going to be hard. That's going to be a hard thing that, you know, as, you know, we've all,
+[1:12:34.400 --> 1:12:42.080]  you know, it's like, that's the thing that, you know, this, this odd number width and height
+[1:12:42.080 --> 1:12:49.680]  for the 4.7 inch display just makes the hairs on the back of my neck stand up, right?
+[1:12:49.680 --> 1:12:54.800]  Because I know, because I know it's going to cause problems, right? It's like, you know, when we
+[1:12:54.800 --> 1:13:01.600]  went from, from 32 bits to 64 bits, right? It's like, oh, it was just, you know, twice as big,
+[1:13:01.600 --> 1:13:06.240]  was it, but yeah, you make assumptions in your software all over the place that, well, this
+[1:13:06.240 --> 1:13:12.880]  integer is going to be 16 bits, ever, forever, right? You know, it's never going to change, it's
+[1:13:12.880 --> 1:13:19.680]  only 16 bits. So, you know, then all of a sudden, it's like 32 bits, oh, crap. I remember 8 bit
+[1:13:19.680 --> 1:13:27.760]  ends. Yeah, I remember ends that max out it. What is that? 60, 65, 55, yeah.
+[1:13:27.760 --> 1:13:34.720]  So, yeah, yeah, that was at the 8 bit microprocessor with a 16 bit address space.
+[1:13:36.560 --> 1:13:44.000]  Right, right. So, yeah, did declare a long end day to get a 60. But, you know, again,
+[1:13:45.760 --> 1:13:52.000]  sometimes we do have some Pascal strings were 256 characters. Exactly, exactly. You had to have
+[1:13:52.000 --> 1:13:57.440]  that, that, that bite in there to tell you how long the string was. It's like, you know, you want
+[1:13:57.440 --> 1:14:06.960]  Unicode with that? Screw you. And you have to think it's like, throughout the history of, of computing,
+[1:14:06.960 --> 1:14:15.520]  right? We've, we've taken shortcuts, either for, on, you know, caused by laziness or either
+[1:14:15.520 --> 1:14:23.760]  as a device. Yeah, deliberate act for performance, right? You know, so, you know, we have shortcuts
+[1:14:23.760 --> 1:14:30.480]  all over our code. And I don't think, for example, I don't think the 32 kilobyte limit in the original
+[1:14:30.480 --> 1:14:37.120]  text edit controls in macOS. I don't think that was laziness. I think that was a very practical
+[1:14:37.120 --> 1:14:44.560]  decision, given the constraints of the original Mac hardware. But then eventually, we had all
+[1:14:44.560 --> 1:14:49.440]  these apps with all these text fields that were using the system, text edit control that
+[1:14:49.440 --> 1:14:54.560]  couldn't show more than 32 kilobytes of text. Right. You know, and eventually it was, you know,
+[1:14:54.560 --> 1:15:00.080]  the computers clearly had the, you know, the memory to, to allow it. But now you had all this
+[1:15:00.080 --> 1:15:06.960]  software to rewrite. Yeah, it was the same thing with, you know, UTF, right? It's like,
+[1:15:06.960 --> 1:15:15.680]  UTF really didn't take off until UTF-8 came around because it could handle the old ASCII
+[1:15:16.480 --> 1:15:23.440]  characters. That's well. But then you could add on, you know, you could have special sequences
+[1:15:23.440 --> 1:15:30.560]  of character strings that would. I would hold that up. I would hold up UTF-8 as a pretty good
+[1:15:30.560 --> 1:15:39.280]  design by committee. Yeah. Very pragmatic. Very, very pragmatic. I remember, I remember, I
+[1:15:39.280 --> 1:15:43.040]  may have missed remembering this, but I seem to remember that there were an awful lot of people
+[1:15:43.680 --> 1:15:49.120]  who thought it was, who, who held their nose at UTF-8. And we're like, well, it'll be a stop gap
+[1:15:49.120 --> 1:15:54.320]  for a year or two before everybody switches to UTF-16. Right. And it was like UTF-16 was like the
+[1:15:54.320 --> 1:16:02.960]  equivalent of, uh, uh, HTML 4.0 strict, right? Really, you know, that HTML standards that never
+[1:16:02.960 --> 1:16:09.600]  really, or XHTML, right? Like it was the way things were supposed to be. Right. We'll let you,
+[1:16:09.600 --> 1:16:15.760]  we'll let you have your tag soup HTML now, but soon we'll switch to XHTML. And if you're,
+[1:16:15.760 --> 1:16:21.360]  if you're, if you're, uh, web page doesn't validate as an XML document, we'll throw up an error.
+[1:16:21.360 --> 1:16:28.960]  Right. Right. And I feel like UTF, I feel like the people on the who did UTF-8 were like,
+[1:16:28.960 --> 1:16:34.240]  we'll let those eggheads go and blather on. And in the meantime, we'll make a very practical
+[1:16:35.920 --> 1:16:40.640]  system that is actually, you know, going to work. And a few years later,
+[1:16:41.360 --> 1:16:48.640]  along comes UTF-32, right? Because they ran off a chase with the 16. It's classic, right? It's
+[1:16:48.640 --> 1:16:54.000]  like, oh, you know, 16 bit should be enough for anybody. Any character set, you know, that's
+[1:16:54.000 --> 1:17:01.360]  like, no, it's not. Sorry. Right. You've got to go change all your code now. Right. They
+[1:17:01.360 --> 1:17:07.520]  effectively made the same to sit. They made the same mistake that, uh, that we ran into the
+[1:17:07.520 --> 1:17:13.200]  first time with 256 character. Yeah. And the thing that cracks me up is UTF-8 is never more than
+[1:17:13.200 --> 1:17:23.520]  32 bits long. Right. So worst case, it's equal to the maximum UTF-32 words are.
+[1:17:25.120 --> 1:17:31.520]  So yeah. Yeah. And in the common case, it's way smaller than you do. Oh, yeah. Yeah. So anyway,
+[1:17:32.560 --> 1:17:37.040]  on with that, let me take another break here and thank our good friends at Squarespace. You guys
+[1:17:37.040 --> 1:17:45.600]  know Squarespace. They're the all in one web publishing hosting platform. You go to Squarespace.
+[1:17:45.600 --> 1:17:52.160]  You sign up for a website. You get your own domain name. You get templates to choose from.
+[1:17:52.160 --> 1:17:57.680]  You have all sorts of components. You can just plug and play graphically in their editor to make
+[1:17:57.680 --> 1:18:01.600]  your own website. You want to have your Twitter feed show up in a sidebar. You can do that.
+[1:18:01.600 --> 1:18:08.640]  You want to have a gallery of images. You can add that. You want to have a blog. You can do that.
+[1:18:08.640 --> 1:18:14.080]  You want to publish a podcast. They've got great tools for that. All of it, Dragon Drop,
+[1:18:14.080 --> 1:18:19.280]  very visual. If you want to, you can always drop down. If you know how to do code, you can modify
+[1:18:19.280 --> 1:18:24.800]  the CSS. You can inject your own JavaScript. You can do all sorts of stuff like that. All of their
+[1:18:24.800 --> 1:18:31.040]  templates are responsive. They look great on everything from iPhone to the big screen. They have
+[1:18:31.040 --> 1:18:40.320]  24 seven. Every day of the year, live tech support with teams in Dublin, New York and Portland
+[1:18:40.320 --> 1:18:46.560]  Oregon, email or chat. No phone calls. Who wants to talk on the phone? To me, that's actually an
+[1:18:46.560 --> 1:18:50.640]  advertising point that you don't have to call them. You just get on their website, go to chat,
+[1:18:50.640 --> 1:18:55.360]  ask them, hey, I need help with this template thing. They know everything about it and they are
+[1:18:55.360 --> 1:19:02.400]  happy to help. Go there and sign up. If so, if you need a website, I know, I say this all the time.
+[1:19:02.400 --> 1:19:07.760]  They've been sponsoring the show for years. Who knows them? Maybe you didn't need a website
+[1:19:07.760 --> 1:19:11.440]  until recently, but now you have something you want to sell. You want to sell t-search or something
+[1:19:11.440 --> 1:19:16.640]  like that. They can do that. They have online commerce. Here's where you go. Go to squarespace.com
+[1:19:16.640 --> 1:19:24.080]  slash grouber, my last name, squarespace.com slash grouber. When you sign up, you get a free trial.
+[1:19:24.080 --> 1:19:29.040]  Number one, you can start with a free trial. Try it out. No credit card required. Do that.
+[1:19:29.040 --> 1:19:34.800]  They'll know you came from the show. When you do sign up, use the offer code JG, just my initials,
+[1:19:34.800 --> 1:19:39.600]  and you'll get 10% off. If you pay for a year in advance, they'll do, you'll get your own top-level
+[1:19:39.600 --> 1:19:44.160]  domain registered right from them. Go there and check them out. My thanks to squarespace.
+[1:19:44.160 --> 1:19:48.560]  I got a question for you, Craig. We were talking about this before. I kind of cut you off because I
+[1:19:48.560 --> 1:19:55.840]  wanted to go deep in between sponsor breaks. How do you think legacy apps are going to run
+[1:19:55.840 --> 1:20:02.640]  on the new iPhones? We have two kinds. You said ones that weren't even updated for iOS 7. I was
+[1:20:02.640 --> 1:20:13.520]  just thinking about size. I've given a lot of thought to this. I actually haven't. I'm just going
+[1:20:13.520 --> 1:20:21.280]  to kind of wait a year. With the aspect ratio staying the same, it's to me a totally different
+[1:20:21.280 --> 1:20:28.400]  change from the iPhone 4 to the iPhone 5, where they letterboxed it and they had black at the top
+[1:20:28.400 --> 1:20:33.920]  and bottom and they just ran it at the pixel for pixel same size. If you didn't update for the new
+[1:20:33.920 --> 1:20:41.440]  16-9 display, you just got, I call it letterboxed. You just have black bars. The equivalent now
+[1:20:41.440 --> 1:20:45.680]  would be to letter, you'd have to letterbox on all four sides because there's going to be more
+[1:20:45.680 --> 1:20:52.720]  pixels in both dimensions. If they did the same thing, you would get a 640 by 1136 app in the middle
+[1:20:52.720 --> 1:21:00.160]  of your screen. I don't think they'll do that. The thing that is complicated there is that
+[1:21:01.280 --> 1:21:08.400]  you've got apps that are potentially using auto layout or you've got apps that are potentially
+[1:21:08.400 --> 1:21:18.240]  using strings and strings and struts, which are an older technology, but allow you to make
+[1:21:19.360 --> 1:21:25.120]  adaptive layouts, not quite as eloquently as the new way without a layout, but they still can adapt.
+[1:21:28.080 --> 1:21:32.560]  Do you think that it's possible though that even without recompiling with the iOS 8 SDK
+[1:21:32.560 --> 1:21:37.840]  and submitting an update? I don't have the question. I think you're going to have to submit
+[1:21:37.840 --> 1:21:41.760]  an update. I think you're going to have to have an update. Flip some bid in your code saying,
+[1:21:41.760 --> 1:21:46.240]  yeah, I've tested this. It's going to have to go through app review again and they're going to
+[1:21:46.240 --> 1:21:51.760]  say, yep, this looks okay. I think depending on how you wrote your app to this date, if you use
+[1:21:51.760 --> 1:21:56.640]  things like springs and struts, or if you've been using auto layout, you're probably in good shape,
+[1:21:56.640 --> 1:22:01.840]  but you're still going to have to at least recompile it. You said, do something in a P list,
+[1:22:01.840 --> 1:22:09.680]  you're info dot P list that says, I'm ready for, it was like what we had to do with the new
+[1:22:09.680 --> 1:22:18.800]  tall screen, the foreign screen. It was a matter of putting in a new launch image that was the
+[1:22:18.800 --> 1:22:24.240]  right size. It's like, oh, okay, I've got the new launch image. They're okay for the iPhone 5.
+[1:22:25.200 --> 1:22:31.200]  I think if you don't, let's say you just haven't submitted your app is just sitting there. There is
+[1:22:31.200 --> 1:22:38.480]  no update to the app. The app that's there today in August is still there in late September
+[1:22:38.480 --> 1:22:45.280]  when the new iPhone ships and you launch it on the phone, I think it will, the system will scale
+[1:22:45.280 --> 1:22:54.400]  the app to fill the screen. So in the same way, if it's compatible with the iPhone 5, yeah,
+[1:22:54.400 --> 1:23:04.480]  if it's something iOS 6 that there are still apps out there that are running on five inch
+[1:23:04.480 --> 1:23:08.720]  displays. I mean, that's one of the problems with the app store right now is that there's so
+[1:23:08.720 --> 1:23:15.440]  many apps out there that have never seen an update because it's not profitable for the developer
+[1:23:15.440 --> 1:23:22.160]  who wrote the app today. Or it was a commission, somebody hired contractors and they submitted
+[1:23:22.160 --> 1:23:26.000]  and they were all going, oh, and then the contract's over and now the app just sits there
+[1:23:26.000 --> 1:23:31.520]  and never gets updated because there isn't even a team of developers who are choosing not
+[1:23:31.520 --> 1:23:36.960]  to update it. They were hired. The contract's over and the app, it's just there. I don't know what
+[1:23:36.960 --> 1:23:44.640]  they're going to do. Maybe for like an app that still assumes a 3.5 inch screen, it'll zoom to fill
+[1:23:44.640 --> 1:23:48.800]  the width and they'll still have black bars at the top and bottom. I can't imagine that they would
+[1:23:48.800 --> 1:23:56.480]  stretch it. I think it'll just fill the width. I'm only thinking about the common case,
+[1:23:56.480 --> 1:24:03.600]  which is apps that are iOS 7 apps that are already 16 to 9, but that they're hard-coded for
+[1:24:03.600 --> 1:24:09.520]  640 by 1136. I think that the system will scale them dynamically to fill the screen.
+[1:24:11.120 --> 1:24:17.280]  And I don't think it'll look that bad. I think people who really do notice pixel-level details
+[1:24:17.280 --> 1:24:21.760]  will be appalled and they'll be, if, you know, for designers and developers who have apps in
+[1:24:21.760 --> 1:24:25.520]  this story, they're going to be motivated to get them updated as quickly as possible. But I think
+[1:24:25.520 --> 1:24:29.600]  it'll, I think it'll stretch images to fill the screen. Yeah, I think it'll stretch everything.
+[1:24:29.600 --> 1:24:35.520]  Because they're all at 16 to 9, it'll stretch in proportion. That's what I think. Because I don't
+[1:24:35.520 --> 1:24:42.720]  think, I think Apple would rather have apps that look a little blurry. And I don't think it'll
+[1:24:42.720 --> 1:24:50.640]  look nearly as blurry as, um, because I've played with, yeah, it won't be like when we went
+[1:24:50.640 --> 1:24:55.920]  for one X to two X or even for four inch. It won't look like that. Three and a half inch to four
+[1:24:55.920 --> 1:25:00.000]  inch. Yeah. All right. Well, one X to two X is probably the best example, where if you had an app
+[1:25:00.000 --> 1:25:03.920]  that wasn't updated for retin and you launched it on the iPhone 4, it just looked terrible.
+[1:25:04.880 --> 1:25:10.240]  It's not going to look like that. I've taken like screenshots of springboard and Vesper and a few
+[1:25:10.240 --> 1:25:18.160]  other apps and just scaled them up in a corn by the multiple and then just shown them on at 100%
+[1:25:18.160 --> 1:25:26.640]  size on like a retina iPad. And it's not, I've obviously it can't be pixel perfect crisp, but it's
+[1:25:26.640 --> 1:25:32.400]  not that bad. And I think it is sort of comparable. It's a little bit worse, but it's sort of
+[1:25:32.400 --> 1:25:39.840]  comparable to the retina MacBook Pro scaling we talked about earlier. Yeah, show. I think the average
+[1:25:39.840 --> 1:25:47.120]  person won't notice if the text is scaled correctly. Right. Yeah. If the text comes out crisp,
+[1:25:47.920 --> 1:25:52.480]  then you're going to get away with a lot. Right. Yeah. You know, yeah, there are going to be
+[1:25:52.480 --> 1:25:58.880]  designers out there that are like, you know, screeching and moaning about the, you know,
+[1:25:58.880 --> 1:26:03.600]  they're a little bit aliasing in those images. Yeah. Well, then get stretching and get your
+[1:26:03.600 --> 1:26:10.400]  all date submitted exactly. But, you know, that the, if the text is readable, you know, that's the
+[1:26:10.400 --> 1:26:17.360]  thing that, you know, a lot of people are driven by what they see textually not by what they see
+[1:26:17.360 --> 1:26:22.320]  graphically. Well, and you know, it's just an awful lot of what we do, you know, reading messages,
+[1:26:22.320 --> 1:26:26.480]  their texts, we're reading emails, their texts, we're reading web pages, it's mostly text.
+[1:26:28.320 --> 1:26:31.840]  You know, and video will be just fine. It'll be a little blurrier than it would be if it was
+[1:26:31.840 --> 1:26:37.360]  updated natively. But, um, I think they're going to maybe not, maybe not even video because a lot
+[1:26:37.360 --> 1:26:42.240]  of apps use the standard movie player controller. Yeah, you're right. And in which case it'll just
+[1:26:42.240 --> 1:26:48.240]  should just work. I think the big thing is that somebody who splunks down the money for the big
+[1:26:48.240 --> 1:26:56.480]  ass 5.5 inch iPhone, which I think is going to carry a $100 price premium at least because it's,
+[1:26:56.480 --> 1:27:00.320]  you know, got this super big display and everything. And I think they're going to be able to get
+[1:27:00.320 --> 1:27:05.600]  away with that. I think there's going to be demand that justifies it. You splunk down the money to get
+[1:27:05.600 --> 1:27:13.200]  a big ass 5.5 inch iPhone and it's going to be big. And then all of your non Apple apps are small.
+[1:27:13.200 --> 1:27:19.120]  I just think that's a non starter. Like as long, you know, you buy a big phone, you expect big apps.
+[1:27:19.120 --> 1:27:25.200]  And even if they're a little blurry, that's better than having them run in a ridiculous silly little
+[1:27:25.200 --> 1:27:30.640]  letterboxed on all four sides rectangle in the middle of your screen. I think they're just going
+[1:27:30.640 --> 1:27:35.760]  to scale it and be done with it. And that's it, you know, and going from the 4 inch phone to the
+[1:27:35.760 --> 1:27:41.760]  4.7 inch phone is not even that big of a scaling factor. I think scaling them up for the 5.5
+[1:27:41.760 --> 1:27:46.800]  inch is going to be a little, little gross, but still won't be anywhere near as bad as the
+[1:27:46.800 --> 1:27:51.840]  the one X apps on the two X iPhone were back in 2010. And they did that.
+[1:27:51.840 --> 1:27:58.480]  Yeah, what is the percentage increase? It's 68%. So it'll be 1.68.
+[1:28:00.720 --> 1:28:03.040]  But they're going to have all those extra pixels to smooth it out.
+[1:28:04.880 --> 1:28:09.760]  Right. I just think it's going to end up being surprising compared to those of us who still are
+[1:28:09.760 --> 1:28:14.880]  scarred from what the one X apps looked like on the original retina iPhone 4.
+[1:28:16.160 --> 1:28:19.360]  It's even on the 5.5 inch phone. I don't think it's going to be that bad.
+[1:28:19.360 --> 1:28:24.640]  And I wouldn't be surprised if they do something where if you're using, you know,
+[1:28:24.640 --> 1:28:30.240]  UI text or something like that, that it's that the text will scale at the right,
+[1:28:30.240 --> 1:28:36.160]  you know, with the right proportions. Yeah, but I could see things falling apart if,
+[1:28:36.160 --> 1:28:40.640]  you know, say somebody has a text view and they say, okay, I want this image to draw,
+[1:28:40.640 --> 1:28:46.640]  you know, 10 pixels to the right of this text view for some reason. Right. How does
+[1:28:46.640 --> 1:28:52.880]  how does the system handle that? Right. How does it know what the right thing to do is?
+[1:28:57.440 --> 1:29:00.560]  Yeah, it's not going to be imperfect, but I think that's what they're going to do.
+[1:29:00.560 --> 1:29:03.280]  I definitely think they're going to scale them to fill the screen.
+[1:29:03.280 --> 1:29:08.000]  Yeah, well, that there's definitely going to be motivation for developers to get their
+[1:29:08.000 --> 1:29:18.480]  apps. I mean, and the fact is that any responsible developer has had since June to look at this
+[1:29:18.480 --> 1:29:23.840]  stuff and to run it in this emulator, it all sorts of weird sizes and make sure it does the right
+[1:29:23.840 --> 1:29:33.040]  thing. I know we've done it with our apps. It's just, you know, you want to avoid surprises,
+[1:29:33.040 --> 1:29:38.560]  but again, there are going to be, you know, those development teams that were put together to build
+[1:29:38.560 --> 1:29:44.480]  an app and, you know, the marketing budget paid for the app and the marketing people don't
+[1:29:44.480 --> 1:29:49.440]  understand what size classes mean or even the fact, you know, they do, oh, there's a bigger iPhone,
+[1:29:49.440 --> 1:29:54.960]  what does that mean? And until they actually see their app running on that iPhone and go, oh,
+[1:29:54.960 --> 1:30:02.400]  crap. Yeah, we got to fix this. Get those guys back in here. I remember hearing about the
+[1:30:02.400 --> 1:30:08.080]  stories like that when that, like when the retina iPhone, yeah, it gives a crap, you know,
+[1:30:08.080 --> 1:30:15.280]  like the old iPhone looks fine. It'll look fine. If the old iPhone had such an amazing screen,
+[1:30:15.280 --> 1:30:19.920]  how bad could it look on the new screen? And then only when it came out where they were they
+[1:30:19.920 --> 1:30:27.440]  appalled and started jumping all over it. Yeah, as geeks, we tend to be more sensitive to that
+[1:30:27.440 --> 1:30:32.880]  than the most people, but yeah, most people can tell when, you know, presented with this stuff,
+[1:30:32.880 --> 1:30:42.160]  it's like, oh, that's not right. It opens up a lot of interesting scenarios too as far as Apple's
+[1:30:42.160 --> 1:30:50.080]  concern, right? Once you have this notion of UIs that kind of adapt to different sizes, right? Well,
+[1:30:50.080 --> 1:31:01.200]  all of a sudden, what about a UI for an Apple TV or what about a UI for some wearable device or,
+[1:31:01.200 --> 1:31:09.360]  you know, things don't necessarily have to be that magic, you know, 320 or 640 with
+[1:31:10.160 --> 1:31:16.480]  or that magic 11. God, I always forget what that is, it's 1156.
+[1:31:16.480 --> 1:31:25.120]  No, 1136. 1136. You know how I remember it. I remember it by the the classic George Lucas
+[1:31:25.120 --> 1:31:32.880]  movie, THX 1138. It's two, it's two last. Why couldn't they have made it a little? And that's
+[1:31:32.880 --> 1:31:36.720]  what I always lament is why didn't they make it 1138 because then it would have been awesome.
+[1:31:36.720 --> 1:31:41.360]  And there's always that's actually a good way to remember it. It's too last. It's just
+[1:31:41.360 --> 1:31:47.680]  spitefully too less, which might be what 750 is if it's really 750, it might be too less than the
+[1:31:47.680 --> 1:31:53.760]  much neater 752. But I always remember that, right? And there's all sorts of in jokes, like in Star Wars,
+[1:31:53.760 --> 1:32:00.800]  the cell block where Princess Leia is held is cell block 1138. All of George Lucas's movies are
+[1:32:00.800 --> 1:32:08.640]  filled with the 1138. It's, it's his number. Right. But the iPhone is too off.
+[1:32:08.640 --> 1:32:16.240]  That's a good way to remember it. I will. Thank you. Yeah. Thank you as the as that size gets
+[1:32:16.240 --> 1:32:29.200]  obligated for two weeks, I'll be happy. Right. Yeah. So are you going to go with a 4.7 or 5.5?
+[1:32:29.200 --> 1:32:34.960]  That's that's my big dilemma right now. Knowing and and you know, do I want something to fit to
+[1:32:34.960 --> 1:32:41.200]  my pocket better or do I want something that, you know, it's my big, big plus people better.
+[1:32:41.200 --> 1:32:47.280]  Single most frequently asked question I've gotten over the since I've published my answer is I'm
+[1:32:47.280 --> 1:32:53.120]  going to do my best to keep an open mind. And, you know, assuming that I'm getting invited
+[1:32:53.120 --> 1:32:57.600]  to the amount of the event and get to see the devices, you know, withhold judgment until I see him.
+[1:32:57.600 --> 1:33:05.280]  Um, but in advance, what do I expect? I expect that I would, I'll get the 4.7 because my eyes
+[1:33:05.280 --> 1:33:11.520]  are not bad enough that I want a device specifically to get it bigger. And I've seen five, I've
+[1:33:11.520 --> 1:33:16.400]  seen devices with 5.5 inch displays. There's a Nokia that I played with at the build conference.
+[1:33:18.400 --> 1:33:22.960]  And it's a really interesting device just as a geek, just looking at it as a gadget. It's really
+[1:33:22.960 --> 1:33:28.560]  interesting. Um, but to me, but it does not seem like something I would want to carry around in,
+[1:33:28.560 --> 1:33:33.360]  in my pants all the time. That's, it just seems too big. Might fit your hand though like a normal
+[1:33:33.360 --> 1:33:38.560]  iPhone. It fits most of our hands. That's my, my, my, my, my, my, my, my job. My pockets are the same
+[1:33:38.560 --> 1:33:43.280]  side of your pockets are the same size, but your hands, I feel like you could be like the hand
+[1:33:43.280 --> 1:33:47.840]  model for it and make it look like it's like a normal size iPhone. Actually, I can do that with an iPad
+[1:33:47.840 --> 1:33:53.920]  mini. So, you know, it really is though. I, I'm telling you, look, I haven't seen a Nokia with a
+[1:33:53.920 --> 1:34:00.240]  5.5 inch screen. It, it is exactly what you think though, where if they didn't tell you what the
+[1:34:00.240 --> 1:34:06.080]  device was and they just say, here's the thing. And maybe if you went back two or three years before
+[1:34:06.080 --> 1:34:12.320]  the big super phones became prominent and somebody said, what do you think this is, a really huge
+[1:34:12.320 --> 1:34:17.920]  phone or a really small tablet? I, I think you would be like both. I don't know. You know, it's
+[1:34:17.920 --> 1:34:24.240]  impossible to decide. It is that big. Or if you prefer, it's that small. You know, and I think that
+[1:34:25.200 --> 1:34:34.240]  is the secret to the demand for these things. It's people who want to do more work on the device
+[1:34:34.240 --> 1:34:37.840]  they carry with them all the way, you know, all the places and, you know, in a way that Tim Cook
+[1:34:37.840 --> 1:34:43.680]  says he does is, what does he say, 80% of his work on an iPad? You know, that if you really want
+[1:34:43.680 --> 1:34:49.280]  to do a lot more of your work on the device that you carry, your phone, you, I could see how you
+[1:34:49.280 --> 1:34:56.880]  might want that. I really do. I know that I, I'm always curious to watch my wife's reaction to these
+[1:34:56.880 --> 1:35:06.320]  things because she doesn't not react to the, these changes the way that I react to. I mean,
+[1:35:06.320 --> 1:35:13.120]  she forgot when the iPad mini first, I thought iPad, iPod mini first came out. She was like,
+[1:35:13.120 --> 1:35:18.000]  oh, I got to go get one of those. And I'm like, what? It's smaller. It's got less storage spaces,
+[1:35:18.640 --> 1:35:27.120]  but it fits better in my purse. Right. Okay, different point of view. She does a lot of work on
+[1:35:27.120 --> 1:35:36.880]  her iPhone now. She doesn't even, she's doing email all the time. You know, it's like, she, that's,
+[1:35:36.880 --> 1:35:40.960]  that's almost to a detriment that she's on that thing a lot. And I could see her wanting the larger
+[1:35:40.960 --> 1:35:49.280]  one just because it's not as big as her iPad, but it lets her, you know, write longer messages,
+[1:35:50.000 --> 1:35:55.440]  presumably going to be more comfortable to type on, you know, it's going to have a split keyboard
+[1:35:55.440 --> 1:36:00.800]  or is it going to have a, you know, iPhone-esque keyboard? I wonder like when you're in, in
+[1:36:00.800 --> 1:36:06.880]  landscape mode, yeah, we have a split. I think about email and I think about how, you know,
+[1:36:06.880 --> 1:36:13.600]  it's long proven by usability studies and, you know, either bigger display, I got your desktop,
+[1:36:13.600 --> 1:36:21.040]  bigger displays or dual displays that having more desktop in front of you makes you more productive,
+[1:36:21.040 --> 1:36:25.360]  because you see, you know, we're, we're, you know, not to get all Syracuse here, but we're, you
+[1:36:25.360 --> 1:36:33.600]  know, our minds, most of our minds, for most people, we're, we're spatially, our minds think
+[1:36:33.600 --> 1:36:38.240]  spatially, and we think like my emails over here, my web browsers over here, and if you could see
+[1:36:38.240 --> 1:36:44.400]  them both at once while you're writing an email referring to a web page, your brain works better
+[1:36:44.400 --> 1:36:50.720]  than if you have to keep command tabbing between the two because they overlap. And just as a,
+[1:36:50.720 --> 1:36:56.800]  it's a little thing, but I find like when I'm reading email on my iPad, I always turn the screen
+[1:36:56.800 --> 1:37:02.000]  to landscape so I can see the list of messages and see the selected message at the same time.
+[1:37:03.280 --> 1:37:08.080]  Being able to do that on an iPhone, if they do the iPhone mail on the big phone,
+[1:37:08.720 --> 1:37:15.440]  like they did in that demo at WWDC, where they, you know, show two, two pains at once,
+[1:37:15.440 --> 1:37:20.000]  that could be a huge productivity thing. I really, I mean, for somebody who, if, if, you know,
+[1:37:20.000 --> 1:37:26.240]  business people or people who, for their work, do, you know, dozens and dozens of emails a day
+[1:37:26.240 --> 1:37:30.880]  on their phone, having a device where you can see the list of your, you know, see your inbox
+[1:37:30.880 --> 1:37:34.480]  and the selected message at the same time. I don't think that's a little thing. I think that's
+[1:37:34.480 --> 1:37:40.800]  a big thing. Or even just replying to a message, right, which is a lot of what I see my wife doing
+[1:37:40.800 --> 1:37:44.800]  is she's scrolling up and down, right? She's going to scroll down into the message to get the
+[1:37:44.800 --> 1:37:50.320]  context for her reply, which is the top of the message, right? And constantly moving back, well,
+[1:37:50.320 --> 1:37:55.520]  if the screen's bigger, you know, you can see the bottom part of the message and you can see the
+[1:37:55.520 --> 1:37:58.880]  top part of the message and you don't have to do all that scrolling back and forth. I mean,
+[1:37:58.880 --> 1:38:03.520]  it really, I think the largest screen is going to be more productive, right?
+[1:38:03.520 --> 1:38:06.640]  Yeah, for the people who are not having to scroll at all in the first place, right? You select the
+[1:38:06.640 --> 1:38:13.200]  message and you're, you know, I don't know, 300 word email to me. I see the whole thing without
+[1:38:13.200 --> 1:38:16.880]  having to scroll at all. Even though scrolling on the phone is so easy, because your thumb is
+[1:38:16.880 --> 1:38:22.080]  right there and you just do it. You know, if you're moving through 20 new emails and you want to do
+[1:38:22.080 --> 1:38:29.840]  it before, you know, your bus shows up or whatever, your train shows up that you're waiting for
+[1:38:29.840 --> 1:38:34.800]  and here it comes, you know, it makes you feel more efficient. I think it's going to be insanely
+[1:38:34.800 --> 1:38:40.080]  popular. I think my guess is there's probably going to be like a waiting list for the 5.5 and the
+[1:38:40.080 --> 1:38:45.200]  4.7 might be a little bit more available. Well, you know, according to Ben Thompson, you know,
+[1:38:45.200 --> 1:38:53.840]  he's like all his, a lot of, uh, he's the guy. So he lives in, he lives in, uh, in
+[1:38:53.840 --> 1:39:04.480]  Taiwan, Taiwan. Yeah, Taiwan. And, uh, supposedly all his wife and her friends have all gotten
+[1:39:04.480 --> 1:39:11.360]  these big Android devices and they're really looking forward to this new larger iPhone coming
+[1:39:11.360 --> 1:39:16.960]  out so they can ditch the Android device and get it back on the iPhone because they need that
+[1:39:16.960 --> 1:39:23.760]  large screen. Right? You know, maybe that, maybe that is perceived need, but probably not. It's
+[1:39:23.760 --> 1:39:29.360]  probably they have a good reason for wanting these larger screens. Uh, you know, I personally,
+[1:39:29.360 --> 1:39:38.880]  I'm not, I mean, part of me wants to get the larger screen just because it's, you know, as a
+[1:39:38.880 --> 1:39:46.480]  developer, it's the new thing. It's kind of the oddball. It's about, but both the 4.7 and the 5.5
+[1:39:46.480 --> 1:39:52.320]  or an oddball. Um, I'm not sure I'm going to want that, that larger thing in my pocket, right?
+[1:39:52.320 --> 1:39:58.560]  It's really that comes down to that. I mean, I've got an iPad that I use in the evening, you know,
+[1:39:58.560 --> 1:40:06.880]  I love my iPad mini. And, you know, what's the difference between iPad mini and a 5.5 inch iPhone?
+[1:40:07.440 --> 1:40:13.120]  Yeah, I think I think it's, you know, and I've seen people who've, you know, it's all true. It's
+[1:40:13.120 --> 1:40:17.760]  all trade offs though. Everything is. Yeah. And I've, you know, some of the skepticism that Apple,
+[1:40:17.760 --> 1:40:21.600]  you know, there's still people, even with all the rumors that there's still people who are skeptical
+[1:40:21.600 --> 1:40:27.120]  that Apple would do a 5.5 inch iPhone just on general principle. And one of the arguments is it'll
+[1:40:27.120 --> 1:40:31.920]  cannibalize sales to the iPad mini. Uh, I think that's absolutely true. But I don't think it's true
+[1:40:31.920 --> 1:40:36.960]  that it would keep Apple from doing it. I think that, you know, they want to have a continuum
+[1:40:36.960 --> 1:40:44.320]  of devices that whatever your perceived need is that you meet, you know, that you have something to buy.
+[1:40:44.320 --> 1:40:49.120]  If you want to buy an iPhone and an iPad mini, great, their Apple is twice as happy
+[1:40:49.120 --> 1:40:53.680]  than if you just bought one device. But if you really just want to buy one device, they're sure
+[1:40:53.680 --> 1:40:59.600]  shit way happier if you buy a 5.5 inch iPhone and only a 5.5 inch iPhone than if you buy a Samsung
+[1:40:59.600 --> 1:41:06.640]  Galaxy Note. Right. Exactly. And I, you know, and I think Apple, you know, has, has had that mindset
+[1:41:07.760 --> 1:41:13.600]  all along in the, you know, the post next era, you know, under Steve Jobs, under Tim Cook,
+[1:41:13.600 --> 1:41:19.680]  I think the whole company has been, you know, unafraid to cannibalize itself. So as not to be
+[1:41:19.680 --> 1:41:25.840]  cannibalized by an opponent, you know, right? It's the same way. It's a good back to the iPod mini
+[1:41:25.840 --> 1:41:31.680]  right in the iPod now. All right. And the way that Steve Jobs called the original iPhone,
+[1:41:31.680 --> 1:41:36.240]  the best iPod we've ever made, right? Right there on stage, he said, this is the best iPod
+[1:41:36.240 --> 1:41:40.000]  we've ever made. And I think it's arguable. And there are a lot of people who are like, I actually
+[1:41:40.000 --> 1:41:44.080]  kind of like my iPod for just for listening to music. But they went the other way. If anything,
+[1:41:44.080 --> 1:41:47.680]  they bragged about how, you know, you don't need an iPod, you just have this phone that has
+[1:41:47.680 --> 1:41:52.640]  everything. When at a time, when the iPod was the majority of the company's revenue and profits,
+[1:41:53.520 --> 1:41:58.320]  you know, whereas I think the traditional way that a company would be is the iPod division would
+[1:41:58.320 --> 1:42:03.280]  have such political sway within the company that they would block the, this, this,
+[1:42:03.280 --> 1:42:07.840]  yes, yes. They would be also political bullshit going on. Yeah, they would say, well, you can't
+[1:42:07.840 --> 1:42:12.560]  play music. You have to like tether your iPod to your phone to play music through it or some,
+[1:42:12.560 --> 1:42:16.640]  you know, crazy thing like that. That's the way tech companies typically worked,
+[1:42:16.640 --> 1:42:21.680]  you know, and still work is somebody would, you know, would block it. Like in the way that the crazy
+[1:42:21.680 --> 1:42:27.360]  contortions that Microsoft still goes through to put windows on everything, you know, that the
+[1:42:27.360 --> 1:42:32.320]  iPod division would have somehow, you know, done something. Let me ask another question. Do you
+[1:42:32.320 --> 1:42:37.040]  think there will be an iPod touch with these new dimensions? Let's come back to that. I'm going to
+[1:42:37.040 --> 1:42:43.360]  do that. I have one more sponsor. And let's ask me that in two minutes. Okay. I want to thank
+[1:42:43.360 --> 1:42:50.240]  our good friends. Another recurring sponsor, long time friend of the show, hover, H O V E R,
+[1:42:50.240 --> 1:42:56.320]  best domain registrar in the world. Listen to the ATP it last week. And Marco said that he gets
+[1:42:56.320 --> 1:43:00.800]  complaints every week about the way he pronounces their name. And he says exactly like, I do,
+[1:43:00.800 --> 1:43:06.400]  I think hover. And it's like, I'm the king of mispronouncing words on a podcast. I have no idea how
+[1:43:06.400 --> 1:43:14.960]  else you could pronounce. H O V E R H O V E R like what a helicopter does. Who there? I don't know.
+[1:43:14.960 --> 1:43:19.680]  I'm actually at a loss. I can't wait. I don't know if there's a new episode yet. I'm hoping
+[1:43:19.680 --> 1:43:24.320]  that there's follow up on ATP because he asked for somebody to explain how else you could pronounce it.
+[1:43:24.320 --> 1:43:32.640]  But anyway, just in case anybody is confused, it's H O V E R. They are a great and long-standing
+[1:43:32.640 --> 1:43:39.440]  domain registrar. Talk about a business that the domain registration makes the mattress business
+[1:43:39.440 --> 1:43:49.600]  look like a charity. This is the typically the scum of the earth. I mean they'll steal your money,
+[1:43:49.600 --> 1:43:53.440]  they'll swindle you. I think that there's a lot of crooked domain registrars out there that if you
+[1:43:53.440 --> 1:43:57.680]  start searching for domain names on their site, they like register them behind your back to
+[1:43:57.680 --> 1:44:02.000]  sell them to you at a higher price. I don't trust them as far as I can throw them. Hover is the
+[1:44:02.000 --> 1:44:11.280]  other way around. Really great everything. Customer service, their interface, their options, their
+[1:44:11.280 --> 1:44:18.560]  prices. They've got all of the new top-level domains that you could possibly want if you want,
+[1:44:18.560 --> 1:44:24.960]  you know, dot guru or dot plumber or whatever the hell else is available. Anything you could want,
+[1:44:24.960 --> 1:44:31.520]  hover's got it. And because, you know, if you're like me, you've got domain names registered from
+[1:44:31.520 --> 1:44:37.200]  10, 15 years ago and you did it all over the internet with no really rhyme or reason or long-term
+[1:44:37.200 --> 1:44:42.080]  thinking. They've got this amazing thing. You sign up for hover and it's called
+[1:44:43.840 --> 1:44:49.040]  valet service. You just talk to them. You say, look, I've got these domains at this other company,
+[1:44:49.040 --> 1:44:55.520]  whatever it is. Give your login to the other company to your rapid hover and they'll go through
+[1:44:55.520 --> 1:45:02.320]  all of the stuff to move your DNS and set up. Valet transfer service. It's completely painless
+[1:45:02.320 --> 1:45:06.720]  and they do it for free. They care the whole process for you because they know this is why they
+[1:45:06.720 --> 1:45:12.080]  do it. You think, wow, that's too good to be true. It hit the total pain in the budget. It's a huge
+[1:45:12.080 --> 1:45:18.160]  pain in the ass, but they do it. Their valet transfer experts do it all the time. That's all
+[1:45:18.160 --> 1:45:22.720]  the specialize in it. So they know DNS and screwing up your DNS. Oh, it's the worst.
+[1:45:22.720 --> 1:45:28.720]  Yeah, or even to just, or you have how to initiate the transfers between the domains. It's an
+[1:45:28.720 --> 1:45:35.280]  every domain registrar has a little bit different process. They call it a lock or they call it a
+[1:45:35.280 --> 1:45:41.280]  whatever. Hover knows how to handle this way. Honestly, that alone is the best thing that they have.
+[1:45:41.920 --> 1:45:46.400]  Totally personal, totally professional, really, really cool customer service.
+[1:45:46.400 --> 1:45:50.880]  If you don't already have your own domain name, you can get a domain name. Then you have your
+[1:45:50.880 --> 1:45:54.480]  own email address. You can have it for the rest of your life and instead of having a stupid
+[1:45:54.480 --> 1:45:58.560]  Gmail or whatever email address, get your own domain name and you'll have an email address that
+[1:45:58.560 --> 1:46:02.000]  you can take with you wherever you go for the rest of your life. You won't regret it.
+[1:46:03.600 --> 1:46:09.040]  They even have email forwarding. It's just five bucks and then you can just use your same inbox
+[1:46:09.040 --> 1:46:13.920]  where you have your email now. You don't have to change anything except that your email will come to
+[1:46:13.920 --> 1:46:21.840]  your new, you know, at whatever.com. Where do you go to find out more? Easy. Go to hover.com
+[1:46:23.280 --> 1:46:33.920]  and when you sign up, use this code. Promo is good for 10% off the entire purchase for all new
+[1:46:33.920 --> 1:46:43.600]  customers. Here's the code, Chowder, C-H-O-W-D-E-R. Hover comes up with the best like per show code
+[1:46:46.000 --> 1:46:53.760]  Chowder, Chowder, go to hover.com and check them out. If you need a new domain name go there
+[1:46:53.760 --> 1:46:58.240]  and if you have domain name somewhere else, go to hover and sign up and have their valet service
+[1:46:58.240 --> 1:47:04.800]  move them over. You won't regret it. So, my thanks to them. All right. What was your question again?
+[1:47:05.840 --> 1:47:14.880]  My project. That's a great question. So, I was just thinking about this, looking at some of these
+[1:47:14.880 --> 1:47:19.760]  product links that have come out or leaks, you know, the new iPhones and what they look like and
+[1:47:19.760 --> 1:47:26.640]  how they kind of look like the form factor of the current iPad. Last year there were no new
+[1:47:26.640 --> 1:47:32.080]  iPod touches. It's the ones, if you go into the Apple store today, they're effectively the same ones
+[1:47:32.080 --> 1:47:38.240]  that have been on sale for two years. And I think the previous generation was the same way,
+[1:47:38.240 --> 1:47:43.120]  where they've got, it seems like now for four years they've had the iPod touch on a two-year cycle.
+[1:47:44.320 --> 1:47:48.720]  So, if that stays the same, there will be new ones this year, but there have been no rumors about it.
+[1:47:48.720 --> 1:47:54.720]  That doesn't prove anything, but who knows. But the thing I remember is at the event, the Apple event
+[1:47:54.720 --> 1:48:03.200]  where the iPhone 5 was announced. And they said, okay, you know, it was a press event,
+[1:48:03.200 --> 1:48:06.720]  anyway, thank you very much. You know, there's a room over there. You guys, if you,
+[1:48:06.720 --> 1:48:10.720]  anybody want to have a hands-on, you go over it. And so, I went over there and I was with MG Seagler.
+[1:48:12.320 --> 1:48:16.640]  And everybody made a bum rush for the phones and the iPhones. And I wanted to see them too.
+[1:48:17.440 --> 1:48:21.520]  But the iPod touch, the new iPod touches were there too. And it was, the table they were
+[1:48:21.520 --> 1:48:25.360]  almost far less crowded. So, MG and I went over there and we were looking at the,
+[1:48:26.160 --> 1:48:32.000]  at the, at the iPods. We played with the phone for a little bit, but we, you know, left to the side
+[1:48:32.000 --> 1:48:36.720]  because it was just too crowded. We go over and look at the iPods and they were so amazingly thin.
+[1:48:36.720 --> 1:48:43.280]  It was like, I just can't believe how thin this is. I know I've only spent a grand total of
+[1:48:43.280 --> 1:48:48.480]  like 20 seconds with the new iPhone 5. And I'm already kind of more impressed by this device
+[1:48:48.480 --> 1:48:57.360]  because it's so much thinner. And the iPhone 5 and the 5S are about as thin as the two
+[1:48:57.360 --> 1:49:04.880]  generation ago iPod touch, like pretty much throughout, pretty much for the entire life of the
+[1:49:04.880 --> 1:49:10.720]  iPhone. The iPod touch has been a generation ahead in terms of how thin the next one is going to
+[1:49:10.720 --> 1:49:16.560]  be. If there is one, it would be amazingly thin. Hey, this is Dave cutting into let you know
+[1:49:16.560 --> 1:49:20.320]  that Craig's audio is about to go haywire here in a minute. I don't know what happened. Maybe
+[1:49:20.320 --> 1:49:25.360]  he had a wrong button or like nine wrong buttons, but it only goes that way for a minute or so.
+[1:49:25.360 --> 1:49:29.440]  And then it goes back to normal. So, don't freak out. Also, this cut in was brought to you by
+[1:49:29.440 --> 1:49:34.000]  Squarespace. So, I don't know. I don't know what to expect though, because, and it's, you know,
+[1:49:34.000 --> 1:49:41.440]  you know, like the back of the camera, the camera's visualization. I can't see a 5 from 5 inch iPod touch.
+[1:49:42.480 --> 1:49:43.520]  No, I don't either.
+[1:49:43.520 --> 1:49:47.920]  If it's too, it's like, if I get, like, getting it out of that kind of deterrent story,
+[1:49:47.920 --> 1:49:55.680]  you know, you know, it's seven. You'd be great at playing games. It would be, you know,
+[1:49:55.680 --> 1:50:01.280]  awesome, awesome music. Great, great. I'll have time.
+[1:50:03.760 --> 1:50:08.160]  Kind of see it's like a, you know, that, you know, the point of the point of seven,
+[1:50:08.160 --> 1:50:17.760]  there would make sense. I mean, it's kind of like the, what, 36, 6.40 is just getting it together,
+[1:50:17.760 --> 1:50:39.760]  that's exactly what I mean. I mean, I don't even know that there would probably be a, the size of the
+[1:50:39.760 --> 1:50:59.680]  six. I don't know what I'm so terrible. Of all the things I, I can predict predicting names,
+[1:50:59.680 --> 1:51:03.760]  I'm never right. So I'm not even going to bother. If I had to guess though, it would be
+[1:51:03.760 --> 1:51:10.960]  something like iPhone six and iPhone six L, but I honestly don't know where the six would be
+[1:51:10.960 --> 1:51:18.800]  the 4.7 inch one. And it's defined as being the, that's like the standard iPhone six. And the
+[1:51:18.800 --> 1:51:23.680]  iPhone, the big one, the 5.51 is the one that, you know, I know people have tossed around the name,
+[1:51:23.680 --> 1:51:28.720]  I, I, I phone air. That doesn't make sense to me though for either one. I don't know.
+[1:51:28.720 --> 1:51:36.320]  Maybe the 4.7 would be called the air. I don't know, but basically there's going to be
+[1:51:37.680 --> 1:51:47.760]  5.5 inch, 4.7 inch, a 4 inch. And that's probably it. Here's why I don't think that there
+[1:51:47.760 --> 1:51:56.080]  will be a 5.5 inch iPod touch is that I think, as I've said, I think the 5.5 inch iPhone is going
+[1:51:56.080 --> 1:52:03.600]  to go triple retina. And I don't think the 4.7 will. And we can, I should talk about that too,
+[1:52:03.600 --> 1:52:06.800]  because that's part of the follow up by, you know, a lot of people are pushing me back on that,
+[1:52:06.800 --> 1:52:12.400]  maybe be the last point. But they're going to, I think they're going to charge at least an
+[1:52:12.400 --> 1:52:18.320]  extra hundred bucks for the same size for the 5.5. But that's for the most of the markets where
+[1:52:18.320 --> 1:52:23.200]  the iPhone is strongest, it's subsidized pricing where you buy your iPhone with a two-year contract
+[1:52:23.200 --> 1:52:28.080]  and the real price is hidden. That's going to be a super expensive screen. It's going to be
+[1:52:28.080 --> 1:52:31.920]  a super expensive battery. Everything's going to be more expensive than that.
+[1:52:33.440 --> 1:52:37.200]  And I'm already spending, you're always spending a couple hundred dollars to get the iPhone
+[1:52:37.200 --> 1:52:41.600]  upgrade anyway, another hundred dollars. It's like, you know, Apple care is going to cost another
+[1:52:41.600 --> 1:52:47.520]  hundred dollars. You can't hide the price of that with the iPod touch, because the iPod touch
+[1:52:47.520 --> 1:52:52.560]  isn't something. Oh, right. Yeah. Yeah. Right. So the iPod touch, if there's a new one,
+[1:52:52.560 --> 1:52:59.440]  I think it's going to have the 4.7 inch screen. Yeah. And the same 326 pixel per inch that the iPod
+[1:52:59.440 --> 1:53:04.560]  touch already has. Right. It's just going to be a little bit bigger. And I think it's way more feasible
+[1:53:05.360 --> 1:53:09.920]  to, you know, sell it at the same price points that we're used to selling the iPod touch at.
+[1:53:09.920 --> 1:53:17.680]  And look at what the iPod touch is mainly used for, music games, video and videos. Yeah. And that's
+[1:53:17.680 --> 1:53:24.640]  all, you know, it's not a productivity thing. Right. And you know, the teenager who's getting an iPod
+[1:53:24.640 --> 1:53:29.440]  touch for Christmas is not thinking, oh, yeah, cool. I can run Microsoft Word on this now.
+[1:53:30.640 --> 1:53:38.320]  You thinking, oh, yeah, candy crush or whatever. Yeah. Whatever. You too. Yeah. Yeah. Yeah.
+[1:53:38.320 --> 1:53:41.840]  And so the last thing, and this is a big push. Right. And there's super frequently
+[1:53:41.840 --> 1:53:49.120]  asked response to my during Fireball piece over the weekend is how in the world, you know,
+[1:53:49.120 --> 1:53:56.560]  why in the world would Apple to go 3x on one, the 5.5 and 2x, stay at 2x on the 4.7. They're either
+[1:53:56.560 --> 1:54:00.720]  going to do 2x on both or they're going to go 3x on both. And there's no way they would do it
+[1:54:00.720 --> 1:54:06.880]  any other way. And there's a certain logic to that. But the more I think about it, the more I think
+[1:54:06.880 --> 1:54:12.720]  if they're going to charge more for the big one, they need to, it needs to be more technically
+[1:54:12.720 --> 1:54:21.360]  impressive, not just physically bigger. And I think there's a very serious battery life issue with
+[1:54:21.360 --> 1:54:27.440]  that where, and I'll put it in a show notes if I can remember, but there was a good piece
+[1:54:27.440 --> 1:54:34.000]  at a non tech about the push towards super high resolutions and phones going from the 300 and some
+[1:54:34.000 --> 1:54:40.240]  DPI range to 400 and some DPI. Because there's some other phones, you know, there's some HTC
+[1:54:40.240 --> 1:54:46.640]  phones with 450, 460 pixels prints. And according to them, and I, you know, I trust an on tech,
+[1:54:46.640 --> 1:54:54.720]  it takes going at the same size, going from around 350 to 450 pixels per inch comes with a 20%
+[1:54:54.720 --> 1:55:00.400]  penalty in energy consumption. Just for the display or well for the number of pixels, right?
+[1:55:00.400 --> 1:55:06.240]  At the same size, you're lighting up more transistors. Right. Not talking about the increase in size,
+[1:55:06.240 --> 1:55:12.480]  but just the increase in transistors for the number of pixels is about a 20% penalty.
+[1:55:13.440 --> 1:55:20.640]  The 5.5, according to all the components, the 5.5 inch iPhone has a 60% bigger battery.
+[1:55:20.640 --> 1:55:27.200]  So it's the battery is more than bigger enough to compensate for the 20% penalty. Whereas a
+[1:55:27.200 --> 1:55:31.920]  4.7 inch iPhone just doesn't have room for a much bigger battery than a 4.0 inch iPhone. So I
+[1:55:31.920 --> 1:55:37.920]  think a, energy consumption and b, that $100 price difference that I think they're going to charge,
+[1:55:37.920 --> 1:55:44.000]  that they can, you know, the 5.5 can still hit the iPhone sized margins and the 4.7
+[1:55:44.000 --> 1:55:49.120]  couldn't, at least not this year. And then that leaves room in the future for either next year
+[1:55:49.120 --> 1:55:54.800]  or the year after that for a three X ret and a 4.7 iPhone. But I don't think it's going to,
+[1:55:54.800 --> 1:55:59.920]  I think the reason it won't happen this year is price and energy consumption and the size of the
+[1:55:59.920 --> 1:56:04.640]  battery that they can put in the phone. That's the other thing, productivity wise,
+[1:56:04.640 --> 1:56:11.520]  productivity wise that might drive people towards the 5.5 is I wouldn't be surprised if when they
+[1:56:11.520 --> 1:56:16.960]  say, here's your expected battery life, if the 5.5 is just a preposterous number, you know,
+[1:56:16.960 --> 1:56:22.080]  that it goes from, I don't know, 12 hours of use to 20 hours of use or something like that.
+[1:56:22.080 --> 1:56:27.040]  But could it really, I mean, if it's driving that bigger, not much bigger, because I think it's
+[1:56:27.040 --> 1:56:33.680]  a, and you know, they're going to want to keep it thin. Okay, you know, yeah, you have a little bit
+[1:56:33.680 --> 1:56:39.760]  more X and Y, but you got no more Z. I don't know. Yeah, I agree with you on the Z. But,
+[1:56:41.200 --> 1:56:46.080]  you know, I don't know, I just wouldn't be surprised if they put it up and it has just a
+[1:56:46.080 --> 1:56:53.760]  seemingly, you know, at least compared to the other model iPhone, a huge jump in daily battery life.
+[1:56:55.440 --> 1:57:00.400]  Maybe not. Maybe it'll, you know, maybe you're right and it'll, you know, they'll be more or less
+[1:57:00.400 --> 1:57:07.840]  equivalent. But yeah, I think there'll be anything else other than display sizes. I don't think,
+[1:57:07.840 --> 1:57:14.400]  I don't see there being anything like a touch ID or speed bumps or anything to separate the two
+[1:57:14.400 --> 1:57:19.680]  or anything new. Anything new. I think this is going to be all about display sizes. It's like the jump
+[1:57:19.680 --> 1:57:27.600]  between the, you know, the 4S and the 5 in my mind. It's, it's, you know, this, we're on that cycle
+[1:57:27.600 --> 1:57:34.480]  where, okay, it's all about the display this time. It's, you know, there may be something new
+[1:57:35.280 --> 1:57:41.280]  with a success, you know, in a year's time or something like that. But I think it's,
+[1:57:41.280 --> 1:57:47.440]  they're, they're going to be, yeah, these displays are going to be impressive. They're going
+[1:57:47.440 --> 1:57:57.840]  to be impressive. And that's the thing that Apple's going to go, hey, look at this. It, it's going
+[1:57:57.840 --> 1:58:02.480]  to be great, though, because basically touch ID is going to be across the line now. Right? You
+[1:58:02.480 --> 1:58:09.440]  know, it'll, it'll, you know, some, some 5C equivalent thing is going to have touch ID now.
+[1:58:09.440 --> 1:58:15.760]  It's, it's, I think, here's how I think the lineup will look. I think the lineup will be
+[1:58:17.200 --> 1:58:24.880]  top price is the 5.5 inch iPhone, right? $100 less for the same amount of storage, the new 4.7.
+[1:58:25.520 --> 1:58:29.600]  I think other than the display, everything about those two phones will be the same. I think
+[1:58:29.600 --> 1:58:36.640]  I'll have the same better than ever camera and I'll have the same touch ID. I think if they add
+[1:58:36.640 --> 1:58:45.280]  anything new to the M8 motion cog code processor, if there's an M9, you know, that has even more
+[1:58:45.280 --> 1:58:51.120]  health tracking stuff, they'll both get the same thing. Um, if there are any kind of technical
+[1:58:51.120 --> 1:58:56.160]  improvements to the fingerprint scanner, I think they'll both get the exact same improvement.
+[1:58:56.720 --> 1:59:00.400]  Everything other than display, I think will be the same. I think they'll have the same
+[1:59:00.400 --> 1:59:07.440]  A, what do they up to? A, CPU system on a chip. Do you think they'll go with the new CPU? Yeah, I think so.
+[1:59:07.840 --> 1:59:15.600]  I think that 4.7 or excuse me, A7 is, is, it is pretty good. And you know, somebody has said
+[1:59:15.600 --> 1:59:22.720]  something about, you know, what it caught about the GPU being able to handle the, the 22 by 12,
+[1:59:22.720 --> 1:59:27.920]  whatever it can, yeah, I can drive an iPad mini. I mean, and then I does a great job with it.
+[1:59:27.920 --> 1:59:33.520]  Yeah, and, and that actually has more total pixels. Yeah, because it's only 2048 in a larger
+[1:59:33.520 --> 1:59:38.560]  dimension, but because the, the wide dimension, because it's 43, if you multiply, it's like over
+[1:59:38.560 --> 1:59:46.480]  three million pixels and this is one of those that's all about the display cycles. It's not about
+[1:59:46.480 --> 1:59:50.800]  the CPU. I don't know, though. I don't know. I just feel though that they're on, I feel like that
+[1:59:50.800 --> 1:59:57.360]  their, their chip group is on a tear. Oh, yeah, they're, they're on fire. But I don't think they
+[1:59:57.360 --> 2:00:02.160]  need to. I think they will just because their chip group is on fire. And it's almost like right
+[2:00:02.160 --> 2:00:06.880]  topic for a separate show is that whole topic of, are they ever going to have one that that's,
+[2:00:06.880 --> 2:00:13.040]  you know, speed compatible with like a low end Intel chip? Yeah, it's, I don't know. I think it's
+[2:00:13.040 --> 2:00:18.560]  astounding to me that the improvements that the, the, the CPUs have seen. Yeah, I just don't think
+[2:00:18.560 --> 2:00:22.160]  they'll take, I don't think they'll take a year off on that because I think that they're like
+[2:00:22.160 --> 2:00:28.320]  firing on all cylinders in that they, you know, effectively at the same price that they made the A7
+[2:00:28.320 --> 2:00:32.240]  last year, they can make an even better A8 and they're not going to take a year off. Yeah,
+[2:00:32.240 --> 2:00:36.720]  that's what I don't know. Look at, look at how many Android devices are running with a 64 bit processor
+[2:00:36.720 --> 2:00:50.240]  right now. Yeah, crickets. So let's, so let's list them out. All right. We're done with that
+[2:00:50.240 --> 2:00:58.000]  exhaustively. No, I think that the two new iPhones will be at the top $100 a part in price.
+[2:00:58.000 --> 2:01:04.720]  Anything that they one has the other will have except for the super display. I think that the five
+[2:01:04.720 --> 2:01:10.960]  S stays around for another year. And they do that they go back to what they used to do and the five
+[2:01:10.960 --> 2:01:19.360]  S drops $100 in price and takes the mid tier. And I think the five C stays around and becomes
+[2:01:19.360 --> 2:01:24.720]  the free with contract phone as is without any changes. I don't think, I think, so I think touch ID
+[2:01:24.720 --> 2:01:29.760]  moves down a tier because the five S moves down a tier, but I, I don't think it moves all the way
+[2:01:29.760 --> 2:01:36.480]  down to the bottom. I think it'll be another year before it does. That's my guess. And I don't
+[2:01:36.480 --> 2:01:40.080]  think there's going to be a six C. I don't think there's going to be a new plastic, you know,
+[2:01:40.080 --> 2:01:44.880]  phone. I think that the new, if you want a bigger iPhone, you have to buy the new, you have to buy
+[2:01:44.880 --> 2:01:52.640]  at the top of the line. Or be another potential scenario is to take the current five S and
+[2:01:54.320 --> 2:02:01.600]  fit it into the current five C. Right. Like a five, five CS that has touch ID in an A8.
+[2:02:02.240 --> 2:02:08.960]  That's a bit, it depends on, you know, it's like a Apple like simplified product lines, right?
+[2:02:08.960 --> 2:02:13.200]  You know, that was the whole thing. Steve Jobs brought back to Apple, right? It's like, you know,
+[2:02:13.200 --> 2:02:20.240]  that simple for product matrix, you know, pro consumer desktop, laptop. And, you know, that, you know,
+[2:02:20.240 --> 2:02:26.640]  us talking about, well, okay, let's have four different models of iPhone. Do you really need
+[2:02:26.640 --> 2:02:33.440]  four different models of iPhone? I mean, yeah, but they do, they do like to have that free phone.
+[2:02:34.160 --> 2:02:40.720]  Right. Yeah. And I'm sure that they, that for certain people, that's an important thing, right?
+[2:02:40.720 --> 2:02:43.600]  It's like they, all this phone is free.
+[2:02:45.200 --> 2:02:52.320]  Here's what I, my monthly build of the carrier, right? Here's what I wrote two years ago. And this
+[2:02:52.320 --> 2:02:57.360]  was in response to a guy, I actually got in there and responded to him, but it was a guy on Hacker
+[2:02:57.360 --> 2:03:03.040]  News, who after I put my piece up who said, okay, I'm not trying to be a dick here, which is always
+[2:03:03.040 --> 2:03:06.720]  a good sign that you're trying to be a dick. But every time I see the rumor about the screen
+[2:03:06.720 --> 2:03:12.080]  size of the iPhone 6, it always remind me how Gruber and Jim Dowrymple two of the biggest Apple
+[2:03:12.080 --> 2:03:19.200]  fans on the internet mock the screen size of Samsung Note before. And I do, I definitely cracked
+[2:03:19.200 --> 2:03:24.240]  some jokes about using those big ass phones as phones. And I think the iPhone 5.5 is going to
+[2:03:24.240 --> 2:03:28.000]  look ridiculous if you hold it up to your ear and use it as a phone. But here's what I wrote
+[2:03:28.000 --> 2:03:32.240]  two years ago when the iPhone 5 shipped. I wrote, there's no argument that some people really do
+[2:03:32.240 --> 2:03:38.400]  like these big closer to five than four inch Android and Windows phones. I was in a Verizon
+[2:03:38.400 --> 2:03:43.120]  retail store yesterday, long story, don't ask why. And over her, the relatively small woman
+[2:03:43.120 --> 2:03:50.160]  buying a Samsung Galaxy S3. And that was a big, that was a five inch phone. A companion asked her
+[2:03:50.160 --> 2:03:54.800]  if she wasn't worried that it was too big. And she said, no, big was exactly what she wanted
+[2:03:54.800 --> 2:03:59.280]  because she doesn't have a tablet and wanted to do a lot of reading on whatever phone she got.
+[2:03:59.280 --> 2:04:06.080]  And she even said she was thinking about the bigger Galaxy Note, but Verizon didn't carry it
+[2:04:06.080 --> 2:04:12.720]  and she wanted to stand Verizon. It was like a conversation out of a Samsung commercial. Such
+[2:04:12.720 --> 2:04:18.240]  people surely think the iPhone 5's four inch display remains too small. But trust me,
+[2:04:18.240 --> 2:04:22.640]  there's going to be a many long time iPhone users complaining that it's too big after they upgrade.
+[2:04:22.640 --> 2:04:25.520]  Because that was me talking about how hard it was to reach the corner with one hand.
+[2:04:25.520 --> 2:04:31.440]  So here's what I said. In an ideal world, perhaps Apple would offer two iPhone sizes,
+[2:04:31.440 --> 2:04:37.280]  like they do with products like MacBook Pros and MacBook Airs, a smaller one with the classic
+[2:04:37.280 --> 2:04:43.600]  3.5 inch display and a larger one with say a 4.5 inch display for people who want that.
+[2:04:45.200 --> 2:04:50.560]  So I think I've been on the team of hey, they should have two sized iPhones, a bigger one,
+[2:04:50.560 --> 2:04:57.360]  and a smaller one for a while. But I think one thing I underestimated was just how much bigger
+[2:04:57.360 --> 2:05:02.720]  phones could and would and demand would show that they get. That my idea that they'd stick with
+[2:05:02.720 --> 2:05:10.080]  the 3.5 inch and maybe at a 4.5 wasn't enough. Yeah, well, the other thing to think about too is
+[2:05:10.080 --> 2:05:18.000]  people's habits as far as using the quote unquote phone have changed. I see a lot of people
+[2:05:18.000 --> 2:05:24.800]  talking on their phone in ways that where the phone is not up to their ear, right? Yeah,
+[2:05:24.800 --> 2:05:31.840]  talking through your headset, talking to the speaker phone. It's yes, it looks ridiculous when
+[2:05:31.840 --> 2:05:38.960]  you hold it up to your ear. But I mean, I look at my wife. She just comfort calls all the time
+[2:05:38.960 --> 2:05:45.360]  and she's got, you know, her, you know, the earbuds in and, you know, the phones are sitting there
+[2:05:45.360 --> 2:05:51.200]  on the desk. Yeah, I think it's a legacy from the old telephone system that we think of, you know,
+[2:05:51.200 --> 2:05:55.120]  that guys in the end, you still think of a phone is something you hold up to your ear talking to
+[2:05:55.120 --> 2:05:59.920]  your ear. And it's, it's convenient to do that sometimes, right? You know, if you're out and about
+[2:05:59.920 --> 2:06:04.640]  and you've got a phone call, you know, you hold it up to your ear and you talk and, you know, it's
+[2:06:04.640 --> 2:06:11.200]  a, you know, it's literally a five minute conversation. I don't, I don't talk, you know, you'd say
+[2:06:11.200 --> 2:06:19.440]  that, you know, you have to call these people right to what? I just want to talk to people over chat
+[2:06:19.440 --> 2:06:27.840]  or email or social networks. And, you know, I still love having conversations in person,
+[2:06:28.480 --> 2:06:35.360]  you know, like we're having now, right? That's a still an important thing, but, you know, long
+[2:06:35.360 --> 2:06:41.600]  conversation, phone conversations, yeah, don't do that very often. No, almost never. And I just don't
+[2:06:41.600 --> 2:06:48.080]  think it's a reason, it's not a, it's no longer a reason to, to dictate the size of the hardware.
+[2:06:48.080 --> 2:06:54.160]  Yeah, no, no, not at all. Right. And it's, you know, it's, I think it's very similar to
+[2:06:54.880 --> 2:07:00.560]  using a tablet, no matter how big your tablet is as a camera, you know, it does, I still think it
+[2:07:00.560 --> 2:07:04.880]  looks silly, but I don't make fun of it anymore because it's too many, I've seen too many hundreds of
+[2:07:04.880 --> 2:07:11.120]  people doing it. We'll look at the camera that Ants let him used, right? Well, but he wasn't
+[2:07:11.120 --> 2:07:17.120]  format film, right? It's, it's a lot of people like it. That was because, you know, Ants
+[2:07:17.120 --> 2:07:21.680]  Adams did it because it was technically to get the incredibly, yeah, you know, there was a,
+[2:07:21.680 --> 2:07:27.200]  yeah, you know, it would be different if the iPad had a huge sensor, like a foreign, if it had
+[2:07:27.200 --> 2:07:33.280]  a four inch image sensor, yeah, it was taking, you'd be doing it. Yeah, I would be doing it too.
+[2:07:33.280 --> 2:07:38.400]  So it's actually got a crummy sensor that's just got a big screen, but, you know, but it's too
+[2:07:38.400 --> 2:07:42.880]  many people do it. It's, you know, it was worth a couple of laughs for a year or so, but now that's,
+[2:07:42.880 --> 2:07:47.360]  you know, that's most people, that's a lot of people's main camera. So it's, you know,
+[2:07:47.360 --> 2:07:51.360]  yeah, time to move on. I see it all the time, you know, people taking pictures of the sunset
+[2:07:51.360 --> 2:07:58.640]  and going to beach and that's like, well, number one, there, it cracks me up. People take pictures
+[2:07:58.640 --> 2:08:06.000]  of the sunset by pointing the camera on the iPad at the sun. It's like, and then they're looking
+[2:08:06.000 --> 2:08:10.960]  at this big-ass screen, which I can barely see because the sun is in there. It's, the one thing
+[2:08:10.960 --> 2:08:15.520]  that still gets a lot of people, people using an iPad as a camera is when they have a cover,
+[2:08:15.520 --> 2:08:22.160]  and they just let the cover hang below. And so they've got a double, double size rectangle in front of
+[2:08:22.160 --> 2:08:28.240]  their face. They got a dangle, right? It's like, at least fold the screen up, right? It's like,
+[2:08:28.240 --> 2:08:31.840]  you know, it accordions up. You can hold it at the bottom of the phone and it won't cover the
+[2:08:31.840 --> 2:08:36.400]  lens. It's like, at least fold that up. Yeah, that actually makes it a little bit thicker and easier
+[2:08:36.400 --> 2:08:41.520]  to hold. Yeah. Well, it almost looks like they're, like, they're in a witness protection and they're
+[2:08:41.520 --> 2:08:46.800]  like hiding. Yeah, but, you know, as, as developers, we learned that that people are going to do
+[2:08:46.800 --> 2:08:51.440]  what they're going to do, all right? And you just kind of adapt to that and it's like, you can't force
+[2:08:51.440 --> 2:08:57.680]  people to do things to, right? You'd think, or make more sense. What do you think, what do you think
+[2:08:57.680 --> 2:09:02.480]  you're going to do for buying a new phone? Have you, you're on the fence? Do you, do you think you
+[2:09:02.480 --> 2:09:06.160]  would wait until you could see them in the store? So yeah, no, I definitely have definitely got to
+[2:09:06.160 --> 2:09:10.480]  have to wait and see them in the store. I think that's going to be a huge difference this year. I was
+[2:09:10.480 --> 2:09:15.360]  thinking about it. I think there's going to be an awful lot of people who otherwise would have,
+[2:09:15.360 --> 2:09:19.600]  if they only had one new iPhone, they would just preorder it so they could get it as soon as they
+[2:09:19.600 --> 2:09:24.080]  can. But they're not. They're going to wait till they can see it in stores so that they can make
+[2:09:24.080 --> 2:09:28.560]  it an informed decision about which of the two they want to get. The line they're going to be
+[2:09:28.560 --> 2:09:38.640]  insane. Yeah, I do think it's insane. Because so many people in the last cycle or the last couple
+[2:09:38.640 --> 2:09:47.840]  cycles actually have just gotten the device delivered by FedEx or whoever, you know,
+[2:09:47.840 --> 2:09:56.400]  leverage it in your area. But now people want to see it. And you know, you're going to be in a
+[2:09:56.400 --> 2:10:01.440]  better position than the most people because you'll have actually seen it at the press event,
+[2:10:01.440 --> 2:10:07.840]  but possibly, you know, get a review unit, but I, you know, knock on wood there. I never find out
+[2:10:07.840 --> 2:10:15.680]  until the day of some. But at least I hope to see them both at the at the at the press event.
+[2:10:15.680 --> 2:10:22.000]  I think I'll get to 47. It really is one of those things that, yeah, that I mean, I would lean
+[2:10:22.000 --> 2:10:28.160]  now towards the 4.7 just begin again because I've got the iPad mini, which is suits my needs just
+[2:10:28.160 --> 2:10:35.600]  fine and that, you know, after dinner, you know, reading, you know, something to do while
+[2:10:36.320 --> 2:10:44.240]  commercials are playing on the TV or whatever. But yeah, I mean, you know, the 5.5 is actually
+[2:10:44.240 --> 2:10:50.320]  more interesting from these are interface point of view because it extends the the thumb targets.
+[2:10:51.040 --> 2:11:01.520]  Right. Totally. It's a new, I mean, with the mini, you know, the iPad mini, you basically say,
+[2:11:01.520 --> 2:11:09.120]  okay, you can't move your thumb from the lower left of the upper right. I spent half my review of
+[2:11:09.120 --> 2:11:13.440]  the iPhone 5 talking about how I couldn't reach the top corner with my thumb and that was a
+[2:11:13.440 --> 2:11:20.160]  half inch difference. This is two inches different from the 3.5 inch original iPhone. So, you know,
+[2:11:20.160 --> 2:11:29.040]  it's part of me wants to to get that larger phone just to understand the ergonomics of of the new
+[2:11:29.040 --> 2:11:36.080]  device from a pretty packed practical point of view. It's like, okay, I want something smaller to put
+[2:11:36.080 --> 2:11:43.200]  in my pocket. So, yeah, it's, it's a, you know, everybody's going to have a similar kind of,
+[2:11:44.480 --> 2:11:51.440]  yeah, well, choice A is good and choice B is good. Maybe I should go with A, maybe I should go with
+[2:11:51.440 --> 2:11:58.800]  B, maybe A, B, A, B, A, B. And, you know, you're going to get there. And in fact, you know,
+[2:11:58.800 --> 2:12:03.600]  the lines at the Apple store are probably going to move more slowly because people are choosing
+[2:12:03.600 --> 2:12:08.880]  between A and B and not knowing which one is right. I mean, some people will go in and
+[2:12:08.880 --> 2:12:12.640]  yeah, oh, you definitely want to be definitely. I need the bigger one, bigger. I think that, and I
+[2:12:12.640 --> 2:12:18.720]  think that the, the fan droid contingent, they're going to have like an aneurysm on the basis of the
+[2:12:18.720 --> 2:12:24.800]  Apple is going to market it as though they invented big screen phones. You know that they are.
+[2:12:24.800 --> 2:12:30.400]  They're going to call it like revolutionary based on some sort of thing. And, and then the fender
+[2:12:30.400 --> 2:12:35.200]  is going to be like, you know, I've had a, you know, a five inch galaxy, whatever, for two and a
+[2:12:35.200 --> 2:12:40.560]  half years, they're going to go nuts. But that's, you know, Apple is either way ahead or they take
+[2:12:40.560 --> 2:12:48.960]  their time and they do it last and better. Yep, they're, they're, they're doing it, doing it well
+[2:12:49.680 --> 2:12:55.920]  rather than first. Yeah, in this case, um, it was the one more thing I wanted to,
+[2:12:55.920 --> 2:13:01.120]  uh, I have one more point, but I forget it. Yeah, who cares? We've gone long enough. Yeah, I need to
+[2:13:01.120 --> 2:13:08.080]  pee. Yeah, I can't even imagine how big your bladder is. Yeah, it's probably a lot of large
+[2:13:09.920 --> 2:13:18.560]  Craig Hock and Barry of the, the icon factory. People can follow you on Twitter at, uh, at
+[2:13:18.560 --> 2:13:25.440]  chock and Barry. Right. I haven't been tweeting much lately. Very busy with, uh, you somebody and I was
+[2:13:25.440 --> 2:13:31.520]  hate stuff. But yeah, that's where I am. Oh, I know what I wanted to say. I had one more. Here's my one
+[2:13:31.520 --> 2:13:38.080]  more thing. Uh, my one more thing is, uh, how do they fill up a 90 minute iPhone announcement?
+[2:13:38.080 --> 2:13:43.600]  I don't think bigger screen is enough. So I, I, I'm now of the opinion that there's two paths
+[2:13:43.600 --> 2:13:49.840]  that they take. One path is not just talking about bigger, but what bigger enables and it would
+[2:13:49.840 --> 2:13:55.520]  be, you know, like a sort of a productivity keynote, right? Like look at now, look at email and
+[2:13:55.520 --> 2:14:01.760]  landscape. You can see two things at once, you know, uh, that sort of thing and other apps that
+[2:14:01.760 --> 2:14:07.200]  they've secretly updated to act differently on this bigger iPhone. They could talk, they could talk
+[2:14:07.200 --> 2:14:15.600]  for 30 minutes just about iOS extensions, iOS extensions and the continuity and I guess what,
+[2:14:15.600 --> 2:14:20.160]  you know, iOS eight and you somebody are going to have to drop at the same time because of all
+[2:14:20.160 --> 2:14:27.600]  of the, you know, iCloud cloud kit. Nope. I think it's going to play out exactly like last year
+[2:14:27.600 --> 2:14:37.920]  where, remember, um, uh, iOS keychain and it wasn't in iOS seven point zero. We had to wait
+[2:14:37.920 --> 2:14:44.560]  till October. I think we wait till October for continuity. I think iOS eight ships without continuity
+[2:14:44.560 --> 2:14:51.600]  hooked up yet and that the Yosemite will come out in October with the new iPads.
+[2:14:51.600 --> 2:15:00.240]  It's in its higher profile than just the iOS keychain, but that's the reason keychain didn't
+[2:15:00.240 --> 2:15:04.160]  ship to October is because it had to shit, like you said, it has to ship at the same time.
+[2:15:04.160 --> 2:15:08.080]  The feature has to ship at the same time as Yosemite because what's the point of having key
+[2:15:08.080 --> 2:15:13.280]  chunks in key chain sinking if you know, I'm in the sink it to. Um, they're going to be a lot of
+[2:15:13.280 --> 2:15:18.800]  disappointed developers is because down that way. If they have to wait an extra month. Yeah, I mean,
+[2:15:18.800 --> 2:15:25.120]  the whole thing, you know, about, you know, iCloud is that it, it, you know, binds your devices
+[2:15:25.120 --> 2:15:32.960]  together, right? You've got, I don't think Yosemite ships next month. I think it ships in October.
+[2:15:32.960 --> 2:15:37.120]  And I think just like last year, I think Mac, I think it's too much to ask that they ship to
+[2:15:37.120 --> 2:15:42.080]  operating systems. Yeah, no, just when I get it from an engineering resources point of view and a
+[2:15:42.080 --> 2:15:50.800]  testing point of view and a deployment point of view and, but, you know, are you, you know,
+[2:15:50.800 --> 2:15:54.480]  this thing with like iCloud drive, right? You're going to be able to put things in iCloud drive,
+[2:15:54.480 --> 2:15:58.080]  but you're not going to be able to get them on your, your map. I don't think you, I don't think you're
+[2:15:58.080 --> 2:16:03.200]  able to put them in iCloud drive until, until October. I think you have to wait for like 8.01
+[2:16:04.000 --> 2:16:09.040]  for all of the iCloud stuff. That's my guess. I could be wrong. I don't know. That's just pure
+[2:16:09.040 --> 2:16:17.840]  guess based on last year's iCloud, the key chain thing. So how else do they fill up if I am right
+[2:16:17.840 --> 2:16:23.520]  that they don't have all that? If, if they do ship at the same time, then God, they'll be, they'll be
+[2:16:23.520 --> 2:16:28.640]  hard pressed to finish within two hours. Right. They finish. It's going to be like the WWCT now, right?
+[2:16:28.640 --> 2:16:31.280]  It's like, boom, boom, boom, boom, boom, boom, boom, boom, boom, boom, boom, boom, boom, boom,
+[2:16:31.280 --> 2:16:38.400]  right, right. Take a breath. Yeah. And, and just think, I mean, they could fill up, they could fill
+[2:16:38.400 --> 2:16:44.400]  up 45 minutes just with demos from selected third parties who've been in secretly locked up in
+[2:16:44.400 --> 2:16:51.120]  Cupertino for the last three weeks, building cool extensions, you know, easily. Um, but I don't think,
+[2:16:51.120 --> 2:16:55.360]  I think that's more of an October thing. I think that they either fill it up with productivity,
+[2:16:55.360 --> 2:17:02.720]  stuff that you can do with the new bigger screen or, um, health stuff that this is when they unveil.
+[2:17:02.720 --> 2:17:06.560]  I don't know if they'd unveil the device. I mean, I sort of guessed that they would a couple
+[2:17:06.560 --> 2:17:11.760]  weeks ago and people had a shit fit, but that, you know, the health kit stuff and what they're going
+[2:17:11.760 --> 2:17:19.680]  to do and maybe if there is like a new, even better M9 and the new phones, um, this is where they
+[2:17:19.680 --> 2:17:25.840]  explain the whole health initiative because I don't think that the health stuff fits with an
+[2:17:25.840 --> 2:17:32.720]  October event where they have all this continuity stuff and Yosemite to explain. Like to me,
+[2:17:32.720 --> 2:17:39.520]  that that's my blog. Yes, that's, that's, yeah. What you what you what you what you basically
+[2:17:39.520 --> 2:17:48.160]  saying is that the September event is all about the iOS device, stuff you can do on the iOS
+[2:17:48.160 --> 2:17:55.840]  device, productivity, tracking your health. And then the October event is about
+[2:17:55.840 --> 2:18:03.840]  making all the devices together. Yeah. That's my guess. And that may be, you know, if there's a big
+[2:18:03.840 --> 2:18:08.080]  surprise, it would be that whatever the wearable dingus that's been rumored for a while, but
+[2:18:08.080 --> 2:18:13.040]  everybody's sort of forgotten, not forgotten, but as everybody's so excited about the phone that
+[2:18:13.040 --> 2:18:17.200]  people have stopped talking about it, that maybe it'll come out at the September event or at
+[2:18:17.200 --> 2:18:26.400]  least be announced, even if it doesn't come out. Yeah, that's that whole, I've just recently
+[2:18:26.400 --> 2:18:32.160]  started wearing a Fitbit flex on my wrist. Part of it is just to start, you know, what does it mean
+[2:18:32.160 --> 2:18:36.240]  to have a thing on your wrist? And yeah, I thought I would think that would be a ring for you.
+[2:18:36.240 --> 2:18:47.120]  Yeah. I got the large band on. So there we go. But it's, it's weird. It's like, I don't
+[2:18:47.120 --> 2:18:54.320]  know. You know, this is a great little product, but I don't see an Apple logo on it. Yeah, I
+[2:18:54.320 --> 2:18:59.440]  don't think so. But anyway, I still think that that's, and again, not because anybody has said,
+[2:18:59.440 --> 2:19:03.360]  hey, I think that the wearable things come in September, I'm just trying to think, how do you plot
+[2:19:03.360 --> 2:19:09.520]  two events that have like a story? And I think that one of them has to be about continuity.
+[2:19:10.400 --> 2:19:15.760]  And I don't think that's the October event. I think that is when they have new iPad, new iPads,
+[2:19:15.760 --> 2:19:22.240]  that's when they ship Yosemite. And so I think that to me leaves the September one for health,
+[2:19:23.360 --> 2:19:26.000]  because I think there's got to be a health related event this fall.
+[2:19:27.120 --> 2:19:32.400]  Yeah. Somebody's working his butt off to get stuff ready for September 9th.
+[2:19:33.120 --> 2:19:39.120]  Yeah. You know, you send me flash iOS, iCloud, all that stuff happening at once. I'm like,
+[2:19:40.400 --> 2:19:43.680]  I just don't get it. It's, it's possible. I mean, what you're saying, it's
+[2:19:43.680 --> 2:19:48.800]  already to have, if they weren't ready to have a health related event and possibly a health related
+[2:19:48.800 --> 2:19:53.520]  new device in the fall, I don't know why they would have added health kit to iOS eight.
+[2:19:53.520 --> 2:20:00.960]  To me, then they would have held it for iOS nine. But I don't know. Maybe because maybe if the
+[2:20:00.960 --> 2:20:08.160]  health stuff is slipped from a 2014 thing, they'll do it in like February or March, in which case
+[2:20:08.160 --> 2:20:12.080]  that it still needs to be an iOS eight, because iOS nine won't come out for another year.
+[2:20:12.080 --> 2:20:15.120]  What about that whole home kit thing too? That's kind of just
+[2:20:16.560 --> 2:20:20.800]  haven't, yeah, that would fit in too. Yeah, that hasn't, but that would fit in to me that would fit
+[2:20:20.800 --> 2:20:26.400]  in at an iPhone event where you're talking about things like opening your garage door when you get
+[2:20:26.400 --> 2:20:28.480]  close and stuff like that. Right. Right.
+[2:20:31.040 --> 2:20:36.880]  I don't know. It's interesting time. That's the thing that it's so impressive about Apple right now
+[2:20:36.880 --> 2:20:44.720]  because it's got so much stuff that they're working on that's just awesome. I mean, we were all
+[2:20:44.720 --> 2:20:52.880]  blown away at WWDC by the breadth of the stuff that they announced. And now that it's starting to
+[2:20:52.880 --> 2:21:02.320]  become real, it's like the next, I totally believe somebody like Eddie Q saying this is the most
+[2:21:02.320 --> 2:21:08.800]  impressive, you know, pipeline of products that they've had in, you know, his 20 years or whatever it
+[2:21:08.800 --> 2:21:16.320]  was. There's just, they've got a lot on the queue right now. And so again, they got a, how did
+[2:21:16.320 --> 2:21:20.160]  it, you know, how did it come out? I keep thinking about like, there's a couple of sites that have
+[2:21:20.160 --> 2:21:26.880]  put up like, Hey, what should you expect? And they show an iPhone five and a what a 4.7 inch
+[2:21:26.880 --> 2:21:31.360]  phone would look like next to that. What a 5.5 would look next to that. And then how close
+[2:21:31.360 --> 2:21:37.280]  that 5.5 is to the iPad mini. You just have this nice continuum of devices. And then add to that
+[2:21:37.280 --> 2:21:45.840]  the possibility of a larger iPad. And all of a sudden iOS is like a computing platform that covers
+[2:21:45.840 --> 2:21:55.360]  everything, right? All sizes from easily fits in one hand to a total two hand pro laptop
+[2:21:55.360 --> 2:22:01.040]  size screen. Yeah. And then eventually they're going to start making laptops that have arm chips in them
+[2:22:01.040 --> 2:22:06.960]  and the whole other interesting set of things that can happen. But it's just amazing to me to
+[2:22:06.960 --> 2:22:13.040]  think that it's evolved, you know, already into something that's truly like a all encompassing
+[2:22:13.040 --> 2:22:20.000]  computing platform. Yeah. Yeah. Well, it's, it's not surprising to me. I mean, this is next,
+[2:22:20.000 --> 2:22:27.040]  you know, when this first came out, it was very clear to me, this is the next 30 years of computing,
+[2:22:27.040 --> 2:22:35.920]  right? We're going to be refining this touch display, you know, direct interaction mechanism
+[2:22:35.920 --> 2:22:42.560]  for the next 30 years, just like we have refined the mouse as a means of interacting with our
+[2:22:42.560 --> 2:22:51.200]  computer for the past 30 years. So this is just, this is where at that period where, you know,
+[2:22:51.200 --> 2:22:57.680]  where there were all sorts of different kinds of max, right? There was the, you know,
+[2:22:57.680 --> 2:23:02.960]  the original Mac, there was a, you know, Mac with color display, there was a Mac with, you know,
+[2:23:02.960 --> 2:23:10.880]  different, you know, bus architecture, doesn't, you know, they just, there was a $12,000 Mac
+[2:23:10.880 --> 2:23:15.840]  two effects. Yeah, you know, the 20th century, or the 20th anniversary Mac, you know, they're
+[2:23:15.840 --> 2:23:27.920]  telling us this huge big, in some ways convoluted product line. Um, so, but the Mac, the Mac
+[2:23:27.920 --> 2:23:37.440]  two effects cost more than like a Honda Civic. Yeah. It's insane. Yeah. But God, I wanted one so bad.
+[2:23:38.400 --> 2:23:43.440]  All right, Craig. Let's, yeah, let's call them. Thank you so much for your time. No, it's always a pleasure.
+[2:23:43.440 --> 2:23:48.240]  It's always a pleasure. Anybody who's not, even if he is slowed down, if he is busy, if you're not
+[2:23:48.240 --> 2:24:18.080]  following Craig on Twitter, you're, you're missing out. It's a gold line.
