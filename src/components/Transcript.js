@@ -50,7 +50,7 @@ const parseTranscriptions = (data) => {
   return lines.map((line) => {
     if (!line) return null
 
-    const [match, time] = line.match(/\[((\d:)?\d\d:\d\d\.\d\d\d).*\]\s*/)
+    const [match, time] = line.match(/\[((\d?\d:)?\d\d:\d\d\.\d\d\d).*\]\s*/)
     const filtered = line.substring(match ? match.length : 0)
     return <TranscriptLine key={time} time={time} content={filtered} />
   })
