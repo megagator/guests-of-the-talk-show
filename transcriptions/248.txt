@@ -1,0 +1,1241 @@
+[00:00.000 --> 00:04.840]  Peter Kafka, welcome to the talk show. I for having me on the talk show, John,
+[00:05.040 --> 00:07.080]  I have been on your show. You've never been on mine.
+[00:08.360 --> 00:11.360]  I'm happy to come to Philadelphia someday. I'm there with some frequency.
+[00:12.080 --> 00:16.160]  Are you really? Yeah. Yeah. I got in-laws there. Oh, well that's a great city.
+[00:16.680 --> 00:18.720]  I can get you good tickets for the Thanksgiving day parade.
+[00:18.760 --> 00:20.000]  That's the kind of thing that floats your boat.
+[00:22.480 --> 00:24.600]  I, we always get out of town for Thanksgiving.
+[00:25.200 --> 00:26.560]  All right. You change your mind.
+[00:26.560 --> 00:31.720]  Oh, so for background, you are, what, what, what's your beat at recode?
+[00:33.080 --> 00:35.640]  I covered the intersection of media and technology.
+[00:36.200 --> 00:39.320]  And who better to have on the show this week?
+[00:40.280 --> 00:41.120]  Good timing, right?
+[00:43.920 --> 00:46.640]  I actually missed last week's event.
+[00:46.640 --> 00:51.640]  I was not present at the event because my family had a long scheduled vacation.
+[00:52.320 --> 00:55.960]  It coincided with my son's spring break. So it's the first,
+[00:55.960 --> 01:00.560]  it's the first event I've missed in, I don't know how many years there were a long,
+[01:00.560 --> 01:02.960]  long time ago. I had an injury that,
+[01:02.960 --> 01:05.640]  or eye surgery that prevented me from flying. So I missed it.
+[01:05.640 --> 01:09.760]  I missed one a couple of years ago. But you were there of course.
+[01:10.200 --> 01:14.040]  Yeah. I would not miss this one. I haven't met her that many,
+[01:14.080 --> 01:16.880]  but I was definitely going to make it to this one one way or another.
+[01:17.240 --> 01:19.640]  I would have made an exception in just about any case,
+[01:19.640 --> 01:22.880]  but this was a pretty exceptional and you know, my son's getting older,
+[01:22.880 --> 01:27.880]  so it was a big exception, but I had a feeling like it would be different.
+[01:29.240 --> 01:32.320]  You know, it was different. Yeah. There's,
+[01:33.640 --> 01:38.640]  I don't want to say that something like the iPhone events in September are
+[01:40.000 --> 01:44.800]  repetitive because they're not the, the, the, the stuff moves forward, but it,
+[01:44.800 --> 01:48.560]  it's, but they kind of are repetitive, right? I mean, I think to,
+[01:48.560 --> 01:51.960]  to get all meta, I mean, I, I do, I do get the sense,
+[01:51.960 --> 01:54.840]  and I don't track it that closely because we're not really in that business,
+[01:54.840 --> 01:59.800]  but that these events are drawing less attention from just ordinary sort of
+[01:59.920 --> 02:03.080]  people who would pay attention to this stuff. If you're in the business of,
+[02:03.080 --> 02:05.840]  of live blogging and stuff or writing about it,
+[02:05.840 --> 02:08.840]  I think it attracts less attention than it did a few years ago because I think
+[02:09.120 --> 02:11.600]  it's a new iPhone. It's not that compelling. Right.
+[02:11.640 --> 02:12.880]  And that's sort of the meta,
+[02:13.160 --> 02:17.640]  the annual meta response to them is just another iPhone.
+[02:17.640 --> 02:21.720]  And it kind of makes sense that it's just another iPhone.
+[02:22.200 --> 02:24.040]  That's exactly what most people want. But then it,
+[02:24.080 --> 02:26.800]  it makes the flow of the event sort of, you know,
+[02:26.800 --> 02:30.680]  it's like season 11 of the iPhone show. Yeah. It's a little road.
+[02:31.400 --> 02:34.640]  Whereas this was all new territory and it was proceeded.
+[02:34.640 --> 02:35.280]  We don't have to cover it all.
+[02:35.280 --> 02:38.600]  I did an episode before with all of the various hardware stuff that Apple
+[02:38.600 --> 02:40.280]  released the week before.
+[02:40.280 --> 02:46.760]  Um, but which was interesting in that they had these new things ready to go and
+[02:47.400 --> 02:49.960]  didn't want to put them in the show. Um,
+[02:50.200 --> 02:53.640]  they wanted the show to focus entirely on quote unquote services.
+[02:53.920 --> 02:56.120]  It's not a single reference to hardware that I recall.
+[02:56.120 --> 02:58.800]  I'm sure someone will then fact check me and say there is one, but I mean,
+[02:58.920 --> 03:01.920]  yeah, I don't remember any reference to any piece of hardware. Yeah,
+[03:01.920 --> 03:03.000]  I don't think so. I mean,
+[03:03.000 --> 03:06.920]  other than saying that you can see these things on your phone and your iPad and
+[03:06.920 --> 03:08.600]  your Apple TV, that's Oprah mentioned phones.
+[03:08.600 --> 03:12.720]  Yeah, a billion devices in your pocket, y'all.
+[03:13.320 --> 03:18.320]  Yeah. Uh, so let me just start and I will,
+[03:20.360 --> 03:25.280]  um, let me just read a little bit of your take. Well, actually let's,
+[03:25.920 --> 03:29.920]  let's go through these things in the order that Apple went through them. Um,
+[03:30.800 --> 03:34.560]  and let's wait for the new video service. So the first one is, uh,
+[03:34.560 --> 03:38.480]  um, Apple news and I can, well,
+[03:38.840 --> 03:41.120]  I kind of see why they went first with this. I mean,
+[03:41.120 --> 03:44.320]  cause obviously the, they spent the most time on the TV plus their new,
+[03:44.400 --> 03:46.720]  their new original content stuff.
+[03:46.720 --> 03:51.440]  And that's where they had a little bit of star power. Uh,
+[03:51.480 --> 03:53.400]  so you really can't do that first.
+[03:53.400 --> 03:58.080]  You can't go from Oprah and Steven Spielberg and Jennifer Aniston to,
+[03:58.080 --> 04:01.800]  yeah, it'd be weird to end it with, with magazines, with magazines.
+[04:01.800 --> 04:06.800]  Um, but also it's the only thing they announced that
+[04:07.760 --> 04:10.200]  as of today we can actually use. Um,
+[04:11.360 --> 04:14.640]  so it kind of makes sense to go first. I'm,
+[04:14.720 --> 04:19.520]  I'm used to understanding them more. I guess the big thing, and I will cheat,
+[04:19.560 --> 04:21.480]  I will cheat. I'm going to go back and I'm going to say,
+[04:21.480 --> 04:22.560]  this was your take on the event.
+[04:22.560 --> 04:24.160]  I got to read this cause I think it's so perfect.
+[04:24.560 --> 04:26.360]  You opened your take on the event with,
+[04:26.360 --> 04:29.200]  I have some questions about Apple's new video service.
+[04:29.200 --> 04:34.200]  And what exactly is Apple going to have in its new video service?
+[04:34.640 --> 04:37.720]  What, if anything, will Apple's new video service cost?
+[04:38.400 --> 04:41.280]  Why would someone pay anything for Apple's new video service?
+[04:42.000 --> 04:43.840]  And then your piece goes on from there. Yeah.
+[04:44.120 --> 04:48.960]  But I thought that was a great lead because that was my gut feeling following
+[04:48.960 --> 04:51.360]  this event remotely was, boy,
+[04:51.360 --> 04:54.240]  I sure have a lot of questions coming into this event. And,
+[04:54.240 --> 04:58.080]  and then the event came and it was two hours long and I thought, boy,
+[04:58.080 --> 05:01.680]  I think I have more questions coming out of the event.
+[05:02.160 --> 05:05.520]  And those of us who study this and those of us who know that Apple's getting
+[05:05.520 --> 05:10.240]  into this original content and et cetera, have been thinking for a long time,
+[05:10.240 --> 05:12.080]  what are they going to do? Are they going to charge?
+[05:12.120 --> 05:13.080]  Are they going to charge anything?
+[05:13.080 --> 05:16.720]  There was some stories from some media reporters that maybe their original
+[05:16.720 --> 05:20.240]  content, they would just, it would just be free. If you had an Apple device,
+[05:20.280 --> 05:21.120]  we don't even know.
+[05:21.320 --> 05:23.600]  I'm in, I'm in that group by the way, but we can talk about it.
+[05:23.800 --> 05:27.760]  Right. I'm just saying we had these big questions where,
+[05:27.760 --> 05:30.800]  you know, is it going to cost a lot? Is it going to cost a little,
+[05:30.800 --> 05:34.160]  will there be a bundle? What will be bundled? What could you get together?
+[05:34.160 --> 05:35.560]  Will it be free? You know,
+[05:35.560 --> 05:38.560]  which is what they've done with the meager offerings they've had so far,
+[05:38.560 --> 05:43.040]  like carpool, karaoke, and, uh, yeah, that app plan out of the apps.
+[05:43.080 --> 05:43.920]  All right.
+[05:44.920 --> 05:49.120]  Uh, we, it's strange. The thing for me,
+[05:49.120 --> 05:53.440]  that strange as somebody who's a very close Apple follower is to come out of an
+[05:53.440 --> 05:58.320]  Apple event with more questions as, as usually I come out with very few
+[05:58.320 --> 06:02.080]  questions or the questions that I have are esoteric. You know,
+[06:02.080 --> 06:04.440]  it is something like, well, wait, wait a minute.
+[06:04.440 --> 06:09.280]  You're saying that the 12 inch iPad pro has one gigabyte more
+[06:09.280 --> 06:13.680]  Ram than the smaller iPad pro, you know, something like that. Uh,
+[06:13.800 --> 06:16.240]  not not, what are you doing?
+[06:17.680 --> 06:21.760]  Why did you do this? Those are the two main questions I think.
+[06:21.760 --> 06:25.240]  Oh, well, and I thought maybe the best of your questions too was,
+[06:25.280 --> 06:27.840]  why would someone pay anything for it? You know,
+[06:27.840 --> 06:32.760]  like why would I buy it is sort of what Apple specializes in at these events.
+[06:32.800 --> 06:35.080]  Like, here's why you want this.
+[06:36.200 --> 06:40.840]  They're very good at it and they're at their best when it starts with
+[06:40.880 --> 06:44.560]  the product, uh, and that the, you know,
+[06:44.560 --> 06:46.920]  they're not selling you on the product.
+[06:46.920 --> 06:51.240]  They're letting the product sell itself by accurately describing what it is that
+[06:51.240 --> 06:53.520]  makes it compelling. Yeah.
+[06:53.520 --> 06:58.280]  I don't know what the point of having this event so far in advance of
+[06:58.280 --> 07:02.440]  having this stuff to sell or even show is. Um,
+[07:02.480 --> 07:06.000]  I saw you were floating some theories. I just don't get it. Um,
+[07:06.080 --> 07:09.480]  I buy the argument that the fact that you and me and everyone else who's closely
+[07:09.480 --> 07:14.080]  watching this is confused by it or maybe disappointed by it won't necessarily
+[07:14.080 --> 07:15.960]  matter when they, when it comes time to sell it.
+[07:16.280 --> 07:18.880]  Apple's really good at selling things. They'll have a lot of ways to sell it.
+[07:18.880 --> 07:22.200]  They'll be selling it on those billion plus phones. Um,
+[07:22.200 --> 07:25.960]  I don't really matter what John and Peter said in, in April. Um,
+[07:26.440 --> 07:30.320]  but why do an event in March if you don't have the thing ready and can't answer
+[07:30.320 --> 07:34.320]  basic questions? I don't, I don't get the point of that at all. Yeah.
+[07:34.400 --> 07:37.840]  And so before we get into the specifics, my two of my theories, uh,
+[07:38.920 --> 07:43.240]  one is that other media companies,
+[07:43.280 --> 07:47.640]  they require their partnerships for most of these things. They require the,
+[07:47.640 --> 07:49.880]  you know, by definition, the partnership of, uh,
+[07:49.880 --> 07:54.440]  magazines and newspapers and online publications like tech crunch and
+[07:54.480 --> 07:56.920]  Vox media, um, to,
+[07:56.960 --> 08:01.960]  to get them into the Apple news plus bundle and they require the participation
+[08:04.080 --> 08:08.120]  and agreement of the TV networks that are going to be in this TV channels
+[08:08.120 --> 08:12.600]  product. And they broke, you know, and then to, it's not quite an organization,
+[08:12.600 --> 08:17.600]  but the creative people who are making these TV shows and movies for original
+[08:18.200 --> 08:22.360]  content are from an industry that is a lot more leaky.
+[08:23.320 --> 08:27.680]  Yeah. That's how I do my job. Right. It's just, and you know,
+[08:27.680 --> 08:29.000]  and there have been some good stories,
+[08:29.000 --> 08:33.440]  some of them by you about like the culture clash between Hollywood and Apple
+[08:33.440 --> 08:35.800]  where it's just, you know, like,
+[08:35.840 --> 08:40.840]  like things that Hollywood is used to keeping secret are,
+[08:40.840 --> 08:45.280]  you know, what happens at the very end of the Avengers movie, right?
+[08:45.520 --> 08:49.720]  That's right. That's a secret that they are culturally equipped to protect.
+[08:49.760 --> 08:53.480]  So if this was about what the new iPhone was going to be and it was going to
+[08:53.480 --> 08:57.160]  have a radical departure and was it going to have 28 different, whatever the,
+[08:57.520 --> 09:02.320]  some amazing spec, I could see you want to get out in front of that. Um,
+[09:02.320 --> 09:03.400]  in this case, I mean,
+[09:03.520 --> 09:06.720]  there was no surprise about what the Apple news product was.
+[09:06.720 --> 09:10.240]  They bought this thing called texture a year ago. Um,
+[09:10.240 --> 09:13.360]  we all knew they were going to make it this service. They pretty much said that.
+[09:14.480 --> 09:18.120]  Um, there's not a lot of secrecy involved there. Um,
+[09:18.160 --> 09:22.360]  most of the terms were sort of well known and the TV stuff Apple has been
+[09:22.360 --> 09:24.480]  announcing for the last couple of years. They said,
+[09:24.480 --> 09:25.760]  we've hired the guys from Sony.
+[09:26.040 --> 09:29.880]  And then every week or so or every couple of weeks I get an email from someone
+[09:29.880 --> 09:32.280]  in Apple com saying, this is on background,
+[09:32.280 --> 09:36.240]  but we just wanted to confirm that we've ordered a new show and that that email
+[09:36.240 --> 09:39.520]  is always time to exactly when the Hollywood reporter of variety then writes a
+[09:39.520 --> 09:41.760]  story about that new show being picked up by Apple.
+[09:41.760 --> 09:45.880]  So they're doing it in plain sight. They are, they've been announcing all this stuff.
+[09:45.880 --> 09:48.120]  The only thing they haven't announced is what they're actually going to do with
+[09:48.120 --> 09:51.560]  it, which they still haven't announced. Um, so I don't,
+[09:51.640 --> 09:55.360]  I don't get the, the, the secrecy deflator theory there,
+[09:56.160 --> 09:57.440]  or the leak deflator theory.
+[09:58.120 --> 10:01.600]  Well, I, I, I don't either so much,
+[10:01.600 --> 10:03.840]  which leads me to theory two,
+[10:04.920 --> 10:08.640]  which is that this show was for wall street, right?
+[10:08.640 --> 10:11.040]  Which in, by which I mean,
+[10:11.960 --> 10:16.960]  there is a narrative about Apple as a stock that is that they've reached peak
+[10:17.760 --> 10:22.240]  iPhone and you know, arguably not inarguably,
+[10:22.240 --> 10:26.760]  I would say they've reached peak iPhone in terms of unit sales within the last
+[10:26.840 --> 10:31.840]  two, two years or so they grew revenue from iPhone last year with the iPhone 10
+[10:32.760 --> 10:37.680]  because the price went much higher and an awful lot of people went along for it
+[10:37.680 --> 10:41.960]  and bought it. And now with, um, the,
+[10:41.960 --> 10:46.960]  the fuller lineup of iPhone 10 class phones with the super big 10 max,
+[10:47.360 --> 10:52.040]  whatever they call it, the regular iPhone 10 S and the 10 R,
+[10:52.480 --> 10:56.520]  the average selling price is probably still higher. Um,
+[10:57.040 --> 11:01.560]  but even there it's leveled off and if very famously without going on a stock
+[11:01.560 --> 11:04.200]  market oriented episode there, you know,
+[11:04.200 --> 11:07.200]  their stock took a bit of a hit and they had to announce that they missed earning
+[11:07.200 --> 11:11.600]  s and there's crazy stuff going on in China that maybe is affecting them.
+[11:12.720 --> 11:16.520]  Um, and so the basic idea is, Hey, maybe this is peak Apple, you know,
+[11:16.520 --> 11:19.520]  maybe the ride is over and they're going to start declining.
+[11:19.520 --> 11:21.720]  And Apple's answer for a while now,
+[11:21.720 --> 11:25.400]  they have been beating the drum of quote unquote services, you know,
+[11:25.400 --> 11:30.160]  with the services services services with a capital, Steve Ballmer. Yeah. Um,
+[11:31.560 --> 11:32.400]  and
+[11:32.400 --> 11:37.400]  uh, and that's what they did. That's what they did at the show. Um, and again,
+[11:38.240 --> 11:40.880]  the, the, the counter to that would be, if you want to impress wall street,
+[11:40.880 --> 11:41.720]  you would say,
+[11:42.040 --> 11:45.160]  here's the things we're going to sell and here's how much we're going to sell
+[11:45.160 --> 11:47.640]  them for. And thus wall street, if you're looking for new revenue,
+[11:47.920 --> 11:51.920]  look at all this revenue we're going to make from selling subscriptions to the
+[11:51.920 --> 11:55.200]  Oprah show or whatever it is that they're going to sell. Um,
+[11:55.200 --> 11:58.880]  but they didn't do that either. So again, we're, we're still confused. Um,
+[11:58.880 --> 12:01.800]  and you know, and, and they're, I can't help,
+[12:01.800 --> 12:04.640]  but think that Hollywood is still a little confused too. Cause you know,
+[12:04.640 --> 12:07.760]  like I said, like Hollywood's good at keeping plots secret. They know that,
+[12:07.760 --> 12:09.200]  like, you know, as far as I know,
+[12:09.200 --> 12:12.080]  nobody knows what's going on on the new episode or the new,
+[12:12.080 --> 12:15.120]  the new final series of game of thrones, which is,
+[12:15.120 --> 12:17.120]  we're going to find out tonight, John, I'm going to the premiere.
+[12:17.160 --> 12:20.320]  Are you really not to name drop? Yeah. Oh, you lucky. You lucky. Yes.
+[12:20.320 --> 12:23.120]  I'll be, I can't tell you about it though. Oh, I don't want to look there.
+[12:23.280 --> 12:24.480]  Hollywood is very confused.
+[12:24.480 --> 12:27.360]  I was calling some of Apple's partners the last few days and said,
+[12:27.360 --> 12:31.120]  what do you think of that? And they said, ah, I don't know.
+[12:31.280 --> 12:33.440]  And one of them said, I think it's good for me,
+[12:34.320 --> 12:35.760]  meaning that person's going to,
+[12:35.840 --> 12:38.480]  he thinks he will sell a lot of subscriptions to his thing.
+[12:39.120 --> 12:42.720]  And I think it's not good for Apple cause it seems kind of meth for them. Yeah.
+[12:42.960 --> 12:45.120]  Well, here's the, here's the thing where I'm going with game of thrones.
+[12:45.120 --> 12:48.160]  The thing that was not secret about game of thrones was, uh,
+[12:48.800 --> 12:53.400]  when would the new season come on? Right. Yeah. Yeah. Right.
+[12:53.400 --> 12:57.920]  Right. It has been slated for April of 2019, uh,
+[12:58.200 --> 13:02.120]  for a very long time. Um, and then, you know, this goes back to,
+[13:02.320 --> 13:04.680]  and it's going to be, it's going to be this many episodes, right.
+[13:05.360 --> 13:06.200]  And here's how you get it.
+[13:07.680 --> 13:10.640]  You know, and blockbuster movies have long been the same way. There's, you know,
+[13:10.640 --> 13:12.560]  these 10 poll dates for here's, you know,
+[13:12.560 --> 13:15.920]  here's when the new star Wars episode nine is coming out and here's,
+[13:16.920 --> 13:19.760]  they may not pre-announce the date that the teaser is going to drop,
+[13:19.760 --> 13:21.480]  but we can pretty well guess.
+[13:21.480 --> 13:26.280]  And I think the creative people who are involved know JJ Abrams probably has a
+[13:26.280 --> 13:28.600]  pretty good idea when the teaser is going to drop.
+[13:29.160 --> 13:31.240]  Yes. Here's a steady drum beat of stuff.
+[13:31.240 --> 13:35.200]  And there's another version of this that everyone is referencing with,
+[13:35.240 --> 13:38.160]  with this, the TV networks do called an upfront,
+[13:38.720 --> 13:40.960]  where they gather everyone in New York in the spring and say,
+[13:40.960 --> 13:42.760]  here's what we're going to show you next fall,
+[13:43.120 --> 13:45.400]  which is really an antiquated way to do something,
+[13:45.400 --> 13:49.080]  but they still do it that way. And they will show them clips from the TV shows.
+[13:49.080 --> 13:51.560]  They might actually show them in a full episode of the TV show if they feel
+[13:51.560 --> 13:54.400]  really confident about it, they do a whole song and dance,
+[13:55.160 --> 13:56.720]  and they wind them and dine them. Yeah.
+[13:57.200 --> 14:00.320]  And this seemed like a partial version of that with again,
+[14:00.320 --> 14:03.440]  missing the part where they actually show you the shows, which is also confusing.
+[14:04.920 --> 14:08.720]  Right. Which really was, well, well, that's,
+[14:10.400 --> 14:13.880]  you want to save that for the end? Yeah. That's work up to it.
+[14:13.880 --> 14:17.720]  Let's just take that as the preamble that the basic gist of this event was a bit
+[14:17.720 --> 14:20.480]  of a, a bit of a head scratcher. All right,
+[14:20.480 --> 14:23.600]  let me take a break here and thank our first sponsor of the show. It's a,
+[14:23.640 --> 14:26.560]  one of my favorite products. I mean this sincerely away,
+[14:27.040 --> 14:30.040]  away makes suitcases and luggage.
+[14:30.640 --> 14:33.080]  And I love their products.
+[14:33.520 --> 14:36.440]  They build them all out of this German polycarbonate.
+[14:36.560 --> 14:40.200]  It's a very fancy word for a lightweight plastic and they're guaranteed for
+[14:40.200 --> 14:44.520]  life. They also have newer models made out of anodized aluminum,
+[14:44.520 --> 14:49.680]  very fancy, also very lightweight. They make their carry on in two sizes,
+[14:50.280 --> 14:54.040]  the bigger carry on the smaller carry on very, very clearly named.
+[14:54.240 --> 14:58.120]  None of this a grande tall venti stuff.
+[14:59.240 --> 15:03.080]  And the carry ons come with an optional ejectable battery.
+[15:03.520 --> 15:04.600]  And what I mean by ejectable,
+[15:04.600 --> 15:07.280]  it's very simple because I know there's a lot of flight restrictions down taking
+[15:07.280 --> 15:09.240]  lithium ion batteries and maybe they're going to, you know,
+[15:09.240 --> 15:11.480]  you're late for a flight. Maybe you got a last minute ticket.
+[15:11.480 --> 15:14.520]  They're going to say, we've got to gate check your thing and they can't put the
+[15:14.520 --> 15:16.840]  thing underneath you. The battery pops right out.
+[15:16.840 --> 15:18.040]  You don't have to open the suitcase.
+[15:18.040 --> 15:20.160]  You don't have to dig through your clothes to get it out. It just pops.
+[15:20.160 --> 15:23.520]  You just lift it up, click it, pops right out, take it with you on the plane.
+[15:24.000 --> 15:25.520]  But having a big,
+[15:25.520 --> 15:30.280]  big battery and two USB ports right on your suitcase is like the greatest thing
+[15:30.280 --> 15:33.760]  in the world because no matter where you sit down in the airport terminal,
+[15:33.800 --> 15:36.320]  you've got to charge it right there. And my phone died.
+[15:36.360 --> 15:39.360]  Every single time I go to any airport, anywhere in the world,
+[15:39.360 --> 15:44.360]  my phone is immediately somehow nose and just drops to like 30% love it.
+[15:44.960 --> 15:47.760]  They have fantastic wheels. My family and I, like I said,
+[15:47.760 --> 15:50.200]  we're just on a spring break trip, some away suitcases,
+[15:50.200 --> 15:52.800]  some non awake suitcases that I admittedly are a bit older.
+[15:52.880 --> 15:56.800]  Everybody was fighting over dragging the away ones because the other ones don't
+[15:56.800 --> 16:00.760]  roll very well. Mine is years old, still looks brand new.
+[16:01.200 --> 16:04.280]  It is absolutely a fantastic suitcase. I love,
+[16:04.280 --> 16:05.840]  they have a bunch of colors to pick from.
+[16:05.840 --> 16:09.720]  They have a great interior design with what they call a compression system.
+[16:09.720 --> 16:13.600]  It's basically, it's a nice place where you can put folded up shirts,
+[16:14.520 --> 16:17.000]  put something on top that cinches it nice and flat.
+[16:17.040 --> 16:18.600]  And then when you take them out of the suitcase,
+[16:18.640 --> 16:21.320]  the shirts don't look all wrinkled. It's great.
+[16:21.760 --> 16:26.120]  They've got a special little bag for putting your dirty laundry in,
+[16:26.400 --> 16:30.240]  keeping it in there, keeping away from your clean clothes as you travel. Anyway,
+[16:30.280 --> 16:33.400]  I love my away suitcases. I recommend them thoroughly.
+[16:33.400 --> 16:35.880]  I would recommend them even if they weren't a sponsor,
+[16:35.880 --> 16:38.440]  but they are a sponsor and they have a special deal for you.
+[16:38.600 --> 16:43.040]  20 bucks off a suitcase by visiting away, travel.com away,
+[16:43.040 --> 16:47.520]  travel.com slash talk show and use the promo code
+[16:47.920 --> 16:52.920]  talk show 20 talk show 20 because this is the talk show and you get 20 bucks off
+[16:53.720 --> 16:57.360]  a suitcase. Use that code during checkout and you'll save 20 bucks.
+[16:57.360 --> 17:02.800]  Okay. Here's their slogan because this season everyone wants to get away. Get it.
+[17:04.800 --> 17:07.480]  All right. Apple news plus the quality read, man. That was really good.
+[17:07.480 --> 17:08.680]  I liked it. I'm getting good at it.
+[17:08.680 --> 17:11.960]  I was terrible when I first started doing it really good. You know what?
+[17:11.960 --> 17:13.800]  It helps when I really liked the product and I love those.
+[17:13.800 --> 17:18.440]  Help. Um, Apple news plus 10 bucks.
+[17:18.440 --> 17:22.120]  Here's the one, the only, the only price in the whole show, which again,
+[17:22.120 --> 17:27.120]  crazy. And I, you know, and, and the, anybody who follows Apple closely,
+[17:27.920 --> 17:28.760]  it's like I've said,
+[17:29.200 --> 17:32.680]  basically it's like a you and I talked when I was on your show about my career
+[17:32.680 --> 17:36.400]  and how I built during fireball and for the,
+[17:36.440 --> 17:39.760]  I started this site and the podcast a couple of years later,
+[17:39.760 --> 17:44.760]  but I started it in 2002 and writing about Apple starting around 2002 was really
+[17:46.360 --> 17:49.440]  catching the bull by the horns. Right? I mean,
+[17:49.440 --> 17:52.800]  it's been a fantastic ride from there to here.
+[17:53.840 --> 17:58.840]  And so when people over the years accused me of being biased in favor of Apple
+[17:59.600 --> 18:03.280]  or I'm an Apple Homer or I'm effectively super fan, super fan,
+[18:03.280 --> 18:07.680]  a mouthpiece of Apple PR, whatever you want to say. You know, I'm, I'm,
+[18:08.080 --> 18:11.880]  I try to listen to the criticism and I try to take a step back and see where I
+[18:11.900 --> 18:16.360]  might be wrong. Um, and there are times where, you know, maybe I have been,
+[18:16.360 --> 18:19.840]  maybe I've made mistakes and I try to correct them as opposed to denying them or
+[18:19.840 --> 18:22.940]  whatever. But basically my defense is, boy,
+[18:22.940 --> 18:26.900]  if you've written about Apple from 2002 going forward and most of what you've
+[18:26.900 --> 18:28.660]  written isn't very positive,
+[18:28.700 --> 18:32.700]  then you got it wrong because they had a great run. They've had a great run.
+[18:32.720 --> 18:37.300]  It might still be going, but with great products, you know, if,
+[18:37.300 --> 18:40.780]  if you're treating them, half your stories are bad and half are good. You're,
+[18:40.780 --> 18:43.340]  you're, you're not doing justice to the actual story.
+[18:43.340 --> 18:47.180]  It'd be like covering the Chicago bulls during the Michael Jordan era and
+[18:47.180 --> 18:49.140]  saying most of the time, eh, they're okay.
+[18:51.340 --> 18:52.700]  Apple, Apple makes good stuff,
+[18:52.700 --> 18:55.340]  has consistently make good stuff for a long stretch. Very good stuff.
+[18:55.540 --> 18:59.020]  Well, you know, one of the other things is that in addition to making good stuff,
+[18:59.700 --> 19:01.500]  uh, they presented well,
+[19:01.580 --> 19:05.860]  I think their events are tighter than most companies have far tighter than most
+[19:05.860 --> 19:09.900]  companies events. I think they stick to things you really want to know.
+[19:09.920 --> 19:12.380]  I think they're truthful. Um,
+[19:12.380 --> 19:16.300]  but I have to say, I've, I've found this event very, again, I wasn't there,
+[19:16.300 --> 19:17.300]  so I had to watch it remotely,
+[19:17.300 --> 19:20.300]  but I found it very frustrating with how many questions it left.
+[19:20.300 --> 19:22.380]  So it was satisfying at least with Apple news to have,
+[19:22.380 --> 19:25.340]  here's a thing that is shipping and here's what it's going to cost and here's
+[19:25.340 --> 19:27.660]  what you get. Exactly. Um,
+[19:28.300 --> 19:33.260]  but I have to say with this magazines,
+[19:35.260 --> 19:39.380]  yeah. So you want to walk through what, what this,
+[19:39.420 --> 19:40.780]  how, how we got here? Yeah.
+[19:40.780 --> 19:45.180]  I want to walk through how we got here. So 2009 ish.
+[19:45.180 --> 19:47.260]  We know everyone knows the iPad is coming.
+[19:47.260 --> 19:50.780]  They're not sure that it's called the iPad or whatever it's going to be. Um,
+[19:50.820 --> 19:55.820]  and the magazine publishers say this thing is going to be a big deal in part
+[19:55.820 --> 19:59.060]  because Steve jobs has been telling him it's going to be a big deal. Um,
+[19:59.100 --> 20:00.940]  but we do not want to,
+[20:01.340 --> 20:04.220]  we do not want to get screwed the way the music publishers,
+[20:04.260 --> 20:07.420]  the music labels got screwed or Steve jobs said, Hey,
+[20:07.420 --> 20:09.500]  you guys are in bad shape and I'm telling you what to do for you.
+[20:09.500 --> 20:14.220]  I'm going to break up your $15 CD into dollar songs and that's going to be great
+[20:14.220 --> 20:18.540]  for me and much less good for you. It's all going to work out. Um, we,
+[20:18.540 --> 20:22.220]  the magazine guys say we want control of whatever this thing is going to be.
+[20:22.220 --> 20:26.140]  We're doing a joint venture. So Hearst, Meredith,
+[20:26.140 --> 20:29.580]  Time Inc all at the time, the big publishers, Condé Nast and News Corp,
+[20:29.980 --> 20:31.580]  get together, um,
+[20:31.580 --> 20:34.780]  and create what we were at the time calling like a Hulu for news because it was
+[20:34.780 --> 20:38.140]  a joint venture. But it was, it was this idea that you still see today,
+[20:38.140 --> 20:41.660]  which is for 15 bucks a month, I think was the initial price.
+[20:41.660 --> 20:45.900]  You can read all the magazines you want through this service and they'll own the
+[20:45.900 --> 20:48.540]  service and they can push it on an Apple device.
+[20:48.540 --> 20:52.860]  They can put it on an Amazon device, whatever. Um, they made that thing.
+[20:52.860 --> 20:56.700]  It was called a bunch of different things. Um, and it was never successful.
+[20:56.700 --> 21:00.540]  No one ever wanted to use it. Um, and it eventually was called texture.
+[21:00.540 --> 21:03.740]  And that is the thing that Apple bought a year ago. Um,
+[21:03.820 --> 21:06.060]  and it's crucial to remember as we get into like complaints about the
+[21:06.060 --> 21:08.940]  economics, the magazine publishers still owned it when they,
+[21:08.940 --> 21:09.980]  when Apple bought it.
+[21:09.980 --> 21:14.380]  So they got a check from Apple already, the magazine publishers.
+[21:15.100 --> 21:18.940]  Um, and that basically is the product that's out now. Um,
+[21:18.940 --> 21:22.300]  the Apple folks will tell you they totally redid the product, but it's,
+[21:22.300 --> 21:24.940]  it's essentially the same thing. Um,
+[21:24.940 --> 21:27.900]  and then what Apple has been trying to do for the last year is say, all right,
+[21:27.900 --> 21:31.580]  magazines are great, but we need more stuff in here. We need news.
+[21:31.580 --> 21:35.900]  So they've been courting the, the newspapers, um, with mixed success.
+[21:36.220 --> 21:39.180]  They have the wall street journal. We could talk about why they're in the LA
+[21:39.180 --> 21:40.860]  times. They have some digital publishers,
+[21:40.860 --> 21:45.340]  including my friends over at box.com are contributing some stuff. Um,
+[21:45.340 --> 21:49.020]  then notably do not have the Washington post or the New York times, right?
+[21:49.420 --> 21:52.380]  But that's why this is a magazine product in part because it's always been a
+[21:52.380 --> 21:53.100]  magazine product.
+[21:53.100 --> 21:57.260]  And in part because Apple hasn't been able to get the news guys in it. Um,
+[21:57.260 --> 22:00.780]  um, I think the other factor that we should definitely mention,
+[22:00.780 --> 22:01.740]  I know you know this,
+[22:01.740 --> 22:06.380]  but I think it's worth remembering is that when Apple first went to the music
+[22:06.380 --> 22:11.100]  companies in 2002, three ish, 2002,
+[22:11.740 --> 22:15.740]  I mean, the iPod came out, I always remember it came out, uh, after nine 11.
+[22:15.740 --> 22:17.900]  So it was 2001. Um,
+[22:19.180 --> 22:24.940]  it was the iPod was at that time a Mac only peripheral and the Mac had,
+[22:24.940 --> 22:28.140]  you know, uh, three, four, five percent,
+[22:28.140 --> 22:30.940]  however you want to measure it of the U S market. And you, you know,
+[22:31.020 --> 22:34.940]  had to have a Macintosh to use an iPod. And so it,
+[22:35.660 --> 22:36.460]  a niche product.
+[22:36.460 --> 22:40.460]  And I think that the music industry saw it as a permanent niche product that
+[22:40.460 --> 22:40.940]  they could, well,
+[22:40.940 --> 22:43.820]  we can dip our toes in this and do this thing with Apple where they're selling
+[22:43.820 --> 22:47.740]  songs for 99 cents because it's just Apple. And that's right.
+[22:47.740 --> 22:51.020]  And also, by the way, it's, it's also post Napster or, you know,
+[22:51.100 --> 22:53.020]  file sharing is a huge deal of it,
+[22:53.020 --> 22:55.820]  but in retrospect that the music guys haven't quite realized this,
+[22:56.300 --> 22:56.620]  their,
+[22:56.620 --> 23:00.620]  their industry is about to go into like a decade plus slide because of piracy.
+[23:01.180 --> 23:04.700]  But the reason they could even get there was the jobs could even break open the,
+[23:04.700 --> 23:08.060]  the $15 CD is because of Napster and Grokster and the,
+[23:08.060 --> 23:12.700]  and what it had been doing to, to sales. Yeah. And, you know,
+[23:12.780 --> 23:18.780]  I don't think they ever foresaw that the iPod would turn into the digital music
+[23:18.780 --> 23:23.100]  player of the decade and therefore make the iTunes music store,
+[23:23.100 --> 23:27.420]  the digital music store for everybody. Right.
+[23:28.300 --> 23:28.940]  And, you know,
+[23:28.940 --> 23:31.340]  I think that's the caution that these other,
+[23:31.580 --> 23:34.460]  whether it be books or whether it's the news industry or,
+[23:34.540 --> 23:37.420]  or Hollywood or everybody's had since is, Hey,
+[23:37.420 --> 23:41.980]  they did it to the music guys. And I question what I question about that though,
+[23:41.980 --> 23:43.740]  analysis is that without Apple,
+[23:43.740 --> 23:47.420]  I'm not sure the music people were going to have anything to do with Apple.
+[23:47.420 --> 23:51.980]  They're not going to have anything anyway. It's right. And that, by the way,
+[23:51.980 --> 23:54.940]  that, that, that is completely parallel to what's going on here.
+[23:54.940 --> 23:58.380]  We can talk about that, but a lot of it, I mean, again,
+[23:58.380 --> 24:03.180]  you have Steve jobs coming in sort of as the music industry is a nose dive and
+[24:03.180 --> 24:05.180]  saying, things look bad for you.
+[24:05.180 --> 24:08.780]  I've got something that's literally better than nothing.
+[24:08.780 --> 24:13.100]  And that's basically the picture to the magazine guys.
+[24:13.100 --> 24:15.740]  You guys have been trying to sell magazines for a long time.
+[24:15.740 --> 24:19.420]  You do it online. It's really not working. You guys are in a slide as well.
+[24:19.420 --> 24:21.340]  You're in the magazine business for God's sake.
+[24:23.180 --> 24:26.540]  It's not going well on your own. I've got something that can help you.
+[24:28.060 --> 24:31.420]  The economics are going to not look that great, but if we supersize it,
+[24:31.420 --> 24:32.140]  maybe it's awesome.
+[24:35.420 --> 24:38.140]  It does seem like a compelling deal.
+[24:38.140 --> 24:40.620]  If you want to read a bunch of magazines,
+[24:40.620 --> 24:45.500]  nine bucks a month is really an outstanding deal for the amount of content.
+[24:45.500 --> 24:46.860]  It's an outstanding deal.
+[24:46.860 --> 24:51.420]  If you like to read magazine stories and are deeply,
+[24:51.420 --> 24:56.940]  deeply invested in any particular title where it falls apart is if you really
+[24:56.940 --> 24:59.500]  like the New Yorker. First of all,
+[24:59.500 --> 25:01.660]  it's just not a satisfying way to sort of get to the New Yorker.
+[25:01.660 --> 25:04.700]  And also the New Yorker is a particularly good example here.
+[25:04.700 --> 25:07.980]  They are spending a lot of time and effort creating online only content.
+[25:07.980 --> 25:09.420]  That stuff won't be in there.
+[25:10.780 --> 25:13.900]  But if you are someone who just sort of like the equivalent of like looking
+[25:13.900 --> 25:16.860]  through a newsstand and picking something up or looking through your stack of
+[25:16.860 --> 25:19.980]  unread magazines and picking something up, it's pretty cool.
+[25:19.980 --> 25:23.260]  And if you have a little bit of motivation and you know that there's a really
+[25:23.260 --> 25:26.620]  good New Yorker article about dinosaurs that came out last week,
+[25:26.620 --> 25:29.900]  you can go get it. And I do think it's very compelling.
+[25:33.500 --> 25:39.180]  I get to why the major newspapers, and again,
+[25:39.180 --> 25:42.300]  I'd love to hear your take on why the journal is in,
+[25:42.300 --> 25:45.820]  but why the post and New York times aren't.
+[25:45.820 --> 25:50.380]  Now I've subscribed to the wall street journal.
+[25:50.380 --> 25:53.660]  I subscribed to the New York times to all digital editions,
+[25:53.660 --> 25:57.580]  and I do subscribe to the Washington post. So I looked up what I'm paying.
+[25:57.580 --> 26:04.620]  I'm paying $39 a month for the journal now and the journal famously,
+[26:04.620 --> 26:10.460]  very famously all along sort of as stodgy as you might think the journal
+[26:10.460 --> 26:15.260]  would be as an institution, really kind of pounced on the world wide web,
+[26:15.260 --> 26:18.060]  you know, back when we used to call it the world wide web.
+[26:18.060 --> 26:22.220]  And also very, I'm not going to say all along,
+[26:22.220 --> 26:25.260]  I don't know about the early years, but as long as I can remember,
+[26:25.260 --> 26:28.300]  they've had a paywall for everything and you want our stuff, you pay,
+[26:28.300 --> 26:30.860]  you are more importantly, your employer pays, right.
+[26:30.860 --> 26:35.660]  And they don't even do like a, Hey, you get five a month and then you can,
+[26:35.660 --> 26:38.940]  you know, delete the cookie and maybe get five more go into private mode.
+[26:38.940 --> 26:42.540]  And then their cookie doesn't show up and you can do this stuff. And we,
+[26:42.540 --> 26:46.220]  you know, they don't have that, you know, it is, you're going to pay us.
+[26:46.220 --> 26:51.420]  And again, why it may have worked so well for them as opposed to others is exactly
+[26:51.420 --> 26:55.580]  what you said that a lot of, if not most of the subscribers to the wall street journal can get
+[26:55.580 --> 27:00.220]  their employer to pay for it. I certainly considered as myself, I mean, it's a one person
+[27:00.220 --> 27:05.180]  company, but I consider it a well-justified business expense because I find so much good
+[27:05.180 --> 27:10.380]  stuff and linked to so much good stuff in the wall street journal. But that's $39 a month.
+[27:10.380 --> 27:15.580]  And that just all goes right to the journal. The times is 20 bucks a month for a digital
+[27:15.580 --> 27:21.420]  subscription. And funny enough, I just got a, I just got an email from a Schultz burger yesterday
+[27:22.860 --> 27:28.380]  telling me that that my subscription will be going up to $25 a month sometime between now
+[27:28.380 --> 27:33.180]  and the middle of may, which is a little weird that he, he doesn't know when you're going to
+[27:33.180 --> 27:41.180]  pay. And you know, the times has a leakier paywall. They do the thing where you get free,
+[27:42.060 --> 27:49.100]  some number of free articles a month and they keep a cookie and whatever. But for people who
+[27:49.100 --> 27:55.100]  do subscribe, that's $20 and within weeks, $25 a month, all going to the New York times company
+[27:55.100 --> 28:00.460]  and the wall street, Washington post, I subscribed through, through their app on the phone because I
+[28:00.460 --> 28:07.420]  do love managing my subscriptions, the Apple way where I can, if I ever wanted to unsubscribe,
+[28:07.420 --> 28:11.900]  I can just tap a button as opposed to calling the New York times call center in Iowa,
+[28:13.100 --> 28:19.740]  talking to some nice lady there. But that's $10 a month. I have, I have a basic subscription
+[28:19.740 --> 28:23.420]  to the Washington post. I pay 10 bucks a month for it. There's something that they,
+[28:23.420 --> 28:27.980]  I don't even know what they have. There's a premium for $15 a month. I don't miss anything
+[28:27.980 --> 28:35.020]  in the Washington post. So I, you know, 10 bucks a month is good for me. But at 10 bucks
+[28:35.020 --> 28:40.700]  total for Apple news plus and sharing it with all of these other magazines and other online
+[28:40.700 --> 28:47.180]  publications that are in it and this purported 50 50 split where Apple's taking 50% of the money
+[28:47.180 --> 28:54.780]  overall you can just, you don't have to even be good at math to sort of see why this may not appeal
+[28:54.780 --> 29:00.220]  to the newspapers. Yeah. For the news guys, it's for the post and the time. It's very clear.
+[29:00.220 --> 29:05.820]  Part of it is the money. The times I think has 3 million digital only subscribers. I think maybe
+[29:05.820 --> 29:10.700]  4 million all in. They're saying, look, you know, even if we have to give Apple a cut of that,
+[29:10.700 --> 29:16.060]  cause some people are subscribing through the, you know, iTunes, et cetera. Fine. But you know,
+[29:16.060 --> 29:19.500]  we want to keep as much of that as possible. We certainly don't want to give away 50%.
+[29:19.500 --> 29:25.020]  And there's some more nuanced arguments about we don't want to be in someone else's bundle,
+[29:25.020 --> 29:30.460]  frankly. And someone else's newsstand, I think Mark Thompson, who's the publisher,
+[29:31.260 --> 29:34.620]  I guess maybe the CEO's official title at the time, said something about a,
+[29:34.620 --> 29:39.500]  he had some weird reference to a British blender. But basically said, you know, we don't want to be
+[29:39.500 --> 29:44.620]  part of someone else's mix. We want to be the presenter of the New York Times and we don't want
+[29:44.620 --> 29:50.300]  to get swapped out for a competing news product at some point. There's also an issue of actually
+[29:50.300 --> 29:54.460]  having control over who has access to the subscriber, all those things that are all
+[29:54.460 --> 29:58.780]  important to the post and the times that are very diligently building up these businesses.
+[30:00.460 --> 30:03.900]  The journal could say all those same things and the fact that they're not,
+[30:04.940 --> 30:08.700]  you can deduce a couple of things. One, Rupert Murdoch has always had an affinity slash special
+[30:08.700 --> 30:16.300]  relationship with Apple. I remember The Daily, among other things. I forgot about The Daily,
+[30:16.300 --> 30:20.460]  but that's true. No, that was a big thing, right? It was Steve Jobs and Rupert Murdoch
+[30:20.460 --> 30:26.940]  cooking up the newspaper The Future. Did not work. But they're saying, look, we have kind of,
+[30:26.940 --> 30:31.100]  we've got all the business subscribers we're going to get. We think there are other people
+[30:31.100 --> 30:35.420]  that would like to read The Wall Street Journal or a version of The Wall Street Journal and maybe
+[30:35.420 --> 30:40.940]  we can profit from that. So again, without saying it this way, what they've done is created a
+[30:40.940 --> 30:47.660]  product that in theory will not satisfy you, John Gruber, who's paying 39 bucks a month for
+[30:47.660 --> 30:53.020]  the journal. You will find it to be sort of a crippled version of the journal. In theory,
+[30:53.020 --> 30:58.940]  all the articles that are available in today's journal are there. They're online. They're only
+[30:58.940 --> 31:04.780]  there for three days and they're hard to find. It's not going to be the equivalent of browsing
+[31:04.780 --> 31:10.140]  deeply through the app. Again, they're not going to come out and say we've made this thing to sort
+[31:10.140 --> 31:14.780]  of frustrate our core subscribers, but that's what they want. So they're hoping slash you
+[31:15.580 --> 31:21.660]  praying you don't dump your expensive subscription for a cheap one. And then their hope is we're
+[31:21.660 --> 31:26.620]  going to bring a lot of general interest stories that maybe most people don't associate with the
+[31:26.620 --> 31:29.820]  journal or people who aren't subscribing the journal don't know that we do and we're going
+[31:29.820 --> 31:35.580]  to surface those. Weirdly, they're also hiring maybe 50 journalists that are going to mostly
+[31:35.580 --> 31:40.940]  create stuff just for Apple News Plus, which is confusing to me. And so we're really going to go
+[31:40.940 --> 31:44.780]  deep on this and we're going to sort of make the journal we would like the journal to be a general
+[31:44.780 --> 31:49.980]  interest newspaper that attracts readers all over the world. That is our bet. That doesn't make any
+[31:49.980 --> 31:57.020]  sense to me at all that there. Well, one thing you don't get and it affects me personally and what I
+[31:57.020 --> 32:05.580]  do very much is that unless I'm completely missing something. If you Peter subscribe to the journal
+[32:05.580 --> 32:10.300]  only through Apple News Plus, you don't have a direct subscription and I linked to a Wall Street
+[32:10.300 --> 32:15.100]  Journal story on during fireball. When you click through, you only get the preview and there's no
+[32:15.100 --> 32:20.540]  way for you to log in using credentials from your Apple News Plus subscription. You don't have you
+[32:20.540 --> 32:25.260]  know, there is that you need a real quote unquote real Wall Street Journal thing to read the Wall
+[32:25.260 --> 32:30.220]  Street Journal on the web. Yeah, I don't know how much of that is is is feature versus bug.
+[32:30.940 --> 32:34.460]  And maybe they're just they haven't figured out how to get how to figure that part out. I assume
+[32:34.460 --> 32:39.180]  that's actually fairly complicated. I'm in part just because the number of times that when I do
+[32:39.180 --> 32:45.580]  go to a publication that I am subscribing to, they don't recognize me. And that doesn't sort
+[32:45.580 --> 32:48.860]  of matter what device I'm on, whether it's an Apple device, or it's the web or my phone.
+[32:49.420 --> 32:52.700]  Apparently, that stuff is just hard to do. Are you talking about the journal specifically?
+[32:52.700 --> 32:58.300]  No, I'm talking about anything. Well, the New Yorker, the journal specifically,
+[32:58.300 --> 33:03.260]  and I've talked to Joanna Stern about this, and she's admitted the same thing that the journals
+[33:04.060 --> 33:09.500]  remember me checkbox is the biggest lie on the entire internet.
+[33:09.500 --> 33:14.220]  Well, I don't know the the folks who work the New Yorker say the same thing. Oh, there's guys. Yeah,
+[33:14.220 --> 33:19.100]  there's is awful as well. The New Yorkers in the Wall Street journals are terrible. The New York
+[33:19.100 --> 33:24.860]  Times is much better in my experience at remembering me. And I know that there's some
+[33:24.860 --> 33:29.340]  of the funny things is the fact that when you're on your phone, a whole bunch of apps like your
+[33:29.340 --> 33:34.700]  Twitter app and other apps have built in many browsers based on Safari and you know whether
+[33:34.700 --> 33:39.180]  or not they can share cookies or whatever. But I'm talking about when you're I'm just in real Safari
+[33:39.180 --> 33:46.460]  on one of these devices. And I mean, I have to log into the Wall Street Journal almost every
+[33:46.460 --> 33:50.860]  every day. It's really kind of frustrating. It's probably there's an extra maybe there's a more
+[33:50.860 --> 33:54.300]  expensive subscription where they remember you. Yeah, I don't know they can upsell you for that.
+[33:57.180 --> 34:05.180]  That's the bet for the journal. What I've heard is that this this plan was not a big hit
+[34:05.180 --> 34:08.780]  internally at the journal. This is very much a Rupert Murdoch and Robert Thompson
+[34:08.780 --> 34:13.740]  with Apple thing that the sort of rank and file journalists and editors are not psyched about
+[34:13.740 --> 34:19.580]  this idea either because they're similarly confused about it. And you can just see how
+[34:19.580 --> 34:27.260]  the money just isn't there if if they saw it, you know, and I think the Times and and the Post are
+[34:27.260 --> 34:31.900]  wise to be cautious about this, you know, like you said, I mean, if the Times has 4 million digital
+[34:31.900 --> 34:39.660]  subscribers, and they're all paying 20 soon to be 25. That is, you know, going to be 100 million
+[34:39.660 --> 34:46.220]  dollars a month in revenue. Yep. That's and the the Apple response off the record is 3 million
+[34:46.220 --> 34:51.900]  digital subscribers is nothing, right? We can get you 10s of millions, right? We can we can,
+[34:51.900 --> 34:55.020]  it's not just that we're going to make this a bigger business, we can make this a huge
+[34:55.020 --> 34:59.180]  business for you. Again, if you're the times you say, look, I'm doing pretty well, and I have full
+[34:59.180 --> 35:04.220]  control. I'm going to go on my own for a while. The magazine guys are saying, you know what,
+[35:04.220 --> 35:08.380]  if it's a few hundred million dollars split between a bunch of us, we'll take it. Yeah.
+[35:08.380 --> 35:14.700]  You know, and bundles can work. I mean, that's how the cable industry has always worked,
+[35:14.700 --> 35:20.780]  you know, where it's your one channel, the Discovery Channel, and you don't sell, you know,
+[35:20.780 --> 35:24.860]  but there's exceptions like HBO and Showtime, where they, you know, you buy them individually,
+[35:24.860 --> 35:30.220]  but for the most part, the way the cable, you know, we went from having when I was a kid,
+[35:30.220 --> 35:34.300]  10 channels that came over the air, and they were all local to having a whole bunch of cable
+[35:34.300 --> 35:40.220]  channels to go from is the bundle and a whole bunch of channels, one monthly fee, and you get
+[35:40.220 --> 35:45.260]  everybody if everybody, quote unquote, everybody has cable, which was effectively true at one
+[35:45.260 --> 35:50.380]  point. There's enough money to go around where, you know, it is real money. Right. And now that
+[35:50.380 --> 35:54.540]  model is under great pressure, which is actually Atlas plan slash hope is that the bundle is going
+[35:54.540 --> 35:59.260]  to break up and they'll benefit from that. My argument about this, though, with the magazines,
+[35:59.260 --> 36:04.380]  or one of my arguments with it is, and I like magazines, I do. But I will admit that even
+[36:05.100 --> 36:08.860]  even when I like fly, which might be the perfect time to read a magazine.
+[36:10.620 --> 36:15.660]  I just don't have time. I don't have time to read a lot of magazines. I still subscribe to the
+[36:15.660 --> 36:21.500]  physical New Yorker. I get a publication, you're probably familiar with the week,
+[36:21.500 --> 36:26.780]  which is a nice wrap up magazine and does a really good job of embracing what print is still
+[36:26.780 --> 36:32.620]  great at. And it's sort of like a reader's digest for what's, what's, what's happened in the last
+[36:32.620 --> 36:39.340]  week, whether it was in another magazine, or whether it was online. But other than that,
+[36:39.340 --> 36:42.780]  I just, you know, and I can't say, you know, famously, I mean, I think most people have
+[36:42.780 --> 36:48.700]  subscribed to the New Yorker. There's a stack in the bathroom. There's a terrible guilt where all
+[36:48.700 --> 36:55.820]  I've all I've looked at this this week was the back page cartoon contest. Yeah, I mean, I have
+[36:55.820 --> 37:00.940]  I have the time to read lots of articles, although I'm behind on the big times Murdoch piece today.
+[37:00.940 --> 37:06.140]  But but my critique there is the idea of a magazine where an editor goes and assembles
+[37:06.140 --> 37:10.460]  a bunch of articles for you. I love that idea. But in reality, Twitter is my editor.
+[37:11.900 --> 37:17.740]  And they, my friends or people I follow, send links around and I and you know, you can you can
+[37:17.740 --> 37:22.540]  argue that maybe I'm in a filter bubble, etc. But that's I get lots of people are picking my
+[37:22.540 --> 37:29.260]  articles out for me on Twitter, to a lesser degree, Facebook. And so the idea of this curated
+[37:29.260 --> 37:34.460]  set of articles that one person picked for me seems very anachronistic. But frankly, you know,
+[37:34.460 --> 37:37.740]  that's what Apple News is right is that bundle, they just sort of mushed all the magazines
+[37:37.740 --> 37:42.700]  together. And a lot of folks are very happy to sort of be presented with a bunch of stuff picked
+[37:42.700 --> 37:46.940]  by again, human beings in Cupertino to Apple's credit, saying we think these are things you
+[37:46.940 --> 37:53.660]  should read. The other thing too, is that the difference between a magazine and a newspaper
+[37:55.100 --> 38:02.140]  used to be a lot when in the print world was a lot more distinct. And you know, the type of writing
+[38:02.140 --> 38:06.700]  and the type of article you would read on page one of the New York Times is very different than
+[38:06.700 --> 38:10.700]  the type of stuff you would read in the New Yorker or even time or Newsweek or something.
+[38:10.700 --> 38:19.580]  But now, we're mostly talking about articles. It's the unit is really and you know, it's just a post
+[38:19.580 --> 38:23.580]  web thing. And in the early days of the web, I mean, in the years before I started during
+[38:23.580 --> 38:28.300]  fireball before before web blogs became a here, here's how you do a web blog, you just have you
+[38:28.300 --> 38:35.500]  just write posts, and the newest one is at the top and they scroll down. It seems very obvious, but
+[38:35.500 --> 38:41.580]  in the early years of, of the web, I certainly struggled with it coming from, you know,
+[38:43.100 --> 38:47.180]  I was much younger than I was coming from, you know, running the student newspaper Drexel,
+[38:47.180 --> 38:50.860]  but thinking about issues and that there'd be an issue and what do you do? Do you have an issue
+[38:50.860 --> 38:54.940]  every couple days? Do you do an issue once a week? Do you have a schedule? And no, you just have
+[38:54.940 --> 39:00.700]  articles. That's the nature. And that's the, the, the atomic unit of Apple News is still even if you
+[39:00.700 --> 39:05.340]  have the Apple News Plus, it's still the article and the difference between an article that happens
+[39:05.340 --> 39:09.580]  to come from the New York Times or the Washington Post and an article that comes from a magazine.
+[39:10.460 --> 39:14.860]  It isn't really relevant. And it could come from somebody who doesn't even have
+[39:14.860 --> 39:21.100]  a print edition, like TechCrunch, or Vox Media, or, you know, you name it.
+[39:21.100 --> 39:24.700]  Yeah, no, and that's all as it should be. If you're the consumer, all you care about is,
+[39:24.700 --> 39:29.500]  do I like this? Is it good? Is it? Is it trustworthy? Is it come from a source that
+[39:29.500 --> 39:33.340]  I trust and value? That's kind of it. And you know, look, I mean, a lot of those New York
+[39:33.340 --> 39:38.940]  Times 3 million subscriptions are part of the the Trump bump, right? People actively sort of
+[39:38.940 --> 39:45.020]  signaling that they want to support the Times, which is great. But that's anomaly, hopefully.
+[39:46.860 --> 39:51.500]  So you know, it might be very difficult to get lots of people to subscribe to
+[39:51.500 --> 39:54.780]  discreet magazine subscriptions or newspaper subscriptions going forward.
+[39:54.780 --> 39:59.740]  Yeah. Well, what leads me to the formatting issue, which is that somebody,
+[39:59.740 --> 40:05.740]  a Federico Viticci at Mac stories went through and did the diligent work of looking at every
+[40:05.740 --> 40:10.860]  single magazine that was in Apple News as of like, a day or two after the thing. And it was
+[40:10.860 --> 40:16.940]  about a 50-50 split between the magazines that were using the new Apple News format,
+[40:16.940 --> 40:20.540]  in terms of the technical, you know, how are we sending this article, which is a little bit more
+[40:20.540 --> 40:27.020]  like HTML and a thing that more easily reflows to anything from a big screen to a tiny little
+[40:27.020 --> 40:32.300]  phone screen, and about half are still just doing PDFs, which I think is how texture worked. And
+[40:32.300 --> 40:38.620]  it's certainly how all of them on, you know, the iPad magazines back in 2011 2010.
+[40:38.620 --> 40:43.020]  Yeah, mostly the couple of the iPad magazines, like wired and stuff tried to spend a lot of time
+[40:43.020 --> 40:47.340]  and energy trying to make a new thing for digital, but most of them said, we're just going to take
+[40:47.340 --> 40:50.780]  the thing we've already made and, and take a photograph of it, essentially, and put it over
+[40:50.780 --> 40:56.060]  here. Yeah. But pages, it just doesn't work for me, really. I mean, it always I mean, I still read
+[40:56.060 --> 41:02.940]  PDFs, and I read things that I have to do that way. But boy, breaking things into PDF pages as the
+[41:02.940 --> 41:08.860]  default distribution online feels still feels antiquated. Yeah, but you're getting so much of
+[41:08.860 --> 41:14.700]  it. It's only $10. And you can subscribe on your phone. I think it'll do okay. I mean, my I've been
+[41:14.700 --> 41:20.140]  thinking a lot about, you know, what is what is a reasonable goal for them? They've sold 50 million
+[41:20.140 --> 41:26.060]  Apple music subscriptions in the last how many years, five years? Yeah. I think people like
+[41:26.060 --> 41:31.020]  music more than they like reading, for better or for worse. And also, there's a language thing,
+[41:31.020 --> 41:36.220]  right? It's harder to sell this in Germany or Japan, I assume. So I don't know, it's 25 million
+[41:36.220 --> 41:41.980]  reasonable. Yeah. And if you get to that, my back of the envelope math there is that if that's the
+[41:41.980 --> 41:49.820]  case, and they sold 25 million subscriptions, that's $1.5 billion to cut up between the
+[41:49.820 --> 41:54.220]  publishers. A lot of them would be very happy to be a piece of that pie. Right.
+[41:55.580 --> 42:02.540]  Well, we shall see the other thing that they emphasized. And it gets into I mean,
+[42:03.740 --> 42:11.020]  I think Google and Facebook were the implied other guys is the notion the emphasis on human curation.
+[42:11.020 --> 42:18.940]  And we want to show you what's good and truthful and important. Not just what you're going to click
+[42:18.940 --> 42:26.140]  on, you know, as sort of anti clickbait rant, anti clickbait, and also humans are picking this
+[42:26.140 --> 42:32.380]  stuff. It's not we're not leaving this up to an algorithm. And we care about journalism, you know,
+[42:32.380 --> 42:37.260]  full stop, they made a point of saying that when they bought texture, right? This is specifically
+[42:37.260 --> 42:42.220]  about supporting journalism. There was an article a couple of months ago where somebody had like
+[42:42.220 --> 42:46.220]  a feature of, you know, how Apple News works and who they've hired and how they've hired
+[42:46.220 --> 42:52.220]  all these professionals who have, you know, serious careers in real journalism. And then
+[42:52.220 --> 42:55.740]  there was a quote from somebody who was like, his title is managing editor. And he was like,
+[42:55.740 --> 43:03.980]  he asked his name not to be used. Because he works at Apple. And it's like, that's just like,
+[43:03.980 --> 43:10.620]  for anybody from the media world, that is just, it's insane. And there's one there's one woman
+[43:10.620 --> 43:14.780]  whose name is associated with Lauren Kern, right, and sort of the public face of it. And she if he
+[43:14.780 --> 43:17.580]  went to the Apple event, you'd see her walking around, you can talk to her.
+[43:17.580 --> 43:22.300]  That and that is sort of how Apple works, where there is a I don't know,
+[43:22.300 --> 43:28.940]  want to say for sure that it's everybody has a VP title. But there is a sort of line that you cross
+[43:28.940 --> 43:35.900]  in your career at Apple where you're allowed to be named publicly. Yeah, and anybody who's not on
+[43:35.900 --> 43:42.140]  that side, by the way, as I'm sure you notice this, they did bring up a lot of newish faces.
+[43:42.140 --> 43:48.620]  Yeah. On stage. One important name for you for your readers slash listeners to pay attention to
+[43:48.620 --> 43:53.740]  is the guy Peter Stern. He's the guy who does all the deals now. He's a very important deal guy.
+[43:53.740 --> 43:58.380]  Yeah. For Apple with the media. And I you know, I can't imagine another scenario where Peter
+[43:58.380 --> 44:01.580]  Stern would get stage time. Yeah. So that was different.
+[44:01.580 --> 44:09.580]  Yeah. There was the guy Wyatt. I forget his last name, but he had the exquisite white jumpsuit.
+[44:09.580 --> 44:13.260]  Yeah, that was a jumpsuit. It was the cool haven't seen the jumpsuit. Go back and look
+[44:13.260 --> 44:18.460]  at the jumpsuit. I used to do a thing years ago on Twitter. Well, for many years where I would
+[44:18.460 --> 44:25.500]  keep track of whether the presenters at Apple were had had their shirts tucked in or untucked.
+[44:25.500 --> 44:32.460]  And I would keep a tally as a completely meta thing just to goof on Twitter during the event.
+[44:32.460 --> 44:41.260]  And I stopped doing it. Because I it was very male focused. And at the in the early years of it,
+[44:41.260 --> 44:45.180]  it didn't matter because everybody who was coming on stage was a man. And so it was fine. But then
+[44:46.300 --> 44:50.300]  I think it was one time when Angela orange came on stage, but there was somebody who came on stage.
+[44:50.860 --> 44:55.980]  And her shirt wasn't tucked in or her blouse, but it really wasn't a shirt. And she looked
+[44:55.980 --> 45:00.060]  fantastic. And I was like, you know what, this whole tucked on tuck thing really only applies
+[45:00.060 --> 45:07.900]  to men. And it's I think it's time to put it to put it to rest. But by the way, and it was I
+[45:07.900 --> 45:13.660]  noticed also that was a diverse group of Apple presenters. That was different as well. I don't
+[45:13.660 --> 45:17.340]  think that was pointed necessarily. I just think that was but I do think that wasn't an accident.
+[45:19.180 --> 45:23.820]  But when Wyatt came out in the jumpsuit, I thought, boy, if I were still doing the tucked
+[45:23.820 --> 45:30.540]  untucked, I don't even know where, where that would apply. I was like, good, you retired that
+[45:30.540 --> 45:34.940]  one that it would have to be an asterisk, I think, but I would give it an asterisk and the on the
+[45:34.940 --> 45:45.340]  side of absolutely winning because it was, it was a very cool look. Wyatt Mitchell is his name. I
+[45:45.340 --> 45:50.380]  wanted to make sure Wyatt Mitchell, and he did a great job. He was a designer who worked on Apple
+[45:50.380 --> 45:57.500]  News, and showed off the cool way that the Apple News formatted ones really do format, you know,
+[45:57.500 --> 46:02.300]  flow very cool between your phone and your iPad. Yeah, I think I think this is the kind of thing
+[46:02.300 --> 46:09.180]  that if Apple announced this, you know, in a suite of other hardware devices that you could buy,
+[46:09.180 --> 46:13.900]  we go that's probably kind of cool, and we'd move on. And the fact that we're focused this much time
+[46:13.900 --> 46:20.060]  on this podcast alone shows you sort of like how odd this event was, or it's the one thing we can
+[46:20.060 --> 46:25.420]  actually look at and evaluate and debate whether it's worth the money. Everything else is, is
+[46:26.060 --> 46:27.580]  theoretical still. Yeah.
+[46:29.740 --> 46:34.460]  Next up was Apple Pay, Apple Card. I don't really have a lot to say about this. I've been skeptical
+[46:34.460 --> 46:37.980]  all along about Apple getting into the credit card business just because it just seems so
+[46:39.180 --> 46:46.460]  odd. And it seems like the most transparently. This isn't a thing we would you would think of a
+[46:46.460 --> 46:54.060]  computer company making. But there's money to be made. And we like making Yeah, I will confess that
+[46:54.060 --> 46:59.100]  I still don't really understand that the real difference between Apple Pay and the Apple Card.
+[47:00.140 --> 47:03.740]  I mean, I get there are some differences. And my colleague, Jason del Rey, who actually writes
+[47:03.740 --> 47:09.740]  about this stuff, he's really great on commerce, can walk you through it if you care. And why this
+[47:09.740 --> 47:13.420]  does or doesn't matter. But it's mostly a shrug to me, I got to kick out of the fact that there's
+[47:13.420 --> 47:18.940]  an actual card made out of titanium. Yeah. And you know, I if you're into the theater of it,
+[47:18.940 --> 47:22.940]  the fact that they're paired with Goldman Sachs, who not that long ago was sort of one of the most
+[47:22.940 --> 47:29.420]  despised brands in America is interesting. I'm not sure that is in the past tense, to be honest,
+[47:29.420 --> 47:33.420]  especially judging from a lot of the emails and tweets I saw after this.
+[47:37.100 --> 47:42.460]  Yeah, I basically I would describe it this Apple Pay is the way that you pay using your device.
+[47:42.460 --> 47:49.100]  And it's, you know, it has but to do that, you have to have sources and the sources could be
+[47:49.100 --> 47:57.420]  debit cards from your bank, or credit cards. And Apple Pay cash is their virtual debit card
+[47:57.420 --> 48:03.100]  that you can use with Apple Pay. And it's just like a bank account, except that it has no
+[48:03.100 --> 48:08.700]  interest, but it's, you know, just cash. And then Apple Card now can be another source,
+[48:08.700 --> 48:14.540]  a credit card, you know, a replacement for an Amex or whatever. Right. But the emphasis in
+[48:14.540 --> 48:19.340]  the show was, this is a thing you you don't need a card for, you just carry it in your phone.
+[48:19.340 --> 48:23.180]  So it's, you know, it's effective. You know, if I was buying my coffee with Apple Pay,
+[48:23.180 --> 48:27.820]  and if I'm paying with Apple credit card, I get that there are some technical differences
+[48:27.820 --> 48:32.540]  and that the who the bank is matters to the banks. But if you're a user of some just bought my
+[48:32.540 --> 48:37.340]  cappuccino, who cares, who cares whether it's a card or Apple Pay? The thing that I find a
+[48:37.340 --> 48:41.660]  little worrisome about it is, and again, it seems like a really good card. And you know,
+[48:41.660 --> 48:46.060]  I don't think the interest rates are groundbreakingly low, but they do seem competitive
+[48:46.060 --> 48:51.020]  or at the low end of the industry. And the no fees thing is all good. And the cash back is
+[48:51.020 --> 48:58.060]  fine. But I'm not doing a finance podcast. I also assume that Goldman is gonna is going
+[48:58.060 --> 49:02.940]  to be replacing whoever the weird bank is that Apple uses now for its phone financing project.
+[49:02.940 --> 49:07.900]  Oh, I wouldn't be surprised. Yeah, that's a good idea. I would I would think so. You know, it makes
+[49:07.900 --> 49:12.460]  sense. And that and that probably right is going to be a significant part of whatever bundle there
+[49:12.460 --> 49:17.260]  is is you're going to buy a new iPhone, and you're going to pay for it over this many installments,
+[49:17.260 --> 49:20.700]  and you're going to get these other things when you can move that bundle up or down.
+[49:20.700 --> 49:26.860]  Yeah. And you know, I know that every other not every but every department store you go to has
+[49:26.860 --> 49:31.740]  their own credit card and every airline has their own credit card or series of credit cards.
+[49:31.740 --> 49:36.380]  And you know, you can get your American Airlines credit card, you can get a Disney credit card,
+[49:36.380 --> 49:42.300]  you can, I get it that all of these other companies in you name the industry, right,
+[49:42.300 --> 49:47.740]  you can get gas station credit cards, you know. You know, and there's a reason I'm sure it's
+[49:47.740 --> 49:51.340]  profitable. You know, the banks are making money and the companies are making money,
+[49:51.340 --> 49:58.460]  lending money is a good business generally. Yeah, I get it. But it also just is all to me a little
+[49:58.460 --> 50:03.260]  unseemly. You know, my crack when they first in this first leaked a few weeks ago is what's next?
+[50:03.260 --> 50:05.500]  Are they going to start doing payday loans at the Apple store?
+[50:07.100 --> 50:14.460]  Yeah, I mean, again, they wrap this up in virtue, right? You know, we're not going to do fees,
+[50:14.460 --> 50:20.620]  right? Goldman will not, Goldman will not sell your information, right? And then there's sort
+[50:20.620 --> 50:24.620]  of an asterisk with regards to this, right? Because Goldman's definitely in the selling
+[50:24.620 --> 50:29.580]  information business. Because that's one of the ways these guys all make money. Yeah, I just,
+[50:29.580 --> 50:33.740]  you know, and again, I just cannot get over a titanium card. Just cracks me up. Should be
+[50:33.740 --> 50:39.180]  aluminum, right? Everyone made that joke. Yeah, I wonder why, why titanium instead of
+[50:39.180 --> 50:43.340]  sounds cool. Yeah, I don't know why. I know that they, you know, remember, they used to make the
+[50:43.340 --> 50:50.380]  laptops out of titanium when they first went from plastic to metal, the original metal g four Mac,
+[50:50.380 --> 50:58.220]  Mac Mac books, power books were titanium. I think for about two years, maybe. I'm nodding my head.
+[50:58.860 --> 51:03.820]  I trust you on this problem with titanium versus aluminum is titanium does not wear anywhere near
+[51:03.820 --> 51:10.700]  as well as aluminum. So like an 18 month old well used titanium g four had like it like eroded where
+[51:10.700 --> 51:16.780]  your palms touch it. It also reminded me of the Fyre festival. A lot of people made that a lot of
+[51:16.780 --> 51:23.340]  previous to the five previous the festival, they had the special card. Yeah, it wasn't even a
+[51:23.340 --> 51:28.140]  credit card. It was just a cool looking card. It was I think it was a rebranded. Yeah, someone
+[51:28.140 --> 51:35.020]  else's card. It was great. And the entire point of the card was that it it was a cool looking
+[51:35.020 --> 51:39.340]  credit card is a cool looking card. And maybe you could hang out with some jerks in the West Village
+[51:39.340 --> 51:44.780]  in a special apartment and go to places where people would be impressed, you know, and actually
+[51:44.780 --> 51:52.540]  look at I think a normal human being doesn't even think to look at anybody else's card except when
+[51:52.540 --> 51:58.460]  they're ostentatiously showing it off. No bottle service. No, I'm thinking like when you when you
+[51:58.460 --> 52:02.460]  split a check with a bunch of friends and then the bill comes back and you've there's six cards and
+[52:02.460 --> 52:07.180]  it's like, all right, who's got the green one? Who's who's who's got this blue thing? You know,
+[52:07.180 --> 52:11.340]  that's the only time anybody normal ever looks at it. So let's let's stipulate the world is not
+[52:11.340 --> 52:15.740]  gonna be set aflame by by the Apple thing or or maybe there's a more interesting application.
+[52:15.740 --> 52:18.300]  Maybe there's more interesting stuff to come from Goldman and Apple.
+[52:18.860 --> 52:23.100]  Well, I just don't know how big a dent in the universe it makes to have a better credit card
+[52:23.100 --> 52:30.540]  with low no fees and nice rules and stuff like that. I will say this, the 3% cashback on Apple
+[52:30.540 --> 52:35.500]  purchases is probably worth it for me to sign up for it, even if I don't use it for anything
+[52:35.500 --> 52:40.380]  other than the money I give to Apple every year. Yeah, look, if I feel bad about the fact that my
+[52:40.380 --> 52:44.860]  kids are spending 20 bucks of my money on fortnight. And if I could reclaim a little
+[52:44.860 --> 52:48.940]  bit of that back from their their digital dolls are buying, I'd be happy about that.
+[52:48.940 --> 52:52.940]  Yeah. So I it's probably worth it just for that. But I don't want to I don't want to spend more
+[52:52.940 --> 52:57.340]  of your time on on good. I mean, we'll spend as much time as you'd like, but it's probably not
+[52:57.340 --> 53:01.580]  worth it in your time. Let me take another break here and thank our next sponsor. So good friends
+[53:01.580 --> 53:09.100]  at eero ee r o. Look, eero beats the single router model, they provide Wi Fi for the home.
+[53:09.100 --> 53:15.100]  What you need in today's world is a distributed system. That's what offices have had for years and
+[53:15.100 --> 53:20.540]  years. But with considerable work and expense with eero, you can install an enterprise
+[53:20.540 --> 53:26.380]  enterprise grade Wi Fi system in your home in just a few minutes. So easy, everything comes in one
+[53:26.380 --> 53:31.820]  kit, you plug it into you plug one of them into your cable modem, that's your main one, then you
+[53:31.820 --> 53:36.620]  just plug other ones in throughout your house. As many you know, maybe need two more maybe need
+[53:36.620 --> 53:40.380]  three, depending on the size of your house, how many stores how many floors you have what your
+[53:40.380 --> 53:45.340]  walls are made of stuff like that. Their app will help you decide or their website will help you
+[53:45.340 --> 53:49.820]  decide even before you buy how many you might need. You can always add another one later,
+[53:49.820 --> 53:53.900]  you just plug it in and then use their app to add it to your network. And all of a sudden,
+[53:54.540 --> 53:59.980]  that additional one that you've plugged into the wall talks to it, it creates one single network
+[53:59.980 --> 54:04.300]  throughout your home. And now you've got multiple devices flooding your home with a strong Wi Fi
+[54:04.300 --> 54:09.900]  signal. Now they also have a service for Euro users called Euro plus and it provides complete
+[54:09.900 --> 54:15.580]  protection for your network and all the devices. Euro plus offers the ability to block malicious
+[54:15.580 --> 54:20.380]  and unwanted content across your whole network. advanced security, it checks the sites you visit
+[54:20.380 --> 54:25.500]  against a database of millions of known threats, and prevent you from accidentally visiting
+[54:25.500 --> 54:31.900]  malicious sites without slowing anything down. content blocking. Yep. Euro plus automatically
+[54:31.900 --> 54:36.140]  tagged sites that contain violent, illegal or adult content. So you can choose what your kids
+[54:36.140 --> 54:41.420]  can and cannot visit right from the Euro app, which again, is right on your phone. And it's
+[54:41.420 --> 54:46.460]  super, super nicely designed, very easy to understand. And they even have ad blocking,
+[54:46.460 --> 54:50.860]  you can get rid of annoying ads and pop ups on all your devices. ad blocking also improves load times
+[54:50.860 --> 54:55.580]  for ad heavy sites, you can browse and stream faster than ever before. They also have third
+[54:55.580 --> 55:00.940]  party security apps like VPN protection from encrypt dot me, password management from one
+[55:00.940 --> 55:06.940]  password, and antivirus software from malware bytes. All of that is included with Euro plus,
+[55:06.940 --> 55:11.100]  it's a great system. If you're listening to this podcast, you're hearing me talk over an
+[55:11.100 --> 55:15.580]  arrow network right now. I'm really happy with it. And they have a special deal. So you never
+[55:15.580 --> 55:19.580]  have to worry about Wi Fi again, once you have a neuro network in your home, you can get 100 bucks
+[55:19.580 --> 55:25.980]  off their Euro base unit and two beacons package, which is a great starter kit, probably all you
+[55:25.980 --> 55:33.180]  need. And one year of Euro plus. So you save 100 bucks when you get their Euro base unit,
+[55:33.180 --> 55:37.820]  two beacons package, and one year of Euro plus. And you can get that by visiting eero,
+[55:37.820 --> 55:45.420]  eero.com slash the talk show. And at checkout, just enter the talk show with the and you'll get
+[55:45.420 --> 55:51.660]  that deal. Another another fine read. And then a good product to Apple Arcade. Again, you're not a
+[55:51.660 --> 55:57.020]  gaming expert. I think this one now. This one makes a lot of sense, though, to me, just because
+[55:57.020 --> 56:05.500]  Apple's really strong in games. The mobile games are a huge deal. Yeah, as a consumer, I looked at
+[56:05.500 --> 56:10.140]  and said, you know, I don't know, I'm gonna play those games. But I could definitely seeing
+[56:10.140 --> 56:15.260]  subscribing to it and giving it to my kids and say, right here, one, you don't have to ask me
+[56:15.260 --> 56:20.140]  for any upgrades. I think that was a big, a big deal, right? It's, yeah, it's all it's gonna be
+[56:20.140 --> 56:26.460]  all in your hand. And I'm also Apple's gonna pick Apple's gonna have some sort of curatorial control
+[56:26.460 --> 56:32.540]  over it. So I'm not gonna be worried about them going to some weird, weird cider wrap. I definitely
+[56:32.540 --> 56:38.860]  again, if we knew what it cost, right? I'd be very interested in buying. And it's, you know,
+[56:38.860 --> 56:43.900]  they kept this pretty well under wraps. I had a guest I made a guest the day before the event that
+[56:43.900 --> 56:50.780]  maybe they would add a game subscription. Yeah, I think Bloomberg had it a few days, a few days in
+[56:50.780 --> 56:55.660]  advance. But yeah, it was it was it was quite quiet. And part of you know, part of what seems
+[56:55.660 --> 57:01.420]  impressive is that these games are exclusive, or at least exclusive on mobile to the platform.
+[57:01.420 --> 57:07.260]  There's some ambiguity as to what means exclusive, like, maybe I think what they mean by mobile is
+[57:07.260 --> 57:15.100]  not Android. And therefore, maybe these games might be on your PlayStation, or your PC or
+[57:15.100 --> 57:20.780]  something like that. But the only way to play them on a phone would be through through the Apple.
+[57:20.780 --> 57:24.940]  Right. These aren't the big sort of like, what do they call them? Triple A games, $60 games,
+[57:24.940 --> 57:31.100]  and they're not the they're not the Fortnite style free to play games, right? Is that it's
+[57:31.100 --> 57:35.100]  a specific niche of gaming. And I think they emphasize the indie gaming over and over. But
+[57:35.100 --> 57:39.100]  I mean, one of the reasons they didn't leak is that they weren't doing deals with Epic or
+[57:39.100 --> 57:44.860]  Blizzard, or EA, right, right. And those triple A games don't really make sense on a phone. In
+[57:44.860 --> 57:49.340]  right in my opinion, and in my son's opinion as well. I mean, my son plays games on a computer,
+[57:50.780 --> 57:55.180]  plays games on PlayStation, he does play games on a phone, but he plays different games on a phone
+[57:55.180 --> 58:00.140]  because they just make sense. Yeah. Again, I think this is the kind of thing where in a suite of
+[58:00.140 --> 58:04.300]  things they're going to offer at different price points and different bundle elements. This makes
+[58:04.300 --> 58:08.700]  tons of sense. Yeah, well, and you said your kids play Fortnite. I mean, I think the thing that
+[58:08.700 --> 58:16.300]  they're pushing back on on this is the slot machine fication of the whole idea of consumer
+[58:16.300 --> 58:23.260]  video games. And the idea that the people making the most money and let's face it, Apple is making
+[58:23.260 --> 58:31.820]  30% of that revenue from those games. When they go through the App Store. I feel like even Apple
+[58:31.820 --> 58:36.460]  itself is pushing back against that, even though they're obviously a big source of the revenue,
+[58:36.460 --> 58:42.700]  the services revenue they're already making is coming from Candy Crush type game mechanics. Yep.
+[58:43.980 --> 58:47.180]  And that was a big part of the emphasis to this is you're going to give Apple
+[58:47.180 --> 58:50.460]  X dollars a month for an Apple Arcade subscription. We don't know what that is.
+[58:51.420 --> 58:54.460]  I can't help but think, though, that it's going to be 10 bucks, right? I mean,
+[58:55.820 --> 58:59.820]  I think that's what I would pay. Right. I mean, what's not going to happen, though,
+[58:59.820 --> 59:02.780]  it's not going to replace Fortnite for me, but at least I would say, look, all right,
+[59:02.780 --> 59:06.620]  here's 10 bucks a month and I'll cut something else out. And I think this is a reasonable thing
+[59:06.620 --> 59:10.940]  for me to give my kids for a year. And then once you're on it, you know that you're not going to be
+[59:12.060 --> 59:18.940]  badgered for $3 for a bag of gems or, you know, whatever you're in, you've got everything.
+[59:19.740 --> 59:25.980]  And there you go. And I think that's a super compelling part of it. I think they also had
+[59:25.980 --> 59:30.780]  they did have they didn't have the big publishers like EA and Epic and, and those, but they had
+[59:31.340 --> 59:36.380]  indie game creator, I guess, a hint of what was to come with the the entertainment, the TV and
+[59:36.380 --> 59:41.420]  movie stuff. They had some big names from the gaming world, like Will Wright, the guy who
+[59:41.420 --> 59:48.540]  invented SimCity and the Sims. You know, super clever guy with a great history and other people,
+[59:48.540 --> 59:51.660]  you know, I'm not really a gaming expert either. But you know, games I've heard of
+[59:51.660 --> 01:00:01.100]  seems like a good deal. I get at a technical level, I get why this is fall. Because it sure
+[01:00:01.100 --> 01:00:07.100]  sounds like the Hey, these things will run on Apple TV, and your phone and your Mac has something
+[01:00:07.100 --> 01:00:11.980]  to do with this whole marzipan thing that will make it easier for developers to cross, you know,
+[01:00:11.980 --> 01:00:17.580]  make one, right one game and it'll run on all of these Apple devices, which would mean that there's
+[01:00:17.580 --> 01:00:23.980]  going to be, I'm guessing a huge chunk of WWDC this June, which will be divided, devoted to the
+[01:00:23.980 --> 01:00:30.220]  technical aspects of here's how this is going to work. So I get and therefore, whatever comes,
+[01:00:30.220 --> 01:00:36.380]  whatever is announced in June at WWDC will ship in the fall with a new version of iOS and a new
+[01:00:36.380 --> 01:00:42.300]  version of the tv OS and a new version of the Mac OS. And that's what we're waiting for. But in the
+[01:00:42.300 --> 01:00:51.900]  meantime, you know, what? We wait? Yeah, coming coming later. Yeah, actually, we should we should,
+[01:00:51.900 --> 01:00:57.980]  isn't the Apple TV storefront isn't that up and running? Or is that coming May? I think that was
+[01:00:57.980 --> 01:01:02.060]  another thing that was actually existed, though, right? And they are the channel setting, right?
+[01:01:02.060 --> 01:01:06.220]  Right. Yeah. Well, that's next. So why don't we just go right to it? Because the gaming thing is,
+[01:01:06.220 --> 01:01:12.140]  the gaming thing is, you know, so the, the Apple TV channels, and this is where I'm starting to get
+[01:01:12.140 --> 01:01:18.220]  more and more confused, right? I get like, so long as this Apple Arcade is 10, maybe 15 a month,
+[01:01:18.220 --> 01:01:23.900]  I get, I get it. Okay, let's just assume that's in there. Now we get to Apple TV channels. This
+[01:01:23.900 --> 01:01:32.780]  is announced for quote, May, which is pretty soon, you know, that's next month. This is the famed
+[01:01:32.780 --> 01:01:38.540]  skinny bundle, I think is the term that's been bandied about for years. No, not not really. No.
+[01:01:38.540 --> 01:01:45.980]  Okay, now what's the difference? This is this is Amazon channels. This is go. This is what you
+[01:01:45.980 --> 01:01:52.220]  can't do is pick a bunch of cable channels that you'd like to get better currently in some other
+[01:01:52.220 --> 01:01:58.060]  bundles. So you can't go and get ESPN but not get Disney or whatever else. What you can do or buy
+[01:01:58.060 --> 01:02:05.820]  things that you've already been able to buy HBO to buy discreetly HBO Showtime stars. CBS has its
+[01:02:05.820 --> 01:02:13.020]  own all access app that's there. So you can still buy those. Nothing has changed. They're going to
+[01:02:13.020 --> 01:02:17.260]  throw in some other stuff that you wouldn't normally pay for. And that's where it gets a
+[01:02:17.260 --> 01:02:24.060]  little confusing. Like they put up a bunch of logos. And I think probably should be slapped
+[01:02:24.060 --> 01:02:27.660]  for being deliberately confusing because they threw in people who aren't sort of participants
+[01:02:27.660 --> 01:02:33.580]  in the store like Hulu. That's a big one. I mean, that would be people confused for days.
+[01:02:33.580 --> 01:02:37.980]  Yeah. And it's there's no way you wouldn't understand any of this unless you literally
+[01:02:37.980 --> 01:02:41.980]  sort of had my job or a handful of other jobs and you were tasked with figuring this stuff out.
+[01:02:43.420 --> 01:02:46.540]  But for the regular consumer, really, there's no difference. There's
+[01:02:47.740 --> 01:02:54.460]  today you can buy HBO through Apple TV. And in May, you'll be able to buy HBO through Apple TV.
+[01:02:54.460 --> 01:02:59.740]  What might change is that pricing on that stuff might change. Some of the pay channels have deals
+[01:02:59.740 --> 01:03:04.940]  with Apple where Apple has now the ability to bundle them and or change pricing. Apple
+[01:03:04.940 --> 01:03:10.700]  becomes the retailer. That's different. And this is, again, mostly a technical thing that matters
+[01:03:10.700 --> 01:03:16.940]  to Apple and to the TV guys. But Apple is going to be the one for the specific set of products that
+[01:03:16.940 --> 01:03:24.620]  are in this thing. Apple is going to be hosting the streams and delivering the streams. And they
+[01:03:24.620 --> 01:03:28.620]  made a point of you won't be bouncing from app to app. I don't think really matters to most people,
+[01:03:28.620 --> 01:03:33.420]  but it's also, again, not true, because if you are switching back and forth between HBO and Hulu,
+[01:03:33.420 --> 01:03:38.300]  you are going to bounce out to the Hulu app. See, I think it does matter. But I think people
+[01:03:38.300 --> 01:03:42.620]  don't think most people don't think it matters. I think it matters because I think about user
+[01:03:42.620 --> 01:03:47.820]  interface design all the time. I don't know that other people, typical people consciously think
+[01:03:47.820 --> 01:03:55.180]  about it. But I think subconsciously, they, people don't like to be confused. And when Apple changed
+[01:03:55.180 --> 01:04:01.020]  the Apple TV, and again, they reuse the term Apple TV in so many ways, like it's the device,
+[01:04:01.020 --> 01:04:08.700]  and it's the guide, it's the app, when they made the app into a thing that surfaces individual
+[01:04:08.700 --> 01:04:18.140]  shows or movies, in the same way that Apple News surfaces articles as opposed to publications,
+[01:04:18.140 --> 01:04:22.620]  right, you go to Apple News, and the top five articles are very often from five different
+[01:04:22.620 --> 01:04:28.140]  publications, you go to the TV app, they want to do the same thing and say, here's five things
+[01:04:28.140 --> 01:04:35.260]  we think you might want to watch. And it might vary from a basketball game on the ESPN app that
+[01:04:35.260 --> 01:04:44.220]  you already have installed and authorized somehow to Hulu show to maybe shows a show that's only on
+[01:04:44.220 --> 01:04:52.540]  iTunes or something. And for the most part, and up till now, and we'll see how much this changes in
+[01:04:52.540 --> 01:04:56.780]  May, every time you pick one of those, you bounce out of that TV app into the app where the thing
+[01:04:56.780 --> 01:05:03.660]  is, right. And when it works, when it works, well, it's fine. It's a little weird, then you
+[01:05:03.660 --> 01:05:09.740]  eventually you're in the ESPN app, and you're not back in the TV guide. I mean, I think it's okay,
+[01:05:09.740 --> 01:05:16.300]  in part because it's better than not having a guide. I think I think it's a relatively useful
+[01:05:16.300 --> 01:05:20.220]  guide. I don't use it that much anymore, because I got a Roku TV. And just by default, I'm using
+[01:05:20.220 --> 01:05:25.340]  that really crummy interface. And then the big problem, right, is it doesn't have Netflix in it.
+[01:05:25.340 --> 01:05:30.940]  And Netflix is is TV for most people or lots of people. And so you literally can't just use it
+[01:05:30.940 --> 01:05:35.500]  as your TV guide, because you won't know what's on Netflix. I don't know what point will be in
+[01:05:35.500 --> 01:05:39.260]  the edited version of the show. But on my recording, we're one minute and seven seconds in
+[01:05:39.260 --> 01:05:44.300]  before we mentioned the word Netflix, which I was, we're gonna get there I was trying to withhold.
+[01:05:46.220 --> 01:05:57.340]  And there is my that that to me, Netflix is what they are up against. And maybe to a lesser degree,
+[01:05:57.340 --> 01:06:01.740]  YouTube as well. And I'm thinking about my 15 year old son and how much time he spends watching
+[01:06:01.740 --> 01:06:11.420]  YouTube. There's a confusion aspect. And there's also a laziness aspect, you know, that you're
+[01:06:11.420 --> 01:06:16.140]  just I just want to watch something. I just want to be entertained. And you know, and also,
+[01:06:16.140 --> 01:06:20.940]  why should I have to think about whether this thing is on Netflix or YouTube or Hulu?
+[01:06:22.060 --> 01:06:26.300]  Right. And this is why in the very old days, when the record label guys were
+[01:06:26.300 --> 01:06:30.940]  reluctantly trying to figure out digital, there were two different competing music services. One
+[01:06:30.940 --> 01:06:34.300]  had like three of the labels one had to of course, that was a non starter, right? Who's going to
+[01:06:34.300 --> 01:06:39.820]  figure out if Madonna is on this label or not. And to ask you TV users to think that through
+[01:06:40.620 --> 01:06:44.220]  is obviously a non starter as well. But for for the same reasons, you can,
+[01:06:44.220 --> 01:06:47.740]  you know, why it's very important for Netflix, right? And there was someone has to go to
+[01:06:47.740 --> 01:06:52.540]  Netflix. And every time something like that happens, people just get confused and revolt.
+[01:06:52.540 --> 01:06:56.860]  I think there was something similar with the early days of blue, blue ray versus
+[01:06:56.860 --> 01:07:02.380]  HD DVDs. And it was like, there were some movies that would come out on both. And then there were
+[01:07:02.380 --> 01:07:07.420]  some from and it all depended on the studio there, the studio back blu ray, the studio black,
+[01:07:07.420 --> 01:07:14.380]  back to HD, HD. What you go into back then, I mean, again, this makes me sound old already.
+[01:07:14.380 --> 01:07:21.820]  But back then, you'd go into a store to buy a movie, a physical copy of a movie on a spinning
+[01:07:21.820 --> 01:07:27.260]  disk. And it's like, who that most people who the hell knows what device they have, you know,
+[01:07:27.260 --> 01:07:31.900]  right? They don't know what the hell an HD DVD is versus a blu ray. They just know if it's,
+[01:07:31.900 --> 01:07:36.700]  you know, right gonna play. So we're, so we're in that world now. I don't think that's going
+[01:07:36.700 --> 01:07:41.100]  to change anytime soon, in part because Netflix and YouTube are so powerful, and they have no
+[01:07:41.100 --> 01:07:47.980]  reason to work with Apple, right? Well, and YouTube is often its own universe, because
+[01:07:47.980 --> 01:07:53.420]  that what makes YouTube YouTube is not professionally produced. Well, I shouldn't
+[01:07:53.420 --> 01:07:59.180]  say professionally, because there's some terrific, terrific content producers, or whatever they call
+[01:07:59.180 --> 01:08:03.660]  them on YouTube. It also doesn't matter, because it if you're so if you're my kids, and it sounds
+[01:08:03.660 --> 01:08:07.740]  like your kid, you don't care whether it's professional or not, you care whether it's
+[01:08:07.740 --> 01:08:12.460]  interesting or not. It doesn't mean you don't value Game of Thrones, right? But you equally
+[01:08:12.460 --> 01:08:17.980]  value some stupid Fortnite gaming video, right? Something you want to watch. And you know,
+[01:08:18.540 --> 01:08:23.980]  it gets to the, the oldest, one of the oldest adages in the world is that, you know, doesn't
+[01:08:23.980 --> 01:08:27.900]  matter how rich or poor you are, you know, we all only have 24 hours a day, there's only so much
+[01:08:27.900 --> 01:08:33.180]  time to watch shows. And boy, if you can fill it all up watching YouTube and Netflix, there's
+[01:08:33.180 --> 01:08:38.140]  there's, yeah, there's not much room. And it's very easy, very easy at the end of the day to
+[01:08:38.140 --> 01:08:43.820]  fill up all your time in Netflix. So on this one, I mean, I absolutely get what Apple is trying to
+[01:08:43.820 --> 01:08:48.540]  do. And this is and this is, by the way, what I think the actual Apple TV strategy is, is to
+[01:08:48.540 --> 01:08:54.380]  run this storefront is to run a TV guide, and to sell HBO and Showtime subscriptions and take those
+[01:08:54.380 --> 01:09:00.460]  cuts, take cuts of that. And that part is very straightforward. Obviously, if you could own the
+[01:09:00.460 --> 01:09:06.140]  dominant TV guide, or whatever we're going to call TV, that'd be incredibly powerful and valuable.
+[01:09:06.140 --> 01:09:11.500]  And obviously, if you could take a, if you could extract rent from some of the programmers there,
+[01:09:11.500 --> 01:09:15.340]  that'd be good too. And in fact, you end up sort of at what is a cable model, right? That's why
+[01:09:15.340 --> 01:09:21.100]  that's why I think when you hear people talking about this being a Netflix killer or, or a cable
+[01:09:21.100 --> 01:09:25.980]  TV bundle, that's sort of where it could go. It's just not there right now. Right.
+[01:09:26.620 --> 01:09:33.100]  And so it's different than something like PlayStation view, where you pay for PlayStation
+[01:09:33.100 --> 01:09:37.420]  view, you paid like 40 bucks a month, and then you get like a cable TV package. I mean,
+[01:09:37.420 --> 01:09:41.260]  they do say with Apple TV channels that you'll get local, you'll get local channels.
+[01:09:42.220 --> 01:09:43.660]  I don't think so.
+[01:09:43.660 --> 01:09:47.020]  Well, and then I don't understand how that's a TV replacement.
+[01:09:47.020 --> 01:09:53.180]  I mean, it's again, like, if you subscribe to whatever the live TV thing that Hulu is,
+[01:09:53.180 --> 01:09:58.460]  you'll get them. But Apple certainly hasn't cut deals with local TV providers and local networks.
+[01:09:58.460 --> 01:10:03.420]  Again, like you could get if you get CBS all access, you'll get your local CBS affiliate.
+[01:10:04.380 --> 01:10:08.860]  But they're not they are not selling they will at one point, they very tried very hard to do this,
+[01:10:08.860 --> 01:10:14.060]  but they're not doing it right now. They're not selling you a replacement bundle of TV channels
+[01:10:14.060 --> 01:10:18.860]  for now. Yeah. And if you ask them, they'll say we're by the way, we're trying to get rid of the
+[01:10:18.860 --> 01:10:23.180]  bundle. Right. Which is what they've consistently said now for several years. So if you want to
+[01:10:23.180 --> 01:10:29.100]  try to after trying to do the run bundle, right. And again, it's it's a very similar experience,
+[01:10:29.100 --> 01:10:32.540]  you know, like we were talking about, you know, having to log into the Wall Street Journal every
+[01:10:32.540 --> 01:10:38.060]  couple of days, and you have to be login, I run into it, I still subscribe, I still have cable TV
+[01:10:38.060 --> 01:10:46.860]  from Philadelphia, his favorite company, Comcast, partly out of apathy, partly out of that we really
+[01:10:46.860 --> 01:10:54.140]  do. And my wife especially really loves TiVo. And it is a terrific experience, you know, and then
+[01:10:54.140 --> 01:10:59.500]  still the best fast forwarding, rewind, pause experience of anything, because it's all stored
+[01:10:59.500 --> 01:11:04.940]  locally on a disk, and it all works very fast. And it never times out and you never sit there
+[01:11:04.940 --> 01:11:09.660]  ever, never, never, never. And there are no restrictions on it. Right. Because if we get
+[01:11:09.660 --> 01:11:14.780]  the Hulu product or the YouTube product of the Hulu product right now, sometimes there's a DVR
+[01:11:14.780 --> 01:11:18.860]  that lets you fast forward. And sometimes they say fast forwarding is not allowed. And I again,
+[01:11:18.860 --> 01:11:23.260]  I cover this stuff. So I know why there's that distinction. But it's infuriating. And again,
+[01:11:23.260 --> 01:11:26.780]  as a consumer, you shouldn't have to care about it. Right. I haven't read it yet talk about
+[01:11:26.780 --> 01:11:31.500]  running out of things to read. But there was an article I saw yesterday, it's in my tabs to read
+[01:11:31.500 --> 01:11:36.700]  a medium article on the oral history of TiVo, which I'm looking forward to, but haven't really
+[01:11:36.700 --> 01:11:42.060]  read it yet. But my I've said this on the show before, it's it's almost tragic, where
+[01:11:42.060 --> 01:11:50.460]  almost everything is in a world is getting computerized. Like I think I've got a computerized
+[01:11:50.460 --> 01:11:56.860]  toothbrush. I really do at this point. Probably a sponsor. Yeah, quip, who is a one time sponsor,
+[01:11:56.860 --> 01:12:01.660]  pretty sure there's a computer in there. You know, my AirPods are computerized. They're little two
+[01:12:01.660 --> 01:12:09.340]  little mini computers that sit in my ears. And when TV got computer, most of the time when things
+[01:12:09.340 --> 01:12:15.500]  get computerized, they get better, right? AirPods are better than wired, non computerized, dumb,
+[01:12:15.500 --> 01:12:22.140]  electrical, your ear pods. When TiVo came about, and who was the rival to TiVo, there was their
+[01:12:22.140 --> 01:12:27.820]  replay replay, right? There's TiVo, and there's replay. And when they first came about, you'd put
+[01:12:27.820 --> 01:12:34.140]  this box and you'd connect your cable to it, and it would record your shows. And you know, this was
+[01:12:34.140 --> 01:12:40.700]  the late 90s, early 2000s. I remember having my mind blown when someone like rewound a Kobe Bryant
+[01:12:40.700 --> 01:12:45.180]  dunk from real time and replayed it for me. I was like, you can do that? That seems like illegal.
+[01:12:45.180 --> 01:12:51.100]  I remember where I saw TiVo the first time. It was in 2000. I went to work at a company,
+[01:12:51.100 --> 01:12:57.660]  Barebone Software, the makers of BB Edit. And Rich Siegel, co founder of the company,
+[01:12:57.660 --> 01:13:03.500]  kindly invited my wife and I over to his house for dinner. And I believe it was, it might have been
+[01:13:03.500 --> 01:13:08.860]  October, but the Yankees were on in the playoffs. And so we had dinner and watched a baseball game.
+[01:13:08.860 --> 01:13:15.420]  And like, we want to, you want to go to the bathroom? Oh, just hold on here. And it was like,
+[01:13:15.420 --> 01:13:21.500]  what? Yeah, it did seem, it seemed not right. And no spinner. No, no, you know, and then you
+[01:13:21.500 --> 01:13:25.500]  hit another button. And we literally went to Best Buy. And I also remember very specifically,
+[01:13:25.500 --> 01:13:30.380]  it was Best Buy the next day and bought the exact same TiVo that that Rich Siegel had. We're like,
+[01:13:30.380 --> 01:13:34.540]  Oh, my God, we need this. And like, it was almost a shame that we couldn't buy it. If we could have,
+[01:13:34.540 --> 01:13:38.860]  if Best Buy was a 24 hour a day operation, we would have bought it at like, we sound like
+[01:13:38.860 --> 01:13:43.740]  the people who went to go see the first the first motion pictures and got freaked out by the train
+[01:13:43.740 --> 01:13:48.540]  coming into the audience. But anyway, the whole point of the computer fication of TV with TiVo
+[01:13:48.540 --> 01:13:54.140]  was that it put you in control. And if you wanted to fast for you, the person who bought this box,
+[01:13:54.140 --> 01:13:59.100]  bought this box, you could fast forward the commercials and skip them. Or you could pause
+[01:13:59.100 --> 01:14:03.420]  the show and go back. And you didn't watch anything you didn't want to watch. And now as
+[01:14:03.420 --> 01:14:08.060]  the industry has gone forward, as we've computerized further and gotten to streaming,
+[01:14:08.060 --> 01:14:13.100]  the computer fication has taken that control away from you and given you unskippable interstitials.
+[01:14:13.820 --> 01:14:21.180]  Yes, they mean, you know, as an aside, the programmers spent years trying to sue TiVo
+[01:14:21.180 --> 01:14:25.580]  and replay out of existence, right, for that very reason, right, failed. And now they've succeeded
+[01:14:25.580 --> 01:14:29.740]  in a way because they've now have this new way of insisting that you watch, you watch ads,
+[01:14:29.740 --> 01:14:36.060]  unless of course, they're Netflix, and they don't show ads at all. Right. Right. Exactly. Yeah.
+[01:14:36.060 --> 01:14:42.860]  And you know, I think Netflix is very conscious of I'm anti autoplay with Netflix, I would love to
+[01:14:42.860 --> 01:14:49.100]  have some way to turn all of my various interfaces to Netflix to not autoplay as my mouse hovers over
+[01:14:49.100 --> 01:14:54.220]  something and starts making noise. But at least they don't make me watch anything I don't want
+[01:14:54.220 --> 01:14:59.740]  to watch. It's a huge thing. I mean, I get people complaining about the autoplay and stuff like
+[01:14:59.740 --> 01:15:05.180]  that. But I mean, the amount of control they give you, you know, and again, they're at 50,
+[01:15:05.180 --> 01:15:11.100]  60 million US subscribers, that should be the default for how you consume this stuff.
+[01:15:12.300 --> 01:15:17.500]  And to me, it seems like it just a ton of pressure on everyone else to match that the flip is,
+[01:15:17.500 --> 01:15:21.980]  if you want to make something free, or at least cheaper than you people will sit through ads. I
+[01:15:21.980 --> 01:15:28.060]  think, you know, the I think of this all the time. There's a Hulu, there's a Hulu version with ads,
+[01:15:28.060 --> 01:15:32.380]  there's a Hulu version without ads or with limited ads. Yeah. And it's like a $4 difference. And to
+[01:15:32.380 --> 01:15:36.140]  me, it's a no brainer. Of course, you'd pay four bucks to not watch ads. But the majority of Hulu
+[01:15:36.140 --> 01:15:41.500]  subscribers get the get the cheaper one with that money means something to people. Yeah, I watched
+[01:15:41.500 --> 01:15:48.460]  I forget what my son was binge watching on Hulu last summer. I don't know. I might have been
+[01:15:48.460 --> 01:15:53.820]  Seinfeld. I don't know what it was. But he was watching some old sitcom binge watching it on
+[01:15:53.820 --> 01:15:59.100]  Hulu. And it was sitting through these unskippable ads. And I like got on my phone and and like
+[01:15:59.100 --> 01:16:03.660]  looked up and I was like, Oh my god, $4 a month here. Did you? And I was like, here, I just bought
+[01:16:03.660 --> 01:16:11.660]  you something no more ads. Yeah, there is a little trend lead of services like to be TV and Pluto
+[01:16:11.660 --> 01:16:17.580]  that are free and that have some some pickup because again, people are willing to put up with
+[01:16:17.580 --> 01:16:21.340]  inconvenience in exchange for free stuff. Well, basically, though, where I was going with this
+[01:16:21.340 --> 01:16:25.260]  with like the Wall Street Journal logging in is that I've got all these apps now like ESPN,
+[01:16:25.260 --> 01:16:31.260]  and I can get ESPN on my Apple TV because I have a cable subscription, I can use it to sign in and
+[01:16:31.260 --> 01:16:40.620]  son of a bitch if I don't have to read confirm my Comcast thing way too often. That every you know,
+[01:16:40.620 --> 01:16:45.580]  maybe not days, but every few weeks, and then there's some some of those apps or channels,
+[01:16:45.580 --> 01:16:49.420]  you know, whatever you want to call them, that I only want to watch once in a while.
+[01:16:49.420 --> 01:16:55.900]  And it's inevitable that I'm going to have to start by picking up a device going to a URL,
+[01:16:55.900 --> 01:17:00.620]  waiting for a four digit code. And it's like, God, I just, all I did was tell my wife,
+[01:17:00.620 --> 01:17:04.860]  I think we're both going to really like this show. And meanwhile, I've got to sit there and
+[01:17:04.860 --> 01:17:09.340]  futz around. Now, I think it's some of it got better. But some it's like there were the FX
+[01:17:09.340 --> 01:17:14.620]  ones were terrible. You'd have to keep re logging in and then actually, then they would limit your
+[01:17:14.620 --> 01:17:18.860]  access within the app unless you signed up for like a fan club or something else and give them
+[01:17:18.860 --> 01:17:23.500]  more information. And it just inevitably just end up bailing and say, you know, I'll pay to watch
+[01:17:23.500 --> 01:17:27.260]  Mission Impossible somewhere else where I won't watch. Yeah, I think we ran into that where there
+[01:17:27.260 --> 01:17:34.380]  was a series on FX, I think with the story of Johnny Versace's assassination. Yeah. And it was
+[01:17:34.380 --> 01:17:38.380]  exactly like that. Like we pay for FX, we're supposed to be able to get this app so that we
+[01:17:38.380 --> 01:17:46.540]  can watch it whenever we want. And it was it was really horrible. Yep. So what's left is Apple TV
+[01:17:46.540 --> 01:17:56.380]  Plus, which is apparently wholly separate from Apple TV channels. I guess because the idea is,
+[01:17:56.380 --> 01:18:02.860]  if you already have cable or PlayStation view or the what's the YouTube one called where you get a
+[01:18:02.860 --> 01:18:09.340]  whole package of cable content, YouTube Live, maybe something, something that you might,
+[01:18:10.060 --> 01:18:17.260]  you might not want to give that thing up to get channels. But you still want to pay or not pay,
+[01:18:17.260 --> 01:18:25.980]  who knows for Apple's original content. Super confusing. In part, and Apple has been very quiet
+[01:18:25.980 --> 01:18:30.220]  about this, it isn't telling most of its partners what it's doing here. They're certainly not
+[01:18:30.220 --> 01:18:35.100]  telling people like me off the record what they're doing. And so you can sort of just make some
+[01:18:35.100 --> 01:18:41.980]  educated guesses, right. So my best hunch is this is a thing they're going to give you if you're an
+[01:18:41.980 --> 01:18:47.340]  Apple customer in some way, whether maybe you own an iPhone or you have bought some other bundle,
+[01:18:47.340 --> 01:18:51.980]  and there's some sort of incentive, they're gonna throw it in for free or almost nothing.
+[01:18:51.980 --> 01:18:57.900]  We haven't talked about this yet. But Apple, a big change for apples are distributing this video now
+[01:18:57.900 --> 01:19:06.220]  and the storefront on Roku, on Samsung, on Amazon Fire devices, which is pretty staggering. And so
+[01:19:06.220 --> 01:19:11.340]  maybe you'll pay something if you want to watch the Reese Witherspoon show or the Steven Spielberg
+[01:19:11.340 --> 01:19:18.140]  show, the JJ Abrams show. But even then, they can't charge you very much because they maybe
+[01:19:18.140 --> 01:19:26.380]  have 30 shows coming. And they're probably going to put out two a month. And the way that the TV
+[01:19:26.380 --> 01:19:30.620]  is sold today, you can't sell a subscription to something that has two shows a month.
+[01:19:31.740 --> 01:19:38.300]  Everything else, Netflix, CBS, all access, Hulu, on and on and on, have some smattering of new stuff
+[01:19:38.300 --> 01:19:44.540]  and Netflix's case, a ton of new stuff, and then a huge library of stuff. And that's what you're
+[01:19:44.540 --> 01:19:50.060]  paying 10 or 15 bucks a month for. And I just can't imagine how Apple charges you anything close
+[01:19:50.060 --> 01:19:54.700]  to that. All right, I the closest I can think is that they're with their if they do charge
+[01:19:54.700 --> 01:20:02.380]  something for it, it's that they think they're something like HBO. But even HBO has a library,
+[01:20:02.380 --> 01:20:08.060]  you can just go and watch all of the old sopranos you know, and on top of that, and HBO would say
+[01:20:08.060 --> 01:20:14.060]  this for years, that the majority of their viewing was people watching old movies. Yeah. And they so
+[01:20:14.060 --> 01:20:17.980]  they would get you to subscribe because the sopranos are Sex and the City or Game of Thrones,
+[01:20:17.980 --> 01:20:21.820]  but most of your watching was Fast and the Furious. And they were very clear about this.
+[01:20:21.820 --> 01:20:26.860]  And they spent a lot of money to license those movies from Warner Brothers and other studios.
+[01:20:28.060 --> 01:20:35.100]  Because you can only watch The Sopranos X number of times a month. And you know, even CBS has a
+[01:20:35.100 --> 01:20:40.620]  smattering of new shows. I like the called Son of Good Wife. I think it's called The Good Fight.
+[01:20:40.620 --> 01:20:45.660]  But the thing that most people are watching there are they've got The Twilight Zone, right? But
+[01:20:46.380 --> 01:20:50.620]  you can watch everything else that CBS has ever made. And that's the proposition.
+[01:20:50.620 --> 01:20:54.620]  Yeah, Jordan Peele. I don't see how I yeah, I don't see how Jordan Peele is like, I don't see
+[01:20:54.620 --> 01:20:59.500]  how Apple can sell this as a standalone product. Now they have called it a subscription service.
+[01:21:00.380 --> 01:21:04.780]  So you know, but I think they still allow themselves a bunch of wiggle room. If it's
+[01:21:04.780 --> 01:21:08.540]  a subscription service that is then bundled in with their subscriptions, you can still call it
+[01:21:08.540 --> 01:21:12.220]  a subscription service. But I don't see how they're selling this. All right, let's pause.
+[01:21:12.220 --> 01:21:15.980]  We'll come back to Apple TV Plus. But let me thank our third and final sponsor of the day
+[01:21:15.980 --> 01:21:21.340]  of the show of the episode. It's our good friends at Squarespace. Look, you need to make a website.
+[01:21:21.340 --> 01:21:25.740]  Or maybe you have an old website that you ought to remake. You should take out check out Squarespace.
+[01:21:26.700 --> 01:21:33.340]  They have everything you need. They will let you register domain. They'll let you pick out
+[01:21:33.340 --> 01:21:38.540]  starting template, all visual, all graphical, you do it right in the browser. It's all WYSIWYG while
+[01:21:38.540 --> 01:21:43.500]  you're deciding how your website's going to look. What you see in your browser as you design it is
+[01:21:43.500 --> 01:21:49.980]  exactly what visitors to your site will see when they visit it. All sorts of components, you want
+[01:21:49.980 --> 01:21:54.780]  to have one host a podcast, you want to do a blog, they've got it, you do it, you post your updates
+[01:21:54.780 --> 01:21:59.420]  right through Squarespace. You want to have a portfolio. If you're a designer, you want to have
+[01:21:59.420 --> 01:22:04.380]  a store because you're selling stuff. Just opening up a restaurant, somebody you know is opening a
+[01:22:04.380 --> 01:22:08.780]  restaurant or something like that. Anything like that, you could do it through Squarespace. They
+[01:22:08.780 --> 01:22:13.660]  make it so easy. They have the best analytics interface for seeing who's visiting your website
+[01:22:13.660 --> 01:22:19.020]  that I've ever seen. And rather than overwhelm you with all sorts of numbers, it's just a really nice
+[01:22:19.020 --> 01:22:24.140]  information design. And prevent presents everything you want to know to glance has all the details
+[01:22:24.140 --> 01:22:29.500]  you'd want to know. Really is a great service. They have award-winning customer service. People
+[01:22:29.500 --> 01:22:32.940]  who go to Squarespace are very happy at Squarespace. I always say this all the time.
+[01:22:32.940 --> 01:22:39.020]  You visit Squarespace sites every day and you have no idea because they don't look cookie cutter.
+[01:22:39.020 --> 01:22:43.340]  It's not like there's three or four templates and everybody's Squarespace sites look the same.
+[01:22:43.340 --> 01:22:49.980]  It's very easy to customize with your own brand. And it's so easy. You just don't know it. You have
+[01:22:49.980 --> 01:22:54.300]  to go to your browser view source and start looking for the little Squarespace things to even
+[01:22:54.300 --> 01:23:00.700]  know. So it's really, really great in that way of just owning your own website, which I think as we
+[01:23:00.700 --> 01:23:05.820]  get more and more disdainful of Facebook and other social media, as your business is only
+[01:23:06.620 --> 01:23:11.900]  online face, I think everybody's sort of moving back to wanting to own their own website and
+[01:23:11.900 --> 01:23:17.260]  Squarespace is a great way to do it. So here's what you do. You can just start building a website
+[01:23:17.260 --> 01:23:22.060]  today. You get a free trial last a whole month at squarespace.com. And just remember this code
+[01:23:22.940 --> 01:23:27.900]  talk show, no, the just talk show. And at checkout, when you do pay after your free
+[01:23:27.900 --> 01:23:32.540]  trials up, you'll save 10% and you can pay for a whole year in advance, save 10% on a whole year.
+[01:23:32.540 --> 01:23:37.180]  It's like getting a couple of months for free. My thanks to Squarespace for their continuing
+[01:23:37.180 --> 01:23:41.820]  support of the talk show. I guess the other thing that goes unsaid with the pricing on this whole
+[01:23:41.820 --> 01:23:49.100]  thing and all of the lack of pricing information is that it's crying for some sort of super bundle
+[01:23:49.100 --> 01:23:57.660]  where you pay 30, 40, $50 a month to Apple and you get music, news, TV, iCloud arcade.
+[01:23:57.660 --> 01:24:02.780]  Well, iCloud is the big quiet. I would love to see them include that because I think it's,
+[01:24:02.780 --> 01:24:10.940]  it's a running years long running complaint of mine many years at this point that the,
+[01:24:10.940 --> 01:24:15.500]  the free amount of storage they give people at iCloud, especially when they're buying
+[01:24:16.140 --> 01:24:24.460]  800, $900 phones is almost criminal. And I think it's just heartbreaking. I mean that
+[01:24:24.460 --> 01:24:30.940]  in all sincerity, no hyperbole that thinking about people who lose their phone or have their
+[01:24:30.940 --> 01:24:36.540]  phone stolen or whatever, and don't have an iCloud backup of everything that was on it and the photos
+[01:24:36.540 --> 01:24:40.540]  and stuff that they've lost because they're, maybe they only had one and only one Apple device,
+[01:24:40.540 --> 01:24:49.180]  their phone. And it's a problem we collectively in the industry have solved. If you have enough
+[01:24:49.180 --> 01:24:52.940]  space so that when you plug it into charge and it's connected to wifi, just uploads everything
+[01:24:52.940 --> 01:24:56.700]  to the server. And as disappointed as you might be when you have to go buy a new phone,
+[01:24:56.700 --> 01:25:02.620]  cause you're the one was lost or stolen or it's a simple problem of immediately wasn't lost or
+[01:25:02.620 --> 01:25:07.100]  stolen, but you upgrade. And how do you get your stuff from the old phone to the new phone? And you
+[01:25:07.100 --> 01:25:11.100]  don't know that if you don't have the iCloud stores that you could go to the Apple store
+[01:25:11.100 --> 01:25:16.620]  and wait an hour and the genius will help you do it with using a computer to move it between there.
+[01:25:16.620 --> 01:25:19.980]  People don't think like that. People may not know that you can do it. I mean, you know that there's
+[01:25:19.980 --> 01:25:25.260]  some number of people who are losing. So I would love to see them bundle iCloud into it. Yes. And
+[01:25:25.260 --> 01:25:32.460]  and also I resent iCloud. I resent being forced to pay an extra $3 a month because I ran out of space
+[01:25:32.460 --> 01:25:37.340]  because I did buy a super expensive phone and it, by the way, if they just said that was part
+[01:25:37.340 --> 01:25:42.860]  of Apple care and added it there and I didn't see it, I'd be fine. So I think, and I think they can
+[01:25:42.860 --> 01:25:47.660]  probably do a bunch of different bundles and swap stuff in and out of that. Yeah. And make it easy
+[01:25:47.660 --> 01:25:52.700]  to manage and easy to say, you know what? I never play these arcade games, so drop arcade from my
+[01:25:52.700 --> 01:26:01.980]  bundle. But something like that, that made it easier and made it one bill from Apple per month
+[01:26:01.980 --> 01:26:08.940]  for recurring stuff would be compelling just on a simplicity front. And if you saved some amount
+[01:26:08.940 --> 01:26:13.660]  of money, you know, where there's three things, let's just say they're all 10 bucks a month,
+[01:26:13.660 --> 01:26:20.300]  but if you get all three, you only pay $25 a month, you know, is also very, very compelling
+[01:26:20.300 --> 01:26:25.100]  to real people. And I kind of feel like they haven't worked that all out and therefore they
+[01:26:25.100 --> 01:26:30.300]  don't want to talk about pricing of the individual things other than news, which they have to talk
+[01:26:30.300 --> 01:26:34.700]  about because they're actually selling it already. Yeah, I just, I mean, again, I just think that
+[01:26:34.700 --> 01:26:38.700]  they're, I just think that it's going to be free right to the majority of Apple users and they
+[01:26:38.700 --> 01:26:43.020]  don't want to say that yet or, and also because once you, whenever you do put that price on that
+[01:26:43.020 --> 01:26:47.420]  Reese Witherspoon show, now all of a sudden when it comes out this fall, you say, is it worth
+[01:26:47.420 --> 01:26:52.780]  this much? Right. Whereas if it's just sort of bundled in, you go, great, it's exciting.
+[01:26:53.420 --> 01:26:58.780]  And so you think, so the idea would be that a, it would get people buying Apple devices or keep
+[01:26:58.780 --> 01:27:05.420]  people buying them. But then even if you're using a Roku or Apple or Amazon fire and, but they're,
+[01:27:05.420 --> 01:27:10.540]  they've got this thing built in and you can watch the Reese Witherspoon show, which I think
+[01:27:10.540 --> 01:27:16.620]  I'm hoping is going to be one of the better shows. Um, you know, I'm a huge Larry Sanders fan and I
+[01:27:16.620 --> 01:27:21.100]  just love the idea of a show about a show. I think it's, I think it's so ripe for, I look,
+[01:27:21.100 --> 01:27:28.300]  I like studio 60. I like when they went to Afghanistan. My wife and I loved
+[01:27:28.300 --> 01:27:33.980]  studio 60. Absolutely loved it. And we're, it's my favorite Aaron Sorkin show ever. I was,
+[01:27:35.340 --> 01:27:40.060]  I loved it. I thought it was like a parody of an Aaron Sorkin show, but I did love it.
+[01:27:40.060 --> 01:27:44.780]  I think that's why I loved it though. Cause I didn't feel like it was actually sanctimonious.
+[01:27:44.780 --> 01:27:49.580]  I felt it was incredibly sanctimonious. They were treating, they were treating this SNL show as if
+[01:27:49.580 --> 01:27:54.140]  it was the white house. Right. Uh, and just as important. And again, there was a plot where they
+[01:27:54.140 --> 01:27:58.300]  had to go rescue hostages from Afghanistan. It was a show about an SNL show. It was great.
+[01:27:58.940 --> 01:28:02.780]  I thought it was almost, yeah, but I thought it was like you said, a parody of an Aaron Sorkin
+[01:28:02.780 --> 01:28:07.820]  show, which is what made it more digestible to me. I loved 30 Rock. I thought 30 Rock,
+[01:28:07.820 --> 01:28:13.660]  which coincidentally launched the same year as studio 60, which was weird because it confused me
+[01:28:13.660 --> 01:28:18.940]  inordinately for weeks because not only were they both shows about an SNL type show,
+[01:28:18.940 --> 01:28:24.380]  but the numbers 30 and 60 are. Yeah. And we also assume that the Aaron Sorkin show would
+[01:28:24.380 --> 01:28:29.020]  be the one that succeeded, not the one from Tina Fey. Yeah, exactly. So I love a show about a show.
+[01:28:29.020 --> 01:28:33.900]  So this morning show thing, and it has a terrific cast. I think Jennifer Aniston is one of the
+[01:28:33.900 --> 01:28:39.660]  funniest actresses we've ever seen. Uh, this, this, this goes to the thing though, right? Like,
+[01:28:39.660 --> 01:28:42.620]  so they put out a bunch of shows and you're excited about that. I was going to call it
+[01:28:42.620 --> 01:28:46.220]  studio 60, whatever the morning show is called. I think it's just called the morning show
+[01:28:46.220 --> 01:28:50.140]  morning show and maybe someone else is excited about the Jason Momoa's blind show.
+[01:28:51.820 --> 01:28:56.620]  You just don't know if any of it's going to be any good. The people who are make TV for a living
+[01:28:57.180 --> 01:29:01.740]  fail most of the time. Apple, this is why I never understood why Apple came out with those two
+[01:29:01.740 --> 01:29:05.020]  shows a couple of years ago. Like if you're going to do programming, do a bunch of it because most
+[01:29:05.020 --> 01:29:11.180]  of it won't work. Um, so again, sort of the best case scenario, they'll have a handful of these
+[01:29:11.180 --> 01:29:15.980]  things will be successes, which again is why you really can't charge people at least initially for
+[01:29:15.980 --> 01:29:21.900]  this stuff. Uh, one of the ones I don't think unless I've fast forwarded, they didn't really
+[01:29:21.900 --> 01:29:27.900]  mention it. There's a, one of the shows they've got, who was the guy who did the, uh, the, the
+[01:29:27.900 --> 01:29:36.380]  new version of Battlestar Galactica, Ron, uh, drawing a blank on his last name, but he's got
+[01:29:36.380 --> 01:29:42.940]  a show coming up, which sounds fantastic, which is, uh, the basic gist is what would have happened
+[01:29:42.940 --> 01:29:47.900]  if this sixties space race had never ended. You sure that's not an Amazon show? No,
+[01:29:47.900 --> 01:29:55.100]  it's an Apple show. Okay. Uh, see there's a fusion. Uh, I guess it's still so in the works
+[01:29:55.100 --> 01:30:01.900]  that they didn't even tease it at the thing. Uh, it sounds like a fantastic show. Um, but again,
+[01:30:01.900 --> 01:30:05.740]  how many people are going to sign up for it if it's only six shows or something?
+[01:30:06.460 --> 01:30:11.260]  Yeah. And six. And again, like the idea that, that again, maybe you like that show, maybe it's
+[01:30:11.260 --> 01:30:16.700]  a great show, but, but it's, it's, um, generally those shows have to appeal to one audience or
+[01:30:16.700 --> 01:30:21.820]  another, which means someone else doesn't like it. Um, I just, I'll just keep saying it over and
+[01:30:21.820 --> 01:30:26.300]  over. It's just very hard to imagine that I'm having enough stuff that they can sell actual
+[01:30:26.300 --> 01:30:32.300]  subscriptions to a significant number of people. Now, if that studio 60 show, which is not studio
+[01:30:32.300 --> 01:30:37.260]  60 is thrown as a freebie, all of a sudden you're very, you're delighted to get it as a bonus,
+[01:30:37.260 --> 01:30:41.740]  as opposed to being upset that it's not worth paying for, uh, Ron Moore, no need to send in
+[01:30:41.740 --> 01:30:46.220]  corrections folks. Ron Moore was the, uh, showrunner for the Battlestar Galactica. And,
+[01:30:46.220 --> 01:30:55.020]  uh, here's a deadline story. Uh, I think it's still untitled, uh, about the, uh, the show,
+[01:30:55.020 --> 01:30:59.900]  I guess that's maybe why they didn't even put them up on stage. It's as yet untitled, but anyway,
+[01:30:59.900 --> 01:31:05.420]  sounds terrific. And I love alternate reality, alternate universe, science fiction type things
+[01:31:05.420 --> 01:31:11.020]  like that. Um, and by the way, I think, you know, this is, uh, you know, Amazon,
+[01:31:11.020 --> 01:31:18.300]  Amazon prime is, is not killing it. Um, but you know, most people aren't subscribing to Amazon
+[01:31:18.300 --> 01:31:21.420]  prime for video or they're not, they're not, they're certainly not subscribing to the Amazon
+[01:31:21.420 --> 01:31:25.740]  video service. They're getting free shipping or cheap shipping and then they're getting some TV
+[01:31:25.740 --> 01:31:31.580]  alongside it. And that lowers the stakes considerably, right? Yeah, I don't know.
+[01:31:31.580 --> 01:31:36.380]  But so I guess the idea would be that if they include their shows, if they do it and just say,
+[01:31:36.380 --> 01:31:41.420]  look, if you, if you've got a device that plays apple TV, you could get these apple TV plus,
+[01:31:41.420 --> 01:31:45.180]  but the fact that they're calling it plus makes me think they're going to charge for it because
+[01:31:45.180 --> 01:31:49.820]  there's apple news and apple, apple news is free and apple news plus is paid. And so therefore
+[01:31:49.820 --> 01:31:56.780]  apple TV plus should be paid. But you know, if any company would screw around and be that
+[01:31:56.780 --> 01:32:02.940]  inconsistent with their names, it would be apple. I don't, I don't, I mean, this is again very
+[01:32:02.940 --> 01:32:07.900]  insidery, but the Disney thing is going to be called Disney plus. Uh, and who knows what the,
+[01:32:07.900 --> 01:32:11.580]  the thing formerly known as time Warner thing is going to be called? Someone referred to as HBO
+[01:32:11.580 --> 01:32:15.820]  max today. I don't know if it's a real name or not, but someone's got to figure out a different
+[01:32:15.820 --> 01:32:20.700]  word than plus. Yeah. Well that was one mystery, but, and they're not using the word, they're
+[01:32:20.700 --> 01:32:28.540]  using the plus symbol sign to make it more complicated for us. Uh, yeah, but it was that,
+[01:32:28.540 --> 01:32:33.020]  but, so yeah, so it's, it's, we cut, we go back to where we started, which is, we don't know what
+[01:32:33.020 --> 01:32:38.940]  the point of this is as a business. We don't know what the proposition is as a consumer and we don't
+[01:32:38.940 --> 01:32:43.180]  even know what these things are. We saw, I mean, it's a shot and they showed us shockingly little
+[01:32:43.180 --> 01:32:48.300]  stuff. I mean, I, I, I've been thinking about this for a week now. Like if you're going to get
+[01:32:48.300 --> 01:32:53.340]  Steven Spielberg and Jennifer Aniston and JJ Abrams on stage, you're probably only going to get to do
+[01:32:53.340 --> 01:32:57.660]  it once. You can't bring them back next fall to stand up on stage again and show off their TV
+[01:32:57.660 --> 01:33:04.700]  shows. So that's a big ass to get those guys on stage. So to get them up there on a stage and then
+[01:33:04.700 --> 01:33:11.260]  describe a TV show but not show it, it just seems crazy to me. Yeah. And I'm not familiar with the
+[01:33:11.260 --> 01:33:18.060]  upfronts. You mentioned the term before, but you know, it, like you said that the, my understanding
+[01:33:18.060 --> 01:33:23.100]  is that typically they'll show the media writers, TV critics, entire episodes.
+[01:33:26.060 --> 01:33:29.660]  The entire episodes is, is usually sort of a rarity. Like we're so confident,
+[01:33:29.660 --> 01:33:32.940]  we're going to show you the entire episode. Usually it's, it's a, it's a well-produced
+[01:33:32.940 --> 01:33:36.460]  sizzle reel and you can make anything look good and it's kind of silly to make,
+[01:33:36.460 --> 01:33:40.620]  to, to draw conclusions, but it is the expectation that you're going to see the thing and at least
+[01:33:40.620 --> 01:33:46.860]  to get a sense of, is it funny? Is it dramatic? Is it whatever, uh, none of the above, uh, or,
+[01:33:46.860 --> 01:33:50.940]  you know, a trailer, right? That would be, maybe that's the equivalent of a sizzle reel. You could
+[01:33:50.940 --> 01:33:57.260]  at least get a teaser, right? Which to me is a distinct thing from a trailer. Like a teaser is
+[01:33:57.260 --> 01:34:05.580]  just, uh, uh, get me excited. I read the joker, the joker preview teaser came out today. It's
+[01:34:05.580 --> 01:34:09.580]  great. I don't, I don't know if you've seen it. No, I haven't seen it. It looks great. It looks
+[01:34:09.580 --> 01:34:13.740]  great and it's so compelling. And again, I've got no idea if the joker is going to be a good movie,
+[01:34:13.740 --> 01:34:18.540]  but I'm definitely interested in it now based on a two minute clip. It's amazing. What I remember,
+[01:34:18.540 --> 01:34:23.900]  my favorite teaser was when, when George Lucas announced that he was going to re-release the
+[01:34:23.900 --> 01:34:30.300]  original star Wars trilogy. And you know, it was something I'd only seen on a big screen as a little
+[01:34:30.300 --> 01:34:37.020]  kid. And, and the, the teaser was a TV floating in outer space. I don't know if the TV was actually
+[01:34:37.020 --> 01:34:42.060]  showing the star Wars movies, but it was like a cathode Ray tube TV. And it's like, yeah,
+[01:34:42.060 --> 01:34:45.420]  here's what you've seen. And it was, you're, you're in a movie theater. Here's the big teaser.
+[01:34:45.420 --> 01:34:50.140]  There's a little TV floating in space starts showing a star Wars movie and then an X-wing
+[01:34:50.140 --> 01:34:54.940]  fighter blows it up and zooms through real big. And it's like, you know, coming back
+[01:34:55.660 --> 01:35:00.780]  star Wars, you know, there's a teaser, right? Boom. There you go. And it's telling you,
+[01:35:00.780 --> 01:35:05.260]  here's everything you need to know. It's star Wars on a big ass screen and a big theater.
+[01:35:05.260 --> 01:35:11.100]  You're going to love it, but they didn't even do that. They had, they had like shots,
+[01:35:12.140 --> 01:35:18.540]  shots of shows. It was really kind of bad for you. And I was following along remotely watching,
+[01:35:18.540 --> 01:35:23.340]  listening to, watching like the, the Twitter and seeing people's reactions. And it was just
+[01:35:23.340 --> 01:35:28.460]  everybody over and over again saying, they're not going to actually not show the shows, right?
+[01:35:28.460 --> 01:35:32.380]  They're not going to actually not show the shows right over and over and over. And then it got
+[01:35:32.380 --> 01:35:38.300]  towards the end and they're like, they're not going to show the shows again. I mean, I'm trying
+[01:35:38.300 --> 01:35:44.220]  to like spin my way through it or imagine Apple's thinking. And again, when the Steven Spielberg
+[01:35:44.220 --> 01:35:49.260]  show comes out, they're going to promote the heck out of it and they'll buy TV spots and it'll pop
+[01:35:49.260 --> 01:35:53.260]  up on your phone, whether you want to see it or not. And they're really going to push it. And
+[01:35:53.260 --> 01:35:58.300]  again, people who don't listen to this podcast won't care that they had this deeply weird event
+[01:35:58.300 --> 01:36:02.380]  in March, but I just still don't know why you would do that. And again, it's, it's one thing
+[01:36:02.380 --> 01:36:06.060]  to have Tim Cook come up and say, in the fall, we're going to have this stuff. It's going to be
+[01:36:06.060 --> 01:36:13.260]  great. Check it out. And then it's another thing to like load up AAA list stars and have them stand
+[01:36:13.260 --> 01:36:20.780]  on stage and do that. Yeah. That's, I don't know. Well, I don't have much more to add other than,
+[01:36:20.780 --> 01:36:25.500]  other than I might have to have you back on the show in the fall. I did, I did ask the Apple folks,
+[01:36:25.500 --> 01:36:29.900]  what are you doing? And of course, you know, they, they refuse to pretend that there was anything
+[01:36:29.900 --> 01:36:33.660]  weird about it, except that, you know, I said, look, you know, this is how it's done on the
+[01:36:33.660 --> 01:36:36.300]  upfronts. He said, well, we don't need to do it that way. We're Apple. We're different.
+[01:36:37.500 --> 01:36:42.140]  All right. I don't think that's going to work, but maybe we'll know. Well, but yes, I will come
+[01:36:42.140 --> 01:36:46.140]  back in the fall. If you ask Peter Kafka, I really appreciate your time. I appreciate your insight.
+[01:36:46.140 --> 01:36:51.340]  And I am so honestly, my, my thought here, we, as we wrap up the show, my thought is,
+[01:36:51.340 --> 01:36:59.420]  uh, thank God Peter is as confused as I am because I've really spent the last week or so. And again,
+[01:36:59.420 --> 01:37:04.060]  I was away for the first part of it on a vacation and I thought, maybe I,
+[01:37:04.060 --> 01:37:06.860]  maybe this is why I need to go to these events. Cause I'm confused.
+[01:37:08.940 --> 01:37:13.180]  You could be equally confused from a remote distance, but if you want to hear me being
+[01:37:13.180 --> 01:37:17.020]  confused on a regular basis, there's recode media with Peter Kafka available on whatever
+[01:37:17.020 --> 01:37:21.820]  podcast app you choose, uh, including an episode with yourself with your, well, it's okay. I was
+[01:37:21.820 --> 01:37:26.060]  on your show, so they can start by listening to the episode. That is still one of our best
+[01:37:26.060 --> 01:37:31.100]  episodes, by the way. That's not just flattering. I enjoyed it, but it's true. I hate talking about
+[01:37:31.100 --> 01:37:35.580]  what I do. I hate talking about myself and I enjoyed, I enjoyed that episode very much.
+[01:37:35.580 --> 01:37:48.060]  So you did a good job. Thanks, Jeff. Peter, thank you very much. Thank you.

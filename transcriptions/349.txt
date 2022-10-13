@@ -1,0 +1,1294 @@
+[00:00.000 --> 00:06.760]  Good afternoon, and welcome to the talk show live.
+[00:06.760 --> 00:14.800]  We're coming to you in person from Apple's worldwide developer conference 2022.
+[00:14.800 --> 00:23.280]  This show is being presented at the new Apple Developer Center at Apple Park in Cupertino, California.
+[00:23.280 --> 00:27.920]  Now, please welcome the Internet's favorite rack on tour.
+[00:27.920 --> 00:30.640]  It's Jon Gruber!
+[00:30.640 --> 00:44.320]  Thank you, thank you.
+[00:44.320 --> 00:47.280]  Enough, I have so many things I gotta talk about.
+[00:47.280 --> 00:51.600]  We gotta, can't waste time on applause.
+[00:51.600 --> 00:58.960]  This is actually the 10th annual, the talk show live from WWDC,
+[00:58.960 --> 01:00.840]  which I kind of can't believe.
+[01:00.840 --> 01:05.480]  Ten years ago in 2012, when I first had the idea, the notion to do it,
+[01:05.480 --> 01:10.800]  my wife and I rented, it was like an art gallery at 111 Minas Street in San Francisco.
+[01:10.800 --> 01:16.040]  Literally, my guest was Cable Sasser, my good friend from Panic,
+[01:16.040 --> 01:19.160]  and I don't know, maybe we had 70 people, something like that.
+[01:19.160 --> 01:23.240]  We didn't have cameras, we just recorded it, we just thought it'd be fun to record it with an audience,
+[01:23.240 --> 01:27.200]  and it was this little art gallery with like an L shape,
+[01:27.200 --> 01:34.240]  and over on the other side of the L, just open air, there was actually an art show going on.
+[01:34.240 --> 01:37.360]  And I really remember thinking I felt bad for them because people were laughing,
+[01:37.360 --> 01:43.200]  and there was a lot of applause, and we did do the open bar, people were rowdy.
+[01:43.200 --> 01:44.960]  But, you know, the show changed.
+[01:44.960 --> 01:52.000]  We moved to Mezzanine, which is a slightly bigger place in San Francisco,
+[01:52.000 --> 01:57.120]  and wound up when WWDC moved, we moved to San Jose,
+[01:57.120 --> 02:04.720]  and the absolutely beautiful California Theater in San Jose, which seats 1100 people.
+[02:04.720 --> 02:11.320]  And if you told me back when I started that I'd wind up in an 1100 seat theater doing this show,
+[02:11.320 --> 02:16.480]  I would have said, that's pretty unlikely.
+[02:16.480 --> 02:22.560]  And if you told me that ten years later I would be doing it in a theater on Apple's campus,
+[02:22.560 --> 02:29.440]  I would have said, something went really wrong with the world.
+[02:29.440 --> 02:32.040]  I think I would have been right.
+[02:32.040 --> 02:37.280]  But I am so happy to be here, and I am so happy that you are all here.
+[02:37.280 --> 02:44.960]  It is unusual. Is it weird that I am, to me, do I feel weird speaking on an Apple stage?
+[02:44.960 --> 02:49.760]  Yeah, really, really weird. This is so weird.
+[02:49.760 --> 02:51.880]  But it was the only way to do a live show.
+[02:51.880 --> 02:53.000]  There is no other way.
+[02:53.000 --> 02:56.760]  There is absolutely no other way to go through all of the protocols,
+[02:56.760 --> 03:00.800]  and all the stuff we did to make sure everybody is verified,
+[03:00.800 --> 03:04.480]  negative tests, and mask rules, and all of that.
+[03:04.480 --> 03:07.040]  There was no other way to do the show.
+[03:07.040 --> 03:16.440]  And I am incredibly grateful that everyone at Apple seemed as interested in making this happen as I was.
+[03:16.440 --> 03:19.200]  So that's just terrific.
+[03:19.200 --> 03:21.520]  I have two sponsors to thank.
+[03:21.520 --> 03:24.680]  And first is MacStadium.
+[03:24.680 --> 03:31.320]  For over a decade, MacStadium has provided private MacClouds built for the Apple community,
+[03:31.320 --> 03:33.920]  done the right way for developers.
+[03:33.920 --> 03:37.040]  It's an ideal sponsor for WWDC, right?
+[03:37.040 --> 03:39.240]  Well, guess what? They've sponsored the live show before.
+[03:39.240 --> 03:42.720]  Hopefully, they'll do it again, but it's the perfect audience.
+[03:42.720 --> 03:48.360]  They are focused on putting the latest Mac hardware into secure data centers,
+[03:48.360 --> 03:53.000]  including thousands of M1 Macs.
+[03:53.000 --> 03:58.680]  And I'm pretty sure they'll be ready for the M2s as soon as that's appropriate for a data center.
+[03:58.680 --> 04:01.600]  They go fast. I mean, they work fast.
+[04:01.600 --> 04:08.200]  Their premier cloud product, Orca 2.0, is available right now,
+[04:08.200 --> 04:14.840]  and it supports virtualization of macOS on both Intel and Apple Silicon.
+[04:14.840 --> 04:20.400]  Visit macstadium.com slash the talk show.
+[04:20.400 --> 04:21.920]  You can learn more.
+[04:21.920 --> 04:27.640]  My second sponsor is Adams, makers of everyday shoes.
+[04:27.640 --> 04:31.640]  I'm actually wearing them now, not just because they're a sponsor,
+[04:31.640 --> 04:34.000]  but because I wear them all the time. I love them.
+[04:34.000 --> 04:36.920]  They are comfortable. They are durable.
+[04:36.920 --> 04:39.320]  I think they look great.
+[04:39.320 --> 04:45.440]  I like black, but I always like black, sometimes gray.
+[04:45.440 --> 04:48.120]  But they have all sorts of fun colors, really fun colors,
+[04:48.120 --> 04:55.120]  including limited edition colorways that you can only get for a limited time.
+[04:55.120 --> 04:56.560]  They've been doing this for a couple of years.
+[04:56.560 --> 05:02.320]  They called their first shoe the Model 0-0-0-0.
+[05:02.320 --> 05:04.400]  They've got the Model 0-0-1.
+[05:04.400 --> 05:08.800]  I can't wait till they get up to 007, frankly.
+[05:08.800 --> 05:12.960]  But the Model 0-0-1 is coming out this week.
+[05:12.960 --> 05:16.720]  So again, perfect timing for this sponsorship.
+[05:16.720 --> 05:22.240]  You can go to adams.com slash df.
+[05:22.240 --> 05:25.840]  They've got a special page set up just for people who are listening to the show
+[05:25.840 --> 05:28.720]  or watching it on YouTube.
+[05:28.720 --> 05:31.080]  So my thanks to them.
+[05:31.080 --> 05:37.200]  So a lot has changed about my doing this show over the last 10 years.
+[05:37.200 --> 05:39.360]  I mean, it got bigger.
+[05:39.360 --> 05:45.440]  It went to doing it over WebEx.
+[05:45.440 --> 05:47.400]  It came to Apple's campus.
+[05:47.400 --> 05:53.760]  One thing that hasn't changed, though, is that I have always kept my guests secret.
+[05:53.760 --> 05:55.360]  I just think it's more fun that way.
+[05:55.360 --> 05:58.320]  I think it's more fun for the – I think that's part of the fun of the live audience.
+[05:58.320 --> 06:03.160]  Everybody watching – I hope thousands of people watching on YouTube when this hits
+[06:03.160 --> 06:06.200]  later in the week already know who the guests are.
+[06:06.200 --> 06:09.580]  But you, I hope, don't.
+[06:09.580 --> 06:18.080]  So without any further ado, please join me in welcoming to the stage Craig Federighi
+[06:18.080 --> 06:33.200]  and Greg Joswiak.
+[06:33.200 --> 06:35.720]  It's a very awkward moment.
+[06:35.720 --> 06:38.560]  You didn't tell me what shoes you'd be wearing.
+[06:38.560 --> 06:39.960]  Do I get some of the sponsorship?
+[06:39.960 --> 06:41.920]  This was not cooked.
+[06:41.920 --> 06:47.000]  If the FCC – I don't know who regulates these sponsorships looking into this.
+[06:47.000 --> 06:48.240]  This was not cooked.
+[06:48.240 --> 06:51.880]  Craig, I don't know what's wrong with you.
+[06:51.880 --> 06:53.960]  Very stylish, though, both of you.
+[06:53.960 --> 06:54.960]  Well done.
+[06:54.960 --> 06:59.800]  Well, speaking of attire, I'm very disappointed in your attire.
+[06:59.800 --> 07:01.000]  This is pretty much what I wear.
+[07:01.000 --> 07:05.420]  I mean, I think this color – some varied in blue, always.
+[07:05.420 --> 07:09.640]  Not always, but I've seen – and I think it was a very, very sharp and stylish look
+[07:09.640 --> 07:11.840]  – was basketball sweats.
+[07:11.840 --> 07:15.360]  That's the other thing I wear, yes.
+[07:15.360 --> 07:20.680]  So the funny thing about that bit from the keynote, which I think was hilarious, was
+[07:20.680 --> 07:27.240]  I was watching the keynote live at the special event with my dithering colleague, Ben Thompson,
+[07:27.240 --> 07:28.760]  who's a huge basketball fan.
+[07:28.760 --> 07:30.040]  And I like basketball.
+[07:30.040 --> 07:37.060]  I played basketball recreationally until I started aging out of it.
+[07:37.060 --> 07:38.320]  It looked like you have game.
+[07:38.320 --> 07:40.200]  You have form.
+[07:40.200 --> 07:44.480]  And Ben and I turned to each other, and we're like, hey, I think he can actually shoot.
+[07:44.480 --> 07:46.200]  He missed, like, half of those.
+[07:46.200 --> 07:47.200]  Just saying.
+[07:47.200 --> 07:48.200]  You know.
+[07:48.200 --> 07:49.200]  It was a long shot.
+[07:49.200 --> 07:50.200]  Yeah.
+[07:50.200 --> 07:51.200]  It was a long shot, but come on.
+[07:51.200 --> 07:52.200]  Half at best.
+[07:52.200 --> 07:53.200]  Yeah.
+[07:53.200 --> 07:57.880]  No, I aged out of basketball in around fourth grade.
+[07:57.880 --> 07:59.120]  Just not tall enough.
+[07:59.120 --> 08:00.120]  Yeah.
+[08:00.120 --> 08:01.120]  That's right.
+[08:01.120 --> 08:02.280]  You passed as a credible shooter.
+[08:02.280 --> 08:03.280]  Thank you.
+[08:03.280 --> 08:04.280]  Good to know.
+[08:04.280 --> 08:09.760]  No, but that outfit was an amazing – I mean, they told me, we're going to have you put
+[08:09.760 --> 08:19.160]  something on, and I hope you can be a good sport.
+[08:19.160 --> 08:21.200]  Was a headband considered?
+[08:21.200 --> 08:22.200]  Yes.
+[08:22.200 --> 08:24.280]  There was.
+[08:24.280 --> 08:25.280]  There was a headband.
+[08:25.280 --> 08:26.280]  Wow.
+[08:26.280 --> 08:27.280]  You know us well.
+[08:27.280 --> 08:30.120]  And I got to say, so I'm like, OK, I'm game.
+[08:30.120 --> 08:31.120]  I put the headband on.
+[08:31.120 --> 08:32.160]  I go in front of the camera.
+[08:32.160 --> 08:36.120]  Jaws is in this back room, monitoring the cameras, and the word comes back, take off
+[08:36.120 --> 08:37.120]  the headband.
+[08:37.120 --> 08:41.960]  It was just, I'm like, wow, must be bad.
+[08:41.960 --> 08:44.080]  Well, not a hard decision.
+[08:44.080 --> 08:50.440]  He does not have the hair to be constrained by a hairband.
+[08:50.440 --> 08:53.720]  Losing battle for that hairband, that's for sure.
+[08:53.720 --> 09:00.760]  I do want to talk first about the event itself, and I don't know what to call it because WWDC
+[09:00.760 --> 09:07.920]  is the whole week of developer news and conferences and for people who are all around the world
+[09:07.920 --> 09:11.440]  and they're just watching online.
+[09:11.440 --> 09:17.640]  But the special event yesterday of having, I don't know, it seems to me, 1,000 plus developers
+[09:17.640 --> 09:28.840]  and lots of media too, it was to me the most remarkable event professionally in my career.
+[09:28.840 --> 09:33.520]  I really thought it was, unbelievably, I'm just curious what you guys thought about how
+[09:33.520 --> 09:34.520]  the day went.
+[09:34.520 --> 09:40.520]  Well, I'll tell you, what was the most amazing to me is developers flew from all over the
+[09:40.520 --> 09:42.160]  world to be here.
+[09:42.160 --> 09:46.320]  I mean, you talk to them, you talk to people from Indonesia, hi, I'm from India, hi, I'm
+[09:46.320 --> 09:48.520]  from the Ukraine.
+[09:48.520 --> 09:55.120]  It's remarkable, and look, we all read a bunch of crap in the news.
+[09:55.120 --> 09:57.680]  And I know I'm probably not the first one to say this, but you start to listen to politicians
+[09:57.680 --> 10:00.960]  in Washington and you might get a distorted view of the world.
+[10:00.960 --> 10:07.240]  And I think yesterday was an example of really what our relationship is like with developers
+[10:07.240 --> 10:13.480]  and how important that relationship is for them with us and with us with them and that
+[10:13.480 --> 10:19.560]  so many of them would choose to fly halfway around the world to come be here for an event
+[10:19.560 --> 10:24.240]  like this and to me that was so reaffirming.
+[10:24.240 --> 10:28.800]  And we have this amazing developer team, some of them are here in the audience.
+[10:28.800 --> 10:34.160]  You know, to quote my favorite football coach, you know, that Susan and her team approached
+[10:34.160 --> 10:41.760]  this with an enthusiasm previously unknown to mankind when it comes to serving developers.
+[10:41.760 --> 10:45.880]  And you got a flavor for that yesterday, I think.
+[10:45.880 --> 10:50.320]  Yeah, I thought we've been missing something for the last couple of years.
+[10:50.320 --> 10:54.760]  I mean, it was always so special to get together.
+[10:54.760 --> 10:58.680]  And I mean, part of it is talking about the things we talk about.
+[10:58.680 --> 11:04.600]  And I think actually for that, you know, it's tough to let go of the video format because
+[11:04.600 --> 11:10.520]  we're able to really craft the stories.
+[11:10.520 --> 11:14.320]  But we all sense, like, even if that works and even if we're, like, getting the content
+[11:14.320 --> 11:22.720]  out well, to get the community together was something we missed so much and it was amazing
+[11:22.720 --> 11:28.240]  even when the prospect was come out and watch a film with us, how the community really felt
+[11:28.240 --> 11:30.720]  the same way we did with, like, let's get together.
+[11:30.720 --> 11:31.720]  And it was great.
+[11:31.720 --> 11:34.440]  Yeah, I'll give Craig credit because he's one of the ones who pushed for it, right?
+[11:34.440 --> 11:38.680]  Because we do so well with these online presentations.
+[11:38.680 --> 11:42.200]  You know, I mean, come on, you know, WWC used to be a matter of bringing, you know, a few
+[11:42.200 --> 11:47.120]  thousand but, you know, thousands of developers out to, you know, San Francisco or San Jose
+[11:47.120 --> 11:49.480]  depending on the years.
+[11:49.480 --> 11:51.320]  And we have an incredible event.
+[11:51.320 --> 11:55.160]  But when COVID hit, we changed the way we had to do business, right?
+[11:55.160 --> 11:59.640]  And we changed obviously to these, you know, video, not just keynotes, but sessions and
+[11:59.640 --> 12:03.240]  they've been incredibly well received.
+[12:03.240 --> 12:09.160]  The developer satisfaction for them is incredibly high and millions and millions of developers
+[12:09.160 --> 12:13.800]  engaged that week and after and so that's hard to give up.
+[12:13.800 --> 12:17.120]  But Craig and a few others were like, but we need that connection.
+[12:17.120 --> 12:20.080]  We need that conversation, that exchanging ideas.
+[12:20.080 --> 12:24.120]  Like Tim said, the things that you can only do in person and, boy, it felt good.
+[12:24.120 --> 12:25.120]  Yeah.
+[12:25.120 --> 12:26.520]  I had a similar experience.
+[12:26.520 --> 12:30.280]  I came in on Saturday instead of Sunday and then Sunday I didn't know what to do with
+[12:30.280 --> 12:36.160]  myself and I was actually staying at a hotel right here near campus and I just went for
+[12:36.160 --> 12:37.160]  a walk, right?
+[12:37.160 --> 12:38.160]  I mean, what do you do?
+[12:38.160 --> 12:44.080]  I walk and see what's going on and there's one person on the sidewalk, one person, like
+[12:44.080 --> 12:49.080]  11 o'clock Sunday morning, it's Cable Sasser.
+[12:49.080 --> 12:53.400]  Where are you going, Cable?
+[12:53.400 --> 12:56.240]  He was going to register and I said, oh, I'll come with you.
+[12:56.240 --> 13:00.440]  I mean, the media registration wasn't until Monday, but I was like, I'll just go hang
+[13:00.440 --> 13:01.440]  out.
+[13:01.440 --> 13:05.320]  The visitor center on Sunday was amazing.
+[13:05.320 --> 13:11.200]  And I do get recognized at the one time of the year that I go.
+[13:11.200 --> 13:16.560]  I live 51 weeks of the year in Philadelphia and nobody knows who I am.
+[13:16.560 --> 13:20.120]  I come to WWDC and people know me, but that's great.
+[13:20.120 --> 13:24.520]  And I love it when people come up and say hi, but it was so different this time because
+[13:24.520 --> 13:30.080]  I'd really forgotten what that's like.
+[13:30.080 --> 13:34.320]  I'm not a hugger or at least I wasn't pre-COVID, but I'm like hugging people.
+[13:34.320 --> 13:43.320]  Again, I met people from Qatar, Dubai, Brazil, and I had the exact same thought as you, Jaws,
+[13:43.320 --> 13:52.280]  and they were all so happy and the emotions, everybody's emotions were flushed faces, tears
+[13:52.280 --> 13:55.800]  in the eyes, and just joy, joy.
+[13:55.800 --> 14:01.540]  And I really think that you can think about things.
+[14:01.540 --> 14:06.800]  You can think about what it's like to hug or kiss somebody you love, but it's totally
+[14:06.800 --> 14:08.760]  different than the experience of doing it.
+[14:08.760 --> 14:12.840]  And so you can think about, yeah, yeah, I miss the community, but then when the community's
+[14:12.840 --> 14:17.240]  back together, it hits.
+[14:17.240 --> 14:18.240]  It was really remarkable.
+[14:18.240 --> 14:20.400]  And I thought the event was just great.
+[14:20.400 --> 14:28.000]  I thought the screen, I can't believe half the people I know also got terrible sunburns.
+[14:28.000 --> 14:31.360]  It was a very sunny day, but the screen was amazing.
+[14:31.360 --> 14:34.960]  How can the sun be this bright and you can see this perfectly?
+[14:34.960 --> 14:35.960]  It was almost surreal.
+[14:35.960 --> 14:36.960]  Yeah.
+[14:36.960 --> 14:42.960]  It was this giant Susan Prescott on the SOTU.
+[14:42.960 --> 14:51.280]  Volume was the same, but it was a...
+[14:51.280 --> 14:55.480]  I also, it was really neat that they were giving tours of this building.
+[14:55.480 --> 14:59.400]  This is the new developer center, and I got to take that tour.
+[14:59.400 --> 15:04.800]  But I also heard from the developers who had taken it on Sunday, and they were like, oh,
+[15:04.800 --> 15:05.800]  you gotta go.
+[15:05.800 --> 15:06.800]  You gotta go see it.
+[15:06.800 --> 15:10.200]  And they're like, hey, is that where your show's gonna be?
+[15:10.200 --> 15:14.120]  And I'm like, I don't know.
+[15:14.120 --> 15:15.480]  Who are your guests?
+[15:15.480 --> 15:16.480]  I don't know.
+[15:16.480 --> 15:18.720]  Well, and this is a brand new building, right?
+[15:18.720 --> 15:19.720]  We're just unveiling it.
+[15:19.720 --> 15:23.380]  I mean, we've hosted developers for years, but I don't know if you ever got hosted at
+[15:23.380 --> 15:27.280]  Back in Infinite Loop, but it felt like taking developers into a cage, right?
+[15:27.280 --> 15:31.840]  There would be these interior conference rooms, which is kind of the nicest thing you could
+[15:31.840 --> 15:32.840]  say about.
+[15:32.840 --> 15:33.840]  No windows.
+[15:33.840 --> 15:37.400]  Sometimes developers would stay there day and night for a long time.
+[15:37.400 --> 15:40.920]  It's like, it's not very humane.
+[15:40.920 --> 15:42.160]  And we've upped the level here.
+[15:42.160 --> 15:46.080]  This is an experience that, instead of just the developer briefing center, we have this.
+[15:46.080 --> 15:47.080]  We have this room.
+[15:47.080 --> 15:50.880]  We have these incredible soundproof rooms where developers can work confidentially and
+[15:50.880 --> 15:54.800]  work on their stuff and engage not just with our developer group, but right across the
+[15:54.800 --> 15:58.760]  street from Apple Park, where we have Craig and his engineers, and when necessary, our
+[15:58.760 --> 15:59.760]  hardware engineers.
+[15:59.760 --> 16:00.760]  They're all across the street.
+[16:00.760 --> 16:05.760]  So it's a spectacular opportunity for our developers and our engineers and our developer
+[16:05.760 --> 16:11.320]  team to all interact definitely in a much better way than we could in the past.
+[16:11.320 --> 16:20.040]  I think it emblemizes, the three of us have talked about the same issue of, does Apple
+[16:20.040 --> 16:22.200]  care about third-party developers?
+[16:22.200 --> 16:29.520]  And people who want to answer that question, yes, Apple does not care about them.
+[16:29.520 --> 16:30.520]  Blah, blah, blah.
+[16:30.520 --> 16:33.120]  This reason, that reason, and the other reason.
+[16:33.120 --> 16:34.600]  Why does this building exist?
+[16:34.600 --> 16:42.880]  I mean, it's a physical manifestation of, to me, of the best of Apple's attitude towards
+[16:42.880 --> 16:43.880]  developers.
+[16:43.880 --> 16:44.880]  Yeah.
+[16:44.880 --> 16:48.180]  Look, the iPhone changed the world.
+[16:48.180 --> 16:49.180]  We know that.
+[16:49.180 --> 16:51.900]  But it did it in combination with the App Store.
+[16:51.900 --> 16:54.040]  It did it in combination with apps.
+[16:54.040 --> 17:00.500]  Again, people forget what software distribution was like before the App Store.
+[17:00.500 --> 17:02.680]  You're old enough to know.
+[17:02.680 --> 17:05.600]  But to get software out in the market was tough.
+[17:05.600 --> 17:06.600]  You had to find a publisher.
+[17:06.600 --> 17:08.120]  The publisher took a cut.
+[17:08.120 --> 17:09.120]  Channel took a cut.
+[17:09.120 --> 17:11.900]  You had to make the goods.
+[17:11.900 --> 17:14.360]  In the end of the day, the developers left with very little.
+[17:14.360 --> 17:21.120]  And we wanted to create a safe and trustworthy place where developers could reach all customers
+[17:21.120 --> 17:26.360]  with much more beneficial economics and level the playing field between big and small.
+[17:26.360 --> 17:31.600]  And look, again, going back to my point of sometimes people are telling a distorted story,
+[17:31.600 --> 17:33.800]  it was an economic miracle.
+[17:33.800 --> 17:37.120]  It has created millions and millions of jobs around the world.
+[17:37.120 --> 17:41.960]  There were too many jobs in the United States alone driven by our app economy.
+[17:41.960 --> 17:42.960]  It's worked.
+[17:42.960 --> 17:43.960]  And it's worked for those developers.
+[17:43.960 --> 17:45.840]  It's worked for customers.
+[17:45.840 --> 17:47.240]  And obviously, it's worked for us.
+[17:47.240 --> 17:48.240]  It's worked for everybody.
+[17:48.240 --> 17:50.880]  It's one of those win, win, win.
+[17:50.880 --> 17:51.880]  We're very proud of it.
+[17:51.880 --> 17:53.600]  And developers are part of the lifeblood.
+[17:53.600 --> 17:57.440]  And to your point, that's why we have things like this and this conference.
+[17:57.440 --> 18:04.920]  I will tell you the pushback from longtime Mac indie developers I know on that point,
+[18:04.920 --> 18:10.960]  which is that in between the physical distribution era and going through Ingram Micro or whoever
+[18:10.960 --> 18:17.880]  you had to let take 60% before they sent it to a retailer who took another 50% and left
+[18:17.880 --> 18:30.520]  you with a sliver of the sales, that in the early 2000 to iPhone era, when Mac OS X was
+[18:30.520 --> 18:38.200]  Mac OS X, there was a thriving market of indie developers who weren't going through physical.
+[18:38.200 --> 18:43.960]  They were just direct downloads with direct sales on their website.
+[18:43.960 --> 18:54.520]  But I think the difference is just the number of developers in today's world who came here
+[18:54.520 --> 18:59.560]  from around the world and how quickly WWDC sells out now.
+[18:59.560 --> 19:00.760]  Tickets are gone.
+[19:00.760 --> 19:05.720]  Back in that era, you could just take a week and decide whether you wanted to go to WWDC.
+[19:05.720 --> 19:11.080]  The last time before you guys had the lottery, it was, I think, like a minute.
+[19:11.080 --> 19:16.840]  I think what's so exciting about the world that really the iPhone and the App Store ushered
+[19:16.840 --> 19:27.960]  in is there is just this trusted community now where thinking to buy an app is not a
+[19:27.960 --> 19:30.720]  big decision.
+[19:30.720 --> 19:35.000]  My kids do it virtually without thinking about it.
+[19:35.000 --> 19:42.360]  The number of apps that people buy today on average compared to even during the heyday
+[19:42.360 --> 19:48.160]  of and even today what you'd see from web downloads on desktop platforms, there's just
+[19:48.160 --> 19:52.040]  no comparison because people know they have a platform they can trust, a source that they
+[19:52.040 --> 19:55.200]  can trust, a vibrant developer community.
+[19:55.200 --> 20:00.480]  And that whole thing has just been working so wonderfully for everyone.
+[20:00.480 --> 20:07.840]  And I'll just say from the point of view of us in software, building these platforms,
+[20:07.840 --> 20:17.720]  these APIs, we see it as just this amazing opportunity to both lift the developer and
+[20:17.720 --> 20:19.560]  the user community.
+[20:19.560 --> 20:27.920]  We're platform first and the other experiences we build second because that sort of lifts
+[20:27.920 --> 20:29.480]  all the boats.
+[20:29.480 --> 20:30.720]  And I thought it was very funny.
+[20:30.720 --> 20:34.320]  I read something where someone was saying, oh, well, we noticed you introduced a lot
+[20:34.320 --> 20:35.320]  of APIs.
+[20:35.320 --> 20:40.560]  Is that because you're reacting to a European regulator saying something about you?
+[20:40.560 --> 20:45.720]  I'm like, have you not been watching our conferences for the last how many years?
+[20:45.720 --> 20:47.040]  This is what we do.
+[20:47.040 --> 20:51.000]  And it's a privilege to be able to do it.
+[20:51.000 --> 20:54.320]  So let's get to some of the news front that was announced yesterday and one that really
+[20:54.320 --> 21:01.640]  caught my eye and is perfect for revisiting because we talked about this, I think the
+[21:01.640 --> 21:09.120]  last time, 2019, so it would be the last time we did this face to face, was when SwiftUI
+[21:09.120 --> 21:12.420]  and Catalyst were announced at the same year.
+[21:12.420 --> 21:18.720]  And I tried to get you to answer which one's the way to go.
+[21:18.720 --> 21:24.400]  And what caught my eye in the State of the Union yesterday was, to me, an unambiguous
+[21:24.400 --> 21:26.600]  slide.
+[21:26.600 --> 21:27.840]  I'm quoting directly.
+[21:27.840 --> 21:34.400]  The best way to build an app is with Swift and SwiftUI.
+[21:34.400 --> 21:39.640]  That seems like a change in messaging in terms of commitment to this is the way forward.
+[21:39.640 --> 21:40.640]  Yeah.
+[21:40.640 --> 21:48.080]  I think we, back when we last spoke in 2019, the future direction, where the arrow was
+[21:48.080 --> 21:50.040]  pointing, was clear.
+[21:50.040 --> 21:54.840]  And we've been marching on that vector ever since.
+[21:54.840 --> 22:01.980]  I think all of these technologies, and I hope I said it at the time, were relevant then
+[22:01.980 --> 22:04.120]  and remain relevant now.
+[22:04.120 --> 22:08.520]  And so depending on where you are as a developer, the right mix of technologies for you at this
+[22:08.520 --> 22:11.920]  moment in time could be quite different.
+[22:11.920 --> 22:14.940]  We build a lot of, of course, UI kit apps.
+[22:14.940 --> 22:17.000]  We build a lot of native app kit apps.
+[22:17.000 --> 22:22.140]  We build, now on the Mac, a lot of Catalyst apps that I think are excellent.
+[22:22.140 --> 22:26.260]  And the Mac now has a richer set of first party apps because of Catalyst.
+[22:26.260 --> 22:32.000]  We depend on that capability, and we continue to build out that framework and make it more
+[22:32.000 --> 22:33.640]  and more capable.
+[22:33.640 --> 22:38.720]  But increasingly, as we build new things, as we build new UIs, we're building them with
+[22:38.720 --> 22:43.800]  SwiftUI when we have the opportunity to do something new.
+[22:43.800 --> 22:50.000]  And this year, one of the things we announced is we're making it ever easier to even take
+[22:50.000 --> 22:55.000]  little pieces of your app, even the cells that you put in a collection view, and say,
+[22:55.000 --> 22:58.280]  you know, this piece would be so great to do in SwiftUI because it's great for that.
+[22:58.280 --> 23:02.440]  I don't have to rethink my overall app architecture, but I can just fit this in.
+[23:02.440 --> 23:07.600]  And of course, developers have been building widgets now and watch complications in SwiftUI.
+[23:07.600 --> 23:14.280]  So it's becoming a part of almost many, many apps and can be the complete foundation for
+[23:14.280 --> 23:15.280]  many going forward.
+[23:15.280 --> 23:18.920]  But yeah, in terms of where the arrow is pointing, absolutely.
+[23:18.920 --> 23:22.120]  I thought that SwiftUI Charts, SwiftCharts, I forget the name.
+[23:22.120 --> 23:23.120]  Yeah, SwiftCharts, yeah.
+[23:23.120 --> 23:27.520]  But it seems, I haven't really dug into it, but it seems super cool and robust.
+[23:27.520 --> 23:31.920]  But as one friend of mine, I'm going to steal from him, but he put it, it's like a perfect
+[23:31.920 --> 23:32.920]  leaf node.
+[23:32.920 --> 23:39.400]  Like if you already have a tree of an app, you could just use this, and the app might
+[23:39.400 --> 23:42.160]  be AppKit or maybe it's an iPhone app, it's all UIKit.
+[23:42.160 --> 23:45.600]  You're not going to cut down the whole tree and rebuild this whole tree, but you've got
+[23:45.600 --> 23:49.720]  a new leaf node where SwiftCharts would be the perfect, you need charts, you can just
+[23:49.720 --> 23:50.920]  put it right there.
+[23:50.920 --> 23:52.240]  That's absolutely right.
+[23:52.240 --> 23:59.000]  And actually within the apps that, the versions of the apps that we've now seeded to developers,
+[23:59.000 --> 24:04.480]  if you look inside the health app at some of those charts, that's an app that is not
+[24:04.480 --> 24:08.460]  an entirely SwiftUI app, but a bunch of those charts are SwiftCharts.
+[24:08.460 --> 24:18.360]  If you look at the weather app, now available on iPad, and Paul, yes, come on, and Mac,
+[24:18.360 --> 24:22.280]  I should point out, now available on Mac as well, and I use it on Mac as well.
+[24:22.280 --> 24:27.240]  The rich set of charts now in there, SwiftCharts, right, fitting into this app.
+[24:27.240 --> 24:32.080]  So yeah, I think for every developer, it's got to be, maybe it starts as just one of
+[24:32.080 --> 24:35.480]  the arrows in their quiver as they build out different parts of their app, and eventually
+[24:35.480 --> 24:37.560]  they find they build more and more.
+[24:37.560 --> 24:43.580]  What is it about SwiftUI, though, that like, what I'm hearing and what that unambiguous
+[24:43.580 --> 24:50.320]  slide says to me is 10 years down the road, after another 10 years of these talk shows,
+[24:50.320 --> 24:53.800]  there's going to be, what I'm hearing from you is there are going to be, by that time,
+[24:53.800 --> 24:55.920]  a lot more all SwiftUI apps.
+[24:55.920 --> 24:56.920]  I think that's right.
+[24:56.920 --> 25:01.000]  So why do you think that is?
+[25:01.000 --> 25:07.520]  I think it's a real catalyst for creativity, and I was talking to a developer yesterday
+[25:07.520 --> 25:14.160]  from the design awards and was saying, you know, what's your process?
+[25:14.160 --> 25:22.000]  And he said, you know, I'm doing everything now in SwiftUI, and I get an idea, and I can
+[25:22.000 --> 25:29.080]  sit down in an hour, try it out, feel it out, get the gist of it, and that is, that's what
+[25:29.080 --> 25:35.520]  sparks innovation, right, that you feel that close to taking a thought and turning it into
+[25:35.520 --> 25:37.480]  an app and then building it out.
+[25:37.480 --> 25:42.880]  And the fact that we have live previews, that the turnaround is so fast, that the UI is
+[25:42.880 --> 25:47.720]  so flexible that it retargets other platforms so immediately, I mean, it's just you're piling
+[25:47.720 --> 25:56.540]  gains on top of gains, and I think it brings just a ton of joy to development.
+[25:56.540 --> 26:02.720]  When I have spare time, I sit down and write apps in SwiftUI just for fun, because it's
+[26:02.720 --> 26:03.720]  just fun.
+[26:03.720 --> 26:09.120]  I watch TV.
+[26:09.120 --> 26:11.760]  Everyone can code, Josh.
+[26:11.760 --> 26:15.960]  We could go, if we had an extra hour, we could spend a whole hour talking about severance.
+[26:15.960 --> 26:17.800]  Yes, let's do it.
+[26:17.800 --> 26:23.280]  Any severance fans in the audience?
+[26:23.280 --> 26:29.300]  I don't want to go off on that, but I described that show to my wife, and she's just generally
+[26:29.300 --> 26:33.200]  not a science fiction fan, and she was like, and I was like, let's just give it a chance.
+[26:33.200 --> 26:34.760]  She loved it more than I did.
+[26:34.760 --> 26:35.760]  It's amazing.
+[26:35.760 --> 26:37.380]  It's such a good show.
+[26:37.380 --> 26:38.380]  You know what, though?
+[26:38.380 --> 26:44.160]  But one of the other things, and I think people, some people misunderstand how committed you
+[26:44.160 --> 26:49.200]  guys are to keeping everything going, and I even noticed, again, it wasn't me digging
+[26:49.200 --> 26:53.720]  through the release notes, but a friend pointed out that there's even a brand new app kit
+[26:53.720 --> 26:56.740]  control this year, NS combo button.
+[26:56.740 --> 26:57.740]  It's cool.
+[26:57.740 --> 26:58.740]  I've seen it.
+[26:58.740 --> 27:02.400]  It's a button where you can have a dropdown menu next to the push button and combine them
+[27:02.400 --> 27:03.400]  together.
+[27:03.400 --> 27:07.280]  Even app kit is still, nothing has been labeled legacy.
+[27:07.280 --> 27:09.280]  That's right.
+[27:09.280 --> 27:17.320]  And I think everyone's got to understand, our reliance on the continued health and development
+[27:17.320 --> 27:25.200]  of all of these frameworks is greater within Apple than anywhere else in the world.
+[27:25.200 --> 27:33.340]  And so we have every interest and an internal developer community that is absolutely demanding
+[27:33.340 --> 27:36.440]  of continued progress on all fronts.
+[27:36.440 --> 27:42.560]  So I don't think anyone should fear our commitment here.
+[27:42.560 --> 27:44.480]  I see why.
+[27:44.480 --> 27:55.520]  I think it makes a lot of sense that the WWDC keynote is always organized by platform, iOS.
+[27:55.520 --> 27:59.840]  We've debated this.
+[27:59.840 --> 28:00.840]  You know what's funny, too?
+[28:00.840 --> 28:03.120]  You come out here for the community stuff, and you talk to people, and you get to talk
+[28:03.120 --> 28:09.960]  to people face to face, and I hear that up and down from every level of the company.
+[28:09.960 --> 28:11.560]  Yeah, we thought about that.
+[28:11.560 --> 28:18.720]  Well, it's so funny, though, because we talk about it because we get into the Mac section,
+[28:18.720 --> 28:22.400]  and we're talking about these enhancements to mail.
+[28:22.400 --> 28:26.840]  And at some point, the iOS section ended, and people go, well, that's what's in fact,
+[28:26.840 --> 28:30.200]  even watching the coverage, people say, well, so that's what's in iOS.
+[28:30.200 --> 28:32.800]  And then we get into the Mac section, and we start talking about what's new in mail.
+[28:32.800 --> 28:37.640]  All those features in mail and iOS, they're all extremely relevant there.
+[28:37.640 --> 28:41.640]  You get into the iPad section, we start talking about collaboration, how you can initiate
+[28:41.640 --> 28:46.480]  collaboration in messages and then do it in these other apps.
+[28:46.480 --> 28:47.480]  That's in Mac.
+[28:47.480 --> 28:48.480]  That's in iOS.
+[28:48.480 --> 28:49.480]  We cover it in the iPad section.
+[28:49.480 --> 28:55.480]  So we try to find the best place to highlight these developments, but so much of what we're
+[28:55.480 --> 29:01.560]  doing at this point is to the benefit of all the platforms.
+[29:01.560 --> 29:06.720]  And I think this is partly because of all the framework and technology leverage we have
+[29:06.720 --> 29:09.600]  because we're trying to create that same kind of environment for third parties.
+[29:09.600 --> 29:12.860]  Really easy to do it once and do it everywhere.
+[29:12.860 --> 29:16.840]  We also know as users of our platform, it's pretty awesome if you like it.
+[29:16.840 --> 29:21.480]  If you like it here, you sure expect it in every device of ours that you pick up and
+[29:21.480 --> 29:22.480]  use.
+[29:22.480 --> 29:23.740]  And so we're committed to making that happen.
+[29:23.740 --> 29:28.280]  But it does create this question of, how exactly do you talk about it?
+[29:28.280 --> 29:35.800]  And JAWS always wins, and it's by a platform.
+[29:35.800 --> 29:41.280]  I do think, though, and I know one of the things that I also think gets overlooked about
+[29:41.280 --> 29:48.520]  Apple is how successful Apple can be at playing long games.
+[29:48.520 --> 29:54.000]  SwiftUI is clearly a long game, and it was introduced in a state where it clearly wasn't
+[29:54.000 --> 30:00.400]  ready to be used to create all apps.
+[30:00.400 --> 30:04.440]  But it has to be introduced at some point, and there's a plan going forward.
+[30:04.440 --> 30:05.440]  Swift itself.
+[30:05.440 --> 30:06.440]  Right.
+[30:06.440 --> 30:07.440]  Swift itself.
+[30:07.440 --> 30:11.600]  I mean, Catalyst, that was one where we were quite explicit that we said, we're doing this
+[30:11.600 --> 30:12.600]  thing.
+[30:12.600 --> 30:14.440]  We're doing it first with these few apps.
+[30:14.440 --> 30:16.800]  Eventually it's going to come to you, third party developers.
+[30:16.800 --> 30:20.400]  And we kept building technologies like Metal.
+[30:20.400 --> 30:23.000]  You start here, and you invest, and you invest, and you invest.
+[30:23.000 --> 30:27.880]  And so yeah, there are a tremendous number of long games.
+[30:27.880 --> 30:32.680]  I thought one of the long games that kind of came to fruition in this year's keynote,
+[30:32.680 --> 30:36.840]  or at least to my mind, it really seemed, and it's exactly what we're talking about,
+[30:36.840 --> 30:44.920]  that these features apply iOS, iPad, OS, Mac OS.
+[30:44.920 --> 30:51.080]  I think not even that many years ago, it wasn't so much that everything was in sync.
+[30:51.080 --> 30:56.720]  There'd be like, well, this is what we got done this year, and the iPhone is this world
+[30:56.720 --> 31:01.720]  changing device, might have to come first.
+[31:01.720 --> 31:08.680]  And other platforms, which were in a good, like the Mac, for example, was in a good spot.
+[31:08.680 --> 31:14.320]  Mac OS X was in great position by the time the name changed.
+[31:14.320 --> 31:18.080]  Well, it was Mac OS X, now it's Mac OS, but there was one.
+[31:18.080 --> 31:19.080]  It's OS X in the middle.
+[31:19.080 --> 31:20.080]  OS X.
+[31:20.080 --> 31:21.080]  I like that one.
+[31:21.080 --> 31:22.080]  We fixed it.
+[31:22.080 --> 31:28.240]  You got to have Mac in the name, come on.
+[31:28.240 --> 31:29.240]  Anyway.
+[31:29.240 --> 31:31.040]  We agree.
+[31:31.040 --> 31:38.040]  But I really thought it was palpable how over and over and over again in the keynote yesterday,
+[31:38.040 --> 31:42.920]  and this is available on the other two platforms, whichever of the segments we were on, and
+[31:42.920 --> 31:46.160]  it's also mail.
+[31:46.160 --> 31:50.520]  Think about the messages would be a great example, right?
+[31:50.520 --> 31:55.800]  There's some apps that came to the Mac only because of Catalyst.
+[31:55.800 --> 31:57.600]  Before Catalyst, those apps weren't there.
+[31:57.600 --> 32:05.680]  There are other apps that we actually rewrote the app or took, built a Mac native app out
+[32:05.680 --> 32:12.880]  of Catalyst to replace a Mac app that in the past, had we done all these messages features
+[32:12.880 --> 32:20.180]  that we announced, the ability to edit messages and recall messages and so forth.
+[32:20.180 --> 32:23.880]  It's unclear whether they would have made it to the Mac in the same year.
+[32:23.880 --> 32:28.120]  And the fact that we invested in Catalyst, that Catalyst was then the foundation of building
+[32:28.120 --> 32:33.400]  a much better app for the messages app for the Mac that shares code across all the platforms
+[32:33.400 --> 32:36.160]  meant that absolutely these enhancements to messages are everywhere.
+[32:36.160 --> 32:38.320]  We announced great features to Maps.
+[32:38.320 --> 32:40.560]  They are everywhere on all the platforms, right?
+[32:40.560 --> 32:45.560]  So this has been a vision we had a long time ago of a place we could get to.
+[32:45.560 --> 32:48.280]  But it took many, many years to build our way there.
+[32:48.280 --> 32:55.220]  And yet our philosophy is not to hold this thing in secret for seven years and then come
+[32:55.220 --> 32:56.220]  out at the end.
+[32:56.220 --> 32:59.520]  Because the way you get there is to get it out there where a community can start to make
+[32:59.520 --> 33:04.840]  use of it where it makes sense for them, give you feedback, and you can build on it internally.
+[33:04.840 --> 33:09.320]  But you just keep your eye on the prize.
+[33:09.320 --> 33:14.600]  Messages is to me the poster child for the true potential of Catalyst.
+[33:14.600 --> 33:19.920]  And I'll tell you specifically, maybe I mentioned it last year, those WebEx meetings always
+[33:19.920 --> 33:21.480]  disappear from my mind.
+[33:21.480 --> 33:27.140]  But I really thought, OK, I get why they're doing this to keep it for those reasons.
+[33:27.140 --> 33:30.520]  But there goes the AppleScript support and messages on Mac.
+[33:30.520 --> 33:32.520]  Nope, it's all still there.
+[33:32.520 --> 33:41.760]  And the goofy AppleScript I run once a year that I don't AppleScript messages very often,
+[33:41.760 --> 33:43.360]  but I have a few.
+[33:43.360 --> 33:45.120]  And they all worked.
+[33:45.120 --> 33:48.040]  And there it is.
+[33:48.040 --> 33:49.480]  That's what you told me you would do.
+[33:49.480 --> 33:53.880]  So I owe you a bean right point.
+[33:53.880 --> 33:55.760]  First one.
+[33:55.760 --> 34:04.440]  But we have all these sessions in the conference where we talk about something like building
+[34:04.440 --> 34:08.920]  a great Catalyst app for Mac or building a great Swift UI app for Mac.
+[34:08.920 --> 34:13.760]  And it is in part about, sure, you brought your starting point that might have been on
+[34:13.760 --> 34:14.920]  iPad.
+[34:14.920 --> 34:17.160]  What does it mean to make it actually a great Mac app?
+[34:17.160 --> 34:19.460]  And all those other technologies are available to you.
+[34:19.460 --> 34:24.440]  And I think the developers who really love the Mac, and I think many, many of our developers
+[34:24.440 --> 34:25.440]  do.
+[34:25.440 --> 34:29.880]  And the developers who used to apply their craft want to put in the extra work to make
+[34:29.880 --> 34:31.720]  their app great for Mac.
+[34:31.720 --> 34:32.720]  And that's the thing.
+[34:32.720 --> 34:33.800]  You take that core, and you can extend it.
+[34:33.800 --> 34:35.800]  And certainly, that's our philosophy.
+[34:35.800 --> 34:38.080]  Some of the things I do want to talk about, though, are the exceptions.
+[34:38.080 --> 34:43.640]  Some of the things, the features that are specific to one platform.
+[34:43.640 --> 34:54.120]  And I think for reasons that I think make sense, the re-imagined iPhone lock screen
+[34:54.120 --> 34:57.280]  is the iPhone lock screen is only for the iPhone.
+[34:57.280 --> 35:02.760]  I mean, you can imagine that maybe the iPad lock screen could maybe gain similar features
+[35:02.760 --> 35:03.760]  later.
+[35:03.760 --> 35:05.760]  But it makes sense.
+[35:05.760 --> 35:07.480]  I just love that.
+[35:07.480 --> 35:11.240]  And I was so glad to see how much time you guys gave to it.
+[35:11.240 --> 35:18.280]  Because to me, one of the best things that Apple has always done, and it drew me to Apple
+[35:18.280 --> 35:28.000]  computers, is the approachability to users to do more than just click, click, click,
+[35:28.000 --> 35:31.720]  but actually make it their own and do something.
+[35:31.720 --> 35:35.600]  And you go back to HyperCard and stuff like that.
+[35:35.600 --> 35:38.640]  But there's a rich, rich history at Apple of doing that.
+[35:38.640 --> 35:42.500]  And to me, the lock screen configurability is that sort of thing.
+[35:42.500 --> 35:47.400]  It's like a LEGO construction kit for making a lock screen for you.
+[35:47.400 --> 35:48.400]  Yeah.
+[35:48.400 --> 35:54.700]  And I think it's not programming, but it is sort of designing your own software.
+[35:54.700 --> 35:58.000]  And it's something that everybody could do.
+[35:58.000 --> 36:00.360]  It went over so well.
+[36:00.360 --> 36:03.960]  I did a lot of press interviews yesterday, and one of my favorites was when the journalist
+[36:03.960 --> 36:04.960]  came to me.
+[36:04.960 --> 36:05.960]  And I said, how was the show?
+[36:05.960 --> 36:09.480]  He goes, you had me at lock screen.
+[36:09.480 --> 36:10.480]  Kind of says it all.
+[36:10.480 --> 36:15.000]  I mean, it got a great reaction from the crowd here who was cheering it on and, of course,
+[36:15.000 --> 36:16.000]  what people have been writing since.
+[36:16.000 --> 36:18.600]  I think you're going to love using it.
+[36:18.600 --> 36:24.040]  On all the list of things that we all spend a lot of time talking about is to call that
+[36:24.040 --> 36:28.360]  area lock screen started to seem like, what do you call it, though?
+[36:28.360 --> 36:30.560]  But it is this face of your phone.
+[36:30.560 --> 36:32.520]  And that's why it is so personal, right?
+[36:32.520 --> 36:37.200]  It's every time you take your phone, a bunch of phones sit on the table, you can put a
+[36:37.200 --> 36:38.200]  case on them.
+[36:38.200 --> 36:39.200]  But which one's mine?
+[36:39.200 --> 36:42.280]  Well, it lights up with my lock screen.
+[36:42.280 --> 36:50.640]  And I think it was really some of the passion in our HI team, too, who emphasized the role
+[36:50.640 --> 36:57.120]  of personal photography and what can we do with your personal photos because what's more
+[36:57.120 --> 37:00.320]  personal than that?
+[37:00.320 --> 37:04.600]  But doing beautiful things with images.
+[37:04.600 --> 37:10.680]  And this is an area where initially through portrait mode photography and then all of
+[37:10.680 --> 37:16.080]  the work we've done on depth, we started to build a way to just make your photos that
+[37:16.080 --> 37:19.280]  much more alive and magical.
+[37:19.280 --> 37:23.240]  And we were really able to apply that here to the lock screen.
+[37:23.240 --> 37:29.360]  And I know some of mine now and they just, your own photos feel so special if we can
+[37:29.360 --> 37:31.680]  give them that care.
+[37:31.680 --> 37:37.160]  And it's been exciting to take these big technology areas like all this ML investment we've made
+[37:37.160 --> 37:42.080]  in computational photography and then be able to apply it to something that's such a beautiful
+[37:42.080 --> 37:46.360]  aesthetic experience of having your own personal lock screen photo.
+[37:46.360 --> 37:48.600]  And lock screen widgets, which went over really well.
+[37:48.600 --> 37:49.600]  Yeah.
+[37:49.600 --> 37:55.440]  Well, the widgets are really part of that configurability, that toolkit of making it
+[37:55.440 --> 37:56.440]  your own.
+[37:56.440 --> 38:00.160]  And you could be a total minimalist and just keep the time.
+[38:00.160 --> 38:05.280]  Or you could have weather and I forget how many other widgets you guys demoed.
+[38:05.280 --> 38:07.680]  And who knows what third party developers will come up with.
+[38:07.680 --> 38:15.640]  But if it's something you care about, a custom widget for the DevOps board at your work,
+[38:15.640 --> 38:18.160]  keep it on your lock screen.
+[38:18.160 --> 38:21.280]  I thought one of the interesting things that I drew from, I don't know if you guys think
+[38:21.280 --> 38:26.120]  about it this way, but I've thought about how the iPhone evolved from originally, the
+[38:26.120 --> 38:30.040]  first iPhone 2007 to now.
+[38:30.040 --> 38:37.040]  And a big part of that era is all of your discussions about privacy, and there's all
+[38:37.040 --> 38:38.200]  sorts of ways that manifests.
+[38:38.200 --> 38:45.280]  But there's also the original iPhone, it was slide to unlock.
+[38:45.280 --> 38:49.320]  And you could put a passcode on it, but that's not how you used phones.
+[38:49.320 --> 38:50.800]  And I think that maybe that's where they came from.
+[38:50.800 --> 38:56.200]  You just did something to unlock your phone, and the iPhone was a phone.
+[38:56.200 --> 39:01.080]  So you slid to unlock, and it was like the nicest looking button you've ever seen.
+[39:01.080 --> 39:11.200]  And you immediately get your first interaction with this phone is the incredible responsiveness
+[39:11.200 --> 39:12.680]  of the touch screen.
+[39:12.680 --> 39:18.440]  And it was just so clever, but then clearly everybody sort of realized, well, I can't
+[39:18.440 --> 39:20.960]  just leave my phone slide to unlock.
+[39:20.960 --> 39:24.960]  Well, touch ID was a huge part of making that easy.
+[39:24.960 --> 39:28.640]  Because before touch ID, people did leave their phones unprotected, to your point.
+[39:28.640 --> 39:34.240]  And once we came up with touch ID, and obviously face ID later, it just became so easy to secure
+[39:34.240 --> 39:35.240]  your phone.
+[39:35.240 --> 39:36.240]  Now, who would it?
+[39:36.240 --> 39:37.560]  Right now, it's the exact opposite.
+[39:37.560 --> 39:40.000]  Who would leave their phone without a passcode?
+[39:40.000 --> 39:44.260]  And again, we pioneered that with what we were doing with touch ID.
+[39:44.260 --> 39:49.080]  But to me, with the new configurable lock screen, it sort of brings back the, hey, I
+[39:49.080 --> 39:54.160]  can do and see useful things on my phone without going into my phone.
+[39:54.160 --> 39:59.480]  And I agree, face ID and touch ID have been game changers in terms of that.
+[39:59.480 --> 40:02.720]  But to me, the phone is so rich as a platform now.
+[40:02.720 --> 40:10.360]  You know, and I know that there are talented people like TikTok influencers, the iPhone
+[40:10.360 --> 40:11.440]  is their only computer.
+[40:11.440 --> 40:16.200]  And they're making incredible art, video editing, and all of this stuff.
+[40:16.200 --> 40:19.280]  Your phone is so powerful.
+[40:19.280 --> 40:24.880]  But at this point, going into my phone is more akin to like logging into my Mac.
+[40:24.880 --> 40:27.880]  It's a thing where I go into my phone to do something serious.
+[40:27.880 --> 40:30.160]  Sometimes I just want to see sports scores, you know?
+[40:30.160 --> 40:31.520]  And I don't want to go into my phone.
+[40:31.520 --> 40:33.560]  And not saying face ID and touch ID aren't easy enough.
+[40:33.560 --> 40:36.680]  But then it's like, yeah, then you've got to tap the right app or whatever.
+[40:36.680 --> 40:40.840]  It's like, if you really care about the NBA finals, put a widget on your lock screen.
+[40:40.840 --> 40:44.800]  Yeah, I think that's where the distraction factor can come in, too.
+[40:44.800 --> 40:50.940]  Because you can find that if you can get the answer at a glance, then you don't unlock.
+[40:50.940 --> 40:53.720]  And then once you've unlocked your phone, you almost forget why you got in there in
+[40:53.720 --> 40:54.720]  the first place.
+[40:54.720 --> 40:59.160]  Like, oh, let me go check over and mail.
+[40:59.160 --> 41:02.320]  But you just get the answer there, and then you move on with your life.
+[41:02.320 --> 41:06.920]  And we're certainly, with a lot of features, with Focus and many others, we're really trying
+[41:06.920 --> 41:11.800]  to make sure that people have a healthy relationship with their devices.
+[41:11.800 --> 41:17.680]  And I think actually putting the information you need at a glance right there is part of
+[41:17.680 --> 41:21.080]  giving that balance.
+[41:21.080 --> 41:23.440]  So let's go to the Mac.
+[41:23.440 --> 41:29.100]  And I'll mention, I'm going to talk about a feature that I think I don't like, which
+[41:29.100 --> 41:34.120]  is the reimagined system preferences to settings.
+[41:34.120 --> 41:39.080]  Don't like the name?
+[41:39.080 --> 41:43.000]  I also don't like the name.
+[41:43.000 --> 41:52.200]  But I admit, though, that I have a propensity for nostalgia that probably would make me
+[41:52.200 --> 42:00.380]  unsuitable for product marketing.
+[42:00.380 --> 42:02.240]  But it's not just that the name changed.
+[42:02.240 --> 42:08.700]  It is that what was system preferences has been reimagined to be more, well, very much
+[42:08.700 --> 42:13.280]  in line with settings on iOS and iPad OS.
+[42:13.280 --> 42:14.640]  And I get it.
+[42:14.640 --> 42:16.400]  It's first developer beta.
+[42:16.400 --> 42:21.440]  But from what I saw of it yesterday, it looks like a step backwards.
+[42:21.440 --> 42:31.700]  It looks like on the current Mac, trackpad preferences have this amazing video that it
+[42:31.700 --> 42:34.640]  just shows you all the gestures you can do visually.
+[42:34.640 --> 42:39.780]  And it looked to me, going through the new Mac settings app, that it's just all a bunch
+[42:39.780 --> 42:40.780]  of checkboxes.
+[42:40.780 --> 42:41.780]  Yeah.
+[42:41.780 --> 42:47.200]  Well, on that front, I ought to say it is tough when we get judged by our betas, because
+[42:47.200 --> 42:48.880]  that one is coming, actually.
+[42:48.880 --> 42:49.880]  That's a piece of work that we absolutely need.
+[42:49.880 --> 42:50.880]  Me?
+[42:50.880 --> 42:51.880]  Judge the betas?
+[42:51.880 --> 42:52.880]  What?
+[42:52.880 --> 42:56.400]  I didn't want to go there.
+[42:56.400 --> 43:02.120]  But I can tell you, that's a case where we have a slightly different vision for those
+[43:02.120 --> 43:03.120]  videos.
+[43:03.120 --> 43:05.640]  I think we have something better, but they're not done being produced.
+[43:05.640 --> 43:07.440]  So we didn't want to cram the old videos in.
+[43:07.440 --> 43:10.280]  So we're going to have an experience that's richer there.
+[43:10.280 --> 43:15.700]  But I think there is, in terms of settings as a whole, and the transition from system
+[43:15.700 --> 43:25.320]  preferences to settings, we have, I think, if you look at the origins of the Mac's original
+[43:25.320 --> 43:33.520]  system, it was certainly by and large in an era where we weren't consuming as much content
+[43:33.520 --> 43:40.120]  on the web, where scrolling to access content wasn't quite as common, and actually scrolling
+[43:40.120 --> 43:44.040]  historically was even sort of harder and more tedious.
+[43:44.040 --> 43:50.360]  And so the Mac existing settings, it's a carefully crafted set of intricate little bento boxes,
+[43:50.360 --> 43:55.360]  and then nested drill into this panel to get this other panel to this other panel.
+[43:55.360 --> 43:59.680]  You know, gosh, as we've been trying to build more and more experiences into the system,
+[43:59.680 --> 44:07.340]  it's actually difficult to achieve clarity and simplicity within those constraints.
+[44:07.340 --> 44:15.320]  And when we can do something that's much more scannable linearly, it's actually easier cognitively
+[44:15.320 --> 44:20.400]  to take in something where the content scales much better.
+[44:20.400 --> 44:25.000]  So you know, I scroll down and I can get to that.
+[44:25.000 --> 44:30.840]  I think it gives us and gives our design team something that's actually much more suited
+[44:30.840 --> 44:31.840]  to the task.
+[44:31.840 --> 44:37.560]  And it was actually a lot of craft, and I think if it hasn't aired yet, it will, a WWDC
+[44:37.560 --> 44:44.040]  session where we even talk about the set of new control types that we introduced so that
+[44:44.040 --> 44:47.040]  on the Mac we could achieve the right balance of something.
+[44:47.040 --> 44:50.720]  The right kind of controls that weren't too heavy were very readable and scannable and
+[44:50.720 --> 44:52.760]  yet clearly interactable.
+[44:52.760 --> 44:58.360]  And so there was a lot of craft, even just in all the right form elements, to build a
+[44:58.360 --> 44:59.760]  great experience there.
+[44:59.760 --> 45:04.960]  So we're still going to be fine-tuning the details here, but I think this is going to
+[45:04.960 --> 45:08.320]  be a really good step for the Mac.
+[45:08.320 --> 45:12.380]  And this was, I'll say, 100% not our driving motivation.
+[45:12.380 --> 45:15.640]  Sometimes people worry, well, you've just taken what you did on iOS to the Mac.
+[45:15.640 --> 45:24.240]  This was not the driving motivation, but the familiarity is also useful to people because
+[45:24.240 --> 45:27.040]  they figure, well, I know how to get to my Wi-Fi settings over here.
+[45:27.040 --> 45:30.840]  Now it's in a completely different place and rendered in a completely different way.
+[45:30.840 --> 45:36.600]  The extent we can bring that kind of parallelism, I think that's a simpler system for many of
+[45:36.600 --> 45:38.780]  our users to adjust to as well.
+[45:38.780 --> 45:40.180]  So we think it's a better interface.
+[45:40.180 --> 45:43.740]  We also think having consistency is very helpful here.
+[45:43.740 --> 45:46.480]  You're very convincing.
+[45:46.480 --> 45:48.880]  I think there's another you're right shit coming.
+[45:48.880 --> 45:51.840]  No cashing in yet.
+[45:51.840 --> 45:52.840]  Sorry.
+[45:52.840 --> 45:55.840]  Save it for next year.
+[45:55.840 --> 46:03.840]  The next feature I wanted to talk about was stage manager, which really made me think.
+[46:03.840 --> 46:06.160]  So let me get this out of the way.
+[46:06.160 --> 46:08.480]  I've never taken to spaces.
+[46:08.480 --> 46:11.680]  And I know other people, and I don't think spaces is a bad feature, and I don't think
+[46:11.680 --> 46:12.880]  I've ever claimed that it was.
+[46:12.880 --> 46:15.740]  It just doesn't never fit my brain.
+[46:15.740 --> 46:19.320]  I have at times had multiple monitors set up.
+[46:19.320 --> 46:24.080]  And with two physical displays, I'll say, I'm going to put my email over here and messages
+[46:24.080 --> 46:28.300]  because that's like communication, and then everything else I'll do over on this one.
+[46:28.300 --> 46:30.280]  And then that makes sense to me.
+[46:30.280 --> 46:36.540]  But having one display where there's a space over here for, and I know they're even arranged,
+[46:36.540 --> 46:38.160]  it never fit for me.
+[46:38.160 --> 46:40.600]  Because I think I need to actually see it.
+[46:40.600 --> 46:41.600]  It needs to be.
+[46:41.600 --> 46:44.200]  It can't disappear from me, or then it's disappeared from my brain.
+[46:44.200 --> 46:50.160]  And what I really liked about stage manager, which I haven't tried, but just saw the demo.
+[46:50.160 --> 46:53.080]  But I like that you can still see it.
+[46:53.080 --> 46:55.240]  Everything is on screen.
+[46:55.240 --> 46:58.600]  And I'm just curious what the thinking behind it is.
+[46:58.600 --> 46:59.600]  Oh, yeah.
+[46:59.600 --> 47:01.060]  No, stage manager, I mean, it's funny.
+[47:01.060 --> 47:06.840]  This one has been a passion project for a bunch of us for an incredibly long time.
+[47:06.840 --> 47:14.760]  In fact, one of the key members of the team worked on what was in one of the earliest
+[47:14.760 --> 47:16.680]  Mac OS X betas.
+[47:16.680 --> 47:20.040]  There was a single window mode back then.
+[47:20.040 --> 47:21.040]  And there was some thinking there.
+[47:21.040 --> 47:24.440]  We're like, there's something there to have that idea that most of the time I can focus
+[47:24.440 --> 47:27.360]  on one thing at a time, but get at other things.
+[47:27.360 --> 47:33.120]  Now that had, you know, the animations were too much, and the accessibility to get at
+[47:33.120 --> 47:35.080]  your things wasn't good enough.
+[47:35.080 --> 47:40.720]  And we, over the years, keep coming back to how do we get to this idea?
+[47:40.720 --> 47:45.080]  Because I do think, if I first want to make sure, and I think what you said with spaces
+[47:45.080 --> 47:53.080]  was a really great thought, because the Mac has a lot of different ways to manage.
+[47:53.080 --> 47:55.600]  Windowing is so important to the Mac experience.
+[47:55.600 --> 47:58.160]  And the Mac provides so many different ways to do it.
+[47:58.160 --> 48:03.360]  And if you surveyed everyone here in this audience and watched how they use their Mac,
+[48:03.360 --> 48:06.000]  there are like 100 different patterns of interaction.
+[48:06.000 --> 48:09.480]  Some people are going to use mission control all the time.
+[48:09.480 --> 48:12.500]  And some people are going to be minimizing their windows.
+[48:12.500 --> 48:16.960]  And some people are going to be using spaces.
+[48:16.960 --> 48:19.960]  And some people are going to be command H hiding and then bringing them back.
+[48:19.960 --> 48:21.240]  Some people use their docs.
+[48:21.240 --> 48:22.400]  Some people are command tabbers.
+[48:22.400 --> 48:23.400]  Right?
+[48:23.400 --> 48:25.840]  I mean, just an unbelievable set of different things.
+[48:25.840 --> 48:30.620]  And to be clear, stage manager is not the one answer to end them all.
+[48:30.620 --> 48:35.320]  I think many people will be very happy with their existing patterns.
+[48:35.320 --> 48:37.440]  And we're not telling you you're doing it wrong.
+[48:37.440 --> 48:38.440]  Right?
+[48:38.440 --> 48:43.040]  If you're happy with how things work for you, stick with that.
+[48:43.040 --> 48:50.720]  But for many of us, there is this sense, as we use the Mac in the normal way, that the
+[48:50.720 --> 48:55.040]  Mac experience is messy by default.
+[48:55.040 --> 48:56.040]  Right?
+[48:56.040 --> 48:57.040]  You open one thing.
+[48:57.040 --> 48:58.040]  And then you go to get the next thing.
+[48:58.040 --> 48:59.040]  And it piles on top of that mess.
+[48:59.040 --> 49:00.040]  And you go to the next thing.
+[49:00.040 --> 49:01.040]  And you go to that mess.
+[49:01.040 --> 49:06.480]  And so you're constantly either living in the mess, or you're cleaning up after yourself
+[49:06.480 --> 49:07.920]  constantly as you go.
+[49:07.920 --> 49:10.680]  And for those of us that are switching between things, we're just switching between different
+[49:10.680 --> 49:11.680]  piles of messes.
+[49:11.680 --> 49:16.200]  And so when we came to an interface where we could focus on something one at a time,
+[49:16.200 --> 49:21.200]  still have things accessible to us when we wanted them, and then create those kinds of,
+[49:21.200 --> 49:25.040]  oh, I'm working on this note and this presentation at the same time, that I want to consider
+[49:25.040 --> 49:27.520]  as a thing, make that a really easy thing to get into.
+[49:27.520 --> 49:29.720]  Well, then I can switch to other tasks.
+[49:29.720 --> 49:30.880]  It can be a great way to work.
+[49:30.880 --> 49:36.520]  So I think it's going to be interesting to see during the betas which people resonate
+[49:36.520 --> 49:39.540]  with this idea and which ones say, you know, it's not for me.
+[49:39.540 --> 49:44.920]  But we know from those of us who've been living on it for months now that there's a group
+[49:44.920 --> 49:49.980]  of us for which it is our favorite new way of working on the Mac.
+[49:49.980 --> 49:51.720]  And we're going to continue to tune it.
+[49:51.720 --> 49:57.440]  We know there's some ideas to tweak it over the summer.
+[49:57.440 --> 50:00.400]  But overall, we're really happy with it.
+[50:00.400 --> 50:07.320]  And then, of course, it was truly coincidental, I have to say, that we found ourselves coming
+[50:07.320 --> 50:15.000]  from a completely different direction with iPad and realizing they arrived at the same
+[50:15.000 --> 50:16.000]  place.
+[50:16.000 --> 50:18.960]  And it was almost weird when that happened.
+[50:18.960 --> 50:24.120]  But we realized with iPad, you had what was a clean experience by default, single window
+[50:24.120 --> 50:25.460]  at a time.
+[50:25.460 --> 50:31.360]  But where you wanted to be able to bring in more, have more access to things, more multitasking.
+[50:31.360 --> 50:36.520]  And so we were able to capture part of the spirit of the iPad and yet open it up in such
+[50:36.520 --> 50:42.640]  a huge way to overlapping windows and that broader sense of access for multitasking.
+[50:42.640 --> 50:43.640]  Right.
+[50:43.640 --> 50:49.800]  Because one of the things that to me has always been missing with iPad OS multitasking is
+[50:49.800 --> 50:53.720]  the concept of a stack, right?
+[50:53.720 --> 51:01.080]  And you guys really did come up with some good ideas eventually for side by side, side
+[51:01.080 --> 51:05.320]  by side arrangement of things.
+[51:05.320 --> 51:12.200]  But even then, you lost the z-access of being able to stack a few things.
+[51:12.200 --> 51:17.800]  And Stage Manager for iPad seems like it's a good way to bring some of that.
+[51:17.800 --> 51:23.840]  And you get some layering and you can have messages open with something else and pop
+[51:23.840 --> 51:27.320]  one forward so that it doesn't have to be in a skinny column.
+[51:27.320 --> 51:28.320]  It could overlap.
+[51:28.320 --> 51:30.000]  And at the same time, not everybody has to do it.
+[51:30.000 --> 51:31.000]  Right.
+[51:31.000 --> 51:32.000]  Not everybody has to do it.
+[51:32.000 --> 51:36.980]  Look, I expect there are a lot of iPad users, I mean, iPad has a phenomenally successful
+[51:36.980 --> 51:41.800]  user experience that a lot of people can use from the moment they first touch their device
+[51:41.800 --> 51:44.280]  and they're 100% delighted with it.
+[51:44.280 --> 51:46.680]  And that is totally cool with us.
+[51:46.680 --> 51:50.980]  But increasingly, you have a group of people that are pushing it much more into different
+[51:50.980 --> 51:57.060]  forms of productivity where they want a little bit richer experience.
+[51:57.060 --> 51:59.060]  Maybe they want to use an external monitor.
+[51:59.060 --> 52:01.880]  Maybe they're sitting down with a trackpad.
+[52:01.880 --> 52:04.240]  And we think Stage Manager finds the right balance.
+[52:04.240 --> 52:08.660]  And certainly, one of the things we've all experienced with the Mac with that Z order
+[52:08.660 --> 52:12.060]  is sometimes I have the notes window over here.
+[52:12.060 --> 52:14.240]  And when I use it, I want it full width.
+[52:14.240 --> 52:17.960]  I didn't want it tiled into a teeny column.
+[52:17.960 --> 52:21.240]  And I wanted to be able to see it, and maybe I can even read some part of it I want to
+[52:21.240 --> 52:27.560]  get at while still having my Safari window also three quarters of the screen wide.
+[52:27.560 --> 52:34.120]  So that ability to have them both there, both completely accessible but not tiled, is something
+[52:34.120 --> 52:38.600]  that's a really important part of the Mac experience.
+[52:38.600 --> 52:45.960]  And we wanted to bring that to the iPad without losing the fact that the iPad is, by default,
+[52:45.960 --> 52:49.320]  a very focused experience and one that's not.
+[52:49.320 --> 52:53.320]  You're not just accumulating a constant mess and having to actively worry about window
+[52:53.320 --> 52:54.320]  management.
+[52:54.320 --> 52:59.240]  And we feel like Stage Manager is a really wonderful balance there.
+[52:59.240 --> 53:06.620]  I completely agree about the iPad because extended family members who aren't into computers
+[53:06.620 --> 53:12.760]  for years now have thrived on their iPads in ways that they didn't with Macs going back
+[53:12.760 --> 53:13.760]  today.
+[53:13.760 --> 53:19.120]  Not that they didn't like their Mac, but that they just do more and like it more.
+[53:19.120 --> 53:27.920]  And they use it in a relatively simple way, but it's profound how much more they enjoy
+[53:27.920 --> 53:30.640]  their computing experience on their iPad.
+[53:30.640 --> 53:35.520]  And I do think that making it something that's not in your face all the time, if you want
+[53:35.520 --> 53:38.040]  to use Stage Manager on an iPad, you can.
+[53:38.040 --> 53:43.640]  I thought the funniest thing that my kids used to do when they were the age they were
+[53:43.640 --> 53:47.960]  on that lock screen photo is I'd come down after they'd been using the Mac for a while
+[53:47.960 --> 53:54.640]  and I'd find all the windows had been dragged to the bottom like this much of the display.
+[53:54.640 --> 53:59.040]  Because they just get rid of them by pushing them in a big pile down at the bottom.
+[53:59.040 --> 54:02.040]  I'm like, well, that's window management.
+[54:02.040 --> 54:10.920]  I'm going to steal this one from my pal Matthew Panzerino, but he had the observation that
+[54:10.920 --> 54:18.800]  if Stage Manager for iPad OS had come out first and maybe let's say like four to five
+[54:18.800 --> 54:24.680]  years ago when there was more consternation in the community about is Apple committed
+[54:24.680 --> 54:30.840]  to the Mac, that it would have been the cataclysm for people who had that fear.
+[54:30.840 --> 54:38.120]  Because they would have said, here it is, they've added a feature to the iPad to enable
+[54:38.120 --> 54:40.000]  people to do stuff like that on iPad.
+[54:40.000 --> 54:42.600]  So the Mac is definitely dead.
+[54:42.600 --> 54:45.280]  And I think it was a key observation.
+[54:45.280 --> 54:49.880]  And I know that that era drove you nuts, Jaws.
+[54:49.880 --> 54:55.600]  What was this crazy false narrative that it was like, are you getting an iPad or a computer?
+[54:55.600 --> 54:57.600]  It's like, people get both.
+[54:57.600 --> 55:02.080]  And it really is the reality that the majority of Mac customers have an iPad, and they use
+[55:02.080 --> 55:03.080]  them both.
+[55:03.080 --> 55:08.560]  You use them for the moment that best suits that tool.
+[55:08.560 --> 55:09.560]  And we love that.
+[55:09.560 --> 55:13.260]  And it's like this crazy thing that yeah, on top of it, so we were going to kill one
+[55:13.260 --> 55:14.260]  of them.
+[55:14.260 --> 55:18.040]  One of them was going to be sacrificed.
+[55:18.040 --> 55:22.640]  I just never quite could wrap my head around the thinking.
+[55:22.640 --> 55:23.640]  Right.
+[55:23.640 --> 55:27.520]  It was sort of like just an assumption that of course they're going to kill one.
+[55:27.520 --> 55:30.000]  So they're going to kill the older one.
+[55:30.000 --> 55:31.000]  And that's it.
+[55:31.000 --> 55:34.320]  But I think the other question is, why would they kill either of them?
+[55:34.320 --> 55:35.320]  Right.
+[55:35.320 --> 55:38.200]  Isn't the Renaissance of the Mac so awesome, though?
+[55:38.200 --> 55:40.080]  It is incredible.
+[55:40.080 --> 55:42.680]  And it is clearly a huge part.
+[55:42.680 --> 55:45.380]  I think it started a little bit even before Apple Silicon.
+[55:45.380 --> 55:50.600]  But clearly Apple Silicon for the Mac catapulted that Renaissance.
+[55:50.600 --> 55:54.760]  And that is actually on my card, that Apple doesn't care about the Mac.
+[55:54.760 --> 55:57.720]  Well, that ended with the M1 Macs, right?
+[55:57.720 --> 56:00.720]  That's over.
+[56:00.720 --> 56:06.680]  We did care about the Macs before that.
+[56:06.680 --> 56:07.680]  I know.
+[56:07.680 --> 56:10.680]  You called us out and told us.
+[56:10.680 --> 56:11.680]  We tried to tell you.
+[56:11.680 --> 56:16.560]  But it is wonderful to be in, I mean, the conspiracy theory about us not doing that
+[56:16.560 --> 56:19.920]  to iPad because, I don't know, to disturb Mac people or something.
+[56:19.920 --> 56:20.920]  That was not what was going on.
+[56:20.920 --> 56:27.000]  But it is wonderful to be in a time where the confidence of the community around the
+[56:27.000 --> 56:30.920]  Mac is such that we can do whatever we want with the iPad now.
+[56:30.920 --> 56:34.240]  And no one's going to be like, oh, but does this mean you don't care about the Mac?
+[56:34.240 --> 56:35.240]  Like, no, no.
+[56:35.240 --> 56:38.040]  The Mac, we can all feel very, very comfortable with our Macs.
+[56:38.040 --> 56:44.320]  And by the way, the Mac, 38 years old, still about half the people who buy a Mac, it's
+[56:44.320 --> 56:45.320]  their first Mac.
+[56:45.320 --> 56:46.320]  Right?
+[56:46.320 --> 56:47.320]  It's never done better.
+[56:47.320 --> 56:48.320]  It's unbelievable.
+[56:48.320 --> 56:51.440]  The competitors have come, competitors have gone, and the Mac's never done better.
+[56:51.440 --> 56:53.960]  And boy, people are happy with their Macs these days.
+[56:53.960 --> 56:55.760]  And Apple Silicon's a part of it.
+[56:55.760 --> 57:00.800]  Mac OS has always been there and a huge part of that experience that's just never been
+[57:00.800 --> 57:01.800]  matched.
+[57:01.800 --> 57:07.560]  And that's why so many of us, look, I came to Apple a long time ago.
+[57:07.560 --> 57:09.200]  And look, we came here because of the Mac.
+[57:09.200 --> 57:12.840]  And that's what was also really drove us nuts when this whole theory we're out to kill the
+[57:12.840 --> 57:13.840]  Mac.
+[57:13.840 --> 57:15.320]  The Mac, as we said, was in our DNA.
+[57:15.320 --> 57:16.740]  It's like, why we came here.
+[57:16.740 --> 57:17.740]  We love the Mac.
+[57:17.740 --> 57:20.560]  And you'd have to pry it out of our hands.
+[57:20.560 --> 57:26.420]  This idea that we were going to try to kill it was just repugnant.
+[57:26.420 --> 57:36.200]  So this leads me, I'm doing well with my segues this year, but this leads me to another big
+[57:36.200 --> 57:41.360]  part of the keynote yesterday, which was gaming on the Mac.
+[57:41.360 --> 57:48.160]  Because here's the one area.
+[57:48.160 --> 57:50.800]  Here's maybe the biggest area.
+[57:50.800 --> 57:53.160]  Yeah, I think that might be safe to say.
+[57:53.160 --> 57:59.560]  But certainly, I forget the exact numbers, but how much more money the video games industry
+[57:59.560 --> 58:02.680]  makes than the movie industry.
+[58:02.680 --> 58:03.680]  Hollywood.
+[58:03.680 --> 58:04.680]  Yeah, Hollywood.
+[58:04.680 --> 58:11.960]  The idea that Apple doesn't care about the fact that gaming on the Mac isn't as big as
+[58:11.960 --> 58:15.760]  gaming on PC.
+[58:15.760 --> 58:21.440]  And I thought that the messaging in the keynote yesterday is, oh, no, we care.
+[58:21.440 --> 58:23.040]  We've been working on this.
+[58:23.040 --> 58:24.040]  Yeah.
+[58:24.040 --> 58:32.520]  Yeah, well, I mean, the move to Apple Silicon finally gave us control over the kind of graphics
+[58:32.520 --> 58:35.840]  we've been wanting to put in Macs for a long time.
+[58:35.840 --> 58:38.160]  And those are great gaming graphics.
+[58:38.160 --> 58:41.120]  I mean, they're great for other parts of our experience.
+[58:41.120 --> 58:47.360]  But for years and years, we've wanted to build Macs that are power efficient, that can be
+[58:47.360 --> 58:52.120]  compact, and are also incredibly powerful for graphics.
+[58:52.120 --> 58:58.280]  And to now have Apple Silicon, where every Mac we sell, and we're now selling a lot more
+[58:58.280 --> 59:07.640]  of them, have awesome graphics, graphics capable of playing the best games, I think just changes
+[59:07.640 --> 59:11.320]  the whole landscape if you're a game developer.
+[59:11.320 --> 59:15.920]  And that would be true even if they were just looking at the Mac.
+[59:15.920 --> 59:23.200]  But the fact that now, from a graphics platform point of view, you have M1 on the Macs, now
+[59:23.200 --> 59:29.440]  M2, and you have M1 on the iPad, and you really have that same GPU architecture and that same
+[59:29.440 --> 59:33.320]  software architecture with Metal extending all the way through all the iPads and to the
+[59:33.320 --> 59:41.040]  phones, for a game developer to target their engines, to take their titles, there is a
+[59:41.040 --> 59:46.760]  huge opportunity that the playing field was a little rougher when we had a different mix
+[59:46.760 --> 59:49.000]  of technologies in the Mac.
+[59:49.000 --> 59:53.960]  Now we have awesome gaming machines, everyone we sell, and we're selling a lot of them,
+[59:53.960 --> 59:55.760]  and we have the right software platform.
+[59:55.760 --> 59:59.360]  So I think this is the time.
+[59:59.360 --> 01:00:03.120]  And I think that there's clearly, I mean, it's almost a statement of the obvious, but
+[01:00:03.120 --> 01:00:08.640]  there's an economy of scale factor there, where even with the Mac selling better today
+[01:00:08.640 --> 01:00:18.920]  than it ever has in 38 years, the Mac by itself is still a smaller segment of the PC industry.
+[01:00:18.920 --> 01:00:26.000]  And the difference with Apple Silicon and with the Metal APIs that you guys have been
+[01:00:26.000 --> 01:00:28.760]  evolving, we're up to Metal 3 now, right?
+[01:00:28.760 --> 01:00:29.760]  That's the new one?
+[01:00:29.760 --> 01:00:41.600]  That was new this week, is the overall surface area of number of devices is on your side
+[01:00:41.600 --> 01:00:42.600]  now, right?
+[01:00:42.600 --> 01:00:47.160]  Like, where the number of devices that you could target with high-end graphics and the
+[01:00:47.160 --> 01:00:56.320]  Metal APIs, and this is where iOS's tremendous success can actually lift the Mac up in terms
+[01:00:56.320 --> 01:00:58.280]  of...
+[01:00:58.280 --> 01:01:05.080]  And what we've seen is as iPhone graphics have, I mean, you've just seen the exponential
+[01:01:05.080 --> 01:01:13.640]  chart there, to the point where now game developers can bring their console engines to the iPhone.
+[01:01:13.640 --> 01:01:20.200]  And so if they're bringing their console engines to the iPhone on Metal, will they now have
+[01:01:20.200 --> 01:01:24.320]  their console engine on the Mac, effectively, right?
+[01:01:24.320 --> 01:01:30.800]  So that investment, that effort pays off across the line now in a way it never has before.
+[01:01:30.800 --> 01:01:37.020]  So the aggregate Apple platform for games is, I think, a phenomenal opportunity for
+[01:01:37.020 --> 01:01:39.520]  developers, for game developers in particular.
+[01:01:39.520 --> 01:01:46.720]  So I expect this to be an unprecedented time for gaming on the Mac in the coming years.
+[01:01:46.720 --> 01:01:49.080]  I think that's going to make a lot of people very happy.
+[01:01:49.080 --> 01:01:51.080]  For sure.
+[01:01:51.080 --> 01:01:58.200]  I got a text from my son after the keynote, and it was one news story about, I don't even
+[01:01:58.200 --> 01:02:00.640]  know the details, but he's really into gaming.
+[01:02:00.640 --> 01:02:05.120]  And he was like, hey, this is a big deal.
+[01:02:05.120 --> 01:02:06.660]  Even AMD doesn't have this.
+[01:02:06.660 --> 01:02:07.660]  And I don't know what it was.
+[01:02:07.660 --> 01:02:08.880]  It was some specific thing.
+[01:02:08.880 --> 01:02:13.720]  And I was like, oh, this is going to be, I trust his judgment on it.
+[01:02:13.720 --> 01:02:14.720]  OK.
+[01:02:14.720 --> 01:02:15.720]  That's awesome.
+[01:02:15.720 --> 01:02:18.320]  But you heard it here.
+[01:02:18.320 --> 01:02:20.320]  The next author of Daring Fireball.
+[01:02:20.320 --> 01:02:21.320]  Yeah.
+[01:02:21.320 --> 01:02:28.840]  It's going to have a very heavy games focus.
+[01:02:28.840 --> 01:02:32.480]  It's like one of those things like, you know how like in the old days, sometimes when the
+[01:02:32.480 --> 01:02:37.280]  author of the daily comic strip would die or retire and their kids would take it over,
+[01:02:37.280 --> 01:02:41.160]  you know, like Hagar the horrible or something, it'd be like, you know, if they had a totally
+[01:02:41.160 --> 01:02:45.560]  different artistic style.
+[01:02:45.560 --> 01:02:46.560]  Shifting gears.
+[01:02:46.560 --> 01:02:52.840]  I can't let this go without talking about CarPlay, which I thought was surprising.
+[01:02:52.840 --> 01:02:54.960]  I was like, I can't believe that this is happening.
+[01:02:54.960 --> 01:02:55.960]  I can't believe that.
+[01:02:55.960 --> 01:02:56.960]  A little bit of a sleeper hit yesterday.
+[01:02:56.960 --> 01:02:57.960]  Yeah.
+[01:02:57.960 --> 01:03:05.440]  It's like, you know, the original idea of CarPlay of, obviously, if your music's on
+[01:03:05.440 --> 01:03:09.880]  your phone and some of the other stuff is on the phone and there's a screen in the car,
+[01:03:09.880 --> 01:03:14.840]  you want to be able to play your music through the car and you want to be able to do maps
+[01:03:14.840 --> 01:03:15.840]  too, right?
+[01:03:15.840 --> 01:03:19.800]  Maps and phone calls.
+[01:03:19.800 --> 01:03:26.360]  But the idea that CarPlay is being extended to everything, speedometer, amount of gas
+[01:03:26.360 --> 01:03:36.020]  in your tank or power left in your battery, you know, the whole instrument panel, basically.
+[01:03:36.020 --> 01:03:38.720]  And a lot of partners on that partner slide.
+[01:03:38.720 --> 01:03:42.960]  I've got it on my, it's one of those ones where we in the media will snap pictures of
+[01:03:42.960 --> 01:03:46.680]  those slides just to, it's easier because that way we don't have to scrub through the
+[01:03:46.680 --> 01:03:48.000]  video later to find them.
+[01:03:48.000 --> 01:03:51.160]  A lot of partners.
+[01:03:51.160 --> 01:04:01.760]  And also, to me, incredible numbers, 98 or 97% of new cars sold in the U.S. I checked,
+[01:04:01.760 --> 01:04:04.920]  I'm checking with someone who I thought would know.
+[01:04:04.920 --> 01:04:11.920]  And to me, the more eye-opening number was that 79% of new car buyers in the U.S. wouldn't
+[01:04:11.920 --> 01:04:13.480]  consider a car without CarPlay.
+[01:04:13.480 --> 01:04:14.760]  Am I putting it in my fridge?
+[01:04:14.760 --> 01:04:18.000]  You are exactly right, sir.
+[01:04:18.000 --> 01:04:24.160]  Here's the thing that seems, that seems incommensurate with market, because we're talking about CarPlay
+[01:04:24.160 --> 01:04:28.280]  specifically, which is iPhone specific.
+[01:04:28.280 --> 01:04:33.840]  And that 79% does not seem commensurate with the market share numbers of.
+[01:04:33.840 --> 01:04:35.240]  It is for new car buyers.
+[01:04:35.240 --> 01:04:36.240]  That's really what it comes down to.
+[01:04:36.240 --> 01:04:39.960]  Well, I thought it was that Android users knew they were going to eventually buy an
+[01:04:39.960 --> 01:04:40.960]  iPhone.
+[01:04:40.960 --> 01:04:45.480]  I've got to be making a long-term decision here to think ahead.
+[01:04:45.480 --> 01:04:49.480]  That's the long game right there.
+[01:04:49.480 --> 01:04:54.200]  It's amazing, because we do have such amazing customers, and they are the overwhelming percentage
+[01:04:54.200 --> 01:04:56.400]  of new car buyers in the U.S.
+[01:04:56.400 --> 01:04:59.480]  And it's interesting you mentioned the partner chart, because remember, we first launched
+[01:04:59.480 --> 01:05:00.480]  CarPlay in 2013.
+[01:05:00.480 --> 01:05:02.680]  I think we had like two partners.
+[01:05:02.680 --> 01:05:04.320]  I forgot to mention that.
+[01:05:04.320 --> 01:05:05.840]  Yeah, on that original slide.
+[01:05:05.840 --> 01:05:09.600]  We didn't start getting announcements to the following year, and we got a lot more partners
+[01:05:09.600 --> 01:05:10.600]  into it.
+[01:05:10.600 --> 01:05:13.680]  But the world changed since 2013.
+[01:05:13.680 --> 01:05:17.720]  We were lucky if you had a display big enough for what we wanted to do with CarPlay.
+[01:05:17.720 --> 01:05:24.080]  Now cars are full of displays and more complicated systems, and we needed a new generation of
+[01:05:24.080 --> 01:05:30.560]  CarPlay that really could give you that better experience across all those displays and across
+[01:05:30.560 --> 01:05:32.600]  all those systems.
+[01:05:32.600 --> 01:05:36.440]  And we still want the car companies to be able to express their brands.
+[01:05:36.440 --> 01:05:37.440]  That's the important part, too.
+[01:05:37.440 --> 01:05:42.620]  This is a way that the iPhone and the car come together so you still get that brand
+[01:05:42.620 --> 01:05:49.940]  expression in these cars, but you get that iPhone feeling and that homogenous experience.
+[01:05:49.940 --> 01:05:55.120]  You don't need to jump out from your entertainment to go change the temperature or change the
+[01:05:55.120 --> 01:05:56.120]  radio station.
+[01:05:56.120 --> 01:05:59.160]  You can do it all within one system.
+[01:05:59.160 --> 01:06:06.300]  I think the automakers we've talked to see that their best customers are iPhone customers.
+[01:06:06.300 --> 01:06:12.120]  Their CarPlay customers spend the vast majority of their time in CarPlay.
+[01:06:12.120 --> 01:06:14.120]  It's what they want to use.
+[01:06:14.120 --> 01:06:21.840]  And they know that their Apple customers want more of that experience.
+[01:06:21.840 --> 01:06:29.160]  The seams between the CarPlay experience they love and the rest of the car are not serving
+[01:06:29.160 --> 01:06:31.480]  their most important audience very well.
+[01:06:31.480 --> 01:06:35.680]  And so we've been working with them to come up with this job that says something allows
+[01:06:35.680 --> 01:06:42.800]  them to express their brand still, and their customers know what car they bought.
+[01:06:42.800 --> 01:06:45.280]  They want to see that it's that car.
+[01:06:45.280 --> 01:06:50.360]  At the same time, they want a coherent experience across the whole thing.
+[01:06:50.360 --> 01:06:56.360]  And so I think it's great for all involved.
+[01:06:56.360 --> 01:07:05.480]  Apple is known, and I think you guys have often even said it in events, that for a year
+[01:07:05.480 --> 01:07:09.080]  like the mantra was sort of only Apple.
+[01:07:09.080 --> 01:07:15.000]  Only Apple can do certain things because you're known for controlling the whole widget, that
+[01:07:15.000 --> 01:07:24.920]  you build the hardware, even on the Mac, the silicon, and all of the software, and that
+[01:07:24.920 --> 01:07:30.520]  the computer isn't hardware with software or software that just happens to have hardware.
+[01:07:30.520 --> 01:07:31.560]  You can't separate the two.
+[01:07:31.560 --> 01:07:34.040]  It's like two sides of a coin.
+[01:07:34.040 --> 01:07:37.280]  But how does CarPlay square with that?
+[01:07:37.280 --> 01:07:40.720]  I'm not quite sure.
+[01:07:40.720 --> 01:07:43.560]  How does that work at Apple, where you're known for building the whole widget?
+[01:07:43.560 --> 01:07:53.480]  And as far as I know, nobody's ever even suspected that you're building your own car.
+[01:07:53.480 --> 01:07:57.840]  And so it's sort of a pure software play at this point.
+[01:07:57.840 --> 01:07:59.160]  I'm curious how you guys...
+[01:07:59.160 --> 01:08:02.400]  You got a snort out of Jaws there.
+[01:08:02.400 --> 01:08:11.960]  You're going to snort shit.
+[01:08:11.960 --> 01:08:19.880]  But you do seem to have the trust of a lot of car makers, or most car makers, because
+[01:08:19.880 --> 01:08:21.600]  that slide had an awful lot of...
+[01:08:21.600 --> 01:08:25.800]  Well, they want to sell more cars, and to Craig's point, customers like it.
+[01:08:25.800 --> 01:08:28.520]  CarPlay has got extraordinarily high customer satisfaction.
+[01:08:28.520 --> 01:08:31.460]  You saw the numbers, the 98%, the 79%.
+[01:08:31.460 --> 01:08:32.460]  It's working.
+[01:08:32.460 --> 01:08:37.000]  And we now even get to work actually better together with this next generation of CarPlay,
+[01:08:37.000 --> 01:08:38.580]  because again, they get to express their brand.
+[01:08:38.580 --> 01:08:41.120]  That brand doesn't get expressed in today's CarPlay.
+[01:08:41.120 --> 01:08:44.520]  They can actually express their brand in this new generation.
+[01:08:44.520 --> 01:08:47.200]  I think everybody's very excited about that.
+[01:08:47.200 --> 01:08:48.200]  Who wouldn't be?
+[01:08:48.200 --> 01:08:51.120]  And again, the reaction yesterday was over the top.
+[01:08:51.120 --> 01:08:52.120]  It's great.
+[01:08:52.120 --> 01:08:54.240]  Lightning round.
+[01:08:54.240 --> 01:08:55.240]  Pass key.
+[01:08:55.240 --> 01:08:56.240]  Good.
+[01:08:56.240 --> 01:09:04.960]  I was going to say great, but all right.
+[01:09:04.960 --> 01:09:07.080]  Not quite that lightning.
+[01:09:07.080 --> 01:09:09.120]  This is the talk show.
+[01:09:09.120 --> 01:09:14.200]  But I remember it was probably over 10 years ago.
+[01:09:14.200 --> 01:09:20.200]  But I was attending WWDC, and it was later in the week, and I was with somebody and wound
+[01:09:20.200 --> 01:09:23.160]  up going into a session on security.
+[01:09:23.160 --> 01:09:24.680]  And it was really interesting.
+[01:09:24.680 --> 01:09:28.440]  And it was so long ago that there were still Q&As at the end of the sessions.
+[01:09:28.440 --> 01:09:31.440]  I mean, it's really, you know.
+[01:09:31.440 --> 01:09:33.960]  So people used to meet in person, you're saying?
+[01:09:33.960 --> 01:09:34.960]  Yes.
+[01:09:34.960 --> 01:09:38.980]  And at the end of this session on security, somebody asked, and the other thing that was
+[01:09:38.980 --> 01:09:43.840]  really rare is that it was a really good question.
+[01:09:43.840 --> 01:09:45.200]  Because it was a question, not a story.
+[01:09:45.200 --> 01:09:49.680]  And what he said was, as I tell a story.
+[01:09:49.680 --> 01:09:58.460]  But what he asked was, have you guys given any thought to getting past passwords?
+[01:09:58.460 --> 01:10:02.920]  Maybe a lot of the session was about how to make passwords safer, and keychain features,
+[01:10:02.920 --> 01:10:06.040]  and making passwords more.
+[01:10:06.040 --> 01:10:09.160]  Have you given any thought to moving past passwords?
+[01:10:09.160 --> 01:10:13.400]  Because passwords, no matter what you do, are going to leak.
+[01:10:13.400 --> 01:10:15.360]  There's problems.
+[01:10:15.360 --> 01:10:17.040]  And I don't know who that speaker was.
+[01:10:17.040 --> 01:10:19.880]  But it might have been Ivan Kristic?
+[01:10:19.880 --> 01:10:20.880]  Ivan.
+[01:10:20.880 --> 01:10:21.880]  Ivan Kristic?
+[01:10:21.880 --> 01:10:22.880]  I think it might have been.
+[01:10:22.880 --> 01:10:24.640]  And I think he was doing security at the time.
+[01:10:24.640 --> 01:10:27.560]  But whoever it was, it was one of the greatest answers to a Q&A I've ever heard.
+[01:10:27.560 --> 01:10:29.640]  The guy asked the question, and he looked.
+[01:10:29.640 --> 01:10:37.280]  And then he looked down at his feed, yes.
+[01:10:37.280 --> 01:10:39.000]  And everybody laughed.
+[01:10:39.000 --> 01:10:40.000]  Because they got it.
+[01:10:40.000 --> 01:10:41.000]  Because they're Apple developers.
+[01:10:41.000 --> 01:10:43.420]  And they know, all right, he can't talk about it.
+[01:10:43.420 --> 01:10:47.240]  But he realized he could say yes to that question.
+[01:10:47.240 --> 01:10:50.520]  Sounds like Ivan.
+[01:10:50.520 --> 01:10:52.560]  But that's what PassKey is.
+[01:10:52.560 --> 01:10:57.480]  It is about getting past the fundamental hold.
+[01:10:57.480 --> 01:11:03.280]  No matter what you do to protect passwords, it's a problematic concept.
+[01:11:03.280 --> 01:11:04.280]  That's right.
+[01:11:04.280 --> 01:11:06.840]  And you talked about long games.
+[01:11:06.840 --> 01:11:13.880]  And this is certainly one where, in order to build to this place, you need to, I mean,
+[01:11:13.880 --> 01:11:18.040]  the PassKeys are fundamentally distributing private public key pairs, right?
+[01:11:18.040 --> 01:11:19.540]  You have a public key.
+[01:11:19.540 --> 01:11:22.840]  What you give to a website is a public key.
+[01:11:22.840 --> 01:11:28.200]  The private key that would be necessary to log in to that site never leaves your devices.
+[01:11:28.200 --> 01:11:30.400]  But for that to be practical, you need a lot of things.
+[01:11:30.400 --> 01:11:33.400]  You need that key to be able to move between your other devices.
+[01:11:33.400 --> 01:11:37.160]  Because, of course, you want to be able to log in from everything.
+[01:11:37.160 --> 01:11:41.560]  And so building something like iCloud Keychain, but also having that be something you could
+[01:11:41.560 --> 01:11:42.560]  trust.
+[01:11:42.560 --> 01:11:44.120]  You're not exposing your credentials to Apple.
+[01:11:44.120 --> 01:11:48.640]  Because that would then be another vulnerability if our site could be breached and your passwords
+[01:11:48.640 --> 01:11:52.920]  could be read, or your PassKeys, rather those private keys could be read, would be a problem.
+[01:11:52.920 --> 01:11:54.960]  So we had to build all of that infrastructure.
+[01:11:54.960 --> 01:12:02.580]  But it's also one where, for this to work, it had to be an interoperable industry standard.
+[01:12:02.580 --> 01:12:06.920]  Because people are going to log in from, they're going to have ultimately a PassKey that maybe
+[01:12:06.920 --> 01:12:12.740]  they want to log into from their console, their gaming console, or some account like
+[01:12:12.740 --> 01:12:13.740]  that, right?
+[01:12:13.740 --> 01:12:17.340]  You're going to need to be able to walk up to another PC and use your phone to hand off
+[01:12:17.340 --> 01:12:18.340]  that credential.
+[01:12:18.340 --> 01:12:22.840]  And so we've been working as part of the Fido Alliance with some other big platform players
+[01:12:22.840 --> 01:12:28.980]  to make sure that this was the clear answer that all the websites would want to adopt.
+[01:12:28.980 --> 01:12:31.920]  And it will take a while for them to do that adoption.
+[01:12:31.920 --> 01:12:37.560]  But the only solution to passwords is getting rid of passwords.
+[01:12:37.560 --> 01:12:39.720]  And this truly is the right answer.
+[01:12:39.720 --> 01:12:45.800]  iCloud Private Relay, one of my favorite features announced last year.
+[01:12:45.800 --> 01:12:52.040]  Still in beta, and we didn't hear anything about it this week, what's the status of iCloud
+[01:12:52.040 --> 01:12:53.040]  Private Relay?
+[01:12:53.040 --> 01:12:54.800]  We're still shipping and operating it.
+[01:12:54.800 --> 01:12:55.800]  OK.
+[01:12:55.800 --> 01:12:56.800]  But is it?
+[01:12:56.800 --> 01:12:57.800]  Yeah, don't we love it?
+[01:12:57.800 --> 01:13:00.400]  But do you think it's been a success a year in the field?
+[01:13:00.400 --> 01:13:01.400]  Yeah.
+[01:13:01.400 --> 01:13:05.080]  I think compatibility has gotten really, really good, too.
+[01:13:05.080 --> 01:13:06.080]  Yeah.
+[01:13:06.080 --> 01:13:07.080]  I think it's a great feature.
+[01:13:07.080 --> 01:13:08.080]  Yeah.
+[01:13:08.080 --> 01:13:09.080]  We weren't timing beta.
+[01:13:09.080 --> 01:13:16.360]  The beta, non-beta-ness of it were not about the software that's shipping on devices.
+[01:13:16.360 --> 01:13:23.740]  It's more about getting the compatibility in the community in the right place.
+[01:13:23.740 --> 01:13:30.040]  And so the moment where it will become non-beta, WWDC wasn't really the moment for that kind
+[01:13:30.040 --> 01:13:31.040]  of thing, given the nature of the feature.
+[01:13:31.040 --> 01:13:33.600]  It's a moment to go, intubated.
+[01:13:33.600 --> 01:13:34.600]  Yeah.
+[01:13:34.600 --> 01:13:39.440]  But I think we're all huge fans of the feature, and it's going very well.
+[01:13:39.440 --> 01:13:42.680]  WeatherKit, we can go on and on.
+[01:13:42.680 --> 01:13:44.520]  We're running short on time.
+[01:13:44.520 --> 01:13:47.440]  But two things struck me about WeatherKit.
+[01:13:47.440 --> 01:13:55.400]  One, when Apple acquired Dark Sky, I thought, in addition to being just plain useful, there's
+[01:13:55.400 --> 01:13:57.800]  a privacy angle to this.
+[01:13:57.800 --> 01:14:02.120]  Because weather apps inherently need your location, and your location is inherently
+[01:14:02.120 --> 01:14:03.600]  private.
+[01:14:03.600 --> 01:14:09.920]  And there's this surprisingly, shockingly enormous cottage industry of data brokers
+[01:14:09.920 --> 01:14:12.680]  who specifically target just weather apps.
+[01:14:12.680 --> 01:14:17.160]  I've talked to weather app developers, and they're like, you can't believe I changed
+[01:14:17.160 --> 01:14:21.480]  my email address because it's just filled up with these data brokers wanting to see
+[01:14:21.480 --> 01:14:24.880]  if I'll sell my users' location data.
+[01:14:24.880 --> 01:14:26.600]  Is that part of the thinking?
+[01:14:26.600 --> 01:14:29.600]  Is that part of the privacy?
+[01:14:29.600 --> 01:14:33.440]  And the other thing that I heard from developers yesterday, they couldn't believe the pricing.
+[01:14:33.440 --> 01:14:40.240]  That it's like 500,000 API calls free, and then after that, the price is like half of
+[01:14:40.240 --> 01:14:50.000]  what it was under Dark Sky, and more than just competitive with other weather sources.
+[01:14:50.000 --> 01:14:52.120]  Just curious how you see that.
+[01:14:52.120 --> 01:14:54.840]  I think we clearly need to be regulated.
+[01:14:54.840 --> 01:15:00.320]  Oh, you were doing so well, and now Joss.
+[01:15:00.320 --> 01:15:01.720]  I lost Joss.
+[01:15:01.720 --> 01:15:04.560]  No, but I think it's great for our users.
+[01:15:04.560 --> 01:15:09.400]  All right, last question.
+[01:15:09.400 --> 01:15:10.880]  Can't wait for that little clip.
+[01:15:10.880 --> 01:15:15.440]  There was going to be an editing process here, wasn't there?
+[01:15:15.440 --> 01:15:17.440]  We'll beep it out.
+[01:15:17.440 --> 01:15:26.000]  I don't know, 20, 25 years ago, I bought a goofy t-shirt, an 80s-style clipart of a couple
+[01:15:26.000 --> 01:15:31.320]  of kids at an 80s-style generic PC.
+[01:15:31.320 --> 01:15:35.320]  Maybe they were in school, and they're banging away at the keyboard.
+[01:15:35.320 --> 01:15:42.240]  The slogan on the t-shirt just said, in a bubble font, computers are fun and useful.
+[01:15:42.240 --> 01:15:46.120]  I love that t-shirt, and I don't have it anymore because I think I wore it so much, my wife
+[01:15:46.120 --> 01:15:49.240]  threw it out.
+[01:15:49.240 --> 01:15:50.240]  But I've been thinking about it.
+[01:15:50.240 --> 01:15:56.560]  I don't know why this year that phrase has been resonating to me, and the thing that
+[01:15:56.560 --> 01:16:02.520]  really brought it to make me bring it up as the final question for you guys was that experience
+[01:16:02.520 --> 01:16:12.580]  yesterday and Sunday with the developers from all around the world and their enthusiasm
+[01:16:12.580 --> 01:16:17.720]  to be back here in person and just excited to find out what's going to be in the keynote.
+[01:16:17.720 --> 01:16:18.720]  What do you think is going to be in the keynote?
+[01:16:18.720 --> 01:16:21.440]  What do you think is going to be in the keynote?
+[01:16:21.440 --> 01:16:26.520]  In addition to the fact that the computers are fun and useful, there's a certain type
+[01:16:26.520 --> 01:16:34.120]  of person, and it turns out there's a lot of them who particularly think Apple computers
+[01:16:34.120 --> 01:16:36.080]  are fun and useful.
+[01:16:36.080 --> 01:16:38.400]  You said that's why you came to work at Apple.
+[01:16:38.400 --> 01:16:40.920]  You weren't looking for a job in the computer industry.
+[01:16:40.920 --> 01:16:45.440]  You wanted to get a job at Apple, and there is no plan B because there was nothing else
+[01:16:45.440 --> 01:16:48.800]  like the Mac.
+[01:16:48.800 --> 01:16:54.520]  As a final question, I'm just wondering if you guys, you decide who goes first, but when
+[01:16:54.520 --> 01:17:03.120]  was the first time way back when, when it hit you, that Apple computers are different
+[01:17:03.120 --> 01:17:04.400]  and that you fell in love with them?
+[01:17:04.400 --> 01:17:09.360]  Well, I'm really going to date myself, so I'm older than Craig, so maybe I'll go first.
+[01:17:09.360 --> 01:17:14.080]  My first Apple that I used was a Lisa, and I went to University of Michigan, and they
+[01:17:14.080 --> 01:17:16.040]  invested big in Lisa's.
+[01:17:16.040 --> 01:17:17.040]  We had Lisa's everywhere.
+[01:17:17.040 --> 01:17:19.280]  They were like 15 grand or something.
+[01:17:19.280 --> 01:17:20.280]  We had a lot of them.
+[01:17:20.280 --> 01:17:24.960]  I don't know if we were the largest customer for Lisa's, but we had a lot of them, and
+[01:17:24.960 --> 01:17:25.960]  boy, I did everything.
+[01:17:25.960 --> 01:17:32.280]  I was like, this is unbelievable, and again, I'd use obviously PCs and everything, the
+[01:17:32.280 --> 01:17:33.280]  old stuff.
+[01:17:33.280 --> 01:17:37.320]  My Commodore 64 was my first thing, and I was like, wow, this is unbelievable, but then
+[01:17:37.320 --> 01:17:42.120]  I do remember being a little pea because the Lisa's went away, and here was this little
+[01:17:42.120 --> 01:17:51.360]  thing called the Mac, and all of a sudden, it became pretty cool, and without going through
+[01:17:51.360 --> 01:17:55.000]  my whole history, I just became addicted to it.
+[01:17:55.000 --> 01:18:03.640]  Well, that's probably the wrong word to use, very closely associated with it, and started
+[01:18:03.640 --> 01:18:09.080]  working at the University of Michigan in the computer lab and really becoming the Mac expert,
+[01:18:09.080 --> 01:18:15.200]  and to your point, then, that led to having to be here, and I've always said to people,
+[01:18:15.200 --> 01:18:22.800]  I couldn't imagine doing my job anywhere else because of that hardware and software, that
+[01:18:22.800 --> 01:18:28.720]  integration that allows us to... I always tell people, look, there's a small list of
+[01:18:28.720 --> 01:18:31.440]  world-class hardware providers.
+[01:18:31.440 --> 01:18:32.440]  We're on it.
+[01:18:32.440 --> 01:18:35.320]  There's a small list of world-class software providers.
+[01:18:35.320 --> 01:18:36.320]  We're on it.
+[01:18:36.320 --> 01:18:40.120]  We're the only company that's really both, and what that means is instead of having different
+[01:18:40.120 --> 01:18:45.720]  companies with different agendas, we control it all, as you said, the whole widget, such
+[01:18:45.720 --> 01:18:52.320]  that if we can imagine it, we really can create it here, and we can do a pretty good job creating
+[01:18:52.320 --> 01:18:58.360]  it, and I just couldn't imagine trying to do what I do or what we do at any of our competitors.
+[01:18:58.360 --> 01:19:03.480]  It would be very frustrating, but instead, it's very rewarding to do what we do and have
+[01:19:03.480 --> 01:19:05.960]  days like yesterday and talk about this sort of stuff.
+[01:19:05.960 --> 01:19:10.360]  I just, yeah, that's why I'm here 36 years later.
+[01:19:10.360 --> 01:19:17.480]  Yeah, my story doesn't involve the Lisa, but it's not so different.
+[01:19:17.480 --> 01:19:24.720]  When I was 10, my first exposure to a computer was an Apple II Plus, and that was really
+[01:19:24.720 --> 01:19:28.240] ... It was less about what the Apple represented at that time.
+[01:19:28.240 --> 01:19:33.200]  It was more at that moment about what computers represented, and it just set off fireworks.
+[01:19:33.200 --> 01:19:34.200]  I mean, that was it.
+[01:19:34.200 --> 01:19:39.800]  I knew from that moment forward this is what I wanted to do, but it was when the Mac came
+[01:19:39.800 --> 01:19:43.360]  out in 1984, and I had my dad's friend.
+[01:19:43.360 --> 01:19:45.040]  I think it was 14 or something at the time.
+[01:19:45.040 --> 01:19:48.920]  My dad's friend had been given one to evaluate, and he gave it to me.
+[01:19:48.920 --> 01:19:49.920]  He didn't give it to me.
+[01:19:49.920 --> 01:19:56.920]  He lent it to me for a while, and it was at that time that I said to myself, I must work
+[01:19:56.920 --> 01:20:06.000]  at Apple someday, and it was... My thought was I wanted to be among the people who could
+[01:20:06.000 --> 01:20:16.000]  build such a thing and who had the care and the skill to create something like this.
+[01:20:16.000 --> 01:20:22.960]  I mean, it was so eye-opening about what this technology that I had fallen in love with,
+[01:20:22.960 --> 01:20:32.160]  how it could be harnessed and what it could mean, and I was not disappointed to find who
+[01:20:32.160 --> 01:20:38.280]  those people were when I was finally amongst them, and that is beyond these walls.
+[01:20:38.280 --> 01:20:41.480]  I mean, that is this community.
+[01:20:41.480 --> 01:20:43.000]  I think that's what's special.
+[01:20:43.000 --> 01:20:47.540]  I think that's why the developers want to come here because they share that affinity
+[01:20:47.540 --> 01:20:50.740]  not just with us but with each other.
+[01:20:50.740 --> 01:20:53.300]  There's other companies that have developer conferences.
+[01:20:53.300 --> 01:20:59.320]  I can't imagine another one that would have had the feeling of this year's, and again,
+[01:20:59.320 --> 01:21:00.400]  I can't reiterate enough.
+[01:21:00.400 --> 01:21:07.640]  I really do think that this is going to go down as the best WWDC ever, not because you
+[01:21:07.640 --> 01:21:12.320]  can't do better stuff or have a better presentation later, but that hopefully we're never going
+[01:21:12.320 --> 01:21:18.160]  to have one after two years like we just had where there's this pent-up emotion.
+[01:21:18.160 --> 01:21:21.200]  A pent-up desire to connect.
+[01:21:21.200 --> 01:21:22.200]  Yeah.
+[01:21:22.200 --> 01:21:23.200]  Yeah.
+[01:21:23.200 --> 01:21:29.840]  Amongst like-minded people who all see the same thing, like, why would you build an app
+[01:21:29.840 --> 01:21:30.840]  only for the iPhone?
+[01:21:30.840 --> 01:21:38.440]  Instead of going cross-platform, you can double your market share or whatever, but the developers
+[01:21:38.440 --> 01:21:45.280]  who are here are the ones who see, like, yeah, because I want to go all in and make it as
+[01:21:45.280 --> 01:21:50.680]  good as Apple's software, and the only way to do that is to be native to the platform
+[01:21:50.680 --> 01:21:58.760]  and do things the right way for the platform, and anyway, those were good answers, and I
+[01:21:58.760 --> 01:22:03.440]  really enjoyed that, and it sort of brings us to the end.
+[01:22:03.440 --> 01:22:11.280]  People I need to thank, first I want to thank everybody here in the audience.
+[01:22:11.280 --> 01:22:23.640]  It'll never get old to me that people scoop up these tickets as fast as they can.
+[01:22:23.640 --> 01:22:26.040]  It is an incredible privilege.
+[01:22:26.040 --> 01:22:30.000]  I heard they're going for, like, 2,000 bucks.
+[01:22:30.000 --> 01:22:31.000]  You sell yours?
+[01:22:31.000 --> 01:22:33.960]  Because you didn't need it.
+[01:22:33.960 --> 01:22:37.560]  No one wanted mine.
+[01:22:37.560 --> 01:22:41.740]  I also want to thank Apple itself.
+[01:22:41.740 --> 01:22:43.640]  This is in Apple's building.
+[01:22:43.640 --> 01:22:51.240]  There's Apple people who have helped me in ways that it would take another hour to talk
+[01:22:51.240 --> 01:22:54.960]  about all the ways that it was helped, and it means a lot to me.
+[01:22:54.960 --> 01:23:01.160]  It's my show, but this year I really couldn't have done it without Apple, and I truly appreciate
+[01:23:01.160 --> 01:23:02.160]  that too.
+[01:23:02.160 --> 01:23:09.600]  I want to thank Sandwich.
+[01:23:09.600 --> 01:23:16.000]  They've been editing the show for the last few years and doing a phenomenal job.
+[01:23:16.000 --> 01:23:21.440]  Claude Zines from Sandwich is here.
+[01:23:21.440 --> 01:23:25.620]  He is going to scoop up this footage from these amazing cameras and put them on a hard
+[01:23:25.620 --> 01:23:33.600]  drive and start editing it on the way back to Los Angeles after we wrap.
+[01:23:33.600 --> 01:23:36.560]  There's a few hundred of you listening to me right now, and someday there's going to
+[01:23:36.560 --> 01:23:39.200]  be thousands of people watching this on YouTube.
+[01:23:39.200 --> 01:23:44.120]  All of you watching on YouTube, my thanks to Sandwich is for you.
+[01:23:44.120 --> 01:23:48.440]  Again, I don't know what I would do without Sandwich's help to do this show.
+[01:23:48.440 --> 01:23:53.880]  I don't really have a plan B for producing video.
+[01:23:53.880 --> 01:23:58.760]  I want to thank my family.
+[01:23:58.760 --> 01:24:05.480]  I want to thank my wife and son.
+[01:24:05.480 --> 01:24:20.480]  I think that says it all.
+[01:24:20.480 --> 01:24:25.040]  The last two years have been hard, and I couldn't pick two better people to go through those
+[01:24:25.040 --> 01:24:29.360]  years than my wife Amy and my son Jonas.
+[01:24:29.360 --> 01:24:41.920]  He's graduating high school Saturday, and I'm so proud of him.
+[01:24:41.920 --> 01:24:45.000]  I want to thank Craig and Jaws.
+[01:24:45.000 --> 01:24:46.000]  Thank you for being here again.
+[01:24:46.000 --> 01:24:47.600]  Thank you for having us.
+[01:24:47.600 --> 01:24:48.600]  Thank you.
+[01:24:48.600 --> 01:24:50.600]  See you next year.

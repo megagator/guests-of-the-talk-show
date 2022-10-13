@@ -1,0 +1,1608 @@
+[00:00.000 --> 00:05.700]  I just got a Mojave alert from Skype asking me to use my microphone. So hopefully it actually works
+[00:06.880 --> 00:08.880]  You're doing this on Mojave?
+[00:09.900 --> 00:14.120]  You know what they say about you know, what doesn't kill you makes you stronger
+[00:15.720 --> 00:17.720]  You are very brave I
+[00:18.860 --> 00:23.860]  Do have Mojave installed but I have it installed on an external USB drive for my iMac
+[00:23.860 --> 00:30.320]  I was the smart way to go about things. Honestly, it's been it's been pretty solid. It is. I've just run into yeah
+[00:30.460 --> 00:35.840]  It and iOS 12 both. I've been impressed. Yeah, I think there is something to the
+[00:36.360 --> 00:42.460]  Sort of a focus on bug fixed ability type stuff. I mean both, you know
+[00:43.640 --> 00:48.360]  Federighi set it on stage at WWDC for iOS. It was the first thing he mentioned about iOS 12
+[00:48.360 --> 00:52.180]  Yeah, but German had a leaked
+[00:52.940 --> 00:56.500]  Sort of engineering staff meeting from months ago
+[00:57.500 --> 01:03.100]  Where this was brought up and I think it kind of shows in these betas, especially the fact that both of them are
+[01:04.020 --> 01:06.380]  Both Mac and iOS are both sort of
+[01:06.940 --> 01:10.340]  Universally held up as far as I can tell as some of the most stable
+[01:10.900 --> 01:16.400]  WWDC betas in memory. Yeah, I mean I can I can definitely attest to that
+[01:16.400 --> 01:20.720]  I'm considering I don't know how long have you been running betas on your on your phone?
+[01:20.720 --> 01:23.140]  Because I feel like I've been doing it at least since
+[01:23.940 --> 01:25.520]  2012
+[01:25.520 --> 01:27.580]  2011 and
+[01:27.580 --> 01:29.860]  Usually it's like the first month just sucks
+[01:29.900 --> 01:37.240]  Yeah, like you just say goodbye to that phone really working in the interest of playing around or and you know
+[01:37.240 --> 01:42.460]  And our case writing about new features well and the WWDC build ones are all bad
+[01:42.460 --> 01:49.140]  For off notoriously bad for two reasons one. It's they're the first ones that come outside Apple and second
+[01:49.140 --> 01:54.820]  There's a hard and fast date. They have to worry at some point at some point on Sunday
+[01:54.920 --> 02:00.060]  You know the day before the keynote that they've got to say this is the GM build, you know
+[02:01.520 --> 02:05.940]  You know, we know about XY and Z but hey these things are you know?
+[02:05.940 --> 02:12.460]  Craig or Phil or somebody is going to stand on stage and say this is gonna be available after the keynote
+[02:12.460 --> 02:15.820]  And so it's going to be available after the keynote. So it's understandable
+[02:16.300 --> 02:22.100]  Yeah, we kind of have to lock it. Did you read the the watch OS 5 release notes? Cuz those those are excellent
+[02:22.100 --> 02:28.920]  No, I did not tell me about the developer release notes, which I don't think are behind the firewall
+[02:28.920 --> 02:31.900]  So hopefully I'm not breaking anymore. No
+[02:31.900 --> 02:38.120]  That's true. That's true. No screenshots NDA, right? But yeah, but the developer release notes are essentially like
+[02:38.640 --> 02:42.960]  This doesn't work. This doesn't work walkie-talkies not in this build yet
+[02:43.360 --> 02:49.520]  Don't try sending Apple pay to your friends via messages on your Apple watch because it's not gonna work
+[02:50.000 --> 02:55.580]  If you try this specific combination of things on your Apple watch, you'll probably kernel panic it
+[02:55.600 --> 03:00.060]  It was just like a long list of like be careful about this. Don't do this
+[03:00.060 --> 03:02.340]  If you're going to do this do it this way
+[03:03.780 --> 03:11.040]  I'm like, yeah, this is this in combination with the fact that the watch is pretty much impossible to reset if you brick it
+[03:12.200 --> 03:16.940]  People wonder why the watch doesn't have a public beta and I'm like, well this this is a great reason
+[03:16.940 --> 03:21.060]  Why the watch is still I mean again, we can get the WWDC news soon
+[03:21.060 --> 03:26.060]  but the watch in general is still such a pain in the ass to update at all like
+[03:26.060 --> 03:32.940]  It it's gotten better like the first time like has the fight with the original watch the first time there was a software update
+[03:32.940 --> 03:36.260]  I was convinced it was bricked. I was like there is no possible way
+[03:36.740 --> 03:40.860]  That this this slow spinner around the outside, you know
+[03:40.860 --> 03:46.660]  Like spinning it to complete a circle is supposed to take this long and I'm like look it's stuck
+[03:46.660 --> 03:47.260]  It's stuck
+[03:47.260 --> 03:49.360]  It's stuck at like seven o'clock and I like
+[03:49.520 --> 03:54.600]  Put my finger at the tick mark where it was and just waited for it to move just one more tick
+[03:54.600 --> 03:59.080]  And then finally it moved I was like, okay, it's not stuck and then it like completes the circle
+[03:59.760 --> 04:05.280]  The screen goes black and then it starts another circle and it's the secondary circle
+[04:06.480 --> 04:12.500]  I'm really screwed. So it's way better than it was then but it still takes seemingly so long
+[04:12.500 --> 04:14.880]  it just seems like there's never a good time to like
+[04:15.880 --> 04:21.760]  update your watch unless you you know and it's like you kind of have to babysit it and it has to be on a charger and
+[04:21.760 --> 04:25.840]  You know, I tend to keep my charger up in the bedroom and it's the only place
+[04:25.840 --> 04:29.720]  I really need one on a regular basis and I'm like, I don't want to go up to the bedroom
+[04:29.720 --> 04:33.600]  I think there's got to be a watch charger around here somewhere and no I can't find one
+[04:33.760 --> 04:39.120]  If only Apple had released that that airpower charging station, then you could have just charged your watch
+[04:39.700 --> 04:45.720]  Well, I just did you see that I just linked to that? No, just right before we started the show
+[04:45.720 --> 04:49.400]  I just I just posted it. That's like you're you're we're in sync
+[04:49.400 --> 04:52.480]  I just posted an item on during fireball where the heck is
+[04:54.560 --> 04:58.880]  My gosh, I just assume it just got lost in in the move to Apple Park
+[04:58.880 --> 05:04.880]  It's in a box somewhere and they're like, oh our final design proves we want to approve them, but they're they're all buried
+[05:04.880 --> 05:08.440]  I don't know something is I don't want to go deep on it
+[05:08.440 --> 05:12.600]  But I mean something clearly I think has gone very wrong with that product. Yeah
+[05:12.600 --> 05:14.920]  well, I mean it's a it's a tricky one right because
+[05:14.920 --> 05:21.880]  Supporting supporting the iPhone is a pretty standard like cut-and-dry thing because of the standards and everything else
+[05:22.520 --> 05:28.140]  But they really kind of I feel like they bit off a couple of extra things where they're like and it's gonna work with
+[05:28.140 --> 05:34.320]  The software so that your iPhone will tell you all of the things that are charging and it's gonna charge the watch with no
+[05:34.480 --> 05:40.160]  Extra fiddly-diddly bits and we're gonna release a new air pods case that's gonna work with it
+[05:40.160 --> 05:47.920]  I'm just like maybe maybe you start with just saying it's gonna charge the iPhone and it can charge two iPhones at once and
+[05:48.200 --> 05:52.320]  Then you add the extra things cuz I think the extra things are probably getting like
+[05:52.520 --> 05:59.960]  My my pet theory now is that air power is gonna come out with the watch the series 4 watch and they're just gonna say
+[05:59.960 --> 06:04.300]  It's series 4 and above because trying to get it to work with the series 3 has been such a pain
+[06:04.360 --> 06:07.480]  Like that's just my pet like I have no inside information on this
+[06:07.480 --> 06:13.280]  But it's just my pet theory of like it's probably the watch if I had to guess anything. It's probably the watch
+[06:14.080 --> 06:18.420]  My fear is that they're like they've got like, okay production units and they're like, alright
+[06:18.420 --> 06:25.080]  Let's go through the testing and you know set up a hundred of them and like two phones catch on fire. Oh my god
+[06:25.080 --> 06:29.760]  I don't know. It's like I don't know. I don't know. It's just I
+[06:30.400 --> 06:34.320]  Don't know. It's a weird one. It's a very it's a very weird one, especially
+[06:34.320 --> 06:38.760]  They haven't really they never released a like this will be out later, right?
+[06:38.760 --> 06:44.720]  Cuz they've done that on some products before where they're like, we know we said this but it's gonna be out a little bit later
+[06:44.720 --> 06:46.920]  I don't remember them doing it for air power
+[06:47.640 --> 06:49.360]  the worst
+[06:49.360 --> 06:50.720]  production
+[06:50.720 --> 06:56.040]  miscues that I can remember the single worst one I can remember is the white iPhone for the white iPhone 4
+[06:56.040 --> 07:01.160]  Yeah, that was my first one too didn't come out was supposed to come out or the black one came out at the end of
+[07:01.160 --> 07:05.800]  June and that was the last phone that came out at the end of June because the 4s was the first one
+[07:06.000 --> 07:10.480]  That moves you to the temple what actually moved to October. Yeah, that's right
+[07:13.480 --> 07:18.120]  But I think it was supposed to be September, you know, and it was just held up but
+[07:19.000 --> 07:23.440]  The white iPhone 4 didn't ship until I think late April
+[07:23.440 --> 07:30.760]  And possibly even early May so it was at least like nine months late might have been ten months late and
+[07:31.880 --> 07:37.520]  Even though even though it was ten months late. It wasn't like the new ones came out two months later, but we didn't know that
+[07:37.760 --> 07:39.680]  You know, yeah
+[07:39.680 --> 07:44.260]  So that was the one year where Amy didn't get a new iPhone because she definitely wanted the white one
+[07:44.260 --> 07:46.260]  So she was waiting for it
+[07:47.640 --> 07:51.320]  The time she came out she was like I'm not buying a year-old phone, I mean that's
+[07:51.320 --> 07:56.080]  For $800. It's ridiculous. She knows better. Yeah, so that was a bad one
+[07:56.080 --> 08:03.520]  I mean that was really bad that was bad home pod had a delay, but the delay was pretty well communicated. I think yeah, and
+[08:04.680 --> 08:08.000]  Home no air pods were a little it's right
+[08:08.560 --> 08:11.360]  You know, yeah, they did make it before the end of the year
+[08:11.360 --> 08:14.340]  I mean you could you know just barely like one one
+[08:14.640 --> 08:20.240]  Production line made it before the end of the year and then they kind of eased up in what February but that's no that's that's
+[08:20.240 --> 08:24.680]  The Nintendo playbook right like it's no different than a lot of other manufacturers
+[08:24.680 --> 08:29.760]  We're just it feels weird to us because Apple is not usually one of these companies. That's like
+[08:30.240 --> 08:32.520]  We're not gonna hit our shipping deadline
+[08:32.520 --> 08:33.080]  All right
+[08:33.080 --> 08:38.640]  like and so to see them do it just I don't know whether it instills fear or if it's just a
+[08:38.960 --> 08:41.680]  Profound head scratching like what is going on?
+[08:42.520 --> 08:48.800]  Yeah, I don't know. So I don't know. I hope for Apple's sake they get it out before the September event
+[08:48.800 --> 08:55.440]  I wouldn't be surprised. You know how like they ship the air power to update like literally one week before WWDC
+[08:56.040 --> 09:02.360]  Mm-hmm. I kind of expect like okay, here's air power one week before the iPhone announcement
+[09:02.360 --> 09:03.720]  I don't know my god
+[09:03.720 --> 09:08.800]  We're gonna have to start a betting pool on this like how many people think it'll be released before or how many people think?
+[09:08.800 --> 09:13.720]  It'll be released after and only with watch us for it or watch us for watch series for support
+[09:13.720 --> 09:18.440]  If they just really just go try to you know, go full denial
+[09:19.200 --> 09:21.200]  Like air power. What's that?
+[09:21.560 --> 09:27.560]  That was never a product. They just scrub it from the keynote, right? We've always been at war with East Asia
+[09:28.480 --> 09:30.480]  Exactly. It's totally oh
+[09:30.760 --> 09:32.800]  My god, I'm drawing a blank on his name. What's his name?
+[09:34.640 --> 09:39.800]  Author of 94 or well poor. Well, geez how I'm losing that hair serenity
+[09:39.800 --> 09:47.480]  It's only Wednesday. It's only Wednesday, John. I know it's like WWDC was still recent, but sleep. Yeah
+[09:47.480 --> 09:49.480]  I tell you what I always I
+[09:51.160 --> 09:56.600]  The I always forget how hard it is for me at least to catch up after WWDC
+[09:57.760 --> 10:02.000]  Because and I think it's the right way to do it, but I'm generally off
+[10:02.000 --> 10:09.720]  off and it's a combination of things like Mondays that the keynote day is just crazy for me because it's just keeping up and
+[10:09.720 --> 10:14.560]  It's always funny to me. This has been the case ever since I started going to WWDC where I always feel like
+[10:15.640 --> 10:20.600]  Like one of the least informed people who follows Apple all day on Wednesday
+[10:20.680 --> 10:26.440]  We're like, you know, I'll be meeting someone, you know, like it's six o'clock and they'll be like mentioning something
+[10:26.440 --> 10:30.640]  You know that wasn't in the keynote but and it's like big news and I'm like what they announced the head
+[10:30.640 --> 10:32.960]  They're like, yeah that came out like, you know
+[10:32.960 --> 10:36.360]  They that came out at like noon and it was like what I had no idea
+[10:36.360 --> 10:39.040]  like I feel like I'm in this huge information vacuum where I'm
+[10:39.280 --> 10:45.480]  Just locked into what was in the keynote and trying to get all the details on it then Tuesday now in recent years
+[10:45.480 --> 10:48.000]  I'm all consumed by my live show
+[10:48.840 --> 10:53.200]  Mm-hmm, and then by Wednesday, I'm trying to be social because it's like Tuesday and Monday
+[10:53.200 --> 10:58.300]  I was totally like I was Monday. I'm locked into like the keynote and briefings Tuesday. I'm in my
+[10:58.300 --> 11:00.300]  Panic vacuum
+[11:02.740 --> 11:07.420]  Preparing for the show and then Wednesday, you know, I try to be sociable and Thursday
+[11:07.420 --> 11:08.460]  I just try to you know
+[11:08.460 --> 11:13.540]  Hang out and see people and bump into people and not be on the computer and then I wind up with you know
+[11:13.540 --> 11:18.220]  Usually I wind up most weeks with a lot of unread emails, but it's nothing like WWDC week
+[11:19.380 --> 11:26.200]  WWDC week I feel like is the week where all of my normal computing talents just go to hell because like you said it's like
+[11:26.200 --> 11:29.160]  There's so much the the joy of going to
+[11:29.780 --> 11:36.660]  WWDC is talking to people in person and making those connections that you might not all otherwise make and especially if you have the pass
+[11:37.020 --> 11:40.960]  Like being able like I had that I had a dev pass for the first time this year
+[11:40.960 --> 11:46.100]  And so I was like the the few moments of free time I had I was like, alright
+[11:46.100 --> 11:50.340]  Gotta go check out these sessions gotta go talk to these developers gotta go like, you know
+[11:50.340 --> 11:55.960]  Listen to these engineers talk about pencil support and all of these things gotta go talk with ADA winners gotta go
+[11:55.960 --> 12:02.220]  Podcast in the fancy podcasting room and then before you know it it's Friday morning and you're like, holy crow
+[12:02.220 --> 12:07.220]  Did I really like go through four days of appointments that were like 7 a.m. To 11 p.m
+[12:07.460 --> 12:13.660]  Like you kind of blink and and then you look at your computer or Twitter Twitter's the worst
+[12:13.900 --> 12:19.960]  Especially on I feel like on keynote day because you know, like I know you don't really live blog it so much
+[12:19.960 --> 12:27.000]  Oh, but like the opposite really? Yeah, you just like take it in I take it in by live blogging for I'm more
+[12:27.280 --> 12:28.240]  so I'm like
+[12:28.240 --> 12:34.800]  I basically turn off my main feed and just focus on like writing for about two hours straight
+[12:35.280 --> 12:40.960]  and then leave Twitter alone while I'm like running around and get talking to people and and
+[12:41.320 --> 12:47.280]  Digging into those betas so I can find out about that weird feature you you hear about on on Monday afternoon or Monday evening
+[12:47.280 --> 12:51.100]  And then by the time I actually touch Twitter again, it's like
+[12:52.140 --> 12:58.120]  1500 new tweets and normally normally I would just declare Twitter bankruptcy and just you know
+[12:58.120 --> 13:01.840]  If I like I've done this before I've gone on Derby tournaments, right and I come back and I'm like
+[13:01.840 --> 13:03.440]  I don't want to read this weekend stuff
+[13:03.440 --> 13:12.200]  But Monday, I feel an unlike an obsessive need to go through this in the hopes of like someone will have spotted
+[13:12.280 --> 13:15.440]  Something that I missed usually like this year
+[13:15.440 --> 13:21.920]  It was really just like all right Steve Trotton Smith Steve Trotton Smith like Guillermo Rambo Steve Trotton Smith
+[13:21.920 --> 13:27.280]  I know but like they're it's really helpful at least for me on Mondays to like
+[13:27.600 --> 13:31.200]  go through that and find what other people have grabbed while like
+[13:31.720 --> 13:35.000]  Researching various things because it allows me to put together like the full picture
+[13:35.360 --> 13:39.320]  But it also means that I'm reading 1500 tweets at like 11 p.m
+[13:39.320 --> 13:44.320]  On Monday, and then I don't get to sleep until 2 and then I have a thing on that's 630 the next morning
+[13:44.320 --> 13:50.480]  So it's uh, yeah the bank the email bankruptcy the like feeling of just your tech is completely
+[13:50.960 --> 13:54.320]  Killing you slowly is a it's a very real one. I
+[13:54.960 --> 13:56.960]  find that I
+[13:57.600 --> 14:05.120]  Really am I know some people might might think I'm exaggerating but I truly am a preposterously bad email person
+[14:05.120 --> 14:11.640]  I really should I really should hire someone I trust to to have full access to my email
+[14:11.640 --> 14:14.320]  I really should have her like an assistant who I trust
+[14:14.480 --> 14:20.960]  To literally have access to all of my email and to go through and read it every day and and at least call out anything
+[14:20.960 --> 14:23.580]  That's a holy crap. You really you know, this one's important
+[14:24.680 --> 14:28.120]  Cuz I'll just go days and there'll be like truly important emails
+[14:33.960 --> 14:39.920]  Well, if something was really important I feel like they would find a way to get in contact via text
+[14:39.920 --> 14:46.560]  That's kind of how I've like lived my life for the last nine months is like if someone hasn't pinged me on slack or on
+[14:46.800 --> 14:53.720]  iMessage, it's probably not that like it's probably not life-threateningly important and for all of the things
+[14:53.720 --> 15:01.520]  There's the VIP box, but imagine I don't know. Imagine imagine that you're searching for something else in email and
+[15:02.400 --> 15:07.920]  You've you know how you're searching for something and you know how you get like a weird list and it might contain things you don't
+[15:07.920 --> 15:12.560]  Think and I see something totally unrelated to what I'm looking for. But the from address is
+[15:14.200 --> 15:16.200]  Let's say a very famous person
+[15:17.880 --> 15:24.680]  Everybody's listening to the show knows exactly who they are and that this person sent me a very
+[15:25.560 --> 15:29.040]  Complimentary and kind email and it was five months old
+[15:29.040 --> 15:36.600]  That's that happened to me about a week ago
+[15:38.080 --> 15:40.080]  And you don't get a second email
+[15:40.560 --> 15:47.200]  About something like that. No like so urgent emails. Yes, somebody will figure out a way to get it
+[15:48.440 --> 15:50.800]  Important emails not always but I'm very bad at it
+[15:50.800 --> 15:56.520]  but one reason I've gotten worse at it is because of Twitter and and it's because I
+[15:56.520 --> 16:02.760]  Love how if I do want to catch up on Twitter and for me, I never catch up on my timeline. It's impossible
+[16:02.760 --> 16:04.760]  I've you many many years ago
+[16:05.400 --> 16:06.680]  realized I
+[16:06.680 --> 16:10.840]  Twitter was more better for me if I just follow more people than I could ever hopefully
+[16:11.600 --> 16:18.760]  Complete but I do try to be a completionist or near completionist on mentions to at Gruber and at during fireball
+[16:18.760 --> 16:24.880]  And I sort of treat them like email like, you know, if you can fit like a comment to me
+[16:24.880 --> 16:28.960]  About like a during fireball article in a Twitter mention
+[16:30.080 --> 16:33.760]  And you're willing to you know, obviously that's public not private, you know
+[16:33.760 --> 16:37.400]  You're way you're you're ten times more likely for me to actually read it
+[16:37.400 --> 16:42.440]  if you do it on Twitter than if you send it as an email but part is that all I have to do is
+[16:42.440 --> 16:48.040]  Scroll and I'm a really good reader and I don't have to open anything
+[16:48.040 --> 16:52.880]  I just scroll and I read and there's never anything to open and
+[16:52.880 --> 16:56.040]  I know that there are male clients that are more
+[16:56.720 --> 17:04.800]  timeline II, you know and and but it's still like just the nature of email and and this this in hindsight sort of
+[17:04.800 --> 17:12.640]  Insane practice of quoting entire messages and that the chains of emails contain the previous emails
+[17:13.640 --> 17:15.600]  It just makes it so much harder
+[17:15.600 --> 17:19.920]  It's like you're in you scroll the email then you go back and it it just seems
+[17:19.920 --> 17:24.280]  So much more of an uphill process, you know fighting upstream
+[17:24.840 --> 17:28.440]  Whereas catching up on Twitter, it might take a while might be like wow
+[17:28.440 --> 17:32.760]  I am way behind but at least it feels like I'm swimming downstream
+[17:33.280 --> 17:40.400]  Well, you're actually it's helpful because Twitter, you know, even with the expanded character limit Twitter is still short, right?
+[17:40.400 --> 17:47.920]  Like there there are emails in my inbox right now that are like seven paragraphs long and you know, like you can't
+[17:47.920 --> 17:55.560]  If if you're given the choice between reading one email, that's seven paragraphs long or finishing 20 tweets
+[17:55.640 --> 18:00.440]  that are you know 140 to 240 characters long like the
+[18:00.800 --> 18:05.160]  Who am I gonna improve their life or like be able to help people?
+[18:05.160 --> 18:11.320]  It's far more likely that I'm gonna be able to do it on Twitter then like read this email and like feel
+[18:11.320 --> 18:15.600]  You know usually emails that are that long or like how to's or questions or things like that
+[18:15.600 --> 18:18.400]  I'm like I feel for this person, but I'm also like
+[18:19.000 --> 18:25.640]  The answer that you're looking for is basically an article like I can't I want to help you
+[18:25.680 --> 18:28.760]  Right, but instead of like actually being able to help you in email
+[18:28.760 --> 18:33.440]  I'm literally gonna take your question and then I'm gonna write an article about it because that's the only way I could figure out how
+[18:33.440 --> 18:36.120]  To actually do it if I have the time, right?
+[18:36.120 --> 18:42.400]  It's just I will say this I owe Twitter an apology or I should I should write about this on dairy fireball
+[18:42.400 --> 18:47.040]  But I get it off my chest here on the show first. Is that when they first switched from 140 to 280?
+[18:47.040 --> 18:52.640]  I was against it publicly. I thought this is a bad idea and that the terseness of 140 was
+[18:54.480 --> 18:56.480]  Essentials to what made Twitter Twitter
+[18:57.360 --> 19:00.840]  and getting your thoughts into 140 truly is a
+[19:01.360 --> 19:05.320]  an art and like a couple of the other people who I
+[19:05.640 --> 19:11.480]  Retweeted as being opposed to this were unsurprisingly well-known writers JK Rowling
+[19:11.480 --> 19:12.460]  and
+[19:12.460 --> 19:15.480]  Stephen King, I mean there you go JK Rowling and Stephen King
+[19:15.480 --> 19:22.240]  I mean, there's probably the two most successful and and talented writers of the last of my lifetime
+[19:23.080 --> 19:28.000]  And both, you know pretty much I don't know maybe Stephen King retweeted JK
+[19:28.000 --> 19:32.600]  I don't know, but they were in complete agreement that it's you know, there was a certain genius to it
+[19:32.600 --> 19:36.640]  But you know what? Not everybody is as talented as JK Rowling or Stephen King
+[19:36.640 --> 19:41.640]  And I have to admit it now living with the 280 limit now for four months
+[19:41.760 --> 19:45.040]  It hasn't wrecked Twitter and I use it for weeks
+[19:45.040 --> 19:50.920]  I stopped I stubbornly insisted on only tweeting up to 140 characters and like
+[19:51.680 --> 19:57.160]  Doing the math like looking at my little character counter and if it went over 140, even though I could hit post
+[19:57.160 --> 20:01.920]  I would not and then I gave up on that realized I was being stubbornly silly
+[20:02.320 --> 20:04.460]  And it's good. It is a good thing
+[20:04.460 --> 20:05.780]  it's
+[20:05.780 --> 20:08.500]  Yeah, 280 is a really interesting limit like
+[20:09.540 --> 20:14.660]  Boy, if everybody who sent email to me tried to keep it under 280 characters, it would I would be a lot
+[20:14.660 --> 20:16.820]  I'd have a lot fewer unread emails
+[20:17.460 --> 20:21.900]  Yeah, well, it's just it's a good size right and I'm with you. Honestly
+[20:21.900 --> 20:28.580]  I was a little bit skeptical of the increase of character limit at first, but I find myself using it constantly
+[20:28.580 --> 20:35.140]  Constantly again for like for the bite-sized things that I don't necessarily want to write in full posts
+[20:35.140 --> 20:41.100]  But it's really it's especially during keynote time and live blogging or more commenting on somebody else's post
+[20:41.100 --> 20:45.340]  it's just it makes it so much easier for me to be like put getting my point across rather than
+[20:45.820 --> 20:48.920]  What I used to do in the 140 character limit, which is like
+[20:49.620 --> 20:51.620]  really cool article
+[20:51.700 --> 20:54.620]  Fascinating read like that's not really helpful
+[20:54.620 --> 21:01.660]  but when I actually get to talk about the article and be like wow this portrayal of AI is a really interesting like
+[21:01.820 --> 21:09.100]  Look into both our political mindset and where we are right now like that that actually I feel like maybe that gets more people
+[21:09.100 --> 21:11.100]  To read it. I don't know
+[21:12.340 --> 21:14.220]  Or the other thing I run into a lot
+[21:14.220 --> 21:17.820]  I don't think I get close to 280 a lot. But the thing I notice a lot is
+[21:18.460 --> 21:20.380]  I'll think I'll have like a thing
+[21:20.380 --> 21:25.060]  Alright, I'm not gonna post it to during fireball, but I want to tweet this link and I'll think of something to say about it
+[21:25.060 --> 21:26.780]  and I'm like
+[21:26.780 --> 21:30.500]  under 140 and then there's no room for the URL and it's like
+[21:31.660 --> 21:35.020]  Jeez, what am I and then you start butchering your stuff?
+[21:36.660 --> 21:43.580]  Sometimes that leads to a better tweet, but most times it just leads to you taking out context right or spelling the word, especially
+[21:43.580 --> 21:50.260]  ESP dot, you know and all of a sudden it looks like you're jotting shorthand, you know
+[21:51.300 --> 21:55.100]  All right. Anyway, I'm gonna take a break here. Thank our first sponsor. It's our good friends at Casper
+[21:55.620 --> 21:58.100]  Casper is a sleep brand who makes
+[21:58.740 --> 22:02.700]  Expertly designed products to help you get your best rest one night at a time
+[22:03.540 --> 22:06.860]  Casper products are cleverly designed to mimic human curves
+[22:07.460 --> 22:12.280]  Providing supportive comfort for all kinds of bodies the original Casper mattress
+[22:12.280 --> 22:17.480]  Combined multiple supportive foam memory foams for a quality sleep surface with
+[22:17.880 --> 22:20.520]  Just the right amount of both sink and bounce
+[22:22.920 --> 22:26.080]  Their breathable design helps you sleep cool and
+[22:26.520 --> 22:31.960]  Regulates your body temperature throughout the night now Casper offers two other mattresses now
+[22:31.960 --> 22:39.560]  They've got the wave and the essential the wave features a patent-pending premium support system to mirror the natural shape of your body
+[22:39.560 --> 22:46.000]  That's their premium mattress. And then the essential has a streamlined design at a price that won't keep you up at night
+[22:46.920 --> 22:50.740]  We just got a wave. We've had a original Casper for a long time
+[22:52.480 --> 22:57.560]  We just got a wave we paid full retail for it this isn't like a free thing we happily paid for it
+[22:57.600 --> 23:01.160]  We love it. It is a fantastic mattress. We also got
+[23:02.040 --> 23:07.520]  Some of the other Casper products we have some of their pillows. We just got their comforter and I'll tell you what
+[23:07.520 --> 23:14.880]  Switching from an old comforter where the filling has sort of shifted around over the years to a brand new one from Casper
+[23:15.360 --> 23:21.280]  Really does I know they keep saying and in the talking points here say that they do know their stuff helps you regulate your body
+[23:21.280 --> 23:26.760]  Temperature while you sleep, but I'll tell you what. I really have noticed that it's true that I don't wake up way too hot
+[23:28.000 --> 23:34.320]  As often as I used to with an old comforter. This stuff is really true it I really do sleep on this stuff
+[23:34.320 --> 23:41.680]  Casper has affordable prices on all of their products because they cut out the middleman and sell directly
+[23:42.000 --> 23:46.960]  To you and they have hassle-free returns if you're not completely satisfied
+[23:47.520 --> 23:52.960]  And free shipping and returns in the US and our friends up in Canada
+[23:54.000 --> 23:59.680]  So you can be sure of your purchase with Casper's 100 night sleep on it trial
+[23:59.680 --> 24:03.520]  Sleep on it trial it's a great product
+[24:03.520 --> 24:08.240]  I really recommend you check it out and what you can do is you can get 50 bucks off
+[24:08.880 --> 24:12.120]  towards select mattresses by visiting casper.com
+[24:12.880 --> 24:20.400]  Slash talk show know the just talk show and then remember that promo code talk show at checkout
+[24:21.120 --> 24:24.800]  Terms and conditions apply but remember just go to casper.com
+[24:24.800 --> 24:29.840]  Slash talk show and remember that promo code talk show and you will save 50 bucks
+[24:30.480 --> 24:36.000]  Towards select mattresses my thanks to Casper for their continuing support of the talk show
+[24:36.640 --> 24:40.320]  All right, so here's the thing what WWC I got to get this off my chest. There's
+[24:43.680 --> 24:50.720]  Okay, you went around San Jose all day now you say you were busy you you must have been but there's how put this tweet
+[24:50.720 --> 24:54.880]  In the show note, but you really did you rode around San Jose wearing roller skates?
+[24:56.560 --> 24:58.720]  I did I did second year in a row
+[25:00.240 --> 25:06.180]  Uh, do you think that works that works in San Jose in a way that it wouldn't work in San Francisco?
+[25:06.480 --> 25:08.300]  I think oh completely
+[25:08.300 --> 25:09.200]  completely
+[25:09.200 --> 25:11.520]  um for one thing because the
+[25:12.060 --> 25:19.700]  Sidewalks and just in general the the streets are a lot cleaner and and flatter than they are in San Francisco
+[25:19.700 --> 25:23.620]  Like I think about uh, I think about the where I used to, you know
+[25:23.620 --> 25:26.500]  I used to stay at park park 53 for many years
+[25:28.580 --> 25:31.460]  Five park 55. I don't know where 53 came out
+[25:32.180 --> 25:38.660]  Anyway park 55. Yeah, I used to stay up there and I just think about like the big the giant like brick
+[25:39.380 --> 25:41.380]  Plaza that you have to cross
+[25:41.620 --> 25:43.620]  And i'm just like no I would die
+[25:43.620 --> 25:50.420]  Like I can skate on bricks, but I that that does not seem like an enjoyable way to get around that seems like torturing my feet
+[25:50.660 --> 25:52.020]  Yeah
+[25:52.020 --> 25:58.100]  Uh or whatever you'd have to do to get that safely down a pretty steep hill with roll. Oh my god
+[25:58.660 --> 26:05.300]  I you know, I have I have skated in San Francisco before on roller skates and it was really not pleasant because at the time
+[26:05.380 --> 26:07.860]  I didn't really even know how to stop properly with edges
+[26:07.860 --> 26:14.260]  So I was constantly like rolling down the hill and then turning backwards to try and use like a backwards toe stop while i'm like
+[26:14.500 --> 26:19.700]  Halfway propped on anyway, needless to say not a good experience. I vastly prefer san jose
+[26:23.460 --> 26:29.300]  It's an interesting way to get around san jose is interesting as a pedestrian because most of it is
+[26:30.000 --> 26:31.200]  eminently
+[26:31.200 --> 26:34.020]  pedestrian friendly low traffic flat
+[26:34.020 --> 26:40.020]  Uh, a lot of the streets in in the area are almost no traffic. Um,
+[26:40.740 --> 26:44.900]  But like the main street the one that the convention centers on what does that I don't even know what the name of it
+[26:44.900 --> 26:50.740]  Is it market street? I don't know. Yeah, it's either market or sand something. Yeah, and and that corner
+[26:51.460 --> 26:53.140]  uh
+[26:53.140 --> 27:01.000]  Like past the Marriott it's like, you know, like between the Marriott and the building where the the California theater is is one of the worst pedestrian
+[27:01.000 --> 27:05.320]  Uh intersections i've ever seen in my entire life
+[27:06.200 --> 27:13.560]  So weird the lights take forever. The street is incredibly wide apple obviously got them to shut it down
+[27:14.040 --> 27:17.800]  Uh with police cars for the keynote day, right?
+[27:18.520 --> 27:20.120]  like they
+[27:20.120 --> 27:22.120]  I mean that's they
+[27:22.200 --> 27:25.560]  It just i'm sure because it's just too dangerous to handle a crowd
+[27:25.560 --> 27:31.480]  It's just a terrible terrible intersection and then you combine that with the fact that there's high speed trains that go through the middle
+[27:32.520 --> 27:37.080]  Not like trolleys not tries like no actual trains
+[27:37.960 --> 27:39.640]  and
+[27:39.640 --> 27:44.040]  I sit there i'm not above jaywalking on on a street that seems jaywalking friendly
+[27:44.040 --> 27:45.800]  That's an east coast thing, you know
+[27:45.800 --> 27:51.240]  But you just you develop a sixth sense of this is a street where look if there's no cars coming
+[27:51.240 --> 27:53.240]  You can just go it doesn't matter what the light says
+[27:53.240 --> 27:57.560]  It's not that street, right? I mean that street has too many variables, right?
+[27:57.640 --> 28:00.760]  And the trains they're the current the the turning cars
+[28:00.840 --> 28:05.560]  Then you see a bunch of you know, obvious wwdc types or alt coms for type, you know
+[28:05.560 --> 28:07.560]  But somebody is here for the for the wwdc
+[28:08.040 --> 28:08.680]  uh
+[28:08.680 --> 28:13.080]  you know overall experience and they're like talking to each other and they're looking at each other and they're just like
+[28:13.160 --> 28:15.160]  Crossing the street and it's like you guys are
+[28:15.800 --> 28:19.080]  You guys have like a 10 chance of getting steamed by a train
+[28:19.080 --> 28:21.080]  Yeah
+[28:21.640 --> 28:24.600]  Well, especially, you know, and I was guilty of this a little bit
+[28:25.160 --> 28:29.560]  But especially walking around a lot of people looking at their phones while crossing the street
+[28:29.640 --> 28:31.080]  Yes, or the same thing, right?
+[28:31.080 --> 28:36.200]  You see somebody crossing that street with the phone and it is like you buddy you're taking your life in your hands
+[28:36.600 --> 28:42.600]  Yeah, or noise canceling headphones on i'm just like no no of all the places to walk around with noise canceling headphones
+[28:42.600 --> 28:49.720]  The place with the giant train tracks where the trains come very erratically and don't sound very loud to begin with. Nope
+[28:50.200 --> 28:52.200]  Did you uh ride the scooters?
+[28:52.920 --> 28:57.000]  I did not ride the scooters. I was very like I kept on looking at them
+[28:57.560 --> 29:00.840]  uh, like the one the one day that I wasn't skating I was like
+[29:01.400 --> 29:05.480]  I could get to so so so much faster if I if I got a scooter
+[29:05.640 --> 29:09.960]  So, uh, and then it was just downloading the app. I did it a couple of times
+[29:09.960 --> 29:12.440]  uh, not too many but it because it I
+[29:13.320 --> 29:17.880]  Going from my hotel to the convention center was wasn't far enough to really justify it
+[29:17.960 --> 29:18.520]  uh
+[29:18.520 --> 29:20.280]  And to get to the convention center
+[29:20.280 --> 29:25.080]  I had to cross that market street or whatever the hell it's called and it's it just takes all the you know
+[29:25.400 --> 29:27.400]  All the fun out of it. Um
+[29:29.000 --> 29:35.720]  But they're pretty cool i've heard this story this is like a total thing that's it's happened in california
+[29:35.720 --> 29:41.640]  And maybe a couple other cities since last year like last year. There were no scooter startups and now there are
+[29:42.280 --> 29:44.280]  a couple of competing
+[29:44.280 --> 29:49.100]  Uh many million dollar funded scooter startups, which sounds ridiculous
+[29:49.560 --> 29:54.360]  And i'd heard these stories that these scooter startups they they have
+[29:54.840 --> 29:59.960]  You know, the two in san jose at least were lime lime like the fruit and bird
+[30:00.920 --> 30:03.880]  and they buy a bunch of electric scooters
+[30:03.880 --> 30:05.880]  They put them all over the city
+[30:06.520 --> 30:11.400]  Uh, you get their app and sign up so that that's how they charge you and then when you want to ride one
+[30:11.560 --> 30:18.200]  It's sort of like in a locked state you use their app you scan a qr code on the bike or the scooter that you want
+[30:18.600 --> 30:23.880]  And it you know identifies this is scooter, you know, one two, three four. Okay, it's unlocked for you
+[30:24.280 --> 30:30.760]  You pay something like I don't know 35 cents a minute or 30. I don't know some reasonably low price. I forget how they charge
+[30:30.760 --> 30:32.680]  And you just get on and go
+[30:32.680 --> 30:39.000]  And then when you're done, you just leave it wherever you don't have to find this is this is the part that that seemed silly
+[30:39.000 --> 30:41.000]  To me when I first heard this story
+[30:41.080 --> 30:46.360]  But it is absolutely true. It's not like with the bikes, you know, like city bike and stuff like that
+[30:46.360 --> 30:49.560]  Which you know the us has had for years where there are
+[30:50.760 --> 30:56.920]  the kiosks around the city like philadelphia has them and and you have to find one and then that's where the bike, you know,
+[30:56.920 --> 31:01.560]  You put the bike in it and it's like a special bike holder that is from the company and then you put it in there
+[31:01.560 --> 31:05.560]  And it locks up. No with these scooters. You just abandon them wherever you want
+[31:06.760 --> 31:11.960]  just tell the app that the app tell the app i'm done and it locks back up and
+[31:13.000 --> 31:19.960]  The city's sidewalks are literally just riddled with random 500 electric scooters everywhere
+[31:20.360 --> 31:24.360]  They're everywhere and people a lot of people are extremely
+[31:24.360 --> 31:26.360]  inconsiderate about
+[31:26.920 --> 31:28.920]  How they park these things right?
+[31:29.800 --> 31:37.400]  it is kind of it is it they look like it looks like the city is littered with scooters and so I really was set to
+[31:38.120 --> 31:44.680]  I mean the whole scooter is just a silly word and and the fact that they really no exaggeration they this
+[31:45.240 --> 31:49.400]  I mean, they're just right in the middle of the pedestrian sidewalk. It's just crazy
+[31:49.400 --> 31:55.720]  There's somebody left one at my hotel that was in the driveway like so like if you were driving up to get you know
+[31:55.720 --> 32:01.480]  To like do valet parking at the hotel you would have to like get out of your car and move the scooter
+[32:02.360 --> 32:07.160]  To get up to the driveway like who thought that was a good place to leave a scooter like it's crazy
+[32:08.040 --> 32:11.960]  But I have to say it is incredibly cheap and they are
+[32:12.660 --> 32:17.480]  Extremely fun to ride. I mean really really fun because it's so fun to ride
+[32:17.480 --> 32:20.280]  I mean really really fun because they go
+[32:22.600 --> 32:24.600]  Quite frankly dangerously fast
+[32:25.640 --> 32:26.840]  They're really fun
+[32:26.840 --> 32:32.680]  So I didn't ride one in san jose, but I actually own an electric scooter like an early generation electric scooter
+[32:33.160 --> 32:36.680]  that um, I got after a ces, uh as a
+[32:37.320 --> 32:38.360]  as
+[32:38.360 --> 32:40.040]  You know a mime war thing
+[32:40.040 --> 32:42.040]  Um, and I have this video
+[32:42.040 --> 32:45.480]  Um if I I think I have it up online and i'll give it to you to put in the show notes
+[32:45.480 --> 32:52.680]  If you really want but it's uh, yeah, it's literally my now husband and I I was like, well, we're in you know
+[32:53.060 --> 32:57.640]  Suburban boston area and i'm like there's no real way to place to ride this effectively
+[32:57.640 --> 33:01.960]  So i'm like we're just gonna ride it up and down our like slightly slanted street and see how fast we can go
+[33:02.520 --> 33:07.000]  Which seemed like a great idea at the time, uh, and mostly it's just uncontrollable screaming
+[33:08.040 --> 33:10.040]  where we're just like
+[33:10.840 --> 33:12.920]  Like you just don't expect it to go that fast
+[33:12.920 --> 33:17.640]  Like you're you're thinking oh, it's like a it's like, um, what was the original scooter the radar?
+[33:17.640 --> 33:19.960]  It's like a razor scooter with a little bit of extra. No
+[33:20.360 --> 33:25.720]  Yes, it has a has a deep motor in it. Like I think mine can go up to like 20 miles an hour or something
+[33:25.720 --> 33:27.000]  I'm, like that's
+[33:27.000 --> 33:31.000]  Yeah, that's what these things clean and I believe it. I really do it's it's almost hard
+[33:31.000 --> 33:37.160]  It was almost hard to max out the speed because it it's just hard to find that much open space before you get to another
+[33:37.400 --> 33:39.720]  Street, you know, there's just a stoplight. Yeah
+[33:39.720 --> 33:44.280]  Um, I was totally expecting something more like a razor with a bit of help, you know
+[33:44.280 --> 33:50.440]  So that you don't have to kick so much but it's like no these things really go and it's funny too the two competing
+[33:50.440 --> 33:57.880]  Apps, uh or companies, I guess lime and bird lime and bird. I forget which one is which but one of them I think lime
+[33:58.920 --> 34:04.520]  I but I could be getting it backwards one of them you sign up and they more or less are just like what's your email?
+[34:04.520 --> 34:08.440]  I forget even how they charged me. I don't think I'm I didn't put a credit card in
+[34:08.440 --> 34:11.400]  I don't know if they're just charging through the app and paying apple the 30 percent
+[34:13.000 --> 34:16.760]  You know, what's your email here's our terms and conditions say you agree
+[34:16.760 --> 34:17.160]  Okay
+[34:17.160 --> 34:23.640]  and then the other one clearly has lawyers who are more involved and it's like you've got to go through and check one by one and
+[34:24.200 --> 34:29.240]  It's just ridiculous. It is like I totally it's like I understand that I need to wear a helmet
+[34:29.720 --> 34:31.720]  Is like the first thing you have to check off
+[34:31.720 --> 34:36.600]  And of course, nobody has a helmet. Where's the helmet right? Because if you're carrying their butts
+[34:37.160 --> 34:40.920]  Once you're carrying around a helmet, you might as well just carry around your own scooter, you know
+[34:40.920 --> 34:43.900]  Like the whole half the fun of it is the abandonment
+[34:45.320 --> 34:50.200]  I came up with I think the perfect analogy it was bothering me for the first day or two
+[34:50.200 --> 34:55.480]  I was like this way that you just grab one when you want one you just grab one
+[34:55.480 --> 34:58.600]  You don't look for a kiosk you just find one and grab it
+[34:58.600 --> 35:03.320]  And and then get on it and go and then you get to where you want to go and just jump off it
+[35:03.880 --> 35:08.200]  It was like this reminds me of something and like Tuesday it hit me
+[35:09.080 --> 35:11.080]  It's Grand Theft Auto
+[35:11.480 --> 35:12.440]  Oh
+[35:12.440 --> 35:13.480]  Yeah
+[35:13.480 --> 35:21.560]  Yeah, the whole idea in Grand Theft Auto is that whenever you need a car you just find one open the door pull whoever's in it out
+[35:22.040 --> 35:26.760]  And take their car and then you get to where you want to go and just jump off it
+[35:26.760 --> 35:32.360]  Take their car and then you go somewhere and when you get there, you don't even have to stop the car
+[35:32.360 --> 35:38.200]  You just kind of like do like a rolling stop roll out of the car. Let it crash into the sidewalk
+[35:39.320 --> 35:42.360]  And then just go about your mission. It's exactly like that
+[35:42.840 --> 35:46.040]  Except in Grand Theft Auto every time you take a car you can drive it
+[35:46.040 --> 35:49.880]  Whereas with the scooters, it seems like one and three have like a dead battery
+[35:49.880 --> 35:56.600]  Oh, no. Well, you know the story about the battery thing too, right? Like the roaming battery rechargers?
+[35:56.600 --> 36:00.760]  Yeah, we saw one finally and it was just a guy in a minivan
+[36:02.280 --> 36:07.800]  Any the app obviously gives him a map of where the ones are he didn't have to like test him
+[36:07.800 --> 36:15.000]  But there's just a guy in a minivan. I presume it like the minivan wasn't labeled with bird or lime
+[36:15.000 --> 36:16.520]  It was just a guy
+[36:16.520 --> 36:22.920]  So I presume he worked for the company either that or he was stealing doesn't he doesn't so here's here's how this works
+[36:22.920 --> 36:29.160]  And this this blew my mind when I heard it is that the company actually does this Pokemon go style and they offer up?
+[36:29.840 --> 36:31.840]  bounties like like
+[36:31.840 --> 36:34.360]  Charging bounties. I didn't know that if yeah
+[36:34.360 --> 36:38.920]  So if you if you want to earn a little bit of extra money like gig economy style
+[36:39.120 --> 36:45.680]  You can take one of the scooters plug it in and then they'll give you money based on how much you charge it and how?
+[36:45.680 --> 36:48.600]  Many you charge and if it's in a really weird location
+[36:48.600 --> 36:53.740]  They'll give you extra money to go and like retrieve it and charge it. Huh? So they're like crowdsourcing the
+[36:54.360 --> 36:56.360]  The charge. Yeah, interesting
+[36:57.200 --> 36:58.320]  Huh?
+[36:58.320 --> 37:03.400]  All right, San Jose versus San Fran as the site for WWDC
+[37:03.400 --> 37:07.160]  I mean it was word got around last year that it was not a temporary change
+[37:07.160 --> 37:12.820]  You know that this was you know, and and as Apple is want to be there was no official statement on it
+[37:12.820 --> 37:18.460]  I mean here now there's actually no if you ask someone from Apple, you know
+[37:18.460 --> 37:23.240]  Like as a member of the media on you know and say is there going to be a WWDC?
+[37:23.920 --> 37:25.220]  2019
+[37:25.220 --> 37:31.000]  You won't get a straight answer. They won't commit to it cuz they just can either confirm nor deny, right?
+[37:31.000 --> 37:33.720]  They just don't you know, they don't talk about future products
+[37:34.480 --> 37:37.560]  Mm-hmm, but unsurprisingly they were back at San Jose again
+[37:37.560 --> 37:42.880]  I think they you know, you know, like anytime you do something the second time it it comes out a little bit better
+[37:43.720 --> 37:45.320]  I
+[37:45.320 --> 37:49.120]  Didn't see the podcast studio this year because I had to leave a day earlier
+[37:50.120 --> 37:55.280]  But I heard that the podcast studio which was really nice last year. I heard that it was even better this year. Oh
+[37:56.120 --> 37:57.860]  It was so gorgeous
+[37:57.860 --> 38:00.540]  Again, I will send you pictures to put in the show notes
+[38:00.720 --> 38:06.120]  But that was my again first time being in the podcast studio because I didn't have a badge last year
+[38:06.120 --> 38:08.120]  I only had sort of the keynote pass and
+[38:08.580 --> 38:15.080]  They've just they've taken over what would have been a kind of semi ordinary like back room in the convention center
+[38:15.080 --> 38:22.460]  And then top to bottom they've made like this beautiful hand-cut styrofoam that has the podcast logo in it and all kinds of
+[38:23.080 --> 38:29.800]  Fancy acoustic things that I have no doubt that an Apple audio engineer could talk to you about four hours about why that curve was
+[38:29.840 --> 38:34.140]  Exactly like on some Euclidean geometry scale to you know
+[38:34.140 --> 38:40.840]  But it's like it's beautiful is like a nice little lounge and then inside they've just basically built this cave out of styrofoam
+[38:41.200 --> 38:47.000]  And then put a high-top table with a bunch of microphone like really high quality microphones and beat studio headphones, of course
+[38:47.560 --> 38:54.320]  With with with cables on brand it wasn't yeah exactly. They did not they did not risk wireless connectivity
+[38:55.240 --> 39:01.240]  Which you know, I guess that's fair. Uh-huh, and it was just it was a really lovely experience
+[39:01.240 --> 39:07.720]  we got to set Renee and I sat down to the the folks from agenda and talked to them right after they won their ada and
+[39:07.720 --> 39:09.720]  It's just you know, it's probably
+[39:10.600 --> 39:14.400]  Next to like the old macworld podcast studio. I don't know if you ever were in there
+[39:14.400 --> 39:17.440]  It's like this is one of the nice podcast studios ever been
+[39:17.520 --> 39:19.960]  Yeah, like the new one when they when they redid it
+[39:19.960 --> 39:21.660]  It was like the macworld studio is really nice
+[39:21.660 --> 39:28.120]  But this studio was a a good deal nicer like it definitely felt like we were one step away from being in a radio studio
+[39:28.120 --> 39:33.600]  and it also makes me wonder about Apple's own podcast facilities and I'm like
+[39:33.600 --> 39:38.720]  I don't know if Apple does podcasts internally, but they certainly have the talent to do it like
+[39:39.840 --> 39:46.620]  It would be really cool. Yeah, I did Jim Dow Rumple show last year with Matt along with Matt Drance and
+[39:47.720 --> 39:52.760]  It was the first time I can ever remember doing a podcast that really felt like I was in a pro studio
+[39:53.560 --> 39:54.800]  Yeah
+[39:54.800 --> 39:59.080]  Because I I've got some good equipment here. I you know, I've you know, it's all just
+[39:59.880 --> 40:04.960]  I've told this before but I just I just asked Marco is they just tell me give me a shopping list
+[40:05.120 --> 40:10.360]  To go by and he just sent me like a list of four things and I just I didn't even like double-check anything
+[40:10.360 --> 40:14.120]  I just like click click click buy buy buy add the card all at Amazon
+[40:14.720 --> 40:18.520]  Then now that's what I have. So it's good equipment, you know, it wasn't cheap
+[40:18.520 --> 40:20.960]  I mean, you know, I do this every week. I can I can
+[40:20.960 --> 40:23.920]  Incredibly say I'm a pro
+[40:25.720 --> 40:31.000]  This is a legitimate significant part of my job so, you know, I spent I don't know a couple hundred dollars
+[40:31.000 --> 40:33.360]  so I've good equipment, but I don't I don't podcast in an
+[40:33.800 --> 40:40.800]  Area that you would take a photograph of and say that looks like a professional recording area. It looks
+[40:41.320 --> 40:44.440]  apps actually completely opposite it looks like
+[40:44.440 --> 40:51.080]  It looks like something that I like I'm in the midst of moving
+[40:57.440 --> 40:59.320]  But that was really cool
+[40:59.320 --> 41:06.280]  But there's just other things that they did that. I feel like they're really finding their you know, Apple is finding their you know
+[41:06.280 --> 41:10.380]  This is how we can make WWDC work. It's their voice. Yeah, I
+[41:10.380 --> 41:14.980]  I have mixed feelings about it though. I I I I if I
+[41:15.420 --> 41:21.580]  Worked at Apple and my opinion count counted on should we stay in San Jose or go back to San Francisco?
+[41:21.580 --> 41:27.100]  I would vote instantly stay in San Jose. I think it's the right. I think it's the right thing for WWDC
+[41:27.100 --> 41:31.900]  I think it's the right thing for Apple, but I have mixed feelings about it as an attendee
+[41:31.900 --> 41:39.980]  because I know I feel like the city of San Jose is only in terms of like the service industry is
+[41:40.580 --> 41:47.580]  only borderline competent and possibly under under the under the the acceptable line for competence
+[41:48.700 --> 41:52.060]  Well, I mean, yes, I agree with you here
+[41:53.060 --> 41:57.980]  But I have to like I'm trying to assume positive intent right and remember that San Jose
+[41:57.980 --> 42:04.920]  Really? I mean the last five years is more it's a it's a city that shuts down at 6 p.m
+[42:04.920 --> 42:09.400]  All right, most most places right? It's designed to be a workers city and then I
+[42:09.920 --> 42:16.920]  Don't I don't know how much heads-up they had about WWDC the first year, but to say that they were unprepared for the
+[42:17.840 --> 42:21.400]  Glutton of people coming in is calling it nicely
+[42:22.040 --> 42:27.040]  This year it did feel a little bit better. I feel like things were open maybe a smidge later
+[42:27.040 --> 42:30.920]  You know restaurants were maybe a little bit more
+[42:32.200 --> 42:38.680]  Accommodating but overall, yeah. All right. So the late-night thing aside, right? I get it. It's it's it's not a late-night city
+[42:38.680 --> 42:43.880]  Okay, I'm talking lunch on a weekday at a you know, reasonable time. Yeah, I'd say around one o'clock
+[42:44.600 --> 42:46.600]  130
+[42:46.960 --> 42:50.280]  My wife Amy and I went for lunch with a
+[42:50.800 --> 42:56.000]  Friend of the show Paul Paul kafassas. This was actually the day of my live show. We went to a cafe
+[42:56.000 --> 43:02.160]  Where are we stressed out? We were we've been before and I know they have just you know, the food is okay
+[43:02.160 --> 43:04.160]  And you know, they've they've good coffee
+[43:04.720 --> 43:08.880]  And we place our order and I can't eat a lot before the show. I
+[43:09.680 --> 43:14.640]  You know that so I just got I wanted to get just a bagel with cream cheese
+[43:16.200 --> 43:20.320]  Like we're out of bagels or no, I wanted an onion bagel or everything big
+[43:20.320 --> 43:25.440]  I wanted an everything bagel with cream cheese, and they said we're out of everything bagels. I said, all right
+[43:25.440 --> 43:28.200]  How about just a plain bagel and then they said we're out of bagels
+[43:31.600 --> 43:35.520]  You tell me that first and then they're like, well we have English muffins and I was like fine
+[43:35.520 --> 43:37.960]  I'll take an English muffin and I like do you still want the cream cheese?
+[43:37.960 --> 43:42.380]  I've never put cream cheese on an English muffin in my life, but I thought sure that's fine
+[43:43.840 --> 43:48.960]  Amy got a like a panini. I forget what Paul got but
+[43:49.760 --> 43:52.800]  And then they gave us I paid we got our beverages
+[43:52.800 --> 43:59.800]  And they have outdoor seating and it was a beautiful day. So why not sit out outdoors right outside their door?
+[43:59.800 --> 44:01.800]  They gave us like a little
+[44:02.240 --> 44:05.520]  Placard that's had like a number on it like 57, right?
+[44:06.080 --> 44:09.680]  Like a little tent like a little tent that said 57 on both sides
+[44:10.000 --> 44:16.240]  Now I've been at places that give you something like that before and every other place I've ever been where you get something like that
+[44:16.400 --> 44:20.880]  You take that placard you put it on your table and then when your orders ready
+[44:20.880 --> 44:25.320]  Somebody picks it up and then they look around for number 57 and then they drop it
+[44:25.320 --> 44:28.980]  They take the food to table 57 and then they take the little placard away
+[44:29.720 --> 44:34.340]  Is that your understanding of how such a thing works? Yeah in theory that is how it's supposed to work
+[44:34.480 --> 44:38.860]  Yeah at this establishment. They quote have no table service
+[44:39.560 --> 44:45.160]  So like an hour after we had placed our 45 minutes, maybe after we'd placed our order
+[44:45.160 --> 44:48.080]  I went back in to check and they're like, oh, yeah, we've been calling you
+[44:48.080 --> 44:50.080]  from inside
+[44:50.920 --> 44:54.200]  Right. It's just sitting on a counter behind the counter and I
+[44:56.840 --> 45:04.240]  And I said, well, why did you give me why did you give me this placard and they said so you'd know you were order 57
+[45:07.960 --> 45:12.920]  Amy went out. Okay, Amy went out on I think maybe it was Monday. I forget but I wasn't with her
+[45:12.920 --> 45:17.960]  She went out for lunch and it she did get table service
+[45:17.960 --> 45:19.040]  I mean, you know
+[45:19.040 --> 45:24.920]  She placed an order and her food came and it came an hour and 15 minutes after she ordered
+[45:25.760 --> 45:31.040]  I mean, it's just really really bizarre and and again last year
+[45:31.040 --> 45:33.120]  I was willing to cut some slack of we weren't ready
+[45:33.120 --> 45:38.160]  Although they have you would think that with a giant convention center, there would be other large
+[45:38.760 --> 45:40.760]  conventions throughout the year
+[45:40.760 --> 45:48.720]  But you would just think hey, okay this WWDC one we're going to be busy and there there seems to be no
+[45:50.120 --> 45:51.800]  No awareness of that
+[45:51.800 --> 45:57.020]  So like just getting a bite to eat like for lunch when you're might be in a bit of a rush
+[45:57.680 --> 46:01.240]  Or maybe if you're not even in a rush because you have somewhere to go
+[46:01.760 --> 46:08.040]  You're you're kind of want your food quickly because you haven't eaten all day and it's already close to two, you know
+[46:08.040 --> 46:09.680]  And now you're starving
+[46:09.680 --> 46:11.680]  Yeah, and you don't get that in San Jose
+[46:12.860 --> 46:16.600]  no, and I'm I'm hopeful that maybe the
+[46:17.340 --> 46:19.340]  Lunch crowd will maybe
+[46:19.520 --> 46:21.480]  Kick it up a notch
+[46:21.480 --> 46:25.960]  Presuming that there is a WWDC in 2019, but it's a problem that I feel like
+[46:26.800 --> 46:30.560]  Like I just don't I just don't know. I feel Apple Apple is
+[46:31.760 --> 46:35.400]  neurotic enough to put you know banners all over the city and
+[46:35.400 --> 46:41.560]  Really like shut down streets and things like that and I'm like I would think that they would also have somebody
+[46:41.720 --> 46:47.080]  Coordinating with the restaurant industry and being like hello you stand to make thousands of dollars
+[46:47.320 --> 46:52.200]  Maybe hundreds of thousands of dollars if you staff your restaurant correctly
+[46:52.280 --> 46:55.920]  Maybe we'll even put it in a like list of great places to go
+[46:56.200 --> 47:02.160]  But you need to actually stay open and I'm like, this is what I was hoping for last year and it didn't materialize
+[47:02.160 --> 47:07.960]  I'll just gonna I'm just gonna make the plea every year until it actually happens because there there are good restaurants in San Jose
+[47:07.960 --> 47:10.480]  They just they don't function for
+[47:11.120 --> 47:13.120]  5,000 attendees
+[47:15.080 --> 47:20.960]  So last thing before we get into the actual details of the announcements from last week just the keynote itself
+[47:22.080 --> 47:28.960]  They staged it very differently. I don't yeah, I think that they oriented the big room differently
+[47:28.960 --> 47:32.720]  but it certainly was a a much wider and
+[47:33.240 --> 47:39.680]  Less deep and that terms of like the last row was closer to the stage than usual
+[47:40.840 --> 47:42.640]  and
+[47:42.640 --> 47:47.560]  Like especially I'm not quite sure because again that I was only at one before so I'm not quite sure
+[47:48.120 --> 47:53.600]  Well, I don't quite remember what it was like last year, but I certainly remember the setup in
+[47:53.600 --> 48:01.240]  In Presidio as Apple called the top floor of Moscone West which was the same every year that I could remember
+[48:01.680 --> 48:03.680]  But it was super deep
+[48:03.680 --> 48:05.680]  Right. It's a deep
+[48:05.760 --> 48:09.500]  Theater it is not that wide. It's only like three sections wide
+[48:10.480 --> 48:15.100]  And very very deep and so like if you were in the back of Presidio
+[48:15.400 --> 48:22.520]  You really couldn't see the stage you had to rely on the projectors that they would place, you know at certain points
+[48:22.520 --> 48:29.000]  You know like halfway back or two-thirds back whereas this was super wide and they had like entirely new
+[48:31.040 --> 48:32.640]  Screen technology
+[48:32.640 --> 48:37.740]  Yeah, like it was like Panavision. Oh my god, like super super high-res
+[48:38.640 --> 48:40.600]  super bright
+[48:40.600 --> 48:44.680]  Very sharp and it went edge to edge in this and well not quite
+[48:44.680 --> 48:48.000]  I mean it but but effectively went edge to edge in this very wide
+[48:48.000 --> 48:53.920]  Room where people on the sides who maybe couldn't see the speakers on stage very well
+[48:53.920 --> 49:00.120]  I still had a big bright screen in front of them really an incredible staging. I mean, it really was impressive
+[49:00.640 --> 49:01.640]  It was gorgeous
+[49:01.640 --> 49:05.300]  And I really I appreciated how they used we should say, you know
+[49:05.300 --> 49:10.800]  This big giant wide screen was actually three screens that were all able to be controlled independently
+[49:11.320 --> 49:14.900]  And I really appreciate how I appreciated how they used it, right?
+[49:14.900 --> 49:19.720]  They didn't just blow up and stretch everybody or throw the same image up on all three screens
+[49:19.720 --> 49:23.400]  They were really using the width right which watching the keynote
+[49:23.400 --> 49:28.080]  I don't know if you've gone back and actually watched Apple's recording of it. No, it's a little weird because
+[49:28.600 --> 49:29.760]  the
+[49:29.760 --> 49:36.560]  Recording focuses mostly on the center panel on the person on stage and in some ways like the people who are watching the recording from
+[49:36.560 --> 49:42.980]  Home really didn't get how cool the staging the setup was because you only see it like occasionally on the side
+[49:42.980 --> 49:45.800]  I would I was re-watching like the Apple Books
+[49:46.000 --> 49:47.400]  presentation and I'm
+[49:47.400 --> 49:53.200]  They're like and we call it Apple Books and I was waiting for the Apple Books to appear above the speaker's head and I was
+[49:53.200 --> 49:57.000]  Like where is it and then they cut to a different angle and it was over on one of the right hand
+[49:57.260 --> 50:01.360]  Panels right and it's like big beautiful font and I'm like, oh, okay. That makes sense
+[50:01.360 --> 50:04.880]  Well the one on the far on the right and the one on the left were the same, right?
+[50:04.880 --> 50:09.040]  Yes, and so if you're in the middle you could choose whether you want to look to the right or look to the left
+[50:09.040 --> 50:13.560]  But if you were on the right or left, you'd see the one right in front of you the right one and the center one
+[50:13.560 --> 50:14.320]  But you're right
+[50:14.320 --> 50:20.320]  It was almost like a two-screen experience like in the only real way to replicate it at home would be some kind of synchronized
+[50:21.040 --> 50:28.160]  Playback where you're like watching the main thing on your TV and have like an iPad next to you synchronized playing the secondary screen
+[50:29.480 --> 50:35.360]  And and like you said like being like Panavision or something. It was this incredible aspect ratio like super
+[50:35.360 --> 50:41.440]  I don't know what the actual aspect ratio is. I'd love to know but it was at least like it's seemingly like three to one
+[50:41.440 --> 50:43.520]  I mean like get your measure app out
+[50:44.280 --> 50:50.600]  And I asked and and so like among little things like they obviously were planning that all along but so for like the opening video
+[50:50.600 --> 50:53.880]  We're like a whole bunch of like well-known developer types
+[50:55.280 --> 50:57.960]  Stream in yeah like that in there
+[50:57.960 --> 51:03.840]  You know parodying parodying a David Attenborough video
+[51:03.960 --> 51:08.380]  There's some debate over whether the narrator actually was David Attenborough or not
+[51:08.720 --> 51:13.720]  And I never I never got to ask anybody and I wasn't the impression that it might have been
+[51:14.160 --> 51:19.720]  But I don't know it was either Attenborough or Stephen Fry. All right was the was what I was getting off Twitter
+[51:19.720 --> 51:21.480]  Yeah, I should have asked somebody
+[51:21.480 --> 51:23.480]  if only I
+[51:23.480 --> 51:25.480]  Had connections
+[51:26.040 --> 51:31.580]  Connections and it spent time backstage with Greg Joss react for 45 minutes
+[51:35.280 --> 51:41.360]  But it's really incredible hearing about it did you see you did you see the section where the middle screen went out
+[51:43.160 --> 51:46.360]  No, I don't remember that so
+[51:46.960 --> 51:50.480]  During the section and I I don't have my notes in for me
+[51:50.480 --> 51:54.700]  so I will not remember her name, but there was a blonde woman who was demoing the
+[51:55.600 --> 51:58.400]  Memoji me emoji. What's a clone me emoji, right?
+[51:58.880 --> 52:03.860]  During her me emoji demo the middle screen flickered it like glitched
+[52:04.400 --> 52:09.760]  Twice and then unlike the third glitch it went out. It was out black
+[52:10.440 --> 52:14.520]  I don't know if she knew that because she wasn't facing the screen
+[52:14.520 --> 52:21.720]  But it was clearly out and you're the only things you could see were on the sides and I was like
+[52:21.720 --> 52:27.000]  Oh, this is gonna be exciting because there was clearly a lot of keynote to go and the middle screen went out
+[52:28.280 --> 52:30.280]  What I've heard
+[52:30.320 --> 52:33.000]  Is that the the backstage?
+[52:33.880 --> 52:37.520]  technologists who were there, you know to to you know
+[52:38.040 --> 52:42.480]  The the the red alert team that something's gone wrong, you know to fix this
+[52:42.480 --> 52:44.480]  that
+[52:45.200 --> 52:52.480]  Within 90 seconds of it going on the fritz and the whole middle screen went out. They diagnosed it as a bad fiber optic cable
+[52:53.920 --> 52:59.540]  Identified exactly which cable it was and swapped it out with a replacement cable in 90 seconds
+[52:59.540 --> 53:05.160]  And and it was back on fully operational by the time of her memo G demo was over Wow
+[53:06.000 --> 53:10.880]  That's a that's what I call like it's sometimes I know that it's technically not televised
+[53:10.880 --> 53:14.720]  So it can't be eligible for the Emmys but like those kinds of crews
+[53:14.720 --> 53:20.000]  I feel like deserve special technical awards for just making all that stuff happen behind the scenes and happen so quickly
+[53:20.280 --> 53:25.200]  it's I from what I understand it could not possibly have been diagnosed and
+[53:26.400 --> 53:31.440]  Fixed in less time like it it was really like the equivalent of like, you know
+[53:31.440 --> 53:35.100]  Like a Indy car racing where you come in for a pit stop and it's like you cannot change
+[53:35.520 --> 53:37.760]  The tires on a car any faster than that
+[53:37.760 --> 53:43.960]  And it really would have been an awkward moment see like you didn't even notice like it just sort of I think the way it
+[53:43.960 --> 53:48.040]  came across if you didn't see the glitch part and and it was just sort of like
+[53:50.040 --> 53:53.440]  Just imagine in any sci-fi movie where like
+[53:55.040 --> 54:01.920]  The the cheesy sci-fi movie where the bad guy takes over the city's television and before
+[54:01.920 --> 54:07.600]  He before he comes on screen. There's some kind of like a little sizzle of pixels
+[54:08.800 --> 54:10.880]  You know just like a quick
+[54:11.760 --> 54:17.360]  Glitch and then you get the deep, you know voice of Jeffrey rush or whomever be like, yeah, I have control now
+[54:17.360 --> 54:19.360]  So the other thing I heard
+[54:20.640 --> 54:26.080]  Was that the way that those that those screens worked was they were made up of individual
+[54:27.040 --> 54:29.440]  Component displays that were relatively small
+[54:29.440 --> 54:37.440]  Let's say roughly the size of like an iPad so it was each like imagine how many iPad displays you would need
+[54:38.240 --> 54:45.040]  To cover all of that. Yeah. Yeah, so and to get it all working behind the scenes there
+[54:45.040 --> 54:47.680]  They had 22 miles of Ethernet cable
+[54:49.600 --> 54:51.600]  Miles miles
+[54:51.600 --> 54:59.040]  Of course 22 miles miles 22 miles of Ethernet cable. It's it was really and it looked like it
+[54:59.040 --> 55:03.440]  I mean that seems mind-boggling but it really it it really was worth it. It was
+[55:05.040 --> 55:06.880]  Really impressive display technology
+[55:06.880 --> 55:14.240]  I kind of wanted to like after the keynote storm the stage and like get my face like six inches away from it to just
+[55:14.240 --> 55:19.600]  See what it looks like up close like. Mm-hmm. It really seemed impossible really it was very impressive
+[55:19.600 --> 55:21.600]  Part of the the keynote
+[55:22.160 --> 55:26.240]  Alright, let me take a break here and thank our next sponsor. It's our good friends at Squarespace
+[55:26.800 --> 55:29.200]  Look next time you have is the bottom line
+[55:29.200 --> 55:34.320]  I'll just skip to the end next time you have a website that you need to build or if you have an old website that you
+[55:34.320 --> 55:37.680]  Want to replace with a new website look to Squarespace first?
+[55:38.320 --> 55:42.720]  They have everything you need to host design
+[55:43.440 --> 55:44.640]  update
+[55:44.640 --> 55:46.640]  a website
+[55:46.640 --> 55:52.800]  They do the hosting the actual hosting you don't have to do software updates. You don't have to manage an operating system
+[55:52.800 --> 55:58.880]  You don't have to worry about security updates. All of that stuff just happens automatically behind the scenes. They have
+[55:59.520 --> 56:01.520]  templates to choose from
+[56:01.520 --> 56:09.600]  And they're professionally designed. They're really good-looking they scale perfectly from every device from the phone to a giant
+[56:10.160 --> 56:12.160]  27-inch 5k display
+[56:12.160 --> 56:19.920]  They have customization where you can add components to your website so you can build whatever type of website
+[56:19.920 --> 56:26.080]  You need are you building a store where you have a catalog of items and you're going to sell them and you want to take?
+[56:26.080 --> 56:30.480]  People's credit cards and you want to have orders placed and stuff like that. They've got it
+[56:30.480 --> 56:35.680]  Do you want to start a blog you can do that? Do you want to host a podcast you can do that?
+[56:35.680 --> 56:43.120]  Do you want to host a podcast you can do that? Do you want to have a store and a podcast on one website?
+[56:43.600 --> 56:45.120]  You can do that
+[56:45.120 --> 56:47.760]  All of it is built in a soup to nuts
+[56:48.800 --> 56:51.840]  And it's super great interface. It's not like a coding interface
+[56:51.920 --> 56:59.920]  It is really an approachable humane interface for normal people who want to look at the interface and have the interface sort of
+[56:59.920 --> 57:06.100]  Define. Oh, I get it. Here's how you use it. I get it. It's not just like a jumble of controls or something like that
+[57:07.380 --> 57:09.060]  It really is
+[57:09.060 --> 57:12.820]  Just a fantastic service and just the easiest way that I'm aware of
+[57:13.140 --> 57:19.860]  To build design update and keep going with a website so you can start building your own website today at squarespace.com
+[57:20.980 --> 57:27.100]  Enter the offer code talk show just talk show know the at checkout and you'll get 10% off
+[57:27.100 --> 57:33.180]  So you can buy a whole year of service at once so you can get 10% off an entire year by using that code
+[57:35.660 --> 57:39.260]  It's really a great service so start your free trial today again
+[57:39.260 --> 57:45.700]  You can just get a free trial at squarespace.com slash talk show and when you do decide to sign up just remember that offer code
+[57:46.340 --> 57:53.220]  Head to squarespace.com slash talk show and use that offer code talk show at checkout. So that's squarespace.com slash
+[57:53.980 --> 57:55.900]  talk show
+[57:55.900 --> 58:00.940]  Built my wedding website on squarespace. It's great. I I think you mentioned that the last time you were on
+[58:00.940 --> 58:05.580]  Oh, did I really that's funny. I think you did. I think you did and you were happy with it
+[58:06.180 --> 58:13.420]  Yeah, I really was and I I didn't keep the subscription up after the after the finish just because I you know
+[58:13.420 --> 58:14.580]  The wedding was over
+[58:14.580 --> 58:18.220]  but I kind of I do want to I kept the domain name and I kind of do want to like
+[58:18.440 --> 58:23.940]  Do do a retrospective and be like this is what happened. Here are all the crazy photos. I could be wrong
+[58:23.940 --> 58:26.140]  I could be wrong and if I am I apologize
+[58:26.140 --> 58:29.780]  But I think that the last time you were on or at least the last time you were on that we talked about it
+[58:29.780 --> 58:35.640]  You were on the cusp of getting married and now you're married. Yeah, I think that's right because I think it was right before well
+[58:35.900 --> 58:37.900]  Congratulations. Thank you very much
+[58:40.300 --> 58:43.700]  All right, that's I guess we could just go in Apple's order
+[58:43.700 --> 58:47.140]  I want to see what we can mow through in the next hour or so. Oh boy
+[58:48.340 --> 58:50.340]  Announcements, right? What's new iOS?
+[58:50.340 --> 58:54.300]  Of well, did you hear that it's faster
+[58:55.260 --> 59:02.780]  So I have it. I don't have it on my main phone. I have it on my year-old iPhone 7 interesting
+[59:03.940 --> 59:10.540]  Because I again we were talking earlier in the show about installing the WWDC beta on on phones. It's
+[59:11.260 --> 59:15.900]  Summer is just not the time for me to have a phone that I can't depend on like if anything
+[59:15.900 --> 59:23.220]  It's like the worst time because I'm it's the most often traveling and I'm doing you know, it's like my only connection to the world
+[59:24.700 --> 59:26.020]  but I
+[59:26.020 --> 59:31.140]  Inevitably end up hearing that like beta 3 is really stable and switch to the betas at some point
+[59:31.140 --> 59:38.220]  But I'm really resistant this year because I really feel like iOS 11 didn't really hit its stride until
+[59:38.660 --> 59:40.660]  11.4 and it came out a week before
+[59:41.260 --> 59:42.300]  WWDC
+[59:42.300 --> 59:49.100]  Like I think 11.4 is one of the best releases of iOS ever. It is very solid
+[59:49.100 --> 59:54.780]  It's super solid it delivers all this stuff that is sort of like a you know, file it under finally
+[59:54.780 --> 59:59.520]  You know like I message in the cloud and stuff like that airplay to airplay to
+[01:00:00.820 --> 01:00:08.020]  All of this stuff and it's like it just seems criminal to have one week with the perfect version of iOS and then switch to
+[01:00:08.020 --> 01:00:13.780]  Immediately switch to a beta with a bunch of broken stuff. Um, but I have it on the
+[01:00:14.620 --> 01:00:16.380]  iPhone 7
+[01:00:16.380 --> 01:00:20.540]  And it's it seems really nice. It certainly doesn't seem slow
+[01:00:20.540 --> 01:00:24.820]  I mean it really you know, I don't think that that was any I don't think that was bullshit
+[01:00:26.160 --> 01:00:29.100]  No, I think they did a lot of a lot of work under the hood and
+[01:00:30.060 --> 01:00:35.060]  Unlike you I threw caution to the wind and I put it on the iPhone 10. Did you do it while you read?
+[01:00:35.060 --> 01:00:40.260]  WWDC. Oh, yeah, I did. I absolutely did. All right, let me ask you how how how did you do that?
+[01:00:40.860 --> 01:00:42.940]  How did I install it? Yes
+[01:00:43.820 --> 01:00:45.820]  and Monday I
+[01:00:46.700 --> 01:00:50.760]  Put all my electronics at my hotel and while I was eating lunch, I went and installed it
+[01:00:50.760 --> 01:00:53.560]  So you did it over the Wi-Fi at the hotel? Yeah
+[01:00:54.780 --> 01:00:57.200]  Yeah, I did it over the Wi-Fi at the hotel and I did it
+[01:00:57.860 --> 01:01:02.320]  What at a point when I knew people weren't gonna be at the hotel? I think that was the trick, right?
+[01:01:02.320 --> 01:01:07.360]  You can't do it in the evenings and you can't do it in the mornings and you can't do it at WWDC, right?
+[01:01:07.360 --> 01:01:09.260]  Well, I did do it at WWDC
+[01:01:09.260 --> 01:01:13.800]  But for those of you who are wondering why is John confused about how to install an iOS beta?
+[01:01:14.140 --> 01:01:19.460]  It's because the only place I didn't even stress test my hotel's Wi-Fi
+[01:01:19.460 --> 01:01:25.840]  So maybe I should have and maybe you know, I just assumed that hotel Wi-Fi was unusable was garbage 2 gigabyte download
+[01:01:26.580 --> 01:01:31.300]  but for years now a couple of years ago Apple switched to a
+[01:01:31.300 --> 01:01:34.060]  a really nice way of getting betas on
+[01:01:34.520 --> 01:01:40.460]  iOS devices where you don't really download the whole OS what you do is you log into your developer account at the
+[01:01:40.820 --> 01:01:46.900]  Developer.apple.com website and what you download is a provisioning profile. It's just a profile
+[01:01:47.680 --> 01:01:54.380]  probably measured in kilobytes not even megabytes just kilobytes that and then you approve it with your device passcode and
+[01:01:54.380 --> 01:02:00.980]  And then you while you have that profile installed your phone will look for software updates from the beta server
+[01:02:00.980 --> 01:02:05.580]  It's not just the main servers and then you download it's just like a regular over-the-air software update
+[01:02:07.140 --> 01:02:08.300]  And I you know
+[01:02:08.300 --> 01:02:15.140]  it's not like I forgot how to use iTunes to download an image to my Mac and then the trick with option and and
+[01:02:15.420 --> 01:02:20.860]  You click one of the buttons and iTunes to do like a wipe and restore and the other option is to do an upgrade
+[01:02:20.860 --> 01:02:26.820]  And when you hold down the option key, you can pick the IPSW file from the file system
+[01:02:26.820 --> 01:02:30.660]  I vaguely remembered it, but I hadn't done it in so long and
+[01:02:31.500 --> 01:02:38.540]  The the catch is Apple has terrific Wi-Fi throughout the Convention Center just really world-class Wi-Fi
+[01:02:38.620 --> 01:02:40.620]  But they don't let you
+[01:02:40.900 --> 01:02:44.260]  download the over-the-air software updates over the Wi-Fi and
+[01:02:44.380 --> 01:02:49.780]  With the good reason that they're worried that that would saturate the Wi-Fi and it wouldn't be good Wi-Fi
+[01:02:49.780 --> 01:02:54.260]  So you have to use Ethernet and they do have kiosks with Ethernet
+[01:02:56.180 --> 01:02:58.580]  You know located throughout the Convention Center
+[01:02:59.580 --> 01:03:04.180]  Yeah, but that's a pain to try and hook up to an iOS device. I don't know his name
+[01:03:04.180 --> 01:03:08.140]  I don't think he knew who I was but he was very very kind where I thought I was
+[01:03:08.660 --> 01:03:11.340]  up Schitt's Creek without a paddle because I
+[01:03:11.900 --> 01:03:17.380]  Have a 2014 MacBook Pro and which I've smugly smugly been
+[01:03:17.380 --> 01:03:22.700]  You know bragging about because my keyboard works with a hundred percent success
+[01:03:23.820 --> 01:03:28.660]  You guys here I am. I'm sprinklings sand over my keyboard right now. Guess what still works
+[01:03:29.340 --> 01:03:31.340]  Just to be a smug bastard
+[01:03:31.700 --> 01:03:33.180]  but their
+[01:03:33.180 --> 01:03:35.180]  their kiosks had
+[01:03:35.340 --> 01:03:38.460]  regular Ethernet adapt, you know the plugs and
+[01:03:38.460 --> 01:03:47.660]  And USB C C adapters USB C plugs and I don't have USB C and I don't have a regular Ethernet plug and
+[01:03:47.780 --> 01:03:54.580]  I used to for years carry a the USB, you know, the old-school USB to
+[01:03:55.140 --> 01:03:57.140]  Ethernet adapter. Mm-hmm
+[01:03:58.100 --> 01:04:02.700]  You know, which Mac users had needed have needed for years. I couldn't find it in my backpack
+[01:04:02.700 --> 01:04:07.220]  I don't know where it is at some point. I lost it and I thought I was I thought I was screwed
+[01:04:07.220 --> 01:04:13.980]  And I was complaint a friend happened to walk by I said, hey, you don't happen to have an adapter. Do you?
+[01:04:16.020 --> 01:04:21.940]  And he said no, but somebody listened and they it ends up it's it's sort of my laziness slash
+[01:04:22.580 --> 01:04:24.580]  Not so great eyesight anymore
+[01:04:24.620 --> 01:04:29.720]  One of the plugs that I thought was USB C at the kiosk was the Thunderbolt 2 plug
+[01:04:29.720 --> 01:04:37.280]  Which I do have which you have right and so I did that and and did install it
+[01:04:37.280 --> 01:04:40.760]  I'm the thing at the at the kiosk. Got your betas the old-fashioned way
+[01:04:41.160 --> 01:04:47.600]  Yeah, I was seriously thinking like should I like set up my other phone as a tethering thing and just do it over Wi-Fi
+[01:04:50.600 --> 01:04:55.680]  Yeah, well thankfully you didn't have to do it that way but no I I did the over-the-air update from my hotel
+[01:04:56.320 --> 01:04:58.320]  And I did it on my 10
+[01:04:58.320 --> 01:05:02.880]  Specifically because I had my 8 plus with me as well and I was just like well
+[01:05:02.880 --> 01:05:05.440]  I have my 8 plus and I have a SIM removal tool
+[01:05:05.440 --> 01:05:11.840]  So if I completely bork my 10 then at least I still have a perfectly functioning phone on iOS 11.4
+[01:05:13.160 --> 01:05:17.140]  but I you know, I I am a creature of like
+[01:05:17.920 --> 01:05:23.020]  Enjoyable niche features and memo G was just weird enough that I was like, well, yes
+[01:05:23.020 --> 01:05:23.280]  Of course
+[01:05:23.280 --> 01:05:27.260]  I want to try this and group FaceTime and all of that like these are iOS
+[01:05:27.260 --> 01:05:32.580]  These are these are iPhone 10 only features and if I install the beta on a different phone
+[01:05:32.880 --> 01:05:37.820]  Then it just means that I'm gonna have to install it on my iPhone 10 sooner or later if I want to test these features
+[01:05:37.960 --> 01:05:39.760]  So why not just install it now?
+[01:05:39.760 --> 01:05:45.080]  Get it over with and then have the other phone as my like safe phone and not not panic about it
+[01:05:45.080 --> 01:05:47.860]  And I haven't regretted it. Yeah, and I
+[01:05:48.600 --> 01:05:52.660]  It's really hard to test on an iPhone 7 for me
+[01:05:52.660 --> 01:06:00.240]  Like my my pattern in recent years has always been installed the first beta on my one-year-old iPhone
+[01:06:00.360 --> 01:06:02.260]  The most recent one that's not my main one
+[01:06:02.260 --> 01:06:02.720]  and
+[01:06:02.720 --> 01:06:09.440]  As soon as I verify that it seems good enough pop my sim into there and then use it use that as my main phone
+[01:06:09.440 --> 01:06:12.960]  And then if anything really goes wrong, I can just go back to my newer phone
+[01:06:14.400 --> 01:06:20.440]  And I I can't I can't bring myself to do it with this because I've and I'm not surprised by this
+[01:06:20.440 --> 01:06:24.920]  But I'm so spoiled by the iPhone 10 and face gestures
+[01:06:25.080 --> 01:06:29.740]  and the gesture the gesture it's all driving me nuts like as much as
+[01:06:30.240 --> 01:06:32.240]  When I first got the iPhone 10
+[01:06:32.240 --> 01:06:36.900]  It was kind of hard to adjust to the gestures and not having a home button to click etc, etc
+[01:06:37.480 --> 01:06:44.840]  Going backwards and it's just to me. It's just verifies how successful the iPhone 10 design is it is just maddening
+[01:06:45.320 --> 01:06:47.480]  I had completely forgotten about this
+[01:06:47.480 --> 01:06:53.840]  So on the iPhone 10 when you let's see you send me an iMessage and I look at my lock screen and there's the little
+[01:06:54.120 --> 01:06:55.360]  notification
+[01:06:55.360 --> 01:06:59.000]  and it it'll tell me once I look at the phone it'll
+[01:06:59.400 --> 01:07:06.280]  It opens it up and tells me what the message says and then I can just tap the message to go to messages
+[01:07:06.280 --> 01:07:10.480]  And I'm in there. You can't do that with the iPhone 7 you have to unlock the phone
+[01:07:10.480 --> 01:07:16.200]  You've got to like go to the home button, but then you can't tap a particular message to jump to that message it
+[01:07:16.200 --> 01:07:18.200]  it it
+[01:07:18.480 --> 01:07:24.280]  It's impossible to go back like I'm and I can use it to just poke around and examine the features
+[01:07:24.280 --> 01:07:30.320]  But it is it is so maddening and I'm sorry, but I want some of these features like just before this show started
+[01:07:31.080 --> 01:07:33.080]  I
+[01:07:33.960 --> 01:07:37.160]  Yesterday I posted something about Swift and some you know
+[01:07:37.160 --> 01:07:44.160]  Just some sort of pushback on Swift as the be all end all language for all uses and and a very smart friend of mine
+[01:07:44.160 --> 01:07:46.520]  Sent me a series of about five or six
+[01:07:48.240 --> 01:07:54.240]  iMessages and I love that they show up in a single stack on the lock screen on this phone. Yeah
+[01:07:55.160 --> 01:08:00.240]  But I the fact that I can't just press hard on them to jump to the thread messages
+[01:08:00.240 --> 01:08:02.240]  It makes this phone feel like it's broken
+[01:08:04.120 --> 01:08:08.760]  Well, you clearly have only one choice and that's to install the beta on your iPhone 10
+[01:08:08.760 --> 01:08:14.680]  Yeah, please don't people who are listening. I'm like, please don't do that. Like we're we're crazy people. Yeah
+[01:08:14.680 --> 01:08:17.560]  Yeah, you should wait for the public beta at least. Yeah
+[01:08:18.680 --> 01:08:23.620]  All right, so features memo G. How do you like them emoji? I really like. All right, so here's the thing
+[01:08:24.520 --> 01:08:27.200]  Memoji I'm like, all right. This is a gimmick animoji
+[01:08:27.200 --> 01:08:30.880]  I thought were really cute and then I never used them just because I was just like, all right, whatever
+[01:08:30.960 --> 01:08:35.680]  They're they're fun, but I don't usually record videos with sound if I'm gonna record videos at all
+[01:08:35.680 --> 01:08:40.960]  But there's something about creating virtual avatars of yourself
+[01:08:40.960 --> 01:08:48.160]  especially when they're cute like the memo G are what I really appreciate about what Apple's done for this is it's not just like
+[01:08:48.400 --> 01:08:55.440]  It's not the iOS 11 notes app with it's like five colors in the color picker, right? Yeah, like the memo G are
+[01:08:56.240 --> 01:09:00.580]  Deeply customizable and to an almost shocking extent and they show up, you know
+[01:09:00.580 --> 01:09:05.520]  You create one and it's gender neutral to start so you can choose whatever hair you want
+[01:09:05.520 --> 01:09:10.880]  whatever you can you know make like purple skin if you want to just make an alien or make something crazy and
+[01:09:10.960 --> 01:09:16.040]  The hair like this is the thing that got me is that the most of it is just like it's a fun
+[01:09:16.040 --> 01:09:16.600]  You know
+[01:09:16.600 --> 01:09:22.280]  It's a fun advancement of their animoji tech where it's just using the RIR sensor and the whole face ID front camera to do
+[01:09:22.280 --> 01:09:25.480]  Some really cool stuff, but they have made such
+[01:09:26.200 --> 01:09:33.160]  gigantic improvements in the physics engine that they're using for rendering like they the hair is the thing that freaks me out the most
+[01:09:33.160 --> 01:09:40.320]  And I posted like I did just like a cute little karaoke video right after I got back from WWDC
+[01:09:40.660 --> 01:09:47.960]  Where I was literally spinning the phone around well like trying to lip-sync to the closing song from Black Panther
+[01:09:47.960 --> 01:09:49.960]  Which is like a Kendrick Lamar song
+[01:09:49.960 --> 01:09:53.740]  And I'm like, I'm literally spinning the phone and there's no
+[01:09:54.280 --> 01:09:56.920]  Artifaction, there's no lag. There's no thing
+[01:09:56.920 --> 01:10:01.380]  The only thing that you notice is the fact that as I'm spinning and like bobbing my head
+[01:10:01.380 --> 01:10:08.120]  You can see the like shoulder length hair like flowing and bobbing and like moving with the physics of not just the phone
+[01:10:08.120 --> 01:10:13.400]  But me and it was just it was a completely like it was a trip. It was a complete trip
+[01:10:13.860 --> 01:10:20.420]  and the more I keep on you can make a whole bunch of these and it's really easy to like duplicate them and add features and
+[01:10:20.420 --> 01:10:26.900]  Like sunglasses and nonsense like that and they're just it reminds me of when I first got my Nintendo
+[01:10:26.900 --> 01:10:32.300]  Wii and like I started just making tons of Miis, which obviously this will get you know compared to
+[01:10:32.880 --> 01:10:34.080]  But it's it's like that
+[01:10:34.080 --> 01:10:38.940]  It's like maybe you don't have just as much customization like Apple has wisely steered away from the like
+[01:10:39.380 --> 01:10:45.640]  Adjust your eyes one centimeter up or down. It's just kind of like here are our default selections that you can play with
+[01:10:46.520 --> 01:10:49.800]  But it I don't know. It's just it's really enjoyable
+[01:10:49.800 --> 01:10:51.760]  I spent a good like two hours
+[01:10:51.760 --> 01:10:58.080]  Messing around with memoji and I find that I'm stent that I'm actually sending them to people and maybe I'm sending them to people
+[01:10:58.080 --> 01:11:02.480]  because it's a new feature and it's like whatever but especially tying it in with like
+[01:11:03.180 --> 01:11:08.120]  With the camera on the on iMessage and then also tying it in with group FaceTime
+[01:11:08.120 --> 01:11:10.760]  Which is also like kind of a trip like I don't know
+[01:11:10.760 --> 01:11:17.080]  I feel like there are some actual use cases for this in a it just beyond like a fun gimmick
+[01:11:17.080 --> 01:11:20.020]  But like a actual yeah, let's let's play around with this
+[01:11:20.020 --> 01:11:26.100]  I saw something the other day on Twitter that really impressed me was and I don't know who this was
+[01:11:26.100 --> 01:11:28.460]  It was like I saw somebody retweeted the person who did it
+[01:11:28.460 --> 01:11:32.100]  But it was really good that they were just like got bored and decided to make
+[01:11:32.700 --> 01:11:34.700]  Harry Potter memoji
+[01:11:34.900 --> 01:11:38.700]  Just posted a whole bunch and but it's like even if they hadn't told me who it was
+[01:11:38.700 --> 01:11:44.700]  I would have instantly known, you know, it's like oh it was but it was so, you know like to me
+[01:11:44.700 --> 01:11:49.140]  That's pretty telling that it's expressive enough that you could like look at this image and be like, you know
+[01:11:49.140 --> 01:11:53.260]  Like if you're playing the memoji version of Pictionary, you'd be like Harry Potter
+[01:11:54.620 --> 01:11:57.020]  the Louis Mantilla made a
+[01:11:58.260 --> 01:12:02.080]  version of the Pixar inside-out poster with memoji's
+[01:12:02.980 --> 01:12:07.280]  The inside-out characters and that was great too. It's just they really do there
+[01:12:07.280 --> 01:12:12.840]  So there's a ton of options now, they're not as many as there should be like there no air pods option
+[01:12:12.840 --> 01:12:16.100]  They're a whole bunch of earrings option, but they're no air pods and I'm like, that's an odd choice
+[01:12:16.100 --> 01:12:23.660]  and they're you know, I know Darla bull is complaining about the fact there's no beard that's longer than like a
+[01:12:24.500 --> 01:12:30.860]  Like half an inch so there's still there's still some things that probably need to be worked out the beards in general are kind of
+[01:12:30.860 --> 01:12:31.980]  Just like lumps on the face
+[01:12:31.980 --> 01:12:33.980]  they don't have the same hair mechanics and
+[01:12:34.620 --> 01:12:38.400]  Because the memoji like in a vacuum having them be
+[01:12:39.020 --> 01:12:40.900]  Floating heads is not a bad thing
+[01:12:40.900 --> 01:12:46.780]  But when you apply them to group FaceTime chats or photos, that's when they get a little bit weird
+[01:12:46.780 --> 01:12:54.620]  especially if you have long hair on a memoji because the long hair like hangs down where the neck should be so that when you
+[01:12:54.620 --> 01:13:00.660]  Put it on an actual like an AR kind of body where it's like your body but the memoji's head with short hair
+[01:13:00.660 --> 01:13:06.100]  It looks fine. But with the shoulder length hair, it's like oh my neck is gone. My shoulders are gone
+[01:13:06.100 --> 01:13:10.980]  it just looks like a random floating head has taken it like like the
+[01:13:11.240 --> 01:13:16.460]  Haunted mansion ride where the ghost gets overlaid at the end. It kind of looks like that where you're like, that's weird
+[01:13:17.020 --> 01:13:22.700]  So I'm hoping like there's still some things to tweak with it, but I like it's gonna sell a lot of iPhone 10s
+[01:13:22.700 --> 01:13:24.220]  There's no question about that
+[01:13:24.220 --> 01:13:31.020]  Like this this is the feature to sell the iPhone 10 in the fall when they come out with like the iPhone 10 2 or whatever
+[01:13:31.020 --> 01:13:33.020]  right
+[01:13:33.020 --> 01:13:38.020]  Yeah to get people to upgrade to a what's it called
+[01:13:40.500 --> 01:13:42.500]  The notch a notch
+[01:13:44.860 --> 01:13:49.960]  Something with the front-facing camera array, yeah sensor face detection blah blah blah
+[01:13:51.020 --> 01:13:56.060]  No, it seems it seems really, you know, it it is gimmicky, but that doesn't mean it's bad
+[01:13:56.060 --> 01:14:02.060]  It might be a good gimmick that people actually use. Yeah, it's proof of concept of the tech the technology
+[01:14:02.060 --> 01:14:06.420]  Yeah, like it's they don't overtly say that like there's a our kit at work
+[01:14:06.420 --> 01:14:11.700]  But clearly there's a our kit at work like there is face detection. There's eye detection like right
+[01:14:11.700 --> 01:14:17.300]  There's a lot of stuff that's going on here and granted the front-facing camera is very advanced
+[01:14:17.300 --> 01:14:22.740]  But I mean I've said this from the beginning like the FaceTime front-facing camera to me
+[01:14:23.060 --> 01:14:24.720]  Yeah, it enables face ID
+[01:14:24.720 --> 01:14:30.840]  But what's really interesting about that technology is when it comes to the back camera not only how it's gonna improve photos
+[01:14:30.840 --> 01:14:34.180]  But how it's going to improve AR and I are kit. Yeah
+[01:14:35.940 --> 01:14:37.700]  Yeah, I you know
+[01:14:37.700 --> 01:14:41.060]  it's sort of jumping jumping away to big picture, but I
+[01:14:42.000 --> 01:14:49.360]  Really do think that where Apple is going with this. I've said this before but maybe not in a while, but basically
+[01:14:51.000 --> 01:14:57.620]  Where are they going? They're going in a direction where your phone knows where you are and where you're going
+[01:14:57.620 --> 01:15:01.540]  Mm-hmm, like in the way that okay. I know
+[01:15:02.140 --> 01:15:07.100]  Center City, Philadelphia pretty well. And so if you
+[01:15:08.500 --> 01:15:12.780]  You know put a bag over my head like the equivalent of putting me putting me in your purse
+[01:15:13.420 --> 01:15:18.820]  Or if I were an iPhone putting me in your purse or your pocket and then take me out
+[01:15:19.260 --> 01:15:21.820]  Right, like it wouldn't take me long
+[01:15:22.660 --> 01:15:24.580]  to figure out
+[01:15:24.580 --> 01:15:30.660]  Where we are, you know, like oh, I know that I know that I know that wah-wah. Okay, we're at you know
+[01:15:32.300 --> 01:15:35.420]  You know, we're broad and chestnut
+[01:15:38.060 --> 01:15:41.520]  You know, oh there's City Hall, okay, I got it I know where we are
+[01:15:42.460 --> 01:15:46.300]  Reoriented, right? It wouldn't take me long and the phone
+[01:15:47.300 --> 01:15:53.040]  should be able you know you soon enough meaning within a handful of years should be able to do all of that with a
+[01:15:53.040 --> 01:15:55.040]  combination of
+[01:15:55.720 --> 01:15:58.520]  GPS and camera and depth-sensing
+[01:16:01.680 --> 01:16:07.920]  You know it it just doesn't see it just seems like that's that's where it's all heading and that and
+[01:16:09.080 --> 01:16:13.680]  You know that your photos will be tagged and it won't just know where you were based on GPS
+[01:16:13.680 --> 01:16:16.020]  But it'll know exactly which way you were oriented
+[01:16:16.880 --> 01:16:20.000]  Mmm, that's interesting. I didn't even think about that. Yeah
+[01:16:20.000 --> 01:16:25.720]  It's like campus. Yeah, right. Well, and I think what's really interesting instead of that in terms of like well, no
+[01:16:25.720 --> 01:16:32.360]  No, it's not just the compass. But once it analyzes the actual picture, right and and if you're in a right
+[01:16:32.360 --> 01:16:37.160]  so if you're in a park and and you're taking a picture of a friend or a selfie and
+[01:16:37.560 --> 01:16:41.080]  It's mostly of you and it's mostly like green trees and grass
+[01:16:41.080 --> 01:16:46.800]  But there's a statue or a fountain in the background like in the way that if I knew the park you were in
+[01:16:46.800 --> 01:16:50.020]  You know, you know exactly which way you returned, right?
+[01:16:50.020 --> 01:16:55.140]  I would know where you if I'm familiar with the park, but the phone should be able to be familiar with everything everywhere
+[01:16:56.180 --> 01:17:02.220]  Collectively. Mm-hmm, you know, well in pulling it back to iOS 12 for a second. I think it's really interesting
+[01:17:02.220 --> 01:17:07.660]  You know Apple's been building its sort of underlying proactive technology since iOS 9 where it's like yeah
+[01:17:07.660 --> 01:17:11.660]  Your apps will kind of know like when when you're in the morning
+[01:17:11.660 --> 01:17:17.300]  It'll suggest certain apps to you and they've they've gone away from that or they went away away from that a little bit with iOS
+[01:17:17.300 --> 01:17:23.380]  11 but with iOS 12 they're bringing it back in a big way with shortcuts and Siri suggestions and all of this this, you know
+[01:17:23.540 --> 01:17:24.700]  proactive
+[01:17:24.700 --> 01:17:25.900]  continuity type stuff
+[01:17:25.900 --> 01:17:33.700]  But what I think is really interesting about it because it's not like the the features themselves are not dissimilar to what Google is doing
+[01:17:34.020 --> 01:17:40.780]  On their technology, but the way that Apple's executing it is the stuff that makes me really excited the fact that like, you know
+[01:17:40.780 --> 01:17:46.200]  People people were seeing on the beta a suggestion to like go into do not disturb mode
+[01:17:46.620 --> 01:17:51.820]  Being like oh your lunch with Kathy sounds important and lunch with Kathy was not on a calendar invite
+[01:17:51.820 --> 01:17:55.340]  It was in iMessages and people were like, whoa, what's going on there?
+[01:17:55.900 --> 01:18:00.000]  And doing some digging into it and realizing this is entirely done locally
+[01:18:00.000 --> 01:18:07.380]  This is the phone like this is the secure enclave being like well, you've allowed me access locally to your things
+[01:18:07.380 --> 01:18:13.220]  so I'm going to locally look at your iMessage and locally look at your calendars and locally look at what direction you are in a
+[01:18:13.220 --> 01:18:19.140]  Park and then give you suggestions based on that and those suggestions aren't necessarily synced through iCloud or anything like that
+[01:18:19.340 --> 01:18:24.220]  They never go up to the cloud. So Apple has found a way to like this
+[01:18:24.220 --> 01:18:27.380]  I it still seems dirty be like rummage through your messages
+[01:18:27.380 --> 01:18:34.540]  But Apple's find found a way to like scan your information in a way that never violates your security because it's being done
+[01:18:34.540 --> 01:18:40.680]  Locally on the phone that they can't have access to unless you physically, you know hand it over and unlock it
+[01:18:40.680 --> 01:18:42.920]  right, and that's a really like
+[01:18:43.440 --> 01:18:45.760]  Because I think the the potential of you know
+[01:18:45.760 --> 01:18:50.100]  having a phone that you can go into a park and it knows where you're oriented and maybe you press an AR button and
+[01:18:50.100 --> 01:18:53.040]  Instantly you can turn around and see the rest of the park, right?
+[01:18:53.040 --> 01:18:56.460]  You can see that you can see where what it would have looked like on that day
+[01:18:56.460 --> 01:19:00.800]  like there there are a ton of possibilities here, but it always comes with the caveat of
+[01:19:00.800 --> 01:19:08.920]  personal privacy and security right like how far can we go before we just give over all of our rights to unnamed third company third
+[01:19:08.920 --> 01:19:15.340]  party company and I really appreciate the way that Apple has been doing this slowly and smartly to the point where like
+[01:19:15.520 --> 01:19:21.760]  Their chips are fast enough to process all this locally so you don't have to stress out about you know about
+[01:19:22.320 --> 01:19:28.200]  Your your messages having to ping up to a server so you can get a suggestion to go into do not disturb mode at lunch
+[01:19:28.200 --> 01:19:34.500]  It's just the phone knows the phone tells you I wonder how much I wonder how that's gonna play in the
+[01:19:34.960 --> 01:19:37.200]  mass market though because
+[01:19:37.680 --> 01:19:41.680]  You know and I think it's one reason of several
+[01:19:42.160 --> 01:19:49.720]  Why Apple has been publicly hammering home the we value your privacy and we don't want your data
+[01:19:50.000 --> 01:19:54.800]  You know, you don't want to be we don't want we don't it's not just that we don't want to look at it
+[01:19:54.800 --> 01:19:57.980]  We don't even want to have it so that we can't look at it
+[01:19:57.980 --> 01:20:01.040]  And they've been saying it for years. I think they mean it and
+[01:20:01.720 --> 01:20:05.080]  You know, it's not like Apple isn't a little-known brand
+[01:20:05.120 --> 01:20:13.000]  But I wonder though how it'll play when something like that happens how an event that's not on your calendar only in a message
+[01:20:13.080 --> 01:20:16.240]  but a separate component of the OS is
+[01:20:17.120 --> 01:20:19.400]  You know prompting you to you know
+[01:20:19.400 --> 01:20:24.260]  Do you want to turn off turn do not disturb on for the next hour because you've got lunch, you know
+[01:20:24.260 --> 01:20:30.240]  Will it freak people out or will it only surprise them the first two times and then they'll get used to it and accept it
+[01:20:30.240 --> 01:20:32.760]  You know, yeah, I mean, I think there'll be a moment
+[01:20:32.760 --> 01:20:36.920]  I mean that we already kind of saw it on Twitter last week. There will be a momentary like oh my god
+[01:20:36.920 --> 01:20:37.960]  How is this happening?
+[01:20:37.960 --> 01:20:43.280]  I do think that Apple should come out with messaging and maybe they already have that and kind of in the works for iOS 12
+[01:20:43.280 --> 01:20:46.320]  Where they're just kind of like this is why this is so cool
+[01:20:46.320 --> 01:20:51.400]  They were just waiting until shortcuts kind of got a little bit more refined. Maybe we'll see some stuff in the public beta
+[01:20:51.400 --> 01:20:54.460]  Maybe we'll see some stuff at lunch. But like I think it's really
+[01:20:54.800 --> 01:20:58.500]  It's a really important thing to get out in front of because if you can say, you know
+[01:20:58.500 --> 01:21:00.880]  All those features that Google's been doing them for years
+[01:21:01.020 --> 01:21:05.940]  Well, we can do it now too with our iPhone 10 and the iPhone 8 with iOS 12
+[01:21:06.280 --> 01:21:12.480]  But you don't have to do it in some cloud, you know where potentially the FBI could have access to your data
+[01:21:12.680 --> 01:21:14.920]  It's all locally on your phone, right?
+[01:21:14.920 --> 01:21:19.580]  Like they that's a great message for them to pitch but I do think I think you're right and that like
+[01:21:19.580 --> 01:21:23.860]  there might be some initial panic if Apple doesn't grab hold of that narrative and be like
+[01:21:23.860 --> 01:21:28.800]  This is this is how this is gonna go right and you're not gonna get ads based on the thing, you know
+[01:21:29.340 --> 01:21:32.680]  That's also really key, right? I definitely think so
+[01:21:33.700 --> 01:21:41.460]  And it's also I mean, I think about I think about Apple's, you know concern over this, you know about the the new app store
+[01:21:41.460 --> 01:21:41.740]  right
+[01:21:41.740 --> 01:21:46.680]  You know the fact that this is something that's kind of I feel like gone completely under the radar because it's not in it wasn't in
+[01:21:46.680 --> 01:21:52.420]  The keynote is that iOS 12 and even a little I think they're beta testing it in iOS 11
+[01:21:52.420 --> 01:21:59.460]  I'm not positive but iOS 12 offers a fully customized app store based on your purchase history and like how you rate apps
+[01:22:00.420 --> 01:22:05.140]  So your today screen actually shows up with customized
+[01:22:05.660 --> 01:22:10.660]  Editorials based on your tastes and your likes and like what you prefer it
+[01:22:10.660 --> 01:22:14.540]  It's basically like for you with Apple music, but it's but it's through the App Store
+[01:22:14.540 --> 01:22:20.140]  And Apple did it without changing any of their terms and conditions and they're not gathering any extra data
+[01:22:20.400 --> 01:22:27.680]  But I I like I have to assume that there was some concern over especially the Cambridge Analytica stuff and everything else that like
+[01:22:27.780 --> 01:22:29.780]  How was that going to play?
+[01:22:30.100 --> 01:22:35.260]  You know, like how is that gonna play if we introduce it in a keynote if we don't have the exact right wording
+[01:22:35.380 --> 01:22:39.340]  So I again, I think it's like part of that whole that whole messaging, right?
+[01:22:39.340 --> 01:22:43.700]  Maybe they're still working on the way to present a like we're doing something really cool
+[01:22:43.700 --> 01:22:48.740]  But we're not doing it with your data in a way that like other companies are doing
+[01:22:48.740 --> 01:22:54.180]  I think with a store in particular people have long accepted it and and embraced it as a feature
+[01:22:54.300 --> 01:23:00.460]  So like I mean in Amazon, you know paved the way I mean literally at this point decades ago
+[01:23:00.460 --> 01:23:03.480]  I think I first started shopping at Amazon in 1997
+[01:23:04.740 --> 01:23:11.780]  It may be even 96. I don't know but certainly 97 but Amazon has always had a recommendation engine based on past
+[01:23:11.780 --> 01:23:13.780]  purchases
+[01:23:14.100 --> 01:23:19.960]  That's you know useful. It's like yeah that actually yeah, that actually is useful to me because you know, you guys get me
+[01:23:20.820 --> 01:23:26.580]  the creepier part the part that it's more objectionable isn't when your behavior on Amazon and your
+[01:23:27.060 --> 01:23:31.860]  Suggestions from Amazon are based on your actions
+[01:23:31.860 --> 01:23:39.300]  It's when you start getting suggestions on Amazon for things you didn't search for on Amazon you search for somewhere else
+[01:23:39.300 --> 01:23:41.300]  or you know
+[01:23:41.900 --> 01:23:46.300]  And that's to me is the difference with the App Store. So we're like, of course Apple knows your purchase history
+[01:23:46.300 --> 01:23:50.200]  It's all it's obvious you could you know, you go to the purchase tab and it's you know
+[01:23:50.300 --> 01:23:53.400]  They'll tell you everything you bought it would be broken if they you know
+[01:23:53.400 --> 01:23:59.260]  It would be bad if they didn't know your purchase history. So why not use it to order show things in a different order
+[01:24:01.020 --> 01:24:02.480]  What else
+[01:24:02.480 --> 01:24:04.780]  Privacy related we've got the air pods
+[01:24:05.400 --> 01:24:07.400]  This is from my notes. I
+[01:24:07.400 --> 01:24:14.200]  Clearly meant to look up the actual name of the feature before we started and I didn't it says air pods listening thing
+[01:24:14.440 --> 01:24:19.280]  That's great. That's perfect air pods as as live listen as hearing aids
+[01:24:20.200 --> 01:24:27.400]  Which is designed as an accessibility feature and it essentially just means that wherever you leave your iPhone or if you use your iPhone as a?
+[01:24:27.400 --> 01:24:28.600]  microphone
+[01:24:28.600 --> 01:24:34.020]  It'll get routed to your air pods the same way. It would get routed to a three or four hundred dollar hearing aid, right?
+[01:24:34.020 --> 01:24:39.620]  So it's a feature that's already been in iOS for at least a year maybe years where people who use
+[01:24:40.900 --> 01:24:45.740]  digitally, you know connected hearing aids people with you know with with you know,
+[01:24:45.740 --> 01:24:51.900]  Low hearing can can do this. So now it's just a the same feature has been expanded to allow you to use air pods
+[01:24:52.680 --> 01:24:56.980]  Yeah, which is honestly which is really cool from an accessibility standpoint
+[01:24:56.980 --> 01:25:02.700]  It also means that you know for people who are hard of hearing or maybe even people who don't necessarily need
+[01:25:02.700 --> 01:25:10.300]  It like hearing aids, but they still want to be able to use, you know to connect and listen to people
+[01:25:10.300 --> 01:25:11.980]  And maybe they're like just starting to lose their hearing
+[01:25:11.980 --> 01:25:15.500]  Maybe they're just you know, your grandparents right and they want it you want to have a conversation
+[01:25:16.700 --> 01:25:22.260]  It allows them to to really to have that feature if they already have a set of air pods
+[01:25:22.260 --> 01:25:25.980]  but of course the the machine like instantly Twitter was like
+[01:25:26.620 --> 01:25:28.620]  spying like
+[01:25:28.620 --> 01:25:32.600]  Which I understand I understand. I mean it could be used like that
+[01:25:33.720 --> 01:25:35.640]  There's a new podcast
+[01:25:35.640 --> 01:25:42.440]  Friend of the show Steven Aquino who has written, you know, I would I would say without question is the leading writer on
+[01:25:43.840 --> 01:25:48.680]  Accessibility and Apple products. I can't even imagine. I don't know who's in second place. Yeah
+[01:25:50.200 --> 01:25:52.760]  He has a new podcast called accessible and
+[01:25:52.760 --> 01:25:58.680]  And it he had a great WWDC where he got interviews with
+[01:26:00.360 --> 01:26:02.960]  People at Apple who work on this stuff including
+[01:26:04.520 --> 01:26:06.520]  Apple's senior director of global
+[01:26:07.000 --> 01:26:11.840]  Accessibility policy and initiatives which which Steven and that her name is Sarah hurling her
+[01:26:11.840 --> 01:26:14.900]  Which they even admitted is a bit a bit of a mouthful of a title
+[01:26:16.800 --> 01:26:19.040]  She was great Steven asked great questions
+[01:26:19.040 --> 01:26:24.960]  But one of the things she said like a specific environment where they were thinking about this and tested it would be a loud restaurant
+[01:26:25.400 --> 01:26:29.960]  So for somebody who maybe doesn't need a hearing aid, but who's hearing?
+[01:26:31.280 --> 01:26:35.800]  Accessibility needs are such that they have trouble understanding a conversation in a noisy restaurant
+[01:26:37.360 --> 01:26:42.640]  That so they may not own like a three or four hundred dollar hearing aid because they don't need one usually but they could use
+[01:26:42.640 --> 01:26:48.120]  their air pods in the restaurant and point the phone's microphone just lay it on the table and pointed at their
+[01:26:48.120 --> 01:26:52.560]  you know, but the people they're eating with across the table and get this
+[01:26:54.720 --> 01:26:56.080]  Clarified audio
+[01:26:56.080 --> 01:27:01.720]  Yeah, that that was a specific scenario that they were thinking of where where would somebody use this for accessibility?
+[01:27:01.840 --> 01:27:06.720]  But would maybe wouldn't be the owner of hearing aids. I thought it was great. I'll put a link to the show notes
+[01:27:06.720 --> 01:27:10.360]  I swear to God to this episode because it's really really great and
+[01:27:10.360 --> 01:27:17.520]  It's a I think it's only the third episode of Steven's podcast and he's already got Apple executives on the show, which is pretty awesome
+[01:27:17.840 --> 01:27:20.960]  He's doing it right. He's doing it right, but I thought that was pretty good
+[01:27:21.480 --> 01:27:26.120]  Yeah, yeah, and so everybody freaked out about the spying angle and it's like man
+[01:27:26.120 --> 01:27:31.560]  There are so many things like search the web for like listening devices. It's like, you know again
+[01:27:31.560 --> 01:27:36.280]  I don't want to know you don't want to go down that rabbit hole because then you'll just you'll look at everything and just be
+[01:27:36.280 --> 01:27:41.160]  Like, alright, so people are listening from my lamp like this has been around since the 50s like we have to understand that
+[01:27:41.160 --> 01:27:43.640]  It's not unusual. Well think about the way that
+[01:27:44.200 --> 01:27:51.320]  Again, and it's not wrong that people immediately jump to that conclusion. It's actually I guess it's not it's healthy that that your instincts
+[01:27:51.320 --> 01:27:57.440]  You know jump to bad conclusions, but we've had the ability to turn on the iPhone camera and control it from our watch
+[01:27:58.560 --> 01:28:03.880]  Maybe not ever since the original watch but certainly for a couple of years since the original I think now whatever
+[01:28:03.880 --> 01:28:09.480]  It's a couple of years so you could prop up your phone in a room and and control it
+[01:28:09.600 --> 01:28:11.560]  Take pictures of people and stuff like that
+[01:28:11.560 --> 01:28:17.000]  I mean and there's also and of course we all know there's all sorts of devices you can buy that are cameras that you can
+[01:28:17.000 --> 01:28:20.020]  hide in a room and surreptitiously take photos of people so
+[01:28:20.640 --> 01:28:23.800]  Again people somebody might eventually abuse it that way
+[01:28:23.800 --> 01:28:28.800]  But it certainly isn't a reason not to add the feature to the OS because it's not the only way to do it
+[01:28:28.800 --> 01:28:35.400]  It's not like not doing this in iOS 12 is going to keep people from ever being snooped on each other
+[01:28:35.400 --> 01:28:36.680]  Yeah, exactly
+[01:28:36.680 --> 01:28:39.320]  People are people you just have to be vigilant and you know
+[01:28:39.600 --> 01:28:42.320]  Be be friends with the right folks go to the right places
+[01:28:42.320 --> 01:28:48.560]  I guess and you do you do have to leave your seven or eight hundred dollar nine hundred dollar thousand dollar iPhone
+[01:28:50.000 --> 01:28:52.000]  Right, so, you know
+[01:28:52.520 --> 01:28:57.380]  Just probably also cheaper ways to do it. Yeah group FaceTime. I haven't tried this yet
+[01:28:57.380 --> 01:29:04.000]  Oh, I just tried it today. It's really cool. It's actually again for a for a 1.0 product
+[01:29:04.000 --> 01:29:07.760]  It is pretty solid and I believe like I think you you were asking
+[01:29:08.160 --> 01:29:14.520]  Jaws about this last week about like oh you guys use these internally for meetings and after having used it with like five or six
+[01:29:14.520 --> 01:29:18.320]  People today. I'm like, oh, yeah, I can totally I can totally see this because already
+[01:29:19.240 --> 01:29:23.360]  Unlike, you know when I'm in Montreal, I do not have great Wi-Fi at all
+[01:29:23.360 --> 01:29:27.000]  Like just I'm in the back of a railroad apartment. It's really patchy signal
+[01:29:27.000 --> 01:29:35.160]  but I was able to do a group FaceTime on my patchy Wi-Fi with no issues whatsoever and it's like it was
+[01:29:35.160 --> 01:29:41.360]  I've never even had a Skype or a hangouts thing this clear and it's and it was very good in that like it it was
+[01:29:41.560 --> 01:29:43.560]  intelligently degrading and like
+[01:29:43.640 --> 01:29:51.160]  Improving the signal based on like what you know what there was never that moment where the entire chat froze and you're just like oh good
+[01:29:51.440 --> 01:29:54.440]  Well, I have no idea what's talking anymore instead
+[01:29:54.440 --> 01:29:57.080]  It was just like oh your your connection isn't as strong
+[01:29:57.080 --> 01:29:59.560]  Okay, we're gonna drop out the picture, but you're still gonna get full audio
+[01:29:59.560 --> 01:30:01.400]  You're still like it was just you know
+[01:30:01.400 --> 01:30:05.040]  Just some there's a lot of really nice tweaks under the under the hood and FaceTimes
+[01:30:05.040 --> 01:30:09.320]  I mean FaceTimes proprietary under the hood codec has always been really strong in this regard
+[01:30:09.520 --> 01:30:13.760]  So I'm I guess I'm not that surprised but it's nice to see that you know
+[01:30:13.760 --> 01:30:16.680]  Even this feat though this feature feels like three or four years late
+[01:30:16.680 --> 01:30:21.480]  It's still really strong and again adding Memoji and all the effects and everything else
+[01:30:21.480 --> 01:30:27.520]  It makes hangouts like special effects stuff look primitive look like grade school stuff
+[01:30:27.520 --> 01:30:29.200]  Yeah, I guess it's so good
+[01:30:29.200 --> 01:30:33.520]  I kind of get the feeling that the doesn't really feel like a 1.0 and
+[01:30:33.960 --> 01:30:38.840]  Kind of feels like it's three or four years late are one in this two sides of the same coin, right?
+[01:30:38.840 --> 01:30:39.120]  Oh, yeah
+[01:30:39.120 --> 01:30:45.320]  absolutely reason it seems to have shipped a little at least a couple of years later than I would say most of us would have
+[01:30:45.320 --> 01:30:50.240]  Expected to have multiple people more than two people in a FaceTime video chat
+[01:30:50.240 --> 01:30:56.440]  is that they decided to ship it when it was like rock-solid and
+[01:30:56.960 --> 01:31:02.440]  Really well done. And so it's not sort of the typical this is this works most of the time
+[01:31:03.520 --> 01:31:10.560]  1.0, right? Yeah, and it makes sense because there already are hangouts is pretty solid Skype is pretty solid
+[01:31:10.560 --> 01:31:12.560]  There are a million, you know
+[01:31:12.600 --> 01:31:18.280]  Video chat options. So if you're gonna introduce something you better make it as as good as iMessage
+[01:31:18.280 --> 01:31:23.200]  Yeah, and as secure as iMessage because one of the questions I asked last week at the show
+[01:31:23.200 --> 01:31:25.960]  I knew the answer but it was good to hear it on the record
+[01:31:25.960 --> 01:31:32.600]  Is that even it with a 32 person group FaceTime it remains end-to-end encrypted for everybody involved?
+[01:31:32.600 --> 01:31:36.760]  Which is incredible mind-boggling to me. Yeah
+[01:31:39.280 --> 01:31:45.320]  All right shortcuts are you I haven't set up any shortcuts yet, yeah, I mean shortcuts the app doesn't exist yet
+[01:31:45.320 --> 01:31:49.760]  so it's we're still we're still in I think the the best thing to think about and
+[01:31:50.240 --> 01:31:56.380]  Federico Vitucci wrote an amazing piece on this today at Mac stories Renee has been doing some really great stuff at I'm or
+[01:31:56.780 --> 01:32:03.560]  The things to know about shortcuts is it's really like three different things. There's shortcuts the app which basically replaces workflow
+[01:32:04.000 --> 01:32:10.360]  And to from everything I've been hearing and from everything Vitucci and and Renee have been hearing it sounds like it's gonna be
+[01:32:10.360 --> 01:32:17.080]  Identical to workflow including all of the callback URL schemes and like all of the advanced coding stuff that people have been able to do
+[01:32:17.080 --> 01:32:20.900]  And play around with it doesn't sound like Apple's taking away any of that functionality, which is awesome
+[01:32:21.280 --> 01:32:25.620]  But the apps not ready yet, right? It's still workflow in the store and I'll eventually replace it
+[01:32:25.620 --> 01:32:29.120]  But until it does we really can't play around with that then there's also
+[01:32:30.160 --> 01:32:34.660]  Siri based shortcuts and these are a little bit more complicated in that
+[01:32:35.320 --> 01:32:38.840]  These are current you can mess around with them in the first beta
+[01:32:38.840 --> 01:32:42.240]  but they're only found in the Settings app under the Siri tab and
+[01:32:43.080 --> 01:32:47.600]  Eventually, it sounds like they may pop up on your lock screen is like hey you do this pretty often
+[01:32:47.600 --> 01:32:50.240]  Do you want to create a voice shortcut for it?
+[01:32:51.120 --> 01:32:59.000]  But those right now are only they only show up in in settings and it's it's really easy to create a voice shortcut
+[01:32:59.000 --> 01:33:02.920]  But it's only for one thing right like it's a great example was
+[01:33:03.440 --> 01:33:04.880]  If I went into it right now
+[01:33:04.880 --> 01:33:10.480]  It would show me it was like would you like to create a voice shortcut for launching I'm or calm or like opening
+[01:33:10.560 --> 01:33:12.560]  the specific talk show
+[01:33:12.600 --> 01:33:16.320]  shared note that John Gruber just linked to you and then you could say
+[01:33:16.320 --> 01:33:22.880]  You know talk show and then any time you said talk show to Siri Siri would automatically open up that note in specific
+[01:33:23.360 --> 01:33:28.160]  so it's like little things like that and it sounds like third-party apps will also be able to
+[01:33:29.440 --> 01:33:31.680]  include those kinds of things so that you can actually
+[01:33:31.680 --> 01:33:36.560]  Automatically build one by either pressing a button in the app or the app will suggest it to you on your home screen
+[01:33:36.960 --> 01:33:40.460]  So that's kind of the other the other aspect of shortcuts
+[01:33:41.160 --> 01:33:44.560]  And then they combine together and in a lovely way
+[01:33:44.560 --> 01:33:47.680]  But it just it you still is what is from what I can understand
+[01:33:47.680 --> 01:33:54.720]  You'll still be able to run like work the workflow style shortcuts like as an action extension or as a as a standalone like
+[01:33:55.080 --> 01:33:58.600]  Home-screen app and things like that. It's just now in addition to that
+[01:33:58.600 --> 01:34:04.160]  It's hooking into Siri so that you can do multi-part things with Siri, which is pretty cool. Hmm. Very cool
+[01:34:06.280 --> 01:34:08.280]  Screen time
+[01:34:08.440 --> 01:34:13.320]  Scary it's great. It's screen time. Do they spell it one word or two words two words?
+[01:34:13.800 --> 01:34:17.280]  it is two words in the settings app, so I I
+[01:34:19.080 --> 01:34:22.520]  Suspect that once I have this running on my main phone, I'm going to have some
+[01:34:23.200 --> 01:34:24.520]  some
+[01:34:24.520 --> 01:34:25.720]  eye-opening
+[01:34:25.720 --> 01:34:28.920]  Reports on some of my usage like the one in particular
+[01:34:28.920 --> 01:34:31.960]  I forget if I said this on stage or backstage to Jaws
+[01:34:31.960 --> 01:34:34.820]  But I was like the one about how many times a day you wake your phone
+[01:34:34.820 --> 01:34:37.840]  I just know it's gonna be like whoa. Come on, that's busted
+[01:34:38.560 --> 01:34:39.960]  Broke. Oh, yeah
+[01:34:39.960 --> 01:34:41.960]  Nobody opens their phone
+[01:34:42.280 --> 01:34:47.000]  253 times a day. Oh, it's that's better. I added 4,000 last week
+[01:34:47.000 --> 01:34:56.600]  On the week not today, right? No, no, no the day a twos the Tuesday when I was messing around with iOS 12
+[01:34:56.720 --> 01:35:00.520]  Like it was this very specifically obviously a testing issue
+[01:35:00.520 --> 01:35:08.480]  But like it was still a little bit like why why no, so I I went through and like I told you I had this
+[01:35:09.680 --> 01:35:15.920]  Longer than you'd think even over super fast Ethernet where I installed the beta on my iPhone 7 at
+[01:35:15.920 --> 01:35:17.920]  WWDC but
+[01:35:18.200 --> 01:35:23.040]  Didn't really get a chance to use it or hardly at all there and then flew home
+[01:35:23.880 --> 01:35:29.600]  Thursday and got in and like Friday like decided to check it out and it says you use your phone for two minutes a day
+[01:35:31.560 --> 01:35:33.560]  Not for long
+[01:35:34.720 --> 01:35:36.720]  That's not correct
+[01:35:37.720 --> 01:35:43.040]  Yeah, I mean I've been I've been looking at the graph for about a week and I do find it's really helpful to kind of
+[01:35:43.040 --> 01:35:49.520]  Just didn't really see an overall picture. They give you most used graphs not only for individual apps
+[01:35:49.520 --> 01:35:55.720]  But also for groupings of apps so like reading and reference my like grouping which is like books and a couple other things
+[01:35:55.880 --> 01:36:00.280]  It's like reading in reference 18 hours in the last week and I'm like, yeah, that sounds about right
+[01:36:00.920 --> 01:36:04.480]  And they have like social networking and productivity and entertainment and things like that
+[01:36:04.960 --> 01:36:10.300]  And that like that's kind of that's helpful for getting kind of a general idea of like what you're doing
+[01:36:10.300 --> 01:36:14.520]  I haven't set any downtime. I haven't said any Apple bits yet. I don't know if I will
+[01:36:15.100 --> 01:36:21.340]  Just cuz it's like yeah, it's hard to it's hard when you're also using it for your job
+[01:36:21.340 --> 01:36:25.840]  Maybe I'll set some downtime stuff for like everything but the books app at night, right?
+[01:36:25.840 --> 01:36:31.520]  Because it might force me to like actually read and not go to Twitter when I want to be reading actual books
+[01:36:31.520 --> 01:36:40.520]  I I should set the opposite of a limit. I should set like a requirement that I have to spend 45 minutes a day in mail
+[01:36:40.520 --> 01:36:44.840]  Yes, right, right this is something I actually I haven't filed a radar yet
+[01:36:44.840 --> 01:36:50.800]  But it's on my list of Raiders to file as I actually want them when you like use up your screen time for a certain app
+[01:36:50.800 --> 01:36:55.280]  I actually want you to them to prompt you with a different app like oh you spent you know
+[01:36:55.280 --> 01:36:56.920]  You're two hours allotted on tweet
+[01:36:56.920 --> 01:37:02.500]  But would you like to go learn a new language and do a lingo instead should I have to go check your mail John Gruber?
+[01:37:02.500 --> 01:37:05.380]  I really should I mean it would be exactly like the
+[01:37:06.020 --> 01:37:09.740]  Like calorie goals or standing goals on the watch like you can make it
+[01:37:13.240 --> 01:37:17.520]  No, you know the one thing about screen time that wigs me out a little bit is if you're in a family
+[01:37:17.840 --> 01:37:25.640]  Which I am you can see everybody in your family screen time including your significant other and you can set downtime and Apple emits for them
+[01:37:25.640 --> 01:37:30.240]  Which I think is kind of screwy. I'm like I'm hoping that that could be
+[01:37:30.760 --> 01:37:32.600]  turned off on the
+[01:37:32.600 --> 01:37:37.240]  Like you know it's like if my husband wants to turn off screen time so that I can't see it
+[01:37:37.240 --> 01:37:38.760]  Just like he can turn off
+[01:37:38.760 --> 01:37:45.200]  Find my friends like I feel like that would probably be a good security feature because I just I feel like I don't know
+[01:37:45.200 --> 01:37:49.440]  I just see controlling like ex girlfriends and boyfriends, and it makes me uncomfortable
+[01:37:50.280 --> 01:37:52.140]  But it's it's cool from I mean
+[01:37:52.140 --> 01:37:56.420]  I don't have a kid, but you have a kid like is this something does is something you're gonna use for Jonas
+[01:37:57.360 --> 01:38:00.480]  I'll take a look at it. I mean we're we don't really have
+[01:38:01.000 --> 01:38:06.080]  Very many limits on his stuff, and it's just a scholar. It's all gonna be YouTube. It's just gonna be yeah
+[01:38:07.520 --> 01:38:10.320]  Actually he doesn't watch YouTube on his phone much though. It's
+[01:38:11.240 --> 01:38:14.000]  His phone thing is mostly some stupid me map
+[01:38:14.880 --> 01:38:18.060]  Where it's just you just page through and just get memes
+[01:38:18.060 --> 01:38:20.060]  His
+[01:38:21.860 --> 01:38:28.020]  YouTube usage is almost entirely MacBook and so MacBook isn't Mac Mac isn't getting this feature yet, but not yet
+[01:38:28.020 --> 01:38:30.020]  Maybe next year yeah, yeah
+[01:38:30.020 --> 01:38:36.740]  I'm trying to think of like other weird and cool things you can set up an alternate face ID appearance although people are
+[01:38:37.620 --> 01:38:43.580]  People are now like oh, it's second a second person for FaceTime, and I'm like well sort of yeah
+[01:38:43.580 --> 01:38:50.660]  I guess that works it seems like though if that's what they really meant there that they wouldn't use that language this seems like something I
+[01:38:51.620 --> 01:38:56.840]  Can't even you know I'm sure I can think of dozens of scenarios for this, but you know
+[01:38:58.440 --> 01:39:05.540]  One that I could think of in particular would be if your job requires you to wear like a mask
+[01:39:06.740 --> 01:39:08.900]  Yeah, or certain goggles
+[01:39:08.900 --> 01:39:16.200]  You know and I got an email actually that I actually saw in red and much appreciated from a surgeon who?
+[01:39:17.940 --> 01:39:24.220]  Who got an iPhone 10 and could just simply couldn't get it to unlock while he was wearing a surgical mask
+[01:39:24.660 --> 01:39:28.620]  And then all of a sudden a couple of months in it started working
+[01:39:28.620 --> 01:39:33.460]  And he wrote to me to you know speculating that either like a software improvement something changed
+[01:39:33.460 --> 01:39:41.180]  I would I could imagine that this might help with some scenario like that where sometimes you're wearing a surgical mask
+[01:39:41.180 --> 01:39:45.060]  And if you set it up both ways and say these are both me
+[01:39:45.660 --> 01:39:50.860]  It can triangulate it it the language of the feature and and nobody is seems to have
+[01:39:51.100 --> 01:39:56.100]  Figured I don't I haven't seen if anybody has figured out whether it really does work with two entirely different people
+[01:39:56.100 --> 01:39:59.820]  But I think if that's what they meant they would have said they would have written it different
+[01:39:59.820 --> 01:40:05.260]  It would have just been like multi-person FaceTime right isn't that cool right like they don't call it like with touch ID
+[01:40:05.260 --> 01:40:06.820]  They don't call it all
+[01:40:06.820 --> 01:40:08.820]  alternative finger angle
+[01:40:09.220 --> 01:40:15.380]  You just set up a different finger. Yeah, it's pretty clear. You know that when you're setting up a different finger
+[01:40:15.380 --> 01:40:17.380]  It's a different finger mm-hmm
+[01:40:17.700 --> 01:40:22.140]  Yeah, so other things their new Siri voices. There's a South African Siri voice
+[01:40:22.220 --> 01:40:28.320]  There's also an Irish Siri voice so if you want to sound your iPhone to sound like Friday from Iron Man
+[01:40:28.320 --> 01:40:30.320]  You can make that happen. That's pretty cool
+[01:40:31.020 --> 01:40:35.140]  Here's one that I don't know anything about because I haven't put it on an iPad yet, but you I
+[01:40:35.780 --> 01:40:42.300]  Understand that you have strong feelings about the new swipe gestures on iPad. I really do I have so many well
+[01:40:42.300 --> 01:40:46.620]  Okay, so the iPad gestures have been reoriented to be in line with the iPhone 10
+[01:40:46.740 --> 01:40:54.780]  So you know instead of control center being part of like the spaces area when you do the four finger swipe up and now
+[01:40:54.780 --> 01:40:59.980]  it's pulled down from the top right and it's like oh the camera you know the date is in the top left corner and the
+[01:40:59.980 --> 01:41:05.180]  Stuff is in the top right corner, and hmm. There's a conspicuous space missing in the middle
+[01:41:05.180 --> 01:41:08.000]  I wonder wonder where boy that could be
+[01:41:08.580 --> 01:41:14.500]  But in addition to all of this it means that when you're swiping up from the bottom it treats it like you would in an
+[01:41:14.500 --> 01:41:18.820]  iPhone 10 where it automatically goes home, and this is a problem because
+[01:41:18.820 --> 01:41:25.580]  Prior to this if you did a swipe up from the bottom you would get the dock and then if you continued
+[01:41:25.580 --> 01:41:27.580]  Swiping up from the bottom you would go home
+[01:41:27.660 --> 01:41:32.540]  But the initial like one flick up is just to pull the dock up so that you could swap
+[01:41:32.940 --> 01:41:38.660]  Apps and what I've been doing pretty much constantly since I installed this on my iPad is
+[01:41:38.800 --> 01:41:41.760]  Going to flick up to the dock and then sending it back home
+[01:41:41.760 --> 01:41:47.580]  And then reopening the app and then flicking up the dock and so it's just to be clear a small flick
+[01:41:47.580 --> 01:41:53.900]  Does still bring up the dock and a larger flick does the iPhone 10 style start to go home?
+[01:41:54.380 --> 01:42:01.340]  Sort of if you if you do an up flick and you keep your finger on the display it will pull up the dock
+[01:42:01.540 --> 01:42:06.220]  But if you flick and lift your finger off the display it will send it all the way home gotcha
+[01:42:06.220 --> 01:42:11.500]  All right, and what is the annoyance all right, but what about multitasking multitasking is still kid?
+[01:42:11.500 --> 01:42:14.420]  Can you swipe up to get to multitasking or yeah?
+[01:42:14.420 --> 01:42:21.740]  You can still do a four finger swipe to get to the multitasking screen yeah the multi the multi finger swipes are all mostly intact
+[01:42:22.340 --> 01:42:27.700]  Split split view and slide over and all that seems to all work pretty much identically
+[01:42:27.700 --> 01:42:28.780]  It's just the dock issue
+[01:42:28.780 --> 01:42:34.740]  And I have to assume that this is just some tweaking that will get fixed in beta like I'm not gonna panic about it until
+[01:42:34.740 --> 01:42:39.740]  We've gotten a couple betas in because clearly like it's it's gonna be a difference
+[01:42:39.740 --> 01:42:45.020]  If when you associate the same swipe gesture with two different things it's a little bit difficult
+[01:42:45.060 --> 01:42:49.420]  It's kind of like with the iPhone 10 having the upward swipe gesture close an app
+[01:42:49.420 --> 01:42:54.960]  But also like if you do it halfway you can go into multitasking mode right or swiping along the bottom
+[01:42:54.960 --> 01:42:56.960]  You could switch apps like these things
+[01:42:57.820 --> 01:42:59.820]  They can move them over to the iPad
+[01:43:00.180 --> 01:43:05.580]  For you know for whatever reason they might want to uh-huh, but it's gonna take some time right
+[01:43:05.580 --> 01:43:07.580]  It's gonna. They're gonna have to plug everything together
+[01:43:07.580 --> 01:43:13.900]  Last but not least. There's a new Apple Books app replacing. Yes the old iBooks app
+[01:43:14.460 --> 01:43:16.220]  So this one is interesting this one
+[01:43:16.220 --> 01:43:21.620]  I think might end up being the hidden like unsung feature of iOS 12 because it didn't get you know it got no screen time
+[01:43:21.620 --> 01:43:27.460]  Basically on the keynote like it was up as like you know look new no books app new font. They spread more stuff serif
+[01:43:27.980 --> 01:43:30.460]  They spent more time talking about the name change
+[01:43:31.460 --> 01:43:36.860]  They really did I know they're like oh, yeah, and it has all these things next let's talk about it
+[01:43:36.860 --> 01:43:40.780]  Next let's talk about stocks. No it's so Apple Books
+[01:43:40.780 --> 01:43:46.060]  It's now Apple Books instead of iBooks which I think is makes sense been expecting that name change for a while
+[01:43:46.460 --> 01:43:48.760]  has a new font for the
+[01:43:49.580 --> 01:43:55.140]  The headers that's now called SF serif, and it's beautiful like it's a really beautiful serif font
+[01:43:56.180 --> 01:44:01.500]  But the biggest deal about Apple Books is it's just like the reading experience itself is almost
+[01:44:01.500 --> 01:44:08.580]  identical like it pretty much looks exactly the same as iOS 11 but everything around the reading experience like buying books and
+[01:44:08.700 --> 01:44:14.100]  Organizing books and choosing books you want to read and saying that you finished books all of these things are now built into the app
+[01:44:14.100 --> 01:44:19.180]  It's like it's it's like they took all the features of Goodreads, and then they're like all right. How can we make this?
+[01:44:20.040 --> 01:44:26.940]  Usable and interesting to people so now when you launch the when you launch the book apps you have this beautiful like reading now screen
+[01:44:26.940 --> 01:44:32.900]  And it shows the book that you're currently reading as well as like how far you're into it and either it shows the cover if
+[01:44:32.900 --> 01:44:36.660]  You haven't opened it in the last 24 hours, or it actually has it open to the specific page
+[01:44:37.380 --> 01:44:42.540]  And it uses a lot of the the horizontal scrolls that the the new App Store kind of
+[01:44:42.820 --> 01:44:49.420]  Premiered last year with iOS 11, and it just it it's such a smart design in my opinion like obviously
+[01:44:49.420 --> 01:44:54.340]  I've had two weeks with it, but I have been reading like I read a lot of books on my iPhone
+[01:44:54.340 --> 01:44:58.820]  It's basically the it's the thing I do before I go to sleep and like when I'm standing in lines and things like that
+[01:44:58.820 --> 01:45:02.980]  I enjoy reading a lot and reading on the OLED screen is really easy
+[01:45:03.460 --> 01:45:09.500]  And the the reading experience and just managing books the fact that there's a new want to read
+[01:45:09.580 --> 01:45:14.140]  Section that you can tag for either books you already own or books you want to look at in the store
+[01:45:14.140 --> 01:45:17.260]  And it just displays immediately under that reading now section
+[01:45:17.260 --> 01:45:19.380]  So if you want to find a if you're like oh, yeah
+[01:45:19.380 --> 01:45:23.480]  Someone told me to read that book I can just throw it on my want to read list and I don't have to buy it
+[01:45:23.480 --> 01:45:27.000]  I don't have to take like it's literally just press a button and it goes down on
+[01:45:27.200 --> 01:45:32.540]  To want to read and I can look at it another time, but there's also there's this new finished
+[01:45:33.300 --> 01:45:39.340]  Collection and the finished collection like the want to read collection you can tag any book whether or not you own it
+[01:45:39.460 --> 01:45:42.540]  Which means that you I go back to the Goodreads comparison
+[01:45:42.540 --> 01:45:48.000]  It's like I'm thinking about and I've been doing this the last week where it's like all of these books that I have on my
+[01:45:48.000 --> 01:45:52.040]  Shelf that I didn't buy digitally, and I'm like I don't want to buy them digitally
+[01:45:52.040 --> 01:45:57.800]  I don't want to re-buy the same book, but I can indicate in the app like I've read this already
+[01:45:57.800 --> 01:46:02.620]  I and then you get this beautiful timeline. That's like you read this book now
+[01:46:02.620 --> 01:46:04.300]  You read this book you know two weeks ago
+[01:46:04.300 --> 01:46:07.140]  And you can actually see like the pace that you're reading books
+[01:46:07.140 --> 01:46:11.740]  And how often you're reading and all like it's just it's a lot of really smart features
+[01:46:12.740 --> 01:46:19.420]  And it's also heralds the return of a bit of skeuomorphism for lack of a better word the actual books
+[01:46:19.420 --> 01:46:23.280]  Have a bit of a not even really a bit
+[01:46:23.280 --> 01:46:28.260]  I mean they're very much looked like hardcover books with a spine and lighting effects and
+[01:46:30.380 --> 01:46:37.340]  You know I think anybody who's had the patience would realize that after the great flattening of iOS 7 that
+[01:46:38.300 --> 01:46:45.080]  The dial would ease back up eventually throughout the OS. You know there's a drop shadow behind the books as well
+[01:46:45.080 --> 01:46:51.800]  It looks good. Yes. It looks really nice. I I am not sold on SF serif I
+[01:46:53.120 --> 01:46:58.440]  Don't hate it. I don't know that I love it, but it might be I I think it's growing the more
+[01:46:58.440 --> 01:46:59.640]  I see it the more it grows on me
+[01:46:59.640 --> 01:47:04.720]  And it does as soon as I saw it in a slide the first slide that came up and and of course I admit
+[01:47:04.720 --> 01:47:06.720]  It was like that's new
+[01:47:06.760 --> 01:47:09.160]  It was like the first thing I remember with the watch, too
+[01:47:09.160 --> 01:47:16.280]  Mm-hmm where I thought oh, they're using din, and then I immediately thought oh, that's not din
+[01:47:18.240 --> 01:47:23.960]  That's a new font right, but I'm do you know I just a friend at Apple told me that like internally before they had officially
+[01:47:23.960 --> 01:47:29.140]  Named San Francisco. It was at least some designers who had seen it and knew that we're calling it din vetica
+[01:47:30.200 --> 01:47:37.040]  Which if you look at din and Helvetica and then look at on two sides, and then look at San Francisco in the middle is
+[01:47:37.040 --> 01:47:39.040]  actually pretty apt
+[01:47:39.480 --> 01:47:43.520]  There's very similar. Yeah, and I looked at as soon as I saw this font
+[01:47:43.520 --> 01:47:46.600]  I was like oh, I guarantee you that that's called San Francisco serif
+[01:47:46.600 --> 01:47:53.700]  It is absolutely you know in terms of like the the x-height and a couple of other features of it
+[01:47:53.700 --> 01:47:58.120]  It was like oh, that's a sibling to San Francisco the serif font or sans serif font
+[01:47:58.600 --> 01:48:03.760]  So I think it fits in that regard and if any app deserves to have serif fund it would be the books app
+[01:48:03.760 --> 01:48:07.440]  Yeah, I mean it's it's funny because when I first looked at it
+[01:48:07.440 --> 01:48:12.120]  and it uses a lot of black and white and even you know and it uses a
+[01:48:12.480 --> 01:48:16.280]  Sort of a dark mode when you're in dark lighting and it inverts in a really smart way
+[01:48:17.880 --> 01:48:21.640]  It just looks like the first time I saw it. I was like oh, it feels like a newspaper
+[01:48:22.000 --> 01:48:26.140]  You know it feels like old school like I thought New York Times the first time
+[01:48:26.140 --> 01:48:28.220]  I saw it, but then the more I look at it the more
+[01:48:28.220 --> 01:48:33.720]  I'm like no actually it feels like it feels like Boston's public library a little bit like it has that kind of it's just
+[01:48:33.720 --> 01:48:35.720]  Has a stature to it and the bookstore
+[01:48:35.720 --> 01:48:41.080]  I don't know if you ever went into the bookstore and not just through the search screen of the iOS 11 app
+[01:48:41.600 --> 01:48:45.020]  But the bookstore and the audiobook store were just some of the most cramped
+[01:48:45.680 --> 01:48:50.040]  Unfriendly like felt so gross especially compared to the new app store
+[01:48:50.040 --> 01:48:55.160]  It's just it was so crowded like you couldn't tell anything and like it was really hard to figure stuff out
+[01:48:55.160 --> 01:48:58.940]  And there are clearly smart collections being put together by the by the books crew
+[01:48:58.940 --> 01:49:04.200]  But you just couldn't read any like you you you could not read anything in the in the reading store
+[01:49:04.200 --> 01:49:12.240]  And this they've really it feels much simpler in a way because everything's so big and bold and like you can see the covers
+[01:49:12.240 --> 01:49:14.720]  And they've made these horizontal scrolls and all that
+[01:49:14.800 --> 01:49:21.080]  But it doesn't like I've been comparing it to the iOS 11 app and they're really they haven't lost any feature
+[01:49:21.480 --> 01:49:27.880]  Like parity like there's all of the stuff is still there. It's just organized in a much more pleasant way. Yeah
+[01:49:27.880 --> 01:49:35.400]  my big fear when they rushed through it in the keynote, and he didn't really examine the app was
+[01:49:36.320 --> 01:49:37.440]  I
+[01:49:37.440 --> 01:49:45.040]  Remember thinking boy. I hope this is like the new app store app, and I hope it's not like the first version of Apple Music
+[01:49:46.280 --> 01:49:51.840]  Yeah, and I would say it's exactly it it is in terms of it at least for me
+[01:49:51.840 --> 01:49:58.880]  And I know there were many others that at least the first version of Apple Music felt can I often felt lost I often felt
+[01:49:58.880 --> 01:49:59.680]  like
+[01:49:59.680 --> 01:50:05.400]  What am I looking at here? Is this my music? Is this just music? I have access to am I am I in a store?
+[01:50:06.320 --> 01:50:10.520]  Where am I I don't find that at all in the new books. It's like here's the stuff you're reading
+[01:50:10.840 --> 01:50:14.000]  Here's the stuff you own, you know, right reading out library
+[01:50:14.040 --> 01:50:18.520]  Then there's a bookstore an audiobook store and then there's search like boy
+[01:50:18.520 --> 01:50:25.160]  If those aren't the five sections that I want in the Apple Books app. I I couldn't imagine a better selection
+[01:50:25.560 --> 01:50:28.160]  Yeah, it's a it's really nicely organized
+[01:50:28.160 --> 01:50:28.320]  Yeah
+[01:50:28.320 --> 01:50:33.320]  and the one that I the one that I wouldn't have thought of before is the reading now right because the old way was you had
+[01:50:33.320 --> 01:50:37.080]  You had the old the old app was sort of organized like a coin
+[01:50:37.240 --> 01:50:42.440]  We're on the one face was your library and then and literally it even had an animation
+[01:50:42.560 --> 01:50:45.960]  Originally where it would just spin around and then on the other side was the store
+[01:50:45.960 --> 01:50:51.780]  So it's like here's what you have. Here's what you can get and then you would just flip between the two
+[01:50:51.940 --> 01:50:56.780]  But you know once you assemble more than a handful of books in your library
+[01:50:57.100 --> 01:51:04.260]  Managing the ones you're actually, you know currently reading it wasn't great and having a separate section for that is perfect
+[01:51:04.260 --> 01:51:09.380]  It's it's the digital equivalent of like the books on your bedside table versus the books that you have on your shelf
+[01:51:09.820 --> 01:51:15.340]  Yeah, that's it. Exactly. Yeah, and it just it allows you so much more easily to actually find what you wanted to read
+[01:51:15.340 --> 01:51:22.820]  Yeah, all right. Let me take another break and thank our third and final sponsor of this episode of the show
+[01:51:23.740 --> 01:51:26.140]  It's our good friends at trace Pontus
+[01:51:29.380 --> 01:51:31.380]  Look trace Pontus coffee
+[01:51:31.420 --> 01:51:36.320]  They sell freshly roasted gourmet coffee and it is shipped directly to you
+[01:51:36.500 --> 01:51:40.660]  Their coffee beans are roasted to order your order and shipped out immediately
+[01:51:40.660 --> 01:51:46.780]  Look this is a perfect gift for Father's Day. I think there's time maybe not
+[01:51:46.780 --> 01:51:51.540]  I don't know but it could be and and certainly a good gift for people all times throughout the year
+[01:51:52.940 --> 01:51:56.380]  Think about it. If you know somebody who's a coffee lover in your life, it's a good gift
+[01:51:56.380 --> 01:52:00.120]  So keep it in mind even if you don't listen to this episode quite in time for Father's Day
+[01:52:02.340 --> 01:52:06.700]  Every bag of beans that trace Pontus ships to you has a roast date printed directly on it
+[01:52:06.700 --> 01:52:13.660]  So, you know your front your coffee is fresh. So you might have heard of single origin coffee trace Pontus is a level higher
+[01:52:13.660 --> 01:52:19.840]  It's it's all of their coffee comes from a single family farm from the race family
+[01:52:20.420 --> 01:52:23.460]  Located near the town of trace Pontus in Brazil
+[01:52:24.300 --> 01:52:25.980]  So they have one variety of bean
+[01:52:25.980 --> 01:52:31.820]  It's all grown on the same family farm and the only difference is the roast profile you want how much do you want it?
+[01:52:31.820 --> 01:52:34.140]  Roasted you want light medium dark or French roast?
+[01:52:34.140 --> 01:52:42.000]  Personally, I actually prefer the light it's I'm torn between the light and medium not really a dark or French roast person never have been
+[01:52:43.280 --> 01:52:45.680]  But you get that option and I know some people really like
+[01:52:46.560 --> 01:52:48.560]  overly roasted coffee
+[01:52:48.660 --> 01:52:49.760]  And here's the thing
+[01:52:49.760 --> 01:52:55.580]  They they really do they don't just like roast it package it seal it up and then put it on shelves and then it
+[01:52:55.600 --> 01:52:57.800]  Waits and it goes out to you like they really are
+[01:52:57.800 --> 01:53:04.200]  Sending you when you order it. They really do take the stuff that was shipped that or roasted that day
+[01:53:04.200 --> 01:53:06.200]  And then that's what gets shipped to you
+[01:53:06.560 --> 01:53:10.720]  You know, I have a subscription to this now and I've had ones where the date when it you know
+[01:53:10.720 --> 01:53:12.720]  Ding-dong the packages at my house
+[01:53:13.000 --> 01:53:16.680]  And the the roast date was literally three days before
+[01:53:17.440 --> 01:53:23.000]  It's that it's that fresh and coffee really is a it's a perishable item
+[01:53:23.000 --> 01:53:28.540]  It's more like a like a vegetable or fruit or something like that than like a stable shelf item
+[01:53:29.040 --> 01:53:31.960]  In my opinion, even though most supermarkets are filled
+[01:53:32.840 --> 01:53:35.680]  Coffee that's been roasted, you know, who knows weeks or months ago
+[01:53:36.560 --> 01:53:43.340]  It really does make a difference to me. You can get it pre ground. I of course get whole bean coffee and grind it myself
+[01:53:44.120 --> 01:53:46.200]  To even further maximize the freshness
+[01:53:47.640 --> 01:53:52.960]  It's really great stuff. It is super convenient if you've never tried having a coffee subscription service
+[01:53:52.960 --> 01:53:56.200]  What you can do is you can get it like every week. You can get it every two weeks
+[01:53:56.200 --> 01:53:59.220]  You can get it every four weeks depending on how fast you go through coffee
+[01:53:59.220 --> 01:53:59.640]  You know
+[01:53:59.640 --> 01:54:03.000]  Like obviously like if you're buying it for an office or something like that
+[01:54:03.000 --> 01:54:06.480]  You might want to get a lot if you're buying it and you're the only coffee drinker at home
+[01:54:07.100 --> 01:54:10.960]  Like I am, you know once every two weeks is plenty to make coffee every day
+[01:54:13.320 --> 01:54:18.160]  This is really good stuff from a single farm certified non GMO certified kosher
+[01:54:18.160 --> 01:54:24.480]  grown at over a thousand meter altitude picked by hand roasted by hand in small batches and
+[01:54:25.120 --> 01:54:27.120]  processed naturally not washed
+[01:54:27.800 --> 01:54:31.540]  They buy coffee at prices paid above fair trade standards
+[01:54:31.640 --> 01:54:38.060]  So the farm workers who are doing this work receive high wages and it helps their family and the whole community down there in Brazil
+[01:54:38.060 --> 01:54:43.680]  So you can feel good about that. So here's the thing. How do you find out more? You can go to trace Pontus tres
+[01:54:43.680 --> 01:54:48.160]  s Pontus p o n t a s dot-com slash coffee
+[01:54:49.240 --> 01:54:52.640]  And you can start with just just you don't have to start with the subscription
+[01:54:52.640 --> 01:54:54.640]  You can just get a 12 ounce bag to try it
+[01:54:55.080 --> 01:54:59.520]  And even easier if you want you can go to Amazon and just search for trace Pontus
+[01:54:59.520 --> 01:55:05.080]  Their coffee will be the first thing you see and when you get it from Amazon, that's just the front end for the commerce
+[01:55:05.080 --> 01:55:09.200]  They still fulfill it themselves. So it's not like Amazon has a separate stash of
+[01:55:09.200 --> 01:55:16.560]  old stale coffee that they're shipping to you you get the exact same shipment that you would get if you went right to the trace Pontus
+[01:55:16.560 --> 01:55:19.280]  website and all orders in the USA
+[01:55:20.160 --> 01:55:26.800]  Get free shipping either from trace Pontus website or from Amazon. I don't know how they do that. But that's that's that's the fact
+[01:55:28.200 --> 01:55:30.120]  So you can either get a subscription
+[01:55:30.120 --> 01:55:36.400]  You can get a single package and listeners of the talk show can get an extra 10% off using the code the talk show
+[01:55:36.400 --> 01:55:40.560]  with the the at checkout when buying a coffee subscription, so
+[01:55:42.000 --> 01:55:44.880]  That means you would get an extra 10% off
+[01:55:45.560 --> 01:55:50.000]  With a subscription with this code because the subscriptions are sold at a 10% discount
+[01:55:50.000 --> 01:55:56.680]  So every subscription 10% off use the code the talk show 10% off and you their additive you get 20% off
+[01:55:56.720 --> 01:55:58.720]  So my thanks to trace Pontus
+[01:55:59.280 --> 01:56:03.320]  For making excellent coffee and for sponsoring this program
+[01:56:03.320 --> 01:56:06.040]  All right, we're two hours in we still haven't gotten to the Mac
+[01:56:07.160 --> 01:56:12.560]  This isn't gonna work. We're not gonna get all this. No, we're gonna we're gonna have to speedrun the rest of it
+[01:56:12.560 --> 01:56:19.120]  All right, Mac OS 10.14 Mojave first thing I'm gonna say dark mode. So I've got that installed
+[01:56:19.120 --> 01:56:24.360]  I put it on I'm not a nut. I did not install it on the main startup drive, but I put it on an external
+[01:56:24.880 --> 01:56:30.120]  USB drive and actually did it from default. I didn't need I didn't like upgrade an old image or something like that
+[01:56:30.120 --> 01:56:36.160]  I was like, give me the you know, interesting. Give me the native experience factory fresh and I went dark mode
+[01:56:36.840 --> 01:56:43.760]  Not I don't care for it. I can see why people I know it was by far and away
+[01:56:43.760 --> 01:56:49.640]  This is baffling to me by far and away the biggest applause line of the entire keynote was Mac OS dark mode. I
+[01:56:52.000 --> 01:56:54.800]  Find that using it system-wide it is
+[01:56:54.800 --> 01:57:00.400]  And I'm somebody who has used BB at it my text editor of choice in a dark mode for
+[01:57:01.280 --> 01:57:05.080]  Somewhere most of I would say 95% of the time for the last
+[01:57:05.920 --> 01:57:07.120]  like
+[01:57:07.120 --> 01:57:12.880]  16 17 years whenever it was that BB at it first supported having a dark background and light colors
+[01:57:13.760 --> 01:57:17.800]  Big fan of it for text editing. So I know why developers maybe wanted it
+[01:57:19.320 --> 01:57:22.880]  But as a system-wide color, I find it
+[01:57:22.880 --> 01:57:25.720]  It's really hard to see where windows overlap
+[01:57:26.720 --> 01:57:30.800]  And yeah, I found that tabs and Safari
+[01:57:30.800 --> 01:57:35.000]  It's really hard to tell and part of this might be my somewhat declining eyesight
+[01:57:35.520 --> 01:57:41.360]  Maybe I would feel differently, you know, 10 10 20 years ago when my I had like perfect 20 20 vision
+[01:57:42.560 --> 01:57:49.000]  But I found it hard to see which tab is active in Safari, but the big one is just like overlapping windows
+[01:57:49.000 --> 01:57:53.800]  It's just like overlapping windows. They all just look like one big black mass to me
+[01:57:53.800 --> 01:57:57.800]  I don't see the edge and that's because like I was thinking about it
+[01:57:57.800 --> 01:58:02.120]  But like with the regular light light background color scheme you get these
+[01:58:02.360 --> 01:58:10.040]  Shadows that show you where the window borders are and I've quite frankly have long wished for a you know
+[01:58:10.040 --> 01:58:16.920]  Maybe I'll get it someday but for a Mac OS 10 update that makes darker shadows that have less distance
+[01:58:16.920 --> 01:58:20.080]  So, you know, they're a little bit closer. Yeah
+[01:58:22.440 --> 01:58:25.440]  Just you know, and I could be wrong maybe that wouldn't look good
+[01:58:25.440 --> 01:58:31.800]  But anyway, but you with with the dark mode, there's no such thing as a light shadow, right? So there's no
+[01:58:32.440 --> 01:58:37.640]  lighter shadow that indicates it so you don't really have shadows to indicate the
+[01:58:38.440 --> 01:58:44.760]  Tiling depth of windows and into me. Oh, yeah to me the way I work especially on my
+[01:58:44.760 --> 01:58:46.600]  iMac 5k
+[01:58:46.600 --> 01:58:52.280]  That's a huge part of the way I work and it really you know on my 13 inch MacBook Pro
+[01:58:52.280 --> 01:58:57.320]  It's less of an issue because I'm effectively close to full screen mode in just about every app I use
+[01:58:58.160 --> 01:59:04.000]  But even so what I usually do is have it open most of the way and then on the right side of the screen
+[01:59:04.000 --> 01:59:09.280]  I have like a little bit of a Twitter window sticking out but when I'm in dark mode it you know, you don't really see that
+[01:59:10.200 --> 01:59:13.120]  No, it all just kinds of blends together. I agree with you
+[01:59:13.120 --> 01:59:19.400]  I when I wasn't expecting to because I love the dark toolbar and I tend to like darker windows and darker apps
+[01:59:19.920 --> 01:59:25.840]  but it really I don't know if it's just that the highlight cult like the the whitish gray isn't
+[01:59:26.040 --> 01:59:29.540]  The right shade and it's just messing with my eyes a little bit
+[01:59:29.680 --> 01:59:33.360]  But there's just something like especially Safari is wigging me out
+[01:59:33.360 --> 01:59:39.000]  I think in part because I've I've gotten used to Safari's dark window as being a private window
+[01:59:39.000 --> 01:59:43.040]  That's right for so long. Yes, so I'm like have wigging out
+[01:59:43.040 --> 01:59:46.140]  I'm like, did I open a private window? Like am I searching in the right thing?
+[01:59:46.140 --> 01:59:49.760]  Maybe I haven't tried opening a private window in dark mode. Maybe it opens a white window
+[01:59:50.560 --> 01:59:57.140]  But no, but it does is it opens a dark window with a white URL bar, you know with the the location field
+[01:59:57.240 --> 01:59:59.240]  Yeah, that's confusing
+[01:59:59.240 --> 02:00:02.000]  yeah, I just I I don't know I
+[02:00:03.000 --> 02:00:06.740]  understand why it took them so long to implement this because there are a lot of
+[02:00:06.740 --> 02:00:11.900]  there are a lot of very specific UI decisions that you kind of have to make for this and I really I
+[02:00:12.380 --> 02:00:18.140]  Appreciate the fact that like the dark changes as you like move it around certain backgrounds
+[02:00:18.140 --> 02:00:23.460]  Like it does take on some of the highlight colorations of whatever is behind it, but I just don't
+[02:00:24.060 --> 02:00:27.740]  Love it. I don't love it. Like I was expecting to I'm really shocked by that
+[02:00:27.740 --> 02:00:32.080]  Hey, and they say, you know, this is inspired by our pro users meant for everybody, you know
+[02:00:32.080 --> 02:00:34.740]  This dark mode and that pro users, you know pro
+[02:00:34.740 --> 02:00:36.740]  audio video
+[02:00:37.260 --> 02:00:44.220]  You name it tools for decades have had usually been a dark background on light with light text
+[02:00:45.020 --> 02:00:48.180]  you know and and with your like editing video or your
+[02:00:49.540 --> 02:00:55.060]  Editing photos, you know, it's it's obvious it's because it makes the actual content pop
+[02:00:55.060 --> 02:01:00.480]  you know that the white background can really with a glowing bright LCD screen or
+[02:01:00.480 --> 02:01:02.480]  You
+[02:01:03.160 --> 02:01:08.720]  Know it it can be distracting from the images, but yeah, the other thing about those apps is those apps
+[02:01:09.800 --> 02:01:16.120]  Are usually run full-screen or nearly full-screen like that to me and I didn't really think about that
+[02:01:18.320 --> 02:01:20.400]  And I don't get the overlap
+[02:01:20.400 --> 02:01:20.840]  Yeah
+[02:01:20.840 --> 02:01:27.160]  so what I kind of wish after having played with this over the weekend and used it is I really wish that I could apply this
+[02:01:27.160 --> 02:01:32.560]  On an app by app basis. I would like to tell I would like to tell photos to run in dark mode
+[02:01:33.600 --> 02:01:40.060]  For those reasons and the reason is I swear it sounds like a little thing and I could I get why people applauded this
+[02:01:40.060 --> 02:01:44.840]  But it's the main thing you're a couple years ago. I switched from Lightroom to photos and you know
+[02:01:45.080 --> 02:01:47.240]  There's a ton of features. I miss I mean I
+[02:01:47.960 --> 02:01:52.400]  You know the tip of the ice different apps the different apps but like and the surface the boy
+[02:01:52.400 --> 02:01:57.640]  Oh boy. I just missed the way Lightroom looked it really felt like my photos popped so much more
+[02:01:59.480 --> 02:02:05.080]  You know, and I think there's a reason there's a reason why when you go into editing mode and photos it switches to dark mode
+[02:02:05.080 --> 02:02:08.240]  Well, I wish it was dark mode all the time whether I was in editing mode or not
+[02:02:09.840 --> 02:02:14.660]  But I get it that but those pro apps like I said like the thing that occurs to me is pro video editors
+[02:02:14.660 --> 02:02:21.480]  They're not running the Final Cut Pro 10 in a tiny little window overlap, you know, they're full-screen. We'd go crazy. Yeah, right
+[02:02:21.480 --> 02:02:27.480]  And then there's other things to like you open a new text edit document and you've got all this dark everywhere
+[02:02:27.480 --> 02:02:29.480]  And then you've got this bright white
+[02:02:29.720 --> 02:02:33.200]  Text yeah, I don't I can't deal with that
+[02:02:33.520 --> 02:02:37.840]  And honestly, it's why I don't like Safari and dark mode either is because it's just all of that
+[02:02:37.840 --> 02:02:43.600]  There's the beautiful dark toolbar and there's so much white. It does look pretty though. I will say that it does
+[02:02:43.600 --> 02:02:48.120]  So if you put your app Mac into what I would always call screenshot mode like Apple, you know
+[02:02:48.120 --> 02:02:52.520]  Like when Apple shows off a new version of Mac OS X it's always one window perfectly centered
+[02:02:53.200 --> 02:02:58.720]  With no other, you know, and you could always see huge swaths of your beautiful desktop picture, you know
+[02:02:58.720 --> 02:03:04.220]  Which I'm never in my computer is always covered with you know, hundreds of windows
+[02:03:05.240 --> 02:03:11.100]  When you only have one window open. Oh, it looks cool as shit. It definitely looks cool. But
+[02:03:11.840 --> 02:03:14.400]  But when you have everything overlaps not so much. Yeah
+[02:03:14.400 --> 02:03:21.600]  The marzipan apps so there's four apps that are written with iOS or that are that are UI kit app
+[02:03:21.600 --> 02:03:26.040]  This is at Apple's name for it is this mouthful UI kit apps running on Mac
+[02:03:26.920 --> 02:03:30.020]  News stocks home and voice memos. I
+[02:03:31.440 --> 02:03:32.800]  Don't I don't like this
+[02:03:32.800 --> 02:03:39.800]  I don't there's news and stocks seem mostly the same and they're the ones that seem most more complete to me and make more sense
+[02:03:39.800 --> 02:03:44.560]  But I think it's really weird on the Mac when you open an article and it doesn't open in your browser
+[02:03:44.560 --> 02:03:46.680]  It just opens right in the window. You're in
+[02:03:47.560 --> 02:03:50.160]  Mmm, it just feels unnatural to me
+[02:03:52.320 --> 02:03:55.000]  The home app I it seemed broken
+[02:03:55.000 --> 02:04:01.640]  I couldn't even connect to my home pods even though they they did appear and they were listed and I could just use my iOS
+[02:04:01.640 --> 02:04:06.440]  Device and perfectly control them but for some reason with the Mac, I mean, it's early. It's a beta
+[02:04:06.440 --> 02:04:09.400]  Yeah, but I'll put a link to the show notes
+[02:04:09.400 --> 02:04:13.680]  there are some bizarre iOS style dialog boxes in the home app that
+[02:04:14.120 --> 02:04:20.240]  Really look like an I like an iPhone app running in the simulator that I I'm not down with this at all. Oh
+[02:04:21.000 --> 02:04:26.080]  Yeah, I'll put those. I mean, hopefully hopefully these things shake out, right?
+[02:04:26.080 --> 02:04:33.520]  I'm I'm hopeful that early beta and also as third-party developers get their hands on things. This will kind of smooth out a little bit
+[02:04:33.520 --> 02:04:40.200]  Yeah, but it's been interesting to hear from people who currently develop iOS apps and like electron apps
+[02:04:40.840 --> 02:04:43.440]  Who are like well, this is interesting
+[02:04:43.440 --> 02:04:50.520]  But also I still can't develop for the PC and the Mac so I'm still right my electron app and I'm like, oh, okay
+[02:04:50.840 --> 02:04:56.600]  Right like that's I said that at my live show last week. That's my hope is that okay
+[02:04:56.600 --> 02:05:01.720]  You're not gonna write a real Mac app, but you do have a web app and you do have an iOS app
+[02:05:01.720 --> 02:05:05.040]  And so if you're gonna have to move one of those to the Mac
+[02:05:05.400 --> 02:05:08.980]  Why not just you know move the iOS app and I think that would be better
+[02:05:09.320 --> 02:05:13.240]  But the problem is if you still want to have a Windows app and whatever other desktop
+[02:05:13.360 --> 02:05:17.680]  Platforms like Chrome that you might want to cover there might say I will stick with electron
+[02:05:19.680 --> 02:05:24.760]  I think maybe the best that we can hope for in practice won't be that companies that have big monolithic
+[02:05:25.120 --> 02:05:27.120]  electron apps that are god-awful like
+[02:05:27.120 --> 02:05:33.360]  Slack and the new Skype to name two that I can't stand painful
+[02:05:33.360 --> 02:05:37.120]  Yeah, well, we'll go back to the drawing board and move their iOS apps over
+[02:05:37.120 --> 02:05:44.040]  But maybe as we move forward in the years to come that future companies that haven't gone down the electron road
+[02:05:44.160 --> 02:05:49.800]  Yet for the Mac will go this way instead. So it you know, don't think so much about rewriting
+[02:05:50.400 --> 02:05:56.400]  Current electron atrocities, but maybe as we go forward, you know and new companies come out like these
+[02:05:56.400 --> 02:05:59.840]  I'm gonna cross my fingers and hope for it. Yeah a bird bird for the Mac
+[02:05:59.840 --> 02:06:04.000]  I thought the and the voice memos app unless I'm missing something is just
+[02:06:05.000 --> 02:06:07.000]  unbelievably unfinished like
+[02:06:08.000 --> 02:06:13.320]  Really buggy as hell and confusing so I don't even want to talk about it because I'm just gonna assume that this isn't even close
+[02:06:13.320 --> 02:06:17.520]  To what it's gonna ship as it's it's a beta and also I mean voice memos has never been
+[02:06:18.160 --> 02:06:23.880]  particularly fancy on iOS to begin with right like I'm kind of assuming that they're gonna
+[02:06:23.880 --> 02:06:30.400]  smooth it all over really the only thing I care about is that it'll eventually have iCloud syncing and I can move my voice memos
+[02:06:30.400 --> 02:06:32.400]  From my iPhone to my Mac without anything crazy
+[02:06:33.600 --> 02:06:36.640]  All right TV OS they didn't really announce anything for TV OS
+[02:06:41.200 --> 02:06:43.200]  Sorry developers
+[02:06:43.440 --> 02:06:49.880]  All we're gonna do is talk about the things you can get if you're using this one internet provider called spectrum
+[02:06:49.880 --> 02:06:52.760]  I've only ever heard of like two weeks ago
+[02:06:53.080 --> 02:06:57.680]  Yeah, exactly. It's probably in like New York and LA and that's it. And then here we go
+[02:06:57.680 --> 02:07:01.600]  We got to wrap up but we can talk about watch OS 5 for a minute or two
+[02:07:02.000 --> 02:07:08.180]  The walkie-talkie feature not working yet. Wasn't really wasn't really even working in demos
+[02:07:10.320 --> 02:07:15.480]  But I think it could be really useful I could really imagine this as
+[02:07:15.480 --> 02:07:22.800]  as like the ideal like Jonas is upstairs in his bedroom playing video games and I want to tell him it's time for
+[02:07:22.800 --> 02:07:24.440]  You know time to come down for dinner
+[02:07:24.440 --> 02:07:27.440]  This seems like the way to do it like a walkie-talkie
+[02:07:28.160 --> 02:07:35.200]  call seems like a really lightweight way and my analogy would be that the walkie-talkie calls feel like
+[02:07:35.520 --> 02:07:39.780]  They are to a phone call what a text message is to an email
+[02:07:39.780 --> 02:07:46.820]  Yes, right and you know a hundred percent agree an email is formal you have a subject line and you put your signature at the end
+[02:07:46.820 --> 02:07:48.180]  of it
+[02:07:48.180 --> 02:07:50.260]  You know and a text is just a text
+[02:07:50.820 --> 02:07:53.900]  Well, I really love the idea. I'm from a business perspective
+[02:07:54.140 --> 02:07:57.340]  Honestly, like I'm thinking about it in like not necessarily hospitals
+[02:07:57.460 --> 02:08:02.300]  But in areas where like you need to quickly check up on something and like in the past
+[02:08:02.700 --> 02:08:07.980]  Like I might send an email and that would take forever and I might send a text to somebody I know really well
+[02:08:07.980 --> 02:08:09.780]  But that also might you know
+[02:08:09.780 --> 02:08:16.100]  It's I feel like this is the more urgent version of a text that it isn't gonna get lost in your email box, right?
+[02:08:16.100 --> 02:08:19.660]  We're just like hey, can you talk right this second? Yeah, I can talk right this second
+[02:08:19.660 --> 02:08:23.420]  Hey, is this still this and then you're like, yep. Yep, that's it
+[02:08:23.420 --> 02:08:27.500]  And then you you've saved yourself a trip of like walking over to their office or whatever, right?
+[02:08:29.100 --> 02:08:34.860]  Alright that's a wrap. I thank you for your time serenity. That was a pretty good wrap-up of WWDC
+[02:08:35.380 --> 02:08:37.380]  Yeah, it was good seeing you
+[02:08:37.380 --> 02:08:45.500]  Good talking to you. Everybody. Everybody can read serenity's fine work at I more calm and they can catch her on Twitter as
+[02:08:46.180 --> 02:08:49.140]  at-set urn se TT e are and
+[02:08:49.140 --> 02:09:07.140]  Thank you

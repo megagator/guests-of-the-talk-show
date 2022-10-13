@@ -1,0 +1,1253 @@
+[00:00.000 --> 00:06.080]  So we're recording here on Friday, June 29, and I've got Matthew Pansarino from TechCrunch
+[00:06.080 --> 00:15.600]  here who just dropped a huge exclusive this morning on the new maps coming to Apple Maps.
+[00:15.600 --> 00:19.380]  And reading your story, I don't know if this was a problem for you or it would have been
+[00:19.380 --> 00:26.160]  for me, is writing the whole story is knowing when to use capital M for the actual product
+[00:26.160 --> 00:37.840]  maps and when to use lowercase M map to talk about the actual map within the app maps.
+[00:37.840 --> 00:39.840]  Right?
+[00:39.840 --> 00:42.620]  That would have driven me nuts while I was writing it.
+[00:42.620 --> 00:46.780]  And I think you got them all right, but it's tricky.
+[00:46.780 --> 00:47.780]  It is.
+[00:47.780 --> 00:52.560]  And there were some points at which I used lowercase maps on purpose.
+[00:52.560 --> 00:58.360]  There's 101 different maps in the piece.
+[00:58.360 --> 01:05.560]  So the 101 different times I say maps, so getting them all right was a little hairy
+[01:05.560 --> 01:06.560]  from time to time.
+[01:06.560 --> 01:14.120]  But yeah, some sentences are literally like maps and then the other maps is three words
+[01:14.120 --> 01:15.120]  away, you know?
+[01:15.120 --> 01:17.920]  So you have to be really cautious about it.
+[01:17.920 --> 01:19.720]  I don't know what else.
+[01:19.720 --> 01:23.380]  Somebody on Twitter, I think it was Neven Mergin the other day pointed out that on iOS,
+[01:23.380 --> 01:30.840]  the apps that Apple ships with iOS, the only ones that have interesting names or original
+[01:30.840 --> 01:33.720]  names are Safari, iTunes.
+[01:33.720 --> 01:34.720]  Oh, right.
+[01:34.720 --> 01:35.720]  Mm-hmm.
+[01:35.720 --> 01:36.720]  I forget what else.
+[01:36.720 --> 01:41.840]  But like he said, if they launched Safari today, they would just call it web and I don't
+[01:41.840 --> 01:42.840]  know if that's true or not.
+[01:42.840 --> 01:47.560]  I don't know if that's true, but it's certainly true for all the other ones where it's just
+[01:47.560 --> 01:49.920]  mail, notes, maps.
+[01:49.920 --> 01:54.080]  And I'm not saying that maps should have a cutesy name like Safari, but it certainly
+[01:54.080 --> 01:59.640]  makes writing about the difference between the actual map data and the app, you know,
+[01:59.640 --> 02:00.640]  difficult.
+[02:00.640 --> 02:01.640]  Mm-hmm.
+[02:01.640 --> 02:09.960]  Yeah, I don't know where their naming kind of took a left turn into bland land.
+[02:09.960 --> 02:13.920]  I think it was sort of like indicative of this fact that they wanted everything to be
+[02:13.920 --> 02:18.320]  universal, you know, and everything to be, to feel like, you know, if they're building
+[02:18.320 --> 02:24.720]  out these native apps and giving them the, the remit to own that space on the phone,
+[02:24.720 --> 02:26.160]  then they should be named that way.
+[02:26.160 --> 02:30.360]  And I think Safari of course was just like, hey, if we're going to put a web browser on
+[02:30.360 --> 02:35.840]  this phone, which is essentially Safari that we've just, you know, slightly reframeworked
+[02:35.840 --> 02:39.160]  to work on this phone, we'll just call it Safari.
+[02:39.160 --> 02:40.160]  Right.
+[02:40.160 --> 02:48.600]  Uh, so the big story is the lowercase M maps in Apple maps are Apple has been at work on
+[02:48.600 --> 02:55.720]  their own home, completely homegrown next generation level of maps for four years.
+[02:55.720 --> 03:01.840]  And they're going to start rolling out next week in for San Francisco, the city of San
+[03:01.840 --> 03:04.680]  Francisco for iOS 12 beta users.
+[03:04.680 --> 03:10.760]  And then by fall, quote unquote, Northern California for everyone, yeah, technically
+[03:10.760 --> 03:13.080]  Bay area for many users.
+[03:13.080 --> 03:19.480]  So you'll get San Francisco, you'll get Cupertino, San Jose, you know, some of the East Bay,
+[03:19.480 --> 03:20.480]  that sort of thing.
+[03:20.480 --> 03:27.440]  But it's all up, all up there, a home, home base, obviously for Apple, right.
+[03:27.440 --> 03:35.080]  Um, and it's, well, how would you describe, so the idea, part of the story here is that
+[03:35.080 --> 03:38.680]  this is entirely Apple's homegrown mapping solution.
+[03:38.680 --> 03:43.920]  So what, what have we been seeing for the last seven years in Apple maps?
+[03:43.920 --> 03:44.920]  Right.
+[03:44.920 --> 03:45.920]  Yeah.
+[03:45.920 --> 03:47.360]  So, I mean, I think there's two, two big things.
+[03:47.360 --> 03:49.280]  One you've got, yes.
+[03:49.280 --> 03:51.000]  What is the difference between the two?
+[03:51.000 --> 03:56.720]  And then two, you know, exactly what is Apple building itself and not even in the new maps.
+[03:56.720 --> 04:02.480]  And so the, the maps that we've been seeing so far, especially the ones that we saw at
+[04:02.480 --> 04:08.560]  launch were really a, an Apple front end or face, you know, whatever you want to call
+[04:08.560 --> 04:11.880]  it, the, the UI of, of maps.
+[04:11.880 --> 04:17.880]  But powered by data from partners, a large amount of that data came from companies like
+[04:17.880 --> 04:25.960]  TomTom and OpenStreetMaps, OpenStreetMaps being a sort of UGC collaborative mapping
+[04:25.960 --> 04:26.960]  effort.
+[04:26.960 --> 04:30.120]  And then TomTom being of course, one of the largest commercial providers of mapping data
+[04:30.120 --> 04:31.120]  in the world.
+[04:31.120 --> 04:37.520]  Um, they're, I don't get, I don't know, they're, they're, I think they're a German company.
+[04:37.520 --> 04:39.520]  That's probably going to be wrong.
+[04:39.520 --> 04:42.920]  Somebody's going to correct me, but anyhow, they're, they're not a U S company.
+[04:42.920 --> 04:45.720]  Um, they, they've been building maps for a long time.
+[04:45.720 --> 04:50.420]  They've been using a lot of things most famously, I think for those of us who are old, uh, in
+[04:50.420 --> 04:55.600]  their own consumer GPS devices, you know, the TomTom devices were some of the first
+[04:55.600 --> 05:02.440]  sort of add on GPS devices you could put in your car before Navi systems were, you know,
+[05:02.440 --> 05:04.720]  came with every Prius or whatever.
+[05:04.720 --> 05:10.440]  Um, so that data formed what they called a base map.
+[05:10.440 --> 05:16.280]  And so in mapping you have a structure that is largely based on layers.
+[05:16.280 --> 05:22.600]  And obviously most famously, you've got like a, a 2D layer and then like a satellite layer.
+[05:22.600 --> 05:28.080]  And then Apple has added a 3D layer, uh, with flyover, um, and Google has done much the
+[05:28.080 --> 05:33.160]  same over the years, but those layers of maps that, that comes from traditional map making
+[05:33.160 --> 05:38.320]  as well, where they'd have overlays that kind of showed different types of information.
+[05:38.320 --> 05:43.920]  Um, but the base, the base map is sort of the most important cause it's what you build
+[05:43.920 --> 05:48.800]  the layers on top of, uh, to represent or to, to modify.
+[05:48.800 --> 05:54.520]  And so the base maps were always external data, third party data, not gathered or collated
+[05:54.520 --> 05:59.840]  directly by Apple, but instead provided by partners, uh, updated by partners, maintained
+[05:59.840 --> 06:03.440]  by partners, uh, and then of course licensed by Apple.
+[06:03.440 --> 06:05.960]  Um, so there were a bunch of limitations there.
+[06:05.960 --> 06:11.320]  Uh, one big major limitation is if you need to make an update or correction to a map,
+[06:11.320 --> 06:16.120]  uh, that has to go through a loop where a correction gets noted either internally at
+[06:16.120 --> 06:20.840]  Apple or of course from, you know, Apple's eventually launched, uh, third party or not
+[06:20.840 --> 06:25.400]  third party, but, um, external reporting tool, you know, you can go in there and, and hit
+[06:25.400 --> 06:30.400]  report, Hey, this location is wrong or whatever, and in your copy of maps, um, all of those
+[06:30.400 --> 06:36.480]  reports had to then go out to the third party, be corrected by the third party and then updated
+[06:36.480 --> 06:38.920]  in the data that it delivered to Apple.
+[06:38.920 --> 06:43.120]  Um, and then some of that data I'm sure is delivered live and some of it is sort of,
+[06:43.120 --> 06:46.680]  you know, static, like in other words, hosted by Apple and they just update it.
+[06:46.680 --> 06:50.260]  However often the third party provider provides them with a batch update.
+[06:50.260 --> 06:57.480]  So you have a long loop between the time that something is known to be wrong and the time
+[06:57.480 --> 07:03.120]  it is in fact fixed or corrected in maps for the consumer is a fairly long loop there that
+[07:03.120 --> 07:06.940]  could last, could be months or, or even longer sometimes.
+[07:06.940 --> 07:11.360]  So one of the, that's one of the major problems that Apple needed to solve, to fix, so to
+[07:11.360 --> 07:17.360]  speak, um, by building its own base maps and owning those base layer maps is that the loop
+[07:17.360 --> 07:21.320]  was shortened by essentially an entire company, right?
+[07:21.320 --> 07:23.620]  So now it's within Apple.
+[07:23.620 --> 07:30.960]  Those changes can be made, um, aggressively more frequently, uh, at a, at a more rapid
+[07:30.960 --> 07:31.960]  pace.
+[07:31.960 --> 07:40.000]  Um, and then the second part of the equation is you have external licensees, so you have
+[07:40.000 --> 07:41.000]  limitations.
+[07:41.000 --> 07:42.560]  That's what you can do with that data.
+[07:42.560 --> 07:47.120]  So if you have, uh, for instance, Apple maps doesn't have local caching and some of that
+[07:47.120 --> 07:51.600]  has to do with licensing agreements, um, you know, the, the maps data can't be stored locally.
+[07:51.600 --> 07:53.360]  It has to be streamed, et cetera.
+[07:53.360 --> 08:00.640]  So anyhow, there's, there's, there were very solid limitations that caused Apple to say,
+[08:00.640 --> 08:05.840]  to come to this realization that if maps, which is a cornerstone of a lot of different
+[08:05.840 --> 08:10.880]  functions of the phone, not just maps, uh, if they're going to own that, then they should
+[08:10.880 --> 08:11.880]  own that.
+[08:11.880 --> 08:18.180]  And that's why they decided to start building their own base maps and then adding their
+[08:18.180 --> 08:25.880]  own, uh, or their own remixes of layers on top of that.
+[08:25.880 --> 08:34.640]  The licensing question, uh, it gets into the entire origin story of Apple maps because,
+[08:34.640 --> 08:42.040]  you know, famously the backstory is before there was Apple maps, there were up, you know,
+[08:42.040 --> 08:46.640]  the iOS shipped with a maps app that used Google maps as the backend.
+[08:46.640 --> 08:50.640]  And I loved your lead.
+[08:50.640 --> 08:57.780]  The lead of your article was, I'm not sure if you're aware, but the launch of Apple maps
+[08:57.780 --> 09:00.620]  went poorly.
+[09:00.620 --> 09:02.420]  That's such a great lead, man.
+[09:02.420 --> 09:06.960]  I mean, it's like, man, that's a sentence.
+[09:06.960 --> 09:18.660]  I, I, uh, part of it wasn't just that it was a bad launch and, you know, and had some,
+[09:18.660 --> 09:24.160]  some really glaringly bad errors, you know, bridges that, that looked like they were,
+[09:24.160 --> 09:29.840]  you know, like from satellite view, looked like they'd melted, you know, driving directions
+[09:29.840 --> 09:35.760]  that would send you on impossible routes or into the ocean, into the ocean, right.
+[09:35.760 --> 09:36.760]  Yeah.
+[09:36.760 --> 09:41.160]  Uh, you know, I, I mean, they're just all sorts of comical thing into the ocean, who
+[09:41.160 --> 09:48.620]  knows what else.
+[09:48.620 --> 09:54.960]  But it was that it was on the heels of an app that into, until that rolled out, was
+[09:54.960 --> 09:58.160]  using Google maps and didn't have those problems.
+[09:58.160 --> 10:02.280]  Um, and so, you know, the, the reaction was, why would Apple do this?
+[10:02.280 --> 10:04.320]  Why didn't they just stick with Google maps?
+[10:04.320 --> 10:09.320]  And I thought that that was the one question I had with your story, where you, you got
+[10:09.320 --> 10:16.280]  to talk to Eddie Q who's in charge of the maps team and he makes it sound in a quote,
+[10:16.280 --> 10:20.000]  I forget where it is here in the story about whether or not they wanted to get, do maps
+[10:20.000 --> 10:21.800]  in the first place.
+[10:21.800 --> 10:30.760]  Uh, what, here's, here's the, we decided to, I forget where the quote is, but I don't think,
+[10:30.760 --> 10:32.400]  I think that's a little disingenuous.
+[10:32.400 --> 10:38.160]  I felt like they had to, like the backstory I know of the situation is that their hand
+[10:38.160 --> 10:46.360]  was forced to do their own maps if they wanted to remain competitive because Google was asking
+[10:46.360 --> 10:47.960]  for more.
+[10:47.960 --> 10:51.560]  And you know, you do touch on the privacy issue repeatedly.
+[10:51.560 --> 10:55.240]  And you mentioned that almost you talked to a bunch of people at Apple, you spent a lot
+[10:55.240 --> 10:59.680]  of time on this story and that everybody you spoke to emphasize that this whole new thing
+[10:59.680 --> 11:02.240]  that they've built was designed with privacy from the ground up.
+[11:02.240 --> 11:07.120]  And we'll get into how, why that's important because they're using individual iPhones to
+[11:07.120 --> 11:08.680]  collect data.
+[11:08.680 --> 11:16.720]  Um, but that privacy issue is really what drove them away from Google back in 2010 or
+[11:16.720 --> 11:22.680]  whenever this was, um, because the maps that they had from Google originally and iOS weren't
+[11:22.680 --> 11:23.680]  vector based.
+[11:23.680 --> 11:29.400]  They were bitmaps, um, and for those of you who don't know that it's a huge difference.
+[11:29.400 --> 11:37.120]  It's the difference between a scalable graphic format, you know, like, uh, um, SVG versus
+[11:37.120 --> 11:40.920]  a just pixel by pixel, that's a bitmap, just a bunch of pixels.
+[11:40.920 --> 11:45.160]  And so the old Apple maps were bit map based.
+[11:45.160 --> 11:51.160]  And so at different resolutions, it would be a different just bitmap graphic and you'd
+[11:51.160 --> 11:56.800]  zoom in and didn't really, you'd have to wait for new, new tiles to, to come down.
+[11:56.800 --> 12:01.340]  Whereas if you have a vector map, it's just a huge difference in terms of as you pinch
+[12:01.340 --> 12:03.840]  and zoom it, it scales smoothly.
+[12:03.840 --> 12:08.420]  Uh, they didn't have the licensing rights to do turn by turn directions.
+[12:08.420 --> 12:11.240]  And that is, you know, in hindsight, it's crazy, right?
+[12:11.240 --> 12:15.520]  It's one of those things like when you think about the iPhone originally in 2007, didn't
+[12:15.520 --> 12:19.040]  even have video, didn't shoot video on the camera.
+[12:19.040 --> 12:21.000]  It's like, well, that seems nuts.
+[12:21.000 --> 12:26.080]  Like not having turned by turn directions on your phone built in seems nuts now.
+[12:26.080 --> 12:31.380]  And they didn't have it then and they couldn't add it without acquiescing to licensing terms
+[12:31.380 --> 12:34.320]  from Google that they were unwilling to swallow.
+[12:34.320 --> 12:36.780]  They were between a rock and a hard place effectively.
+[12:36.780 --> 12:42.000]  They couldn't say yes to Google without, um, agreeing to things they didn't want to agree
+[12:42.000 --> 12:47.400]  to and their own technology wasn't ready to go is basically, that's basically the story
+[12:47.400 --> 12:52.400]  of how, why Apple launched maps, even though it was in pretty, pretty shoddy shape.
+[12:52.400 --> 12:53.400]  Yeah.
+[12:53.400 --> 12:56.800]  I mean, I think basically that's, I think you're exactly right.
+[12:56.800 --> 13:01.440]  Obviously it's first strategically from a business angle, you know, that's why they
+[13:01.440 --> 13:03.000]  had to do it.
+[13:03.000 --> 13:07.800]  Um, I didn't get too much into that because I didn't really, you know, they wouldn't have
+[13:07.800 --> 13:08.800]  talked about it.
+[13:08.800 --> 13:14.240]  Not, not so probably not, but at the same time there have been endless pieces written
+[13:14.240 --> 13:19.200]  about that era of Apple maps, you know, of, of the goings on by, I mean, I've written
+[13:19.200 --> 13:23.280]  some over the years, you know, of the goings on behind the scenes and you have, and plenty
+[13:23.280 --> 13:27.180]  of other people have analyzed it and plenty of good reporters have like gotten stories
+[13:27.180 --> 13:28.880]  about sort of what went wrong.
+[13:28.880 --> 13:33.480]  And I think everybody kind of understands there was no dysfunction within the organization
+[13:33.480 --> 13:38.760]  that led to, you know, the maps kind of being shipped in the state that they were, but they
+[13:38.760 --> 13:44.680]  were also not helped by any means, but the timetable and the business pressures and everything
+[13:44.680 --> 13:45.680]  else.
+[13:45.680 --> 13:46.680]  Right.
+[13:46.680 --> 13:50.520]  So you had, you had like a perfect storm of, of situation where you had to launch something
+[13:50.520 --> 13:54.320]  and yet that you knew that thing wasn't going to be as good as you wanted it to be.
+[13:54.320 --> 13:55.800]  And I think they acknowledged that.
+[13:55.800 --> 14:00.440]  I mean, I think Eddie acknowledges it pretty directly and the maps folks that I talked
+[14:00.440 --> 14:05.160]  to at Apple, it wasn't, you know, there was no denial there, right?
+[14:05.160 --> 14:10.640]  Nobody, nobody there once tried to convince me that the original version of maps was just
+[14:10.640 --> 14:11.640]  great.
+[14:11.640 --> 14:15.600]  You know, I mean, obviously very famously, Tim apologized publicly, but these are also
+[14:15.600 --> 14:19.560]  people that have worked on maps for a long time and been at Apple for many, many years.
+[14:19.560 --> 14:22.320]  They have very senior people working on this project now.
+[14:22.320 --> 14:28.240]  And so, you know, many of them might've had the instinct to, to kind of, to defend themselves
+[14:28.240 --> 14:29.240]  in that regard.
+[14:29.240 --> 14:33.680]  And I think basically it was, you know, we knew we had to do it.
+[14:33.680 --> 14:38.040]  We did it with what we had available to us at the time, which is partner data.
+[14:38.040 --> 14:40.120]  And you know, you saw what happened.
+[14:40.120 --> 14:44.920]  So since then, you know, I think that many people on the maps team and people at Apple
+[14:44.920 --> 14:47.620]  do feel that they've improved maps significantly.
+[14:47.620 --> 14:52.000]  And I think that they have, and I don't, I don't mean to say that it's perfect or I don't
+[14:52.000 --> 14:56.920]  mean to say that, you know, it's in a state where I think it's, it's all fine.
+[14:56.920 --> 14:59.040]  And why are they even doing this new thing?
+[14:59.040 --> 15:04.360]  It certainly isn't in that arena at all, but it's a damn sight better than it was when
+[15:04.360 --> 15:07.760]  it launched in terms of directions and usability.
+[15:07.760 --> 15:12.960]  And of course, it's got like transport in now and a bunch of other, of other nice improvements.
+[15:12.960 --> 15:18.400]  So they've, they've sort of been gussying up the house, you know, as they've gone and
+[15:18.400 --> 15:21.040]  it's certainly in much better shape now.
+[15:21.040 --> 15:25.400]  But they were gussying up a house that they built in a hurry.
+[15:25.400 --> 15:31.200]  And so if the timbers are crooked, you know, and the foundation is, is leaning to one side,
+[15:31.200 --> 15:33.680]  you're never going to be able to build as high as you want.
+[15:33.680 --> 15:36.160]  And that's, I think, where they ended up.
+[15:36.160 --> 15:39.640]  And Eddie's answer to me when I asked him about like, why now and you know, how long
+[15:39.640 --> 15:43.680]  did it take and all of that stuff, he said it took four years, which would mean that
+[15:43.680 --> 15:51.040]  it was started, you know, let's call it 2000, in the 2014, 13, 14, you know, kind of range
+[15:51.040 --> 15:53.600]  somewhere there.
+[15:53.600 --> 15:59.000]  And they felt that they were starting to get critical mass on the number of devices that
+[15:59.000 --> 16:04.680]  were out there, so that they could start collecting data from them in a, in a meaningful but yet
+[16:04.680 --> 16:09.760]  privacy conscious way that allowed them to augment the information that they'd have from
+[16:09.760 --> 16:10.760]  maps.
+[16:10.760 --> 16:15.080]  And so they knew at that point, they came to this realization, hey, we launched maps
+[16:15.080 --> 16:18.520]  because we had to for a variety of reasons, as you outlined.
+[16:18.520 --> 16:24.640]  But we also realized that the future of all of these devices is location based, whether
+[16:24.640 --> 16:32.280]  you know, I don't care whether it's AR or, or, or GPS direction, GPS based directions,
+[16:32.280 --> 16:38.680]  or API is that you're provided to developers, there are just dozens of threads that touch
+[16:38.680 --> 16:44.400]  maps, you know, maps is just everywhere in the phone, you know, it's, it's a integral
+[16:44.400 --> 16:50.920]  part of a majority of features of the phone can't find this, a single marquee feature
+[16:50.920 --> 16:53.320]  of the phone that doesn't tap it somehow.
+[16:53.320 --> 16:56.560]  I mean, you say, Oh, the camera's reason by people buy phones.
+[16:56.560 --> 16:57.560]  Yeah, sure.
+[16:57.560 --> 16:58.560]  That's great.
+[16:58.560 --> 17:02.880]  But you know, exactly where every photo was taken because of maps, you know, and then
+[17:02.880 --> 17:04.800]  like there's it touches everything.
+[17:04.800 --> 17:08.740]  And so they figured if we're gonna, we we already own it, we already took the responsibility
+[17:08.740 --> 17:12.520]  to do it, you know, it's already our bag, you know, it's already we're already holding
+[17:12.520 --> 17:13.520]  the bag.
+[17:13.520 --> 17:18.680]  So if we're gonna hold that bag, we should figure out how to build it from the ground
+[17:18.680 --> 17:20.360]  up and stop relying on partners.
+[17:20.360 --> 17:26.320]  And this is a constant refrain, as you've written about, as many people have no notice
+[17:26.320 --> 17:31.440]  so for the past few years is that Apple is making itself into something that owns all
+[17:31.440 --> 17:38.640]  of its key core features, whether that's processor design, or, or UI or maps.
+[17:38.640 --> 17:46.160]  So they figured, hey, we've got a couple of colliding circumstances that allow us to do
+[17:46.160 --> 17:47.160]  this.
+[17:47.160 --> 17:49.020]  Now, one, we've got resources up the yang.
+[17:49.020 --> 17:53.960]  So we can, we can field these vans, we can start building them, we can learn how to make
+[17:53.960 --> 17:54.960]  them.
+[17:54.960 --> 17:59.560]  I mean, people started seeing these vans on the on the street and like 2015 or whatever,
+[17:59.560 --> 18:04.600]  they were obviously building them in 2014 to try and get them on the street in 2015.
+[18:04.600 --> 18:09.080]  And then you look at now and we're, they're just starting to use some of the data that
+[18:09.080 --> 18:10.560]  they've collected with these vans.
+[18:10.560 --> 18:13.080]  So it wasn't like they started collecting data back then.
+[18:13.080 --> 18:16.400]  And now all the data is going in, they had to figure out how to do it, right?
+[18:16.400 --> 18:19.880]  Like they had to build a van had to hire the people build the vans, do all that stuff.
+[18:19.880 --> 18:23.040]  Well, there's a, there's a couple of we are, there's a couple of mentions in your story
+[18:23.040 --> 18:27.480]  about the building custom tools, right.
+[18:27.480 --> 18:34.200]  So a big part of that is the software that drives these vans and that uses that data.
+[18:34.200 --> 18:40.960]  You also mentioned that they've built custom tools so that Apple's own human, I think they're
+[18:40.960 --> 18:44.480]  called editors, map editors, but you know, human beings, that's the way they were referred
+[18:44.480 --> 18:46.440]  to me as well anyway, right?
+[18:46.440 --> 18:52.600]  Human beings can look at, you know, there's been reports that, you know, there's something's
+[18:52.600 --> 18:57.080]  wrong with this, you know, the this intersection or the entrance to this building or something
+[18:57.080 --> 18:58.880]  like that.
+[18:58.880 --> 19:02.280]  And that they've got tools so that they can just go in and edit it.
+[19:02.280 --> 19:06.200]  And then the, the, the fix goes live, you know, taking out that loop that you were talking
+[19:06.200 --> 19:11.560]  about with the licensed stuff from Tom Tom, where then they could, you know, the old days
+[19:11.560 --> 19:16.120]  it was like file, they'd file a report with Tom Tom and wait for Tom Tom to update their
+[19:16.120 --> 19:17.120]  thing, hopefully.
+[19:17.120 --> 19:18.720]  And then it comes back and could roll out.
+[19:18.720 --> 19:23.360]  But now they've built these tools and you know what, it takes time to build good tools.
+[19:23.360 --> 19:24.360]  You know,
+[19:24.360 --> 19:31.840]  And I'll tell you, I saw, I don't know, maybe, I don't know, eight to 10 different tools
+[19:31.840 --> 19:36.360]  or different applications of tools, you know, that they had built.
+[19:36.360 --> 19:41.000]  And these, the scenarios that are, I've mentioned some of them in the piece, but I didn't really
+[19:41.000 --> 19:44.860]  get into it as much as I could, because you got to sort of stop writing at some point.
+[19:44.860 --> 19:47.680]  But the, the tools are very interesting.
+[19:47.680 --> 19:50.540]  They are, they are meant for humans to use.
+[19:50.540 --> 19:56.460]  So they're meant for human editors to be able to rapidly clip through, you know, issues
+[19:56.460 --> 20:01.800]  or flagged issues and decide what to do about them, right, and to make a human call of what
+[20:01.800 --> 20:02.800]  to do.
+[20:02.800 --> 20:08.300]  So in the case of an intersection, you know, a new intersection goes up and, and something,
+[20:08.300 --> 20:11.360]  somebody flags it that, oh, this told me to turn left or whatever.
+[20:11.360 --> 20:15.960]  And they go to look at that incident report, they tap through to the next flag for that
+[20:15.960 --> 20:21.160]  section of the map, and the flag says, hey, something's up with the lanes here.
+[20:21.160 --> 20:24.880]  And they have tools that they can just basically click on a lane and say, oh, okay, you're
+[20:24.880 --> 20:26.480]  supposed to be attached to this lane.
+[20:26.480 --> 20:29.120]  And they click on another one and bloop, right, it attaches it.
+[20:29.120 --> 20:33.520]  And from that point on, once they commit that change, they then commit it, it goes into
+[20:33.520 --> 20:35.960]  review, it gets reviewed, and they get it approved, right.
+[20:35.960 --> 20:41.660]  But all within Apple's organization now, it appears in the map, boom, done, right.
+[20:41.660 --> 20:45.000]  Now that lane connects properly, and it doesn't tell you to make a U-turn instead of a left
+[20:45.000 --> 20:46.040]  turn, right?
+[20:46.040 --> 20:49.000]  Or doesn't tell you to go from the inside lane to the outside lane, because one of the
+[20:49.000 --> 20:53.700]  new things is better lane guidance with like, more accurate lanes, including bike lanes
+[20:53.700 --> 20:54.700]  and everything else.
+[20:54.700 --> 21:01.800]  I'll just say this as an aside, their lane guidance has gotten significantly better.
+[21:01.800 --> 21:02.800]  Mm hmm.
+[21:02.800 --> 21:04.240]  Yeah, it is.
+[21:04.240 --> 21:10.040]  And lane guidance is one of those things that we talked about this through various aspects
+[21:10.040 --> 21:15.600]  of maps, but it's one of those things that just affects cognitive load, a massive amount
+[21:15.600 --> 21:25.560]  with maps, because you're going 80, or well, or you're going 55, whatever, insert legal
+[21:25.560 --> 21:29.200]  speed limit here, and you're trying to figure out, should I take this exit?
+[21:29.200 --> 21:31.640]  Do I need to be in the left hand side of the exit or the right hand side?
+[21:31.640 --> 21:36.680]  You know, all of these decisions that you're making in a rapid clip with a two ton vehicle,
+[21:36.680 --> 21:41.680]  and any time that you can get very, very precise, like, hey, no, you need to be right here.
+[21:41.680 --> 21:43.340]  You're in the right place.
+[21:43.340 --> 21:44.340]  It's all good.
+[21:44.340 --> 21:45.400]  We got this handled.
+[21:45.400 --> 21:49.800]  It improves safety, it improves, you know, it lessens stress.
+[21:49.800 --> 21:51.320]  There's a lot of benefits there.
+[21:51.320 --> 21:53.880]  So yeah, lane guidance seems like one of those conveniences.
+[21:53.880 --> 21:58.600]  But in effect, I think it makes driving safer, you know, so you don't have to jet over five
+[21:58.600 --> 21:59.600]  lanes.
+[21:59.600 --> 22:04.080]  It's also the sort of thing that can change very rapidly when there's construction that,
+[22:04.080 --> 22:08.800]  you know, what used to be maybe there were two lanes that you could take to get off here
+[22:08.800 --> 22:13.760]  because it's busy, but now it's just one lane, you know, the lane guidance has to be different
+[22:13.760 --> 22:14.760]  temporarily.
+[22:14.760 --> 22:15.760]  Yeah.
+[22:15.760 --> 22:20.520]  And that's the kind of stuff that they're, they're hoping will get flagged and corrected
+[22:20.520 --> 22:21.680]  very quickly.
+[22:21.680 --> 22:27.200]  And some of the flagging will happen automatically through machine learning tools or, you know,
+[22:27.200 --> 22:29.280]  kind of algorithmic segmentation.
+[22:29.280 --> 22:33.300]  And then some of it will happen just via humans reporting it.
+[22:33.300 --> 22:36.080]  And some of it they use, they're using city data.
+[22:36.080 --> 22:40.120]  You know, the city says, hey, we've got a new subdivision and here's all the addresses
+[22:40.120 --> 22:42.220]  for the subdivision.
+[22:42.220 --> 22:45.040]  You know, they can say, okay, cool, let's task a van.
+[22:45.040 --> 22:47.700]  The van goes and runs the subdivision.
+[22:47.700 --> 22:57.020]  So it has, now it has exact tracking data, imagery, and GPS location, and LIDAR data.
+[22:57.020 --> 23:00.060]  So a 3D point cloud of the neighborhood.
+[23:00.060 --> 23:03.080]  And then you can go in and correct all the addresses to make sure they're attached to
+[23:03.080 --> 23:04.560]  the right houses.
+[23:04.560 --> 23:05.560]  Within a few minutes.
+[23:05.560 --> 23:10.040]  I mean, I saw the, the operations, I mean, one person could clear a subdivision in just
+[23:10.040 --> 23:13.320]  a couple of minutes and make sure that all the addresses are pinned to the right houses
+[23:13.320 --> 23:16.100]  and that the directions are correct.
+[23:16.100 --> 23:18.800]  And then that road system can get added very, very quickly.
+[23:18.800 --> 23:19.800]  All right.
+[23:19.800 --> 23:22.540]  I have a lot more to say about maps or to ask you about maps.
+[23:22.540 --> 23:26.360]  But in the meantime, let's take a break here and thank our first sponsor, brand new sponsor
+[23:26.360 --> 23:28.040]  on the show.
+[23:28.040 --> 23:32.360]  They have sponsored my website before, but they're brand new on the show, Kolide, K-O-L
+[23:32.360 --> 23:33.360]  I-D-E.
+[23:33.360 --> 23:38.960]  They're a new startup and they're working to solve security challenges for tech companies
+[23:38.960 --> 23:40.280]  that run large Mac fleets.
+[23:40.280 --> 23:44.600]  And that's a lot of tech companies out there that have, that are largely Mac based.
+[23:44.600 --> 23:49.000]  They believe that these organizations max, which are often driven by software engineers
+[23:49.000 --> 23:54.180]  and designers who have broad access to, to valuable intellectual property and customer
+[23:54.180 --> 23:57.080]  data are low hanging fruit for compromise.
+[23:57.080 --> 23:59.200]  Not because Mac OS is somehow insecure.
+[23:59.200 --> 24:03.360]  It's not, but just that the daily grind of software development causes employees to disable
+[24:03.360 --> 24:08.160]  important security features or maybe make risky decisions with where they put data temporarily.
+[24:08.160 --> 24:13.440]  Uh, examples, what good is full disc encryption if your users are making unencrypted time
+[24:13.440 --> 24:18.360]  machine backups or what good is using SSH keys to access a production server if that
+[24:18.360 --> 24:21.800]  key isn't encrypted and resides in the share folder?
+[24:21.800 --> 24:27.540]  Um, you know, there's all sorts of issues like that and Kolide is tackling them specifically
+[24:27.540 --> 24:31.540]  for tech companies with large Mac fleets and they've just launched their first product.
+[24:31.540 --> 24:35.940]  It's called Kolide Cloud and it's the first product in the industry that takes these type
+[24:35.940 --> 24:40.500]  of user driven security holes seriously and helps you understand the cause and effect
+[24:40.500 --> 24:46.020]  relationships between the many seemingly innocuous or disconnected actions that users can take
+[24:46.020 --> 24:49.420]  into potentially catastrophic consequences.
+[24:49.420 --> 24:53.500]  If something like valuable, like private customer data or intellectual property for somehow
+[24:53.500 --> 24:54.500]  it leaked.
+[24:54.500 --> 24:59.100]  Uh, Kolide not only allows you to detect dozens of these situations, but it also includes
+[24:59.100 --> 25:03.940]  a non-obtrusive menu bar app, just a simple little thing that sits in the menu.
+[25:03.940 --> 25:08.200]  Um, and then you can deploy this to the users to effectively communicate your organization's
+[25:08.200 --> 25:11.040]  security policy.
+[25:11.040 --> 25:16.360]  It doesn't just help employees who are unaware of the policy, but also highly technical employees
+[25:16.360 --> 25:20.840]  who get it, who understand these things, um, but who sometimes turn off security features
+[25:20.840 --> 25:24.540]  temporarily for convenience and then forget to turn them back on.
+[25:24.540 --> 25:30.400]  All of this is powered by OS Query, an incredibly performant and open source agent that was
+[25:30.400 --> 25:34.220]  created by Kolide's founders during their time at Facebook.
+[25:34.220 --> 25:41.460]  OS Query is 100% open source, doesn't degrade the performance of your Macs and the project
+[25:41.460 --> 25:47.140]  is committed to providing important information to security analysts without violating the
+[25:47.140 --> 25:48.860]  privacy of end users.
+[25:48.860 --> 25:53.500]  So here's, you can try it free for the first 10 devices.
+[25:53.500 --> 25:58.980]  Kolide Cloud is a free product for up to 10 devices and you can sign up on their website
+[25:58.980 --> 26:01.380]  today at kolide.com.
+[26:01.380 --> 26:07.640]  That's all you need to know, kolide.com, 10 devices for free.
+[26:07.640 --> 26:08.640]  It's a great service.
+[26:08.640 --> 26:13.080]  It really seems like a bunch of interesting, uh, interesting people working there, uh,
+[26:13.080 --> 26:14.080]  in my interaction with them.
+[26:14.080 --> 26:15.380]  So go check them out.
+[26:15.380 --> 26:18.900]  We appreciate their sponsoring the show.
+[26:18.900 --> 26:26.180]  Um, so here's the thing to me and I've been, I think it applies to more than maps is that
+[26:26.180 --> 26:31.380]  there's this basic argument out there that in the areas where Apple is behind, let's
+[26:31.380 --> 26:38.740]  say maps and Siri are as two examples and you know, Siri is a broad range of products
+[26:38.740 --> 26:44.220]  underneath one umbrella term, but let's just say just to keep, keep the conversation moving
+[26:44.220 --> 26:52.140]  and competitors like Amazon and Google, uh, are less privacy focused than Apple.
+[26:52.140 --> 26:59.340]  Uh, and the, there's this argument that because Apple isn't collecting more data and then
+[26:59.340 --> 27:08.120]  aggregating it in the cloud and doing all this work up there, that's why they're behind.
+[27:08.120 --> 27:13.140]  And I've asked Apple executives about it, you know, like on my show, uh, and, and they're
+[27:13.140 --> 27:19.500]  adamant that their strategy of distributing this and having the private stuff local that
+[27:19.500 --> 27:25.140]  your phone is the only device that knows that you, Matthew Panzerino are making this trip
+[27:25.140 --> 27:31.140]  from a to B and that any, uh, what do they call them?
+[27:31.140 --> 27:38.220]  Slices of that trip that while your segments, segments of the trip that are transmitted
+[27:38.220 --> 27:42.920]  to the cloud so that Apple can help improve maps are done in a completely anonymous way
+[27:42.920 --> 27:49.300]  with these rotating numeric IDs that aren't associated with you such that not only does
+[27:49.300 --> 27:54.540]  Apple not know and can't know that there's no way it could put the pieces it has back
+[27:54.540 --> 27:59.700]  together to know that Matthew Panzerino went from point a to point B that they can't even
+[27:59.700 --> 28:05.580]  tell that someone went from point a to point B because the individual segments each have
+[28:05.580 --> 28:14.000]  a different rotated ID. Basically, basically what I think Apple strategy is that they are
+[28:14.000 --> 28:24.220]  doing massively parallel, um, computation to, to do these things like improve Siri and
+[28:24.220 --> 28:30.980]  improve maps, but that the parallelization is these a hundred billion or however many
+[28:30.980 --> 28:35.500]  not a hundred billion, a hundred, a hundred million, however many active iPhones and iPads
+[28:35.500 --> 28:39.580]  and max there are one point three billion or something like that. Yeah. You know that
+[28:39.580 --> 28:44.580]  you multiply the computing power of these devices by the number of devices and there's,
+[28:44.580 --> 28:50.420]  there's a, an incredible amount of parallel computing power out there. And I think that
+[28:50.420 --> 28:54.780]  what they're saying with maps is there, that's sort of one of the vectors they're taking
+[28:54.780 --> 29:02.740]  to, to improve this. Yeah. I mean, what they're doing has a lot to do with the concept of
+[29:02.740 --> 29:08.060]  edge computing. Um, and you know, for those listeners who may not know, you know, edge
+[29:08.060 --> 29:15.860]  computing is basically, it's a type of cloud computing, but it involves more distributed
+[29:15.860 --> 29:20.960]  nodes that are sort of on the quote unquote edge of the internet, which basically means
+[29:20.960 --> 29:25.740]  where the internet comes in contact with the physical world. So for instance, an edge computing
+[29:25.740 --> 29:32.320]  device may exist on the furthest node of a network to support local devices, let's say
+[29:32.320 --> 29:37.740]  at a facility. And it can serve up files and do all these kinds of things that normally
+[29:37.740 --> 29:44.180]  a cloud server, let's say hosted on AWS would, would do, but it could do it faster because
+[29:44.180 --> 29:48.980]  it's closer and it could do it with redundancy and you could do it with security because
+[29:48.980 --> 29:53.900]  it's the only node that could communicate with the remote nodes, you know, and it itself
+[29:53.900 --> 29:57.800]  communicates back with the server, et cetera, et cetera. Right. There are a bunch of different
+[29:57.800 --> 30:01.740]  benefits to edge computing and I'm a dummy, so I don't really like, I'm no edge computing
+[30:01.740 --> 30:06.260]  expert, right? But edge computing or fault computing is basically this idea that you're
+[30:06.260 --> 30:13.060]  going to have a lot of these powerful individual nodes that make up the cloud and each one
+[30:13.060 --> 30:18.340]  of those nodes will have its own responsibilities. And to me, I think a lot of people do not
+[30:18.340 --> 30:22.780]  talk about it in this context and maybe somebody who listens to this will be like, oh, well,
+[30:22.780 --> 30:27.140]  here's why it's fundamentally wrong and different and all that. But to me, it shares a lot of
+[30:27.140 --> 30:31.860]  characteristics with edge computing because it allows the local device to take care of
+[30:31.860 --> 30:36.540]  its local business and that by local device, I mean your iPhone to say, hey, I'm going
+[30:36.540 --> 30:41.940]  to take care of the personalization aspects. I'm going to run AI and ML on your photos.
+[30:41.940 --> 30:47.220]  I'm going to handle personal requests and then handle translating those into generic
+[30:47.220 --> 30:52.020]  requests and then passing those on and getting that back and translating them back into personal
+[30:52.020 --> 30:59.940]  requests. Right. You know, all of that stuff. And then times 1.3 billion of those. And then
+[30:59.940 --> 31:05.140]  you have the central computing stuff that Apple is doing on the generic parts of that
+[31:05.140 --> 31:12.980]  data, the parts of that data that will benefit the whole by providing a base layer of compute
+[31:12.980 --> 31:18.980]  power or machine learning models. Like one of the announcements at WWDC that ties in
+[31:18.980 --> 31:25.180]  closely with this is that, you know, Apple has given developers the ability to create
+[31:25.180 --> 31:32.740]  their own training models very, very easily using Xcode to pop it open, you know, train
+[31:32.740 --> 31:39.740]  a library on a set of images and get like a nice personalized training bolus for their
+[31:39.740 --> 31:44.780]  particular app rather than having to buy a generic one and then retrain it with unique
+[31:44.780 --> 31:51.300]  images. And one of Apple's big selling points on it is that it's incredibly small. It's
+[31:51.300 --> 31:57.820]  like 70 percent smaller and a hell of a lot faster than a normal training model because
+[31:57.820 --> 32:05.700]  all of the base training is built in. So the Apple provides all of that automatically and
+[32:05.700 --> 32:09.580]  then you only have to add in your specialized training on top of it. So it's this idea
+[32:09.580 --> 32:14.660]  that they are providing like a bunch of generic stuff that will get you 70, 80 percent of
+[32:14.660 --> 32:19.460]  the way there and then you bring the last 20 percent. And that is your personal stuff,
+[32:19.460 --> 32:25.040]  either from an app developer's perspective, obviously, or you as an individual being able
+[32:25.040 --> 32:29.460]  to take advantage of all the vast compute power that Apple has at its disposal. And
+[32:29.460 --> 32:34.460]  then guess what? If I want to process my fifteen hundred photos I shot on vacation or allow
+[32:34.460 --> 32:39.540]  them to be processed, that's all happening locally and securely and remotely on my device.
+[32:39.540 --> 32:48.980]  One of the things that this new maps project is going to bring or says supposedly going
+[32:48.980 --> 32:53.060]  to bring any examples that they've shown in the screenshots they provided you certainly
+[32:53.060 --> 33:03.020]  do is filling in the areas between roads. So if it's a city filling in buildings that
+[33:03.020 --> 33:10.580]  actually have the outline of the building, the actual building based on some combination
+[33:10.580 --> 33:17.540]  of satellite views and the street views that they might have. But that so, for example,
+[33:17.540 --> 33:23.120]  not when you're in the satellite view, but when you're actually on just the map view,
+[33:23.120 --> 33:27.220]  you could see something like your example is like the Salesforce Tower, which has a
+[33:27.220 --> 33:32.580]  very distinctive look. You know, every city has buildings like that, right? There's, you
+[33:32.580 --> 33:37.020]  know, maybe a bunch of generic buildings, but you can, like here in Philly, City Hall
+[33:37.020 --> 33:44.020]  would be one, you know, like it's just a very distinctive building. And it is, it has been
+[33:44.020 --> 33:49.420]  a tremendous advantage for Google Maps. And for me as a very visual person, I use Apple
+[33:49.420 --> 33:54.700]  Maps most of the time, but I have to admit that being able to navigate and see just that
+[33:54.700 --> 34:00.580]  sort of, and it's a tricky illustration problem, right? That you're looking at a 2D map from
+[34:00.580 --> 34:06.580]  the top down, but you want to get a sort of 3D representation of the top of the building,
+[34:06.580 --> 34:10.900]  which might be a skyscraper. It might just be a two or three story building. You know,
+[34:10.900 --> 34:14.900]  how do you, how do you reflect that? And it looks like they're bringing it. And then the
+[34:14.900 --> 34:20.780]  other thing is filling in details like park areas and grass and things like that where,
+[34:20.780 --> 34:25.740]  you know, Google's had that in great detail and Apple, it's just looks like dead. It's
+[34:25.740 --> 34:31.500]  just white space. Right. Yeah, they've got, they've got some definite improvements there.
+[34:31.500 --> 34:35.420]  The, I mean, those come from, and I asked this like, okay, well, what, you know, what's
+[34:35.420 --> 34:40.180]  your primary source of all this data? You know, is it imaging? Is it the vans? Is it
+[34:40.180 --> 34:43.940]  satellite? You know, what, what, what is it? And then the answer really varies depending
+[34:43.940 --> 34:48.620]  on what it is. Like for instance, the ground cover, the foliage that you're using significantly
+[34:48.620 --> 34:54.060]  higher resolution satellite images now. I didn't ask for the provider. I don't even
+[34:54.060 --> 34:58.580]  know if they would have said, it's not really that germane, but whatever the previous stuff
+[34:58.580 --> 35:01.620]  that they were using, they're using better stuff now, higher resolution stuff, which
+[35:01.620 --> 35:08.060]  allows them to more, and then they run, of course, computer vision algorithms on that,
+[35:08.060 --> 35:13.180]  which tell them, hey, this is a tree, this is grass, this is a pathway, you know, that
+[35:13.180 --> 35:19.220]  sort of thing, which allows them to really, really flesh out the outlines of foliage or
+[35:19.220 --> 35:24.780]  in the example, the, the Delta near Fort Bragg or whatever, you know, like that, there are
+[35:24.780 --> 35:32.460]  definitely some opportunities for it to, to more accurately represent the physical world
+[35:32.460 --> 35:37.820]  in a way that is so improved. It can actually improve your ability to use the map, right?
+[35:37.820 --> 35:41.140]  Like you could say like, oh yeah, that's the edge of the grass. Oh, that's where I'm standing.
+[35:41.140 --> 35:44.900]  Right. You know, as opposed to, oh, I'm standing somewhere in this blank, empty space. It's
+[35:44.900 --> 35:50.420]  not just for looks, it's actually very effective as a, as a marker, you know, to tell you where
+[35:50.420 --> 35:56.260]  you are in the world. So that was a big, big thing for them. Adding things like, in addition
+[35:56.260 --> 36:01.860]  to the roads of a city, having the, here's the actual path of the footpaths through the
+[36:01.860 --> 36:05.220]  park, right? And, oh yeah, I get it. Yeah. There's the circle in the middle with the
+[36:05.220 --> 36:09.580]  fountain and, oh, I can go this way or that way. You know, I recognize you could recognize
+[36:09.580 --> 36:14.300]  the park by the footpath, you know, map. And that's the sort of thing that, that Apple
+[36:14.300 --> 36:20.740]  maps was, was lacking for a while. Another thing, this is a, here's a segment from your
+[36:20.740 --> 36:27.300]  article. And this to me is a big deal. And I was just thinking about this at WWDC a couple
+[36:27.300 --> 36:33.900]  weeks ago. You said it also allows for access points to be set, making Apple maps smarter
+[36:33.900 --> 36:38.540]  about the quote last 50 feet of your journey. So you've made it to the building, but what
+[36:38.540 --> 36:47.980]  street is the entrance actually on? That's like such a huge problem. And I guess I never
+[36:47.980 --> 36:51.620]  really thought about it, but I think Eddie Q is probably right that a lot of buildings,
+[36:51.620 --> 36:56.280]  they'll say that they want to be, they want their address to be 400 market street because
+[36:56.280 --> 37:00.580]  that's a nice address and that's the street they want to be on. But for architectural
+[37:00.580 --> 37:06.660]  reasons, the entrance is on the street around the corner, you know, and so you, you, you
+[37:06.660 --> 37:11.500]  get directions to 400 market street and there's the building, but where do you go in? I've
+[37:11.500 --> 37:15.940]  seen this and a friend of the show, Paul Fassus and I were in when we were at this, what the
+[37:15.940 --> 37:25.300]  WWDC reminder, we were walking to lunch at the, in San Jose and a fellow, you know, obviously
+[37:25.300 --> 37:30.500]  English as a second language was there's like an immigration building there. And he had
+[37:30.500 --> 37:34.900]  just gotten out of, you know, like a cab or an Uber or something and he had the address
+[37:34.900 --> 37:39.940]  and he obviously had like, you know, some kind of important meeting for his, you know,
+[37:39.940 --> 37:44.540]  whatever. But I mean, he's obviously an immigrant. He's a meeting at the immigration center.
+[37:44.540 --> 37:49.700]  He's standing right where he's got a phone and it's telling him he's at the right place.
+[37:49.700 --> 37:54.580]  You're there. And he asked us, he was like, asked us if we knew how to get in and we didn't,
+[37:54.580 --> 37:58.820]  we're not from San Jose, but we wanted to help the fellow. And you know what the truth
+[37:58.820 --> 38:03.540]  was? He was, he was actually like 500 feet away and around a corner from where he needed
+[38:03.540 --> 38:08.580]  to go. It was nowhere and it wasn't even visible. Right. But he was at the right place, you
+[38:08.580 --> 38:13.900]  know, and so, and buildings get reconfigured over time. Right. Like the doors used to be
+[38:13.900 --> 38:17.920]  here, but now they're over there because of zoning restrictions or, you know, some new
+[38:17.920 --> 38:24.060]  owner or whatever. But yeah, exactly. Yeah. But that last 50 feet is a huge next level
+[38:24.060 --> 38:29.580]  in mapping just in terms of having the street address. You know, that was, that, that was,
+[38:29.580 --> 38:34.860]  that's just table stakes down. You know, the, the actual knowing it is a huge part of it.
+[38:34.860 --> 38:38.700]  And I know that all the, the self-driving car or not self-driving car, the, uh, ride
+[38:38.700 --> 38:43.180]  sharing car companies like Uber and Lyft are all working on the same problem too, because
+[38:43.180 --> 38:48.260]  it's a huge issue with getting picked up at the right place that, you know, knowing that
+[38:48.260 --> 38:53.260]  if you're at a certain building, uh, you know, the place, the place where you walk out the
+[38:53.260 --> 38:57.100]  door and let's say it's raining, so you don't want to stand outside the door that they should
+[38:57.100 --> 39:01.900]  pull up to is, uh, might be very different than the street address of the building.
+[39:01.900 --> 39:07.420]  Yeah, exactly. And I used to complain constantly about that a couple of years ago with, uh,
+[39:07.420 --> 39:11.460]  with like Uber and Lyft is that, you know, that last 50 feet, either somebody dropping
+[39:11.460 --> 39:16.140]  you off or somebody picking you up was just a mess, you know, like, Oh, I've got to run
+[39:16.140 --> 39:19.940]  down the street. They don't know where I am. If I put it in the address, it actually puts
+[39:19.940 --> 39:24.460]  it halfway down the block because of that whole door thing. All of that is a huge mess
+[39:24.460 --> 39:28.940]  and they've gotten much better at it by, um, measuring where people get picked up and dropped
+[39:28.940 --> 39:33.060]  off actually. Right. And it's a hate lead. Oh, nine times out of 10, the person wants
+[39:33.060 --> 39:38.140]  to be here, not there. Right. And it's especially bad in a city that you're unfamiliar with.
+[39:38.140 --> 39:46.460]  I was in, um, I was in Chicago recently and, um, I love Chicago, but I, I not there all
+[39:46.460 --> 39:51.100]  the time, uh, and had an Uber driver picking me up and it was just, you know, we had to
+[39:51.100 --> 39:54.820]  resort to the phone call, you know, and it's like, I'm here and it's like, well, I'm here
+[39:54.820 --> 39:59.140]  too, and I don't see you. And of course he's around the corner, you know, and, you know,
+[39:59.140 --> 40:05.020]  we worked it out. It was all, you know, all worked out, but you know, it added four minutes
+[40:05.020 --> 40:11.060]  of stress to, to what ordinarily is supposed to be completely stress-free. It's like the
+[40:11.060 --> 40:12.540]  whole appeal of these things.
+[40:12.540 --> 40:18.020]  Yep, exactly. And so the, the tools are a big part of that. You know, obviously there
+[40:18.020 --> 40:29.300]  is a, um, you know, there is a, an opportunity for Apple to gather data from phones to say
+[40:29.300 --> 40:35.500]  like, Hey, you know, the trips often end right here. Right. So maybe this is where the front
+[40:35.500 --> 40:40.820]  entrance is. Let's assign that to an editor. Um, and, and, and algorithm may do that. They
+[40:40.820 --> 40:44.600]  may not be a person that has to say that. Right. It's just saying, Hey, we've got the
+[40:44.600 --> 40:51.740]  door here and it doesn't match where everybody walks to. So what's the, what's the variance?
+[40:51.740 --> 40:57.180]  And so they assign it to a person, an editor, the editor has the tool to do the, the access
+[40:57.180 --> 41:01.480]  point check. So they go and look at it and they say, Oh, I see what's going on here.
+[41:01.480 --> 41:07.860]  And it's literally as simple as it looks like a, you know, vector illustration, to be honest,
+[41:07.860 --> 41:10.420]  you know, like, Hey, I'm going to drop a point and I'm going to drag to another point and
+[41:10.420 --> 41:14.580]  drop another point. So it's like, Hey, I'm going to create an access point here, drop,
+[41:14.580 --> 41:17.220]  drag it out, you know, connected to the main road. So I know it's coming from the main
+[41:17.220 --> 41:21.200]  road and then this is the, exactly the point where they need to end up. And so that way
+[41:21.200 --> 41:24.820]  when you're navigating to, and then attach it to that address, you know, assign it to
+[41:24.820 --> 41:28.860]  that address. And then that way, if I put in that address, no longer am I directed to
+[41:28.860 --> 41:32.700]  just a random spot along the street, I'm directed right to the access point. Right. You know,
+[41:32.700 --> 41:36.540]  whether that's on the road or off the road. And there are landmarks to help you orient
+[41:36.540 --> 41:40.620]  it. Right. Like you're driving the car and you see like, Oh, there's an awning, you know,
+[41:40.620 --> 41:44.180]  there's a, an awning. Oh, I see. That's that. It's this restaurant up here with the awning.
+[41:44.180 --> 41:48.140]  There it is. Right. Um, all right. Let me take a break again and thank our next sponsor.
+[41:48.140 --> 41:56.180]  It's our good friends at Eero E E R O Eero and has a new second generation router and
+[41:56.180 --> 42:02.760]  their new beacon. And they allow you to easily build your own wifi system that works way
+[42:02.760 --> 42:09.700]  better than traditional wifi routers. Uh, look, traditional routers have built clunky
+[42:09.700 --> 42:14.360]  devices. They have terrible software and they try to, you know, blanket as big area as possible
+[42:14.360 --> 42:22.760]  with a single range of, of, um, wifi. Eero uses mesh and mesh network and they have their
+[42:22.760 --> 42:28.100]  own proprietary true mesh technology. And the gist of it is that you have multiple small
+[42:28.100 --> 42:33.700]  devices spread about your home or your office and they communicate with each other and each
+[42:33.700 --> 42:39.020]  one they, they, from your devices standpoint, it looks like one single wifi network, one
+[42:39.020 --> 42:46.460]  network name, one password, and your device will just magically connect to the closest
+[42:46.460 --> 42:51.940]  one that's giving that part of your home or your office a strong power. Uh, their second,
+[42:51.940 --> 42:56.700]  their first generation product is fantastic. Um, and really in got all sorts of awards
+[42:56.700 --> 43:01.740]  and acclaim, but the second generation one, they've added a third five gigahertz radio
+[43:01.740 --> 43:06.280]  and it's now tri band and twice as fast as its predecessor, which lets its customers
+[43:06.280 --> 43:11.860]  do more simultaneously in every room in their home. It's a really great addition. Um, and
+[43:11.860 --> 43:16.400]  just like the original one, it looks identical to the original and they're practically identical.
+[43:16.400 --> 43:23.060]  It's just a very small apple like, uh, puck and it's very small, unobtrusive. It'll look
+[43:23.060 --> 43:27.260]  good in any room. Your house sits flat on the surface, plugs in with a power adapter,
+[43:27.260 --> 43:32.000]  nothing clunky about it, and you can connect the multiple ones over ethernet. So if your
+[43:32.000 --> 43:36.820]  home is wired up for ethernet, you can hook each one in to ethernet and they'll communicate
+[43:36.820 --> 43:41.640]  to each other that way or wirelessly. So if you don't have an ethernet hookup everywhere
+[43:41.640 --> 43:46.540]  in your house, uh, they'll just communicate to each other wirelessly in any combination
+[43:46.540 --> 43:51.260]  and it really couldn't be easier to set up and they have a great app for the phone. That
+[43:51.260 --> 43:56.740]  is how you deal with it and you know, set the name of the network, see who's using it.
+[43:56.740 --> 44:01.060]  All sorts of stuff. The app has a terrific user interface, uh, and their new product.
+[44:01.060 --> 44:06.980]  The beacon is half the size, uh, but still more powerful than the first generation hero
+[44:06.980 --> 44:12.780]  and you simply plug it into a wall socket like a light, like a, uh, like a little, uh,
+[44:12.780 --> 44:20.020]  uh, ambient light. Um, a nightlight, uh, is the word I'm looking for and it can just join
+[44:20.020 --> 44:24.420]  the network and it's even more unobtrusive because it's just a little tiny thing that
+[44:24.420 --> 44:27.940]  you plug into wall sockets, you know, maybe at the top of the stairs or something like
+[44:27.940 --> 44:34.180]  that. Uh, really an amazing addition to their lineup, uh, and a great way to maybe add,
+[44:34.180 --> 44:39.300]  you know, just to get one more, one more era device like on the top floor of your house
+[44:39.300 --> 44:43.740]  or something like that. And it even actually does have an led nightlight that you can turn
+[44:43.740 --> 44:48.820]  off if you don't want. Uh, but it uses an ambient light sensor so it only turns on when
+[44:48.820 --> 44:53.500]  it thinks you need it in the dark. Um, so anyway, it's a great product. I'm talking
+[44:53.500 --> 44:58.900]  to you right now over an ero network. I've had a great experience with it. I really regular
+[44:58.900 --> 45:02.940]  software updates. It's just, it's just a great, great product that I would, I would recommend
+[45:02.940 --> 45:09.660]  even if they weren't sponsoring the show. Um, you get free overnight shipping to the
+[45:09.660 --> 45:17.120]  U S or Canada by visiting ero.com and then select overnight shipping when you order and
+[45:17.120 --> 45:22.020]  enter the promo code, the talk show to make that overnight shipping free. So if you're
+[45:22.020 --> 45:25.780]  listening to this show, whenever day you're listening to it, you can have your ero in
+[45:25.780 --> 45:33.540]  your hands tomorrow for free shipping wise, at least by using that code, the talk show
+[45:33.540 --> 45:41.940]  and just going to ero.com and that's for the U S and Canada. A great product. So why do
+[45:41.940 --> 45:47.620]  you think they didn't announce the maps at WWDC? I mean, the answer I got was just to
+[45:47.620 --> 45:51.740]  give it more air. Um, I don't know if that's only part of the answer. You know, usually
+[45:51.740 --> 45:55.540]  that's the way, that's the way apple rolls. You'll get part of the answer, but maybe not
+[45:55.540 --> 46:00.180]  the whole answer. Um, so you know, some conjecture about the whole answer could be like, you
+[46:00.180 --> 46:04.100]  know, just wasn't ready. Um, it was just too crowded up on the stage. You know, they had
+[46:04.100 --> 46:08.180]  too many other things to get to whatever the case may be. I mean, it doesn't make sense.
+[46:08.180 --> 46:13.780]  I don't think to announce something like this during the, the platforms keynote, you know,
+[46:13.780 --> 46:17.980]  like after the back where it would have more room. It's just not really developer focused,
+[46:17.980 --> 46:22.820]  at least not yet. Um, it would have to be on the main stage. And so maybe they just
+[46:22.820 --> 46:28.180]  ran out of time. Um, it was, it, it was right on an hour and a half or two hours, whatever
+[46:28.180 --> 46:34.020]  it is that they normally do. Um, I don't know, you know, I mean, but the answer I got was
+[46:34.020 --> 46:37.720]  basically this wanted to give it more air, separate it from the developer news and give
+[46:37.720 --> 46:42.400]  it its own sort of moment to like, Hey, this is our new project. Here's what we're pushing
+[46:42.400 --> 46:44.260]  forward on. Here's what you can look forward to.
+[46:44.260 --> 46:50.860]  Yeah. My guess is, and I have no insight info on this, but my guess is simply just didn't
+[46:50.860 --> 46:54.980]  make the cut, you know, that they, they probably considered it. It may have even been in the
+[46:54.980 --> 47:02.020]  keynote at one point and in the interest of time. Um, but well, we can roll this out,
+[47:02.020 --> 47:10.380]  you know, later in the month as a separate thing. Um, and like, it's not developer focused
+[47:10.380 --> 47:13.920]  yet. You know, it's just that the actual, you know, everything developer wise in terms
+[47:13.920 --> 47:20.620]  of using map APIs and iOS, uh, is unchanged. You just went, you know, this role as this
+[47:20.620 --> 47:25.260]  rolls out, just the maps that users will see will look better and have more information.
+[47:25.260 --> 47:32.180]  Yeah. I mean, I think they're, they have a, they have an opportunity right now because
+[47:32.180 --> 47:36.900]  there's, there's, you know, a beta next week where the Bay area will come online and people
+[47:36.900 --> 47:40.300]  will be able to like play with it and get an idea. And then of course, um, Northern
+[47:40.300 --> 47:47.420]  California later in the year, um, when iOS actually launches, uh, I asked, well, but
+[47:47.420 --> 47:53.780]  I think they have an opportunity to sort of say to put it alone and not put it on stage
+[47:53.780 --> 47:58.820]  with everything else that's going to be shipping to everybody. You know what I mean? Because
+[47:58.820 --> 48:03.060]  it technically, while this is shipping to everybody, everybody doesn't live at the Bay.
+[48:03.060 --> 48:07.060]  Right. Everybody doesn't live in Northern California. Right. And whereas like everybody
+[48:07.060 --> 48:14.220]  can use, you know, this, the, the new, uh, attention features right in, in iOS, the new
+[48:14.220 --> 48:17.440]  app limit features, everybody could use that. I don't care whether you live in Australia
+[48:17.440 --> 48:21.660]  or here or wherever, right. Everybody could use that. Uh, if you launch this map, you're
+[48:21.660 --> 48:26.180]  not really launching it to everybody. So it's sort of like, um, you and I had a little discussion
+[48:26.180 --> 48:32.500]  about, uh, uh, Google's thing. Um, what was it called? It's a duplex or duplex. Yeah.
+[48:32.500 --> 48:37.500]  Duplex memory was like, Hey, you, you announced Android P, which like every Android user on
+[48:37.500 --> 48:43.580]  the planet, uh, with a compatible phone. So a very small amount actually, um, can get
+[48:43.580 --> 48:48.220]  this theoretically, uh, coming right up. Right. Like everybody will have access to it that
+[48:48.220 --> 48:52.060]  can have access to it. And then here's duplex, which we don't even know when we're going
+[48:52.060 --> 48:56.500]  to ship it or what it is. Right. And putting those income in right next to one another
+[48:56.500 --> 49:01.700]  can create like a false dichotomy in the, in the consumer's mind, like, Oh, this is
+[49:01.700 --> 49:05.620]  ready to ship or whatever. So maybe that's the case too, because it's such a limited
+[49:05.620 --> 49:09.340]  area that it's launching in. They don't want it right alongside iOS features, which will
+[49:09.340 --> 49:10.340]  ship to everyone.
+[49:10.340 --> 49:16.300]  Yeah. I thought this was an interesting quote from Eddie. Uh, he said, after talking about
+[49:16.300 --> 49:21.260]  some specifics of, of the work that they're doing, uh, we don't think there's anybody
+[49:21.260 --> 49:26.840]  doing this level of work that we're doing ads queue, which is a pretty bold statement
+[49:26.840 --> 49:35.860]  for the maps app that has been in second place or arguably distant second place for very
+[49:35.860 --> 49:41.100]  long time to Google maps. Right? Like that quote makes it sound as though he thinks they're
+[49:41.100 --> 49:46.040]  doing stuff that Google isn't doing like that. It's not just about getting Apple maps on
+[49:46.040 --> 49:50.220]  par with Google maps, but that if they're successful at what they're trying to do, it
+[49:50.220 --> 49:54.100]  could put them ahead, which is a really bold statement.
+[49:54.100 --> 49:59.300]  Yeah. And that could be referring to some of the things that they're doing with, um,
+[49:59.300 --> 50:04.220]  with 3d point cloud capture. Um, and then they could also refer to, of course, you know,
+[50:04.220 --> 50:09.860]  future stuff, right. That was unwilling to get talk about, right. Um, the 3d point cloud
+[50:09.860 --> 50:16.500]  stuff was really the most interesting. So there's, there's basically like three new
+[50:16.500 --> 50:23.380]  very, very vaguely or, or, uh, in, um, simple terms, there's three types of new data that
+[50:23.380 --> 50:28.540]  they're putting into two maps to make it better. Um, one it's, they're, they're putting in
+[50:28.540 --> 50:35.780]  a more and more, um, frequent, uh, probe data probe data has sort of been present in maps
+[50:35.780 --> 50:41.620]  for a while, but really not to this level. Um, the, you know, iPhone and by probe data,
+[50:41.620 --> 50:46.180]  I mean, those segments of a trip that gets sliced up and anonymized, right? So this data
+[50:46.180 --> 50:52.340]  would, will give people much, hopefully much more realistic ideas of what traffic is. Um,
+[50:52.340 --> 50:56.860]  you know, the, the sort of implication they felt that they, that I got from them was that
+[50:56.860 --> 51:00.260]  they feel that they'll do a better job than Waze or just as good, you know, that there's
+[51:00.260 --> 51:04.740]  no real reason to even use Waze, uh, with this new traffic stuff. Uh, which is, you
+[51:04.740 --> 51:08.900]  know, I mean, that's, that's one way to position it. And I think if you're gonna think of another
+[51:08.900 --> 51:15.340]  one out there, um, that's doing this, Waze is certainly the competitor. Um, but then
+[51:15.340 --> 51:21.500]  you have, so in addition to probe data, you've also got, uh, high resolution satellite data,
+[51:21.500 --> 51:25.940]  uh, and then high resolution satellite data of course provides them the ability to create
+[51:25.940 --> 51:30.880]  foliage and to determine what's a public pool and what's a baseball diamond and a tennis
+[51:30.880 --> 51:34.140]  court and to label those. So you're like, Hey, meet me on the tennis court and you can
+[51:34.140 --> 51:38.260]  like give directions right to the tennis court, that sort of thing. Um, and not just any tennis
+[51:38.260 --> 51:43.380]  court, but this tennis court, you know, the one on the left. Right. Um, so they got all
+[51:43.380 --> 51:48.740]  that. Then they have the cars, right? So the, the, our vans. So they've got the vans, vans
+[51:48.740 --> 51:53.940]  trundling around, it's capturing LIDAR information, which is the same stuff that self-driving
+[51:53.940 --> 51:58.940]  cars use to see the world around them. Uh, basically what they do, LIDAR does is it,
+[51:58.940 --> 52:02.720]  it's a camera that whips around and takes a mini, mini, mini quote unquote pictures
+[52:02.720 --> 52:12.020]  a second, um, and creates a sort of a map of the world in 3d based on points. So it
+[52:12.020 --> 52:16.640]  says, Hey, I just received a bounce back from this. I'm going to sign a point at that distance
+[52:16.640 --> 52:21.340]  in space from me. Right. Um, and then the same thing all the way around many, many millions
+[52:21.340 --> 52:26.260]  of times. And then you end up with a scenario where you got, um, you know, Oh, Hey, that's
+[52:26.260 --> 52:31.940]  a sign. It's yes, it's made up of, uh, you know, 10,000 contiguous points, but I know
+[52:31.940 --> 52:36.260]  it's a flat sign cause they're all at the same distance away. Um, and so on and so forth
+[52:36.260 --> 52:39.900]  for buildings and everything else. Sort of, sort of like the way, do you think it's fair
+[52:39.900 --> 52:43.700]  to say it's sort of like the way that visual effects, like when you see like Andy circus
+[52:43.700 --> 52:47.880]  performing one of his, you know, roles and he's wearing a motion capture suit with dots
+[52:47.880 --> 52:54.500]  on it so that when they create the character, the dots can be used to sort of recreate a
+[52:54.500 --> 53:00.380]  three dimensional, you know, sort of it's, it's that, but in reverse, right? What if
+[53:00.380 --> 53:04.460]  the camera was making the dots rather than the dots being painted on it? Right. Because
+[53:04.460 --> 53:10.500]  because the world hasn't been conveniently painted with the reflective dots to help,
+[53:10.500 --> 53:16.640]  to help the lidar and, and so they actually can tell the difference between retro reflective
+[53:16.640 --> 53:20.880]  surfaces and not, which is one of the ways that they determine what's a sign like a stop
+[53:20.880 --> 53:26.420]  sign or a road sign because they're all reflective. Right. Um, and so that it's one of the thing,
+[53:26.420 --> 53:31.240]  one of the situations or cues, visual cues that they use, but exactly right. You know,
+[53:31.240 --> 53:34.160]  you've got, you don't have the dots, you got to make them yourself. You got to make this
+[53:34.160 --> 53:39.020]  cloud yourself. And if you make a high resolution enough cloud, you know, I've seen the data,
+[53:39.020 --> 53:42.860]  the raw data coming out of that and it looked, I mean, it looks like a gray, a flat, you
+[53:42.860 --> 53:48.540]  know, gray untextured 3d model of the world, right? Like you would get early on in the
+[53:48.540 --> 53:55.220]  process of creating a 3d movie or animation or anything like that. Um, it's like, it's
+[53:55.220 --> 54:02.220]  like, it's like what Daredevil sees. Yes, exactly. Right. That's right. Um, you're,
+[54:02.220 --> 54:06.580]  you're getting this, this vision of the world that isn't textured with, you know, textures
+[54:06.580 --> 54:11.760]  or color, but it's certainly, uh, you know, all of the distances, everything is away from
+[54:11.760 --> 54:20.500]  you, you know, the shape of it. Um, you know, all of that stuff. Um, and then, well, I'll
+[54:20.500 --> 54:25.200]  finish this. We could talk about it. I'm interested to hear what you think of this, but the, the
+[54:25.200 --> 54:37.260]  thing that they do is they, they combine, um, a, the, that three data, that point data,
+[54:37.260 --> 54:45.140]  they combine it with a high resolution images, take it from the car at a very near range.
+[54:45.140 --> 54:48.500]  They're essentially Canon lenses. I don't know what's under the hood, probably probably
+[54:48.500 --> 54:52.660]  Canon bodies, but they're like fish eyes and you know, various focal lengths of lenses.
+[54:52.660 --> 54:57.540]  So they get a nice overlap all the way around the car as eight cameras. So they take these
+[54:57.540 --> 55:04.040]  high resolution images and then they use those, they use them to create like panos that the
+[55:04.040 --> 55:07.780]  people can view, you know, similar to what a street view would be, but not obviously
+[55:07.780 --> 55:11.700]  exposed to the consumer. They are, they did not announce street view and would not tell
+[55:11.700 --> 55:17.500]  me if they were going to do it. Um, but the editors can see those panos, right? When they
+[55:17.500 --> 55:22.020]  go to say like, Oh, what is this a street sign, say 35 or 40 or, you know, is this address
+[55:22.020 --> 55:25.780]  really on that building? They can look at the pano and pan around it and see exactly
+[55:25.780 --> 55:29.820]  what the car saw right there. So they can make an edit call, right? And it's attached
+[55:29.820 --> 55:33.980]  to all of the data anonymized, of course. So, you know, license places and fates or
+[55:33.980 --> 55:39.140]  that faces are, are blurred out. But the other thing that they use this high resolution camera
+[55:39.140 --> 55:46.220]  data for, which I'm fricking amazing and I don't, I'm of, I feel like I should know if
+[55:46.220 --> 55:51.340]  Google does this or not, but I don't believe I do and I probably should look it up so that
+[55:51.340 --> 55:57.500]  somebody doesn't call me on it, but it's basically called an orthogonal recreation or reproduction.
+[55:57.500 --> 56:01.980]  And so what it does is it takes the 3d world that it's created with that point cloud and
+[56:01.980 --> 56:05.460]  then takes the high resolution, very high resolution images because it shoots them in
+[56:05.460 --> 56:10.780]  vertical to some of them so that they're full, you know, full res, uh, all the way down the
+[56:10.780 --> 56:18.800]  street and that maps those images onto the 3d objects to create texture. So when like
+[56:18.800 --> 56:24.180]  an editor is looking at a S a street from the top and trying to decide now, does this
+[56:24.180 --> 56:30.080]  street connect underneath these tree canopy? I can't tell, right? Like they're looking
+[56:30.080 --> 56:34.580]  at a satellite and they don't know whether the street stops or whether it goes all the
+[56:34.580 --> 56:38.300]  way through to the other side where, you know, the trees are covering everything in between.
+[56:38.300 --> 56:42.100]  They have no idea, no way to tell. Right. And so either, yeah, they can, you know, go
+[56:42.100 --> 56:46.540]  into the pano and try and look through the trees or whatever, or they can, they could
+[56:46.540 --> 56:52.260]  turn on the ortho reconstruction, which is basically a full 3d scene texture with color
+[56:52.260 --> 56:56.660]  and picture and everything. Incredibly high res, much higher res than satellite would
+[56:56.660 --> 57:02.700]  be because of the distance. Right. Um, and it's mapped all onto the 3d object and they
+[57:02.700 --> 57:07.980]  could just look right under the trees. They just, the trees disappear because they, the
+[57:07.980 --> 57:11.980]  car could see underneath the trees. So now the editor can, right. It's like, you know,
+[57:11.980 --> 57:17.060]  having x-ray vision from street level and you know, powerful telescopic vision from
+[57:17.060 --> 57:23.800]  above combined together. It's pretty wild. Um, and I not, you know, saying they will
+[57:23.800 --> 57:28.400]  or won't or whatever, but you could easily see this being used as a 3d reconstruction
+[57:28.400 --> 57:35.340]  of the street at street level, much like flyover is used at the, at the flyover level. Right.
+[57:35.340 --> 57:42.260]  So when I, to me, the big question, this sounds great. The examples they showed before and
+[57:42.260 --> 57:49.700]  after of, you know, the Bay area or look terrific. Um, the big question and you know, they didn't
+[57:49.700 --> 57:53.540]  want to give you any, they didn't give you any timeline other than the Bay area in Northern
+[57:53.540 --> 57:57.860]  California in the fall. But how long do you think this is going to take to roll out everywhere?
+[57:57.860 --> 58:04.380]  I mean, cause this, it makes a big difference in the, is this, is this something to be excited
+[58:04.380 --> 58:09.260]  about or not? You know, if this is absolutely, especially for people that live overseas,
+[58:09.260 --> 58:13.340]  they're like, yeah, that's fine. But like, look, you know, I, I don't even have transport
+[58:13.340 --> 58:18.020]  yet, you know, or whatever. Um, but I, you know, I don't know, you know, obviously they
+[58:18.020 --> 58:23.040]  didn't give any exact timelines. It wouldn't commit. Um, the, the one thing that I can
+[58:23.040 --> 58:29.860]  say is that they have teams all over the world so that Apple maps teams are not local only.
+[58:29.860 --> 58:35.720]  They are all over the world. They do have cars running, um, in many States already and
+[58:35.720 --> 58:44.220]  overseas. So they've got the, the, the, uh, sort of recording mechanisms up and running
+[58:44.220 --> 58:49.620]  as far as to how long it takes to parse them and put them in. I don't know, but I can't
+[58:49.620 --> 58:54.520]  say this, like it didn't take them four years to put this into the map, right? It took four
+[58:54.520 --> 59:00.860]  years to build the processes and tools. So my guess is that they get Northern California
+[59:00.860 --> 59:03.660]  up and running, they get Southern California up and running, and then everything else starts
+[59:03.660 --> 59:08.620]  to iterate fairly quickly from there. Because it's basically a matter of, you know, employing
+[59:08.620 --> 59:14.320]  more and more trained editors with good tools to make sure that the information is accurate
+[59:14.320 --> 59:18.180]  and then putting more vans on the ground. And these are just vans, man, with a Mac Pro
+[59:18.180 --> 59:22.780]  in the back. They're not, you know, yeah, the stuff on top is pricey, but it's not beyond
+[59:22.780 --> 59:27.300]  Apple's reach. This is not a matter of lack of resources at all. Right? Yeah. Well, that's,
+[59:27.300 --> 59:34.060]  I mean, that's the question I think 10,000 Apple podcasters have asked many times on
+[59:34.060 --> 59:41.900]  various shows is, you know, if maps are important and Apple maps are behind and Apple is literally
+[59:41.900 --> 59:47.820]  the richest, the wealthiest company in the world, how can they not spend, you know, can't
+[59:47.820 --> 59:51.540]  they, isn't there a way that they can spend their way out of this? And the gist I get
+[59:51.540 --> 01:00:00.400]  from the article is they're trying and it's just, it takes time. And so like, you know,
+[01:00:00.400 --> 01:00:04.900]  all the money that they're putting into the vans that drive around, it's, we haven't seen
+[01:00:04.900 --> 01:00:09.520]  the results of it until today. That's, we now have an answer of what, what in the world
+[01:00:09.520 --> 01:00:15.180]  are they doing with all these vans? Because I don't see anything in my app that came right.
+[01:00:15.180 --> 01:00:19.500]  Right. Right. And the answer is we've been doing, you know, it takes time. Even if you
+[01:00:19.500 --> 01:00:24.900]  have the money, there's no way to, you know, and it sounds to me, look, it sounds to me
+[01:00:24.900 --> 01:00:30.620]  like they're spending as much as you, as we would hope Apple would spend on this. Right.
+[01:00:30.620 --> 01:00:35.460]  I mean, you, if you have all the resources in the world, your limitations cease to become
+[01:00:35.460 --> 01:00:39.980]  the resources, right? The, the bottlenecks are elsewhere. And I think when people have
+[01:00:39.980 --> 01:00:43.660]  the discussion about why can't Apple spend more money at this or that, it's very similar
+[01:00:43.660 --> 01:00:49.540]  to people, you know, complaining to a developer, but like, why aren't you fixing this when
+[01:00:49.540 --> 01:00:53.100]  these things, you've got these things going on. You're like, well, yeah, but we have,
+[01:00:53.100 --> 01:00:58.780]  you know, 60 developers and they're all working on different things all at once. Just because
+[01:00:58.780 --> 01:01:02.780]  we're updating this feature doesn't mean we're not working on that feature. Right. And I
+[01:01:02.780 --> 01:01:06.260]  think that's like the constant refrain from somebody outside looking at an organization
+[01:01:06.260 --> 01:01:10.420]  like Apple. They're like, why are you wasting your time on X when you could be working on
+[01:01:10.420 --> 01:01:15.060]  Y? It's like, well, they are working on Y. Like they're, they are investing in Y. It's
+[01:01:15.060 --> 01:01:18.840]  just, you're not seeing the results of Y for one reason or another. And yes, that reason
+[01:01:18.840 --> 01:01:24.700]  could be dysfunction, right? It could be like poor management or lack of direction or whatever
+[01:01:24.700 --> 01:01:29.460]  the case may be. You know, I've heard many tales of that over the years with Apple maps,
+[01:01:29.460 --> 01:01:34.160]  just how, you know, it's gone from one person to another and, you know, someone takes responsibility.
+[01:01:34.160 --> 01:01:40.280]  Other people do. You have the, the many librarians, you know, scenario where somebody comes in
+[01:01:40.280 --> 01:01:43.860]  and decides to change it all. And you know, then you have to kind of reset all of that.
+[01:01:43.860 --> 01:01:47.780]  I've heard all of those tales, right? Just like in many other large companies, you get
+[01:01:47.780 --> 01:01:52.340]  some dysfunction sometimes, but sometimes it's just no matter how much money you throw
+[01:01:52.340 --> 01:01:57.980]  at it, the bottlenecks exist outside of the realm of money to solve. And it just takes
+[01:01:57.980 --> 01:02:00.860]  the other limited resource, which is time.
+[01:02:00.860 --> 01:02:06.860]  All right. Um, I think that wraps up the maps discussion. Any other points on maps you want
+[01:02:06.860 --> 01:02:07.860]  to make?
+[01:02:07.860 --> 01:02:12.500]  Where'd you get to sit? You got to ride around in one of the vans. Where, where did you get
+[01:02:12.500 --> 01:02:19.060]  to say a shotgun? Yeah. So where the operator would be to like tell the, cause I guess one
+[01:02:19.060 --> 01:02:25.300]  person is just supposed to focus on driving and the other person is like, okay, go left
+[01:02:25.300 --> 01:02:28.820]  here or go right there. And you know, oh, let's turn, let's circle around this parking
+[01:02:28.820 --> 01:02:34.740]  lot cause we got to get the inside of it or whatever the case. Yeah. Very fun. Yeah. Uh,
+[01:02:34.740 --> 01:02:39.940]  utilitarian vans though. I don't know if I'd want to do it for a living.
+[01:02:39.940 --> 01:02:45.500]  I think it takes a certain kind of personality, you know? Yeah. It's probably relaxing. I
+[01:02:45.500 --> 01:02:49.160]  mean, you know, you get, you've got your, your job, there's your little parcel of land
+[01:02:49.160 --> 01:02:54.260]  to cover and go at it. I don't know if I'd want to do it all the time for sure. For a
+[01:02:54.260 --> 01:02:58.660]  living. Well, I'm glad that someone's doing it though. Um, yeah. Well you, you can kind
+[01:02:58.660 --> 01:03:04.040]  of see though that that why some of the companies, the companies that have these vans doing the
+[01:03:04.040 --> 01:03:10.500]  napping work also happened to be the companies that are either rumored or known to be working
+[01:03:10.500 --> 01:03:15.580]  on autonomous vehicles. Yeah. I mean, it makes a hell of a lot of sense, right? You're driving
+[01:03:15.580 --> 01:03:19.820]  all the streets, you might as well gather the data. Um, I, you know, I've seen autonomous
+[01:03:19.820 --> 01:03:25.120]  data being gathered and I, it doesn't look a whole lot different. Let's put it that way.
+[01:03:25.120 --> 01:03:29.300]  You know, and obviously they, they're not talking about it and all of that, but the
+[01:03:29.300 --> 01:03:34.300]  autonomous data is gathered in much the same way to give those cars and those systems a
+[01:03:34.300 --> 01:03:41.220]  picture of the world. Well, and, and the other way around where those cars could collect
+[01:03:41.220 --> 01:03:47.460]  the data that would be continuously updating the map, right? Like, let's just say that
+[01:03:47.460 --> 01:03:53.200]  in theory that there is an apple car that comes out five years from now or 10 years
+[01:03:53.200 --> 01:03:58.740]  from now and it's an autonomous self driving vehicle and therefore is using LIDAR and other
+[01:03:58.740 --> 01:04:03.900]  technologies to see the world around it. That data could be used in the same way that they're
+[01:04:03.900 --> 01:04:08.260]  using iPhones now to collect data about the world. Obviously the data collected by those
+[01:04:08.260 --> 01:04:12.260]  cars would help make the maps better and it needs, the cars need the maps to do what they're
+[01:04:12.260 --> 01:04:18.140]  supposed to do. You know, it's like a, a virtuous circle. Exactly. And, and that's one of the
+[01:04:18.140 --> 01:04:22.500]  reasons, you know, it's one of the things Tesla has stated about its cars is that it's
+[01:04:22.500 --> 01:04:25.580]  been good. They've been gathering data on the road and they've got that network effect
+[01:04:25.580 --> 01:04:29.260]  going on. Right. Sure. It's helpful for a company that wants to make autonomous cars
+[01:04:29.260 --> 01:04:34.380]  to have maps and it's helpful for a company that has maps to have their own autonomous
+[01:04:34.380 --> 01:04:40.620]  cars. Yep, exactly. Exactly. And then the one other thing, like from the maps thing
+[01:04:40.620 --> 01:04:45.900]  that just to, just to touch on the last thing is that, um, just so everybody knows, I mean,
+[01:04:45.900 --> 01:04:49.080]  I mentioned it, but in the article, but just so everybody knows, I did ask them about the
+[01:04:49.080 --> 01:04:54.300]  whole AR directions thing, you know, and they were just not forthcoming at all, which is
+[01:04:54.300 --> 01:04:58.220]  totally understandable if they don't want to talk about it yet, but like all of the
+[01:04:58.220 --> 01:05:02.800]  data that they're gathering, all of the stuff that they're doing, absolutely a hundred percent
+[01:05:02.800 --> 01:05:07.780]  completely possible that they could position an arrow in midair, you know, for somebody
+[01:05:07.780 --> 01:05:14.420]  to look at. But also in my opinion, completely a hundred percent impractical to do for a
+[01:05:14.420 --> 01:05:17.640]  phone. Like who gives a crap? Like, you know, I don't want to hold my phone up in midair
+[01:05:17.640 --> 01:05:23.140]  for more than a second, much less to follow an arrow. You know, I wouldn't want to do
+[01:05:23.140 --> 01:05:27.620]  it for a long time, but think about like walking around an unfamiliar city and, and you get
+[01:05:27.620 --> 01:05:31.940]  maps now and you've long had the ability to hit the one, there's a button in the maps
+[01:05:31.940 --> 01:05:36.540]  app while you're getting walking directions that sort of changes from always putting North
+[01:05:36.540 --> 01:05:42.940]  at the top to, to orienting the map in the direction you're going. Right. And that is,
+[01:05:42.940 --> 01:05:49.700]  that is a very early days version of AR, you know, the fact that the map can automatically
+[01:05:49.700 --> 01:05:57.020]  rotate POV, right. To put your current walking direction at the top of the map, whether it's
+[01:05:57.020 --> 01:06:04.660]  North, South, East or West is, you know, poor man's AR. Whereas having that button use the
+[01:06:04.660 --> 01:06:09.200]  camera and just, just quickly tell me like, am I going the right way? You know, like sometimes
+[01:06:09.200 --> 01:06:12.580]  you're in a city and there you'd say such and such street and you can't tell which way
+[01:06:12.580 --> 01:06:17.740]  the numbers go. And so you just take a guess and start going left and it takes, you know,
+[01:06:17.740 --> 01:06:21.060]  takes a while to figure out like, Oh nope, you should have gone right. You got to backtrack.
+[01:06:21.060 --> 01:06:24.100]  If you had a little camera, you could point around at the world and it would just quick,
+[01:06:24.100 --> 01:06:28.900]  put an arrow like here this way. That would be great. I mean, and you wouldn't, you know,
+[01:06:28.900 --> 01:06:32.820]  again, you wouldn't walk around New York city for 15 minutes with your phone in front of
+[01:06:32.820 --> 01:06:37.700]  your hand, but you'd just, you could maybe just quick drop into that view, you know,
+[01:06:37.700 --> 01:06:44.020]  just to make sure you're going the right way on, on, you know, Broadway. Yeah, I, I'd get
+[01:06:44.020 --> 01:06:47.860]  it. Absolutely. And if you get there, it's like an arrow pointing at the door. Like there's
+[01:06:47.860 --> 01:06:53.780]  a lot of cool opportunities for sure on the phone. But I think, I think that the, the
+[01:06:53.780 --> 01:06:58.140]  major opportunities won't come until we have goggles, you know, so a heads up view of some
+[01:06:58.140 --> 01:07:02.100]  sort, some sort of heads up view, which could be the dashboard of, you know, the windshield
+[01:07:02.100 --> 01:07:09.540]  car. Oh, a hundred percent. Yeah. Built in HUD in a car. You got it. Right. All right.
+[01:07:09.540 --> 01:07:13.980]  I have a couple more things I want to talk about, but why don't I take a break and thank
+[01:07:13.980 --> 01:07:23.060]  our third and final sponsor of the show. Uh, hello. Pillow H U L L O. Uh, have you ever
+[01:07:23.060 --> 01:07:28.020]  tried a buckwheat pillow? They are totally different than the fluffy soft pillows that
+[01:07:28.020 --> 01:07:33.380]  most of us are used to. It's similar to a bean bag, very heavy too compared to a regular
+[01:07:33.380 --> 01:07:37.940]  pillow. And I really mean it because we've had, we've had them for years here in the
+[01:07:37.940 --> 01:07:45.500]  during fireball world headquarters. Um, very similar to a bean bag and it allows the pillow
+[01:07:45.500 --> 01:07:50.420]  to adjust its shape and thickness. It supports your head and neck how you want it to. Unlike
+[01:07:50.420 --> 01:07:55.620]  a traditional squishy soft pillow. Uh, if you're the sort of person who always uses
+[01:07:55.620 --> 01:08:00.340]  two pillows because one pillow is not enough, you are probably going to be very surprised
+[01:08:00.340 --> 01:08:04.780]  if you try a hello pillow, how you don't need two pillows anymore because it does the thing
+[01:08:04.780 --> 01:08:09.340]  that you were trying to use two pillows to do one hello pillow does by itself by having
+[01:08:09.340 --> 01:08:17.060]  this sort of firmer structure and it also stays cool and dry compared to pillows that
+[01:08:17.060 --> 01:08:23.100]  are filled with feathers or foam or whatever else. Um, most pillows absorb and retain body
+[01:08:23.100 --> 01:08:26.960]  heat and moisture making your pillow feel warm and humid. Buckwheat tends to breathe
+[01:08:26.960 --> 01:08:33.100]  better because there's air between the individual buckwheats in the pillow. No more, um, no
+[01:08:33.100 --> 01:08:36.180]  more flipping. You don't have to flip to get to the cool side of the pillow in the middle
+[01:08:36.180 --> 01:08:43.180]  of the night. The pillow stays cool on one side. Uh, we've had them for years. Uh, everybody
+[01:08:43.180 --> 01:08:50.100]  in the house, all three of us use and like them. My wife and son in particular, uh, truly
+[01:08:50.100 --> 01:08:54.340]  love them and, and actually get irritated when we travel and they have to use regular
+[01:08:54.340 --> 01:08:58.700]  pillows. Uh, uh, they're, they're not the sort of thing that you could take with you.
+[01:08:58.700 --> 01:09:03.420]  It's, they are sort of heavy compared to a regular pillow. Uh, but if you could, they
+[01:09:03.420 --> 01:09:08.940]  would, uh, that's how much they liked them more than regular traditional pillows. Um,
+[01:09:08.940 --> 01:09:12.020]  and I know a lot of people who have, they've been sponsoring a show for years and I know
+[01:09:12.020 --> 01:09:15.100]  that there are a lot of readers who've had them and I'll tell you, you take it out at
+[01:09:15.100 --> 01:09:19.780]  first and uh, it does seem so different than a traditional pillow. You're like, I don't
+[01:09:19.780 --> 01:09:25.740]  know about this, but I'll tell you it, it's really different. And um, that this is the
+[01:09:25.740 --> 01:09:29.700]  thing, it's not like they invented this. People have been sleeping on buckwheat pillows for
+[01:09:29.700 --> 01:09:35.980]  centuries. They've been used in Japan extensively and remain popular to this day there. Uh,
+[01:09:35.980 --> 01:09:40.780]  so it's really sort of, uh, Eastern Western culture difference that we've had these fluffy,
+[01:09:40.780 --> 01:09:45.180]  you know, feather filled type pillows, uh, and haven't had these, but it really is a
+[01:09:45.180 --> 01:09:49.340]  more natural way to sleep. And if you're at all dissatisfied with your current pillow
+[01:09:49.340 --> 01:09:54.280]  situation, I really recommend, hello, give, you know, give them a try and they're made
+[01:09:54.280 --> 01:10:00.020]  right here in the USA with quality construction and materials and certified organic cotton
+[01:10:00.020 --> 01:10:05.140]  case that is cut and sewn for durability. And the buckwheat is grown and milled in the
+[01:10:05.140 --> 01:10:08.420]  United States. Like I said, I don't know how many years it's been since we've had them,
+[01:10:08.420 --> 01:10:12.060]  but like my wife is still on the first one they sent us and it seemed, I don't think
+[01:10:12.060 --> 01:10:16.740]  it seems any different than the day that we started with it. Uh, so here's the deal that
+[01:10:16.740 --> 01:10:22.380]  you can get for as a listener of this show. Sleep on this pillow for 60 nights, 60 nights.
+[01:10:22.380 --> 01:10:26.540]  And if hello is not for you, just send it back and they will give you a full refund
+[01:10:26.540 --> 01:10:35.120]  so you cannot lose. Go to hello, pillow.com slash talk show hello, pillow.com slash talk
+[01:10:35.120 --> 01:10:40.860]  show. And if you try more than one pillow, you get a discount of up to 20 bucks per pillow
+[01:10:40.860 --> 01:10:48.220]  depending on the size, fast free shipping on every order. And 1% of all profits are
+[01:10:48.220 --> 01:10:55.060]  donated to the nature conservancy. My thanks to hello, pillow, hello, pillow.com slash
+[01:10:55.060 --> 01:11:00.560]  talk show. Uh, two things I want to talk about when I talk about duplex and I want to talk
+[01:11:00.560 --> 01:11:06.700]  about the Mac book keyboard repair program duplex. Uh, the news this week is that Google
+[01:11:06.700 --> 01:11:12.340]  did exactly what I had been saying. I wished and don't understand they, what they, why
+[01:11:12.340 --> 01:11:19.060]  they didn't do in early May when they announced duplex, which is actually allow journalists
+[01:11:19.060 --> 01:11:25.240]  to not just listen to live calls, but actually participate in them. So what they did is they
+[01:11:25.240 --> 01:11:30.380]  set up, they actually rent it out, bought out for the day, some restaurants in San Francisco
+[01:11:30.380 --> 01:11:36.760]  and New York, different groups of journalists, um, and had them, uh, you know, had the journalist
+[01:11:36.760 --> 01:11:45.820]  play receptionist to, uh, answer the phone and, and talk to Google duplex. Um, and, uh,
+[01:11:45.820 --> 01:11:51.380]  to a T, I don't know if I read every one of them, but I read a lot of them, uh, to a T,
+[01:11:51.380 --> 01:11:56.940]  uh, people said that it sounds, you know, the, the ums and aahs and those, those, uh,
+[01:11:56.940 --> 01:12:02.900]  things that, that, that the duplex voice was doing, uh, in the recording Google played
+[01:12:02.900 --> 01:12:08.860]  at IO that that's, it sounds just as eerily human like in real life, although Google did
+[01:12:08.860 --> 01:12:15.940]  not release any of the actual recordings of the journalists phone calls.
+[01:12:15.940 --> 01:12:16.940]  Your thoughts.
+[01:12:16.940 --> 01:12:23.100]  Yeah. I mean, it is what it is. You know what I mean? It's like a, I always cracks me up
+[01:12:23.100 --> 01:12:27.940]  with these companies. I love how much money they have, you know, to like create these,
+[01:12:27.940 --> 01:12:32.940]  these publicity scenarios. Like, Hey, we're, we're just here in this casual Thai restaurant.
+[01:12:32.940 --> 01:12:38.140]  Um, you know, I think it's fine to, to kind of go the next step and say, look, it does
+[01:12:38.140 --> 01:12:41.780]  work and here's how it is and put you on the phone. They should've done that from the beginning,
+[01:12:41.780 --> 01:12:44.420]  but you know, maybe they weren't ready and all that fine, you know, or maybe they didn't
+[01:12:44.420 --> 01:12:50.480]  anticipate the, the fervor, you know, the people were under, um, even to the impressions
+[01:12:50.480 --> 01:12:54.460]  that Brian heater went to ours, uh, one of our writers, uh, he went to the one in New
+[01:12:54.460 --> 01:13:02.420]  York. Um, he's been covering a duplex in this whole issue since the beginning. And so he
+[01:13:02.420 --> 01:13:06.060]  was the ideal person to kind of judge like, Oh, okay, does this feel the same and all
+[01:13:06.060 --> 01:13:10.700]  of that. And he said, it definitely feels like it works. Um, you know, the, the disambiguations
+[01:13:10.700 --> 01:13:15.060]  that they put in, uh, definitely make it feel more human, but he pointed out two things
+[01:13:15.060 --> 01:13:21.660]  rightfully, which is one, you can't say that you're not trying to trick people. Um, and
+[01:13:21.660 --> 01:13:25.340]  that you, you know, that you also want them to believe it's more human. Like those two
+[01:13:25.340 --> 01:13:31.140]  things are incompatible. Yeah. You know, I, I thought the same thing. Uh, and I think
+[01:13:31.140 --> 01:13:39.220]  that it gets to where so many people, when I raised some questions about the way that
+[01:13:39.220 --> 01:13:45.220]  this was demoed at IO and said that, uh, I guess I shouldn't have phrased it the way
+[01:13:45.220 --> 01:13:49.940]  that I did. And I said, what they've done just by playing a record, all only playing
+[01:13:49.940 --> 01:13:55.860]  a recording of two ostensible quote unquote actual calls. That was, that was the words
+[01:13:55.860 --> 01:14:03.060]  that they use by only playing recordings and not letting anybody see it live. Um, it's
+[01:14:03.060 --> 01:14:09.820]  indistinguishable from, you know, like a fake and that some people jumped on that and took
+[01:14:09.820 --> 01:14:15.540]  it as me saying that I think this is fake or completely fake, you know, that there were
+[01:14:15.540 --> 01:14:18.980]  actors that they weren't, they weren't even, it wasn't even a computer generated voice
+[01:14:18.980 --> 01:14:22.780]  or something like that. And that wasn't what I was saying at all. You know, and I thought
+[01:14:22.780 --> 01:14:28.220]  I emphasized that by saying that, look, if anybody in the world, any company or institution,
+[01:14:28.220 --> 01:14:34.700]  you know, in today's world, it's companies like Google and, and Amazon that do things
+[01:14:34.700 --> 01:14:39.380]  like this. Maybe, you know, a generation ago it was research labs, you know, like at MIT
+[01:14:39.380 --> 01:14:44.180]  or Bell labs or something like that. But if there's any institution that today could,
+[01:14:44.180 --> 01:14:48.180]  could make a voice that sounds like that, it would be Google. I think that would be
+[01:14:48.180 --> 01:14:53.260]  the, you know, they would have the best odds in Vegas. Um, but it's, it was just such a
+[01:14:53.260 --> 01:14:59.340]  curious and bizarre way to roll it out because it was, there was no, nobody was shown any
+[01:14:59.340 --> 01:15:04.700]  evidence of it. And I think in hindsight, I think it's clear, it's not that it was,
+[01:15:04.700 --> 01:15:08.500]  it's clearly wasn't a fraud. Clearly they have this vocal technology, right? And it
+[01:15:08.500 --> 01:15:13.540]  is amazing. It is a leap forward to be able to have a computer generated voice that can
+[01:15:13.540 --> 01:15:20.860]  fool people into thinking it's real. Even if they're not just like, Hey, you, you're
+[01:15:20.860 --> 01:15:25.540]  just the, the, the person who answers the phone at the restaurant and you know, you
+[01:15:25.540 --> 01:15:30.540]  answer the, you answer, you know, 20, 30, 40, maybe a hundred calls every day because,
+[01:15:30.540 --> 01:15:36.220]  you know, that's how many reservations you get. So even if you're not thinking, Hey,
+[01:15:36.220 --> 01:15:41.700]  you know, this might be a, you know, an AI and you just happened to not even notice and
+[01:15:41.700 --> 01:15:45.860]  you have the phone call, go come and go and without even giving it a second thought that
+[01:15:45.860 --> 01:15:51.940]  you might've been talking to an AI bot. Even if you're thinking about it, like the
+[01:15:51.940 --> 01:15:57.500]  journalists who are invited to this demo, like Lauren good from wired, uh, successfully
+[01:15:57.500 --> 01:16:03.180]  tripped it up by asking about, uh, I thought her anecdote was terrific and it comes from
+[01:16:03.180 --> 01:16:07.700]  the fact that she actually in college had a job answering the phone at like a bar or
+[01:16:07.700 --> 01:16:11.580]  a restaurant or something. And she just asked if anybody needed, if there are any kids and
+[01:16:11.580 --> 01:16:15.620]  do they need high chairs and does anybody have any food allergies or something like
+[01:16:15.620 --> 01:16:21.260]  that? And they, those things tripped it up and a human operator had to jump in and she
+[01:16:21.260 --> 01:16:25.660]  thought that she could tell a second voice came on, but she thought maybe they switched
+[01:16:25.660 --> 01:16:29.820]  to a different, you know, she wasn't sure that it's, she didn't think it had switched
+[01:16:29.820 --> 01:16:33.060]  to a human. She just thought it was another duplex, you know, and I thought that was really
+[01:16:33.060 --> 01:16:38.260]  telling about the compellingness of the voice. But you know, Brian Heater is exactly right.
+[01:16:38.260 --> 01:16:42.060]  You can't say that you've built this thing that is indistinguishable from a human and
+[01:16:42.060 --> 01:16:47.040]  then say that we're not trying to, and, and they even said that we, we took it in this
+[01:16:47.040 --> 01:16:54.260]  direction because as we tested it, we were, we got fewer hang ups this way, right? Yeah,
+[01:16:54.260 --> 01:16:59.880]  no kidding. If they think it's a human, they won't hang up as much. No. And I'm not saying
+[01:16:59.880 --> 01:17:04.980]  this in the sense of, Oh, those bastards at Google, you know, are tricking people. I'm
+[01:17:04.980 --> 01:17:09.580]  saying it is. I'm just saying that and that they haven't, they had, when they announced
+[01:17:09.580 --> 01:17:15.540]  this in early May, they clearly had not thought this through as a product, right? What they
+[01:17:15.540 --> 01:17:21.700]  had was an amazing technology and I think they wanted to demo this amazing technology
+[01:17:21.700 --> 01:17:26.820]  because that's what, that's something Google really likes to do is really show off technology
+[01:17:26.820 --> 01:17:33.020]  and they just sort of, uh, dot yada, yada, yada. We'll, we'll, you know, we'll, we'll,
+[01:17:33.020 --> 01:17:36.220]  we'll turn it into a product and Google assistant or something like that without having really
+[01:17:36.220 --> 01:17:40.820]  thought it through. And even at this point with the demo that these people had, it still
+[01:17:40.820 --> 01:17:46.620]  isn't actually hooked up to Google assistant. Like, so the way that the call starts even
+[01:17:46.620 --> 01:17:54.300]  in these, the canned demos was not by somebody talking into their phone and saying, Oh, okay,
+[01:17:54.300 --> 01:18:01.540]  Google make me a reservation at this restaurant at seven or eight o'clock on Saturday for
+[01:18:01.540 --> 01:18:08.540]  a table for four and then, and then letting go of the phone and at some, you know, five,
+[01:18:08.540 --> 01:18:13.780]  six seconds later, have the phone ring at the place. It didn't work like that at all.
+[01:18:13.780 --> 01:18:18.180]  And then at the end of the call, they didn't show them like an appointment showing up in
+[01:18:18.180 --> 01:18:23.540]  their Google calendar with the reservation, right? They only have the part of the thing
+[01:18:23.540 --> 01:18:30.580]  where there's like a guy at a computer who types things, a Google engineer who initiates
+[01:18:30.580 --> 01:18:38.680]  the call. Like it's not a full system yet. Right. And at this point they say that four
+[01:18:38.680 --> 01:18:43.660]  out of five calls that they do to these restaurants, uh, success, you know, successfully get the
+[01:18:43.660 --> 01:18:51.740]  right reservation. Um, and that one out of five requires a human operator to jump in
+[01:18:51.740 --> 01:18:55.380]  and bike. There's like a quick transcript. So like the human operator apparently can
+[01:18:55.380 --> 01:19:00.460]  see a transcript of what's gone on so far, what the, what the request was and then take
+[01:19:00.460 --> 01:19:07.420]  over that. That's amazing. Four out of five is absolutely amazing, but it's absolutely
+[01:19:07.420 --> 01:19:11.740]  they've provided the dashboard for the in-person. That means they're productizing it, but it's
+[01:19:11.740 --> 01:19:17.420]  absolutely untenable at, at, at anywhere near that rate for Google to actually roll this
+[01:19:17.420 --> 01:19:22.380]  out to everybody. It's absolutely untenable. They would need to have an army, an absolute
+[01:19:22.380 --> 01:19:29.380]  army of humans even at a 90% success rate to, to pop in. Like this has to be the Google
+[01:19:29.380 --> 01:19:33.220]  operator that takes over though. Or is it the person at the restaurant? No, it's a Google
+[01:19:33.220 --> 01:19:39.460]  operator. In other words, like if it's a Google employee, Google says that they have, you
+[01:19:39.460 --> 01:19:45.580]  know, but nothing Google does ever requires an army of humans or maybe, you know, it just
+[01:19:45.580 --> 01:19:51.700]  doesn't scale. They would consider that a failure, right? Like you can do it if it's
+[01:19:51.700 --> 01:19:58.860]  a paid service. Um, virtue member of virtue, the, the, the phone company that sold five
+[01:19:58.860 --> 01:20:03.980]  or $6,000 phones, they'd gold black areas or whatever, right? And they'd have like leather
+[01:20:03.980 --> 01:20:10.220]  backing and, and they were very bling. Uh, at the Nokia, they, they originally ran on
+[01:20:10.220 --> 01:20:14.740]  Nokia's stuff and Nokia was an investor in the company. And at some point while they
+[01:20:14.740 --> 01:20:20.220]  tried to hang on in relevance, you know, they, they switched to Android. Um, but they had
+[01:20:20.220 --> 01:20:26.220]  it, they had a button on the phone and you know, you, you paid five or $6,000 for a phone
+[01:20:26.220 --> 01:20:34.040]  and it was just running. It was technically no better than like a $25 Nokia phone. Um,
+[01:20:34.040 --> 01:20:38.740]  but part of what you got was this bling on the, you know, the actual phone itself was
+[01:20:38.740 --> 01:20:43.500]  very blingy and you know, had some premium materials like gold and leather and stuff
+[01:20:43.500 --> 01:20:47.540]  like that. But one of the things you also got was access to a concierge service where
+[01:20:47.540 --> 01:20:53.060]  you just hit a button and it would just immediately connect you to a virtue concierge and you
+[01:20:53.060 --> 01:21:00.900]  would say, make me a reservation at, uh, you know, uh, whatever restaurant and you know,
+[01:21:00.900 --> 01:21:06.500]  on Saturday at seven, a table for five. And they'd say, okay, you know, Mr. Panzorino.
+[01:21:06.500 --> 01:21:09.260]  And you know, like when the reservation comes through, they would, I don't know if they
+[01:21:09.260 --> 01:21:12.580]  sent you a text or what, but there'd be some kind of thing that would let it go. But it
+[01:21:12.580 --> 01:21:17.060]  was a human on the other end and they obviously they could afford to do that because they
+[01:21:17.060 --> 01:21:22.780]  were selling $5,000 phones and they were very, you know, it costs like $30 plus some gold
+[01:21:22.780 --> 01:21:27.940]  and you know, it was not a, you know, there weren't millions of virtue users. There were,
+[01:21:27.940 --> 01:21:31.860]  I don't know, I guess thousands, you know, Google can't afford to have something like
+[01:21:31.860 --> 01:21:37.700]  that for even 10% of these calls because it's a free service. Google assistant is completely
+[01:21:37.700 --> 01:21:43.500]  free. I think it's, look, I think the whole thing is cool. The concept is cool as a person
+[01:21:43.500 --> 01:21:50.540]  who likes technology and you know, is whose job is ostensibly to absorb bleeding edge
+[01:21:50.540 --> 01:21:54.420]  technology and kind of like figure out what it means and all that. I think it's super
+[01:21:54.420 --> 01:21:58.500]  cool and a great technical achievement and all of that. Certainly not scalable at that
+[01:21:58.500 --> 01:22:02.300]  error rate, but I think they could get that error rate down for sure. Which means it's
+[01:22:02.300 --> 01:22:09.780]  just not launchable yet, but it probably will be at some point. I'm not sure. I'm not sure.
+[01:22:09.780 --> 01:22:14.140]  I would. I would. I mean, I'll, I'll, I'll take that bad, I guess. You know what I mean?
+[01:22:14.140 --> 01:22:17.620]  But I, I get why you say maybe not, you know, maybe they'll never be able to get it there
+[01:22:17.620 --> 01:22:22.900]  because there's just too many edge cases or whatever. But I just have, I just know a lot
+[01:22:22.900 --> 01:22:27.460]  about, or a little about a lot of machine learning stuff and I think they could get
+[01:22:27.460 --> 01:22:33.620]  it there because they could train it on, they could probably buy banks of recorded conversations
+[01:22:33.620 --> 01:22:38.140]  from like call centers that say you're being, you're not being recorded. Right. And they
+[01:22:38.140 --> 01:22:42.380]  could train on that. I think they could do it. But regardless of that, you have this
+[01:22:42.380 --> 01:22:47.260]  sort of secondary thing about it, which is, should we, you know, like, should we be talking
+[01:22:47.260 --> 01:22:53.540]  to robots all the time? And you know, is that really going to help? I don't know. I just
+[01:22:53.540 --> 01:23:01.100]  think that this really falls square into that pool of, of, you know, products or startups
+[01:23:01.100 --> 01:23:09.420]  or features or whatever, which is just really about making it so that, you know, man boy
+[01:23:09.420 --> 01:23:14.700]  engineers don't have to talk to people. Like it's really, you know, like if there's a whole
+[01:23:14.700 --> 01:23:19.340]  class of, there's a whole category of startups that fall into this category, into this, you
+[01:23:19.340 --> 01:23:23.740]  know, arena. And some of them have broken out of that and have genuinely become useful
+[01:23:23.740 --> 01:23:28.580]  to many, many people for a variety of reasons. You know, we just ordered Uber Eats because
+[01:23:28.580 --> 01:23:33.780]  it's like the baby's asleep and I'm the only parent home. Right. So, okay. We'll order
+[01:23:33.780 --> 01:23:39.340]  Uber Eats. Totally useful. Originated with people going like, you know, food delivery
+[01:23:39.340 --> 01:23:44.020]  services, some engineer going, why do I have to get up and go to the thing and stop coding?
+[01:23:44.020 --> 01:23:48.820]  My mom stopped bringing me food now so I should fit this company that somebody else bring
+[01:23:48.820 --> 01:23:55.460]  me the food. Right. And I think there's, there are, there are plenty of opportunities for,
+[01:23:55.460 --> 01:23:58.820]  for those things to break out and become something useful. But there's also plenty of them that
+[01:23:58.820 --> 01:24:05.580]  feel like cop outs, you know, that feel like we're, we're sort of checking out of a societal,
+[01:24:05.580 --> 01:24:10.380]  the societal arrangement because we can, we have the privilege to do so. We can pay for
+[01:24:10.380 --> 01:24:14.300]  it or we have the technology, we have the expensive phone that has the service or, you
+[01:24:14.300 --> 01:24:18.780]  know, whatever. Right. And so I think there's that aspect of it that I'm a little bit leery
+[01:24:18.780 --> 01:24:22.620]  on. The other thing that makes me wonder if this is ever going to be a product is that
+[01:24:22.620 --> 01:24:26.820]  Google is saying that it's going to be opt in for the businesses and that. So if you
+[01:24:26.820 --> 01:24:31.340]  and I open up a restaurant and we don't have, we do take reservations, but we don't take
+[01:24:31.340 --> 01:24:39.840]  open table. We would have to sign up for to be like a duplex ready restaurant because
+[01:24:39.840 --> 01:24:43.900]  of these privacy implications that people raised. I'm not so sure that's necessary.
+[01:24:43.900 --> 01:24:49.180]  I like I wrote on during fireball, like I'm not convinced that there is, it's a problem
+[01:24:49.180 --> 01:24:54.780]  whether this thing identifies itself as a robot or not because you're not getting like
+[01:24:54.780 --> 01:24:59.960]  my analogy was like is that there's no loss, right? It, these phone calls because it's
+[01:24:59.960 --> 01:25:04.700]  a robot don't cost the restaurant any more time. They don't bother. They, they go well
+[01:25:04.700 --> 01:25:09.980]  enough when they go well that it's not the person answering the phone hasn't been, hasn't
+[01:25:09.980 --> 01:25:15.500]  lost anything compared to if I personally just called them and made the same reservation.
+[01:25:15.500 --> 01:25:19.820]  So what's the argument against having a robot do it? Whether they person on the other end
+[01:25:19.820 --> 01:25:26.580]  knows it's a robot or not. Compare and contrast to say poker playing bots that go online and
+[01:25:26.580 --> 01:25:30.660]  you know, you think you're playing against a bunch of other humans, but in fact, you
+[01:25:30.660 --> 01:25:37.500]  know, one of the opponents is a computer and is taking your money. Like that's, that's
+[01:25:37.500 --> 01:25:43.980]  where you, you thinking that it's a human, but it's actually a bot is deceptive and wrong,
+[01:25:43.980 --> 01:25:47.980]  morally and ethically wrong. I'm not so sure that this is, but if they really are going
+[01:25:47.980 --> 01:25:52.220]  to keep it opt in, I don't know how that's ever going to take off. I mean, I guess they
+[01:25:52.220 --> 01:25:57.460]  could just make up, launch a big publicity campaign campaign to get restaurants to do
+[01:25:57.460 --> 01:26:03.020]  it, but I don't know. And I'm also not convinced. I mean, they're pretty adept though at selling
+[01:26:03.020 --> 01:26:07.300]  people into this channel. I mean, they do have, they do have sales teams, you know,
+[01:26:07.300 --> 01:26:11.260]  that work on the programmatic side and that sort of thing. So I think they can get there.
+[01:26:11.260 --> 01:26:15.620]  I just think that if you're going to have a computer, talk to a restaurant and make
+[01:26:15.620 --> 01:26:23.220]  a reservation like it, doing it as an AI that talks on a phone call is such a sort of Rube
+[01:26:23.220 --> 01:26:29.820]  Goldbergian difference compared to like the way that they even say that if, if the restaurant
+[01:26:29.820 --> 01:26:34.500]  has takes open table, they'll just use open table APIs and do it that way. Right? Like
+[01:26:34.500 --> 01:26:39.260]  it doesn't make sense to build computers that talk to each other by, by voice.
+[01:26:39.260 --> 01:26:45.540]  Yeah, exactly. Right. Yeah. We just, we just see an API for everything and then, you know,
+[01:26:45.540 --> 01:26:49.860]  everybody has a personal API and interacts with all of the global APIs that we never
+[01:26:49.860 --> 01:26:54.260]  have to talk to anybody. Right. Like for cinematic regions, reasons are two D two and C three
+[01:26:54.260 --> 01:26:59.820]  P O, you know, talked to beep to each other, but it doesn't make any sense that they wouldn't
+[01:26:59.820 --> 01:27:06.420]  communicate completely like by whatever the star Wars equivalent of wifi. Yeah, exactly.
+[01:27:06.420 --> 01:27:10.940]  Or even if they use auto audible signals, it would be some sort of like rapid fire screech
+[01:27:10.940 --> 01:27:15.900]  of ones and zeros that like happened in a, in a blink of an eye, you know, while I mentioned
+[01:27:15.900 --> 01:27:18.780]  that, let me just add this. I've been meaning to mention this on the show for a while. I
+[01:27:18.780 --> 01:27:23.340]  think one of the most prescient things that George Lucas, little details that George Lucas
+[01:27:23.340 --> 01:27:29.260]  came up with, uh, was the fact that when in the first star Wars movie, when they go into
+[01:27:29.260 --> 01:27:34.380]  the cantina and the bartender says to Luke, we don't serve their kind here very angrily.
+[01:27:34.380 --> 01:27:39.980]  You know, in other words, droids aren't welcome. They're sort of like a anti-droid, uh, bigotry
+[01:27:39.980 --> 01:27:44.200]  in the star Wars universe. And I think that was so prescient because as the viewer of
+[01:27:44.200 --> 01:27:49.700]  the movie, all of us are thinking a human or adult children alike are thinking, Oh my
+[01:27:49.700 --> 01:27:55.100]  God, these robots seem so realistic, right? See three PO. It was like amazing. It was
+[01:27:55.100 --> 01:27:59.220]  like he walks like a robot, looks like a robot. Wouldn't it be cool to have a robot like that
+[01:27:59.220 --> 01:28:04.480]  that can just talk to you like this? We're thinking, man, that's cool. But in their universe,
+[01:28:04.480 --> 01:28:08.900]  they're sort of resented by at least some people, you know, and like the sort of degenerates
+[01:28:08.900 --> 01:28:12.180]  who would go to the cantina. And I think we're seeing as a kid, you're going, no, that's
+[01:28:12.180 --> 01:28:17.140]  so cool. And as an adult, you're like, Oh, robots, what, what assholes. And that's what
+[01:28:17.140 --> 01:28:21.940]  we're sort of seeing that with people's reaction to things like duplex. Um, all right, enough
+[01:28:21.940 --> 01:28:25.560]  on that last thing. I don't have a lot to say about this, but last but not least, Apple
+[01:28:25.560 --> 01:28:33.660]  has announced a, finally a Mac book keyboard repair program, uh, launched around five o'clock
+[01:28:33.660 --> 01:28:40.580]  last Friday. Imagine that it must've just been when it was ready, John. I'm sure that
+[01:28:40.580 --> 01:28:44.380]  just must've been when they were ready to announce it. I'm sure that's exactly why the
+[01:28:44.380 --> 01:28:50.540]  moment they were ready, they launched the news at the moment. Very moment. I think it
+[01:28:50.540 --> 01:28:54.040]  was a little bit before five. I think it was, I think it was around like three Eastern or
+[01:28:54.040 --> 01:29:02.060]  something like that on a Friday in late June. Um, but more or less, and it is funny, uh,
+[01:29:02.060 --> 01:29:07.220]  cause it's like, all right, here's the affected, uh, devices and it's effectively, it's every
+[01:29:07.220 --> 01:29:11.300]  single, it is not even effectively, it's just literally every single Mac book or Mac book
+[01:29:11.300 --> 01:29:16.220]  pro that's come out since the new keyboard and the sign came out. Right. It's like, if
+[01:29:16.220 --> 01:29:21.900]  you've got a Mac book with the butterfly key switches, it's eligible for this repair program.
+[01:29:21.900 --> 01:29:26.660]  And uh, if you get a stuck key or, uh, you know, any of these other problems people are
+[01:29:26.660 --> 01:29:31.360]  running into with this, it is eligible for free repair. They'll either repair the, replace
+[01:29:31.360 --> 01:29:35.600]  the whole keyboard or replace a single key if that's what they can do. And if you've
+[01:29:35.600 --> 01:29:40.540]  already paid for such a repair and think it should have been covered, there's some kind
+[01:29:40.540 --> 01:29:49.740]  of a thing you can go through to get your money back. Um, meanwhile, they, every single
+[01:29:49.740 --> 01:29:56.460]  Mac book you can continue to buy is either an older model or if it's a top of the line
+[01:29:56.460 --> 01:30:02.860]  new model, it still has this exact same keyboard, which is I think the first time I can ever
+[01:30:02.860 --> 01:30:08.660]  recall the few times that Apple has admitted to hardware problems with a device that, that
+[01:30:08.660 --> 01:30:15.180]  they're still, they don't have a replacement ready yet, which is kind of awkward. Yeah,
+[01:30:15.180 --> 01:30:19.780]  it's super awkward. I mean, if they're, you know, they shouldn't have been flat footed
+[01:30:19.780 --> 01:30:25.740]  on that front, uh, simply because they, they've known about the issues for a long time, you
+[01:30:25.740 --> 01:30:32.460]  know, um, even though Apple maintains that it's a very small amount of devices, uh, it's
+[01:30:32.460 --> 01:30:39.460]  enough, it's enough for sure. Uh, so, you know, one of two things going on, either they're
+[01:30:39.460 --> 01:30:44.180]  getting ready to announce new Mac books, which could totally happen. Um, and there'll be,
+[01:30:44.180 --> 01:30:47.580]  it'll happen really quickly here and then you will have options and they'll just quietly
+[01:30:47.580 --> 01:30:54.020]  deprecate all those current ones or I don't know what, um, or they, yeah, they're going
+[01:30:54.020 --> 01:30:59.820]  to be stuck with these for awhile. So either, either, either or on those, on that front.
+[01:30:59.820 --> 01:31:04.620]  This is completely and utterly unsubstantiated, but I'll pass it along. That's what podcasts
+[01:31:04.620 --> 01:31:07.540]  are for. This is the sort of thing I would never write on during fireball, but I'll say
+[01:31:07.540 --> 01:31:11.100]  on the show is I got an email from somebody after this was announced who I don't know
+[01:31:11.100 --> 01:31:18.180]  and who admitted, um, that he, he doesn't know this firsthand. He knows a friend who
+[01:31:18.180 --> 01:31:27.020]  knows a guy at Apple, uh, my uncle works at Nintendo. Yeah. Um, but what he said, and
+[01:31:27.020 --> 01:31:30.700]  again, he even said, I don't know, you can't buy, you know, he, he knows me well. You know,
+[01:31:30.700 --> 01:31:34.100]  he's a reader of the site, but he said, what, what, what he heard from somebody was that
+[01:31:34.100 --> 01:31:39.860]  Apple got serious, you know, at some point, you know, last, you know, at some point in
+[01:31:39.860 --> 01:31:44.460]  the last year or so got serious about thoroughly investigating this like, okay, something is
+[01:31:44.460 --> 01:31:49.940]  up, what is going wrong? And that they looked into it and that there's a certain part of
+[01:31:49.940 --> 01:32:00.140]  the butterfly mechanism that's made of a metal alloy and that this metal alloy is as they
+[01:32:00.140 --> 01:32:06.340]  were producing them was not up to their specific up to the proper specifications for resistance
+[01:32:06.340 --> 01:32:11.500]  to bending. And that was prone to getting slightly bent just slightly because there's
+[01:32:11.500 --> 01:32:19.320]  obviously no, no room with the low key travel for a large bed, but that once bent even slightly
+[01:32:19.320 --> 01:32:25.780]  made that particular key more likely to get stuck. If like a piece of dust or something
+[01:32:25.780 --> 01:32:31.900]  went in there that it was in that they, they looked into it, rectified it and have since
+[01:32:31.900 --> 01:32:37.700]  switched to a different metal alloy that may or may not even look different in terms of,
+[01:32:37.700 --> 01:32:41.560]  you know, what it would look like if you pop the key off, but that it's much more rigid
+[01:32:41.560 --> 01:32:47.400]  and less prone to bending. And that the more recent your Mac book or Mac book pro is the
+[01:32:47.400 --> 01:32:51.540]  more likely it is that it has these, this different alloy in the butterfly switches
+[01:32:51.540 --> 01:32:59.300]  and will be less likely to, to suffer this. I can't prove that there's no way Apple is
+[01:32:59.300 --> 01:33:05.180]  ever going to say whether that's true or not. I think the only way we could ever find out
+[01:33:05.180 --> 01:33:10.020]  if or even suspect whether something like that is true or not is whether we start to
+[01:33:10.020 --> 01:33:15.180]  see a decrease in the number of people with, you know, if, if anecdotally we observe that
+[01:33:15.180 --> 01:33:19.660]  the more recent your keyboard is, the less likely it is to, to break down.
+[01:33:19.660 --> 01:33:25.820]  Yeah. I mean, look, we started seeing reports of it, I think like, you know, very soon after
+[01:33:25.820 --> 01:33:30.260]  they were announced or very soon after they were launched, like a couple of people. And
+[01:33:30.260 --> 01:33:35.020]  then it just started, it started cresting like early last year. And then, um, you know,
+[01:33:35.020 --> 01:33:39.580]  there had been plenty of like, you know, talk about it and, you know, medium posts from
+[01:33:39.580 --> 01:33:44.100]  independent parties about it. And, you know, certainly folks like Marco were talking about
+[01:33:44.100 --> 01:33:48.540]  it. Other people were talking about it and Casey Johnston, Casey Johnson, Casey, Casey
+[01:33:48.540 --> 01:33:52.960]  wrote an article in October of last year, whatever it was. And that sort of put a pin
+[01:33:52.960 --> 01:33:58.260]  in the topic of like, you know, Hey, here's, here's a, uh, on the record, a site writing
+[01:33:58.260 --> 01:34:03.540]  about it, you know, and then she kept hammering at it. And so I think there was a long time
+[01:34:03.540 --> 01:34:07.340]  before she codified it, there was like buzz, but she really crystallized it well and then
+[01:34:07.340 --> 01:34:12.660]  kept hammering on it. Um, so it was, it got embarrassing. I think it gets embarrassing
+[01:34:12.660 --> 01:34:17.420]  at some point for people who are essentially known for building some of the best hardware
+[01:34:17.420 --> 01:34:24.860]  in the world. I have something that's just so, so terrible. Yeah, I, I really did laugh
+[01:34:24.860 --> 01:34:34.060]  out loud, um, at Casey Johnston's take after this repair program was, uh, uh, announced
+[01:34:34.060 --> 01:34:41.660]  where she wrote, um, Apple did not immediately return a request from this reporter for comments
+[01:34:41.660 --> 01:34:46.380]  on whether repairs may now be done onsite at stores to shorten the time computers must
+[01:34:46.380 --> 01:34:51.140]  be without their computers, whether the keyboard design has changed such that a repair may
+[01:34:51.140 --> 01:34:57.540]  eliminate the problem rather than prop up a faulty design or whether Apple participates
+[01:34:57.540 --> 01:35:03.180]  releasing updated hardware that is not so prone to failure at any point in the future.
+[01:35:03.180 --> 01:35:11.000]  Perhaps their keyboards too are broken. I'm a, I'm a big KZ fan. I have been for a long
+[01:35:11.000 --> 01:35:17.820]  time. She's sharp. That was just an amazing sentence. Perhaps their keyboards too are
+[01:35:17.820 --> 01:35:22.860]  broken. Um, I don't know. It's a weird thing. And I'll tell you, it's one of those things
+[01:35:22.860 --> 01:35:26.500]  as you know, the guy who writes during fireball and does the show, I get, Oh, you know, I've
+[01:35:26.500 --> 01:35:31.380]  all for years and many, you know, 10 years more, I get email from people, you know, readers
+[01:35:31.380 --> 01:35:36.100]  and they'll just say something like, you know, Hey, my kid's going to college in August.
+[01:35:36.100 --> 01:35:41.220]  Uh, you know, it was going to get her a new Mac book, but what should I do? Should I wait?
+[01:35:41.220 --> 01:35:44.620]  You know, you know, I'm worried about this keyboard thing. You know, we're hoping to
+[01:35:44.620 --> 01:35:47.400]  get her a keyboard, you know, we're hoping to get her a Mac book that'll take her through
+[01:35:47.400 --> 01:35:54.420]  college for four years. Um, I often don't know what to say. I don't know how to make
+[01:35:54.420 --> 01:35:57.540]  recommendations for people, you know, like, you know, if people say like, Hey, should
+[01:35:57.540 --> 01:36:02.940]  we, you know, get a Mac book pro or get the regular Mac book, you know, uh, you know,
+[01:36:02.940 --> 01:36:06.880]  I don't know how to answer that sometimes. Um, but in this particular case, I have no
+[01:36:06.880 --> 01:36:12.300]  idea what to say, you know, because you might need a computer, but I have no idea. Like,
+[01:36:12.300 --> 01:36:16.060]  you know, the timing on new Mac books coming out is actually pretty unfortunate because
+[01:36:16.060 --> 01:36:21.300]  June would have been in time for back to school if they had had them to announce a WWDC and
+[01:36:21.300 --> 01:36:26.340]  September is obviously too late because the kids all start school in late August. So I
+[01:36:26.340 --> 01:36:33.060]  don't know what to say to people. It is. It's a tough time. I wonder as this gains publicity,
+[01:36:33.060 --> 01:36:38.260]  whether we'll start seeing it reflected in the sales numbers of Macs. I like how many
+[01:36:38.260 --> 01:36:42.860]  people out there are holding off on a new Mac book. Honestly, probably not much. I don't
+[01:36:42.860 --> 01:36:47.100]  think so. It doesn't seem like it's so far in a teapot almost always with this stuff.
+[01:36:47.100 --> 01:36:50.660]  Right. Like, you know, you look at the video card stuff and like that, you know, there's
+[01:36:50.660 --> 01:36:55.140]  a variety of debacles that the max have had over the years and I just don't think that
+[01:36:55.140 --> 01:36:59.140]  most people really give a crap, especially not the people that are buying at scale, you
+[01:36:59.140 --> 01:37:03.180]  know? And as much as we meaning like me and you and everybody who's listening to the show,
+[01:37:03.180 --> 01:37:08.980]  we think that this is like a major issue and controversy. It is in our little tech meme
+[01:37:08.980 --> 01:37:13.340]  universe. And I'm not saying it's not valid, 100% valid, right? But that's not the point
+[01:37:13.340 --> 01:37:16.640]  at all. It's just a matter of like, there's an external assessment you can do on whether
+[01:37:16.640 --> 01:37:20.660]  or not it's going to have a material impact. I don't think so, to be honest. But at the
+[01:37:20.660 --> 01:37:25.700]  same time, I think it's like, so when I said there's just two options, it's really three
+[01:37:25.700 --> 01:37:34.020]  options. The 2A and 2B is they introduced new MacBook hardware now because they were
+[01:37:34.020 --> 01:37:39.780]  ready to replace this keyboard or have known about it for a long enough time to have gotten
+[01:37:39.780 --> 01:37:43.100]  that done, gotten whatever major fix done that needs to be done so you don't have to
+[01:37:43.100 --> 01:37:52.060]  replace the entire top of your MacBook to fix a key or they weren't ready. And so whatever
+[01:37:52.060 --> 01:37:58.300]  speed bump that they were going to introduce is delayed. And so if that is, you might see
+[01:37:58.300 --> 01:38:03.660]  some material impact because of the school buying season, right? And you know, the buying
+[01:38:03.660 --> 01:38:07.540]  season for people going back, kids go back to school, the school year starting back up
+[01:38:07.540 --> 01:38:11.940]  again, things like that. But most of that stuff happens early, so early in the year.
+[01:38:11.940 --> 01:38:16.500]  I just don't, I don't know. You know, I don't know if we'll see anything there.
+[01:38:16.500 --> 01:38:22.140]  And my last point on this and Marco Arment made it very, very succinctly on the most
+[01:38:22.140 --> 01:38:30.900]  recent episode of ATP. But I don't like this four-year limit on the replacement thing.
+[01:38:30.900 --> 01:38:38.660]  And I'm literally talking to you on a retina 13-inch MacBook Pro mid-2014 that I think
+[01:38:38.660 --> 01:38:44.820]  I bought, I don't know, like September, October of 2014. So it's nearly four years old and
+[01:38:44.820 --> 01:38:51.700]  is going, it is fantastic. It's actually my favorite Apple laptop I've ever owned.
+[01:38:51.700 --> 01:38:57.620]  And not just like by, you know, grading on, you know, grading on a curve by the technologies
+[01:38:57.620 --> 01:39:04.140]  available in the day. You know, I'm not comparing a 20-year-old PowerBook screen to this retina
+[01:39:04.140 --> 01:39:10.580]  13. I'm just saying in terms of how much I liked the book compared to a notebook compared
+[01:39:10.580 --> 01:39:15.700]  to what else was on the market or what I expected to get out of it. It's the greatest MacBook
+[01:39:15.700 --> 01:39:20.600]  I've ever owned. I love it. And it is just rock solid. I have no intention to replace
+[01:39:20.600 --> 01:39:25.940]  it soon. And it's four years old. I don't know that, I think it's very, especially
+[01:39:25.940 --> 01:39:31.020]  for the prices that Apple charges, I think it's very reasonable for everybody who buys
+[01:39:31.020 --> 01:39:38.860]  any MacBook that they sell right down to the $999 MacBook Air to expect to get at least
+[01:39:38.860 --> 01:39:44.300]  four years out of it. So I don't know about that. It just seems like a weirdly arbitrary
+[01:39:44.300 --> 01:39:51.140]  number for Apple to have picked. And it's a number that I think is lower than the expected
+[01:39:51.140 --> 01:40:00.300]  lifespan of a MacBook. Again, if they were selling $200 Chromebook, you know, a four-year
+[01:40:00.300 --> 01:40:05.060]  replacement thing on the keyboard would be fine because it's, you know, you're lucky
+[01:40:05.060 --> 01:40:09.380]  if you can get one of those things to last four years. Whereas, you know, a $2,000 MacBook
+[01:40:09.380 --> 01:40:13.020]  Pro, boy, that seems to me like it ought to be able to last four years and still be able
+[01:40:13.020 --> 01:40:23.140]  to type a space bar, right? So yeah, yeah, I don't know. It's, it really is a depressing
+[01:40:23.140 --> 01:40:27.340]  outlook when you look at, you know, how long you've been able to use hardware in the past.
+[01:40:27.340 --> 01:40:34.860]  I mean, I used MacBooks for many, many years at a chunk. And honestly, given that the stuff
+[01:40:34.860 --> 01:40:39.420]  that I was doing went more and more towards the web over the years and continues to do
+[01:40:39.420 --> 01:40:47.180]  so, I just, it's just hard to justify buying into a MacBook that you don't think can last
+[01:40:47.180 --> 01:40:51.020]  that long because I've had some that have been decimated by like liquid damage or other
+[01:40:51.020 --> 01:40:56.260]  things that it could have easily still been using, you know, with no problem at all. It's
+[01:40:56.260 --> 01:41:00.700]  just, you really just open them up, you use them, they're reliable, everything works great.
+[01:41:00.700 --> 01:41:06.060]  And then to have that reputation undercut in this way, I think it's more about long
+[01:41:06.060 --> 01:41:10.940]  term damage than it is about short term in terms of the most vociferous users who then
+[01:41:10.940 --> 01:41:15.740]  become activist users, you know? Right, right. Because part of the argument is, oh, yeah,
+[01:41:15.740 --> 01:41:19.700]  the Apple laptops do cost a lot more than the average competition, but they're worth
+[01:41:19.700 --> 01:41:24.580]  it. And their build quality is higher, and they last longer. You know, this undercuts
+[01:41:24.580 --> 01:41:29.020]  all of that. Right? Well, we'll see if they extend it. I wouldn't be surprised if they
+[01:41:29.020 --> 01:41:34.260]  wind up, you know, but now that they've broken the seal and done the hardest part, which
+[01:41:34.260 --> 01:41:38.660]  is just start the program at all, I wouldn't be surprised if they extend it in some way.
+[01:41:38.660 --> 01:41:44.580]  Yeah, you know, as they say, quietly, quietly, Apple quietly extends MacBook keyboard repair
+[01:41:44.580 --> 01:41:48.740]  program. Matthew, we've gone way over the amount of time I told you I would take and
+[01:41:48.740 --> 01:41:54.260]  I apologize for that, but I appreciate it so much. And I cannot say how much I enjoyed
+[01:41:54.260 --> 01:42:00.860]  your your exclusive story here behind the scenes with maps. It's you just knocked it
+[01:42:00.860 --> 01:42:06.860]  out of the park again. And I just couldn't have done a better job.
+[01:42:06.860 --> 01:42:11.660]  Thank you very much, sir. Appreciate it. That means a lot. Keep them busy in the summer.
+[01:42:11.660 --> 01:42:17.780]  Keeping busy. Yes, I'm looking forward to relaxing for until the end of the quarter.
+[01:42:17.780 --> 01:42:25.780]  So everybody can read your fine tweets at panzer panzer on the on the Twitter and of
+[01:42:25.780 --> 01:42:48.380]  course see your read your fine work and the work of your staff at techcrunch.com

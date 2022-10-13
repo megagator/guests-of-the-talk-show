@@ -1,0 +1,1093 @@
+[00:00.560 --> 00:04.800]  Everybody, it's your internet pal John Gruber. I've got some good news and some bad news. The
+[00:04.800 --> 00:09.120]  good news first, I have an amazing guest, Casey Johnston, who has done more writing
+[00:09.760 --> 00:15.520]  and great writing about the saga of the butterfly switch MacBook keyboards than anybody else on the
+[00:15.520 --> 00:20.400]  internet. And we're here to talk all about the new 16 inch MacBook Pro and it's all new
+[00:20.400 --> 00:25.680]  keyboard design. So that's the good news. The bad news is that I recorded the whole show using
+[00:25.680 --> 00:32.240]  my review unit 16 inch MacBook Pro and to connect it to my regular microphone. I had to use a USB-C
+[00:32.240 --> 00:39.200]  to USB-A dongle and I think something went wrong there. And my side of the audio has a bit of
+[00:39.200 --> 00:44.480]  static and we're doing our best to mitigate it in post, but you're going to hear it, I think.
+[00:45.200 --> 00:49.200]  And I'm just telling you upfront that you don't have to let me know. I'm really sorry about it.
+[00:49.200 --> 00:55.360]  Nobody feels worse about this than me. I really do, but you don't have to let me know. And here's
+[00:55.360 --> 01:00.800]  the weird part. I can't explain it. I'm recording this preamble where I don't have the static using
+[01:00.800 --> 01:06.800]  the exact same microphone setup that had the static. When I recorded with Casey, I can't
+[01:06.800 --> 01:12.400]  explain it. It's some kind of thing. I don't know if I didn't have the USB key cable all the way in
+[01:12.400 --> 01:20.320]  or what the heck I did wrong. Can't explain it. Sorry. On with the show. Casey Johnston, welcome
+[01:20.320 --> 01:26.480]  to the talk show. Thank you. Are you excited? It's a big week for you. I know. I mean,
+[01:28.320 --> 01:37.040]  yes, I guess yes, it is. This is the culmination of years of complaining and effort on my part.
+[01:39.120 --> 01:43.440]  So I can't believe that anybody listening doesn't know, but for anybody who doesn't know, Casey,
+[01:44.080 --> 01:49.520]  while employed at The Outline wrote, I think all of the stuff on the keyboard was
+[01:49.520 --> 01:53.040]  from your time. No, actually, the first time I wrote about it, I was not yet
+[01:53.040 --> 01:56.880]  working there. That was it was like maybe four or five months before.
+[01:58.400 --> 02:04.080]  But it but was it published at The Outline? Yes. But I wrote it as a freelancer. Right.
+[02:04.720 --> 02:11.840]  Right. And it was headline, the new MacBook Pro, the new MacBook keyboard is ruining my life.
+[02:11.840 --> 02:17.520]  I mean, it was no exaggeration. It really was and sort of continues even today, even this week at
+[02:17.520 --> 02:22.560]  work when trying to use actually a different computer. But same same style of keyboard
+[02:22.560 --> 02:31.440]  continues to ruin my life. Because you are a professional writer. And most professional
+[02:31.440 --> 02:39.680]  writers do a fair amount of typing on keyboards. And I mean, I'm right, I'm writer and editor. So
+[02:39.680 --> 02:43.920]  it's like, you know, in a way, the stakes are even higher, because it's my job to make sure everything
+[02:43.920 --> 02:48.560]  is correct. But with these keyboards, I'm out here, introducing errors constantly.
+[02:53.360 --> 02:59.680]  But I really do think so the big news, everybody listening by now obviously knows Apple released
+[02:59.680 --> 03:05.360]  the new 16 inch MacBook Pro, which replaces the old 15 inch, it's just slightly bigger,
+[03:05.360 --> 03:14.240]  so they gave it a new number for the size of the screen diagonal. And it has an all new keyboard
+[03:14.240 --> 03:25.600]  design. You, I think, along with Joanna Stern, I would say that you and Joanna Stern really led
+[03:25.600 --> 03:32.320]  the way on the writing about this keyboard over the years. And there is a sort of
+[03:32.320 --> 03:39.360]  Emperor has no close angle to it, where it's like, I feel like ultimately, the bottom line
+[03:39.360 --> 03:44.480]  of your writing about the issue is this keyboard is garbage. I mean, literally, you said it ruined
+[03:44.480 --> 03:49.520]  your life. Yes, I mean, it's, it's tough, because you can, like the keyboard was the style of
+[03:49.520 --> 03:56.240]  keyboard was out for a couple of years before I even got ahold of it, let alone wrote about it.
+[03:56.240 --> 04:04.240]  So it was like, there was some negative feedback about it, but I think it really didn't gain any
+[04:05.120 --> 04:09.920]  critical mass, because no one really, I don't think it's not like no one bought the original
+[04:10.560 --> 04:14.960]  MacBook, no modifier, the teeny tiny one with the super, super shallow keys.
+[04:16.640 --> 04:23.600]  So it didn't, I think that no one, no one was out there, like, trying to amass the negative feedback
+[04:23.600 --> 04:28.400]  into one place and be like, wait, this is actually kind of bad. It was only when it started to
+[04:28.400 --> 04:34.720]  proliferate out to the, the pro line, and then eventually the airline much later that I think
+[04:34.720 --> 04:41.600]  people are that I that I sort of came to it and was like, this is there's a trend here. This is
+[04:41.600 --> 04:46.240]  bad. And it seems like it has been bad. And just no one's saying anything in a very strange way.
+[04:46.240 --> 04:54.880]  And it was hard because, like, Apple and various people, various owners of these computers would
+[04:54.880 --> 05:00.320]  sort of continue to insist that it was like, quote, unquote, user error, or like an extreme
+[05:00.320 --> 05:07.280]  minority of people who are having this problem. But just the ease with which I was seeming to have
+[05:07.280 --> 05:11.520]  it, like without really doing much wrong or anything differently than I had with any other
+[05:11.520 --> 05:20.960]  computer really involved a yeah, like, it was a real like, there, there are four lights moment.
+[05:20.960 --> 05:23.520]  Like, I just have to, like, know my own truth here.
+[05:27.120 --> 05:32.640]  Because it's two things. There's the what if the keyboard, the butterfly switch keyboard,
+[05:32.640 --> 05:39.120]  which as you said, was introduced with the teeny tiny MacBook Pro, and it was like,
+[05:39.120 --> 05:45.920]  the teeny tiny MacBook with no adjective after its name that is now out of the lineup.
+[05:47.440 --> 05:54.640]  introduced now. Yeah. Yeah, then now with the air, they've, they've, they've taken it out.
+[05:58.000 --> 06:03.440]  And you can kind of understand why they went to it, because that was such a teeny tiny computer.
+[06:03.440 --> 06:07.760]  So emphasis, you know, so much emphasis on being super small, didn't even have fan,
+[06:07.760 --> 06:14.000]  a fan system, it used a chipset that, you know, wouldn't ever get hot enough to require fan. So
+[06:14.000 --> 06:18.320]  there just wasn't room for a bigger keyboard with traditional travel, blah, blah, blah.
+[06:19.680 --> 06:25.040]  And then they use that keyboard eventually expanded to the whole line with, you know,
+[06:25.040 --> 06:30.080]  whatever mechanical differences when the computers got bigger, whether you liked it or not, is one
+[06:30.080 --> 06:37.440]  thing when it functioned completely as designed is, you know, and I never loved it, but I didn't
+[06:37.440 --> 06:43.040]  hate it. It's, you know, that was always my impression of it. The bigger problem was for
+[06:43.920 --> 06:52.000]  a lot of people, it tended to develop multiple types of problems. Yes, one problem would be
+[06:52.880 --> 06:59.360]  keys that stopped working. And so you'd go to type in E and no E would appear on screen,
+[06:59.360 --> 07:03.600]  or you'd go to type a space and nothing would appear. And then the other problem people had
+[07:03.600 --> 07:08.240]  was the opposite where you would type a key and you'd get two of them instead of one. That was
+[07:08.240 --> 07:13.600]  the biggest problem I was having for sure. I mean, like, the interesting thing is that those
+[07:13.600 --> 07:19.440]  those MacBook sans modifiers were not really made for people who like used computers much at all,
+[07:19.440 --> 07:24.480]  it seemed like because they were so underpowered. And just like, they couldn't they couldn't do
+[07:24.480 --> 07:28.240]  anything. If I recall, they couldn't even have very many like browser tabs open, they were almost
+[07:28.240 --> 07:34.320]  like Chromebooks. So it's like, for values of that person, it seemed like maybe the keyboard
+[07:34.320 --> 07:38.480]  actually wasn't that bad. Because if it's like, you never really like, take your computer outside
+[07:38.480 --> 07:43.840]  of a single room in your house, you never carry it around, you never really open it, when you open
+[07:43.840 --> 07:49.280]  it, you use it for like, maybe 15 minutes at a time, like for those people, it actually might
+[07:49.280 --> 07:56.640]  have been fine. Well, it only had one port, which was, which was one of the limiting factors. It was
+[07:56.640 --> 08:01.040]  really for people who like didn't really need a computer at all. So that may have been why it
+[08:01.040 --> 08:06.880]  takes it took so long for the keyboard issues to emerge. But nonetheless, what I'm trying to say is
+[08:07.840 --> 08:14.960]  the keyboards, like, I remember trying them in store. When I went to go be like, I was like,
+[08:15.760 --> 08:24.240]  I had heard the keys were not great. I think I had tried them on the MacBook and felt it was too
+[08:24.240 --> 08:30.640]  shallow, just didn't feel great. And I wanted to like, wait and see what happened, even though I
+[08:30.640 --> 08:36.320]  was kind of due for a new computer. So I was like in the market. So when I went to the Apple store,
+[08:36.320 --> 08:40.720]  and I tried it, there was a little bit more travel. And I was like, Oh, this isn't so bad.
+[08:40.720 --> 08:46.160]  Like you can at least feel something and like, it's pretty responsive. And it kind of feels nice
+[08:46.160 --> 08:52.400]  to type on but the nice to type on feeling went away so quickly because of the like, I assumed
+[08:52.400 --> 08:59.120]  the dust problem that it just just anything getting in there would the sort of drop off
+[08:59.120 --> 09:05.920]  point from the pristine state in which typing felt good to the slightly less good state in
+[09:05.920 --> 09:12.960]  which typing felt terrible. Like it was a very shallow sort of amount of travel pun intended
+[09:12.960 --> 09:18.560]  from from the one to the other. So it just quickly became bad. And it's so it's hard for me to say,
+[09:18.560 --> 09:21.600]  like whether I actually liked the keyboard or not, it's like the keyboard and the pristine
+[09:21.600 --> 09:27.680]  state. Actually, I didn't mind it so much. It was a little it was a little like, not as satisfying
+[09:27.680 --> 09:33.120]  as like a mechanical keyboard, obviously, but it was it was fine. But the normal state, it's like,
+[09:33.120 --> 09:38.560]  what is the normal state of keyboard, then if you know, it can't even sustain the sort of pristine
+[09:38.560 --> 09:46.080]  state where the typing was, at least you could you could ignore it, like it wasn't it wasn't
+[09:46.080 --> 09:55.040]  a significant factor. I came around on this and I personally never bought a MacBook with one of
+[09:55.040 --> 10:01.600]  those keyboards. I'm my the one that I still have that you managed to stay with the market, right.
+[10:03.120 --> 10:11.760]  But the nature of my job is that I have reviewed various of these models over that period for like
+[10:11.760 --> 10:18.960]  six weeks at a time. And with a MacBook, and iPhones in particular is, I'm not gonna say it's
+[10:18.960 --> 10:27.040]  easy to review them. But it's kind of the technique is easy is I put all of my stuff on and just use
+[10:27.040 --> 10:33.120]  it full time. And the nature of my life is that I use my iPhone all the time. And I'm, I just use
+[10:33.120 --> 10:40.000]  whatever MacBook I'm reviewing all the time to do all my work. And so I've used the keyboard
+[10:40.000 --> 10:49.920]  cumulatively for months, because I've reviewed several MacBook models over this stretch for
+[10:49.920 --> 10:58.400]  six weeks at a time. And the one time, I think it was the summer of 2018. Yeah, that sounds about
+[10:58.400 --> 11:03.360]  right. So it's like a year and a half ago, they came out with new MacBook Pros, and I was using
+[11:03.360 --> 11:10.560]  one. And one time the E key got stuck down. And like the corner, the corner was wedged under.
+[11:11.280 --> 11:17.600]  It was when I just sort of kidding me. Yeah, a little bit like or something. It was like that.
+[11:17.600 --> 11:22.240]  And and I just sort of noodled it. And I was like, Oh, now I've got something juicy. And I tweeted
+[11:22.240 --> 11:28.080]  about it. I was like, Oh, he got stuck. And then it never got stuck again. And I and that was like
+[11:28.080 --> 11:34.320]  three days into testing it. And I wound I used it for like the next six weeks nonstop as like my
+[11:34.320 --> 11:41.120]  daily driver computer never happened again. And, and like weeks later, somebody from Apple PR
+[11:41.120 --> 11:44.960]  reached out to me and they were like, Hey, I missed it. And they had like a link to my tweet
+[11:44.960 --> 11:48.080]  from like a month ago. And they're like, Hey, is everything all right? And I was like, you know,
+[11:48.080 --> 11:55.040]  what never happened again? And they're like, Oh, shoot. But I was like, I mean, this is
+[11:55.040 --> 12:01.440]  weird problem that it was like almost a sort of gaslighting thing where it's not a not a consistent
+[12:01.440 --> 12:08.000]  downslope and like the the dust or whatever it is that's getting under there can get lodged and then
+[12:08.000 --> 12:15.360]  sort of shaken loose or move around like it wasn't it was very, very possible for you to develop an
+[12:15.360 --> 12:19.120]  issue and have it consistently at home and be like, I can't write emails like this and then
+[12:19.120 --> 12:25.120]  take it into the store. And in transporting it to the store, whatever it was, was shaken out from
+[12:25.120 --> 12:28.400]  under the key. And suddenly the key works fine. And the genius would be like, Well, I can't help
+[12:28.400 --> 12:33.120]  you like there's nothing for me to look at or correct. And I can't like take the whole computer
+[12:33.120 --> 12:42.400]  apart for a problem that I can't reproduce. So best of luck. Right. Right. And and maybe that
+[12:42.400 --> 12:46.560]  term gaslighting gets thrown around a little too much today. You know, like 10 years ago,
+[12:46.560 --> 12:52.800]  I don't know if I ever heard it. But it totally applies to this scenario where you, you know,
+[12:53.360 --> 12:59.920]  that you were writing, and your E key was producing double ease. And you take it into the
+[12:59.920 --> 13:07.440]  store and son of a bitch. Every single time you or you could say, let me do it. And you type, you
+[13:07.440 --> 13:14.160]  know, a sentence and the key works perfectly. And you kind of get it. It's like, what is the genius
+[13:14.160 --> 13:21.200]  supposed to do? I mean, but on the other hand, if they know, Apple knows that there's a lot of
+[13:21.200 --> 13:27.200]  people coming in with this problem. The thing where the real where the real gaslighting thing
+[13:27.200 --> 13:31.440]  comes in is like, when you know a problem is a problem, and other people are having it and
+[13:31.440 --> 13:36.560]  other people are coming and claiming it. And you're pretending like, there's some crazy weird
+[13:36.560 --> 13:42.000]  one off, or that their problem is relatively innocuous, like the line that I kept hearing,
+[13:42.000 --> 13:47.760]  oh, maybe it's just a piece of dust is like, you know, you know, and you're like, cosmic,
+[13:48.320 --> 13:53.840]  like overlord Apple brain that you have done something wrong here. And even if the genius
+[13:53.840 --> 13:59.600]  doesn't know it, someone somewhere up the chain knows it. So for someone to be facing me telling
+[13:59.600 --> 14:05.440]  me that my problem is like some sort of non problem is really kind of messed up.
+[14:05.440 --> 14:17.440]  Yeah. And the other thing is that the MacBook, or the lap, the idea of a laptop has been around
+[14:17.440 --> 14:23.680]  for a very long time at this point. And Apple deserves credit. I mean, this is going back
+[14:23.680 --> 14:30.480]  into like the 90s, but sort of defining the modern idea of what is a laptop piece of hardware,
+[14:30.480 --> 14:36.080]  because like, in like the early 90s, the industry was all over the place. And sometimes the keyboard
+[14:36.080 --> 14:42.160]  was right up at the front of the device. And people didn't know if there should be a trackball
+[14:42.160 --> 14:47.600]  or should the keyboard you know, and eventually this idea of put the keyboard towards the back,
+[14:47.600 --> 14:53.040]  use the front as like palm rests and put a pointing device in the middle became like
+[14:53.040 --> 14:58.320]  the defining idea of a laptop. And in the early days, they were all super expensive,
+[14:58.320 --> 15:03.200]  because computers were expensive. And it was like the entry model was like $6,000. And that's in like
+[15:03.200 --> 15:11.520]  1995 dollars. And it came down in price, and everybody got them. And at this point, most
+[15:11.520 --> 15:16.400]  people when they think of getting a computer, what they mean is a laptop, like the desktop is
+[15:16.400 --> 15:20.960]  the oddball. Everybody knows what it is. Everybody's used one people who do work on
+[15:20.960 --> 15:26.000]  computers, which is an awful lot of people. That's what they think of. And all of those years,
+[15:26.000 --> 15:33.680]  all of that typing, most people never want had a key go bad on any, any computer. Like,
+[15:33.680 --> 15:39.360]  it's an awful lot of typing. And I did the math one time, just like back of the envelope, like,
+[15:39.360 --> 15:44.720]  all right, I do a lot of typing because I am a writer. But just sort of spitballing. Well,
+[15:44.720 --> 15:50.960]  the typical week has I do this many words. And let's just take a guess that the average word
+[15:50.960 --> 15:58.720]  is four characters in a space. And, you know, take a look at my sent email and just copy,
+[15:58.720 --> 16:03.120]  you know, like, how many emails did I send in the year so far? And, you know, just a quick estimate.
+[16:03.120 --> 16:09.200]  And it's like, oh, I press keys on a keyboard millions of times a year. Like, no exaggeration.
+[16:09.200 --> 16:15.440]  There's, you know, that's actually true. And it works every time. It's not like 99.9% of the time,
+[16:15.440 --> 16:21.120]  because it's like you, people living in the modern world with a job that involves email,
+[16:21.120 --> 16:26.560]  you don't have to be a writer to do a lot of writing, like, just email and Skype, or Slack
+[16:26.560 --> 16:35.600]  and stuff like that. You we press these keys, and the accuracy is way more than 99.9% accurate,
+[16:35.600 --> 16:40.880]  because if it was only like, one out of 1000 failures, you would feel like you would you
+[16:40.880 --> 16:46.400]  would feel like you would you would go insane. It really is like 100% accuracy historically.
+[16:46.400 --> 16:51.120]  And so to have these, I was I was gonna say this is like more this is like one of the
+[16:51.120 --> 16:55.600]  better feel like realizations that I had when I was writing this first article was that
+[16:56.240 --> 17:02.560]  keyboards keyboards were a solved problem. Like no one. No one thought of you know, I didn't even
+[17:02.560 --> 17:07.120]  think about a keyboard like that a keyboard could like, do I have to like check that the keyboard
+[17:07.120 --> 17:11.840]  is going to be okay. It had not it had not been something that I had thought about. And so,
+[17:12.400 --> 17:20.000]  so long it was in for Apple to go and try and reinvent it to the degree that it did become
+[17:20.000 --> 17:26.560]  like, I mean, as you're saying, like even a sort of extremely marginal failure rate is so much
+[17:26.560 --> 17:32.640]  greater than how anyone had ever thought about a keyboard before, like keyboards are supposed
+[17:32.640 --> 17:38.240]  to be extremely reliable. They're the primary interaction mechanism for a computer and to
+[17:38.960 --> 17:44.400]  take it even from that, like tiny percentage, like a fractional percentage increase in like,
+[17:44.400 --> 17:49.440]  inaccuracy is actually quite devastating to the entire mechanism.
+[17:50.880 --> 17:59.120]  Right. And some people know no. I'm gonna claim no judgment is being asked, but I am judging you.
+[17:59.120 --> 18:05.120]  I'm sorry, dear listeners, because I know some of you, this applies to you. Some people,
+[18:05.120 --> 18:12.880]  some people eat and drink around their laptop. Right at the keyboard. I don't, I never have,
+[18:12.880 --> 18:18.320]  because I just, you know, I like I don't, I just don't want my keyboard to get gross.
+[18:20.080 --> 18:26.080]  But people do. And for good reason, you know, people are eating at lunch. And at lunch,
+[18:26.080 --> 18:29.680]  you kind of need to do work or you need to catch up or you just want to be entertained.
+[18:29.680 --> 18:34.400]  Right. And you just want to watch a YouTube and hit the spacebar because you want it to play.
+[18:35.600 --> 18:41.760]  But people do that. They have done it. They'll continue to do it. And their keyboards just keep
+[18:41.760 --> 18:48.000]  working or kept working like the keyboards that were the standard, not like, Oh, I'm going to buy
+[18:48.000 --> 18:53.280]  an Apple keyboard. I mean, like you could go buy a Toshiba, you could go buy a Samsung, you could
+[18:53.280 --> 19:01.200]  go buy an HP or a Dell or any of the various brands that are out there. And there's all sorts
+[19:01.200 --> 19:06.560]  of things that you would say or janky about like cut rate laptops. You might say, Oh my God,
+[19:06.560 --> 19:11.520]  this display is terrible. Look at it. You could just eyeball it. Or the hinge that you open it
+[19:11.520 --> 19:20.480]  with is like just janky track pads notoriously kind of had bad tracking on PCs on a lot,
+[19:20.480 --> 19:24.400]  especially cheap. Yes. And like in trying to have like right click mechanisms and so or like
+[19:24.400 --> 19:30.720]  scrolling mechanisms, things like that. Yeah. The Yep. Or I remember one time long ago, I mean,
+[19:30.720 --> 19:34.320]  obviously long ago, because I haven't had a real job in a very long time. But one time,
+[19:34.320 --> 19:39.920]  I had to work at a place where everybody got a Dell laptop. And the Dell laptop had was like
+[19:39.920 --> 19:46.400]  the early 2000s. It had. And I know everybody has this as an option. I don't like it. But the
+[19:46.400 --> 19:50.960]  thing where you can just tap the keyboard without clicking it to have it register as a mouse click.
+[19:50.960 --> 19:58.960]  Oh, it was it was turned on. It was turned on on the Dell. And this is a brand they issued me a
+[19:58.960 --> 20:06.720]  brand new laptop right out of the you know, I got to unseal it, factory unsealed. And it had that
+[20:06.720 --> 20:12.800]  turned on. And it was driving me nuts. And I'm searching around the goofy windows, preferences
+[20:12.800 --> 20:18.080]  or settings, whatever they called it. Can't find it. I do some googling on the model number. And it
+[20:18.080 --> 20:26.640]  turns out it is there is no way to turn it off. I was like, this is insane. Anyway, one thing I
+[20:26.640 --> 20:33.520]  didn't have a problem with on that on that laptop was typing. It's it really it's more than a solved
+[20:33.520 --> 20:39.360]  problem, right? It really is like the thing that made it insane is that it wasn't even something
+[20:39.360 --> 20:44.560]  we thought of as a solved problem, right? Like nobody really thought about buttons that don't
+[20:44.560 --> 20:55.680]  click, right? I mean, it's um, I can't even conceive of the I mean, I wish I knew the process
+[20:55.680 --> 21:03.040]  that went into making these decisions that led to this keyboard that, like, they were like, this is
+[21:03.040 --> 21:10.640]  a this is a reasonable sort of leap to make in in changing the functionality and the design. And I
+[21:10.640 --> 21:16.000]  don't think I don't think it's like they anticipated these problems. But it's it's not a
+[21:16.000 --> 21:23.920]  uncommon mistake for Apple to make that they sort of fail to account for any real world issues. Like
+[21:23.920 --> 21:29.520]  the other thing I would compare it to is like, when it used to be that iPhones didn't work super
+[21:29.520 --> 21:35.520]  well in the cold. Because I think it just doesn't get very cold. And like, it's cold. It's it can be
+[21:35.520 --> 21:42.800]  it's cold, San Francisco, obviously, but it's not like Northeast cold there. So the fact that they
+[21:42.800 --> 21:48.640]  never sort of accounted for that functionality problem is, I think, part and parcel to this
+[21:48.640 --> 21:54.880]  keyboard issue as well. Yeah, yeah. And I think that even in those early years, I could be wrong,
+[21:54.880 --> 21:59.840]  but certainly with the original iPhone, it never even got to San Francisco, because I'm sure they
+[21:59.840 --> 22:04.640]  didn't even let the test units leave Cupertino. Like, however, however limited the number of
+[22:04.640 --> 22:10.080]  people who had access to pre release hardware, it they almost certainly weren't going to San
+[22:10.080 --> 22:13.680]  Francisco, like maybe Steve Jobs could take it home, but he lived in Palo Alto, right?
+[22:14.240 --> 22:18.800]  I get it. No, I they've had some issues with that. The one I remember in particular was I think it
+[22:18.800 --> 22:30.320]  wasn't the first or one of the iPod nanos. And it was it had like a plastic front. And it it
+[22:30.320 --> 22:37.040]  scratched just by looking at it. And sometimes people get real, you know, there's a large number
+[22:37.040 --> 22:42.080]  of people who kind of want their Apple stuff to stay mint condition. And it's like normal wear and
+[22:42.080 --> 22:47.840]  tear. It's like, Oh, come on, nobody but Apple. But this one iPod nano really could get scratched
+[22:47.840 --> 22:53.360]  by like rubbing a tissue over. I mean, it was like, it was like putty. And it was like,
+[22:53.360 --> 22:59.120]  how in the world did this ship? Well, somehow it must have like, you know, like never left the
+[22:59.120 --> 23:05.920]  Johnny Ive team design lab, and they just love the way it looked and the way it felt on your
+[23:05.920 --> 23:11.200]  fingertip. And they never really tried, like just throwing it in a pocket with some keys to
+[23:11.200 --> 23:17.120]  see what would happen. But it only lasted one generation. The very next iPod nano had like a
+[23:17.120 --> 23:23.360]  much different polymer on the surface. And it was much more scratch resistant. Yes, I do recall that.
+[23:23.360 --> 23:29.600]  I mean, yeah, it's funny that they've that they continue to make the same type of mistake where
+[23:30.160 --> 23:34.880]  we don't get this real world testing. And like, I think there's something to be said for like,
+[23:34.880 --> 23:41.200]  I like Apple design. And I like the fact that it's not super rugged eyes, like I would never
+[23:41.200 --> 23:49.120]  want that from them. But the fact that these sort of glaringly obvious tests, real world test cases
+[23:49.120 --> 23:56.560]  continue to slip through their sort of design ideals is very telling and interesting. And
+[23:58.880 --> 24:04.560]  it's surprising to me that they can't even sort of get together a test case or they could they
+[24:04.560 --> 24:10.160]  couldn't have gotten together a test case where someone just brought one of these computers home
+[24:10.160 --> 24:15.920]  for you know, like back and forth or like in a sort of outside of a testing lab apparently and
+[24:15.920 --> 24:21.680]  like see the issues that start to come up with the keyboard. I mean, it really didn't take very much
+[24:21.680 --> 24:30.320]  at all. Like I wouldn't say I wouldn't claim to like never bring a say crumbly cookie around my
+[24:30.320 --> 24:37.760]  keyboard. But I had done it for years and years with other laptops, other MacBooks. Never, ever,
+[24:37.760 --> 24:44.320]  ever an issue with the keyboard as far as key sticking or me needing to clean under them or
+[24:44.320 --> 24:47.280]  it becoming any sort of like failure condition in the way that it did with this one.
+[24:50.400 --> 24:55.200]  It became like, because there was like a standard or there's still it still exists. I mean,
+[24:55.200 --> 25:03.840]  we're laughing but every single laptop that Apple sells other than the starts at $2,400 and is as
+[25:03.840 --> 25:10.720]  big as a lunch tray, 16 inch MacBook Pro is still using that keyboard. Absolutely wild. Like just
+[25:10.720 --> 25:17.680]  as a sort of preparation for getting the for this podcast, I was on their website just like double
+[25:17.680 --> 25:22.160]  checking to make sure I wasn't the one going crazy. They're still selling like if you want
+[25:22.160 --> 25:26.960]  a 13 inch MacBook Pro, it still comes with this old keyboard. I'm like, are you kidding me? This
+[25:26.960 --> 25:32.560]  is absolutely wild to have it an only one computer. I can't understand I could never understand
+[25:32.560 --> 25:38.960]  a justification for that being the case. I would love to hear them explain that. But
+[25:40.720 --> 25:45.600]  they won't. All right. I'm going to take a break right now because we're just going to keep rolling
+[25:45.600 --> 25:50.480]  on keyboard. It's all keyboards all the time this episode, no sports, no, no other stuff. I mean,
+[25:50.480 --> 25:54.880]  we will fill up five hours on the keyboard. But I'm going to take a break and thank our first
+[25:54.880 --> 26:01.200]  sponsor. It's Eero Eero. It is Wi Fi that your home deserves. They have an all new Eero starting
+[26:01.200 --> 26:07.440]  at just 99 bucks. And the basic idea of Eero is that it blankets your whole home with fast,
+[26:07.440 --> 26:12.480]  reliable Wi Fi. And the way they do it is they they're all little cute things. They're all tiny.
+[26:12.480 --> 26:17.120]  They're all the same. And so any one of them could be like your base unit. One of them does have to
+[26:17.120 --> 26:21.840]  be plugged into your router. That's the basic, you know, you got to start with internet somewhere.
+[26:22.640 --> 26:27.680]  In my house that's in the basement. The router is in the basement. It kind of has to be for reasons
+[26:27.680 --> 26:33.360]  I don't want to expand upon. But the basement is not a great place for your Wi Fi signal to start.
+[26:34.000 --> 26:39.440]  But I got a Wi Fi I got an Eero plugged into the router. It connects to another one that's just
+[26:39.440 --> 26:45.120]  plugged into a wall upstairs. That blankets our living area with Wi Fi. And then we have another
+[26:45.120 --> 26:53.600]  one level up that hits our bedrooms. And our whole house four stories has good Wi Fi all the way at
+[26:53.600 --> 26:58.400]  the top and right here in the basement where I'm talking to you now because I'm near the base unit.
+[26:58.400 --> 27:03.680]  But you don't have to do anything complicated. There's no like I'm in system admin, hooking up
+[27:03.680 --> 27:08.080]  these router type things and typing in IP addresses. It is like the easiest thing to
+[27:08.080 --> 27:14.240]  set up in the world. You just plug it in, you go to the iPhone app. And you say I've got a new Eero
+[27:14.240 --> 27:21.520]  and it detects it and then add it to your network. And then the Eero system takes care of all of the
+[27:21.520 --> 27:26.320]  Hey, which one is connecting to which devices and doing a little dance like that. You don't have to
+[27:26.320 --> 27:31.040]  worry about it. It's just you plug it in, you add it to your thing to your home network, and you're
+[27:31.040 --> 27:37.040]  done. It is so easy to manage. And it really does help if you've got any kind of living situation
+[27:37.040 --> 27:47.520]  where one router Wi Fi signal thing can't reach the whole place. Really, they have fixed that in
+[27:47.520 --> 27:52.560]  in a townhouse type scenario like me, that just never would work. And starting in the basement,
+[27:52.560 --> 27:58.400]  it would be impossible. So really, I'm, I'm a big fan of Eero even even though they're a sponsor of
+[27:58.400 --> 28:02.960]  the show. I'm not or I should say, I'm not just saying it because they're a sponsor of the show.
+[28:02.960 --> 28:10.320]  Here's what to do. To find out more. You go to Eero comm slash the talk show,
+[28:10.960 --> 28:16.640]  Euro comm slash the talk show. And use that code the talk show, I think you can get the code
+[28:16.640 --> 28:22.720]  automatically by starting at that URL. But just remember the code the talk show. And when you
+[28:22.720 --> 28:27.360]  check out, you will get your Euro delivered with free overnight shipping. You can have it 24 hours
+[28:27.360 --> 28:32.640]  from now pause the podcast, order your Euro 24 hours from now it'll show up at your house for
+[28:32.640 --> 28:44.560]  free. So go to eero comm slash the talk show the keyboards. So it is one of the here's the thing
+[28:44.560 --> 28:50.160]  Apple is I don't think any company is well suited. No, no company, no person, no team,
+[28:50.160 --> 28:55.520]  no organization, nobody does well when they make mistakes, right? Mistakes. That's the definition
+[28:55.520 --> 29:03.600]  of a mistake. I think Apple is particularly unsuited to dealing with significant mistakes,
+[29:04.240 --> 29:11.440]  small mistakes. Sure. Like imagine, if going to the second generation butterfly keyboard had
+[29:11.440 --> 29:18.080]  fixed all the reliability issues, then we would have thought timeline wise, well, this was
+[29:18.080 --> 29:25.200]  reasonable. The first generation was all new. It ends up there were issues with reliability
+[29:25.200 --> 29:32.160]  of commonly used keys. And, you know, like a year later, or so or eight months later,
+[29:32.160 --> 29:35.360]  when they came out with the second generation, whatever that was, you would think, well,
+[29:35.360 --> 29:43.600]  that's a reasonable amount of time for Apple to acknowledge it and address it and ship a next
+[29:43.600 --> 29:51.520]  generation product that fixes it. That the real ghost in the room, and we'll spend time talking
+[29:51.520 --> 29:55.920]  about this, the new 16 inch MacBook Pro, which is really great. I will, you know, spoiler,
+[29:55.920 --> 30:00.560]  it is really great. And the keyboard is really, really, I really do think it's fixed everything.
+[30:00.560 --> 30:07.600]  The, the biggest issue here is how long it has taken for this thing to ship. And how long will
+[30:07.600 --> 30:14.240]  it take for it to spread throughout the rest of the MacBook family in 2020, which Apple, of
+[30:14.240 --> 30:20.640]  course, won't even say they're going to do. I mean, we all are guessing that they're going to
+[30:20.640 --> 30:28.320]  do it. It would seem crazy if they didn't because this keyboard is so much better. And presumably
+[30:28.320 --> 30:33.120]  they're they're losing a fortune on fixing these damn things while they're under warranty. I mean,
+[30:33.120 --> 30:39.360]  they have this crazy keyboard repair program. That's what's really crazy to me is that I can't
+[30:39.360 --> 30:46.800]  imagine this is a winning proposition for them to continue to double down on their nothing being
+[30:46.800 --> 30:51.920]  wrong with these keyboards. But that that it's I mean, obviously, I think they're gonna phase phase
+[30:51.920 --> 30:55.520]  out of it. But still, it's been so long, they've been like, it's fine. It's fine. It's fine. It's
+[30:55.520 --> 31:00.080]  fine. It's fine. It's fine. I don't know, it's a crazy decision to me.
+[31:01.680 --> 31:10.000]  Yeah, and I think it's I think Tim Cook is a very interesting and nuanced person. And I also think
+[31:10.000 --> 31:18.560]  though he is public persona is very, he's clearly very private. And whatever he's like in person,
+[31:18.560 --> 31:26.000]  I think is impossible to glean from what he exposes to us in the public. And so I don't
+[31:26.000 --> 31:30.240]  subscribe to the notion. I don't I think he's a very interesting fellow. And I think if you
+[31:30.240 --> 31:35.040]  really found out what he's interested in, and what aspects of these things he gets involved with,
+[31:35.040 --> 31:41.440]  I think it would all be very interesting. But there's certainly a, a, a line of thought that
+[31:41.440 --> 31:46.400]  I don't subscribe to. But there's a line of thought that well, look, he came from operations.
+[31:46.400 --> 31:50.080]  He's not a product person. He's not a designer. He wasn't, you know,
+[31:52.000 --> 31:58.160]  his he's a bean counter, right? He's only interested in making in that fortune of money
+[31:58.160 --> 32:04.880]  that Apple takes to the bank every three months. And when they do these quarterly things, right,
+[32:04.880 --> 32:10.320]  he's a bean counter. And therefore, whatever your pet peeves with Apple, R, X, Y, and Z,
+[32:10.320 --> 32:16.160]  it's because Tim Cook is a bean counter. And he doesn't allow engineering to spend time fixing
+[32:16.160 --> 32:20.880]  bugs. And so their software is buggier than it used to be because of Tim Cook, because he's cheap
+[32:20.880 --> 32:25.920]  and whatever, you know, everybody's there's a whole bunch of people whose pet peeves about
+[32:25.920 --> 32:33.200]  Apple, they attribute to because Tim Cook is in love with profits first and the product second,
+[32:33.200 --> 32:38.800]  as opposed to Steve Jobs, who loved the products first, right? Even if that's true, this is the
+[32:38.800 --> 32:45.360]  thing that doesn't make any sense. It either way, it doesn't make sense. Because if he's
+[32:45.360 --> 32:49.120]  first concern is the quality of the products, well, then the keyboard should have been fixed
+[32:49.120 --> 32:57.120]  sooner. But if his first concern is with profit margins, and making money, then this thing that
+[32:57.120 --> 33:01.920]  has and the repairs were insanely expensive, because the design of the computer was that
+[33:01.920 --> 33:07.680]  if the keyboard broke, they had to take the quote unquote, top case, and the top case was all of the
+[33:07.680 --> 33:13.840]  computer bits. Right? Like, that's the other. The other thing that's so confounding about this
+[33:13.840 --> 33:19.120]  whole thing is if your E key broke, and and Apple said we have, all right, we'll take your computer
+[33:19.120 --> 33:23.920]  and you can come back tomorrow and pick it up it the fix did not involve popping off the E key
+[33:24.560 --> 33:29.760]  and doing something and then popping the E key back on the fix was effectively to just give you
+[33:29.760 --> 33:35.920]  a new computer, right? I mean, I think now I think the the latest generation can be like, I think at
+[33:35.920 --> 33:42.480]  least the keys can be taken off and cleaned under if I recall, correct. There's, it's still like,
+[33:42.480 --> 33:48.400]  a slight slightly more fiddling that can be done without dealing with the computer in like two
+[33:48.400 --> 33:54.240]  whole pieces. But I mean, this has been how Apple computers have been, I think I'm pretty sure this
+[33:54.240 --> 34:00.880]  was in the first article that I wrote, largely about the keyboard, but sort of speaking to the
+[34:00.880 --> 34:08.000]  level of ridiculousness that repairability has gotten that the previous MacBook Pro that I owned,
+[34:08.000 --> 34:14.000]  one of the little rubber feet fell off. And I brought it into the Apple store thinking they
+[34:14.000 --> 34:20.000]  would just like give me a little stick on rubber foot and I would just pop it on and be on my way.
+[34:20.000 --> 34:26.160]  And I ended up being there for like an hour and talk to like three different people for them to
+[34:26.160 --> 34:33.040]  figure out that the only way to fix the fallen off rubber foot was to take the computer and replace
+[34:33.040 --> 34:39.120]  the entire bottom half of the case. There was no other way to get another foot on the on the
+[34:39.120 --> 34:45.280]  computer, which was just like they the three geniuses who were all going through this like
+[34:45.280 --> 34:52.720]  also couldn't believe that that was true. Um, but that's that's the level that things have gotten to
+[34:52.720 --> 35:03.520]  with this. These these computers. Yeah, and that sort of is a canary in the coal mine that Apple's
+[35:05.200 --> 35:14.080]  whole support system has holes in it, right? Like, that's not an uncommon problem. I don't think that
+[35:14.080 --> 35:22.000]  Apple's laptops have a particular problem with the rubber feet falling off. No, I've seen it. Yeah,
+[35:22.000 --> 35:27.280]  I mean, they are like, it does happen. They're not, I'm pretty sure. Well, maybe it's different
+[35:27.280 --> 35:31.520]  in the latest ones, but I'm pretty sure they're not right adhered anyway, except for like,
+[35:31.520 --> 35:40.880]  sticky goo between the case. Yeah. And so that and there, they have this thing that none of it's
+[35:40.880 --> 35:46.880]  a huge competitive advantage that at this point, I think goes under talked about is that they have
+[35:46.880 --> 35:56.160]  is that they have this worldwide chain of retail locations where you can go in and and talk to an
+[35:56.160 --> 36:02.800]  actual person from Apple who Apple has certified is technically proficient enough to figure out
+[36:03.440 --> 36:13.040]  common problems. And it boggles the mind that with all of the secret drawers they have around those
+[36:13.040 --> 36:18.560]  stores that there's not one that's just full of rubber feet. I know neatly filed, right. And it
+[36:18.560 --> 36:22.640]  wouldn't be like a junk drawer. It would be like it would be like this thing that you would love
+[36:22.640 --> 36:25.680]  to you would like oh my god come take a picture of that because it would say like it would have
+[36:25.680 --> 36:30.880]  like these little index cards 2013 MacBook Pro 13 inch, you know, so that you would get the exact
+[36:30.880 --> 36:37.520]  right rubber foot right right. I mean, it's insane that they don't like I really feel this has been
+[36:37.520 --> 36:45.520]  a shift in how the Genius Bar works and like how their repair whole thing is structured. Because
+[36:46.240 --> 36:55.600]  I mean, I got my first MacBook laptop in 2006. And back then they were quite responsive and helpful
+[36:55.600 --> 37:01.760]  and just sort of like realistic in a way that dealing with geniuses now is is like talking to
+[37:01.760 --> 37:08.480]  a robot. It's like talking to Siri or like to Alexa. It's like you want there to be a sort of
+[37:08.480 --> 37:15.040]  human behind the interaction and the way a human like if a stick on rubber foot fell off, they
+[37:15.040 --> 37:19.680]  would hand you another stick on rubber foot rather than being like I'm sorry to hear your computer
+[37:19.680 --> 37:26.960]  is defective. Please allow me to like consult with other geniuses and my iPad and figure out what it
+[37:26.960 --> 37:31.920]  and figure out what it is you should do. It's like there's a very easy answer here, which is just a
+[37:31.920 --> 37:40.640]  stick on foot. And it's like that sort of level of service, so to speak, has been totally lost within
+[37:40.640 --> 37:47.840]  the genius or the Apple sort of Genius Bar ecosystem. And it's sort of it's sort of like
+[37:47.840 --> 37:55.840]  when you go to any sort of premium brand retail type thing, they, they want to take care of your
+[37:55.840 --> 38:01.280]  products. You know, like, so if you buy like a ring at Tiffany and then five years later,
+[38:01.920 --> 38:05.680]  you come in and you're shopping for something else, but they know you've got the ring from
+[38:05.680 --> 38:09.360]  Tiffany. They'll like, they'll like beg you. They're like, let us clean it. We'll, we'll clean
+[38:09.360 --> 38:15.440]  it for you right now and just take your ring and go and do like this professional magic cleaning
+[38:15.440 --> 38:18.480]  thing and then give it back to you. And it looks brand new, you know, like just as a courtesy,
+[38:18.480 --> 38:23.120]  like they just want your ring that you bought five years ago still look perfect. And you know,
+[38:23.120 --> 38:27.360]  you go to a good car dealer and it's like you go in and take something in with your car. They'll
+[38:27.360 --> 38:31.120]  like vacuum it, you know, they'll, they'll like vacuum the inside for you free and stuff like
+[38:31.120 --> 38:35.920]  that. Give you a free car wash because they want the car looking good, right? Like, so like,
+[38:35.920 --> 38:40.160]  right. They care about like a no name chrome and equity in the, in this like sort of subjective,
+[38:40.160 --> 38:46.320]  more like abstract way. Right. So like you buy a no name Chromebook and the feet fall off the
+[38:46.320 --> 38:50.320]  river feet fall off. Well, you know, just buy a new Chromebook or whatever, but Apple should
+[38:50.320 --> 38:54.720]  want you. They want your five-year-old MacBook air to have all four rubber feet.
+[38:56.720 --> 39:00.080]  This is how it used to be. They want you to be out in the world with your like
+[39:00.720 --> 39:05.600]  sort of identifiably old computer, but it's still like, I used to admire the crap out of
+[39:05.600 --> 39:10.240]  those people when I would see them around like, um, New York people were still carrying around
+[39:10.240 --> 39:16.640]  their like 12 inch power book in like 2012. It was just like, that's, that's like such,
+[39:16.640 --> 39:21.120]  that's like, it's like seeing somebody drive like a vintage car. It's like, that's how good those
+[39:21.120 --> 39:25.920]  computers are that people, they love them so much. They, and they take care of them. And like the
+[39:25.920 --> 39:31.200]  entire ecosystem sort of like supports itself. It really was like, it's, that's, that's a kind
+[39:31.200 --> 39:35.520]  of brand equity that you can't really buy. And to sort of connect back to the Tim Cook point
+[39:35.520 --> 39:41.920]  you're making, um, that you say don't necessarily buy, which is fair, but the fact that, um,
+[39:41.920 --> 39:47.920]  like it's hard, it's hard to, um, take that externality and turn it into a line item
+[39:48.560 --> 39:56.160]  where you can sort of put a value on the sort of user experience and how people are out there in
+[39:56.160 --> 40:01.120]  the world. And the fact that if I'm typing an email to you and I'm sort of in a hurry,
+[40:01.120 --> 40:05.680]  and I don't have time to go back to fix all like the doubled E's or the doubled spaces,
+[40:05.680 --> 40:09.120]  this is how my emails are coming through. And it's like my computer's fault. It's like,
+[40:09.120 --> 40:16.080]  how do you ascribe a value to that either as either like my frustration or this sort of
+[40:16.080 --> 40:20.240]  bafflement of the person I'm, I'm talking to on Slack or sending an email to it's like,
+[40:21.280 --> 40:27.200]  those things all come, they, they do sort of amount to something that, that is not,
+[40:27.200 --> 40:31.120]  that can't be described by like me bringing in the computer. And maybe,
+[40:31.120 --> 40:36.080]  it may be then the issue can't even be replicated to the genius. And then it's like, oh,
+[40:36.080 --> 40:41.760]  saved, saved money in Tim Cook's pocket. It's like, well, no, there's a, there's a lot lost
+[40:41.760 --> 40:43.840]  there. That's very subjective.
+[40:46.240 --> 40:51.360]  It's like I said, like the confounding aspect of it is, I mean, clearly, whatever you think of Tim
+[40:51.360 --> 40:57.680]  Cook, he's in charge of the company, right? He is, you could tell he's the man, he, the buck stops
+[40:57.680 --> 41:06.560]  with him. His highest priority, almost certainly, it doesn't make sense either way, is either the
+[41:06.560 --> 41:13.760]  quality of their products and the user experiences that people have with them, or it is Apple's
+[41:13.760 --> 41:19.600]  financials and its profit margins and revenue. I personally suspect that he truly, because I think
+[41:19.600 --> 41:25.680]  he gets it, even though he's not a product designer himself. I think he understands the
+[41:25.680 --> 41:32.320]  company and its relationship with the people who appreciate it. And I do think he's a long term
+[41:32.320 --> 41:37.440]  thinker. I think that he's more interested in where Apple's going to be in 10, 20 years and not
+[41:37.440 --> 41:43.280]  about what they're going to report to Wall Street in three months. But he knows that along the way,
+[41:43.280 --> 41:48.320]  you've got to keep, you know, part of his job is to keep those people happy who do care about that.
+[41:48.320 --> 41:52.960]  And I think he gets it, that the most important thing Apple can do, it's the whole reason Apple
+[41:52.960 --> 42:00.160]  exists and is so different than other computer device makers, is that they really do put the
+[42:00.160 --> 42:04.960]  design of the hardware and the software and the overall experience first. So I personally believe
+[42:04.960 --> 42:09.040]  that he believes that that's the most important thing. But the thing that's so confounding is
+[42:09.040 --> 42:12.880]  that it doesn't matter if you believe the other side, if you think he's most interested in profit
+[42:12.880 --> 42:18.560]  margins, because either way, it does not make sense that this keyboard lasted as long as it
+[42:18.560 --> 42:25.600]  lasted as long as it did. I mean, yeah, I don't, I can't, I can't make heads or tails of it,
+[42:25.600 --> 42:32.480]  really, as far as like they did, they did quite clearly, in ways they didn't openly acknowledge,
+[42:32.480 --> 42:39.440]  but that were sort of revealed in the the technical specs of like the sort of little
+[42:39.440 --> 42:45.520]  nuances and changes of the structure of the keyboard mechanism that they were trying to fix
+[42:45.520 --> 42:50.080]  it. They were trying, like it was all, it all ended up being sort of meaningless half measures,
+[42:50.080 --> 42:56.160]  but they weren't completely, like they weren't completely resistant to the idea that it wasn't
+[42:56.160 --> 43:00.400]  working and it was a significant problem. I don't know why they didn't jump to, like,
+[43:00.400 --> 43:05.040]  I really don't know why they didn't jump to just putting the, like what they ended up doing,
+[43:05.040 --> 43:09.600]  just putting the magic keyboard in the computer. And people have been saying this for, I think,
+[43:09.600 --> 43:15.840]  ever since the, I wrote my first piece, they were like, why isn't the magic keyboard, which is quite
+[43:15.840 --> 43:21.040]  good and doesn't have this problem, why isn't that just the keyboard in the computer? And it's like,
+[43:21.040 --> 43:27.040]  obviously it's thicker, there's a, I mean, well then I'm curious to hear what your take is,
+[43:27.040 --> 43:32.560]  because I feel like that's a Johnny Ive thing, to be like, the computer needs to be maximally thin
+[43:32.560 --> 43:38.800]  and it's worth the sacrifice of the faulty butterfly keyboards in order for the computer
+[43:38.800 --> 43:46.080]  to be as tiny as possible. Well, let's hold that thought, the Johnny Ive, let's hold that thought,
+[43:46.080 --> 43:51.680]  see, this is my deal, I do the sponsor reads right here mid-show, and I have a notorious problem where
+[43:51.680 --> 43:55.360]  I think, well that's a great point for a break, and because we can pick it up right there, and then
+[43:55.360 --> 43:59.520]  I do the sponsor read and I completely forget what the point was. Okay, well I'll write down,
+[43:59.520 --> 44:04.240]  but I won't forget, and we'll come back to it. Johnny Ive, all right, our next sponsor,
+[44:04.240 --> 44:09.360]  ah, listen to me on this one, Fracture. Fracture's the company where you take your pictures,
+[44:10.400 --> 44:14.800]  you send them to Fracture, and then they print them directly on glass, you can get little tiny
+[44:14.800 --> 44:20.720]  ones, put them on your desk, you can get big ones, really big ones, to fill like the biggest walls
+[44:20.720 --> 44:25.120]  in your home with your pictures, they look fantastic, they're printed directly on glass,
+[44:25.120 --> 44:30.800]  it does, it looks so much cooler than you can imagine, it does not look like a piece of paper
+[44:30.800 --> 44:36.160]  right up against glass, it really does look like it's printed right on the glass, you don't need
+[44:36.160 --> 44:41.600]  a frame, you just put it right up, it's edge to edge, everything you need, whether you want to
+[44:41.600 --> 44:44.960]  hang them on the wall, or you want to prop them on your desk, or put them on your mantle, whatever
+[44:44.960 --> 44:50.720]  you need comes in the packaging, the prices are great, the quality is amazing, here's the thing
+[44:50.720 --> 44:56.000]  though, it is mid-November, I don't want to bum you out, I know that stores are already playing
+[44:56.000 --> 45:01.040]  Christmas music, but I'm telling you, mid-November, it's time to think about holiday items, and
+[45:01.040 --> 45:06.960]  Fracture always, you can't wait till the last minute, right, because they're printing them
+[45:06.960 --> 45:13.280]  right there in Gainesville, Florida, right here in the USA, they, it's such a great holiday gift
+[45:13.280 --> 45:18.320]  idea, I say it all the time, when I do these sponsor reads, I'm telling you, any single person
+[45:18.320 --> 45:23.600]  in your family who you don't know what to get them, figure it out, get a picture of you, you
+[45:23.600 --> 45:29.600]  with them, a picture of them, a picture of your kids, a picture of your dog, of your cat, of anything
+[45:30.240 --> 45:34.480]  that they might have any sentimental attachment to, get them a Fracture print, and they'll be delighted,
+[45:34.480 --> 45:40.080]  and you're done, but you got to do it now, don't wait till mid-December like I would do, because
+[45:40.080 --> 45:44.000]  I'm a procrastinator, because then it'll be too late, and they'll have a big thing on their
+[45:44.000 --> 45:49.120]  website, and it'll say it's too late for Christmas, it's too late for the holidays, right now, when
+[45:49.120 --> 45:54.960]  you're listening to this podcast, it is not too late, go do it now, make a list of every single
+[45:54.960 --> 46:00.240]  person who you don't know what to get, go to Fracture, you'll be in and out in no time, and you'll
+[46:00.240 --> 46:04.880]  have all of your holiday shopping for those people done, where do you go to to do this, you go to
+[46:04.880 --> 46:11.520]  fracture.me, that's their website, what a great domain, fracture.me, you will get a discount if
+[46:11.520 --> 46:17.440]  it's your first order, and you don't need a code or anything like that, but after you order, they
+[46:17.440 --> 46:21.600]  have a one question survey, where did you hear a fracture, and just tell them you heard it right
+[46:21.600 --> 46:27.200]  here on the talk show, go do it now, do not wait, you're gonna, some one person out there is gonna
+[46:27.200 --> 46:31.120]  come back to me in a month and say, you know what, you told me in mid-November to do it, and I waited,
+[46:31.120 --> 46:38.000]  and now it's too late, do it now, my thanks to fracture. Johnny Ive, that's like one of the other
+[46:38.000 --> 46:45.360]  elephants in this whole saga, right, because I had forgotten, right, I feel surprised, my brain
+[46:45.360 --> 46:53.440]  since I started my new job is like just mush, but I think I didn't really account for, I've forgotten
+[46:53.440 --> 46:57.200]  even as I started talking about Johnny Ive right now, that he was going to leave the company,
+[46:58.160 --> 47:04.640]  and what a significant sort of moment that should have been to me, somebody who knows intuitively,
+[47:04.640 --> 47:09.600]  if not in any practical sense, that Johnny Ive is like the reason the keyboard is this way,
+[47:09.600 --> 47:15.280]  and that should have been the sort of like, oh, we're going to be saved, or at least this is like
+[47:15.280 --> 47:21.200]  an overall good sign, and maybe that's over interpreting things, but that was, I feel like
+[47:21.200 --> 47:25.680]  now we can sort of safely say that might have been the watershed moment that was needed in order for
+[47:25.680 --> 47:34.240]  them to finally step us back. And again, so many people want everything to be black or white,
+[47:34.240 --> 47:39.600]  white, Johnny Ive is either awesome, or is awful. And so you sit here, and we can sit here and
+[47:39.600 --> 47:48.320]  speculate that he played even some role in the going forward with the butterfly keyboards,
+[47:48.960 --> 47:55.840]  because of his personal preference for making things as thin as possible, and that even if
+[47:55.840 --> 48:04.400]  it saves 0.45 millimeters of height on the laptop, worth it. That doesn't mean that we're saying
+[48:04.400 --> 48:09.600]  Johnny Ive sucks, right? So please get it through your head. But you, and like you even said it,
+[48:09.600 --> 48:14.240]  like you complain about this stuff, and somebody out there who has one of these keyboards,
+[48:14.240 --> 48:20.000]  who never had a problem, will use it as proof that you did something wrong, right? Like, well,
+[48:20.000 --> 48:25.200]  I've got one and nothing's wrong with it. So I don't know what you're doing, you idiot. And it's
+[48:25.200 --> 48:34.480]  like, like, how did you graduate from high school and get through like, even eighth grade science
+[48:34.480 --> 48:41.200]  class with that sort of mind to evidence? I mean, we could extend that way beyond keyboards for
+[48:41.200 --> 48:46.480]  people to take their own lived experience as like the universal truth. That's almost one of the
+[48:46.480 --> 48:52.560]  greatest problems we're facing right now as a society. But I mean, I would say what are
+[48:52.560 --> 48:58.160]  podcasts for other than wild speculation? I mean, I would never say like, Johnny Ive was the precise
+[48:58.160 --> 49:05.840]  reason and this is only being undone because he's gone. But I do think as far as the sort of bigger
+[49:05.840 --> 49:15.920]  forces within Apple, the company, I don't think it's nothing. And I, you know, I will never will
+[49:15.920 --> 49:23.440]  we ever know for sure, probably not. But it seems significant that this went on for so many years,
+[49:23.440 --> 49:27.680]  and through so many tweaks to the butterfly keyboard design, trying and trying and trying
+[49:27.680 --> 49:34.320]  to hold on to it and keep it as close to as what it was. And now that he's leaving, now they've
+[49:34.320 --> 49:38.000]  finally pushed through a completely or not a completely different design, but like a
+[49:38.720 --> 49:44.880]  more reliable design that they already had. All right. I just, you know, again, I don't know,
+[49:44.880 --> 49:49.680]  for all I know, somebody could come to me, you know, a little birdie, who knows, you know,
+[49:49.680 --> 49:55.760]  might come to me and say off the record, that, you know, it turns out that Johnny personally hasn't
+[49:56.320 --> 50:01.840]  looked at a MacBook design in six years. It just is his attention has been elsewhere. He's, you
+[50:01.840 --> 50:06.720]  know, he's looking, he's looking at architecture, he's looking at chairs, he's, he's obsessed with
+[50:06.720 --> 50:12.400]  the volume buttons on iPhones, you know, but the MacBooks, you know, he's, he's delegated to other
+[50:12.400 --> 50:17.360]  members of his team actually had nothing to do with the keyboard. They could say that I would
+[50:17.360 --> 50:22.480]  be a little surprised I, I and I don't know. And again, I don't know how much of it is Johnny and
+[50:22.480 --> 50:29.520]  how much of it is the whole team around him that he's selected that shares his priorities. What I
+[50:29.520 --> 50:34.160]  have heard from other actually have heard from other little birdies is that the butterfly
+[50:34.160 --> 50:42.160]  keyboard did get pushed through by his team in the you know, the hypothesis that their priority
+[50:42.160 --> 50:49.360]  on thinness was higher than their than their priority on Well, how does it feel to type on and
+[50:49.360 --> 50:55.200]  even even at the point where it got to questions of reliability? That's why they stuck with Well,
+[50:55.200 --> 50:59.840]  let's try a second and a third generation of the butterfly design before we give up on it,
+[50:59.840 --> 51:06.080]  you know that it did kind of come from the ID group. I mean, this is the other thing we've
+[51:06.080 --> 51:12.400]  been hearing this I feel like that like the Apple has always been designed forward and it was like,
+[51:12.400 --> 51:18.800]  here's the casing figure out how to make the parts fit inside. So for that to be all for that
+[51:18.800 --> 51:24.080]  principle to be also applied for the keyboard just wouldn't surprise me at all. Yeah, I think I think
+[51:24.080 --> 51:28.000]  it's I think their design process is definitely more complicated than that. And it's not here.
+[51:28.000 --> 51:37.600]  Yeah. Right. Who? Whose tail wagging dog dog wagging tail situation? I think it's a slightly
+[51:37.600 --> 51:46.240]  different relationship than other companies. Yeah. It's just so hard to say, you know, I don't know.
+[51:46.240 --> 51:53.040]  And yeah, the other interesting thing about the new keyboard is that it's not just that they
+[51:53.040 --> 51:58.320]  said that they went back to scissor mechanisms from butterfly mechanisms, which have more travel,
+[51:59.920 --> 52:04.720]  which I will verify you can feel that they have more travel, they feel exactly like I know,
+[52:04.720 --> 52:09.360]  Mark, I'll put a link in the notes, Marco Arment did this wonderful thing where he actually
+[52:09.360 --> 52:14.880]  created charts and graphs of key travel of the keys over the years. And
+[52:14.880 --> 52:22.480]  like the old ones, before the dark days, had like, two meter, two millimeters of travel,
+[52:22.480 --> 52:28.320]  or like 1.5 millimeters of travel, it was like 1.5, the butterflies only had point five, five,
+[52:28.320 --> 52:32.480]  let's just call it point five millimeters. I mean, seriously, point oh five millimeters,
+[52:32.480 --> 52:37.600]  we're talking about a hair. And these new ones are like one millimeter of travel. So they're
+[52:38.480 --> 52:43.520]  by measuring about halfway between the better butterflies and the old ones, and they're
+[52:43.520 --> 52:48.640]  butterflies and the old ones. And I gotta say, just using it for a week, it feels Yeah, it feels
+[52:48.640 --> 52:55.200]  like maybe like halfway in between. It's exactly what it feels like. But in addition to fixing
+[52:55.200 --> 53:00.880]  those mechanisms, they've also gone back to the old arrow key arrangement in an upside down T,
+[53:00.880 --> 53:06.800]  which was a big pet peeve of mine, they went back to having a hardware escape key up in the corner.
+[53:06.800 --> 53:14.800]  Um, they revisited several decisions that were unpopular with a lot of people. And
+[53:16.720 --> 53:18.160]  again, why did it take so long?
+[53:20.080 --> 53:25.440]  What is the attachment to some of these things? It's very, you know, mysterious,
+[53:25.440 --> 53:33.040]  but the attachment that stuck, I mean, they went down so many not great paths with these
+[53:33.040 --> 53:37.760]  designs, and that they that people complained about, and that they stuck to until now,
+[53:37.760 --> 53:44.400]  mysteriously until this version of the computer's very interesting timing. I'm curious, though,
+[53:44.400 --> 53:51.520]  about the the motivations of the touch bar, and how that's sticking around.
+[53:54.160 --> 54:00.400]  That's Yeah, that's interesting, too. And the way they did well, number one, let's just get this
+[54:00.400 --> 54:07.840]  out of the way. Even though you are New York based, and you are in the media, and you have
+[54:07.840 --> 54:14.800]  written the highest profile along with Joanna Stern articles over the years about the keyboard,
+[54:14.800 --> 54:19.200]  you were not invited to the media shindig last week. Oh, absolutely not.
+[54:21.600 --> 54:28.000]  Which I think is criminal. I mean, regardless of the fact invited to an Apple event. I was not I
+[54:28.000 --> 54:32.720]  mean, back when I worked at Ars Technica, I was not Apple point person. So that sort of made sense.
+[54:32.720 --> 54:40.800]  But I have had very little sort of communication from Apple about I think after this article,
+[54:40.800 --> 54:46.560]  this first article came out, I heard from nobody. What I did here was a few months later,
+[54:47.440 --> 54:51.760]  recruiter messaged me on LinkedIn asking me if I'd be interested in a job at Apple.
+[54:51.760 --> 55:07.600]  I did. True story. But yeah, I heard I think they I don't know what what their methodology
+[55:07.600 --> 55:12.800]  or like reasoning was for that. Maybe they were just like, what is the outline? Never heard of it
+[55:12.800 --> 55:19.760]  before? Maybe this will just blow over. But it was like that article that like, I don't know that
+[55:19.760 --> 55:27.680]  they have any way of like, sort of watermarking how much something is traveling. I don't even
+[55:27.680 --> 55:33.600]  really have any confirmation that anyone inside Apple really like engaged that maybe maybe someone
+[55:33.600 --> 55:40.320]  did tell me something and I just forget. But um, I think that it was it was the number. It was like
+[55:40.320 --> 55:45.840]  the second most trafficked article on the outline, which is not a that's it's kind of that's a big
+[55:45.840 --> 55:52.480]  fish in a kind of small pond. But it was it was definitely hundreds of 1000s of views of even getting
+[55:52.480 --> 56:02.320]  closer to a million by now. So it was not, not nothing. So not sort of calculus of like, never
+[56:02.320 --> 56:07.120]  even engaging with me. Even not even in an off the record, like yelling at me sounds like I'm
+[56:08.400 --> 56:14.000]  never heard from them. Do you think that would have been different if you were still at ours?
+[56:14.000 --> 56:19.600]  Technica? I mean, I know it's been a couple years since you left ours. But I wonder about that. And
+[56:19.600 --> 56:27.360]  I don't know I have obviously have more back and forth with Apple PR than most people listening to
+[56:27.360 --> 56:33.280]  this show. Probably most people. But I don't know how they work. I don't know how they work. And
+[56:33.280 --> 56:38.080]  even off the record, even off the record with trusted people who I've had a years long
+[56:38.080 --> 56:44.240]  relationship with Apple PR. They it's just in the bones of everybody at Apple that they don't
+[56:44.240 --> 56:49.760]  explain why they do what they do. I mean, I am I'm actually now I need to walk back what I said
+[56:49.760 --> 56:55.520]  a tiny bit. They did contact me. But like, as a customer, it wasn't like a PR. Like, what I've
+[56:55.520 --> 57:02.480]  heard is they will, you know, people they know or know of will get in touch and just I mean,
+[57:02.480 --> 57:08.160]  maybe over statement to scream at them, but they will they will get very upset and, you know,
+[57:08.160 --> 57:12.800]  come come at you for the things that you say. They sort of contacted me as a customer that was
+[57:12.800 --> 57:17.280]  and we're like, we're sorry, you're having trouble with your computer. Do you want a new computer
+[57:17.920 --> 57:23.440]  of the same exact model? And I was like, I think ultimately, I did take them up on it, but then
+[57:23.440 --> 57:29.120]  ended up still getting rid of it because it just had the same like I was, I think I might have
+[57:29.120 --> 57:33.440]  messaged them back being like, this is what to be clear, we're talking about the same exact computer
+[57:33.440 --> 57:38.080]  with the same exact keyboard. That's the, you know, by design going to have the same exact
+[57:38.080 --> 57:45.920]  problem. They were like, Yep. And I was like, Okay, well, I don't really have any other choice.
+[57:45.920 --> 57:52.640]  So sure, but yeah, in a PR sense, never heard from them. What were you saying?
+[57:54.000 --> 57:57.760]  Well, what what computer are you using now? Like, what is your daily?
+[57:57.760 --> 58:05.120]  So the one Well, I have my own personal, I bought one of the MacBook Airs last year and a bit of
+[58:05.680 --> 58:11.040]  incredible optimism. But also, I'm just like, I think I've become I've really I've really
+[58:12.640 --> 58:21.280]  come into my own as a person who is just like, I guess I will waste my own money to prove a point
+[58:21.280 --> 58:28.560]  to prove that I'm right, even though in doing it, I ruined my own life. That's sort of where
+[58:28.560 --> 58:32.960]  I'm at. And now the keyboard has been having problems on and off. And they've gotten so bad
+[58:32.960 --> 58:39.040]  in the last like couple of weeks, I made an appointment at the Apple store for next week.
+[58:39.040 --> 58:43.680]  And it's funny, because every time I go in, I'm kind of like, I want to these people, like,
+[58:43.680 --> 58:47.440]  know who I am. And I'm never like, Do you know who I am? Or I'm never like,
+[58:47.440 --> 58:53.360]  I'm Casey Johnston, here's the article I wrote, I want a keyboard or whatever. But I'm always so
+[58:53.360 --> 59:00.240]  I'm so curious, like if they because no one's ever like, shown any sort of betrayed any recognition
+[59:00.240 --> 59:06.320]  of like, oh, yeah, you like that. I like, I think most people don't look at bylines is definitely
+[59:06.320 --> 59:12.480]  one potential answer to that thing. But it's like, there's really no like flag in the back
+[59:12.480 --> 59:20.400]  end of like, this, like a number, not number one, an enemy of the Apple state. I would be surprised,
+[59:20.400 --> 59:26.000]  I don't feel like I get treated any differently. And people still stood still. So do still talk
+[59:26.000 --> 59:30.880]  to me like I'm, you know, a child like who doesn't who's never used a computer before the way they
+[59:30.880 --> 59:38.640]  talk to everybody. But I want to you were asking me something about PR and Apple and Ars Technica.
+[59:38.640 --> 59:44.320]  Well, I was just asking, I just curious if you think that if you had written the same
+[59:44.320 --> 59:50.000]  series of articles, and they were published through ours, do you think it would have had
+[59:50.000 --> 59:54.240]  a I'm not saying it would have changed the world and gotten the new MacBook keyboard out sooner,
+[59:54.240 --> 01:00:01.680]  but I somewhat suspect that you would have gotten more of an official record almost certainly.
+[01:00:01.680 --> 01:00:08.800]  I do wonder. I mean, I think that like, the the main the main contact for Apple stuff while I was
+[01:00:08.800 --> 01:00:18.800]  Jackie Chang, who was kind of Apple editor. And I can only imagine if I had done such an article
+[01:00:19.920 --> 01:00:25.440]  that they would have contacted her at least. And right, can we all sort this out? Maybe?
+[01:00:25.440 --> 01:00:33.040]  Or, you know, if I had published it at I don't know, The Verge, something like that might have
+[01:00:33.040 --> 01:00:39.760]  been right. But then the question is to like, I'm not sure how much of a stomach anyone had at that
+[01:00:39.760 --> 01:00:47.360]  point. This was not to toot my own horn, but like, no one was no one was like asking the hard
+[01:00:47.360 --> 01:00:51.840]  questions about this computer. And I think there was and there's there was still at that point,
+[01:00:51.840 --> 01:00:56.160]  like, I think there's been a little bit of a watershed since that of like, sort of questioning
+[01:00:56.160 --> 01:01:04.320]  Apple's design judgment and or integrity, that I think people were playing, they were playing
+[01:01:04.320 --> 01:01:11.760]  softball on this on this on these models. And I'm not sure that if I had pitched an article to a
+[01:01:11.760 --> 01:01:17.520]  tech publication that was like, these keyboards are garbage, I think, not to not to name any names,
+[01:01:17.520 --> 01:01:22.640]  I never had any of these conversations. But I think that people are overall quite protective
+[01:01:22.640 --> 01:01:28.480]  of their relationship with Apple, the company. And I think there would have been some real
+[01:01:28.480 --> 01:01:32.960]  hesitation about putting a stake in the ground that was like, these computers are bad. So it
+[01:01:32.960 --> 01:01:38.000]  was like, it's a real credit to the outline to until Leah Finnegan, who was like, the only
+[01:01:38.000 --> 01:01:44.800]  reason this article came into being was that she she's like a friend of mine, and was listening
+[01:01:44.800 --> 01:01:48.880]  to me rant over and over about these keyboards. And I was like, can you just write this article?
+[01:01:48.880 --> 01:01:54.720]  I was like, okay. And like so many things that I write, I'm kind of like, I don't know that anyone
+[01:01:54.720 --> 01:01:59.600]  will ever care or listen to this, like, it's a keyboard and one of the most expensive computers
+[01:02:00.240 --> 01:02:06.640]  you can buy, like, what a sort of marginal and dumb complaint. But there's a lot, there's
+[01:02:06.640 --> 01:02:11.840]  obviously like, a lot more there. And I'm being kind of facetious. But I think that like, there
+[01:02:11.840 --> 01:02:16.480]  would have, it's hard to imagine this having played out in any different way, because of that
+[01:02:16.480 --> 01:02:28.320]  sort of Apple tech publication dynamic that is still is still a an ongoing thing. I think it's
+[01:02:28.320 --> 01:02:29.680]  changed a little bit. But
+[01:02:31.040 --> 01:02:37.680]  I don't, I get it. And I don't think you're tooting your own horn unnecessarily. I really
+[01:02:37.680 --> 01:02:44.480]  mean it that you sort of went out on your own. And and we're sort of like the first to call the
+[01:02:44.480 --> 01:02:50.000]  Emperor has no clothes, this keyboard is actually a piece of crap and ruining my life. And you were
+[01:02:50.000 --> 01:02:54.000]  on your own at that point. It wasn't like there was no acknowledgement that people were having
+[01:02:54.000 --> 01:02:59.520]  problems, right? I mean, it was there was an undercurrent of that a baseline of,
+[01:03:00.320 --> 01:03:06.240]  yeah, I mean, I did have to go and find I went and found backup for what I was saying I didn't
+[01:03:06.240 --> 01:03:11.680]  want to like, make entirely about myself. And there were there were forum posts and people
+[01:03:11.680 --> 01:03:18.400]  going back and forth. And just the fact that there seemed to be this sort of party line from
+[01:03:19.120 --> 01:03:23.200]  the Genius Bar was another sort of telling element. Like there were a few things that
+[01:03:23.200 --> 01:03:27.680]  had to be sort of in place in order for me to feel comfortable making this argument. But yeah,
+[01:03:27.680 --> 01:03:29.920]  it was like, no one was really naming the thing.
+[01:03:29.920 --> 01:03:39.600]  Yeah. And so just to be clear, your current computer is is a MacBook Air that you got last
+[01:03:39.600 --> 01:03:44.000]  year after the new MacBook Airs came out in November, right? They were they were the sort
+[01:03:44.000 --> 01:03:49.920]  of great new hope at that point that they had like whatever the fourth or third generation butterfly
+[01:03:49.920 --> 01:03:54.400]  key that was supposedly going to be better and they had the membrane and whatever and I was like,
+[01:03:54.400 --> 01:03:59.920]  I don't trust this. But I'm gonna give it a shot. And like I really did need a new computer. My
+[01:03:59.920 --> 01:04:08.320]  computer was a 2013. I could have done what I suggest people do, or what I have been suggesting
+[01:04:08.320 --> 01:04:14.000]  people do. And like literally, Gia Tolentino asked me about this a couple or maybe like a month ago.
+[01:04:14.000 --> 01:04:19.600]  She was like, my computer's dying, what should I do? This sort of de rigueur thing became to buy
+[01:04:19.600 --> 01:04:29.840]  a refurb, like 2015. Right. Oh, the one I think at the time, they were even sort of hard to find.
+[01:04:29.840 --> 01:04:36.640]  And I think they still are. Yeah. So I think I was on the fence about doing that. And that's
+[01:04:36.640 --> 01:04:41.200]  so it was only like, sort of two years newer than the computer that I have that wasn't like
+[01:04:41.200 --> 01:04:49.600]  doing so hot. And I wanted more sort of not that necessarily would get more performance out of an
+[01:04:49.600 --> 01:04:54.640]  error than a pro, but just I think in terms of like overall newness of the hardware, I wanted
+[01:04:54.640 --> 01:05:03.600]  to like give myself a better chance at that. And now here we are. I do think, and again, it's all
+[01:05:03.600 --> 01:05:07.200]  anecdotal, but you know, we have to treat Apple's statements on this, you know, they've said over
+[01:05:07.200 --> 01:05:11.680]  and over again, a small number of customers are affected by blah, blah, blah. And you know,
+[01:05:11.680 --> 01:05:18.320]  what is a small number? It's, you know, famously, it's a Bezos number, right? Like Amazon will say,
+[01:05:18.960 --> 01:05:24.800]  famously, we've had our best selling Christmas, you know, Black Friday ever, but then they don't
+[01:05:24.800 --> 01:05:30.400]  tell you, you know, what it's in relation to, there's no baseline. So small, small number.
+[01:05:31.040 --> 01:05:36.320]  I mean, we all know that it isn't everybody. We all know it probably isn't most people,
+[01:05:36.320 --> 01:05:43.760]  right? Like it's, is it 49%? It's never, it's never that many at any given time,
+[01:05:43.760 --> 01:05:49.600]  but like over the course of the lifetime of a computer, how many is it? I would be very curious.
+[01:05:49.600 --> 01:05:54.080]  It's like maybe there are only, let's say, I don't know, a couple thousand computers in the shop.
+[01:05:54.080 --> 01:05:58.880]  That's a very small number to be having an issue at any given time. But if you consider how many
+[01:05:58.880 --> 01:06:03.120]  you've sold and how many you've treated, I would be super curious what that statistic is.
+[01:06:03.120 --> 01:06:11.600]  Right. And you just know that they know because the people who work at Apple in Cupertino use
+[01:06:11.600 --> 01:06:16.800]  MacBooks. And so whatever the failure rate is, we know it's high enough that it percolated within
+[01:06:16.800 --> 01:06:23.520]  the company. But I've seen crazy things like just like over the last three years. And once this
+[01:06:23.520 --> 01:06:28.400]  really became, for lack of a better word, a meme, you know that, hey, these keyboards are crap.
+[01:06:28.400 --> 01:06:34.320]  Like you see pictures on Twitter of people who use an external keyboard with their MacBooks,
+[01:06:35.760 --> 01:06:41.680]  which is insane. And they're like smart people and like professional developers. And they're like,
+[01:06:41.680 --> 01:06:47.680]  well, I just don't feel like being without it for seven days while they replace it. Like it's,
+[01:06:47.680 --> 01:06:54.320]  I'll actually go through the ridiculousness of plugging in a USB keyboard or a blue, you know,
+[01:06:54.320 --> 01:06:59.680]  using a Bluetooth one rather than the built in one because I don't want to do it. And I
+[01:06:59.680 --> 01:07:04.960]  could honestly see myself doing that because there are times where you just don't want to be without
+[01:07:04.960 --> 01:07:11.760]  your your computer. And it's such a pain. I mean, I'm in a position where I have I have this my
+[01:07:11.760 --> 01:07:17.120]  personal computer, which I guess I don't even need. I have my work, my work laptop, which is
+[01:07:17.120 --> 01:07:26.560]  one of the MacBook Pros, the non touch bar, extra long escape key, like 2016 or 17. And then I have
+[01:07:26.560 --> 01:07:30.640]  also a desktop computer. So I wouldn't be like totally hard up if I were to take this one in,
+[01:07:30.640 --> 01:07:34.640]  which I'm going to do. And hopefully they will. I think the last time I brought this one in,
+[01:07:34.640 --> 01:07:41.360]  they sprayed it out with a can of air, not in front of me, notably, and brought it back out.
+[01:07:41.360 --> 01:07:45.440]  And it did seem to be working better. And I was like, okay, but like now I've done the I have two
+[01:07:45.440 --> 01:07:51.360]  cans of air here. I've tried to spray it out, it hasn't made any difference. So I'm hoping they
+[01:07:51.360 --> 01:07:58.240]  will just fix it. And I'm very tempted to play the Do you know who I am card on this because I'm so
+[01:07:58.240 --> 01:08:03.520]  tired of dealing with the problem. And I'm hoping they will just take it or replace it or whatever.
+[01:08:05.040 --> 01:08:12.000]  It's so funny that they won't even even if they're their first fix is to use the air, air sprayed,
+[01:08:12.000 --> 01:08:16.240]  you know, the compressed air trick that they won't do it in front of you. It's sort of like,
+[01:08:16.240 --> 01:08:21.200]  like, it's like their version of like, you flag your waiter, and you know that I've got to fly
+[01:08:21.200 --> 01:08:26.160]  in my soup, and then the waiter isn't just going to fish the fly out of your soup and walk away.
+[01:08:26.160 --> 01:08:30.160]  It's gonna take your soup away. And right, presumably, we give you a fresh bowl of soup.
+[01:08:30.160 --> 01:08:38.880]  Well, that's what you think. But um, I think, I mean, the whole the whole service element of this
+[01:08:38.880 --> 01:08:44.720]  keyboard issue has been so ridiculous. Like I think I wrote about this, that the first time or
+[01:08:44.720 --> 01:08:50.320]  the third, I think the third time, but the sort of first cycle and the first model of computer that
+[01:08:50.320 --> 01:08:58.480]  I had that was having this problem, they, one of the diagnostic tests was to put the computer in
+[01:08:58.480 --> 01:09:04.160]  a particular, I think, diagnostic or safe mode or something like that, and it ran a program where
+[01:09:04.160 --> 01:09:10.080]  it ran a program where the genius went through and pushed each key. And I was like, this is such
+[01:09:11.200 --> 01:09:15.840]  theater. I can't, I can't stand it. I think I like dissociated when I was sitting there. I was like,
+[01:09:15.840 --> 01:09:21.680]  this is what, what would this tell you? I like absolutely nothing. I just can't. I couldn't
+[01:09:21.680 --> 01:09:28.320]  conceive of what useful input that would. And I think it also there was also like a software
+[01:09:28.320 --> 01:09:31.920]  element where it was like, there was a progress bar and it was like analyzing the keyboard. It's
+[01:09:31.920 --> 01:09:40.480]  like this, there's just no way that this is doing anything. And it was like 45 minutes of this,
+[01:09:40.480 --> 01:09:45.040]  just like a few tests like that. And I was like, Oh my God, you like, you can type on the keyboard
+[01:09:45.040 --> 01:09:48.640]  and see that it doesn't work, but you're going to do all of that stuff anyway.
+[01:09:50.480 --> 01:09:55.360]  I thought that the other thing that was frustrating at the point where, and again,
+[01:09:55.360 --> 01:10:01.120]  I don't think it was a problem that Apple shift. Well, it's a problem, but I don't think it's a
+[01:10:01.120 --> 01:10:07.200]  mistake that Apple shipped this keyboard in the first place. Cause I can imagine a scenario where
+[01:10:07.200 --> 01:10:14.080]  it got through internal testing as reliable. And it was only a question of whether people liked it
+[01:10:15.280 --> 01:10:20.320]  and it gets out, you know, you can ship mistakes if you don't ship mistakes once in a while,
+[01:10:20.320 --> 01:10:24.400]  maybe you're not trying hard enough. I actually believe that, right? That if you, you know,
+[01:10:24.400 --> 01:10:30.240]  that you're, you're being too cautious, but it's like the way to be right all the time is to keep
+[01:10:30.240 --> 01:10:34.960]  an open mind about having made mistakes, you know, and this is my philosophy, you know,
+[01:10:34.960 --> 01:10:39.360]  with what I write it during fireball, where it's like, I try to be right all the time in what I
+[01:10:39.360 --> 01:10:44.000]  write, but then, you know, I try to keep an open mind that maybe I'm wrong about something and
+[01:10:44.000 --> 01:10:52.960]  acknowledge it and then just say, Hey, you know what? I was wrong about that. In the era, you
+[01:10:52.960 --> 01:11:01.360]  know, let's say all of 2018 is where I feel it was maximal comedy of this is absurd, you know,
+[01:11:01.360 --> 01:11:09.760]  and that's, you know, it was March or may of 2018 when Joanna wrote her famous and so amazing
+[01:11:10.720 --> 01:11:16.240]  column for the Wall Street Journal left nothing on the table. It was, it was just incredible.
+[01:11:16.240 --> 01:11:24.400]  I wish I told her if I had I know God, I can't even I she was on my show a couple episodes ago
+[01:11:24.400 --> 01:11:29.680]  and I told her I was like, that's the Hall of Fame column for anybody in this racket like because
+[01:11:30.480 --> 01:11:36.160]  it was hilarious. It was spot on. It was totally fair. The gimmick was executed was it sounded
+[01:11:36.160 --> 01:11:42.240]  like a good gimmick and then the execution was amazing. And it wound up actually having an
+[01:11:42.240 --> 01:11:50.080]  effect like I know I can't say for a fact but I can say with 99% certainty that Apple shipped that
+[01:11:52.320 --> 01:11:59.360]  summer update to the MacBook Airs sooner than they were planning to. And the thing that the straw
+[01:11:59.360 --> 01:12:05.440]  that broke the camel's back on changing their internal schedule was Joanna. I mean, I'm so
+[01:12:05.440 --> 01:12:13.120]  envious of the platform. Like, how would would anything that I mean, maybe that's the real
+[01:12:13.120 --> 01:12:17.680]  question to ask is when anything has been a new different like, leave aside the tech outlets if
+[01:12:17.680 --> 01:12:24.640]  I had if I had written this for like the New York Times. Right. Yeah, very true. Yeah. Yeah,
+[01:12:24.640 --> 01:12:28.160]  I think I think it would have had more fallout. I think there's no doubt about it. And that's not
+[01:12:28.160 --> 01:12:35.280]  right. It's not fair. We should, you know, ideally in an ideal world. At this point with the way
+[01:12:35.280 --> 01:12:40.160]  the world is today, it makes me laugh even imagining an ideal world. But in an ideal world,
+[01:12:40.160 --> 01:12:45.120]  every article would be judged on its own merits and would reach the audience it deserves to reach.
+[01:12:45.120 --> 01:12:52.720]  But that's not true. Of course, I mean, something like that. I think I feel some resentment about
+[01:12:52.720 --> 01:13:00.160]  it also, because it's not like, again, this is me being like, do you know who I am in a way that's
+[01:13:00.160 --> 01:13:05.680]  just screaming into the void, but it's like, while the outline was nothing, it's like, I've been a
+[01:13:05.680 --> 01:13:13.280]  tech writer for a very, not very long time, but like a decade and like, it's like, I know. I'm
+[01:13:13.280 --> 01:13:20.880]  not I don't I don't I wouldn't believe that I am entirely unknown to people who work at Apple from
+[01:13:20.880 --> 01:13:27.600]  back when I worked at Ars Technica. Like it's not like I was a nobody who just happened to be
+[01:13:27.600 --> 01:13:32.400]  hating their computer. So it's frustrating to me also that it couldn't get traction
+[01:13:32.400 --> 01:13:37.280]  just from that. But it's like, I don't know, I'm just, you know, myself.
+[01:13:38.880 --> 01:13:44.080]  Something broke internally. It's like I said, Apple internally clearly wasn't hooked up to deal
+[01:13:44.080 --> 01:13:49.760]  with a mistake of this magnitude. And 2018 to me was where it really, I mean, it's great that it's
+[01:13:49.760 --> 01:13:54.800]  fixed now at the end of 2019, or at least the fixes started rolling out. But 2018 was ridiculous. If
+[01:13:54.800 --> 01:14:00.640]  they had fixed it, by the end of 2017, or at the beginning of 2018, then Joanna never would have
+[01:14:00.640 --> 01:14:05.600]  gotten to write her column. Right and try and see. But the other thing that I thought was interesting
+[01:14:05.600 --> 01:14:11.840]  about 2018 was 2018. Last year was, or no 2019. It was this year, when they came out this year,
+[01:14:11.840 --> 01:14:16.960]  when they came out with the third generation butterfly keyboards with the quote unquote,
+[01:14:16.960 --> 01:14:23.200]  material change, which I clarified. What do you mean by that? Because material has different
+[01:14:23.200 --> 01:14:29.120]  meanings. You know, there's the scientific meaning where you're using a different material.
+[01:14:31.440 --> 01:14:35.840]  Yeah. And then there's also the sense that material just means meaningful. And they were
+[01:14:35.840 --> 01:14:42.400]  like, well, we really mean both. But we do there are, but there are, there's one or more components
+[01:14:42.400 --> 01:14:47.120]  and they wouldn't say, you know, one thing, they wouldn't say it was this little hinge or whatever
+[01:14:47.120 --> 01:14:51.440]  they, you know, typical Apple, they don't want to explain. And I guess I don't know if the iFixit
+[01:14:51.440 --> 01:14:55.680]  people took it apart and figured out what what actually is. And it was just that it was the
+[01:14:55.680 --> 01:15:00.320]  membrane and like the membrane was in particular, I think they like figured out or reverse, not
+[01:15:00.320 --> 01:15:06.320]  reverse engineered, but sort of through through differential diagnosis, figured out what the
+[01:15:06.320 --> 01:15:15.040]  material of it was and like, or at least what was extremely similar. So that was so I, I do think so
+[01:15:15.040 --> 01:15:22.160]  I feel like the ultimate good news, bad news is I do feel that that change actually improved the
+[01:15:22.160 --> 01:15:27.760]  keyboard reliability. And it does. And again, this is my anecdotal data, as the guy who writes
+[01:15:27.760 --> 01:15:32.240]  Daring Fireball is very different than what Apple knows from people coming into stores. But I hear
+[01:15:32.240 --> 01:15:36.960]  from a lot of people, you know, like, I've heard from an awful lot of people who read my site,
+[01:15:36.960 --> 01:15:40.960]  follow me on Twitter, or listen to the podcast, who've told me about problems with this keyboard.
+[01:15:40.960 --> 01:15:48.400]  I really do think that that that that third generation, quote, unquote, material change
+[01:15:48.400 --> 01:15:54.800]  fixed the reliability issues. I don't think it fixed the way it feels. I could be wrong.
+[01:15:55.360 --> 01:16:01.280]  And so this is the bad news part of it. This is the Yeah, you don't have not within the MacBook
+[01:16:01.280 --> 01:16:04.240]  Air. I think it's not within the MacBook Air by default. But I think if you do bring it in,
+[01:16:04.240 --> 01:16:11.200]  and you have enough sort of like, yeah, they won't, they won't give you that. Right. Yeah,
+[01:16:11.200 --> 01:16:16.400]  they won't. Yeah, if you need to fix, even though you bought the one at the end of 2018,
+[01:16:17.200 --> 01:16:21.680]  they would give you the fixed one. And it is if you just think about the way Apple usually works.
+[01:16:22.800 --> 01:16:28.640]  iPhones are unique, because and you know, and they make the most money on them, and they're
+[01:16:28.640 --> 01:16:34.480]  everywhere. But iPhones, everybody knows when's the next iPhone coming out, I can tell you for a
+[01:16:34.480 --> 01:16:43.120]  fact, it's coming out in like the second Tuesday of September, unless September, the second Tuesday
+[01:16:43.120 --> 01:16:46.960]  of September is September 11. In which case, they'll do it on Wednesday, because they don't
+[01:16:46.960 --> 01:16:50.960]  want to do it on September 11. I guarantee it, they do every year, it comes out like clockwork,
+[01:16:50.960 --> 01:16:56.320]  it is as, you know, it doesn't have a date, but it's like Easter, you know, that you can,
+[01:16:56.320 --> 01:17:00.480]  there's like an algorithm where you can predict which Sunday Easter is going to be. And you know,
+[01:17:00.480 --> 01:17:06.320]  you know, what's Thanksgiving is going to be, you know, Thursday, institutionalize this into
+[01:17:06.320 --> 01:17:10.960]  like Apple Tuesday, I think Jackie Tang used to say this, everyone used to be like, breathlessly
+[01:17:10.960 --> 01:17:14.800]  be like, Oh, my God, the invites for the Apple event. And she was like, it was like, this is
+[01:17:14.800 --> 01:17:18.400]  the day she was like, it's always the second Tuesday, it's been this way for, you know,
+[01:17:18.400 --> 01:17:23.920]  a decade. Yep. Right. There are other products are on irregular schedules, you know, and Mac
+[01:17:23.920 --> 01:17:31.040]  books in particular to the frustration of people who rely on them as like me, and probably you as
+[01:17:31.040 --> 01:17:36.080]  as their primary work computer are harder to predict. But one thing we know is they don't
+[01:17:36.080 --> 01:17:42.560]  update them more than once a year. And so the fact that they came out with and the whole idea
+[01:17:42.560 --> 01:17:48.240]  of a modernized MacBook Air was the the they said so last year, it's their best selling MacBook,
+[01:17:48.240 --> 01:17:57.040]  it's, you know, this is what people think of as an Apple laptop, a wedge shaped thing with a 13
+[01:17:57.040 --> 01:18:02.560]  inch screen, which is like just right for most people where it's this perfect balance of
+[01:18:02.560 --> 01:18:08.080]  portability and lightweight and still still bigger than that little tiny MacBook, and it's bigger
+[01:18:08.080 --> 01:18:11.760]  than an 11 inch iPad, blah, blah, blah. But everybody wanted one with the retina screen,
+[01:18:11.760 --> 01:18:16.400]  because it by that point, it was like, well, this is ridiculous that their their most popular
+[01:18:16.400 --> 01:18:22.720]  laptop is still sold with this screen that looks like it's from 15 years ago. So they came out with
+[01:18:22.720 --> 01:18:29.920]  it in November. And the fact that they updated it in the summer this year to get that third
+[01:18:29.920 --> 01:18:35.440]  generation keyboard standard and they did something else they like you switched to cheaper
+[01:18:35.440 --> 01:18:39.840]  RAM or something. There was something like that they made a couple of other they did more than
+[01:18:39.840 --> 01:18:46.240]  just put the keyboard in. It shows you that that the keyboard was an issue because there's no
+[01:18:46.240 --> 01:18:51.280]  way they would have updated at the soonest they would have updated it as a regular Apple product
+[01:18:51.280 --> 01:18:56.320]  would have been one year later, right? Doing it nine months is unusual. Yeah, very telling.
+[01:18:57.920 --> 01:19:00.160]  Yeah. All right. You were asking about the touch bar before.
+[01:19:02.160 --> 01:19:04.160]  My understanding but shortened or something.
+[01:19:06.480 --> 01:19:12.160]  Well, so what they've done, it is different. And so now there is on the left side,
+[01:19:12.160 --> 01:19:18.640]  a physical escape key. So the touch bar doesn't go all the way to the left side. And it no longer
+[01:19:18.640 --> 01:19:25.920]  shows you the fake escape key that it would have done except for certain apps. There's actually an
+[01:19:25.920 --> 01:19:30.320]  interesting thread on Twitter that I swear I hope I'll put in the show notes where some guy who
+[01:19:30.320 --> 01:19:34.080]  works at Apple actually wrote about it, which is unusual because people at Apple often don't
+[01:19:34.080 --> 01:19:41.120]  publicize stuff like this. But there are some cases where certain apps like might put up like
+[01:19:41.120 --> 01:19:48.880]  a dialog box. And they still put the equivalent, they won't put an escape key on the virtual touch
+[01:19:48.880 --> 01:19:54.800]  bar. But there might be like a done button or something that finishes something and their logic,
+[01:19:54.800 --> 01:19:59.760]  which is really, really smart. Like in a sense, you can almost see that this is how they tried.
+[01:19:59.760 --> 01:20:05.440]  This is why they shipped the no physical escape key in the first place was that there are all
+[01:20:05.440 --> 01:20:11.520]  sorts of situations and corners, you can get painted into designing the software,
+[01:20:12.240 --> 01:20:18.000]  where it makes sense for the touch bar to be involved in canceling or stopping or whatever
+[01:20:18.000 --> 01:20:23.520]  you would use an escape key for. But the basic idea now is that if you start something on the
+[01:20:23.520 --> 01:20:28.960]  touch bar, if the app has some kind of thing where you start the process of changing the volume or
+[01:20:28.960 --> 01:20:34.400]  whatever, the cancer way to get out of it might still be on the touch bar. Anyway, so that's one
+[01:20:34.400 --> 01:20:40.720]  change, there's a real escape key. And the logic of what the touch bar shows has changed dynamically
+[01:20:40.720 --> 01:20:45.200]  based on which computer you're on. Because obviously, you might be running the same version
+[01:20:45.200 --> 01:20:52.000]  of Mac OS X on a year old MacBook Pro, and you still need the virtual escape key. On the right
+[01:20:52.000 --> 01:20:56.880]  side, the touch ID sensor now has like a gap between it and the touch bar. So you can feel it
+[01:20:56.880 --> 01:21:01.120]  more clearly. Yeah, that's what the air has. I mean, there obviously doesn't have a touch bar.
+[01:21:01.120 --> 01:21:06.320]  But yeah, it's its own standalone sort of piece. Right? Yeah, it's the exact I think it might be
+[01:21:06.320 --> 01:21:13.600]  the exact same piece from the air. And then the other change they made was that they increased
+[01:21:13.600 --> 01:21:18.000]  all of the keys have more space between them. Now, it doesn't really look like it at a glance.
+[01:21:18.000 --> 01:21:22.880]  But if you really compare it side by side, well, it's good. I think it's a really important change
+[01:21:22.880 --> 01:21:28.240]  because I feel like the keys being too close to each other led to sometimes not being sure where
+[01:21:28.240 --> 01:21:33.200]  your fingers were on the right time. So all of the keys on the keyboard have slightly more space
+[01:21:33.200 --> 01:21:42.000]  between them. And they slightly you know, it's like a fraction of a millimeter, maybe. It's not
+[01:21:42.000 --> 01:21:46.800]  a huge gap. But it's enough that I think it really makes a difference is that the touch bar is
+[01:21:46.800 --> 01:21:53.120]  further above the number key row. There's a little bit more of a gap there, too. And they said good
+[01:21:53.120 --> 01:21:58.240]  design call because I think I've I mean, I experienced this too. And I had one for you know,
+[01:21:58.240 --> 01:22:02.400]  was a year and change, I think, but constantly hitting the touch bar by accident, never really
+[01:22:02.400 --> 01:22:07.920]  wanting to interact with the touch bar other than to use the the F key, like basically the media
+[01:22:07.920 --> 01:22:14.960]  keys are like the brightness up and down. Like the bright, the bright keys, either the keyboard
+[01:22:14.960 --> 01:22:20.560]  brightness or the screen brightness is like all I ever used it for. And it was just like two extra
+[01:22:20.560 --> 01:22:26.000]  taps than it was when it was just the hard function keys. But it was otherwise just constant
+[01:22:26.000 --> 01:22:32.400]  hitting it by accident and people were activating Siri by accident and that's fixable. But yeah,
+[01:22:32.400 --> 01:22:36.000]  moving it away from the rest of the keyboard seems like a merciful gesture.
+[01:22:37.520 --> 01:22:41.840]  All right. All right. You don't have a touch bar right now. But let me let me just throw out
+[01:22:41.840 --> 01:22:47.920]  a tip for everybody listening who does and is kind of annoyed by it is you don't actually have
+[01:22:47.920 --> 01:22:55.520]  to do an extra tap when you tap on the brightness or the volume on the touch bar. You can just
+[01:22:55.520 --> 01:23:01.120]  immediately start dragging and it'll immediately show you in and move the little slider to show
+[01:23:03.440 --> 01:23:08.800]  it has always been that way. But if you don't know that I don't see any reason why any person
+[01:23:08.800 --> 01:23:13.200]  would guess right. It is a great little shortcut. It's very clever. It's been like that since the
+[01:23:13.200 --> 01:23:18.240]  day one but it doesn't it looks like you have to tap it first. Wait for the slider to appear
+[01:23:18.240 --> 01:23:24.240]  because when you do it the way I'm telling you to the slider doesn't your finger isn't actually
+[01:23:24.240 --> 01:23:30.960]  on the slider because you're not starting where it is. Anyway, play with it everybody. It's a
+[01:23:30.960 --> 01:23:37.200]  game changer. Yeah, and it really does it. The bigger question and I didn't ask it directly,
+[01:23:37.200 --> 01:23:40.960]  but I know what you're gonna I know what you're getting at is that the touch bar is not
+[01:23:40.960 --> 01:23:47.680]  universally beloved. Oh, I feel like it's it's another would be it would be a greater
+[01:23:48.800 --> 01:23:53.360]  folly headline were it not for the keyboard in general, I feel like but the keyboard has
+[01:23:53.360 --> 01:24:01.440]  really stolen the thunder as far as like design mistakes. I think that the touch bar is very
+[01:24:01.440 --> 01:24:08.000]  different. It's a different caliber of controversy compared to the keyboard because
+[01:24:08.000 --> 01:24:12.560]  I do think about it more if there weren't the keyboard to talk about.
+[01:24:15.440 --> 01:24:26.720]  Yeah, probably. And I so I think internally Apple sees the touch bar as a premium thing that is
+[01:24:26.720 --> 01:24:34.400]  better than F keys. Now better how I'm not quite sure what they think internally, but that anything
+[01:24:34.400 --> 01:24:44.000]  that's a premium MacBook is going to come with one. And so like the 13 inch MacBooks have had,
+[01:24:44.000 --> 01:24:50.880]  you know, the what we colloquially have called the MacBook escape because it had in addition
+[01:24:50.880 --> 01:24:55.520]  to not having a touch bar period therefore always had a physical escape key. But that's like,
+[01:24:56.960 --> 01:25:03.600]  it's not really a pro pro device. It's actually slower. It has like more like a MacBook Air
+[01:25:03.600 --> 01:25:10.160]  MacBook Air's internal chipset and stuff like that. They just call it a MacBook Pro because
+[01:25:10.160 --> 01:25:16.240]  it's the exact same size as the MacBook 13 inch MacBook Pros that do have a touch bar.
+[01:25:16.240 --> 01:25:20.160]  Right. And it's a lot cheaper. It was you know, it's hundreds of dollars less.
+[01:25:21.440 --> 01:25:26.000]  Right. I mean, the 15 inch thing is like I don't I would never have used one out like I would never
+[01:25:26.000 --> 01:25:32.400]  pay extra hundreds of dollars for this thing that is slightly actually slightly less useful to me
+[01:25:32.400 --> 01:25:39.120]  than the configuration of the function keys. And solves a problem that you never had. Like there's
+[01:25:39.120 --> 01:25:46.480]  nobody really I I think internally what Apple has thought and I get it like the idea of function
+[01:25:46.480 --> 01:25:55.120]  keys just period seems like this weird throwback to like 1978 right right like it it's like I mean
+[01:25:55.760 --> 01:26:00.640]  you get I don't I don't like I'm not gonna say there's like no way to improve upon the
+[01:26:00.640 --> 01:26:06.000]  function keys there there should there should be but it's like this is not this is not a chief.
+[01:26:06.000 --> 01:26:12.560]  Yeah. Yeah. And it was asked at the media event the question and answer stuff was all
+[01:26:15.360 --> 01:26:20.400]  off the record on background forget the exact rules. But I didn't worry about it because I
+[01:26:20.400 --> 01:26:26.080]  knew I wasn't going to quote anybody anyway. So I treated it as on background. But you know,
+[01:26:26.080 --> 01:26:32.080]  they did the media thing in like groups of eight. I don't know how many groups there were. It's one
+[01:26:32.080 --> 01:26:36.080]  of those other things. You just don't know what's going on when Apple holds these because they
+[01:26:36.080 --> 01:26:40.720]  had like a group of eight at a little keynote presentation just for us that was on the record
+[01:26:43.120 --> 01:26:47.120]  explaining everything that was new. Then we had time for questions and then they moved us around
+[01:26:47.120 --> 01:26:51.440]  as a group of eight to a series of demo stations where like here's developer stuff and they
+[01:26:51.440 --> 01:26:56.480]  show you Xcode doing stuff super fast and literally made a point of saying that, you know,
+[01:26:56.480 --> 01:27:03.760]  here, if you use the vim text editor from Unix, the escape key is right there. So I don't know
+[01:27:03.760 --> 01:27:07.840]  how many groups that were but they moved us around. But somebody in my group definitely
+[01:27:07.840 --> 01:27:14.000]  asked about the and it was Marco, of course, definitely, definitely asked about Hey,
+[01:27:15.600 --> 01:27:20.000]  why is there no option? Is there just double checking, there's no option to buy one of these
+[01:27:20.000 --> 01:27:27.040]  15 inch MacBook Pros without the touch bar? And if not, why? And the first part of the question
+[01:27:27.040 --> 01:27:35.760]  was answered very clearly. No, there is no option. And the second part wasn't answered at all.
+[01:27:35.760 --> 01:27:39.840]  Because that's the sort of decision Apple just will not explain. And they won't say we're not
+[01:27:39.840 --> 01:27:44.640]  going to explain it. They have an answer. But it's sort of word salady. And they just won't say it.
+[01:27:44.640 --> 01:27:50.240]  I think, I think it's because they truly do believe it's better. I think they think it's
+[01:27:50.240 --> 01:27:56.960]  more elegant. And I think they think it genuinely is a premium product, a premium aspect of a
+[01:27:56.960 --> 01:28:01.440]  product. And the one thing about the 15 inch MacBook Pros, even going back to the PowerBook
+[01:28:01.440 --> 01:28:07.280]  era, I think, is that they've the 15 inch ones, and now the 16 inch have always been
+[01:28:07.280 --> 01:28:14.800]  very pro in terms of specs and price, right? Like there's never been, there's never been a sort of
+[01:28:14.800 --> 01:28:21.840]  more affordable way to get a 15 inch display on a Mac laptop, which I think kind of sucks. Because
+[01:28:21.840 --> 01:28:27.600]  if you know, like, you know, it, the whole thing, this whole keyboard thing has really just shown
+[01:28:27.600 --> 01:28:33.360]  that if you're a Mac user, we all know that we're beholden to one company's whims on everything.
+[01:28:33.360 --> 01:28:40.080]  On everything. And, you know, if there's a problem, what if they start shipping crappy
+[01:28:40.080 --> 01:28:45.120]  computers? We're we're all fucked, right? We're screwed, right? And I mean, we're already there.
+[01:28:45.120 --> 01:28:49.680]  One of them. Are we right? We were a dark, a dark few years we've had here, right?
+[01:28:51.280 --> 01:28:57.120]  Right. But I it's kind of crazy to me that if, you know, I totally get why someone would want
+[01:28:57.120 --> 01:29:03.280]  the smallest laptop possible. Totally can imagine that I can also imagine why someone would want the
+[01:29:03.280 --> 01:29:08.080]  biggest laptop possible to have the biggest display possible. Because they and they don't
+[01:29:08.080 --> 01:29:12.480]  care. Maybe they don't even move it around much. Maybe they just mostly use it at their desk. So
+[01:29:12.480 --> 01:29:17.200]  the fact that it's big doesn't really matter. And they, you know, have a bag that it fits in. And I
+[01:29:17.200 --> 01:29:23.520]  also get why most people want one that's sort of right in the middle with like a 13.3 inch diagonal
+[01:29:23.520 --> 01:29:31.120]  screen. Totally get all of that. But I think it really sucks that if you're, what you really want
+[01:29:31.120 --> 01:29:37.600]  is a big 16 inch 15 inch screen, whatever size, and you want to use a Mac that you've your starting
+[01:29:37.600 --> 01:29:43.520]  price is $2,400. Like I think that kind of like is what if Yeah, what if you really don't do
+[01:29:43.520 --> 01:29:50.480]  anything other than use Safari and email and slack and you're, you don't need professional
+[01:29:50.480 --> 01:29:57.280]  grade RAM? Yeah. Like wanting a big screen. It seems like a very normal thing to want,
+[01:29:57.280 --> 01:30:02.880]  you know, like, they'll sell you an iMac that you know, that is relatively lower specced just
+[01:30:02.880 --> 01:30:07.760]  because you want a big screen. Like I don't mean anyway, that's the point that I would make is that
+[01:30:07.760 --> 01:30:15.600]  like, if you want like a laptop is so suboptimal for working on for a long time in so many ways
+[01:30:15.600 --> 01:30:19.760]  that like, to me, if you want a big screen, but you don't need it for any other purpose,
+[01:30:19.760 --> 01:30:25.600]  other like you're not editing video or photos or say like you're you don't have some visual need,
+[01:30:25.600 --> 01:30:33.520]  you just like want some visual space. I'm kind of like, that that speaks to you're on the computer
+[01:30:33.520 --> 01:30:41.200]  for a long time. You're using it a lot. Unless you're super, super mobile. I'm kind of like,
+[01:30:41.200 --> 01:30:47.440]  you should just have a certain desktop setup, like a monitor that you can plug into. And then that's
+[01:30:47.440 --> 01:30:53.840]  solve your problem. Like, it's like only if you need this big screen, and somehow need to be able
+[01:30:53.840 --> 01:30:59.680]  to bring it like lots of different places, which I don't think is the majority of people who
+[01:31:01.280 --> 01:31:07.840]  and like also need that huge screen. I think if they had one, though, if they had a 15 inch MacBook
+[01:31:07.840 --> 01:31:14.560]  Pro that had a slower CPU, like the 13 inch one that doesn't have a touch bar, and they took out
+[01:31:14.560 --> 01:31:21.760]  the touch bar, and it was only 2000 or maybe $1,900, like cut $500 off the price, but $1,900
+[01:31:21.760 --> 01:31:26.240]  still pretty, you know, expensive in the world of laptops. I think that thing would sell
+[01:31:26.960 --> 01:31:35.360]  shocking, even if still it was like the same price as a 13. And that worked. That was better had
+[01:31:35.360 --> 01:31:43.760]  better specs, and just a smaller right and has a touch bar. Yeah. So I you know that. I guess my
+[01:31:43.760 --> 01:31:48.640]  other disappointment with the touch bar, I'm okay with them. I'm not a touch bar hater. I'm not a
+[01:31:48.640 --> 01:31:54.400]  touch bar lover, but I'm okay with it. I wouldn't it wouldn't bother me in the least that I'll
+[01:31:54.400 --> 01:32:00.160]  probably never buy a MacBook again that doesn't have one. I kind of wish though that they had
+[01:32:00.160 --> 01:32:06.080]  thought of better things to do with it. Well, it just that that this is the most doesn't that seem
+[01:32:06.080 --> 01:32:10.160]  like part of the problem is the most sort of positive thing that I can say for the touch bar
+[01:32:10.160 --> 01:32:17.600]  is that it holds space for if they have they ever do come up with a good idea of how to use it.
+[01:32:17.600 --> 01:32:23.280]  It's like the computers will already or like a certain like back generation of computers will
+[01:32:23.280 --> 01:32:28.320]  already have it. It's like they can't they can't go back and change the function keys. I mean that
+[01:32:28.320 --> 01:32:32.480]  you sort of can but they can't change like the printing on them or whatever. So it's like it
+[01:32:32.480 --> 01:32:40.400]  creates space for a good idea if someone ever has one. And that's that's sort of I there's there's
+[01:32:40.400 --> 01:32:44.640]  some meaning to that. I think I don't I wouldn't say there's like absolutely nothing that a touch
+[01:32:44.640 --> 01:32:51.680]  bar could be useful for. It's like there's a couple of applications I think where it's like
+[01:32:51.680 --> 01:32:57.680]  scroll scrolling through certain things or shortcuts like there's there's a way I think
+[01:32:57.680 --> 01:33:03.920]  that it could be integrated that's useful but we haven't gotten there yet. All right.
+[01:33:03.920 --> 01:33:10.000]  All right. Take a quick break here. Thank you. Sorry. Yeah. Third and final sponsor. Good friends
+[01:33:10.000 --> 01:33:16.240]  at Squarespace. Squarespace the longest sponsor of the talk show. You've heard me talk about them.
+[01:33:16.880 --> 01:33:22.400]  If you're a regular listener dozens dozens of times possibly quite possibly where I think we're
+[01:33:22.400 --> 01:33:27.360]  on episode two hundred sixty nine quite possibly over a hundred times they have sponsored this show
+[01:33:27.360 --> 01:33:31.520]  they still sponsor the show you know why because people who listen to the talk show
+[01:33:31.520 --> 01:33:38.000]  keep signing up for Squarespace because guess what never goes out of style having a website
+[01:33:38.000 --> 01:33:42.080]  and maybe you have an old website you want to make a new one eventually it's going to happen
+[01:33:42.080 --> 01:33:48.000]  to you when you do you should start at Squarespace all in one they do everything you go there to
+[01:33:48.000 --> 01:33:52.800]  Squarespace you can register your domain you can pick a template you can tweak the template you
+[01:33:52.800 --> 01:33:58.480]  can do your whole original design from top to bottom you do it all WYSIWYG right in the browser
+[01:33:59.280 --> 01:34:04.080]  then once your website's up maybe it's a store maybe you're hosting a blog maybe you've got a
+[01:34:04.080 --> 01:34:08.880]  podcast you're going to post the podcast on your Squarespace site maybe it's a restaurant site that
+[01:34:08.880 --> 01:34:12.400]  you're doing for a friend who's opening up a new restaurant or something like that you want to put
+[01:34:12.400 --> 01:34:17.120]  the menu up and the hours and whatever else goes on the website once you do it and the site is up
+[01:34:17.920 --> 01:34:21.600]  when you add new content you want to post something else to the blog you do that through
+[01:34:21.600 --> 01:34:28.560]  Squarespace all of it it's literally all in one I can't emphasize how much they really mean it
+[01:34:28.560 --> 01:34:33.120]  it's no exaggeration not just a marketing term and it really is easy to use totally
+[01:34:33.120 --> 01:34:39.040]  use totally great and totally absolves you of all the weird stuff that you might have to do like
+[01:34:39.600 --> 01:34:43.440]  are you supposed to update the operating system on your hosting account or something like that
+[01:34:43.440 --> 01:34:49.120]  like how are you keeping it safe ah Squarespace handles all of that really great remember keep
+[01:34:49.120 --> 01:34:54.400]  it in mind the next time you need a new website or you want to update an old website go to
+[01:34:54.400 --> 01:35:01.280]  squarespace.com they have a free trial last a whole month try do everything before you pay a
+[01:35:01.280 --> 01:35:06.080]  nickel and then when you do sign up that's when you want to remember this the code is talk show
+[01:35:06.080 --> 01:35:12.640]  know the just t-a-l-k-s-h-o-w and you will save ten percent off and when you do that you could
+[01:35:12.640 --> 01:35:16.640]  pay for a whole year in advance save ten percent on a whole year of hosting at Squarespace with
+[01:35:16.640 --> 01:35:24.080]  code talk show all right I guess we should talk more about this actual laptop that I'm talking
+[01:35:24.080 --> 01:35:29.360]  to you on now yeah what's there to say I'm going to try something okay here's what I want to try
+[01:35:29.360 --> 01:35:35.600]  so the so the keyboard being fixed that to me this in order here's here's to me that the new
+[01:35:35.600 --> 01:35:41.600]  the story of the new MacBook in order the keyboard totally fixed I love it I really like this keyboard
+[01:35:41.600 --> 01:35:49.600]  now when I go back to my 2015 which is my personal one I actually I feel how jiggly all the keys are
+[01:35:50.320 --> 01:35:55.200]  like they've they've kept that stability of the key caps from the butterfly keyboard
+[01:35:55.200 --> 01:36:01.840]  but put it into a nice squishy scissor key mechanism I think you're gonna like it uh
+[01:36:01.840 --> 01:36:06.240]  you haven't tried one right because it just hit the stores yesterday yeah are they in stores now
+[01:36:06.240 --> 01:36:12.480]  yeah okay yeah uh well they might be in stores and I know that if you pre-ordered on Wednesday
+[01:36:12.480 --> 01:36:17.520]  some people started getting them yesterday you're gonna like it I think uh it definitely
+[01:36:17.520 --> 01:36:22.640]  feels better than a butterfly keyboards and even just like the magic keyboard the external keyboard
+[01:36:22.640 --> 01:36:29.680]  right or yeah with less travel yeah but I think the keys even feel a little bit more stable though
+[01:36:29.680 --> 01:36:35.520]  because maybe because they don't move a lot um it just has a good feel that has the same really nice
+[01:36:35.520 --> 01:36:40.160]  backlighting that doesn't bleed around the edges from the recent keyboards you know like now I look
+[01:36:40.160 --> 01:36:44.720]  at my 2015 MacBook and I'm like that looks kind of cheap the way the backlighting bleeds out from
+[01:36:44.720 --> 01:36:50.640]  around all the keys I love the new arrow key layout I'm hung up on that I could never get
+[01:36:50.640 --> 01:36:55.360]  used to the full height left and right arrow keys are you are you a person who cared about
+[01:36:55.360 --> 01:37:02.640]  that I don't think I use the arrow keys enough to get upset about it I mean I have um like
+[01:37:03.760 --> 01:37:07.920]  my other my other computers I think that I do when I'm doing arrow stuff it's more
+[01:37:08.560 --> 01:37:12.480]  um on different keywords yeah it's never it's not really bothered me I've never really like
+[01:37:12.480 --> 01:37:18.880]  fully understood that complaint but I respect it I I could never get used to it I have a friend
+[01:37:18.880 --> 01:37:24.560]  who's a system administrator uh and he was helping me with some stuff with during fireball this week
+[01:37:25.200 --> 01:37:30.720]  um he's gonna buy one just to get it um because he and he's using yeah he uses the arrow keys
+[01:37:30.720 --> 01:37:35.040]  all day every day like at the command line like to go up and down between previous commands and
+[01:37:35.040 --> 01:37:42.560]  stuff like that as well as a uh big is this is a big pet peeve for him at all yeah I so I think
+[01:37:42.560 --> 01:37:47.920]  there's people there's a lot of people who didn't really care and the everybody who did care hated
+[01:37:47.920 --> 01:37:54.480]  the the other layout right so everybody who cares wants the upside down t uh and everybody who was
+[01:37:54.480 --> 01:38:00.480]  like the other one was fine I I found like one guy on twitter who was arguing with me that the
+[01:38:00.480 --> 01:38:06.960]  the new one was better I've and his his logic was that because the left and right keys are
+[01:38:06.960 --> 01:38:13.360]  used more often than up down therefore they should be bigger but it's I don't even know where to
+[01:38:13.360 --> 01:38:20.000]  start with it personal no and the worst part is I know I talked to someone at apple like I know
+[01:38:20.000 --> 01:38:24.320]  that you know how they talked about how they did like all this user testing about like we put
+[01:38:24.320 --> 01:38:28.560]  different keyboard prototypes in front of people and and then like photographed you know they're
+[01:38:28.560 --> 01:38:33.280]  accurate you know like they used video they did real testing to figure out what what makes people
+[01:38:33.280 --> 01:38:40.480]  make less mistakes well that is true they did do that testing but the thing that apple didn't say
+[01:38:40.480 --> 01:38:46.960]  last week in the publicity for this device is that something that they have done for like 25 years
+[01:38:46.960 --> 01:38:52.000]  and never stopped and have always done like they've always done serious testing on things
+[01:38:52.000 --> 01:38:59.280]  like that and so they had all the data about how making the key caps too big and decreasing the
+[01:38:59.280 --> 01:39:06.160]  travel and using this different arrow key design they had the data that showed that it made people
+[01:39:06.160 --> 01:39:11.360]  slightly just you know how much less efficient how many more errors I don't know but that there
+[01:39:11.360 --> 01:39:16.320]  was slightly more errors and less efficiency they knew that when they shipped the keyboards
+[01:39:16.320 --> 01:39:23.280]  that had those designs so I mean I find it so like what is the advantage of this of this one with the
+[01:39:23.280 --> 01:39:29.920]  fat left right key is like it just looks it sort of like squares out the entire layout that seems
+[01:39:29.920 --> 01:39:37.040]  to be the only thing which is not not doesn't seem worth at all the trade-off of it seems like a
+[01:39:37.040 --> 01:39:44.800]  silly decision yeah it's like it's it's sort of like you know like oh this is a terrible analogy
+[01:39:44.800 --> 01:39:49.360]  but it's like if you have a gap in your teeth it's like well you can at least fit a toothpick in
+[01:39:49.360 --> 01:39:53.680]  there you know like I don't know you know what I mean like sure it doesn't look as good and
+[01:39:53.680 --> 01:39:58.640]  aesthetically you should go to an orthodontist and get it fixed but there's a you know maybe
+[01:39:58.640 --> 01:40:03.760]  a functional aspect of it I don't know there's a functional aspect to these to the gaps there
+[01:40:03.760 --> 01:40:07.600]  the keyboard it's just better I don't want to spend more time on this it really I really do
+[01:40:07.600 --> 01:40:12.560]  think it's fixed I would wager money that the reliability issues are gone too because it truly
+[01:40:12.560 --> 01:40:18.400]  is an all-new mechanism scissor keys even though they have less travel than they used to never seem
+[01:40:18.400 --> 01:40:26.800]  to have been bothered by bits of dust or dandruff I mean I can't pick it up it was just never
+[01:40:26.800 --> 01:40:33.600]  something I ever thought about with a computer before it's like I never thought I never I never
+[01:40:33.600 --> 01:40:39.120]  thought I would use the word egress as much as I have in the last few years and I don't even
+[01:40:39.120 --> 01:40:43.680]  write massively about the keyboard anyway number one story the keyboard is an all-new design it
+[01:40:43.680 --> 01:40:49.120]  feels better I think it's going to be more reliable I like it number two this is the part
+[01:40:49.120 --> 01:40:54.880]  out of left field I just wasn't even on my radar or something Apple might do the speakers on this
+[01:40:54.880 --> 01:41:03.280]  thing are amazing they are my analogy my first thoughts on it I compare it to going from a non
+[01:41:03.280 --> 01:41:11.600]  retina display to a retina display it is that different side by side with like the 15-inch
+[01:41:11.600 --> 01:41:16.960]  macbook pro that this replaces it is a it is totally credible that you could be in like a
+[01:41:16.960 --> 01:41:24.320]  typical small like living room and use this laptop as the speaker to entertain guests and have music
+[01:41:24.320 --> 01:41:32.800]  playing it does not sound like a laptop it sounds like a home pod junior it it really it is
+[01:41:32.800 --> 01:41:36.320]  absolutely astounding and it just came out to me it came out of left field because I never heard
+[01:41:36.320 --> 01:41:43.120]  anybody say boy I sure wish my laptop had better speakers but they it's really night and day it is
+[01:41:43.120 --> 01:41:48.880]  like and again going from non retina to retina to me is the difference because it's like I feel like
+[01:41:48.880 --> 01:41:56.560]  with iPhones the iPhones have surprisingly good speakers and I don't use them much because you
+[01:41:56.560 --> 01:42:03.600]  know it in most contexts it feels rude to be playing the audio through your iPhone like you
+[01:42:03.600 --> 01:42:09.680]  know like if you're out in public but when you do want to listen to a video and have it play through
+[01:42:09.680 --> 01:42:15.120]  the speakers the iPhone is at this point surprisingly good if you really pay attention
+[01:42:15.120 --> 01:42:23.680]  to it but it's been like a incremental thing where for 11 years every year they've made the speakers
+[01:42:23.680 --> 01:42:27.760]  slightly better slightly better slightly better slightly better and now we've gotten to a point
+[01:42:27.760 --> 01:42:32.080]  where yeah if you compare this one against a phone an iPhone from seven years ago the speaker
+[01:42:32.080 --> 01:42:37.600]  difference is night and day you can really hear it it there was never one year where the iPhones
+[01:42:37.600 --> 01:42:44.160]  or the iPads had like a huge increase whereas with this macbook pro the speakers are
+[01:42:44.160 --> 01:42:49.520]  absolutely amazing I don't even know how much I use them I mean it's like I don't even know like
+[01:42:49.520 --> 01:42:54.080]  when's the last time I played stuff through the speakers on my laptop I usually just play through
+[01:42:54.080 --> 01:42:59.120]  headphones but now I'm like that's why I'm kind of like what what is the significance I mean I
+[01:42:59.120 --> 01:43:06.080]  I will do it let's see if I'm like doing uh dishes or some house tours I might like prop
+[01:43:06.080 --> 01:43:12.000]  the computer somewhere and play a show through it all right and that that is I mean I'm telling you
+[01:43:12.000 --> 01:43:16.480]  I mean I'm telling you right now and I really I hope they bring these to all the macbook pros
+[01:43:16.480 --> 01:43:22.880]  these speakers that it's so much more credible with this like yeah just playing a show while
+[01:43:22.880 --> 01:43:28.160]  you're doing dishes or preparing dinner or something like that it it's really amazing
+[01:43:28.720 --> 01:43:34.240]  for a year over year you know generation over generation difference it is a totally different
+[01:43:34.240 --> 01:43:43.120]  experience I can't emphasize enough how much better it is Shruti I forget her last name but
+[01:43:43.120 --> 01:43:53.040]  she was the product manager for the macbook pros at Apple was on Jason Snell's podcast upgrade and
+[01:43:53.040 --> 01:43:58.880]  he did a fantastic interview with her after this event and he asked her about it like what exactly
+[01:43:58.880 --> 01:44:04.640]  is the use case for um putting good speakers in this and she goes well here's one that's very
+[01:44:04.640 --> 01:44:10.240]  common let's say you're a film editor and you're working on a movie or a commercial or something
+[01:44:10.240 --> 01:44:15.360]  like that and you've got a scene and the director comes over and standing right over your shoulder
+[01:44:15.360 --> 01:44:21.360]  and you want to show it here you just hit the space bar to play the thing having better sound
+[01:44:21.360 --> 01:44:27.120]  is you know way more it's really important in that scenario because you don't you can't use
+[01:44:27.120 --> 01:44:31.680]  headphones because you're sharing it with somebody else it's a colleague and you know those little
+[01:44:31.680 --> 01:44:36.960]  interactions between like a film editor and a director happen you know thousands of times in
+[01:44:36.960 --> 01:44:43.040]  the production of a film and so having better sound could make a difference totally for some
+[01:44:43.040 --> 01:44:52.800]  people the other thing they said was that they've increased they've totally redone the internal
+[01:44:52.800 --> 01:45:01.280]  microphone and if it's much better it's like a three microphone array uh and that they even said
+[01:45:01.280 --> 01:45:06.880]  it's studio quality and that you could use it even to record podcasts which sounds like a bold claim
+[01:45:06.880 --> 01:45:13.920]  so here's what i'm going to try right now no i have up here to four on this show i've been
+[01:45:13.920 --> 01:45:21.360]  talking to you through the sure beta 87a microphone that i've been using for the last
+[01:45:21.360 --> 01:45:26.240]  several years on this show but what i'm going to do right now is i'm going into skype preferences
+[01:45:34.240 --> 01:45:36.640]  i haven't done it yet in
+[01:45:39.200 --> 01:45:41.360]  three two one
+[01:45:43.680 --> 01:45:50.560]  on the internal microphone do i sound different yes you do all right so that proves that it worked
+[01:45:50.560 --> 01:45:57.360]  it didn't interrupt the skype call actually it's interesting we were talking about you were having
+[01:45:57.360 --> 01:46:06.800]  some like a staticky on the um the other one but at least but um this one no static but you can hear
+[01:46:07.680 --> 01:46:16.880]  the room around you a lot more it's a little like echolier huh i think huh that is worrisome i
+[01:46:16.880 --> 01:46:25.840]  suspect that there might be some bad well we'll see uh but anyway i'm talking on the internal now
+[01:46:25.840 --> 01:46:30.800]  i'll do the rest of the show right here we don't have much more to go um but i think that's
+[01:46:30.800 --> 01:46:35.520]  interesting i'm talking at about the same distance that i would be from the screen if i were just
+[01:46:35.520 --> 01:46:45.280]  like typing on the keyboard right now or doing like a uh uh uh like a facetime call i mean it
+[01:46:45.280 --> 01:46:50.160]  sounds fine it sounds even good but like i definitely i do hear a difference it's not
+[01:46:50.160 --> 01:46:57.920]  it's not the shore yeah so uh and that to me is it there's performance increases that i'm not
+[01:46:59.120 --> 01:47:04.960]  here's my question okay where i've been disappointed by computers and particularly
+[01:47:04.960 --> 01:47:10.720]  the macbook air with this uh how is the webcam because the webcam and the macbook air is a garbage
+[01:47:10.720 --> 01:47:16.000]  you know i'd so bad i didn't test it i honestly don't know i'm looking at it because the skype
+[01:47:16.000 --> 01:47:23.200]  preferences shows it to me uh i don't know i'm guessing it's not that good i'm guessing it might
+[01:47:23.200 --> 01:47:29.920]  be as good as the macbook it's interesting because it's not like a uh sort of killer app for the
+[01:47:29.920 --> 01:47:37.760]  computer i feel like it's like a utility thing but um it's just so it's it's shockingly bad in
+[01:47:37.760 --> 01:47:45.200]  the macbook air really bad it's like a 640 by 480 not literally but it's it's just yeah breathtaking
+[01:47:45.200 --> 01:47:51.520]  like awful yeah and i recall it's better in the pros that's all yeah maybe it's a little better
+[01:47:51.520 --> 01:47:56.000]  i think that the problem is that they back themselves into the this physical corner where
+[01:47:56.000 --> 01:48:01.440]  they want the display to be so ultra thin and therefore there's even compared to like a phone
+[01:48:01.440 --> 01:48:06.960]  there's way less thickness you know the the top of the macbook pro display is way thinner than
+[01:48:06.960 --> 01:48:12.640]  an iphone so there's just no room for a bigger better camera gotcha yeah i don't think it's that
+[01:48:12.640 --> 01:48:19.600]  great any other questions that you have about the the new macbook i think the only thing left is
+[01:48:19.600 --> 01:48:24.560]  what is their schedule for the next year for rolling this out you know across the rest of
+[01:48:24.560 --> 01:48:32.640]  the product line i know all right i wonder all right let's call it a wrap everybody
+[01:48:32.640 --> 01:48:39.200]  can follow you on twitter at casey johnston it's a great twitter follow right now you work at vice
+[01:48:39.200 --> 01:48:45.360]  as the life editorial director that's correct you can find me how's it going
+[01:48:46.800 --> 01:48:51.840]  it's pretty good i mean i'm writing my column as well for vice ask a small woman and that's
+[01:48:51.840 --> 01:48:57.360]  that's going really well right um but it's great i've been i hired a whole team and they're really
+[01:48:57.360 --> 01:49:01.680]  firing on all cylinders i'm so proud of them and they're really fun to work with right and i'm
+[01:49:01.680 --> 01:49:07.360]  having great time and so your your your ask a small woman column is your column where you take
+[01:49:07.360 --> 01:49:12.400]  questions and answers from well anybody but obviously from the perspective of a woman but
+[01:49:12.400 --> 01:49:17.520]  you you're a weightlifting and enthusiast people asking questions like hey what how do i pick a gym
+[01:49:17.520 --> 01:49:24.400]  right that was like one of your recent columns yes yeah it's just stuff about uh it's sort of
+[01:49:24.400 --> 01:49:30.000]  refracted through the lens of like lifting weights but broadly about uh people's relationship with
+[01:49:30.000 --> 01:49:36.800]  their bodies and food and exercise and like how to sort of get that part of your life in order and
+[01:49:36.800 --> 01:49:44.240]  feel okay about it and approach it in a way that's sane and not subscribing to a lot of prejudices
+[01:49:44.240 --> 01:49:48.800]  people have about themselves and what they can or should be doing when it comes to exercise
+[01:49:49.520 --> 01:49:53.280]  and you've been you've been writing that column at various publications now for
+[01:49:53.280 --> 01:49:58.240]  at least like three years right yeah it's been a little over three years now yep hairpin and then
+[01:49:58.240 --> 01:50:05.040]  self and now vice well that's great thank you for being here i could not have asked for a more
+[01:50:05.680 --> 01:50:10.400]  point on guest to talk about these goddamn keyboards than you
+[01:50:12.000 --> 01:50:16.480]  yes thank you it was fun well and thank you honestly i mean it from the bottom of my heart
+[01:50:16.480 --> 01:50:23.040]  for for sort of popping the bubble years ago and and yeah doing the work that you did on the
+[01:50:23.040 --> 01:50:29.200]  keyboard yeah cool thank you

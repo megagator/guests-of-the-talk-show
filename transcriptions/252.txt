@@ -1,0 +1,1407 @@
+[00:00.000 --> 00:08.440]  Hi, john. It's been a while. Oh, so here we go. Special episode. This is a very special
+[00:08.440 --> 00:15.420]  episode of the talk show. And I it's not just one guest. It's three. It's panic co founders
+[00:15.420 --> 00:20.780]  cable Sasser and Stephen Frank, no strangers to being guests together on this show. And
+[00:20.780 --> 00:27.020]  first time guest, Greg Maletic. Hello, everybody. Hey, john. How are you? Thanks. Thanks for
+[00:27.020 --> 00:36.320]  having us. Hello. We are here to talk about the most exciting piece of hardware and handheld
+[00:36.320 --> 00:45.000]  handheld gaming in years. Just today, Apple released an update to the iPod touch. Are
+[00:45.000 --> 00:53.560]  you guys excited? Finally? Sure. I think it's a great platform to be honest. I thought touch.
+[00:53.560 --> 01:00.040]  Yeah, yeah, it is really nice. So I think that it is exciting. I of course am kidding.
+[01:00.040 --> 01:04.880]  We're here to talk about playdate. But the iPod touch is new. We could briefly touch
+[01:04.880 --> 01:10.560]  on it. It's a it's, it is such isn't it such an oddball device? Like it obviously must
+[01:10.560 --> 01:15.680]  sell in high enough quantities that they don't get rid of it, right? Like they don't sell
+[01:15.680 --> 01:20.400]  old spin wheel click wheel iPods anymore, right? At some point, people stop buying them
+[01:20.400 --> 01:25.360]  and Apple stop making them. They're not they don't keep making things for nostalgic purposes.
+[01:25.360 --> 01:30.640]  But on the other hand, they didn't update it in four years, which is a long time. Do
+[01:30.640 --> 01:34.920]  they make any other iPod product right now? Do they still make the nothing else? Right?
+[01:34.920 --> 01:40.480]  There's no nano there's no shuttle. So the iPod touch is the last remaining iPod. Yeah.
+[01:40.480 --> 01:44.680]  And then when the nano and shuffle existed, that was even weirder because there was like
+[01:44.680 --> 01:51.520]  that clone OS of iOS. Like somebody has to work on this every day. That always seems
+[01:51.520 --> 01:56.680]  super strange to me. But I think the iPod touch is really cool. I don't it's a great
+[01:56.680 --> 02:01.800]  size. I mean, an iPad Mini is the closest thing to it. True, huh? But that's too big
+[02:01.800 --> 02:07.200]  for some cases. Yeah. And and it's always surprisingly thinner than whatever the state
+[02:07.200 --> 02:14.240]  of the art iPhone is. I remember and I've told this story before, but at some point,
+[02:14.240 --> 02:19.560]  I'm pretty sure it was a WWDC but it was something at at Moscone West. It was an Apple keynote,
+[02:19.560 --> 02:22.600]  they let the press in, it was like an hour before they were going to open the doors and
+[02:22.600 --> 02:27.200]  let us go into the theater and take our seats and we're mingling about and they have, you
+[02:27.200 --> 02:34.240]  know, coffee and Danish, whatever. So that pegs it in my mind, whenever this anecdote
+[02:34.240 --> 02:39.760]  take place, it was sometimes at sometime after Steve Jobs passed. And Tim Cook was the CEO
+[02:39.760 --> 02:46.240]  is probably early because when when Steve was in charge, the press got nothing. We got,
+[02:46.240 --> 02:51.360]  we got absolutely nothing. We just sat and then they dropped a rope and then we we'd
+[02:51.360 --> 02:57.200]  scramble it. We got no coffee to get nothing. So it's sometime in the in the cook here.
+[02:57.200 --> 03:01.720]  And we're mingling about and I saw this guy with the most it was clearly he was talking
+[03:01.720 --> 03:05.960]  or he was holding it up to his face somehow like I don't know if he was doing like a FaceTime
+[03:05.960 --> 03:13.840]  or what. But it was clearly like not any existing iPhone. It I was like, what kind of a madman
+[03:13.840 --> 03:19.240]  from Apple is using like this crazy super thin prototype. This is amazing. Right? I
+[03:19.240 --> 03:25.920]  got closer and I realized, oh, it's an iPod touch. I was like, wow, if that was an iPhone,
+[03:25.920 --> 03:31.360]  people would would crap their pants. Yeah, that'd be pretty sweet, actually. Anyway,
+[03:31.360 --> 03:35.480]  I mean, yeah, it's a it's a real market of an iPhone without the cell connection. That's
+[03:35.480 --> 03:40.480]  a thing to me. For sure. How do you feel about the announcement? john? Are you excited? No,
+[03:40.480 --> 03:44.320]  not really. I've never bought one. It's like one of the only iOS devices I've never bought.
+[03:44.320 --> 03:47.600]  I've never had a purpose for it. And it was like I wrote on during fireball today. Like
+[03:47.600 --> 03:51.720]  I think I don't know, I'm just pulling this out of my own observation from friends and
+[03:51.720 --> 03:55.360]  family and what I see at airports. It seems to me like in the early years, people bought
+[03:55.360 --> 04:02.480]  them for their kids. And in recent years, kids get hand me down iPhones. And instead,
+[04:02.480 --> 04:06.060]  you know, like, I don't really see kids with the iPod touch anymore. What I see is kids
+[04:06.060 --> 04:12.960]  with an old iPhone in like an otterbox case. So I guess the question is, who's buying the
+[04:12.960 --> 04:18.200]  iPod touch? Yeah, I don't know. Somebody told me and again, it's anic data. It's not it.
+[04:18.200 --> 04:22.460]  I can't prove it. But somebody told me a while ago on DM that a ton of them get sold for
+[04:22.460 --> 04:26.960]  like industrial purposes, you know, like Amazon, Amazon warehouse. I don't know if Amazon particular
+[04:26.960 --> 04:35.720]  does it but like scanning things in a warehouse, hospitals use them for like, secure. You know,
+[04:35.720 --> 04:39.280]  like nurses can just take one around and then they can get all sorts of stuff on it instead
+[04:39.280 --> 04:45.120]  of carrying a full iPad, all sorts of industrial purposes like that, which are no fun. So Apple
+[04:45.120 --> 04:52.160]  still like on the product page is still talking about like AR games and music, you know, listening
+[04:52.160 --> 04:55.280]  to music, but that it's really just like a bunch of like doctors and people who work
+[04:55.280 --> 04:59.480]  in factories and stuff like that. I think Apple still uses them in the stores, right?
+[04:59.480 --> 05:03.240]  Yeah, I think that might be true with the with the thing on the back that allows them
+[05:03.240 --> 05:06.960]  to do the card scanning and everything. Yeah, that's right. All right, so they're making
+[05:06.960 --> 05:14.780]  it for themselves. I understand that. Well. All right, there we go. Here's iPod touch.
+[05:14.780 --> 05:18.880]  The only other thing I could think to talk about is Apple last week announced the they've
+[05:18.880 --> 05:24.580]  got a new third and a half generation MacBook Pro keyboard with these speed bumps. Cable
+[05:24.580 --> 05:30.400]  Am I misremembering that you actually like the feel of the new these new keyboards? Is
+[05:30.400 --> 05:36.300]  that no, you're totally right. 100% I love the keyboards. I feel like I can type extremely
+[05:36.300 --> 05:41.280]  quickly on them with their like, super tippy tappy action. And that's the technical term
+[05:41.280 --> 05:47.400]  for it. And I think they're great. And unbelievably, I have never had a problem with them. But
+[05:47.400 --> 05:52.280]  it is very clear that one cannot say well, it works for me. Therefore, it's fine. Lots
+[05:52.280 --> 05:57.840]  of people clearly have had incredible problems with this keyboard. How do you feel about
+[05:57.840 --> 06:02.800]  that? Do you do you not like the shallow action? I so the most time I spent with it was last
+[06:02.800 --> 06:07.360]  summer when in July when then when the then new MacBook Pros came out and I got a review
+[06:07.360 --> 06:15.240]  unit from Apple and it was a 15 inch and I I used it exclusively for six weeks I didn't
+[06:15.240 --> 06:19.680]  use my didn't touch my Mac didn't touch my or I mean barely touched my personal MacBook
+[06:19.680 --> 06:24.440]  Pro only like if there's like some oddball thing that's only on that device I'd copy
+[06:24.440 --> 06:29.400]  it over but for the most part I did six weeks nonstop work using it and within a week I
+[06:29.400 --> 06:34.580]  got used to it I think it's fine I think all I think all laptop keyboards have certain
+[06:34.580 --> 06:38.920]  trade offs and once you get used to that shallow throw it is kind of fun to click and I can
+[06:38.920 --> 06:45.200]  see how you go faster yeah and again I didn't have any problems although I did tweet I tweeted
+[06:45.200 --> 06:49.680]  last summer it was like I don't know two two and a half weeks into the six week period
+[06:49.680 --> 06:57.800]  my e key got stuck I wiggled it it got unstuck and it never got stuck again so one time the
+[06:57.800 --> 07:03.440]  e got like wedged under the aluminum I wiggled it it got unstuck never a problem again I
+[07:03.440 --> 07:07.820]  used it for another three and a half weeks and someone from Apple PR was on vacation
+[07:07.820 --> 07:10.880]  at the time because it was like end of July or something so like two weeks later I got
+[07:10.880 --> 07:17.360]  like a oh my god oh my god I just got back from vacation is that keyboard all right and
+[07:17.360 --> 07:21.200]  I was like oh yeah yeah it was like I guess you saw that tweet but you know I wiggled
+[07:21.200 --> 07:26.200]  it it got unstuck hasn't been a problem since and they were like oh thank god does it seem
+[07:26.200 --> 07:30.040]  weird I've never had any of the stuck key problems or anything does it seem weird that
+[07:30.040 --> 07:36.240]  always seems to be the e key yeah that's right yeah I think it's clearly I think there was
+[07:36.240 --> 07:46.240]  a Dustin Egress problem at some point and I feel like this membrane novel Dustin Egress
+[07:46.240 --> 07:58.080]  problem sorry what's the name of the author of the series of books in Firewatch oh Richard
+[07:58.080 --> 08:03.440]  Sturgeon Richard Sturgeon oh of course I should have gone with a Richard Sturgeon reference
+[08:03.440 --> 08:09.280]  but yes no Dustin Egress wouldn't work as one of those titles but it's Dustin Egress
+[08:09.280 --> 08:17.700]  now sounds like a special agent to me yeah Dustin Egress yes clearly he has a problem
+[08:17.700 --> 08:23.800]  I do think they had a Dustin Egress problem that could be fixed with spray cans of compressed
+[08:23.800 --> 08:30.640]  air which is ridiculous really ridiculous for it is a premium product hold it upside
+[08:30.640 --> 08:34.980]  down and like that support page is almost comical they're like hold it at a 65 degree
+[08:34.980 --> 08:43.960]  angle and the zigzag somehow Dustin specifically attacks the e key right no but but lately
+[08:43.960 --> 08:50.440]  when I see people complaining about it it's clearly the most used keys it's e it's the
+[08:50.440 --> 08:59.080]  spacebar it's clearly some kind of durability issue and so I you know I'm optimistic that
+[08:59.080 --> 09:05.040]  this quote unquote material change you know might might might do the trick some things
+[09:05.040 --> 09:09.880]  where I think something wears out or breaks upon smacking it or whatever we'll have to
+[09:09.880 --> 09:15.600]  say that I can't help but feel a sense of empathy now because there's nothing more potentially
+[09:15.600 --> 09:21.200]  terrifying than shipping your thing to hundreds of thousands of people and then the emails
+[09:21.200 --> 09:25.520]  start to trickle in like hey what's up with my keyboard like now I could only just be
+[09:25.520 --> 09:32.760]  like oh please don't be my future what's up with my d-pad I can't go up yes we're gonna
+[09:32.760 --> 09:40.320]  convert our office into a repair depot anyways so uh I sympathize with you apple I hope that
+[09:40.320 --> 09:44.760]  you have solved this problem all right that's over there we got my good karma yes there
+[09:44.760 --> 09:50.840]  we go apple news out of the way forget about it let's talk about our little yellow friend
+[09:50.840 --> 09:57.240]  playdate yes uh this is amazing when did you guys announce it this is all a blur to me
+[09:57.240 --> 10:01.600]  it was sometime last week my god it's wednesday to me as well so it hasn't even been a week
+[10:01.600 --> 10:06.600]  yet all right dear god we're recording on tuesday the show will probably be out tomorrow
+[10:06.600 --> 10:12.880]  wednesday so a week later yeah uh what kind of a week have you had I mean it's just it's
+[10:12.880 --> 10:21.080]  hard it's I can barely uh it was beyond I think anything that we could have imagined
+[10:21.080 --> 10:26.560]  and the struggle with working on this project the entire time has been not knowing if a
+[10:26.560 --> 10:31.480]  hundred people are gonna care about this or a thousand people will care about it um you
+[10:31.480 --> 10:34.920]  know we're not doing focus testing because we can't because it would spoil the surprise
+[10:34.920 --> 10:39.600]  and we wouldn't even know how to do that even if we wanted to uh you know we're just flying
+[10:39.600 --> 10:46.960]  blind on this project so to have it be announced to have it immediately picked up by all of
+[10:46.960 --> 10:53.400]  these outlets and seem I mean of course there's some skeptics which I get like it's not you
+[10:53.400 --> 10:59.680]  know for everybody but to know that we seem to be reaching the people for whom it's for
+[10:59.680 --> 11:04.720]  has felt extremely good and the first hint I got of maybe this is gonna work out slightly
+[11:04.720 --> 11:12.680]  okay was when I first showed the device to jen who wrote the edge feature about playdate
+[11:12.680 --> 11:19.560]  which maybe you'll want to mention yeah well tell me about that how so that was at e3 you
+[11:19.560 --> 11:23.640]  guys weren't it says there's a bit of you know sort of you are there style reporting
+[11:23.640 --> 11:26.800]  in inner state it says that you guys were in san francisco and you're like trying to
+[11:26.800 --> 11:32.200]  try to find a place where you can show her this thing it was incredibly awkward but perfect
+[11:32.200 --> 11:37.640]  so this is during gdc and you have to understand that i've been reading e3 gd yes i've been
+[11:37.640 --> 11:42.560]  i've been reading edge magazine for literally ever i have the premiere issue of it here
+[11:42.560 --> 11:48.280]  in the office with you know still in its little plastic baggie because i'm a huge nerd and
+[11:48.280 --> 11:56.200]  um when i reached out to them just kind of on a lark before going to gdc and they naturally
+[11:56.200 --> 11:59.820]  assumed that i was would be talking about a new game maybe like a follow-up to untitled
+[11:59.820 --> 12:05.960]  goose game or whatever we're doing next and so yes this comical farce you know jock tati
+[12:05.960 --> 12:10.440]  movie scene began where we're going from building to building and location to location and i'm
+[12:10.440 --> 12:15.520]  trying to figure out where at gdc am i gonna produce this thing from my pocket and not
+[12:15.520 --> 12:21.480]  totally ruin it for everybody and we ended up of all places on like a back stairwell
+[12:21.480 --> 12:28.320]  of the metreon which i felt was kind of an amazing uh and yet appropriate place for this
+[12:28.320 --> 12:34.720]  weird device that also feels uh not from the past but also not from the future and you
+[12:34.720 --> 12:41.120]  know and uh she just couldn't believe it which was great because you know uh the one of the
+[12:41.120 --> 12:44.120]  best things about it is being able to do this shirt pocket reveal where you just you know
+[12:44.120 --> 12:50.120]  pull it out of your shirt pocket and uh yeah she lost her mind and within 15 minutes of
+[12:50.120 --> 12:54.200]  talking to her uh she's like boy i think we might even want to put this on the cover and
+[12:54.200 --> 13:01.400]  of course you know i'm trying to like hold it in and play mr cool yes tell me a little
+[13:01.400 --> 13:05.640]  bit about edge magazine i'm not a gamer i've been out of video games for the most part
+[13:05.640 --> 13:12.680]  for years so i've heard of it but it has a rarefied status it does gaming i mean even
+[13:12.680 --> 13:17.960]  when there were multiple video game magazines and today there are not like there i mean
+[13:17.960 --> 13:25.440]  in the u.s newsstands i think the total may be zero uh the uk still somehow can still
+[13:25.440 --> 13:30.740]  you know uh sustain a magazine industry which i which i've always been told is because distribution
+[13:30.740 --> 13:34.680]  is really simple you just put all the magazines on a train and the train goes down the center
+[13:34.680 --> 13:40.440]  of the country and that's you know that's all there is to it uh it's just always been
+[13:40.440 --> 13:45.800]  sort of the rarefied is a good way to put it they sort of cover the artistic side of
+[13:45.800 --> 13:51.900]  gaming the uh they always do in-depth interviews with creators like it's not just uh here's
+[13:51.900 --> 13:55.720]  the new game coming from rockstar and we gave it a nine out of ten or whatever right and
+[13:55.720 --> 14:01.400]  so um i've always looked up to that magazine and so to have that come full circle uh for
+[14:01.400 --> 14:05.880]  me as a reader i even believe i sent a letter to the editor at one time when i was like
+[14:05.880 --> 14:10.320]  in college or high school which is really embarrassing to admit um they totally printed
+[14:10.320 --> 14:16.520]  it and for that to come full circles just was just completely my it's print only which
+[14:16.520 --> 14:22.000]  blows my mind right i didn't even know that was possible right but they're doing it and
+[14:22.000 --> 14:27.640]  when we were you know we're like so does this article show up online later no but you can't
+[14:27.640 --> 14:33.640]  so the the the asterisk on that is that they are part of apple news plus correct and so
+[14:33.640 --> 14:39.160]  if you want to read it and you don't want to find a print edition which might be hard
+[14:39.160 --> 14:44.160]  to do in the us you can sign up for apple news plus and get it there uh and read it
+[14:44.160 --> 14:51.680]  in the wonderfully convenient apple news application there's nothing like zoom in a pdf on an iphone
+[14:51.680 --> 14:57.480]  so here's my little aside on that so you sent me a pdf of the article in advance so i'd
+[14:57.480 --> 15:03.680]  read it and i'm reading it again and i i remembered that there was something about using you guys
+[15:03.680 --> 15:10.220]  that ran into a problem with going diagonal on an uptown left right d-pad and so i wanted
+[15:10.220 --> 15:15.560]  to find that and it's a long story it is a it's like 30 pages i mean a lot of it is photos
+[15:15.560 --> 15:19.160]  there's two page spreads of wonderful wonderful i mean that's one thing about this magazine
+[15:19.160 --> 15:24.440]  it is gorgeous it is gorgeous photography it is an incredibly well-written story by
+[15:24.440 --> 15:30.200]  jen simpkins it's not just like oh hey you guys are getting this unbelievable promotional
+[15:30.200 --> 15:38.320]  value in arguably the most uh revered game magazine in the world uh right now it's it's
+[15:38.320 --> 15:43.800]  just a good article it's like it's a really well-written article i can't wait to read
+[15:43.800 --> 15:50.020]  it i'm really excited you still haven't read it i still haven't i'm trying to wait until
+[15:50.020 --> 16:00.440]  i can get the paper in my hands how do you not have the print version yet couldn't somebody
+[16:00.440 --> 16:08.080]  just fedex it to you that would have been nice it's a box of 500 we ordered a few issues
+[16:08.080 --> 16:14.120]  for the office you just get one in addition to that i should i should why spend all the
+[16:14.120 --> 16:20.360]  money on one more copy when we've got 500 coming anyways anyways i can't wait to read
+[16:20.360 --> 16:24.440]  it i'm glad to hear that it turned out good it's a really well-written article and i i
+[16:24.440 --> 16:28.440]  i wanted to look up this diagonal thing because i think i got it the wrong way i i read it
+[16:28.440 --> 16:32.560]  the first time as that you guys still didn't have diagonal movement working turns out i
+[16:32.560 --> 16:36.600]  misread it it's it was just that that was a tricky thing but anyway i'm in apple news
+[16:36.600 --> 16:45.680]  app and i hit command f to find diagonal and it just beeps is that because it's in a caption
+[16:45.680 --> 16:52.120]  no you can't search you can't find it all oh really yeah so you what you can do and
+[16:52.120 --> 16:56.440]  i tweeted this and of course it's tweet so i didn't really write it carefully you can
+[16:56.440 --> 17:02.940]  search in the sidebar for titles so if you search for edge you will find edge magazine
+[17:02.940 --> 17:07.440]  and a bunch of other magazines that have edge but that's only like a title search like if
+[17:07.440 --> 17:12.320]  if you want to find the word diagonal in this 30-page story you've literally got to do it
+[17:12.320 --> 17:19.480]  the old-fashioned way with your eyeballs there was like a two-day period where all the pdf
+[17:19.480 --> 17:23.840]  magazines and apple news just mysteriously disappeared and the entire list of magazine
+[17:23.840 --> 17:28.340]  you could read just shortened dramatically and for a second i thought oh maybe they just
+[17:28.340 --> 17:33.240]  like formally gave up and knew that this is not a good experience for reading things particularly
+[17:33.240 --> 17:38.920]  on an iphone but then they all came back so who knows what happened there anyway all right
+[17:38.920 --> 17:47.000]  i got now i got to carefully not spoil this magazine article for you no no it's okay you
+[17:47.000 --> 17:50.120]  can say anything you want about it i've seen a couple of things don't worry don't worry
+[17:50.120 --> 17:55.320]  about me all right but when when was gdc so when did you when did this magazine cover
+[17:55.320 --> 18:00.720]  story first come into end of oh man when did it go to gdc was that in march march or then
+[18:00.720 --> 18:08.800]  in march yep yeah so we had no intention actually of announcing this product at all until the
+[18:08.800 --> 18:14.000]  end of the year when it would go up for sale yeah but suddenly the opportunities seemed
+[18:14.000 --> 18:19.080]  so great that we were like well i guess we're doing this now then and it was time to design
+[18:19.080 --> 18:23.360]  and build a web page and like write all of our copy and like get our messaging figured
+[18:23.360 --> 18:28.080]  out so in a way that's been really nice because we've answered a lot of questions and we can
+[18:28.080 --> 18:33.880]  get a lot of feedback now before we actually go up for sale later so i think that strategy
+[18:33.880 --> 18:38.480]  accidentally turned out to be a really good idea i i've been i i was thinking it was march
+[18:38.480 --> 18:45.260]  because apple semi-frequently has you know product announcements in march and so i've
+[18:45.260 --> 18:52.700]  been in san francisco during gdc like like for like a rando ipad announcement or something
+[18:52.700 --> 19:00.920]  like that um a couple years you know just tends to coincide it is massive it is it is
+[19:00.920 --> 19:08.920]  seriously uh just almost staggeringly big conference and it's yeah and of course apple
+[19:08.920 --> 19:12.880]  always tells the press like six days before an event so like i'm like searching for hotels
+[19:12.880 --> 19:21.280]  and it's like it's like the the high is like 600 a night that's correct yeah i mean just
+[19:21.280 --> 19:26.000]  the fact that it absorbs every part of the convention center not just west you know i'm
+[19:26.000 --> 19:32.680]  used to wwc being tucked in that one little building but it is every single corner yeah
+[19:32.680 --> 19:36.180]  and you know and so i sympathize with this part of you trying to find a place to show
+[19:36.180 --> 19:41.740]  this because the other thing too is it's like i've gone out like you know for a drink or
+[19:41.740 --> 19:45.680]  something at the end of the day with a friend uh who just lives in san francisco just hey
+[19:45.680 --> 19:49.520]  let's meet up let's have a beer and everybody around us is talking about games they're all
+[19:49.520 --> 19:54.880]  clearly gdc attendees like you can't take yeah and i have to say playdate is not an
+[19:54.880 --> 20:01.200]  inconspicuous device no no there's no way to hide that and we didn't do a apple and
+[20:01.200 --> 20:06.600]  put it in like a funky weird pretend case or whatever yeah although we should have done
+[20:06.600 --> 20:10.760]  that that would be fun kind of amazing all right it's not too late yeah all right so
+[20:10.760 --> 20:14.220]  we've got our first little nugget here the first little nugget i was gonna ask is why
+[20:14.220 --> 20:18.260]  announce now and the answer seems to be because you had this opportunity to be on the cover
+[20:18.260 --> 20:24.160]  of edge you got it right and so instead of saying here's this thing you can order it
+[20:24.160 --> 20:28.960]  now you're saying here's this thing you can order it later in the year yeah please just
+[20:28.960 --> 20:34.480]  give us your email so that we know who to reach out to you it was not an easy decision
+[20:34.480 --> 20:39.400]  we talked about it a lot yeah because we had always been of the mind that we're not going
+[20:39.400 --> 20:45.140]  to tell anybody about this until like it's done because we always want to have that confidence
+[20:45.140 --> 20:49.580]  to go out to people and say yep we can definitely do this for you yep now we do have that confidence
+[20:49.580 --> 20:54.640]  to be fair but we have a few things to finish off still so it was a big decision yeah well
+[20:54.640 --> 21:02.360]  and i think everybody in our world is a bit unnerved by the air power thing yeah sure
+[21:02.360 --> 21:06.480]  everybody and i've talked to people at apple and people who work on totally different things
+[21:06.480 --> 21:11.960]  they are like there is like a serious like hey let's not let's cool it with the pre-announcements
+[21:11.960 --> 21:16.680]  like yeah and that was so weird because that was so unusual for apple and it's so ironic
+[21:16.680 --> 21:21.560]  that the one time they really did such an early announcement it bit him in the ass that's
+[21:21.560 --> 21:25.480]  i don't know that's there's a lesson there somewhere yeah well they did it with the iphone
+[21:25.480 --> 21:30.680]  too that's and that to me is the comparison to play date right so the the iphone was announced
+[21:30.680 --> 21:38.920]  in january 2007 at macworld expo uh and didn't ship until the very end of june so about six
+[21:38.920 --> 21:45.680]  months and by all reports they made a they had a lot of software left to write um because
+[21:45.680 --> 21:50.960]  if you remember the people who got hands-on i was not in that rarefied status at that
+[21:50.960 --> 21:55.840]  time so i didn't even i didn't i just got to look at it in the plexiglass like like
+[21:55.840 --> 22:00.160]  a regular schmo but the people who got the hands-on like half of the apps were just like
+[22:00.160 --> 22:04.040]  screenshots like you'd open the calculator and it was just it was just a screenshot of
+[22:04.040 --> 22:09.000]  what the calculator was going to look like sure sure um okay you're right so it's kind
+[22:09.000 --> 22:13.640]  of similar in a way and then there was other stuff too like in may or or at some point
+[22:13.640 --> 22:17.880]  like april or may i don't know if it was a press release or if it was just like the opening
+[22:17.880 --> 22:23.660]  statement for a quarterly finance thing but they announced apps like steve jobs announced
+[22:23.660 --> 22:27.160]  hey we've actually you know we're on pace we're gonna we're still gonna ship at the
+[22:27.160 --> 22:32.760]  end of june like we said but we've replaced the plastic screen with the gorilla glass
+[22:32.760 --> 22:38.480]  and it's like this is like going on in like may and it's like it's like holy shit that's
+[22:38.480 --> 22:43.320]  like that was the moment where i really it really dawned on me that this tim cook fellow
+[22:43.320 --> 22:48.240]  must be some sort of genius because how is that how is that possible right right right
+[22:48.240 --> 22:54.920]  uh so you know you're in good company there and i think that there's a similar um you
+[22:54.920 --> 23:00.300]  know that you guys wanted to have a surprise announcement you made a surprise announcement
+[23:00.300 --> 23:05.540]  maybe if you had waited until it was ready to ship that it might have leaked that's extremely
+[23:05.540 --> 23:09.960]  possible and i think we're all stunned that it didn't given the length of time it's been
+[23:09.960 --> 23:15.820]  a long time and particularly you know we've had to involve so many devs in making games
+[23:15.820 --> 23:19.920]  for this thing many of them didn't even work out uh there's nothing keeping those people
+[23:19.920 --> 23:25.560]  from leaking it so maybe it's just because you know you are looking for the next apple
+[23:25.560 --> 23:30.080]  leak right like that's what everybody wants to know but this is maybe so out there that
+[23:30.080 --> 23:36.040]  it wasn't enticing you know to anyone for any reason but um yes i think that would have
+[23:36.040 --> 23:39.720]  happened so i think it's really good that it worked out the way that it did you guys
+[23:39.720 --> 23:44.280]  do have like working prototypes though like you like when you showed it to jen you took
+[23:44.280 --> 23:50.520]  out a thing that turns on has games you can play but you have hundreds of them actually
+[23:50.520 --> 23:58.960]  yeah that's true they are everywhere all right why do you have so many of them just several
+[23:58.960 --> 24:04.120]  rounds of manufacturing just making sure everything is right the fit and finish and the pcb the
+[24:04.120 --> 24:11.600]  circuit board um it just takes a lot of revs to get this thing right and you know there's
+[24:11.600 --> 24:16.060]  been tests of various things we have some in the office where we tried different colors
+[24:16.060 --> 24:21.580]  and uh you know we're always experimenting with different stuff some we maybe redid the
+[24:21.580 --> 24:25.640]  design of the d-pad and the buttons a couple of times we've changed it because it was hard
+[24:25.640 --> 24:29.460]  to get that working properly and so we've changed that a few times and there's here's
+[24:29.460 --> 24:36.220]  the thing that sucks about hardware you just don't hit you know build and run and see if
+[24:36.220 --> 24:43.100]  your fixes work you have to call your factory in malaysia and fire up the line and uh wow
+[24:43.100 --> 24:48.040]  that has definitely been uh challenging for us to wrap our heads around it is i you know
+[24:48.040 --> 24:50.760]  i want to get into it but you know you guys come everybody knows you guys come from a
+[24:50.760 --> 24:55.080]  software background it is very different doing a build of software you know and when you
+[24:55.080 --> 24:59.600]  do a new build of software like oh we fixed a bug or you know there's this icon was was
+[24:59.600 --> 25:03.560]  two pixels off here i'll nudge it back over build and run you just throw the old build
+[25:03.560 --> 25:09.460]  in the trash it's just a bunch of ones and zeros that get de-referenced by the file system
+[25:09.460 --> 25:14.440]  like with hardware you end up apparently with hundreds of these things this is our life
+[25:14.440 --> 25:20.920]  every drawer is packed with prototype devices and i mean you know again to talk about the
+[25:20.920 --> 25:26.160]  difference like dave who really did software before he did the hardware for this project
+[25:26.160 --> 25:30.200]  talks a lot about how wild that is because you know then you're also factoring in like
+[25:30.200 --> 25:35.120]  weird physics into the equation and how you know you want to we all know how frustrating
+[25:35.120 --> 25:40.920]  it is in software when you can't reproduce a bug but at least there's a chance you could
+[25:40.920 --> 25:46.840]  reproduce a bug but with hardware i mean you don't know what happened with that solder
+[25:46.840 --> 25:52.640]  and that chip and who knows what's going on in that situation until you like take it all
+[25:52.640 --> 25:58.480]  apart and you know it's just a whole different level i i have such profound respect for what
+[25:58.480 --> 26:04.220]  apple manages to pull off with hardware truly it gives you a deep understanding of the intricacies
+[26:04.220 --> 26:08.440]  of that world once you try it yourself and i guess i could have seen it coming but we
+[26:08.440 --> 26:12.280]  still decided to try it anyways all right let me take a break here and thank our first
+[26:12.280 --> 26:18.080]  sponsor and this week it's a new sponsor clear this is the absolute best way to get through
+[26:18.080 --> 26:23.800]  airport security uh clear helps you get through security faster so you never need to rush
+[26:23.800 --> 26:27.620]  through the airport or run to your gate with clear you get through security with the tap
+[26:27.620 --> 26:32.340]  of your fingers so you can get to your gate faster and reduce your pre-flight stress it
+[26:32.340 --> 26:38.620]  saves time by using your eyes and fingerprints sounds familiar as identification rather than
+[26:38.620 --> 26:42.800]  checking physical id cards because you are the best id out there and it's not just at
+[26:42.800 --> 26:47.920]  airports clear now helps you get through security faster in a bunch of stadiums and arenas around
+[26:47.920 --> 26:51.560]  the country that's it's getting to be a big pain in the butt honestly going to baseball
+[26:51.560 --> 26:56.680]  games uh going through security uh find the clear line zip right through and they're adding
+[26:56.680 --> 27:01.180]  more every day signing up is easy you create your account online before you go to the airport
+[27:01.180 --> 27:06.600]  now once you get to the airport a clear ambassador will help you finish the process and then
+[27:06.600 --> 27:11.660]  you can immediately use clear and they have family plans too up to three family members
+[27:11.660 --> 27:17.820]  can be added at a discounted rate and kids under 18 are free when traveling with an adult
+[27:17.820 --> 27:22.680]  clear member uh this is a great deal clear is the best way to get through airport security
+[27:22.680 --> 27:27.920]  and it works great with pre-check too if you've got tsa pre-check uh right now listeners of
+[27:27.920 --> 27:32.320]  the talk show can get their first two months of clear for free absolutely free by going
+[27:32.320 --> 27:42.440]  to clearme.com slash talk show and use that code talk show when you check out that c-l-e-a-r-m-e.com
+[27:42.440 --> 27:47.160]  slash talk show and that code talk show will get you free months two free months of clear
+[27:47.160 --> 27:53.960]  all right take me back to the beginning when i know this i know a little bit of this but
+[27:53.960 --> 27:59.920]  when when what came first like firewatch came first and then you guys started thinking of
+[27:59.920 --> 28:08.780]  this like not all of this stuff to a degree kind of gestated at really the same time frame
+[28:08.780 --> 28:16.320]  but i i went back into my email and i found a very early email that i had written teenage
+[28:16.320 --> 28:21.320]  engineering which is the company that we partnered with they designed the the look of the device
+[28:21.320 --> 28:25.240]  and they did some of the mechanical engineering and they had the crank and we can talk about
+[28:25.240 --> 28:34.000]  them in a bit but um i forget what year that was 2011 oh my god okay so the year was 2011
+[28:34.000 --> 28:38.520]  so that's a lot longer than i thought that that's eight years it was not a game at this
+[28:38.520 --> 28:45.000]  point correct it was just let's do a hardware thing exactly so the very core idea of we
+[28:45.000 --> 28:51.800]  should push ourselves and try to do something with hardware goes that far back um it took
+[28:51.800 --> 28:56.920]  us a long time you know what that conversation dropped off for a while and we started doing
+[28:56.920 --> 29:02.040]  some other stuff and then the core idea in that email was we should make a little hardware
+[29:02.040 --> 29:10.460]  thing as just like a panic uh anniversary 15th anniversary gift we just keep scratching
+[29:10.460 --> 29:15.320]  it out on the cases every year passes and uh and we were thinking maybe like a cool
+[29:15.320 --> 29:20.920]  clock or maybe that you know like just really trying to think of an excuse really to try
+[29:20.920 --> 29:28.600]  to build something um that conversation just kept going and eventually i found the screen
+[29:28.600 --> 29:35.040]  which is this uh it's called a sharp memory lcd and it's very unique as a screen in that
+[29:35.040 --> 29:38.800]  it has the look and feel of like a classic lcd screen that you would remember from the
+[29:38.800 --> 29:45.360]  80s or on a gameboy but it doesn't have the little grid lines it doesn't blur it's like
+[29:45.360 --> 29:50.480]  incredibly sharp and crisp and like really viewable and light um it's because we had
+[29:50.480 --> 29:57.320]  settled on the idea of doing a game and watch game exactly so that screen sort of conversely
+[29:57.320 --> 30:01.760]  yeah we were talking about game and watch we found that screen and then we thought well
+[30:01.760 --> 30:08.880]  what if we made a game and watch game but we used a real bitmap screen and then that
+[30:08.880 --> 30:15.680]  led to well what if people think it's a segmented lcd like a game and watch in other words you
+[30:15.680 --> 30:19.520]  know game and watch is like a calculator screen right there's just different pieces of art
+[30:19.520 --> 30:24.760]  that can turn on and off uh we thought what if people think it's that and then like a
+[30:24.760 --> 30:31.460]  month later it like magically transforms into another lcd game uh thanks to this cool screen
+[30:31.460 --> 30:35.440]  that would be a cool trick so then you can see the seeds getting planted like oh what
+[30:35.440 --> 30:40.440]  if it changes from one game to another game like it's all this uh greg and evan expensive
+[30:40.440 --> 30:47.240]  idea by the way yes i i had a donkey kong handheld that i believe would qualify as a
+[30:47.240 --> 30:51.920]  game and watch i didn't that's a good one actually that that is new to me but so the
+[30:51.920 --> 30:57.200]  way that i recall it and again my dad god bless him i love him to death he's a great
+[30:57.200 --> 31:04.980]  man but he's he's a thrower aware of all sorts of stuff i still wish i had i had a don mattingly
+[31:04.980 --> 31:15.720]  rookie card that's worth like two thousand dollars anyway but as i recall uh it it was
+[31:15.720 --> 31:22.000]  only the first level of donkey kong because it's a game of watch so the the actual board
+[31:22.000 --> 31:27.540]  was printed on the plastic you know the actual levels of the building you have to climb up
+[31:27.540 --> 31:32.840]  and then there was just mario sprites every eighth of an inch all the way up so it's like
+[31:32.840 --> 31:38.460]  you're saying it's not like little bitmaps it was actual you know mario sprites and barrel
+[31:38.460 --> 31:43.580]  sprites were just on the screen and then those things must have been super interesting to
+[31:43.580 --> 31:51.000]  design because you try to pack so much information into the screen but they can't overlap and
+[31:51.000 --> 31:55.200]  like it's a really interesting design constraint right how do you convey the motion of a barrel
+[31:55.200 --> 32:01.120]  when it's just like two two positions of a barrel yeah and we thought that'd be fun actually
+[32:01.120 --> 32:06.280]  to have that constraint right to make the first concept was the games would have to
+[32:06.280 --> 32:11.140]  conform to the game and watch format that's right like you could have those rules yeah
+[32:11.140 --> 32:16.120]  you can draw on the screen you just turn on these these stencils and we started to design
+[32:16.120 --> 32:21.240]  a game that was like a transmit game where you were like a truck on the highway delivering
+[32:21.240 --> 32:26.000]  like zip files and ping files left and right to like dudes that are waiting like fully
+[32:26.000 --> 32:31.960]  following all of these constraints we still have this art somewhere and um it was an interesting
+[32:31.960 --> 32:37.640]  constraint but then as we kept going and iterating and talking about this we suddenly realized
+[32:37.640 --> 32:44.400]  that actually those gameplay games aren't super fun uh they get boring really quick
+[32:44.400 --> 32:48.280]  there are like two good ones and they've already been done how do i mean do you remember that
+[32:48.280 --> 32:53.400]  with your donkey call yeah i remember it was no fun at all yes once i beat it once i got
+[32:53.400 --> 32:58.120]  the timing down well enough to beat it right once it was like well now it goes in the door
+[32:58.120 --> 33:04.480]  yes and so that then unlocked i think a door that we had been avoiding which was wow crap
+[33:04.480 --> 33:10.240]  if we've got this actual pixel screen and we're building a engine and you know we're
+[33:10.240 --> 33:16.160]  coding these games also maybe they're just real games with the constraints being now
+[33:16.160 --> 33:21.440]  that they're black and white and that there's a crank well take me back a little bit here
+[33:21.440 --> 33:29.880]  you said you found this screen the sharp what's upon uh sharp memory lcd so the way i'm hearing
+[33:29.880 --> 33:36.800]  this is that it's just sort of like uh i mean you probably did it from portland but it you
+[33:36.800 --> 33:42.460]  know maybe or did you go to japan i mean how do you find a screen like this this was just
+[33:42.460 --> 33:49.060]  a tremendous amount of googling that's really all there was to it i was i think a very smaller
+[33:49.060 --> 33:55.180]  version of the screen would have been used on pebble watches and i think that i might
+[33:55.180 --> 33:58.760]  have seen a pebble watch and thought oh that's kind of interesting that looks a bit like
+[33:58.760 --> 34:03.860]  that lcd thing we're trying to emulate um it's just really paying attention and googling
+[34:03.860 --> 34:07.520]  and trying to figure all this stuff out and then it turns out that like the rep for the
+[34:07.520 --> 34:12.620]  screen or one of the reps for the screen happened to actually be in portland so she came by
+[34:12.620 --> 34:17.240]  with some demo units and all that like all these things sort of connected together but
+[34:17.240 --> 34:23.980]  um just yeah just us sitting in the office with google.com and it sounds to me like there's
+[34:23.980 --> 34:31.140]  the story that john rubenstein was uh talking to toshiba executives you know like around
+[34:31.140 --> 34:37.540]  2000 or early 2001 and they were like hey i know you guys are using all of these 2.5
+[34:37.540 --> 34:41.380]  inch hard drives in your macbooks we love our relationship we've got this new thing
+[34:41.380 --> 34:47.380]  this 1.8 inch hard disk uh and nobody nobody seems to know what to do with it what do you
+[34:47.380 --> 34:54.700]  guys think and rubenstein took it back and they sort of built the ipod around the drive
+[34:54.700 --> 34:59.140]  cool i think i got most of that from steven levee's great book i forget the title on the
+[34:59.140 --> 35:03.580]  ipod but that he had this thing and it was like well we don't need a drive that small
+[35:03.580 --> 35:08.040]  in a macbook but if we had a drive that small we could make something a lot smaller and
+[35:08.040 --> 35:12.220]  it sounds to me like that's what this screen is like now you found this screen here we
+[35:12.220 --> 35:18.740]  can build we can build from here yeah that's exactly right um and i hope that you know
+[35:18.740 --> 35:23.440]  they they're always coming up with new versions of the screen so we're like you know listening
+[35:23.440 --> 35:29.320]  to that and seeing what they do in the future but uh we did learn that this screen is widely
+[35:29.320 --> 35:40.920]  used in japan on the coffee machine in every 7-11 okay can you get it like it when you
+[35:40.920 --> 35:48.180]  order something like this can you get it in the exact dimensions you want or is the resolution
+[35:48.180 --> 35:53.980]  set set like it's all 177 pixels per inch that's set but you could get it cut into a
+[35:53.980 --> 36:00.880]  square or a 16 by 9 or no luck no if you're way bigger than us you could probably have
+[36:00.880 --> 36:05.540]  a custom screen built to your specifications but that doesn't work for our scale and they
+[36:05.540 --> 36:10.560]  had other sizes this is larger size of the screen but ironically the larger size of the
+[36:10.560 --> 36:15.820]  screen has a lower resolution so for us it was balancing those two things and determining
+[36:15.820 --> 36:20.040]  the size of the device and the size of the screen but being as small as we are we have
+[36:20.040 --> 36:25.680]  a website that lists six part numbers and we choose one basically yeah well but then
+[36:25.680 --> 36:30.160]  again it becomes one of those design constraints that can exactly you know that okay here it
+[36:30.160 --> 36:37.600]  is it's 400 by 240 it's 2.7 inches diagonal and then now you've got this linchpin at the
+[36:37.600 --> 36:45.520]  at the center of the of the design and you go from there so how when did you find this
+[36:45.520 --> 36:55.360]  screen oh boy Craig Steve do you remember it was a long time ago because we did base
+[36:55.360 --> 37:05.000]  our original game machine prototype off of this probably 13 or 14 20 years ago it just
+[37:05.000 --> 37:11.440]  feels like I was 13 or 14 at the time right yeah it was a really long time ago and we
+[37:11.440 --> 37:19.040]  got the screen and we picked a processor that seemed like it might work and ordered their
+[37:19.040 --> 37:25.360]  discovery board and what that is is to evaluate processors for your projects they make these
+[37:25.360 --> 37:31.820]  discovery boards which give you a lot of the breakout connectors and stuff so you can really
+[37:31.820 --> 37:37.320]  easily get up to speed with a processor without having to do a bunch of boards and stuff on
+[37:37.320 --> 37:43.680]  your own and I think I tweeted that very first version it was that really janky plastic case
+[37:43.680 --> 37:49.520]  it had no crank because we hadn't talked about that yet the buttons are all like crazy angles
+[37:49.520 --> 37:53.840]  because it was 3d printed in the office the board is sticking out of the bottom and so
+[37:53.840 --> 37:59.420]  it's all held together with a rubber band and but it played the game right like we actually
+[37:59.420 --> 38:03.640]  kind of got it Dave got that working so fast after we got the screen but that wasn't that
+[38:03.640 --> 38:07.240]  was a problem deceptive yeah it was deceptive you got it working in like three months yeah
+[38:07.240 --> 38:12.280]  we're done this is it there's nothing kind of we can get this far in three months yes
+[38:12.280 --> 38:18.240]  we'll wrap this thing up in six easy yeah oh god more than four years somebody get started
+[38:18.240 --> 38:25.160]  on the website what are we calling this thing yeah oh anyways that was that was a trick
+[38:25.160 --> 38:30.400]  don't be fooled by that if you're a hardware project but yes the screen was in place at
+[38:30.400 --> 38:35.520]  the very beginning and and the processor actually we did end up bumping to a more recent version
+[38:35.520 --> 38:40.780]  of the processor that has more speed and was theoretically pin compatible so we could just
+[38:40.780 --> 38:47.060]  drop it in although it has its own quirks but the basics of that original prototype
+[38:47.060 --> 38:50.960]  are still kind of there in the device which is pretty what is it it's like an ARM processor
+[38:50.960 --> 38:56.240]  right i mean you guys aren't really talking to tech specs yep yes what st micro okay uh
+[38:56.240 --> 39:06.000]  i remember the exact yeah it's an f7 f7 sounds right let's go get dave yeah uh and uh yeah
+[39:06.000 --> 39:12.600]  it's it's ARM based um and again you know i probably should have said this before we
+[39:12.600 --> 39:18.040]  started recording let me let me just preface the remainder of the show with this that if
+[39:18.040 --> 39:21.880]  i ask you guys a question that you don't want to answer you can just laugh and say you know
+[39:21.880 --> 39:25.480]  what we don't want to talk about that yet so like if you know there's you know there's
+[39:25.480 --> 39:29.400]  all sorts you know i'm i know you got games that you want to keep under wraps yes i'm
+[39:29.400 --> 39:33.080]  not going to ask stuff like that but if okay okay if something is a state secret if you
+[39:33.080 --> 39:36.880]  want to be like apple and not tell me how much i was just gonna say i gotta learn the
+[39:36.880 --> 39:43.680]  schiller brush off right yeah uh everything has been fine so far yeah no you're doing
+[39:43.680 --> 39:51.960]  fine yeah but with the screen though is there any sort of fear like okay it's 2013 or 2014
+[39:51.960 --> 39:57.820]  you find this screen it's from obviously sharp is a well-known company uh you know everything
+[39:57.820 --> 40:01.700]  looks good this looks like something we could build a little handheld thing around is there
+[40:01.700 --> 40:05.440]  any fear that sharp is going to stop making the screen i mean you're still four or five
+[40:05.440 --> 40:10.280]  years out or did you like stockpile them in advance there there is a fear of that i mean
+[40:10.280 --> 40:13.960]  we try to have feelers out to make sure that they're gonna make this and it seems like
+[40:13.960 --> 40:17.640]  they're gonna make it for a while well the companies are also really good about this
+[40:17.640 --> 40:22.460]  in that there's a very strict process for end of lifing screens right where they give
+[40:22.460 --> 40:27.200]  you like years notice right they don't just like hey guess what next week your screen's
+[40:27.200 --> 40:33.400]  done you gotta make a new coffee machine for 7-eleven there's definitely some uh super
+[40:33.400 --> 40:38.420]  advanced notice and so but of course we're nervous about that at all time like the clock
+[40:38.420 --> 40:42.600]  is ticking we don't want to like announce and then the next week they're like it's end
+[40:42.600 --> 40:49.700]  of life so uh please cross your fingers for us hopefully we have a like like sliver of
+[40:49.700 --> 40:54.920]  clout at this point we could say but it's on the cover of a magazine you can't cancel
+[40:54.920 --> 40:59.820]  it and we're singing sharps praises every chance we get right right we're trying we're
+[40:59.820 --> 41:05.280]  really trying uh yeah but yes that is a fear that's a total fear with any of the components
+[41:05.280 --> 41:10.000]  actually it is i mean this happened to teenage engineering oh that's the op1 they just had
+[41:10.000 --> 41:14.120]  to change their screen because they're all that got end of life did they use a bigger
+[41:14.120 --> 41:17.560]  screen do you know it's a little bigger although i think they might be masking it i think it's
+[41:17.560 --> 41:22.880]  the same visible size that's so funny but inside the case it's larger amazing yeah hopefully
+[41:22.880 --> 41:29.280]  that wasn't a secret yeah i'm sure they're fine well tell me a little bit about teenage
+[41:29.280 --> 41:35.560]  engineering okay so god where do i begin i know them as a musical instruments company
+[41:35.560 --> 41:42.400]  they make an incredible synthesizer called the op1 and the best way i can describe my
+[41:42.400 --> 41:49.760]  feeling about this company is that they give me the same kind of these guys care about
+[41:49.760 --> 41:55.800]  everything that apple always has and i can think of very few companies that can generate
+[41:55.800 --> 42:04.840]  that response in my brain uh you know like the the case itself is just immaculately designed
+[42:04.840 --> 42:09.720]  they have this cool oled screen but they're limiting themselves to four colors it almost
+[42:09.720 --> 42:15.040]  looks like an old vector screen uh those are the exact same colors they will use on all
+[42:15.040 --> 42:21.680]  of the knobs and packaging and like every single detail is well considered you know
+[42:21.680 --> 42:26.880]  there's like a hidden game helicopter game that you can play on your synthesizer um something
+[42:26.880 --> 42:32.680]  about this company just like these guys are operating at a level beyond um they're not
+[42:32.680 --> 42:39.360]  known for being super affordable their products are thought of as quite expensive um i've
+[42:39.360 --> 42:44.960]  always felt that it was worth it but you know it depends and uh they also are really good
+[42:44.960 --> 42:51.480]  at doing experiments like uh they have a partnership with ikea uh of all people right now where
+[42:51.480 --> 42:56.720]  they're designing some lights and a speaker and uh really interesting things for them
+[42:56.720 --> 43:03.640]  they designed a a disposable digital camera for ikea there's literally a piece of cardboard
+[43:03.640 --> 43:09.480]  with a battery and a viewfinder and like a little flip out usb stick it was like a ten
+[43:09.480 --> 43:17.080]  dollar digital camera just really unique products all across the board and so uh when we started
+[43:17.080 --> 43:23.120]  this thought process early on again before we had even settled on video game i was really
+[43:23.120 --> 43:29.120]  hoping that in some way uh they would be involved and so i just sent them a classic cold email
+[43:29.120 --> 43:35.600]  hey how are you uh we are thinking about doing this thing and they were immediately enthusiastic
+[43:35.600 --> 43:42.880]  about helping us in whatever uh they said that they loved using transmit which was great
+[43:42.880 --> 43:48.200]  we got at the door with transmit and um yeah it just has become this really great partnership
+[43:48.200 --> 43:56.400]  and um there's just ridiculously talented it seems like part of what and i think part
+[43:56.400 --> 44:03.040]  of what some people who who when they first saw playdate were like really that's it you
+[44:03.040 --> 44:07.400]  know like some of this maybe skepticism yeah sure uh some of it may come from somebody
+[44:07.400 --> 44:12.360]  who just never doesn't have any nostalgic feeling for old handheld games uh it's all
+[44:12.360 --> 44:17.680]  reasonable um but i think the thing that's confusing to some people is that this is not
+[44:17.680 --> 44:23.200]  something designed to make a few billion dollars right and correct and it sounds to me like
+[44:23.200 --> 44:28.600]  you guys are copacetic with the teenage engineering crew in the same way that they're not setting
+[44:28.600 --> 44:35.480]  out to to make a couple billion dollars and become the the next facebook or snapchat or
+[44:35.480 --> 44:39.640]  or something of that size that they're willing to just be craftspeople who make you know
+[44:39.640 --> 44:46.040]  good money that supports a company in a healthy way but isn't really there to change the world
+[44:46.040 --> 44:51.680]  that's exactly it we've never had grand delusions about this thing it's not going to change
+[44:51.680 --> 45:00.200]  the world it might improve your day but it's i think both of our companies are driven by
+[45:00.200 --> 45:06.740]  this feeling of just wanting to make a thing and bring it into the world and you know you
+[45:06.740 --> 45:11.520]  hope it's the same with our software really you hope that it will resonate with people
+[45:11.520 --> 45:14.360]  but there's always a chance that it might not but then you just move on to the next
+[45:14.360 --> 45:20.600]  thing and um i don't i always love that attitude yeah most of my friends the people who you
+[45:20.600 --> 45:26.440]  know uh mutual friends people you know but the one thing that that we all share is an
+[45:26.440 --> 45:31.200]  appreciation for good tools and you know if you're going to be sitting there working all
+[45:31.200 --> 45:37.720]  day and you've got an ftp client open all the time why not have it look nice right i
+[45:37.720 --> 45:41.760]  know i know the engineering mindset like you know that all those tools are built built
+[45:41.760 --> 45:47.560]  into the command line you know right you could do it all from there uh but why not have it
+[45:47.560 --> 45:51.080]  look nice in the same way that you know if you're going to have a pen or a pencil why
+[45:51.080 --> 45:56.800]  not get a nice pencil and have it feel good and leave a nice mark on the paper yep and
+[45:56.800 --> 46:00.400]  sure most people don't look at it that way i mean that's the world we live in where most
+[46:00.400 --> 46:06.360]  people go in to the store and find whichever pencil is the cheapest and then there's little
+[46:06.360 --> 46:11.060]  sally's 12 pack of pencils for the school year and that's totally fine and there's there's
+[46:11.060 --> 46:16.160]  people that can get by completely fine with free filezilla or whatever and there's people
+[46:16.160 --> 46:23.320]  that can uh you know go buy a used uh nintendo 2ds for the same price as our thing like and
+[46:23.320 --> 46:28.480]  that's totally okay yeah well there's one no other thing that i find interesting is
+[46:28.480 --> 46:36.240]  that it's part of what makes that it this whole asian manufacturing especially china
+[46:36.240 --> 46:40.880]  let's just emphasize because they're so big is what's driving the prices of some things
+[46:40.880 --> 46:46.020]  just common things seriously like pencils or or you know notepad are cheaper than they
+[46:46.020 --> 46:50.360]  ever could have been like and it in some ways it doesn't make any sense to me that it's
+[46:50.360 --> 46:55.840]  cheaper to make 10 billion pencils in china and then ship them over the pacific and then
+[46:55.840 --> 47:00.240]  somehow move them from the west coast to the east coast to get them into a target here
+[47:00.240 --> 47:05.120]  in philadelphia it doesn't really make sense to me but i guess at a certain point scale
+[47:05.120 --> 47:12.960]  wins and but that same asian supply chain that's revolutionizing the price of everything
+[47:12.960 --> 47:19.880]  you know cars you know you can get a cheap car for unbelievable price uh is also what's
+[47:19.880 --> 47:24.320]  enabled you guys to do hardware like i don't think you got i mean correct me if i'm wrong
+[47:24.320 --> 47:28.960]  i don't think you could do this all in the united states i don't think so we looked into
+[47:28.960 --> 47:33.460]  it we thought about it there's a lot of reasons to do that it would be local and we could
+[47:33.460 --> 47:38.080]  say that but it was not going to work out financially right and that's what i meant
+[47:38.080 --> 47:44.500]  by can't it's yes yes right it playdate doesn't cost 149 dollars if it's entirely assembled
+[47:44.500 --> 47:50.360]  in portland oregon that is correct that's extremely correct which is unfortunate yeah
+[47:50.360 --> 47:54.680]  right i say this with no joy but it's just the way the world is but in some ways the
+[47:54.680 --> 48:02.660]  same the same economic fundamental change that has so much cheap stuff cheap mass market
+[48:02.660 --> 48:09.840]  stuff being made in asia also enables uh boutique i don't know if that's the right word but
+[48:09.840 --> 48:16.640]  niche products to be made right there's a a great i'm i'm i won't get sidetracked too
+[48:16.640 --> 48:23.260]  long but i have a couple of automatic watches and some of my very favorites are from this
+[48:23.260 --> 48:31.160]  small company called halios h-a-l-i-o is a guy named jason lin is a one-man company up
+[48:31.160 --> 48:40.120]  in vancouver and he assembles the watches himself and designs them himself but like the actual
+[48:40.120 --> 48:44.580]  steel cases he gets made some most of the time i think he has somebody in canada he
+[48:44.580 --> 48:48.760]  works with sometimes but when he does a run they're made in china he has to go over there
+[48:48.760 --> 48:53.620]  sometimes but it enables you know part of it you know it's not just electronic gadgets
+[48:53.620 --> 48:58.680]  like he's here's a guy making old-fashioned automatic wrist watches but part of it is
+[48:58.680 --> 49:03.260]  that part of what makes it possible and he could sell them for 700 800 which is to me
+[49:03.260 --> 49:09.600]  extraordinary yeah is that he can get these steel cases made to his exact specifications
+[49:09.600 --> 49:15.160]  in china and correct me if i'm wrong because i'm not a big watch person but shinola watches
+[49:15.160 --> 49:19.280]  as well even though they say that they're you know from detroit and made in the u.s.
+[49:19.280 --> 49:23.740]  also depend heavily on parts from china i think as well yeah they're assembled in detroit
+[49:23.740 --> 49:33.120]  but i got it so yeah i think you're right that there is uh that stuff enables things
+[49:33.120 --> 49:37.520]  that wouldn't be possible for us while at the same time it being really unfortunate
+[49:37.520 --> 49:42.760]  that we can't pull it off here uh it would be nice if that changed but i mean i think
+[49:42.760 --> 49:50.760]  a lot about apple building the mac pro at foxconn in the u.s um and what a wild situation
+[49:50.760 --> 49:56.320]  that was for a variety of reasons um gosh john did i ever tell you this story i'm not
+[49:56.320 --> 50:00.360]  gonna ramble did i ever tell you the story about the watch i backed on kickstarter that
+[50:00.360 --> 50:04.920]  was also going to be assembled in the u.s uh life electronics no i'll keep it really
+[50:04.920 --> 50:09.160]  short because you just i know you're gonna love one part of the story hold on let me
+[50:09.160 --> 50:12.600]  let me do another stevan great forgive me forgive me for telling the story again okay
+[50:12.600 --> 50:15.560]  go ahead john we know we know because that way we know where we'll pick it up we'll pick
+[50:15.560 --> 50:18.720]  it up with your story i want to tell you about our next sponsor it's a company it's great
+[50:18.720 --> 50:26.160]  product called express vpn express vpn this is a vpn service a vpn is what you have a
+[50:26.160 --> 50:32.360]  vpn on your device like an iphone an ipad something like that you can go on public wi-fi
+[50:32.360 --> 50:37.080]  and your connection everywhere you go is completely secure because you're going over the vpn it's
+[50:37.080 --> 50:42.880]  a virtual private network it's a great way to further enhance your personal security
+[50:42.880 --> 50:47.520]  and it lets you use public wi-fi safely and securely for anything you do because everything
+[50:47.520 --> 50:54.640]  you do is over the ssh tunnel really important stuff express vpn both secures and anonymizes
+[50:54.640 --> 51:00.200]  your internet browsing by encrypting your data and hiding your public ip address it's
+[51:00.200 --> 51:04.520]  really easy to install you don't have to be a system administrator or something like that
+[51:04.520 --> 51:09.400]  turning it on literally takes one click that's all you have to do and when you use it you
+[51:09.400 --> 51:13.160]  can safely surf on public wi-fi without being snooped on or having your personal information
+[51:13.160 --> 51:18.000]  stolen and it's less than seven bucks a month for you to start using it it's the number
+[51:18.000 --> 51:23.440]  one rated vpn service by tech radar and it comes with a 30-day money-back guarantee so
+[51:23.440 --> 51:28.100]  if you don't like it you have a whole month cancel it get all your money back so protect
+[51:28.100 --> 51:36.480]  your online activity today and find out how you can get three free months at expressvpn.com
+[51:36.480 --> 51:45.840]  expressvpn.com slash tts for the talk show that's expressvpn.com slash tts and you get
+[51:45.840 --> 51:50.740]  three months free with a one-year package go there and learn more all right let's hear
+[51:50.740 --> 51:56.860]  a story about the watch you back on kickstarter this is my manufacturing is hard slash things
+[51:56.860 --> 52:00.880]  can be more challenging things so i backed this watch on kickstarter that was pre-apple
+[52:00.880 --> 52:05.340]  watch it was going to be this extremely thin watch that curved around your wrist it was
+[52:05.340 --> 52:11.120]  like the cst-01 or something like that and it is like many kickstarters uh they had bitten
+[52:11.120 --> 52:17.440]  off way more than they could chew uh it quickly became clear in the updates that things were
+[52:17.440 --> 52:26.240]  going not great they chose i think flex flextronics to manufacture at any us facility and there's
+[52:26.240 --> 52:31.580]  all this drama started to spring up about how uh they're holding some of their equipment
+[52:31.580 --> 52:37.820]  hostage and batteries and all this other stuff and then eventually there was just the saddest
+[52:37.820 --> 52:44.060]  possible update where they said hey everybody uh we've moved into a van in the flextronics
+[52:44.060 --> 52:49.880]  parking lot and we're just living in this van now but we're gonna try to make this work
+[52:49.880 --> 52:56.380]  and uh it didn't work and when they cancelled the project they posted this graph showing
+[52:56.380 --> 53:02.060]  timelines of where all their money went and there's this it's just seared into my brain
+[53:02.060 --> 53:08.580]  because at the end of this graph there's this line with the label van living begins and
+[53:08.580 --> 53:13.380]  just and then nothing and i think about i thought about that a lot as you can imagine
+[53:13.380 --> 53:18.120]  throughout the course of this project will there be a line on our graph that says van
+[53:18.120 --> 53:24.780]  living begins um the sad part about that is the factory even disputed that they were living
+[53:24.780 --> 53:29.080]  in a van they were like that's not true we have no proof of them living in the van and
+[53:29.080 --> 53:34.540]  so then they posted additional photos of their van the inside of the van the parking lot
+[53:34.540 --> 53:40.740]  at the factory like it was just the darkest thing anyways manufacturing is hard and the
+[53:40.740 --> 53:47.620]  watch was a huge yeah quite the opposite i never saw that money again but let us all
+[53:47.620 --> 53:53.780]  pray that we never have van living begins we we had a i mean i i i think everybody has
+[53:53.780 --> 53:59.420]  spent some money on some kickstarters that did not come to fruition we had one i forget
+[53:59.420 --> 54:04.780]  how much amy spent but our son has a dairy allergy very severe dairy allergy um has had
+[54:04.780 --> 54:09.340]  his whole life he's doing great uh just you know has to stay away from all dairy products
+[54:09.340 --> 54:13.540]  um okay and you know we've been really lucky he's a cautious kid anyway so he just doesn't
+[54:13.540 --> 54:17.260]  eat random stuff even when he was little he's 15 now so he's he's on his own but anyway
+[54:17.260 --> 54:20.740]  a couple years ago maybe five six years ago somebody came out with a kickstarter project
+[54:20.740 --> 54:26.060]  and and they seemingly had an academic background they didn't seem like a you know out of like
+[54:26.060 --> 54:31.660]  a yahoo but they claimed to be making a device that you could just sort of hold up about
+[54:31.660 --> 54:37.740]  an inch away from food and it would tell you everything that was in it uh oh that sounds
+[54:37.740 --> 54:42.520]  awesome though is the thing like yes i want that and you know they had phrase you know
+[54:42.520 --> 54:45.980]  spectromography or what i don't know what the hell their terms were and amy was like
+[54:45.980 --> 54:50.560]  what do you think of this and i said i think this is bullshit i i can't believe that this
+[54:50.560 --> 54:56.120]  would work but if you want to back them you know i you know think of it as like playing
+[54:56.120 --> 55:01.420]  a couple hundred dollars of blackjack you know you're probably gonna lose if you want
+[55:01.420 --> 55:06.720]  to back it because you know it they need the if it was going to work they needed the kickstarter
+[55:06.720 --> 55:10.740]  funding to get there and so we did it and there were a couple of updates i don't need
+[55:10.740 --> 55:16.060]  ever moved into a van but they just sort of they just sort of stopped sending updates
+[55:16.060 --> 55:21.540]  that's the other solution yeah i i don't think that they were a fraud i think that they genuinely
+[55:21.540 --> 55:26.540]  i do think and if they were they were really good at the copywriting i think that they
+[55:26.540 --> 55:30.700]  were earnest and they really thought they were on the cusp of being able to do this
+[55:30.700 --> 55:36.940]  and they just needed money to to to find out that we we end up talking about this stuff
+[55:36.940 --> 55:42.140]  all the time and and i track these quite obsessively there was the laser razor that was a razor
+[55:42.140 --> 55:46.460]  that was going to use like a laser beam to cut your hair i don't know if you knew this
+[55:46.460 --> 55:51.220]  i don't remember that one oh everybody in the comments is like hi i am a you know uh
+[55:51.220 --> 55:56.380]  i am masters in physics and what you are making is not possible you know they just kept at
+[55:56.380 --> 56:01.140]  it and uh they still think they're gonna do it their last update they said that they had
+[56:01.140 --> 56:10.020]  moved into silicone valley which had me laughing for like five minutes uh anyways uh i do believe
+[56:10.020 --> 56:14.820]  you in this situation too i don't think they were fraudsters i think they really thought
+[56:14.820 --> 56:20.660]  we have an idea on paper that can maybe work and let's just immediately go to kickstarter
+[56:20.660 --> 56:28.460]  how sad would it be if you met them and like their cheeks are all scarred please don't
+[56:28.460 --> 56:36.500]  look at me i'm hideous i invented the laser razor they all look like the bad guys in a
+[56:36.500 --> 56:42.340]  bruce willis movie they're all scarred up no refunds
+[56:42.340 --> 56:47.840]  anyways well anyway these are my name though while we're talking about kickstarter a lot
+[56:47.840 --> 56:55.860]  of products of the scope and scale of playdate these days go through kickstarter or or one
+[56:55.860 --> 57:02.980]  of the kickstarter like services indiegogo there's a dozen of them i'm sure uh i'm gonna
+[57:02.980 --> 57:09.240]  guess that you guys never really even considered that route no did you did you greg uh we talked
+[57:09.240 --> 57:13.080]  about it for you know for a little while we went we did go back and forth for like a week
+[57:13.080 --> 57:19.300]  i think so what should we do but ultimately i mean we decided it was not quite the right
+[57:19.300 --> 57:26.140]  platform we wanted to have a uh a surprise right and we wanted to have the same kind
+[57:26.140 --> 57:31.540]  of pop out fully formed yes with complete confidence yes it was gonna work yeah i didn't
+[57:31.540 --> 57:36.600]  want anyone to go on a journey with us you know like i just wanted it to be here it is
+[57:36.600 --> 57:42.240]  it exists and it's real now ironically announcing early because of the magazine it kind of took
+[57:42.240 --> 57:45.620]  us back a little bit from that original dream a little bit but we're still pretty far the
+[57:45.620 --> 57:50.180]  plus of doing a kickstarter which some people pointed out to us is there's a built-in audience
+[57:50.180 --> 57:53.900]  and you know you get notified when your friends follows well at least i do your friends follow
+[57:53.900 --> 57:59.460]  something on kickstarter like that would help but i think we just were mostly confident
+[57:59.460 --> 58:05.060]  that we could accomplish that on our own and also yeah i i love kickstarter and actually
+[58:05.060 --> 58:09.460]  the vast majority of the things i backed have been successful and been delivered same here
+[58:09.460 --> 58:12.580]  i don't have you ever gone to your things i backed page john it's really interesting
+[58:12.580 --> 58:17.120]  because they have a check mark for yes i got this but you do it yourself like it's a kind
+[58:17.120 --> 58:21.600]  of a self-selected process i wish they had a second column for this thing will never
+[58:21.600 --> 58:28.140]  show up but they didn't seem interested in my idea um but i i'm amazed at how many things
+[58:28.140 --> 58:32.460]  did ship successfully so definitely not knocking kickstarter but there is definitely like a
+[58:32.460 --> 58:37.260]  feeling of you win now when you back something on kickstarter you just have to be prepared
+[58:37.260 --> 58:40.500]  for the fact that it might never show up i just don't think we wanted to give anyone
+[58:40.500 --> 58:46.660]  that feeling uh i'll bet you guys have a copy or two of this the uh i forget his name but
+[58:46.660 --> 58:50.460]  there was a book that came out recently that was i think kickstarter but if not it was
+[58:50.460 --> 58:56.500]  like indiegogo the secret history of mac gaming oh yeah definitely yeah and it's it didn't
+[58:56.500 --> 59:04.140]  just ship it is a very nice book it is extremely very very nice hardcover book with the design
+[59:04.140 --> 59:09.860]  is amazing high quality paper high quality printing uh and that's the sort of thing that
+[59:09.860 --> 59:15.660]  as an author you really can't do if you don't you know you don't have the money to do that
+[59:15.660 --> 59:20.180]  in advance you can't print the book but i had confidence he'd written previous books
+[59:20.180 --> 59:24.660]  so it's like i you know i think he can do this but i'm blown away by how nice it is
+[59:24.660 --> 59:29.060]  it's actually a nicer book than most of the books i get yeah in a in a real bookstore
+[59:29.060 --> 59:34.740]  that's definitely true um yeah so i see that with the surprise and you guys are in a position
+[59:34.740 --> 59:40.260]  where you have a successful company and you could right you could back this with the the
+[59:40.260 --> 59:45.340]  the you know the back of the profits on the back of the profits of the software you're
+[59:45.340 --> 59:49.140]  already writing ironically it kind of reminds me of the question of do you put your app
+[59:49.140 --> 59:53.900]  in the app store or not because you know the argument for the app store one of the arguments
+[59:53.900 --> 59:58.240]  for the app store is that it's a marketing machine and you don't have to set all these
+[59:58.240 --> 01:00:02.080]  things up and all that other stuff but of course for us having been around for a long
+[01:00:02.080 --> 01:00:06.420]  time we we already have a way to take credit cards and we already have an audience and
+[01:00:06.420 --> 01:00:10.140]  a list that we can email and stuff that makes that decision but that's like maybe a different
+[01:00:10.140 --> 01:00:16.020]  podcast for another time we could really we could really ruin the rest of this one let's
+[01:00:16.020 --> 01:00:21.980]  not crack that open but you are uh what what what's back in the app store now transmit
+[01:00:21.980 --> 01:00:26.380]  trans back in the app store as a subscription as a subscription what's the what's the price
+[01:00:26.380 --> 01:00:37.260]  oh god 29 20 for a year i'm glad that i'm on the ball yeah it's a yearly subscription
+[01:00:37.260 --> 01:00:43.300]  constant businessman yeah did you like that i got that number straight the uh well i have
+[01:00:43.300 --> 01:00:49.460]  a very small side story about that i'll keep this short the earlier in this year throughout
+[01:00:49.460 --> 01:00:54.260]  a series of dumb circumstances that i won't get into we ended up having to redesign the
+[01:00:54.260 --> 01:01:00.300]  subscription page that pops down in the app to ask you to subscribe this was not our choice
+[01:01:00.300 --> 01:01:06.580]  but we were asked to and so when we were redesigning it and i keep meaning to blog about this so
+[01:01:06.580 --> 01:01:13.060]  i guess this is an exclusive that's so dumb nobody cares uh when we were redesigning that
+[01:01:13.060 --> 01:01:17.760]  in the corner of that sheet we added a little link that just says don't like subscriptions
+[01:01:17.760 --> 01:01:24.180]  email us and i think that was one of the smartest things that we have ever done because we were
+[01:01:24.180 --> 01:01:29.740]  getting a bunch of negative reviews of course from people who don't like subscriptions but
+[01:01:29.740 --> 01:01:36.220]  we also can't say anywhere in the app that we sell a full-price version from our website
+[01:01:36.220 --> 01:01:43.420]  however we can set up an autoresponder on an email link that says hey uh sorry you don't
+[01:01:43.420 --> 01:01:48.560]  like subscriptions but you can always buy it here and people click that link like two
+[01:01:48.560 --> 01:01:52.620]  or three times a day fortunately we get more subscriptions than we do people complaining
+[01:01:52.620 --> 01:01:58.340]  about subscriptions but it provided this great funnel and this great outlet for people to
+[01:01:58.340 --> 01:02:02.340]  not only say and it's amazing like some people just say i don't like subscriptions but some
+[01:02:02.340 --> 01:02:07.140]  people actually go into detail about it but it's really fascinating too yes and it's a
+[01:02:07.140 --> 01:02:12.940]  lot of detail but uh anyways i'm really happy that we did that i don't know why that's just
+[01:02:12.940 --> 01:02:16.220]  that has nothing to do with playdate whatsoever i just thought you might find it interesting
+[01:02:16.220 --> 01:02:21.960]  yeah it reminds me of netflix when netflix uh for years allowed you to sign up in the
+[01:02:21.960 --> 01:02:26.740]  app and went through the revenue split with apple and i don't think apple still publishes
+[01:02:26.740 --> 01:02:30.580]  at least the other day when i look for it i can't find the top grossing list anymore
+[01:02:30.580 --> 01:02:34.500]  if it if they still have it does it even exist that's a great question i don't know they
+[01:02:34.500 --> 01:02:39.620]  definitely de-emphasized it but but it's great but as as of the moment it was still there
+[01:02:39.620 --> 01:02:45.780]  when when netflix decided they were going to cease taking signups in that and netflix
+[01:02:45.780 --> 01:02:50.740]  was at the time the top the top grossing app in the app store like apple makes was making
+[01:02:50.740 --> 01:02:55.900]  so much money off their 15 percent or whatever the negotiated share was netflix it was number
+[01:02:55.900 --> 01:03:03.940]  one um but the thing that i find so bizarre about apple's rules on this is the the the
+[01:03:03.940 --> 01:03:08.180]  rule that you're not allowed to tell the user what the hell is what's the situation like
+[01:03:08.180 --> 01:03:14.060]  you can't netflix can't say here's what you have to do you have to go to our website not
+[01:03:14.060 --> 01:03:18.160]  only are they you know even if they weren't allowed to put a link in that would open the
+[01:03:18.160 --> 01:03:25.500]  browser if they could just tell you go to n-e-t-f-l-i-x dot com and sign up there then
+[01:03:25.500 --> 01:03:31.120]  come back with your new account but they had a phone number so i called the phone number
+[01:03:31.120 --> 01:03:35.620]  and and this is this is my dedication to my work i i think you guys can imagine how much
+[01:03:35.620 --> 01:03:41.380]  i enjoy making a phone call not much at all but i did it i called i talked to a friendly
+[01:03:41.380 --> 01:03:47.900]  gentleman at netflix support it was not too long of a wait online um they actually pinpointed
+[01:03:47.900 --> 01:03:51.340]  it they like they answered the call and it was like you your call will be answered in
+[01:03:51.340 --> 01:03:55.780]  two minutes 41 seconds and like two minutes i don't know if it was that precise but they
+[01:03:55.780 --> 01:03:59.140]  were like two minutes 40 seconds and two minutes 40 seconds later i was on the phone with a
+[01:03:59.140 --> 01:04:05.000]  guy and i said hey i've got my ipad here i want to sign up for netflix and it it's asking
+[01:04:05.000 --> 01:04:09.220]  me for a login i don't have a login what do i do and he says oh you go to netflix.com
+[01:04:09.220 --> 01:04:13.460]  and you sign up there and then you go back to the app like he had it he was ready right
+[01:04:13.460 --> 01:04:19.060]  but who what other companies how many companies can have phone support all the time so that
+[01:04:19.060 --> 01:04:23.760]  people can who are confused how do i sign up for a thing where's the great account it's
+[01:04:23.760 --> 01:04:29.540]  such a bizarre situation it is extremely bizarre anyway congratulations on making it back to
+[01:04:29.540 --> 01:04:33.340]  the app store it's funny because you guys it's not a coincidence because apple has been
+[01:04:33.340 --> 01:04:38.340]  courting certain longtime developers it's not a coincidence that bbedit is back right
+[01:04:38.340 --> 01:04:42.140]  right around the same time you know yes there was a coordinated effort there on the app
+[01:04:42.140 --> 01:04:47.900]  stores part to sort of make power tools for the mac a little happier which is nice anyway
+[01:04:47.900 --> 01:04:54.460]  we can do a whole show on that okay next yeah and then i'll have to set up my server to
+[01:04:54.460 --> 01:05:00.740]  like ip block apple's camp i just want steve to lean into the microphone and start talking
+[01:05:00.740 --> 01:05:03.500]  at this point suspiciously hanging back
+[01:05:03.500 --> 01:05:15.340]  well i'm sure it was fun to get it back in the app store it was it definitely was
+[01:05:15.340 --> 01:05:20.340]  god where were we where we made a handheld gaming system that's right yeah all right
+[01:05:20.340 --> 01:05:27.620]  so let's talk about the actual design of the device itself like at what point did you guys
+[01:05:27.620 --> 01:05:31.860]  go to teenage engineering so you guys had like prototypes working where you could make
+[01:05:31.860 --> 01:05:38.760]  a game play on the sharp electro magic whatever it's called i'm calling it that it's a much
+[01:05:38.760 --> 01:05:47.420]  better name yes it was sometime after our prototype was up and running that we formally
+[01:05:47.420 --> 01:05:54.380]  met with teenage engineering at moagfest in ashville north carolina which is a big electronic
+[01:05:54.380 --> 01:05:59.820]  music festival and uh that was just convenient because they were going to be in the us and
+[01:05:59.820 --> 01:06:05.020]  we had never been there and that as a side note for trivia fans is why the code name
+[01:06:05.020 --> 01:06:09.740]  for playdate was ashville in fact i'm still not used to being able to say the word played
+[01:06:09.740 --> 01:06:14.300]  out which is how apple employees always feel right like oh i see you picked up the new
+[01:06:14.300 --> 01:06:20.220]  tango oh i mean now i'm that guy but yeah i've had that too where i've in the product
+[01:06:20.220 --> 01:06:25.660]  briefing like after the keynote and i'm talking to like a high level executive not phil shiller
+[01:06:25.660 --> 01:06:35.780]  but let's just say his name rhymes with was called you know it was like one of the years
+[01:06:35.780 --> 01:06:39.500]  where there were two sizes of new iphones you know the plus and the regular and he called
+[01:06:39.500 --> 01:06:47.240]  the one like j22 and he was like forget that i never said that classic yeah so we met with
+[01:06:47.240 --> 01:06:52.340]  them in ashville and that was i think after that meeting and talking about possibilities
+[01:06:52.340 --> 01:06:56.080]  and what we want to do i think a few days after we came back and correct me if i'm getting
+[01:06:56.080 --> 01:07:01.580]  this timeline wrong because uh that's when we got the first renders from jesper that's
+[01:07:01.580 --> 01:07:07.020]  right of his ideas and the very first render not only was there a crank but there was a
+[01:07:07.020 --> 01:07:14.040]  slider and there was a like there's all sorts of unique input ideas and but just seeing
+[01:07:14.040 --> 01:07:20.260]  that that idea at all because we never thought beyond d-pad and ab buttons to be able to
+[01:07:20.260 --> 01:07:24.540]  say why not put a crank on there would have never have occurred to us so that was like
+[01:07:24.540 --> 01:07:28.780]  the whole project went to like level four i don't know i picked four there was just
+[01:07:28.780 --> 01:07:33.460]  an instant we have to have that yeah yeah like it just it was the exact right level
+[01:07:33.460 --> 01:07:43.420]  of different weird and maybe actually useful and so uh yeah and the phrase that uh it's
+[01:07:43.420 --> 01:07:48.380]  in the story from teenage engineering is that one of the reasons they wanted to put this
+[01:07:48.380 --> 01:07:55.060]  analog rotating crank was to break people of their touch psychosis i will never forget
+[01:07:55.060 --> 01:08:01.860]  him saying those words to us because ios gaming was getting huge to be fair the nintendo switch
+[01:08:01.860 --> 01:08:08.900]  did not exist yet so the idea of bringing something with you that was not a touch screen
+[01:08:08.900 --> 01:08:13.980]  of just us repeatedly tapping a piece of glass was driving him crazy and this is somebody
+[01:08:13.980 --> 01:08:20.060]  that loves knobs and switches and dials and synthesizers and yeah and i definitely i that
+[01:08:20.060 --> 01:08:25.420]  was one of my favorite moments of all i want to break people of their touch psychosis okay
+[01:08:25.420 --> 01:08:34.500]  i'm in sounds good uh well it's fascinating though i mean it's you know it's obviously
+[01:08:34.500 --> 01:08:40.460]  i i i i os gaming and iphone gaming in particular is just huge you know apple calls it the biggest
+[01:08:40.460 --> 01:08:45.740]  gaming platform in the world and by some measures i'm sure it is a certain number of titles
+[01:08:45.740 --> 01:08:50.900]  and there are some games that are perfect for a touch screen um they tend to be games
+[01:08:50.900 --> 01:08:55.260]  that wouldn't even exist without a touch screen like you couldn't i can't imagine how you
+[01:08:55.260 --> 01:09:00.420]  would play candy crush with a d-pad it just doesn't make sense because you're actually
+[01:09:00.420 --> 01:09:04.620]  touching it um but then there's all sorts of other games that are in my opinion no good
+[01:09:04.620 --> 01:09:10.540]  on a touch screen right and especially the games that put the little virtual d-pad and
+[01:09:10.540 --> 01:09:15.580]  buttons on the screen which at that point yeah i've never enjoyed one of those at all
+[01:09:15.580 --> 01:09:19.260]  i really don't my finger always slides off eventually and i can't figure out why my character
+[01:09:19.260 --> 01:09:23.860]  stopped moving and like it's tough i thought nintendo did a pretty good job with mario
+[01:09:23.860 --> 01:09:28.780]  run yes as an endless runner you know and there's a couple of other of those endless
+[01:09:28.780 --> 01:09:33.280]  runner type things where you just tap uh tap and like like your only real controls are
+[01:09:33.280 --> 01:09:36.940]  tap and long tap i thought they did a really good job of that because of course they're
+[01:09:36.940 --> 01:09:41.760]  nintendo and they're really good yeah yeah i agree but that's probably one of the best
+[01:09:41.760 --> 01:09:48.260]  examples but still i i don't know i tired of it quickly me too that's so yes that's
+[01:09:48.260 --> 01:09:53.020]  why when we saw the crank i think we're like oh man this is something totally different
+[01:09:53.020 --> 01:09:59.260]  we've all had like you know analog spinning like you know we grew up playing yeah tempest
+[01:09:59.260 --> 01:10:04.960]  and you know having the little rotational knob or whatever like that idea is not groundbreaking
+[01:10:04.960 --> 01:10:09.800]  by any means but the idea of having it attached to this little portable thing and it was funny
+[01:10:09.800 --> 01:10:15.860]  because god right after that i forgot about this fairly recently after we came up with
+[01:10:15.860 --> 01:10:20.300]  an idea for the crank then apple introduced the apple watch with the digital crown and
+[01:10:20.300 --> 01:10:25.460]  i remember going god damn it like they have a little spinner thing on the side of their
+[01:10:25.460 --> 01:10:32.380]  thing the irony is i don't think i've ever used the digital crowd i've gotten it and
+[01:10:32.380 --> 01:10:36.760]  other than yeah i mean even when i'm activating syria i always press the wrong button i always
+[01:10:36.760 --> 01:10:41.860]  press the sleep button and then it asks if i want to do an emergency sos or power off
+[01:10:41.860 --> 01:10:46.820]  my phone no memory for which button yeah but anyways i remember definitely being having
+[01:10:46.820 --> 01:10:51.440]  two days of sadness that there was a digital crown but it makes sense like that's a it's
+[01:10:51.440 --> 01:10:55.260]  a kind of a nice feeling input method and so we're using it for games but of course
+[01:10:55.260 --> 01:11:01.420]  we're also using it in the os and um not every game uses it and it flips out from the side
+[01:11:01.420 --> 01:11:07.260]  and there's even a little sensor in the cavity where it rests where we can tell whether it's
+[01:11:07.260 --> 01:11:11.620]  in there or not so i'm hoping that some games like when you flip the crank out will make
+[01:11:11.620 --> 01:11:16.140]  a cool sound effect or something uh there's all sorts of possibilities with it but what
+[01:11:16.140 --> 01:11:23.120]  it really unlocked for us was exciting these devs uh these amazing game creators that i
+[01:11:23.120 --> 01:11:29.540]  think just wanted something different uh a break from the routine of making a 3d game
+[01:11:29.540 --> 01:11:34.620]  for whatever where it's just like that to the right person the existence of that crank
+[01:11:34.620 --> 01:11:41.580]  just opens up this incredible box of ideas and that was the true power of the crank right
+[01:11:41.580 --> 01:11:47.780]  so the one title that you've that you've shown the most of yes is crankin's time travel adventure
+[01:11:47.780 --> 01:11:56.940]  right what a name for a game i love it but it reminds me a little bit of nintendo's strategy
+[01:11:56.940 --> 01:12:03.780]  with their new platforms where over the years they tend to have an opening title yeah that
+[01:12:03.780 --> 01:12:08.780]  exemplifies what they think is special about the platform the one that pops into my mind
+[01:12:08.780 --> 01:12:15.380]  in particular is um the mario game that shipped with the n64 because all of a sudden all of
+[01:12:15.380 --> 01:12:22.820]  a sudden mario's in 3d instead of 2d and it was like this is amazing this is so i cannot
+[01:12:22.820 --> 01:12:29.140]  believe that this still feels like a mario game even though it's in 3d and actually have
+[01:12:29.140 --> 01:12:37.300]  the word crankin like that your hero's name is cranking yes of course is it you know it
+[01:12:37.300 --> 01:12:46.440]  is like here's playdate here it is and here's crankin yes well so the reason we like that
+[01:12:46.440 --> 01:12:51.360]  game obviously is because it's exclusively the crank and it's something that would be
+[01:12:51.360 --> 01:12:55.740]  really difficult to do with a regular controller your thumb would get super tired rotating
+[01:12:55.740 --> 01:13:01.580]  an analog stick or over and over forever uh and it's just kind of funny and it has funny
+[01:13:01.580 --> 01:13:11.020]  sound effects and the plot is totally ludicrous and um it it looks really cool uh one weird
+[01:13:11.020 --> 01:13:16.340]  piece of trivia about that game is that the bulk of the graphics not all of the graphics
+[01:13:16.340 --> 01:13:23.020]  are uh pre-rendered frames so what's funny about that is the artist that did all the
+[01:13:23.020 --> 01:13:29.260]  graphics actually rendered the graphics in maya so this incredibly advanced 3d modeling
+[01:13:29.260 --> 01:13:35.500]  application and then exported to one bit 400 by 240 or whatever which is my favorite thing
+[01:13:35.500 --> 01:13:43.620]  in the world um and so yeah anyways it's it's a good mix of uh gameplay and uniqueness and
+[01:13:43.620 --> 01:13:48.980]  funniness and i also am a huge fan of that guy's games and so like it really sort of
+[01:13:48.980 --> 01:13:54.860]  ticked all the boxes for us so the can the the inputs you have there's the d d pad up
+[01:13:54.860 --> 01:14:02.100]  down left right uh and a b buttons and there's a a button that i'm hoping is called the panic
+[01:14:02.100 --> 01:14:08.540]  button but i still think is unnamed we might need to call it that in the in the top right
+[01:14:08.540 --> 01:14:14.420]  there's a button which brings up sort of like a system menu where you can take it take take
+[01:14:14.420 --> 01:14:20.700]  a screenshot yeah yeah um and the crank and that's it yeah there's a sleep wake button
+[01:14:20.700 --> 01:14:25.420]  on the very top of the device which reminds me a lot of an iphone or whatever so um that
+[01:14:25.420 --> 01:14:32.340]  sleep wake button also has a small little uh rgb led light in it so that we can do cool
+[01:14:32.340 --> 01:14:40.460]  uh blinking notifications of new games or whatever um but yes d-pad ab button menu button
+[01:14:40.460 --> 01:14:44.500]  all right i've complained i've complained about this to you privately and now i'm gonna
+[01:14:44.500 --> 01:14:51.460]  i'm ready you're gonna talk about the buttons aren't you why i call them ab buttons greg
+[01:14:51.460 --> 01:14:56.820]  do you have an answer steve i'm gonna just leave the room for a second long long long
+[01:14:56.820 --> 01:15:04.420]  discussion yeah um and it's been almost everything i mean they were ab and ba right we're ba
+[01:15:04.420 --> 01:15:09.220]  now right just like nintendo right they were one dot and two dots one dot two dots that's
+[01:15:09.220 --> 01:15:14.220]  right did we ever do shapes or anything we tried shapes yeah um also like a roman numeral
+[01:15:14.220 --> 01:15:20.100]  one roman numeral two kind of thing with two lines one line yeah we kept having to switch
+[01:15:20.100 --> 01:15:24.900]  the api that was the most embarrassing part of it actually we kept on switching the api
+[01:15:24.900 --> 01:15:31.140]  buttons hey happy monday guess what the buttons eventually we added an extraneous left and
+[01:15:31.140 --> 01:15:35.860]  right api so you can actually just go that way is that true yes i did not know that yes
+[01:15:35.860 --> 01:15:41.460]  oh that's so good so we can change them forever that's right okay good that's the button names
+[01:15:41.460 --> 01:15:48.700]  change in your api uh yeah because when it was one and two dot i remember sean actually
+[01:15:48.700 --> 01:15:53.420]  baked graphics into his game where the character would say whatever press the and the circle
+[01:15:53.420 --> 01:15:58.140]  with one dot or whatever that was awkward we thought i think like it's hard to talk
+[01:15:58.140 --> 01:16:03.140]  about that like yeah press just press two dots to continue like that's weird but a and
+[01:16:03.140 --> 01:16:09.700]  b communicates you know it's a it's b also there's some nintendo nostalgia there because
+[01:16:09.700 --> 01:16:15.620]  of course you know that's the classic nes controller ab actually ba technically right
+[01:16:15.620 --> 01:16:21.340]  b first a second which is also the secondary debate is it yeah like you said is it ab or
+[01:16:21.340 --> 01:16:26.540]  ba we chose ba but yeah john it's is it's a nightmare well at least you considered it
+[01:16:26.540 --> 01:16:31.140]  that's all i need to know is that you considered it all right my fear is that it was like well
+[01:16:31.140 --> 01:16:35.620]  nintendo has ba so we all have be well see the button on the right is just kind of easier
+[01:16:35.620 --> 01:16:40.340]  to push and it's the primary button for doing stuff in the ui it just felt weird to have
+[01:16:40.340 --> 01:16:47.280]  that bb i think john do you know that on the playstation the okay and cancel buttons are
+[01:16:47.280 --> 01:16:52.820]  different in the us and in japan no like at a system level and if you localize your title
+[01:16:52.820 --> 01:16:58.960]  into japanese you also have to swap out these buttons and the reason is because the x button
+[01:16:58.960 --> 01:17:05.700]  in x in japan is like no means no but circle in japan means yes we do checkmark but in
+[01:17:05.700 --> 01:17:11.340]  japan they do circle and so that circle is on the right yeah and then x is the bottom
+[01:17:11.340 --> 01:17:16.600]  but in the us that's instinctively backwards for what we're used to in controllers anyways
+[01:17:16.600 --> 01:17:21.460]  we are not the only company to face this challenge we actually had to localize that in firewatch
+[01:17:21.460 --> 01:17:24.980]  yeah in firewatch that was i think we actually got dinged in cert or whatever because we
+[01:17:24.980 --> 01:17:32.220]  haven't localized those buttons in firewatch and then a japanese person was mad at us yes
+[01:17:32.220 --> 01:17:37.740]  uh so i was looking at my switch before we started recording the show and i i play it
+[01:17:37.740 --> 01:17:44.600]  but i'm i'm a simplistic player and i tend to play super dumb games um i i love that
+[01:17:44.600 --> 01:17:49.500]  playdate doesn't have all these buttons right so my switch has let me think i'm if i'm recalling
+[01:17:49.500 --> 01:17:55.680]  this right they've got ab then x y i don't know but why not z but then there's the shoulder
+[01:17:55.680 --> 01:18:00.580]  buttons which i guess are the z and there's four shoulder buttons even on the tiny little
+[01:18:00.580 --> 01:18:04.660]  controller that is partly colorful ones if you use the little the the ones that click
+[01:18:04.660 --> 01:18:11.380]  into the switch itself yeah so there's uh up down left right and then there's ab x y
+[01:18:11.380 --> 01:18:16.740]  four shoulder buttons and then other buttons for like home and click the analog sticks
+[01:18:16.740 --> 01:18:24.300]  also yeah so my theory totally uh made up by me is that they really wanted to conform
+[01:18:24.300 --> 01:18:28.740]  to kind of what the industry standard is right now right um so games would be easier to port
+[01:18:28.740 --> 01:18:33.860]  that's the one thing nintendo hasn't had in the past so uh i think they probably have
+[01:18:33.860 --> 01:18:37.780]  actually more buttons they would like yeah that's exactly my theory too is that nintendo
+[01:18:37.780 --> 01:18:41.580]  isn't really happy about all those buttons but they they need the buttons as standards
+[01:18:41.580 --> 01:18:47.300]  on the controller so that you know cross-platform games don't have to magically make do with
+[01:18:47.300 --> 01:18:52.600]  fewer buttons than they yes yeah the ps vita was was missing some of those it was missing
+[01:18:52.600 --> 01:18:56.620]  two shoulder buttons and the ability to click that's around sticks and it may you know when
+[01:18:56.620 --> 01:18:59.780]  you're used to that sort of quote-unquote standard control scheme that made those games
+[01:18:59.780 --> 01:19:06.100]  a lot harder to play on that system i'm i'm too old and like my like the last system i
+[01:19:06.100 --> 01:19:10.800]  really played a lot on was the n64 and i forget how many buttons that had but it had like
+[01:19:10.800 --> 01:19:16.700]  a trigger button i think i had like two shoulder buttons and it had the four xy ab uh that
+[01:19:16.700 --> 01:19:20.940]  my brain maxed out at that point like when i watch my son play and he's using all these
+[01:19:20.940 --> 01:19:26.700]  shoulder buttons it is like i cannot believe that you can't play the piano or something
+[01:19:26.700 --> 01:19:31.300]  useful instead of being able to use eight fingers at once on a controller so here's
+[01:19:31.300 --> 01:19:37.460]  a question for you when you're using the crank is ergonomically can you still access the
+[01:19:37.460 --> 01:19:43.860]  ab buttons yes you can with you i mean i'm right-handed i crank with the right hand and
+[01:19:43.860 --> 01:19:49.100]  then i use left thumb to hit a and b and sometimes d-pad i mean but it is something that has
+[01:19:49.100 --> 01:19:54.040]  to be balanced you can't just have games that where you're doing them all simultaneously
+[01:19:54.040 --> 01:19:58.740]  that does not work but our developers have been you know learning how to balance those
+[01:19:58.740 --> 01:20:04.900]  and figure out what what combination of controls makes sense at one time i noticed that the
+[01:20:04.900 --> 01:20:10.140]  other ba buttons aren't they're set horizontal to each other and my most systems they're
+[01:20:10.140 --> 01:20:16.460]  diagonal including i think the classic nintendo controller like the nes so i'm sure i think
+[01:20:16.460 --> 01:20:20.620]  nes was straight but gameboy definitely switched today oh yeah you might be right that nes
+[01:20:20.620 --> 01:20:26.380]  right right uh let me guess you guys spent some time on this they were diagonal they
+[01:20:26.380 --> 01:20:31.240]  were diagonal yeah yeah for a while for a long time yeah what what was the reason we
+[01:20:31.240 --> 01:20:35.860]  changed it again like we ran out of room or something and engineering switched it um it
+[01:20:35.860 --> 01:20:41.220]  was their suggestion and it looked nice and uh we were skeptical i think because it is
+[01:20:41.220 --> 01:20:46.220]  very different i think in practice it isn't really a problem you can push both buttons
+[01:20:46.220 --> 01:20:51.380]  simultaneously they're both easy to reach so it wasn't a big deal and it i admit it
+[01:20:51.380 --> 01:20:56.780]  did look better that way yeah so uh we went for it yeah and you guys spent one of the
+[01:20:56.780 --> 01:21:00.900]  things touched on in the edge article that you guys spent a lot of time on the feel of
+[01:21:00.900 --> 01:21:05.700]  the buttons yeah yes one easily one of the hardest parts of this project right was making
+[01:21:05.700 --> 01:21:10.860]  that feel correct and clicky and responsive yeah and the weird thing was like you'd hand
+[01:21:10.860 --> 01:21:14.700]  somebody two buttons and ask you know which one feels better than you yeah and they would
+[01:21:14.700 --> 01:21:19.220]  press one it was always they'd always say it was buttoning like just the first one he
+[01:21:19.220 --> 01:21:24.300]  gave him but then after they push it for about 30 seconds all of a sudden that one had too
+[01:21:24.300 --> 01:21:29.180]  much tension and was getting too hard to press so it was actually the slightly mushier one
+[01:21:29.180 --> 01:21:34.580]  that was better in the long term so but it was a lot of experimentation yeah so i mean
+[01:21:34.580 --> 01:21:38.260]  and at that point do you even have games that you can play or are you just like sitting
+[01:21:38.260 --> 01:21:42.100]  there and pretending like you've got like an inert hardware device and you just we were
+[01:21:42.100 --> 01:21:46.460]  pretending at that point i think we just had literally a button maybe or something like
+[01:21:46.460 --> 01:21:50.300]  i don't know if it was even a device didn't we have a button that we really liked but
+[01:21:50.300 --> 01:21:54.540]  they ended up stress testing it at the factory and it wasn't even close to what it was rated
+[01:21:54.540 --> 01:22:03.100]  the first round of buttons we had for whatever reason died after about 2,500 presses and
+[01:22:03.100 --> 01:22:06.860]  wasn't even close to what we needed i'm so glad they tested that yeah we're in the hundreds
+[01:22:06.860 --> 01:22:13.340]  of thousands if not in the millions dear god yeah but how did they test that i mean i guess
+[01:22:13.340 --> 01:22:17.940]  it's like a robot yeah they have a machine they they place the device on there and the
+[01:22:17.940 --> 01:22:21.580]  thing just sits there and presses it and uh yeah they have all sorts of machines that
+[01:22:21.580 --> 01:22:26.780]  will drop them or send like this huge electric current through them if they do everything
+[01:22:26.780 --> 01:22:31.420]  to them they totally torture them i used to love you brought up ikea before you guys ever
+[01:22:31.420 --> 01:22:38.060]  at your local ikea did you ever have the robot but yes i love that robot but it was just
+[01:22:38.060 --> 01:22:44.940]  sitting there all day long for the poang chair uh they had our i i think they got rid of
+[01:22:44.940 --> 01:22:48.540]  it they moved the philadelphia ikea a couple years ago and i think they got rid of the
+[01:22:48.540 --> 01:22:56.100]  robot but but it was this industrial but that's and the machine you could uh of course it
+[01:22:56.100 --> 01:23:01.940]  was all in metric because it was from you know from ikea so it was but you'd set a simulated
+[01:23:01.940 --> 01:23:06.780]  weight of the individual in kilograms and then it would just stand up sit down stand
+[01:23:06.780 --> 01:23:12.060]  up sit down and then there was a counter and i and my wife it would drive my wife nuts
+[01:23:12.060 --> 01:23:18.860]  because she's got like an agenda she wants to buy x y and b she then she wants to go downstairs
+[01:23:18.860 --> 01:23:23.660]  and just sort of browse through the the knick-knack level and then get the hell out of ikea in
+[01:23:23.660 --> 01:23:27.580]  the meantime i just want to stand there and watch the robot butt and watch the number
+[01:23:27.580 --> 01:23:33.500]  increment we need a robot butt we like if you put it in your back pocket or whatever
+[01:23:33.500 --> 01:23:43.340]  like how is it fair sitting on a bus yeah uh so was there a debate on adding more buttons
+[01:23:43.340 --> 01:23:47.180]  earlier like how quickly did you settle on look let's keep it simple up down left right
+[01:23:47.180 --> 01:23:53.200]  ab there was no debate on the standard controls there was a debate on sort of how many kind
+[01:23:53.200 --> 01:23:59.500]  of weird gimmick controls you might have yes um like there was a touch area that te kind
+[01:23:59.500 --> 01:24:03.660]  of wanted to have underneath the ba button so it's going to be a touch sensitive strip
+[01:24:03.660 --> 01:24:09.180]  but eventually we thought if we put too many it really would feel like a huge gimmick yeah
+[01:24:09.180 --> 01:24:14.660]  and also the story is just cleaner if it's just the crank like instead of having the
+[01:24:14.660 --> 01:24:19.400]  the game console with wacky controls right it's the crank i always imagine myself writing
+[01:24:19.400 --> 01:24:25.220]  the copy and it's always like oh my god like oh and there's a crank and also a touch strip
+[01:24:25.220 --> 01:24:29.900]  oh and a slider on the side at that point people just close the tab and move on i think
+[01:24:29.900 --> 01:24:34.940]  so right at that point it starts to sound like the old sample project from next that
+[01:24:34.940 --> 01:24:39.860]  it was like right you're totally right i think steven trout and smith just posted a screenshot
+[01:24:39.860 --> 01:24:43.740]  of it but it was just a sample project for for the old project builder and it was just
+[01:24:43.740 --> 01:24:48.300]  a square window with one of every control just to show you here's here's how you you
+[01:24:48.300 --> 01:24:52.780]  know use a pop-up menu and a slider and a checkbox and a radio button and yeah yeah
+[01:24:52.780 --> 01:25:00.020]  it starts to sound like that exactly um because one of the things about it is it is so clearly
+[01:25:00.020 --> 01:25:04.580]  instantly the moment you just look at it you know exactly what it is it's a game playing
+[01:25:04.580 --> 01:25:09.820]  device right there is no confusion you add enough controls to it and all of a sudden
+[01:25:09.820 --> 01:25:15.340]  i maybe it loses that clarity right some sort of thing using boating or something right
+[01:25:15.340 --> 01:25:22.980]  yeah is it a musical device you know right is it yes correct so we kept it well relatively
+[01:25:22.980 --> 01:25:27.300]  simple yeah and i have seen some people in the internet be like this thing doesn't have
+[01:25:27.300 --> 01:25:32.580]  enough buttons which is kind of a hilarious criticism to me but i get it because like
+[01:25:32.580 --> 01:25:36.460]  modern controllers have a bunch of buttons but our games are not that complicated so
+[01:25:36.460 --> 01:25:41.660]  yeah uh one of the other things character defining characteristic of this device is
+[01:25:41.660 --> 01:25:52.180]  that the display is black and white not grayscale it is black and white and you know how early
+[01:25:52.180 --> 01:25:57.400]  did you settle on that and was that a concern you know that in today's world nobody wants
+[01:25:57.400 --> 01:26:01.180]  a black and white screen you guys know the first thing we settled yeah first thing we
+[01:26:01.180 --> 01:26:04.900]  settled on was the screen and that was actually that's the one foundational element that's
+[01:26:04.900 --> 01:26:09.660]  been there the entire time yep so yeah there have been moments when we questioned you know
+[01:26:09.660 --> 01:26:16.060]  gosh is this going to be right but it was always what we were based on and developers
+[01:26:16.060 --> 01:26:19.940]  have actually been kind of excited about it the other thing that seems contentious i think
+[01:26:19.940 --> 01:26:24.500]  for obvious reasons because we on the outside haven't seen it and used it is the lack of
+[01:26:24.500 --> 01:26:33.940]  backlighting yes that we've struggled with that non-stop because it doesn't feel it it
+[01:26:33.940 --> 01:26:39.140]  feels risky but so we did an experiment so the first thing that needs to be understood
+[01:26:39.140 --> 01:26:44.900]  is that this display like a traditional lcd is somewhat transparent underneath and that's
+[01:26:44.900 --> 01:26:49.860]  how it works the backlight shines through the lcd to give you the image but this display
+[01:26:49.860 --> 01:26:55.620]  is basically zero percent transparent on the back uh it is opaque and that allows it to
+[01:26:55.620 --> 01:27:02.300]  be super reflective and work super good in sunlight uh their suggested solution if you
+[01:27:02.300 --> 01:27:07.140]  want to try to lighten up the screen is actually a little front light and it's like a thin
+[01:27:07.140 --> 01:27:11.740]  piece of plastic that has you wouldn't even be able to detect them but ridges basically
+[01:27:11.740 --> 01:27:18.020]  yeah what's on like the left side right and the light hits this plastic sheet and the
+[01:27:18.020 --> 01:27:23.340]  ridges and the plastic direct the light towards you yeah um or towards the screen one of the
+[01:27:23.340 --> 01:27:30.040]  two yeah uh and we tried it and it just did not look good uh not only did it not look
+[01:27:30.040 --> 01:27:36.220]  good lit but it actually made the screen look worse unlit so it's kind of the best worst
+[01:27:36.220 --> 01:27:44.820]  the worst of both worlds um and so we just decided kind of to own it like that's just
+[01:27:44.820 --> 01:27:49.940]  going to be a quirk of this system is that you'll need a little bit of light to play
+[01:27:49.940 --> 01:27:57.220]  the screen uh and uh that's definitely going to bother people and i just think we just
+[01:27:57.220 --> 01:28:02.960]  have to kind of accept it i don't know it's like the whole world has consolidated on color
+[01:28:02.960 --> 01:28:07.860]  displays and you know it's for obvious reasons i mean i always say like the biggest regret
+[01:28:07.860 --> 01:28:14.320]  i have in my computer purchasing life is in 1991 when i went to college drexel required
+[01:28:14.320 --> 01:28:17.700]  freshmen to have a mackintosh or at least have access quote unquote so if you couldn't
+[01:28:17.700 --> 01:28:21.580]  really afford to buy one you could you know but you had to be you had to say i i will
+[01:28:21.580 --> 01:28:26.260]  go to the library or the computer center and use it but we had classwork like we had teachers
+[01:28:26.260 --> 01:28:31.060]  who gave out like hypercard stacks and stuff it was all it was this it was like we were
+[01:28:31.060 --> 01:28:37.420]  living in an apple commercial really amazing um but i made a terrible mistake i uh there
+[01:28:37.420 --> 01:28:41.620]  were three options there was the uh i forget the third one but it was i didn't want the
+[01:28:41.620 --> 01:28:47.420]  third one because it was the cheapest so my choice came down to an se 30 or the lc and
+[01:28:47.420 --> 01:28:54.820]  i picked the lc because it had a color display and i wanted to play games not realizing just
+[01:28:54.820 --> 01:29:02.100]  how much faster an se 30 is and how gorgeous it really is and we had max in my high school
+[01:29:02.100 --> 01:29:06.920]  but i didn't like them i last i was like an apple i like the apple 2gs so i spent more
+[01:29:06.920 --> 01:29:12.660]  of my time on the apple 2gs like the mac was a curiosity to me uh always regretted it regretted
+[01:29:12.660 --> 01:29:16.940]  it ever since it was a terrible decision but i was just but it was all because of the color
+[01:29:16.940 --> 01:29:21.820]  display i was like i gotta have that color display uh so i see it that's the way the
+[01:29:21.820 --> 01:29:28.600]  world's gone even goofy apple watch has a really really good color display um even though
+[01:29:28.600 --> 01:29:33.000]  there's a lot of trade-offs that we all sort of collectively forget like the fact that
+[01:29:33.000 --> 01:29:39.180]  your apple watch doesn't stay on all the time like i a big concern was you know we don't
+[01:29:39.180 --> 01:29:43.440]  want the games to look like poor versions of iphone games like we want an experience
+[01:29:43.440 --> 01:29:47.660]  that is distinctly different from that and the black and white screen is part of that
+[01:29:47.660 --> 01:29:54.300]  no there have to be uh here i'll try to toss one over to stephen uh there have to there
+[01:29:54.300 --> 01:30:01.860]  have to be a bunch of like bill bill atkinson level tricks for dithering and all sorts of
+[01:30:01.860 --> 01:30:06.860]  work that that atkinson and the original mac team did in the 80s with their black and white
+[01:30:06.860 --> 01:30:12.860]  displays to to simulate grays and patterns and stuff like that like you guys have got
+[01:30:12.860 --> 01:30:20.140]  to be using a bunch of cool stuff like that right yeah i mean uh it's it handles dithering
+[01:30:20.140 --> 01:30:26.220]  really nicely um i have a game that i've been working on with some folks here that uses
+[01:30:26.220 --> 01:30:33.700]  i think it's 32 or 33 levels of dithering and it's the screen is dense enough that you
+[01:30:33.700 --> 01:30:38.780]  know it reads pretty well i mean you can still tell it's it's a dither pattern but it looks
+[01:30:38.780 --> 01:30:43.260]  you know like there's more going on on the screen than there really is and uh there was
+[01:30:43.260 --> 01:30:49.980]  a someone did a prototype of like a software rendered 3d object rotating that was shaded
+[01:30:49.980 --> 01:30:54.980]  and that was pretty convincing that it wasn't just black and white and in fact dave wrote
+[01:30:54.980 --> 01:31:02.860]  a little uh one bit video codec and he had a little clip of uh big lebowski you gotta
+[01:31:02.860 --> 01:31:08.860]  use that as a test and uh it looked it's really it reads really well considering there is
+[01:31:08.860 --> 01:31:14.260]  no color the trick that dave did i think is really reduce the redithering on portions
+[01:31:14.260 --> 01:31:18.140]  of the screen that aren't changing so you don't get that like constant dancing pixel
+[01:31:18.140 --> 01:31:22.720]  distraction so yeah remind me to show that to you sometime it's pretty cool did you guys
+[01:31:22.720 --> 01:31:25.900]  you guys are way more juiced into video games than i am so you probably know but there was
+[01:31:25.900 --> 01:31:30.540]  a video game that came out like i'm gonna say like a year ago where you're like a pirate
+[01:31:30.540 --> 01:31:36.600]  and the whole game is oberden yeah oberden yeah that's return of the oberden yeah lucas
+[01:31:36.600 --> 01:31:43.420]  pope's game and it um definitely he was very open about his dev process and it was really
+[01:31:43.420 --> 01:31:49.180]  fun to watch him try different dithering approaches and how to make this thing look right and
+[01:31:49.180 --> 01:31:52.780]  that thing just looks incredible to me yeah and i think but that what made me think of
+[01:31:52.780 --> 01:31:57.720]  it was your thing about not redithering because my son was playing it and i just i was just
+[01:31:57.720 --> 01:32:01.980]  captivated watching it but i think that it like you said like somehow he figured out
+[01:32:01.980 --> 01:32:06.300]  a way to do it without the dancing pixels you know like even as you're like panning
+[01:32:06.300 --> 01:32:09.880]  it seems as though what was dithered stays dithered the same way even though you know
+[01:32:09.880 --> 01:32:14.860]  all of the pixels are moving because you're you're panning your vision exactly very convincing
+[01:32:14.860 --> 01:32:18.700]  i think that the potential i i think people might be underestimating the potential for
+[01:32:18.700 --> 01:32:24.100]  how graphically rich a game on the on the playdate screen could be i think so too you
+[01:32:24.100 --> 01:32:30.380]  know anyone anyone who's an artist or creative you know loves a good constraint and um you
+[01:32:30.380 --> 01:32:34.240]  know it's been said about twitter a lot of times is you've got to really distill your
+[01:32:34.240 --> 01:32:38.780]  thoughts to fit into you know the character limit and it's kind of the same thing with
+[01:32:38.780 --> 01:32:42.700]  getting rid of color and just going to black and white you know it's like how do i make
+[01:32:42.700 --> 01:32:46.460]  something that reads well in that environment and it kind of kind of pushes you a little
+[01:32:46.460 --> 01:32:51.200]  bit like you have to really stop and think about it and maybe put a bit more effort into
+[01:32:51.200 --> 01:32:55.780]  it than you you would if you could just kind of fall back on color uh what's the battery
+[01:32:55.780 --> 01:33:00.700]  story what is our battery story we haven't done our final test yet right yeah it's always
+[01:33:00.700 --> 01:33:04.500]  in flux because occasionally we'll introduce a bug that just drains the battery in you
+[01:33:04.500 --> 01:33:09.160]  know seven minutes but is it a battery built in oh yes yeah it's a rechargeable battery
+[01:33:09.160 --> 01:33:14.820]  built in and we can't really say exactly how long it's going to be it's going to be plenty
+[01:33:14.820 --> 01:33:20.980]  long we think um but we'll say more when we know yeah okay i just wanted to make sure
+[01:33:20.980 --> 01:33:26.500]  it wasn't like double a's or something like that or no actually the device is so cool
+[01:33:26.500 --> 01:33:30.040]  yeah the device is so in turn battery i think it's so thin i don't even know if it could
+[01:33:30.040 --> 01:33:37.080]  use double a probably i don't even know if it would fit it's a it looks very thin i mean
+[01:33:37.080 --> 01:33:41.320]  and it's one of those things that thinness often even in a picture it's hard to convey
+[01:33:41.320 --> 01:33:47.460]  you have to kind of pick it up to really appreciate it uh but is that how it feels in hand yeah
+[01:33:47.460 --> 01:33:51.820]  it's very thin yeah actually if you look at the uh the firewatch uh playdate the one we
+[01:33:51.820 --> 01:33:55.980]  embedded in that game it's about two to three times as thick as this one because that's
+[01:33:55.980 --> 01:34:00.260]  what we thought we were going to have to do at the time that's true so that one's like
+[01:34:00.260 --> 01:34:03.580]  an inch thick so for the people who don't know this so firewatch is a game that you
+[01:34:03.580 --> 01:34:09.380]  guys uh co-produced is that the maybe the best yeah way of sure attributing your contribution
+[01:34:09.380 --> 01:34:16.460]  with campo santo indie game hackers wonderful wonderful game it's won awards it's very successful
+[01:34:16.460 --> 01:34:20.940]  and all deservedly so it's one of the few games i've played in recent years i loved
+[01:34:20.940 --> 01:34:25.060]  it my son i think i told you this cable my son played it twice played through that's
+[01:34:25.060 --> 01:34:30.660]  amazing that's really and you know and i'm really blown away by by that because he's
+[01:34:30.660 --> 01:34:36.940]  you know he's typically playing uh you know destiny or something like that with a slightly
+[01:34:36.940 --> 01:34:44.180]  different vibe than firewatch um but you guys put in one of the i forget where it was was
+[01:34:44.180 --> 01:34:50.580]  it like in a another one of the watchtowers or it was in a hideout uh kind of a spoiler
+[01:34:50.580 --> 01:34:56.020]  yeah somewhere in the game he had some stuff and one of his things was what is it called
+[01:34:56.020 --> 01:35:01.900]  broken or handheld game yeah and uh if you flip it over there's actually like a pd logo
+[01:35:01.900 --> 01:35:07.600]  on the back too so we like went pretty far but actually that one was from when the buttons
+[01:35:07.600 --> 01:35:11.580]  were diagonal yes and so that's why the buttons are diagonal on that one that's you know what
+[01:35:11.580 --> 01:35:16.700]  though even if i would have really noticed it if i would have actually you know even
+[01:35:16.700 --> 01:35:21.260]  if we would have said a play date by panic i still wouldn't have thought that's true
+[01:35:21.260 --> 01:35:27.380]  i would not have thought it was a teaser that you're actually going to make that device
+[01:35:27.380 --> 01:35:32.940]  i would just think that's a fun easter egg like imagine if imagine if panic made a little
+[01:35:32.940 --> 01:35:37.260]  handheld video game god you're right we were maybe more worried about it than we needed
+[01:35:37.260 --> 01:35:41.940]  yeah i would have i could have noticed it it could have been like a big article on you
+[01:35:41.940 --> 01:35:46.700]  know max stories or something like that and i would have i wouldn't have even asked if
+[01:35:46.700 --> 01:35:49.940]  it was real i just would have thought well that's easy you know it's a lot easier to
+[01:35:49.940 --> 01:35:55.340]  make a make a play date in in a video game than it is to make one in the real world turns
+[01:35:55.340 --> 01:36:00.460]  out yeah yeah quite a bit easier you mentioned the thinness one of the interesting things
+[01:36:00.460 --> 01:36:05.500]  about that uh and the d-pad which we were talking about it's very hard to make a good
+[01:36:05.500 --> 01:36:11.100]  d-pad with a device that's that's that shallow um i'll bet and that's been one of the challenges
+[01:36:11.100 --> 01:36:15.740]  also i think we've cracked it but um that took a few redesigns to get it get it working
+[01:36:15.740 --> 01:36:19.580]  well that brings us right back to the opening of the show in the macbook keyboards that
+[01:36:19.580 --> 01:36:25.700]  you make these macbooks so much thinner right i mean i still go in the apple store and when
+[01:36:25.700 --> 01:36:31.900]  i see the the little uh 12 inch macbook the macbook one port the poor begotten you know
+[01:36:31.900 --> 01:36:37.220]  forgotten to i think they forgot to update it but when i see it i'm still blown away
+[01:36:37.220 --> 01:36:41.180]  by how small it is it's so tiny and and i'm sure it's the same type of thing where it
+[01:36:41.180 --> 01:36:45.460]  really to make like you know like on a sega genesis or something the controller has so
+[01:36:45.460 --> 01:36:51.060]  much room for the d-pad to have depth right that just isn't possible on something like
+[01:36:51.060 --> 01:36:57.340]  this were you were you concerned as that maybe you guys were making it too thin that was
+[01:36:57.340 --> 01:37:02.060]  that was a question yeah um yeah i think we're good i mean i think it looks great and feels
+[01:37:02.060 --> 01:37:08.980]  great but we t and te was the one pushing for the the thinness um and it made things
+[01:37:08.980 --> 01:37:14.420]  harder to do it that way but but it worked out great um it feels good and it looks kind
+[01:37:14.420 --> 01:37:19.900]  of cool it's just i mean i can only judge by how it looks obviously but it certainly
+[01:37:19.900 --> 01:37:26.820]  the thinness vastly contributes to the uncanny valley where this sort of seems a little retro
+[01:37:26.820 --> 01:37:32.880]  but it also seems incredibly modern like because nothing old was that thin like literally like
+[01:37:32.880 --> 01:37:41.180]  i just said like you had to put like nine volt batteries in there
+[01:37:41.180 --> 01:37:45.700]  what about the sound everybody that from what i've i was gonna say heard no pun intended
+[01:37:45.700 --> 01:37:52.540]  what i've heard uh it has surprisingly good sound i mean the weird thing about it being
+[01:37:52.540 --> 01:37:58.460]  modern is that you know it's not like a chip can create four channels of sound or whatever
+[01:37:58.460 --> 01:38:04.660]  you know we can play real sound uh we're working on a synthesis engine in addition to being
+[01:38:04.660 --> 01:38:11.220]  able to just play a wave file or whatever uh and the speaker is small but like way louder
+[01:38:11.220 --> 01:38:15.020]  than it has any right to be we actually are not going to run it at full volume because
+[01:38:15.020 --> 01:38:21.020]  it is too loud that's great so uh of course there's a headphone jack as well um and we
+[01:38:21.020 --> 01:38:25.460]  went to great lengths to support the mic in through the headphone jack so if you have
+[01:38:25.460 --> 01:38:29.500]  you know an apple headset or whatever and a game requires microphone in addition to
+[01:38:29.500 --> 01:38:34.060]  the microphone that's on the play date that will work as well uh but yeah it's it's it's
+[01:38:34.060 --> 01:38:40.980]  surprisingly good sound where is the headphone jack bottom or top uh bottom center dead center
+[01:38:40.980 --> 01:38:45.220]  yeah right or is the usb port dead center usb is on the right and microphones on the
+[01:38:45.220 --> 01:38:52.660]  left okay uh usb you guys have usb-c not the gross micro usb right god i hate that one
+[01:38:52.660 --> 01:39:00.500]  yeah i hate it too i still i can't believe how many devices i still have that you incredible
+[01:39:00.500 --> 01:39:05.820]  quite it's just the most unfulfilling port to use on anything ever and it always feels
+[01:39:05.820 --> 01:39:10.340]  like it's going to break off right always feels like it's going to break and my my close
+[01:39:10.340 --> 01:39:15.420]  eyesight is not as good as it used to be so sure especially like in the dark it and it's
+[01:39:15.420 --> 01:39:20.580]  you know it is the prototypical buttered piece of toast of course it's always uh the wrong
+[01:39:20.580 --> 01:39:25.940]  way when i first try it or it's the right way and i i can't quite get it in and there
+[01:39:25.940 --> 01:39:30.380]  i think it's the wrong way and flip it it's terrible so i'm glad you guys it's wrong the
+[01:39:30.380 --> 01:39:37.220]  first two times it's wrong the first two times that's true uh so usb-c when did you guys
+[01:39:37.220 --> 01:39:41.300]  like i forget how long ago usb-c came out but you guys must have when you were you must
+[01:39:41.300 --> 01:39:44.260]  have had this idea in your heads and when usb-c came out you must have been like oh
+[01:39:44.260 --> 01:39:49.660]  thank god we can yeah for sure and i i remember it was actually really hard to get for a little
+[01:39:49.660 --> 01:39:56.460]  while usb-c parts because i think apple had locked down the market because they were going
+[01:39:56.460 --> 01:40:00.540]  to add usb-c to something i wonder what it was what was their first device with usb-c
+[01:40:00.540 --> 01:40:06.800]  huh maybe a laptop probably a laptop yeah i think it was the the 12-inch macbook got
+[01:40:06.800 --> 01:40:12.060]  it i think so and so we just we decided to use usb-c definitely immediately and for a
+[01:40:12.060 --> 01:40:18.180]  long time we couldn't even get uh i remember going to alibaba.com hoping to find some usb-c
+[01:40:18.180 --> 01:40:24.620]  parts uh and so yeah i'm so glad that appeared when it did and you guys have a uh it's gonna
+[01:40:24.620 --> 01:40:31.940]  ship with a matching yellow usb-c cable yes correct you got it what's on the other end
+[01:40:31.940 --> 01:40:40.580]  of the cable is it just a usb-a usb-a but you're not shipping a charger we are not we're
+[01:40:40.580 --> 01:40:48.380]  not planning on shipping one we kind of figured everybody had one but um or 50. i have a few
+[01:40:48.380 --> 01:40:54.200]  yeah so uh yes it's not going to be included with the system itself i think that's reasonable
+[01:40:54.200 --> 01:40:58.320]  but i think it's you know it's interesting it's interesting to me how many things do
+[01:40:58.320 --> 01:41:03.060]  come with a charger like there's certain gadgets i buy and i'm like why give why did you give
+[01:41:03.060 --> 01:41:12.020]  me a charger with this right i have so many of these um all right what else do i have
+[01:41:12.020 --> 01:41:17.860]  i wanted to talk about the software um and i don't know why i'm hung up on this i don't
+[01:41:17.860 --> 01:41:23.420]  know why i'm hung up on the fact that you guys wrote your own os but should i bring
+[01:41:23.420 --> 01:41:26.980]  dave in here should dave talk about do you want to ask him direct questions about this
+[01:41:26.980 --> 01:41:33.120]  mythical os i i just it just blows me away because i and i guess you didn't write the
+[01:41:33.120 --> 01:41:37.380]  whole thing right like you didn't write your own bluetooth and wi-fi stacks right right
+[01:41:37.380 --> 01:41:45.580]  right so how do you make a custom os but use an existing open source like wi-fi stack i
+[01:41:45.580 --> 01:41:49.700]  mean is there is it like a posix operating system is there like a can you get like a
+[01:41:49.700 --> 01:41:58.380]  terminal no um i mean even calling it an os feels like a bit of an overstate that's true
+[01:41:58.380 --> 01:42:05.100]  it has an os in the way that an apple 2 has an os you know what i mean like it it has
+[01:42:05.100 --> 01:42:10.300]  there's enough code in the firmware to service the hardware on the device you know read the
+[01:42:10.300 --> 01:42:17.360]  inputs and the and display stuff on screen and then beyond that it's primarily just hosting
+[01:42:17.360 --> 01:42:24.060]  a lua runtime which is lua is a scripting language that some people are writing their
+[01:42:24.060 --> 01:42:30.100]  games and some people are going straight to c but lua is a friendlier alternative and
+[01:42:30.100 --> 01:42:35.220]  so that lua runtime sort of exposes a set of apis for you know drawing stuff playing
+[01:42:35.220 --> 01:42:42.260]  sounds reading the inputs and so the the quote unquote quote unquote os is basically just
+[01:42:42.260 --> 01:42:47.700]  the the glue between the physical hardware and that runtime not to you know not to understate
+[01:42:47.700 --> 01:42:51.740]  what what dave has done it's it's quite an a quite an achievement for especially for
+[01:42:51.740 --> 01:42:57.580]  a single person um but yeah it's not like we had to write a whole window manager and
+[01:42:57.580 --> 01:43:02.220]  you know consider the types of you know what kind of word processor is going to need to
+[01:43:02.220 --> 01:43:05.640]  run on this and it's so in other words you're not going to teach like a computer science
+[01:43:05.640 --> 01:43:14.140]  201 course on operating system design using this os probably not i mean but it's practical
+[01:43:14.140 --> 01:43:22.180]  it's it's all very practical it is all just the what do we need running on this processor
+[01:43:22.180 --> 01:43:26.420]  to get it just to make this thing work yeah it has to be less than a megabyte actually
+[01:43:26.420 --> 01:43:32.040]  that's true yeah the flash on the on the chip is only has only about that much space yeah
+[01:43:32.040 --> 01:43:36.940]  but yeah it does just enough to run a play date that's that's impressive that's floppy
+[01:43:36.940 --> 01:43:44.100]  disk sized i mean that's right i mean megabytes code is small you take all of the you know
+[01:43:44.100 --> 01:43:48.860]  it resources resource stuff out and code is very small i feel like code of the app is
+[01:43:48.860 --> 01:43:56.500]  99 icons right and yeah yeah i i have an app that was i think 75k the actual binary and
+[01:43:56.500 --> 01:44:00.140]  because it had like all of the different icon sizes up to retina it came out to be some
+[01:44:00.140 --> 01:44:06.580]  like three megabytes did you guys see the captain marvel website that marvel did before
+[01:44:06.580 --> 01:44:10.980]  the movie came out and and because the the movie takes place in like 1995 or something
+[01:44:10.980 --> 01:44:16.300]  like that and so they did the website yes they extremely good they did this really really
+[01:44:16.300 --> 01:44:24.500]  good geo cities style 1995 website but like people poked it apart and it was like hundreds
+[01:44:24.500 --> 01:44:30.140]  and hundreds of megabytes it's like it's like on the back end it's all running on like node
+[01:44:30.140 --> 01:44:35.900]  node js beautiful and rendering all this stuff and it's like no part of the challenge was
+[01:44:35.900 --> 01:44:41.820]  making this so that it would work over a 14-4 modem connection and i feel like that website
+[01:44:41.820 --> 01:44:45.920]  was definitely inspired by the space jam website which i don't know if you know it's still
+[01:44:45.920 --> 01:44:52.780]  running today uh you can i don't know what whose closet that computer still is that is
+[01:44:52.780 --> 01:44:57.740]  still running the space jam website but it's my favorite thing on the internet all right
+[01:44:57.740 --> 01:45:04.180]  i'm gonna put it in the show notes okay space jam website all right yeah you're gonna enjoy
+[01:45:04.180 --> 01:45:07.900]  that website i promise you but that's the challenge though like the part of the you
+[01:45:07.900 --> 01:45:11.740]  know it wasn't just making a website that looked so cheesy it was that we had to do
+[01:45:11.740 --> 01:45:17.420]  it in this incredibly you know we had to pinch every single bite out of our images not just
+[01:45:17.420 --> 01:45:24.380]  megabytes so hearing about this project that has to fit in one megabyte of memory is again
+[01:45:24.380 --> 01:45:32.220]  it just tickles my nostalgia like that's impressive awesome um so what's the story with ide for
+[01:45:32.220 --> 01:45:37.260]  games is that something you're talking about is that going to ship before play date do
+[01:45:37.260 --> 01:45:41.260]  you want to i'm not sure about the time you get but you want to explain in general how
+[01:45:41.260 --> 01:45:49.460]  it works here i'll lean this close to you um the s the sdk is uh composed basically
+[01:45:49.460 --> 01:45:55.780]  of a compiler and a device simulator that's pretty much like the iphone simulator if you've
+[01:45:55.780 --> 01:46:04.860]  ever developed for ios um it's like a mini virtual playdate that runs on screen and you
+[01:46:04.860 --> 01:46:11.980]  help your game like i said before either lua or c uh lua is a much more approachable scripting
+[01:46:11.980 --> 01:46:15.860]  language anyone who's ever written a program before can probably pick it up in a couple
+[01:46:15.860 --> 01:46:22.700]  of hours um versus c which has better performance characteristics but it's you know it's a higher
+[01:46:22.700 --> 01:46:26.860]  learning curve if you're not already familiar with it and actually the the lure runtime
+[01:46:26.860 --> 01:46:32.220]  runs quite well for all but like the most demanding of games and you can kind of intermix
+[01:46:32.220 --> 01:46:37.780]  the two if you want if you have a mostly lua game that uh is having bad performance in
+[01:46:37.780 --> 01:46:42.660]  one particular area you can write a little c library to handle that one part so it runs
+[01:46:42.660 --> 01:46:50.200]  faster and call into that from your lua code um so yeah you you basically run this compiler
+[01:46:50.200 --> 01:46:54.300]  against your uh your lua code and it kind of bundles it all up for you it does some
+[01:46:54.300 --> 01:47:00.540]  uh some stuff with the resources it compresses the images and wraps it all up into a little
+[01:47:00.540 --> 01:47:06.620]  single bundle file that uh then can be run in the simulator and you can try it out and
+[01:47:06.620 --> 01:47:11.660]  see how it goes and um from there you can also transfer it onto a physical device if
+[01:47:11.660 --> 01:47:16.900]  you have one attached by the usb cable and see how it runs on the device and we have
+[01:47:16.900 --> 01:47:24.820]  a plug-in for coda 2 that makes this easier also it will deploy to the device etc this
+[01:47:24.820 --> 01:47:28.620]  is the upcoming new version of coda that you guys are the existing one oh the existing
+[01:47:28.620 --> 01:47:32.700]  one but also the new one we can do it with the new one too yeah that you're forthcoming
+[01:47:32.700 --> 01:47:38.020]  uh a forthcoming unnamed editor has a right yes a very good the app you guys are working
+[01:47:38.020 --> 01:47:41.340]  on in your spare spare time
+[01:47:41.340 --> 01:47:46.060]  that is before we go i know this is part of your announcement but this it is coming the
+[01:47:46.060 --> 01:47:52.900]  next version as yet unnamed to the outside world the successor to coda uh is still coming
+[01:47:52.900 --> 01:47:57.980]  sometime in 2019 is that i think that's as much as you're willing to promise yep for
+[01:47:57.980 --> 01:48:02.260]  sure it's we're closing in on it i think it'll be a developer release kind of situation because
+[01:48:02.260 --> 01:48:06.140]  we know that there's going to be a lot of feedback and we want to make sure to shape
+[01:48:06.140 --> 01:48:11.540]  the product to meet the needs of today's web developers yep that's coming soon have you
+[01:48:11.540 --> 01:48:18.300]  gotten any negative feedback from people who are not interested in playdate but are interested
+[01:48:18.300 --> 01:48:25.080]  in transmit coda and oh for sure and yeah it's a classic running joke that's not really
+[01:48:25.080 --> 01:48:31.740]  a joke that no matter what we ever announce ever someone's mad that it's not another thing
+[01:48:31.740 --> 01:48:37.180]  and so it doesn't matter this is the extreme version of that by far and that's partially
+[01:48:37.180 --> 01:48:41.700]  why the panic blog post specifically is but don't worry we're working on the next you
+[01:48:41.700 --> 01:48:46.400]  know we always have to be one step ahead of that because it just happens every single
+[01:48:46.400 --> 01:48:52.340]  time jake rodkin at campo still jokes every time i tweet but what about candy bar three
+[01:48:52.340 --> 01:48:59.140]  to this day yeah except we actually make candy bar oh did we make candy bar three god damn
+[01:48:59.140 --> 01:49:03.320]  it okay part four i mean yeah it's it's easy to have that perception from outside that
+[01:49:03.320 --> 01:49:07.380]  you know they're a small company they probably pulled all their engineering resources off
+[01:49:07.380 --> 01:49:11.540]  of all their apps to put them to work on this right stupid game idea right right now everything's
+[01:49:11.540 --> 01:49:17.660]  languishing but it's that's not quite really the case um i would say that the apps have
+[01:49:17.660 --> 01:49:21.460]  all been under steady development the whole time i agree that going on on the side so
+[01:49:21.460 --> 01:49:26.300]  and we're actually better about that now than we've ever been everything is rolling i definitely
+[01:49:26.300 --> 01:49:29.680]  remember when it took a little while for transmit five to come out somebody be like well maybe
+[01:49:29.680 --> 01:49:34.780]  if you weren't making that sign for your building you could have made i'm like i don't we don't
+[01:49:34.780 --> 01:49:39.720]  make signs that's not that was a different person but i understand the sentiment which
+[01:49:39.720 --> 01:49:43.780]  is just i want that thing that i want which is totally fine and i'm guilty of it doing
+[01:49:43.780 --> 01:49:47.240]  guilty of doing of course like a look at apple and like well of course you're putting all
+[01:49:47.240 --> 01:49:52.620]  your work on this watch or whatever no my it's like a how many thousands of people work
+[01:49:52.620 --> 01:49:56.380]  at that company they're not all working yeah my favorite are the people who think that
+[01:49:56.380 --> 01:50:04.580]  their foray into original tv content is just is detracting from like the mac os tim cook
+[01:50:04.580 --> 01:50:10.180]  wasn't directing the premiere episode of the new jim hensen project or whatever yeah like
+[01:50:10.180 --> 01:50:15.300]  i i totally get and again it'd be a whole episode onto itself i get the idea that you
+[01:50:15.300 --> 01:50:18.460]  can make a very strong argument that maybe apple shouldn't be worried about original
+[01:50:18.460 --> 01:50:22.340]  content period they should just make the tv platform and let other people fill it with
+[01:50:22.340 --> 01:50:27.800]  their netflix and hulu and hbo i get that but i the idea that the people who apple has
+[01:50:27.800 --> 01:50:35.860]  hired to make these shows we're like take it off like you know not coco engineers god
+[01:50:35.860 --> 01:50:42.460]  but imagine if they were imagine that's programming i want to see right uh steven the gaffer are
+[01:50:42.460 --> 01:50:48.540]  the are the drawing api's higher level like sprite kit or something like that or is it
+[01:50:48.540 --> 01:50:54.180]  more like direct drawing to like a screen buffer um it's it's kind of comparable to
+[01:50:54.180 --> 01:50:59.820]  like quick draw um so you get you drawing primitives you know you can you know circles
+[01:50:59.820 --> 01:51:06.700]  lines rectangles uh polygons and you can those can be outlines are filled with a pattern
+[01:51:06.700 --> 01:51:13.420]  um we and of course you can put images onto the screen and we do have a built-in library
+[01:51:13.420 --> 01:51:18.380]  for uh managing sprites uh that's kind of you know it just provides the basics and if
+[01:51:18.380 --> 01:51:22.820]  you want something more complex than that you can of course write your own and we support
+[01:51:22.820 --> 01:51:30.380]  some things like tile maps built in and yeah fonts fonts oh tell me about the fonts they're
+[01:51:30.380 --> 01:51:37.540]  pretty basic um yeah just imagine a very small uh image containing all of the characters
+[01:51:37.540 --> 01:51:42.220]  from your font and then like a little sidecar text file that explains here's the spacing
+[01:51:42.220 --> 01:51:46.780]  of the letters and the image so are they all they're all bitmap fonts you're not doing
+[01:51:46.780 --> 01:51:50.420]  like rendering of true type on the fly or something like that no none of that so it's
+[01:51:50.420 --> 01:51:56.620]  a classic black and white display bitmap fonts yep we do things like kerning pairs which
+[01:51:56.620 --> 01:52:03.860]  is nice of course that's a plus yeah uh all right eric let me take one last break i thank
+[01:52:03.860 --> 01:52:06.580]  our third and final sponsor and then we'll wrap up i know i've taken up a lot of your
+[01:52:06.580 --> 01:52:11.100]  time and this is great but i still have some more questions um but our third sponsor our
+[01:52:11.100 --> 01:52:16.060]  old friends at squarespace look you need a website squarespace is where you go they've
+[01:52:16.060 --> 01:52:24.060]  got it all built in and they've got something new they've got a brand new ios app so when
+[01:52:24.060 --> 01:52:26.700]  you're on your desktop you're on your mac you're on your windows machine whatever you're
+[01:52:26.700 --> 01:52:31.140]  using you go to squarespace you build your website right there in the browser in your
+[01:52:31.140 --> 01:52:36.060]  squarespace account um what about when you're on on the go if you want to make some changes
+[01:52:36.060 --> 01:52:42.420]  you're on your phone you're on your ipad their new ipad app is amazing it is a very very
+[01:52:42.420 --> 01:52:47.900]  good app really really great and kind of makes up for the way that there's you know like
+[01:52:47.900 --> 01:52:54.420]  with a mouse on a on a desktop in a browser it's a lot more of a design capable experience
+[01:52:54.420 --> 01:52:59.460]  than you are poking around with your big fat finger with an ios app that is built for touch
+[01:52:59.460 --> 01:53:03.380]  from the ground up it's really really great really something to check out if you've looked
+[01:53:03.380 --> 01:53:09.400]  at squarespace anytime recently but have been maybe maybe you more of an ipad uh person
+[01:53:09.400 --> 01:53:14.260]  for work and you were frustrated by that check out their app in the app store it is truly
+[01:53:14.260 --> 01:53:18.300]  great can't recommend it highly enough and it's something new from squarespace they're
+[01:53:18.300 --> 01:53:23.520]  moving forward they're still doing great stuff and again just a quick reminder everything
+[01:53:23.520 --> 01:53:29.420]  you need to do for your website from registering domain names to hosting a blog hosting a podcast
+[01:53:29.420 --> 01:53:33.820]  updating it creating a store where you take actual credit cards and sell stuff you can
+[01:53:33.820 --> 01:53:40.180]  do it all in squarespace it truly is an all-in-one platform for the web you get a free trial
+[01:53:40.180 --> 01:53:45.740]  by going to squarespace.com slash talk show and when you decide to sign up and pay just
+[01:53:45.740 --> 01:53:50.500]  remember that code go to squarespace.com slash talk show and use that offer code talk show
+[01:53:50.500 --> 01:53:54.700]  at checkout and you get 10 off your first purchase up to a year you could pay for a
+[01:53:54.700 --> 01:54:00.820]  year in advance save 10 uh so my thanks to squarespace for their continuing support of
+[01:54:00.820 --> 01:54:05.500]  this podcast um anything that i is there anything about it that you guys haven't talked about
+[01:54:05.500 --> 01:54:11.980]  that that that you know like maybe i wouldn't think to ask boy that we can talk about yeah
+[01:54:11.980 --> 01:54:16.500]  maybe not what do you think i mean there's the season of gaming we haven't really touched
+[01:54:16.500 --> 01:54:20.620]  on yeah there we go that's concept when did when did you come up on that that's a great
+[01:54:20.620 --> 01:54:26.140]  and a truly a differentiator i mean i've never heard of anything like that so the basic idea
+[01:54:26.140 --> 01:54:30.340]  for anybody who's not paying attention you buy your play date for 149 i guess you get
+[01:54:30.340 --> 01:54:36.660]  some kind of an account or something you know with yeah and then every monday for 12 weeks
+[01:54:36.660 --> 01:54:42.340]  you get a new game it just shows up and your your little led light blinks to let you know
+[01:54:42.340 --> 01:54:47.020]  that there's a happy little surprise there on the play date i mean that came that came
+[01:54:47.020 --> 01:54:51.500]  from the game and watch days we were thinking about having the device transform into a new
+[01:54:51.500 --> 01:54:56.220]  game every week that's true but how did we then take it to season of games i feel like
+[01:54:56.220 --> 01:55:03.660]  we were also subconsciously inspired by your uh match cut movie club which uh nevin and
+[01:55:03.660 --> 01:55:11.020]  greg have an occasional uh party movie showing where you go to the movie but you have no
+[01:55:11.020 --> 01:55:14.260]  idea what's going to be screened you can tell it better than i can they give you a couple
+[01:55:14.260 --> 01:55:18.820]  hints right that's yeah but that's the story and we wanted to it was really this didn't
+[01:55:18.820 --> 01:55:23.360]  start as a seasoned per se it started as surprises how do we surprise people with this thing
+[01:55:23.360 --> 01:55:28.420]  over and over again as they're as they're using it and eventually we we couldn't figure
+[01:55:28.420 --> 01:55:33.660]  out how to describe it but eventually we settled on a tv season being the right metaphor and
+[01:55:33.660 --> 01:55:39.340]  so that's how we came to that point uh and you're you know let's not get ahead of ourselves
+[01:55:39.340 --> 01:55:45.980]  right you still have to ship and that's a lot yes very true but you've hinted you know
+[01:55:45.980 --> 01:55:52.460]  like what what is the future like let's just say okay it ships and it works and people
+[01:55:52.460 --> 01:55:58.860]  are happy and the games are actually delivered on monday right on schedule uh you get to
+[01:55:58.860 --> 01:56:02.900]  the end and you've got all 12 games i mean number one yeah i know you guys were tinkering
+[01:56:02.900 --> 01:56:06.660]  with the idea that like every monday the the last game would be replaced by the new game
+[01:56:06.660 --> 01:56:13.180]  absolutely yeah the device would completely become the new game people are staying up
+[01:56:13.180 --> 01:56:17.380]  all night on sundays right yeah that would be a little intense but you you've backed
+[01:56:17.380 --> 01:56:21.580]  away from that so what you know and and if you buy it if you get yours a month late you'll
+[01:56:21.580 --> 01:56:26.020]  already have like the first four games or something like that right it's an option i
+[01:56:26.020 --> 01:56:30.540]  think um we're still debating it but it may be an option where you get to start your season
+[01:56:30.540 --> 01:56:38.900]  late or you can start in pro you know start it in progress uh what about after that though
+[01:56:38.900 --> 01:56:43.120]  i mean obviously there's the potential for this to be an indie platform you're you're
+[01:56:43.120 --> 01:56:48.300]  already talking i mean you've said there's going to be an sdk you know and support koda
+[01:56:48.300 --> 01:56:53.020]  so other people can start making games what happens with those games like will people
+[01:56:53.020 --> 01:56:58.220]  just side load them is are you are you going to make an app store this is definitely something
+[01:56:58.220 --> 01:57:02.540]  we're figuring out right now uh we've talked about all sorts of options side loading we
+[01:57:02.540 --> 01:57:08.700]  want to always be an option but it's very possible that in the ultimate cosmic ironies
+[01:57:08.700 --> 01:57:16.240]  we might find ourselves making an app store it's so great i uh there's a lot of questions
+[01:57:16.240 --> 01:57:21.180]  about that um so i think we're gonna really just take a look at how many people are interested
+[01:57:21.180 --> 01:57:26.020]  which so far is an overwhelming number of people and what's the best way for us to get
+[01:57:26.020 --> 01:57:30.380]  the games on there but that's later yeah i mean i think we'd love nothing more than to
+[01:57:30.380 --> 01:57:36.020]  see like a thriving you know homebrew community of developers who are able to put things out
+[01:57:36.020 --> 01:57:42.700]  there and you know get paid as well uh one of the great ironies to me of the modern world
+[01:57:42.700 --> 01:57:47.900]  is that there's more adherence to for lack of a better term a human interface guidelines
+[01:57:47.900 --> 01:57:52.460]  unlike the major platforms like you were just talking about how on playstation that there's
+[01:57:52.460 --> 01:57:57.780]  buttons for you know okay and cancel and they're different in japan in the us and they won't
+[01:57:57.780 --> 01:58:02.580]  let you ship if you don't obey but there's all sorts of other conventions that that the
+[01:58:02.580 --> 01:58:07.380]  console makers make game makers apply so that there's consistency through the game so you
+[01:58:07.380 --> 01:58:12.820]  guys have like the equivalent like the the playdate you have like a playdate human interface
+[01:58:12.820 --> 01:58:18.500]  guidelines dear god we're gonna have to write that aren't we yeah we it's been floating
+[01:58:18.500 --> 01:58:22.300]  around as an idea of something we need to do but we haven't quite gotten there yet you've
+[01:58:22.300 --> 01:58:35.580]  got time um i want to talk a little bit about the website number one the domain name play.date
+[01:58:35.580 --> 01:58:38.980]  when did you come up with the name playdate and when did you figure out that there is
+[01:58:38.980 --> 01:58:44.860]  a dot date top level domain the name was very early on it was one of the first things that
+[01:58:44.860 --> 01:58:52.980]  we that really stuck with the project and playdate.com was of course unavailable uh
+[01:58:52.980 --> 01:58:59.420]  it's some sort of intense blog and so uh gosh i don't know i must have just every now and
+[01:58:59.420 --> 01:59:03.980]  then i would load up uniregistry which is who we use for a lot of our domain name stuff
+[01:59:03.980 --> 01:59:09.820]  and just type the word playdate in again and see what kind of possibilities we had playdate.systems
+[01:59:09.820 --> 01:59:17.340]  at one point and all sorts of ideas but play.date was always there but was uh pretty expensive
+[01:59:17.340 --> 01:59:21.360]  and then eventually we just bit the bullet and decided that that would be the best possible
+[01:59:21.360 --> 01:59:29.080]  home for our website uh and it is a wonderful website you guys are i i often criticize the
+[01:59:29.080 --> 01:59:35.580]  modern web and and i've said there's a part of me that wishes that browsers had never
+[01:59:35.580 --> 01:59:40.780]  even supported javascript but that i wish it was still just a document viewer for text
+[01:59:40.780 --> 01:59:45.820]  and images and video and you know well you know just multimedia up there and have no
+[01:59:45.820 --> 01:59:49.820]  interactive element to it because it's all being abused right it's about so much of the
+[01:59:49.820 --> 01:59:54.800]  javascript that your individual devices are running is not for the stuff you want to see
+[01:59:54.800 --> 02:00:01.580]  it's all this ad tech uh but then i see something i i see something like the playdate website
+[02:00:01.580 --> 02:00:07.400]  and i think this is why they this is why browser makers and the w3c spent so much time making
+[02:00:07.400 --> 02:00:13.920]  something like this possible like this this 3d model is so great i'm playing with it right
+[02:00:13.920 --> 02:00:20.760]  now it's so a while ago actually it was for the transmit five web page when we were thinking
+[02:00:20.760 --> 02:00:26.500]  gosh what can we do that's interesting and i it dawned on me that web gl is just sorely
+[02:00:26.500 --> 02:00:31.660]  underutilized and we have an icon artist that knows how to do 3d and we and you know the
+[02:00:31.660 --> 02:00:36.860]  transmit truck icon is a 3d model so it seemed like something we could take advantage of
+[02:00:36.860 --> 02:00:43.820]  and so i think i literally googled like good web gl people or whatever and found uh these
+[02:00:43.820 --> 02:00:49.900]  two guys in france that run a little consultant shop called little workshop and so they did
+[02:00:49.900 --> 02:00:55.820]  the rotating transmit truck which was super exciting for us because it's going to be sharper
+[02:00:55.820 --> 02:01:01.380]  and crisper than any rendered movie is ever going to be plus we can do clever things like
+[02:01:01.380 --> 02:01:07.080]  as you scroll the transmit five web page we very gently shift the perspective of the truck
+[02:01:07.080 --> 02:01:11.740]  to match how far you scrolled which if we were rendering that pre-rendering that would
+[02:01:11.740 --> 02:01:15.660]  be enormous so that tradition just continued with this it just seemed like man if we're
+[02:01:15.660 --> 02:01:21.980]  going to have this device on this page we might as well make it a 3d model it's it's
+[02:01:21.980 --> 02:01:28.060]  so nice thank you but it really gives you a sense of the device it's both it i'm sure
+[02:01:28.060 --> 02:01:35.220]  it's a ton of work and you know it makes my old macbook pro cry sorry but it's a lot more
+[02:01:35.220 --> 02:01:41.900]  fun on uh on uh ipad because it's more fun to use your actual fingers and then the other
+[02:01:41.900 --> 02:01:47.660]  thing you guys have is on the media page you go to playdate slash media if you scroll down
+[02:01:47.660 --> 02:01:53.940]  on an iphone or an ipad you've got links to ar kit models that's correct we at the very
+[02:01:53.940 --> 02:01:58.860]  last second we realized we already have a 3d model so maybe we can do i think they technically
+[02:01:58.860 --> 02:02:07.180]  call it ar kit quick look um which is the ability to view a model and see the model
+[02:02:07.180 --> 02:02:13.340]  in ar in your own space on an iphone and ipad by just linking to the to the model itself
+[02:02:13.340 --> 02:02:17.020]  it was it couldn't have been easier to do so that's a pretty cool thing that apple made
+[02:02:18.540 --> 02:02:26.300]  again is it useful i don't know but i think it's a fun way to sort of get a sense of the size of
+[02:02:26.300 --> 02:02:32.540]  the thing you know i tweeted a picture of it next to my iphone and uh it looks super realistic and
+[02:02:32.540 --> 02:02:38.700]  yeah that was impressive totally fooled some people i felt bad about
+[02:02:41.260 --> 02:02:46.300]  it's a good prank uh but it's really great uh do you guys ever have to go do you go to malaysia to
+[02:02:46.300 --> 02:02:54.620]  to to actually oversee yeah we do um for various reasons uh to help set up all the qa that needs
+[02:02:54.620 --> 02:02:59.420]  to be done is one of the big things we have a lot of test code that we've written and you kind of
+[02:02:59.420 --> 02:03:05.260]  load the play date right into this little jig and plug in a usb cable actually have this cool kind of
+[02:03:05.260 --> 02:03:11.500]  slide in adapter that goes in automatically and we start running software on it and people start
+[02:03:11.500 --> 02:03:15.580]  pushing buttons the screen tells them what to do and they they push the buttons and make sure it
+[02:03:15.580 --> 02:03:22.220]  works right and that's taken a lot of time and effort but um it's been really really interesting
+[02:03:22.220 --> 02:03:27.340]  and the factory where we do it is really cool and uh people have been great and it's just a
+[02:03:27.340 --> 02:03:32.460]  fun environment how do you find a factory i mean was that something that teenage engineering could
+[02:03:32.460 --> 02:03:39.020]  help with like we know you know this this company in malaysia is good uh we we found a manufacturing
+[02:03:39.020 --> 02:03:45.100]  consultant through teenage engineering he had done some work with them before and so he was the one
+[02:03:45.100 --> 02:03:51.740]  that set us up with this particular uh contract manufacturer and uh yeah we would i can't imagine
+[02:03:51.740 --> 02:03:56.540]  what we've done if it just was us trying to cast by searching on google there's no way um so this
+[02:03:56.540 --> 02:04:01.980]  was a big help uh in uh getting the whole we we couldn't have built this thing without him
+[02:04:01.980 --> 02:04:11.180]  his name is steven nursesian uh when you guys ship i i think i mean i'm sure i mean this is you know
+[02:04:11.180 --> 02:04:16.540]  literally a million dollar question uh how many of these things do you make so that you have enough
+[02:04:16.540 --> 02:04:23.100]  to meet demand and how how do you guess demand i mean i know you know how many people signed up
+[02:04:23.100 --> 02:04:28.780]  for the email but it's a lot easier to sign up for an email than it sure is and to pay 150 bucks
+[02:04:28.780 --> 02:04:32.300]  well i'm i'm pretty sure we know that a hundred percent of the people that gave us their email
+[02:04:32.300 --> 02:04:37.820]  will buy the product right that's how that works yeah so that's great news for us no i it's going
+[02:04:37.820 --> 02:04:42.860]  to be really tough and that's what we're gonna have to be facing soon is that balancing act
+[02:04:42.860 --> 02:04:49.740]  of uh yeah pre-order demand versus you know uh email demand it's gonna be tough yeah there's
+[02:04:49.740 --> 02:04:53.740]  things like part lead times that we have to factor in also because some some parts takes
+[02:04:53.740 --> 02:04:59.900]  long take longer than other ones so we have to buy ahead and then what do you got you know all
+[02:04:59.900 --> 02:05:04.780]  right it ships people you know they're going out in lovely boxes which we've seen hints of the
+[02:05:04.780 --> 02:05:10.700]  packaging in the magazine uh and people open them and they turn them on and it it it makes fun
+[02:05:10.700 --> 02:05:15.900]  sounds and you play a game uh what do you guys do at that point for like customer service like how
+[02:05:15.900 --> 02:05:21.420]  much how it i mean i know you already have good customer service for your apps and that people
+[02:05:21.420 --> 02:05:27.340]  who are using transmit can email and and get you know submit bugs or get questions answered but
+[02:05:27.340 --> 02:05:32.060]  this seems like a totally different ballgame yeah it's gonna be tough and we're gonna definitely
+[02:05:32.060 --> 02:05:37.020]  have to uh you know i mean we're gonna have to handle returns and we're gonna have to handle
+[02:05:37.020 --> 02:05:42.940]  repairs although probably we'll just do returns and uh we probably need some more customer service
+[02:05:42.940 --> 02:05:47.580]  people it's gonna be i feel like we can do it but it's just another one of the long strings of
+[02:05:47.580 --> 02:05:54.620]  things that uh we've tackled for this project what what is considered a good like hardware
+[02:05:54.620 --> 02:06:02.060]  failure rate like pointing no great oh it's been told to me before but i've forgotten
+[02:06:03.500 --> 02:06:08.540]  yeah it's a really good question yeah uh we don't know it that's what we have a consultant for
+[02:06:08.540 --> 02:06:13.420]  hopefully that's where the consultant comes in hopefully a small number yeah exactly yeah tiny
+[02:06:13.420 --> 02:06:21.100]  90 to 95 yeah yeah all right well i i wrote and i i've taken some guff for it but i mean it i
+[02:06:21.100 --> 02:06:27.260]  wrote let me see if i i don't want to misquote myself but i wrote the story is about played date
+[02:06:27.260 --> 02:06:33.340]  the most amazing and exciting product announcement for me since the original iphone
+[02:06:33.340 --> 02:06:40.540]  uh that's very nice of you to say uh the verge class cast crew had made some hay over that on
+[02:06:40.540 --> 02:06:44.780]  their podcast recently and neil i seemed incredulous that i would compare it to the
+[02:06:44.780 --> 02:06:49.740]  original iphone but i feel like i i wrote that sentence very carefully i'm not saying and and
+[02:06:49.740 --> 02:06:53.740]  it seemed to be misconstrued along the lines of how do you think this 150 black and white
+[02:06:53.740 --> 02:06:56.940]  game playing thing is going to change the world like the iphone did and that's not what i
+[02:06:56.940 --> 02:07:03.500]  did that's not it uh it's a couple of things but i i really mean it since i've written this is a
+[02:07:03.500 --> 02:07:08.540]  week ago when i wrote it i still can't think of any other product that since the iphone that gave
+[02:07:08.540 --> 02:07:15.100]  me the feels like playdate does and the only one i can think of maybe is the ipad the original ipad
+[02:07:15.100 --> 02:07:23.980]  was a very exciting announcement but part of what made the iphone seem so i i specifically remember
+[02:07:23.980 --> 02:07:28.780]  i think stephen tweeting about it like that it was the mythical like the day of the announcement
+[02:07:28.780 --> 02:07:33.900]  like the mythical shrunk down version of mac os 10 that we'd all been talking about for years like
+[02:07:33.900 --> 02:07:39.020]  what if they shrunk mac os 10 down and you could run it on like a pocket-sized device they did it
+[02:07:39.020 --> 02:07:43.180]  you know it seemed impossible like something we always wanted them to do but it wasn't possible
+[02:07:43.180 --> 02:07:47.740]  and everything about the iphone seemed impossible the frame rate seemed to it just all seemed too
+[02:07:47.740 --> 02:07:54.860]  good to be true um the ipad on the other hand seemed sort of inevitable once you saw it it's
+[02:07:54.860 --> 02:07:58.940]  like yeah it's just a big iphone right there was nothing in it that wasn't already there i'm not
+[02:07:58.940 --> 02:08:02.940]  saying it hasn't changed the world i'm not saying it didn't take a lot of work to to make it scale
+[02:08:02.940 --> 02:08:06.780]  up like that but there was a certain inevitability to it it didn't seem like it dropped out of
+[02:08:06.780 --> 02:08:12.860]  nowhere whereas playdate seemingly to me you guys i mean we're pals but you definitely didn't let me
+[02:08:12.860 --> 02:08:16.540]  in on this until like a week before you've announced it which is fine it was very exciting
+[02:08:16.540 --> 02:08:21.020]  i'm not complaining but when you did tell me it really seemed like this dropped out of
+[02:08:22.220 --> 02:08:27.340]  a black hole like i cannot believe this and i honestly can't think of another device that's
+[02:08:27.340 --> 02:08:33.980]  given me that feeling since the iphone in 2007 awesome that's really nice of you to say i hope
+[02:08:33.980 --> 02:08:39.420]  we can deliver on that excitement but really the part of that sentence that people seem to be
+[02:08:39.420 --> 02:08:47.580]  missing is laughing steve did that seem too soft no no yeah as i i read john i remember reading
+[02:08:47.580 --> 02:08:53.580]  john's article where he said that about like the most you know amazing product announcement for me
+[02:08:53.580 --> 02:09:01.900]  since there's life right even i was a little bit like gosh calm down and part of it too part of
+[02:09:01.900 --> 02:09:07.660]  the for me aspect of it is is that i know you guys you know you're you're my friends and so i'm
+[02:09:07.660 --> 02:09:14.220]  excited for you and i'm excited that i've got your ear you know like i can i could maybe make
+[02:09:14.220 --> 02:09:21.500]  suggestions and have the actual decision makers listen to me uh it's very very exciting i i really
+[02:09:21.500 --> 02:09:25.820]  just can't say enough uh how excited i am and i really thank you so much the daring fireball
+[02:09:25.820 --> 02:09:31.180]  audience gets it i really i think so too i think so too well thanks for taking the time to talk to
+[02:09:31.180 --> 02:09:39.180]  us thank you guys for your time i know you have a lot to do it's busy uh these apps don't write
+[02:09:39.180 --> 02:09:45.900]  themselves the games don't themselves anyway my thanks to all of our sponsors too we had squarespace
+[02:09:45.900 --> 02:09:53.260]  we had express vpn and clear the uh the thing he gets you through security at the airport fester
+[02:09:53.260 --> 02:10:00.060]  my thanks to cable sasser steven frank and greg maletic thanks john thank you so much talk to you
+[02:10:00.060 --> 02:10:06.300]  soon all right i'll be standing by the door waiting for my my plated turtle to show up we'll get back
+[02:10:06.300 --> 02:10:33.100]  to work you

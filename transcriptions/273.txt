@@ -1,0 +1,1221 @@
+[00:00.000 --> 00:05.280]  I did the thing that I said I was gonna do, I don't know if you listen to my show with Rich Siegel, but
+[00:06.800 --> 00:16.320]  I said I had to use a dongle to go from this Onyx Blackjack USB device to the thing. I mean,
+[00:16.320 --> 00:26.320]  by the time this show is over, by the time I'm done doing the talk show, it's recursive. By the
+[00:26.320 --> 00:38.320]  time I'm done, I'll have about four or five hours of backloaded backstory about the USB interface
+[00:38.320 --> 00:44.240]  to Skype, and that'll be it. That'll be it. It'll be the final show. You'll know it's over when I've
+[00:44.240 --> 00:52.000]  got about four hours of backstory. I'll record two hours of it. I'll leave two hours of it unsaid,
+[00:52.000 --> 01:00.000]  just to give people something to hope for in the future. It'll all be about USB interfaces.
+[01:00.000 --> 01:04.640]  But I'll tell you what, I finally did it. I bought that cable that I was talking about,
+[01:04.640 --> 01:13.280]  which is USB-B. I don't know what the hell it is. Yeah, USB-B. Which is the dumbest port ever,
+[01:13.280 --> 01:26.000]  right? Why does that even exist? But anyway, I got USB-B to USB-C, so there's no dongles. You
+[01:26.000 --> 01:34.080]  are listening to me, Rene, with no dongles. There is not a single dongle between my voice
+[01:34.080 --> 01:40.960]  and your ears and the ears of our hundreds of listeners. I did the same thing. I heard you
+[01:40.960 --> 01:46.960]  talking about it, and I ordered the USB-B to the USB-C because I have this fancy high-end USB pre
+[01:46.960 --> 01:57.520]  2 amp, and it still has a damn USB-B port on it. Oh, man. Hey, while we're on it, while we're on
+[01:57.520 --> 02:09.360]  the topic, what's the name of this thing? There actually is some news that has broken in the last
+[02:09.360 --> 02:19.360]  few weeks, and it's this consortium, I don't know what you want to call it, with the Amazon and
+[02:19.360 --> 02:27.600]  Google and Apple, and they're going to try chip, right? Basically, it seems like Apple is
+[02:27.600 --> 02:37.360]  spearheading it. It kind of seems like it's coming from Apple, but basically it sounds like it's an
+[02:37.360 --> 02:54.800]  idea to make home-connected devices like, hey, dingus, or hey, Google, or whatever your favorite
+[02:54.800 --> 03:04.880]  dingus is, devices, sort of make it like a USB-type thing. Like interoperable. Right,
+[03:04.880 --> 03:10.400]  where they're interoperable. And I got to tell you, if they pull it off,
+[03:10.400 --> 03:15.760]  no one's going to be happier than me. I am. We've got a whole bunch.
+[03:19.600 --> 03:24.080]  This show is supposed to be about technology. It's not supposed to be about my personal life.
+[03:24.080 --> 03:30.960]  I'll just tell you though, I'll peel back a layer of the Gruber family life, and my wife loves
+[03:30.960 --> 03:38.320]  Christmas trees. Loves them. Absolutely loves them. We've got, I don't know. I mean, we've got
+[03:38.320 --> 03:44.320]  more Christmas trees than you can believe. But what we've got is every single one of them is
+[03:44.320 --> 03:55.920]  plugged in to a dingus that goes into the light socket so that we can say to our Amazon dingus,
+[03:55.920 --> 04:05.600]  hey, Amazon dingus, turn off the Christmas trees, or hey, Amazon dingus, turn on the Christmas trees,
+[04:05.600 --> 04:13.600]  or like, hey, Amazon dingus, turn off Jonas's Christmas tree, and then it turns off the
+[04:13.600 --> 04:19.040]  Christmas tree in Jonas's room. And yes, our son has a Christmas tree in his room.
+[04:19.040 --> 04:30.640]  It's Christmas tree. And it's, you know, I know that there are some light socket things,
+[04:30.640 --> 04:37.360]  you know, our power socket things that work with Siri. But it was easy. The easiest thing to do
+[04:37.360 --> 04:44.160]  was to just buy the Amazon ones. And they're from Amazon. They're pretty easy to set up.
+[04:44.160 --> 04:51.520]  This is the second year we've had them. They were pretty easy to, and I labeled them. But, you know,
+[04:51.520 --> 04:58.640]  some of them, you know, didn't didn't survive the year with the I don't know why. But it wasn't that
+[04:58.640 --> 05:05.200]  bad to reset them up a year later. It could have been easier, in my opinion, but yeah.
+[05:07.200 --> 05:11.680]  But I started with the HomeKit one. And because it was called light when I just destroyed my
+[05:11.680 --> 05:17.440]  entire ability to turn lights on and off. So I had to rename it, I ended up making a scene.
+[05:17.440 --> 05:20.560]  So before I would just say turn off the lights, and it would turn off all the lights. But then
+[05:20.560 --> 05:23.840]  when I got this thing, I would say turn off the lights, and it would just turn off the nightlight
+[05:23.840 --> 05:29.760]  on the stupid plug. So I made a scene and I renamed it to Ho Ho Ho for Christmas. But then
+[05:29.760 --> 05:33.520]  I did the inevitable thing. And now I've renamed it to Now I Have a Machine Gun.
+[05:33.520 --> 05:42.960]  Which ties in to me when my cousin Hans, who, unfortunately, you know, he gets a bad rap,
+[05:42.960 --> 05:47.280]  you know what I mean? He was, you know, yeah, trying to make an entrepreneur, trying to make,
+[05:47.280 --> 05:51.760]  yeah, he's an entrepreneur trying to make an honest transaction in Los Angeles, you know,
+[05:51.760 --> 06:02.800]  back in the late 80s. But, but anyway, it was, it was, it was, it was, it was, it was,
+[06:02.800 --> 06:12.880]  uh, it this chip thing, if they can pull it off. And if Apple can lead the way, and it's,
+[06:13.760 --> 06:19.360]  it's interesting to me, I don't know where it's gonna go. But the thing that's interesting to me
+[06:19.360 --> 06:24.320]  is that Apple's initial, it's like the announcement came, and Apple says, Hey,
+[06:24.320 --> 06:29.360]  and by the way, here's this thing we have on GitHub. And the thing that they have on GitHub
+[06:29.360 --> 06:39.920]  is like this whole thing about like device security. I give it, I give it at least a 5050
+[06:39.920 --> 06:53.200]  shot, as as turning into sort of the USB of internet connected device, assistant, directed
+[06:53.200 --> 06:59.440]  device protocols, I don't know what to call it. You kind of like if you use Siri or HomeKit, you
+[06:59.440 --> 07:03.840]  kind of have to hope that this works. Because given Apple's way of making products, they're
+[07:03.840 --> 07:08.320]  hyper focused way of making products, they don't even make a router anymore. And every other
+[07:08.320 --> 07:12.960]  company not only bought a router, like Amazon bought Eero, and Samsung bought SmartThings,
+[07:12.960 --> 07:17.680]  and Google has the Google, the Google Wi Fi, and they're advertising all the products,
+[07:17.680 --> 07:21.120]  right? They have every product, they have their own blocks, their own lights, their own,
+[07:21.120 --> 07:25.200]  they bought the entire ecosystem. And coincidentally, they don't support HomeKit,
+[07:25.200 --> 07:27.840]  even if they previously announced that they would, I
+[07:30.160 --> 07:34.880]  isn't that the most interesting? To me, that is the single most interesting
+[07:37.680 --> 07:42.640]  derivative of the whole angle is okay. So
+[07:42.640 --> 07:53.280]  it where we stand at the end of 2019, is Apple is interested enough in home connected devices
+[07:53.280 --> 08:02.160]  that they're going to get involved in this new industry attempted a standard called chip,
+[08:02.160 --> 08:10.880]  where they can, you know, somebody can make like a wall socket. And they can, if this all works out,
+[08:10.880 --> 08:16.400]  they'll adhere to the standard. And then you could use it with Alexa, you could use it with Google,
+[08:16.400 --> 08:22.560]  you could use it with Siri, you could use it with Samsung's dingus. What what's the Samsung dingus
+[08:22.560 --> 08:30.000]  called? He Oh, yeah, nobody uses it. Yeah, hero. What's his name? I don't know, whatever his name
+[08:30.000 --> 08:36.240]  is. But you could use it with anybody and, and you and I could start a company that would have our
+[08:36.240 --> 08:43.040]  own thing. And we could adhere to the standard and all these things could could work with our
+[08:44.480 --> 08:50.240]  new product. And that wouldn't that be great? Because Bixby had to look it up Bixby
+[08:51.840 --> 08:59.040]  build. I always think of it was a Siri people, right? Like they made it and then Samsung bought
+[08:59.040 --> 09:08.000]  it and renamed it to Bixby. But go back to it always goes back to build. I always have like
+[09:08.000 --> 09:13.520]  this. Everything goes back to the 70s for me. And the music at the end of the Hulk when he's
+[09:13.520 --> 09:22.800]  just lonely and walking off into the distance again. Why didn't his pants pop off? He had
+[09:22.800 --> 09:31.280]  stretch pants before his time. But they weren't stretch pants. Nope. Like if I legs harder, if I
+[09:31.280 --> 09:39.120]  were afflicted with it with a with a terrible condition where I had been hit by gamma radiation.
+[09:40.400 --> 09:51.840]  And if I got upset, I turned into a green monster. And and, you know, tripled in in
+[09:51.840 --> 09:58.160]  size because, you know, I turned into a hulk. I swear to God, every day, Renee, I wouldn't wear
+[09:58.160 --> 10:02.640]  anything. I wouldn't wear anything but stretch pants. But yoga pants all the way down. Yeah.
+[10:03.360 --> 10:09.200]  But he didn't wear. He never wore. He wore regular pants, but the pants never popped off.
+[10:11.120 --> 10:15.360]  It would have been a very different show, I suppose. Yeah. The Tarantino version would have
+[10:15.360 --> 10:19.520]  been super different because you got to think if everything gets big, if you're, you know,
+[10:19.520 --> 10:24.480]  if your biceps get big and your neck gets big and your thighs get big, you've got to figure
+[10:24.480 --> 10:28.880]  everything gets. But like like all the body builds at the time, he just didn't hit his legs hard at
+[10:28.880 --> 10:34.480]  the gym. He ignored it for pectoral and bicep growth. It would have been a very different show
+[10:35.680 --> 10:45.920]  if all the clothes came off. But anyway, it's the it's the new year. Yeah. Hey, you know,
+[10:45.920 --> 10:52.080]  uh, this is probably the last show. Well, probably, but whereby probably, I mean,
+[10:52.080 --> 10:58.080]  absolutely. One hundred percent. Definitely. This is the last show of the decade. Yeah. Yeah.
+[10:58.080 --> 11:04.480]  Right here on the talk show. We've been broadcasting since I don't know how long, but
+[11:05.120 --> 11:11.520]  here we go. Last show of the decade. I might as well take a break right now and thank our
+[11:11.520 --> 11:17.520]  first sponsor. It's it's the holiday season. I feel like, you know, you got to you got to be
+[11:17.520 --> 11:26.080]  a little loose on on the last show of the decade. Here we go. First sponsor away. Now, these guys
+[11:26.080 --> 11:30.720]  have been in the news recently. Forget about all that nonsense. That's a bunch of nonsense. Away
+[11:30.720 --> 11:37.600]  create creates thoughtful products built for the modern way. Travelers see the world. They started
+[11:37.600 --> 11:44.080]  with the perfect suitcase, and now they offer an entire range of essentials, which will make your
+[11:44.080 --> 11:52.480]  travels more seamless. Everybody needs a suitcase. You need us. Carry on everybody. When you travel,
+[11:52.480 --> 11:58.400]  you got to have a carrier there. They have two sizes of carry ons. They've got the small carry
+[11:58.400 --> 12:04.320]  on and they've got the large carry on. The smaller one will fit on like international flights where
+[12:04.320 --> 12:11.520]  they have weird overhead bin sizes. You can fit that one everywhere. I've got the bigger one
+[12:12.320 --> 12:18.160]  because I don't travel overseas that much. And if I do, well, OK, I'll put on my bags,
+[12:18.160 --> 12:25.360]  you know, under the belly, pick them up afterwards. But it's a great option to have.
+[12:26.240 --> 12:33.280]  And they're really, really great suitcases. They also ship with TSA approved
+[12:33.280 --> 12:41.200]  combination locks, keep your belongings safe and they expand. They have like a little thing
+[12:41.200 --> 12:47.760]  right in the midsection. They can expand one point seven, five inches, almost two inches,
+[12:48.400 --> 12:56.400]  just in case if you need to pack more stuff in your suitcase. Every single suitcase they ship
+[12:56.400 --> 13:06.880]  has that and they have a terrific set of wheels. I've had an away suitcase ever since they started
+[13:06.880 --> 13:13.760]  sponsoring the show. It must be five, six years at this point. If not, it's close. It still seems
+[13:13.760 --> 13:20.880]  like brand new. I've taken it on every single trip I have taken since they have started sponsoring
+[13:20.880 --> 13:27.840]  the show and they sent me this suitcase. It still seems like brand new. It is absolutely unbelievable.
+[13:27.840 --> 13:38.960]  And their carry ons have built in USB charging packs that pop right out, because if you need
+[13:38.960 --> 13:46.160]  to check the bag, they're like, hey, you can't put a lithium ion battery in your check baggage.
+[13:46.160 --> 14:00.320]  Fine. One, one click pops right out. There you go. And it's just terrific. And I cannot
+[14:00.320 --> 14:08.080]  tell you how convenient it is to have a USB charging pack right there in your suitcase
+[14:08.080 --> 14:14.160]  with plenty of capacity to charge your phone or iPad or whatever device you want to charge
+[14:14.160 --> 14:20.480]  time after time after time, because it's a really high capacity battery. It's not like,
+[14:20.480 --> 14:26.080]  hey, you have to charge your suitcase all the time. No, you charge your suitcase every couple
+[14:26.080 --> 14:31.920]  of months. That's it. And then every time you travel, your suitcase is ready to charge your
+[14:31.920 --> 14:39.440]  devices over and over and over again. It is a great device. So you travel during the holidays.
+[14:39.440 --> 14:47.280]  It's crazy. But getting an away suitcase can make the trip a lot more seamless. Go to away
+[14:47.280 --> 14:59.120]  travel.com slash talk show 20 away travel.com slash talk show 20. You'll learn more. And
+[14:59.120 --> 15:08.560]  if you want some great ideas for your end holiday gifts, sort of things you want to buy at the new
+[15:08.560 --> 15:19.840]  year, just go there and go to away travel.com slash talk show 20. All right, I feel like we're
+[15:19.840 --> 15:25.920]  three parentheticals in where were we? We're so deep. We were talking about chip still. Oh,
+[15:25.920 --> 15:33.360]  chip. All right. So I, I hope it works out. Because I do feel like if you just buy like a
+[15:33.360 --> 15:41.680]  $20 thing, you stick in a socket, and all it is, is a power plug to put your Christmas trees in.
+[15:41.680 --> 15:51.200]  It should work with all of your whatever your favorite voice assistant is. I, I, in theory,
+[15:51.200 --> 16:00.000]  this is great. And I feel like Apple's source code dump, which is a very, you know, very much
+[16:00.000 --> 16:09.280]  security based, is a very good sign that Apple at least is thinking, hey, let's get everybody to
+[16:09.280 --> 16:17.120]  adopt this stuff. Let's get them to do it in a way that is secure and private. And, you know,
+[16:17.120 --> 16:23.440]  let's not try to lock anybody in to Siri versus these other things. Let's just, you know,
+[16:23.440 --> 16:28.160]  if you're if you're making a $20 thing to plug your Christmas tree into, let's just make it work
+[16:28.160 --> 16:32.880]  with everything. Yeah, I think it's very practical. Like Apple was late to market,
+[16:32.880 --> 16:37.840]  because they cared about security. And everyone was throwing out these cameras and these devices
+[16:37.840 --> 16:42.560]  that had absolutely no security concerns. And everyone made wired articles about how to
+[16:42.560 --> 16:47.520]  hack your house, all of a sudden, and a lot of them didn't care because they were selling product,
+[16:47.520 --> 16:51.840]  and it was inconvenient for them to think about security. But I think Apple is approaching this
+[16:51.840 --> 16:56.640]  a lot like the approach WebKit, where they can't be dominant, and they can't make every product
+[16:56.640 --> 17:01.600]  themselves. So what they can best do, it's like that old joke that everyone makes everything
+[17:01.600 --> 17:05.600]  proprietary that makes them money, but then open source is everything that makes their competitors
+[17:05.600 --> 17:11.840]  money, because that's the best strategy. And so, you know, I think it's a good idea to make
+[17:11.840 --> 17:15.760]  a strategy. And if they make this alliance, then at least they can take part, they can
+[17:15.760 --> 17:20.160]  benefit from the overall ecosystem, and hopefully donate something to security end of it as well.
+[17:20.160 --> 17:25.280]  You know, it's an interesting comparison to WebKit, because in a weird way, they do kind of
+[17:25.280 --> 17:33.600]  dominate with WebKit, because WebKit is the only web rendering engine on the iPhone and the iPhone,
+[17:33.600 --> 17:37.360]  you know, I don't know if you've heard about it, but it's kind of a thing. Well, sure. But when
+[17:37.360 --> 17:41.600]  they did it, like when when Milton did that whole project, it was by no means going to be a dominant
+[17:41.600 --> 17:44.560]  right, because it was years before the iPhone existed. Right.
+[17:46.880 --> 17:54.960]  But I feel like that's where they kind of are with Siri, where they've got ambitious goals.
+[17:55.600 --> 18:04.800]  Yeah. And I think they get a bad rap. I really do. And this is not trying to be an Apple cheerleader
+[18:04.800 --> 18:13.600]  in the very least, I think Siri has gotten so much better, that it is one of the most, you know,
+[18:13.600 --> 18:21.360]  here, it's the decade in review, I feel like it, one of the underreported stories of the decade in
+[18:21.360 --> 18:29.120]  review is how much better Siri has gotten in the last three or four years. It still isn't great.
+[18:29.120 --> 18:36.160]  But part of what makes it frustrating is that it still has so far to go. And part of what makes it
+[18:38.560 --> 18:45.680]  something that people think just plain sucks is that it's based on their first impressions from
+[18:45.680 --> 18:52.080]  three or four years ago, I feel and I really, you know, that's human nature. But I feel like,
+[18:52.080 --> 18:59.360]  you know, you give something x number of chances, and x is some reasonable integer, like four or
+[18:59.360 --> 19:04.720]  five, six. And if, if it lets you down that number of times, you're just like, forget it,
+[19:04.720 --> 19:09.760]  I'm not going to use it anymore. And people give up on it. And then three, four years later,
+[19:09.760 --> 19:16.480]  the thing that, you know, like Siri is so much better, but people don't try it, because they
+[19:16.480 --> 19:22.560]  think I never understands what I say. Yeah, I mean, the thing for me is that there's just there's
+[19:22.560 --> 19:27.360]  still even now an inconsistency to it. And I've joked about like, I can say call my mom and nine
+[19:27.360 --> 19:32.080]  times it works perfectly. The 10th time it calls some hairdresser that I've never heard of. And it
+[19:32.080 --> 19:36.400]  just it makes me think there's a server in Eddie Q's closet that he's never updated, but it's still
+[19:36.400 --> 19:42.560]  somehow attached to the CDN. And we all hit it once every 10 to 20 times. And it's just, it's
+[19:42.560 --> 19:46.480]  flabbergasted. But I think you're right, like, because Siri is assistant one, like it just, it's
+[19:46.480 --> 19:51.440]  built into every iPhone, and you see it with every new phone and every new iOS update, that if they
+[19:51.440 --> 19:56.640]  can make compelling features, when you do that, that setup buddy, every time they have a chance
+[19:56.640 --> 20:00.000]  to hook you in, they just got to figure out what those compelling things are. Yeah.
+[20:02.000 --> 20:09.360]  So the chip thing, I hope it works out. But we'll see. But it would be great if you could just
+[20:09.360 --> 20:19.520]  confidently by wall socket adapters from IKEA and know that they'll work with all of the major
+[20:19.520 --> 20:24.160]  assistance, you know, it would be great, it would be absolutely great. I don't know how they make
+[20:24.160 --> 20:29.520]  that happen. I feel like it's a little bit more, you know, maybe a lot more complicated
+[20:29.520 --> 20:37.440]  than something like USB, where it's all just wires, I feel like taking these audio
+[20:37.440 --> 20:42.880]  directions in various languages, you know, and passing them through. I'm sure it's more
+[20:42.880 --> 20:46.800]  complicated. But in theory, this is the way everything should be.
+[20:47.680 --> 20:52.080]  Even just basic functionality, because a lot of houses are mixed assistant houses now. And if you
+[20:52.080 --> 20:56.640]  have an Alexa at home, but then you go out for a jog wearing your AirPods and Apple Watch, you
+[20:56.640 --> 21:01.200]  should still be able to say turn my thermostat on or turn on the lights on your way home. And it
+[21:01.200 --> 21:05.520]  shouldn't matter which assistant you're using at the time. Well, that's us. We're a mixed assistant
+[21:05.520 --> 21:12.800]  house. Yeah. We've got the we've got the Alexa, we've got the HomePods, we've obviously got a
+[21:12.800 --> 21:20.400]  bunch of iPhones and iPads laying around. But like our like I said, our Christmas tree wall socket
+[21:20.400 --> 21:27.920]  things are all only on the Alexa system. And, you know, at times, you've got Okay, Google on your
+[21:27.920 --> 21:39.040]  Pixel phone. Yeah. But I don't have that hooked up. But, you know, I, you know, it would be great
+[21:39.040 --> 21:45.680]  if everything worked with everything the way that USB does, you know, if you have a charger, if you
+[21:45.680 --> 21:51.680]  just plug it in, and you have a thing that goes from this plug to that device, then it can charge
+[21:51.680 --> 21:55.520]  anything, you know, like, I'm sure they'll screw it up. They'll say, Oh, that's chip one compatible,
+[21:55.520 --> 22:00.800]  and you need chip 1.2 compatibility on it'll screw us up some way, but at least it'd be a beginning.
+[22:02.160 --> 22:09.360]  Well, anyway, I hope it works out. I, I kind of feel like it is in everybody's interests. It's not
+[22:10.160 --> 22:17.040]  lock in, in theory is a competitive advantage. But I feel like in this realm, it really would
+[22:17.040 --> 22:30.400]  be better for everybody if there were a successful standard that just let people make just basic
+[22:30.400 --> 22:36.640]  things, light bulbs, and wall sockets and stuff that just worked with everything, you know, and
+[22:36.640 --> 22:43.120]  so they didn't have to do it. And if Apple has already done a lot of the groundwork on the, hey,
+[22:43.120 --> 22:48.640]  let's make sure this is private and secure, then I feel like these other companies can piggyback
+[22:48.640 --> 22:56.400]  off that and say like, well, maybe we don't care as much about security and privacy as Apple does.
+[22:56.400 --> 23:01.680]  But if they've already done the work, why don't we piggyback off that? That would be good.
+[23:01.680 --> 23:06.000]  Also, like their competitors own so much of the market is becoming harder and harder to have just
+[23:06.000 --> 23:10.400]  HomeKit stuff. Like I remember the Netatmo doorbell looks so much better, so much more
+[23:10.400 --> 23:14.800]  private, so much more secure than the ring doorbell, which we still hear horror stories
+[23:14.800 --> 23:20.000]  about. And it was announced last year. And I still don't think it shipped. And there's not
+[23:20.000 --> 23:26.320]  many options. So have you been following this story about the ring? security issues?
+[23:28.400 --> 23:35.360]  It's a bunch of them. Yeah, it's an interesting story to me. Because what's happened to some
+[23:35.360 --> 23:41.840]  people who have them is absolutely horrible, horrible, horrible, horrible stuff. So no denying
+[23:41.840 --> 23:48.560]  that. And then ring came out a couple of days after the story broke and said, Hey, this isn't
+[23:48.560 --> 23:59.840]  really a security problem with our product. It's the fact that all we have is a like to get into
+[23:59.840 --> 24:10.880]  a ring, you just need an email and a password. And so many, literally millions, 10s, millions,
+[24:10.880 --> 24:17.680]  probably hundreds of millions of people around the world use the same email and password for multiple
+[24:18.240 --> 24:26.400]  services. Because, you know, that's, you know, it, everybody says, don't do that. But, you know,
+[24:26.400 --> 24:36.720]  hundreds of millions of people do that. And if one service somewhere stores your password,
+[24:37.280 --> 24:42.560]  as the password, which they shouldn't do in the first place, right, it should only be stored,
+[24:42.560 --> 24:48.240]  written to disk in a hashed format, like some Home Depot is going to do it right. Right. Some Home
+[24:48.240 --> 24:52.480]  Depot or I don't want to throw Home Depot into the bus. I mean, they got they were one of the biggest
+[24:52.480 --> 24:56.720]  preachers, I think recently, there's another one, there's a couple really big store. Well,
+[24:56.720 --> 25:03.840]  let's throw them under the bus. Yeah. But somebody like Home Depot stores your password as the actual
+[25:03.840 --> 25:12.640]  password, and the email and then if they get hacked, and you know, 20 million email and
+[25:12.640 --> 25:25.920]  passwords get leaked, then that hack goes out. Any malfeasant out there, who wants it can download
+[25:25.920 --> 25:33.680]  the whole thing. And then they can just start trying random services with all of these email
+[25:33.680 --> 25:39.760]  and password combination did it with Disney plus the weekend it came out and got in right. Yep.
+[25:39.760 --> 25:49.360]  It's crazy. But it you know, it speaks to the fact that security experts have been saying for
+[25:49.360 --> 25:55.280]  a long time that hey, don't use the same password on more than one service, blah, blah, blah, blah,
+[25:55.280 --> 26:00.800]  blah, blah, blah, blah. And they keep saying it. And people keep doing it because that's what they
+[26:00.800 --> 26:08.400]  did. But it's like, it's not even you like you could be the most scrupulous person who
+[26:08.400 --> 26:16.960]  has never told another human soul what your magic password is that you use on multiple services.
+[26:17.680 --> 26:25.680]  And you you don't even tell your your partner, you don't tell your kids, you don't tell your
+[26:26.960 --> 26:34.560]  pastor, you don't tell anybody. It's only in your head. But if one of those services gets hacked,
+[26:34.560 --> 26:41.680]  and the service stores your password in plain text, all of a sudden, anybody can try that email
+[26:41.680 --> 26:50.000]  and password combination on ABC DFG, you know, just go down the list of services that you would
+[26:50.000 --> 26:58.000]  like to try to get a hack into. They try your email and password. And you didn't do anything
+[26:58.000 --> 27:02.800]  wrong. Other than the fact that you reuse the same password on more than one service,
+[27:02.800 --> 27:08.560]  all of a sudden, you're in. And it sounds like that's exactly what happened to these ring people,
+[27:08.560 --> 27:17.440]  right? Is that you get one of these ring cameras, you put it in your house or outside or whatever,
+[27:17.440 --> 27:22.800]  but the one you know, the people who are obviously traumatized by this, rightfully so, you know,
+[27:22.800 --> 27:31.680]  are the ones who have them inside their house. And it's, it's not that the ring is easily hackable,
+[27:31.680 --> 27:39.120]  and that if if I find out, hey, Renee Ritchie has a ring camera, and then I can just magically
+[27:39.760 --> 27:50.080]  hack into your camera easily. No, but it's, if I have this list of 20 million email addresses and
+[27:50.080 --> 27:57.440]  passwords, and I start randomly trying them, so I can't target you specifically, but I might hit you
+[27:57.440 --> 28:04.640]  randomly. By going through these, you know, millions of email and password combinations,
+[28:04.640 --> 28:11.840]  I've downloaded from some hacked website that idiotically stored their passwords in plain text.
+[28:11.840 --> 28:17.200]  And then all of a sudden, now I'm hooked up to your camera, and I can see everything your camera
+[28:17.200 --> 28:25.200]  sees. And, and the people who are, you know, into this are terrible people. And they're saying weird
+[28:25.200 --> 28:30.240]  weird things. They look in the camera and they see it's a child and they're saying, you know,
+[28:30.240 --> 28:39.520]  terribly racist things to these kids. It's all horrible. In a sense, the ring people are right
+[28:39.520 --> 28:47.680]  that they weren't hacked. But in another sense, it's like you if it's something as sensitive
+[28:47.680 --> 28:55.760]  as a camera and microphone pointing into your house, you probably should have set it up with
+[28:55.760 --> 29:01.120]  something better than email plus password security. I mean, Apple learned this the hard way,
+[29:01.120 --> 29:05.520]  because that's how the original iCloud breaches happen, right? People either reusing passwords,
+[29:05.520 --> 29:11.760]  or having security questions for celebrities that were on Wikipedia, right? Right. Sarah Palin thing
+[29:11.760 --> 29:17.040]  too. No, that's very true. And no, Scarlett Johansson. I mean, it wasn't just political.
+[29:17.040 --> 29:24.640]  It was it was a bunch of people who who had their iCloud iCloud accounts hacked. And it was Yeah,
+[29:24.640 --> 29:32.800]  you're exactly right, though. It was very similar where it was just email plus password. And the,
+[29:33.760 --> 29:41.840]  you know, extra questions for security, which I available answers, which I, I hate every time.
+[29:41.840 --> 29:47.360]  I've never been comfortable with them. I mean, I'm talking like going back 20 years when they're
+[29:47.360 --> 29:53.680]  like, Hey, what's your father's middle name? And I'm like, Hey, that's not that. You know,
+[29:53.680 --> 30:00.240]  I mean, like, somebody could easily look that up. And I'm like, but I generally answered them
+[30:00.240 --> 30:04.720]  truthfully, because I'm like, what else am I going to do? You know, and I know that like,
+[30:04.720 --> 30:11.760]  one person password lets you like, answer them with, you know, yeah, a complete gibberish answer,
+[30:11.760 --> 30:20.720]  so that you can look up in one password. What does who What is Google think my father's middle name
+[30:20.720 --> 30:29.200]  is? Yes. It's like, you know, a pseudo random blob, gliberal. As a hilarious aside, they in
+[30:29.200 --> 30:33.360]  the province of Quebec, they still ask you for your mother's maiden name as a security question.
+[30:33.360 --> 30:39.040]  But it's illegal by law for people for a wife to take her husband's name, they you have to keep
+[30:39.040 --> 30:43.920]  your maiden name. So everybody knows everybody's maiden name, because that's the name they go by.
+[30:43.920 --> 30:45.920]  But they still ask it as a security question.
+[30:48.000 --> 30:56.240]  We can't win. But it just shows that all of those that that that that whole path of personal
+[30:56.240 --> 31:06.480]  security of of asking you things that supposedly only you would know it's it the whole path is
+[31:07.120 --> 31:15.760]  broken. And the right path is, you know, some kind of second factor thing, with every password being
+[31:16.640 --> 31:25.040]  total gibberish, or if not gibberish, you know, just like three random three or four random words
+[31:25.040 --> 31:29.920]  separated by dots or dashes, or something that adds some entropy to your password,
+[31:29.920 --> 31:34.560]  right, but not something that has any kind of meaning to you personally. But
+[31:35.360 --> 31:39.600]  and that's why Apple came out with that whole, well, the first two fat two step authentication
+[31:39.600 --> 31:43.840]  and then the new two factor authentication. My only issue with ring is that it's sort of like
+[31:43.840 --> 31:48.480]  they just, they keep doing stuff like this, like the the famously let the Ukrainian outsource
+[31:48.480 --> 31:53.120]  company have direct access to people's camera feeds out of expediency. And then they gave like
+[31:53.120 --> 31:57.040]  they had this whole thing going on with the cops, where they would help them install like the
+[31:57.040 --> 32:02.320]  ring doorbells. And it just, it just feels like they need to reprioritize security in their list
+[32:02.320 --> 32:04.400]  of things that matter to them. Well, and
+[32:06.240 --> 32:17.440]  right, so I feel like they I and I haven't bought the ring camera things. And I really could use
+[32:17.440 --> 32:28.640]  them, to be honest, at our front door. And but I've honestly had like a bad privacy feeling about
+[32:28.640 --> 32:36.800]  them the whole time. And I get it that they're not hacked, because they're easily hackable. I get it
+[32:36.800 --> 32:44.800]  that they got that people are getting hacked, because it's, it's just a simple email password
+[32:44.800 --> 32:53.440]  thing. And so many millions of people's emails, plus password they use everywhere have been
+[32:53.440 --> 32:58.880]  leaked that that's basically how they've been quote unquote hacked. So I get it that it's not
+[32:58.880 --> 33:08.160]  their fault that if you used a good strong unique password with ring, and that's all you did all the
+[33:08.160 --> 33:17.120]  only security step you took was that your ring account uses a good strong unique password,
+[33:17.120 --> 33:25.920]  you're good. And I get it. And that's what I would do. But it's not what everybody in my family
+[33:25.920 --> 33:31.280]  would do. It's certainly not what everybody I know would do. You know, most people don't do that. And
+[33:31.280 --> 33:40.560]  so it is kind of on ring to have designed a system and I say this all the time on during fireball
+[33:40.560 --> 33:47.920]  where like good design isn't really it shouldn't be centered on what people should do. It should
+[33:47.920 --> 33:53.440]  be centered on what people will do. It's considerate, right? It's what what will people
+[33:53.440 --> 34:01.200]  do? Not what should they do? Because people aren't going to do the should thing. Most of the time,
+[34:01.200 --> 34:07.440]  they're going to do what they will do. You know, it's the old story about like, how do you set the
+[34:07.440 --> 34:14.560]  pathways on a college campus? And it's like, just just lay down grass everywhere. Yeah, wait a year
+[34:14.560 --> 34:20.560]  and then see where the see where the paths are worn and then pave those because people are going
+[34:20.560 --> 34:26.160]  to walk there anyway. Yeah, I also think that, you know, as I think it's fair to say that as much as
+[34:26.160 --> 34:29.760]  these are products, when you're dealing with a company like Amazon, and like Google and like
+[34:29.760 --> 34:34.240]  Facebook, they are also intended to be data harvesting endpoints. So they're designed to
+[34:34.240 --> 34:39.200]  take your stuff and put it on Amazon or Google or Facebook servers. And that means there has to be
+[34:39.200 --> 34:44.480]  an inherent greater level of security like that in that mode, Natatmo, I forget about their name,
+[34:44.480 --> 34:49.200]  that doorbell, it saves to an SD card like there is or to your personal Dropbox, right? There's
+[34:49.200 --> 34:53.120]  no like their server end, right? So I think if you're designing this stuff, and you're marketing
+[34:53.120 --> 34:57.600]  it, and you're also your side business, or your side hustle, or your main hustle is sucking in
+[34:57.600 --> 35:02.160]  all this data. So you can feed your algorithms and your facial recognition and, and whatever,
+[35:02.160 --> 35:05.840]  there's an even higher standard for you to provide the protection to people who are using those
+[35:05.840 --> 35:11.760]  devices. Yeah, I think so completely. All right, let's take a break. Thank our next sponsor. It's
+[35:11.760 --> 35:22.160]  our good friends at HelloFresh. What is HelloFresh? Look, this is absolutely this is living in the
+[35:22.160 --> 35:30.000]  internet age. This is one of the great companies, you can get terrific seasonal recipes, and
+[35:30.000 --> 35:36.160]  pre measured ingredients, all of the food delivered right to your door with HelloFresh.
+[35:36.160 --> 35:44.480]  It's America's number one meal kit. They make cooking at home, fun, easy, and affordable.
+[35:45.360 --> 35:52.720]  It's really great. Break out your dinner rut. You feel like you just keep cooking the same stuff
+[35:52.720 --> 36:00.720]  over and over again. Sign up for HelloFresh. They have 22 plus seasonal chef curated recipes
+[36:00.720 --> 36:07.200]  each week. So there's only seven days in a week. You have 22 things to choose from. It is
+[36:07.200 --> 36:13.600]  absolutely phenomenal. And they have something for everyone, including low calorie meals,
+[36:13.600 --> 36:23.200]  vegetarian meals, and family friendly recipes for people with small kids, young kids who aren't
+[36:23.200 --> 36:31.120]  adventurous eaters. Let's just face it. And they have them for you every single week. They have
+[36:31.120 --> 36:36.160]  more five star recipes than any other meal kit company. So you know, you're going to get something
+[36:36.160 --> 36:44.880]  delicious. HelloFresh cuts out stressful meal planning and prepping. And let's face it, to me,
+[36:44.880 --> 36:50.400]  that is half the problem isn't really the cooking is the what the hell are we going to eat tonight?
+[36:50.400 --> 36:53.920]  What are we going to eat? What do we have? What are we going to get? What are we going to buy?
+[36:53.920 --> 37:02.240]  What, what, what, what, what? And HelloFresh cuts that out. You pick bop, bop, bop. This is what I
+[37:02.240 --> 37:10.640]  want. And then it shows up. Everything in each meal is pre-measured. You get just the right
+[37:10.640 --> 37:17.280]  amount of every ingredient. So you don't have like, oh, well, we need a garlic, but now we've
+[37:17.280 --> 37:24.080]  got 10 times more garlic than we needed, or etc, etc. No, you get just what you need. You use it,
+[37:24.080 --> 37:32.960]  you cook it. And it's delicious. And everything is ready to go from start to finish in about
+[37:33.760 --> 37:42.240]  20 to 30 minutes with our quick recipe us options. And really, the average trip to the grocery store
+[37:42.240 --> 37:48.960]  according to them is 41 minutes. Whereas you get HelloFresh, you can start cooking. The whole meal
+[37:48.960 --> 37:54.560]  is ready in 20 to 30 minutes. So before you would even be back from the grocery store,
+[37:55.520 --> 38:02.560]  you can have a hot, fresh meal right on your table, delicious, ready to go with all of the
+[38:02.560 --> 38:07.520]  instructions, all of the ingredients, right on right, right delivered to you.
+[38:07.520 --> 38:14.960]  It's really a great service, you can add extra meals or lunches, if you need like lunches to go
+[38:14.960 --> 38:20.960]  with you to work or something like that, you can add them to your order. If you don't want
+[38:20.960 --> 38:26.000]  something like lunches, you don't have to get them. It's all very customizable. They also have
+[38:26.000 --> 38:32.000]  options like dessert, and they have garlic bread and cookie dough and all sorts of things that you
+[38:32.000 --> 38:41.760]  can add on. If you want them, get them. If you don't, don't easily change your delivery days,
+[38:41.760 --> 38:46.960]  you can pick which days you want the food delivered. You want a Monday, Wednesday, Friday,
+[38:46.960 --> 38:52.720]  or something like that, or you want them only on Tuesday and Thursday, you can easily pick those
+[38:52.720 --> 38:57.440]  things and you can skip a week if you know you're going to be out of town. You could just say hey,
+[38:57.440 --> 39:04.240]  we're not going to be here. Skip this week. Boom. You don't get any food. It's really,
+[39:04.240 --> 39:13.360]  really great. And it's really affordable. HelloFresh starts at just $5.66 per serving,
+[39:13.360 --> 39:22.320]  per meal, which is just an unbelievable price. So go to hellofresh.com slash talk show 10.
+[39:22.320 --> 39:31.440]  Talk show 10 and use that code talk show 10 during HelloFresh's New Year's sale for 10
+[39:31.440 --> 39:38.640]  free meals, including free shipping. That's just an unbelievable deal. Use that code talk show 10
+[39:38.640 --> 39:47.200]  at hellofresh.com slash talk show 10 and you get up to 10 free meals, including free shipping.
+[39:47.200 --> 39:52.080]  Really just an unbelievable deal. And I have to tell you, we've used it. We really love it.
+[39:52.080 --> 39:59.920]  The ingredients are just absolutely phenomenal. And it is an incredible convenience. So my thanks
+[39:59.920 --> 40:08.320]  to HelloFresh for sponsoring the show. All right, so you don't have a Ring camera?
+[40:09.120 --> 40:12.800]  No. And you know, I've thought about them too. But I think even if I would ever get one,
+[40:12.800 --> 40:17.440]  it would only ever be plenty out. I would never have one inside the house. Well, yeah,
+[40:17.440 --> 40:23.680]  I wouldn't want a camera inside my house, no matter what company it was from, you know, like,
+[40:23.680 --> 40:30.640]  even if like Apple split itself and said, Hey, we're gonna fork our company, we're gonna keep
+[40:30.640 --> 40:36.080]  going with Apple is Apple. And we're also going to make a company called the privacy company.
+[40:36.080 --> 40:46.720]  And literally that it's just devoted a company single mindedly focused on privacy. And I still
+[40:46.720 --> 40:53.760]  wouldn't want the camera in my house. But I would like a better camera outside my house. I have a
+[40:54.720 --> 41:02.400]  crappy doorbell that has a crappy camera from like 2006 pointing outside at the doorbell. I would
+[41:02.400 --> 41:08.000]  like a better camera there. So I guess I'll buy something. And I'm not, you know, what's the worst
+[41:08.000 --> 41:14.960]  thing that could happen? The worst thing that could happen is what it it 24 hours a day, seven
+[41:14.960 --> 41:24.160]  days a week, is storing what happens outside my house, and going to a server, right, right, that's
+[41:24.160 --> 41:30.480]  taken the garbage out to write. Right. So every Sunday night, when I take the garbage out there,
+[41:30.480 --> 41:37.920]  I am, you know, that in your bulk pants, if if it's, you know, if it's pointed outside your house,
+[41:37.920 --> 41:46.400]  to me, the worst privacy violation that could happen is the thing that somebody else could
+[41:46.960 --> 41:53.120]  photograph, right? Because it's outside your house. So that's not why I don't get it. But
+[41:54.480 --> 41:58.960]  and I say this as someone who realizes that every Mac and iPad and iPhone and Google phone
+[41:58.960 --> 42:03.840]  and whatever I have in my house has a camera on it. I just try not to think about, hey, maybe you
+[42:03.840 --> 42:11.440]  want to put tape over your camera. And it's like, I've seen no evidence that the green light that
+[42:11.440 --> 42:18.080]  indicates that the camera is in use, isn't physically connected to the camera. You know, like,
+[42:18.960 --> 42:26.480]  yeah, you in my humble opinion, I can't prove it, nobody can prove it. And obviously, if you put a
+[42:26.480 --> 42:35.920]  piece of tape over the camera, you can prove that the camera isn't filming you. But in my opinion,
+[42:35.920 --> 42:42.720]  I don't worry about the cameras on my devices, I really do feel like there's a, you know, and you
+[42:42.720 --> 42:50.480]  know, all my devices are Apple devices. But I do feel like there's pretty strong proof. And from
+[42:50.480 --> 42:57.840]  what I know, personally, pretty strong evidence that they they take it very seriously, that, like,
+[42:57.840 --> 43:02.960]  I don't think Tim Cook has tape over his camera. And I know people are like, hey, yeah, you know,
+[43:02.960 --> 43:07.120]  there's that thing as Zuckerberg and Zuckerberg is using a MacBook, and he's got tape over the
+[43:07.120 --> 43:11.840]  camera. Like if Mark Zuckerberg has tape over his camera, then I'm putting tape over my camera. It's
+[43:11.840 --> 43:18.880]  like, well, maybe that was a we have no idea if that was actually his computer. Yeah, and
+[43:18.880 --> 43:23.680]  be he didn't make the computer, you know, like show me when Facebook running on it. So you have
+[43:23.680 --> 43:29.120]  to be careful. Yeah, exactly. Right. He's the guy who runs a company that is trying to use your
+[43:29.120 --> 43:37.680]  camera surreptitiously without turning the light on. I don't think, you know, Tim Cook or Phil
+[43:37.680 --> 43:44.960]  Schiller, or Eddy Q, or Craig Federighi, I don't think any of them have tape over the cameras on
+[43:44.960 --> 43:50.640]  their MacBooks. Because I think they know that if the camera's on, the light comes on. And that's,
+[43:51.520 --> 43:57.680]  you know, you know that it's on, there's, there's, so I trust it that way, you know, and maybe,
+[43:57.680 --> 44:03.360]  you know, maybe I'm wrong. But I've seen no evidence that that's not not the way that it
+[44:03.360 --> 44:08.080]  actually works. Now, it's tied into the secure element on all the modern Macs and iPhones and
+[44:08.080 --> 44:12.720]  everything anyway. So it's basically a hardware channel, which I think is better in some cases.
+[44:12.720 --> 44:21.120]  I think is better in some cases. Yeah. Did you get a Mac Pro? I did not, you know, I was thinking
+[44:21.120 --> 44:27.040]  about it. And I had what I called a bunch of FOMO YOLO jealousy when I saw all of our friends getting
+[44:27.040 --> 44:33.920]  them and unboxing them. But the 2016 MacBook Pro is just so good. And I'm only shooting 4k
+[44:33.920 --> 44:40.160]  raw, which you know, it sounds like a lot, but this machine is crushing it. And I don't like
+[44:40.160 --> 44:48.640]  if I was doing multi stream 8k raw or Arri Alexa, like, like Jonathan Morrison or MKBHD or iJustine,
+[44:48.640 --> 44:53.200]  or some of that photogrammetry stuff that Alex Lindsey does that takes days, it would be a
+[44:53.200 --> 44:57.600]  blessing to me. But there's, I was like, just looking at it and looking at my budget and going,
+[44:57.600 --> 45:02.160]  but I don't need it. And because I didn't need it, I managed to stop myself from buying it.
+[45:03.440 --> 45:09.920]  It's, I even thought about the display, but by the time I thought about it, it was pushed into
+[45:09.920 --> 45:13.920]  February. And that let me say, Okay, I don't have to think about it. Well, there's a couple of
+[45:13.920 --> 45:22.000]  things that are pushing late. So one of the things that is fascinating to me, and it's not really
+[45:22.000 --> 45:32.480]  related, but did you see how long the delay is on AirPods Pro? No, I didn't. If you tried to buy
+[45:32.480 --> 45:40.560]  AirPods Pro in any time in the last like three, four weeks, they're like, the delivery date is late January.
+[45:40.560 --> 45:48.400]  So in terms of like, hey, it's two weeks before Christmas, I wanted to get, you know, my kid,
+[45:48.400 --> 45:56.160]  my spouse, whoever AirPods Pro, you you were screwed. It was absolutely almost no chance,
+[45:56.160 --> 46:01.840]  you know, there were like random, it says four weeks right now, you know, you could randomly
+[46:01.840 --> 46:08.880]  find a store that might be near you that had them. But for the most part, it was five or six weeks,
+[46:08.880 --> 46:19.120]  four or five weeks delivery, which to me is crazy. And I realized the AirPods Pro
+[46:19.120 --> 46:25.120]  are something that 10s and 10s of millions of people are interested in and might want to buy.
+[46:25.120 --> 46:31.360]  And I realized that the pro display XDR is something that only 1000s of people are interested
+[46:31.360 --> 46:39.360]  in and want to buy. But yeah, similar in terms of you can't get one right now. You just can't
+[46:39.360 --> 46:51.840]  go in and buy one. You know, obviously, two very different price points. Yes. We're talking $5,000
+[46:51.840 --> 46:58.560]  plus $1,000 stand versus you know, what what are the AirPods Pro like? I loved your line. I think
+[46:58.560 --> 47:03.040]  it was the WWDC talk show when you said that you thought 6k was the price when they kept calling it
+[47:03.040 --> 47:14.480]  that. It's so close. It's if you get a stand, it's so close. It's $1,000 a k. I think it's I think,
+[47:14.480 --> 47:20.720]  you know, obviously, people who are looking for the pro display XDR are looking to buy display
+[47:20.720 --> 47:28.320]  to use for years to come. It is not a one off purchase. It's not something you make on a whim.
+[47:28.320 --> 47:34.960]  It is something you do professionally, blah, blah, blah. And AirPods Pro or something that maybe you
+[47:34.960 --> 47:42.080]  buy in a year or two from now, you'll get new whatevers, you know, AirPods Pro two or whatever
+[47:42.080 --> 47:52.400]  will come out. And they're $200 versus 6000 with the standard 7000 with a stand and the mat fan.
+[47:52.400 --> 47:56.240]  Those wheels. Don't forget those wheels. And while you can't get the wheels on display,
+[47:56.240 --> 48:00.800]  I don't think the display has rules, although, you know, let's give them time.
+[48:03.040 --> 48:09.600]  And again, I laugh because it's a very high price point. I don't think that it's an unreasonable
+[48:09.600 --> 48:16.160]  price point for what it is. You know, I just read a story today from an animation company where they
+[48:16.160 --> 48:23.520]  were like, hey, you know, everybody's joking about these displays. But prior to these displays being
+[48:23.520 --> 48:32.080]  available, it would have cost us $30,000 a seat to get a display of this caliber in front of
+[48:32.080 --> 48:40.480]  everybody on our our team. And now we can do it for $6,000. So I was joking on Twitter because
+[48:40.480 --> 48:44.400]  I got an email from B&H saying that their new Sony reference display was in stock. And it was
+[48:44.400 --> 48:52.000]  like $42,000. And I didn't see a stand on. Right. So I mean, I laugh because they're just expensive
+[48:52.000 --> 49:00.400]  period. Yeah. But I thought it was really interesting that the AirPods Pro were sold out
+[49:00.400 --> 49:07.680]  so far in advance of Christmas. You know, I do. I still I have to be honest, I'm still using my
+[49:08.480 --> 49:15.360]  review unit. I didn't I didn't buy them. And I feel terrible because I was going to buy ones
+[49:15.360 --> 49:20.000]  for me and my wife. She doesn't listen to my podcast, so hopefully she won't hear this. But
+[49:20.000 --> 49:25.200]  I was going to get them for her for Christmas. And then, you know, it was like December 14th
+[49:25.200 --> 49:30.480]  or something. And I'm thinking, hey, it's only December 14th. I've got plenty of time. I'm ahead
+[49:30.480 --> 49:37.920]  of the game. I'm not doing the thing I do every year where I screw up and wait too long to get.
+[49:37.920 --> 49:43.920]  And then I go to get AirPods Pro and they're like delivered January 20th. And I'm like, ah,
+[49:43.920 --> 49:50.720]  shit. Yeah, I agree. Similar thing. I bought a pair for myself because I was because I tried
+[49:50.720 --> 49:54.880]  to replace the the review units and then I couldn't get them for Christmas, giving the ones
+[49:54.880 --> 50:01.280]  I bought as a Christmas gift. And I have to buy myself a pair as soon as I can get them. I love
+[50:01.280 --> 50:10.640]  them. And I will tell you, and this is as good a time as any to reveal it. I did. I have a pair of
+[50:10.640 --> 50:17.280]  Bose whatevers, you know, QS 30s, whatever the hell they call them, the over the ear things
+[50:18.000 --> 50:26.480]  that are also Bluetooth noise canceling, blah, blah, blah. But I took a trip on an airplane
+[50:26.480 --> 50:37.200]  at the end of or early in December and I took them and my AirPods and I will say I will never
+[50:37.200 --> 50:45.440]  travel with those Bose things again ever. There's zero point zero chance that I will ever take them
+[50:45.440 --> 50:53.680]  on my trip. It's not the same because the Bose ones are over the ears before you even turn them
+[50:53.680 --> 51:03.920]  on. They do block out more noise than AirPods Pro, literally with with no electricity being used,
+[51:03.920 --> 51:10.960]  no, no noise canceling algorithm or anything they do because they're over your ear. And when
+[51:10.960 --> 51:21.760]  the noise canceling is on, it is different. And if your goal is to put them in your ear and go
+[51:21.760 --> 51:28.080]  on an airplane and not listen to anything, you don't you're not listening to a podcast,
+[51:28.080 --> 51:35.120]  you're not listening to music, you literally just want the noise canceled. Well, then you should
+[51:35.120 --> 51:42.640]  probably still stick with some kind of over the ear thing because it is a little bit better,
+[51:43.520 --> 51:48.960]  but not that much better. It is different. You can definitely hear the difference.
+[51:50.320 --> 51:56.480]  But if you're listening to anything, if you're listening, if you're watching movies on your iPad
+[51:56.480 --> 52:06.080]  or Mac or whatever, if you're listening to music. It is negligible how different they are,
+[52:06.080 --> 52:13.520]  and I'm not even sure which one is, quote unquote, better, but the fact that the AirPods are so tiny
+[52:14.400 --> 52:23.440]  and it is absolutely astounding to me how how competitive they are in terms of the noise
+[52:23.440 --> 52:31.760]  canceling quality. And, you know, I think for a lot of people, the you know, being in an airplane
+[52:31.760 --> 52:44.560]  mid-flight is sort of the noise canceling default scenario. Yeah, it's absolutely amazing how
+[52:44.560 --> 52:56.320]  competitive the AirPods Pro are with something like the the current Bose QS whatever number
+[52:56.320 --> 53:01.760]  they are. Yeah, no, totally. I've used a bunch of them, too. And I know there are some people
+[53:01.760 --> 53:05.840]  who are audiophiles and they complain about the sound quality of the AirPods and fair enough,
+[53:05.840 --> 53:10.320]  but I've used them on a ton of flights now and a ton of different travel scenarios, coffee shops
+[53:10.320 --> 53:15.600]  all over the place. And I'm astounded about something not just this small, but most of the
+[53:15.600 --> 53:19.200]  space in here isn't taken up with audio tech. It's taken up with a bunch of computer tech
+[53:19.200 --> 53:23.920]  and they can still wrangle out this kind of performance from them. It's really it and
+[53:23.920 --> 53:31.040]  they're so much smaller. And I, you know, what what you actually carry on to the plane, you know,
+[53:31.040 --> 53:40.800]  the the difference in weight and volume, especially volume between the AirPods Pro and a pair of over
+[53:40.800 --> 53:46.160]  the ear noise canceling headphones is so phenomenal. It's it's just ridiculous.
+[53:47.760 --> 53:51.360]  I know I should, but I don't get told to take them off anywhere nearly as I do when I'm wearing
+[53:51.360 --> 53:55.440]  when I used to wear those big the big headphones. Yeah, those were super obvious because they look
+[53:55.440 --> 54:02.240]  at you and they're like, hey, take that off. It's really easy. They don't notice half the time.
+[54:02.240 --> 54:05.840]  All right. And it's weird. It's like the end of twenty nineteen and we have I forget what it was,
+[54:05.840 --> 54:10.400]  a 10 core audio processors in our ears. That's how far we managed to go within a decade.
+[54:17.840 --> 54:20.080]  Everything's going to be a computer, Rene. Everything. Yeah.
+[54:20.080 --> 54:32.000]  Yeah. But I have to say, taking them both on one flight and actually taking time to try them side
+[54:32.000 --> 54:40.080]  by side was such and again, this is the service I provide to the listeners of the talk show is now
+[54:40.080 --> 54:46.640]  you don't have to do it if you own AirPods Pro. Just just listen to me. Don't even try the other
+[54:46.640 --> 54:51.680]  ones. Leave them at home. Sell them. Give them to your brother in law. Whoever will take them.
+[54:51.680 --> 54:58.320]  Get rid of them. You don't need them anymore. Just use the AirPods Pro. And and the and the
+[54:58.320 --> 55:04.480]  other thing that I brought with me on the same flight was regular old fashioned non noise
+[55:04.480 --> 55:13.600]  canceling AirPods, although they were the second generation one. And it it is tremendous the
+[55:13.600 --> 55:19.600]  difference that the noise canceling AirPods Pro make when when you're on an airplane.
+[55:19.600 --> 55:27.680]  You it's exactly what I thought, which is that the earbuds are really they're not useless on
+[55:27.680 --> 55:34.480]  an airplane, you know, but it's there's just so much to that white noise from that would just
+[55:34.480 --> 55:46.240]  whoosh noise on an airplane flight. And it's just the perfect scenario for where you really do need,
+[55:47.040 --> 55:52.880]  you know, and I use that word somewhat cautiously need, but you really do need
+[55:52.880 --> 56:00.000]  noise canceling on an airplane. Yeah. And it just makes all the difference in the world.
+[56:00.000 --> 56:08.400]  Oh, really? Just tremendous. I love the AirPods Pro. I think that they are.
+[56:10.160 --> 56:15.680]  We can segue into this because it's part of the reason I wanted to have you on the show this week
+[56:15.680 --> 56:24.560]  was your product of the decade selection. AirPods Pro are up there. I would say they're in the
+[56:24.560 --> 56:31.840]  finalists. You know, they're they're they're in the playoffs. My only thing was that I feel like
+[56:31.840 --> 56:37.040]  they're their best decade is yet to come. Like they are huge. They started in 2016, but they made
+[56:37.040 --> 56:41.200]  huge leaps this year. And if you follow the thread, it just feels like they're going to be
+[56:41.200 --> 56:48.400]  even bigger in the next few years. Yeah, I totally agree. Like way longer battery life, way better
+[56:48.400 --> 56:56.160]  noise cancellation and way better sort of Siri integration. Yeah, I kind of feel like at some
+[56:56.160 --> 57:02.160]  point in the next, I would say even like three years, there will be a pair of AirPods that just
+[57:02.160 --> 57:07.920]  make even today's AirPods Pro seem like garbage. Like they'll stream Apple podcasts and Apple Music,
+[57:07.920 --> 57:10.720]  maybe some third party stuff directly. You won't even need the watch anymore.
+[57:10.720 --> 57:19.280]  All right, let's just segue right into that. So you had a piece recently, Renee,
+[57:19.280 --> 57:26.640]  where you picked out again, this is the last episode of this podcast in the decade.
+[57:26.640 --> 57:34.880]  And don't give me any of this nonsense that the decade start in 2021. Everybody knows
+[57:34.880 --> 57:41.200]  the way human brains work that the decades start. You know, Prince didn't have a song
+[57:41.200 --> 57:48.480]  called Let's Party like it's 2000. It was 1999. Oh, sorry, kid, you're not really 10 years old.
+[57:48.480 --> 57:55.520]  You got to wait till next year. Exactly. So we're days away. The show will come out right before
+[57:56.160 --> 58:01.760]  the cusp of the new year. But then it's the toggle of the decade.
+[58:01.760 --> 58:08.960]  I personally don't do and you know this, you personally know this, people listening to this
+[58:08.960 --> 58:16.800]  know it. I don't do a lot of like, hey, best blank of the year, bless best this of the year.
+[58:17.680 --> 58:23.520]  It's just not my style. And it's not because I'm opposed to it. It's just not what I'm good at.
+[58:23.520 --> 58:30.400]  I don't have enthusiasm for it. So let the people who do do it. And I'll just let the people who do
+[58:30.400 --> 58:37.120]  it and I'll just link to so and so's. Hey, here's the best apps of the year, the best,
+[58:38.000 --> 58:43.280]  you know, products of the year or the best blanks of the decade. But a decade, you know,
+[58:43.280 --> 58:50.400]  it's a bigger deal. I feel like I ought to speak up. You're you you made a declaration
+[58:50.400 --> 58:55.280]  best product of the decade. And it was the the Apple Watch.
+[58:55.280 --> 59:00.960]  Yeah. And tell me tell me why you picked Apple Watch.
+[59:01.840 --> 59:06.640]  So I did. I did think of a few things like because it's been such a big decade for Apple,
+[59:06.640 --> 59:11.040]  like for everything from the iPad to the MacBook Air, which was essentially the template for every
+[59:11.040 --> 59:15.360]  ultrabook we got for the rest of the decade. There was just so much to AirPods or just so
+[59:15.360 --> 59:20.560]  many things. Some people love the iPhone for the iPhone 10. But to me, the big difference is
+[59:20.560 --> 59:26.960]  that the Apple Watch was was a change within the way that a lot of these products worked and
+[59:26.960 --> 59:33.040]  were designed to work because it saves lives. And a lot of people as soon as I say that people say,
+[59:33.040 --> 59:37.600]  well, phones save lives and computers save lives and tablets. And that's all true. They absolutely
+[59:37.600 --> 59:43.440]  do. But the Apple Watch was designed systematically to save lives and features were designed
+[59:43.440 --> 59:48.320]  specifically to save lives. Like they took the health, the heart rate monitor, which originally
+[59:48.320 --> 59:53.040]  was just meant to give an accurate calorie count. But as they were doing their research,
+[59:53.040 --> 59:56.960]  they started finding patterns. They started exploring it more and they realized they could
+[59:56.960 --> 01:00:02.160]  detect AFib, for example. So they did low heart rate monitoring and high heart rate monitoring.
+[01:00:02.160 --> 01:00:07.680]  And then the ECG app and fall detection and international emergency calling, which, you know,
+[01:00:07.680 --> 01:00:11.760]  phone can't really like they're supposed to be able to do it. But just if you have an accident,
+[01:00:11.760 --> 01:00:16.880]  your phone is thrown out of your head. Just in so many situations, the Apple Watch deliberately and
+[01:00:16.880 --> 01:00:22.880]  specifically saves lives. And to me, that was just such a huge change in the continued evolution of
+[01:00:22.880 --> 01:00:31.360]  personal computing. I did you see that there was a somebody wrote an op-ed piece in the New York
+[01:00:31.360 --> 01:00:38.000]  Times in the last few days where it was like, ah, the whole Apple tells you, you can count on the
+[01:00:38.560 --> 01:00:45.280]  Apple Watch for heart stuff. And it's like, ah, maybe not so fast. And it's like, it was such a
+[01:00:45.280 --> 01:00:56.640]  total like the worst, in my opinion, of like, hey, let's take the opposite approach to what
+[01:00:56.640 --> 01:01:04.640]  everybody's saying and take that, you know, write a whole column about that, where, like the headline
+[01:01:04.640 --> 01:01:13.200]  and the subhead were flat out flat wrong. Yeah. And then you read the column and it's like, ah,
+[01:01:13.200 --> 01:01:19.040]  all right. Yeah, this isn't, it's not so wrong. So it's not, it's not as easy to link to and
+[01:01:19.040 --> 01:01:27.520]  disagree with. But my rule of headlines is that the headline is 50% of what matters. If the
+[01:01:27.520 --> 01:01:34.400]  headline misleads, then it doesn't matter what the article says, whether it's a news reporting piece
+[01:01:34.400 --> 01:01:42.480]  or an opinion column. You've already put people on the wrong path, because and and it's only gotten
+[01:01:42.480 --> 01:01:51.360]  worse because when you share stuff on Twitter, or I guess Facebook, whatever. When you paste the link,
+[01:01:51.360 --> 01:01:56.800]  all they see is the headline and the subhead. They'll tell you like in any algorithm, it's the
+[01:01:56.800 --> 01:02:05.040]  click through rate is determined by the picture and the headline, right? That's it. And the basic
+[01:02:05.040 --> 01:02:12.240]  gist of this sort of, hey, not so fast with the Apple Watch is saving lives is like, hey, Apple
+[01:02:12.240 --> 01:02:21.680]  did this story or a study of a couple thousand people who opted in to do it and only X, a small
+[01:02:21.680 --> 01:02:27.760]  number of people actually participated and actually did everything they're supposed to do. And of
+[01:02:27.760 --> 01:02:41.200]  those people, only a small percentage actually had atrial fibrillation. And it's like, but there was
+[01:02:41.200 --> 01:02:52.000]  there was not one person who anything bad happened because they did it right. Not one person had like,
+[01:02:52.000 --> 01:02:59.760]  hey, my life was made worse because I put on an Apple Watch and tried the heart monitor or
+[01:02:59.760 --> 01:03:06.000]  anything and signed up for this study. Whereas even if it's a small number of people, there's
+[01:03:06.000 --> 01:03:14.320]  a small number of people who the watch was like, hey, go to your doctor, because something might
+[01:03:14.320 --> 01:03:20.000]  be wrong with your heart. And those people that it was like, oh, yeah, there's something wrong
+[01:03:20.000 --> 01:03:29.280]  with my heart. I should do it. It it was like the opposite of of I get the idea. And it's like
+[01:03:29.280 --> 01:03:41.200]  writing a column that says, hey, you're probably not going to have your life bettered in terms of
+[01:03:41.200 --> 01:03:49.200]  your heart health. If you buy an Apple Watch is not a great column. Whereas, hey, Apple says
+[01:03:49.200 --> 01:03:54.640]  they're going to save your life and they're not is like a better column. I totally get that.
+[01:03:54.640 --> 01:04:03.360]  But it's totally off the point, right? Like, the only people who like the watch flagged are people
+[01:04:03.360 --> 01:04:11.120]  who like, should go to the doctor. And it I don't know, it annoyed me in a way.
+[01:04:14.880 --> 01:04:19.600]  Yeah, no, I get it totally because over the over like so the Apple Watch came out and for
+[01:04:19.600 --> 01:04:24.720]  five years, it's been a failure and beleaguered and has gotten very little recognition. And that's
+[01:04:24.720 --> 01:04:28.880]  despite people like Neil Seibert, and of course, did you doing the math and showing people were
+[01:04:28.880 --> 01:04:34.080]  saying like Alexa was a smash hit, and the Apple Watch was outselling it. And the Apple Watch now
+[01:04:34.080 --> 01:04:39.120]  and the AirPods have both outsold iPod at its peak. And they're still like not considered
+[01:04:39.120 --> 01:04:45.120]  breakthrough or hit products by a huge swath of people. And it's flabbergasting to me, I think,
+[01:04:45.120 --> 01:04:50.560]  and it's flabbergasting to me, I think, I don't know if it's just jealousy, or some sort of weird
+[01:04:50.560 --> 01:04:56.160]  technology disorder that infects a lot of people in the industry. But by any token, they're selling
+[01:04:56.160 --> 01:05:00.720]  amazingly well. And it's bringing all these health and fitness features to people who at the worst
+[01:05:00.720 --> 01:05:05.600]  will have a better life. And the best will, like my friend Georgia, who you know, she fell down the
+[01:05:05.600 --> 01:05:11.680]  stairs, and it went off. And she was badly hurt. And luckily, her husband hurt her and came running
+[01:05:11.680 --> 01:05:15.840]  down. But if she'd been home alone, that would have called 911 for her when she could not.
+[01:05:16.400 --> 01:05:23.760]  I, I, you know, that's a great example, because I feel like the atrial for fibrillation feature,
+[01:05:24.560 --> 01:05:32.720]  which Apple has to get country by country, regulatory approval for for good reason,
+[01:05:32.720 --> 01:05:38.880]  you know, let's, you know, that this isn't a complaint about government regulations. But,
+[01:05:38.880 --> 01:05:46.720]  you know, for good reason, they have to get approval for it. And so it, it definitely
+[01:05:47.440 --> 01:05:52.400]  is limited by where you live. So if you live in the US or Canada, you've already got it.
+[01:05:53.600 --> 01:06:02.240]  Is it? Yeah, you do have it in Canada. Yeah. Finally. But as you go around, got it in July of
+[01:06:02.240 --> 01:06:07.760]  last year, I got over this year. But as you go around the world, you may not have it if you live
+[01:06:07.760 --> 01:06:20.240]  outside of North America. But for good reason, and but the fall detection thing to me is way more
+[01:06:20.240 --> 01:06:30.800]  interesting than the atrial fibrillation thing because it just seems more common. And it doesn't
+[01:06:30.800 --> 01:06:40.080]  require the regulatory approval that it does. And it works. It really does. I, you know, I know,
+[01:06:40.080 --> 01:06:46.560]  your friend, Georgia, you know, had a fall, I've gotten emails, I'm sure you have to,
+[01:06:46.560 --> 01:06:50.400]  I've gotten emails from people who read during fireball, you know, because there's
+[01:06:51.040 --> 01:06:57.600]  hundreds of 1000s of people who read my website. And so even if only, you know, a 10th of a percent
+[01:06:57.600 --> 01:07:04.800]  of people suffer a bad fall. And, you know, only among the people who actually own an Apple Watch,
+[01:07:05.360 --> 01:07:12.400]  and whatever percentage those people would deem fit to email me about it. But I've gotten,
+[01:07:12.400 --> 01:07:19.200]  you know, several emails from people who are like, Hey, you know, I slipped on the third stair,
+[01:07:19.200 --> 01:07:27.520]  I fell down three stairs, I'm fine, you know, I was fine. But maybe if I was instead of being 45,
+[01:07:27.520 --> 01:07:33.760]  years old, if I was 85 years old, I wouldn't have been fine. And the watch was like, Hey, are you
+[01:07:33.760 --> 01:07:43.200]  okay? We detected a fall? Do you want to call services? And they're like, this is phenomenal.
+[01:07:43.200 --> 01:07:48.480]  And they're like, as soon as I got that, I was like, you know what I did, I bought my dad and
+[01:07:48.480 --> 01:07:57.680]  my mom an Apple Watch, you know, because, you know, my dad is 84, you know, and if he took a fall like that, he
+[01:07:58.240 --> 01:08:05.920]  probably wouldn't be okay. And would be phenomenal if he could just tap one button on his left wrist
+[01:08:05.920 --> 01:08:16.480]  to call 911 services. It really is very impressive technology. And I get it. I it's not my pick for
+[01:08:16.480 --> 01:08:23.520]  product of the decade, but I get why you picked it. And the services that provide these sorts of
+[01:08:23.520 --> 01:08:27.840]  things are typically really expensive every month, you know, when you when you add them up, but also
+[01:08:27.840 --> 01:08:31.920]  like this is one of those things where it's only Apple like, yes, there are other watches on the
+[01:08:31.920 --> 01:08:36.720]  market, but Qualcomm so far has not been able to make good watch silicon because no one no one's
+[01:08:36.720 --> 01:08:40.880]  really buying it in sufficient quantities. So they have like an old phone chip, they've rehashed twice
+[01:08:40.880 --> 01:08:46.720]  and now added a coprocessor to and Wear OS from Google. Even people who love Android will tell you
+[01:08:46.720 --> 01:08:51.360]  it's it's non-functional in terms of being a wearable. And that shows you just how hard it is
+[01:08:51.360 --> 01:08:55.680]  to make these things. If Google, one of the best software companies in the world and Qualcomm,
+[01:08:55.680 --> 01:09:00.080]  one of the best chipset companies in the world can't even get it together. And that's with the Apple
+[01:09:00.080 --> 01:09:04.480]  Watch to compete with. So if Apple wasn't in this market, I don't think we'd be very far at all when
+[01:09:04.480 --> 01:09:14.960]  it comes to wearables. Well, and I think I think that and again, I say this as somebody who years
+[01:09:14.960 --> 01:09:23.520]  ago wish that, you know, I said Apple needs its Nikon. And that was comparing Apple to Canon,
+[01:09:23.520 --> 01:09:30.880]  and the way that in the camera, you know, and yeah, it shows how many years ago that I was
+[01:09:30.880 --> 01:09:36.480]  only talking about Canon Nikon, because I think they've been passed in so many ways by other
+[01:09:36.480 --> 01:09:43.120]  companies, especially Sony, who has really, really stepped up their camera game. But the basic idea
+[01:09:43.920 --> 01:09:53.440]  stands, which is that if you want a serious professional camera, you have several, at least
+[01:09:53.440 --> 01:10:02.320]  a handful of companies to choose from. Yeah. And it's probably not reasonable to expect dozens of
+[01:10:02.880 --> 01:10:10.000]  companies, you know, the markets tend to consolidate, competition tends to force people
+[01:10:10.000 --> 01:10:18.400]  out. But it's it's not good when you don't have competition. It's not good for you. It's definitely
+[01:10:18.400 --> 01:10:25.600]  not good for your customers. But the thing that to me is counterintuitive, is that it's not good
+[01:10:25.600 --> 01:10:34.480]  for the company itself. Because that's how you end up getting locked into a weird corner. And the
+[01:10:34.480 --> 01:10:43.600]  whole market goes another way, and you're not ready to go there. And cameras are are, to me,
+[01:10:43.600 --> 01:10:51.120]  the perfect example where there's always been, at least in my lifetime, a couple of brands
+[01:10:51.120 --> 01:10:59.280]  that you could choose from that offer truly excellent professional cameras. And, you know,
+[01:10:59.280 --> 01:11:06.560]  the problem it and I think it's a serious, serious problem for those of us in the Apple ecosystem
+[01:11:06.560 --> 01:11:17.040]  is you get locked into the Apple ecosystem and, you know, you get ruled out of these other devices,
+[01:11:18.480 --> 01:11:26.320]  you know, and you hope that Apple is keeping up. But, you know, again, it's a whole tangent.
+[01:11:26.320 --> 01:11:29.600]  We won't take televisions are the same thing. There's so many competing brands.
+[01:11:29.600 --> 01:11:38.320]  Yeah. But on the watch front, it's the opposite where Apple is so racing ahead on what you can do
+[01:11:39.120 --> 01:11:44.960]  with a modern digital watch a computer on your wrist. And
+[01:11:47.280 --> 01:11:54.800]  they're so far ahead of every other company that it's embarrassing to the other companies,
+[01:11:54.800 --> 01:11:59.520]  to be honest. And, you know, it's part of the reason I'm not going to say you're wrong for
+[01:11:59.520 --> 01:12:05.600]  picking Apple Watch as the product of the decade. And I would honestly say that above and beyond
+[01:12:05.600 --> 01:12:15.040]  any particular reason to buy an Apple Watch today, to me, the best argument for your decision to say
+[01:12:15.040 --> 01:12:20.720]  that's the product of the decade is how far ahead it is than anything that competes with it.
+[01:12:20.720 --> 01:12:28.320]  It's it's absolutely ridiculous. It is Steve Jobs is, hey, we're five years ahead of the competition.
+[01:12:29.520 --> 01:12:33.920]  Honestly, I would say it's more than five years ahead of the competition. It's absolutely
+[01:12:33.920 --> 01:12:43.360]  ridiculous how far ahead Apple Watch is compared to the next best Apple Watch. Yeah. Which isn't
+[01:12:43.360 --> 01:12:51.440]  that great and only works and runs Tizen and is big and chunky and doesn't look good. And
+[01:12:52.720 --> 01:13:00.400]  again, there are so many ways, you know, we could do a whole podcast on just the ways that we want
+[01:13:00.400 --> 01:13:05.920]  Apple Watch to get better. Oh, yeah, absolutely. Starting with the fact that we really I mean,
+[01:13:05.920 --> 01:13:11.440]  everybody wants it to be an independent device, right? Like you don't want it to have to be tied
+[01:13:11.440 --> 01:13:19.680]  to an iPhone. My nephew, who's like, I think he's 10. I don't know. But, you know, he's around 10.
+[01:13:19.680 --> 01:13:28.000]  He's either 9, 10 or 11. Got an Apple Watch for Christmas, but he doesn't have an iPhone. Yeah.
+[01:13:28.000 --> 01:13:38.400]  And so it's weird, right? Like, so his iPhone is tied to his dad's phone. Yeah. And why should
+[01:13:38.400 --> 01:13:46.240]  that be? It should be. It's a perfectly reasonable thing for people to say, you know what, I want my
+[01:13:46.960 --> 01:13:52.480]  11 year old son to have an Apple Watch, but I don't want him to have an iPhone and cellular
+[01:13:52.480 --> 01:14:00.080]  service and all this stuff. The fact that you can't do that cleanly is weird. And I think that's
+[01:14:00.080 --> 01:14:03.360]  what they're working towards. Because if you look at what they've been doing, like adding LTE,
+[01:14:03.360 --> 01:14:07.120]  adding an independent app store, it seems like they're putting all the bricks in place so that
+[01:14:07.120 --> 01:14:14.160]  they can cut that tether. Yeah, I totally think so. Although I kind of thought once they added LTE,
+[01:14:14.160 --> 01:14:22.400]  I thought that by the end of 2019, we'd be there. It's not real LTE still. It's still piggybacking
+[01:14:22.400 --> 01:14:29.520]  off the phone's LTE. And I think they have to take that next step. Right. Totally. And, you know,
+[01:14:29.520 --> 01:14:36.160]  and in theory, it shouldn't require that either. Even just the Wi-Fi, you should be able to put
+[01:14:36.160 --> 01:14:42.880]  it put the phone on Wi-Fi. And when you're home, have it. Yeah, I don't know. But you know,
+[01:14:42.880 --> 01:14:48.320]  could be better. It's like the iPhone was tethered to iTunes until iOS 5. And then we got iCloud.
+[01:14:48.320 --> 01:14:53.520]  And that was that was the five versions in. So we've just passed five versions in for the watch.
+[01:14:53.520 --> 01:14:57.760]  But it's a way more constrained device. So I'm willing to cut them like a couple of years slack
+[01:14:57.760 --> 01:15:04.560]  on their timeline. Well, I'll cut them a little slack. But I should absolutely be that that would
+[01:15:04.560 --> 01:15:08.240]  be like it's that there's like a couple more features. But that's the biggest one. Because
+[01:15:08.240 --> 01:15:12.000]  like people will say Apple Watch and support Android. No, that's that's short term thinking.
+[01:15:12.000 --> 01:15:15.840]  That's way too much work for way too little benefit. Yeah, way to make it independent.
+[01:15:15.840 --> 01:15:24.000]  And anybody with any phone or no phone can buy it. Yeah, exactly. No, that's it's that iCloud moment
+[01:15:24.000 --> 01:15:30.640]  where the truth is in the cloud. And devices are just devices. And you should be able to,
+[01:15:30.640 --> 01:15:37.280]  you know, opt in, have it prompt you and tell you, hey, we're going to store all of this data
+[01:15:37.280 --> 01:15:44.320]  from your watch in your iCloud account in the cloud. Do you agree or do you not agree? But
+[01:15:44.320 --> 01:15:50.720]  if you agree, there it goes. And then you're good, you know, and
+[01:15:50.720 --> 01:15:55.120]  well, like mutual friend Dieter Bohn was saying he went back to an Android phone, but he uses
+[01:15:55.120 --> 01:16:00.640]  his Apple Watch to stay in contact with iMessage. And if but you imagine he still has to have an
+[01:16:00.640 --> 01:16:04.000]  iPhone somewhere that's piggybacking on that. It'd be great if that wasn't the case.
+[01:16:05.040 --> 01:16:11.120]  All right, let me take another break here and thank our next sponsor. Express VPN.
+[01:16:12.160 --> 01:16:23.600]  Look, if you ever use Wi Fi at a hotel, or like at the mall, or on an airplane, or a cafe,
+[01:16:23.600 --> 01:16:30.880]  look, you're sending your data over an open network with no encryption at all. The best
+[01:16:30.880 --> 01:16:38.400]  way to ensure that all of your data is encrypted, no matter what you're connected to what network
+[01:16:38.400 --> 01:16:47.760]  you're connected to, is by using a VPN and ex Express VPN is a terrific option. All you need
+[01:16:47.760 --> 01:16:56.320]  to do is download the Express VPN app on your computer, your smartphone, or your tablet,
+[01:16:56.320 --> 01:17:03.120]  whatever your iPad, and then you just hit one button, and then just use the internet
+[01:17:03.120 --> 01:17:07.760]  as you normally would. You don't have to do anything else. You can go to the regular mail
+[01:17:07.760 --> 01:17:16.400]  app you use to check your email, and all of your email comes in over the VPN. You go to the web,
+[01:17:16.400 --> 01:17:23.280]  every single website you visit, all of the traffic goes through the VPN virtual private
+[01:17:23.280 --> 01:17:31.840]  network. It's all private. It really is the easiest thing you can do to keep your data
+[01:17:31.840 --> 01:17:39.200]  secure. Keep your location secure. Keep your privacy private. All you need to do is download
+[01:17:39.200 --> 01:17:51.920]  the Express VPN app, hit one button, and everything is secure. It is very fast. It is very reliable.
+[01:17:51.920 --> 01:17:57.600]  It doesn't slow down your internet. You think like, well, once I turn this on, then everything
+[01:17:57.600 --> 01:18:03.200]  has to go through them and it slows everything down. You won't notice any difference. You won't
+[01:18:03.200 --> 01:18:08.560]  really won't notice it except for the fact that you know that everything is secure.
+[01:18:08.560 --> 01:18:16.880]  Everything is secure and private. They are a company. ExpressVPN takes privacy so serious.
+[01:18:16.880 --> 01:18:26.400]  They invented a technology called trusted server to ensure that their VPN servers run from RAM
+[01:18:28.640 --> 01:18:36.240]  with no data or logs written to any server's hard drive, even by accident. Everything is in RAM.
+[01:18:36.240 --> 01:18:42.880]  As soon as they unplug a server, everything is gone. Everything. Nothing gets written to disk.
+[01:18:42.880 --> 01:18:48.800]  That's how serious they take your privacy and security because that's the thing with a VPN.
+[01:18:48.800 --> 01:18:57.040]  You say, hey, use a VPN. Your privacy is only as good as you trust the company. ExpressVPN
+[01:18:57.040 --> 01:19:13.200]  is definitely trustworthy. So go to expressvpn.com slash TTS, TTS for the talk show, expressvpn.com
+[01:19:13.200 --> 01:19:21.200]  slash TTS. And when you go to that URL, you will get an extra three months of service for free
+[01:19:21.200 --> 01:19:27.680]  when you sign up. So go there, support the show and you can use them. And one of the
+[01:19:27.680 --> 01:19:34.960]  in addition to privacy, you can use them to watch streaming video from other regions from where you
+[01:19:34.960 --> 01:19:43.360]  live because you can pick which virtual private server you're connected to and look like you're
+[01:19:43.360 --> 01:19:50.640]  coming from there. So support the show, watch what you want and protect yourself at expressvpn.com
+[01:19:50.640 --> 01:20:01.360]  slash TTS. All right. Product of the decade. You picked Apple Watch. All right. Here's my pick,
+[01:20:01.360 --> 01:20:06.320]  my pick. And I've been thinking about this a lot. And it was specifically prompted by your piece.
+[01:20:07.120 --> 01:20:12.160]  I think Apple Watch is a good pick. My pick is iPhone 10.
+[01:20:12.160 --> 01:20:23.360]  And I think that the iPhone 10 is has been so
+[01:20:25.760 --> 01:20:33.920]  in a large part overlooked in terms of how profoundly it changed the
+[01:20:33.920 --> 01:20:40.880]  the how much work they had to do on the hardware side and the software side
+[01:20:41.760 --> 01:20:48.560]  to to get it to where it was when it shipped. And the hardware side
+[01:20:49.680 --> 01:20:56.720]  takes so much longer than people think. You know, I, I honestly think I feel like I've
+[01:20:56.720 --> 01:21:02.000]  been writing about this for years and years and years that it takes, you know, I don't know,
+[01:21:02.000 --> 01:21:08.400]  close to two years for them, for Apple to ship, you know, to to to lock in hardware.
+[01:21:11.680 --> 01:21:18.080]  In the large part and at least a year in the smallest part, like if they want to make the
+[01:21:18.080 --> 01:21:23.840]  smallest of small changes, it still takes a year before they get to the point where they
+[01:21:23.840 --> 01:21:30.240]  because they make so many of these things. I talking to people at Apple and and having
+[01:21:30.240 --> 01:21:36.480]  friends who work there, honestly, I think I've been underselling how long it takes to make
+[01:21:36.480 --> 01:21:44.240]  hardware. I think it is it the lead way is so long. It is ridiculous to make Apple quality
+[01:21:44.240 --> 01:21:55.600]  hardware. Absolutely. And the fact that they don't make I don't know what you would call it,
+[01:21:55.600 --> 01:22:04.160]  you know, asterisk hardware, you know, footnote hardware, you know, like the the Samsung Galaxy
+[01:22:04.160 --> 01:22:11.520]  Fold. That's just to name one example. But even if it hadn't had the problems that it had,
+[01:22:12.720 --> 01:22:18.560]  in terms of the initial versions, you know, actually literally breaking while people using
+[01:22:18.560 --> 01:22:25.920]  them, it even if everything had gone as they had hoped, it was asterisk hardware, where it
+[01:22:25.920 --> 01:22:30.480]  was a footnote where it was like, you know, a couple 1000 people are going to buy these things,
+[01:22:30.480 --> 01:22:35.520]  you know, this was no better story. It's like the galaxy s 10 that shipped I think was a
+[01:22:36.560 --> 01:22:41.360]  s 10 or the note 10. But originally they designed it without buttons, it was going to be like one
+[01:22:41.360 --> 01:22:46.240]  of those capacitive or squeeze things. And one of the executives finally saw it and said no. And
+[01:22:46.240 --> 01:22:50.320]  like just when you start thinking that they had done that before it was signed off on,
+[01:22:50.320 --> 01:22:54.320]  it's just not the way Apple works. But then they had to put all the buttons on one side,
+[01:22:54.320 --> 01:22:59.280]  and they couldn't do the buttons. And that's like, that is not how you ever want a hardware
+[01:22:59.280 --> 01:23:04.240]  production pipeline to work. No. But we take it for granted that Apple fixes those things
+[01:23:04.240 --> 01:23:25.120]  before we ever see them. So bad. But you you you would like everything to be thoughtfully designed
+[01:23:25.120 --> 01:23:31.280]  and thought through. And most companies, you know, don't do that. Unfortunately,
+[01:23:31.280 --> 01:23:36.560]  it goes back to being considered. Yeah, you want to be considerate. Right. And, you know,
+[01:23:38.320 --> 01:23:43.680]  basically, I mean, the one thing I hear and you know, I know you have friends at Apple,
+[01:23:43.680 --> 01:23:49.120]  and I know the sources at Apple, I have friends and sources and friends who are sources. But the
+[01:23:49.120 --> 01:23:56.720]  one thing that comes back over and over again is that they they really do. And the people at Apple
+[01:23:56.720 --> 01:24:03.440]  really do try to make the devices and computers that they themselves would want to buy,
+[01:24:04.080 --> 01:24:10.800]  and that they're happy to buy and recommend to their friends. And it's not about, hey,
+[01:24:10.800 --> 01:24:17.200]  let's make sure 2019 we hit our revenue number and let's ship whatever we have to ship.
+[01:24:18.240 --> 01:24:25.600]  I whatever price point to hit this thing. It's it's it's a constant iteration of let's try to
+[01:24:25.600 --> 01:24:33.760]  make the thing that we want to buy ourselves. And, you know, when they fall short, when when
+[01:24:33.760 --> 01:24:41.520]  the keyboards suck on MacBooks, you know, the best sources I've had on that over the last couple of
+[01:24:41.520 --> 01:24:46.800]  years are people inside Apple, you know, who are like, yeah, the keyboard sucks. It's terrible.
+[01:24:46.800 --> 01:24:56.080]  And, you know, but we're we're working on it. We realize it, you know, that was to me the thing
+[01:24:56.080 --> 01:25:03.440]  that was like the light at the end of the tunnel of the bad keyboard saga on MacBooks, which, again,
+[01:25:03.440 --> 01:25:07.680]  we're not out of yet because they've only shipped the first, you know, the only thing they've
+[01:25:07.680 --> 01:25:14.400]  shipped with the new keyboard is the 16 inch MacBook Pro. Although I do think that the
+[01:25:14.400 --> 01:25:20.880]  rest of the keyboards they are shipping, I think, have fixed the hey, keys get stuck.
+[01:25:20.880 --> 01:25:25.520]  They're just not great keyboards. Right. They've taken the edge off of it. Right. That's the same
+[01:25:25.520 --> 01:25:29.520]  thing. It's like they could have they can't revert because they have a whole roadmap going ahead that
+[01:25:29.520 --> 01:25:34.160]  requires certain things from a keyboard. So they had to literally make a new keyboard, which is a
+[01:25:34.160 --> 01:25:41.120]  two year endeavor the way that they make keyboards. Right. Exactly. Which, you know, it's it's the
+[01:25:41.120 --> 01:25:48.080]  downside to relying on a company that makes everything from the operating system to the
+[01:25:48.080 --> 01:25:56.640]  hardware is that if they screw up, you're buying screwed up products. You know, there's there's no
+[01:25:56.640 --> 01:26:03.600]  way around that. Yeah, I mean, they can they can fix an antenna in about half a year, but they
+[01:26:03.600 --> 01:26:11.120]  can fix that keyboard. Right. So my pick for the private decade is the iPhone 10. And and the
+[01:26:11.120 --> 01:26:22.240]  reason why is that I really do think that they pulled off, like in a way and I love it. I love
+[01:26:22.240 --> 01:26:30.640]  like close up magic. I love like the Penn and Teller show. I just love it. But I almost feel
+[01:26:30.640 --> 01:26:38.000]  like they pulled off a magic trick where they had they said like, hey, we're 10 years into this
+[01:26:38.000 --> 01:26:44.800]  thing where we've created this thing that is the most successful consumer product in the history
+[01:26:44.800 --> 01:26:50.880]  of consumer products. Literally, I mean, you can really make the case that the original iPhone
+[01:26:50.880 --> 01:27:00.800]  going through the iPhone eight is the single most successful product in history. I mean,
+[01:27:00.800 --> 01:27:10.720]  and I'm talking about toothpaste, tide detergent, washing machines, Corvettes and and cars and
+[01:27:11.600 --> 01:27:20.160]  Boeing airplanes. You know, you can go all the way from a tube of toothpaste to a tube of toothpaste
+[01:27:20.160 --> 01:27:33.440]  to a 50 million dollar Boeing 747. The single most successful product in history is the iPhone.
+[01:27:33.440 --> 01:27:38.160]  It really is. They've they've made more money than anybody and more money than people have
+[01:27:38.160 --> 01:27:44.720]  oligopoly control over fossil fuel resources. Yeah, it's astounding. It's absolutely astounding.
+[01:27:44.720 --> 01:27:52.320]  But that the fundamental notion of the iPhone is it is this thing with a screen
+[01:27:53.120 --> 01:27:59.920]  and one button underneath and the button is you you click the button and that takes you
+[01:27:59.920 --> 01:28:05.520]  out of whatever you're doing to the home screen and then you click another thing on the home
+[01:28:05.520 --> 01:28:14.880]  screen and then that's what you're doing to a device with no button. And I really do think that
+[01:28:14.880 --> 01:28:27.040]  it is under remarked upon how successfully they changed the fundamental root level of how the
+[01:28:27.040 --> 01:28:36.080]  of how the system works on these devices of the most popular product on the planet
+[01:28:38.880 --> 01:28:47.680]  with the iPhone 10. And I really and I really do think that the the iPhone 10's fundamental
+[01:28:47.680 --> 01:28:57.040]  notion of how these devices work is easily suited for another 10-year run you know and
+[01:28:57.040 --> 01:29:03.200]  until they need to do it again maybe longer you know and no other computing platform in history
+[01:29:03.200 --> 01:29:11.360]  has ever made that transition mid-flight without any sort of decline in popularity or something
+[01:29:11.360 --> 01:29:19.760]  like that. So that's my pick. I really do think that the iPhone 10 and consider myself guilty
+[01:29:20.960 --> 01:29:30.000]  as having not written enough about how brilliant this transition has been
+[01:29:31.280 --> 01:29:40.240]  between the old way of having a home button a physical home button to the new way of having
+[01:29:40.240 --> 01:29:49.120]  no button and doing everything with gestures on the screen. It is so easily overlooked
+[01:29:49.120 --> 01:29:56.480]  and it's the success of the idea and the implementation that it was so easy to overlook.
+[01:29:57.680 --> 01:30:01.760]  It's so interesting to me too because it's one of those things where you look back and Apple
+[01:30:01.760 --> 01:30:07.040]  replaced the iPod mini most successful iPod at the time with the iPod nano which people thought
+[01:30:07.040 --> 01:30:12.560]  was absurd and here you have the iPhone which is the iconic phone for so many people with that home
+[01:30:12.560 --> 01:30:18.720]  button right and they replaced it with another phone but they did it in a very opinionated way
+[01:30:18.720 --> 01:30:22.320]  and they tested other things like they had a virtual home button yeah on some of the early
+[01:30:22.320 --> 01:30:26.800]  prototypes that was a different UI but they were like no we're getting rid of it we're going all
+[01:30:26.800 --> 01:30:31.920]  into this and just by comparison you look at like Android 10 and a bunch of the Android devices and
+[01:30:31.920 --> 01:30:36.160]  people are still complaining and arguing about how the gestures should work and being upset by
+[01:30:36.160 --> 01:30:41.200]  the different implementations and Apple managed to do that in one cut of the knife and I think
+[01:30:41.200 --> 01:30:46.000]  that's that's part of what makes Apple Apple it's that they do all the testing internally they come
+[01:30:46.000 --> 01:30:50.960]  to a very opinionated choice then they stick by it and they put it in the complete package that
+[01:30:50.960 --> 01:30:58.080]  feels like it's one thing and works right I've always said you know and you know it's it it's
+[01:30:58.080 --> 01:31:05.280]  always good grist for a talk or column or an entire podcast what is design what what does
+[01:31:05.280 --> 01:31:12.080]  design mean but fundamentally to me design is making decisions and
+[01:31:14.320 --> 01:31:20.880]  it you know the more you design something the more of those decisions you make as
+[01:31:20.880 --> 01:31:31.200]  the designer as opposed to leaving to the user and they made very very strong decisions
+[01:31:31.200 --> 01:31:37.360]  with the iPhone 10 whereas there is no option there's no way to configure the phone to put a
+[01:31:37.360 --> 01:31:44.160]  virtual home button down there no right you know what I don't want this to be different I just want
+[01:31:44.160 --> 01:31:49.360]  to have a thing down there that I tapped there's certainly room they could have done it and they
+[01:31:49.360 --> 01:31:56.880]  didn't and I think the fact that so few people have complained about it is absolutely extraordinary
+[01:31:57.520 --> 01:32:00.880]  because also don't let people opt out which I think you can still do on Android like
+[01:32:00.880 --> 01:32:06.160]  the ninja can't say no you can't swipe left or right on this app that you do at the apps had
+[01:32:06.160 --> 01:32:15.600]  to adapt to the new paradigm right and so I don't want to get into an argument about who's
+[01:32:15.600 --> 01:32:22.960]  ripping off whom blah blah blah and I know that there have been the new fundamental notion in the
+[01:32:22.960 --> 01:32:31.520]  iPhone 10 era is that instead of a home button you swipe up from the bottom and that is how you go
+[01:32:31.520 --> 01:32:36.800]  back to the home screen or if you swipe up a little it's how you get to the app switcher
+[01:32:38.320 --> 01:32:46.320]  and I get it I know that there have been other touchscreen devices that have a swipe up from
+[01:32:46.320 --> 01:32:56.560]  the bottom to blank metaphor or or conceptual design going back to the palm pre which was
+[01:32:56.560 --> 01:33:00.560]  it's actually just as a fun aside there was a bunch of designers at apple that did a lot of
+[01:33:00.560 --> 01:33:05.680]  that stuff like the original version of safari on the original iPhone had the card metaphor it
+[01:33:05.680 --> 01:33:13.280]  was abandoned later but it had it and then when when what's his name John Rubenstein left he a
+[01:33:13.280 --> 01:33:17.440]  bunch of designers went with him and they made webos and then when that failed half of them went
+[01:33:17.440 --> 01:33:21.600]  to google with Mateus Duarte and half of them went back to apple and there's they're still making
+[01:33:21.600 --> 01:33:29.280]  those interfaces right and so I get it it's not it's not about being first it is about doing it
+[01:33:29.280 --> 01:33:36.240]  right right and and and it's a debate that goes all the way back to the original Macintosh where
+[01:33:36.240 --> 01:33:46.880]  the you know people who want to take credit away from apple and Steve Jobs's Macintosh team from
+[01:33:46.880 --> 01:33:53.600]  the early 80s and they want to say you know they just ripped off Xerox and and all the stuff that
+[01:33:53.600 --> 01:34:01.120]  Xerox was doing and that you know you can find quotes from Steve Jobs who's like once I saw the
+[01:34:01.120 --> 01:34:06.160]  Xerox stuff I knew that every computer was going to work this way blah blah blah and you're like
+[01:34:06.160 --> 01:34:13.920]  well then you know he was just a rip-off artist but it's it's more complicated than that to me
+[01:34:13.920 --> 01:34:23.600]  where it's like you have to look at it and figure out the right way to do it and there's a reason
+[01:34:23.600 --> 01:34:31.440]  why this it wasn't just like institutional obstinance on Xerox's part what they were making
+[01:34:31.440 --> 01:34:35.440]  you know these twenty thousand dollar systems you know to get started like
+[01:34:37.840 --> 01:34:43.840]  it was you know so expensive that of course it wasn't going to really take root at a consumer
+[01:34:43.840 --> 01:34:51.040]  level and it when you really look at it it's like okay there's overlapping windows and there's a
+[01:34:51.040 --> 01:34:57.440]  and there's a mouse that you can drag and it moves a pointer on the screen and you can click on
+[01:34:57.440 --> 01:35:04.800]  buttons but when you get past that and and you actually look at how the Xerox systems worked
+[01:35:04.800 --> 01:35:14.080]  pre-Macintosh it's like well it was kind of shitty right yes it wasn't it wasn't great and then you
+[01:35:14.080 --> 01:35:20.720]  use the original you know system one from 1984 with the Macintosh and you're like this is you
+[01:35:20.720 --> 01:35:28.080]  know it's limited it's missing so much it is missing a lot but what is here everything that
+[01:35:28.080 --> 01:35:36.240]  is here is actually great it works exactly the way you would expect it to it is really really
+[01:35:36.240 --> 01:35:46.720]  well thought out that's the difference and to me the the thing that the iPhone 10 pulled off
+[01:35:46.720 --> 01:35:53.760]  looking at this is this transition from a what's the fundamental notion
+[01:35:54.640 --> 01:36:03.200]  of the system and to me the fundamental notion of the 2007 iPhone is we have a rectangular screen
+[01:36:04.320 --> 01:36:11.520]  and it's in one of two states it's either on the home screen where you have a list of apps
+[01:36:11.520 --> 01:36:18.640]  and then you tap an app and when you do tap an app then the second state is the app has the screen
+[01:36:19.440 --> 01:36:28.320]  and then how do you get out of the app the app doesn't have anything to do with it it it's this
+[01:36:28.320 --> 01:36:35.120]  button underneath the screen and you tap it and then you go back to the home screen the app closes
+[01:36:35.120 --> 01:36:42.960]  and then you're back at the home screen and you know they obviously parlayed that single button
+[01:36:42.960 --> 01:36:49.280]  into extra functions over the years they made it so that a double tap would put you in multitasking
+[01:36:49.280 --> 01:36:56.560]  mode once they allowed apps to to maintain their state in the background yeah and famously
+[01:36:56.560 --> 01:37:06.000]  famously you know uh turned it into a fingerprint sensor with the iPhone 5s I believe yeah yeah
+[01:37:08.160 --> 01:37:16.240]  you know so they they extended that basic system for a while but the iPhone 10 was like just a
+[01:37:16.240 --> 01:37:26.160]  total rethink of hey what should the phone be today and the answer of there should be no button
+[01:37:26.160 --> 01:37:33.520]  it should just be entirely a screen on the front face informed everything else about it including
+[01:37:33.520 --> 01:37:41.120]  the hardware which involved the notch and the you know face id sensor and face id has worked
+[01:37:42.000 --> 01:37:45.520]  fabulously you know yeah since since it came out you know
+[01:37:47.840 --> 01:37:53.760]  fingerprint sensor was controversial at first the face center was controversial everybody is a little
+[01:37:53.760 --> 01:37:58.960]  skeptical of these biometric authentication things at first until any other vendor does it
+[01:37:58.960 --> 01:38:09.600]  yeah until they do it and the notch itself was controversial aesthetically etc etc but the fact
+[01:38:09.600 --> 01:38:16.400]  that they they set that hardware in stone two years in advance and then caught up to it with
+[01:38:16.400 --> 01:38:26.400]  software by the time it shipped and had it be such a cohesive system that for people who switch from
+[01:38:26.400 --> 01:38:35.680]  an old iPhone to the new one if I honestly don't know anybody technical or non-technical who truly
+[01:38:35.680 --> 01:38:44.160]  regrets upgrading to a 10 class phone I to me that's the the product of the decade and it's
+[01:38:44.160 --> 01:38:48.320]  amazing when you think about how many things had to come together for that because the in order for
+[01:38:48.320 --> 01:38:53.200]  face id to work they had to have the neural network in the silicon like built in back then people were
+[01:38:53.200 --> 01:38:57.360]  saying apple had no idea about artificial intelligence were being wrapped by google
+[01:38:57.360 --> 01:39:02.800]  they're so far behind in every and two years prior to people saying that they were baking ai into a
+[01:39:02.800 --> 01:39:07.040]  neural engine block on the processor right and they even like not like samsung where they made
+[01:39:07.040 --> 01:39:12.080]  a folding screen they folded the display backwards against itself in the device they wouldn't have to
+[01:39:12.080 --> 01:39:15.920]  have a chin and we're still seeing new phones come out with a chin because they either can't
+[01:39:15.920 --> 01:39:21.440]  afford or can't figure out how to how to do that reversal for the for the display so it is an
+[01:39:21.440 --> 01:39:27.040]  amazing just like the original iphone was an amazing achievement in terms of multi-touch and
+[01:39:27.040 --> 01:39:31.920]  you know all these technologies coming together this is is I agree with it's totally a valid
+[01:39:31.920 --> 01:39:36.720]  choice too because so many things had to come together it was like shooting arrows into arrows
+[01:39:36.720 --> 01:39:46.320]  that then hit a target for that phone to ship yeah i and i i i think they're you know i wish
+[01:39:46.320 --> 01:39:51.680]  that there was a mac because you know the mac is my favorite apple product is my favorite product
+[01:39:51.680 --> 01:39:56.720]  in the world i wish there was a mac that i could pick as a product of the decade i do think that
+[01:39:56.720 --> 01:40:07.360]  the mac is back on track i think that with the imac pro and the new 16-inch macbook pro and even
+[01:40:07.360 --> 01:40:11.520]  the air from 2010 it defined like every ultrabook that came out for the rest of the decade was based
+[01:40:11.520 --> 01:40:17.680]  on that yeah that that would be my that's exactly where i was going was that if you want to pick the
+[01:40:17.680 --> 01:40:24.560]  product of the decade and not be biased towards stuff that came out in the last 18 months at the
+[01:40:24.560 --> 01:40:33.360]  end of the decade the 2010 macbook air is arguably it has to be on the list because every single
+[01:40:33.920 --> 01:40:41.520]  it it got to the point where unless you were looking at the back of the open lap top to see
+[01:40:41.520 --> 01:40:47.920]  if it had a glowing apple logo you couldn't tell if it was a macbook or not right it was like yeah
+[01:40:47.920 --> 01:40:52.800]  if you're looking at the front of it it was aluminum it was wedge shaped it had a black
+[01:40:52.800 --> 01:41:01.760]  keyboard that lit up and i mean every single laptop looked like uh uh 2010 macbook air for
+[01:41:01.760 --> 01:41:05.760]  quite a number of years i i was funny because when i would put that on the short list
+[01:41:06.480 --> 01:41:09.520]  totally and when i did the product of the decade list like i was going through it
+[01:41:10.240 --> 01:41:14.880]  and i looked at a bunch of other ones like the verge had the iphone 4 uh at the top of their
+[01:41:14.880 --> 01:41:18.560]  list and i think you can make an argument for that too because it was such like the first
+[01:41:18.560 --> 01:41:23.280]  retina display first front-facing camera all these things but when you look at that list
+[01:41:23.280 --> 01:41:31.120]  and you go through it from ipad to uh 2010 macbook air to the iphone 4 you could argue the ipad pro
+[01:41:31.120 --> 01:41:37.840]  maybe airpods apple watch iphone 10 there's not a lot of room for other companies on that list and
+[01:41:37.840 --> 01:41:42.400]  it's a it's an amazing amount of technology for one company to have put out to have changed the
+[01:41:42.400 --> 01:41:48.960]  decade that much well and you know a company that's beleaguered and yes and is failing under
+[01:41:48.960 --> 01:41:54.160]  their their their worst decades are behind them they never attained the same and clearly needs
+[01:41:54.160 --> 01:42:02.160]  to fire their ceo yes what is that guy even doing you know what's funny it's it you know
+[01:42:03.600 --> 01:42:11.920]  i've i've only been writing daring fireball since 2002 and so you know it's coincided with
+[01:42:11.920 --> 01:42:21.680]  a very very good run for apple uh i wish that that i'd been writing it since 1992
+[01:42:22.320 --> 01:42:30.480]  so that i could have that decade under my belt of saying that the apple you know apple
+[01:42:30.480 --> 01:42:39.280]  does need a new ceo apple ceo is an idiot apple ceo it doesn't get it you know i i wish because
+[01:42:39.280 --> 01:42:43.600]  if you had listened to me if you had been my personal friend in that era you would have heard
+[01:42:43.600 --> 01:42:55.200]  me rant about such things but it does make me wonder why like if if the world is so critical
+[01:42:55.200 --> 01:43:03.280]  of tim cook and his stewardship of apple over the last you know nine years as ceo
+[01:43:03.280 --> 01:43:13.280]  what would they be saying if apple actually did have a terrible ceo like if gila media
+[01:43:13.280 --> 01:43:22.880]  if gila milio was the ceo now it's absolutely astounding because when they when he was the ceo
+[01:43:22.880 --> 01:43:29.120]  they were so much smaller and so much less consequential to the daily life of of so many
+[01:43:29.120 --> 01:43:38.960]  people there were people there were columnists and you know commentators who you know astutely
+[01:43:38.960 --> 01:43:47.600]  pointed out some of the problems but but it's absolutely astounding to me how how common the
+[01:43:47.600 --> 01:43:55.600]  criticism is that tim cook has done nothing as ceo still even to this day yeah it really is
+[01:43:55.600 --> 01:44:07.200]  you know the iphone iphone 10 truly was a a total reset of the concept of what a cell phone should
+[01:44:07.200 --> 01:44:17.920]  be airpods are a true phenomenon they are they still start at 160 bucks you know they're they're
+[01:44:17.920 --> 01:44:28.640]  they're very expensive for headphones and and you see them everywhere yeah ipad is everywhere
+[01:44:28.640 --> 01:44:36.960]  i mean you you again i have so many complaints i cannot even get into it as as i was watching
+[01:44:36.960 --> 01:44:41.840]  that movie noel on disney plus over the holidays and every kid wanted an ipad and you just can't
+[01:44:41.840 --> 01:44:47.520]  buy that kind of mainstream publicity and again that's not apple tv plus that's disney plus
+[01:44:47.520 --> 01:44:57.600]  disney plus uh the mac is still going strong and yes they they admittedly they even said
+[01:44:58.160 --> 01:45:03.040]  at that thing a couple years ago that they kind of took their eye off the ball with the mac
+[01:45:03.040 --> 01:45:13.120]  for a while um but you know the new if anything right now the only gap in the mac lineup is this
+[01:45:13.120 --> 01:45:21.600]  is the idea of a mid-range desktop which clearly isn't been a gap forever right but which clearly
+[01:45:21.600 --> 01:45:29.280]  they know about you know there's you you could argue that with the trash can style mac pro that
+[01:45:29.280 --> 01:45:36.240]  they had their eye off the ball of what a high-end mac pro should be that it was outside their view
+[01:45:36.240 --> 01:45:41.760]  whereas if if the gap is in the mid-range they at least know about it and whether they're going to
+[01:45:41.760 --> 01:45:49.600]  they're going to whether they're going to fill the gap or whether they feel like the gap is okay
+[01:45:49.600 --> 01:45:56.400]  that we're just going to let it be they at least know there's no you you can't possibly not know
+[01:45:56.400 --> 01:46:04.400]  about it if you're making this device that you know is 52 000 and has 1.5 terabytes of ram that
+[01:46:04.400 --> 01:46:09.280]  pro workflow team was such a stroke of genius yes because having those people in there to hit all
+[01:46:09.280 --> 01:46:13.920]  this stuff before consumers have they're the ones arguing for the stuff inside apple now doing
+[01:46:13.920 --> 01:46:18.160]  everything that every pro wants inside the company and they have to like there was a great thing
+[01:46:18.160 --> 01:46:22.240]  about steve jobs hating consultants because they had no skin in the game they didn't have to ship
+[01:46:22.240 --> 01:46:25.920]  and these people have deliverables they're not just sitting there telling apple what to do
+[01:46:25.920 --> 01:46:30.800]  they have to make the stuff that apple uses inside the company and they're they're fighting not just
+[01:46:30.800 --> 01:46:35.280]  for apple stuff but they're fighting to make adobe stuff run better on that totally amazing
+[01:46:35.280 --> 01:46:42.320]  absolutely smart team yeah all right let me take uh one last spot here and uh thank our fourth
+[01:46:42.320 --> 01:46:48.080]  final sponsor last sponsor of the decade unbelievable i can't believe it i mean how many
+[01:46:48.080 --> 01:46:53.760]  sponsor reads have i done this decade but this is the last one i will do this decade and of course
+[01:46:53.760 --> 01:47:04.480]  it's squarespace look squarespace is the place to go if you need a new website they do everything
+[01:47:04.480 --> 01:47:13.120]  they can help you register your domain name they can help you with a template to start with
+[01:47:13.120 --> 01:47:21.440]  a professionally designed template that looks great on everything from a cell phone to a massive
+[01:47:23.440 --> 01:47:30.480]  pro display xdr a website that'll look great at any size and that you can start with the template
+[01:47:30.480 --> 01:47:36.160]  customize it to your heart's content with your brand your company's brand whatever
+[01:47:37.760 --> 01:47:45.840]  business you're running brand and the website can have whatever you need is is the website
+[01:47:45.840 --> 01:47:52.960]  supposed to be a portfolio for your design work it can be that is it a store where you're selling
+[01:47:52.960 --> 01:48:00.480]  stuff it could be that is it a restaurant where you put a menu and you put hours and you put stuff
+[01:48:00.480 --> 01:48:06.560]  like that everything everybody will want to know for a restaurant it could be that it whatever you
+[01:48:06.560 --> 01:48:20.320]  need squarespace can help you do it uh it is the place to start my recommendation whether you need
+[01:48:20.320 --> 01:48:25.760]  a new website this year and i know it's new year's and this is the time of year when people start
+[01:48:25.760 --> 01:48:31.760]  thinking about like hey i've been meaning to do xyz here's my resolutions blah blah blah
+[01:48:32.960 --> 01:48:39.520]  if you need a new website if somebody you know needs a new website and you're the nerd that they
+[01:48:39.520 --> 01:48:44.640]  know and they come to you and they're like what should i do i need help send them to squarespace
+[01:48:44.640 --> 01:48:54.000]  send them to squarespace get them started you get 30 days free no questions asked and then you only
+[01:48:54.000 --> 01:49:00.960]  have to start paying at the end of the 30 days odds on that's what you're going to stick with
+[01:49:00.960 --> 01:49:06.960]  because i'm telling you start with squarespace give it just like an hour two hours try to set
+[01:49:06.960 --> 01:49:13.920]  something up and you'll be off and running it is the best way to get started you can get a free
+[01:49:13.920 --> 01:49:21.120]  domain name if you sign up for a year in advance and you get a free trial like i said for 30 days
+[01:49:21.120 --> 01:49:28.480]  at squarespace.com talk show and when you do decide to start paying just remember that code
+[01:49:28.480 --> 01:49:37.760]  talk show t-a-l-k-s-h-o-w and you get 10 off your first purchase you could do that for the whole year
+[01:49:37.760 --> 01:49:46.240]  10 off the first year is like uh over a month free unbelievable go to squarespace.com slash
+[01:49:46.240 --> 01:49:52.160]  talk show remember that code talk show for when you do decide to start paying and there you go
+[01:49:52.160 --> 01:50:01.760]  that is the final sponsor read of this podcast for the decade and standing don't give me this
+[01:50:01.760 --> 01:50:08.480]  nonsense about decades starting in the next year nobody thinks that way everybody's not human
+[01:50:08.480 --> 01:50:14.240]  readable yeah no it's come on this is the end of the decade it's like if you want to win a pet
+[01:50:14.240 --> 01:50:19.200]  into word you can go for that but no all right i mean to me so my pick is the iphone 10 your pick
+[01:50:19.200 --> 01:50:27.120]  was the apple watch what else is is i i think you're right that the macbook air from like 2010
+[01:50:27.120 --> 01:50:32.240]  should be on that short list what else do you think is on on the list for the best products
+[01:50:32.240 --> 01:50:37.200]  of the last decade uh there's a few things like from apple i mentioned already the ipad because
+[01:50:37.200 --> 01:50:42.160]  it was literally born in 2010 and i seen just update after update including the ipad pro
+[01:50:42.160 --> 01:50:47.520]  the new designed ipad pro beyond apple i think tesla like the model you could argue between the
+[01:50:47.520 --> 01:50:53.680]  model s or the model 3 but i think what they've done is really consumerize uh what was previously
+[01:50:53.680 --> 01:50:59.120]  previously sort of niche and certainly popularize what was previously sort of niche technology
+[01:51:01.440 --> 01:51:04.880]  so i was talking the the last episode of the show i was just mentioning
+[01:51:05.760 --> 01:51:15.120]  we don't drive a lot but i've still got this 2006 acura uh and again in 2006 it doesn't even have
+[01:51:15.680 --> 01:51:23.520]  it doesn't even have an ipod connector you know i mean it it not only does it not have USB
+[01:51:23.520 --> 01:51:31.360]  or carplay or anything it literally we bought it the year before the ipod stuff you know became a
+[01:51:31.360 --> 01:51:39.520]  standard thing it it's it's an old car uh and we you know over the holidays you know we we went to
+[01:51:39.520 --> 01:51:47.360]  see my wife's mom and we went to my parents house and so you know done you know we we do a bit more
+[01:51:47.360 --> 01:51:54.080]  driving at the end of december than we typically do by far and i was pumping gas the other day
+[01:51:54.080 --> 01:51:59.920]  because you know we did the driving and we had to pump gas and i was like this is ridiculous like
+[01:51:59.920 --> 01:52:08.160]  when you really think about it it's like we're just pumping this flammable liquid dead dinosaurs
+[01:52:08.880 --> 01:52:14.960]  that is not that cheap right it's three bucks a gallon yeah you know i mean it's like
+[01:52:14.960 --> 01:52:22.240]  it's more expensive than like tropicana orange juice it is pretty expensive you're pumping it
+[01:52:22.240 --> 01:52:33.600]  into a tank and then you're just lighting it on it is not efficient so i i do give tesla credit
+[01:52:33.600 --> 01:52:42.880]  you know again i i don't love any of their cars except for this new i love the cyber yeah i love
+[01:52:42.880 --> 01:52:50.560]  it and i get it that it's sort of ridiculously over the top but i kind of feel like they screwed
+[01:52:50.560 --> 01:52:58.160]  up with all of their previous designs where they kind of made all of their previous designs
+[01:52:58.160 --> 01:53:11.040]  look like mid-range japanese honda you know yeah like generic but sort of messed up generic right
+[01:53:11.040 --> 01:53:16.480]  and then the only thing that was really distinctive about them was when they got rid of the grill
+[01:53:17.200 --> 01:53:24.000]  in the front because they didn't need it but aesthetically it looked like cars that had their
+[01:53:24.000 --> 01:53:31.040]  mouths sewn shut yeah yeah you know what i mean whereas the new cyber truck like the bad deadpool
+[01:53:31.040 --> 01:53:39.040]  from that horrible wolverine exactly exactly it just looked it it just looked like a car
+[01:53:39.040 --> 01:53:45.440]  it just looked like a car they the the teslas without the grills to me just look like cars
+[01:53:45.440 --> 01:53:52.640]  that are suffocating they don't they don't look good and i get it i totally get that if you don't
+[01:53:52.640 --> 01:54:00.080]  need a grill you shouldn't have a grill just for aesthetic reasons and i get that it's at painted
+[01:54:00.080 --> 01:54:07.680]  bmw in particular into a design corner because they're one of their signatures of all of their
+[01:54:07.680 --> 01:54:14.560]  cars are those kidney bean grills on the front and if they don't need them what how are you
+[01:54:14.560 --> 01:54:20.320]  going to know it's a bmw i get it i get it and i told it but it's it's an opportunity
+[01:54:21.280 --> 01:54:31.760]  for a company like tesla that has no gas driven or diesel driven yeah no legacy and just sealing
+[01:54:31.760 --> 01:54:39.680]  it up was sort of the wrong decision yeah in my opinion yeah no totally and the profile of their
+[01:54:39.680 --> 01:54:46.960]  cars like them you know just not that great looking of cars in my opinion i get it that
+[01:54:46.960 --> 01:54:53.840]  they drive cool and they're accelerate fast and there's all sorts of good things but just looking
+[01:54:53.840 --> 01:55:01.120]  at them they're not that cool i think that the the cyber truck which is a ridiculous name and
+[01:55:01.120 --> 01:55:06.320]  but i love it i i it's like a batmobile right it's like being shown a batmobile going of course
+[01:55:06.320 --> 01:55:12.560]  i love it it's like the it's like the delorean motor company never went away you know and they
+[01:55:12.560 --> 01:55:19.680]  just kept you know if they hadn't gone if if they had somehow succeeded in the early 80s uh
+[01:55:20.640 --> 01:55:26.720]  you know and we're still around today that's what they would be making you know and i love it i
+[01:55:26.720 --> 01:55:34.400]  think i just wish that they would make a i i have no need for a truck at all yeah absolutely not
+[01:55:34.400 --> 01:55:40.720]  but i i need a car so i just wish that you know and i don't think it's too much to extrapolate
+[01:55:40.720 --> 01:55:47.680]  that maybe their next car would be from the design language of the cyber truck but that's what i want
+[01:55:47.680 --> 01:55:54.560]  i want a sedan yeah i want a sedan from the design language of the tesla cyber truck i love it smart
+[01:55:54.560 --> 01:55:58.560]  it's like inside people are like where's the stuff to connect it's got like nasa quality
+[01:55:58.560 --> 01:56:03.040]  connections you just loop things over the whole thing is so smartly thought out yeah like granted
+[01:56:03.040 --> 01:56:07.920]  i'm sure everything he makes is secretly for mars like from the tunnels to the trucks to everything
+[01:56:07.920 --> 01:56:15.360]  but you know utility is utility yeah i i love it and to me it is the promise of tesla it's the first
+[01:56:15.360 --> 01:56:24.240]  it's it the two most interesting tesla products to me are the the roadster which was their first
+[01:56:24.240 --> 01:56:31.120]  car yeah you know it was sort of a miata style it was literally a lotus i think yeah like uh lotus
+[01:56:31.120 --> 01:56:40.880]  yeah it was i definitely a lotus hardware with a tesla drivetrain and this cyber truck and i really
+[01:56:40.880 --> 01:56:46.560]  really feel like the cyber truck to me is the first thing that made me look at tesla and say
+[01:56:47.360 --> 01:56:53.760]  i think that this company really might do what all of its proponents are saying they might do
+[01:56:53.760 --> 01:57:01.760]  they might really own the the the car business going forward because i if they extrapolate that
+[01:57:01.760 --> 01:57:08.640]  design language into a full line of cars i i think it's brilliant yeah absolutely and nothing else is
+[01:57:08.640 --> 01:57:13.520]  really like it like it's just instantly distinct and it's authentic is what it feels like yeah
+[01:57:13.520 --> 01:57:20.320]  and you know and to me they they took some steps backward you know like the model x with those
+[01:57:20.320 --> 01:57:28.800]  gull wings that go up dumb and the model 3 is like you know what it i i get it that it's more
+[01:57:28.800 --> 01:57:34.480]  affordable but it's way less cool than the model s you know the model s is looks way better but
+[01:57:34.480 --> 01:57:42.160]  the model s which is expensive and which is undeniably a great sedan yes in my opinion
+[01:57:42.160 --> 01:57:48.240]  doesn't look great it doesn't look bad but it doesn't look it doesn't look like tesla had to
+[01:57:48.240 --> 01:57:51.840]  make it if it doesn't look like tesla had to make it what's the point of making it exactly
+[01:57:51.840 --> 01:57:58.480]  whereas the cyber truck it's like oh man they had to yeah nobody else could have made this car and
+[01:57:58.480 --> 01:58:05.120]  to me that's the one what you want is that reaction like when when apple announced the
+[01:58:05.120 --> 01:58:12.640]  original iphone and yeah famously the the blackberry people had a high level meeting the
+[01:58:12.640 --> 01:58:19.360]  next day and they came to the conclusion that apple had faked it and it was a complete fraud
+[01:58:19.360 --> 01:58:25.360]  that it was impossible they were like well the bottom line is that they couldn't have done this
+[01:58:25.360 --> 01:58:29.840]  so they must be lying i don't know what they're going to do in six months when they say they're
+[01:58:29.840 --> 01:58:35.360]  going to ship it but it it can't possibly be what they say it is when when in fact it actually was
+[01:58:35.920 --> 01:58:41.360]  that's what you want right and that to me is the cyber truck the cyber truck is like people from
+[01:58:41.360 --> 01:58:46.560]  ford and chevy and whoever else honda toyota they're like ah nobody's gonna buy that looks
+[01:58:46.560 --> 01:58:53.920]  like you know uh back to the future fan fiction or something like that uh yeah guess what that's
+[01:58:53.920 --> 01:58:59.120]  what you want from the other companies whereas like the model s it's like it just looks like
+[01:58:59.120 --> 01:59:04.080]  a really nice you know honda accord like anyone to try could have crafted it yeah and then you know
+[01:59:04.080 --> 01:59:12.000]  it's like you just sort of stretch this one part out and yeah yeah totally uh all right what else
+[01:59:12.000 --> 01:59:17.040]  end of the decade last episode i'd argue the echo um because it was it really started popularizing
+[01:59:17.040 --> 01:59:26.320]  everything about the home base or farfield digital assistant yeah i could see that and it kind of
+[01:59:26.320 --> 01:59:33.280]  introduced people to the whole let's have a device where the primary interface is talking to it you
+[01:59:33.280 --> 01:59:44.320]  know yeah which i i think going forward you know uh you know hold me to it renee yes 10 years from
+[01:59:44.320 --> 01:59:54.400]  now let's record the end of the 2020s deal episode me and you i do think that that is the defining
+[01:59:54.400 --> 02:00:02.320]  interface of the next decade it it you know it's it's natural it's what humans do we talk
+[02:00:02.880 --> 02:00:11.600]  right we we communicate ideas and so far they've been so primitive just so utterly primitive you
+[02:00:11.600 --> 02:00:19.920]  know and and you know i'm a huge kubrick fan and and uh 2001 predicted that by 2001 we'd have this
+[02:00:19.920 --> 02:00:28.000]  how 9 000 capability at least in like uh you know trillion dollar spaceship but even even with the
+[02:00:28.000 --> 02:00:34.320]  trillion dollars you couldn't buy a how 2000 today right yeah even jeff bayes even night rider right
+[02:00:34.320 --> 02:00:44.960]  jeff bezos and tim cook cannot get night rider quality ai today it's hard it is it is much harder
+[02:00:44.960 --> 02:00:54.640]  than we thought but it's it's so obviously the way the future like we've conquered the visual
+[02:00:54.640 --> 02:01:02.960]  computer interface and i don't mean that to say that there's nowhere to go that that 10 years
+[02:01:02.960 --> 02:01:11.520]  from now our visual gooey interfaces will look exactly the same but we did i mean we conquered
+[02:01:11.520 --> 02:01:17.600]  this a long time ago i would say you know in the first decade in the 80s 80s through the mid 90s we
+[02:01:17.600 --> 02:01:27.120]  kind of conquered the basic concepts of what should a computer interface on a screen look like and
+[02:01:27.120 --> 02:01:37.360]  even if vr becomes a huge thing it's still the it's just a display it's like ui elements are
+[02:01:37.360 --> 02:01:44.480]  still ui elements exactly it it's a display problem and a battery life problem and a field
+[02:01:44.480 --> 02:01:51.840]  of view problem but the basic idea of if we present people with these things on screen
+[02:01:51.840 --> 02:01:58.400]  we know how to do it well and we know you know you'll you'll see a scrolling list in front of
+[02:01:58.400 --> 02:02:05.680]  you and you just move your fans and you'll you'll do this whereas the verbal interface
+[02:02:06.320 --> 02:02:14.320]  of speaking to a thing we know what it should be like it should be like me talking to you and i
+[02:02:14.320 --> 02:02:21.040]  say things to you that the transcript of which may not make that much sense but you get it
+[02:02:21.040 --> 02:02:28.800]  and all of the thousands of people listening to me talk to you get it we just expect it
+[02:02:30.240 --> 02:02:35.040]  it being the computer to get it that to me is conversational inference yeah absolutely
+[02:02:35.680 --> 02:02:39.440]  that's why i like when apple hired john jean andrea i was sort of happy because i think
+[02:02:39.440 --> 02:02:45.440]  apple's near-term future has to involve some form of serio s whether it's an actual serio s or it's
+[02:02:45.440 --> 02:02:51.360]  just spread out distributed across a variety of devices as much as we hear rumors about them
+[02:02:51.360 --> 02:02:56.720]  working on reality os for the glasses i really hope that they're working even harder on serio s
+[02:02:56.720 --> 02:03:01.200]  because whether it's never going to fully replace screens but it's going to be a huge part of i
+[02:03:01.200 --> 02:03:07.840]  think it's more important of i think it's more important going forward i i i i'm and again
+[02:03:07.840 --> 02:03:12.400]  10 years from now you'll be on the show maybe i'll have to eat my words maybe we'll have to listen to
+[02:03:12.400 --> 02:03:17.680]  this particular episode and go back and and i'll be like john we were crazy i can't believe we
+[02:03:17.680 --> 02:03:26.880]  predicted that i think that the verbal interface is way more important than the than a vr visual
+[02:03:26.880 --> 02:03:35.920]  interface and i get it i totally get that like uh you know like having if if you have always on
+[02:03:35.920 --> 02:03:42.320]  glasses that have this and they can always pop up you know the name of people you know somebody
+[02:03:42.320 --> 02:03:48.080]  you've only met once and it just pops the person's name over their head and you can always know their
+[02:03:48.080 --> 02:03:55.680]  name that would be great i i i need that i i totally get it but i still feel that fundamentally
+[02:03:55.680 --> 02:04:02.320]  the idea of how that would work we've already worked out you know whereas the idea of how
+[02:04:02.320 --> 02:04:09.600]  the verbal interface will work has not been worked out yet and like the movie her is a
+[02:04:09.600 --> 02:04:15.120]  good template and we're near that yet oh absolutely you know yeah and well and and
+[02:04:17.440 --> 02:04:24.320]  you know this is not the star wars holiday spectacular yes although i should say to those
+[02:04:24.320 --> 02:04:30.720]  of you listening you know who knows maybe the next episode will be uh first episode of 2020
+[02:04:30.720 --> 02:04:36.640]  i mean i gotta have a star wars uh holiday spectacular soon thanks to the new movie but
+[02:04:36.640 --> 02:04:43.760]  i will say that to me one of one of the many brilliant ideas of the original star wars movie
+[02:04:43.760 --> 02:04:50.160]  from 1977 was that moment when c3po starts coming down the steps and the bartender is like we don't
+[02:04:50.160 --> 02:04:54.640]  serve your kind here yes you know and he's like get out of here and there's like this resentment
+[02:04:54.640 --> 02:05:07.840]  towards droids and automation and i i that whole sort of disdain towards droids is is really
+[02:05:07.840 --> 02:05:14.000]  brilliant because as a kid i was like oh my god why wouldn't you want that i would love if i owned
+[02:05:14.000 --> 02:05:22.880]  any business any business imaginable to mankind a bar a restaurant a hardware store uh anything
+[02:05:22.880 --> 02:05:28.880]  anything even a hair salon i would still welcome a droid if a droid came in if c3po came in i'd be
+[02:05:28.880 --> 02:05:35.520]  like come on in i i would love to talk to you because you are amazing because you're a robot
+[02:05:35.520 --> 02:05:42.720]  who can talk and walk and do things right the idea that in that universe that there's this
+[02:05:42.720 --> 02:05:49.440]  disdain towards droids was to me one of the most brilliant ideas because it was clearly super
+[02:05:49.440 --> 02:05:57.760]  exciting that they existed but also super insightful that maybe the you know carbon-based
+[02:05:57.760 --> 02:06:05.920]  light forms would be yep disdainful of them uh i you know where are we going with this you know
+[02:06:05.920 --> 02:06:11.200]  like i i i often my wife gives me a hard time because i'll say something to one of our assistants
+[02:06:11.200 --> 02:06:15.600]  whether it's you know we've got the alexa stuff and we've got the series stuff and i'll say
+[02:06:15.600 --> 02:06:22.880]  something to one of them and then i often have to at the end of it i say thank you and i know i'm
+[02:06:22.880 --> 02:06:28.400]  being a smart ass and i know that it doesn't do anything and my wife is like why are you doing
+[02:06:28.400 --> 02:06:33.600]  why do you say thank you you're an asshole you know and i'm like well i just don't want to be
+[02:06:33.600 --> 02:06:40.320]  a jerk but i kind of feel like as a society we're tending towards we're going to be jerks to the
+[02:06:40.320 --> 02:06:47.680]  assistants yeah yeah it it is human nature and we like to be jerks to things that we can be jerks to
+[02:06:48.560 --> 02:06:54.560]  you know and it's like you know society has gotten more progressive and so like
+[02:06:59.280 --> 02:07:05.600]  you don't want to get into an uber and be a jerk to your uber driver because you feel like a jerk
+[02:07:05.600 --> 02:07:11.440]  but you there's like a human nature where a lot of people like to be jerks and if you can be a jerk
+[02:07:11.440 --> 02:07:17.680]  to a robot that would be you know there's no downside to it and i kind of feel like that's
+[02:07:17.680 --> 02:07:22.480]  where we're going like we want one like the google one for kids forces you to use your
+[02:07:22.480 --> 02:07:26.000]  manners and say please and thank you yeah there is or an amazon one i feel like there's one of
+[02:07:26.000 --> 02:07:32.480]  those that do that well i and i kind of feel like that it's fighting a losing battle like that's my
+[02:07:32.480 --> 02:07:38.720]  one of my predictions for the coming decade is that the somebody one or more companies are going
+[02:07:38.720 --> 02:07:45.360]  to get the voice assistant thing really good they're going to become a major part of daily life
+[02:07:45.920 --> 02:07:54.800]  and most people are going to be total jerks to the system and not me and i'm going to be this
+[02:07:54.800 --> 02:08:00.320]  weirdo and you know like in a way that likes you know some people are like oh that's the guy who
+[02:08:00.320 --> 02:08:06.720]  wears a bow tie yeah i'm going to be the guy who continues to say thank you to his voice assistant
+[02:08:07.760 --> 02:08:10.960]  yeah i do it too but i always thought it was because i was canadian but i'll use your
+[02:08:12.560 --> 02:08:19.440]  i i i'm i'm canadian without liking cold weather i maybe i should have been i i probably should
+[02:08:19.440 --> 02:08:23.840]  have been born in canada to tell you the truth yeah you would have eaten way more stuff with
+[02:08:23.840 --> 02:08:33.200]  me and guy that way anything else what else is is on our last podcast of the decade i can't think
+[02:08:33.200 --> 02:08:37.280]  of anything i'm gonna call i mean there's a lot of other stuff like uh like but i think like all
+[02:08:37.280 --> 02:08:42.480]  the home home automation stuff just falls out of the serial xn like that was the innovation that
+[02:08:42.480 --> 02:08:49.520]  led to all of that well but you know bottom line is that it i think it's such a complicated problem
+[02:08:49.520 --> 02:08:56.640]  but it really it it just has to be and i i do think we're getting there i think that ai
+[02:08:56.640 --> 02:09:03.680]  is so clearly getting did you see the thing that the uh pixel mature guys uh shipped about a week
+[02:09:03.680 --> 02:09:16.160]  or two ago no so the pixel mature pro shipped a uh uh just like a you know i don't know minor
+[02:09:16.160 --> 02:09:23.680]  dot one update yeah but they have a new image scaling algorithm that is based on uh
+[02:09:25.520 --> 02:09:34.400]  uh oh yeah a machine learning thing and it is astounding and and the basic idea is that you
+[02:09:34.400 --> 02:09:40.480]  can take a small image like a 200 by 200 profile picture and you want to scale it to 400 by 400
+[02:09:40.480 --> 02:09:47.040]  and it actually interpolates the pixels in a way that you get a you you you could take a small
+[02:09:47.040 --> 02:09:54.960]  image and scale it up and have it look so much better than any other algorithm that i've ever
+[02:09:54.960 --> 02:10:03.920]  seen before it is absolutely phenomenal it is to me if you want to say to somebody who doesn't know
+[02:10:03.920 --> 02:10:11.760]  what quote-unquote machine learning is or does or how it's you know making things it's like this
+[02:10:12.560 --> 02:10:20.480]  their blog post explaining it is the best thing i've ever seen in terms of look here's how image
+[02:10:20.480 --> 02:10:28.080]  scaling from a small image to alarm large image used to work here's the examples of the output
+[02:10:28.080 --> 02:10:36.560]  and it all big interpolation well and bicubic is obviously the the dumbest one yeah but but it it
+[02:10:36.560 --> 02:10:42.000]  anybody can understand it you don't have to be a nerd or a computer programmer to get it you're
+[02:10:42.000 --> 02:10:47.760]  like oh yeah i get it you're just sort of taking the individual i see everything as a pixel a pixel
+[02:10:47.760 --> 02:10:55.200]  is a square if you just make every square you know two times larger this is what you get and i get
+[02:10:55.200 --> 02:11:02.080]  get that if you do that and then kind of apply a quote-unquote sharpening algorithm this is what
+[02:11:02.080 --> 02:11:08.080]  you get there's just no way to take a small image and make a large image out of it without yeah
+[02:11:08.080 --> 02:11:12.800]  making it look like crap and then you look at what they're doing with this thing with this new
+[02:11:12.800 --> 02:11:22.080]  algorithm and it's like uh that's kind of astounding yeah it really is and i feel like that
+[02:11:22.080 --> 02:11:31.120]  you know i've never been a doubter of machine learning i and i totally get there at this moment
+[02:11:31.120 --> 02:11:39.120]  at the cusp of 2020 where we're still in the early days of it and so i feel like the 10 years from
+[02:11:39.120 --> 02:11:46.480]  now episode of the show where you and i are talking about the 2020s i i feel like that's
+[02:11:46.480 --> 02:11:51.520]  going to be a big part of it and i feel like that's a huge going to be a huge part of making
+[02:11:51.520 --> 02:11:59.920]  conversational computer interfaces work there's no you there's just no way to do it with a bunch of
+[02:11:59.920 --> 02:12:08.320]  human written if this if that if else else else if if you can't do it it's got to be machine learning
+[02:12:08.320 --> 02:12:14.480]  that's how our our brains sort of work that way right and that's how the computers have to work
+[02:12:14.480 --> 02:12:21.840]  but it's it's absolutely going to be to me the story of the next decade is having computers
+[02:12:21.840 --> 02:12:29.360]  that can just listen to us talk and understand the nonsense that's coming out of our mouths
+[02:12:29.360 --> 02:12:33.360]  that's wild it's like it's because they're not really coded they're trained and i try to explain
+[02:12:33.360 --> 02:12:37.920]  it to people like think of tinder for machines where it's like yes yes yes no no yes no no no
+[02:12:37.920 --> 02:12:42.800]  yes hot dog and they don't know how they get the hot dog but eventually they learn hot dog
+[02:12:42.800 --> 02:12:54.960]  that's so true right it's absolutely true all right i anything else no i think that's i mean
+[02:12:54.960 --> 02:12:58.560]  there's there's all sorts of cans of worms that all the ai and machine learning open up but that's
+[02:12:58.560 --> 02:13:06.800]  a whole different show yeah absolutely um what do you think uh on that if if we talk about one
+[02:13:06.800 --> 02:13:17.040]  last thing it would be if if we've ended on this topic of uh voice assistants being sort of the
+[02:13:17.040 --> 02:13:25.440]  map to the future and the biggest road forward the one product apple has that is the most voice
+[02:13:25.440 --> 02:13:31.360]  assistant driven is the home pod and the home pod is sort of seen as a dud product you know that
+[02:13:31.360 --> 02:13:41.920]  that has undersold um where do you think apple is going on that i i tend to think that they they're
+[02:13:41.920 --> 02:13:45.600]  i think they're going to stick with it i don't think they're going to abandon it i think that
+[02:13:45.600 --> 02:13:51.120]  they've got to drive the price down oh yeah totally i mean like when you when you separate
+[02:13:51.120 --> 02:13:56.240]  the actual product from what it is and like air pods are just are near field siri that's really
+[02:13:56.240 --> 02:14:00.400]  what they are they're the ability to have siri with you everywhere in the easiest most compact
+[02:14:00.400 --> 02:14:05.600]  form possible but the whole future is partly ambient computing you don't want to have to have
+[02:14:05.600 --> 02:14:09.760]  a device with you you want to be able to walk around freely and just say things and have them
+[02:14:09.760 --> 02:14:14.480]  happen and you have to have some sort of or the best thing to have for that is a stable in-room
+[02:14:14.480 --> 02:14:20.240]  presence which is far you know far field siri and that is home pod but i think initially uh when you
+[02:14:20.240 --> 02:14:24.320]  when you talk to apple they were making that for five years that was that was started long before
+[02:14:24.320 --> 02:14:30.320]  these idea of like a echo or google hubs came out and they literally made a speed it's like almost
+[02:14:30.320 --> 02:14:34.800]  the reverse of what usually happens apple brought a speaker to a home assistant fight and i think
+[02:14:34.800 --> 02:14:40.080]  it's just their process is sort of slow and hyper focused and when you look at it in two different
+[02:14:40.080 --> 02:14:45.760]  ways one is the technology they invented for home pod has been amazing like everything from the new
+[02:14:45.760 --> 02:14:51.680]  iphone speakers to the new macbook pro speakers are phenomenal in large part because of home pod
+[02:14:51.680 --> 02:14:58.640]  style technology they just have to reimagine that product into being something smaller
+[02:14:58.640 --> 02:15:03.680]  and more compact and being in forms that people want like a like a home pod mini or a home pod
+[02:15:03.680 --> 02:15:08.960]  theater and i think once they get that going it'll start gaining much more traction yeah and i kind
+[02:15:08.960 --> 02:15:21.760]  of feel like if if augmented reality is is a huge technology landscape for the next 10 years
+[02:15:21.760 --> 02:15:34.240]  i feel like airpods are the best product currently on the market and everybody i i we're we as humans
+[02:15:34.240 --> 02:15:42.960]  we we're we as humans are more visually biased than any other sense all of of the five senses
+[02:15:43.600 --> 02:15:49.440]  visual is the one that we're biased towards and so the fact that airpods are completely
+[02:15:50.240 --> 02:15:57.680]  audio completely that's all they do is audio that there's no other sensation to them although i
+[02:15:57.680 --> 02:16:05.360]  guess they have a bit of tactic feedback with the airpods pro but consider that an asterisk but i
+[02:16:05.360 --> 02:16:11.200]  still feel that they are the best ar product anybody has ever shipped to date and i don't
+[02:16:11.200 --> 02:16:15.520]  know if you saw this but there was someone at wwdc the year before last they made an app where you
+[02:16:15.520 --> 02:16:20.640]  wear the airpods and even if you're very low vision they will talk you through walks and runs
+[02:16:20.640 --> 02:16:25.360]  in the city and they were just a bunch of athletes who hadn't been able to go outside and exercise
+[02:16:25.360 --> 02:16:29.680]  for years and they were just wearing airpods and running and like the the sound of their voice and
+[02:16:29.680 --> 02:16:35.840]  the look on their face was was transformative that's unbelievable i did not see that but it's
+[02:16:35.840 --> 02:16:45.440]  i believe it and it's it's truly impressive and you know i i'm not skeptical about apple's
+[02:16:45.440 --> 02:16:54.720]  goggle yeah type initiatives that are rumored i'm i i raise the questions because i just don't
+[02:16:54.720 --> 02:17:00.320]  know the answers like why in the world would you want to wear these things all day long i i don't
+[02:17:00.320 --> 02:17:07.040]  get it i'm not saying i don't believe that it'll come to be and that 10 years from now when we're
+[02:17:07.040 --> 02:17:15.680]  10 years from now when we're doing our 2029 wrap-up show at the end of december that we won't be wearing
+[02:17:16.320 --> 02:17:22.080]  apple branded goggles that we've never taken off in our waking hours for the last three years or
+[02:17:22.080 --> 02:17:29.280]  something like that i'm not disputing that i'm just saying i don't get i i just can't imagine
+[02:17:29.280 --> 02:17:34.800]  what they would do but just there's so much potential there and the fact that you could
+[02:17:34.800 --> 02:17:40.320]  just wear air pods and have them navigate you through a city that you can't see well
+[02:17:40.960 --> 02:17:46.880]  enough to navigate without them it just it's just flabbergasting when you think
+[02:17:46.880 --> 02:17:50.160]  about the potential of what you could do with something that was in your field of vision
+[02:17:52.000 --> 02:17:56.240]  yeah no it's it's i'm super excited about this next decade as amazing as this last decade has
+[02:17:56.240 --> 02:18:00.400]  been and i would never predict that half the things we got i can't even imagine what's coming
+[02:18:00.400 --> 02:18:07.600]  next yeah it's you know it's always moving forward anyway renee richie you're a friend of the show
+[02:18:07.600 --> 02:18:15.200]  you're always on uh frequently thank you for being on the year-end wrap-up show uh everybody
+[02:18:15.200 --> 02:18:24.720]  can follow you on twitter at renee richie uh your youtube channel what's the best way to get to your
+[02:18:24.720 --> 02:18:32.000]  youtube youtube.com slash vector oh that would couldn't be easier youtube.com slash vector and
+[02:18:32.000 --> 02:18:37.440]  you're doing i mean how many episodes do you do a week a three to four that i don't understand
+[02:18:37.440 --> 02:18:42.080]  i see i last time you were on i said the same thing i don't understand how that's even possible
+[02:18:42.080 --> 02:18:50.080]  and i saw you you started shooting uh your video in raw and you did the raw grade and you you
+[02:18:50.080 --> 02:18:56.880]  showed a still on twitter and i was like holy shit that looks really good uh what what are you
+[02:18:56.880 --> 02:19:02.560]  shooting with what what camera are you using so i've upgraded i've got a canon c200 now which is
+[02:19:02.560 --> 02:19:08.400]  a cinema camera uh so you can put actual canon lenses on i still really like canon lenses because
+[02:19:08.400 --> 02:19:12.480]  i had a bunch of them to begin with but also they still make really really good lenses so i'm
+[02:19:12.480 --> 02:19:16.720]  shooting raw which is the same as like shooting a raw photograph it just means that you have so much
+[02:19:16.720 --> 02:19:21.600]  more um like the the there's so much more detail in the image but also you can recover like you
+[02:19:21.600 --> 02:19:26.640]  can re-white balance right color grade uh and i'm i'm just learning so i'm doing the very classic
+[02:19:26.640 --> 02:19:31.520]  movie one which is teal and orange so you push teal into the shadows and right orange into the
+[02:19:31.520 --> 02:19:38.960]  flesh tones and that's that's what i'm starting with for now youtube.com slash vector really one
+[02:19:38.960 --> 02:19:43.120]  of my favorite youtube channels i don't i i'll tell you the truth renee i don't watch a lot of
+[02:19:43.120 --> 02:19:51.360]  youtube but uh yeah i watch yours uh thank you but you know i'm a huge fan of canon glass i i think
+[02:19:51.360 --> 02:20:01.440]  canon uh there and you know i don't want to piss off the nikon people i don't want to piss off the
+[02:20:01.440 --> 02:20:09.520]  sony people either i have always uh i the thing i've always liked about canon glass is that canon
+[02:20:09.520 --> 02:20:20.560]  glass to me is neutral it is it it is it it's putty in your hands and you can do what you want
+[02:20:20.560 --> 02:20:25.520]  and there's no limits to it and and their color is so good like i've shot i was shooting with
+[02:20:25.520 --> 02:20:30.480]  panasonic before i've shot with sony um i've seen a lot of the higher end stuff too and just the
+[02:20:30.480 --> 02:20:36.560]  color that you get off of canon is still very very pretty so people like to say like and i get it i i
+[02:20:36.560 --> 02:20:45.520]  do like like uh cameras and yeah you know uh you know and i'm not gonna i say this because i don't
+[02:20:45.520 --> 02:20:50.960]  want to ever rule out the idea that i'm never gonna just pop into the like a store and drop
+[02:20:50.960 --> 02:20:55.440]  five thousand dollars and buy a like a camera because i might do it i might do it yeah yeah
+[02:20:55.440 --> 02:21:04.240]  but i haven't yet but people imbue upon like a magic you know that you just buy the five thousand
+[02:21:04.240 --> 02:21:12.160]  dollars like a system with a nice you know uh sumo locks 2.0 lens and then you point it at
+[02:21:12.160 --> 02:21:18.640]  something and you get a wonderful picture uh and you know they're great cameras and they are great
+[02:21:18.640 --> 02:21:29.360]  glass i i personally love the canon i i like the canon systems because it it's not they're not
+[02:21:29.360 --> 02:21:35.680]  it trying to tell you it's magic it's just yeah like it'll make the best of whatever you point
+[02:21:35.680 --> 02:21:40.720]  to that you know and what comes off the sensors or is just again so pretty right it is and it's
+[02:21:40.720 --> 02:21:47.360]  just so technically pristine yeah right yeah and then you can do with it what you will but anyway
+[02:21:47.920 --> 02:21:53.520]  that looked amazing uh oh thank you it really really no really it really did uh
+[02:21:53.520 --> 02:21:58.960]  you know maybe you know the the the orange and green thing you know you could be pushing it too
+[02:21:58.960 --> 02:22:04.160]  far but it looks good i just like i said i'm just learning so i started looking at the more advanced
+[02:22:04.160 --> 02:22:08.480]  stuff that people do like there's five and six and eight point color that that's way beyond me now so
+[02:22:08.480 --> 02:22:13.120]  i just started with the easiest one that i could find well you clearly you need a pro display xdr
+[02:22:13.120 --> 02:22:19.280]  to be able to uh to truly push the limits of it anyway people can uh see that and of course
+[02:22:19.280 --> 02:22:26.080]  uh i'm more.com where you're the uh editor what's your title i don't know it keeps changing i'm
+[02:22:26.080 --> 02:22:30.560]  i just show up for work now i think it's just your analyst now or something yeah yeah he's renee
+[02:22:32.080 --> 02:22:38.800]  and i'm more.com anyway happy new year thank you for doing the decade closing episode of the show
+[02:22:38.800 --> 02:22:49.840]  with me and i'll talk to you next decade

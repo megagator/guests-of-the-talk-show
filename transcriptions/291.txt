@@ -1,0 +1,1680 @@
+[00:00.000 --> 00:06.160]  Back 20 years ago, when I worked at Barebone Software, the BB edit people, they had an
+[00:06.160 --> 00:11.080]  email client called Mailsmith, which was amazing. It was back when plain text email was still
+[00:11.080 --> 00:15.000]  holding on by a thread to a thing.
+[00:15.000 --> 00:20.420]  I'm not a fan of April Fool's jokes, period, but there was an April Fool's Easter egg
+[00:20.420 --> 00:27.400]  where if the date was April 1, it would make an electric shock sound when you got an email.
+[00:27.400 --> 00:32.240]  There was a preference that only appeared on that day that it was delivered 20,000 kilovolt
+[00:32.240 --> 00:37.360]  shock on new mail or something like that. And it was like dealing with the support email
+[00:37.360 --> 00:43.760]  for that was so... It was the best and worst of working there because the people who got
+[00:43.760 --> 00:49.040]  the joke, which was most people, loved it, right? And the ones who thought the right.
+[00:49.040 --> 00:55.920]  And then the people who didn't understand that it was April Fool's were so angry. And
+[00:55.920 --> 00:59.440]  I was like, I met the Rich Siegel, the guy. I was like, Rich, I don't know how much you
+[00:59.440 --> 01:03.400]  love this joke, but the people who are angry are so angry.
+[01:03.400 --> 01:11.520]  Yeah. I know that you've talked a lot about the contactless payment sounds being bad.
+[01:11.520 --> 01:14.840]  You're being punished for paying in a store. And that's what it reminds me of every time.
+[01:14.840 --> 01:19.880]  Oh my God. That's the worst. I still say the worst sound design I've ever heard. And I
+[01:19.880 --> 01:23.480]  think they've mostly fixed it. Although maybe it's just the fact that it's been so long
+[01:23.480 --> 01:30.280]  since I've paid in a retail store that I don't remember. But there's a certain brand of card
+[01:30.280 --> 01:34.280]  that they make you... It's not contactless. That's the thing. It's like the one where
+[01:34.280 --> 01:38.760]  you have to put your chip, you have to put it in, leave it in until they say, take it
+[01:38.760 --> 01:42.800]  out. But when they want you to take it out, it sounds like you're escaping from prison.
+[01:42.800 --> 01:50.960]  Yeah. It's like, bzzz. Yeah. They don't make as bad a sound when you leave with the security
+[01:50.960 --> 01:56.920]  tags still on your clothes. Yeah. I mean, the only places I go, like everybody, I go
+[01:56.920 --> 02:01.400]  to the grocery store and I go to Home Depot. And the Home Depot by us is very mad at me
+[02:01.400 --> 02:07.100]  all the time for giving them my money. I'm trying to think if I've paid... Yeah, I did
+[02:07.100 --> 02:12.080]  pay by credit card just the other day. I got takeout at a place that didn't do Apple Pay.
+[02:12.080 --> 02:18.800]  I think I've only... Since March, I think I have only paid by credit card where I had
+[02:18.800 --> 02:24.740]  to hand the credit card to somebody twice since March. Really, it's just a combination
+[02:24.740 --> 02:28.900]  of how few times I go out and how many places where I do go, like grocery stores take Apple
+[02:28.900 --> 02:35.060]  Pay and I just, boop. So we're in upstate New York. We escaped the city from the pandemic.
+[02:35.060 --> 02:40.780]  And the liquor store here, there's a handful of people that I see. The liquor store here,
+[02:40.780 --> 02:46.060]  they have an iPad payment system, but it doesn't do contactless. It's some other weird thing.
+[02:46.060 --> 02:50.520]  And they've developed this other process by which they spray your credit card with hand
+[02:50.520 --> 02:55.020]  sanitizer before handing it back to you. And I'm always like, aren't you spending more
+[02:55.020 --> 02:59.980]  on hand sanitizer than whatever square would charge you? I don't want to have this conversation.
+[02:59.980 --> 03:06.680]  I'm just... It seems upside down. It's so true. All right, here, let me just knock this
+[03:06.680 --> 03:11.440]  out of the way right away and just get a first sponsor done. Linode. Let's do it. Oh, man,
+[03:11.440 --> 03:18.100]  do I love Linode. That is where I host Daring Fireball. They are amazing. Cloud hosting
+[03:18.100 --> 03:24.620]  anything. They have 11 data centers worldwide. And I mean it. They scale from... If you just
+[03:24.620 --> 03:30.560]  want to set up a tiny little account for you and your kids to play Minecraft and pay like
+[03:30.560 --> 03:35.960]  five bucks a month on their Nanode plan, which is awesome, they have that. It's awesome.
+[03:35.960 --> 03:42.820]  If you have... Marco Arment hosts the whole Overcast Network on Linode. He's got 20 servers
+[03:42.820 --> 03:48.080]  doing all the crawling for all that stuff. And it scales from just tiny little hobby
+[03:48.080 --> 03:53.720]  type thing to like, oh, yeah, I spin up 20 VMs when I need it. And it goes up and it
+[03:53.720 --> 04:00.600]  goes down as demand goes. All of that stuff. Linode has you covered 11 data centers worldwide,
+[04:00.600 --> 04:05.880]  which is important if latency matters or for regulatory stuff, which is actually probably
+[04:05.880 --> 04:12.880]  the larger theme of this show. You need to have your data in a certain country. It's
+[04:12.880 --> 04:17.940]  really just amazing. They also have a new thing. It's called Object Storage. It's an
+[04:17.940 --> 04:25.000]  S3 compatible storage system. Really just amazing stuff. It is a great company. Everything's
+[04:25.000 --> 04:34.060]  SSD. Just fantastic stuff. They even are hiring. So you can go to linode.com slash careers
+[04:34.060 --> 04:38.380]  if you're a sysadmin or otherwise some sort of technical nerd who might even be vaguely
+[04:38.380 --> 04:42.600]  interested in working for a fantastic company like Linode. Go there. Check it out. But the
+[04:42.600 --> 04:48.500]  best thing, they have a $20 credit. Use promo code talk show 20. Get $20 credit. That gets
+[04:48.500 --> 04:54.380]  you four months on their $5 a month plan. And the $5 a month plan is incredibly useful.
+[04:54.380 --> 05:00.660]  And the URL to go to check it out is linode.com slash the talk show. So that's linode.com
+[05:00.660 --> 05:06.300]  slash the talk show to check them out. And remember the code talk show 20. Two zero.
+[05:06.300 --> 05:12.220]  And you will get $20 a credit just for signing up from the show. So anyway, the big reason
+[05:12.220 --> 05:16.060]  I wanted to have you on, I mean, number one, you're my pal. I like talking to you. It's
+[05:16.060 --> 05:22.180]  been a while. But you know, it is a very interesting week to talk with someone who knows what the
+[05:22.180 --> 05:27.880]  hell they're talking about with legal stuff because the house antitrust subcommittee of
+[05:27.880 --> 05:35.140]  the judicial committee had the four CEOs of Apple, Facebook, Amazon, and Google. I just
+[05:35.140 --> 05:40.000]  say Google. I don't say alphabet. Yeah. Well, it's actually a scenario as a CEO of Google
+[05:40.000 --> 05:45.460]  and right. So it's not wrong. It does just call it Google. I don't know that anybody
+[05:45.460 --> 05:49.260]  even mentioned the word alphabet during the whole hearing. And we could, I could do a
+[05:49.260 --> 05:55.820]  whole rant about what a weird thing the whole alphabet thing has been. I mean, nobody can
+[05:55.820 --> 05:59.480]  mention it like, you know, and all, everybody's quarterly results came out this week and I
+[05:59.480 --> 06:03.940]  actually took specific note of it this week. Nobody, not one company reporting on their
+[06:03.940 --> 06:09.580]  results doesn't mention right in the first sentence that alphabets results and that alphabet
+[06:09.580 --> 06:14.620]  explaining alphabet is actually Google. Yeah. I don't know what they think they're accomplishing
+[06:14.620 --> 06:21.620]  with this. Uh, I think it definitely got fuzzier once Sundar became the CEO of both. And I
+[06:21.620 --> 06:26.220]  think we, I think it's a fair bet that just over time it's going to get pulled tighter.
+[06:26.220 --> 06:31.980]  Right. Um, but yeah, I think before it was to give Larry and Sergey a place to play without
+[06:31.980 --> 06:37.020]  having to worry about programmatic ad exchanges, which honestly, like if I was in their position,
+[06:37.020 --> 06:39.380]  I'd be like, you worry about the programmatic ad exchange.
+[06:39.380 --> 06:44.460]  Yeah, but it should be, I think, and here's my guess and I could be just totally wrong,
+[06:44.460 --> 06:50.860]  but my guess is that what they should have done is make alphabet a subsidiary of Google
+[06:50.860 --> 06:56.500]  declare its independence. Let Larry and Sergey have it. Do what you want. But Google is the
+[06:56.500 --> 07:01.540]  name of the parent company. Google is the company that reports results and owns Gmail
+[07:01.540 --> 07:06.180]  and YouTube and Google search and all of the, an Android and all of the things that we all
+[07:06.180 --> 07:11.420]  think about when we think of Google. But that because Larry and Sergey are the founders,
+[07:11.420 --> 07:16.980]  that didn't seem right to spin theirs off in the subsidiary. So they made the parent
+[07:16.980 --> 07:21.700]  company their playground and made the real company, the subsidiary, you know, and it's
+[07:21.700 --> 07:26.660]  just sort of an optics thing. It's not, I don't even think it's a legal thing. It's
+[07:26.660 --> 07:31.540]  just sort of a, well, you guys are the founders, so it doesn't seem right to sticky in a subsidiary.
+[07:31.540 --> 07:39.260]  Yeah. And I, I, I have a lot of sympathy for Sundar in particular because you know, like
+[07:39.260 --> 07:43.100]  Jeff Bezos is getting yelled at. It's his company. He made it, he made all the decisions.
+[07:43.100 --> 07:49.420]  Uh, like it's fine. Like, uh, yeah, it's Mark Zuckerberg's company. Sundar is like
+[07:49.420 --> 07:53.900]  the newest of them all in many ways, right? He, he was a CEO. I mean, he's obviously
+[07:53.900 --> 07:58.820]  a powerful CEO. He should be held to account. I think all that's appropriate. But when
+[07:58.820 --> 08:03.020]  they're asking about the double click acquisition, it's like, yeah, he was, he was just guy
+[08:03.020 --> 08:09.580]  ran Chrome. And so he's just like, and I think his persona and his like personality
+[08:09.580 --> 08:14.940]  met the moment. Well, but it was just funny to me, like the performance we saw from Bezos
+[08:14.940 --> 08:19.980]  where he just like repeatedly had no idea how Amazon works, like doesn't land the way
+[08:19.980 --> 08:24.780]  that Sundar could kind of pull it off. Yeah. I do think that I would like to sort
+[08:24.780 --> 08:28.580]  of divide this up and talk about instead of bouncing back and forth, like the committee
+[08:28.580 --> 08:34.300]  did while they talked from company to company and sort of go company by company, but at
+[08:34.300 --> 08:40.660]  the higher level, it is interesting going into it. I thought it was a bad idea to have
+[08:40.660 --> 08:45.100]  all four in one hearing coming out of it. And I watched the whole five and a half hours
+[08:45.100 --> 08:51.860]  of it. I I'm kind of glad they did it that way. I do wish that we weren't in the COVID
+[08:51.860 --> 08:57.580]  thing and that they could have all been there. Um, but I think that WebEx held up fairly
+[08:57.580 --> 09:02.180]  well and that, you know, it didn't seem like latency was a problem. Uh, I think it would
+[09:02.180 --> 09:07.900]  have been a little bit smoother cinematic, cinematically as an observer if they were
+[09:07.900 --> 09:12.220]  there. But I kind of liked the doll for over there. But four is an interesting number because
+[09:12.220 --> 09:17.660]  you can draw one of those Steve Jobs style grids, you know, a quadrant and there's different
+[09:17.660 --> 09:22.940]  ways to group them together. Like it, you know, I think we'll get into this in detail,
+[09:22.940 --> 09:30.320]  but, but Google and Facebook are clearly grouped together as being the attention of the Republicans
+[09:30.320 --> 09:38.460]  on the committee because they're so hyper focused on the promotion, censoring, blocking,
+[09:38.460 --> 09:43.340]  whatever you want to call it, of what they deemed to be conservative content. And yeah,
+[09:43.340 --> 09:48.520]  Google and Facebook are together on that. But on the other hand, Sundar and Tim Cook
+[09:48.520 --> 09:54.980]  are together on the, they're the CEOs, but they're not the founders. Right. And, and,
+[09:54.980 --> 09:59.700]  and there was a definite, like, I don't think you had, I think an outside observer could
+[09:59.700 --> 10:04.260]  have watched the thing and picked up the fact that Bezos and Zuckerberg were the founders.
+[10:04.260 --> 10:12.900]  Right. There was a certain comfort that they have that cook and, and well, not only the
+[10:12.900 --> 10:18.100]  founders, they are the absolute God emperors of the ownership structures of their company.
+[10:18.100 --> 10:23.340]  Right. So even if they blew it, no one can fire them. Yeah. They don't really answer
+[10:23.340 --> 10:27.100]  to anybody. Right. That's like, that's gotta be a level of comfort just in life, right?
+[10:27.100 --> 10:30.980]  Like I'm a billionaire, no one can fire me. Like you got to feel good about that. Right.
+[10:30.980 --> 10:38.960]  And I don't think Tim Cook is really, as somebody who is not a founder and owns nowhere near
+[10:38.960 --> 10:42.580]  a controlling share of Apple stock. I mean, you know, I don't know what his net worth
+[10:42.580 --> 10:48.940]  is and how much stock he has, but it's, you know, it's a drop in the bucket. He has no
+[10:48.940 --> 10:54.820]  ownership control, but he's clearly not in any risk of, I don't know what he could have
+[10:54.820 --> 11:01.000]  possibly done at the hearing to put his job at stake, but he seemed like the most irritated
+[11:01.000 --> 11:04.560]  to be there. Yeah, definitely. I think that was an undercurrent of it. I don't think he
+[11:04.560 --> 11:10.240]  wants to be anywhere near Facebook or Google's problems and Amazon and Apple have a, as we'll
+[11:10.240 --> 11:17.540]  get into, they have a pretty cozy relationship. But I just don't think he, I think you, you
+[11:17.540 --> 11:20.500]  probably know this as well as anyone. Apple really thinks it lives its values and those
+[11:20.500 --> 11:24.820]  guys come from Cook and like, he doesn't think he's doing the things the other companies
+[11:24.820 --> 11:28.740]  are routinely being accused of doing. Yeah, I think so too. At the very highest level,
+[11:28.740 --> 11:36.860]  I think that, I think the information even had that as a report. I don't think you had
+[11:36.860 --> 11:41.420]  to have unnamed sources to pick up on the fact though that Tim Cook didn't think the
+[11:41.420 --> 11:47.180]  Apple should be in that group. But basically, you know, there was this, when this hearing
+[11:47.180 --> 11:51.980]  first started coming about and Cook, Cook and Apple were the last to respond and agree
+[11:51.980 --> 11:56.100]  that they would appear without any subpoena. You know, all four appeared voluntarily, quote
+[11:56.100 --> 12:01.940]  unquote voluntarily. And why was Cook the last? Was it because Apple's always the last
+[12:01.940 --> 12:07.900]  and that they don't, the one thing Apple doesn't do regardless if it's congressional hearings
+[12:07.900 --> 12:16.740]  or anything else is they don't talk about their plans in advance. You know, like they,
+[12:16.740 --> 12:21.940]  they spoke the least about their, when are employees going to come back to the office,
+[12:21.940 --> 12:25.260]  you know, type thing with COVID, you know, they just, they just don't talk about it.
+[12:25.260 --> 12:28.820]  You know, whereas Twitter made like a big, Hey, we're going to make work from home permanent,
+[12:28.820 --> 12:33.460]  you know, and it was sort of a, an opportunity to, to make it a story. Apple just doesn't
+[12:33.460 --> 12:36.940]  do stuff like that. But I do think, I think in this case, it wasn't just that they were
+[12:36.940 --> 12:40.340]  the last to respond because they're always the last. I think that, that there is some
+[12:40.340 --> 12:44.620]  truth to the fact that Cook was resistant because he truly didn't think they belong,
+[12:44.620 --> 12:53.380]  they should be there. And his demeanor I think definitely betrayed that. Not betrayed, betrayed
+[12:53.380 --> 12:57.300]  sounds like he's hiding it, but I think that that's how he acted. And, you know, I know
+[12:57.300 --> 13:02.300]  the New York Times tallied up the number of questions each were asked and the other three
+[13:02.300 --> 13:07.780]  all got somewhere between like 60 and 65 questions and Cook got like 32. So he had like half
+[13:07.780 --> 13:11.500]  as many questions. I mean, I even joked on Twitter, I forget what my jokes were, but
+[13:11.500 --> 13:16.140]  I mean, he had time to go out and I cut the grass at Apple park between questions and
+[13:16.140 --> 13:17.700]  he wouldn't have been missed.
+[13:17.700 --> 13:23.100]  Well, so there's like a lot, you mentioned Webex, like there's a lot of sort of just
+[13:23.100 --> 13:27.220]  like background color to this hearing and how it came together and whether they were
+[13:27.220 --> 13:32.940]  all going to be together or face separate hours. Cause that was floated at one point.
+[13:32.940 --> 13:36.180]  You know, Bezos initially said, no, like you're gonna have to subpoena me and I'll fight the
+[13:36.180 --> 13:42.860]  subpoena. So they, the format of the hearing, as you said, it's quote unquote voluntarily.
+[13:42.860 --> 13:45.980]  Like you don't, you say no to Congress, they're just going to subpoena you. So you might as
+[13:45.980 --> 13:49.260]  well say yes. Right. And get what you can out of it. So the format of the hearing was
+[13:49.260 --> 13:52.760]  them all together because they didn't want individual sessions. They certainly didn't
+[13:52.760 --> 13:57.460]  want to be compared and contrasted which was just something that we heard a lot about.
+[13:57.460 --> 14:01.780]  Like who, once you have individual sessions, the ordering of that session is also very
+[14:01.780 --> 14:07.180]  political. Who goes first? Who goes last? Who comes off the worst? This thing is six
+[14:07.180 --> 14:10.580]  hours long. Who's just waiting around all day. None of these CEOs want to wait for each
+[14:10.580 --> 14:15.660]  other. Like there is some ego at play here. And then you said Tim had time to go cut the
+[14:15.660 --> 14:18.740]  grass. Webex actually failed for Jeff Bezos.
+[14:18.740 --> 14:20.380]  Yeah, I heard that. Yeah.
+[14:20.380 --> 14:27.220]  And so he was on some sort of incredible delay like 30 or 40 second delay for the first 90
+[14:27.220 --> 14:28.220]  minutes of the hearing.
+[14:28.220 --> 14:29.220]  Oh really?
+[14:29.220 --> 14:34.700]  It was like a break. Yeah. So he didn't get any questions at the top, if you notice, because
+[14:34.700 --> 14:38.300]  his connection was failing in some way. I thought that was, I mean that's like, of course
+[14:38.300 --> 14:43.700]  they had computer problems. We would have been missing some element of this. But it
+[14:43.700 --> 14:48.940]  was six hours, it was so nuts that all those moments kept flying by and nobody got to react
+[14:48.940 --> 14:49.940]  to them.
+[14:49.940 --> 14:50.940]  Yeah.
+[14:50.940 --> 14:54.500]  Right? Sensenbrenner yelling at Mark Zuckerberg at something that happened on Twitter is like
+[14:54.500 --> 14:58.520]  just objectively hilarious. But it happened, five minutes later, we're just like moved
+[14:58.520 --> 15:01.820]  on to the next thing and we didn't get to like sit there and laugh at it.
+[15:01.820 --> 15:06.140]  I've come around, Sensenbrenner is the guy I cracked the joke about it. I mean, he just
+[15:06.140 --> 15:13.100]  looks comical. I mean, he's, he's, he is, let's just face it, he's old. He really looks
+[15:13.100 --> 15:17.460]  like M. Emmett Walsh, the character actor. And I'll put a link in the show notes. And
+[15:17.460 --> 15:20.860]  when you see him and you see M. Emmett Walsh, you're like, I don't even know who else could
+[15:20.860 --> 15:27.140]  play him if they made a movie. He looks like the old guy in the Big Lebowski sort of too.
+[15:27.140 --> 15:33.460]  You know, the, the, the other Lebowski, I guess, or I forget, you know, I mean the boss.
+[15:33.460 --> 15:39.320]  Yeah. His, his hair's disheveled. His tie wasn't, wasn't all the way up to the top.
+[15:39.320 --> 15:44.160]  His glasses are not just a little crooked or way crooked. If he saw, if you're the bartender
+[15:44.160 --> 15:48.840]  and he saunters up to the bar, you've got to make a spot check like, Hey, maybe this
+[15:48.840 --> 15:54.060]  guy's cut off already. You know, he just had that look.
+[15:54.060 --> 15:57.340]  And I have to take credit for him cause he's from Wisconsin. He's one, he's one of mine
+[15:57.340 --> 16:04.820]  and we're very sorry. First question is about why Don jr got 12,
+[16:04.820 --> 16:09.380]  a 12 hour time out on Twitter. And he asked it to Zuckerberg and Zuckerberg just had to
+[16:09.380 --> 16:16.740]  say, I don't know what to say to you, sir. It was a lot. And these moments just sort
+[16:16.740 --> 16:20.500]  of like kept happening. And because I remember only at five minutes, they were just like
+[16:20.500 --> 16:27.540]  lightning fast insanity kept occurring. But I hear there's a lot of different ways to
+[16:27.540 --> 16:35.200]  cut it. I think the, the chairman Cicilline and the Democrats got out of this hearing
+[16:35.200 --> 16:40.220]  exactly the thing they wanted to get out of this hearing, right? They, they put the, so
+[16:40.220 --> 16:44.740]  there's the hearing and there's the performance in this six hours of chaos. Then there is
+[16:44.740 --> 16:49.540]  the 1.3 million documents they collected in this year long investigation. And then there's
+[16:49.540 --> 16:54.620]  the documents they've released into the congressional record and they got to show. And actually
+[16:54.620 --> 16:59.300]  all the CEOs were like, I can't quite see that email. I know. Sure. I sure. I believe
+[16:59.300 --> 17:05.140]  you. I got to show those documents to CEOs and say, you did it right. Like you sent this
+[17:05.140 --> 17:09.540]  email Jeff Bezos saying you're buying ring. Not because you thought the tech was good
+[17:09.540 --> 17:13.300]  because you thought they were the market leader. You sent this email, Mark Zuckerberg saying
+[17:13.300 --> 17:16.340]  you're buying Instagram to neutralize competitor and they got to release all those documents.
+[17:16.340 --> 17:20.260]  And that's the second wave of stories coming out of this. Yeah. I don't, the Republicans
+[17:20.260 --> 17:24.780]  like live in an alternate reality. They performed their own strategy that was successful inside
+[17:24.780 --> 17:29.500]  of that reality. I think that reality is insane. I think that strategy is annoying, has little
+[17:29.500 --> 17:33.260]  to do with the facts on the ground, but they were, they were putting on a different show
+[17:33.260 --> 17:37.760]  for a different audience. But I think the Democrats were very focused on, we've done
+[17:37.760 --> 17:42.540]  an investigation. We are investigators and we're going to ask you about the things you've
+[17:42.540 --> 17:47.020]  done and the things you've done and the things we see you doing. It's just the format
+[17:47.020 --> 17:52.180]  of the hearing clipped along so fast that that never, that never became a narrative.
+[17:52.180 --> 17:58.540]  I think the way I put it on Twitter and in hindsight, I think it's one of those thoughts
+[17:58.540 --> 18:04.060]  that truly can be encapsulated in the length of a tweet that the Democrats to a T were
+[18:04.060 --> 18:13.300]  focused entirely on antitrust issues, both political and legal with no partisan slant
+[18:13.300 --> 18:19.180]  to their questioning in terms of a left, right part. Partisans are no longer really just
+[18:19.180 --> 18:24.180]  implies that, but let's just say left, right partisan slant. Whereas the Republicans almost
+[18:24.180 --> 18:32.820]  entirely were focused on left, right partisan issues with no questions or anything related
+[18:32.820 --> 18:40.180]  to antitrust law or politics. It was really a bizarre divergence. And what I mean by this
+[18:40.180 --> 18:44.540]  with the Democrats is like, when you think about like a movie, like think about like
+[18:44.540 --> 18:48.780]  iron man two or three or whichever one it was where Tony Stark's testify, I think it
+[18:48.780 --> 18:55.180]  was two. He's testifying and Gary Shandling's the Senator and there's, you know, it's a
+[18:55.180 --> 19:01.900]  trope, you know, the, the fake congressional hearing in a movie that's not about politics,
+[19:01.900 --> 19:06.340]  right? It's not like, Oh, we're going to show, we're going to make all the president's men
+[19:06.340 --> 19:11.180]  or, you know, something where it's historically accurate. There's sort of a, the way you write
+[19:11.180 --> 19:17.420]  it is, is generic Congress people and you don't write them as Republicans or Democrats
+[19:17.420 --> 19:21.500]  because you don't want, it's not the point of the movie. So you don't want to, you don't,
+[19:21.500 --> 19:24.900]  you don't want to distract the audience with this, right? Like is Gary Shandling's character
+[19:24.900 --> 19:30.340]  Republican or a Democrat? Well, he's probably a Republican, but I don't know. He was pretty
+[19:30.340 --> 19:37.580]  happy with privatized military contractors. Right. But you know, in general they don't
+[19:37.580 --> 19:41.280]  and the Democrats in this hearing kind of came across like that. Like this is what you
+[19:41.280 --> 19:47.260]  grow up thinking Congress people on an antitrust judiciary committee are like, and the Republicans
+[19:47.260 --> 19:53.300]  were so clearly conservative Republicans that it, it's hard to think of a single question
+[19:53.300 --> 19:57.720]  anyone asked where it wasn't clear. Like you didn't have to know, like if you just tuned
+[19:57.720 --> 20:03.380]  in and didn't know what party stoop was in, is that how you pronounce his name? You'd
+[20:03.380 --> 20:06.540]  immediately know from his question, like, Oh, he's a Republican because all he's asking
+[20:06.540 --> 20:13.700]  about is bizarre fringe conspiracy theories about conservatives. It was very strange.
+[20:13.700 --> 20:18.740]  There were the concern. I don't recall specifically six hours. I know it's forgives me for not
+[20:18.740 --> 20:24.500]  remembering exactly when it was two days ago and I still feel like my mind has been flushed.
+[20:24.500 --> 20:30.500]  Yeah, it was a lot, but there were towards the end, there was a sequence where the conservatives
+[20:30.500 --> 20:36.900]  did ask very detailed questions about Google's ad power and its acquisitions of ad technology
+[20:36.900 --> 20:41.820]  and how it operates on both sides of the market. I think that is as related to the claims of
+[20:41.820 --> 20:47.420]  platform bias is anything like they all have different kinds of antitrust problems with
+[20:47.420 --> 20:52.940]  a theme holding the investigation together for the last year is you operate marketplaces
+[20:52.940 --> 20:58.780]  and you have unfair advantages in your own marketplaces and we need to know those needs
+[20:58.780 --> 21:04.460]  can be made more fair. Google's marketplace is not the videos on YouTube or even the search
+[21:04.460 --> 21:09.500]  results. It's the ad technology. It's their ad stack, whether they're the first or second
+[21:09.500 --> 21:14.220]  position in the market at every layer of the ad stack and they obviously use it, right?
+[21:14.220 --> 21:20.940]  So if you're a conservative and you're looking at AdSense ads on the federalist or whatever
+[21:20.940 --> 21:26.100]  conspiracy you're going to weave, you're like, well, why do they get to tell the federalist
+[21:26.100 --> 21:29.580]  what to do? It's because they can pull the ads off or they can control the CPMs of the
+[21:29.580 --> 21:35.580]  federalist ads. And that's a great, I mean, there's at least a connection. Whereas when
+[21:35.580 --> 21:39.340]  you're screaming at Mark Zuckerberg about, you know, down ranking conservative stuff
+[21:39.340 --> 21:43.020]  and all of the data says Fox News is the most popular publisher, like now you're just in
+[21:43.020 --> 21:47.420]  a different reality altogether.
+[21:47.420 --> 21:53.660]  I do think that there is a, in a certain way though, and this is where I'm curious to hear
+[21:53.660 --> 21:58.060]  what you think while we're still talking about this at sort of the macro level to use Tim
+[21:58.060 --> 22:05.740]  Cook's term for zooming out of the whole thing. I'm curious what you think the Democrats think
+[22:05.740 --> 22:09.500]  they got out of this. I think the one thing that was interesting about the Republican
+[22:09.500 --> 22:15.140]  slant and it's something that I'm glad that I actually sat and watched the five and a
+[22:15.140 --> 22:20.020]  half hour thing. I really am because I don't think that reading it, I think reading it,
+[22:20.020 --> 22:29.700]  I would have gotten the take that they were, the Republicans were purely kooky. And I think
+[22:29.700 --> 22:37.260]  it's very hard to write an honest objective article about it where if the article is really
+[22:37.260 --> 22:41.980]  just, just, you know, 700 word summary of the article that you wouldn't come away thinking
+[22:41.980 --> 22:47.780]  these guys are just cracks, crackpots, but you watch it and there is something to it
+[22:47.780 --> 22:54.060]  where you kind of do know exactly what they wanted to get out of this. And what they wanted
+[22:54.060 --> 23:03.620]  is they want Facebook and Google not to suppress the news sources and stuff that they like,
+[23:03.620 --> 23:08.940]  the videos and stuff. That's what they want. Now, whether that's good politics and good
+[23:08.940 --> 23:15.980]  interpretation of the law is beside the point. It was very clear that that's what they want.
+[23:15.980 --> 23:21.660]  Whereas what exactly do the Democrats want from any of these companies?
+[23:21.660 --> 23:25.660]  I mean, to the point that that's what the conservatives want. Yes, I think that's probably
+[23:25.660 --> 23:29.780]  what they want, but they're already getting it. I know that's the crazy part. That's the
+[23:29.780 --> 23:34.700]  insane part. That's what makes it. That is very clearly already been effective with Facebook.
+[23:34.700 --> 23:43.220]  YouTube is not like a SJW safe space, right? It's like full of conservative video makers
+[23:43.220 --> 23:47.820]  and creators. They're already getting it. It's not happening the way they think it's
+[23:47.820 --> 23:51.940]  happening. I think what they really want is, you know, Jim Jordan got to yell at Mark Zuckerberg
+[23:51.940 --> 23:55.260]  and that's a little video clip. And then that night he was on Tucker Carlson saying, I yelled
+[23:55.260 --> 23:59.480]  at Mark Zuckerberg, I'm protecting you. And like that is a self-contained information
+[23:59.480 --> 24:04.300]  ecosystem and in some ways it's effective. It resulted in the presidency of the United
+[24:04.300 --> 24:09.940]  States. And in some ways it's a deeply disturbing and a threat to democracy at large. And you
+[24:09.940 --> 24:15.100]  can, obviously I feel one way about it, but there are other ways to think about it. What
+[24:15.100 --> 24:19.140]  the Democrats wanted, this is right when I was saying Cicilline got what he wanted, that
+[24:19.140 --> 24:25.860]  was a coordinated questioning sequence from them, right? All of those members. If you
+[24:25.860 --> 24:33.060]  look behind Cicilline up on the podium there, right behind him was a woman named Lena Kahn,
+[24:33.060 --> 24:39.500]  who is like the star of this show. As a law student, she wrote a law review paper called
+[24:39.500 --> 24:45.540]  Amazon's Antitrust Paradox, which basically said Amazon has charted a through line through
+[24:45.540 --> 24:50.140]  our existing antitrust standards to achieve exactly the kind of dominance that antitrust
+[24:50.140 --> 24:55.180]  is supposed to prevent. She's just a law student. This paper is like a sensation. She
+[24:55.180 --> 25:02.180]  is sort of in that community. She's a superstar. There are older antitrust experts who like,
+[25:02.180 --> 25:06.020]  they've come up with a derisive nickname for her theory of the law. They call it hipster
+[25:06.020 --> 25:11.660]  antitrust. This is like a real thing that's happening. And she's up there behind Cicilline.
+[25:11.660 --> 25:14.980]  She's in the video. People don't know who she is, but you should know who she is. As
+[25:14.980 --> 25:17.180]  a law student, she kicked off.
+[25:17.180 --> 25:21.700]  Oh, I remember that. I do remember that. I absolutely. Now that you say that, I remember
+[25:21.700 --> 25:25.500]  that it was a paper by a law student. I remember that. What's her name again?
+[25:25.500 --> 25:29.620]  Lena Kahn. She's been on the Verge cast before. I'm going to try to get her again, but she's
+[25:29.620 --> 25:36.660]  great. She's very smart. You can read this paper. It's totally understandable.
+[25:36.660 --> 25:40.900]  So the Democrats, and Lena and the chief majority counsel, this guy named Slade Bond, they put
+[25:40.900 --> 25:46.140]  together a question pattern. They put together the fact pattern. They're the ones who scoured
+[25:46.140 --> 25:50.500]  the documents. They're the ones who created the narrative. What they were trying to show
+[25:50.500 --> 25:55.900]  is these companies get big. Good for them. They're great American companies. We appreciate
+[25:55.900 --> 26:02.420]  it. Great for being good at business. Then they use their scale to identify their competitors,
+[26:02.420 --> 26:08.820]  steal data from those competitors in various ways, clone, copy, or crush those competitors,
+[26:08.820 --> 26:15.460]  and then they're often guilty of abusing their own marketplaces to prefer their own products
+[26:15.460 --> 26:19.220]  or to keep out competitors to their products in various ways. That is bad for the economy,
+[26:19.220 --> 26:21.900]  bad for business, bad for small business, what have you.
+[26:21.900 --> 26:27.740]  If you go back and look at the sweep of the questions the Democrats asked, they kept making
+[26:27.740 --> 26:32.860]  that point over and over again. Facebook, you ran Onavo, the VPN. You did it to steal
+[26:32.860 --> 26:36.060]  data about your competitors. It was an early warning. You're emailing each other, saying
+[26:36.060 --> 26:41.260]  this is an early warning system. Tim Cook, here are some emails from the App Store. Here's
+[26:41.260 --> 26:45.540]  David Hannah Meyer Hansen saying you're crushing his business because he wants to sell digital
+[26:45.540 --> 26:49.580]  goods. Also, all these companies, Airbnb, ClassPass, whatever, in the pandemic, they're
+[26:49.580 --> 26:55.460]  going virtual and you're still demanding 30%. Here are all these emails that we've produced
+[26:55.460 --> 27:00.300]  from Apple where Steve Jobs is saying—and I know you're going to laugh because it's
+[27:00.300 --> 27:05.180]  books and they didn't win at books—but here are all these emails where Steve Jobs
+[27:05.180 --> 27:08.300]  is saying we will be the only bookstore on the phone. We will not allow other merchants
+[27:08.300 --> 27:11.940]  on the phone. Here are the emails where they affirmatively said you will not buy books
+[27:11.940 --> 27:17.740]  in the Kindle app. We're just going to keep showing them to you and asking you, you did
+[27:17.740 --> 27:26.660]  it. That was the pattern they were in. What got me was that every CEO was like, my office
+[27:26.660 --> 27:30.500]  is going to have to get back to you. That doesn't seem right. I'll fix it. Jeff Bezos
+[27:30.500 --> 27:36.420]  was like, I'll fix it personally. It's like your email. You did it. These are your decisions.
+[27:36.420 --> 27:40.940]  You should not be stunned that we're holding you account for your decisions. I think that's,
+[27:40.940 --> 27:47.420]  again, did they produce a coherent six-hour narrative that anybody was able to piece together?
+[27:47.420 --> 27:52.740]  They did not. It was chaos. But if you look in isolation at what they were trying to do,
+[27:52.740 --> 27:54.300]  that was very much their goal.
+[27:54.300 --> 28:00.980]  I'm enough of a political—I was going to say junkie, but I guess if I was a junkie,
+[28:00.980 --> 28:06.820]  I'd watch more of the non-tech hearings live. I'd just read and watch the highlights
+[28:06.820 --> 28:13.460]  and coverage. But I know that this five-minute format, like the committees here, there's
+[28:13.460 --> 28:19.180]  the majority party, the minority party. It flips when Congress flips. But the way the
+[28:19.180 --> 28:25.220]  hearings go is someone from the Republicans, someone from the Democrats, Republican, Democrat,
+[28:25.220 --> 28:30.020]  Republican, Democrat, everything in five-minute chunks. It's not just related to this committee.
+[28:30.020 --> 28:34.540]  This is just how congressional hearings work nowadays. But that's not like one of these
+[28:34.540 --> 28:41.700]  things that has like 100 years of history to it. That's just what they've done.
+[28:41.700 --> 28:50.620]  This format stinks. This is fundamentally flawed. It fails in every way. It fails just
+[28:50.620 --> 28:56.780]  in terms of is it cohesive, and it fails in terms of either party, the one in minority
+[28:56.780 --> 29:02.700]  or majority, getting anything done. I don't even think it's good for the witnesses.
+[29:02.700 --> 29:08.640]  I think in the case of a witness who's truly done wrong, the format allows them to run
+[29:08.640 --> 29:13.340]  out the clock, and you often hear them—I mean, Elizabeth Warren is a fantastic questioner
+[29:13.340 --> 29:19.420]  and is so astute about that time and will cut off like, I think, Jamie Dimon. She was
+[29:19.420 --> 29:22.500]  just like, forget it. You're not running out the clock on me.
+[29:22.500 --> 29:23.500]  Yeah.
+[29:23.500 --> 29:26.860]  Cicellini said stop saying these are good questions.
+[29:26.860 --> 29:27.860]  Yeah. Yeah. Just stop.
+[29:27.860 --> 29:28.860]  Just answer the question.
+[29:28.860 --> 29:33.580]  Yeah. It's like one of the ways they're trained is if you spend 30 seconds praising
+[29:33.580 --> 29:38.740]  the question, then you've only got 30 seconds left. Just do it every time, and then you
+[29:38.740 --> 29:46.580]  just burn up a bunch of clock. It's just a terrible format. I get the basic idea of
+[29:46.580 --> 29:51.180]  it that it does have to have a limit. I mean, the damn thing went on for five and a half
+[29:51.180 --> 29:56.060]  hours as it was, but this format, this is not right. I don't know what the difference
+[29:56.060 --> 29:59.020]  should be, but it certainly has to change.
+[29:59.020 --> 30:05.540]  The other thing that's so clear is so many of the Congress people are so bad at using
+[30:05.540 --> 30:07.060]  their five minutes.
+[30:07.060 --> 30:12.620]  Yeah. Well, so the other format is it just alternates between in longer chunks, and people
+[30:12.620 --> 30:17.180]  get to do their individual—the Democrats would get 10 minutes, and we've seen that
+[30:17.180 --> 30:22.460]  format. Again, this is a smaller—it's not the full Judiciary Committee. It's a smaller
+[30:22.460 --> 30:26.780]  subcommittee. They've been at it for a year. This is their moment, and they all wanted
+[30:26.780 --> 30:27.780]  a shot.
+[30:27.780 --> 30:28.780]  Right.
+[30:28.780 --> 30:32.620]  There's all the ticking of how it works. There's politics inside the committee. Jim
+[30:32.620 --> 30:35.900]  Jordan was there. Jim Jordan is not on the subcommittee. He just bullied his way on because
+[30:35.900 --> 30:42.540]  he's on the larger Judiciary Committee. There's a level of partisan warfare combined
+[30:42.540 --> 30:47.980]  with the egos of the companies that produced exactly this result, like a math equation.
+[30:47.980 --> 30:56.580]  Jim Jordan is the biggest idiot I've ever seen, yet he obviously has a tremendous aptitude
+[30:56.580 --> 31:02.580]  for bullying his way within his own party, because just before you and I recorded today,
+[31:02.580 --> 31:08.660]  my wife sent me a thing that he's there talking to Fauci today and asking him ridiculous
+[31:08.660 --> 31:13.420]  questions about whether the federal government should prohibit protesting. He's like, if
+[31:13.420 --> 31:16.820]  you're telling people they can't play baseball, why can't the federal government tell people
+[31:16.820 --> 31:20.980]  not to protest? Fauci didn't know how to answer. He's like, I don't even know how
+[31:20.980 --> 31:21.980]  to—
+[31:21.980 --> 31:23.420]  He's like, I'm a doctor, and this doesn't make sense.
+[31:23.420 --> 31:27.420]  Right, and he's like, I'm telling people on a personal level not to do things that
+[31:27.420 --> 31:32.220]  are risky. I'm really not in a position to judge what the federal government is allowed
+[31:32.220 --> 31:36.060]  to do in terms of First Amendment rights. And he's like, yeah, but you said we could
+[31:36.060 --> 31:41.380]  play baseball. And it's like, how is this man? How is this man? He's like the Forrest
+[31:41.380 --> 31:45.700]  Gump of the Republican Party. He's like everywhere.
+[31:45.700 --> 31:51.620]  But that's why. I mean, he's loud. He speaks very passionately and clearly. He makes his
+[31:51.620 --> 31:56.500]  point. Yeah, I mean, there's a reason that—and Congress is full of grandstanders, and he's
+[31:56.500 --> 31:57.500]  a great grandstander.
+[31:57.500 --> 31:59.100]  He is the grandstander at that trial.
+[31:59.100 --> 32:06.860]  I don't think the Republican Party is a functional governing system, but you can see
+[32:06.860 --> 32:11.100]  what they're doing. It's very clear. You can just look at it and see, oh, this is their
+[32:11.100 --> 32:14.860]  strategy is to be loud and generate viral video of them yelling at Mark Zuckerberg.
+[32:14.860 --> 32:19.020]  Jim Jordan's good at that. They put him on the panel.
+[32:19.020 --> 32:26.780]  So, I would say one of the highlights had to be when—what's her name? Mary Gay Scanlon.
+[32:26.780 --> 32:32.620]  Pennsylvania, yay! Pennsylvania Democrat followed up from Jordan and said, I'd like to direct
+[32:32.620 --> 32:38.140]  this committee's attention to antitrust issues and not fringe conspiracy theories.
+[32:38.140 --> 32:44.300]  And without addressing it, and he went nuts. And of course, he's the anti-masker. Of
+[32:44.300 --> 32:52.580]  course. Of course he is. The day after Herman Cain died, he's there and has to be told
+[32:52.580 --> 32:58.020]  to put his mask back on. And then they showed him. I don't know if all the feeds were
+[32:58.020 --> 33:01.260]  the same. I was watching the New York Times feed. I just assumed they patched into the
+[33:01.260 --> 33:09.020]  same feed. He really struggled to put a mask on. It's very clear that Jim Jordan does
+[33:09.020 --> 33:15.300]  not wear a mask. Haven't we all, those of us who wear masks, it's like tying your
+[33:15.300 --> 33:20.900]  shoes now. You don't really think about it. Mask on, mask off.
+[33:20.900 --> 33:26.460]  I'm just saying, there were so many moments of pure insanity, but because they happen
+[33:26.460 --> 33:31.540]  in five-minute increments, you're like, wait. I need to remember that that happened
+[33:31.540 --> 33:36.340]  because it was crazy. And that was by far one of them.
+[33:36.340 --> 33:44.220]  Yeah, that was definitely one of them. The guy asking about, Stu asking about his campaign
+[33:44.220 --> 33:45.220]  finance emails.
+[33:45.220 --> 33:47.660]  Oh, his emails. Ah, amazing.
+[33:47.660 --> 33:51.460]  Let me take another break here and thank another sponsor. And we'll get into detail, sort
+[33:51.460 --> 33:56.820]  of a company by company type breakdown. I want to tell you about Mint Mobile. Mint
+[33:56.820 --> 34:02.080]  Mobile, if you're still using one of the big wireless providers, you can save a tremendous
+[34:02.080 --> 34:06.380]  amount of money by switching. Mint Mobile provides the same premium network coverage
+[34:06.380 --> 34:10.580]  you're used to, but at a fraction of the cost because everything you do is online.
+[34:10.580 --> 34:14.940]  They don't have like a big retail presence around the country, anything like that. Everything
+[34:14.940 --> 34:19.420]  is online. Well, guess what? If you're looking to switch phone providers now, doing
+[34:19.420 --> 34:22.660]  it all online and getting it all through the mail is exactly what you need.
+[34:22.660 --> 34:27.660]  That's what they created the company to do. They save on retail locations. They pass those
+[34:27.660 --> 34:34.960]  overhead savings onto you. And they don't have unlimited plans. Guess what? Unlimited,
+[34:34.960 --> 34:38.200]  every single provider that offers it, the fact that they don't have to put the word
+[34:38.200 --> 34:45.100]  unlimited in quotes is criminal and ought to be held before the judiciary committee.
+[34:45.100 --> 34:52.360]  They sell in very sane increments, three, eight, 12 gigabytes increments of 4G LTE data.
+[34:52.360 --> 34:56.640]  It's great. If you need more, you just buy more in the increments that you pay for. You
+[34:56.640 --> 35:00.840]  know what you're getting. And it's just like any phone provider, you can keep your
+[35:00.840 --> 35:06.240]  number when you switch. So ditch your old one. You can get a new plan for just 15 bucks
+[35:06.240 --> 35:10.860]  a month and that's it. The 15 bucks is actually 15 bucks and they just ship it right to your
+[35:10.860 --> 35:17.860]  door for free. Go to mintmobile.com slash talk show, mintmobile.com slash talk show.
+[35:17.860 --> 35:22.620]  Cut your wireless bill to 15 bucks a month or certainly way, way less than you're paying
+[35:22.620 --> 35:29.520]  one of the big providers. And again, that URL is mintmobile.com slash talk show. I would
+[35:29.520 --> 35:36.000]  love, I would in fact love to see like Verizon, AT&T and T-Mobile, the CEOs before the same
+[35:36.000 --> 35:41.800]  committee. I would love to, and I would love to see all three of them together. Like the
+[35:41.800 --> 35:46.680]  big tobacco group. I really would. It's like I got a couple of emails from people who watch
+[35:46.680 --> 35:50.780]  this and they're all like the same thing. Like why haven't they done this exact same
+[35:50.780 --> 35:54.520]  thing with the phone carriers? And it's like, yeah, I don't know.
+[35:54.520 --> 35:58.940]  Oh, it's because the phone carriers, but I mean, they are so entrenched in the lobbying
+[35:58.940 --> 36:06.500]  machine of DC, like AT&T in particular. You know, it's funny. We, the verge has like a
+[36:06.500 --> 36:12.060]  policy desk. It's, I always, it's, we're a big consumer tech website. Like why do I usually
+[36:12.060 --> 36:17.300]  come on your shows? It's like my iPhone cameras. But over the years we've built a policy team,
+[36:17.300 --> 36:21.220]  a straight up, we have three reporters. They just write about policy all day long. They
+[36:21.220 --> 36:25.720]  care about politics. They talk to Congress. They're doing it. They're in it. Why do we
+[36:25.720 --> 36:30.340]  have that? Why did that start? Because of the phone carriers, because of net neutrality,
+[36:30.340 --> 36:36.620]  because the lack of competition and broadband access was so bad that we passed laws about
+[36:36.620 --> 36:40.860]  it and those laws got taken down there. And like they've already, the phone carriers have
+[36:40.860 --> 36:47.540]  that moment a lot, but in this administration, this FCC like doesn't want them to, it doesn't
+[36:47.540 --> 36:53.220]  want them to compete. It's as near as I can tell. I think if Biden wins and there's another
+[36:53.220 --> 36:57.780]  net neutrality moment, you are going to see ISPs in front of Congress as it tries to craft
+[36:57.780 --> 37:01.480]  new net neutrality legislation. But yeah, there's no, you're looking for a place in
+[37:01.480 --> 37:06.460]  tech where there's not enough competition. It's the phone carriers like easily by far.
+[37:06.460 --> 37:11.140]  Yeah. I, you know, and speaking of the verge policy desk, it honestly, it's like, I'm watching
+[37:11.140 --> 37:17.620]  the hearing and the verge kept getting cited over, you know, a couple of times and I'm
+[37:17.620 --> 37:22.100]  like, go verge. I know those guys. And I'm like, I got to get an Eli on this show. Like,
+[37:22.100 --> 37:27.780]  but it's seriously congrats. And I really do think it's well-deserved praise that the
+[37:27.780 --> 37:35.180]  verge is established as a great source for journalism on these policy issues. You know
+[37:35.180 --> 37:40.180]  that. And, and, and it was so great. One of the things that I loved was that when they
+[37:40.180 --> 37:43.700]  introduced stuff from the verge, it wasn't like the verge, which is some site that you,
+[37:43.700 --> 37:46.540]  you know, and explain to you what it like, if they would, if they had to mention me,
+[37:46.540 --> 37:49.900]  right, if they had to mention during fireball, they'd have to like explain the verge is just
+[37:49.900 --> 37:54.400]  tossed out there as a legit source, the way that they tossed out reports from, you know,
+[37:54.400 --> 37:57.580]  like the New York times or the Washington post or something like that. It's like, yeah,
+[37:57.580 --> 38:02.600]  of course this stuff, it comes from the verge, which is just like a premier de facto standard
+[38:02.600 --> 38:05.380]  source for news on policy, these tech policy issues.
+[38:05.380 --> 38:11.580]  Thanks, man. Yeah. I was texting John earlier and I had said, this is the moment that I
+[38:11.580 --> 38:16.820]  realized I was old. Like the verge next year will be 10 years old. And like, I still think
+[38:16.820 --> 38:23.140]  of it as a baby that isn't the newcomer or whatever. Right. Like we have, we have biggest
+[38:23.140 --> 38:28.260]  at the New York times has 700 people on its product team that is literally just writing
+[38:28.260 --> 38:33.160]  apps and the website for New York times, 10 times more people than the rich has. Um, so
+[38:33.160 --> 38:38.420]  we have big competitors and I think of us as an upstart and this particular moment where
+[38:38.420 --> 38:43.460]  we've just been pounding away at policy issues for a long time now. Uh, it made me realize
+[38:43.460 --> 38:47.460]  like, Oh, we've been doing it for awhile. And like the, the particular staffers in the
+[38:47.460 --> 38:52.020]  committee, like they've been reading the verge on their way up. And that to me, it's a new,
+[38:52.020 --> 38:55.920]  it, I say that responsibility very seriously. Like we have to be good at it. Like, I don't
+[38:55.920 --> 39:00.860]  think again, when I usually talk to you on the show, I'm usually here to talk about phone
+[39:00.860 --> 39:04.940]  reviews. And I think one of the things we are learning is that your experience as a
+[39:04.940 --> 39:10.020]  consumer is somebody who just likes technology and likes buying gadgets and phones and cares
+[39:10.020 --> 39:16.380]  about the next thing. Your experiences are now much more mediated by the business issues
+[39:16.380 --> 39:21.420]  and by the policy issues and their interaction than by the thing you just want to buy in
+[39:21.420 --> 39:27.500]  the market. And I closing that loop for like the regular consumer buying a phone is challenging,
+[39:27.500 --> 39:32.100]  but I think we just take the responsibility of, we have to do that more often. Like, why
+[39:32.100 --> 39:36.460]  can't you get HBO max on the Roku? It's not because they don't know how to write a Roku
+[39:36.460 --> 39:42.020]  app. It's because there's like Titanic business interests involved between gigantic companies
+[39:42.020 --> 39:45.700]  that are not really looking out for your best interest. And like, that's, that's a big story.
+[39:45.700 --> 39:47.380]  It's one we're just going to stay focused on.
+[39:47.380 --> 39:53.100]  Well, congrats. And, you know, I don't know. I just thought it was very cool for me as
+[39:53.100 --> 39:58.060]  somebody unaffiliated, but, you know, fan of the site. I was like, yeah, this is awesome.
+[39:58.060 --> 40:02.260]  I would say your criticisms have made us better over the years, Sean. You played a part. Yeah.
+[40:02.260 --> 40:06.540]  Well, but I, you know, I would, I mean, it's just obvious. I mean, you know, I mean, it's,
+[40:06.540 --> 40:11.240]  but it's, I linked to the Verge extremely frequently and it's, you know, when in doubt,
+[40:11.240 --> 40:15.100]  if there's multiple sources for a story, I want, just want to link to the article. The
+[40:15.100 --> 40:19.780]  Verge is one of those ones where it's like, I just default to because I know it's, it's
+[40:19.780 --> 40:23.260]  good stuff. And anybody who's listening to me probably knows like, just, just, you don't
+[40:23.260 --> 40:26.140]  have to go and count. You don't have to run it, write a script or something like that.
+[40:26.140 --> 40:29.460]  Just think about it in the back of your head. You know, that I linked to the Verge pretty
+[40:29.460 --> 40:30.460]  frequently.
+[40:30.460 --> 40:34.420]  Yeah. I mean, I think that's one of the things I was thinking about through this hearing
+[40:34.420 --> 40:40.860]  and again, I appreciate that. But there was a, there was a long sort of section of this
+[40:40.860 --> 40:44.260]  hearing where Nadler talked to Zuckerberg about destroying journalism and pivots to
+[40:44.260 --> 40:47.820]  video and all that. And so I did not have great answers. They asked her the same, this
+[40:47.820 --> 40:52.900]  whole thing started because of publishers falling apart because of the, that's where
+[40:52.900 --> 40:57.580]  Cicilline began this inquiry over a year ago. And it just occurred to me as I was watching
+[40:57.580 --> 41:04.180]  this hearing, the number of forces that can hold these companies to account that exists,
+[41:04.180 --> 41:10.820]  just whatever kinds of things they are, has actually dwindled a lot. Right. And so a journalist
+[41:10.820 --> 41:15.460]  that we used to have, there were lots of tech publications. They had lots of thoughts about
+[41:15.460 --> 41:20.440]  what tech companies were doing, what Microsoft was doing. There were 45 Mac print magazines
+[41:20.440 --> 41:26.660]  at one point, right? Like there was just this huge array of publications and journalists
+[41:26.660 --> 41:30.860]  doing the work. And then there was also Congress and you would get signal into the marketplace
+[41:30.860 --> 41:34.900]  of consumers from journalists who could evaluate stuff and come back to it. And then you would
+[41:34.900 --> 41:42.420]  have regulatory action from Congress. And that number of people in the media who can
+[41:42.420 --> 41:49.340]  hold the company's account or are able to, or are comfortable doing it, or aren't dependent
+[41:49.340 --> 41:53.260]  on the big companies in some way, which is something that is happening to every media
+[41:53.260 --> 41:57.900]  company I was dependent on the platforms in some way. Yeah. It was just like watching
+[41:57.900 --> 42:01.940]  it. You're like, oh, Congress can still do it. Right? Like their business isn't under
+[42:01.940 --> 42:06.660]  threat. Like they're not running out of members of Congress. And you see these four and it's
+[42:06.660 --> 42:12.100]  like, when was the last time Jeff Bezos wasn't allowed to finish whatever fucking sentence
+[42:12.100 --> 42:17.420]  he wanted to write? Like Tim Cook has, has exclusively finished every sentence he started
+[42:17.420 --> 42:21.100]  since he became the CEO of Apple. Right. And the only person who never did before that
+[42:21.100 --> 42:25.140]  was Steve jobs. Yeah. And like Congress is just like, not ha they don't have to, they're
+[42:25.140 --> 42:31.420]  not beholden to these companies. And I think that's that dynamic of, Oh, how about just
+[42:31.420 --> 42:37.300]  the fact that it was, it was about 48 minutes late. Yeah. Just like, couldn't get it right.
+[42:37.300 --> 42:41.860]  I don't know. Like you're going to wait. I don't think Tim Cook has waited 48 seconds.
+[42:41.860 --> 42:45.900]  Tim, I mean, that is a difference. One of the small differences between Tim Cook and
+[42:45.900 --> 42:51.380]  Steve jobs is, and again, there's big differences too, but a small difference is that Tim Cook
+[42:51.380 --> 42:57.060]  is clearly very punctual. And ever since he took over as CEO, Apple's keynotes, if they
+[42:57.060 --> 43:03.540]  say a keynote is going to start at 10 Pacific, you, you, you know, it's starting at 10 Oh,
+[43:03.540 --> 43:08.180]  Pacific. Like it, it, it is, I don't know that he's ever had a keynote that started
+[43:08.180 --> 43:14.060]  more than 30 seconds late and jobs is, you know, we're usually around, you know, not
+[43:14.060 --> 43:18.000]  too late, but I don't know that he ever had one that wasn't at least three or four minutes
+[43:18.000 --> 43:22.900]  late, sometimes five, six. Yeah. There's some developer who was going to do a demo five
+[43:22.900 --> 43:26.300]  minutes before the thing and jobs is like, your app sucks. You're changing the whole
+[43:26.300 --> 43:27.300]  app every time.
+[43:27.300 --> 43:30.420]  And they're like, Steve, it's, it's 10. He's like, yeah, yeah, yeah. Don't worry. You know,
+[43:30.420 --> 43:34.020]  and you know, and it wasn't weird. It wasn't like, you know, like, you know, like you go
+[43:34.020 --> 43:36.660]  to see the rolling stones and you know, all of a sudden they make you wait the half an
+[43:36.660 --> 43:40.860]  hour before they come out because then you're nuts. It wasn't like that to get gassed up.
+[43:40.860 --> 43:46.500]  Yeah. It wasn't like that. But you know, cook is punctual. I don't know. I thought it was,
+[43:46.500 --> 43:52.580]  you know, it's probably was just somebody trying to get WebEx work. I don't think it
+[43:52.580 --> 43:56.660]  was a power move on Congress as part, but yeah, they had to wait. They got interrupted.
+[43:56.660 --> 44:01.360]  They got cut off. Um, I don't know. It was interesting to see. It was just interesting
+[44:01.360 --> 44:05.420]  to see that. Yeah. That dynamic because we, even as journalists, we are rarely in that
+[44:05.420 --> 44:11.700]  dynamic with right. It's, it is very true. And um, you know, and I think that was bipartisan.
+[44:11.700 --> 44:15.940]  I guess the other thing I would say is that the other interesting political dynamic before
+[44:15.940 --> 44:19.860]  we get into the specifics was the fact that, uh, and I think it was mostly Republicans
+[44:19.860 --> 44:23.420]  because they're into minority and they know that they could, you know, because they're
+[44:23.420 --> 44:28.860]  in a minority, you don't really have a lot of power and especially in the house. Um,
+[44:28.860 --> 44:34.320]  thanking Cicilline for the bipartisan nature of the whole inquiry. Um, and I thought that's
+[44:34.320 --> 44:40.860]  very interesting and it's very, very unique in modern US federal politics, right? It's
+[44:40.860 --> 44:46.380]  everything is partisan and there are very little bipartisan praise for anything that
+[44:46.380 --> 44:52.740]  gets done. And it's because their ire was at directed at the companies and not at the,
+[44:52.740 --> 44:55.060]  the committee members on the other side of the aisle.
+[44:55.060 --> 44:59.540]  Yeah, I think that's right. And I think Cicilline has done a really good job. If you go, if
+[44:59.540 --> 45:03.460]  you want to see an even better example of that, it's every, it's like everything pre
+[45:03.460 --> 45:07.460]  pandemic is like one time period for me. So I can't tell you exactly when it was anymore,
+[45:07.460 --> 45:12.540]  but um, they held a field hearing. They didn't do it in Congress. They did it in Colorado
+[45:12.540 --> 45:18.060]  at a university. Um, and it was, you know, the subcommittee, so just a small group. And
+[45:18.060 --> 45:23.500]  that's where the CEO of Sonos, that's where the CEO of Popsockets, um, that's where, uh,
+[45:23.500 --> 45:28.560]  David Hannah Hansen, that's where they had their first testimony in front of the hearing.
+[45:28.560 --> 45:34.820]  And that hearing, because it was not in the circus of DC, because it was about hearing
+[45:34.820 --> 45:39.140]  from companies who had, you know, had felt them been wronged. That hearing was like,
+[45:39.140 --> 45:41.940]  when you're talking about a movie, what Congress is like in a movie, that hearing was like
+[45:41.940 --> 45:46.700]  that. It was very sane. It was very rational. It was very bipartisan. And that tone has
+[45:46.700 --> 45:49.980]  carried through even up to the grandstanding of, of this week.
+[45:49.980 --> 45:54.620]  Yeah. Who do you want to start with? I feel like on your show, we got to start with Apple.
+[45:54.620 --> 46:01.180]  Yeah. Let's get it out of the way. Um, I do think, I think over my, my take is that, uh,
+[46:01.180 --> 46:05.740]  Apple stance going in was we don't belong here. I think everything cooked did, uh, spoke
+[46:05.740 --> 46:11.380]  to that. I on dithering, you know, Ben asked me for letter grades. I gave Tim cook a gentleman
+[46:11.380 --> 46:16.100]  C for his performance. And, and for those who don't know, I didn't explain it on dithering,
+[46:16.100 --> 46:22.060]  but a gentleman C is a term like George Bush, uh, was famous for achieving gentlemen C's.
+[46:22.060 --> 46:26.540]  The idea is that it, it, you know, you go to Harvard and your family goes to Harvard.
+[46:26.540 --> 46:29.340]  You don't really have to do anything good. You don't have to do anything really. And
+[46:29.340 --> 46:34.780]  you'll just pass, you know, just, just, you know, show up and you get a C, um, you know,
+[46:34.780 --> 46:39.740]  just, yeah, here's your diploma. Now you're a Harvard graduate. Uh, you know, he, he didn't
+[46:39.740 --> 46:44.660]  try to do anything like I'm not giving him a C because he tried to get an a and didn't
+[46:44.660 --> 46:48.900]  want to, he, he sat in the back of the class and never raised his hand and just sorta wanted
+[46:48.900 --> 46:52.260]  to get out of there. And I think he achieved that.
+[46:52.260 --> 46:58.420]  I, to some extent, I think that's correct. I think again, here, the story is not whether
+[46:58.420 --> 47:05.560]  Tim cook got Apple into trouble, right? The hearing, the story is there's a pile of documents
+[47:05.560 --> 47:10.980]  that the committee discovered that stretch back to 2010 that show a very clear pattern
+[47:10.980 --> 47:16.260]  of Apple using the app store to get leverage over competitors, big and small. There's a
+[47:16.260 --> 47:20.980]  pile of document emails. That's actually my favorite kind of category of emails and all
+[47:20.980 --> 47:26.420]  of the things that they've revealed. There's just emails, email after email from developers,
+[47:26.420 --> 47:31.100]  emailing Tim cook cold and saying, this sucks for me. And Tim cook forwarding it onto his
+[47:31.100 --> 47:36.220]  team. Right. And it's funny cause Tim cook's team is Phil Schiller and credit bag ready.
+[47:36.220 --> 47:42.420]  Right. Right. Like these guys, like the guys we know and being like thoughts, right? Like
+[47:42.420 --> 47:48.200]  they know these are choices they're making. And I think one of, in particular with Apple
+[47:48.200 --> 47:53.300]  and Google to some extent, Amazon, definitely not with Facebook really, but Apple and Google
+[47:53.300 --> 47:58.780]  present themselves as very friendly companies is very consumer driven companies. It's very
+[47:58.780 --> 48:03.820]  value driven companies. I think to a large extent, I buy it, right? They are those things.
+[48:03.820 --> 48:09.140]  We see it all the time, but they are also very ruthless businesses. They're not successful
+[48:09.140 --> 48:14.040]  because they're bad at business, right? These aren't accidents. They are ruthless businesses
+[48:14.040 --> 48:18.040]  that care about how much money they're making, that care about values, return to shareholders
+[48:18.040 --> 48:20.980]  that care about all of it, just because we don't see it at the events doesn't mean it's
+[48:20.980 --> 48:26.340]  not happening. And what this investigation has revealed with Apple is that they are definitely
+[48:26.340 --> 48:30.980]  just as ruthless as the other companies. Without a doubt, they talk about it that way. Steve
+[48:30.980 --> 48:37.540]  Jobs is emailing saying, we're not going to let Amazon sell books in the store. Phil Schiller
+[48:37.540 --> 48:42.180]  is like this ad from Amazon showing somebody reading a book on an iPhone and then switching
+[48:42.180 --> 48:47.480]  and seamlessly reading on a Kindle on an Android phone. That was hard to watch. That's like
+[48:47.480 --> 48:52.300]  the thing Phil sent to Steve in 2010. It's hard to watch somebody using our phone and
+[48:52.300 --> 48:57.660]  then another phone for the same app. We don't want that anymore. That is not a thing that
+[48:57.660 --> 49:03.860]  they would express in an event or a briefing, right? That is ice cold. And I think Tim was
+[49:03.860 --> 49:09.260]  up there, but the case that the committee is going to make is you're using your marketplace
+[49:09.260 --> 49:14.540]  in unfair ways and we have to write a regulation that curbs that ability somehow.
+[49:14.540 --> 49:20.460]  The Schiller story, I swear I'll put a link in the show notes. The Verge had a good story
+[49:20.460 --> 49:27.700]  just about that thread. I think a fair encapsulation is that Schiller brought it to their attention
+[49:27.700 --> 49:33.940]  because Schiller watches competitors' ads. He even had links to the two YouTube videos
+[49:33.940 --> 49:40.380]  of things, which I copied and pasted are still on YouTube. Both ads are still there. But
+[49:40.380 --> 49:47.440]  the gist of it is the argument is, and this is 2010, so it's early days, but those go-go
+[49:47.440 --> 49:53.940]  years went so fast, it's crazy. I just brought this up again, where I forget for how many
+[49:53.940 --> 49:59.020]  years, but 2010 was still in the middle of it. It was at least, I think, through 2013
+[49:59.020 --> 50:05.340]  where Apple each year, not only was each new iPhone the best-selling iPhone ever, but each
+[50:05.340 --> 50:11.980]  new year's iPhone sold more iPhones than all previous year's iPhones combined, which is
+[50:11.980 --> 50:19.780]  an insane growth rate. The iPhone 4S not only was the best-selling iPhone Apple ever made,
+[50:19.780 --> 50:27.500]  it sold more than the iPhone 4, 3GS, 3G, and original iPhone all put together. 2010 is
+[50:27.500 --> 50:33.860]  only three years into the iPhone existing, but yet it changed so much where Schiller's
+[50:33.860 --> 50:39.880]  argument was, when we first let Kindle's app into the store, the idea was most of the Kindle
+[50:39.880 --> 50:45.900]  books people had were bought on Kindle devices, and they could also read them on their phone,
+[50:45.900 --> 50:50.100]  and if they bought, and again, this is how the app store has changed dramatically, at
+[50:50.100 --> 50:53.500]  that time, you could buy new Kindle books in the Kindle app on your phone.
+[50:53.500 --> 50:56.060]  I totally forgot that, by the way. I absolutely forgot that there was time.
+[50:56.060 --> 51:01.180]  I had, too. I honestly forgot that that was possible. It was so long ago and was such
+[51:01.180 --> 51:09.660]  a brief blip, it just didn't last long. And Schiller's argument in the email is that the
+[51:09.660 --> 51:13.820]  thinking of allowing this was most of the books people had bought were bought from Kindle's,
+[51:13.820 --> 51:18.980]  but now there are some, we've sold so many more iPhones than iPod Touch. This is how
+[51:18.980 --> 51:25.020]  Schiller pluralized it, which is always interesting to me, because I know he cares. iPhones and
+[51:25.020 --> 51:31.900]  iPod Touch, then Kindle's exist combined that there's, you know, we've got more devices
+[51:31.900 --> 51:38.480]  than they do now, so that old dynamic doesn't change anymore, and it doesn't seem right.
+[51:38.480 --> 51:42.800]  To pitch this as something that you can buy on an iPhone and then go switch to an Android
+[51:42.800 --> 51:49.940]  phone and use it there. I don't think that's me trying to make drama out of it. That's
+[51:49.940 --> 51:51.700]  a fair summary of the email chain.
+[51:51.700 --> 51:56.180]  Yeah, no, and I think that's right, and I think what we don't see is that they made
+[51:56.180 --> 52:01.780]  a decision, right? Like, as consumers, as watchers of the company, as people, like,
+[52:01.780 --> 52:06.360]  these are people we know. We see them. We see them in briefings. They never reveal to
+[52:06.360 --> 52:12.780]  us that they made a monumental policy change about Amazon's ebook business on an email
+[52:12.780 --> 52:15.020]  thread because Phil Schiller saw a YouTube video.
+[52:15.020 --> 52:19.020]  Yeah, and there's a quote from Eddy Cue in the same, maybe the same chain, but it's
+[52:19.020 --> 52:21.860]  something like that, and Eddy Cue is talking about this, and he's like, this is a big
+[52:21.860 --> 52:25.460]  deal that's going to, you know, he just says flat out in email, this is a huge decision
+[52:25.460 --> 52:27.420]  that's going to change the course of the App Store.
+[52:27.420 --> 52:32.980]  Yeah, and then I think Jobs replies, this will be bad for some things, but we're only
+[52:32.980 --> 52:39.620]  going to have one bookstore. And like, yeah, they didn't win at books, but they were able
+[52:39.620 --> 52:44.380]  to shape the course of the market with that one decision, and that was in 2010 when they
+[52:44.380 --> 52:48.100]  were small, and now they're even bigger, and now their decisions shape even more parts
+[52:48.100 --> 52:52.660]  of the digital services market. They made a lot of money this quarter. They had earnings
+[52:52.660 --> 52:57.820]  last night. What's the, what was Tim Cook's proudest, and to be fair, I listened to call,
+[52:57.820 --> 53:00.940]  Tim Cook is like apologizing for Apple's monumental revenue, right?
+[53:00.940 --> 53:01.940]  Yes, yeah.
+[53:01.940 --> 53:05.760]  He wants to be a pandemic profiteer. I don't think that he's, you know, he's not rubbing
+[53:05.760 --> 53:08.580]  his hands in glee. He's like, look, we made a lot of money. It's because people need laptops
+[53:08.580 --> 53:13.380]  and they're all working from home. But what was the one thing he was willing to brag about?
+[53:13.380 --> 53:18.900]  They hit their target for services revenue doubling six months ahead of their own targets.
+[53:18.900 --> 53:22.940]  Why did they do that? Because they are getting really, really good at pushing their services
+[53:22.940 --> 53:27.020]  through the phone, through the interface of the phone. And you can see that pattern beginning
+[53:27.020 --> 53:31.020]  in 2010 with this decision. And I think that's really what the committee, like, that's what
+[53:31.020 --> 53:35.340]  they wanted to show us. That was very much the point. Tim Cook's performance. I agree
+[53:35.340 --> 53:39.000]  with you a gentleman. See, he didn't get in trouble. He didn't save the day. He just got
+[53:39.000 --> 53:43.220]  through it, which was a very clearly what he wanted to do. It's this other question
+[53:43.220 --> 53:44.440]  that they're gonna have to answer for.
+[53:44.440 --> 53:52.460]  I even think that they purposefully chose the blandest yet, you know, professional background
+[53:52.460 --> 53:58.920]  for him. Uh, I think they even desaturated his camera. It was, it was, it was a very
+[53:58.920 --> 54:05.820]  desaturated thing. His skin even looked pale. I mean, it just was, it just was like he wasn't
+[54:05.820 --> 54:14.840]  there. Uh, it is a very quiet appearance. Um, I think that there's two specific things
+[54:14.840 --> 54:21.560]  that he said, and I'm not accusing him of committing perjury. Um, but he was under oath
+[54:21.560 --> 54:26.700]  and I think what he said isn't true. And so maybe, you know, some sense it's perjury.
+[54:26.700 --> 54:31.280]  I don't know. I don't know. He's going to get in trouble for it. But he said that they
+[54:31.280 --> 54:38.080]  treat, he reiterated that they treat all developers the same. And I just don't see how, I don't
+[54:38.080 --> 54:43.640]  know why he would say it so plainly like that when it clearly isn't true. And I think a
+[54:43.640 --> 54:49.160]  reasonable person, no matter where you fall on these issues would agree, it just can't
+[54:49.160 --> 54:57.800]  be true. How could they, how could Apple possibly be expected to treat Amazon the same as Joe
+[54:57.800 --> 55:03.120]  junior developer, who's a one person, 18 year old who submitted an app to the store, you
+[55:03.120 --> 55:10.920]  know, like it defies imagination and you see the evidence that they submitted where they
+[55:10.920 --> 55:15.520]  were talking, you know, one of the things that came out was, um, you know, how, how
+[55:15.520 --> 55:23.360]  did they get a Amazon prime video into the video, Apple TV ecosystem? Well, now we had,
+[55:23.360 --> 55:28.280]  now we know for sure. We always suspected, but now we know for sure it's because it's
+[55:28.280 --> 55:32.520]  15% right from the start, not 30 for a year and then 15.
+[55:32.520 --> 55:37.680]  Yeah. So, uh, I was listening to that clip of dithering that you put up, I don't know
+[55:37.680 --> 55:43.740]  if it was you or Ben put up a clip from dithering. We were like, they came at Bezos and Bezos
+[55:43.740 --> 55:48.820]  defense for a lot of things was, this is just how business works. Like, yeah, business legal.
+[55:48.820 --> 55:52.520]  And that was like, that's a good argument. I'm actually very, I think you can look at
+[55:52.520 --> 55:57.440]  this deal between Apple and Amazon from in multiple lenses and evaluate whether it was
+[55:57.440 --> 56:03.640]  good or bad in multiple ways. So the deal broadly is there were a lot of counterfeit,
+[56:03.640 --> 56:10.800]  weird Mac Apple products on Amazon. Apple didn't like that. Apple wanted prime video
+[56:10.800 --> 56:14.840]  in the store. Amazon didn't want to pay the rates. So they made, they caught a deal and
+[56:14.840 --> 56:19.680]  I think that deal makes perfect sense. Like Apple got favorable treatment on Amazon. They
+[56:19.680 --> 56:24.320]  got a custom order flow. They got a custom, like when they get, when you're done and it's
+[56:24.320 --> 56:28.760]  like, would you like to buy some accessories? Accessories are Apple's accessories or from
+[56:28.760 --> 56:33.000]  their preferred providers. The pages are cleaner. The design of the pages is nicer. It's like
+[56:33.000 --> 56:38.320]  my favorite. What does Apple want? It wants a cleaner order page. Um, and then, you know,
+[56:38.320 --> 56:45.240]  Amazon got these terms on the store. Well, if you're any other developer, what that interaction
+[56:45.240 --> 56:48.040]  and that's good business. I think that is great business rather than some of these.
+[56:48.040 --> 56:52.880]  If you are any other developer or any other seller on Amazon, what that interaction shows
+[56:52.880 --> 57:00.920]  you is unless you have monumental leverage, you're hosed. Yeah. Right. Unless you are
+[57:00.920 --> 57:07.520]  literally determining how people buy iPhones, Apple will never cut you a deal. If you are
+[57:07.520 --> 57:13.700]  not literally in control of the platform Amazon's apps run on for consumers, you don't have
+[57:13.700 --> 57:18.580]  leverage to get a better buying experience. That to me is, it is good business. It makes
+[57:18.580 --> 57:23.140]  perfect sense that they made that deal, but that the deal was opaque and that the deal
+[57:23.140 --> 57:29.800]  is conditioned on gigantic amounts of leverage on both sides means that it's probably unfair
+[57:29.800 --> 57:34.080]  for everybody else as they just try to build their businesses to scale. Yeah. I don't know
+[57:34.080 --> 57:38.520]  where, I don't know where you draw the regulatory line in there, but I see both sides of the
+[57:38.520 --> 57:44.320]  argument. Right. Unfair, but not necessarily unjust or that it should be any other way.
+[57:44.320 --> 57:48.800]  Right. It's unfair that if I played one-on-one basketball with LeBron James that I'm going
+[57:48.800 --> 57:53.560]  to get my ass kicked. I got no chance. Not unless you have a popular video platform for
+[57:53.560 --> 57:58.640]  his app in which case I'll probably lose. So on the Amazon side, I know we're really
+[57:58.640 --> 58:02.320]  talking about Apple, but think about this way, the Amazon side, um, uh, company keeps
+[58:02.320 --> 58:06.960]  coming up over and over again in these hearings and this whole thing is PopSockets. Yes. Right.
+[58:06.960 --> 58:09.920]  And they make the button that goes in the back of your phone because all the phones
+[58:09.920 --> 58:16.840]  are too big. Um, PopSockets and all of our, all of our pinky fingers are too sore. Yeah.
+[58:16.840 --> 58:22.840]  Like over time the human race will evolve to the size of the iPhone pro max. Um, uh,
+[58:22.840 --> 58:28.440]  but PopSockets is like, Hey, Amazon, your store is flooded with counterfeits. You're
+[58:28.440 --> 58:33.800]  destroying our business. We don't need leverage. We just need to be fair to us. Don't, don't
+[58:33.800 --> 58:39.320]  overrank competitors. Don't let counterfeits flood the store from, you know, other sellers
+[58:39.320 --> 58:44.440]  who have no morals. Like don't recommend cheaper counterfeits when people search for PopSockets
+[58:44.440 --> 58:50.360]  by name. Amazon's response was we need you to sign a $2 million marketing deal. Yeah.
+[58:50.360 --> 58:56.920]  That I mean, that is that unfair. It's absolutely on its face. It feels wrong, but it's also,
+[58:56.920 --> 59:00.880]  is that illegal? I think that's the question this committee, they needed that on the record.
+[59:00.880 --> 59:05.800]  They needed to say, this is happening. We have proof, we have evidence. Now we're going
+[59:05.800 --> 59:10.320]  to try to write a rule that just tilts the scale back away from the power of the big
+[59:10.320 --> 59:16.040]  platforms. And I think the Apple Amazon deal is at once. Again, I completely agree. That
+[59:16.040 --> 59:19.920]  was good business. It worked out for both sides, even worked out for consumers, right?
+[59:19.920 --> 59:23.480]  The consumers got more stuff. They got fewer counterfeits with Mac products right around
+[59:23.480 --> 59:28.320]  the store. But if that's where you got to be to just be treated fairly, then something
+[59:28.320 --> 59:32.240]  is wrong. Well, I think the other interesting thing with the Amazon prime video in particular
+[59:32.240 --> 59:41.560]  is, so modern day Apple let's, you know, uh, I don't know, post 2013 post 2014 post post
+[59:41.560 --> 59:46.840]  can't innovate my ass. You know, there was a, the last blip of beleaguered Apple was
+[59:46.840 --> 59:54.080]  a brief period around 2012 to 13 where there was a growing consensus in the business world,
+[59:54.080 --> 59:59.280]  not tech world that, uh, you know, we, we told you they couldn't do it without Steve
+[59:59.280 --> 01:00:04.120]  Jobs. Here we are two years later, Samsung's eating their lunch. They can't innovate their,
+[01:00:04.120 --> 01:00:10.280]  their toast. Um, that was about seven years ago. And since then they have done very well
+[01:00:10.280 --> 01:00:16.600]  and it's hard to identify chinks in their armor, right? They, they, they're pretty solid.
+[01:00:16.600 --> 01:00:25.640]  One area where they've done, uh, they sputtered in a lot of ways is, um, TV, right? That they're
+[01:00:25.640 --> 01:00:32.720]  Apple TV in particular. Apple TV is getting its ass kicked by Roku and fire TV and even
+[01:00:32.720 --> 01:00:38.640]  Chromecast. You know, it's, it, it, it is, it is not a very low, it's much like the Mac
+[01:00:38.640 --> 01:00:44.480]  was back in the day, right? It's not non-existent. It's not like it's irrelevant, but it is very
+[01:00:44.480 --> 01:00:49.640]  small. And their vision for how this should work is the TV app, but they need buy in from
+[01:00:49.640 --> 01:00:56.400]  all of these other things. And this is a position. So here's Apple recently, right now, not in
+[01:00:56.400 --> 01:01:02.480]  a position of strength, but in a position of we need help. Right. And so part of the
+[01:01:02.480 --> 01:01:10.360]  deal wasn't just that they would put, uh, prime TV or Amazon prime video on the platform,
+[01:01:10.360 --> 01:01:16.760]  which it wasn't even there at all, but that they're going to participate in the APIs to
+[01:01:16.760 --> 01:01:22.560]  get it in the TV app so that you can search for it with Siri and next up works with the
+[01:01:22.560 --> 01:01:27.480]  stuff, you know, that it's part of this larger ecosystem. Um, and so that, you know, part,
+[01:01:27.480 --> 01:01:31.240]  you know, again, so what do you need to get a good deal from Apple to get your first year
+[01:01:31.240 --> 01:01:37.080]  at 15% instead of 30 is you need to have a major multi billion, you need to spend seven
+[01:01:37.080 --> 01:01:43.720]  or $8 billion a year on original content video, because that happens to be the one area where
+[01:01:43.720 --> 01:01:49.200]  Apple doesn't have a lot of traction and needs, needs you to buy into their system. That is
+[01:01:49.200 --> 01:01:54.880]  not a position a lot of people have. Yeah. And you know, the other way to look at that,
+[01:01:54.880 --> 01:01:59.520]  again, I don't know how to write the regulation. I think that's very complicated, but I think
+[01:01:59.520 --> 01:02:04.120]  what everyone can feel like, another way to look at that is look at what a little competition
+[01:02:04.120 --> 01:02:10.200]  did, right? That's just a tiny amount of competition from Roku and fire TV. Like this market isn't
+[01:02:10.200 --> 01:02:15.120]  flooded with other successful video platforms, right? There's three of them, right? Like
+[01:02:15.120 --> 01:02:19.360]  that's it really. And then Apple's trying to win. So they have to do stuff and they
+[01:02:19.360 --> 01:02:23.040]  have to try to make it better for consumers. They have to innovate on a product. They have
+[01:02:23.040 --> 01:02:27.960]  to make a more seamless experience. They have to make their app cross platform so people
+[01:02:27.960 --> 01:02:32.800]  can get their TV services. That's good for consumers. That's just a little bit of competition,
+[01:02:32.800 --> 01:02:37.880]  right? And the competitors like, I don't know, I got a Roku. It's fine. I prefer my Apple
+[01:02:37.880 --> 01:02:42.920]  TV, but the Roku is cheap and everywhere. Right. And so the competitors aren't, they're
+[01:02:42.920 --> 01:02:47.040]  not even like direct. They're orthogonal. They have different business models. They
+[01:02:47.040 --> 01:02:51.760]  pay out different rates. They're in different kinds of fights, but that little bit of action
+[01:02:51.760 --> 01:02:57.280]  in the market produces results in a way that I think we like, we can all look at like apps
+[01:02:57.280 --> 01:03:02.080]  on the Mac, right? Where it's just like this market is just dwindled to nothing because
+[01:03:02.080 --> 01:03:08.840]  all of Apple's activity is focused on iOS. And like, we don't see that sort of competitive
+[01:03:08.840 --> 01:03:14.680]  race to make a bunch of like a bunch of Mac APIs better so it can attract more developers
+[01:03:14.680 --> 01:03:18.560]  away from window. Like that's all dead because all of the activity is competing for developers
+[01:03:18.560 --> 01:03:23.200]  somewhere else. And you just see, you can, I think we all feel that the competitive landscape
+[01:03:23.200 --> 01:03:27.960]  for a lot of tech has come down to which company do I like the best? And I'll just buy all
+[01:03:27.960 --> 01:03:33.300]  my shit from that. And that's like no fun. Yeah. And then the TV market shows that it
+[01:03:33.300 --> 01:03:38.440]  doesn't work that way. Right? So you, you've bought an iPhone, you've got an iTunes account,
+[01:03:38.440 --> 01:03:43.200]  you subscribe to TV plus cause you maybe it's just because you got the, bought the iPhone,
+[01:03:43.200 --> 01:03:47.640]  you got it for free for a year, but you want to keep watching it. You're into it. Now when
+[01:03:47.640 --> 01:03:52.440]  you go to buy a new TV, you don't have to buy one brand of TV. And I get it that Apple
+[01:03:52.440 --> 01:03:56.620]  TV isn't actually on every TV you can buy, but they pretty much, because they needed
+[01:03:56.620 --> 01:04:01.160]  to compete, went out to all the major ones, including Samsung, who you know, they don't
+[01:04:01.160 --> 01:04:06.840]  like, I mean at a very personal level, they do not like and cut a deal, you know? So if
+[01:04:06.840 --> 01:04:15.140]  you buy Samsung, Sony, LG, or the fourth one who I always forget, Visio, you get, and again,
+[01:04:15.140 --> 01:04:20.300]  and that covers a lot of the market that you can just buy a new TV and you get, you know,
+[01:04:20.300 --> 01:04:25.760]  your Apple TV stuff just works and you're not paying Apple anything for that, right?
+[01:04:25.760 --> 01:04:30.880]  It's just there. And that's, that is it. That is true competition. And you're not tied in
+[01:04:30.880 --> 01:04:37.360]  to the one brand of TV that works with the, where your TV watching goes.
+[01:04:37.360 --> 01:04:43.800]  Yeah. You can also see it on something music, right? Every smart speaker, they have to have
+[01:04:43.800 --> 01:04:48.960]  Spotify to succeed even though they have their own music services. But Apple music is like
+[01:04:48.960 --> 01:04:53.520]  showing up on Amazon devices. Like you're, there's places, particularly in media where
+[01:04:53.520 --> 01:04:59.240]  you're just not locked in in the same way, but almost everywhere else there, what Apple
+[01:04:59.240 --> 01:05:05.560]  is going to get in trouble for is using its control of the store to create lock-in and
+[01:05:05.560 --> 01:05:10.520]  you just see it kind of over and over and over again. And I think even with the earnings,
+[01:05:10.520 --> 01:05:16.220]  you see that services line go up. It's not always because Apple services are better than
+[01:05:16.220 --> 01:05:21.300]  anyone else's. Like it's actually very hard to name a service where it's so much better
+[01:05:21.300 --> 01:05:23.800]  than that's the one you're definitely gonna pay for.
+[01:05:23.800 --> 01:05:29.640]  Yeah. Well, that's a good, that's a good way to put it. And you know, and how much of this,
+[01:05:29.640 --> 01:05:32.760]  you know, I always bring it up, but I, you know, and it didn't come up at all at the
+[01:05:32.760 --> 01:05:36.560]  hearing, but it's like, I don't know, they don't break it down, but how much of Apple's
+[01:05:36.560 --> 01:05:44.800]  App Store revenue comes from the candy crush plate of win games, you know, and 30% of that
+[01:05:44.800 --> 01:05:52.440]  is in my opinion, for some definition of dirty, it's dirty money, right? It is, you know,
+[01:05:52.440 --> 01:05:56.300]  and again, in the same way I have brought this up, I don't know if it was dithering
+[01:05:56.300 --> 01:06:01.140]  or my show, I forget, podcast amnesia, but in the same way that Disney owns cruise ships
+[01:06:01.140 --> 01:06:05.200]  and they're the only cruise ships you can go on that don't have a casino on board. It's
+[01:06:05.200 --> 01:06:09.580]  not because Disney doesn't like having making money and casinos definitely make money. It's
+[01:06:09.580 --> 01:06:14.740]  that Disney has a brand that isn't really copacetic with casino gambling, legal or other
+[01:06:14.740 --> 01:06:19.360]  wise, legal or, you know, no matter how legal it is. If Apple had a cruise ship, it would
+[01:06:19.360 --> 01:06:25.000]  not have a casino, I don't think, but the money they're making from candy crush, et
+[01:06:25.000 --> 01:06:28.740]  cetera, and so forth on the App Store is no different than slot machines, except slot
+[01:06:28.740 --> 01:06:31.320]  machines occasionally actually pay you out real money.
+[01:06:31.320 --> 01:06:37.640]  Yeah, I mean, I think the one category where the rates don't fall in the second year on
+[01:06:37.640 --> 01:06:42.360]  the App Store is games. Yeah, right, because there's no subscription, I don't think.
+[01:06:42.360 --> 01:06:46.140]  But also, like, there's no subscription, but also, like, that's the cash. Yeah, they don't
+[01:06:46.140 --> 01:06:50.340]  like to admit it, which is why I don't break it out. But every sort of independent kind
+[01:06:50.340 --> 01:06:54.320]  of study that we see from the app and use the world, it always indicates that it's games.
+[01:06:54.320 --> 01:07:02.120]  Right. And it's, you know, and so why? So here's, here's an issue. And the 3070 split
+[01:07:02.120 --> 01:07:06.840]  gets a lot of attention. And I think too much attention. I think it's the you have to use
+[01:07:06.840 --> 01:07:10.900]  our system no matter what the rate is, right. So even if they said, Okay, fine, we'll just
+[01:07:10.900 --> 01:07:17.260]  cut it in half, everything is 15%. Now, everything, it just 15%, first year for 15%, second year,
+[01:07:17.260 --> 01:07:24.900]  third year, if it's a $10 game, just to buy it 15%, 15%, 1515 15. Okay, that'd be great.
+[01:07:24.900 --> 01:07:29.580]  Lots of developers would customers wouldn't know, right, because customers just pay and
+[01:07:29.580 --> 01:07:34.320]  the way it gets split is all between Apple and the developers or content providers, content
+[01:07:34.320 --> 01:07:39.740]  providers and developers would surely say thank you, that is better than 30. I don't
+[01:07:39.740 --> 01:07:44.780]  think it really gets to the core problem. The core problem is you must use our system
+[01:07:44.780 --> 01:07:53.100]  to have an app in the store. And the the hay scenario like the timing of Hayes debut is
+[01:07:53.100 --> 01:07:59.720]  so unbelievably serendipitous because it's it perfectly points out the the anti competitive
+[01:07:59.720 --> 01:08:05.820]  problem with this, which is that hay wasn't saying 7030 is not a good deal. We want that
+[01:08:05.820 --> 01:08:13.020]  better. Hay was wasn't saying we want to take credit cards in the app on our own, and charge
+[01:08:13.020 --> 01:08:18.460]  people without using your system. Hey was just saying, we would just like to sign people
+[01:08:18.460 --> 01:08:23.640]  up on our own outside the app on our website, we'll take care of all the promotion will
+[01:08:23.640 --> 01:08:28.140]  we have plenty of people on our waiting list, we don't need it. We just want to do that.
+[01:08:28.140 --> 01:08:31.700]  And then just have an app you download for free. And then all you see when you download
+[01:08:31.700 --> 01:08:38.620]  the app is here's how you log in. That's all we want. And Apple said no. And that to me
+[01:08:38.620 --> 01:08:46.580]  is the both legal and ethical. I think it's a problem. And I don't think that Tim Cook
+[01:08:46.580 --> 01:08:52.020]  justified it at all in front of the committee. Yeah, what was their their user experience
+[01:08:52.020 --> 01:08:56.660]  answer was, we don't want apps that don't do anything when you turn them on, right?
+[01:08:56.660 --> 01:09:00.500]  It's like, well, then let them do something, right? Let them put up a screen that says
+[01:09:00.500 --> 01:09:07.620]  go to the click this link to sign up on the web, like, you have created that exact problem.
+[01:09:07.620 --> 01:09:13.100]  Well, and this, this is your excuse. But it is a it's a situation of the that Apple's
+[01:09:13.100 --> 01:09:17.220]  rules have created. Yeah, and the app doesn't do anything. I keep coming back to and to
+[01:09:17.220 --> 01:09:24.100]  me, it is so clarifying, because it's so clearly wrong, is that among the rules of complying
+[01:09:24.100 --> 01:09:28.860]  with this is that the one of the rules is you can't explain the rules to your user.
+[01:09:28.860 --> 01:09:34.140]  So Netflix has an app that you download and doesn't do anything, you download the app,
+[01:09:34.140 --> 01:09:37.780]  and it says, what's your email? What's your password? And that's it. That's like the only
+[01:09:37.780 --> 01:09:42.300]  other thing you can tap is like a privacy policy. And Netflix has a help thing. I don't
+[01:09:42.300 --> 01:09:46.220]  even know if it's still there. But it cracks me up to no end that like a year ago, I tapped
+[01:09:46.220 --> 01:09:50.060]  it and it does still doesn't tell you what you have to do to sign up for Netflix, because
+[01:09:50.060 --> 01:09:54.580]  you're not allowed to. But it does have a phone number, which I did call and said, Hey,
+[01:09:54.580 --> 01:09:59.340]  I would like to I have an iPhone, I've got the Netflix app. I don't How do I sign up?
+[01:09:59.340 --> 01:10:04.180]  And they say, Oh, you need to go on a computer, go to netflix.com, and sign up there. And
+[01:10:04.180 --> 01:10:07.900]  then you can use the email and password you create on our website to sign into the app.
+[01:10:07.900 --> 01:10:13.020]  And I said, Thank you. And that was it. So you know, guess how many small companies have
+[01:10:13.020 --> 01:10:17.220]  a telephone hotline that they can do to route around that. But to me, anything, whether
+[01:10:17.220 --> 01:10:23.300]  it's sports, a game, anything. When you say one of the rules is you can't explain the
+[01:10:23.300 --> 01:10:30.860]  rules. That is that's dystopian shit, in my opinion, like, so you can't even say, even
+[01:10:30.860 --> 01:10:35.580]  the hotlink, I'm even I'm even saying that, to me, this would be good enough. Like if
+[01:10:35.580 --> 01:10:40.820]  Netflix and everybody else trying to use that rule, could just say, create a new account,
+[01:10:40.820 --> 01:10:46.660]  and then they say, you cannot create an account in this app, you need to go to our website,
+[01:10:46.660 --> 01:10:51.900]  and create an account there, and then come back and sign into the app. And that's it.
+[01:10:51.900 --> 01:10:56.700]  If they could just say that, if that's all they have to be able to say, to me would break
+[01:10:56.700 --> 01:11:02.640]  the logjam of this and the defense of, we want to make things that we're proud of to
+[01:11:02.640 --> 01:11:07.780]  our family and friends. I don't see how you could see how you can defend this on the user
+[01:11:07.780 --> 01:11:13.420]  experience in terms of how confusing it is, if you don't know the background of this,
+[01:11:13.420 --> 01:11:16.940]  that, you know, like, you and I are talking about this whole podcast, if you don't know
+[01:11:16.940 --> 01:11:23.580]  the background of this, it is extremely confusing to think about, okay, I've never signed up
+[01:11:23.580 --> 01:11:27.780]  for Netflix, I don't know what it is, I'm older, probably, if I don't already have it,
+[01:11:27.780 --> 01:11:32.340]  I go on my phone, I download this app, and I open it up, and it already wants my email
+[01:11:32.340 --> 01:11:36.340]  and password, I don't have an email and password, what are they talking about? Am I supposed
+[01:11:36.340 --> 01:11:41.140]  to use my iCloud password? What do I do that? Seriously, how many people do you think put
+[01:11:41.140 --> 01:11:46.140]  their iCloud password into that field when they download Netflix, if they don't already
+[01:11:46.140 --> 01:11:51.940]  have an account? Probably lots. It doesn't work. I don't know what to do. Why does it
+[01:11:51.940 --> 01:11:56.860]  think I already have an email and password? And there's nothing on the screen that would
+[01:11:56.860 --> 01:12:03.500]  explain this to you. It's a terrible user interface experience. And to me, it's unjustifiable.
+[01:12:03.500 --> 01:12:08.000]  Just let them say, you have to go to our website and sign up there, you can't sign up in this
+[01:12:08.000 --> 01:12:09.000]  app.
+[01:12:09.000 --> 01:12:12.340]  In there, by the way, there happens to be a pretty good browser on the phone would allow
+[01:12:12.340 --> 01:12:18.300]  you to do that. You can create a pretty easy flow. You don't even have to go to a Safari
+[01:12:18.300 --> 01:12:24.620]  view inside your app, you just do it. This is the first thing I was saying is, I think
+[01:12:24.620 --> 01:12:31.460]  I'm very convinced that to review a phone now or any piece of consumer electronics,
+[01:12:31.460 --> 01:12:36.860]  you almost have to know the policy. You have to know the business decision. Apple's App
+[01:12:36.860 --> 01:12:42.420]  Store rules are just the law of the phone. They're just like your state has a bunch of
+[01:12:42.420 --> 01:12:47.260]  state laws and there's federal laws. That's the same, just like Facebook's moderation
+[01:12:47.260 --> 01:12:51.440]  guidelines for Facebook are essentially the laws of a small country.
+[01:12:51.440 --> 01:12:56.740]  And I think the issue that we are having is, yep, we let this market grow up. This is a
+[01:12:56.740 --> 01:13:01.700]  thing the United States is pretty good at doing. The government just stayed away from
+[01:13:01.700 --> 01:13:05.420]  it. We're going to see what happens. Maybe it's going to all work itself out. And now
+[01:13:05.420 --> 01:13:10.360]  it's big enough and there are some players that are big enough where there's no market
+[01:13:10.360 --> 01:13:15.980]  force trying to make Apple's rules better, where they have to win because Hay is going
+[01:13:15.980 --> 01:13:20.900]  to go to another store on the phone to get the iPhone customers or Hay is going to build
+[01:13:20.900 --> 01:13:24.860]  a web app. I mean, did you hear Cook at the hearing? He's like, well, there's two ways
+[01:13:24.860 --> 01:13:28.460]  to get an app on the phone. One is it's like, dude, like that shit didn't work for
+[01:13:28.460 --> 01:13:31.540]  Steve Jobs and you're very charming, but you're not that charming, right?
+[01:13:31.540 --> 01:13:39.740]  Well, and the Steve Jobs angle back in 2007, I think was very much a, and, and, you know,
+[01:13:39.740 --> 01:13:42.780]  we know from some of the stuff that's come out that Jobs was on the fence about whether
+[01:13:42.780 --> 01:13:47.660]  they really should, but it was, it just wasn't ready. Even if Jobs had was completely on
+[01:13:47.660 --> 01:13:52.940]  board in June of 2007 with, we should have it, you know, APIs for third party developers,
+[01:13:52.940 --> 01:13:56.980]  it wasn't going to be ready with that first iPhone when it first launched. And so of course
+[01:13:56.980 --> 01:14:01.620]  they were going to tell you to make web apps, right? The difference in 2020 is, you know,
+[01:14:01.620 --> 01:14:07.380]  night and day. It is, it's not similar at all to say you can make a web app. And I mean,
+[01:14:07.380 --> 01:14:13.700]  one way Apple could get through it, like, honestly, if they made the web app APIs and
+[01:14:13.700 --> 01:14:17.780]  platform competitive with the app store, if you could do progressive web apps that downloaded
+[01:14:17.780 --> 01:14:22.060]  as bundles, like did the whole thing that Google would love them to do. And lots of
+[01:14:22.060 --> 01:14:25.340]  developers that I think that would be a pretty good argument. You can either come through
+[01:14:25.340 --> 01:14:29.660]  our store and pay us the money. You get a little bit more access to the platform or
+[01:14:29.660 --> 01:14:34.620]  just build a PWA. It's great. It's going to look, most users will never know the difference.
+[01:14:34.620 --> 01:14:40.220]  Okay. Like maybe, but right now they're in a place where to no developer is saying, I'm
+[01:14:40.220 --> 01:14:43.300]  gonna build a web app for the iPhone and you're going to love it. Right? Like they're not
+[01:14:43.300 --> 01:14:47.860]  doing that. So you're only locked to access iPhone customers who we know are generally
+[01:14:47.860 --> 01:14:51.700]  more wealthy, who spend more money on the phone, like all those things to access that
+[01:14:51.700 --> 01:14:57.940]  customer base. You have to go through Apple's, through Apple store. And Tim Cook also is
+[01:14:57.940 --> 01:15:01.500]  like, well, we compete furiously for developers. It can compete for Android. They compete for,
+[01:15:01.500 --> 01:15:05.780]  they can go to windows. They can go to the Xbox, the PS5. It's like, dude, that is just
+[01:15:05.780 --> 01:15:11.020]  such a, I think, uh, David Hammar Hanson was like, yeah, we're making hay for the PS5.
+[01:15:11.020 --> 01:15:15.140]  That's what we're going to do. Come on. Right. And I think this is like, this is where Apple
+[01:15:15.140 --> 01:15:21.140]  is there. They were not in as much trouble as the other companies very obviously. They're
+[01:15:21.140 --> 01:15:24.960]  not going to get broken up, right? Like Facebook is staring down the barrel of getting broken
+[01:15:24.960 --> 01:15:29.500]  up. Apple is going to look, there's some regulation is going to come out of this that says the
+[01:15:29.500 --> 01:15:34.420]  rules of your store have to meet legal standards and here are the new standards. And I think
+[01:15:34.420 --> 01:15:36.620]  that will be actually good for the sort of the entire ecosystem.
+[01:15:36.620 --> 01:15:42.260]  Yeah. I think that the other falsehood that Cook as a, maybe more of a live omission,
+[01:15:42.260 --> 01:15:47.900]  but it was in his prepared testimony. It was, I mentioned it even in a footnote. It was,
+[01:15:47.900 --> 01:15:51.740]  I didn't realize it. I should have at the time when I did my talk show with Jaws and
+[01:15:51.740 --> 01:15:59.420]  Fed, I call him Fed, Craig Federighi. Um, this idea that the, that the software industry
+[01:15:59.420 --> 01:16:05.980]  went from boxed retail software to app stores with no intermediary. Incredible. And, and
+[01:16:05.980 --> 01:16:10.340]  it wasn't just that I missed it. I fluffed it in my interview with Jaws cause I was too
+[01:16:10.340 --> 01:16:13.780]  caught up. I mean it. I really mean it. When he said that, I was like, why are we talking
+[01:16:13.780 --> 01:16:16.780]  about box software? Where do I go with this? I was like, I have too many other questions.
+[01:16:16.780 --> 01:16:22.660]  I'm going to go on and didn't really think about the, I was too, too concerned with why
+[01:16:22.660 --> 01:16:27.460]  we bring up box software, not thinking about why aren't we mentioning that you could, you
+[01:16:27.460 --> 01:16:31.900]  know, the Mac still has a thriving market that is bigger than the Mac app store for
+[01:16:31.900 --> 01:16:37.220]  soft paid software that you download directly from developers and pay some other way. Uh,
+[01:16:37.220 --> 01:16:42.660]  it, Apple itself used to have an up in the Apple menu up until there was a Mac app store.
+[01:16:42.660 --> 01:16:48.580]  You'd like the third item down. It was like about this Mac, about Mac OS 10 and uh, Mac
+[01:16:48.580 --> 01:16:54.100]  OS 10 software and third item down, you would go to a page that Apple ran at apple.com,
+[01:16:54.100 --> 01:16:58.660]  which was a great directory of like new and interesting apps. There was no app store.
+[01:16:58.660 --> 01:17:02.940]  You would just click, go through to their, you know, the rogue Amoeba site and download
+[01:17:02.940 --> 01:17:08.260]  the new version of a rogue Amoeba app and pay rogue Amoeba their own way. And it was
+[01:17:08.260 --> 01:17:14.060]  not 30%. It was not, well, there used to be some library for updating Mac apps. Right.
+[01:17:14.060 --> 01:17:21.060]  And I would like actually choose apps in whatever category that use this particular update library.
+[01:17:21.060 --> 01:17:25.580]  Do you remember what I'm talking about? It was like early two thousands. Maybe there
+[01:17:25.580 --> 01:17:30.960]  was some, there was some thing that developers could buy into that would deliver updates
+[01:17:30.960 --> 01:17:37.380]  over the internet. Um, it was really good. And one of the ways to like split this out,
+[01:17:37.380 --> 01:17:41.460]  the app store provides a lot of services to developers, right? It, you don't have to think
+[01:17:41.460 --> 01:17:45.660]  about being a payment processor. You don't have to think about delivering updates. Like
+[01:17:45.660 --> 01:17:50.540]  you don't have to run your own services. And this is how apple justifies the 30% wouldn't
+[01:17:50.540 --> 01:17:55.780]  be better for developers if there was a market of services that were competing for their
+[01:17:55.780 --> 01:18:00.860]  dollars to do some of those functions. And that's kind of what you have on the Mac, right?
+[01:18:00.860 --> 01:18:05.820]  That's um, and another layer of the stack. That's what you have for cloud services, Azure
+[01:18:05.820 --> 01:18:12.540]  and AWS and Google cloud. They want your money. They want your business. Uh, Microsoft, every
+[01:18:12.540 --> 01:18:17.060]  tech show that touches the developer in the audience, Microsoft is there with Azure dollars
+[01:18:17.060 --> 01:18:22.020]  spending the money telling you, put your app on Azure. It's great. We love it. iPhone apps
+[01:18:22.020 --> 01:18:28.420]  on Azure. Perfect. AWS is doing the same thing. They're, they're competing heavily. There's
+[01:18:28.420 --> 01:18:32.740]  no competition for some of the services the app store provides. And I think you can see
+[01:18:32.740 --> 01:18:37.740]  that on that side of the market too. Yeah. Well, here, I'll just, you know, a disclaimer,
+[01:18:37.740 --> 01:18:43.500]  they literally are sponsoring this episode of the show, but Linode has their object storage
+[01:18:43.500 --> 01:18:48.620]  APIs, which use the AWS APIs. And I know I'm not just saying it because they sponsored
+[01:18:48.620 --> 01:18:54.380]  this episode that with API compatibility, you can have an app that was using AWS and
+[01:18:54.380 --> 01:18:59.820]  switch to Linode. And really all you do is just change the, the, you know, well, who
+[01:18:59.820 --> 01:19:03.820]  wears the, where are the API endpoints and your code just keeps working. And it also
+[01:19:03.820 --> 01:19:08.060]  means that you could use both, right? You could sweat your spend between one or the
+[01:19:08.060 --> 01:19:11.900]  other and your user will never know the difference because they're just buckets of storage and
+[01:19:11.900 --> 01:19:16.020]  you don't get that. And they will compete for, right. They'll compete on pricing to
+[01:19:16.020 --> 01:19:20.540]  get, cause there's compatibility and interoperability, right? One thing that is, we should probably
+[01:19:20.540 --> 01:19:24.940]  move on to the other companies, but like, as you think about the services, Apple provides
+[01:19:24.940 --> 01:19:28.940]  developers. One thing I know the committee for all of its faults and all the chaos is
+[01:19:28.940 --> 01:19:33.940]  hearing. They're pretty good at understanding tech, right? Like much better than we've seen
+[01:19:33.940 --> 01:19:39.340]  a congressional committee historically. And they are aware of things like interoperability.
+[01:19:39.340 --> 01:19:43.540]  They are aware of the reason Amazon didn't get dinged for AWS is they know Azure and
+[01:19:43.540 --> 01:19:48.660]  Google cloud exist and are fiercely competitive. So I think it's like, this is where Apple's
+[01:19:48.660 --> 01:19:50.300]  going to get hit is definitely the store.
+[01:19:50.300 --> 01:19:56.100]  Yeah. All right. Let's move on to Amazon. I thought also the store, right. I thought
+[01:19:56.100 --> 01:20:00.940]  Amazon, I thought Bezos was, had an interesting demeanor. I think he tried to answer questions
+[01:20:00.940 --> 01:20:07.900]  as honestly as he could. He seemed very relaxed. Um, I do feel that that issue of like, do
+[01:20:07.900 --> 01:20:14.740]  I need to explain to you how business works? Like it was like the most frustrated he got.
+[01:20:14.740 --> 01:20:23.500]  Um, but I think that Amazon, it, it, it's really disingenuous to me for them to hang
+[01:20:23.500 --> 01:20:30.340]  their hat on. And I, I don't think it's completely irrelevant that, you know, like Bezos likes
+[01:20:30.340 --> 01:20:34.580]  to emphasize that, that, you know, they still sell way less than Walmart, even in the U
+[01:20:34.580 --> 01:20:41.980]  S that, that online isn't its own market. It's, um, you know, it's just a component
+[01:20:41.980 --> 01:20:50.740]  of the broader retail world. It's still though it's, and this year in particular for obvious
+[01:20:50.740 --> 01:20:55.900]  reasons, it's, it, it, it's really hard to hang your hat on that. And they're the
+[01:20:55.900 --> 01:21:01.820]  share of online resources, uh, retail sales that they have is astounding. And the way
+[01:21:01.820 --> 01:21:07.540]  that they treat the third party retailers is problematic in, in a lot of ways.
+[01:21:07.540 --> 01:21:14.020]  Yeah. I mean, this is, I think Bezos had the most questions. Um, it was Bezos or Zucco
+[01:21:14.020 --> 01:21:17.900]  had the most questions. Um, but almost all the ones that Bezos were about the store,
+[01:21:17.900 --> 01:21:22.820]  about marketplace, about third party sellers in particular, they kept hammering him on
+[01:21:22.820 --> 01:21:26.220]  whether Amazon uses data about what its sellers are doing, what's performing the store
+[01:21:26.220 --> 01:21:30.940]  to make its own products. And I, you're right. Like it's great that Walmart sells
+[01:21:30.940 --> 01:21:35.340]  more stuff. Walmart also sells like diesel fuel, right? Like they're just a bigger
+[01:21:35.340 --> 01:21:41.060]  company and more physical markets tied to physical locations. Right. Um, Amazon isn't
+[01:21:41.060 --> 01:21:44.620]  that there to some extent with whole foods. Yes, but they're not, they haven't achieved
+[01:21:44.620 --> 01:21:51.420]  that broad range of scale. The thing that I in particular about Amazon compared to other
+[01:21:51.420 --> 01:21:58.220]  kinds of stores and you walk into a Walmart or a target, you're in control of your experience.
+[01:21:58.220 --> 01:22:01.900]  You get to decide what section of the store you're in. There are some games and ship
+[01:22:01.900 --> 01:22:06.100]  over which products are placed at which level on the shelves, all that stuff. But you're
+[01:22:06.100 --> 01:22:11.420]  kind of looking around, you get to see all the products in some amount of parody with
+[01:22:11.420 --> 01:22:18.020]  Amazon. You go in and you type battery packs and Amazon decides what to show you. Right.
+[01:22:18.020 --> 01:22:22.780]  And there's a lot of, you can pay them or they can downrank you. There's no transparency
+[01:22:22.780 --> 01:22:28.820]  there. They decide which supplier gets to that, you know, that one click, a buy button
+[01:22:28.820 --> 01:22:33.660]  gaming for the buy button is a huge deal, right? And so all of these places where Amazon
+[01:22:33.660 --> 01:22:39.500]  gets to exert control over the consumer behavior are places where it defeats its competitors.
+[01:22:39.500 --> 01:22:43.460]  And the committee was just very focused on that. When you see, I think very famously
+[01:22:43.460 --> 01:22:48.660]  there's like a laptop stand, like a silver curve laptop stand. And that company invented
+[01:22:48.660 --> 01:22:51.620]  that thing. It was the most popular one. And then like overnight Amazon cloned it and that
+[01:22:51.620 --> 01:22:58.260]  company died. Diapers.com. There's a trunk organizer that I know. I think the Times did
+[01:22:58.260 --> 01:23:03.260]  a story where there was a trunk organ. Again, and I know a lot of people are like me are
+[01:23:03.260 --> 01:23:08.060]  like, Hey, I could use a trunk organizer. My car trunk is a mess. But there was a car
+[01:23:08.060 --> 01:23:13.300]  trunk organizer that shot up the sales charts and then Amazon, you know, all of a sudden
+[01:23:13.300 --> 01:23:16.500]  started selling an Amazon basics one and their sales went boot.
+[01:23:16.500 --> 01:23:23.460]  Yeah. And I look, every big store makes its own house brands. Like I get it, but you're
+[01:23:23.460 --> 01:23:28.740]  not in that demand response environment that the Amazon website and the Amazon Amazon app
+[01:23:28.740 --> 01:23:35.140]  are those comparisons break down, right? The house brands have always been a thing and
+[01:23:35.140 --> 01:23:40.340]  retail software in a box was the thing, but the analogies really, really break down. You
+[01:23:40.340 --> 01:23:46.180]  know, the house brands in a physical store like a Walmart or a physical supermarket are
+[01:23:46.180 --> 01:23:52.460]  very different thing than Amazon's house brands. Yeah. I mean, if you go into Walmart and you
+[01:23:52.460 --> 01:23:56.180]  have to fight through a thicket of weirdo brands you've never heard of to get to the
+[01:23:56.180 --> 01:24:00.300]  brand name you want, you're going to leave Walmart and go to a store that treats you
+[01:24:00.300 --> 01:24:04.420]  better. But Amazon is dominant, so it doesn't feel that competition. And then on top of
+[01:24:04.420 --> 01:24:08.980]  it on sort of the other side of the market, you know, the, the name brands often actually
+[01:24:08.980 --> 01:24:14.660]  manufacture the house brands and they get to impose conditions on, you know, if you
+[01:24:14.660 --> 01:24:19.260]  want Tide in your store, and it's Procter & Gamble makes Tide, but if you want Tide
+[01:24:19.260 --> 01:24:23.460]  laundry detergent in your store, the big company that owns Tide gets to say, well, we want
+[01:24:23.460 --> 01:24:27.980]  this placement on the shelf and your house brand can't have good packaging. It has to
+[01:24:27.980 --> 01:24:33.180]  be generic packaging, right? And that's a constant fight where there's at least the
+[01:24:33.180 --> 01:24:37.820]  illusion of equal leverage on both sides. Nobody gets that from Amazon. And I think,
+[01:24:37.820 --> 01:24:41.780]  again, where's the committee just going to hit Amazon with the regulation? It's going
+[01:24:41.780 --> 01:24:46.060]  to be, how do you run this marketplace? What are the rules? How do, how do you have small
+[01:24:46.060 --> 01:24:51.980]  suppliers, small businesses feel like they're in an environment where they're treated fairly,
+[01:24:51.980 --> 01:24:55.300]  even if it's not your policy, if it's the law that requires you to treat them fairly.
+[01:24:55.300 --> 01:24:58.860]  And there, Amazon just does not have a great defense. And when I say like Lina Khan was
+[01:24:58.860 --> 01:25:03.060]  sitting up there, I mean, that was her moment. Yeah. Like she wrote the paper that set this
+[01:25:03.060 --> 01:25:09.580]  all off about Amazon in particular doing predatory pricing, the kill diapers.com and then buying
+[01:25:09.580 --> 01:25:12.940]  it because they didn't want a competitor in the market. And if there's one thing that's
+[01:25:12.940 --> 01:25:16.380]  coming out of this, it will be targeted regulation at Amazon.
+[01:25:16.380 --> 01:25:24.380]  Yeah. I think that, um, I think Bezos is very genuine and I, as a long time Amazon customer,
+[01:25:24.380 --> 01:25:28.260]  I just brought this, I searched my email. I think I've been an Amazon customer since
+[01:25:28.260 --> 01:25:33.700]  1997 and maybe earlier, I don't know, but because I maybe I might've lost access to
+[01:25:33.700 --> 01:25:37.540]  the old college email where it might've, I might've had books I purchased before. They
+[01:25:37.540 --> 01:25:43.820]  are customer, they do want happy customers and you know, they used to have unbelievable,
+[01:25:43.820 --> 01:25:48.420]  like in the early days of buying books when it was still just like what Amazon was thought
+[01:25:48.420 --> 01:25:52.780]  of as a bookstore and it's like, yeah, but what if I get a book and I want to send it
+[01:25:52.780 --> 01:25:55.860]  back? And they were like, oh yeah, we'll just send it back. We'll do, you know, it was like
+[01:25:55.860 --> 01:25:59.060]  the returns were easier than going to a store because you don't have to leave your house.
+[01:25:59.060 --> 01:26:02.020]  It just like you say, I want you to click a button, say I want to send this book back
+[01:26:02.020 --> 01:26:06.100]  and then they'd say, well here, we'll send a guy to pick it up. There you go. Here's
+[01:26:06.100 --> 01:26:12.460]  your money back. Um, they are very customer focused and the counterfeit issue is where
+[01:26:12.460 --> 01:26:18.340]  I learned something about Amazon where I've known and I've been on the case that, Hey,
+[01:26:18.340 --> 01:26:23.100]  the Amazon has a real counterfeit problem where they're, there's not, not knockoffs
+[01:26:23.100 --> 01:26:28.820]  and ripoffs, but actual counterfeits, which is a level beyond right. Just copying the
+[01:26:28.820 --> 01:26:35.060]  look of a product but not claiming to be the product. They have real counterfeits and it's
+[01:26:35.060 --> 01:26:39.860]  like, why, why don't they tighten this up? This is a real problem. And then the pop socket
+[01:26:39.860 --> 01:26:43.980]  issue really brought it forward where it's like, it's not just like a low priority. It's
+[01:26:43.980 --> 01:26:47.260]  like they were like, yeah, we'll clean this up and you got to spend $2 million on an ad
+[01:26:47.260 --> 01:26:53.140]  buy. And it's like, yeah, that is, that, that was like a real red flag. And Bezos response
+[01:26:53.140 --> 01:26:57.420]  to this was basically, Hey, why we, I don't like counterfeits. We're trying to, we have
+[01:26:57.420 --> 01:27:00.860]  a big team, we're trying to stop it and you know, it doesn't do good for us cause we want
+[01:27:00.860 --> 01:27:04.080]  people to be happy and counterfeits don't make people happy. So of course we're trying
+[01:27:04.080 --> 01:27:08.940]  to stop it. And that was his answer. And I think he meant it, but this is where the evidence
+[01:27:08.940 --> 01:27:13.380]  really helps because there's a lot of proof that this is not a top priority for Amazon.
+[01:27:13.380 --> 01:27:21.300]  Yeah. I mean, I think Bezos, I think you're right. His demeanor was appropriate. He, he
+[01:27:21.300 --> 01:27:25.940]  was forgiving of the situation and that he was trying to answer the question that he,
+[01:27:25.940 --> 01:27:33.160]  there was a long audio clip they pay, they played of a textbook owner, a textbook business
+[01:27:33.160 --> 01:27:36.780]  owner and she was like, Amazon destroyed my business. And Bezos was like, I'd love to
+[01:27:36.780 --> 01:27:43.740]  get ahold of her. I'll fix her problem. But it's like, dude, like it's not, if you don't
+[01:27:43.740 --> 01:27:47.260]  know, if you're saying up here again and again and again, and your answer is, I didn't know
+[01:27:47.260 --> 01:27:52.960]  that was happening. I'm so sorry. I'll fix it myself. Like either you're not a very good
+[01:27:52.960 --> 01:28:00.220]  CEO, which I think is a hard road for Bezos to go down. Or you're being willfully ignorant
+[01:28:00.220 --> 01:28:06.240]  of the exact culture and business practices that you have created. And I think here the
+[01:28:06.240 --> 01:28:10.120]  committee just isn't going to buy the Jeff Bezos doesn't know how Amazon works. Who is
+[01:28:10.120 --> 01:28:14.380]  going to buy that? And so his, his sort of approach of I'll look into it, that's not
+[01:28:14.380 --> 01:28:18.860]  how I want it to work. It was good and it, it kept the temperature down. But I think
+[01:28:18.860 --> 01:28:24.260]  in terms of being a convincing argument, when the committee issues its report, they're going
+[01:28:24.260 --> 01:28:30.180]  to be like, either Jeff Bezos doesn't know how Amazon works, which is hard to believe,
+[01:28:30.180 --> 01:28:33.040]  or he's doing it on purpose and he lied to us.
+[01:28:33.040 --> 01:28:38.340]  As a side note, before we leave Bezos and Amazon, I thought that, uh, forgive me, I
+[01:28:38.340 --> 01:28:43.900]  forget her first name, but Jayapal, Pramila Jayapal. So she, she represents Seattle. That's
+[01:28:43.900 --> 01:28:52.060]  his representative. Right. And she went at him pretty hard in a very informed, constructive
+[01:28:52.060 --> 01:28:57.120]  way. And again, it might be my personal bias shining, shining through, but to me, this
+[01:28:57.120 --> 01:29:03.620]  gets to the basic idea that fundamentally the Democrats are there to do what they think
+[01:29:03.620 --> 01:29:09.780]  is right. And the Republicans are there to do what's good for their people, their side
+[01:29:09.780 --> 01:29:15.400]  of a thing. And I thought that that was, it was a shining example in the fact that she's
+[01:29:15.400 --> 01:29:20.140]  the representative of Amazon and that she went at him as hard as she would have if she
+[01:29:20.140 --> 01:29:24.740]  were representing, I dunno, what's the furthest you can get from Amazon, Alaska, Southern
+[01:29:24.740 --> 01:29:30.180]  Florida. Uh, you'd never guess that she was the rep, uh, other than maybe there was like
+[01:29:30.180 --> 01:29:36.660]  a cursory acknowledgement that she's the representative of Amazon's district. Um, you know, based
+[01:29:36.660 --> 01:29:41.560]  on her questioning and, and the, it, you know, the way she went at him, you would never guess
+[01:29:41.560 --> 01:29:45.380]  that she was his, you know, the representative of that district. I thought that, and she
+[01:29:45.380 --> 01:29:49.980]  was fantastic. And she was great the day before talking to Barr.
+[01:29:49.980 --> 01:29:55.180]  Yeah. Uh, so she's, you know, the breakout star of this hearing representative Jayapal
+[01:29:55.180 --> 01:29:59.020]  McKenna Kelly, one of our reporters, our preview piece, she actually interviewed Jayapal and
+[01:29:59.020 --> 01:30:03.460]  she was very clear. She's like, my role here is an investigator. We have receipts. We're
+[01:30:03.460 --> 01:30:07.700]  going to show them more to see what they say about them. And I, I, it's no accident that
+[01:30:07.700 --> 01:30:12.180]  they programmed the Amazon questions for her. Like that was the moment that they wanted
+[01:30:12.180 --> 01:30:15.140]  to create for her. And I think she, she just knocked it out of the park.
+[01:30:15.140 --> 01:30:21.540]  Yeah. It was just very fair. Very well informed. I mean, like deeply informed. She came away
+[01:30:21.540 --> 01:30:28.180]  better informed about Amazon's business practices than Jeff Bezos did. I mean, really. I mean,
+[01:30:28.180 --> 01:30:34.900]  by far, but, uh, so I don't know. What do you think is going to come out? I, I, I could
+[01:30:34.900 --> 01:30:40.060]  see some regulatory action coming out of this on Amazon. And I think specifically with the
+[01:30:40.060 --> 01:30:46.780]  third party resellers and it is a weird, this is the thing where there is no analogy to,
+[01:30:46.780 --> 01:30:51.580]  to the real brick and mortar world. There's, there's never been anything like Amazon in
+[01:30:51.580 --> 01:30:55.160]  the brick and mortar world. And I don't even know how there could be like, you can't go
+[01:30:55.160 --> 01:31:01.940]  into a Walmart and buy something from another store. You're always buying from Amazon or
+[01:31:01.940 --> 01:31:05.860]  from Walmart. Like you, you, you're, you could buy anything and everything. And most Walmarts
+[01:31:05.860 --> 01:31:12.700]  are very large stores and you can buy everything from dog food to lawn mowers to TVs, but you
+[01:31:12.700 --> 01:31:16.980]  go to the same register and you're paying Walmart. Like the idea that, I mean, I guess
+[01:31:16.980 --> 01:31:20.940]  you do check out through Amazon, but you're buying from another store and it's, you know,
+[01:31:20.940 --> 01:31:25.260]  a lot of these issues are come down to that. And as a user, you just don't know unless
+[01:31:25.260 --> 01:31:31.480]  you read the actual literal, it's not an exaggeration, small print that tells you who you're buying
+[01:31:31.480 --> 01:31:34.980]  from. Right? Yeah. You know, Amazon is very different.
+[01:31:34.980 --> 01:31:37.660]  You were at the very beginning, you're saying you can slice these companies in different
+[01:31:37.660 --> 01:31:44.540]  ways. You know, in one view, Apple and Amazon have the exact same problem. They run stores,
+[01:31:44.540 --> 01:31:50.580]  the stores are dominant. Maybe they're using their stores in unfair ways. In one view,
+[01:31:50.580 --> 01:31:53.460]  Amazon and Facebook have the same problem. Why did Amazon buy ring? Not because they
+[01:31:53.460 --> 01:31:57.300]  thought it was great because they just wanted to own that chunk of the market. And there's
+[01:31:57.300 --> 01:32:00.620]  actually really great emails in the evidence where they're debating whether to buy a ring
+[01:32:00.620 --> 01:32:03.660]  and they're like, well, what if this is just another nest that sucked for them? And I think
+[01:32:03.660 --> 01:32:10.900]  that's very funny because that's what they should be asking themselves.
+[01:32:10.900 --> 01:32:14.860]  But I think where it really breaks down is Amazon does sell physical goods. And so all
+[01:32:14.860 --> 01:32:22.100]  of the ways that we think about platform moderation, about section 230, right, all this stuff that
+[01:32:22.100 --> 01:32:27.300]  comes up with other platforms, those are all related to speech and advertising, all this
+[01:32:27.300 --> 01:32:33.220]  other stuff. Amazon's platform is about physical products to a large extent. And so you've
+[01:32:33.220 --> 01:32:41.420]  got a tailor regulation that hits both kinds of marketplaces that doesn't trip over itself
+[01:32:41.420 --> 01:32:45.760]  because eventually someone's got to put an item in a box and ship it out of a warehouse.
+[01:32:45.760 --> 01:32:50.120]  And so I think this is where some of the algorithmic transparency stuff comes in. This is where
+[01:32:50.120 --> 01:32:55.380]  Amazon can't favor its own products. Another example Jayapal brought up was when COVID
+[01:32:55.380 --> 01:32:59.980]  hit, ring doorbells were deemed as essential products that Amazon would ship on time, but
+[01:32:59.980 --> 01:33:04.820]  Arlo doorbells and Eufy doorbells were not. And Jeff Bezos was like, well, that was probably
+[01:33:04.820 --> 01:33:06.420]  a mistake. It's like, was it?
+[01:33:06.420 --> 01:33:12.060]  Yeah, but it was a mistake that their subsidiary was the one. It's like Facebook famously.
+[01:33:12.060 --> 01:33:18.140]  Every single time Facebook does a data dump where it's a number and you can set your goddamn
+[01:33:18.140 --> 01:33:22.160]  calendar by it. 30 days from now, they're going to issue a correction and the number
+[01:33:22.160 --> 01:33:28.540]  is going to come out is going to be worse than what it was 30. So their mistakes inevitably
+[01:33:28.540 --> 01:33:33.340]  always are on the side of undercounting a problem. Always. And it's the same thing.
+[01:33:33.340 --> 01:33:38.660]  Oh, we made a mistake. And the one who got approved for essential goods was our wholly
+[01:33:38.660 --> 01:33:45.260]  owned subsidiary that we may or may not have, should have been allowed to buy in the first
+[01:33:45.260 --> 01:33:46.260]  place.
+[01:33:46.260 --> 01:33:52.180]  So I just think like when you see the regulation, the regulation that's going to hit is very
+[01:33:52.180 --> 01:33:57.020]  much how do we, how do, what are the rules from marketplaces, online marketplaces? What
+[01:33:57.020 --> 01:34:00.900]  are the rules that relate to favoring your own products? What are the rules that relate
+[01:34:00.900 --> 01:34:05.700]  to how you treat, um, who has leverage? How do you, how do we get more leverage for the
+[01:34:05.700 --> 01:34:09.900]  pop sockets of the world through the law? So that if you wrong them, they can sue you.
+[01:34:09.900 --> 01:34:10.900]  It's going to look like that.
+[01:34:10.900 --> 01:34:14.820]  All right, let me take another break here and thank another first time sponsor. Very
+[01:34:14.820 --> 01:34:19.080]  excited to have this company on the show. Stitch Fix. Wouldn't it be great if every
+[01:34:19.080 --> 01:34:23.700]  clothing store you shopped at only had your size and the sort of styles of clothes that
+[01:34:23.700 --> 01:34:29.320]  you like at prices you want? Well, there is a company that is focused on making that happen
+[01:34:29.320 --> 01:34:34.880]  and that stitch fix in the world of online clothes shopping. There are no consistent
+[01:34:34.880 --> 01:34:39.520]  sizes. Why should you have to try to guess if you're a medium or a large or if it's really
+[01:34:39.520 --> 01:34:43.860]  the same medium as we've got from another company. Once you know your size at Stitch
+[01:34:43.860 --> 01:34:48.340]  Fix, you're good to go. It's a personal styling company and they make getting the clothes
+[01:34:48.340 --> 01:34:52.740]  you love effortless. Really, really easy. If you don't like shopping for clothes, this
+[01:34:52.740 --> 01:34:53.860]  is the way to go.
+[01:34:53.860 --> 01:35:00.060]  To get started, you go to stitchfix.com slash talk show to set up your profile. They'll
+[01:35:00.060 --> 01:35:04.620]  deliver you great looks personalized just for you in your colors, your styles, your
+[01:35:04.620 --> 01:35:11.700]  budget. What you do is you pay a $20 styling fee for each fix they ship you, but that 20
+[01:35:11.700 --> 01:35:17.240]  bucks is credited toward anything you keep. You schedule it at any time when you're ready.
+[01:35:17.240 --> 01:35:22.060]  No subscription required. They just send you a bundle of clothes. You keep the stuff you
+[01:35:22.060 --> 01:35:28.320]  like. You send the rest back. The $20 styling fee goes towards what you keep and shipping
+[01:35:28.320 --> 01:35:34.800]  returns and exchanges are easy and free. Stitch Fix does the hard work for you. Sizing colors,
+[01:35:34.800 --> 01:35:40.160]  that sort of thing. Picking great clothes that go together and they have stuff for men,
+[01:35:40.160 --> 01:35:45.940]  women and kids. Really, it's great stuff. Go to stitchfix.com slash talk show and by
+[01:35:45.940 --> 01:35:53.220]  using that URL, you get 25% off if you keep everything in your first fix. That's stitchfix.com
+[01:35:53.220 --> 01:35:58.500]  slash talk show for 25% off when you keep everything in your fix. My thanks to them
+[01:35:58.500 --> 01:36:00.820]  for sponsoring the show.
+[01:36:00.820 --> 01:36:04.420]  Let's go on to Google and then save Facebook for last.
+[01:36:04.420 --> 01:36:07.620]  Google is the hardest one.
+[01:36:07.620 --> 01:36:09.580]  Do you want to save them or do you want to?
+[01:36:09.580 --> 01:36:12.660]  No, it's where to start.
+[01:36:12.660 --> 01:36:19.060]  I didn't think Sundar Pichai did very well, to be honest. I think he seemed a bit lost
+[01:36:19.060 --> 01:36:22.700]  and I don't think he was prepared for some of the questions that he should have been
+[01:36:22.700 --> 01:36:23.700]  prepared for.
+[01:36:23.700 --> 01:36:30.100]  Yeah. I've talked to Sundar a bunch. I agree with that in general. I also think that is
+[01:36:30.100 --> 01:36:37.340]  just his personality. He is a professor. If you ask him a yes-no question, you never ever
+[01:36:37.340 --> 01:36:46.500]  get a yes-no answer. You get a setback. Computers work by shuffling electrons into states known
+[01:36:46.500 --> 01:36:53.340]  as ones. That's where his brain goes. This is not the format for his personality.
+[01:36:53.340 --> 01:36:58.660]  Where I did think it played to his benefit was all of the insane bias questions. They
+[01:36:58.660 --> 01:37:04.940]  couldn't get the viral moment out of him because it's not him. You can't bait him into it,
+[01:37:04.940 --> 01:37:10.420]  but I don't think that his professorial approach to things let him cleanly answer the questions.
+[01:37:10.420 --> 01:37:12.420]  I totally agree with you there.
+[01:37:12.420 --> 01:37:19.420]  I think that one that could have been a layup for him was Stube's question about his campaign
+[01:37:19.420 --> 01:37:27.860]  emails getting sent to spam. He was alleging that it was a form of conservative bias. He
+[01:37:27.860 --> 01:37:32.700]  ran for the State House in Florida five, six years ago and he didn't seem to have a problem
+[01:37:32.700 --> 01:37:36.860]  with his fundraising emails going to spam for Gmail users. Now he's in Congress and
+[01:37:36.860 --> 01:37:42.460]  they are. His dad tried to sign up for his own fundraising emails and even his went to
+[01:37:42.460 --> 01:37:47.700]  spam. Why is that? Why are you biased against conservatives?
+[01:37:47.700 --> 01:37:54.080]  He seemed so surprised by this question and the premise of it. Yet, I feel like he could
+[01:37:54.080 --> 01:38:00.940]  have easily answered and said, here's how spam filtering works. It's machine learning
+[01:38:00.940 --> 01:38:07.620]  that's based on what actual people deem as unwanted emails. I can assure you that if
+[01:38:07.620 --> 01:38:11.860]  fundraising emails are being flagged as spam more than they used to, it's not about whether
+[01:38:11.860 --> 01:38:17.700]  they're from Republicans or Democrats. It's simply because a large number of users are
+[01:38:17.700 --> 01:38:22.620]  identifying them as unwanted emails and regardless of who they're coming from, something like
+[01:38:22.620 --> 01:38:23.620]  that.
+[01:38:23.620 --> 01:38:29.380]  You're adorable, Jon. No. I mean, he runs YouTube. This man knows how platform moderation
+[01:38:29.380 --> 01:38:30.460]  controversies go.
+[01:38:30.460 --> 01:38:31.460]  I know.
+[01:38:31.460 --> 01:38:35.700]  You just gave a good faith answer to a good faith question. His job was to be like, I
+[01:38:35.700 --> 01:38:40.820]  have no idea what you're talking about. I'll look into it. The person who is in charge
+[01:38:40.820 --> 01:38:47.820]  of YouTube is not confused about the nature of platform moderation questions. You saw
+[01:38:47.820 --> 01:38:54.540]  that with Zuck too, over and over again. He's like, I don't know. Algorithms, how do they
+[01:38:54.540 --> 01:38:59.780]  work? That is where they're at. They can't be like, sorry, dude. The vast majority of
+[01:38:59.780 --> 01:39:04.580]  people flag your messages as spam so the machine decided to flag it for everyone because that's
+[01:39:04.580 --> 01:39:05.580]  the answer.
+[01:39:05.580 --> 01:39:11.060]  Sorry, right? No one wants to give you money. He can't. That's a whole fight he doesn't
+[01:39:11.060 --> 01:39:15.500]  want to be in. It's a fight that he can't win because it's not a good faith fight.
+[01:39:15.500 --> 01:39:19.540]  When I say Google is the most complicated one, yep, they do run YouTube. That's a big
+[01:39:19.540 --> 01:39:26.660]  deal. Yep, that search results page is just the focus of every company that has ever felt
+[01:39:26.660 --> 01:39:30.700]  wronged by the internet is mad at Google, right? Because the search results page doesn't
+[01:39:30.700 --> 01:39:35.180]  do what they want it to do. They run Android, they've got antitrust issues all over the
+[01:39:35.180 --> 01:39:39.380]  world with Android. And on top of it, they own the entire advertising economy of the
+[01:39:39.380 --> 01:39:40.380]  open web.
+[01:39:40.380 --> 01:39:45.660]  So like, where did it begin? And there's already, there's the DOJ investigation, there's state
+[01:39:45.660 --> 01:39:51.880]  AGs investigating. We're expecting some sort of case to be brought from one of them soon.
+[01:39:51.880 --> 01:39:57.340]  So you saw these questions are all over the place. Because you could just spend your entire
+[01:39:57.340 --> 01:40:04.260]  time, all five hours could have been spent on the top of the search results page. You
+[01:40:04.260 --> 01:40:07.700]  just put it all there. You could spend all five hours on Android, you can spend all five
+[01:40:07.700 --> 01:40:12.780]  hours on YouTube. They try to do them all. And I think that's why Sundar was just, he
+[01:40:12.780 --> 01:40:16.540]  was just buffeted by all of the controversy that surrounds Google.
+[01:40:16.540 --> 01:40:23.260]  Yeah, it's, it is surprising how much of human computer interaction, especially for things
+[01:40:23.260 --> 01:40:28.180]  where you don't already have a thing, right? Like I want to check my email, I know how
+[01:40:28.180 --> 01:40:32.260]  to get to my email app. It's right there, right? I want to send a text to my wife. I
+[01:40:32.260 --> 01:40:36.900]  know how to do that. But for anything that I don't already have an app, and maybe it's
+[01:40:36.900 --> 01:40:42.860]  not an app, but does it say apps? What do you do? You go to browser field and type natural
+[01:40:42.860 --> 01:40:52.220]  language query, what search engine is answering that 95% is Google, maybe more. I mean, no
+[01:40:52.220 --> 01:40:57.980]  matter what you use, no matter you're using the iPhone or an Android phone or a computer
+[01:40:57.980 --> 01:41:03.540]  or a tablet, it's, you know, that search field, that is human computer interaction to a large
+[01:41:03.540 --> 01:41:09.340]  degree, right? And yeah, it's that the top of the search results could be a whole five
+[01:41:09.340 --> 01:41:10.340]  hour hearing.
+[01:41:10.340 --> 01:41:15.900]  You know, it's, it's always struck me that Apple never built a search engine. I mean,
+[01:41:15.900 --> 01:41:20.820]  in some ways you can say the series of search engine. Sure. But they didn't realize that
+[01:41:20.820 --> 01:41:26.580]  they're like, that was such a key part of computing. You know, like what the line is
+[01:41:26.580 --> 01:41:31.780]  we want to own and control every part of the stack or whatever Tim Cook says. Well, search
+[01:41:31.780 --> 01:41:36.380]  is like the biggest one when you start to use the computer and the whole industry is
+[01:41:36.380 --> 01:41:42.380]  basically ceded it to Google. Yes, there's DuckDuckGo. Yes, Bing, Limson, but none of
+[01:41:42.380 --> 01:41:47.500]  the big companies are like, we should fix this problem. We should throw money at it
+[01:41:47.500 --> 01:41:49.580]  till we win. I've never really understood it.
+[01:41:49.580 --> 01:41:53.460]  So that's it. I'm glad you brought that up. I have this somewhere in my notes and missed
+[01:41:53.460 --> 01:42:00.020]  it. So on the intersection of Apple and Google in this quadrant, search is fascinating, right?
+[01:42:00.020 --> 01:42:05.100]  I get this. I, on an almost daily basis, I get asked on either on Twitter or often on
+[01:42:05.100 --> 01:42:10.700]  an email, why doesn't Apple buy DuckDuckGo? They get, they would get nothing from that.
+[01:42:10.700 --> 01:42:14.380]  And I was very curious whether this would come up in the hearing if they would ask either
+[01:42:14.380 --> 01:42:21.620]  of the two CEOs, how much does Google pay Apple for default placement in Safari as the
+[01:42:21.620 --> 01:42:27.620]  search engine? And it's a complicated question, but it is a lot of money. I mean, that question,
+[01:42:27.620 --> 01:42:32.420]  how much do you pay isn't complicated. Why is Google the default search engine and why
+[01:42:32.420 --> 01:42:38.620]  do they pay for it is complicated, but it's a lot of money and nobody other than a very
+[01:42:38.620 --> 01:42:42.820]  small handful of people at both companies seemingly knows the answer. And there's just
+[01:42:42.820 --> 01:42:48.600]  a lot of speculation, but it doesn't get revealed in either company's filings. It is apparently,
+[01:42:48.600 --> 01:42:57.780]  I think Goldman Sachs pegs it at like 20 billion a year. And I think Goldman has probably,
+[01:42:57.780 --> 01:43:03.860]  I would go with that number as the best we know, you know, $20 billion a year and that
+[01:43:03.860 --> 01:43:10.460]  gets filed under services. So a big chunk of Apple's services revenue isn't even related
+[01:43:10.460 --> 01:43:15.580]  to the app store. It isn't related to any service that Apple provides or develops. It
+[01:43:15.580 --> 01:43:20.420]  is Google paying Apple so that on the iPhone, when you type in the search field, it goes
+[01:43:20.420 --> 01:43:25.660]  to Google by default. Now it is also true that Google is the best search engine. I love
+[01:43:25.660 --> 01:43:32.500]  DuckDuckGo and use it as my default, but I will admit that when I use DuckDuckGo, I sometimes
+[01:43:32.500 --> 01:43:37.780]  get results that make me go to Google to do the same search. And if I use Google by default,
+[01:43:37.780 --> 01:43:45.700]  it's very seldom I would have to go to DuckDuckGo. Yeah. It is the best. The way that Google
+[01:43:45.700 --> 01:43:51.740]  and Apple deal is structured is they've structured in a way that when you, if you ask them directly
+[01:43:51.740 --> 01:43:56.540]  how much does Google pay to be the default? The answer is nothing because that is technically
+[01:43:56.540 --> 01:44:02.580]  the answer, but they are, but like the way the deal operates is that they pay, they pay
+[01:44:02.580 --> 01:44:06.580]  the money and then there's a default. But like the technical structure of the deal is
+[01:44:06.580 --> 01:44:11.660]  such that both companies get to say we don't, nothing, which I think is always very interesting.
+[01:44:11.660 --> 01:44:16.300]  Right? Like you're, you're only structuring a deal that way to get to that answer if you
+[01:44:16.300 --> 01:44:21.140]  think that answer is bad for some reason. And that's just part of the, part of the gamesmanship
+[01:44:21.140 --> 01:44:28.380]  here. Right. One thing like you, you've, you're obviously using Google just right over time.
+[01:44:28.380 --> 01:44:33.220]  It's just not even controversial to say Google search results have gotten worse. They've
+[01:44:33.220 --> 01:44:37.260]  gotten worse without question, but not worse in terms of not being able to find the information.
+[01:44:37.260 --> 01:44:44.020]  The page has gotten loaded with shit that puts you to Google things. And that is like
+[01:44:44.020 --> 01:44:49.660]  the shortest sign of monopoly to me. Right? Like they're, they're just making it worse
+[01:44:49.660 --> 01:44:53.700]  because they can because that makes more money because you're not going to go anywhere else.
+[01:44:53.700 --> 01:44:59.420]  And that's how, how do you solve that? How does Congress solve that? I have no idea,
+[01:44:59.420 --> 01:45:04.340]  but it's like the most obvious thing. Like you can call anyone at genius or anyone at
+[01:45:04.340 --> 01:45:09.380]  Yelp or any of these other companies that ran what are called vertical search engines
+[01:45:09.380 --> 01:45:13.180]  where you just, you're searching for flights. So kayak will just build a search engine just
+[01:45:13.180 --> 01:45:17.020]  for flights and they'll be like, yeah, Google scrapes are shit. They dump it in the main
+[01:45:17.020 --> 01:45:21.300]  page and they call our business. And like over and over and over again, that's the pattern.
+[01:45:21.300 --> 01:45:25.820]  And it, what has resulted in is a clog search results page that mostly points other Google
+[01:45:25.820 --> 01:45:31.260]  properties. And that that's, shouldn't the market fix that of all of the things here
+[01:45:31.260 --> 01:45:35.860]  shouldn't cleaner, better search be the easiest win. Like Sundar actually said it, it was
+[01:45:35.860 --> 01:45:39.980]  on my little like drinking game bingo. Like competition is just a click away. That's always
+[01:45:39.980 --> 01:45:44.260]  Google's argument. And yet for some reason it's not, I've never really understood why.
+[01:45:44.260 --> 01:45:49.740]  Yeah. And it really is easy to switch your default search engine. I mean, as easy as,
+[01:45:49.740 --> 01:45:53.060]  I mean, default certainly matter and most people probably don't even think about it,
+[01:45:53.060 --> 01:45:59.820]  but you know, it actually isn't that hard. It could be even easier. And people just don't
+[01:45:59.820 --> 01:46:03.700]  do it, you know? Yeah. But this is like in the EU, they made Windows, put the browser
+[01:46:03.700 --> 01:46:09.720]  ballot and everybody picked it. Right. And Android in the EU has all kinds of balloting
+[01:46:09.720 --> 01:46:13.500]  screens to pick different services because they've unbundled the Android in various ways.
+[01:46:13.500 --> 01:46:18.100]  Right. Everyone's speaking Chrome. So if you started your iPhone up, if you started your
+[01:46:18.100 --> 01:46:23.180]  iPhone up and one of the onboarding questions was, what do you want your search engine to
+[01:46:23.180 --> 01:46:29.860]  be? Yahoo, Google, DuckDuckGo or Bing and randomized, you know, just had user agreed
+[01:46:29.860 --> 01:46:35.900]  upon random number generator to, to randomize which order those four options appear in.
+[01:46:35.900 --> 01:46:39.700]  I don't think anything would change. I don't even know that people would even realize that,
+[01:46:39.700 --> 01:46:42.820]  you know, they don't even know what DuckDuckGo is. I don't even think most people know what
+[01:46:42.820 --> 01:46:46.420]  Bing is. And it's from, you know, second largest company in the world.
+[01:46:46.420 --> 01:46:51.420]  Yeah. I mean, all the evidence suggests that the, like those, that does balloting systems
+[01:46:51.420 --> 01:46:56.300]  they have in the EU don't do a lot at the same time. It doesn't mean Google isn't fighting
+[01:46:56.300 --> 01:47:01.980]  for those default spots. So in the docs, you know, there's this, when Sundar ran the Chrome
+[01:47:01.980 --> 01:47:08.660]  team, there's this email exchange where they're negotiating in like 2012 or 2011 or something.
+[01:47:08.660 --> 01:47:13.680]  How to get Chrome to be the default on Dell and Lenovo and Toshiba laptops. And the first
+[01:47:13.680 --> 01:47:18.540]  question is, can we even do it? And they're like, yes, but they, we can't do it in such
+[01:47:18.540 --> 01:47:22.900]  a way that they IE isn't there at all because there are some sites, particularly for these
+[01:47:22.900 --> 01:47:27.820]  enterprise customers that only work in IE, which is like, that's a whole story of technology
+[01:47:27.820 --> 01:47:31.940]  in 2012, right? Windows manufacturers, like we have to have IE because of these weird
+[01:47:31.940 --> 01:47:36.940]  corporate internet apps. Okay. Then they're like, well, it'll be easy to get Dell to agree.
+[01:47:36.940 --> 01:47:41.140]  All Dell cares about is money, right? It's just like this hard dunk on Dell. Like we'll
+[01:47:41.140 --> 01:47:44.940]  just pay Dell until it happens. And then like for this other one, I don't remember which
+[01:47:44.940 --> 01:47:49.060]  one it is, but for this other one, let's do it this way. We'll, we'll say that we'll let
+[01:47:49.060 --> 01:47:53.180]  them put IE on it, but Chrome will be the default, but they have to put the Chrome toolbar
+[01:47:53.180 --> 01:48:00.580]  in IE to get people to switch out. And that's, that is a extraordinarily aggressive move,
+[01:48:00.580 --> 01:48:07.020]  right? To say, we will, we, the Chrome team will pay money to determine what Lenovo's
+[01:48:07.020 --> 01:48:11.660]  product looks like, right? What Dell's product looks like. And we have the money to do it.
+[01:48:11.660 --> 01:48:16.620]  And then later in a different sort of thread, they're talking about how to improve the Google
+[01:48:16.620 --> 01:48:21.880]  search. And they're like, we need to make it so that the size of our user base creates
+[01:48:21.880 --> 01:48:27.240]  an unfair advantage in terms of data collection. So that the more users we have, the better
+[01:48:27.240 --> 01:48:30.980]  various things get. And no one can compete with us because they don't have our scale.
+[01:48:30.980 --> 01:48:34.720]  And they actually use the words unfair advantage, which I get in the business context. Like
+[01:48:34.720 --> 01:48:39.180]  you want to say that, right? But that is the exact thing that regulators around the world
+[01:48:39.180 --> 01:48:43.660]  and competitors have said about Google the entire time. You cannot actually build a competitor
+[01:48:43.660 --> 01:48:49.080]  Google search because you do not have the data set. And Google's data set is a moat
+[01:48:49.080 --> 01:48:53.140]  that no one can cross. And that's why none of the other big companies want to come across
+[01:48:53.140 --> 01:48:58.480]  it. The only company that could, because they get the volume of search queries by default
+[01:48:58.480 --> 01:49:03.500]  in the browser is Apple. And it's just why won't Apple do it? I've never understood it.
+[01:49:03.500 --> 01:49:08.300]  Well, and that's, I don't know what the answer is. They could, because they have the opportunity,
+[01:49:08.300 --> 01:49:13.900]  but you know, the cynical answer would be that if they did it, they don't think they
+[01:49:13.900 --> 01:49:19.100]  would make $20 billion a year from it. Yep. And I mean, I think, and I do think that is
+[01:49:19.100 --> 01:49:23.460]  a huge part of the answer, right? That, that let's say they bought DuckDuckGo and use DuckDuckGo
+[01:49:23.460 --> 01:49:28.240]  as the, you know, and app, you know, these big companies buying smaller companies is
+[01:49:28.240 --> 01:49:35.380]  a big part of it to, to squash competition is a problem. I think everybody would agree
+[01:49:35.380 --> 01:49:40.660]  that if Apple bought DuckDuckGo and said, and we're going to call it Apple search, and
+[01:49:40.660 --> 01:49:46.140]  it's going to be the default on all of our Safari browsers, that this would be pro competition,
+[01:49:46.140 --> 01:49:51.300]  right? I don't see how anybody could say that's an anti-competitive acquisition. This is pro
+[01:49:51.300 --> 01:49:56.420]  competition because they'd be, they'd be swinging their competitive cannons against the Google,
+[01:49:56.420 --> 01:50:02.860]  which has a monopoly. I think the cynical answer is Apple could say, we can buy DuckDuckGo
+[01:50:02.860 --> 01:50:09.160]  for a pittance by Apple standards. We could do a great job. We could scale it. The results
+[01:50:09.160 --> 01:50:13.920]  are good. The results in some ways would be better because they wouldn't have ads for
+[01:50:13.920 --> 01:50:20.380]  Google stuff. They'd be honest ads. We can't, we don't know any way to use that acquisition
+[01:50:20.380 --> 01:50:25.980]  to make $20 billion a year or even close to it. Right. That's that to me. And I, that
+[01:50:25.980 --> 01:50:32.140]  was one of my like, bingo. Will somebody ask about that particular issue? Because there's
+[01:50:32.140 --> 01:50:36.900]  an acquisition and it doesn't have to be DuckDuckGo. I mean, it could just be build their own,
+[01:50:36.900 --> 01:50:41.300]  whatever. To me, it's like whatever they do, I don't see how they see any path to get $20
+[01:50:41.300 --> 01:50:46.580]  billion a year from it or even close. And that $20 billion a year isn't just 20 billion.
+[01:50:46.580 --> 01:50:51.960]  It's 20 billion that gets filed under services, which is the division of Apple that Apple's
+[01:50:51.960 --> 01:50:59.220]  been promoting to wall street as our growth. Right. Yep. You know, like, there's one way
+[01:50:59.220 --> 01:51:03.980]  to make money in search. The app already makes money in search in a specific way and everybody
+[01:51:03.980 --> 01:51:08.380]  hates it, which is you put ads at the top of the results. Right. Right. And people hate
+[01:51:08.380 --> 01:51:11.500]  it in the app store. They absolutely hate it. Yeah. You search for overcast and you
+[01:51:11.500 --> 01:51:16.300]  get, you know, Joe's podcast app or whatever, you know. But like, is Apple going to buy
+[01:51:16.300 --> 01:51:21.620]  DuckDuckGo and try to monetize their way to 20 billion by building an ads business? There
+[01:51:21.620 --> 01:51:25.820]  is no other way to monetize search. That is it. That's the way. Are they going to do it?
+[01:51:25.820 --> 01:51:28.700]  They're definitely not going to do it. Right. So now you're buying this thing to compete
+[01:51:28.700 --> 01:51:33.820]  with Google. You're taking 20 billion off the books and you have like a moral DNA level
+[01:51:33.820 --> 01:51:38.260]  aversion to the way that you make money doing this business. Okay. All that makes sense.
+[01:51:38.260 --> 01:51:42.500]  And at the same time, just do it. And what else could they do? They could, they could
+[01:51:42.500 --> 01:51:46.180]  put, you know, like, you know, maybe you're searching for lawnmowers, but what they'll
+[01:51:46.180 --> 01:51:49.820]  do is come October, they'll, they'll just put a thing at the top of the results that
+[01:51:49.820 --> 01:51:54.780]  says, Hey, buy a new iPhone 12. Right. Just promote Apple's own stuff. If you're buying
+[01:51:54.780 --> 01:51:57.980]  it, they're not, but they don't need to do that. They already sell all the iPhone twelves
+[01:51:57.980 --> 01:52:03.020]  they can make. Right. They don't need it. Yeah. I mean, I, I don't think anybody wants
+[01:52:03.020 --> 01:52:07.300]  to, this is actually the other part of Google, right? So there's all the consumer facing
+[01:52:07.300 --> 01:52:11.660]  Google stuff. There is when you search for a video on Google, even if it, the original
+[01:52:11.660 --> 01:52:16.580]  version of the videos on Vimeo, Google will show you the YouTube rip. They're just going
+[01:52:16.580 --> 01:52:23.460]  to do it. Right. Like I said, people, I face that personally, I can personally vouch that
+[01:52:23.460 --> 01:52:29.380]  that happened because in years past I would put my, the talk show live on Vimeo, not YouTube
+[01:52:29.380 --> 01:52:33.260]  because I'm not a YouTuber and I just thought Vimeo had a better interface and I don't care
+[01:52:33.260 --> 01:52:38.020]  because I'm not a YouTuber. I don't care. And you know what people got when they'd search
+[01:52:38.020 --> 01:52:42.420]  for my talk show live videos, they got, uh, I'm going to say illegal. I don't really care.
+[01:52:42.420 --> 01:52:46.540]  I just liked the people watch it. I wasn't making money on the Vimeo one anyway, but
+[01:52:46.540 --> 01:52:51.140]  people would rip the Vimeo one and then post it to YouTube and they weren't, they weren't
+[01:52:51.140 --> 01:52:55.300]  even doing it for the ads. They were just like, I wish that this, I want to, somebody
+[01:52:55.300 --> 01:53:00.800]  wants to watch my show on YouTube. They'd rip it, post it to YouTube and watch it there.
+[01:53:00.800 --> 01:53:03.460]  And then that's what people would get when they search for it on Google. So that's why
+[01:53:03.460 --> 01:53:08.100]  I post them to YouTube now. Yeah. And Google, they've got the same algorithms. How do they
+[01:53:08.100 --> 01:53:12.180]  work? Argument, which literally happened. You'd search for talk show, you know, John
+[01:53:12.180 --> 01:53:19.260]  Gruber talk show WWDC 2016 and the canonical version is one place, my account on Vimeo,
+[01:53:19.260 --> 01:53:24.340]  and you'd get the YouTube version, which is from, and their argument is over billions
+[01:53:24.340 --> 01:53:29.820]  and billions of clicks. We have found people prefer clicking on YouTube. Why? Because we
+[01:53:29.820 --> 01:53:33.660]  keep putting YouTube at the top. There's arguments like fundamentally circuit. There's actually
+[01:53:33.660 --> 01:53:39.180]  another in these docs, again, there's the hearing, but like really what we got out of
+[01:53:39.180 --> 01:53:43.100]  this was all these internal documents. There's a long email chain where Google executives
+[01:53:43.100 --> 01:53:48.440]  are discussing whether to buy YouTube and for how much. And they actually started by
+[01:53:48.440 --> 01:53:53.220]  discussing whether they should buy pure digital, which made flip video cameras. So they went
+[01:53:53.220 --> 01:53:56.740]  to pure digital and said, Hey, do you want to make a Google branded YouTube branded flip
+[01:53:56.740 --> 01:54:01.580]  video camera? We'll do an integration and like direct upload, like whatever in flip
+[01:54:01.580 --> 01:54:05.860]  video or pure digital was like, screw it. We'll just sell you the whole company. This
+[01:54:05.860 --> 01:54:11.980]  is great for that. Like we're out, we see the phone coming, like we're out. And so they're
+[01:54:11.980 --> 01:54:16.180]  discussing it. And there's this line where they're like, well, we should just buy YouTube.
+[01:54:16.180 --> 01:54:19.540]  Like if we're trying to build this community video product, why don't we just buy YouTube?
+[01:54:19.540 --> 01:54:25.140]  It's right there. And they're like, well, if we buy YouTube, we were going to have to
+[01:54:25.140 --> 01:54:29.260]  start deleting the copyrighted content on YouTube and it will destroy the product because
+[01:54:29.260 --> 01:54:34.900]  that's what all it is. And it's like, they knew then that what YouTube was in the early
+[01:54:34.900 --> 01:54:40.260]  going was a place to pirate video. And this was always a problem. That's how YouTube grew.
+[01:54:40.260 --> 01:54:43.460]  They just paid the fines and paid the fines until they just paid Viacom announced the
+[01:54:43.460 --> 01:54:49.980]  default. Is that, should we run businesses that way? Like if you're a policy maker and
+[01:54:49.980 --> 01:54:54.460]  you're looking at this pattern of evidence where they know Google is going to break the
+[01:54:54.460 --> 01:54:58.620]  law and they think buying this company won't work out because they won't be able to keep
+[01:54:58.620 --> 01:55:02.700]  breaking the law, but then they kind of just did it anyway, right? Because it built the
+[01:55:02.700 --> 01:55:08.700]  business. Shouldn't we do something like committee? What do you think? Right? And that's just
+[01:55:08.700 --> 01:55:12.980]  like one tiny piece of Google. Like we've only talked about the search results page
+[01:55:12.980 --> 01:55:18.860]  this entire time. We have not talked about their dominance of advertising, which is actually
+[01:55:18.860 --> 01:55:25.040]  the problem. And that to me is like, Google's going to get it in some way, but it's going
+[01:55:25.040 --> 01:55:32.700]  to be a shotgun blast regulation. Hmm. Yeah. And I do think too, that they are,
+[01:55:32.700 --> 01:55:37.460]  you know, one difference between Apple and the other companies is what I just mentioned
+[01:55:37.460 --> 01:55:41.220]  about like possibly buying DuckDuckGo. Apple does make acquisitions, but they tend to buy
+[01:55:41.220 --> 01:55:45.940]  features, not products. Um, you know, they made a whole bunch of acquisitions to build
+[01:55:45.940 --> 01:55:50.460]  Apple maps, but nobody ever thinks, Hey, whatever happened to whatever companies they bought,
+[01:55:50.460 --> 01:55:54.500]  right? Like, Oh man, I really miss, you know, whatever weird company they had that had some
+[01:55:54.500 --> 01:55:57.460]  kind of mapping info. I feel like we're all about to see that with
+[01:55:57.460 --> 01:56:02.580]  dark sky. We're all about to dark sky is maybe the closest, right? Dark sky is a good counter
+[01:56:02.580 --> 01:56:08.060]  example where people are, are going to miss the actual product. And the fact that it was
+[01:56:08.060 --> 01:56:14.620]  also a popular Android app that is going to, or I guess it still is working, but it's sunsetted.
+[01:56:14.620 --> 01:56:22.980]  Yeah. Um, you can make a strong case that beats is a shell of itself, right? Like, yeah,
+[01:56:22.980 --> 01:56:27.060]  some of these, yeah, yeah. And beats in, you know, and, and it was the largest so that,
+[01:56:27.060 --> 01:56:30.620]  you know, there's exceptions. Yeah. Beats is a good one. And it was certainly high profile
+[01:56:30.620 --> 01:56:35.420]  too. It wasn't like beats acquisition was under the radar. Um, but for the most part,
+[01:56:35.420 --> 01:56:41.100]  Apple doesn't do that. Whereas Google buying YouTube is just buying a new thing, right?
+[01:56:41.100 --> 01:56:45.900]  It is, you know, and, and Facebook buying Instagram and Facebook buying WhatsApp, uh,
+[01:56:45.900 --> 01:56:50.940]  are very similar. You know, Apple doesn't really do that. And even when Amazon does
+[01:56:50.940 --> 01:56:55.680]  it, it's like with ring, it's at a smaller scale than Instagram and WhatsApp, right?
+[01:56:55.680 --> 01:57:02.380]  Like nobody thinks ring was going to be a rival company in size to Amazon. Whereas Instagram
+[01:57:02.380 --> 01:57:07.740]  is an independent entity might've been a legit straight up rival to Facebook, you know?
+[01:57:07.740 --> 01:57:13.420]  Yeah. I mean, so like the ring example is another one where it cuts both ways. Right.
+[01:57:13.420 --> 01:57:19.700]  Um, right. Like it was a base of saying I bought market position. Totally fair. What
+[01:57:19.700 --> 01:57:24.980]  else are you gonna spend your money on? Right? Like it's video doorbells. Like who gives
+[01:57:24.980 --> 01:57:28.580]  a shit, right? Of course you're gonna buy the best one. There's only three of them.
+[01:57:28.580 --> 01:57:34.340]  Ring started as a Kickstarter that didn't even make it through shark tank, right? Like
+[01:57:34.340 --> 01:57:40.020]  no one thought this was a good company and they like struggled their way into the market
+[01:57:40.020 --> 01:57:46.100]  leader of video doorbells. Okay. But as your real play, Alexa is going to control every
+[01:57:46.100 --> 01:57:49.900]  device in your house and we're going to have a platform that keeps interoperability from
+[01:57:49.900 --> 01:57:54.620]  smart home stuff. Like, do you think Jeff Bezos doesn't see that opportunity? Is that
+[01:57:54.620 --> 01:57:59.740]  cause that's a hard case to make too. And I think that's that act that we're going to
+[01:57:59.740 --> 01:58:04.220]  talk about Facebook now. I'm sure that idea that what you're buying is lock in what you're
+[01:58:04.220 --> 01:58:09.180]  buying is insulation from competition. That what you're buying is a hedge against anybody
+[01:58:09.180 --> 01:58:13.780]  else getting ahead is I think the most powerful idea that has emerged from this committee.
+[01:58:13.780 --> 01:58:17.900]  Yeah. Well I thought the closing, you know, such a lini, you know, opened it. I think
+[01:58:17.900 --> 01:58:22.660]  he did a great job running the actual meeting. I think he's a very good chairperson for this
+[01:58:22.660 --> 01:58:27.700]  committee. Uh, his closing remarks though was sort of like a, wait, what? He was like,
+[01:58:27.700 --> 01:58:30.820]  you know, thank you for everybody for being here. I think everybody here needs all four
+[01:58:30.820 --> 01:58:34.660]  companies need some regulation and some of you need to be broken up, bangs the gavel.
+[01:58:34.660 --> 01:58:41.780]  And it's like, what? And I think that brings us to Facebook because I, you know, you could
+[01:58:41.780 --> 01:58:46.340]  argue, so how would you break them up? Breaking up Apple is seems impossible. I can't imagine
+[01:58:46.340 --> 01:58:50.280]  what you would even say broken up. I mean, you can regulate the app store and change,
+[01:58:50.280 --> 01:58:55.940]  you know, enforce new rules on it. But yeah, I don't think, and I know some people will
+[01:58:55.940 --> 01:58:59.660]  say, well, they should spin the app store off into another company. And it's like, that
+[01:58:59.660 --> 01:59:05.500]  doesn't really make sense. There's things you could break off from Amazon, but it doesn't
+[01:59:05.500 --> 01:59:10.500]  make as much sense. YouTube, you could say it should be spun off from Google, right?
+[01:59:10.500 --> 01:59:17.980]  Yeah, absolutely. Uh, but Facebook, Oh man, Facebook, it's like, you know, why not spin
+[01:59:17.980 --> 01:59:25.300]  off Instagram? You know? So one of the arguments, um, and this isn't my world, so I'll probably
+[01:59:25.300 --> 01:59:29.140]  get the, you know, I'm very focused on consumer tech. Like that's what the verge is. That's
+[01:59:29.140 --> 01:59:34.740]  what we do on the business side. A lot of the arguments are, is, are we, have we locked
+[01:59:34.740 --> 01:59:40.180]  up too much growth inside of these companies, right? Is there, is the market stagnant? And
+[01:59:40.180 --> 01:59:44.280]  so like if you broke up Facebook and Instagram and they started competing, would they both
+[01:59:44.280 --> 01:59:48.660]  just get bigger, right? Would investors just get more money from investing in both? And
+[01:59:48.660 --> 01:59:53.220]  like, I think that is a totally fair question that answers the market side of it as much
+[01:59:53.220 --> 01:59:58.620]  as the policy side of it, because the policy side of it is inherently backward looking
+[01:59:58.620 --> 02:00:03.100]  in a way that I think is a little uncomfortable. Right? So we have these emails, Casey and
+[02:00:03.100 --> 02:00:07.620]  I wrote the whole story on it, on the verge, like Mark Zuckerberg emails to CFO and he's
+[02:00:07.620 --> 02:00:10.740]  like, I'm gonna buy Instagram. What do you think? And I see if I was like, why? Here
+[02:00:10.740 --> 02:00:18.140]  are some reasons, one, two, three, four, um, one neutralized competition to, um, get ahead
+[02:00:18.140 --> 02:00:22.180]  of the curve. Three, improve Facebook for other and Zuckerberg writes back, it's a combination
+[02:00:22.180 --> 02:00:26.780]  of one and three neutralized competition and improve Facebook. And then like 45 minutes
+[02:00:26.780 --> 02:00:31.580]  later he like emails this clarification. He's like, just to be clear, I didn't mean that
+[02:00:31.580 --> 02:00:37.120]  we're going to stop them from competing. And when, um, the lawyers presented all this evidence
+[02:00:37.120 --> 02:00:41.820]  to the committee, they labeled that email whoops in the slide deck because they firmly
+[02:00:41.820 --> 02:00:47.420]  believe that suck. Like the CFO ran over to Zuckerberg and was like, clean this up because
+[02:00:47.420 --> 02:00:52.260]  when this deal is scrutinized, they will see this and stop it. Right. Which is hilarious.
+[02:00:52.260 --> 02:00:58.900]  Like just hilarious clown car, these, you know, these powerful executives. Um, but if
+[02:00:58.900 --> 02:01:03.540]  you really believe that Zuckerberg has the data from Facebook and he's saying things
+[02:01:03.540 --> 02:01:09.700]  like there's, it's a winner take all market for every kind of social dynamic. So, uh,
+[02:01:09.700 --> 02:01:14.180]  to bring this into the present, tick talk is just a UI paradigm. It's a great video
+[02:01:14.180 --> 02:01:18.300]  editor if you've ever used it. Like it's like fun and exciting video editor, but nothing
+[02:01:18.300 --> 02:01:21.380]  is stopping Facebook or Google or whoever from building a fun and exciting video. That's
+[02:01:21.380 --> 02:01:25.780]  not the power of the platform. The power is the up swipes. The power is the algorithm.
+[02:01:25.780 --> 02:01:30.640]  It's a particular kind of social dynamic. Zuckerberg's point is there's only one winner
+[02:01:30.640 --> 02:01:34.340]  for every social dynamic. So every time I see a new one pop off, I'm going to buy the
+[02:01:34.340 --> 02:01:40.960]  winner. That is ice cold from suck. That's what he did. That's why he bought Instagram.
+[02:01:40.960 --> 02:01:44.060]  Maybe he didn't think it would be as big as it got. And you know, to his credit, Facebook
+[02:01:44.060 --> 02:01:48.280]  put a lot of money into it and all this stuff and they wanted to sell. But that deal was
+[02:01:48.280 --> 02:01:53.220]  looked at by the FTC and the FTC declined. They left it open. They said, we'll look at
+[02:01:53.220 --> 02:01:56.980]  it again in the future if we need to. But this company is a dozen people you're buying
+[02:01:56.980 --> 02:02:02.700]  for a billion dollars. Like most people think you're dumb, right? Like that was the response.
+[02:02:02.700 --> 02:02:07.580]  And so for now to go back and say, we got that wrong. We need to break you up. I think
+[02:02:07.580 --> 02:02:13.140]  it will be difficult. I think the sense and Brenner was like, you know, display pure partisanship.
+[02:02:13.140 --> 02:02:18.460]  He was like, well, it's the Obama FTC who said this was good. You love Obama, right?
+[02:02:18.460 --> 02:02:24.100]  Like, right. Sure. So that's a tough one, but I guarantee you the DOJ, the FCC are going
+[02:02:24.100 --> 02:02:27.420]  to move on Instagram. If not both Instagram WhatsApp soon.
+[02:02:27.420 --> 02:02:34.780]  Yeah. And the both of them, and you know, it, it, it is, again, putting the, your ethical
+[02:02:34.780 --> 02:02:44.140]  and legal judgment aside strategically, it is a brilliant insight by Zuck early that
+[02:02:44.140 --> 02:02:49.500]  we need to identify these things that there's always going to be one in these new dynamics.
+[02:02:49.500 --> 02:02:53.740]  We don't have to invent the dynamics. You probably can't predict what they will be,
+[02:02:53.740 --> 02:02:58.900]  right? Because Instagram's particular dynamic was almost impossible to predict in advance
+[02:02:58.900 --> 02:03:05.460]  who in the world really thought that phones would become the cameras that they are, right?
+[02:03:05.460 --> 02:03:10.660]  Like it just, you know, again, and it just in a handful of years, the original iPhone
+[02:03:10.660 --> 02:03:16.540]  in 2007 had the shittiest camera you could imagine. It didn't even shoot video. It, you
+[02:03:16.540 --> 02:03:23.300]  know, and, and Instagram just a handful of years later was a thing. And that this insight
+[02:03:23.300 --> 02:03:29.980]  of you're going to shoot it right there on your camera with your camera and edit it in
+[02:03:29.980 --> 02:03:36.860]  this app. And you know, the cameras were still so crappy at the time, which is why the early
+[02:03:36.860 --> 02:03:41.820]  years of Instagram were all about the filters that were so over the top in hindsight, but
+[02:03:41.820 --> 02:03:47.020]  they covered up for the fact that the raw unfiltered image was sort of so flat, you
+[02:03:47.020 --> 02:03:52.460]  know, technically poor, you know, and then as the cameras on the phones got better, they,
+[02:03:52.460 --> 02:03:56.740]  they de-emphasized the filtering is a gimmick because it wasn't needed. And, but the idea
+[02:03:56.740 --> 02:04:01.780]  of your, that's your camera and the best way to edit it is on your camera. And the best
+[02:04:01.780 --> 02:04:08.820]  thing to do with it is share it with the whole world and we'll keep a tight focus on the
+[02:04:08.820 --> 02:04:12.620]  interface. And it was a terrific insight. Nobody would have predicted it.
+[02:04:12.620 --> 02:04:19.420]  Yeah. Um, are the former creative director of the Verge, James Barham, uh, who is now
+[02:04:19.420 --> 02:04:24.180]  one of the creators of our whole company. He's moved up in the world. Um, uh, he, before
+[02:04:24.180 --> 02:04:28.180]  he was our creative director, he was a professional photographer for years and years and years.
+[02:04:28.180 --> 02:04:33.380]  And he wrote this piece for us, um, several years ago, just about the iPhone camera in
+[02:04:33.380 --> 02:04:37.980]  particular Instagram. And he was like, the insight here is that the place you create
+[02:04:37.980 --> 02:04:43.420]  the image is the place that you view and share it. And that connection between what you are
+[02:04:43.420 --> 02:04:49.020]  seeing other people do and what you have been empowered to do in the same interface is,
+[02:04:49.020 --> 02:04:52.900]  is the revolution. Yeah. That's never happened to anyone before.
+[02:04:52.900 --> 02:04:59.060]  No. And at the same scale, right? Like the, the, when I'm taking a picture in Instagram
+[02:04:59.060 --> 02:05:06.780]  on my phone, it looks like after I post it, it looks like the pictures from you, Nilay
+[02:05:06.780 --> 02:05:10.180]  and my wife and whoever else I'm looking, you know, cause it's on the phone, it's the
+[02:05:10.180 --> 02:05:16.300]  same size and it's the same screen. It's, it is, you know, so obvious in hindsight and
+[02:05:16.300 --> 02:05:21.220]  so completely non-obvious in advance. I think what Casey and I were talking about
+[02:05:21.220 --> 02:05:25.420]  this, it's like very easy to clown on Zuck, right? Like there's the video of him smoking
+[02:05:25.420 --> 02:05:29.740]  meats in the backyard and there's a picture of him with the sunscreen and you know, just
+[02:05:29.740 --> 02:05:36.540]  the general nature of the company just acting clumsy, even though it's often malicious in
+[02:05:36.540 --> 02:05:42.500]  different ways. Zuck is a genius, right? Like he's like obviously one of the smartest people
+[02:05:42.500 --> 02:05:47.340]  in every room that he's in, if not the smartest. And he saw it and he was able to, when we
+[02:05:47.340 --> 02:05:51.720]  were writing the story, one of the things that struck me is I don't have to explain
+[02:05:51.720 --> 02:05:58.500]  what Zuck is saying, right? Like often when we get emails or documents or legal stuff,
+[02:05:58.500 --> 02:06:04.680]  like I, as a writer have to unpack what is happening, right? This is what they mean.
+[02:06:04.680 --> 02:06:09.360]  This is what this coded business or legal or whatever jargon means with Zuck. It was
+[02:06:09.360 --> 02:06:14.140]  just, he said he just knew it. He could express it as clearly as anything and I could let
+[02:06:14.140 --> 02:06:19.660]  his words drive the story through. That is a, for me, you're a writer, I know you probably
+[02:06:19.660 --> 02:06:25.240]  feel this way, but that is a mark of high intelligence, right? When you're writing in
+[02:06:25.240 --> 02:06:30.820]  emails to your CFO that you don't think anyone else is ever going to read are that clear
+[02:06:30.820 --> 02:06:35.840]  and precise, that is a mark of a very smart person. And I think that just tracks, it doesn't
+[02:06:35.840 --> 02:06:39.360]  track with his current persona where everything is just fucking everything up, but he's like
+[02:06:39.360 --> 02:06:40.920]  obviously incredibly smart.
+[02:06:40.920 --> 02:06:46.320]  Uh, well, and let's go back in time and tie it in with Apple. It's, it, you know, Steve
+[02:06:46.320 --> 02:06:50.480]  Jobs had that, right? You read Steve Jobs's emails and they're very clear when you know
+[02:06:50.480 --> 02:06:54.680]  that Steve Jobs wrote a thing like the thoughts on music and the thoughts on flash and you
+[02:06:54.680 --> 02:06:59.520]  know he wrote them or the 1.0 version of the app store guidelines when, and there still
+[02:06:59.520 --> 02:07:03.840]  are a few jobsisms in the guidelines as they stand now, you know, like when they're talking
+[02:07:03.840 --> 02:07:08.340]  about scams, it's like, we don't have to define what they are. We know them when we see them.
+[02:07:08.340 --> 02:07:12.960]  It's like, yeah, Steve Jobs wrote that. Um, I always thought it was very interesting cause
+[02:07:12.960 --> 02:07:20.240]  I had in the, you know, 2008, nine era, you know, when Steve Jobs was still there, you
+[02:07:20.240 --> 02:07:24.840]  know, alive, uh, Facebook wasn't anywhere near as big, you know, and I don't think it
+[02:07:24.840 --> 02:07:28.240]  was clear that it was going to be big. And I think, you know, is it the next MySpace
+[02:07:28.240 --> 02:07:34.120]  was a legit question. Even if you were informed, um, is it a flash in the pan? The fact that
+[02:07:34.120 --> 02:07:39.680]  Jobs took a personal, you know, what would you call it? Not a stewardship, but a sort
+[02:07:39.680 --> 02:07:45.120]  of took, took Zuck under his wing, um, and found him interesting. I mean, one thing we
+[02:07:45.120 --> 02:07:50.560]  know for a fact about Steve Jobs is he did not suffer fools, right? Yeah. Uh, and there
+[02:07:50.560 --> 02:07:54.720]  is a similarity there. Like, you know, the fact that, you know, and I don't think Zuck
+[02:07:54.720 --> 02:07:58.840]  or Steve Jobs had any particular interest in Facebook as a product. I just think he
+[02:07:58.840 --> 02:08:04.360]  found Zuck personally interesting and smart. Right. And who was the other, who was the
+[02:08:04.360 --> 02:08:08.020]  other person who did the same thing? Bill Gates. Like if you can roll up in the world
+[02:08:08.020 --> 02:08:12.120]  and you, those two dudes are like, Oh, this is the next generation of talent. Like you're
+[02:08:12.120 --> 02:08:17.080]  probably not faking it. Right. Right. And that's why, that's why Jobs and Gates got
+[02:08:17.080 --> 02:08:21.520]  along so well, even though they had such different opinions and were competitors, they found
+[02:08:21.520 --> 02:08:26.760]  each other, you know, like, Oh, this is a mind that I can, I, I, I deem appear to mine.
+[02:08:26.760 --> 02:08:33.360]  Yeah. So, I mean, look, I, again, the, in terms of this hearing, Zuck is really good
+[02:08:33.360 --> 02:08:38.520]  at this. He handled the crazy moderation questions better than anyone because he's, yes, he's
+[02:08:38.520 --> 02:08:42.600]  just done rounds and rounds of them with Congress now. He's ready for it. Yeah. So he handled
+[02:08:42.600 --> 02:08:47.860]  that really well. And he had the confidence that no one's trying, maybe they will regulate
+[02:08:47.860 --> 02:08:53.520]  more acquisitions more closely. That is probably going to happen. But in terms of attacks on
+[02:08:53.520 --> 02:08:58.900]  his business, they have to go back in time and justify breaking them up now when they
+[02:08:58.900 --> 02:09:04.200]  didn't prevent it then. And that will be, it's not impossible. And certainly there's
+[02:09:04.200 --> 02:09:10.000]  a lot of political will to do it, but it's not, it's not the same as we wrote a law that
+[02:09:10.000 --> 02:09:13.720]  changes how Amazon works, which is definitely the other thing that's going to happen.
+[02:09:13.720 --> 02:09:18.560]  Yeah. Who do you think is the most likely to be broken up? Do you think it's Facebook
+[02:09:18.560 --> 02:09:19.920]  or Google?
+[02:09:19.920 --> 02:09:25.640]  I think that the case that was made to break up at least Instagram from Facebook, it was
+[02:09:25.640 --> 02:09:29.480]  the point of the committee's release of the documents that were released. And I think
+[02:09:29.480 --> 02:09:36.280]  very clearly when we were reporting out the story, those documents were described to us
+[02:09:36.280 --> 02:09:39.120]  as we think this is as close to a smoking gun as we can get.
+[02:09:39.120 --> 02:09:46.040]  Yeah. And what is the argument that any harm would come to consumers in any way from this?
+[02:09:46.040 --> 02:09:52.120]  And I really fail to see it. What, that your ads and Instagram won't be informed by the
+[02:09:52.120 --> 02:09:58.640]  stuff you type into Facebook anymore? I mean, that is a stretch to say that that's harm
+[02:09:58.640 --> 02:10:04.520]  to consumers, right? If you're an avid user of Facebook and an avid user of Instagram,
+[02:10:04.520 --> 02:10:10.720]  and they spun Instagram off into an independent company, I really think it's highly unlikely
+[02:10:10.720 --> 02:10:11.840]  that you'd know.
+[02:10:11.840 --> 02:10:17.100]  Oh yeah. I mean, most people that we do a survey every year and one of the questions
+[02:10:17.100 --> 02:10:21.080]  is like, who do you love? Who do you hate? And then do you know that Facebook owns Instagram?
+[02:10:21.080 --> 02:10:27.400]  It's always like sub 50% of people even now. Like who cares, right? I don't think that
+[02:10:27.400 --> 02:10:33.400]  the question there isn't harm to consumer that will block it, right? It's is this like
+[02:10:33.400 --> 02:10:38.560]  the government can't just run around taking things from you. They have to have a compelling
+[02:10:38.560 --> 02:10:39.560]  reason to do that.
+[02:10:39.560 --> 02:10:43.320]  This has to be explained to a lot of people.
+[02:10:43.320 --> 02:10:47.480]  They need to make an argument that Facebook will challenge that will go all the way up.
+[02:10:47.480 --> 02:10:53.800]  And so, you know, you mentioned Cicilline's closing remarks and so he, yeah, he said the
+[02:10:53.800 --> 02:10:57.440]  three things that everybody caught, right? All of you are too powerful. All of you need
+[02:10:57.440 --> 02:11:02.280]  to be regulated and some of you need to be broken up. And then he ended with a quote
+[02:11:02.280 --> 02:11:08.940]  from Louis Brandeis, Justice Brandeis. And that was a signal flare. That was fireworks
+[02:11:08.940 --> 02:11:14.160]  in the sky with Lena Con sitting behind him because that means he's going to change the
+[02:11:14.160 --> 02:11:19.640]  standard of review in NHS law. So what we have now is called the consumer welfare standard.
+[02:11:19.640 --> 02:11:24.080]  It's it's from the like the seventies and eighties. There's just an insane backstory
+[02:11:24.080 --> 02:11:27.880]  with this guy named Robert Bork. I won't, we did it on the Vergecast. It took too long
+[02:11:27.880 --> 02:11:31.960]  and it was boring. If you want to go listen to it, listen to my show, it's on there. But
+[02:11:31.960 --> 02:11:36.320]  based on the seventies and eighties, it's very influential. Judge Robert Bork changed
+[02:11:36.320 --> 02:11:40.280]  the standard of the law. It's what's called consumer welfare standard. And he said, mergers
+[02:11:40.280 --> 02:11:46.680]  should be allowed unless we can prove that consumer prices will go up. And that opened
+[02:11:46.680 --> 02:11:53.280]  the flood gates to every merger. That's like, why does, why did AT&T reconstitute itself?
+[02:11:53.280 --> 02:11:58.320]  Like the T 1000, like, cause we changed the antitrust standard. That's what happened.
+[02:11:58.320 --> 02:12:04.760]  We can't prove that Ameritech and SBC are going to not rate. You can't prove it. So
+[02:12:04.760 --> 02:12:10.180]  they got, they merged. If you look at the, the Time Warner AT&T merger, when it went
+[02:12:10.180 --> 02:12:17.360]  up to the courts, if you look at that decision, there's like 40 pages of argument from experts
+[02:12:17.360 --> 02:12:22.540]  over whether cable prices will rise by 30 cents. And there's zero discussion of whether
+[02:12:22.540 --> 02:12:28.200]  AT&T will zero rate HBO on the phone. Right. And it's like, okay, our standards are just
+[02:12:28.200 --> 02:12:31.480]  like upside down. We're not even arguing the right thing. Right. So this, this reference
+[02:12:31.480 --> 02:12:37.480]  to Brandeis is very much when we were trust busting, when we were breaking up Standard
+[02:12:37.480 --> 02:12:43.920]  Royal and and the railroads and all this stuff, the standard was different. It was a competitive
+[02:12:43.920 --> 02:12:48.480]  standard. Brandeis was the champion of that standard. So it was just like, if you've been
+[02:12:48.480 --> 02:12:52.680]  paying attention, you know, it's very dry and very legal, but Tim Wu wrote a book called
+[02:12:52.680 --> 02:12:57.160]  the curse of bigness. Tim Wu wrote a book called the curse of bigness, which is basically
+[02:12:57.160 --> 02:13:01.760]  a book where he says Robert Bork is a shithead and Brandeis had it right. It's a fun read.
+[02:13:01.760 --> 02:13:06.440]  Tim was a great writer. I mean, that's just, if you, that's just a dog whistle to say,
+[02:13:06.440 --> 02:13:10.500]  I'm changing the consumer welfare standard. Like we got to get out of this. One thing
+[02:13:10.500 --> 02:13:15.140]  that is very interesting, and I actually, I didn't know this and this is now deeply
+[02:13:15.140 --> 02:13:19.640]  in the weeds and you can just, you can just edit this out if you think it's boring. But
+[02:13:19.640 --> 02:13:25.440]  at the, at the same time that the sort of consumer welfare standard was in its ascendancy
+[02:13:25.440 --> 02:13:31.760]  in America, the EU was forming. And one of the reasons that you formed was to gain competitive
+[02:13:31.760 --> 02:13:35.440]  advantage with the United States, right? Like we need a bigger market to compete with the
+[02:13:35.440 --> 02:13:39.960]  United States. So we're going to form this single European market. And they just lifted
+[02:13:39.960 --> 02:13:43.440]  our competition policy because they thought it was good. They're like, that worked for
+[02:13:43.440 --> 02:13:48.560]  them. We'll just lift it. So you have this sort of natural worldwide AB experiment of
+[02:13:48.560 --> 02:13:53.240]  United States competition policy, the new one in United States competition policy, the
+[02:13:53.240 --> 02:13:57.540]  old one in Europe. And you just look at it. They're much more active in antitrust. Their
+[02:13:57.540 --> 02:14:03.140]  prices for things like cell phones and laptops, like it's wild how much cheaper internet services
+[02:14:03.140 --> 02:14:08.920]  in the EU because they have a focused competition policy. So, you know, do I buy it that it's
+[02:14:08.920 --> 02:14:13.200]  a one to one AB test? Is that a true AB test? You have to be a very specific kind of economist
+[02:14:13.200 --> 02:14:16.880]  or academic to make the case. I'm not either one of those things, but it's just one of
+[02:14:16.880 --> 02:14:22.440]  those, like actually our antitrust law changed a lot in the past 30 years. We just haven't
+[02:14:22.440 --> 02:14:25.160]  really talked about it. And now we are absolutely talking about it.
+[02:14:25.160 --> 02:14:28.680]  Yeah. I thought one of the other interesting things to come up to talk about the, the,
+[02:14:28.680 --> 02:14:35.600]  the shithead angle, um, to have it actually there as a focus of the committee with the
+[02:14:35.600 --> 02:14:41.480]  diapers.com thing, with the selling it as a loss leader to, to destroy competition and
+[02:14:41.480 --> 02:14:45.380]  then raising price afterwards. Where if your focus is, if you think the law is entirely
+[02:14:45.380 --> 02:14:51.680]  focused on what prices go up, it allows Amazon and you know, and you have to be an existing
+[02:14:51.680 --> 02:14:56.840]  Titan to get away with it, to, to spend, to lose a fortune to gain market share, you know,
+[02:14:56.840 --> 02:15:01.840]  and that it's super anti-competitive and completely locks out upstarts. You can't, how can you
+[02:15:01.840 --> 02:15:10.120]  possibly lose more money than Amazon is willing to lose, right? You can't. It just is not,
+[02:15:10.120 --> 02:15:15.460]  it's just not compatible with the idea of how monopolies were abused a century ago when
+[02:15:15.460 --> 02:15:21.280]  it was always to raise prices. The idea that you'd use a monopoly to lower prices and benefit
+[02:15:21.280 --> 02:15:27.160]  in the end, it just isn't there when you're only focused on will prices go up for the
+[02:15:27.160 --> 02:15:31.680]  consumer or will prices go down and get hidden somewhere else in the stacks. Like standard
+[02:15:31.680 --> 02:15:36.560]  oil famously lowered the price of oil, but made it up because they owned everything else.
+[02:15:36.560 --> 02:15:42.640]  And so they, they were able to squeeze competitors. So diapers.com, that's just another, you know,
+[02:15:42.640 --> 02:15:47.360]  flag waving. I've mentioned Lena con several times now. People should just go read the
+[02:15:47.360 --> 02:15:51.920]  article. It's called Amazon's antitrust pair, uh, Amazon antitrust paradox. It's on the
+[02:15:51.920 --> 02:15:57.120]  Yale law journal. It's swear to God, swear to God. It's in the show. Not, uh, the thrust
+[02:15:57.120 --> 02:16:01.760]  of this article is about diapers.com. Yeah. Like that was, I mean, this entire moment
+[02:16:01.760 --> 02:16:05.880]  kicked off when she evaluated diapers.com in the context of our current antitrust law
+[02:16:05.880 --> 02:16:09.920]  and said, Amazon has charted a path through the law while we're talking about and just
+[02:16:09.920 --> 02:16:14.320]  to wrap up. And again, this is totally off topic, but just final note, I know you'll
+[02:16:14.320 --> 02:16:20.000]  appreciate it. Um, you know, there's a national coming, a reckoning of like, Hey, old ma,
+[02:16:20.000 --> 02:16:24.240]  some of our old monuments are to people who were, uh, we should not have monuments for,
+[02:16:24.240 --> 02:16:30.200]  right? Sure. So here in Philadelphia, right here in center city, we have a street right
+[02:16:30.200 --> 02:16:35.520]  at the edge of the Schuylkill river, uh, called Taney street and there's a little league field
+[02:16:35.520 --> 02:16:40.040]  there. And in fact, the little league in center city, Philadelphia is the Taney baseball league.
+[02:16:40.040 --> 02:16:44.180]  Never thought twice about it, never questioned it. And now there's a movement to rename Taney
+[02:16:44.180 --> 02:16:47.000]  street. And I'm like, well, why, what the hell's wrong with that? Do you know who Taney
+[02:16:47.000 --> 02:16:54.160]  is? I doubt Taney's the Supreme court justice who wrote dread Scott. Ah, yeah, that's not
+[02:16:54.160 --> 02:17:01.480]  a good one. It gets worse. Didn't even live in Philadelphia. They just wanted to name
+[02:17:01.480 --> 02:17:05.800]  the street after they did there with the Catholics in Philadelphia wanted to name it after the
+[02:17:05.800 --> 02:17:11.560]  first Catholic Supreme court justice. Of course. So it's like, Oh yeah, we should probably
+[02:17:11.560 --> 02:17:15.320]  rename that street. And it, and the complaints are all like, do you know how male's going
+[02:17:15.320 --> 02:17:18.960]  to get screwed up? You know, blah, blah, blah. And it's like, uh, that's it. It really should
+[02:17:18.960 --> 02:17:24.800]  not have a street name. He didn't get it right. I was like, Holy crap. That is like, not like,
+[02:17:24.800 --> 02:17:28.440]  you know, like, Oh yeah, it's a little sketchy in hindsight. It's like, Oh yeah, that's universally
+[02:17:28.440 --> 02:17:34.120]  hailed as the worst Supreme court decision that ever was written and quite probably ever
+[02:17:34.120 --> 02:17:42.240]  even could be written. Uh, okay. I'll tell you the Bork fact. So, uh, can we just, um,
+[02:17:42.240 --> 02:17:45.440]  one day I'm, it's like, I am going to end up making like the Netflix document or I report
+[02:17:45.440 --> 02:17:52.760]  when I say like, I, I, I, I'm just obsessed with how he is so wound into everything in
+[02:17:52.760 --> 02:17:59.520]  various ways. Um, so right now, you know, many things in the world can share data to
+[02:17:59.520 --> 02:18:02.920]  Facebook and social networks as you do them. You listen to a song on Spotify, you can have
+[02:18:02.920 --> 02:18:06.720]  it auto populate what you're listening to in places. Netflix and other video services
+[02:18:06.720 --> 02:18:11.040]  can't. The reason for this is that Robert Bork was nominated by Reagan to the Supreme
+[02:18:11.040 --> 02:18:16.280]  court and like a humor writer went to his local video store and published the list of
+[02:18:16.280 --> 02:18:22.160]  things that he'd rented from the video store. This knocked out his nomination. It's a real
+[02:18:22.160 --> 02:18:28.400]  thing. Um, and it resulted in Congress passing a law preventing the sharing of video rental
+[02:18:28.400 --> 02:18:33.520]  data, which persists to this day. And that's why you can't auto send from Netflix to Facebook.
+[02:18:33.520 --> 02:18:38.400]  I mean, it's just like this one dude is at the middle of all of this stuff. It's wild
+[02:18:38.400 --> 02:18:43.400]  to me. Um, speaking of insane moments from the hearing, you brought up taking down statues
+[02:18:43.400 --> 02:18:47.280]  and it just reminded me, there was an entire moment where Jim Jordan asked him cook if
+[02:18:47.280 --> 02:18:53.520]  the 1984 ad was about cancel culture. And Tim Cook was just like, what words do I have
+[02:18:53.520 --> 02:18:58.960]  to say to make this stop? You just see him be like, whatever you want. I don't care.
+[02:18:58.960 --> 02:19:04.000]  Yeah. And he came up with, he came up, you could see it and then he came up with, yeah,
+[02:19:04.000 --> 02:19:10.080]  that ad was about Apple versus IBM. It's like, it's um, uh, it was an ad about the Macintosh
+[02:19:10.080 --> 02:19:15.120]  and then, and then Zuck just ran with it. He's like, the forces of a liberalism are
+[02:19:15.120 --> 02:19:20.640]  crazy. Yeah. My joke was, my joke was that in my dream world, after Jim Jordan's rant
+[02:19:20.640 --> 02:19:24.880]  about cancel culture and does Tim Cook agree cancel culture is harmful, that Tim Cook's
+[02:19:24.880 --> 02:19:29.960]  answer would have been, sir, this is a Wendy's drive through.
+[02:19:29.960 --> 02:19:33.720]  What are you on? What do you want? Our reporter McKenna was tracking how many mountain deuce
+[02:19:33.720 --> 02:19:40.040]  Jim Jordan drank and it was like multiple. Oh my God. That explains so much. That really
+[02:19:40.040 --> 02:19:45.440]  does. Oh my God. That totally, he's famous for his mountain dew hat, which I didn't realize.
+[02:19:45.440 --> 02:19:50.320]  Which is truly, and if you look it up, it is truly a hyper caffeinated beverage. Like
+[02:19:50.320 --> 02:19:54.840]  it's not, yeah. If you look at the caffeine content of mountain dew, it's, it's combined
+[02:19:54.840 --> 02:19:58.720]  with the sugar, right? And if you just keep in, it's like booze, like you just keep drinking
+[02:19:58.720 --> 02:20:02.440]  booze, you stay drunk. It's like you keep taking sugar. You kind of stay on the sugar
+[02:20:02.440 --> 02:20:10.800]  high. You do crash eventually, but you can kind of ride it, you know, anyway, next week's
+[02:20:10.800 --> 02:20:16.360]  guest on the show is Jim Jordan. We should be in a race to book Jim Jordan. Either one
+[02:20:16.360 --> 02:20:21.720]  of our shows. I would love to have it. I would. I mean, just cause the guy is, it's fascinating.
+[02:20:21.720 --> 02:20:27.880]  I mean, anyway, Neil, I thank you so much for your time. I really, really, really loved
+[02:20:27.880 --> 02:20:34.960]  having you on to talk about this. And everybody can see you on Twitter at reckless with no
+[02:20:34.960 --> 02:20:41.760]  w. Yeah. Well, I love being here. I mean, like I said at the beginning, I think to understand
+[02:20:41.760 --> 02:20:46.320]  the products, you need to understand the policy, but at the same time to understand the policy,
+[02:20:46.320 --> 02:20:50.920]  you really need to understand how the products work because the connection between the two
+[02:20:50.920 --> 02:20:55.560]  is so tight. And so I appreciate that you're as deep in the product side of it. Yeah. Yeah.
+[02:20:55.560 --> 02:21:00.840]  And I'm, I'm a little optimistic that the Congress was actually, you know, not as clueless,
+[02:21:00.840 --> 02:21:06.400]  you know, Sensenberger who's leaving Sensenbrenner aside, you know, they, who doesn't know that
+[02:21:06.400 --> 02:21:12.000]  Zuckerberg doesn't make Twitter. You know, I thought I was pretty optimistic about that.
+[02:21:12.000 --> 02:21:15.520]  The next move is the report. I think we're all way on pins and needles for this report.
+[02:21:15.520 --> 02:21:20.480]  It seems clear where Cicilline's head is and that's going to be a big moment. Yeah. All
+[02:21:20.480 --> 02:21:46.080]  right. Thanks. Talk to you.

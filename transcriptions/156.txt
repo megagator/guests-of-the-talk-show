@@ -1,0 +1,967 @@
+[00:00.000 --> 00:07.680]  this is episode CLVI of the talk show. Oh, we're already up to CLVI.
+[00:07.680 --> 00:14.360]  CLVI. I switched to Roman numerals last week. I didn't listen to last week's episode yet, so you and M.G. Seigler talked about Roman numerals again, huh?
+[00:14.360 --> 00:21.360]  Yeah. That's ponderous. I got on it. I got on a rant because of the getting rid of the 10 in Mac OS X.
+[00:21.360 --> 00:27.360]  Oh, right. And I've hated it all along. I hated it right from the first version. I don't like it.
+[00:27.360 --> 00:32.360]  You have never liked OS X as the name of the operating system?
+[00:32.360 --> 00:40.360]  No. I just think that it was X. X is the coolest letter of the alphabet, and it was a way to put the coolest letter of the alphabet in the name.
+[00:40.360 --> 00:44.360]  But because it's so cool, half the people pronounce it O-S-X.
+[00:44.360 --> 00:59.360]  I did it for years. I think I made John Sirquise a chart one time when I told him how I'd gone into the PHPMyAdmin and done a universal search to change all of my OS X as one word to OS SpaceX.
+[00:59.360 --> 01:04.360]  You don't want to tell a Perl user that's how you fix stuff on the Internet.
+[01:04.360 --> 01:05.360]  You got it from right inside of MySQL?
+[01:05.360 --> 01:09.360]  Yeah, yeah. That's what I did.
+[01:09.360 --> 01:13.360]  I felt so bad, though. It's like, how do I obliterate this?
+[01:13.360 --> 01:17.360]  But isn't the conventional wisdom — you tell me. You're the Mac blogger.
+[01:17.360 --> 01:24.360]  But isn't the conventional wisdom that they're going to switch to this kind of standardized way for Mac OS, iOS?
+[01:24.360 --> 01:25.360]  I think it's almost certain.
+[01:25.360 --> 01:26.360]  It seems sensible.
+[01:26.360 --> 01:27.360]  Yeah, it seems very sensible.
+[01:27.360 --> 01:40.360]  The only question is whether they're going to capitalize the M in Mac OS, even though they themselves don't capitalize the I in iOS or the W in Watch OS or the T in TV OS.
+[01:40.360 --> 01:44.360]  They don't capitalize the T and the V.
+[01:44.360 --> 01:45.360]  Right.
+[01:45.360 --> 01:48.360]  They've got to go lowercase.
+[01:48.360 --> 01:57.360]  Yeah, but the counterargument — and there was an unusual mistake for Apple to make.
+[01:57.360 --> 02:05.360]  They had an environmental — whatever the day is where you celebrate the world's environment.
+[02:05.360 --> 02:06.360]  What's that called?
+[02:06.360 --> 02:07.360]  Green Day?
+[02:07.360 --> 02:09.360]  Or Green Day, maybe Earth Day?
+[02:09.360 --> 02:10.360]  Earth Day.
+[02:10.360 --> 02:11.360]  What's the difference?
+[02:11.360 --> 02:22.360]  On Green Day, they had a promotional page up, and they said something blah, blah, blah, and they spelled it Mac OS with a capital M closed up.
+[02:22.360 --> 02:31.360]  I have another friend, my friend Nat, who said that this is going to bug him, because he, like us, goes back to the old days of the classic Mac OS, where they called the OS Mac OS.
+[02:31.360 --> 02:37.360]  But back then, it was capital M-A-C space OS.
+[02:37.360 --> 02:38.360]  Capital M, capital S.
+[02:38.360 --> 02:41.360]  Set in Garamond.
+[02:41.360 --> 02:50.360]  Yeah, but when you'd be writing about it, when you'd see publications that would mention it and spelled it closed up, you were spotting an error, right?
+[02:50.360 --> 02:59.360]  So the way that we think they're now going to spell it was a late 90s frequent typo, and now it's going to be apparently the real way.
+[02:59.360 --> 03:10.360]  I think, but the argument that they might capitalize it without capitalizing the other ones is that Mac is a registered trademark, and watch TV and I are not.
+[03:10.360 --> 03:20.360]  Well, you know, the other thing is, think about it for so long, how, you know, Mac was a, you know, that was a name that insiders mostly called it.
+[03:20.360 --> 03:28.360]  But, you know, it seems like, you know, just in the popular imagination, Macintosh and Apple for a number of years were synonymous, which is going to drive lots of people crazy.
+[03:28.360 --> 03:39.360]  I know, I know there were things before the Mac, but Macintosh and Apple, to this day, John Roderick still calls the company Macintosh, I think, because that's for a long time, those were kind of conflated to be sort of the same thing.
+[03:39.360 --> 03:46.360]  So Macintosh means something, Mac means something, but Mac OS, I mean, how much are they even?
+[03:46.360 --> 03:55.360]  Well, here's a can of worms, but, you know, the Mac is not the central pillar in what they're doing anymore, and that reflects its place as part of the ecosystem.
+[03:55.360 --> 04:00.360]  Who's the other guy on ATP?
+[04:00.360 --> 04:04.360]  Oh, you're talking about the other guy? You're talking about Casey?
+[04:04.360 --> 04:08.360]  Yes, on their show last week, they were talking about their excellent new t-shirt designs.
+[04:08.360 --> 04:10.360]  You're the worst!
+[04:10.360 --> 04:13.360]  That's a great design, I totally believe that.
+[04:13.360 --> 04:27.360]  Well, I don't like the watch one. The ATP Apple slash BMW M is brilliant for that show. I saw that design and I was like, oh my god, how did that not...
+[04:27.360 --> 04:38.360]  I think they ought to make that the logo of the show. I mean, it's amazing, because of the whole gimmick where they, the whole reason they even have the ATP show is that they had a car podcast for a while.
+[04:38.360 --> 04:45.360]  It's a classic logo in that sense of being very attractive just to look at it. That's kind of cool, that's kind of retro, but if you get the joke, it's kind of perfect.
+[04:45.360 --> 04:58.360]  Right. In his explainer, though, Casey described it as a reference to the six-color Macintosh logo, just to say that, you know, the way that people conflated Apple with Macintosh.
+[04:58.360 --> 05:07.360]  It was not the Macintosh logo, it was the Apple logo. I think John Syracuse pointed out that that was an error.
+[05:07.360 --> 05:14.360]  This is, you know, now you're getting into this territory where, man, you're going to get into the, you know, the greater nerd syndrome.
+[05:14.360 --> 05:21.360]  There's going to be always, always going to be somebody that knows slightly more about this and is slightly less interesting in how they describe it. It just keeps getting worse and worse and worse.
+[05:21.360 --> 05:28.360]  So, actually, the colors on the Apple logo represent the rainbow. Have you ever seen a rainbow?
+[05:28.360 --> 05:44.360]  Thanks, buddy. Super helpful. I miss it. You know, still, how long now has it been that, what, you know, just gray or for, I guess, black Apple, but I miss it, man.
+[05:44.360 --> 05:48.360]  It used to be when you bought a Mac, you got the stickers.
+[05:48.360 --> 05:51.360]  We still get stickers, but now the stickers are just white.
+[05:51.360 --> 06:00.360]  The rainbow stickers are so cool, and they're so, I mean, they're so, like, they're so 80s, but they're also so 70s, and they're kind of, I don't know, they're sort of, like, weirdly timeless and retro.
+[06:00.360 --> 06:03.360]  I miss it. I miss it.
+[06:03.360 --> 06:10.360]  They still, they've started slightly bringing it back a little bit in retro situations, didn't they?
+[06:10.360 --> 06:17.360]  I think they brought it back for the LGBT Pride parade in San Francisco.
+[06:17.360 --> 06:18.360]  Oh, that's cool.
+[06:18.360 --> 06:26.360]  Or else they did something that clearly referenced it, you know, with the connection between the rainbow as a symbol for that community and Apple.
+[06:26.360 --> 06:30.360]  And then I think that they stuck it in a commercial.
+[06:30.360 --> 06:37.360]  I know they used it in at least one, because they had a commercial where they showed people's beat-up MacBooks with stickers on them.
+[06:37.360 --> 06:39.360]  Oh, and they did a super fast montage.
+[06:39.360 --> 06:40.360]  Yeah, super fast.
+[06:40.360 --> 06:47.360]  And one of them was an old-school Apple logo, which was, it was like, whoa, is like a, you know, a real geek.
+[06:47.360 --> 06:52.360]  It was cool to see Apple put up a computer with the six-color Apple logo again, even though it was in...
+[06:52.360 --> 06:56.360]  Yeah, they didn't like Trotsky it. They didn't like disappear it. It was still in there.
+[06:56.360 --> 07:00.360]  And then I could have sworn there was another commercial. This is why I need a live audience.
+[07:00.360 --> 07:03.360]  Those, you know, those shows with the live audience, somebody would already have the link in there.
+[07:03.360 --> 07:05.360]  I think there was one where they ended it.
+[07:05.360 --> 07:12.360]  I don't know if it was that one where they went through the Apple 40 years and 40 seconds or what, but they had a spot where they showed it.
+[07:12.360 --> 07:13.360]  I do miss it.
+[07:13.360 --> 07:17.360]  I do too. It's an interesting time. Very interesting time. It's funny.
+[07:17.360 --> 07:22.360]  I always were watching the Warriors game the other night and I was like, man, that logo is that, those uniforms.
+[07:22.360 --> 07:23.360]  That's the worst.
+[07:23.360 --> 07:25.360]  Madeline's like, well, she's like, what the hell are you talking about?
+[07:25.360 --> 07:27.360]  That's totally like their throwback retro logo.
+[07:27.360 --> 07:29.360]  I was like, oh, that's cool.
+[07:29.360 --> 07:31.360]  And I kind of liked it once I knew that it was old.
+[07:31.360 --> 07:32.360]  I kind of hate it.
+[07:32.360 --> 07:33.360]  I kind of hate it.
+[07:33.360 --> 07:34.360]  It's really bad.
+[07:34.360 --> 07:37.360]  They even used that. What's that goofy font?
+[07:37.360 --> 07:42.360]  The, uh, uh, that it's like fake classy.
+[07:42.360 --> 07:45.360]  I'll have to look.
+[07:45.360 --> 07:48.360]  Well, anyway, it's, it's not a good logo.
+[07:48.360 --> 07:50.360]  I kind of like their colors. I like the colors.
+[07:50.360 --> 07:52.360]  I do too. I do too.
+[07:52.360 --> 07:53.360]  I like the three pointers.
+[07:53.360 --> 07:54.360]  Oh, yeah.
+[07:54.360 --> 07:56.360]  It's like, it's kind of like a, is it a copper plate?
+[07:56.360 --> 07:57.360]  Maybe a little bit.
+[07:57.360 --> 07:58.360]  A little bit.
+[07:58.360 --> 08:02.360]  Not quite copper plate, but yeah, it's copper plate.
+[08:02.360 --> 08:03.360]  Yeah, copper plate.
+[08:03.360 --> 08:05.360]  That's exactly the font I'm thinking of.
+[08:05.360 --> 08:12.360]  That's one of those fonts that I, I used to use. Like when I first started, started working in design, cause I thought, wow, this makes everything look classy.
+[08:12.360 --> 08:13.360]  Oh, absolutely.
+[08:13.360 --> 08:18.360]  It's like papyrus for men with a men's warehouse suits.
+[08:18.360 --> 08:21.360]  You know, used to be comic sans and now it's papyrus.
+[08:21.360 --> 08:23.360]  It's just, oh God.
+[08:23.360 --> 08:26.360]  Or, you know, Philip Mistral, Mistral's fun.
+[08:26.360 --> 08:27.360]  Like, you know, Mistral's fun.
+[08:27.360 --> 08:31.360]  If you're like Guy Fieri at a beach bar, I'll roll with Mistral.
+[08:31.360 --> 08:32.360]  You know, that's fun.
+[08:32.360 --> 08:34.360]  You know what I mean? The surfy font.
+[08:34.360 --> 08:35.360]  Yeah, yeah, I know exactly what you mean.
+[08:35.360 --> 08:38.360]  But like, but you know, and you know, even copper plate, fine.
+[08:38.360 --> 08:40.360]  You know, pick a weight, have some fun with it.
+[08:40.360 --> 08:44.360]  But like papyrus, man, papyrus is the new comic sans.
+[08:44.360 --> 08:51.360]  If it's like a sign in your spa or it's your menu of the day, it's like, it's always papyrus.
+[08:51.360 --> 09:00.360]  So with the warriors, what do you, how amazing is it that, that photo of Eddie Hugh with Stephen, Stephen Curry, that was.
+[09:00.360 --> 09:01.360]  It was delightful.
+[09:01.360 --> 09:02.360]  So perfect.
+[09:02.360 --> 09:03.360]  I thought it was a wonderful image.
+[09:03.360 --> 09:06.360]  I would have worn some nicer shoes, but I think it's wearing flip flops.
+[09:06.360 --> 09:14.360]  It's, it's one of those images though, where it's like, I mean, I'm not, I haven't been into basketball for a while.
+[09:14.360 --> 09:22.360]  I used to be really into basketball, but I like the sport and I happen to find the style that Golden State plays to be delightful.
+[09:22.360 --> 09:25.360]  It's a team that really has fun playing basketball.
+[09:25.360 --> 09:26.360]  And I used to play basketball.
+[09:26.360 --> 09:32.360]  I found the reason I liked playing it is that I found that it is a very fun game to play, especially if it goes right.
+[09:32.360 --> 09:38.360]  If you're moving the ball around and everybody's getting the ball and, and your fast breaks and it's lots of scoring.
+[09:38.360 --> 09:45.360]  And it's not just, you know, two seven foot guys slowly but surely backing their way to the basket.
+[09:45.360 --> 09:46.360]  It can be a beautiful game.
+[09:46.360 --> 09:48.360]  And that's how Golden State plays.
+[09:48.360 --> 09:55.360]  And it's like watching a video game sometimes with these guys where they're shooting from 10 feet past the three point line and just hit nothing but net.
+[09:55.360 --> 09:56.360]  Lots of fun to watch.
+[09:56.360 --> 09:58.360]  So I've really been into the playoffs this year.
+[09:58.360 --> 10:00.360]  And of course, I know who Eddie Q is.
+[10:00.360 --> 10:02.360]  I've had him on my show even.
+[10:02.360 --> 10:07.360]  And then here's the photo of the game of one of the most amazing games in recent NBA history.
+[10:07.360 --> 10:08.360]  And it's iconic.
+[10:08.360 --> 10:11.360]  What will probably become an iconic photo?
+[10:11.360 --> 10:13.360]  Yeah, it really will.
+[10:13.360 --> 10:15.360]  And he's wearing flip flops.
+[10:15.360 --> 10:20.360]  He's dressed better there than he is at a lot of presentations.
+[10:20.360 --> 10:22.360]  It's cool if I crash here for a couple of weeks.
+[10:22.360 --> 10:24.360]  It's all right, Eddie, but, you know, you got to leave at some point.
+[10:24.360 --> 10:33.360]  Here's my take. My take on the flip flops is first and foremost that I understand it's a California thing and I'm not I'm an East Coast person.
+[10:33.360 --> 10:38.360]  We don't really you know, grown men don't really wear flip flops out, even if it's just to a basketball game.
+[10:38.360 --> 10:43.360]  But I understand that California is a little a little more casual.
+[10:43.360 --> 10:52.360]  My take on it, though, is having been to a lot of events, sporting events, rock concerts, et cetera, at an arena type atmosphere.
+[10:52.360 --> 10:54.360]  That the floor situation isn't all that great.
+[10:54.360 --> 11:03.360]  Now, I realize he had courtside seats and maybe they they make an effort to keep the spilled beer and soda to a minimum down there at the courtside.
+[11:03.360 --> 11:10.360]  But that's my first thought is is that you kind of want some some waterproof footwear when you go to an arena.
+[11:10.360 --> 11:13.360]  Oh, God, where do you begin?
+[11:13.360 --> 11:20.360]  Well, first of all, I mean, well, I realized that was wasn't that was that in Oklahoma?
+[11:20.360 --> 11:23.360]  Yeah, no, no. It was across the rivers over there.
+[11:23.360 --> 11:26.360]  So, OK, but I mean, you know, the Bay Area is not California.
+[11:26.360 --> 11:32.360]  It's it's it's a different thing. And it's not a question of, you know, I mean, it's one thing to like, you know, live in Pasadena or something like that.
+[11:32.360 --> 11:34.360]  Look at me. I don't have toes on my shoes.
+[11:34.360 --> 11:40.360]  But like here, like, man, if you're walking around San Francisco, dude, you do not want to be wearing flip flops.
+[11:40.360 --> 11:44.360]  This is just so when my daughter's game, we're getting ready to go downtown with my daughter.
+[11:44.360 --> 11:46.360]  Like, I want to put her in a Tyvek suit.
+[11:46.360 --> 11:52.360]  Like, no, I mean, she's got she's got to wear socks and shoes. And, you know, I want to put on some like, you know, medical booties.
+[11:52.360 --> 11:56.360]  It's like, ah, it's not good.
+[11:56.360 --> 12:02.360]  They're moving the I think they're talking about moving the arena right near where my wife works, which is very near AT&T Park.
+[12:02.360 --> 12:04.360]  Yes. Yes.
+[12:04.360 --> 12:07.360]  Like kind of across the street from a children's emergency hospital.
+[12:07.360 --> 12:12.360]  So it'd be real interesting to try and get your kid in during a big game.
+[12:12.360 --> 12:15.360]  I don't watch sports. I'm not in sports.
+[12:15.360 --> 12:20.360]  I've been enjoying watching you on Slack talking about you told a fantastic, fantastic anecdote you probably won't share here.
+[12:20.360 --> 12:25.360]  But you had an amazing anecdote about your basketball career that I love you to share sometime.
+[12:25.360 --> 12:27.360]  I would share. I'll share the story.
+[12:27.360 --> 12:30.360]  I'll share this. OK, I'd love to hear that. I want to share this.
+[12:30.360 --> 12:35.360]  Like, if you're going to be somebody who watches three sports games a year, boy, that was a great one to watch.
+[12:35.360 --> 12:40.360]  Yeah, because it reminds me a little bit of like how I you know, there was a time when I enjoyed watching tennis.
+[12:40.360 --> 12:49.360]  I'm not like a tennis fan, but used to be, you know, in the 80s, you could really enjoy that combination of like ace serves plus a lot of just insane volleying.
+[12:49.360 --> 12:56.360]  And it feels like that got to we might have talked about this before, but it feels like tennis eventually just become all about the aces and all about like the hitting super, super hard.
+[12:56.360 --> 13:02.360]  And the beauty of watching those two teams and the way that they complemented the way that the other played is.
+[13:02.360 --> 13:05.360]  Yeah, you're going to get those two guys, Steph Curry and the guy who looks like Steph Curry.
+[13:05.360 --> 13:07.360]  They're going to be dropping a lot of three pointers. And that's amazing.
+[13:07.360 --> 13:16.360]  But then it could also be Steph Curry like just he it's almost like he's moving through a party and he's just going, excuse me, excuse me.
+[13:16.360 --> 13:19.360]  Like you're like he's like, you know, I just need to get by here for a minute.
+[13:19.360 --> 13:25.360]  Boom layup. How did he do that? How did he move past all of those people?
+[13:25.360 --> 13:28.360]  Fast paced. They got the long game thrown from from three points.
+[13:28.360 --> 13:32.360]  They're going up for the labs. The teamwork is fantastic on both teams.
+[13:32.360 --> 13:38.360]  And you just you just see these two teams that are so well matched and are both operating at the height of their performance.
+[13:38.360 --> 13:50.360]  And it's a complete delight to watch. He he moves through the defense while dribbling the basketball in a way that I don't think most athletic people could get through the same defense without the basketball.
+[13:50.360 --> 13:53.360]  Just run. Just slip through these guys. Just get through them.
+[13:53.360 --> 14:02.360]  If you show somebody that pattern like with like Fred Astaire feet on the floor dance moves and said to somebody, go repeat what he just did five times, there's no way somebody could do it.
+[14:02.360 --> 14:05.360]  It really I think it really and it's always more impressive in slow motion.
+[14:05.360 --> 14:10.360]  It really looks like some kind of visual effects shot that, you know, Todd Vasiri put together.
+[14:10.360 --> 14:17.360]  You know, like here, Steph, just run through this crowd and then I'll I'll you know, we'll make sure we'll put the basketball in afterwards.
+[14:17.360 --> 14:21.360]  We'll do it. We'll do it in post. It's composited. Yeah. Yeah.
+[14:21.360 --> 14:27.360]  But like, you know, you just see one of those guys. What's the other guy's name? I forget his name. The other Clay Thompson Thompson.
+[14:27.360 --> 14:34.360]  Yeah. That montage you put up was great. His 11 three pointers. But but the crazy part is, you know, I'm used to watching basketball in the Larry Bird era.
+[14:34.360 --> 14:43.360]  And when you see these guys moving so fast, passing so fast and you see somebody feet beyond the three point line, they've had the ball for about a quarter of a second.
+[14:43.360 --> 14:47.360]  They take a shot. And my first thought is, oh, that's a shame. Throwing away that shot.
+[14:47.360 --> 14:52.360]  It's a shame they did that. And you know, Swish doesn't even touch the rim. Like what has become what is this game?
+[14:52.360 --> 14:56.360]  I don't even recognize this game anymore. It's so much more fun to watch.
+[14:56.360 --> 15:07.360]  I think that what's happened is that it's taken until now for even though the three pointer, the three pointer went into the NBA, I think in 1981 or so.
+[15:07.360 --> 15:15.360]  And it came to college in like the later 80s and then in high school around the same time, too.
+[15:15.360 --> 15:19.360]  So I when I played high school basketball, we had the three point shot, but it was new.
+[15:19.360 --> 15:27.360]  Like the paint on the court in the high school gym was different color than the rest of the court because it had to pay a guy to come in and add it.
+[15:27.360 --> 15:36.360]  And coaches are in all sports tend to be conservative. They are you know, they they they don't want to rock the boat.
+[15:36.360 --> 15:44.360]  And so it was always treated as a novelty. And you don't want to you know, they coaches are always tell me, you know, you don't want to win, win or lose or die by the three.
+[15:44.360 --> 15:50.360]  You live or die by the three. When it was yelling, it must have seemed like a risky trick.
+[15:50.360 --> 15:58.360]  Yeah. And if you missed two or three in a row, coaches would be like, that's it. You know, you know, stop shooting it because you're you know, you're you're cold tonight.
+[15:58.360 --> 16:04.360]  Whereas like Klay Thompson the other night missed six or seven, his first six or seven three pointers and just kept firing them up there.
+[16:04.360 --> 16:08.360]  And eventually they go in because it's actually that's actually the way statistics work. Right.
+[16:08.360 --> 16:15.360]  So were you the one who posted that image that was the basically the second half in shots? Did you see that graphic?
+[16:15.360 --> 16:22.360]  It was like shots taken, shots missed. Oh, no, that was our mutual friend Ben Thompson posted. OK, that's incredible.
+[16:22.360 --> 16:32.360]  Yeah. And just where they took their shots and just two different styles of play where Oklahoma City is not really actually a relatively poor three point shooting team overall.
+[16:32.360 --> 16:42.360]  And the the Golden State shot chart, like this little dots on the court of where they took shots, it looked like this is this looks like the time in practice when we practice our three pointers.
+[16:42.360 --> 16:48.360]  Right. Right. Right. With nobody with nobody's arms waving around.
+[16:48.360 --> 16:58.360]  So I think what happened is that it took until now to get coaches who grew up in the three point era to really embrace it as a it's OK to shoot it.
+[16:58.360 --> 17:06.360]  And just, you know, for your edification, Steve Kerr, the coach of Golden State, was a wonderful three point shooter.
+[17:06.360 --> 17:10.360]  He played college ball at Arizona. I think he graduated.
+[17:10.360 --> 17:13.360]  This is I used to be a sports fanatic. I can even tell you when he graduated.
+[17:13.360 --> 17:21.360]  I think he graduated in 1988 and then he had a very nice pro career, including playing with the Michael Jordan Bulls later in the late 90s.
+[17:21.360 --> 17:31.360]  And he was more or less the guy who, like when Michael Jordan would get double teamed or even triple teamed, Steve Kerr was the guy whose whose man probably left him to go double team Jordan.
+[17:31.360 --> 17:34.360]  And Jordan would just flip him the ball and he would knock down three pointers.
+[17:34.360 --> 17:41.360]  So I think having a coach who grew up in the three point era really makes the difference in terms of embracing it.
+[17:41.360 --> 17:48.360]  I think I saw a stat the other day that and Larry Bird in the 80s was, I think, without question, the best three point shooter in the NBA.
+[17:48.360 --> 17:52.360]  But even Larry Bird is on the record as saying he doesn't even like the rule.
+[17:52.360 --> 17:57.360]  He kind of he he he's always thought it was a gimmick and that, you know, he'd shoot it because he could shoot from that far.
+[17:57.360 --> 18:00.360]  But he always thought two points is good enough for anybody.
+[18:00.360 --> 18:08.360]  Or or I guess the mantra that a lot of the old timers had was that you shouldn't be able to lose with a two point lead and.
+[18:08.360 --> 18:13.360]  You know that the worst you do is go to overtime and a three point lead should be a sure thing.
+[18:13.360 --> 18:18.360]  That if you have a three point lead with with seconds to go, you could just walk off the court because that's it.
+[18:18.360 --> 18:26.360]  You're that's good enough to win. And it just when you see, you know, when you see real changes in sports, this is actually this is a question, not a statement.
+[18:26.360 --> 18:32.360]  And we see real changes in sports just as a way outside observer.
+[18:32.360 --> 18:45.360]  It seems like they're often in the interest of making it more interesting or speeding things up or closing some kind of a loophole that makes the game less competitive and interesting given certain conditions.
+[18:45.360 --> 18:50.360]  Is that is that kind of a fair statement, like with football? It seems like that's really the case.
+[18:50.360 --> 18:57.360]  Yeah. And the three point line is definitely that sort of idea that it was it was an answer to what was seen as an epidemic,
+[18:57.360 --> 19:07.360]  that the game was being taken over by seven footers who just, you know, just toss the ball into him down down low and watch him, you know, bang away.
+[19:07.360 --> 19:18.360]  Boy, that that that that Cal Cal Cal Drogo guy playing for Oklahoma is pretty amazing, though, that that shot that shot that that guy made, like he's just jumping toward the net.
+[19:18.360 --> 19:23.360]  He seems like he's about three feet off being able to dunk it and he somehow just gets it in.
+[19:23.360 --> 19:30.360]  It's amazing to watch. It's good stuff. All right. Let me take a break and thank our our first sponsor.
+[19:30.360 --> 19:36.360]  And it's a new sponsor for the show. Good friends at meh dot com.
+[19:36.360 --> 19:43.360]  These guys run a daily daily deal site. You go to meh dot com and every day they have a new thing that's for sale.
+[19:43.360 --> 19:48.360]  And sometimes they sell out because they only have a limited number of them. Sometimes they don't.
+[19:48.360 --> 19:53.360]  And they're the same guys who years ago had a site called Woot.
+[19:53.360 --> 19:57.360]  You could tell they even sort of name their stuff the same way, except they were more excited back then.
+[19:57.360 --> 20:03.360]  They were excited in the early days and they named it Woot. And now they've been beaten down by the man and they just call it Meh.
+[20:03.360 --> 20:09.360]  Because what happened is they sold Woot to Amazon. It did not go well.
+[20:09.360 --> 20:14.360]  And eventually, like it got to the point where we're under Amazon and Woot was selling multiple items a day.
+[20:14.360 --> 20:19.360]  And the Woot guys were like, you know, we're we're a daily deal site. The whole gimmick is we sell one thing a day.
+[20:19.360 --> 20:26.360]  And Amazon was like, well, we're Amazon. We sell everything. And so they left and they started the site up again.
+[20:26.360 --> 20:31.360]  And they just call it Meh. And it's great. It is. It's not just about the daily deals, though.
+[20:31.360 --> 20:35.360]  The thing is, is they put it's you got to read the descriptions. They write for it.
+[20:35.360 --> 20:43.360]  They're real writers and they put funny videos up. It's really like the daily deal thing is just an excuse for them to create the sort of content that they want.
+[20:43.360 --> 20:50.360]  To create. That's really what what they want is they want people come in to check out their site every day just to see what they've posted,
+[20:50.360 --> 20:57.360]  what they've written, the funny videos they've put together. And then if you happen to like the the deal of the day, you can buy it.
+[20:57.360 --> 21:02.360]  And if you don't, you can just give it a they even have a button. You just sign up and you have an account and you give it a Meh.
+[21:02.360 --> 21:07.360]  And then they know that you weren't interested. So it's really great stuff. Very fun.
+[21:07.360 --> 21:14.360]  Very interesting. These guys are super clever. So go check them out at Meh dot com.
+[21:14.360 --> 21:21.360]  They got a killer deal today. What's their deal today? This will be too late. Nobody's going to be able to get it because by the time it's meta too late.
+[21:21.360 --> 21:27.360]  Because it's first of all, as we record this, it is sold out. But also it's a deal day, you know.
+[21:27.360 --> 21:35.360]  But again, just going in and reading for the writing is so fun. They got the food saver vacuum sealing system, albeit refurbished.
+[21:35.360 --> 21:43.360]  I paid 80 bucks for this in a couple months ago because I do lots of sous vide cooking at home.
+[21:43.360 --> 21:49.360]  It's back in 22 bucks out the door. It's crazy. Here's their description.
+[21:49.360 --> 21:54.360]  You shouldn't use this to seal marijuana that you legally buy in Washington, Oregon, Alaska or Colorado.
+[21:54.360 --> 22:00.360]  So it's easier to conceal when traveling to or through other states.
+[22:00.360 --> 22:08.360]  No matter how ridiculous you think it is for possession of a plant to be legal in one state, but illegal in others, no matter how obvious it is that marijuana prohibition is on its last legs worldwide.
+[22:08.360 --> 22:12.360]  That would be wrong. So that's the type of stuff you can get from them. All right.
+[22:12.360 --> 22:17.360]  You want me to tell my basketball story? I would. I'm not embarrassed to tell this story.
+[22:17.360 --> 22:21.360]  So when I when I was in high school, I played recreational basketball. I was I was pretty good.
+[22:21.360 --> 22:26.360]  My senior year, I scored 14 points a game and we had a pretty good team and I could shoot.
+[22:26.360 --> 22:30.360]  You know, my my thing, I didn't like to mix it. I didn't. What was your what was your position?
+[22:30.360 --> 22:34.360]  You forward sort of like a small forward or maybe a tall shooting guard.
+[22:34.360 --> 22:39.360]  It's, you know, but I was good at good at, you know, passing on a fast break.
+[22:39.360 --> 22:44.360]  I scored lots of layups on fast breaks and I was good at shooting a three.
+[22:44.360 --> 22:49.360]  Although I think the most I ever made in the game was five or six.
+[22:49.360 --> 22:55.360]  It made me mad because I played in the Christmas tournament one time and they had had a thing in the.
+[22:55.360 --> 23:01.360]  The like a school hosted like a little round robin to team or 14 Christmas tournament.
+[23:01.360 --> 23:06.360]  And they had a little program and they had like our Christmas tournament records.
+[23:06.360 --> 23:11.360]  And one of them was for three pointers for like across the whole tournament. And I broke it.
+[23:11.360 --> 23:18.360]  And then the next year they didn't put that record in because they only printed it because it was one of their home team players who had it.
+[23:18.360 --> 23:22.360]  Made me mad. Anyway, there was a team in our county that we'd play a couple of times a year.
+[23:22.360 --> 23:26.360]  And there was a kid on the team who I'm guessing was born this way.
+[23:26.360 --> 23:30.360]  But, you know, could have been an accident. But he only had one hand.
+[23:30.360 --> 23:35.360]  And I think it was his left hand. And he was about my size.
+[23:35.360 --> 23:42.360]  And he was really he was actually pretty good at basketball. And so because he was about my size, I often guarded him.
+[23:42.360 --> 23:49.360]  And I remember early on, maybe like 10th grade, maybe 11th grade, we were playing a summer league game and I was guarding him and he was posting me up.
+[23:49.360 --> 23:54.360]  In other words, he's backing me down on the paint. And so my chest is to his back.
+[23:54.360 --> 24:02.360]  And all of a sudden I felt on the nubbin where he had like a just was sort of missing the hand.
+[24:02.360 --> 24:07.360]  And his wrist ended with like a little nubbony thing. And all of a sudden I felt the nubbin in my hand.
+[24:07.360 --> 24:13.360]  And I instinctively was just a little bit honestly, I was a little grossed out.
+[24:13.360 --> 24:20.360]  I took a step back and his teammate passed from the ball and he turned around and made a layup because I wasn't right on his back anymore.
+[24:20.360 --> 24:28.360]  And I thought, oh, man. And then like next possession or two, you know, five, two minutes later, the same thing happens, except he's like sticking it in my stomach.
+[24:28.360 --> 24:34.360]  And I thought, son of a bitch, this guy's doing it on purpose. And I was like, I am not going to I'm not falling for this.
+[24:34.360 --> 24:38.360]  And I had told nothing. But I was like that. That is I had nothing but respect for him.
+[24:38.360 --> 24:42.360]  But I figured it out and I played him for years afterwards and he did it all the time.
+[24:42.360 --> 24:50.360]  And I would I would tell my teammates, hey, either let me guard him or if you're going to guard him, know that he's he's going to do this.
+[24:50.360 --> 24:54.360]  And I would watch and he'd do it all the time. And I have I thought it was so genius.
+[24:54.360 --> 24:59.360]  It was like a way of like, you know, hey, I have nothing but respect for the guy because he was actually a good shooter.
+[24:59.360 --> 25:03.360]  He could, you know, shoot the three pointer and everything with one hand.
+[25:03.360 --> 25:14.360]  But you wouldn't think so, like anybody who said you wouldn't look at another person and criticize them because, oh, that guy's no fair. He's got long legs or that guy's got big hands or that guy's got long arms or a good eye.
+[25:14.360 --> 25:21.360]  He's just he's using what he's got effectively. Yeah. And it's you know, I'm not you know, I have nothing but no complaint about it.
+[25:21.360 --> 25:28.360]  But I thought it was genius. I thought it was a way of embracing, you know, taking a limitation and embracing it, making the most of it.
+[25:28.360 --> 25:43.360]  And I'll tell you, it worked it absolutely. The first time on me, it worked like a charm. And I remember when other people on my team were guarding him, seeing it work and saying, I told you he was going to do that.
+[25:43.360 --> 25:47.360]  Ah, sports. Yeah.
+[25:47.360 --> 25:54.360]  So we were going to talk about I don't know if there's anything else you want to talk about up front, but we could talk about I want to talk about this A.I. stuff.
+[25:54.360 --> 25:59.360]  Yeah, me too. And I know it's driving people nuts.
+[25:59.360 --> 26:06.360]  It's driving people nuts to call this A.I. And I don't know why. I don't see how anybody could deny that.
+[26:06.360 --> 26:16.360]  You know, I know there's some kind of formal computer science, Ph.D. level definition of artificial intelligence in that in some ways this doesn't apply.
+[26:16.360 --> 26:31.360]  But if if you took an Amazon Echo back or took someone, I guess you can't take it back because it wouldn't have the Internet, but took someone from nineteen seventy eight to today and showed them an Amazon Echo and say, is this artificial intelligence?
+[26:31.360 --> 26:39.360]  Yes or no? They're going to say yes. Right. Right. It's almost like every time we solve an A.I. problem.
+[26:39.360 --> 26:50.360]  Once we solve it, it it no longer is magical and therefore it no longer counts as A.I. A.I. is only just because you understand how the effect was pulled off doesn't make it a magic trick.
+[26:50.360 --> 26:55.360]  I mean, it's still it's still a magic trick, even if you understand the effect and to bring somebody from nineteen seventy eight.
+[26:55.360 --> 27:00.360]  And I yell at my my dingus and say, hey, when's the next Bartram coming? That's that's magic.
+[27:00.360 --> 27:05.360]  That feels like A.I., even if that's not what a computer scientist would call it.
+[27:05.360 --> 27:13.360]  Right. Even if like once you know how the trick is done, you're like, well, it just hooks up to the the the local API for your public.
+[27:13.360 --> 27:20.360]  It hooks up to the magic network in the sky that connects all computers. Oh, by the way, did we mention there's a magic network in the sky that connects all computers now?
+[27:20.360 --> 27:23.360]  Oh, by the way, did we mention everyone has computers in their pocket now?
+[27:23.360 --> 27:30.360]  Right. The device knows the weather because it's got a GPS and, you know, it knows your zip code.
+[27:30.360 --> 27:36.360]  Oh, by the way, we can predict weather now. We didn't used to be able to do that. Oh, by the way, your pocket device makes up your body.
+[27:36.360 --> 27:39.360]  Your computer makes a beepy noise when it's about to rain in the next two minutes.
+[27:39.360 --> 27:44.360]  Devices know where they are to within a house or two.
+[27:44.360 --> 27:50.360]  Oh, you're kind of cuisine that isn't even popular yet that you can request in your neighborhood on your pocket computer.
+[27:50.360 --> 27:58.360]  Right. Look, look, look how this is an A.I., your phone thinks it's next door.
+[27:58.360 --> 28:01.360]  Oh, that's so stupid. Oh, God.
+[28:01.360 --> 28:08.360]  Just because you say to your pocket computer, tell my wife I'll be running late and it knows how to send it to her.
+[28:08.360 --> 28:14.360]  Of course, it's a trick. There's a little wizard inside of there.
+[28:14.360 --> 28:22.360]  The thing is, you saw in my long discursive notes about this that I guess I feel like part of it is I'm trying to do two things.
+[28:22.360 --> 28:26.360]  One is I'm trying to avoid using what I know to be terms of art.
+[28:26.360 --> 28:33.360]  So, I mean, people talk about A.I., talk about machine learning and even getting as specific as saying just Siri or Echo or what have you.
+[28:33.360 --> 28:38.360]  It's just I'm more interested in what this stuff is doing for a consumer.
+[28:38.360 --> 28:42.360]  And I mean, that requires a little bit of extrapolating about what's happening technically behind it.
+[28:42.360 --> 28:50.360]  But I don't think I don't think it makes it any less fascinating what's happening when we don't call it a sciency name.
+[28:50.360 --> 28:55.360]  I completely agree. So I'm just brushing all this under the umbrella of A.I.
+[28:55.360 --> 29:03.360]  Because I don't know what else to say. I think separating it into voice assistants versus A.I. is not helpful.
+[29:03.360 --> 29:07.360]  Well, it doesn't get to all of the constituent parts.
+[29:07.360 --> 29:14.360]  So if we say Siri, to paraphrase Raymond Carver, what we talk about when we talk about Siri, which part of Siri do you mean?
+[29:14.360 --> 29:20.360]  Are you talking about dictation? Are you talking about being able to interact? Are you talking about the button on your phone?
+[29:20.360 --> 29:26.360]  Like that means lots of different things. And I feel like to understand where this stuff is going, it's very helpful.
+[29:26.360 --> 29:34.360]  It's not helpful to fixate on what we call it. It's helpful to focus on what it does and what are the potential.
+[29:34.360 --> 29:38.360]  As far as you can tell, in this short to medium term,
+[29:38.360 --> 29:46.360]  what are the things that are likely to help or hinder the growth of all of these various pieces that we lose in the lights every time we call it A.I.?
+[29:46.360 --> 29:50.360]  That's that's my feeling. You know, if we just keep calling it A.I., what does that mean?
+[29:50.360 --> 29:57.360]  Is the kind of thing you do when you're talking to your phone in your car the same thing as what's happening when IFTT turns your humidifier off?
+[29:57.360 --> 30:00.360]  Like those are such different things.
+[30:00.360 --> 30:05.360]  And yet they are completely related because they are parts of this ecosystem down to the ability,
+[30:05.360 --> 30:09.360]  like I said, down to the ability to pick which florist you want to use when you talk into your pocket computer.
+[30:09.360 --> 30:15.360]  Those are all part of the same system. And I feel like it gets really confused when people try to just keep throwing it,
+[30:15.360 --> 30:21.360]  throwing it under the bus by all by calling it all this same like fruity future world stuff that nobody's ever going to want.
+[30:21.360 --> 30:25.360]  Quick aside, I've been struggling. I think a lot of podcasters struggle.
+[30:25.360 --> 30:41.360]  I know I have talking about this stuff because there's this phrase you can say to address Siri that you don't want to say in a podcast because it can trigger it on listeners phones and devices if they're not listening with headphones.
+[30:41.360 --> 30:49.360]  And a reader suggested I wrote this down and unfortunately I did not write down his name and I'm sorry. I'd love to give you credit. Whoever you are, I thank you.
+[30:49.360 --> 30:56.360]  His solution is that while we're talking about it on a podcast, we can say, hey, comma, Siri.
+[30:56.360 --> 31:03.360]  How about can I suggest that's very good. Can I suggest another one that might be even better? How about Yo Dingus?
+[31:03.360 --> 31:04.360]  OK.
+[31:04.360 --> 31:07.360]  Because that's not going to trigger nothing. Not right now.
+[31:07.360 --> 31:11.360]  Although it might if you and I start a startup with one of these things.
+[31:11.360 --> 31:13.360]  Easy.
+[31:13.360 --> 31:17.360]  Because I think we would definitely call ours the Dingus.
+[31:17.360 --> 31:21.360]  I can't have dead weight in my incubator.
+[31:21.360 --> 31:22.360]  Dingus.
+[31:22.360 --> 31:23.360]  Dingus.
+[31:23.360 --> 31:32.360]  All right. I like that, too. So I'm going to put that out there. Hey, comma, Siri, if you want to talk about Siri in particular, and then we'll say Yo Dingus to address these things in general.
+[31:32.360 --> 31:42.360]  I think the terminology is interesting, though, because Siri is an umbrella term for stuff that is not really AI.
+[31:42.360 --> 31:54.360]  Like you said, we even call it Siri when you're just talking about voice dictation, where you just hit the little microphone to dictate a text that you want typed out.
+[31:54.360 --> 31:57.360]  You're not even asking a query or anything like that.
+[31:57.360 --> 32:03.360]  Whereas Google doesn't really it seems like until very recently, they didn't even have a name for their thing.
+[32:03.360 --> 32:08.360]  I used to call it Google Now, but then I found out Google Now isn't really the AI thing.
+[32:08.360 --> 32:18.360]  Now is like their contextual thing where they show you cards based on what they think you want to see at the moment.
+[32:18.360 --> 32:21.360]  And now they call it Google Assistant, I guess, for the drive.
+[32:21.360 --> 32:33.360]  But it benefits their brand to just to not overly disambiguate that by just getting you used to the idea that Google is this big bunch of functionality that helps you with your life.
+[32:33.360 --> 32:40.360]  So, you know, they might have brand names for things, but I would think when you hail it, it's unlike the other ones, it does make sense that you would say, Yo, Google.
+[32:40.360 --> 32:54.360]  Yeah, I think that from a just a typical user standpoint, it doesn't matter because it all and maybe it's less confusing for them to just think of Google as a thing that they can talk to instead of just type out.
+[32:54.360 --> 32:58.360]  You just just just give it to us. Just tell us what you want and we'll just figure it out.
+[32:58.360 --> 33:02.360]  It's shockingly fast. I mean, so right there, one of the distinctions you're making there.
+[33:02.360 --> 33:17.360]  I mentioned this a couple weeks going back to work is, you know, there are a lot of folks who understandably gave up on everything Siri a long time ago, which I have to say is somewhat understandable, given the basic way most of us deal with this stuff, which is we try it.
+[33:17.360 --> 33:20.360]  It works or doesn't work. We try it again. It works or doesn't work.
+[33:20.360 --> 33:24.360]  And eventually in a fit of peak, you go, this is not for me. This is for nerds.
+[33:24.360 --> 33:29.360]  And that was it was true with Siri for a long time. But then Siri got better than Siri got way better.
+[33:29.360 --> 33:37.360]  But one way in which it's been good for a long time. So when I'm trying to sell people on this idea that not only, well, the only important part is Siri is better than you think.
+[33:37.360 --> 33:43.360]  The important part is, hey, get used to it, like start using this because this is where stuff is going, pal.
+[33:43.360 --> 33:55.360]  So what I would say to people is if you're frustrated with Siri, you know, not understanding your request, if you're not if you're not comfortable with the Siri service, getting your voice and functionally working, which can vary a lot depending on your connection and stuff like that.
+[33:55.360 --> 34:07.360]  One test I just said three times in the next week, try using dictation where you would normally type. Don't talk too fast. Don't talk too slow. Don't talk too loud. Don't talk too quiet. Just talk to it.
+[34:07.360 --> 34:24.360]  And I think a lot of folks might be a little bit reinterested in it, given that for long sentence to short paragraph length things, if you know what it is that you want to say, I can pretty much guarantee, even including time for corrections, it will be faster than typing.
+[34:24.360 --> 34:29.360]  Talking about dictation here as against tell me the weather in Bangkok.
+[34:29.360 --> 34:46.360]  Yeah, I remember a couple of years ago when I had the finger injury and I couldn't couldn't type with my left hand for a couple of weeks and I had to use dictation and I ended up getting a lot of work done by installing the Dragon naturally speaking thing on the Mac.
+[34:46.360 --> 35:02.360]  But I didn't have anything like that for iPhone. And so I really like, you know, I'm lucky because my my finger made a full recovery now. So I mean, but there's and there's people like like my aforementioned opponent in basketball whose hand is not going to come back.
+[35:02.360 --> 35:12.360]  Right. So anything that would help. I mean, there's people with genuine permanent accessibility needs that dictation can really, really be helpful.
+[35:12.360 --> 35:20.360]  And it really wasn't there. I think that was like 2012 or so.
+[35:20.360 --> 35:40.360]  And it, you know, it was better than nothing, but it was better than not having the feature in iOS. But boy, I wish it was as good as it is now because I find, you know, like having just come off the winter where it really, you know, when you're all bundled up and you can't really type while you're walking around a cold city, the dictation feature, I think it works amazingly well compared to where it was.
+[35:40.360 --> 35:53.360]  It still has much room for improvement. But yeah, I agree. And I mean, I've played with I mean, it's nuanced. Is that the company that makes Dragon Dictate? I mean, they for a long time have been their engine has been way ahead of everybody else's as far as I know.
+[35:53.360 --> 36:07.360]  But I mean, you know, I think well, except maybe Google's right. And I think it's like getting it working that David Sparks is of the world can work Dragon Dictate like Emacs, where they understand it and it understands them.
+[36:07.360 --> 36:16.360]  And I found it super frustrating to train and retrain. And I never got invested enough in it to like really use it. Whereas, as you say, I mean, it's something Syracuse often talks about.
+[36:16.360 --> 36:26.360]  Just start make a habit sometimes of going to the Google app, hitting the microphone and talking. And it is shocking how fast you can see the transcription happening as you're speaking the corrections.
+[36:26.360 --> 36:37.360]  Like Siri finally does. Now, you can watch it making contextual create corrections. You see this now on Apple TV, where it understands you probably mean the name of an actor rather than a homonym.
+[36:37.360 --> 36:41.360]  You can see that that has come so far even in the last two years.
+[36:41.360 --> 36:52.360]  Yeah, really? Yeah. And Apple TV, the correction, the contextual corrections, as you said, are very evident because it shows you the words as it comes up.
+[36:52.360 --> 37:00.360]  It has trouble with titles because titles can mean and be many things in many different languages. And there's plenty of room for, you know, as I say, homonyms sound the likes.
+[37:00.360 --> 37:06.360]  But if you're looking for an actor, it's amazing. Or a music artist. It's amazing how often it gets right on the first try.
+[37:06.360 --> 37:14.360]  Yeah. And some titles use such common words and they're relatively short that the context isn't there. And I'll give you a specific example.
+[37:14.360 --> 37:25.360]  Jonas had a friend sleep over last weekend and the movie that they decided to watch, and truly they have excellent taste, was John Carpenter's The Thing.
+[37:25.360 --> 37:28.360]  Oh, man. What a great movie.
+[37:28.360 --> 37:31.360]  Oh, I haven't seen it in forever.
+[37:31.360 --> 37:34.360]  I watched it last year and it's still terrifying.
+[37:34.360 --> 37:46.360]  I'd more or less completely forgotten it. But Show Me The Thing didn't work. And I don't blame TK or Foo.
+[37:46.360 --> 37:59.360]  And both kids really love the Siri. Well, they don't love the remote, but they love the idea that you can just push the button and say things, you know, like show me, you know, Terminator 2 and that it shows it to you.
+[37:59.360 --> 38:07.360]  And they were, you know, going through making like a list of like, here's here's like five or six movies we're thinking about. But Show Me The Thing didn't work.
+[38:07.360 --> 38:13.360]  And I just remember noting, you know, file that one away. That's a good, good example.
+[38:13.360 --> 38:15.360]  Where I totally understand why it didn't work.
+[38:15.360 --> 38:28.360]  That one's an especially thorny one. But if you don't mind getting a little bit bash with it, you can sometimes hint it a little bit by saying, find the TV show, Doctor Who.
+[38:28.360 --> 38:32.360]  Or say, play the band, Band of Horses or whatever.
+[38:32.360 --> 38:34.360]  Show Me The Movie The Thing.
+[38:34.360 --> 38:35.360]  Yeah, exactly.
+[38:35.360 --> 38:45.360]  Yeah, I think that would probably work. I forget what we and in fact, I think that's what we did to, you know, get it going.
+[38:45.360 --> 39:05.360]  That's amazing, though. Also, I mean, one of our favorite things is, I mean, I have I still have bitches about the Apple TV that are out of the scope of this show. But, you know, as somebody who buys a lot, a lot, a lot of stuff on the store, one of my biggest frustrations is the bigger a fan you are of a TV show, the more likely you are to find it inscrutable.
+[39:05.360 --> 39:11.360]  So like in the case of, again, Doctor Who or in the case of Shark Tank, which, yes, I bought several seasons.
+[39:11.360 --> 39:17.360]  You when you bring up that page, you say, find find Doctor Who and says, this Doctor Who?
+[39:17.360 --> 39:19.360]  And you say, yes, this Doctor Who. And it pulls it up.
+[39:19.360 --> 39:25.360]  And now you've got to go through in chronological order, like starting from the earliest season that you've bought.
+[39:25.360 --> 39:27.360]  Have you dealt with this? You could do that horizontal scroll.
+[39:27.360 --> 39:29.360]  Yes.
+[39:29.360 --> 39:33.360]  So our latest trick is find the latest episode of Shark Tank. Poop. Pops right up.
+[39:33.360 --> 39:39.360]  That's that's a great thing where, like, you know, you may not think of Siri as being or voice control as being the fastest way to get to something.
+[39:39.360 --> 39:45.360]  I can damn near promise you that is the fastest way to get the latest episode of a TV show.
+[39:45.360 --> 39:56.360]  But it seems there's definitely some frustrations there, though, where if if you do the up, down, left, right, it seems like it should it should recognize, hey, you've seen a lot of these shows.
+[39:56.360 --> 40:01.360]  You probably want to watch the new one as opposed to starting you at episode or season one.
+[40:01.360 --> 40:10.360]  Even HBO, which has one of the crummiest apps on Apple TV, prettiest bad apps, even they have a two level hierarchy for do you want season two, season three, season four?
+[40:10.360 --> 40:15.360]  We can at least jump. You're still going in straight chronological, but you can jump to a season.
+[40:15.360 --> 40:20.360]  But but, you know, it's you know, I think for a lot of us, it is still a case of remembering to use this.
+[40:20.360 --> 40:25.360]  And, you know, I guess it helps to bracket. It's your show. But I mean, we have to bracket some of this stuff.
+[40:25.360 --> 40:29.360]  We can't talk about every concern about, you know, privacy, although that's certainly an issue.
+[40:29.360 --> 40:38.360]  We can't talk about every issue related to commerce. I think there's still the barrier of getting people to remember that this is there and then learning enough to know what it's capable of.
+[40:38.360 --> 40:45.360]  And I think outside of our bubble, that's a much smaller group than a lot of people are aware of, especially for people in the bubble.
+[40:45.360 --> 40:51.360]  I don't like how often do you see people using Siri like on the street, like not a ton in my case?
+[40:51.360 --> 40:59.360]  No, no. And I think within the bubble, I think you made a good point a couple of minutes ago where I think an awful lot of people tried it.
+[40:59.360 --> 41:08.360]  Circuit 2011, 2012 and got the shits of it and just sort of filed it away as something that's not worth trying.
+[41:08.360 --> 41:13.360]  It was a frustrating experiment because it was hard to know which part of it was not working.
+[41:13.360 --> 41:16.360]  And even as a non-engineer, I can guess that there are several parts that might not work.
+[41:16.360 --> 41:22.360]  It might be that there was a physical occlusion where it did not get to the microphone. Maybe I had my finger there, right?
+[41:22.360 --> 41:29.360]  If it did get to the microphone, did it capture what I said? If it captured what I said, was it able to throw it up to the cloud?
+[41:29.360 --> 41:35.360]  If it threw it up to the cloud, was it able to understand what I said? If it understood what I said, was it able to follow?
+[41:35.360 --> 41:43.360]  Like, I feel like there's probably at least three or four little milestones between coming out of my mouth and doing a thing where it could go wrong.
+[41:43.360 --> 41:49.360]  And any problems with connectivity would greatly exacerbate even how well the product worked at best.
+[41:49.360 --> 41:57.360]  I've had the same experience with Apple Maps. I was on a podcast with Josh Topolski a couple of months ago and he couldn't believe that I use Apple Maps.
+[41:57.360 --> 42:02.360]  And I was like, well, when's the last time you tried it? And he was like, I don't know, never, because it's terrible.
+[42:02.360 --> 42:07.360]  And I'm like, it's so much better than it was. Really, it's actually pretty good.
+[42:07.360 --> 42:16.360]  And I know that I say that and I heard from people around the world and there was somebody, you know, somewhere in the middle of Sweden who was like, well, here's what Apple Maps thinks my neighborhood looks like.
+[42:16.360 --> 42:34.360]  And it's like blank, you know, with a lake. And so, yeah, obviously, you know, but here in, you know, the places I go, you know, here in Philadelphia, New York City, California, the places I tend to go, Apple Maps is actually very good.
+[42:34.360 --> 42:41.360]  And it does things like just last week, Amy and I had to go to some store out way outside the city.
+[42:41.360 --> 42:47.360]  And the path that we were originally on had traffic and middle of the directions.
+[42:47.360 --> 42:56.360]  Siri said, you know, I forget the prompt, but something like, you know, traffic ahead, you can save 10 minutes if you change, you know, and we're like, OK, sure.
+[42:56.360 --> 43:04.360]  Tell us what to do. I use Apple Maps all the time. I didn't know that. Whenever we're traveling, we use Waze. Waze is something I would never use anywhere.
+[43:04.360 --> 43:08.360]  It's just too, it's too crufty to use anywhere that I know where I'm going.
+[43:08.360 --> 43:19.360]  But when we're traveling, it'll frequently say, hey, you know, pop off at this exit, drive down this dirt road for two exits on a dirt road and you'll actually get there faster than if you stayed on the interstate.
+[43:19.360 --> 43:22.360]  But I didn't know Apple Maps did that. That's new to me.
+[43:22.360 --> 43:37.360]  But I I just think that there's a general problem where if you start like the way that I've written many times and the how Apple rolls piece that I have a Mac world from a few years ago, it's still probably the best thing I've ever written about the company that the way Apple makes things is they make a thing.
+[43:37.360 --> 43:47.360]  And at first it's here's it is a big surprise. And then year after year after year, they just keep making a little better, a little better, a little better, a little better, you know, in these increments.
+[43:47.360 --> 44:00.360]  And that's the that's Apple. And that's the way you make things better and better and better. And it's not about these massive, you know, explosive surprise announcements every single time.
+[44:00.360 --> 44:08.360]  But I think the problem is if you launch with something that's so disappointing that it makes people not even check out the iterative improvement, it's a problem.
+[44:08.360 --> 44:19.360]  Like there's a certain minimum quality you have to meet. And I know that there were business development reasons why they launched maps when they did, you know, that they they were sort of in a negotiating battle with Google.
+[44:19.360 --> 44:32.360]  And it wasn't really so much a choice as to, OK, this is good enough. It was like, we've got to launch no matter what right now, because, you know, we we've either got to launch or renew this deal with Google that we don't want to renew.
+[44:32.360 --> 44:44.360]  Well, think about in the age, well, in really in any age since Yahoo, but definitely there's Altavista or Jeeves or Google or Bing or whatever.
+[44:44.360 --> 44:51.360]  Don't say porn. But what's the first thing everybody looks for when they go and search? You search on your name.
+[44:51.360 --> 44:57.360]  Right. So if you search for your name, I mean, let's be honest. And porn. And porn. Yeah.
+[44:57.360 --> 45:09.360]  John Gruber porn. 17 million returns. Just to make sure nothing comes up. I don't want to know.
+[45:09.360 --> 45:16.360]  But if you went so like, you know, especially back in the day when there was still the potential of somebody unseating Google as the king of that.
+[45:16.360 --> 45:23.360]  And I guess, you know, a lot of people like Bing, whatever. But whenever anything new comes along where there might be information about you about, that's the first thing you do.
+[45:23.360 --> 45:36.360]  And then you evaluate you within the period of like, what, 90 seconds, you might make a overarching decision about the quality of that based on how that comports with your own idea of what should be there in what order.
+[45:36.360 --> 45:42.360]  Right. So, you know, if it doesn't find anybody with your name at all, you might go, wow, that's that this is garbage.
+[45:42.360 --> 45:55.360]  And I think the same is true with Siri, where like, even when you would try the the stock searches on it, and it was, you know, sometimes it would just have trouble and you didn't know why it would just say whatever Siri is unavailable right now.
+[45:55.360 --> 46:04.360]  You know, whereas I mean, again, you open up something like hound and the completely banana stuff you can do with hound. It's so fast and so good at parsing really complex stuff.
+[46:04.360 --> 46:13.360]  But you know what, guess what hound hound does not have a little button on the device. Right. So it's gonna lose it that in the same way that any other device.
+[46:13.360 --> 46:20.360]  So, you know, this is Siri just recognition. Well, Siri is also the fact that there's a button that connects with your contacts that can do functional things.
+[46:20.360 --> 46:23.360]  Nothing else can do that in the Apple ecosystem right now.
+[46:23.360 --> 46:30.360]  And even more now it's it's not just the button, it's the always listening microphone for yo dingus.
+[46:30.360 --> 46:38.360]  And that's where that's where I am feeling what people felt with Siri. I have a terrible time getting we talked about this somewhere else on Twitter.
+[46:38.360 --> 46:46.360]  I'm my my slogan percentage on yo dingus even when it's plugged in. Not great.
+[46:46.360 --> 46:53.360]  I still gain percentage for yo dingus on my Apple Watch is not stellar. I mean, it's pretty bad and other people seem to have zero problem with it.
+[46:53.360 --> 46:55.360]  I don't know why.
+[46:55.360 --> 47:04.360]  I don't know either. I I've I forgot. I honestly forgot that Apple Watch had yo dingus because it was so bad at first.
+[47:04.360 --> 47:15.360]  And then when we had that discussion on Twitter recently, I thought, let me start trying it again. And it seems better than it was when I gave up on it.
+[47:15.360 --> 47:28.360]  But the worst the demos, because every time I want to show something amazing, the quicksilver style thing, I want to demo for somebody. The thing that I want to show that's amazing never works. And when I went in conversely, when I want to demonstrate how something never works, it always works.
+[47:28.360 --> 47:37.360]  So in bitching about this the other day, I'm back to work. I invoked yo dingus and I looked down on my Apple Watch was recording everything that I was saying.
+[47:37.360 --> 47:43.360]  But I'm bum bum bum bum.
+[47:43.360 --> 47:56.360]  So machine learning and AI, doesn't it feel a bit like the Google IO announcements have slightly attenuated and slightly pivoted the way we talk about this stuff?
+[47:56.360 --> 48:02.360]  Like, I did not hear so many people talking about AI and machine learning two months ago as much as I do now.
+[48:02.360 --> 48:12.360]  It feels like they have already had a I feel like anyway, they've had a role in directing this discussion, even though there's a bunch of unreleased stuff to which that refers.
+[48:12.360 --> 48:22.360]  I think so. I definitely could be wrong. I just feel like usually people would say specifically, Oh, I love my echo. You know, there's things I like about Siri, etc.
+[48:22.360 --> 48:28.360]  But you know, now now that Google's in the game, I think people might be taking a little more seriously.
+[48:28.360 --> 48:42.360]  I think so too. And I think that it's, it's just so couldn't be more in their wheelhouse. And you know, that gets somewhat gets into Marcos argument that it just does it.
+[48:42.360 --> 48:58.360]  From a certain viewpoint, it looks like how could Apple ever catch up to Google in this regard, in the same way that it doesn't, I don't think I think you could make the same argument that like in terms of like frame rate of animation and smoothness of the UI androids never going to catch up to iOS.
+[48:58.360 --> 49:00.360]  Right.
+[49:00.360 --> 49:15.360]  That, you know, the question is, where do they get to good enough? Like, is Android good enough? I think for, you know, some people that obviously it is. And good enough in the AI sense, maybe.
+[49:15.360 --> 49:18.360]  Maybe the difference is too, too far apart.
+[49:18.360 --> 49:32.360]  I think it's, I think it's a bummer that, you know, Marco got piled on in that way. Cause I think what he was saying is very smart. I mean, if I were going to in the, you know, as a Monday morning quarterback, what I would say right now is the problem with Apple as, as Apple exists right now.
+[49:32.360 --> 49:56.360]  They have a pretty low ceiling. We're like, if things get as great as they can get in the current state, they're still not going to be that great. Cause on the one hand you have Google who has shown how quickly they can do great things with services and how much they are willing, able and excited to integrate stuff they know about you, your personal data to make that into a, you know, say what you will about privacy and your concerns.
+[49:56.360 --> 50:05.360]  But there are a lot of folks out there like me who use Google products because they feel like the payout is there. Like what I get in return for what they're doing with that data is extremely useful.
+[50:05.360 --> 50:12.360]  And then on the other hand, like, you know, right now for now, rumors aside, Siri's still a closed system.
+[50:12.360 --> 50:22.360]  Whereas I get an, I get an email every Friday from Amazon about new stuff I can do with the Echo. New skills, new stuff. It's not always, you know, earth shattering stuff, but there's always at least a couple of new things a week that it does.
+[50:22.360 --> 50:36.360]  And I'm forever discovering new stuff the Echo can do that I didn't know. And for now with Apple, until we learn more about what their plan is, you know, if it, I mean, even if they're, if the reliability, the dependability, all that stuff becomes flawless.
+[50:36.360 --> 50:42.360]  Even if it works great in a car, even if the mic gets better, you're still going to be kind of stuck at what Siri wants to or can do right now.
+[50:42.360 --> 50:49.360]  And that's, it's nowhere, I guess we, I feel like a lot of us thought they'd be further along faster by now.
+[50:49.360 --> 51:02.360]  Right. Just because they launched first and it doesn't seem like it's, it seems like, and again, I don't want to slag on it because I think on the grand scheme of nerds, I'm actually a pro Siri.
+[51:02.360 --> 51:04.360]  Oh, absolutely. Yeah.
+[51:04.360 --> 51:12.360]  But I think there's a good argument to be made that what Siri is good at now is the stuff that it was supposed to be good at originally.
+[51:12.360 --> 51:13.360]  Right.
+[51:13.360 --> 51:20.360]  Like it hasn't really expanded as, as far outside the original feature set.
+[51:20.360 --> 51:30.360]  I mean, it definitely has additional data sources that it didn't. And just to roll back to the beginning of the show, it definitely knows a lot more about sports than it used to.
+[51:30.360 --> 51:37.360]  Like I said last week, I think last week or the week before, but it can even do things like, and this is just one of those things that I was like, there's no way.
+[51:37.360 --> 51:39.360]  Is it over under? Is that what it was?
+[51:39.360 --> 51:45.360]  Or the point spread, you get point spreads or the over under, you know, you get these Vegas lines and it's like, I thought there's no way that's going to work.
+[51:45.360 --> 51:58.360]  And cause a, it's a little seedy, you know, the whole idea of gambling on sports is a little seedy and it sort of works against the, would they allow, would they allow an app that does that?
+[51:58.360 --> 52:09.360]  Yeah, I don't know, but it's like in a way that like every single cruise ship in the world has a casino except for Disney's cruise ships because it's Disney and you know, that's not a surprise.
+[52:09.360 --> 52:16.360]  But so, you know, I was a little color me pleasantly surprised that Siri can tell you the point spread of upcoming games.
+[52:16.360 --> 52:17.360]  I thought that was pretty interesting.
+[52:17.360 --> 52:22.360]  Yeah. I mean, but it was the sort of thing that I think people just don't even try anymore.
+[52:22.360 --> 52:34.360]  Well, you know, it's always such a joyful feeling as a, as an Apple user, as a Mac user in particular, it's been a peculiar joy of power users for years to have this experience that I haven't seen replicated in that many other places.
+[52:34.360 --> 52:40.360]  This, for example, is the kind of thing that's not going to happen with the on, with the dashboard experience of any car.
+[52:40.360 --> 52:55.360]  With Apple, sometimes you'll say, Hmm, I wonder what'll happen if I do this and you do something, you didn't look it up, you didn't try, you didn't learn a key command, you didn't read a PDF, you just do a thing and it does exactly what you might have prayed that it would do.
+[52:55.360 --> 52:57.360]  You ever have this experience with Apple stuff?
+[52:57.360 --> 52:58.360]  Yes.
+[52:58.360 --> 53:11.360]  We're just like, what happens if I swipe? Oh my God, this changes everything. And you go like, how did this not, why is this something that, you know, for example, the one I'm always telling people about option click on the speaker in your menu bar in OS 10.
+[53:11.360 --> 53:12.360]  You know this.
+[53:12.360 --> 53:17.360]  I think so, but what happens? What do you get? Oh yeah, yeah, you get the input sources.
+[53:17.360 --> 53:27.360]  A lot of people don't know if you option click, it's not obvious. If you option click on the speaker, you get options to change your input and output devices, which saves me an hour a week, probably. Not a big deal.
+[53:27.360 --> 53:31.360]  Not a big deal. You don't get that feeling that many places.
+[53:31.360 --> 53:47.360]  This is the thing that I love about the Mac and I've always loved about the Mac is that, yes, there are, you could say it's not discoverable, but if you were going to guess how do you do it, and you know the Mac, you know that it would be the option key.
+[53:47.360 --> 53:57.360]  Like if I said to you, there's a way to change the speaker menu up in the menu bar to get a different menu, but you have to hold down a combination of keys while you click.
+[53:57.360 --> 54:08.360]  What keys, one or more keys do you have to hold? I would instantly guess you just hold the option key because that's, and it actually makes sense semantically with the word option, right?
+[54:08.360 --> 54:16.360]  It wouldn't be command. It wouldn't be control. It would definitely be, it should definitely be option. And in fact, it is option.
+[54:16.360 --> 54:25.360]  Have you tried it for other things? No. Do you click on option? Click. I never thought to do this. You option click on wifi. You get the diagnostic report.
+[54:25.360 --> 54:34.360]  It gives you some nerd information. Do it on, do it on a Bluetooth. Again, lots of nerd options under there. Information that gets displayed. It's clever.
+[54:34.360 --> 54:43.360]  Nobody needs to know that that exists unless you need to know that that exists. But anyway, I just meant that in the service of saying like Apple has a great history of putting stuff in there where, Hey, you're going to learn.
+[54:43.360 --> 54:54.360]  If you, if you're on a Macintosh long enough, you're going to learn, there's at least two ways to do almost everything. You don't have to learn one or the other, but you know, you will eventually learn that there's a way that comports with how you want to roll.
+[54:54.360 --> 55:00.360]  And if you don't know, hit command shift, question mark, enter the name of what you think you want, and it will magically appear in the menu bar.
+[55:00.360 --> 55:19.360]  So remember with system seven, there was like, when you first ran it, there was like a little, I don't know if they made it with hypercard or not, but it was sort of a hypercard type thing that would, it was like the first run experience. And there was like a little cartoon guy who would teach you a couple of shortcuts like that.
+[55:19.360 --> 55:34.360]  Like, and it was like a, a help menu that you could, you could bring it up again with, and it was sort of like, show me, show me some of the advanced tricks, like being able to use command up and down arrow to go up and down folders in the hierarchy from the keyboard.
+[55:34.360 --> 55:50.360]  That's, I love that kind of stuff. They were so great at that stuff, but you know, so let me ask you a question. I mean, you remember the announcement of home kit and it was kind of alongside a lot of other, this kit, that kit, all this stuff has got to come out eventually, the whatever, the medical stuff and the,
+[55:50.360 --> 55:57.360]  the what's called Apple health. But like, for example, like how many, how many things do you have running on home kit right now?
+[55:57.360 --> 55:58.360]  Nothing.
+[55:58.360 --> 55:59.360]  Zero for me too.
+[55:59.360 --> 56:01.360]  I swear to God, I'm not, I'm not trying to be,
+[56:01.360 --> 56:16.360]  no, I look through the list. I finally got an app off the store called home that gives you an easy way to like, if you've got this or that device and it's got this inscrutable list of all these, what appear to be like hundreds of, I don't have any of those devices.
+[56:16.360 --> 56:23.360]  And I've got like, I've got two kinds of security cameras, three kinds of I've got, I've got hue lights.
+[56:23.360 --> 56:33.360]  I mean, there's some stuff you can do, but like, you know, when they announced something like home kit, you're thinking like, Oh my gosh, I'm maybe three months away from being able to talk to my house.
+[56:33.360 --> 56:44.360]  Like who, you know, and you're, and of course, you know, you get into the reality distortion field now I'm thinking, Oh my gosh, how soon will it be before there's an Apple device that replaces the airport and the time machine that like it's everything you'd want in an airport
+[56:44.360 --> 56:54.360]  and the time machine. Plus it's a home hub, plus it's, you know what I mean? On and on and on. And now we're like twiddling our thumbs going like, okay, what's the next thing I can knock, talk to my phone and do like, what's going to happen with that stuff?
+[56:54.360 --> 57:04.360]  Is that going anywhere? We don't have that same confidence that all of these pieces are going to fit together. Hell, when you, when you put on the ATV4, you flip it on, you can't even like use Siri for music.
+[57:04.360 --> 57:18.360]  What a weird oversight. Like that was so strange. It's like, how do you have all these strands not being sewn together in the system that with all these parts of the ecosystem need really want to be interlocked and like, how is that not happening?
+[57:18.360 --> 57:28.360]  Yeah, I don't know if I could see it too is I could see where on the one hand, maybe it's like, Hey, just wait. We just need another year or two.
+[57:28.360 --> 57:44.360]  Or B, the pessimist take would be that apples, we control everything. Everything gets authorized through us. You submit your home kit stuff to us and we say whether it, you know, gets the stamp of approval.
+[57:44.360 --> 58:08.360]  Like the equivalent of MFI. Yeah. The equivalent of MFI or the app store even, you know, that sort of mindset versus the Amazon's take, which is more or less, look, you know, we've made echo work with these things and we have some APIs and, and it's, you know, if it works, you just build an echo app and submit it to us and, you know, we'll throw it out in a newsletter on Friday.
+[58:08.360 --> 58:20.360]  Right. You know, cause right now you could certainly, you know, you know, you can do stuff with the echo and I know that the people who are the bigger fans of it have stuff like that. I know Marco's got it hooked up to some light bulbs and stuff like that.
+[58:20.360 --> 58:38.360]  I do. I use the echo for my office lights. I've got, so, I mean, this is one of those, like, this was not a terribly complex thing to set up. I have a, and so here's a real, real simple example. I have a motion sensor in my office that, you know, basically connects via wifi.
+[58:38.360 --> 58:52.360]  And then I have two, this is Wemo, W E M O is the company. And then I have two Wemo plugs that are just simple zero or one. This light is either on or off. I don't use the switch. I only use the Wemo. Could not do this at home because my daughter does not want to have to use an iPhone to turn lights on and off.
+[58:52.360 --> 58:58.360]  That's not going to happen. But in my case, I, when I walk into my office, the motion sensor turns the lights on.
+[58:58.360 --> 59:17.360]  I can also say, yo, dingus to my echo. I can say, yo, dingus, turn my office lights off. And I've set up a thing where it knows office lights means these two Wemo lights further. I have an I F T T T set up such that when I'm away from my office or move out of the radius of my office or 30 minutes pass without movement, it turns the lights off.
+[59:17.360 --> 59:28.360]  So that whole thing, all the setup, every bit of that to set up, what, 45 minutes, half hour. And now I don't think about it, but there's not that many more things like that that I have right now. I can't use.
+[59:28.360 --> 59:32.360]  When you say, yo, dingus, turn my lights off. How long does it take for the lights to go off?
+[59:32.360 --> 59:55.360]  Um, I would say less than two seconds. Can we test it? No, you don't have to test it. Does it feel as though as, as responsive as if you like had like an intern and part of, part of the intern's job was to be ready to turn the lights off at a moment's notice.
+[59:55.360 --> 01:00:09.360]  Like not necessarily, not necessarily standing around with the, with their hand on the switch perm, you know, like, like, like trigger finger, not like that, but just like, Hey, you just hang out in the office and have a, you know, have a button nearby.
+[01:00:09.360 --> 01:00:14.360]  And if you, you know, if I tell you to turn the lights off, turn the lights off. Like, is it about that responsive?
+[01:00:14.360 --> 01:00:28.360]  First of all, it 100% understands me. I mean, it's very, honestly, 100%. That's silly. It, it, I could count on one hand the number of times it did not understand something I spoke clearly. The echo just gets that.
+[01:00:28.360 --> 01:00:43.360]  I would say, imagine you're eight feet away from the garbage can. You got two paper towels to throw away. It's about that amount of time. Let me test it. Hang on. Just cut this out. Be ready to cut the marker of this. Alexa, turn my office lights on.
+[01:00:43.360 --> 01:00:57.360]  On. They're on. Ready? Part two. Alexa, turn my office lights off. Off. So there you go. What is that? About second, two seconds?
+[01:00:57.360 --> 01:01:08.360]  Uh, yeah, that sounds that, you know, I think that was actually, you know, not quite instantaneous, but I would say satisfyingly close.
+[01:01:08.360 --> 01:01:35.360]  Well, it's, for me, it's well within the range of that's fine. Motion detection turns it on. See, to me, turning on, turning on is much more important than turning off. Like turning on, if I walk into the office, I know with confidence that when I walk into the office, I can either address the echo to turn it on, or I can just walk in like a gentleman. It'll see my motion and turn it on. So, I mean, that, that's, that's plenty fine for me. I don't need high performance light depowering.
+[01:01:35.360 --> 01:01:51.360]  It's underneath the threshold of impatience. I will. Well, absolutely. And it's also a lot better than a bad day with the Apple TV remote, right? It's just we're not responding. And I don't know why.
+[01:01:51.360 --> 01:02:11.360]  I didn't mean to change the subject. No, but if you've like, or if you're out there, you're in iMessage and you're dictating a text message and instead of words showing up, you get the spinner and it just spins and you're like, do I cancel? Is this going to take, do I just need to wait and my words are going to show up or should I cancel and try it again?
+[01:02:11.360 --> 01:02:21.360]  And you, once you're, once you're even thinking about that decision, you've already crossed the impatient threshold because even if the words, your wifi is bad, you've posted something to Twitter.
+[01:02:21.360 --> 01:02:32.360]  You think it's like 50% grayed out, meaning it's still posting. And you're like, what world am I in right now? I mean, is it posting? Is it not posting? We start to feel a little bit crazy, that kind of feeling.
+[01:02:32.360 --> 01:02:54.360]  Yeah, I think so. I, you know, and exactly what the demo you just did live on the show was, is exactly to me at the heart of the praise that Alexa or I guess the Echo, whatever you want to, I don't know what to give credit to, but that the Amazon's dingus is getting.
+[01:02:54.360 --> 01:03:09.360]  I can, I can just yell at it. I can say like, how am I doing with Fitbit? I could say play the latest episode of fresh air. Um, there's, there's a, I mean, you know, the one beef some people will have just in passing is, yeah, I mean, there's more to learn because there's more to do.
+[01:03:09.360 --> 01:03:17.360]  It's not as simple as just saying to Siri, Hey, do this obvious thing you've been doing for five years. Like with the Echo, there's, it does enough stuff that you have to do a little bit of command line with it, right?
+[01:03:17.360 --> 01:03:26.360]  You gotta do a little bit of bash to like address the right thing, but it's a, it's shockingly good at hearing that even kind of, kind of far away in the house.
+[01:03:26.360 --> 01:03:35.360]  Like I'm forever yelling at my phone across the room to set a timer and have, I don't mean to bitch. I'm just saying that like there's, there's benefits to all of these things.
+[01:03:35.360 --> 01:03:42.360]  And you know, the Echo is the one that got traction, surprised everybody. Everybody's like, Oh, this crazy thing, this crazy future too. There's a lady in the tube. Who's going to buy this?
+[01:03:42.360 --> 01:03:55.360]  Well, people did and they love it. And I own two now. And, um, I don't consider it essential, but I consider it in the aggregate more useful than my Apple watch. And I think it has a brighter future.
+[01:03:55.360 --> 01:04:05.360]  All right, let's keep going on this, but first I want to thank our second sponsor of the day and it's our, uh, our good friends at meh.com again.
+[01:04:05.360 --> 01:04:15.360]  Again, again, you get a two for, uh, you know, they're the daily deal set. You go there, you get a daily deal, the daily deal today. And again, this is too late for you.
+[01:04:15.360 --> 01:04:29.360]  It's already, not only is the show going to be out, um, you know, the day later, two days later. Um, but just as an example of how good this is, this, this, this, uh, uh, food saver vacuum sealing system, it is refurbished, but that's, you know, it's still, that's like new.
+[01:04:29.360 --> 01:04:40.360]  You get it for 22 bucks. They even tell you what it costs at Amazon. It costs 102 bucks at Amazon. So that's, you know, five X higher almost, you know, crazy.
+[01:04:40.360 --> 01:04:46.360]  It's some of the deals they have. It really does make me wonder whether they're getting this stuff off the back of the truck, like on Goodfellas.
+[01:04:46.360 --> 01:05:02.360]  And it's weird stuff is so delightfully weird. They, um, they're such a strange company and they'd sponsored back to work not too long ago. And their special the day, the day we did it was two folding knives, like two swish blady, like pocket knives.
+[01:05:02.360 --> 01:05:06.360]  Like just in case you get a knife fighting you with two knives.
+[01:05:06.360 --> 01:05:13.360]  Right. Or you get it if they, if you're going into a, if you're going into a bar and they, you know, the bouncer takes your one knife, you've still got a backup knife.
+[01:05:13.360 --> 01:05:17.360]  You didn't check the sock sucker.
+[01:05:17.360 --> 01:05:35.360]  Uh, but they've got other stuff too. They, I told you that just their writeups of the daily deals are worth reading. They've got these videos, but they've also got this, these community forums and it's, you know, you type in it's forming stuff, but on these forums, they're doing interesting stuff like commissioning articles from real writers.
+[01:05:35.360 --> 01:05:50.360]  So they, they commissioned a friend of the show, uh, sometimes guest on the show, Glenn Fleishman to do it, uh, a two part history of all caps being interpreted as shouting in written language.
+[01:05:50.360 --> 01:06:03.360]  Uh, they've got all sorts of great stuff like that. Actual content. Like you could go to med.com on a regular basis and never want to buy the daily deal. And it just, it's just a site where you go to read cool stuff.
+[01:06:03.360 --> 01:06:18.360]  Uh, so Glenn Fleishman's articles on all caps is, it's almost like clickbait for me because I love, you know, that type of analysis of, of how you read in your head. And it goes back to like the 1800s. It's crazy. He's done all this research.
+[01:06:18.360 --> 01:06:25.360]  So go to med.com, check out their forums and, uh, check out their daily deals.
+[01:06:25.360 --> 01:06:36.360]  Who do you think, who do you think the, uh, who do you think the third sponsor is going to be? You guys know fracture.
+[01:06:36.360 --> 01:06:54.360]  I'm not gonna guess. I don't want to spoil it. All right. Um, do you think it's a problem? So you hinted at this and in some ways this, this voice assistant space is almost the, it's almost the conceptual opposite of,
+[01:06:54.360 --> 01:07:16.360]  of iOS in so far as most of iOS and certainly iOS starting in 2007 and 2008 in the early years was entirely visual and anything you could do was represented on screen by some sort of physical visual object.
+[01:07:16.360 --> 01:07:31.360]  And to me it's actually an overlooked aspect of the genius of iOS is designed, uh, that they, they didn't go with some sort of like what's our, our fabulous new phone user interface going to be like.
+[01:07:31.360 --> 01:07:37.360]  And they didn't try to do something that makes regular people say, wow, this is so conceptually clever.
+[01:07:37.360 --> 01:07:46.360]  Instead they did like the most obvious thing possible, which was like, Hey, just like the old Palm pilots or, you know, here's a bunch of apps, tap on the app and it launches the app.
+[01:07:46.360 --> 01:07:53.360]  And when the app is launched, it takes over the screen and here's one button on the front face that you go back to the home screen.
+[01:07:53.360 --> 01:07:59.360]  So here's a bunch of apps, tap one to go in the app. And when you're in an app, tap this button and you go back to the home screen.
+[01:07:59.360 --> 01:08:07.360]  And once you're in an app, anything you can do in the app is something you can see on the rectangle of pixels that are lit up.
+[01:08:07.360 --> 01:08:22.360]  And since then they've added some shortcuts that you kind of have to know about, like when you slide in from the side or slide down from the top to get the notification center or up from the bottom to get the control center.
+[01:08:22.360 --> 01:08:29.360]  But those are things that if you don't know about you, there's still a way to do it visually, right? Everything you can do.
+[01:08:29.360 --> 01:08:41.360]  If you're a more simple user of iOS and you don't even know about control center, anything you can do there, you can just go to the home screen, go to settings and just read that list and you'll find it.
+[01:08:41.360 --> 01:08:50.360]  When settings now setting. But also to your point, though, settings has gotten so long and so complex. I wonder how many people have realized that there's now a search field inside of settings.
+[01:08:50.360 --> 01:08:54.360]  I don't know how many people, but they should. It's very useful.
+[01:08:54.360 --> 01:09:02.360]  It's staggering how much stuff is in settings and rather than having to go drill down, there's so much stuff in there that it's actually way faster to do a search.
+[01:09:02.360 --> 01:09:24.360]  But it's almost like the difference between a visual video game like, you know, Super Mario Brothers, where you could see where Mario can go because you're watching Mario move around the screen versus the old school text games like Zork or whatever, where you just have to start typing stuff and guess.
+[01:09:24.360 --> 01:09:43.360]  Like. It's easier to explore, I think, for most people visually than it is to explore verbally, and it's so much easier to see what an iPhone can do because effectively, for the most part, it's you go to the home screen and look at the apps and here's what your iPhone can do.
+[01:09:43.360 --> 01:09:56.360]  It's these apps and, you know, the ones that come from Apple are fairly obvious, and any other ones are ones that you chose to install, so you should, you know, have a basic idea of what they do.
+[01:09:56.360 --> 01:10:02.360]  Whereas Siri, it's like, what's the total list of things you can do with Siri?
+[01:10:02.360 --> 01:10:13.360]  I have never found a comprehensive list that wasn't somebody's guess on a blog post. I have never seen a full list of everything Siri can do.
+[01:10:13.360 --> 01:10:25.360]  The closest thing I've seen is, like I say, some blog posts people have done and basically that marketing page where you can scroll really far down and see lots of suggestions, but it's surprisingly under-documented.
+[01:10:25.360 --> 01:10:34.360]  So you're right. How do you learn? I mean, think about how many people you have to say, like, hey, if you want to play with Siri, go to Siri and then go hit that little question mark.
+[01:10:34.360 --> 01:10:39.360]  And they're like, what question mark? I'm like, oh, man, hit that question mark because that is in the lower left, I believe.
+[01:10:39.360 --> 01:10:44.360]  And that's going to tell you so much stuff you had no idea you could say to Siri. It's not learnable.
+[01:10:44.360 --> 01:10:48.360]  Like you're saying, it isn't like you can just look at the pretty glass screen and understand what you're supposed to do.
+[01:10:48.360 --> 01:10:57.360]  You either need to get educated or you need to explore. You need to try. And that's not intuitively obvious.
+[01:10:57.360 --> 01:11:20.360]  So to me, not the canonical example, I'm trying to see the epitome of where this is going, the ideal of where these voice-driven assistants are going is exemplified by HAL 9000 in 2001, where you watch these characters interact with HAL.
+[01:11:20.360 --> 01:11:32.360]  And you never it would be it would be shocking if they said something to them. And HAL was like, I'm sorry, I didn't understand the question.
+[01:11:32.360 --> 01:11:39.360]  You know, it's like you just know that HAL is going to get it. And if they said something, did you mean white the color or white the race?
+[01:11:39.360 --> 01:11:42.360]  Well, what a weird question, HAL. Of course, you would know that. Right.
+[01:11:42.360 --> 01:11:53.360]  Not only that, but how also, as I was boning up last night and reading stuff you were suggesting, if you notice, HAL ends up sounding like the calmest and most human person in the movie in some way.
+[01:11:53.360 --> 01:11:56.360]  Oh, yeah, definitely. Well, that was Pauline. I never thought of it that way, but it's true.
+[01:11:56.360 --> 01:12:00.360]  That was Pauline Kael's criticism. One of her criticisms of the film.
+[01:12:00.360 --> 01:12:01.360]  It's only got one character.
+[01:12:01.360 --> 01:12:11.360]  Well, that the most interesting character is the computer. And it's like, well, so what? Isn't that actually kind of fascinating that somebody can make a movie where the most interesting character is the computer?
+[01:12:11.360 --> 01:12:14.360]  Like, how is that? How is that a failure?
+[01:12:14.360 --> 01:12:21.360]  But if the characters in that movie had said, how can dim the lights, you know that the lights would dim.
+[01:12:21.360 --> 01:12:28.360]  There's 100 percent chance. And you know that HAL could do that. Like anything on that ship, you know that HAL could do.
+[01:12:28.360 --> 01:12:38.360]  You know, and everything that they it's the the ideal is obviously something that's so aware that it can control everything.
+[01:12:38.360 --> 01:12:45.360]  Like it's and we're obviously not there yet, but, you know, we're getting there. You're already you're already turning your lights out with it.
+[01:12:45.360 --> 01:12:52.360]  But it's like, you know, you know, you probably can't turn your microwave on with Alexa.
+[01:12:52.360 --> 01:12:54.360]  You got me thinking, though, you're bringing up a really good point.
+[01:12:54.360 --> 01:13:05.360]  We talk about what they came out of the box with in 2007 and like what was it that was in retrospect, as we look back, what are the things that we really remember as seeming revolutionary?
+[01:13:05.360 --> 01:13:15.360]  I think I feel like for myself, the most amazing what trick Steve and team pulled off was calling this thing a phone.
+[01:13:15.360 --> 01:13:21.360]  So the first amazing part is that they were to put out this they would have brought this thing that I mean, yeah, it's a phone.
+[01:13:21.360 --> 01:13:25.360]  But I mean, there's a lot of other things I would want to call it before I called it a phone.
+[01:13:25.360 --> 01:13:29.360]  It is to use his third the third piece. It's an Internet communicator.
+[01:13:29.360 --> 01:13:34.360]  That's what made the thing really great. But who's going to go out and buy Internet communicator?
+[01:13:34.360 --> 01:13:39.360]  I think that for myself, that's one amazing part is that they put a computer in your pocket and it did actually work.
+[01:13:39.360 --> 01:13:49.360]  The other amazing thing in retrospect, and maybe one of the things that is the most revolutionary and influential was that it's just a big piece of glass on front.
+[01:13:49.360 --> 01:13:52.360]  Right. There's no there's no there's one dedicated button that does stuff.
+[01:13:52.360 --> 01:13:55.360]  But and there's only limited things the apps can do to remember.
+[01:13:55.360 --> 01:13:59.360]  These are the days when you're running one app at a time. What you could do with sound was very limited.
+[01:13:59.360 --> 01:14:04.360]  What you could do with having, you know, you're only you couldn't copy and paste. It's one app at a time, et cetera, et cetera.
+[01:14:04.360 --> 01:14:09.360]  But what did that do? That worked to the advantage of both the strengths and weaknesses of the phone.
+[01:14:09.360 --> 01:14:14.360]  It could only do so much. But what you could do was very easy to understand because it was in this paradigm that you're familiar with.
+[01:14:14.360 --> 01:14:19.360]  If you've ever used a Windows like a GUI system, this is not going to seem crazy.
+[01:14:19.360 --> 01:14:23.360]  It's just that there's no mouse. Your finger is the mouse. So right.
+[01:14:23.360 --> 01:14:29.360]  But the thing is so. But so now where are we? Where are we now? Like you say, well, now you can get to stuff by pulling down.
+[01:14:29.360 --> 01:14:36.360]  You can get to stuff by pulling up. If you're on a recent phone, like if you're on a sixth generation phone pressing hard on.
+[01:14:36.360 --> 01:14:41.360]  I wonder how many people know this pressing hard on the left side of the screen. There'll be a little bloop.
+[01:14:41.360 --> 01:14:46.360]  And you go to the previous app. You could be one of the six people who's using the 3D touch.
+[01:14:46.360 --> 01:14:52.360]  But so on top of that, let's think about haptics and tactics on the phone and on the watch.
+[01:14:52.360 --> 01:14:59.360]  There are now so many more ways to communicate and communication is not just talking. Communication is also listening and hearing.
+[01:14:59.360 --> 01:15:07.360]  So our ability. I mean, for example, something I don't know how many people use this on iOS, but you can go into accessibility and flip on the LED.
+[01:15:07.360 --> 01:15:11.360]  The LED will blink when you get an alert. So I have that turned on.
+[01:15:11.360 --> 01:15:15.360]  So if I'm not paying attention, I can see across the room that there's like a flash.
+[01:15:15.360 --> 01:15:20.360]  So there's all these ways that you can talk to the phone. The phone can talk to you.
+[01:15:20.360 --> 01:15:26.360]  But we're still I mean, but we still haven't really rethought the whole paradigm of how we interact with the phone.
+[01:15:26.360 --> 01:15:31.360]  We're finding new ways to expand what this thing can do. Make it faster. Touch ID. Think about touch ID, right?
+[01:15:31.360 --> 01:15:40.360]  But I mean, there hasn't been there hasn't been a need to completely rethink the phone because these are all improvements on the product we had in 2007.
+[01:15:40.360 --> 01:15:50.360]  But now, like, I'm not sure this is where you're going, but I mean, I want to know where you're going. Wow. I mean, now that you can do voice, like, how does that change the way you think about this little glass internet communicator?
+[01:15:50.360 --> 01:16:03.360]  You know, is it well suited to doing these kinds of things? And what would need to change about the basic technology and the policies of the company to make this into something more than just another another way to interact with the phone?
+[01:16:03.360 --> 01:16:18.360]  I don't know. I still want to know, like, like, where, where do we draw the line between having every single device that we get from Apple understand Yo Dingus, right?
+[01:16:18.360 --> 01:16:32.360]  Right now, I've got my watch doing it. I've got my phone doing it. My iPad does it. My Mac doesn't. But there's three devices that do and now there's a rumor that an Apple TV, right?
+[01:16:32.360 --> 01:16:50.360]  And now they're supposedly building a new device that does it. Well, then when I address Siri with Yo Dingus, how many things turn on at once? I mean, and right now it's not very smart at all. Like, if my iPad is within the same earshot as the phone, they both come on.
+[01:16:50.360 --> 01:17:05.360]  Well, I mean, think about iMessages. Like, you know, they seem to have gotten better at that, but you know, you don't want every single device in the world going off. If it has a way to determine where you quote unquote are right now, that's where you prefer to hear about.
+[01:17:05.360 --> 01:17:12.360]  I still miss things because it went to the watch and I didn't realize it. So it's trying to be smart with that, but to have a sense of place about what you're doing.
+[01:17:12.360 --> 01:17:21.360]  And like I said in this, these notes here, like context awareness, like when it's most appropriate to do a certain kind of thing. Cause you know, do we have to choose one tool?
+[01:17:21.360 --> 01:17:37.360]  Aren't we allowed to have like spoons and knives in our house? It's like you, you might want all of these things, but you do need a little help from the devices to be contextually intelligent about what you need to know when, when stuff is likely to be useful and where it is extremely cumbersome and inappropriate.
+[01:17:37.360 --> 01:17:51.360]  Do you remember like, this is way back, this is like going back to like 1998, 1999. And on the great, one of the best websites at that time was Macintosh. It's still around, but I don't think it's...
+[01:17:51.360 --> 01:17:52.360]  Is that Rick Ford?
+[01:17:52.360 --> 01:17:54.360]  Yeah, Rick Ford.
+[01:17:54.360 --> 01:18:09.360]  I remember that there was a recurring, like the way that he would do it is somebody would send something in, it would become a story and then a couple more people would email and then he would add to the page with more people's comments, but it wasn't open.
+[01:18:09.360 --> 01:18:21.360]  It was curated by Rick Ford and you'd end up with this great discussion. I remember one of the big controversies was when some Mac apps started phoning home on the network, which more or less just to check for a new version.
+[01:18:21.360 --> 01:18:34.360]  Like they would, like maybe like once a week, some, you know, little indie app would, would connect to its, you know, parent companies.com and just say, Hey, I'm version 3.7. Is there a new version?
+[01:18:34.360 --> 01:18:52.360]  And then if there is, like if 3.8 is out, it could let you know that there's a new version. And people were, you know, were using certain like utilities that would notify them, like super hyper privacy minded people who use utilities, like on Mac OS X, it would be like little snitch. I think there were things like that.
+[01:18:52.360 --> 01:19:09.360]  This was a concern though, if you were stealing your copy of Quark, which I heard some people used to do, because it would be able to run out across the network and see which other serial numbers, like things along those lines, where you would actually be able to get another layer of shareware running that would prevent those things from talking to each other.
+[01:19:09.360 --> 01:19:23.360]  Yeah, what it would do. Yeah, the one of the anti piracy or anti, you know, using a license on too many machines, mechanisms. I know Quark did it. I think Adobe might. I know for sure Quark did it. Yeah.
+[01:19:23.360 --> 01:19:34.360]  Where they would look across the local network. I mean, maybe it was the whole internet. Was it the whole internet? I don't know. I think for our case, it was our Apple talk network. Yeah. And it was enough to it was enough to make it important, but they would look across the local talk network.
+[01:19:34.360 --> 01:19:46.360]  And if it saw the same serial number was already running, it would refuse to run on the second machine. And people, you know, were very upset about it because it was like, what right does this app have to do anything on the network without me?
+[01:19:46.360 --> 01:19:54.360]  And I remember nodding my head and I wasn't like thinking like, yeah, you know, outrage. I was just thinking, yeah, this is a little creepy. I wonder where this is going.
+[01:19:54.360 --> 01:20:11.360]  And to think about like how much like how antiquated that is like privacy wise that I'm thinking I was what made me think about this was that I'm thinking I wouldn't mind if my iMac always had the camera on to look to see if I'm sitting in front of it.
+[01:20:11.360 --> 01:20:21.360]  So that it would as soon as I get up from my chair would know to send the iMessage that I'm conversation I'm having with Merlin right to my phone.
+[01:20:21.360 --> 01:20:31.360]  Right, like, how does my iMac know if I'm sitting in front of it like right now it doesn't really it just like kind of keeps track of I guess like mouse action or keyboard action or something like that.
+[01:20:31.360 --> 01:20:39.360]  But I was either either totally innocuous or really scary depending on what you think of as being watched because what about motion sensors in your home does that creep you out?
+[01:20:39.360 --> 01:20:50.360]  Well, no, we just I you know what I mean? Like it depends on what you want it to do. But there's a zero or one feeling there because if there's a camera, we assume that it's always recording us and sending it somewhere to do something.
+[01:20:50.360 --> 01:21:01.360]  It's not simply a sensor, right? We assume immediately that it's going to be taking our stuff and throwing it up on the internet somewhere.
+[01:21:01.360 --> 01:21:04.360]  We've just come so far in terms of where we draw the line.
+[01:21:04.360 --> 01:21:19.360]  It's ludicrous, but I was trying to actually I was telling my daughter I was giving my daughter a bath last night and boring her to tears telling her about how I was going to talk to you about today and I was asking her about what she thought about the distinction between listening and hearing.
+[01:21:19.360 --> 01:21:29.360]  And she she was saying she thinks we were disagreeing a little bit on the distinction, but I think to appreciate what we're talking about with this stuff you must see a distinction or should see a distinction between listening and hearing.
+[01:21:29.360 --> 01:21:37.360]  So if you don't believe the companies that say they're not actually sending all your stuff to the NSA will definitely don't have these devices.
+[01:21:37.360 --> 01:21:41.360]  If you're considering that though, I think it's worth considering the difference between listening and hearing.
+[01:21:41.360 --> 01:21:57.360]  It's one thing to listen, right? So listening means that it's basically listening for the trigger words, but then after the trigger words is when it's really hearing and I feel like that's that's a young distinction that we need to start thinking about for all kinds of reasons, including privacy, right?
+[01:21:57.360 --> 01:21:59.360]  Do you follow what I'm saying though?
+[01:21:59.360 --> 01:22:00.360]  No, I do.
+[01:22:00.360 --> 01:22:11.360]  Like in your case you want you want a camera that's that is monitoring even if it's not recording that there's there's we should start to see some kind of a distinction.
+[01:22:11.360 --> 01:22:21.360]  Certainly again, I feel like I always have to say this. Yes, I don't want people spying on us, but like what are we willing to throw out for that notional privacy that we may or may not have anyway?
+[01:22:21.360 --> 01:22:31.360]  In this instance, I just I think that a lot of people shut that door really fast without looking too much further beyond what they imagine is the worst case scenario.
+[01:22:31.360 --> 01:22:36.360]  Would you be okay with your with your Mac using the camera to see if you're you're in front of it?
+[01:22:36.360 --> 01:22:37.360]  God, no.
+[01:22:37.360 --> 01:22:40.360]  No, even if they see me, you should see what I look like right now.
+[01:22:40.360 --> 01:22:53.360]  And I feel like you could, you know, outsiders could independently verify by looking at network traffic that the video isn't being sent anywhere.
+[01:22:53.360 --> 01:22:58.360]  No, no, I see what you're saying. But like, for example, like we've got a couple different cameras at the house.
+[01:22:58.360 --> 01:23:06.360]  We've got a nest cam that watches the door and we've got a canary and the canary is a camera with a super.
+[01:23:06.360 --> 01:23:08.360]  Are you familiar with canary?
+[01:23:08.360 --> 01:23:09.360]  No.
+[01:23:09.360 --> 01:23:12.360]  Canary is pretty cool. It's Canary dot IS.
+[01:23:12.360 --> 01:23:19.360]  So it's a device that's not too different looking from an Amazon Echo, a little shorter, a little fatter.
+[01:23:19.360 --> 01:23:30.360]  You basically plug that in and it has a very wide fisheye lens that will cover not 180 degrees, but a pretty wide spectrum.
+[01:23:30.360 --> 01:23:37.360]  And but the nice thing about it is it has a very sane mode series of modes.
+[01:23:37.360 --> 01:23:46.360]  So there's armed, which means that nobody is in the house and, you know, go ahead and record, you know, whatever, whatever you're seeing with the camera.
+[01:23:46.360 --> 01:23:53.360]  If it notices that you're at home, you can set it so that it either keeps running and doesn't isn't sending you notices or you can say shut it off.
+[01:23:53.360 --> 01:24:02.360]  So in my case, if the iPhone detects that anybody is at home, you know, the people who should be there, it just shuts it off altogether.
+[01:24:02.360 --> 01:24:04.360]  So like, you know, I mean, is that perfect?
+[01:24:04.360 --> 01:24:07.360]  No, but like that works pretty well.
+[01:24:07.360 --> 01:24:14.360]  So if we're out of town and we see something moving around that's not a cat or a house cleaner, you can have that thing, you know, shut off a siren.
+[01:24:14.360 --> 01:24:16.360]  You can hit the police number from it, whatever.
+[01:24:16.360 --> 01:24:20.360]  I mainly want to just be able to see what's, you know, nothing's on fire.
+[01:24:20.360 --> 01:24:25.360]  You know, the feeling I will I will put I will put the link in the show notes.
+[01:24:25.360 --> 01:24:27.360]  I've already written it down. It looks like a great product.
+[01:24:27.360 --> 01:24:36.360]  It does. I know exactly what you mean. I get paranoid when we're away from home that, yeah, that, you know, how do I know that the house isn't hasn't burned down?
+[01:24:36.360 --> 01:24:37.360]  How do I know that?
+[01:24:37.360 --> 01:24:39.360]  Who would know to contact me, you know?
+[01:24:39.360 --> 01:24:43.360]  How do I know that squatters haven't broken in and just sort of set up set up home?
+[01:24:43.360 --> 01:24:46.360]  I know somebody can draw a penis on your garage door.
+[01:24:46.360 --> 01:24:51.360]  Right, exactly.
+[01:24:51.360 --> 01:25:00.360]  Trust me, I know firsthand experience. You've got to scrub that as soon as possible before the ink dries.
+[01:25:00.360 --> 01:25:01.360]  Sorry, I took you off your topic.
+[01:25:01.360 --> 01:25:09.360]  Well, no, no, no. But the rumor about this upcoming Apple thing is that I'll put a link to show notes on that.
+[01:25:09.360 --> 01:25:19.360]  But did you see this? That after the initial report came out, there's a report that the thing that Apple is doing does include a camera probably similar to the canary, like a wide angle fisheye camera.
+[01:25:19.360 --> 01:25:26.360]  And that it will attempt to recognize the people talking to it.
+[01:25:26.360 --> 01:25:40.360]  Yeah. And again, I don't want to be glib about it. I know I'm a Kubrick fanatic, but, you know, it's the concept of how, you know, and one of the things that makes 2001 such a great movie is the scientific rigor.
+[01:25:40.360 --> 01:25:47.360]  You know, it really was an honest attempt. And obviously it was very optimistic about about all of it.
+[01:25:47.360 --> 01:25:56.360]  You know, there's there is no Hilton orbiting the Earth. Pan Am doesn't have flights to the moon.
+[01:25:56.360 --> 01:26:01.360]  We don't have a rocket ship that could take astronauts to Jupiter.
+[01:26:01.360 --> 01:26:04.360]  More cute stewardesses in Velcro shoes.
+[01:26:04.360 --> 01:26:09.360]  No, and we don't have AI at the level of HAL.
+[01:26:09.360 --> 01:26:27.360]  So it was optimistic year wise, but, you know, it attempted to be, you know, as rigorous as they could and including talking to top artificial intelligence experts of the era as to, you know, what do you think would be possible?
+[01:26:27.360 --> 01:26:29.360]  How could this work?
+[01:26:29.360 --> 01:26:43.360]  And it's, you know, conceptually, that's where we're heading. Right. We would have wide angle. I mean, even even down to using a wide angle lens to get a big field of view into the into the eye dingus.
+[01:26:43.360 --> 01:26:47.360]  Right. When they show you how's point of view, it's like a superficial eye.
+[01:26:47.360 --> 01:26:54.360]  But the idea that the thing you're talking to and again, it's like this mixture of yes, I've always wanted to have like how nine thousand.
+[01:26:54.360 --> 01:27:02.360]  And then conversely, the I don't know if I want you know, I don't want people, you know, AI systems watching me.
+[01:27:02.360 --> 01:27:08.360]  You know, I mean, like it's a mixture of like dread and desire.
+[01:27:08.360 --> 01:27:10.360]  But I think it's clearly where we're heading.
+[01:27:10.360 --> 01:27:27.360]  And the idea that it would help, you know, like help create a shared device because it isn't one of the limits of like the echo right now that it it's like two people in the same house can't really set it up with what's on my calendar.
+[01:27:27.360 --> 01:27:33.360]  Oh, true. Yeah, true. You can have multiple echoes. And that's actually it's kind of cool. But yeah, you're right.
+[01:27:33.360 --> 01:27:44.360]  And I mean, also, you know, there's a there's a something that's got to get dealt with at some point soon is I mean, it's understandable to say, well, you know, right now we just want to get the technology down.
+[01:27:44.360 --> 01:27:48.360]  So anybody who talks to it correctly can make this work.
+[01:27:48.360 --> 01:27:52.360]  But I mean, you know, for example, my echo has access to my calendar. It is my calendar.
+[01:27:52.360 --> 01:27:55.360]  Anybody who came in and asked it could get my calendar info.
+[01:27:55.360 --> 01:28:01.360]  It doesn't I mean, currently, there's not a way I know for echo to be disabled when I personally am not there.
+[01:28:01.360 --> 01:28:10.360]  There's probably all kinds of creepy stuff you can do. But, you know, and you can buy stuff like so like if I came over to your house and you, you know, head to the restroom, I could quick order up.
+[01:28:10.360 --> 01:28:16.360]  Just say reorder reorder dildos and they be on your door the next day.
+[01:28:16.360 --> 01:28:24.360]  It's totally true. I basically just say to your dingus, you just say like reorder contractor bags and say, OK, on this date, you ordered that.
+[01:28:24.360 --> 01:28:33.360]  But it's like Syracuse is concerned about the Amazon buttons that is kids, which my daughter has totally done.
+[01:28:33.360 --> 01:28:39.360]  Oh, look at some more seventh generation detergent.
+[01:28:39.360 --> 01:28:45.360]  See, I don't know. This is I guess this is the part people always want to talk about. This is the part that you always jump directly to.
+[01:28:45.360 --> 01:28:51.360]  I think it's unavoidable, but I think it's also complicated, which is when you get into like, you know, what should this do just because we can do it?
+[01:28:51.360 --> 01:28:55.360]  Should we do it? Well, I think this is where stuff is going.
+[01:28:55.360 --> 01:29:00.360]  So it's it does not benefit us to keep talking about how this how we're never going to use this.
+[01:29:00.360 --> 01:29:07.360]  It benefits us to talk about what we actually are talking about when we talk about this stuff, what we're willing to tolerate.
+[01:29:07.360 --> 01:29:16.360]  I think in order to have a sane conversation about this, we have to stop acting like it's a Frankenstein monster and try to have like a more reasoned discussion about, you know, what this stuff is, what this stuff does.
+[01:29:16.360 --> 01:29:29.360]  And once you get used to a creature comfort, it's it's like psychologically impossible to go back and just think about like cars and the way that cars have improved since we were kids.
+[01:29:29.360 --> 01:29:41.360]  Just creep creature comfort wise, right? Like when we were kids, if you wanted to move the seat back or front, you had to sit there and hold a physical lever and then slide it using your muscles.
+[01:29:41.360 --> 01:29:52.360]  And now, I mean, our car's 10 years old, but we have a thing where when I, you know, because we have the electronic key fobs, if I unlock the door, the seat automatically starts moving to my preferred location.
+[01:29:52.360 --> 01:29:58.360]  And if Amy's the one who unlocks the door, the seat moves to her preferred location. That's amazing.
+[01:29:58.360 --> 01:30:06.360]  But you really shouldn't be driving, right? You lost your license. Well, and well, and I wear flip flops everywhere.
+[01:30:06.360 --> 01:30:15.360]  You know, a topic. Yes, that is so crazy to me. But a topic for some reason seems to come up every time we talk ATMs.
+[01:30:15.360 --> 01:30:25.360]  Yeah, ATMs. But, you know, what a what a terrific example. 1977, 1978. Guess what? There's this new scary robot at the mall that will give you money.
+[01:30:25.360 --> 01:30:30.360]  Wait a minute. You're saying anybody can walk up to this machine and have access to my bank account? No, no, no, no, no.
+[01:30:30.360 --> 01:30:39.360]  You got to have your little card and you got a four digit code. OK, just let me understand this. You know, I'm a Rockefeller and I have access to all this money.
+[01:30:39.360 --> 01:30:48.360]  So basically anybody who has this four digit code can just clean me out because and that's really what everybody said into the 80s.
+[01:30:48.360 --> 01:30:56.360]  OK, so I'm not trying to say this is a perfect system, but what I'm saying is that in the amount of time that ATMs have been around, there's some things most all of us kind of know at this point.
+[01:30:56.360 --> 01:31:01.360]  I mean, there's always going to be stuff like skimmers, like, you know, go read Krebs on security have just ruined your month.
+[01:31:01.360 --> 01:31:07.360]  But there are things we know. We know, first of all, that there are limitations on the account.
+[01:31:07.360 --> 01:31:12.360]  If they do, quote unquote, clean you out, they're not going to get more than probably 400 or 500 dollars out of your account.
+[01:31:12.360 --> 01:31:19.360]  And you know what? If it was if it was fraudulent, there's a pretty good chance you can go to your bank and they're going to cover most of the cost of that.
+[01:31:19.360 --> 01:31:26.360]  You know, my dad, my dad, I don't think has an ATM card. I still I still think that maybe they've sent him one.
+[01:31:26.360 --> 01:31:33.360]  And then they without even asking. And then he just cuts it up.
+[01:31:33.360 --> 01:31:48.360]  My dad, my dad, my dad, at least, you know, at least through the high school when I lived at home, anytime my dad wanted to get cash, he would go to the bank and go to the wait in line and go to the teller and bring the passport.
+[01:31:48.360 --> 01:31:56.360]  Bring the past book. Right. And and get cash. And he would just get enough cash at the time where he wouldn't have to go back frequently.
+[01:31:56.360 --> 01:32:01.360]  I hate accidentally falling into the role of armchair futurist because it's such a douchey thing to be.
+[01:32:01.360 --> 01:32:04.360]  But like, here's what I'm trying to say. Like, you know, I have a pretty good feeling.
+[01:32:04.360 --> 01:32:16.360]  And this is an overarching thing for me as I try to grow as a person is to stop making these instant decisions based on emotions about whether something will be terrible and ruin everything.
+[01:32:16.360 --> 01:32:25.360]  Which feels like something a lot of folks do as soon as it does. There's this weird black and white thinking thing where as soon as somebody gets the slightest whiff of something they don't like.
+[01:32:25.360 --> 01:32:29.360]  It's the worst thing ever. And it's a literal Holocaust. I'm trying to avoid doing that.
+[01:32:29.360 --> 01:32:37.360]  So when I say this example, something like an ATM, what I'm really trying to say is that, like, well, there's a certain amount of risk associated with that.
+[01:32:37.360 --> 01:32:43.360]  There will always be a certain amount of risk. We're still driving cars that can go 100 miles an hour.
+[01:32:43.360 --> 01:32:49.360]  There's an acceptable amount of risk with that. You don't find that risky at all when a bus goes by your kid while you're walking down the street.
+[01:32:49.360 --> 01:32:55.360]  But like all these things find their level in some way. Not for all time. Pendulum swing, Hakuna Matata.
+[01:32:55.360 --> 01:33:03.360]  But the thing is, we figured out a way for ATMs to be part of our life in a way that didn't ruin everybody in America.
+[01:33:03.360 --> 01:33:09.360]  And so I think instead of thinking about this as like some kind of new dioxin that's going to kill the environment.
+[01:33:09.360 --> 01:33:13.360]  Let's think about things like AI and yes, things like VR, the silly things like that.
+[01:33:13.360 --> 01:33:20.360]  Let's instead ask ourselves, like, how that could find a place if we stop looking at it as this thing we think we understand today,
+[01:33:20.360 --> 01:33:25.360]  start looking at the components of this as something we might see in our lives and stop being so wowed by it.
+[01:33:25.360 --> 01:33:31.360]  Because in all the times you're either cowed or wowed by it, somebody else is running away with the legislation on what actually happens with that stuff.
+[01:33:31.360 --> 01:33:35.360]  You've got to keep your eyes open and be smart, but admit that this is something that is a thing.
+[01:33:35.360 --> 01:33:42.360]  The self-driving cars thing is a perfect example where I think most people are looking forward to it,
+[01:33:42.360 --> 01:33:53.360]  but because it is scary red letters new and it seemingly involves robots doing things that we used to do, everybody is worried.
+[01:33:53.360 --> 01:33:56.360]  I know I'm worried. Everybody knows that eventually it's going to come.
+[01:33:56.360 --> 01:34:04.360]  We're going to have self-driving cars and eventually it's just inevitable there's going to be an accident where somebody gets killed and you can blame the AI.
+[01:34:04.360 --> 01:34:09.360]  And there's so many millions of people in so many cars and so many things, it's inevitable.
+[01:34:09.360 --> 01:34:21.360]  And just to put up the hypothetical, what if the AI locks itself into a situation where it can make a move that harms you, the passenger, or it kills a pedestrian,
+[01:34:21.360 --> 01:34:28.360]  and there's no other option that the AI sees and the decision has to be made in the next hundredth of a second.
+[01:34:28.360 --> 01:34:31.360]  What happens? Either way, it's a scandal.
+[01:34:31.360 --> 01:34:35.360]  It's like the ethical problem with the train track and that kind of thing.
+[01:34:35.360 --> 01:34:49.360]  Ask yourself, I'm not a statistician, but think about if we took the net number of miles driven by mature automated vehicles versus the net number of, allow me a straw man here,
+[01:34:49.360 --> 01:34:58.360]  the net number of miles driven by drunks, let's see who has a better kill ratio because I got a feeling the automated car might do a little bit better.
+[01:34:58.360 --> 01:35:03.360]  I bet, you know what turns out, I bet it might even do a little bit better than all those people who are really good drivers,
+[01:35:03.360 --> 01:35:10.360]  especially when more and more automated cars can talk to each other and don't need the meat bag behind the pedal to keep it from flying off the road.
+[01:35:10.360 --> 01:35:21.360]  Right. I completely agree. I think it's inevitable that self-driving cars are going to happen relatively soon and that they will have wonderful safety records
+[01:35:21.360 --> 01:35:32.360]  and that the sooner we can get all or nearly all cars self-driven, that the difference in the number of people getting maimed, seriously injured and killed,
+[01:35:32.360 --> 01:35:39.360]  we'll look back at it as when we used to let people smoke on airplanes, you know, like, oh my God, what the hell were we thinking?
+[01:35:39.360 --> 01:35:45.360]  We let people drive a hundred miles an hour while they were text messaging. There was not, you know, when people did it.
+[01:35:45.360 --> 01:35:56.360]  We got totally cut off by a truck the other day, like just completely cut off by a semi. Ten minutes later, we see a woman, you know, cruising down 80 with her kid in the car seat, like texting.
+[01:35:56.360 --> 01:36:04.360]  And then you just, you don't have to see too many of those to go like, really? Do you think it's going to be that much worse to have an automated car that understands the heuristics of the world?
+[01:36:04.360 --> 01:36:18.360]  I totally don't. But the problem is that as a society, we collectively are very bad at accepting statistical proof versus anecdotal proof.
+[01:36:18.360 --> 01:36:20.360]  I see you too.
+[01:36:20.360 --> 01:36:40.360]  You know, it's like the Republican senator whose argument against climate change was, I mean, this is a true story. I forget the guy's name, but he made his little speech on the Senate floor with a snowball he had just made outside the Capitol at an unseasonable time of year, right?
+[01:36:40.360 --> 01:36:42.360]  The one example.
+[01:36:42.360 --> 01:36:48.360]  The climate scientist is just cursing. He's figured us out. He figured out what's happening with big climate.
+[01:36:48.360 --> 01:36:54.360]  But for some people, that one example is way more compelling than the statistical evidence of what is actually going on.
+[01:36:54.360 --> 01:37:00.360]  I think people will get used to it with the self-driving cars.
+[01:37:00.360 --> 01:37:12.360]  I forget how much I told about this, but I never wrote about it, but I got this amazing demo at the Mercedes self-driving car thing in Silicon Valley a couple months ago.
+[01:37:12.360 --> 01:37:27.360]  It went on a ride in an actual self-driving Mercedes S-Class. It was amazing. I mean, it's real. It actually was like an entire thing, like starting somewhere in Mountain View and getting onto a highway and getting off, and the entire thing had no human intervention whatsoever.
+[01:37:27.360 --> 01:37:28.360]  Wow, really?
+[01:37:28.360 --> 01:37:29.360]  Yeah.
+[01:37:29.360 --> 01:37:45.360]  People who do that all seem to say a similar thing, which is they're always amazed at how quickly it stops seeming weird. Sometimes it is more than a few minutes of that before you go like, oh, this totally makes sense.
+[01:37:45.360 --> 01:38:04.360]  One of my questions for them was, do you think right now, Mercedes Benz makes cars that go well in excess of any speeding limit posted in the United States? If not, I would guess every single car they make goes at least 100 miles an hour.
+[01:38:04.360 --> 01:38:20.360]  In self-driving mode, is it going to be an option to exceed the posted speed limit? And the answer was almost certainly not, that the car will be programmed so that there is no way that you can exceed the speed limit.
+[01:38:20.360 --> 01:38:38.360]  And their take is that, no, you couldn't sell a car like that today when people drive, but they think that people will accept that because why do they want to go fast? It's because they're bored and they want to get to where they're going. And if they can sit there and dick around on their phone while they're getting there, who cares if it takes an extra five?
+[01:38:38.360 --> 01:38:48.360]  Who cares if it takes an extra five minutes to get to work because you're driving 55 instead of driving 80? Or maybe you're taking a nap.
+[01:38:48.360 --> 01:39:01.360]  Yeah, but this is also, this is also getting to, I mean, you know, it's whenever we try to think about change, we try to think about the future, we tend, I feel like at least I tend to focus on maybe two axes, but usually one axis.
+[01:39:01.360 --> 01:39:11.360]  Like the thing that I'm familiar with, the thing that I'm obsessed with, the thing that I think about, but that's the difficulty of thinking about anything more than a year out into the future is like, how will ideas germinate?
+[01:39:11.360 --> 01:39:31.360]  You know, how will things suddenly get cheaper and more possible? How does, how does things suddenly become less impossible? And it's, it's difficult to imagine how those kinds of things are going to work, you know, and we all have our own like biases about, you know, you know, how we would, how we would want it to work and what we would accept in terms of risk.
+[01:39:31.360 --> 01:39:36.360]  Yeah, I, I don't know. I don't know.
+[01:39:36.360 --> 01:39:41.360]  Let me take a break and thank our third sponsor. Do you have a guess? Who's your, who's your third sponsor this week, John?
+[01:39:41.360 --> 01:39:46.360]  Third sponsor this week is the good folks at Meh.com.
+[01:39:46.360 --> 01:39:53.360]  Honestly, fuck these guys for making me think of a third thing to say about them.
+[01:39:53.360 --> 01:40:14.360]  I mean, God bless them for buying out the entire show. They really did. They bought all three. They paid rack rate for all three spots. God bless them for that. I do love the sponsors, but I got to tell you, there's not that much to say about them. They're a daily deal site and they've got some really cool videos and they write really clever copy and they've got some forums where there's really cool stuff going on.
+[01:40:14.360 --> 01:40:18.360]  But other than that, fuck them.
+[01:40:18.360 --> 01:40:20.360]  Go to Meh.com and check them out.
+[01:40:20.360 --> 01:40:22.360]  Fuck them.
+[01:40:22.360 --> 01:40:28.360]  Anything else you want to say about this AI stuff? I think we covered a lot of it. Anything else? I know you had good notes. You did a lot more research. You did good work.
+[01:40:28.360 --> 01:40:31.360]  Yeah. Fuck those guys.
+[01:40:31.360 --> 01:40:34.360]  No, but let me ask you this.
+[01:40:34.360 --> 01:40:37.360]  I think the camera thing, I want to stay on the camera thing for a second.
+[01:40:37.360 --> 01:40:38.360]  Yeah, go.
+[01:40:38.360 --> 01:40:46.360]  Because I think, I think that I don't think that it's going to, I mean, the rumor is that Apple's working on a product now. I think it's imminent. I mean, you've got this canary thing in your house.
+[01:40:46.360 --> 01:40:49.360]  I think, I think the cameras are the next step. I really do.
+[01:40:49.360 --> 01:40:59.360]  The people who say, the people who say, why would I need a device if I've got, you know, the Apple faithful God love them who say, why would I ever want a device for these things?
+[01:40:59.360 --> 01:41:09.360]  If I have my watch and my phone, I can almost promise you as much as I love you all that you haven't actually tried using a device for this stuff because you will use it differently.
+[01:41:09.360 --> 01:41:20.360]  It's funny. It's ironic to me that the same people who are so in love with their iPhone that they learned to love don't understand that there's a similar pattern with trying a device for a while and seeing how you would use it in a different context.
+[01:41:20.360 --> 01:41:24.360]  And it's, you do use it, you might use it pretty differently.
+[01:41:24.360 --> 01:41:27.360]  I could see that becoming a hub for the home in a lot of ways.
+[01:41:27.360 --> 01:41:33.360]  There's already an Amazon device that's made by a third party that you can put on your refrigerator and treat that way.
+[01:41:33.360 --> 01:41:39.360]  But, you know, but, you know, and the question I was gonna ask you that we'll come back to though is like, you know, how are our kids going to use this?
+[01:41:39.360 --> 01:41:43.360]  That's the thing. Nobody cares how we use it. We've aged out of the demo. Nobody cares.
+[01:41:43.360 --> 01:41:54.360]  I don't want to keep banging the HAL 9000 hammer, but I still think that conceptually it's correct that HAL was everywhere on the ship and was built into the ship.
+[01:41:54.360 --> 01:41:58.360]  And he wasn't, he wasn't like a thing that they talk to on their wrist.
+[01:41:58.360 --> 01:42:08.360]  I'm not saying that talking to the thing on your wrist isn't a thing, but I'm saying that the better way to go is to have a ubiquitous presence built in to the ship.
+[01:42:08.360 --> 01:42:20.360]  The Star Trek is the same way, right? The next generation Enterprise computer, best name for one of these things ever, was the same way though.
+[01:42:20.360 --> 01:42:26.360]  The computer was just an ever-present presence built into the ship.
+[01:42:26.360 --> 01:42:32.360]  Well, yeah, totally. And I mean, like think, I'm just, think about stuff like water.
+[01:42:32.360 --> 01:42:40.360]  Water used to be a thing that you went down to the creek and you filled a jug or a bucket and you brought it back and that was the water.
+[01:42:40.360 --> 01:42:48.360]  But now water comes out of little dinguses all throughout your house. Time was, air conditioning was a thing you bought down at the Montgomery Ward and you stuck in your window.
+[01:42:48.360 --> 01:42:52.360]  And now, magically, air conditioning comes out of all these vents throughout your house.
+[01:42:52.360 --> 01:42:58.360]  You can even have smart vents, as I've seen on Shark Tank, that you can adjust how much air conditioning is going into a room at each time.
+[01:42:58.360 --> 01:43:08.360]  So our first example of how we would use this HAL 9000-like device is I talk into my watch to see what the weather is, even though I could probably just as easily go see.
+[01:43:08.360 --> 01:43:16.360]  But like, think about it more like what happens when the devices that you use, I think of it almost like a client-server relationship.
+[01:43:16.360 --> 01:43:28.360]  What if it gets to where you pick up 6 or 8 or 12 packs of these dinguses that you could magnet or stick to the wall in the shower, they're waterproof, they could go in the car, they can go in the garage, they can go anywhere.
+[01:43:28.360 --> 01:43:36.360]  What if it becomes just another, in the same way that you would want to extend your Wi-Fi network, you just want to extend the ability to say stuff into the air and have it do things.
+[01:43:36.360 --> 01:43:40.360]  That gets us away from this idea of having this weird $200 thing you put in your house.
+[01:43:40.360 --> 01:43:46.360]  Like, I would think more in that direction than thinking of talking to your watch and asking for the weather.
+[01:43:46.360 --> 01:43:57.360]  And eventually, if it gets smart enough and contextual enough, it will learn to, as I said, the thing I'm always looking for is learn to tell me about things I didn't know I needed to know before I realized I need to know it.
+[01:43:57.360 --> 01:44:08.360]  That's the real brilliance, is when the real machine learning starts to see patterns that I didn't and starts telling me about important things, not just things I know I need to know, tell me the things that are important that I don't know that I need to know.
+[01:44:08.360 --> 01:44:11.360]  And that's where ubiquity comes into it, in context.
+[01:44:11.360 --> 01:44:15.360]  Tell me when this is useful. Don't be yelling at me in blinking lights all the time.
+[01:44:15.360 --> 01:44:19.360]  Learn what's important to me, and then help me have the life I want to have.
+[01:44:19.360 --> 01:44:31.360]  Humans are naturally really, really good at certain pattern recognitions, like identifying a familiar face, or even a face that you've only met once, but you know you know them.
+[01:44:31.360 --> 01:44:36.360]  It's like pareidolia, is that what it's called? Where you look at a street curb and you see a face because you're wired to see faces.
+[01:44:36.360 --> 01:44:45.360]  Yes, you are. Yeah, yeah, or like the rock up in New Hampshire, the old man on the mountain, whatever it is, you know what I mean?
+[01:44:45.360 --> 01:44:56.360]  Yeah, we're actually so wired to recognize faces that we see faces where there aren't faces, or a shroud of Turin, right?
+[01:44:56.360 --> 01:45:12.360]  And voices, too. But even as humans, here's just an obvious example. Once I hit puberty, every time I answered the phone, anybody who was calling for my dad would think that I was my dad, and just start talking to him like I was him.
+[01:45:12.360 --> 01:45:22.360]  I don't think I sound that much like him, to be honest, but I sound enough like him, and with the distortion of a landline phone, it sounded enough.
+[01:45:22.360 --> 01:45:32.360]  So if a human being could confuse me with my dad, I think that it's reasonable that even a very good echo-like device might confuse me and my dad.
+[01:45:32.360 --> 01:45:43.360]  And so I think that adding additional sensors, obviously a camera, to know who the heck is talking to at the time, is almost necessary.
+[01:45:43.360 --> 01:45:49.360]  Maybe I'm just talking myself in a corner and everybody's going to have these camera-like devices in their house within the next 18 months.
+[01:45:49.360 --> 01:46:03.360]  I don't think you are. I mean, think about the way triangulation works, where you could, I guess, if you wanted to, you could put your entire R&D budget into creating the world's greatest single antenna for discovering where something is located.
+[01:46:03.360 --> 01:46:16.360]  But isn't it fair to say that it's better to have hundreds or thousands of much less costly antennas that talk to each other, that can triangulate and say, well, there's a pretty good chance that you're here based on the signal strength of these different things.
+[01:46:16.360 --> 01:46:25.360]  That's, I think that's kind of what we're talking about, right? I mean, so in this case, like there are, there are existing technologies that make this easy and useful already.
+[01:46:25.360 --> 01:46:36.360]  So if this iPhone app detects that I'm in the house, cause a certain set of things to happen. If it's a certain time of day, then that's a factor, right?
+[01:46:36.360 --> 01:46:43.360]  You think about I'm here, but my kid's not here. That can cause things to happen. Knowing what the weather is or what the weather is becoming.
+[01:46:43.360 --> 01:46:51.360]  These are all like very knowable things right now. It's just that you cannot accomplish that easily with just something like, if this, then that.
+[01:46:51.360 --> 01:47:02.360]  It's a very, it's a great app, but a very service, but a very dull weapon. But what about these multivariate things where if certain kinds of conditions aren't met over a certain period of time, let me know to do these things.
+[01:47:02.360 --> 01:47:10.360]  But just even something as simple as what we're describing. When my iPhone is in the house, lots of things should be different, right? That's pretty easy.
+[01:47:10.360 --> 01:47:21.360]  Yeah. And it's, I know Syracuse had covered this recently on ATP about like how he almost feels bad for his kids that they're not going to, they can't get away with like putting their bike up against the car.
+[01:47:21.360 --> 01:47:23.360]  We had the camera looking out.
+[01:47:23.360 --> 01:47:32.360]  Right. But like, imagine like I'm not even at home, but, uh, we've got a rule that there's no video games before dinner.
+[01:47:32.360 --> 01:47:44.360]  Like, you know, right now, Jonas is on a, let's just say, uh, no video games. And I could say, where's Jonas? And, uh, I could be told Jonas is playing PlayStation 4 in your living room, right?
+[01:47:44.360 --> 01:47:57.360]  Right. I mean, that is, that is, it was science fiction when we were, you know, even, there's nothing about that that is unknowable. You're talking about connecting two preexisting streams. It's just the connection is not there. The connection could be there.
+[01:47:57.360 --> 01:48:07.360]  Right. The, the face recognition is there. The, the, the wifi is there. The voice driven stuff is there. I mean, that's a problem that could be solved today.
+[01:48:07.360 --> 01:48:16.360]  I mean, here's, here's, here's another one. Um, that's such a brilliant little thing that it, I don't get that many phone calls, so I'm grateful I don't need this that much, but have you gotten the thing yet?
+[01:48:16.360 --> 01:48:24.360]  I don't know if it's just a nine, but where your phone says you're getting a call from this number, which appears to be this person.
+[01:48:24.360 --> 01:48:32.360]  So what's that doing? It's going and looking through your old emails and recognizing that this phone number has been mentioned by this person before.
+[01:48:32.360 --> 01:48:40.360]  That's what we're talking about. We're not talking about rocket science. We're talking about like the most basic kinds of inference, like one little step at a time.
+[01:48:40.360 --> 01:48:45.360]  You know what I mean? Just build up this little case with, with these little bits of information.
+[01:48:45.360 --> 01:48:47.360]  I completely agree.
+[01:48:47.360 --> 01:48:48.360]  I could talk about this all day.
+[01:48:48.360 --> 01:48:51.360]  Anything else you want to talk about on this front?
+[01:48:51.360 --> 01:48:59.360]  No, I don't think so. You know, it's just, it's this ongoing obsession of mine where like I really have noticed myself, I don't even mind being across the old man.
+[01:48:59.360 --> 01:49:12.360]  There's a lot about that's very comforting. There's a lot of things I can dismiss and not feel bad about it, but I am trying to really just keep my mind open about continuing to understand new stuff on its own terms rather than like what I need or expect it to be.
+[01:49:12.360 --> 01:49:15.360]  So that's why these topics end up really hitting me.
+[01:49:15.360 --> 01:49:29.360]  I feel like that's, that is my perspective. Exactly. I am absolutely rocketing towards crotchety old man, but I'm like an open-minded crotchety old man.
+[01:49:29.360 --> 01:49:31.360]  That's the best kind.
+[01:49:31.360 --> 01:49:33.360]  It's the best. I think it's the best that we can hope for.
+[01:49:33.360 --> 01:49:39.360]  Get off my lawn whenever it suits you.
+[01:49:39.360 --> 01:49:50.360]  I don't know why, but it's been on my mind this week. I'm obsessed with this. I ended my XOXO talk two years ago by referencing the song, but for some reason I've had it.
+[01:49:50.360 --> 01:50:00.360]  It's like the song that's been popped in my head is Kenny Rogers, the Gambler, which is sort of like this jokey upbeat, you know, like, you know, it was just a funny little folksy story about a guy.
+[01:50:00.360 --> 01:50:02.360]  A lot of wisdom in that song.
+[01:50:02.360 --> 01:50:17.360]  A lot of wisdom and except that the song ends and it goes back to the refrain afterwards, but the last actual lyrics before it goes back to the refrain in his final words.
+[01:50:17.360 --> 01:50:23.360]  Every hands a winner, every hands a winner and every every hands a winner and every hands a loser.
+[01:50:23.360 --> 01:50:29.360]  And the best that you can hope for is to die in your sleep.
+[01:50:29.360 --> 01:50:34.360]  The best really? Yeah, the best that you can hope for is to die in your sleep.
+[01:50:34.360 --> 01:50:40.360]  And it's such a macabre. I mean, the whole thing is so folksy and ridiculous.
+[01:50:40.360 --> 01:50:51.360]  And then there's, that's just tossed out there. And if you think about it, there is an actual, I don't know what got me something that you just said about the best, best that we can hope for or something that reminded me.
+[01:50:51.360 --> 01:51:02.360]  Every hands a winner, every hands a loser, but the best that you can hope for. But in his final words, I found an ace that I could keep.
+[01:51:02.360 --> 01:51:08.360]  You know what John, there aren't enough advice songs. There aren't enough songs that are just filled with folksy advice.
+[01:51:08.360 --> 01:51:13.360]  Well, I think that if you read between the lines, at first you want to say, well, that's not the best that you can hope for.
+[01:51:13.360 --> 01:51:21.360]  There's all sorts. No, it's literally, it's literally not the best that you can hope for. Not in any conceivable way. Or is it?
+[01:51:21.360 --> 01:51:36.360]  Well, but if you're, if you accept the premise that we're all going to die, then, and I know like our friend Peter Thiel, friend of the good friend of the show, Peter Thiel does not accept this premise.
+[01:51:36.360 --> 01:51:37.360]  He's working on it.
+[01:51:37.360 --> 01:51:43.360]  And then there's a certain logic to it where you've got to die somehow and like that at the end, we're all going to be in the dirt.
+[01:51:43.360 --> 01:51:48.360]  And so the best that you can hope for is to die in your sleep because any other way of dying.
+[01:51:48.360 --> 01:52:02.360]  It's not a song called Coward of the County. It's a little bit of a cowardly way to Jack up your aspirations is to hope, Jesus, I hope I'm not awake when this happens.
+[01:52:02.360 --> 01:52:13.360]  What did you do? You have any thoughts on the whole Peter Thiel, Gawker thing? Nope. No, I got enough problems. I got enough problems, John.
+[01:52:13.360 --> 01:52:22.360]  I tossed it out in a, in a reply. So I think that it's, I think that it's a, it got lost, but I had a little gag I tweeted.
+[01:52:22.360 --> 01:52:36.360]  This one went out to everybody. I tweeted that, uh, uh, Batman versus Superman to Bruce Wayne spends a decade and $10 million financing lawsuits to bankrupt the daily planet.
+[01:52:36.360 --> 01:52:43.360]  Pretty good joke. It's pretty good. And then, and then, uh, somebody tweeted like, well, oh, I'm in as long as it's subtitled electric boogaloo.
+[01:52:43.360 --> 01:52:48.360]  And I tweeted back, no, obviously the subtitle is man of teal.
+[01:52:48.360 --> 01:52:59.360]  Oh, right. I had to get that out there. You don't even give them all your good ones. You just be just picking shoes. You should write an advice song.
+[01:52:59.360 --> 01:53:19.360]  Uh, meta, meta stuff here at the end of the show, meta stuff, stuff that's coming out is, uh, I got the live talk show coming up and as we speak, I think 13 days, so I got to get the tickets out. I think fingers crossed that by the time anybody is listening to me tell you this, that the show will probably already be sold out.
+[01:53:19.360 --> 01:53:33.360]  Congratulations, man. That was great. Hoping to launch soon. Hopefully it'll be a good show this year too. Um, but if you want to, you could go and look at daring fireball and see if there's still tickets available. Um, so that's coming up.
+[01:53:33.360 --> 01:53:44.360]  It is going to be the same venue. It'd be Tuesday, the day after the keynote at a mezzanine. Um, and here's the more important part. So we're limited. I think, I think we're limited to around 500 tickets.
+[01:53:44.360 --> 01:53:58.360]  Um, just with the way we set up the, the, the venue and the seats and everything like that. And it's sold out, you know, every year so far. And I think because last year's show blew up and was so big that it's probably going to be even more in demand this year.
+[01:53:58.360 --> 01:54:00.360]  High expectations, buddy. High expectations.
+[01:54:00.360 --> 01:54:16.360]  I wish we could find a bigger venue. Um, but it's, it's really kind of tight combined with all of the, you know, it mezzanine is perfect in so many ways other than the fact that if we could fit more, we would love to fit more, but we can't. It's, it's the, to my knowledge, the best venue we can find.
+[01:54:16.360 --> 01:54:27.360]  And I'm sorry, but we do plan on having a live video stream again. Uh, last year I didn't really promote the live video stream because I was so worried that it wasn't going to hold up, but it did hold up.
+[01:54:27.360 --> 01:54:41.360]  So fingers crossed it'll hold up again, but anybody who wants to follow along live and doesn't get in with a ticket or, you know, if you're not even in San Francisco, then a ticket isn't even an option. Uh, you should be able to watch live.
+[01:54:41.360 --> 01:54:54.360]  It'll be Tuesday. Uh, I think doors open at six Pacific. So, and, but the show should start sometime around seven o'clock Pacific, which is 10 Eastern time. And it should be a lot of fun live.
+[01:54:54.360 --> 01:55:01.360]  That's a great event. I'm looking forward. Yeah, I've got your, I've got your ticket reserved already. Boom.
+[01:55:01.360 --> 01:55:05.360]  That's good. It's good that it's, it's a fun, what a crazy week.
+[01:55:05.360 --> 01:55:18.360]  It's super crazy. Um, uh, one other meta thing, and I haven't done this while I was saving it for your show. Yeah. Uh, you being the guest on the show is I, I joke sometimes that the, uh, the, the show is America's favorite three star podcast.
+[01:55:18.360 --> 01:55:35.360]  Uh, but it's actually is still rated three stars in iTunes. Uh, it's started off with very low ratings when I, when I, when I split with our old friend Dan Benjamin and there were some people who were not upset about it and left, left a lot of very, very poor reviews.
+[01:55:35.360 --> 01:55:50.360]  That's some other called activist reviewers, activist reviewers. Um, and, and you know, that's what the system is there for. That's why I can't delete them. I wouldn't delete them even if I could. Fair is fair. You know, that's the way the system works. Um, but I know for us to die in your sleep.
+[01:55:50.360 --> 01:56:07.360]  A lot of other shows often remind their, their viewers to, to leave a review and, and do that. Um, and apparently I've been told that this is actually true, that it actually does help in the, uh, the iTunes, you know, there's like a manual system where iTunes,
+[01:56:07.360 --> 01:56:21.360]  the people who work there in the podcast can manually promote shows. Um, um, but like the automated stuff and getting, uh, high in those rankings, uh, definitely helps to get good reviews and that it can grow the audience.
+[01:56:21.360 --> 01:56:31.360]  And maybe I shouldn't be so, uh, I don't know what's the word koi and I don't want to ask people to leave reviews. Um, but I'm, I'm asking.
+[01:56:31.360 --> 01:56:43.360]  I'll say it, I'll say it for you. Um, it's, it's, it's very difficult to know what doesn't does or doesn't always help when you've got a podcast. There's a lot of black boxes in podcasting.
+[01:56:43.360 --> 01:56:51.360]  What I'll say is this, if like me, you enjoy John's show, consider going, leave a nice review, leave a five star review to offset the activist reviewers.
+[01:56:51.360 --> 01:56:53.360]  Oh no, no, leave an honest review.
+[01:56:53.360 --> 01:57:07.360]  Don't ask for that. Don't ask for that. You got to know window. Here's the thing. You got to know when to hold them. Okay. Got to know when to fold them. Number three, you got to know when to walk away.
+[01:57:07.360 --> 01:57:17.360]  And finally fourth, you got to know when to run. Oh, this is number five. Don't count your money when you sit at the table. Oh, and so finally turns out the best you can hope for is to die in your sleep.
+[01:57:17.360 --> 01:57:29.360]  I have always also thought that some of the worst advice you'll ever hear is to not count your money while you're gambling.
+[01:57:29.360 --> 01:57:40.360]  Anybody listening and overcast, you could use their little recommendation dingus as well and promote the show. But anyway, if you like the show, do me a favor and say good things about it.
+[01:57:40.360 --> 01:57:49.360]  Anyway, I'll see some of you guys soon. We should have at least one more show before the live one, but look forward to seeing you guys who will be there at the live show.
+[01:57:49.360 --> 01:58:08.360]  My thanks to you, Merlin Mann, for your generous use of your time and your thoughts. And my thanks to our sponsors today, mad.com, the daily deal site, mad.com, the forum where you can go and read cool articles by Glenn Fleishman and others.
+[01:58:08.360 --> 01:58:14.360]  And last but not least, mad.com. Fuck those guys.
+[01:58:14.360 --> 01:58:22.360]  You got to accept every free drink. Try not to overthink. Trust your dumb luck. Don't give a fuck.
+[01:58:22.360 --> 01:58:31.360]  You got to blow your fortune before you even realize the best that you could hope for is to lay down and die.
+[01:58:31.360 --> 01:58:41.360]  Good night, everybody.

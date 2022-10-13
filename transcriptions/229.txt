@@ -1,0 +1,1141 @@
+[00:00.000 --> 00:10.000]  Renee, it has been both a long week and a long day. Here we are recording at the end of the week
+[00:10.800 --> 00:17.360]  at the end of August. And it was a very quiet week as the end of August usually is
+[00:17.360 --> 00:26.880]  in the Apple News universe until it wasn't. And 9to5Mac scored two blockbusters. They found,
+[00:26.880 --> 00:34.800]  they published two product marketing images from Apple, one showing the new high-end iPhones,
+[00:35.600 --> 00:43.600]  which they say also revealed will be called the iPhone 10S spelled with a capital X like
+[00:43.600 --> 00:48.720]  the iPhone 10 and an S which may or may not be uppercase or lowercase and may or may not
+[00:48.720 --> 00:57.120]  in Apple's usage have a space between the X and the S with a gold, almost certainly stainless
+[00:57.120 --> 01:03.600]  steel outer rim. And they also showed a new Apple watch, which is extraordinary in several ways.
+[01:03.600 --> 01:09.520]  And then to me is a much bigger leak because it shows new hardware, a definite new form factor,
+[01:10.880 --> 01:17.520]  the much rumored larger display, or at least larger as a percentage of the watch face display.
+[01:17.520 --> 01:24.480]  And a truly intriguing new watch face, which takes advantage of that bigger display. And we will get
+[01:24.480 --> 01:32.640]  to that eventually. But at the meta level, I want to start with this find, because I don't want to
+[01:32.640 --> 01:39.680]  call it a leak for reasons we'll get into. It's truly extraordinary, if not unprecedented.
+[01:39.680 --> 01:47.840]  Jay Famiglietti Yeah, I mean, famously, Steve Stratton Smith found firmware last year, right? There was HomePod
+[01:47.840 --> 01:53.280]  firmware put on a public directory instead of a private one. And then the GM build for iOS 11
+[01:54.320 --> 01:57.760]  had imagery and nomenclature in there.
+[01:57.760 --> 02:03.920]  Steve Zehngut Yeah, so last year's leak, and again, what part of what makes this extraordinary is
+[02:03.920 --> 02:11.600]  that the Apple world is filled with rumors and iPhone in particular, just because the iPhone is
+[02:11.600 --> 02:20.320]  the most popular product. And there because it's popular, it has the biggest ramp up in the supply
+[02:20.320 --> 02:28.960]  chain. So the supply chain is obviously a large source of Apple rumors and information. A lot of
+[02:28.960 --> 02:34.960]  it, you know, annually turns out to be accurate. A lot of things she quote, just exfiltrates
+[02:34.960 --> 02:40.880]  everything he can out of it. Right. And a lot of the stuff that turns out to be inaccurate is
+[02:40.880 --> 02:45.360]  inaccurate for the reason that the supply chain just wouldn't know. Yes, like sometimes when they
+[02:45.360 --> 02:50.800]  say, Oh, and we'll just specifically talk about the new high end iPhones, which have been rumored,
+[02:50.800 --> 02:57.360]  at least since January, I think, to be coming in two sizes 5.8 inch diagonal, which is exactly the
+[02:57.360 --> 03:05.920]  same size as last year's iPhone 10. And a new 6.5 inch OLED with a similar size notch or similar
+[03:05.920 --> 03:16.160]  proportion notch. Same design, just just bigger diagonally plus sized, right. But when the same
+[03:16.160 --> 03:20.160]  type of supply chains come out with things that say there's going to be a new thing, and it's
+[03:20.160 --> 03:25.360]  going to have a screen like this, like they have the screen information, because they're talking
+[03:25.360 --> 03:30.720]  to the suppliers who are making the screens. But when they say that this is going to ship or such
+[03:30.720 --> 03:36.560]  and such product might be announced at WWDC in June, or it's going to be a low cost product or
+[03:36.560 --> 03:41.600]  a high cost product or something like that. Those those sort of things often proved to be incorrect,
+[03:41.600 --> 03:45.120]  because the supply chain doesn't know when Apple's going to announce things and doesn't know
+[03:45.840 --> 03:51.760]  how they're going to be priced. But something like and so something like product names is another
+[03:51.760 --> 03:57.200]  thing that the supply chain doesn't know about. And is usually a very well guarded secret. And
+[03:57.200 --> 04:00.720]  the leak you mentioned last year, like so one thing we didn't know last year going right,
+[04:00.720 --> 04:05.120]  like just days in advance of the iPhone 10 announcement, we didn't know what Apple was
+[04:05.120 --> 04:10.240]  going to call the phone. We and nobody had a good guess. And I don't know that anybody guessed
+[04:11.120 --> 04:17.520]  iPhone 10 with a capital X. I wasn't even doesn't even seem I don't even recall anybody guessing
+[04:17.520 --> 04:25.280]  that. And that was revealed, as you said, through a leak of the iOS 11 gm build that Stephen
+[04:25.280 --> 04:32.720]  Trotton Smith found and had, you know, the cleverness to decompile and analyze and find
+[04:32.720 --> 04:37.040]  unique resources, including the string of the name. So that was the thing. The curious thing
+[04:37.040 --> 04:43.280]  about it is because we only had the string, where it was iPhone space, capital X, we didn't know
+[04:43.280 --> 04:48.640]  whether it was going to be pronounced x or 10. But we did have the name, like Final Cut Pro
+[04:48.640 --> 04:55.120]  x or OS 10. Right? Because Apple goes both ways. They hurt them in their exes.
+[04:57.120 --> 05:02.480]  So these images were found by probably the only person in the world you can compare to
+[05:02.480 --> 05:10.480]  Stephen Trotton Smith. Guillermo Rambo, very talented hacker and nine who lives in Brazil,
+[05:10.480 --> 05:19.520]  correct? Yes. And at nine to five Mac contributor, the the they published two stories one with the
+[05:19.520 --> 05:25.920]  iPhone 10 s revealing these this image of two gold iPhones, the smaller one on top of the larger one
+[05:27.280 --> 05:35.200]  and said that the name would be iPhone 10 x s, I'll say access just, you know, knowing that
+[05:35.200 --> 05:43.520]  Apple if that's actually the name Apple's surely going to pronounce it tennis. Yeah. And just at
+[05:43.520 --> 05:48.320]  the meta level, this is extraordinary. It just I can't remember call product marketing images
+[05:48.320 --> 05:52.240]  like this product marketing images. And again, this is you know, things like if somebody on
+[05:52.240 --> 05:58.640]  the supply chain snaps a photo of a pre release photo or image, which I think has happened before.
+[05:58.640 --> 06:04.960]  Yeah, I will people famously either at stores or supply chain, they would take a
+[06:04.960 --> 06:09.120]  shaky blurry cam photos that were never good looking enough to really believe.
+[06:09.120 --> 06:13.360]  Right? Didn't the fat nano leak? Yeah, well, Seth Weintraub famously nine to five Mac,
+[06:13.360 --> 06:17.040]  I think that was one of their big initial scoops was an actual marketing image of the fatty nano.
+[06:17.040 --> 06:23.600]  Oh, it wasn't marketing image. And I think Apple cease and desisted it back then. But these are
+[06:23.600 --> 06:27.360]  definite product. I mean, I'm sure everybody listening has seen them. And I'll put these
+[06:27.360 --> 06:31.440]  in the show notes. And I'll we'll do the fancy thing where if you look down at your podcast
+[06:31.440 --> 06:34.960]  player now we'll change the album art for this episode to show you the images as we're talking
+[06:34.960 --> 06:42.160]  about them. These are the images you would see on stage or like Apple's newsroom would have
+[06:42.160 --> 06:47.440]  embedded in the press release, right? Like this is the hero shot. And yes, that they as they would
+[06:47.440 --> 06:55.760]  call it of these these two products. And that just sort of thing. We just don't I can't recall
+[06:55.760 --> 07:00.320]  something like that leaking in a lot or at least in a long time, like you said, like the fat nano
+[07:00.320 --> 07:06.160]  leak, but it's been a long time and I can't remember it for an iPhone. So presumably,
+[07:06.160 --> 07:13.440]  this is to address this at the meta level. I am certain that this was not leaked by a rogue Apple
+[07:13.440 --> 07:21.840]  employee to G Rambo. I believe that he found these exposed somewhere on the internet on a
+[07:21.840 --> 07:29.360]  public facing URL. I'm not quite sure exactly how and I think he was tweeting at the same time that
+[07:29.360 --> 07:34.240]  he was watching a test of rare broadcast for coming up with broadcasting tests for the event
+[07:34.240 --> 07:42.080]  coming up. Yes. And like, yeah, airpower images. But that was it. That's a red herring. He so he
+[07:42.080 --> 07:46.960]  was tweeting that I, I would guess he's got a lot of things going on at the same time that he's very
+[07:46.960 --> 07:53.040]  talented multitasker. But that led a lot of people to speculate or just jump to the conclusion that
+[07:53.040 --> 07:58.560]  this video test stream URL that he was looking at and scrubbing through was the source of these
+[07:58.560 --> 08:04.320]  images. Yeah, but they don't be marketing images. No, you don't. And it wouldn't explain that
+[08:04.320 --> 08:10.480]  certainly wouldn't explain why there were only two like if if, you know, and that's he had the
+[08:10.480 --> 08:15.520]  airpower shot because they were just the test stream was showing things from the last year's
+[08:15.520 --> 08:24.080]  keynote where where the power was shown. So that was a red herring. That's not where he got these
+[08:24.080 --> 08:30.400]  from. It just happened to be the same day that he uncovered these images. Yeah, and it is a bit
+[08:30.400 --> 08:36.160]  funny. I don't know if it's a coincidence or not. But on the same day, at 9am Pacific, Apple sent
+[08:36.160 --> 08:40.080]  out the invitations to the press event, which we know will be Wednesday, September 12, as you
+[08:40.080 --> 08:47.360]  predicted first. And as I concurred with your logic, that, you know, they wouldn't do it this
+[08:47.360 --> 08:54.400]  week, Labor Day week. They wouldn't do it on they like today they do always like to do Tuesdays or
+[08:54.400 --> 09:01.280]  Wednesdays. And the Tuesday is September 11, which as you as you well put, it's akin to a Memorial
+[09:01.280 --> 09:08.560]  Day, which is the best way to just, you know, say, Why would you do that? So Wednesday, the 12th
+[09:08.560 --> 09:11.920]  seemed like it was a very obvious choice. And it turns out to be correct. So anyway, within that,
+[09:11.920 --> 09:16.400]  we think about three hours after Apple sent that out, which makes enough news, you know,
+[09:16.400 --> 09:21.360]  for a sleepy August week, these images came out. I'm guessing that was a coincidence. I can't
+[09:21.360 --> 09:27.920]  imagine why Apple sending out invitations to the event would coincide with someone in Apple's
+[09:27.920 --> 09:31.760]  mark on team inadvertently putting these two images somewhere where they shouldn't have been
+[09:31.760 --> 09:37.680]  exposed. I mean, like he found the URL for the for the Apple Park ring logo and started putting
+[09:37.680 --> 09:40.960]  another flag. I think I don't think that's what happened. I don't think they were there.
+[09:40.960 --> 09:44.080]  Oh, we should also say like a lot of people were really confused by the invitation and thought
+[09:44.080 --> 09:48.800]  maybe it was a camera or a round watch. But that's the Apple Park logo. It's the same one you see on
+[09:48.800 --> 09:54.800]  t shirts and other Apple products. Yeah, what was the other one? So the invitation, you know,
+[09:54.800 --> 10:01.680]  the Apple Kremlin ology of, you know, analyzing the it was like, I also forget the exact words.
+[10:01.680 --> 10:09.200]  It was like gather round. All right, come on, gather round. Yeah. Yeah, it I guess because I've
+[10:09.200 --> 10:15.440]  been to Apple Park, and I've seen the t shirts that they sell that I I've instantly recognized
+[10:15.440 --> 10:23.600]  that as the the logo mark that they use to represent Apple Park as a campus. But I got
+[10:23.600 --> 10:28.160]  inundated with people speculating that it would that it meant that the new Apple Watch was going
+[10:28.160 --> 10:36.240]  to be round. Yeah, no, sadly, not the case. Well, you sadly, I would be shocked. I don't
+[10:36.240 --> 10:40.320]  want to round Apple Watch, but it would be it would be intriguing and different and spur a ton
+[10:40.320 --> 10:44.080]  of stories. Right. Or I guess I guess what you meant by sadly is it would certainly make for
+[10:44.080 --> 10:50.080]  a more interesting interpretation of the invitation and simply here's where the event is going to be.
+[10:50.080 --> 10:54.720]  Yeah, absolutely. Yeah, I get it. I get it. Now. When we talk about the Apple Watch,
+[10:54.720 --> 10:59.200]  the new Apple Watch, we can talk. Let's table that. See if you can remember this to talk about
+[10:59.200 --> 11:06.720]  why they don't make around it. Watch. Yes. All right, let me take a break and tell everybody
+[11:06.720 --> 11:14.000]  about our good friends at Casper. Casper makes sleep products, including of course, mattresses.
+[11:15.760 --> 11:22.240]  Casper products are all designed to mimic human curves, providing supportive comfort for all kinds
+[11:22.240 --> 11:26.720]  of bodies. Look, you spend one third of your life sleeping. You should be not just comfortable,
+[11:26.720 --> 11:33.440]  but just wonderfully comfortable every time you go to bed in your home. They've got the original
+[11:33.440 --> 11:38.320]  mattress that they came out with when they first started with supportive memory foam. It's a great
+[11:38.320 --> 11:47.760]  mattress. Breathable design keeps you cool, keeps you comfortable. They also have two new mattresses,
+[11:47.760 --> 11:53.840]  the wave and the essential. The wave features a patent pending premium support system to mirror
+[11:53.840 --> 12:00.320]  the natural shape of your body. The essential is their streamlined design at a price that won't
+[12:00.320 --> 12:05.920]  keep you up at night. They also offer a wide variety of other products like pillows, sheets,
+[12:05.920 --> 12:12.400]  comforter to ensure an overall better sleep experience. I've got their comforter. It's really
+[12:12.400 --> 12:20.800]  great. Just so nice. It just keeps you warm when you want to be warm, keeps you cool when you want
+[12:20.800 --> 12:25.440]  to be cool. Couldn't say better things about it. Everything they do is designed, developed and
+[12:25.440 --> 12:29.440]  assembled right here in the US. Now they keep their prices affordable because they cut out
+[12:29.440 --> 12:36.480]  the middleman and sell directly to you. They have hassle-free returns if you're not completely
+[12:36.480 --> 12:42.240]  satisfied. Look, maybe you don't want to try a mattress or you want to try a mattress rather than
+[12:42.240 --> 12:47.760]  buying it over the internet. You can be completely comfortable buying a Casper mattress because they
+[12:47.760 --> 12:51.520]  have a hundred night risk-free sleep on at trial. You have a hundred nights over three months.
+[12:52.720 --> 12:58.560]  Try it out. You don't like it, send it back and they'll have no questions. They'll just come pick
+[12:58.560 --> 13:04.160]  it up, take it out of your house. We've got a couple Casper mattresses here at Taren Fireball
+[13:04.160 --> 13:10.560]  headquarters and they're incredibly comfortable. The whole family loves them and they have a
+[13:10.560 --> 13:15.840]  special deal just for you. You can save 50 bucks towards select mattresses by visiting casper.com
+[13:15.840 --> 13:23.360]  slash talk show and using that code talk show at checkout. That's casper.com slash talk show with
+[13:23.360 --> 13:30.000]  special code talk show and you will save 50 bucks towards select mattresses. Terms and conditions
+[13:30.000 --> 13:35.280]  apply. I still think at the meta level, I think it's so damn curious that he got two and only two
+[13:35.280 --> 13:41.680]  and they are both intriguing, but there was no more and surely there is a lot more to be shown
+[13:41.680 --> 13:48.160]  and seen. Yeah, absolutely. And the ones he did get are interesting. Like the iPhone one, it looks
+[13:48.160 --> 13:52.720]  very similar to previous iPhone 10 and iPhone artwork. Like Apple likes that angle. They like
+[13:52.720 --> 13:58.400]  that style, but it's got these images of planets on it that just make it look almost like a humpback
+[13:58.400 --> 14:02.880]  whale or a lava lump that's been squashed down or something. Yeah, my first look at this when
+[14:02.880 --> 14:09.520]  the news broke, I was very confused at first because I was looking at it on my iPhone and
+[14:09.520 --> 14:16.960]  on the iPhone because they show this sort of, I don't know if that's Mars or some other Jupiter,
+[14:17.760 --> 14:23.200]  I guess it's Mars, but I don't know. But it's some kind of Mars like planet. Maybe it's Mercury,
+[14:23.200 --> 14:27.600]  maybe it's just some science fiction planet that they've rendered. I don't know. But it's some
+[14:27.600 --> 14:36.720]  kind of planet shown where you only see sort of a crescent slice of it that the angle that they
+[14:36.720 --> 14:43.040]  show it as, it's just a wallpaper, but at first look, it looks like a bulbous, you know, like a
+[14:43.040 --> 14:49.120]  3GS style humpback as opposed to a flat phone. And it's like, what? That can't be. Yeah. But then
+[14:49.120 --> 14:54.960]  once you really figure out, you see exactly what's going on. It was that and the actual yellow gold,
+[14:54.960 --> 15:01.200]  like gold coin gold on the sides that caught my attention because Apple did champagne gold first
+[15:01.200 --> 15:06.080]  with the 5S and then rose gold. The iPhone 8 gold version is actually like a copper rose gold,
+[15:06.080 --> 15:15.680]  but this is gold gold. Right. And so that's, you know, so that the biggest leak iPhone wise
+[15:16.480 --> 15:23.600]  that was revealed by this scoop by Guillermo Rambo for 9to5Mac is the name in my opinion.
+[15:23.600 --> 15:30.560]  And I would say the second biggest is the nature of the gold, like what type of gold because the
+[15:30.560 --> 15:37.920]  supply chain links from months, almost the entire year have indicated that there were going to be
+[15:37.920 --> 15:44.080]  two sizes of the iPhone 10 successor. You know, and one of the things that was misinterpreted
+[15:44.080 --> 15:50.880]  so stupidly and parroted was the fact that out of the supply chain came the, to me,
+[15:50.880 --> 15:58.960]  unsurprising news that the iPhone 10, the one we know from last year was going to be stopped
+[15:58.960 --> 16:06.720]  in production. And the idea is it's just that come the end of September, when the new iPhones are
+[16:06.720 --> 16:14.960]  out, you'll be able to fly these two new iPhone XS models. There's going to be a new, which we
+[16:14.960 --> 16:23.280]  can talk about in a bit, unleaked by 9to5Mac, 6.5 inch or 6.1 inch, I'm sorry, diagonal about
+[16:23.280 --> 16:31.920]  seemingly halfway between the two sizes of the iPhone XS with an LCD screen, but with the iPhone
+[16:31.920 --> 16:42.160]  X basic form factor of no home button and a front facing sensor array, aka notch and a corner to
+[16:42.160 --> 16:48.560]  corner around rec design, et cetera, et cetera. It's a replay of the 2013 playbook where they
+[16:48.560 --> 16:54.400]  end of life the iPhone 5 and replaced it with the 5S and the 5C. Exactly. That's their strategy,
+[16:54.400 --> 16:58.560]  but it was grossly, I believe, willfully misinterpreted. Yeah, Forbes made it sound
+[16:58.560 --> 17:02.480]  like they were going to come to your house and stake away your existing iPhone 10. Right. And
+[17:02.480 --> 17:06.160]  that they were abandoning the basic idea. They were killing it. Right. It was a failure and it
+[17:06.160 --> 17:10.480]  was being killed. Right. It's a failure. It's being killed. But that leaked from the supply
+[17:10.480 --> 17:14.720]  chain. I believe it's unsurprising given the nature of the iPhone 10, but it's not just
+[17:14.720 --> 17:19.680]  going to hang around at a lower price point as they've done too expensive to make. And if you
+[17:19.680 --> 17:23.920]  look at it, the, well, I mean like the OLED screen, Samsung charges a fortune for those
+[17:23.920 --> 17:28.320]  screens. And if you want to price it down at a normal iPhone level, saving some money and
+[17:28.320 --> 17:34.240]  going LCD and a few other and aluminum I think is a really good strategy. Yeah. But we knew that,
+[17:34.240 --> 17:40.880]  you know, well, I say knew knowing that we didn't know, know, you know, the way that like, let's say
+[17:40.880 --> 17:50.320]  Tim Cook knew. Right. That Jeff Williams knows, you know, or that Phil Schiller knows. Johnny
+[17:50.320 --> 17:56.240]  might have a clue. Yeah. Right. Johnny might have a clue as to what is really coming. But we on the
+[17:56.240 --> 18:02.000]  outside following the rumors could be, could reasonably wager a very large sum of money
+[18:02.000 --> 18:07.440]  that they were coming out. They were doing away with the iPhone, last year's iPhone 10,
+[18:07.440 --> 18:18.000]  replacing it with an updated exact same size, 5.8 inch diagonal OLED, a big brother plus sized,
+[18:18.000 --> 18:29.840]  if you will, 6.5 inch version of the same design. And the gold quote unquote gold stainless steel
+[18:29.840 --> 18:34.720]  rim was also leaked. And I believe this was something that was remembered for the original
+[18:34.720 --> 18:39.280]  iPhone 10. Is that right? Yeah. Yeah, there was rumored to I think they even put it through FCC
+[18:39.280 --> 18:44.320]  clearance, the gold version. And there was a bunch of stories that either because you can't
+[18:44.960 --> 18:49.360]  anodize stainless steel the way you can aluminum. That's why the Apple Watch has a DLC,
+[18:50.000 --> 18:53.920]  diamond like carbon coating. And that's a form of vapor coating. And you can you can vapor
+[18:53.920 --> 19:00.240]  coating gold, but it's trickier. And some people are saying it just took too long to do it, or it
+[19:00.240 --> 19:04.880]  didn't look up to Apple standards. But traditionally, Apple has saved the new colors for the S years
+[19:04.880 --> 19:08.800]  where the design is the same. But they want to, you know, humans will treat a new color like a
+[19:08.800 --> 19:12.880]  new design anyway. So it gets a lot more attention if they if they have the new design, the new
+[19:12.880 --> 19:18.000]  colors. Yeah, I can't help but think that that must have played part of it that maybe it was the
+[19:18.000 --> 19:22.000]  trickier color. Maybe they they kind of were thinking about doing it last year, but I can't
+[19:22.000 --> 19:26.640]  help but think that maybe it was also strategy because they obviously knew I mean, the pipeline
+[19:26.640 --> 19:33.840]  is at least two years long on iPhones. And so at some point, when they were completely finalizing
+[19:33.840 --> 19:40.400]  the exact plans for the iPhone 10, they already knew that the next year's phones at this to
+[19:40.400 --> 19:45.760]  replace it would be the tennis in these two sizes. And strategically, I can't help but think that
+[19:45.760 --> 19:52.000]  they might have wanted to hold gold for that so that there would be a version of it that was
+[19:52.000 --> 19:57.440]  instantly recognizable as brand new. Yeah, because people want other people to know they have the new
+[19:57.440 --> 20:02.880]  iPhone. We're kind of vain that way. It definitely drives sales for some people who are thinking
+[20:02.880 --> 20:08.640]  that and then I think the other factor is is advertising that it gives them a an iPhone 10
+[20:08.640 --> 20:17.840]  s to photograph and put on billboards and put in commercials and put in full page magazine ads
+[20:17.840 --> 20:23.920]  that's instantly recognizable as new both both from the original iPhone 10 and in now in terms
+[20:23.920 --> 20:30.240]  of having a color that we've never seen in an iPhone before. Yeah, absolutely. It's like a
+[20:30.240 --> 20:37.200]  win win. Yeah. So Apple's history with gold colored metals. On the iPhone side, they've had
+[20:37.200 --> 20:44.240]  the anodized gold and rose gold. The Apple Watch has the same two shades golden rose gold. Although
+[20:44.240 --> 20:50.240]  the original Apple Watch didn't have a gold aluminum one. Yes, it was it was the it was real
+[20:50.240 --> 20:54.400]  gold. And then I think six months later, the the rose gold and gold aluminum came out. Right.
+[20:54.400 --> 20:58.720]  That's right. It was Yeah, that's right. They came out with them at the, like in September.
+[20:58.720 --> 21:05.200]  Yep. Because they didn't come out like so September of whatever year they announced
+[21:05.200 --> 21:11.040]  the Apple Watch. And so it'll ship next year, shipped around April, did not have gold. And
+[21:11.040 --> 21:15.440]  then come that next September, they had no new Apple Watch to announce because they'd only
+[21:15.440 --> 21:22.160]  shipped the original one five to six months prior. But by having the gold aluminum ones,
+[21:22.160 --> 21:26.400]  this, you know, as they called them at the time, the sport models, they did have something new to
+[21:26.400 --> 21:38.880]  show. But the the gold that we see here is is visually akin to the true gold of the Apple Watch
+[21:38.880 --> 21:44.960]  edition, right? It is gold shining gold, gold. And it's what every Bruins fan has been waiting
+[21:44.960 --> 21:49.600]  for. Right? Because the big, it is different, because, you know, with this edge to edge design,
+[21:49.600 --> 21:55.760]  there's no room for white on the front. All the previous gold iPhones have had white front
+[21:55.760 --> 22:02.080]  faces. And I've always thought black would be an interesting look, even with the subdued gold of
+[22:02.080 --> 22:06.560]  anodized aluminum, as opposed to this, I just think black and gold is a good combination. You
+[22:06.560 --> 22:10.960]  see on sports teams, everywhere, you know, the Pittsburgh Steelers, the Boston Bruins.
+[22:14.080 --> 22:18.400]  It's a good look. And I think with this, you know, I can't imagine that they've ever even
+[22:18.400 --> 22:23.920]  considered making the notch white, it just would be it just wouldn't look right. Because it just
+[22:23.920 --> 22:29.040]  ruins having that black bezel is what gives you the illusion of an edge to edge screen.
+[22:29.040 --> 22:31.920]  Yeah, some people have mocked it up. And it just it looks wrong. Yeah.
+[22:33.040 --> 22:39.200]  It really isn't supposed to like the whole idea of the iPhone 10 appearance is not just side,
+[22:39.200 --> 22:42.880]  it's supposed to create the illusion of a truly edge to edge screen. And it's not there is a
+[22:42.880 --> 22:50.720]  bezel. And we can get into bezel wars with other companies and find find of Android phones with
+[22:50.720 --> 22:56.640]  even narrower bezels, at least on the sides. Yeah, you know, but it's it, you know, basically,
+[22:56.640 --> 23:02.160]  this entire the entire industry is moving to this look of an edge to edge appearance. And you can
+[23:02.160 --> 23:06.080]  only do that with black, even in this marketing image with the planet on it, you don't see the
+[23:06.080 --> 23:12.080]  notch at all. It just looks like a giant black expanse. Right. Yeah, I can't help but think
+[23:12.080 --> 23:17.440]  that's one of the reasons they chose a wallpaper like that is that the notch is no longer novel.
+[23:17.440 --> 23:22.720]  So they don't need to they don't need to emphasize it in the way they did last year, I believe
+[23:22.720 --> 23:26.640]  originally almost I think every single product marketing image they showed of the iPhone 10 at
+[23:26.640 --> 23:34.400]  the keynote last year included the notch. Yeah. It was sort of part of a clear, but unspoken
+[23:35.040 --> 23:39.440]  strategy of embracing the notch that we're not going to try to hide this in any way.
+[23:39.440 --> 23:43.920]  And it would be easy as this wallpaper shows it's easy to use a wallpaper that's either black or
+[23:43.920 --> 23:51.680]  mostly black to create images that that don't emphasize it. I remember specifically vividly
+[23:51.680 --> 23:57.600]  that even when they showed video playing on the iPhone 10 during the keynote, it was always zoomed
+[23:57.600 --> 24:05.360]  in to the maximum scale, and therefore always showing the notch overlaying part of the video,
+[24:05.360 --> 24:11.840]  which gave me the vague fear like I thought, I'm gonna guess that's not the default. Yeah,
+[24:11.840 --> 24:17.360]  I'm gonna guess a that you can double tap that to go to a keep the correct aspect ratio and put
+[24:17.360 --> 24:23.920]  black bars on the side, which would happen to show that or hide the notch. And further, I'm going to
+[24:23.920 --> 24:30.800]  guess that preserving the proper aspect ratio is the default. But now I'm worried. And it was like
+[24:31.840 --> 24:36.160]  one of my first things I tested when we got to the hand on area was how does video playback work.
+[24:36.160 --> 24:39.840]  But I think the fact that that's how they showed video playback in the keynote was just part of
+[24:39.840 --> 24:43.840]  their strategy of we are not going to hide this notch, even when we show things like video
+[24:43.840 --> 24:52.480]  playback. Yeah. So on this image, so all we have, we have the image, we have the name and the name,
+[24:52.480 --> 25:00.640]  I believe, was was taken, you know, that Rambo and nine to five Mac, I believe they got it from
+[25:00.640 --> 25:05.040]  the file name of the image that they found. Yeah, which is why there's no indication of
+[25:05.040 --> 25:12.720]  capitalization for us. Although it is a little curious if you know that they don't know if
+[25:12.720 --> 25:17.360]  there's a space between the x and the s. Although I suppose if the file name wasn't had no spaces
+[25:17.360 --> 25:25.920]  or underscores or dashes period, if it was just ip h o n e x s. It's possible, you know, that I guess
+[25:25.920 --> 25:30.160]  I would see that and say, I don't know, I have no, you know, I wouldn't know where that space is
+[25:30.160 --> 25:38.160]  either. Yeah. We don't, I'm skipping around a little between the meta aspects and the
+[25:40.240 --> 25:46.160]  details of this. But I just want to emphasize because so many people have, I just want to
+[25:46.160 --> 25:50.800]  try to put this to rest as best I can, even though it seems impossible. I just want to put
+[25:50.800 --> 25:55.840]  the rest the notion that this was a quote unquote, controlled or deliberate leak from Apple.
+[25:55.840 --> 26:02.080]  Which I know, I'm laughing and I don't want to laugh at the notion because
+[26:04.080 --> 26:11.600]  of any company in general, any company period, that's a possible strategy. It is
+[26:12.400 --> 26:18.160]  in the specific case of Apple as a company, and the iPhone and a new industrial design
+[26:18.160 --> 26:23.040]  for Apple Watch in particular, is something that nobody at the company would ever even
+[26:23.040 --> 26:29.760]  it wouldn't even cross their mind. Yeah, I mean, the it's almost all the time when you
+[26:29.760 --> 26:33.840]  see something like this, you see some apples just leaking it to set expectations, which is
+[26:33.840 --> 26:44.480]  never the case. Right? They have and they truly and deeply want the surprise of revealing every
+[26:44.480 --> 26:49.920]  every single aspect that's new of these products, they would like to keep as under wraps as possible
+[26:49.920 --> 26:54.720]  until it's unveiled in exactly the way that they want it to be unveiled. Right. It's like
+[26:54.720 --> 26:59.120]  supplies and surprise and delight is their mantra. And they get it's also a good business sense
+[26:59.120 --> 27:04.880]  because they get so much marketing free publicity out of the shock and awe of a reveal that anything
+[27:04.880 --> 27:09.200]  that takes away from that literally costs them money. Right. And no offense to nine to five Mac
+[27:09.200 --> 27:15.840]  or Guillermo. But even if they did lose their mind, and we're going to leak it, they wouldn't
+[27:15.840 --> 27:20.960]  leak it to nine to five Mac. Yeah, it would be like the Wall Street Journal or or all thing.
+[27:20.960 --> 27:26.080]  What is it called a pachowski at recode or I guess but I just it would still be so shocking.
+[27:26.640 --> 27:35.600]  I know. You know, I can't even imagine if if somebody you know, like if jaws came in,
+[27:35.600 --> 27:42.080]  like who would do the leaking even like, like if jaws came into somebody's office and said, hey,
+[27:42.080 --> 27:45.840]  close the door. Here's what I want you to do. I want you to take these two images.
+[27:47.840 --> 27:51.760]  There's two of the trench coat he's got a hat on. We've got two of these slides
+[27:52.560 --> 27:57.280]  from the keynote. And we just can't wait to show them. So Phil and I were talking,
+[27:58.080 --> 28:04.320]  we want to get them out. Can you can you send these to let's send them to nine to five Mac,
+[28:05.120 --> 28:10.800]  you know, and get people excited for the iPhone. If somebody if if jaws came in and said that to
+[28:10.800 --> 28:16.640]  somebody, that person would think that they that jaws had lost his mind. Like they wouldn't do it.
+[28:19.360 --> 28:20.640]  You know what I mean? It's almost like,
+[28:23.440 --> 28:28.160]  you know, like, if he came in and handed him a gun and said, I want you to shoot me in the leg.
+[28:30.560 --> 28:34.560]  You know, like, you wouldn't do it. It's just so out of character for Apple. And I can't.
+[28:35.600 --> 28:40.400]  And, and I tried not to debate it too much on Twitter. But I, I think I said to somebody,
+[28:40.400 --> 28:43.840]  something to the effect of even if they were going to leak it, which they never ever would,
+[28:43.840 --> 28:48.400]  it wouldn't go to nine to five Mac. And then the response was, no, that's exactly why it
+[28:48.400 --> 28:52.960]  went to nine and five Mac because they don't, you know, nobody believe it. Nobody would believe it,
+[28:52.960 --> 28:58.080]  that of course, they leaked it to Guillermo Rambo, because then everybody will think he found it.
+[28:58.720 --> 29:02.240]  Because, you know, he's the sort of person who could find it. And therefore,
+[29:02.240 --> 29:05.520]  that's also proud. I don't think he'd ever turn out, you know, work that he didn't earn.
+[29:05.520 --> 29:10.880]  Trenton Larkin Right. But that's, you know, the basic thinking behind that the theory that it's
+[29:10.880 --> 29:16.160]  a deliberate leak and why it went to Guillermo Rambo at nine to five Mac was that Apple didn't
+[29:16.160 --> 29:22.080]  want it to look like a leak and, you know, a purposeful leak. And all I all I can say is they
+[29:22.080 --> 29:28.320]  would never do that. I think knowing I don't know a lot of the behind the scenes reaction at Apple
+[29:28.320 --> 29:36.160]  to this leak, but I know, the little that I do know is that it was deeply upsetting.
+[29:36.160 --> 29:39.120]  Dr. Justin Marchegiani Yeah, oh, yeah, absolutely. I think that
+[29:39.120 --> 29:42.880]  was probably one of the the there's nothing that those teams who work on this everything,
+[29:42.880 --> 29:47.600]  everybody from marketing and PR to hardware and software engineering loves more than the big
+[29:47.600 --> 29:52.320]  reveal. And anytime it's sort of like the script for Star Wars being leaked, and everybody reading
+[29:52.320 --> 29:56.720]  it online, because they also now have to deal with people going there and going, Oh, this is boring.
+[29:56.720 --> 30:00.960]  I've already seen this. Why? Why isn't Apple surprising us anymore? It's like, dude, you read
+[30:00.960 --> 30:05.360]  the stars for the Star Wars script before you went to see the movie. You can do that, but then you
+[30:05.360 --> 30:11.120]  can't claim that you're not being surprised. And on the other aspect of this that I've seen,
+[30:11.680 --> 30:18.880]  that is the argument of, well, if they really don't want these things to leak, then how does
+[30:18.880 --> 30:25.680]  it keep happening? You know that how can a company of Apple's resources and talent not be, you know,
+[30:25.680 --> 30:33.600]  keep having these leaks? And I can't explain it. But each one seems to be a different mistake,
+[30:33.600 --> 30:37.360]  you know, yes, it's the fact that people are imperfect. And
+[30:39.360 --> 30:43.920]  and we should also point out that almost everybody is looking and if you and I know this is harder
+[30:43.920 --> 30:47.680]  for people in the Apple community understand. But if you go towards the bigger phone and gadget
+[30:47.680 --> 30:52.720]  market, there are literally Twitter accounts and websites that all they do is leak renders
+[30:52.720 --> 30:57.440]  and carrier photos and engineering shots of every single new Android phone that's coming out
+[30:57.440 --> 31:04.640]  all the time. And there's not it's it speaks to Guillermo Rambo and Steve Troughton Smith's
+[31:04.640 --> 31:12.000]  extraordinary talent as as people as being able to find these things and know how to exploit them,
+[31:12.000 --> 31:16.240]  you know, expose them once they've been identified, that it's almost like,
+[31:17.920 --> 31:22.080]  number one, there's only those two guys, really. I mean, there might be others, but they're
+[31:22.080 --> 31:26.240]  still haven't found, you know, might be other people trying dozens, hundreds of people trying
+[31:26.240 --> 31:30.720]  the same thing, but they never seem to come up with anything. But it's almost like they're so
+[31:30.720 --> 31:38.480]  good, that it is like water finding a leak in a bowl. Like if there's one tiny crack anywhere
+[31:38.480 --> 31:46.640]  in the entire process of keeping GM builds of the OS secret and product marketing images, secret and
+[31:46.640 --> 31:51.920]  their web pages and everything else, every single thing that they need to protect until they're ready
+[31:51.920 --> 32:00.720]  to unveil it on stage. The tiniest pinprick in that process, it seems likely to be exposed by
+[32:00.720 --> 32:04.960]  one or the other both of of Guillaume and Steve, because they're so good. Like,
+[32:04.960 --> 32:10.560]  all it takes is one mistake. And it boom, it's out. And sometimes it's not even a mistake,
+[32:10.560 --> 32:14.160]  like the supply chain, almost everybody else, at least I think everybody else gets information from
+[32:14.160 --> 32:17.920]  the supply chain. Because there's just so much money involved in case makers, and everybody
+[32:17.920 --> 32:21.840]  are throwing so much money around that inevitably that stuff gets out because they want to be able
+[32:21.840 --> 32:26.480]  to have cases ready, because Apple won't tell them what the new phone is. So they're desperate to
+[32:26.480 --> 32:30.640]  get their cases ready and sold on time because it's millions and millions of dollars. So that
+[32:30.640 --> 32:35.280]  stuff gets out. But with this stuff, sometimes it's just that, you know, the carriers have to
+[32:35.280 --> 32:38.240]  test it. And if they lock it up too hard, the carriers can't figure out how to get to it. And
+[32:38.240 --> 32:42.640]  there's all these people have to do validation. And there's there's so many things that go into
+[32:42.640 --> 32:48.560]  an iPhone launch that it probably is possible to lock every bit down. But it's probably not
+[32:48.560 --> 32:54.160]  possible to do it all the time. There's just so many chances for obscurity, security by obscurity
+[32:54.160 --> 32:59.600]  failing, or just something going wrong. Yeah, I totally agree. All right, let's take a break. And
+[32:59.600 --> 33:08.080]  I'm gonna thank our first sponsor. Away makes premium suitcases in a variety of colors in four
+[33:08.080 --> 33:15.440]  sizes. The carry on the bigger carry on the medium and the large could not be easier to understand
+[33:15.440 --> 33:19.360]  exactly how big they are. They have a bunch of great colors to choose from. And all of their
+[33:19.360 --> 33:24.000]  suitcases are made with premium German polycarbonate unrivaled in strength and impact
+[33:24.000 --> 33:29.920]  resistance and very, very lightweight. I've been using one as my carry on for years. And it is
+[33:29.920 --> 33:35.520]  still in great condition. The wheels are absolutely fantastic. The whole suitcase looks brand new.
+[33:35.520 --> 33:41.280]  It's amazing. Other features they have a great interior design featuring a patent
+[33:41.280 --> 33:46.240]  printing compression system, which is just a terrific way to keep your clothes separated
+[33:46.240 --> 33:50.720]  in a few different compartments, keep your shirts wrinkle free, really, really great.
+[33:52.560 --> 34:00.400]  Includes a removable washable laundry bag. And both sizes of the carry on are able to charge
+[34:00.400 --> 34:05.920]  cell phones, anything with USB, they have two USB ports, and a built in lithium ion battery. And
+[34:05.920 --> 34:10.720]  it pops right out. So if you buy a new carry on right now from away, the battery just pops right
+[34:10.720 --> 34:14.880]  out in case you are traveling on an airline and they want to gate check your bag, and they say
+[34:14.880 --> 34:20.960]  you can't put a battery underneath the plane pops right out, you don't need any tools. And even have
+[34:20.960 --> 34:26.160]  a great system, a great program for people who own an away travel bag from a few years ago,
+[34:26.160 --> 34:29.520]  where the old system instead of popping right out, you required a Phillips head screwdriver,
+[34:29.520 --> 34:34.000]  very, very easy. But some of the airlines now have a rule that if your bag has a built in battery,
+[34:34.000 --> 34:41.120]  it can't require a tool to remove it. If you have an older away bag that requires a screwdriver,
+[34:41.120 --> 34:47.600]  they have a brand new assembly and they'll replace yours free of charge. I will put the link in the
+[34:47.600 --> 34:52.480]  show notes but they send you a thing free of charge absolutely free. It takes a few minutes
+[34:52.480 --> 34:56.640]  and you can convert your old away suitcase to the new one with the pop out battery thing.
+[34:56.640 --> 35:02.080]  Or if you prefer not to do it yourself, they'll even let you free of charge, send your existing
+[35:02.080 --> 35:05.840]  away suitcase without the pop out assembly, send it back to them, they'll do it for you.
+[35:06.640 --> 35:10.880]  Couldn't be easier. I'll put the link in the show notes. But if you get a brand new one,
+[35:10.880 --> 35:16.000]  you of course will get the new assembly built right in. It's a terrific product. I use it every
+[35:16.000 --> 35:23.840]  single time I travel and they have a special deal for listeners on the show. You can save $20 off a
+[35:23.840 --> 35:32.480]  suitcase by visiting awaytravel.com slash talk show. That's awaytravel.com slash talk show.
+[35:33.360 --> 35:38.560]  And use the promo code talk show during checkout and you will save 20 bucks. So save 20 bucks at
+[35:38.560 --> 35:45.680]  awaytravel.com slash talk show. And that promo code is talk show. All right, one more thing
+[35:45.680 --> 35:49.280]  about this iPhone. Well, maybe a little bit more than one more thing with the iPhone access. But
+[35:49.280 --> 35:55.920]  one day we're just hearing you say it excess. Well, that's so
+[35:59.520 --> 36:04.000]  the name is a little surprising to me. So Jason Snell and I in the last episode of this show
+[36:04.000 --> 36:09.600]  spent some time guessing iPhone names. And I had a draft piece that I just kept revising and revising
+[36:10.160 --> 36:14.160]  that I didn't publish, but was on the cusp of publishing last week, which when this broke,
+[36:14.160 --> 36:19.520]  my, my guesses for the name, and the idea that they would just add an S at the end,
+[36:19.520 --> 36:24.720]  which they've done with the iPhone three G to three GS, the iPhone four to the four S,
+[36:24.720 --> 36:28.880]  the five to the five S and six to the success, but haven't done since the six S.
+[36:31.120 --> 36:35.840]  I know I spent very little time in the piece, even considering it, I addressed it and said,
+[36:35.840 --> 36:41.920]  it's, you know, it, they've done it before, but a, they haven't done it since the success.
+[36:41.920 --> 36:51.600]  And I believe the iPhone six was the, I think maybe the best selling iPhone ever. It certainly
+[36:51.600 --> 36:57.440]  was like at the peak of iPhone sales and it far exceeded. It wasn't just the most popular. It
+[36:57.440 --> 37:03.600]  exceeded Apple's expectations. And that was the one that it was out of. It was back ordered for
+[37:03.600 --> 37:08.240]  the longest period of time. It was the first quote unquote super cycle because it pulled people into
+[37:08.240 --> 37:14.080]  upgrading earlier just to get the bigger devices. Yeah, it, it, it, it was just bigger in every,
+[37:14.080 --> 37:17.920]  it was, I think Apple knew it was going to be big, but it exceeded their expectations. It took them
+[37:17.920 --> 37:23.760]  many more months than usual to, to, you know, to get it to like next day ordering. And then the
+[37:23.760 --> 37:29.920]  six S was the other way. It was a down cycle where it's undersold. It wasn't like it was a dud. It
+[37:29.920 --> 37:35.760]  wasn't a failure, but it actually didn't quite meet Apple's expectations. And I think there's
+[37:35.760 --> 37:40.400]  and I think there's several reasons for that. I think that, like you said, that it was a super
+[37:40.400 --> 37:48.880]  cycle that drove people to upgrade early because they wanted bigger phones. And I also think that
+[37:48.880 --> 37:57.040]  it also prompted people to wait longer to upgrade who might've bought an iPhone five S or even a five
+[37:57.840 --> 38:03.280]  but who were waiting, who either you saw the industry trends or followed the rumors long
+[38:03.280 --> 38:06.240]  enough that, you know, the rumor with it, you know, that Apple would be coming out with quote
+[38:06.240 --> 38:11.360]  unquote bigger iPhones and that they wanted them, that they would prompt them to wait an extra year
+[38:11.360 --> 38:18.080]  to upgrade, to get a big one. I think both of those things were true and led to this, you know,
+[38:18.080 --> 38:24.640]  as you called it a super cycle. I think the success was, was suffered in the wake of that
+[38:24.640 --> 38:31.280]  because so many people upgraded, like you said, upgraded early who therefore weren't left to buy
+[38:31.280 --> 38:37.360]  the success model year because they'd already upgraded the year before. Yeah. But in addition
+[38:37.360 --> 38:45.840]  to those factors though, I can't help but think that some part of Apple saw the reaction to the
+[38:45.840 --> 38:55.040]  six S as a and it happened in previous years with all the S phones where, because they look the same
+[38:55.040 --> 39:00.720]  people say, ah, it's a mine. This is a minor boring, right? Whereas technically I think if
+[39:00.720 --> 39:03.920]  you were on a two year up, I've said this for many, many years, if you were on a two year
+[39:03.920 --> 39:11.520]  upgrade cycle, the S year was the year to be because the, the iPhone three G versus the
+[39:11.520 --> 39:16.880]  original iPhone had the exact same camera, the exact same processor. Yeah. It really only added,
+[39:16.880 --> 39:21.680]  I believe a three G networking, which is a big deal. I mean, it was significantly faster than
+[39:21.680 --> 39:29.280]  the edge networking. Um, and GPS, I don't think it had anything else. Um, it just, you know,
+[39:29.280 --> 39:34.560]  it wasn't serious. It was a reasonable upgrade just to get three G networking. But the three
+[39:34.560 --> 39:40.000]  GS was the first one where there was a real performance increase in a real, I mean, it was
+[39:40.000 --> 39:46.960]  a really, really big video recording and it added video recording, um, all sorts of things. The four
+[39:46.960 --> 39:55.120]  S um, I think was, we could skip the four, but it was still a very nice upgrade over the iPhone
+[39:55.120 --> 40:01.840]  four and it fixed the antenna issues. Siri was the thing. Um, the five S is when they went from
+[40:01.840 --> 40:06.960]  32 bit processor to the 64 bit shocking the industry, literally shocking anybody who follows
+[40:06.960 --> 40:14.400]  the semiconductor industry. Where's the Qualcomm's life? Uh, very, I mean at a very technical level,
+[40:14.400 --> 40:22.800]  a truly significant, put them ahead of the competition by years. Technical upgrade was an
+[40:22.800 --> 40:26.960]  S and it changed their whole chip set architecture and which has served them for, you know, from then
+[40:26.960 --> 40:35.120]  on. Right. It really was the start of the, uh, and touch ID throw in frosting. Right. It was a really
+[40:35.120 --> 40:41.200]  good upgrade. Uh, five S was a very nice upgrade or no, we just talked about the five S six S was
+[40:41.200 --> 40:48.160]  a good upgrade, but I, but it seemingly got more of a bad rap, like a rap of this is just a minor
+[40:48.160 --> 40:53.440]  upgrade over last year than before. And I 3d touch, which a lot of people didn't find appealing.
+[40:54.000 --> 41:03.600]  And you know, they might've been running into the part where people, the CPU improvements are there
+[41:03.600 --> 41:08.880]  and they're real, but the, but the six was so fast that nobody was complaining about it being slow.
+[41:08.880 --> 41:13.360]  Yeah. And the rose gold appealed to me and Christina Warren, but not enough people.
+[41:13.360 --> 41:17.360]  I, I, I, and I also just can't help but feel that at that point,
+[41:18.560 --> 41:23.920]  it's like that it's not like the five and five S like the iPhone wasn't already a mass market,
+[41:24.800 --> 41:32.000]  tens of millions of purchases per quarter product. It was, but at some point there's a curve where in
+[41:32.000 --> 41:37.680]  the early years it was a product for, you know, early adopters, certainly the first generation
+[41:37.680 --> 41:42.960]  iPhone was. Well, I get what you're saying though, because when you put the S on, it does set
+[41:42.960 --> 41:46.800]  expectations. So the press knows it's, you know, for example, it's an iterative update, but also
+[41:47.440 --> 41:51.200]  people start grokking into that and they go, oh, it's just an S do I really want it? And I think
+[41:51.200 --> 41:55.760]  that might've played into why the eight was eight and not seven S exactly where I'm going that I
+[41:55.760 --> 42:01.040]  can't help, but think that Apple blames a little bit of the successes, disappointing sales on the
+[42:01.040 --> 42:07.120]  name. Just a little, I think there's other reasons that are bigger that simply because the six was
+[42:07.120 --> 42:13.200]  such a spectacular hit, but I can't help but think I thought, I mean, again, I obviously wrong if the
+[42:13.200 --> 42:19.760]  name of this product is the 10 S I was guessing that Apple might never do the, just add an S
+[42:19.760 --> 42:25.520]  again, because the success was such a, just that's my very long digression of saying I really never
+[42:25.520 --> 42:28.720]  expected to see an S phone again, whether it looked the same as the last year or not.
+[42:29.280 --> 42:32.480]  And someone on Twitter said tennis, and now I can't stop pronouncing it that way.
+[42:32.480 --> 42:40.000]  Yeah. Jason Sinell even used the tennis ball emoji and one tweet. It was just the iPhone
+[42:40.000 --> 42:44.960]  and in a tennis ball. Anyway, it doesn't work. It's like excess access, excess
+[42:44.960 --> 42:52.400]  eggs is, I mean, like it's just so many. My, my, I really did. I didn't in my article. I tried,
+[42:52.400 --> 42:56.160]  I think I did a much more, I still haven't published it, but because I still haven't
+[42:56.160 --> 43:03.280]  revised it in the wake of this, you know, knowing quote unquote, knowing that the name is excess or
+[43:03.280 --> 43:08.640]  tennis. I keep saying excess, not too. It's going to be impossible not to, because I see it, you
+[43:08.640 --> 43:14.480]  know, but anyway, I know for a fact, like I, and so famously, I'm, I'm not good at, I'm not, I don't
+[43:14.480 --> 43:20.560]  have a great track record betting on the Apple's product names last year after it was revealed that
+[43:20.560 --> 43:26.800]  it was iPhone space, capital X. I wrote an article just, you know, cause I like doing the speculation.
+[43:26.800 --> 43:33.280]  I like guessing before the keynote explaining why I, my guess was that they would pronounce it
+[43:33.280 --> 43:43.040]  iPhone X and not iPhone 10. And obviously I was very wrong. But one of the reasons I thought was,
+[43:43.040 --> 43:48.640]  and I just said, because even if Apple wants to call it the iPhone 10 spelled with a capital X,
+[43:48.640 --> 43:56.800]  people will say iPhone X and Apple knows this firsthand because they know how many customers
+[43:56.800 --> 44:04.400]  out there have spent, spent 10 years calling the max operating system Mac OS X. Yep. Right. I don't
+[44:04.400 --> 44:10.080]  know what percentage, but it's, if not a majority, it is, it is a very sizable minority. They know
+[44:10.080 --> 44:14.640]  this. And so if they're going to call it the iPhone X, why give it this name? And I've heard
+[44:14.640 --> 44:19.920]  from people and I was in an interesting Twitter thread on this and there were some people who
+[44:19.920 --> 44:24.400]  said, you know what, I went around my office and polled people and most people seem to know it's
+[44:24.400 --> 44:31.280]  the iPhone 10. So maybe that's just the function of who, who they work with. Being a little bit
+[44:31.280 --> 44:37.840]  more keyed in or, or, you know, a little bit more Apple enthusiast. I heard from people who work in
+[44:37.840 --> 44:42.320]  Apple stores who say, Oh yeah, everybody comes in and calls it the iPhone X. Like if you work
+[44:42.320 --> 44:47.200]  in the Apple store, you're manning the iPhone desk. People come in and they talk about the
+[44:47.200 --> 44:52.000]  iPhone X so they know that it's awkward. Like do you say 10 and try to embarrass them or do
+[44:52.000 --> 44:55.520]  you just go with it and then look like you don't know what the name of your product is and right.
+[44:55.520 --> 45:00.880]  It is weird. And so my explanation for why they wouldn't just add S is if people, whether Apple
+[45:00.880 --> 45:06.240]  wants them to say 10 or X, they're going to say X and therefore they're going to say X S and that
+[45:06.240 --> 45:13.120]  sounds like the word excess. Yeah. Which is, I don't think a word that Apple wants to associate
+[45:13.120 --> 45:21.600]  with a phone that was probably going to sell for 999 through presumably for the large, you know,
+[45:21.600 --> 45:26.320]  the highest end version of the larger one. Like what's the maximum price of the current iPhone 10
+[45:26.320 --> 45:31.120]  is it 11 over? I think it's 1200. Yeah. 1200 bucks. So then it'll probably be at least
+[45:31.120 --> 45:37.200]  1300 1299 for the max version of the larger one. I don't think they want people calling it the
+[45:37.200 --> 45:45.040]  iPhone excess or I would think they wouldn't. I mean there's a, and there's a nightclub in
+[45:45.040 --> 45:51.920]  Las Vegas at the at the win. I'm not a nightclub person, but it's, you know, it's a big, you can't
+[45:51.920 --> 45:58.320]  go to the win and not see the ads for it called X S and the whole reason they named the nightclub
+[45:58.320 --> 46:06.400]  X S is because it sounds like excess, which is, which is what they want associated with their
+[46:06.400 --> 46:13.200]  expensive, crazy, you know, big name DJ nightclub. I mean, yeah, even the band in excess. That was
+[46:13.200 --> 46:19.600]  the whole, yeah, exactly. So it's, there's two great examples where X S has been used before
+[46:19.600 --> 46:28.080]  and in both cases deliberately to create the verbal, I guess that's not a pun. I don't know
+[46:28.080 --> 46:34.000]  what you call it, but the verbal conflation of the word excess with the letters X and S. So I
+[46:34.000 --> 46:39.840]  just thought, I really just blew it off as I don't think they're going to do that. And apparently
+[46:39.840 --> 46:44.880]  I was wrong. Yeah. But you're like, they're smart people. It's a super smart marketing organization
+[46:44.880 --> 46:48.000]  and they usually, they have a name they want, but then they make hundreds of other names and
+[46:48.000 --> 46:51.200]  they go through them and they make sure there's not a better name and they check everything and
+[46:51.200 --> 46:56.720]  they're not dummies to say the least. And they had to know naming it iPhone 10 that this was
+[46:56.720 --> 46:59.840]  going to happen because they were going to have another, they're not getting out of the iPhone
+[46:59.840 --> 47:06.960]  business anytime soon. And they have products like X serve that or X X code still that do use
+[47:06.960 --> 47:15.120]  the X. Yeah. It's just so, it causes so much confusion and Apple is so famous for understanding
+[47:15.120 --> 47:19.840]  that the best marketing is simple, that it just seems weird that we're having this conversation.
+[47:19.840 --> 47:26.560]  It does. I, I, it is, and they do not show it to most humans. They're going to say excess.
+[47:26.560 --> 47:36.320]  I think it's, I, and I know I personally have a very deep, uh, uh, I'll go right out and say
+[47:36.320 --> 47:42.080]  it, the hatred of Roman numerals. I really hate them. Uh, I can never figure them out.
+[47:42.080 --> 47:47.440]  Figure them out. They're not human readable. They're not human readable. Uh, there's a reason
+[47:47.440 --> 47:54.160]  that the ancient Romans were not very, not famous for their mathematical, uh, discoveries.
+[47:57.280 --> 48:03.120]  Right. Like, you know what I mean? There's a reason why Pythagoras was Greek, uh,
+[48:05.040 --> 48:08.400]  where the Persians did so much math. Right. Uh, you're right. And the reason,
+[48:08.400 --> 48:14.240]  right. The reason that the place where Arabic numerals were invented was also the home of
+[48:15.360 --> 48:20.560]  numerous, tremendous mathematical discoveries. And, uh, the Romans didn't even have a symbol
+[48:20.560 --> 48:26.080]  for zero. I mean, yeah, it's, it is not a good system. It is antiquated. I really,
+[48:26.080 --> 48:31.040]  by the one that I've ranted about before was the super bowl, the NF, the national football
+[48:31.040 --> 48:35.120]  league is used Roman numerals for the super bowl. And then for super bowl 50, they switched to
+[48:35.120 --> 48:39.920]  Arabic numerals and just put a five zero. And I was like, finally, and that's just makes sense.
+[48:39.920 --> 48:45.440]  Because once you get up to like the 40 sevens, it, it, there are very long sequences of numbers
+[48:45.440 --> 48:51.440]  in the very strange order that Roman numerals have to be in to represent certain digits.
+[48:52.880 --> 48:56.560]  Um, and I thought it was, I, I thought that was so brilliant. It's like that they trapped themselves
+[48:56.560 --> 49:02.000]  in this Roman numeral thing back when super bowl four, five, six were all very human readable
+[49:02.000 --> 49:06.720]  and just hadn't had the foresight to think, Hey, we might be in this for decades. And then all of
+[49:06.720 --> 49:14.480]  a sudden, you know, you've got X, X, I, I V, you know, these crazy sequences. Hey, we'll break the
+[49:14.480 --> 49:18.720]  sequence at 50 and then we'll just use numbers. But instead they went right back to Roman numerals,
+[49:18.720 --> 49:21.920]  which it just infuriates me. And it seems that, I don't know if you mentioned,
+[49:21.920 --> 49:25.360]  I think you might've mentioned this previously, if they had gone with X, they would have reset
+[49:25.360 --> 49:30.240]  everything. I had another nine years of models to go through like X one X two X three X four,
+[49:30.240 --> 49:35.280]  all very neat and tidy and pronounceable. Right. It was, it would have been very cool.
+[49:35.280 --> 49:39.760]  Like the iPhone X two, if they had called the original iPhone, the X, and if they just called
+[49:39.760 --> 49:44.320]  this one, the X two, that sounds really cool. It sounds like the, like the way like fighter planes
+[49:44.320 --> 49:55.680]  are named or something. Um, but no, apparently we've got marketing. Uh, so I don't know. We're
+[49:55.680 --> 50:02.560]  apparently wrong about that, but there is one thing that, uh, both that they don't mention
+[50:02.560 --> 50:14.880]  at nine to five Mac and there was a German report recently, uh, which did, did mention that they
+[50:14.880 --> 50:20.080]  might add an S, but that it hadn't been decided yet, which is crazy. It's one of those things
+[50:20.080 --> 50:26.960]  that drives me nuts is that at the time, the date that that was printed by the German at Bloomberg,
+[50:28.240 --> 50:34.960]  his sources may not know if that was decided, but that decision had was made months ago at,
+[50:34.960 --> 50:39.440]  at the highest levels in product marketing and Apple like that in its decision was,
+[50:39.440 --> 50:43.360]  is not up in the air right now. And it was not up in the air last week.
+[50:43.360 --> 50:51.520]  Uh, if it's actually called the iPhone X S 10 S that decision was set at the date that the
+[50:51.520 --> 50:55.280]  Bloomberg article was published. I mean, I would be shocked if they hadn't discussed it when they
+[50:55.280 --> 50:59.520]  named last year's model because they know they come in, but I mean, theoretically it's possible
+[50:59.520 --> 51:04.320]  that, you know, someone like Phil Schiller could go up and enter a name into the machine that
+[51:04.320 --> 51:09.840]  eventually prints out all the packaging and change his mind. But it's real late in the cycle.
+[51:09.840 --> 51:13.840]  All right. But, uh, the other thing that Gurman mentioned and I would like to speculate about
+[51:13.840 --> 51:18.160]  is whether or not the bigger one will also be called plus and that, that Gurman said that was
+[51:18.160 --> 51:24.000]  up in the air. I, I, I'm thinking it will not be, I don't think they're going to call it the iPhone
+[51:24.000 --> 51:29.120]  10 S and the iPhone 10 S plus. I think they're just both going to be called the iPhone 10 S
+[51:29.120 --> 51:33.760]  and you can get a bigger one or a smaller one. Yeah. Because the middle size one is
+[51:33.760 --> 51:39.200]  awkward at that point too. Right. I think so too. Right. That you, you've got a regular one
+[51:39.200 --> 51:44.000]  and then there's a bigger one. I still think that's plus plus plus and minus. I mean, it just,
+[51:44.000 --> 51:48.800]  well, and as I said, I think I mentioned this with Jason on my previous episode, but I other,
+[51:49.840 --> 51:54.480]  one reason I don't think they're going to call this plus is that the plus in previous ones
+[51:55.200 --> 52:01.680]  to me never only referred to the size, right? It referred to this, to the, to the fact that it was
+[52:01.680 --> 52:08.320]  superior in several ways. The plus iPhone six plus, I think, I think every, every one of the
+[52:08.320 --> 52:12.480]  plus phones, the ones that actually have an official plus in their name has at least some
+[52:12.480 --> 52:20.320]  technical advantages, um, including higher resolution, not just bigger, but three X retina
+[52:20.320 --> 52:25.280]  displays as opposed to two X, although they were sort of like two and a half X because they were
+[52:26.400 --> 52:32.640]  downscaling as opposed to the iPhone 10, which is the first true three X retina resolution phone.
+[52:32.640 --> 52:39.760]  But still, I think that the downscaled three X was still a technical advantage because it still had
+[52:39.760 --> 52:46.880]  more actual pixels per inch than the non plus iPhones. The cameras have always had at least some
+[52:46.880 --> 52:57.280]  technical advantage, uh, ranging from, uh, having the next year it had optical image stabilization
+[52:57.280 --> 53:03.440]  for video, uh, which is arguably more important. Optical image stabilization video makes a huge
+[53:03.440 --> 53:11.200]  difference for handheld videography and almost all iPhone videography is handheld. Um, and what
+[53:11.200 --> 53:17.520]  the seven plus had the, uh, or when did they start? Yeah. The dual camera system. Right. And
+[53:17.520 --> 53:24.080]  the dual camera system doesn't just give you two focal lengths for completely optical, you know,
+[53:24.080 --> 53:33.440]  non digitally zoomed imagery. Um, to date only dual camera iPhones have offered portrait mode.
+[53:33.440 --> 53:41.680]  Yeah. Um, because that uses the dual camera to, to, you know, the way that it's hardware versus,
+[53:41.680 --> 53:46.960]  you know, it merged with software to get the portrait effect is complicated, but it does
+[53:46.960 --> 53:52.080]  involve verse both hardware and software and the hardware. Famously, if you have a Google pixel
+[53:52.080 --> 53:56.720]  phone, you can apply portrait mode. It does in fact imply portrait mode afterwards as a filter,
+[53:56.720 --> 54:00.880]  but it can't do real time. Like you don't see it in the viewfinder because it doesn't have the
+[54:00.880 --> 54:04.720]  lenses and the Silicon to do it. Right. So the plus has always referred to a little bit more
+[54:04.720 --> 54:10.720]  than just the size. And from what I've seen, we don't know. I mean, well, you know, but everything
+[54:10.720 --> 54:15.680]  I've seen is that the two iPhone 10 S models will be technically the same. They won't, there won't
+[54:15.680 --> 54:20.720]  be any real advantage to the larger one other than the nature of just having a larger display.
+[54:20.720 --> 54:30.720]  Yeah. Um, I guess the most akin that, that I can think that would be, would be to the iPad pro
+[54:31.280 --> 54:38.880]  where the, uh, the 10.5 inch iPad pro and the 12.9 inch iPad pro are, are technical peers
+[54:39.680 --> 54:44.800]  that in every way I can think of both have true tone, both have pencil support.
+[54:44.800 --> 54:50.560]  If they're not the exact same clock speed, they're close enough. Uh, yeah, I think the memory is
+[54:50.560 --> 54:54.160]  different, but you need that for the larger display. Right. And that'll be true of the iPhone
+[54:54.160 --> 54:58.480]  as well. The RAM will be higher. Right. I don't think you get better, any better performance.
+[54:58.480 --> 55:03.120]  Like the Mac book pro is, is not as good a comparison because the 15 inch Mac book pro is,
+[55:03.120 --> 55:10.400]  is faster, uh, than the 13 inch Mac book pro. Yeah. Um, but it's also, it is pretty close
+[55:10.400 --> 55:14.000]  on it that, you know, there's a reason why the 15 inch Mac book pro doesn't get its own
+[55:14.000 --> 55:19.760]  name. It's just the 15 inch pro plus. Right. It's, you know, so I, I think that the, you know,
+[55:20.720 --> 55:25.120]  I've, I've speculated a lot and my guests would have been that this would have been the year where
+[55:25.120 --> 55:31.760]  they call them the iPhone pro. Uh, I can't get over that, that they don't, but, uh, but much
+[55:31.760 --> 55:37.360]  like the iPad pro models and the Mac book pro models, I think that the iPhone 10 S will only
+[55:37.360 --> 55:42.080]  have one name and you'll just pick a size. So does the other one become iPhone nine or does
+[55:42.080 --> 55:50.080]  it become iPhone 10 minus? My guess is iPhone nine. My guess is, and, and it, it, this wasn't
+[55:50.080 --> 55:56.640]  revealed like, so the leaks were only of the 10 S and then the watch. Um, but that leaves this
+[55:56.640 --> 56:06.400]  mysterious 6.1 inch LCD corner to corner around iPhone 10 basically looking phone. Uh, I, I think
+[56:06.400 --> 56:12.240]  it's very obvious that they would call it the iPhone nine. It's the, the number is just sitting
+[56:12.240 --> 56:17.760]  there waiting to be used. They've been upgrading that, that phone from the iPhone seven to the
+[56:17.760 --> 56:26.160]  eight to the nine every year. Um, I, I know like on Twitter, I've, I've been at very fun debate
+[56:26.160 --> 56:32.320]  or Steven Troughton Smith thinks they will call it the iPhone 10 like C or the se or something.
+[56:32.320 --> 56:40.400]  Uh, simply simply because the design is, is all part of it, but he also is under the impression.
+[56:40.400 --> 56:44.080]  And again, I could be wrong. I've been wrong about this whole thing with the X's and 10,
+[56:44.080 --> 56:50.560]  so I could be very wrong, but he seems to be thinking that the X is going to stand around
+[56:50.560 --> 56:56.480]  like the X for Mac OS 10 as a decade long branding thing. And they'll just increment
+[56:56.480 --> 57:02.960]  other things every year. I don't think that's true, especially if she has a Roman numerals.
+[57:02.960 --> 57:10.160]  Well, not just that. I just feel like I just can't see where they would go next year with iPhone
+[57:10.160 --> 57:17.280]  X, X T something, you know? Yeah. Like somebody's throughout T iPhone 10 T again, this would all
+[57:17.280 --> 57:22.320]  make a lot more sense if they were pronouncing the X as an X. Uh, like I could see that being
+[57:22.320 --> 57:27.840]  a decade long thing where they just keep having iPhone X somethings. And again, just resetting
+[57:27.840 --> 57:34.720]  the numbers and doing the X to the X three, the X four sounds cool to me. Uh, I just can't see
+[57:34.720 --> 57:38.880]  doing it while you're calling it 10. Cause that to me makes it sound like you're stuck for years.
+[57:38.880 --> 57:42.400]  You're stuck on this. I've, you know, you kept incrementing these numbers and then all of a
+[57:42.400 --> 57:49.040]  sudden you're stuck at 10. Yep. Um, I don't know. I, I, at this point I wouldn't be shocked if it,
+[57:49.040 --> 57:55.440]  you know, the other one was the iPhone 10 C with an X and a C. Uh, and you know, there's precedent
+[57:55.440 --> 58:02.720]  for that because of the iPhone five C and the iPhone five C, uh, came in a variety of colors
+[58:02.720 --> 58:08.480]  that, you know, totally novel, uh, compared to what had become before and frankly since,
+[58:09.040 --> 58:15.120]  and there are rumors that this 6.1 inch iPhone will come in a similar array of colors. Yeah. Um,
+[58:15.120 --> 58:20.960]  and the C obviously, you know, for a colorful model line, it makes some
+[58:20.960 --> 58:25.360]  degree of sense. See for color. And I don't know how much they care. I mean,
+[58:25.360 --> 58:29.680]  Samsung famously skipped a galaxy and one of the galaxy notes like seven or eight or something,
+[58:29.680 --> 58:33.760]  and they skipped the number ahead. So it'd be on the same numbering scheme as iPhone because
+[58:33.760 --> 58:37.120]  they don't want people to go to a store and see like an iPhone eight and a galaxy note six or
+[58:37.120 --> 58:41.440]  something. Cause it would look like they were behind, but Samsung's probably going to keep
+[58:41.440 --> 58:46.320]  incrementing. So if you had a decade of iPhone tens and they're going to 11, 12, 13, 14,
+[58:46.320 --> 58:51.120]  then walk into the store who don't know any better. Right. Yeah. So you run into the reverse problem
+[58:51.120 --> 58:57.200]  going head to head against Samsung. Um, so I don't dismiss it. It's what makes for a good debate,
+[58:57.200 --> 59:05.200]  you know, like I don't dismiss the idea of this LCD model being called the XC or the X something.
+[59:05.200 --> 59:14.080]  Um, uh, but I don't think so. I think they'll just call it the iPhone nine. Um, because I just don't
+[59:14.080 --> 59:20.720]  think, I think being it, it, it's so far behind the iPhone 10 that as we know it, I mean in the
+[59:20.720 --> 59:25.440]  actual 20, you know, the one that's in my pocket right now from last year because the iPhone 10
+[59:25.440 --> 59:31.920]  has an OLED display and OLED is truly superior to LCD, richer blacks, but more energy efficient.
+[59:31.920 --> 59:37.600]  You can't see it. It is a funny thing. You, you can't show it in an advertisement, right? Like
+[59:37.600 --> 59:48.080]  there's no way on a TV advertisement to show how an OLED is better than an LCD because the TV itself
+[59:48.080 --> 59:54.800]  is either an LCD or an OLED, right? So you can't show that, you know, or in my personal case,
+[59:54.800 --> 59:58.080]  it's a plasma screen. So now you're, you're mixing up three technologies. Uh,
+[59:58.080 --> 01:00:03.760]  you, but they do need something because it's going to be bigger than the normal sized iPhone
+[01:00:03.760 --> 01:00:08.800]  10 S and you do need something to indicate that it's a lower tier product. It's not a
+[01:00:08.800 --> 01:00:14.480]  higher tier product and both nine and C might be able to do that. Right. I think especially,
+[01:00:14.480 --> 01:00:19.440]  I think nine, well, I don't know if C would do that though. If it's called iPhone 10 C and iPhone
+[01:00:19.440 --> 01:00:25.680]  10 S and it's mid-size, I don't know. I don't know how a typical consumer would come in and just
+[01:00:25.680 --> 01:00:31.200]  say and, and see this as a $200 lesser phone. I mean, I'm presuming it'll be like an $800
+[01:00:31.200 --> 01:00:36.800]  starting point and $1,000 starting point for the iPhone 10 S. I just don't see how,
+[01:00:36.800 --> 01:00:42.960]  if you call it the 10, anything that comes across and then, you know, it's not like, Oh,
+[01:00:42.960 --> 01:00:48.560]  poor Apple, uh, pity them. Tens and tens of millions of people are buying the $800
+[01:00:48.560 --> 01:00:52.480]  new iPhone instead of the $1,000 new iPhone. I mean, it's, you know, it's not like they're
+[01:00:52.480 --> 01:00:58.160]  giving these things away versus selling the iPhone 10. I mean, it's still a very expensive phone.
+[01:00:58.160 --> 01:01:01.920]  It used to be the highest, you know, that until last year it was the highest priced
+[01:01:01.920 --> 01:01:05.040]  phones that they sold. I expect them to be at the same pricing tier,
+[01:01:06.320 --> 01:01:12.400]  but I, that doesn't really make a lot of strategic sense to me. And everybody knows or follows it
+[01:01:12.400 --> 01:01:18.560]  that the iPhone tens commercial success significantly raised the average selling
+[01:01:18.560 --> 01:01:25.600]  price of iPhones this year, which is sort of unprecedented, you know, for a 10 year old
+[01:01:25.600 --> 01:01:32.240]  computing platform like prices tend to inexorably tend to go down over time in the computer industry.
+[01:01:32.240 --> 01:01:38.800]  And they've certainly gone down, um, for all, all of Apple's competitors in the Android space.
+[01:01:40.560 --> 01:01:47.040]  And the iPhone 10 was such a spectacular hit and so much more expensive than previous iPhones
+[01:01:47.040 --> 01:01:52.880]  that it significantly raised the average selling price of an iPhone. And again, I don't think that
+[01:01:52.880 --> 01:01:58.160]  the iPhone, the 6.1 inch one, the one that I'll call the iPhone nine, I don't think Apple has
+[01:01:58.160 --> 01:02:05.040]  like crippled it in any way, um, to, to drive this. I think if anything, going to this corner
+[01:02:05.040 --> 01:02:11.760]  to corner edge to edge notch display and the no home button thing, as opposed to staying with the
+[01:02:11.760 --> 01:02:18.640]  iPhone eight classic, you know, front face technology that they're being aggressive about
+[01:02:18.640 --> 01:02:28.080]  moving this stuff, you know, like face ID to the second tier. Um, but I can't help but feel though
+[01:02:28.080 --> 01:02:33.840]  that calling it iPhone nine versus the iPhone 10 S wouldn't make, make much more clear that
+[01:02:33.840 --> 01:02:41.280]  it's one click below just because the numbers one click below. Yeah, no, absolutely. Uh, so that's
+[01:02:41.280 --> 01:02:45.360]  my guess. My guess is just the most obvious thing in the world, which is that this phone,
+[01:02:45.360 --> 01:02:50.080]  that phone will be called the iPhone nine. Everyone in Germany will be so confused and
+[01:02:50.080 --> 01:02:56.720]  they'll say, you know, I could see it like, uh, I could, I'm not quite sure what order they would
+[01:02:56.720 --> 01:03:04.320]  come out in the keynote. Yeah. Uh, which, what do you think? I, I kind of think you, you would do
+[01:03:04.320 --> 01:03:09.360]  the iPhone nine first. Yeah. They did see before they did five S did they, I see, I don't remember
+[01:03:09.360 --> 01:03:15.280]  that. Yeah. Tim Cook came out and said that the iPhone business is so big now it's expanding that
+[01:03:15.280 --> 01:03:19.520]  for the first time they're going to do not one, but two new iPhones. And the first one is the five
+[01:03:19.520 --> 01:03:28.240]  C. Yeah. So my guess is, uh, I guess it would be Phil Schiller cause he's done every iPhone.
+[01:03:28.240 --> 01:03:32.880]  He's done the introduction for every single iPhone other than the ones that were introduced by Steve
+[01:03:32.880 --> 01:03:37.840]  Jobs. Yes. Um, the only two people who've ever introduced new iPhone hardware have been Steve
+[01:03:37.840 --> 01:03:44.480]  Jobs and Phil Schiller and Phil because of if it historically you think about it, you think,
+[01:03:44.480 --> 01:03:48.640]  you know, jobs did all the first ones. And then, you know, ever since he died,
+[01:03:48.640 --> 01:03:54.080]  Phil's done these and he filled in when, when Steve was sick, but Steve was ill for a couple
+[01:03:54.080 --> 01:04:02.240]  of years. Like, uh, I don't have a thing in front of me, but I, I think that, I think that Steve
+[01:04:02.240 --> 01:04:09.920]  only introduced the iPhone, the three G I know that the three GS was a Schiller year because
+[01:04:09.920 --> 01:04:13.920]  the four was Steve because he did the whole camera thing. Right. And the four S was the
+[01:04:13.920 --> 01:04:20.480]  one that was introduced days before he died. Yeah. Um, so it was only, only three of them,
+[01:04:20.480 --> 01:04:24.480]  right? Yeah. The only three, the only three phones, Steve jobs introduced the iPhone
+[01:04:24.480 --> 01:04:30.800]  three G and then the four. And I do remember that with the four and it was the last one at, uh,
+[01:04:30.800 --> 01:04:35.520]  WWDC. Yeah. It was turn off your my files for the FaceTime. It's unforgettable.
+[01:04:44.160 --> 01:04:47.040]  Johnny, these bloggers won't turn off their my files, but we'll just keep going.
+[01:04:51.520 --> 01:04:57.760]  So I can see Phil on stage. I would think my gut tells me that you do the nine first. And my guess
+[01:04:57.760 --> 01:05:02.400]  is that the narrative would be something of along the lines of last year, we introduced the iPhone
+[01:05:02.400 --> 01:05:08.800]  10 as you know, the iPhone of the future, um, you know, ahead of years ahead of its time.
+[01:05:09.760 --> 01:05:15.840]  And we introduced this beautiful corner to corner display. We introduced face ID, uh,
+[01:05:15.840 --> 01:05:22.960]  these new gestures that replace the home button and you know, here they are in the iPhone nine,
+[01:05:22.960 --> 01:05:27.200]  you know, this year we bring it to everybody. Right. And so, you know, you don't say,
+[01:05:27.200 --> 01:05:31.760]  you don't have to even mention that it's not an old ed screen. You mentioned that the innovation
+[01:05:31.760 --> 01:05:39.040]  was going edge to edge with the round corners, with face ID, uh, the gestures, um, for navigating
+[01:05:39.840 --> 01:05:44.720]  and has it, it's that fancy new LG display anyway, that's a hundred percent DCI P3. And
+[01:05:44.720 --> 01:05:48.960]  you know, it's basically as good as LCD can get. So that's great. Right. Then there's things they
+[01:05:48.960 --> 01:05:54.160]  can, they can brag that the display is good or great even, you know, maybe not the best,
+[01:05:54.160 --> 01:05:58.480]  but it is great. The best LCD display we've ever had in an iPhone. There you go. I can even see
+[01:05:58.480 --> 01:06:03.760]  them saying that, uh, best LCD. Yeah, I could see that. And, and the specific points like the,
+[01:06:03.760 --> 01:06:10.720]  the color spectrum and maybe true tone, I hope I would be nice if it got true tone,
+[01:06:10.720 --> 01:06:14.160]  that would be great. Uh, but I guess at that point, it's just figuring out the price point
+[01:06:14.160 --> 01:06:17.520]  they want to sell it at, then how many features I can include at that price point. Well, they've,
+[01:06:17.520 --> 01:06:22.960]  we, we seem to know from the leaks, uh, that it doesn't have a dual camera design as a single
+[01:06:22.960 --> 01:06:29.360]  camera. Um, whether that's accurate or not, I can't say, cause there's, there's certainly,
+[01:06:29.360 --> 01:06:35.120]  it seems like there's also fewer leaks about this phone. Yeah. But I would guess it has a single
+[01:06:35.120 --> 01:06:40.640]  camera design, uh, and that that would be a significant way that they would differentiate
+[01:06:40.640 --> 01:06:46.240]  both differentiated and keep the component prices down. And I think it's, the size has confused some
+[01:06:46.240 --> 01:06:50.960]  people because especially here we conflate, uh, the size with the price, like SE was smaller and
+[01:06:50.960 --> 01:06:56.480]  famously cheaper, but in a lot of markets, emerging markets and Asian markets, uh, the iPhone
+[01:06:56.480 --> 01:07:00.560]  is a primary computing device and people want to need it to be as big as possible. So the
+[01:07:00.560 --> 01:07:05.520]  combination of a lower price iPhone, that's also a big iPhone is going to be hugely appealing in
+[01:07:05.520 --> 01:07:09.280]  the markets that Apple really wants to hit hard this year. Oh, and they can also say it is the
+[01:07:09.280 --> 01:07:16.400]  largest, uh, LCD iPhone. Yes. Hmm. They could also say if they introduce it first, it's the largest
+[01:07:16.400 --> 01:07:24.800]  screen we've ever had on an iPhone and they can make a comparison to the plus sized like iPhone
+[01:07:24.800 --> 01:07:31.600]  eight and say it has, here's how much more area it has even than the plus sized, uh, iPhones of the
+[01:07:31.600 --> 01:07:37.760]  past. Uh, I hoping it has, I don't, I don't, I don't even know what the supply chain leaks say,
+[01:07:37.760 --> 01:07:42.160]  but I'm hoping it has a true three X retina display as opposed to a scaled down retina
+[01:07:42.160 --> 01:07:45.760]  display. I think it's two X. I think that's one of the ways it's also differentiated
+[01:07:45.760 --> 01:07:50.800]  and lower cost. Oh, that could be possible. Uh, that's, that's interesting. Yeah. I wouldn't
+[01:07:50.800 --> 01:07:54.320]  be surprised that actually would. Yeah. Now that I think about it, do going to X,
+[01:07:54.320 --> 01:08:03.040]  even though it's larger could make sense. Um, uh, and then, you know, having colorful
+[01:08:03.040 --> 01:08:07.360]  color options and saying, look, you know, we've got all this stuff. I could just see that happening.
+[01:08:07.360 --> 01:08:11.920]  It seems like a very natural way to do it. And then you move on to the iPhone 10 S and say,
+[01:08:11.920 --> 01:08:17.920]  you know, you know, here's the, you know, here's the big boy. Yeah, totally. Uh,
+[01:08:19.200 --> 01:08:22.640]  let me think. What else? Anything else on the name? I'm thinking iPhone nine,
+[01:08:22.640 --> 01:08:28.720]  iPhone 10 S that's my bet. Yeah. I, the, the, the 10 X thing is going to bug me for the next
+[01:08:28.720 --> 01:08:33.360]  years. I just have to get used to it. It is definitely going to bug me as well. Uh,
+[01:08:34.000 --> 01:08:38.000]  and I can't even, I've already lost count of how many times on this episode. I've already said X
+[01:08:38.000 --> 01:08:43.600]  where I don't even know what to say. Cause I want, I don't want to be, uh, I don't want to
+[01:08:43.600 --> 01:08:48.400]  confuse people, you know, cause I find like I can say 10 when I'm just saying it, but if I ever see
+[01:08:48.400 --> 01:08:53.920]  it written down, I start to tend towards X because everything is X. Yeah. I read it that way. It's
+[01:08:53.920 --> 01:08:59.600]  easier for me to write it consistently. I it's always been to write iPhone space, capital X.
+[01:08:59.600 --> 01:09:06.640]  I never, there's no reason to be confused. I see it. It's a very, I'm just, uh, it's the podcast
+[01:09:06.640 --> 01:09:10.240]  thing speaking about it where it trips me up. All right. That brings up one more thing though,
+[01:09:10.240 --> 01:09:19.120]  on naming, I guess is given that we know, quote unquote, no iPhone X S uh, pronounced 10 S
+[01:09:19.120 --> 01:09:25.120]  and presumably iPhone nine. Um, where do they go next year? Because that's one of the other reasons
+[01:09:25.120 --> 01:09:30.400]  last year I thought there's no way they're going to pronounce this the 10 because they're going
+[01:09:30.400 --> 01:09:36.960]  to run, you know, you run into problems next year. It'll be an actual like Arabic 10 iPhone
+[01:09:37.520 --> 01:09:44.160]  is one zero and then iPhone X T pronounced. I can't believe I really, and again, I might be just
+[01:09:44.160 --> 01:09:48.880]  overly personally biased against Roman numerals. I cannot believe that they would ever go to 11
+[01:09:48.880 --> 01:09:55.280]  using the X and the I. Yeah, I really can't. I really do feel that part of the reason Apple
+[01:09:55.280 --> 01:10:02.320]  seemingly has this marketing infatuation with the letter X is that X is the coolest letter
+[01:10:02.320 --> 01:10:08.080]  in the alphabet. And even if they're going to call it Mac OS 10 and iPhone 10, they,
+[01:10:08.080 --> 01:10:12.960]  they just liked the way it, they also liked the way it looked visually to spell it with a capital
+[01:10:12.960 --> 01:10:21.440]  X. Um, same thing with X code, right? X code just sounds like a cool app. Yep. Um, I, I just can't,
+[01:10:21.440 --> 01:10:28.000]  I feel like you lose that coolness if you go to X, I for 11. Yep. Um, but does it make any sense
+[01:10:28.000 --> 01:10:34.400]  to go to iPhone one, one next year? And then where goes the middle range? I guess you can have a nine
+[01:10:34.400 --> 01:10:42.240]  S year, but you eventually, so you could go next year and have an iPhone 11 in two sizes at the
+[01:10:42.240 --> 01:10:47.840]  high end and an iPhone nine S at the $800 level. But then the next year you're definitely run out
+[01:10:47.840 --> 01:10:53.680]  of space. Yeah. You're, you're buying time. You're never fixing the problem. Right. And I heard at
+[01:10:53.680 --> 01:10:56.960]  least somewhere on Twitter, I saw somebody speculating that they could just keep moving
+[01:10:57.760 --> 01:11:04.080]  the high end model up and then they could move the middle range one and use re use 10 again,
+[01:11:04.080 --> 01:11:08.880]  but spell it with the one and a zero because they never used it before. But I don't think you could
+[01:11:08.880 --> 01:11:13.840]  do that. I mean, you can do, I guess you can do anything and they could call it the, you know,
+[01:11:13.840 --> 01:11:18.240]  iPhone poop emoji. Like I said, iPhone, mother of dragons, whatever they want. They can call it, but
+[01:11:19.280 --> 01:11:23.040]  I just don't, I think just you start using emoji in the names.
+[01:11:24.640 --> 01:11:31.360]  You know, I phoned Martini glass. Uh, yes. Uh, I mean they could do anything they wanted to,
+[01:11:31.360 --> 01:11:36.160]  but I just don't see, they can't reuse 10, two years later with one zero
+[01:11:37.360 --> 01:11:42.320]  and have anybody be able to speak about it coherently. Meanwhile, the marketing team is
+[01:11:42.320 --> 01:11:50.480]  listening to this with the glass of champagne. We can do a lot of things, but I just, I can't,
+[01:11:50.480 --> 01:11:54.160]  and again, I could be wrong and you know, seven years from now we'll be talking about the iPhone
+[01:11:54.160 --> 01:11:59.520]  17, but yes, I really do feel like they've got to stop numbering them eventually because it just
+[01:11:59.520 --> 01:12:04.960]  starts like the super bowl. Yeah, really. It just starts blurring. It doesn't seem as distinctive,
+[01:12:04.960 --> 01:12:10.160]  you know, um, the year over year is an upgrade. And so I'll stick with my theory that eventually
+[01:12:10.160 --> 01:12:18.000]  they'll go iPhone and iPhone pro. Uh, and next year would make perfect sense. Uh, I guess. Yeah.
+[01:12:18.640 --> 01:12:23.680]  Yeah. I mean, I guess the one thing that wouldn't make sense about doing it this year is if they
+[01:12:23.680 --> 01:12:29.280]  know that the iPhone 10 S is going to look form factor wise the same as the iPhone 10,
+[01:12:29.280 --> 01:12:34.400]  it doesn't make sense to make such a big naming difference year after year for two phones that
+[01:12:34.400 --> 01:12:39.680]  are visually in certain colors at least are visually indistinguishable. Yeah. Um, that they
+[01:12:39.680 --> 01:12:47.600]  would say if someday, you know, and I feel like Jean Munster talking about Apple TV, right? Like,
+[01:12:47.600 --> 01:12:53.360]  I feel like what the Apple TV was Apple making a TV set to Jean Munster is me thinking that this
+[01:12:53.360 --> 01:12:57.760]  is the year Apple is going to call the high end phone, the iPhone pro. I get it. They did it with
+[01:12:57.760 --> 01:13:04.080]  the tech, like the iPad had the 9.7 pro and the 12.9 pro and the 9.7 non pro. And then they,
+[01:13:04.080 --> 01:13:08.720]  then they changed it to the 10.5 and the 9.7 just became iPad. Yeah. And that's just like
+[01:13:08.720 --> 01:13:14.480]  that's exactly, you know, I saw them do that and I was like, yes, that makes perfect sense. That's
+[01:13:14.480 --> 01:13:19.280]  really kind of brilliant. Uh, and it, you know, it's a sort of thing that takes, you know, like
+[01:13:19.280 --> 01:13:24.800]  maybe 18 months to roll out and completely make sense across the line. And the second generation
+[01:13:24.800 --> 01:13:30.080]  12.9 wasn't even 12.9 Mark two. It was just, they didn't add anything to it. It was just the new
+[01:13:30.080 --> 01:13:39.760]  iPad pro, new iPad pro. Um, yeah. Uh, I don't know. So I guess is next year would be the year
+[01:13:39.760 --> 01:13:44.640]  where they'll have a new form factor at the high end and call it iPhone pro. But again,
+[01:13:44.640 --> 01:13:48.960]  anybody who's been betting along with me on that is, is very sorry. Very sorry.
+[01:13:51.280 --> 01:13:54.400]  Let me take another break here and thank our friends at Squarespace and we'll talk about
+[01:13:54.400 --> 01:14:01.120]  Apple watch. Um, and what we've interesting things we've learned this week. Um, look,
+[01:14:01.120 --> 01:14:08.400]  Squarespace has been sponsoring this podcast for as long as I can remember. And their service,
+[01:14:08.400 --> 01:14:14.160]  what they provide keeps getting better and better. You go to Squarespace when you need a new website,
+[01:14:14.800 --> 01:14:20.080]  you can do everything from register domain to start with a template, to modify the template,
+[01:14:20.080 --> 01:14:25.920]  to create a custom design, put your own logo in there to add the functionality that you need for
+[01:14:25.920 --> 01:14:31.840]  your site, whether it's a store with a complete commerce thing taken care of by Squarespace with
+[01:14:31.840 --> 01:14:40.400]  credit card processing, all that sort of stuff. Um, to a blog, to hosting a podcast, to having
+[01:14:40.400 --> 01:14:45.600]  a site that has multiple of these things, like a site that has both a store, a blog
+[01:14:45.600 --> 01:14:51.520]  and a podcast all on one site, Squarespace can help you do it. They take care of it all.
+[01:14:51.520 --> 01:14:57.280]  It's all very visual. You don't need to know any sort of coding. You don't have to know HTML. You
+[01:14:57.280 --> 01:15:01.280]  don't have to be able to program JavaScript. You don't have to know CSS to do the design.
+[01:15:02.000 --> 01:15:06.240]  If you do know those things, if you are technically adept can do it, you can get in there
+[01:15:06.880 --> 01:15:12.400]  and do the things you want to do with the code. So you can do it if you want. You don't have to
+[01:15:12.400 --> 01:15:21.040]  ever see it if you don't want to. Uh, and they offer truly award-winning technical support over
+[01:15:21.040 --> 01:15:26.880]  the phone whenever you need it. 24 hours a day. It's a great service. I'll just say what I always
+[01:15:26.880 --> 01:15:32.080]  say. Next time you need a website or somebody, you know, needs a website and comes to you for
+[01:15:32.080 --> 01:15:37.920]  help, send them to Squarespace, go to Squarespace and get started. Um, here's what you do. Go to
+[01:15:37.920 --> 01:15:44.000]  squarespace.com and are the offer code talk show, just talk show at checkout and you will get 10%
+[01:15:44.000 --> 01:15:49.040]  off your first purchase. Even if you purchase an entire year in advance, you can save 10%.
+[01:15:50.080 --> 01:15:53.280]  My thanks to Squarespace for their continuing support of the talk show.
+[01:15:54.880 --> 01:16:00.400]  All right, so the Apple watch, yeah, very, very, can we agree on that name?
+[01:16:00.400 --> 01:16:07.040]  At least that's one thing that is very nice about the Apple watch is their naming scheme is
+[01:16:07.040 --> 01:16:12.240]  very predictable and very, uh, to me it works very well. I think there's, although what are they,
+[01:16:12.240 --> 01:16:16.400]  what are they going to name the new series one? Cause they, I mean, there's always an issue.
+[01:16:17.600 --> 01:16:21.920]  Uh, what's, what would be the new series one? I'm not sure the series three become less expensive
+[01:16:21.920 --> 01:16:25.520]  and they'll keep the names anyway. I think that's what they'll do. I think they'll keep the series
+[01:16:25.520 --> 01:16:30.160]  three and just make it more expensive or lower the price. I mean maybe less expensive. Yeah. I
+[01:16:30.160 --> 01:16:34.720]  think it's very obvious that they would keep, just keep the series three. Um, and I think it
+[01:16:34.720 --> 01:16:41.040]  was probably designed with that in mind. Yeah. I think that it's the, I don't think you have to
+[01:16:41.040 --> 01:16:45.920]  have any insight information at all to just speculate that first generation products are
+[01:16:45.920 --> 01:16:53.760]  very, very difficult, uh, always come up with unforeseen difficulties. Um, and so the fact
+[01:16:53.760 --> 01:17:01.120]  that the original Apple watch, the AKA, you know, not officially named, but as we call it the series
+[01:17:01.120 --> 01:17:07.760]  zero, um, didn't stick around and was instead replaced with the series, what they called the
+[01:17:07.760 --> 01:17:13.760]  series one, even though it came out alongside generation two and even had the twos system on
+[01:17:13.760 --> 01:17:22.800]  a chip. Yeah. Um, is unsurprising. Um, same way that the original iPhone is the only one for years
+[01:17:22.800 --> 01:17:28.720]  and years that didn't stick around for a second year at a lower price. Yeah. So I think by the
+[01:17:28.720 --> 01:17:32.960]  time they got to series three, they, they felt pretty, you know, I think that they had the,
+[01:17:32.960 --> 01:17:40.080]  you know, they, they knew both. This would be a great new high end, you know, model year. And
+[01:17:40.080 --> 01:17:47.280]  this is something that a year from now we can definitely sell for $50 less. Yeah. You know,
+[01:17:47.280 --> 01:17:51.360]  and just has all sorts of nice things like the water resistance and all sorts of stuff.
+[01:17:52.480 --> 01:17:58.160]  Yeah. I think the name will be series four. I can't, I'd be, I'd be absolutely flabbergasted
+[01:17:58.160 --> 01:18:10.560]  if it weren't. Cause it's obvious, uh, the series three S Jesus, uh, as rumored, uh, you know,
+[01:18:10.560 --> 01:18:18.480]  the display is larger and, or, you know, probably I'm guessing that corner to corner, you know, or
+[01:18:18.480 --> 01:18:23.760]  top to bottom, it's still 42 and 38 millimeters. I think Apple likes those sizes. I think that they
+[01:18:23.760 --> 01:18:31.760]  are, um, they are good in and of themselves and watches are very different than phones.
+[01:18:31.760 --> 01:18:35.280]  Like watches aren't, you know, going to get bigger the way phones have gotten bigger.
+[01:18:36.000 --> 01:18:41.040]  It's an interesting juxtaposition because if they, over the last, let's say 13 months,
+[01:18:41.040 --> 01:18:46.000]  they've been deleting bezels and on the phone, they put a bigger screen into effectively,
+[01:18:46.000 --> 01:18:51.280]  you know, the same size casing as the plus size screen into the effectively non plus size phone
+[01:18:51.280 --> 01:18:54.960]  with the Apple watch, they're putting a bigger screen into the same casing
+[01:18:54.960 --> 01:18:58.160]  and with the iPad, they're putting smaller casing around the same size screen.
+[01:19:00.560 --> 01:19:04.800]  Yeah. It's, you know, and it's not like the original or the first three generations of
+[01:19:04.800 --> 01:19:09.840]  Apple watch have had exceedingly large bezels, but you know, they're there. Um, and it just,
+[01:19:09.840 --> 01:19:14.160]  you know, it was like a black ring that nobody could complete and now it's gone. Um,
+[01:19:15.680 --> 01:19:20.800]  well, and the other neat thing about it is that, um, it's always been the case with every Apple
+[01:19:20.800 --> 01:19:25.360]  watch is that, you know, these are the first products where Apple used OLED screens and the,
+[01:19:26.160 --> 01:19:34.160]  the very rich blacks of OLED made that bezel seem not like something separate from the display or
+[01:19:34.160 --> 01:19:38.800]  surrounding the display, but that you just sort of lost the difference between where the screen
+[01:19:38.800 --> 01:19:43.200]  ends and the bezel begins. Yeah. And that was physically the biggest display they could put
+[01:19:43.200 --> 01:19:49.040]  in the Apple watch at the time. Right. Uh, so the rumor all year has been that the new series four
+[01:19:49.040 --> 01:19:55.680]  would have a larger display, uh, that it combined with shrunk bezels, meaning that the case would
+[01:19:55.680 --> 01:20:03.680]  stay either the same or roughly the same size and just more of the black that you see within the
+[01:20:03.680 --> 01:20:10.880]  metal frame is actually taken up by a usable display, uh, than before. And this image that
+[01:20:10.880 --> 01:20:15.680]  nine to five Mac obtained, can I just say this the other day, I don't blame nine to five Mac for
+[01:20:15.680 --> 01:20:24.320]  watermarking these images. Uh, um, I get it. I get, you know, I don't, I don't post images
+[01:20:24.320 --> 01:20:32.000]  typically during firewall. Most websites do post images and liberally borrow exclusive images from
+[01:20:32.000 --> 01:20:38.720]  other sites. So I totally get it that in the racket of, of posting images, you know, that
+[01:20:38.720 --> 01:20:44.400]  you'd want to watermark it so that everybody who published republishes the image has to publish
+[01:20:44.400 --> 01:20:50.560]  your website's name along with the images. But along the lines of maybe Apple did this
+[01:20:50.560 --> 01:20:57.920]  deliberately, like I'm looking at those images as we speak, if anybody out there is listening
+[01:20:57.920 --> 01:21:02.960]  and still thinks Apple, you know, like Phil Schiller and Greg Joswiak got together and said,
+[01:21:02.960 --> 01:21:08.480]  let's, let's get people excited and give them a sneak peek at the new Apple watch that the first
+[01:21:08.480 --> 01:21:14.320]  time that any of them would see it would include a very large nine to five Mac logo that obscures
+[01:21:14.320 --> 01:21:23.680]  part of the image. To me, that might be the single best, single best explanation of why
+[01:21:23.680 --> 01:21:32.720]  this is not a fire deliberately. So what we see, we see a gold or, uh, yeah, I guess that's gold,
+[01:21:32.720 --> 01:21:38.480]  not Rose gold, right? Gold. Yeah. It looks cool to me. Gold aluminum, uh, Apple watch,
+[01:21:38.480 --> 01:21:48.640]  uh, seemingly with a sort of a top band, like a tan, like an off white band. Um,
+[01:21:49.680 --> 01:21:55.200]  the, the watch itself definitely looks thinner to me. It's very hard to tell from an image.
+[01:21:55.200 --> 01:21:59.680]  I mean, the display obviously takes up a significantly larger portion of the
+[01:21:59.680 --> 01:22:06.320]  front face. There's no doubt that this display is bigger corner to corner than any previous iPhone
+[01:22:06.320 --> 01:22:13.040]  or Apple watch. Um, but it also looks thinner to me. It looks like a thinner device. Now that
+[01:22:13.040 --> 01:22:19.360]  could be just flattering product photography, but, and you don't see the sensor bump on the back,
+[01:22:19.360 --> 01:22:25.440]  which you never know how thick that is. Right. And that is how the Apple watch got thicker with
+[01:22:25.440 --> 01:22:30.480]  the series three is that the sensor array actually protrude protrude slightly more.
+[01:22:30.480 --> 01:22:35.920]  It, it, I think Jeff Williams, when he said so might've even said it was less than a single
+[01:22:35.920 --> 01:22:41.760]  millimeter, which is pretty small, but I can, uh, as a picky person and a long time watch where
+[01:22:41.760 --> 01:22:46.800]  I can tell that my series three Apple watch is a little bit more off my wrist than previous
+[01:22:46.800 --> 01:22:52.800]  Apple watches, even if it's a fraction of a millimeter, uh, when you're talking about
+[01:22:52.800 --> 01:22:58.960]  devices that are only, and this is very typical for the watch, you know, the entire watch world,
+[01:22:58.960 --> 01:23:03.520]  the entire watch world, you know, devices that seem to seem to range from, you know, like 12,
+[01:23:03.520 --> 01:23:09.920]  13, 14 millimeters. Um, it makes a difference. Like, uh, just not even talking Apple watches,
+[01:23:09.920 --> 01:23:15.360]  but just a watch that's 12 millimeters thick often feels much less chunky on your wrist than
+[01:23:15.360 --> 01:23:20.240]  a 14 millimeter watch. Even if 38 versus 42 millimeters doesn't sound like a lot,
+[01:23:20.240 --> 01:23:24.480]  but when you see it on the watch, it's a lot because it's so small. Right. So that's one
+[01:23:24.480 --> 01:23:32.480]  area where I think that the Apple watch as, um, uh, as Apple continue, you know, it's so good
+[01:23:32.480 --> 01:23:36.720]  at miniaturizing what it's done. I mean, I truly, I've said this before, but I truly think that the
+[01:23:36.720 --> 01:23:41.600]  one thing Apple, modern Apple has done that they don't get enough credit for is that they are
+[01:23:41.600 --> 01:23:49.280]  better at miniaturizing computers, uh, than any company in the history of the world. They, you
+[01:23:49.280 --> 01:23:56.720]  know, they just everything from, uh, AirPods as being mini iOS devices that live in your ears
+[01:23:56.720 --> 01:24:02.240]  to, um, you know, in the tremendous battery life they get out of AirPods to Apple watch,
+[01:24:02.240 --> 01:24:06.640]  you know, every year after year, the Apple watch has gotten significantly better. And it's just,
+[01:24:07.280 --> 01:24:12.160]  just as a computing device, just totally nerding out and looking at this as a little tiny Unix
+[01:24:12.160 --> 01:24:17.200]  computer with a display that lives on your wrist. It's truly amazing how much they've gotten it
+[01:24:17.200 --> 01:24:22.640]  better year after year. But at a certain point, it's like the watch is unique in that you don't
+[01:24:22.640 --> 01:24:27.520]  really want to go bigger. Like the fact that the Apple watch is as small as it is compared to
+[01:24:27.520 --> 01:24:32.480]  competition from companies like Samsung has been a feather in its cap and a reason it's so popular,
+[01:24:32.480 --> 01:24:38.960]  but you also don't really want to go smaller in terms of, uh, the face size, you know, like
+[01:24:38.960 --> 01:24:46.160]  if Apple in theory could make an Apple watch 34 millimeters big, technically that might not be
+[01:24:46.160 --> 01:24:51.760]  appealing to many people because it's actually too small and only Schwartz and Edgar wants 48
+[01:24:51.760 --> 01:24:56.320]  millimeters, right? You want to balance this combination of the aesthetics of what it looks
+[01:24:56.320 --> 01:25:02.880]  like as a piece of jewelry on your wrist combined with the, um, ability to see as much information
+[01:25:02.880 --> 01:25:07.840]  as you can looking at it as a computer display and you have battery budget, you know, like some
+[01:25:07.840 --> 01:25:11.280]  people really want it to be thinner, but then you're spending your battery budget on removing
+[01:25:11.280 --> 01:25:16.160]  battery to keep the same features where other people would like an always on display or the
+[01:25:16.160 --> 01:25:20.480]  ability to run real UI kit apps, which would cost battery and wouldn't let them get rid of it. So
+[01:25:20.480 --> 01:25:24.320]  you have all these things you have to balance, right? There's a ton of things to balance,
+[01:25:24.320 --> 01:25:29.680]  but two things that are very obvious is that being able to put a larger corner to corner display
+[01:25:30.240 --> 01:25:38.080]  within the same area would be a win, like a win in every regard, like I guess with the possible
+[01:25:38.080 --> 01:25:42.320]  exception of battery life, but if your battery life has gotten better enough that you can support it,
+[01:25:42.320 --> 01:25:47.200]  it's just, that's just a great idea. And then making the whole device thinner would be great.
+[01:25:47.200 --> 01:25:53.200]  There's no doubt that a slightly thinner Apple watch would be better. I think almost everybody
+[01:25:53.200 --> 01:25:58.240]  would agree. So would you prefer a slightly thinner watch or an always on display if they
+[01:25:58.240 --> 01:26:04.800]  had the same battery cost? Uh, probably the always on display because I, because I will say that the
+[01:26:04.800 --> 01:26:10.080]  S3, the series three, while I do think I'd noticed that it's thicker, I have never thought Apple
+[01:26:10.080 --> 01:26:15.600]  watch was too thick. Yeah. Including the thickest ever, which was the series three. So I would
+[01:26:15.600 --> 01:26:23.920]  definitely say always on display. Yeah, me too. Uh, I still miss that. Me too. Uh, I just ran into
+[01:26:23.920 --> 01:26:30.160]  it the other day. I was carrying two beverages, one for me, one for my wife and one in each hand.
+[01:26:30.160 --> 01:26:35.440]  And there's, there was just no way to get my watch to show the time. And I really wanted to
+[01:26:35.440 --> 01:26:40.400]  know the time very badly. Right. And if you turn your wrist, you spill the drink, try to get me to
+[01:26:40.400 --> 01:26:45.760]  just know when, and it was too filled to the brim. Uh, uh, I forget if it was iced tea or coffee,
+[01:26:45.760 --> 01:26:51.120]  but some kind of, it wasn't water. So they were filled to the brim and just had like lids. So I
+[01:26:51.120 --> 01:26:57.200]  also couldn't, and I had like a nice white shirt. I couldn't just hug the other one in my right hand
+[01:26:57.200 --> 01:27:02.720]  because it would have gotten some Brown beverage on my white shirt. So I had no, I just had no way
+[01:27:02.720 --> 01:27:07.040]  to check, check the time. Whereas if I was wearing any of my other watches, I would have been able
+[01:27:07.040 --> 01:27:12.320]  to glance at the wrist and see the time. Absolutely. So I would pick that. But anyway, this does look
+[01:27:12.320 --> 01:27:19.040]  thinner. I'm not surprised that if it is thinner, uh, and again, when they're on stage and tell you
+[01:27:19.040 --> 01:27:25.200]  how much thinner it is, that number may not sound impressive. Like, I don't know if it's
+[01:27:25.200 --> 01:27:30.960]  one millimeter thinner or something. Um, but that a one millimeter thinner Apple watch could
+[01:27:30.960 --> 01:27:35.760]  actually in practice be actually pretty, pretty significantly noticeably. Wow. I didn't expect
+[01:27:35.760 --> 01:27:39.520]  this to be so much thinner and thinner. And for some people, it's just a matter of it fitting
+[01:27:39.520 --> 01:27:44.400]  under the cuff of their shirt or not fitting a big deal for them. That is absolutely. And it really
+[01:27:44.400 --> 01:27:50.240]  is in the watch world that is actually, you know, that is like just about every review I ever see
+[01:27:50.240 --> 01:27:55.200]  of a watch. I get her dinky or a site like that. Oh, usually mentions that gets, you know, how it
+[01:27:55.200 --> 01:28:02.000]  fits under the cuff. I got a sleeve cuff is actually what people talk about. Uh, and the
+[01:28:02.000 --> 01:28:09.040]  other big form factor change, I'll let you say it on the digital crown. Yeah. There's a microphone,
+[01:28:09.040 --> 01:28:13.200]  which I think is just a small one, but it'll aid with its noise canceling and Siri reception. But
+[01:28:13.200 --> 01:28:18.160]  yeah, the digital crown went from being all red to being a thin red line. Yeah. So I'm presuming
+[01:28:18.160 --> 01:28:26.400]  here, but, uh, on last year's one, a series three, the, um, the side of the digital crown,
+[01:28:26.400 --> 01:28:31.040]  the part that your finger, if you're going to press the digital crown in on the cellular models,
+[01:28:31.040 --> 01:28:36.800]  no matter what color watch you have, it's red. And if it's not a cellular watch, then it's black,
+[01:28:37.600 --> 01:28:44.080]  which I think all the other ones, well, I guess the gold edition had a red, uh, dot.
+[01:28:44.080 --> 01:28:47.680]  They matched, right? I think they matched the color of the band that it came with.
+[01:28:47.680 --> 01:28:51.280]  Oh, I forget. So the ones that came with the red band had a red dot. Um,
+[01:28:52.160 --> 01:28:56.800]  I have to tell you, I still, and again, you know, we were talking about names being,
+[01:28:56.800 --> 01:29:04.880]  you know, inscrutable. I found that I still think I still cannot believe that they put a red dot on
+[01:29:04.880 --> 01:29:09.680]  every Apple watch that has cellular networking. People would know that you'd had the new watch.
+[01:29:09.680 --> 01:29:16.400]  John. Well, yeah, but who gives a shit? It clashes with so many bands and watch faces
+[01:29:17.120 --> 01:29:24.160]  like, so I, right now I have my watch on and I have the, I forget which one, but it's from the
+[01:29:24.160 --> 01:29:31.520]  original year of the nylon straps, the one that's closest to black, just a dark gray nylon strap,
+[01:29:31.520 --> 01:29:40.000]  which is my favorite Apple watch strap ever made. And I'm using the, uh, uh, the Explorer
+[01:29:40.000 --> 01:29:45.600]  watch face, the one that has red hands. And so it actually looks great with the red dot.
+[01:29:46.640 --> 01:29:52.640]  Um, but there are other watch straps in other colors that just don't go with the color red.
+[01:29:52.640 --> 01:29:58.480]  And there's, you know, dozens, there's like 20, some different colors of watch faces,
+[01:29:58.480 --> 01:30:05.040]  uh, that you can configure, most of which don't go well with red. I, it's always been very baffling
+[01:30:05.040 --> 01:30:08.880]  to me. So this new one, instead of having an entire red dot, I'm guessing that this is a
+[01:30:08.880 --> 01:30:15.200]  cellular model and this there's just a red ring around the outside of it. Yeah. I still don't get
+[01:30:15.200 --> 01:30:22.560]  why it's red, frankly, but there's so much more subtle, um, that I can accept it. I think it's
+[01:30:22.560 --> 01:30:27.120]  funny because the pixel, uh, the pixel two has a red power button and people just went gaga
+[01:30:27.120 --> 01:30:31.520]  over it. And to me it was the same thing as the red crown. I just don't want them to pre-choose
+[01:30:31.520 --> 01:30:38.640]  colors. Right. And then the center of the crown inside the red ring is also gold, which is new,
+[01:30:38.640 --> 01:30:43.680]  like previously, uh, it was either black or red. It wasn't the color of the actual watch.
+[01:30:44.880 --> 01:30:48.160]  Yeah. I didn't notice the microphone underneath the digital crown. So that's new.
+[01:30:48.160 --> 01:30:51.280]  I wonder if that means it might have always on, Hey Siri.
+[01:30:51.280 --> 01:30:56.880]  It, I believe it does. Well, it does because it picks up on the raising of your wrist,
+[01:30:56.880 --> 01:31:00.960]  but you don't have to say the words anymore. It's just with iOS five. It just goes when you,
+[01:31:00.960 --> 01:31:04.400]  when it detects the movement and your voice. Yeah. So maybe that would be the solution to
+[01:31:04.400 --> 01:31:09.360]  my getting the time when it's, when I'm carrying two beverages. Yeah. You have to actually talk
+[01:31:09.360 --> 01:31:16.160]  to your wife, talk to your watch without pressing a button. Yeah. Um, so the form factor is exciting.
+[01:31:16.160 --> 01:31:21.840]  Uh, I think it looks great. I think it definitely, you know, and it's, it's clearly, you know,
+[01:31:23.600 --> 01:31:28.640]  derivative of the original Apple watch design. Um, but I think in a very good way. And I think,
+[01:31:29.280 --> 01:31:35.040]  I think in a way that the Apple watch starting with the original form factor was sort of a
+[01:31:35.040 --> 01:31:42.000]  reduction of Apple's modern design ethos, you know, I don't know how much you want to credit
+[01:31:42.000 --> 01:31:47.040]  to Johnny. I've personally, uh, I'm sure I would guess Johnny. I've personally would not want to
+[01:31:47.040 --> 01:31:51.360]  take too much individual credit for it. I think the whole team sort of shares this, the aesthetic,
+[01:31:51.360 --> 01:32:02.160]  but, you know, round rectangles, round corners, capsule shapes, uh, that they reduced it to it.
+[01:32:02.160 --> 01:32:09.040]  It's a minimal amount of area, you know, a watch is so small that, uh, you know, I think they
+[01:32:09.040 --> 01:32:12.800]  nailed it right from the beginning that they have sort of like, they came up with an iconic
+[01:32:13.680 --> 01:32:19.280]  basic idea right away that they could, I really do mean this. I think that they could stick with
+[01:32:19.280 --> 01:32:24.160]  for well over a decade. I mean, it's the watch that Steve jobs has in that photo and that
+[01:32:24.160 --> 01:32:28.480]  princess Leia is wearing return of the Jedi. So you can't go wrong. Right. I could honestly see
+[01:32:28.480 --> 01:32:34.720]  like 15 years from now, a new Apple watch that is very obviously derived from, from the designs
+[01:32:34.720 --> 01:32:37.920]  we're already familiar with. Um, when you look, there's a whole bunch of new Android,
+[01:32:37.920 --> 01:32:42.720]  no, they don't call it Android watch. I forget what they call it. Watch OS or something. I forget
+[01:32:42.720 --> 01:32:46.400]  what Google calls it, but there's a bunch of new round ones that came out and you see when they go
+[01:32:46.400 --> 01:32:50.640]  through the interface that it just cuts off all the text all the time as you're panning through
+[01:32:50.640 --> 01:32:58.400]  it. Yeah. I know that there's a certain number of people who have always not liked that Apple
+[01:32:58.400 --> 01:33:04.240]  watches fundamentally a rectangular display. They want a round watch. They think round watches look
+[01:33:04.240 --> 01:33:10.000]  better and there's tons of competing smartwatches that are around, but old phones look like bananas.
+[01:33:10.000 --> 01:33:16.640]  I mean, there's a difference when it becomes a computational product. Right. I, I, I feel,
+[01:33:16.640 --> 01:33:23.120]  and I'm a person, I typically almost always use an analog style Apple watch face. Yes. Um, like
+[01:33:23.120 --> 01:33:28.240]  I said, I'm using the Explorer one now. The one I use most often is utility, but you can put a round
+[01:33:28.240 --> 01:33:36.400]  watch face on a rectangular watch and it works to me. It works very well aesthetically, but you
+[01:33:36.400 --> 01:33:44.720]  can't display rectangular data on a round watch you and have it look anything other than awful,
+[01:33:44.720 --> 01:33:50.320]  in my opinion. And there's a lot of, a lot of the watch faces that Apple watch offers are
+[01:33:50.320 --> 01:33:56.880]  fundamentally rectangular. And, um, a lot of the other things you do on Apple watch want to
+[01:33:56.880 --> 01:34:03.040]  naturally want to present their data to you on a rectangular scrollable display. Yeah. It just
+[01:34:03.040 --> 01:34:06.320]  makes sense because it's almost like you have center vision and peripheral vision and a lot
+[01:34:06.320 --> 01:34:10.000]  of the complications. And now like with the screenshot, the super complications, right.
+[01:34:10.000 --> 01:34:14.000]  Those that get to exist in the periphery, where if it was a round face, you'd lose the benefit
+[01:34:14.000 --> 01:34:19.680]  of having all that extra data. Yep. And that is a perfect segue to the discussion of this watch face
+[01:34:19.680 --> 01:34:24.240]  that we see in this screenshot, which to me is the single biggest and most intriguing leak
+[01:34:24.240 --> 01:34:31.600]  of the whole duopoly of the total two scoops, the nine to five Mac hat. Right. Because like I said,
+[01:34:31.600 --> 01:34:37.280]  just to recap, we knew the two sizes of the iPhone tennis. Uh, we knew that they were going to have
+[01:34:37.280 --> 01:34:41.200]  gold. And I think the most easily guessable gold, given that it would be stainless steel would be
+[01:34:41.200 --> 01:34:50.000]  this very gold finger, gold, gold, right. Shiny blingy gold. Right. So really the biggest thing
+[01:34:50.000 --> 01:34:56.080]  from the iPhone 10 leak is the name of iPhone tennis. Um, so with the watch, the fact that the
+[01:34:56.080 --> 01:35:02.320]  display is bigger was rumored, uh, cause apparently the display industry is the absolute leakiest in
+[01:35:02.320 --> 01:35:07.760]  the entire world. The fact that it looks like it's thinner seems like a very obvious thing for Apple
+[01:35:07.760 --> 01:35:14.160]  to do, whether it was rumored or not. It just, it seems like a very obvious idea. Uh, even the fact
+[01:35:14.160 --> 01:35:20.480]  that they don't use an entire red circle for the inside of the crown seems like an obvious idea
+[01:35:20.480 --> 01:35:26.400]  because it was a terrible idea in the first place that, but then this watch face is like, wow,
+[01:35:28.000 --> 01:35:33.040]  it really is to me. Yeah, no, I mean like there's like nine complications. You've got four in each
+[01:35:33.040 --> 01:35:39.360]  corner, four in the center and then one in the actual time scale around the hand. And so
+[01:35:39.360 --> 01:35:43.520]  in the watch world, if you don't count and technically speaking, the hour, minutes and
+[01:35:43.520 --> 01:35:48.320]  seconds count as complications. Like in the watch world, this word complication, which I know
+[01:35:49.760 --> 01:35:54.720]  some people who don't, don't care about watches in general either find confusing or they find
+[01:35:54.720 --> 01:35:59.360]  downright annoying or they found baffling because they think complication sounds like a bad thing,
+[01:35:59.360 --> 01:36:04.160]  not a good thing. Apple's borrowed this word from the watch world and in the watch world
+[01:36:04.160 --> 01:36:09.600]  and in the watch world, complication equates to what we in the computer world call features.
+[01:36:10.160 --> 01:36:15.600]  So if it is something your watch can do, it's a complication. An hour, minute and second count
+[01:36:15.600 --> 01:36:21.120]  as complications. Like, so a simple watch that only tells you the hour and the minute,
+[01:36:21.120 --> 01:36:25.600]  it's two complications, hour and minute. And then if you add a second hand, it's a third complication.
+[01:36:25.600 --> 01:36:30.000]  But let's, we won't count that. Let's say we don't count hour, minute, second. It's got nine
+[01:36:30.000 --> 01:36:37.200]  complications. Ten if you count Wednesday as different than the 23rd. And in the watch world,
+[01:36:37.200 --> 01:36:41.280]  that would definitely count as two complications. So that's ten. And they're also more informational.
+[01:36:41.280 --> 01:36:44.800]  Like you have a stopwatch with the time that's left. You have the temperature with the temperature
+[01:36:44.800 --> 01:36:50.480]  gauge, UV with the UV index. You have the sunset with the time that it sunrises and sets. You know,
+[01:36:50.480 --> 01:36:55.360]  it's just so much information. There's so much data contained in this watch face. Yeah. It's
+[01:36:55.360 --> 01:36:59.280]  somewhat annoying to me when, when I'm using a stopwatch and I want to just keep my regular
+[01:36:59.280 --> 01:37:03.360]  watch up. But if the stopwatch is running and you raise your wrist and it shows you the actual
+[01:37:03.360 --> 01:37:09.680]  stopwatch app. Yeah. So hopefully they're moving away from that, but yeah. So it's got a stopwatch
+[01:37:09.680 --> 01:37:14.320]  that shows you, or is it a stopwatch or a timer? Oh, maybe it's a timer. Yeah. Because it looks
+[01:37:14.320 --> 01:37:18.800]  like it might be counting down. I don't know. But either way, it's either a stopwatch or a
+[01:37:18.800 --> 01:37:23.520]  timer and it shows you how much time is left. And there's like a little bar showing you how,
+[01:37:23.520 --> 01:37:27.760]  you know, like a thing. It's almost like Tufti-esque, right? Like on the informational
+[01:37:27.760 --> 01:37:32.640]  data displays, how you can put large amounts of density without, without making it non-parsable
+[01:37:32.640 --> 01:37:37.040]  to the human mind. And this seems like they really took a page out of that book. It is truly
+[01:37:37.040 --> 01:37:44.320]  fascinating from a design perspective. It is also to me, the most Apple watchy looking watch face
+[01:37:44.320 --> 01:37:50.720]  I've seen yet. I don't know that I personally will use this watch face. It might be, I'm a bit
+[01:37:50.720 --> 01:37:59.920]  of a minimalist. I often use the utility with just the date, like Saturday, the first showing
+[01:37:59.920 --> 01:38:04.000]  in the traditional three o'clock thing and the temperature in the corner. And I leave the other
+[01:38:04.000 --> 01:38:11.680]  three corners empty just because I like, I just liked the way it looks. But it is fascinating to
+[01:38:11.680 --> 01:38:17.840]  me, you know, I was talking to Panzareno and Matthew Panzareno about this and he, he really
+[01:38:17.840 --> 01:38:25.680]  loves it. And he compared it to Iron Man's HUD display that you sometimes see from Tony Stark,
+[01:38:25.680 --> 01:38:33.120]  Stark's perspective in the Iron Man slash Avengers movies. Which if you ever freeze frame and just
+[01:38:33.120 --> 01:38:38.560]  really, really look at them, they put an enormous amount of thought into, like, it's not just like,
+[01:38:38.560 --> 01:38:43.440]  even if it's only up for like a second, it's, it, it, there's like a real logic and it's like,
+[01:38:43.440 --> 01:38:47.920]  oh, that's, that's really cool stuff. You know, that's all there available in his line of sight.
+[01:38:48.960 --> 01:38:53.280]  Yeah. It's just so like, this to me is like the dashboard. If I want to see maximum
+[01:38:53.280 --> 01:38:57.280]  information at a glance, I would use this. And, or maybe when you're working out and you just
+[01:38:57.280 --> 01:39:00.720]  want a ton of different stuff or you're traveling and you want a bunch of information and you could
+[01:39:00.720 --> 01:39:05.280]  swipe to something way simpler if you just want to relax and kick around. And that's what I like
+[01:39:05.280 --> 01:39:09.840]  about this kind of watch too, is that you can have a workout phase, a travel phase, a casual phase.
+[01:39:09.840 --> 01:39:15.360]  You know, I'm at work and I need to keep track of all my meetings face and just keep going.
+[01:39:15.360 --> 01:39:19.680]  Well, and, and putting the meet, you know, your next appointment, your next calendar appointment
+[01:39:19.680 --> 01:39:30.560]  on the hour hand, circular diameter of the watch face is really clever. I don't know why,
+[01:39:31.280 --> 01:39:34.080]  I don't know why that wasn't thought of before. Like,
+[01:39:34.080 --> 01:39:37.520]  Is it at the top because it's 12 PM and if it was at 6 PM, would it be on the bottom?
+[01:39:37.520 --> 01:39:41.840]  I have so many questions. I'm not quite sure why it's at the top instead of the bottom, but
+[01:39:41.840 --> 01:39:45.840]  that would, it's kind of interesting if that's the explanation like that did occur to me.
+[01:39:46.880 --> 01:39:51.360]  And I thought it would look better at the bottom, but I don't know, but because it's curved,
+[01:39:51.360 --> 01:39:56.320]  it lets you put way more characters on in the string than if it went straight across.
+[01:39:57.360 --> 01:40:02.320]  I love this temperature complication. It doesn't just tell you the current complication,
+[01:40:02.320 --> 01:40:08.160]  but shows you the daily high and low for the day and includes a dot for where the current
+[01:40:08.160 --> 01:40:15.680]  temperature is on that scale. There's a UVI index, right? That's the ultraviolet, you know,
+[01:40:15.680 --> 01:40:18.960]  that lets you know if you should be wearing sunscreen, I guess, or not.
+[01:40:20.960 --> 01:40:26.400]  Which I can only presume comes from some kind of online weather source is not, you know,
+[01:40:26.400 --> 01:40:30.320]  like somebody on Twitter was speculating that maybe it had the watch as a UV sensor because
+[01:40:30.320 --> 01:40:35.920]  there's a, let me get it wrong, but there's a company like L'Oreal or somebody who's come out
+[01:40:35.920 --> 01:40:41.840]  with a thing that you can put on a fingernail that would show the UV index so that somebody who's
+[01:40:41.840 --> 01:40:47.360]  wearing this would know whether they, you know, need sunscreen or not, which is interesting.
+[01:40:47.360 --> 01:40:52.640]  But if it's actually based on a sensor, then it wouldn't give you any useful information while
+[01:40:52.640 --> 01:40:59.440]  you're indoors, which is typically also when you would need to put the sunscreen on. Like,
+[01:40:59.440 --> 01:41:04.160]  once you're outside in the sunshine, it's a little too late. So it seems pretty obvious it would come
+[01:41:04.160 --> 01:41:07.600]  in the same way that the temperature doesn't come from a thermometer on the watch. It comes from
+[01:41:08.160 --> 01:41:13.040]  a weather service. Yeah. And luckily it doesn't annoyingly tell you that weather service every
+[01:41:13.040 --> 01:41:18.880]  time you ask like HomePod. Yeah. And then in the center as the date at the top when both the day
+[01:41:18.880 --> 01:41:25.760]  of the week and the date has an iTunes controller, a music controller. It has, of course, your
+[01:41:25.760 --> 01:41:34.080]  activity rings over at the three o'clock side. And then it has a planet Earth. Yeah. That's not
+[01:41:34.080 --> 01:41:38.000]  the moon phase, right? It's Earth. No, I don't think so. I was thinking moon phase at first,
+[01:41:38.000 --> 01:41:42.560]  but I don't know. Yeah. I don't know what that is either. But yeah. And I love that they've made
+[01:41:42.560 --> 01:41:48.480]  the watch face into a full fledged launcher because the carousel never really made sense
+[01:41:48.480 --> 01:41:52.720]  at watch scale. And it's just so much better to put the stuff that you really need up front and
+[01:41:52.720 --> 01:41:57.600]  center just to tap away. Yeah. That's what I'm hoping they're going. I'm hoping that that's
+[01:41:57.600 --> 01:42:03.520]  exactly where they're going. You know that. So instead of if I'm listening to music, having,
+[01:42:03.520 --> 01:42:08.000]  you know, the now playing come by default every time I look at my wrist, just make it easy for
+[01:42:08.000 --> 01:42:14.320]  me to go from my regular watch face to a nice tappable target to jump to now playing if I
+[01:42:14.320 --> 01:42:22.080]  really want to do that. Yeah. A terribly exciting stuff and very, very thoughtful. Again, is it too
+[01:42:22.080 --> 01:42:27.600]  many colors for me personally? Maybe, but I don't think it's aesthetically displeasing. I think it's
+[01:42:27.600 --> 01:42:35.440]  actually a very, very comely watch face. I really think it looks very, very cool. Yeah. I like it a
+[01:42:35.440 --> 01:42:41.280]  lot. And also this is only one watch face. I would love to see how this approach pertains to some of
+[01:42:41.280 --> 01:42:46.800]  the other watch faces that they have. I mean, it seems like it would be obvious for certain faces
+[01:42:46.800 --> 01:42:52.560]  like Siri, like the Siri watch face, which they would just put, you'd just be able to see more
+[01:42:53.120 --> 01:42:59.520]  of the scrollable content on the face at a time. And modular would be great for people who don't
+[01:42:59.520 --> 01:43:03.840]  like analog faces. Yeah. Well, that modular seems interesting to me because think about
+[01:43:03.840 --> 01:43:11.280]  how much more information that one could get or presumably will get. And that is, you know,
+[01:43:11.280 --> 01:43:17.600]  it's, I see people with that face all the time. It's obviously a very popular face. I know that
+[01:43:17.600 --> 01:43:22.800]  there are a lot of people who just don't like analog time and it's a great, great digital
+[01:43:22.800 --> 01:43:29.600]  watch face. But just thinking, looking at how much more information rich this watch face is
+[01:43:29.600 --> 01:43:37.760]  for an analog watch face, boy, modular could get really, really information rich. And if they could
+[01:43:37.760 --> 01:43:42.800]  figure out how to make the photo face just much more complicated too, then you, it would be a lot
+[01:43:42.800 --> 01:43:46.640]  of the customization requests would just go out the window. Definitely. Because I could just put
+[01:43:46.640 --> 01:43:50.960]  Superman, I could put like the original Superman art on there and just have my Superman watch.
+[01:43:52.640 --> 01:43:57.040]  So this is terribly exciting. And I can't help but think that this, that the inclusion of this
+[01:43:57.040 --> 01:44:03.600]  watch face in the leak is the single most crushing disappointment on the team because this is,
+[01:44:03.600 --> 01:44:08.560]  this is, this would have been a huge surprise. Yeah. It would have been a showstopper,
+[01:44:08.560 --> 01:44:16.240]  like huge applause. Right. Yeah. Poor Kevin Lynch. I know. I don't know. I don't know
+[01:44:16.240 --> 01:44:20.080]  if it would have been Kevin Lynch or Jeff Williams who would be up there when this slide comes on,
+[01:44:20.080 --> 01:44:24.720]  but probably Jeff. I mean, Kevin does a dub dub. I guess you're right. Kevin does the dub dub. And
+[01:44:25.440 --> 01:44:31.040]  in a way that the Craig does the iOS, you know, the OS one, he might come out to demo it after
+[01:44:31.040 --> 01:44:34.960]  Jeff introduces it. But I think Jeff introduces it. I think so too. You're right. Yeah. I think
+[01:44:34.960 --> 01:44:40.000]  this would have been, or it still will be shown in the Jeff Williams thing. Like if this exact
+[01:44:40.800 --> 01:44:45.120]  image was intended as a slide, I don't, I don't think that Apple doesn't use it just because it
+[01:44:45.120 --> 01:44:50.400]  leaked. I think they, they just bite the bullet and pretend that the leak never happened and
+[01:44:50.400 --> 01:44:54.320]  charge full, full steam ahead. Well, I mean, remember Steve famously going, you might've
+[01:44:54.320 --> 01:45:01.200]  seen the iPhone four before. Right. Right. Well, that was the iPhone four, which leaked. I mean,
+[01:45:01.200 --> 01:45:06.320]  that's hard to even call that again. Hard to call that a leak. The one, you know, the phone that
+[01:45:06.320 --> 01:45:12.000]  some poor engineer who was field testing it inadvertently left in a restaurant and was picked
+[01:45:12.000 --> 01:45:20.800]  up by some unscrupulous people who sold it to Gizmodo who then leaked it was truly still to
+[01:45:20.800 --> 01:45:25.680]  this date, the biggest leak in Apple history, or again, not like a leak in terms of it being
+[01:45:25.680 --> 01:45:31.280]  deliberate, but just a secret reveal information that got out. Yeah. And it's actually hard to
+[01:45:31.280 --> 01:45:37.920]  imagine anything, anything of that magnitude again. And like, unless a series four watch
+[01:45:37.920 --> 01:45:42.160]  was left on a bar stool, even the series four watch to me, wouldn't have been as big a leak
+[01:45:42.160 --> 01:45:49.120]  as the iPhone four, just because the iPhone four was so much different than the iPhone three GS.
+[01:45:49.120 --> 01:45:54.640]  The only thing I can imagine that would be compared is if somebody gets a photo of like
+[01:45:54.640 --> 01:46:00.240]  the car, you know, like get at some point before it's officially unveiled, someone leaves an Apple
+[01:46:00.240 --> 01:46:07.200]  car at the charging station. Somebody leaves, leaves it in with the, with the keys in the
+[01:46:07.200 --> 01:46:11.360]  ignition. I'm sure it won't have keys and it won't have an ignition, but you know,
+[01:46:11.360 --> 01:46:16.640]  effectively so that somebody could drive off in the Apple car prototype. It's really hard to
+[01:46:16.640 --> 01:46:21.680]  imagine. It really is. Cause the car, again, I propose it as a sort of jokey example,
+[01:46:21.680 --> 01:46:26.880]  but a car can't be left behind and can't be field tested secretly, you know, in the way that an
+[01:46:26.880 --> 01:46:31.920]  iPhone can be put in a case and left, you know, just last week, right. The Nissan leaf rear-ended
+[01:46:31.920 --> 01:46:37.120]  or something, one of the Apple autonomous testing cars to be reported. Yeah. It had to be reported
+[01:46:37.120 --> 01:46:43.120]  to the DMV. So Mac rumors found the DMV listing where the Apple car was, was an autonomous mode
+[01:46:43.120 --> 01:46:48.560]  going about one kilometer an hour waiting to merge onto a road. And at least we've hit it.
+[01:46:48.560 --> 01:46:52.800]  And it wasn't the Apple car's fault at all. It was human error. Right. But even that's not as big,
+[01:46:52.800 --> 01:46:57.360]  it's not a leak because it's not at all. The Apple's testing autonomous cars are Apple designed
+[01:46:57.360 --> 01:47:02.080]  cars. Yeah. It's a Lexus SUV. Yeah. So I don't know what to say about it. Other than that,
+[01:47:02.080 --> 01:47:07.600]  this seems like a very, very exciting year for, for Apple watch. I, you know, I guess cellular
+[01:47:07.600 --> 01:47:13.520]  was a big deal for me in practice. I'm glad I have it. It's worth 10 bucks a month. But I,
+[01:47:14.880 --> 01:47:19.520]  I can't say I use it that often just because the way I live my life, I really am not that
+[01:47:19.520 --> 01:47:25.440]  often separated from my iPhone. So I had to stop using it because Rogers, which is the,
+[01:47:25.440 --> 01:47:30.320]  my phone number is on Rogers in Canada, which is equivalent roughly to AT&T and doesn't support
+[01:47:30.320 --> 01:47:35.040]  it. They never built out the carrier to support it. So I got a bell line just so I could use it,
+[01:47:35.040 --> 01:47:39.840]  but my normal phone number is not on bell and bells like Verizon. But they, they did switch
+[01:47:39.840 --> 01:47:45.120]  to HSPA plus, but I just, I don't want to port my number over there. So now I'm back to using a
+[01:47:45.120 --> 01:47:50.960]  Rogers watch and my phone is an LTE phone without any LTE. Well, I don't have anything else.
+[01:47:52.480 --> 01:47:57.040]  That's, that's a wrap for me, unless you've got anything else on this you wanted to say
+[01:47:57.040 --> 01:48:01.440]  before we, I just, I'm looking forward to this because I think we didn't even talk about new
+[01:48:01.440 --> 01:48:06.480]  iPads, you know, maybe JAWS introduces those, maybe not. And the affordable, more affordable
+[01:48:06.480 --> 01:48:11.600]  MacBook, which has its own naming convention problems all its own. But it'll be a fun year
+[01:48:11.600 --> 01:48:16.400]  just for Apple marketing. Yeah. And I don't think, you know, I saw, I, you know, some people just
+[01:48:16.400 --> 01:48:22.080]  are so willing to jump to conclusions. But I saw that when this first leaked, a couple of people
+[01:48:22.080 --> 01:48:26.480]  who tweeted, well, they might as well cancel the September 12 event now. And I don't think that
+[01:48:26.480 --> 01:48:31.440]  they were sarcastic. I think that they were actually, you know, like, it's all ruined for me
+[01:48:31.440 --> 01:48:38.160]  now, because we've seen these two things. And it's like, they, they're both significant. I,
+[01:48:38.160 --> 01:48:42.720]  there's an awful lot we don't know. Still, even we don't even know if the iPad is coming. We
+[01:48:42.720 --> 01:48:48.560]  certainly suspect that the mid range midsize iPhone is coming, but there's an awful lot we
+[01:48:48.560 --> 01:48:55.040]  don't know about that. And also the story like, these are just two shots. There's no story here
+[01:48:55.040 --> 01:49:00.720]  yet. Right. It I don't know this, this Apple watch face makes me really think that they
+[01:49:00.720 --> 01:49:05.520]  they've probably gone in and redesigned every single face like I don't. They're, you know,
+[01:49:05.520 --> 01:49:11.440]  for familiarity sake that they might have the same name and the same basic look. But why not,
+[01:49:11.440 --> 01:49:17.440]  you know, they could take advantage of these corners in all the faces. And like carrot
+[01:49:17.440 --> 01:49:21.040]  weather have they gone in just to throw out a name? I have no knowledge of this, but I have
+[01:49:21.040 --> 01:49:24.720]  a bunch of third party developers gone in and made these super complications too, because I'd be
+[01:49:24.720 --> 01:49:29.680]  really, did you see carrot weather was doing the, the iPhone reboot joke on there. Yeah.
+[01:49:32.240 --> 01:49:41.920]  That's the yeah, I did see that. That was the, in reference to the the update your iOS betas to the
+[01:49:41.920 --> 01:49:46.240]  latest beta thing that we've all of us using the beta have suffered through for the last week.
+[01:49:46.240 --> 01:49:51.040]  Yeah. Yeah. Fixed yesterday. Yeah. I wouldn't be surprised if they called a couple of popular
+[01:49:51.040 --> 01:49:57.200]  complication developers out, you know, a week or two ago and and given them a, you know,
+[01:49:57.200 --> 01:50:02.000]  locked them in a room and given them some, I would, I would suggest though, that if
+[01:50:02.000 --> 01:50:07.520]  carrot developer is cracking jokes about that, he's probably not locked up.
+[01:50:11.280 --> 01:50:15.440]  So carrot probably didn't, although that you would have been a good choice because
+[01:50:15.440 --> 01:50:21.520]  he's a very creative, you know, could have creatively made use of the space, but boy,
+[01:50:21.520 --> 01:50:26.320]  that's a terribly exciting for somebody who's interested in information design. And it really,
+[01:50:26.320 --> 01:50:32.320]  I mean, it, it really is such a fascinating canvas, the, the watch face for information
+[01:50:32.320 --> 01:50:39.840]  design. And it's obvious that Apple is thinking very, you know, very, very deeply about it.
+[01:50:40.400 --> 01:50:43.680]  So if you haven't read Tufti, go out and read Tufti's books on information design,
+[01:50:43.680 --> 01:50:46.320]  cause it's fascinating. And Apple does a lot of really good stuff with it.
+[01:50:46.320 --> 01:50:50.560]  Yeah, I totally agree. His books are some, probably four of my favorite books that have
+[01:50:50.560 --> 01:50:54.480]  ever been written ever. I'll put a link to the show notes into his books. His books are
+[01:50:54.480 --> 01:51:01.520]  very expensive, but they're worth it. Yes. I'll just say that. All right. Thank you, Renee.
+[01:51:01.520 --> 01:51:02.080]  Thanks, John.
+[01:51:02.080 --> 01:51:14.720]  All right. And I'll see you soon, which is always an exciting thing to say on these podcasts.

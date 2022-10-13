@@ -1,0 +1,1552 @@
+[00:00.000 --> 00:06.180]  So the rewards of procrastination never never cease to. And we were we were all set to record
+[00:06.180 --> 00:13.640]  yesterday when I got wind that Apple was going to issue a statement on or more than a statement
+[00:13.640 --> 00:20.420]  really which we'll get into in a moment on the battery thing. So we narrowly avoided
+[00:20.420 --> 00:26.900]  having an entirely moot to moot point discussion on the iPhone battery thing in the can and
+[00:26.900 --> 00:33.520]  instead here we are recording on Friday the 29th of January and we've got it all all laid
+[00:33.520 --> 00:41.040]  out. It's the future and still December still 17. Let's get right into it. The the the story
+[00:41.040 --> 00:48.680]  has got to be the iPhone. It's funny because it's it's even just summarizing it. It's complicated
+[00:48.680 --> 00:53.020]  enough like I've had trouble writing headlines because I keep wanting to just use the word
+[00:53.020 --> 00:57.960]  iPhone battery throttling but they're not throttling the battery. They're throttling
+[00:57.960 --> 01:03.520]  the CPU but they're not actually just throttling the CPU. They're throttling all sorts of things.
+[01:03.520 --> 01:10.880]  They're throttling even the speakers. They're quieting the speakers. They're dimming the
+[01:10.880 --> 01:16.900]  screen they're doing. Did you see Apollo 13? You see them? Yes, I actually just rewatched
+[01:16.900 --> 01:22.500]  it recently. Okay, there is a great so one of the dramas in Apollo 13 and I swear this
+[01:22.500 --> 01:28.400]  actually ties in perfectly with this story is given after the explosion and they're trying
+[01:28.400 --> 01:32.840]  to figure out how to turn everything on when they get back to Earth so that they can they
+[01:32.840 --> 01:38.040]  can re-enter the atmosphere and and splash down and survive and they've been going for
+[01:38.040 --> 01:43.420]  days and with with almost everything shut off because then otherwise they wouldn't have
+[01:43.420 --> 01:46.840]  enough resources to get back so they've shut off a bunch of stuff but they have to turn
+[01:46.840 --> 01:55.320]  it back on they have to turn on the main module the command module in order to land and what
+[01:55.320 --> 01:59.160]  they do is Gary Sinise who you know isn't in the ship even though he was supposed to
+[01:59.160 --> 02:04.400]  be is back in Houston and what they do and it's a very dramatic part of the movie is
+[02:04.400 --> 02:09.400]  they're trying to figure out a startup sequence it's literally what do we turn on and in what
+[02:09.400 --> 02:15.260]  order because they know how much power they can get out of the battery and if it goes
+[02:15.260 --> 02:19.640]  above a certain number the you know the needle kind of pins and everybody in the control
+[02:19.640 --> 02:24.980]  room goes oh no that failed and and Gary Sinise basically says all right let's let's try it
+[02:24.980 --> 02:28.360]  again let's try another one and they keep going through that and I kept thinking about
+[02:28.360 --> 02:35.320]  that scene this week because it's basically the same where Apple's engineers were looking
+[02:35.320 --> 02:41.880]  at a battery and the limits of a taxed battery an older battery and asking themselves what
+[02:41.880 --> 02:50.600]  can we shut off what can we turn down the power on in order to stay below that moment
+[02:50.600 --> 02:57.280]  where the system looks at the battery and realizes it cannot get enough voltage and
+[02:57.280 --> 03:03.200]  goes I'm shutting down which is what this is all trying to avoid is a different annoyance
+[03:03.200 --> 03:07.600]  which is it used to be it would just hit that hit that number where the the battery couldn't
+[03:07.600 --> 03:12.800]  supply enough juice and the phone would be like it jig is up I'm out of here and and
+[03:12.800 --> 03:16.700]  but it is it's just like Gary Sinise flipping switches in the in the Apollo command module
+[03:16.700 --> 03:26.140]  it's like how do we get under the limit and it speaks to the complexity of what these
+[03:26.140 --> 03:34.560]  batteries do in these devices that it I think I'm as guilty of it as anybody that I tend
+[03:34.560 --> 03:41.920]  to just think of it as effectively as as like the graphic representation of the battery
+[03:41.920 --> 03:46.280]  on screen that it's like a tank a tank of energy you know it's a it's a cylinder of
+[03:46.280 --> 03:52.800]  energy and you can assign it a percentage in terms of how full it is and when there's
+[03:52.800 --> 03:59.260]  plenty of energy it runs and when it gets low you can optionally go into the low power
+[03:59.260 --> 04:05.320]  mode where the battery goes from green to yellow and certain things are turned off like
+[04:05.320 --> 04:10.280]  in a you know animations are tuned down to a lower frame rate who knows what else they
+[04:10.280 --> 04:14.840]  do I don't know I don't know if they've among other things they haven't fully documented
+[04:14.840 --> 04:19.880]  I'm not quite sure they fully documented exactly what low power mode does and then it goes
+[04:19.880 --> 04:24.080]  to read when you're in critical danger and then when it runs out of energy the device
+[04:24.080 --> 04:29.560]  turns off but it's really more complicated than that and and the thing that that this
+[04:29.560 --> 04:36.200]  whole saga seems to be about is that when certain things are happening on the iPhone
+[04:36.200 --> 04:42.920]  that need more energy like the CPU is performing at a peak level for a sustained amount of
+[04:42.920 --> 04:49.840]  time it needs to draw more energy from the battery than it does when it's doing something
+[04:49.840 --> 04:56.680]  idle and older batteries that are depleted it's not just that they you get less that
+[04:56.680 --> 05:00.320]  like the easy way to think about it is that oh I have an older iPhone the battery is depleted
+[05:00.320 --> 05:05.640]  I get less battery I have to charge more throughout the day to keep it going but it's not as simple
+[05:05.640 --> 05:12.000]  as that it it's no longer able to provide a peak sustained level of energy like a fresh
+[05:12.000 --> 05:20.700]  battery could yeah the the term I think the key to all of this actually and I talked to
+[05:20.700 --> 05:27.840]  somebody who understands these issues and not a little birdie but I did talk to somebody
+[05:27.840 --> 05:31.400]  who understands electrical stuff and batteries and who said it's about it's all about impedance
+[05:31.400 --> 05:37.340]  and if you look at the tech note which Apple posted it gets into the nitty-gritty the word
+[05:37.340 --> 05:40.980]  impedance is never mentioned in the letter to customers right but in the tech note it
+[05:40.980 --> 05:46.580]  says one attribute that affects instantaneous power delivery is the battery's impedance
+[05:46.580 --> 05:52.980]  which is basically like how hard it is to get electrons out of the battery and the older
+[05:52.980 --> 05:59.440]  battery is also the colder a battery is or the if it's got a low charge the impedance
+[05:59.440 --> 06:07.580]  is less which means that the electrons flow slower and when you need to pull power from
+[06:07.580 --> 06:15.420]  it the voltage drops like that just because just by definition the the the power can't
+[06:15.420 --> 06:20.840]  flow out as quickly and that's what this is all about is in an older battery but also
+[06:20.840 --> 06:26.200]  in a cold battery if you're in someplace where it's you know minus 10 if you've ever had
+[06:26.200 --> 06:30.160]  to deal with battery-operated stuff in the in the extreme cold it's the same thing which
+[06:30.160 --> 06:35.080]  is that that's like your batteries acting like it's old whether it is or not and that's
+[06:35.080 --> 06:38.560]  what this is that's what this is all about this is these betters get older the impedance
+[06:38.560 --> 06:44.260]  rises and it becomes harder to maintain a higher voltage and that totally goes against
+[06:44.260 --> 06:49.280]  the metaphor that we've all kind of I think I don't want to blame us for this because
+[06:49.280 --> 06:54.120]  it's the makers of electronic devices have sold us this metaphor because this metaphor
+[06:54.120 --> 06:59.300]  is easy to understand for people who are not electrical engineers like Apple Apple wants
+[06:59.300 --> 07:03.560]  everything to be a black box right Apple wants everything to be magic but the blackest black
+[07:03.560 --> 07:08.040]  box of all I think is maybe the battery where like we all just want to think oh it's at
+[07:08.040 --> 07:15.880]  83% or it's at 21% and that works great sometimes like there's a story about how the iPhone
+[07:15.880 --> 07:20.580]  when it gets to 100% you know you can't keep charging a battery that's not that's that's
+[07:20.580 --> 07:28.260]  full and if you keep trying to charge it it's bad for the battery so Apple like fudges on
+[07:28.260 --> 07:31.620]  what your battery percentage is at a high degree like when it gets to 100% it stops
+[07:31.620 --> 07:36.040]  charging and there's a certain amount it's allowed to drop before it starts charging
+[07:36.040 --> 07:41.880]  it again but it always says it's 100% and that's because if it said if you if you left
+[07:41.880 --> 07:45.760]  your phone overnight and you unplugged it and it said 94% you'd be like what the hell
+[07:45.760 --> 07:51.280]  Apple but they're doing that in the background because of battery health issues so this is
+[07:51.280 --> 07:56.480]  like this is a little bit like that and up until this point the biggest controversy about
+[07:56.480 --> 08:00.760]  this and I don't know if people in your family saw this I saw it with people in my family
+[08:00.760 --> 08:09.880]  a lot which is on an older phone you are at 40% and it shuts off and you know you say
+[08:09.880 --> 08:14.560]  what the hell why did it just shut off if I've got 40% if the tank is 40% full I should
+[08:14.560 --> 08:19.960]  be able to use it and the answer is well it's older it's getting low on charge and it reached
+[08:19.960 --> 08:24.000]  a point where it couldn't provide enough power for the for the system and so your phone shut
+[08:24.000 --> 08:31.280]  down and you know that's bad right so instead we get we get this and this is technically
+[08:31.280 --> 08:35.580]  this is what Apple is trying to do to keep that phone from from shutting down by flipping
+[08:35.580 --> 08:46.040]  all those all those switches yeah I I definitely saw that I I saw it personally once or twice
+[08:46.040 --> 08:52.360]  it was long enough ago and the fix that they shipped a year ago in 10 to 1 like all all
+[08:52.360 --> 09:03.640]  of a sudden iOS 10.2.1 is is in the news yeah I I think and I think if I'm recalling correctly
+[09:03.640 --> 09:12.920]  it was my wife Amy who was seeing it more often and she was a a an adherent of the display
+[09:12.920 --> 09:20.160]  the percentage in the status bar alongside the icon right and knew and you know and that's
+[09:20.160 --> 09:25.440]  a popular feature as as you know it it's almost to me like it was always a curious thing to
+[09:25.440 --> 09:34.280]  see people in my family who had that on as as just like I often say on the on the podcast
+[09:34.280 --> 09:40.280]  that I'm an inveterate snoop at looking at people's screens like on airplanes you know
+[09:40.280 --> 09:45.480]  like I don't like want to read their email I just like to see what they're doing and
+[09:45.480 --> 09:50.200]  I one thing I would I always look at is like do typical people have that battery percentage
+[09:50.200 --> 09:57.000]  on because a I think it's an interesting feature we can talk about it but be it's proof that
+[09:57.000 --> 10:02.480]  typical people do turn on non default settings you know like there's a lot of people and
+[10:02.480 --> 10:07.020]  there are people who don't like typical users who just really never go into settings but
+[10:07.020 --> 10:10.880]  I think the iPhone has a couple of features that that make it obvious at a glance whether
+[10:10.880 --> 10:17.360]  somebody has done something the battery percentage is one the scaling factor is another I found
+[10:17.360 --> 10:23.300]  it I noticed that my mom who has a six either six or success I forget but she has it set
+[10:23.300 --> 10:29.960]  to the zoomed mode where it's running like the SE sized user interface system wide you
+[10:29.960 --> 10:33.560]  know and she's older and it's obvious why but I thought that was interesting cuz that
+[10:33.560 --> 10:38.840]  wasn't something I helped her set up and the battery percentage is one but anyway that
+[10:38.840 --> 10:43.400]  meant that when you hit this shot as my long long way of saying that when people's phones
+[10:43.400 --> 10:47.880]  would shut off they often knew exactly what the percentage was before it shut down and
+[10:47.880 --> 10:53.760]  they knew that it was it like 40% or something like that exactly and it just felt like felt
+[10:53.760 --> 10:59.380]  like they were robbed and again it completely breaks the metaphor of of it's just a gas
+[10:59.380 --> 11:04.040]  tank that I'm draining yeah the gas tank metaphor really is it there's no better way of putting
+[11:04.040 --> 11:12.120]  it that that's what we think of and your car a gas gasoline powered car runs exactly the
+[11:12.120 --> 11:19.240]  same with a full tank of gas as it does with a the last gasps of gas you know until you're
+[11:19.240 --> 11:26.000]  literally you know using the last few drops of gasoline your car goes the same speed you
+[11:26.000 --> 11:31.000]  know with the same amount of you know energy in the pedal and and the radio the volume
+[11:31.000 --> 11:38.720]  of the radio is exactly the same the headlights are the same brightness it it it is an easy
+[11:38.720 --> 11:42.480]  metaphor but it really is wrong and I think the other factor that shows this with that
+[11:42.480 --> 11:50.840]  we went when the phones were when the iPhones were unexpectedly powering down is that it
+[11:50.840 --> 11:56.000]  to my knowledge it was never happening to people with like a full charge it was always
+[11:56.000 --> 12:02.120]  like oh I had like 50% left or 40% left you know and it's it's what you mentioned before
+[12:02.120 --> 12:06.860]  which is that at that point when the batteries at 40% it's it's not just that it only has
+[12:06.860 --> 12:11.000]  half the storage that you know half the energy that it had at a full charge it's that it's
+[12:11.000 --> 12:17.320]  no longer able to provide as much in a energy in a burst as it used to right and you get
+[12:17.320 --> 12:22.060]  voltage droop which is basically under load it's trying to pull a lot of power from that
+[12:22.060 --> 12:28.240]  battery and the battery is voltage drops right and at that point it's red alert for the system
+[12:28.240 --> 12:33.240]  yeah and I can't can't can't operate without voltage right it can't so what does it do
+[12:33.240 --> 12:38.040]  it either shuts down or it reduces aggressively reduces power consumption which is very clearly
+[12:38.040 --> 12:45.440]  what the mandate was for the the electrical team at Apple on the iPhone and and if anything
+[12:45.440 --> 12:51.660]  I think it's hard for people to get there to come to grips with this because we if anything
+[12:51.660 --> 12:59.300]  we think of gasoline powered cars as a messy literally you know it pollutes the air a messy
+[12:59.300 --> 13:12.720]  analog system and we think of these digital devices as being so neat and clean you know
+[13:12.720 --> 13:17.100]  that it's either providing energy or not the battery either has you know it's all binary
+[13:17.100 --> 13:22.840]  it's it's it is you know that there are no shades of gray the battery either has a charge
+[13:22.840 --> 13:27.480]  or it doesn't have a charge and if it has a charge it's on and everything runs and if
+[13:27.480 --> 13:32.640]  it doesn't then everything nothing you know needs to be charged that's it but that's not
+[13:32.640 --> 13:40.040]  the truth it's actually really more of an analog ugly you know what what does Apple
+[13:40.040 --> 13:45.200]  say in the tech note a couple times they use the word chemically chemically degraded is
+[13:45.200 --> 13:54.100]  that what they say chemical chemical age yeah like a high chemical age where it's just that's
+[13:54.100 --> 13:58.520]  what we think of as it's an old battery it's not as it's not as good these are rechargeable
+[13:58.520 --> 14:02.300]  batteries which is also different chemistry from back when we just used sort of like single-use
+[14:02.300 --> 14:08.380]  batteries so the chemistry is different and even even you know as people you and I who
+[14:08.380 --> 14:13.340]  have been using Apple laptops for a while like the battery the battery technology being
+[14:13.340 --> 14:19.760]  used in them has changed over time we used to be told like every so often you needed
+[14:19.760 --> 14:24.660]  to deplete your battery and then recharge it because otherwise it would be like it would
+[14:24.660 --> 14:29.160]  have a battery memory and it would and then at some point they're like no no don't do
+[14:29.160 --> 14:32.720]  that anymore we that's that's no longer the case right because they changed to a different
+[14:32.720 --> 14:38.320]  method of storing energy a different battery type and so you know this does change over
+[14:38.320 --> 14:43.040]  time but in the end yeah would it I remember reading a story at some point where somebody
+[14:43.040 --> 14:49.360]  was trying to make a fuel cell for mobile devices which I think never went anywhere
+[14:49.360 --> 14:54.560]  but the idea there would be like literally you're putting hydrogen in your phone and
+[14:54.560 --> 15:00.220]  then it uses it and that would be like a gas tank right that would literally be like a
+[15:00.220 --> 15:06.360]  gas tank but you know right now these chemical batteries are the way that that we get to
+[15:06.360 --> 15:14.120]  have these light computers that we take with us everywhere and like I said it's we want
+[15:14.120 --> 15:17.840]  to think of their magic and the manufacturers encourage us to think that they're kind of
+[15:17.840 --> 15:23.240]  magic and simple but they're not they're there it's actually kind of messy and ugly underneath
+[15:23.240 --> 15:30.620]  the surface yeah and I think that that is one of the traps that Apple fell into which
+[15:30.620 --> 15:38.880]  is you know my take on this from the outset has been that this is primarily a communication
+[15:38.880 --> 15:44.560]  problem and I actually think that even in Apple's letter to customers yesterday that
+[15:44.560 --> 15:49.540]  that's pretty much what they acknowledge I mean even you know the sentence we apologize
+[15:49.540 --> 15:58.020]  is in there it is it is a genuine I think a genuine apology but what they're apologizing
+[15:58.020 --> 16:08.240]  for is not what the iPhone is doing and was programmed to do it's for not communicating
+[16:08.240 --> 16:17.040]  what was going on and why and leaving customers to you know be confused or think they're imagining
+[16:17.040 --> 16:24.880]  things it's such a perfect storm of things where where there's been this trope for years
+[16:24.880 --> 16:29.720]  that Apple purposefully you know it's part of planned obsolescence when a new iPhone
+[16:29.720 --> 16:36.320]  runs out and it's it's true because new versions of iOS tend to come out always come out the
+[16:36.320 --> 16:41.000]  major new versions of iOS are tied to the release of new iPhones iOS 12 will come out
+[16:41.000 --> 16:48.040]  next September when new iPhones come out I mean you can pretty much you know make a pretty
+[16:48.040 --> 16:55.020]  safe wager on that but the theory you know is that app when new iPhones come out Apple
+[16:55.020 --> 17:00.400]  issues a software update that purposefully slows down two-year-old iPhones so that owners
+[17:00.400 --> 17:04.800]  of two-year-old iPhones think well I should go buy the new iPhone because my now my iPhone
+[17:04.800 --> 17:11.040]  is slow and you know I've been saying no this isn't what they do or that you know I'm not
+[17:11.040 --> 17:15.400]  denying that your phone might be slow after an update it you know I'm not you know you're
+[17:15.400 --> 17:19.840]  the one with the phone you you say it's slow it might be slow but that's not why it's slow
+[17:19.840 --> 17:25.680]  for years we you know we in the Apple punditry industry have been saying no Apple doesn't
+[17:25.680 --> 17:32.060]  do this and now the story comes out that here's this thing where iOS is slowing down your
+[17:32.060 --> 17:36.080]  iPhone deliberately sounds an awful lot like the thing that everybody was paranoid about
+[17:36.080 --> 17:41.360]  and even though it's not quite the same thing it sounds an awful lot like it right and and
+[17:41.360 --> 17:48.000]  I mean Apple okay so I think there are two so one side of this is look the chemistry
+[17:48.000 --> 17:52.360]  is the reality here and voltage and something needed to be done because you know take your
+[17:52.360 --> 17:59.560]  pick sudden shutdowns or degraded performance but Apple Apple bears a lot of this blame
+[17:59.560 --> 18:04.620]  for a few reasons I want to take you back and I want to thank Neelay Patel for finding
+[18:04.620 --> 18:10.400]  this link yesterday and tweeting it out I wrote a story at Macworld in 2007 where basically
+[18:10.400 --> 18:17.160]  Greg Joswiak called me up to try and do some damage control over this story that was people
+[18:17.160 --> 18:23.000]  there was a story that had gone around that basically said after 400 times you plug in
+[18:23.000 --> 18:27.840]  and unplug your iPhone to charge it it the battery won't work anymore and of course this
+[18:27.840 --> 18:32.940]  is when at the peak of like phones with remove without removable batteries are are new and
+[18:32.940 --> 18:36.660]  terrifying and it was one of the knocks on the original iPhone and they said okay it's
+[18:36.660 --> 18:41.240]  like a complete cycle it's very different they said a lot of things that are completely
+[18:41.240 --> 18:46.620]  accurate in this story from July 2007 you know I say the iPhone at like every battery
+[18:46.620 --> 18:51.840]  ever made it's going to lose the ability to hold the charge over time it won't necessarily
+[18:51.840 --> 18:55.360]  evaporate in two years but the fact is that sooner or later the iPhone's battery will
+[18:55.360 --> 19:02.360]  die and that's that's not wrong but what Jaws said to me in that story and I quote him directly
+[19:02.360 --> 19:08.280]  is most iPhone users will realize as most iPod customers realized that they never needed
+[19:08.280 --> 19:14.420]  to replace their batteries and what he's really saying is you're going to be able to use this
+[19:14.420 --> 19:18.680]  even two years from now and it'll be fine but we will also offer a battery replacement
+[19:18.680 --> 19:22.400]  program and this is I think one of Apple's challenges is they didn't communicate what
+[19:22.400 --> 19:25.400]  they were doing in degrading performance and why it was actually a good thing because it
+[19:25.400 --> 19:31.080]  meant congratulations your phone's not going to automatically shut down but I think Apple
+[19:31.080 --> 19:37.120]  with its design philosophy of trying to hit that battery number at of a brand new phone
+[19:37.120 --> 19:40.480]  but be as thin and light as possible maybe didn't give themselves enough headroom for
+[19:40.480 --> 19:45.200]  batteries to age and still be able to kind of operate gracefully into a third year I
+[19:45.200 --> 19:52.080]  think Apple is guilty of like thinking of how they have people at Apple use phones which
+[19:52.080 --> 19:57.700]  is that they get a new phone every year I look at the performance problems people report
+[19:57.700 --> 20:02.120]  in a two or three year old phone when they do an iOS update and I feel like I don't think
+[20:02.120 --> 20:06.900]  Apple is intentionally sabotaging old phones but I also don't think Apple makes it a priority
+[20:06.900 --> 20:12.520]  to make sure that new iOS versions run well on old phones like they could do they could
+[20:12.520 --> 20:18.480]  do more and so you know they made some decisions in terms of prioritization and leaving aside
+[20:18.480 --> 20:24.920]  Apple retail which is absolutely has incentives to sell more phones rather than fix phones
+[20:24.920 --> 20:28.400]  and that's just unless I mean it's just sort of natural they would have to do a lot to
+[20:28.400 --> 20:32.840]  kind of push away that basic incentive which is there people at Apple retail I mean it's
+[20:32.840 --> 20:38.020]  their job to sell products right and because they're also the manufacturer that all gets
+[20:38.020 --> 20:44.540]  mixed up so I guess what I'm saying is Apple bears blame here in the short term because
+[20:44.540 --> 20:49.400]  of I think how this was not communicated but in the longer term they made some prioritizations
+[20:49.400 --> 20:54.400]  and they made some design decisions and what we've ended up with is a world where a three
+[20:54.400 --> 20:59.300]  year old iPhone that third year you own an iPhone I can say this because lots of people
+[20:59.300 --> 21:04.720]  in my family use I generally use a new iPhone or a one year old iPhone but I got I got kids
+[21:04.720 --> 21:09.600]  and even my wife will only buy a new phone maybe every three years and I've seen the
+[21:09.600 --> 21:13.760]  performance on a three year old iPhone and it's bad like the battery goes bad the performance
+[21:13.760 --> 21:22.260]  slows down and Apple Apple's decisions kind of have led to that point so you know it's
+[21:22.260 --> 21:26.920]  not just the communication issue it's some priorities that Apple has had where they're
+[21:26.920 --> 21:30.840]  not you know they're not sabotaging old phones but they're not trying really hard to have
+[21:30.840 --> 21:40.160]  that third and fourth year with an iPhone be a great experience either yeah and it replaceable
+[21:40.160 --> 21:44.680]  user replaceable batteries used to be there was no such thing as a phone that didn't have
+[21:44.680 --> 21:49.720]  one I mean sure it was always you know you take off the back plate of the phone and there's
+[21:49.720 --> 21:57.520]  a battery and that's where the SIM card holder would be and it was a big deal that the iPhone
+[21:57.520 --> 22:06.400]  was like an iPod iPods never had user replaceable batteries either and again the conspiracy
+[22:06.400 --> 22:13.600]  theory is that Apple does this out of some sort of design spite that they don't they
+[22:13.600 --> 22:21.520]  find like the little access hatch for a battery to be ungainly and they enjoy they enjoy being
+[22:21.520 --> 22:28.280]  able to I mean I can't prevent third-party battery replacements in fact people you know
+[22:28.280 --> 22:34.320]  do it every day but by having it be sealed up it it certainly encourages people to only
+[22:34.320 --> 22:40.720]  replace the battery through the Apple store and that the $79 charge that they were charging
+[22:40.720 --> 22:45.640]  for it for years was you know that one of the reasons they seal it up is so that they
+[22:45.640 --> 22:51.880]  can make $79 on replacements yeah and it makes it that easier to just upsell somebody to
+[22:51.880 --> 22:56.320]  a new phone and here's a trade-in and we can we can get you in a new phone and you know
+[22:56.320 --> 23:00.720]  because Apple I mean if I was running an Apple store that's what I would do right I'm much
+[23:00.720 --> 23:06.400]  more inclined to sell a new phone than to sell even a $79 battery replacement but the
+[23:06.400 --> 23:12.320]  truth is that a big part I think the primary primary part of it is that it makes it possible
+[23:12.320 --> 23:20.520]  to design bigger batteries smaller devices and it's because if it's user replaceable
+[23:20.520 --> 23:27.920]  it has to be a somewhat regular shape meaning some kind of rectangle and there's contacts
+[23:27.920 --> 23:35.960]  and the type of contacts that would connect the battery to the system are going to be
+[23:35.960 --> 23:40.040]  I think you know there has to and there has to be some slack so you know you can get a
+[23:40.040 --> 23:46.000]  finger in there to pop it out and stuff whereas if you seal it up and you if you look just
+[23:46.000 --> 23:50.680]  go to the iFixit teardowns for like the iPhone 10 and you can see the battery is like a L
+[23:50.680 --> 23:57.360]  shape it's not a regular shape because they you know it figured out it's almost more like
+[23:57.360 --> 24:02.620]  a liquid thinking of it as a liquid where they any air gaps in there is a possible space
+[24:02.620 --> 24:10.280]  where they can put more battery famously they even showed they had one of those nice 3D
+[24:10.280 --> 24:17.600]  teardown fly-throughs of I think it was a MacBook Air but one of the MacBooks of recent
+[24:17.600 --> 24:23.760]  years where they showed how they created this battery in almost like a theater like stair
+[24:23.760 --> 24:31.400]  step design that right that's right literally it's molded around every every bit of open
+[24:31.400 --> 24:35.420]  space that's left in the product in order to to fill it up and so it's not a single
+[24:35.420 --> 24:39.500]  module it's like a whole bunch of things in a stair step and I just I just replaced a
+[24:39.500 --> 24:46.080]  battery on a MacBook Air because my my old 2010 MacBook Air that my son uses just had
+[24:46.080 --> 24:49.160]  the expanding battery thing where he came to me and he's like there's a huge bulge in
+[24:49.160 --> 24:55.480]  my MacBook Air what happened wow and I popped it open and took it out and one of the and
+[24:55.480 --> 25:01.080]  but you know I got a replacement for my fix it actually was great but in lifting that
+[25:01.080 --> 25:06.480]  out from 2010 like it's a plastic thing with like five different differently shaped battery
+[25:06.480 --> 25:13.320]  modules on it like even that this is why you can have a MacBook Air that's that thin is
+[25:13.320 --> 25:18.600]  that there's no place to slide in a big chunky battery like the old days and the iPhone it's
+[25:18.600 --> 25:24.020]  even even more like that yeah and you know batteries are better than they used to be
+[25:24.020 --> 25:28.060]  you know like you spoke about the old days when there was like almost like an exercise
+[25:28.060 --> 25:33.880]  regimen for your MacBook or I guess old enough you know your power book power book yeah power
+[25:33.880 --> 25:39.320]  book batteries for you you're supposed to deplete it every once in a while and you I
+[25:39.320 --> 25:44.320]  remember all the other thing too is you were you and I ran into this I ran into this with
+[25:44.320 --> 25:51.600]  a power book that I kept mostly at my desk connected to it just was the you know I had
+[25:51.600 --> 25:56.760]  a great power book I almost never needed to take it away from the desk and it had a nice
+[25:56.760 --> 26:04.420]  big display so I was running it on power and and it actually wrecked the battery like by
+[26:04.420 --> 26:09.480]  never running it on battery power when I didn't then needed to I got like an alert in the
+[26:09.480 --> 26:13.920]  up in the system bar that you know up in the menu bar that was like hey you might need
+[26:13.920 --> 26:20.660]  you need to get this battery replaced and I was like oh well and Apple has and so what
+[26:20.660 --> 26:25.440]  Apple has done to avoid stuff like that is and other men not just Apple but you know
+[26:25.440 --> 26:31.460]  software makers and hardware makers in general working on this stuff have what what you have
+[26:31.460 --> 26:36.580]  to do if you want to avoid that is lie to the user and risk putting them in a bad situation
+[26:36.580 --> 26:40.960]  but not kill their battery so the right way to do it and I think a lot of computers and
+[26:40.960 --> 26:46.040]  phones do this now the right way to do that in your old time would be to surreptitiously
+[26:46.040 --> 26:52.300]  take you off power and drain the battery and tell you everything's fine and you're plugged
+[26:52.300 --> 26:55.920]  in but it's actually running on battery and draining the battery and it gets to the bottom
+[26:55.920 --> 27:00.680]  and it flips it back on charges back up and you are none the wiser which is great except
+[27:00.680 --> 27:06.080]  for one scenario which is that moment where you need to unplug and take it if it's down
+[27:06.080 --> 27:12.340]  at 10% you're going to be very angry right even though it's doing it and for good reasons
+[27:12.340 --> 27:17.220]  and that's always been a challenge with this kind of intelligent battery stuff in the background
+[27:17.220 --> 27:24.420]  is users want to know what's up and if you lie to them and they notice it can be bad
+[27:24.420 --> 27:27.420]  and it's a little bit like that with this which is like we're trying to make it all
+[27:27.420 --> 27:32.440]  seem easy but there's actually it's really complicated in the background and you know
+[27:32.440 --> 27:36.820]  the fact is that if you're a user and you get surprised that's not good right like users
+[27:36.820 --> 27:41.780]  don't like surprises of oh turns out 50% battery I actually need to shut down now nobody wants
+[27:41.780 --> 27:46.580]  to see that all right let me take a break here I want to I don't know we're near done
+[27:46.580 --> 27:51.140]  with this but there's no reason not to take a break and thank one of our good friends
+[27:51.140 --> 27:57.560]  and it's our good friends at fracture fracture makes beautiful thoughtful prints from your
+[27:57.560 --> 28:04.500]  photos they print them directly on glass ship them to you they're made handmade with care
+[28:04.500 --> 28:10.620]  in Gainesville Florida from US source materials look it's we're recording after Christmas
+[28:10.620 --> 28:14.420]  Christmas is over last time fracture sponsored the show I think it was back at the end of
+[28:14.420 --> 28:18.820]  November and I pleaded with you I pleaded with you I said order him now because they
+[28:18.820 --> 28:23.160]  get backed up there's really no reason to talk about fracture like in the two weeks
+[28:23.160 --> 28:27.380]  before Christmas because they get backed up it's too late everybody because they are they're
+[28:27.380 --> 28:31.700]  fantastic gifts they really are but there's gifts you know holidays aren't the only time
+[28:31.700 --> 28:35.740]  of the year you give gifts so keep them in mind you know Mother's Day it's months away
+[28:35.740 --> 28:43.920]  all of these holidays people's birthdays really it's such a great gift and and it I'm a terrible
+[28:43.920 --> 28:48.940]  terrible gift giver I really am I never know what to get anybody I really don't like buying
+[28:48.940 --> 28:56.060]  like retail products for family members I really don't know if I if my wife weren't
+[28:56.060 --> 29:00.520]  good at it honestly people would probably just tell me to stop giving them gifts other
+[29:00.520 --> 29:08.780]  than fractures fractures like pictures of my son for grandparents it I it and it never
+[29:08.780 --> 29:13.020]  gets old that's the best thing about it like like if you've ever given a gift to somebody
+[29:13.020 --> 29:18.560]  and it was a great gift and they loved it it it's like well what do you how do you top
+[29:18.560 --> 29:21.860]  that you know because you can't give them the same thing you get you know give somebody
+[29:21.860 --> 29:26.460]  I don't know a bracelet and they love it well we're going to do you can't get another bracelet
+[29:26.460 --> 29:31.940]  or can't get the same bracelet at least fracture though I'm telling you you can like give these
+[29:31.940 --> 29:38.980]  things over and over and over again and as long as you're choosing new photos to print
+[29:38.980 --> 29:45.060]  they go over really well each time ordering is simple your fractures come ready to display
+[29:45.060 --> 29:50.020]  right out of the box they even include the wall hanger they have so many sizes to choose
+[29:50.020 --> 29:55.640]  from it's really just great it's a green company operating carbon neutral factory so you can
+[29:55.640 --> 30:00.840]  you can feel good about that so visit fractured dot me that's their website fractured dot
+[30:00.840 --> 30:06.460]  me and you will save fifteen percent on your first fracture order with the exclusive code
+[30:06.460 --> 30:16.380]  talk fifteen ta lk one five talk one five don't forget to mention this podcast in their
+[30:16.380 --> 30:21.100]  one question survey which is literally where did you hear about fracture it does help support
+[30:21.100 --> 30:26.420]  the show it helps them know that you're coming there from the talk show so my thanks to fracture
+[30:26.420 --> 30:31.460]  so here's the point I spent this entire that entire sponsor read with my iphone in my hand
+[30:31.460 --> 30:37.240]  to remember that where I wanted to go when I came back which is that when we're talking
+[30:37.240 --> 30:46.460]  about where apple has to take the blame in this is in their pursuit of ever thinner phones
+[30:46.460 --> 30:54.900]  and there's a reason why this is an iphone issue and not an ios device issue it as far
+[30:54.900 --> 31:00.020]  as I know it does this does not seem to affect ipads I mean maybe there's there are ipads
+[31:00.020 --> 31:06.620]  that are really old that have significantly degraded batteries but I would suspect that
+[31:06.620 --> 31:14.860]  most ipads that might be that old aren't even eligible for ios ten because they have bigger
+[31:14.860 --> 31:17.900]  batteries I mean they're obviously they have bigger batteries because they're much bigger
+[31:17.900 --> 31:27.300]  devices but because they're bigger devices even when the battery has two years of decline
+[31:27.300 --> 31:37.220]  it still has enough it still can provide you know the peak sustained energy that you need
+[31:37.220 --> 31:44.380]  so that you don't you know the device doesn't shut down and I think the conclusion and I
+[31:44.380 --> 31:49.100]  don't know I'm not an electrical engineer but I think it seems obvious that if iphones
+[31:49.100 --> 31:56.140]  were to some degree thicker and that thicker thicker structure was used to put bigger batteries
+[31:56.140 --> 32:04.140]  in the iphone this would be mitigated to some extent yeah I mean I think the way I think
+[32:04.140 --> 32:11.940]  of it is apple is obviously apple has some very clear battery philosophy like the ipads
+[32:11.940 --> 32:17.460]  quoted battery life has been 10 hours forever and iphone they clearly have like a window
+[32:17.460 --> 32:21.480]  they're shooting for in terms of when you take this thing out of the box how long can
+[32:21.480 --> 32:25.780]  you use it on a charge like they they have and they have user data to back that up they
+[32:25.780 --> 32:28.400]  know they've got some people who always leave their phone plugged in there other people
+[32:28.400 --> 32:32.460]  who will leave in the morning and work a long day and are working hard and want to run it
+[32:32.460 --> 32:36.500]  all the way through and they have some somewhere in there they have a profile that they're
+[32:36.500 --> 32:40.780]  trying to hit it's very clear they will try to hit it with every phone now new phones
+[32:40.780 --> 32:46.820]  have a little bit more but for a while there they were really like they had a it was not
+[32:46.820 --> 32:51.580]  not something you could use heavily all day and get through the day but you if you use
+[32:51.580 --> 32:54.320]  it lightly you could get through the day and I think that was sort of what they were counting
+[32:54.320 --> 33:00.180]  on the so the more battery you put in the more weight there is and the more space it
+[33:00.180 --> 33:06.020]  needs which means potentially the thicker it needs to be and I think you're right what
+[33:06.020 --> 33:13.040]  the way I think of it is they were shooting to hit a minimum that served them well even
+[33:13.040 --> 33:16.660]  though not great I think iphone battery life always there could always be more but like
+[33:16.660 --> 33:22.140]  well enough they wanted to optimize for thin thinness and lightness but when you get two
+[33:22.140 --> 33:28.020]  and a half years out and the battery is fatigued it's there's no headroom there like if you
+[33:28.020 --> 33:33.300]  if it's like an Apple watch like I feel this way about my Apple watch series 3 which is
+[33:33.300 --> 33:37.780]  I can use it all day and do a couple of workouts and do all sorts of things it's like I can't
+[33:37.780 --> 33:41.660]  kill that battery in a day it takes me a day and a half to kill that battery that's good
+[33:41.660 --> 33:45.060]  because in three years that battery is not going to be as good and I'm still going to
+[33:45.060 --> 33:49.000]  be able to get through a day and the iPhone hasn't had that kind of headroom very clearly
+[33:49.000 --> 33:54.020]  they're right on the edge where as soon as the battery starts to degrade after year two
+[33:54.020 --> 34:01.180]  it becomes a problem because there's just no room for you know for error yeah and I've
+[34:01.180 --> 34:06.780]  been thinking about this as this scandal I don't know if scandals too strong a word but
+[34:06.780 --> 34:14.620]  let's say scandal as has been erupting over the last two weeks and I the thing I one of
+[34:14.620 --> 34:23.940]  the things I keep coming back to is that my simplistic gas tank analogy trying to flush
+[34:23.940 --> 34:30.100]  it from my brain because it doesn't work and one of the ways is that and I think what Apple's
+[34:30.100 --> 34:36.340]  run into here is it's not just that iPhones have gotten thinner in recent years it's also
+[34:36.340 --> 34:47.420]  that the CPUs have gotten more powerful and I you know like it it it doesn't seem like
+[34:47.420 --> 34:52.620]  this was a problem in the early years of the iPhone like the first few generations of iPhone
+[34:52.620 --> 34:58.420]  didn't have this two-year-old model shuts down problem and I think right and I think
+[34:58.420 --> 35:06.140]  part of that is that the the maximum sustained energy the CPU could use wasn't high enough
+[35:06.140 --> 35:10.580]  to you know that the battery didn't run into it you know like a feeling is that the dynamic
+[35:10.580 --> 35:14.740]  range wasn't even that much in terms of battery of like power draw like there was only like
+[35:14.740 --> 35:19.980]  a certain range I get the impression modern smartphones have way more you know they crank
+[35:19.980 --> 35:25.140]  up the high-performance cores and they also run the extra cores in the in the a11 and
+[35:25.140 --> 35:31.220]  that the range of power that thing can draw is pretty wide from sipping to completely
+[35:31.220 --> 35:35.340]  killing it and yeah I get the feeling that early iPhones and let's not forget the iPod
+[35:35.340 --> 35:40.980]  like jaws use that example right did the iPod battery get old and and and less effective
+[35:40.980 --> 35:46.860]  absolutely but I'm not sure the iPod battery draw you know it it was either is spinning
+[35:46.860 --> 35:51.260]  the disk when if you were using a classic iPod that was a lot of power but it would
+[35:51.260 --> 35:56.660]  spin the disk read a lot into memory and then spin the disk down again and on the SSD is
+[35:56.660 --> 36:00.580]  like there could not have been much power usage range in there maybe a little but not
+[36:00.580 --> 36:07.380]  a lot but the modern phone like the a11 has what three high-performance cores and three
+[36:07.380 --> 36:12.300]  efficiency cores and it can run all six if it needs to in the most stressful I mean the
+[36:12.300 --> 36:20.220]  and that's leaving aside driving the screen you know heavy graphics performance having
+[36:20.220 --> 36:24.780]  an LTE radio going having Bluetooth going having Wi-Fi going like there's a lot of power
+[36:24.780 --> 36:30.100]  draw that can come out of that thing in extreme circumstances my guess and again I'm not an
+[36:30.100 --> 36:36.300]  electrical engineer so I could be way wrong but my guess is that with the iPods that the
+[36:36.300 --> 36:42.420]  only significant power drain was the color LCD once they went to a color LCD that just
+[36:42.420 --> 36:48.100]  having the display on was my guess it was the biggest power drain but since they were
+[36:48.100 --> 36:53.980]  primarily audio players I mean obviously if once they could play video that was would
+[36:53.980 --> 36:58.980]  drain the battery but I think it was the display being on that was taxing not the video playing
+[36:58.980 --> 37:04.420]  right because the video and audio never taxed the CPUs because they always had custom chips
+[37:04.420 --> 37:12.460]  to you know to decode them yeah right it was never a CPU intensive device at any stage
+[37:12.460 --> 37:15.900]  so I just don't think there was ever that issue like I really do think the gas tank
+[37:15.900 --> 37:21.140]  analogy held up with iPods were the only if you had a your trusty beloved five-year-old
+[37:21.140 --> 37:26.300]  iPod the only real difference from when it was new is maybe that it just you got fewer
+[37:26.300 --> 37:31.580]  hours of playback between charges you know I don't think there was and I think that's
+[37:31.580 --> 37:36.140]  one of the reasons we all fell into this trap of thinking of the batteries as a gas tank
+[37:36.140 --> 37:42.060]  because it used to work the analogy did work back then maybe not you know at the implementation
+[37:42.060 --> 37:45.580]  level like the you know the engineers who were making the devices couldn't think of
+[37:45.580 --> 37:52.620]  it that way obviously but as a user you could get away with it and never never be wrong
+[37:52.620 --> 37:56.780]  right and it's easier it's a better I mean it's a better metaphor it's a good metaphor
+[37:56.780 --> 38:02.800]  people understand it like Apple and tech companies in general they have to trade in metaphors
+[38:02.800 --> 38:07.820]  because a lot of this stuff is way too complicated for people to understand who are not who are
+[38:07.820 --> 38:13.860]  just lay people and they don't want to understand it and so like if you can find a good metaphor
+[38:13.860 --> 38:21.660]  and you can hang your hat on it then do it right the problem is that is that this phenomenon
+[38:21.660 --> 38:31.060]  forces us to understand that that metaphor is broken yeah boy did Apple take it in it
+[38:31.060 --> 38:39.980]  on the chin from the press or it continued and continues to like even the apology yesterday
+[38:39.980 --> 38:48.420]  you know has generated some some really interesting coverage from the mainstream media somebody
+[38:48.420 --> 38:55.660]  on Twitter sent me a screenshot this is a guy named Christopher who lives in Australia
+[38:55.660 --> 38:59.540]  and on Australian TV what do you call those banners at the bottom of the screen there's
+[38:59.540 --> 39:04.700]  like a word for it like Chiron Chiron yeah like the little scrolling banner at the bottom
+[39:04.700 --> 39:12.860]  of TV news had this headline I swear to God not making this up US colon Apple apologizes
+[39:12.860 --> 39:26.620]  for iPhone battery scam wow that's the actual Chiron at the bottom of the TV and again we
+[39:26.620 --> 39:32.020]  I think we're being very adamant here you and I that Apple is there are things you can
+[39:32.020 --> 39:42.140]  fault Apple for in this whole saga communication and design choices it is not a scam rightly
+[39:42.140 --> 39:46.700]  or wrongly whether you disagree with the decisions they made I really do think that even if you
+[39:46.700 --> 39:49.900]  disagree with the decisions they made and you think that you should they could should
+[39:49.900 --> 39:55.980]  have done XY or Z different at a technical level I do think that the intent was genuinely
+[39:55.980 --> 40:01.080]  to actually it's that's part of what I think frustrates the people at Apple is that their
+[40:01.080 --> 40:06.300]  intent was actually the opposite of sabotaging an old iPhone this was their genuine attempt
+[40:06.300 --> 40:12.100]  to extend the useful lifespan of older iPhones right I think the thing to criticize Apple
+[40:12.100 --> 40:17.900]  for here is yes a lack of communication but also all of the decisions and corporate culture
+[40:17.900 --> 40:23.980]  that led to the fact that a three-year-old iPhone would suddenly shut down with 50% battery
+[40:23.980 --> 40:29.960]  but the solution which was very clever which was boy we need to do a better job of reducing
+[40:29.960 --> 40:34.800]  power because this is a bad user experience like that was a good engineering decision
+[40:34.800 --> 40:42.140]  to solve a problem we just we we should debate the way they didn't communicate it and how
+[40:42.140 --> 40:47.020]  they got in that position those are both I think fair places to criticize Apple but like
+[40:47.020 --> 40:53.180]  this specific engineering challenge that they solved by throttling things so that your phone
+[40:53.180 --> 40:58.600]  didn't die that's absolutely done in the best interest of the users they they know that
+[40:58.600 --> 41:02.760]  everybody would was getting very upset with older phones that were just spontaneously
+[41:02.760 --> 41:07.780]  shutting down I can't tell you how many times my daughter and my wife about in the last
+[41:07.780 --> 41:12.620]  year before they got they got newer phones would be like my iPhone just shut down again
+[41:12.620 --> 41:17.200]  they're like furious about it and people grouse about slow iPhones and I don't want to make
+[41:17.200 --> 41:22.500]  light of it because I've seen some impossible to use iPhones that were incredibly slow but
+[41:22.500 --> 41:27.940]  at least they're up and you can take a phone call and you can take a picture and you know
+[41:27.940 --> 41:35.260]  I I did I experienced this once where I was we were skiing with my wife's family and I
+[41:35.260 --> 41:40.140]  had my iPhone out and was taking pictures of taking video HD video maybe even 4k video
+[41:40.140 --> 41:46.100]  my kids coming down the ski slope and the phone just went nope I'm off I'm turning myself
+[41:46.100 --> 41:49.680]  off and I think it was the cold that was doing it in that circumstance but there's nothing
+[41:49.680 --> 41:55.660]  worse than that so you know full credit to Apple's electrical engineering and software
+[41:55.660 --> 42:00.240]  and power management teams for figuring out this problem that you know that's not it's
+[42:00.240 --> 42:06.020]  not on them here right it's on how it was not communicated and why they had to do it
+[42:06.020 --> 42:12.480]  in the first place there's a and I think there's a culture within Apple of never wanting to
+[42:12.480 --> 42:18.780]  say anything negative about any of their products and I think that's true for most companies
+[42:18.780 --> 42:24.340]  I mean who you know you know you go to a restaurant and how often does the waiter tell you you
+[42:24.340 --> 42:31.100]  know the fish you know and most what they'll say is I know our fish didn't used to be good
+[42:31.100 --> 42:36.060]  but now it's good that's when you admit you admit the failure once it's done and in the
+[42:36.060 --> 42:40.980]  in the rearview mirror I funny story one time I was in Denver great city I was only there
+[42:40.980 --> 42:46.420]  at one time but we had a dinner and ever just happened to be it was during the development
+[42:46.420 --> 42:53.380]  of Vesper and Dave Whiskas lived there at the time and I forget even why but Brent and
+[42:53.380 --> 42:57.460]  I both could make it and so we had like a weekend to work together we did a podcast
+[42:57.460 --> 42:59.980]  and then there were some other friends in the area we had like six people go out to
+[42:59.980 --> 43:05.700]  dinner and we went to some like a steak place and they had prime rib on the menu as well
+[43:05.700 --> 43:12.080]  and I like prime rib but prime rib in my opinion is usually either excellent or it is terrible
+[43:12.080 --> 43:16.860]  very tough and a waitress came by and and somebody asked a question and she said that
+[43:16.860 --> 43:19.940]  she recommended you know somebody's like which steak should I get and she was like I recommend
+[43:19.940 --> 43:25.060]  the ribeye and then I said hey what about the prime rib is the prime rib good here and
+[43:25.060 --> 43:37.780]  she said I recommend the ribeye yeah but you know Apple takes that to an extreme where
+[43:37.780 --> 43:44.320]  they in their prepared remarks for like a post-event product briefing and it's always
+[43:44.320 --> 43:48.900]  amazes me how I think I've come up with well but nobody else thought I've got a really
+[43:48.900 --> 43:52.580]  good question and I'll bet nobody else has thought of it and I asked the question and
+[43:52.580 --> 43:57.380]  I get a response that it is canned you know like they were ready for it you know like
+[43:57.380 --> 44:06.720]  I've I've still never stumped anybody to my recollection and it's because you get the
+[44:06.720 --> 44:09.860]  briefings a little earlier than I do I will tell you they're a little more punchy at the
+[44:09.860 --> 44:12.660]  end of the afternoon when they're when you're at the last briefing and they just want to
+[44:12.660 --> 44:17.800]  go they loosen up a little bit that's the trick I usually go I either go I've started
+[44:17.800 --> 44:22.260]  going early recently I don't know somehow I got bumped up but I used to go dead last
+[44:22.260 --> 44:27.320]  I used to be oh well that's that is the best time then it was it was like you got the most
+[44:27.320 --> 44:30.780]  out of them you're ever going to get out of them when it's when it's 445 and they really
+[44:30.780 --> 44:37.220]  want to go away yeah because it was a combination of them knowing that I'm not on deadline and
+[44:37.220 --> 44:46.060]  right be that I think that they you know it sounds self-serving but I think that they
+[44:46.060 --> 44:52.500]  you know maybe like talking to me more than other some other people and that if you know
+[44:52.500 --> 44:56.180]  it could be more leisurely like instead of getting you know having somebody tapping their
+[44:56.180 --> 45:02.080]  watch at 20 29 minutes in it could go 35 40 45 minutes and doesn't matter because there's
+[45:02.080 --> 45:06.500]  nobody after but anyway yeah I know exactly what you're you're right that's totally locked
+[45:06.500 --> 45:11.280]  down like I've gotten answers that I thought were very obviously they're going to be totally
+[45:11.280 --> 45:13.980]  locked down they know what they're going to say they know how they're going to phrase
+[45:13.980 --> 45:17.360]  things they know that how you're going to address it I will try to ask a clever question
+[45:17.360 --> 45:20.660]  I'll get an answer I'll be like okay that's interesting I haven't heard that that's new
+[45:20.660 --> 45:26.200]  and then I will read somebody else's article like you know and it'll be you or or like
+[45:26.200 --> 45:31.560]  Neelay or you know just somebody Matt Honan I don't know I mean whoever it is and you'll
+[45:31.560 --> 45:36.680]  see the exact same phrasing and you'll be like god that was on their talking points
+[45:36.680 --> 45:44.040]  too they're very well trained and buttoned up so I think you know this whole issue with
+[45:44.040 --> 45:49.600]  batteries you know it is industry-wide there is nothing worse about iPhones batteries than
+[45:49.600 --> 45:57.080]  competing products and if anything I genuinely believe that Apple's battery life and the
+[45:57.080 --> 46:02.240]  technology they use is better than most of the competing products on the market so it's
+[46:02.240 --> 46:07.300]  not like the problems inherent to lithium-ion batteries are specific to the iPhone it's
+[46:07.300 --> 46:11.600]  just the way it is but Apple doesn't like it's not within their character to talk about
+[46:11.600 --> 46:17.160]  it like that this technical note that came out yesterday explaining all of the various
+[46:17.160 --> 46:24.600]  ways that lithium-ion batteries suck are just terrible and surely you know this is one of
+[46:24.600 --> 46:29.260]  those things where probably not next year and you know but it's one of those things
+[46:29.260 --> 46:32.640]  were like one or two years isn't going to make a difference but at some point you know
+[46:32.640 --> 46:36.200]  1015 years from now we're going to have a totally different technology powering these
+[46:36.200 --> 46:41.680]  devices and we're going to look back at lithium-ion batteries and you know it's going to seem
+[46:41.680 --> 46:48.160]  anachronistic it's going to seem ridiculous yeah but it's not within their character to
+[46:48.160 --> 46:54.000]  talk about these things and it really I really think it painted them in a corner on this
+[46:54.000 --> 47:00.360]  and I you know I think they regret it now but for example in iOS you go to settings
+[47:00.360 --> 47:05.780]  app you go to the battery section at the top if your battery iPhone battery is truly in
+[47:05.780 --> 47:12.120]  dire condition when you go there it will say your battery may need to be serviced learn
+[47:12.120 --> 47:18.860]  more and learn more I think takes you to you know like a web page where there's information
+[47:18.860 --> 47:24.520]  about how to you know more or less telling you to go take it to an Apple store or otherwise
+[47:24.520 --> 47:28.460]  some other authorized dealer so I was tweeting about this and somebody on Twitter was like
+[47:28.460 --> 47:35.560]  you keep mentioning this but I've never heard anybody get this and then somebody thankfully
+[47:35.560 --> 47:39.940]  because I hadn't seen it personally and I'm very kind you know as an aside I'm conscious
+[47:39.940 --> 47:43.880]  of the fact that me personally I get I use a new I got buy a new iPhone every single
+[47:43.880 --> 47:49.700]  year and so I don't run into the problems that people run into with two or three year
+[47:49.700 --> 47:56.500]  old iPhones I am fully I ran I recognized that that is a position of absurd privilege
+[47:56.500 --> 48:03.240]  in the you know it is a you know something that most people have the common sense not
+[48:03.240 --> 48:09.040]  to do it's a combination of me having enough money to do it and be lacking the common sense
+[48:09.040 --> 48:14.600]  of putting my money in it and the Apple benefits from the fact that most of the people who
+[48:14.600 --> 48:20.220]  write about their products don't use them after they're a year old right right and they
+[48:20.220 --> 48:23.540]  don't they're not a lot of tech writers out there rocking a three-year-old iPhone there
+[48:23.540 --> 48:28.760]  are some but not a lot and that benefits them right but somebody who had seen it took a
+[48:28.760 --> 48:32.440]  screw had a screenshot of it and posted it and it was like wow you know people a couple
+[48:32.440 --> 48:38.140]  people on tour like I've never seen that and it's because that warning isn't tied to the
+[48:38.140 --> 48:42.900]  threshold of where these throttling features kick in it's truly I don't know where it is
+[48:42.900 --> 48:48.760]  but like you know it it seems like there's some kind of test that Apple can perform in
+[48:48.760 --> 48:53.300]  the store and it gives Apple a number from like one to a hundred of the health of your
+[48:53.300 --> 48:59.420]  battery and they won't they will refuse to replace a battery that is at eighty percent
+[48:59.420 --> 49:03.420]  or above on this test so if you come in you think your iPhone battery isn't good enough
+[49:03.420 --> 49:08.420]  and they run this test and it says 81 they won't take your seventy nine dollars and replace
+[49:08.420 --> 49:13.940]  the battery and I that's interesting and I've had you know there's a couple I've heard from
+[49:13.940 --> 49:18.940]  a bunch of people during this whole saga who said I you know I'm so frustrated because
+[49:18.940 --> 49:24.580]  it said 83 I know that the battery isn't as good as it used to be I have the $80 I just
+[49:24.580 --> 49:29.260]  want you to take it and have me come back in an hour and have right I just want to keep
+[49:29.260 --> 49:34.020]  using this phone and I want the extra battery life you know what am I supposed to do go
+[49:34.020 --> 49:40.260]  and you know shoot 4k video continuously for two days to degrade the battery before I come
+[49:40.260 --> 49:50.340]  back so I get that but that that warning in iOS only kicks in at something like I don't
+[49:50.340 --> 49:54.100]  know let's just I'm pulling this out of my hat but like 20 you know like a battery that
+[49:54.100 --> 49:58.620]  is seriously seriously problematic like right and Apple said that they're going to make
+[49:58.620 --> 50:06.180]  an OS update to change that threshold which is probably a really good idea right but it
+[50:06.180 --> 50:13.180]  goes this and the $79 charge which is being reduced to $29 seemed to me like easy fixes
+[50:13.180 --> 50:18.740]  in a way on Apple's part in terms of in terms of making this happen quickly but it also
+[50:18.740 --> 50:22.340]  says something like how this was really a cultural thing more than anything else it's
+[50:22.340 --> 50:26.960]  like these were these were reasons to dissuade you from ever thinking about replacing your
+[50:26.960 --> 50:34.060]  battery so one of the questions that I've seen I didn't really have good answer to somebody
+[50:34.060 --> 50:37.520]  just asked me literally just like half an hour before we started recording on Twitter
+[50:37.520 --> 50:42.980]  like what's the story what's the deal with Android phones and batteries do they throttle
+[50:42.980 --> 50:50.620]  do they degrade over time and I do think I didn't have a chance to read it in detail
+[50:50.620 --> 50:59.500]  but I posted it in the note I'll put it in the show notes there's an article on seeking
+[50:59.500 --> 51:05.020]  Alpha from someone who looked at in a non tech article and it does seem like Android
+[51:05.020 --> 51:11.060]  at a system level has built-in throttling where certain things just naturally you know
+[51:11.060 --> 51:15.440]  like the CPU doesn't run at peak performance you can't just run the CPU at peak performance
+[51:15.440 --> 51:20.280]  for as long as you want until the battery dies there it will kick in like benchmarks
+[51:20.280 --> 51:27.300]  show it it more or less it's caught you know the answer is it's complicated it is not Android
+[51:27.300 --> 51:32.460]  phones don't run on the battery like a tank of gas you know it it's there's all sorts
+[51:32.460 --> 51:38.360]  of stuff going on in Android to to make these things work but the thing I did find interesting
+[51:38.360 --> 51:43.400]  too is and I think I put in the show notes this link to a Reddit thread about this and
+[51:43.400 --> 51:52.840]  it's HTC and Motorola say they don't slow iPhones like Apple does like these companies
+[51:52.840 --> 52:00.240]  are trying to make a bit of hay out of this but it's a very kid they're very carefully
+[52:00.240 --> 52:03.260]  they're saying they don't do exactly what Apple is doing they're not saying that they
+[52:03.260 --> 52:10.440]  that your phone doesn't throttle the CPU like here's the statement from Motorola we do not
+[52:10.440 --> 52:17.760]  throttle CPU performance based on older batteries but they do throttle CPU performance in general
+[52:17.760 --> 52:22.640]  it's they just have to and on this reddit thread there's comments from a bunch of people
+[52:22.640 --> 52:29.720]  likes here's somebody with a Nexus 6p who says that it shuts down whenever it feels
+[52:29.720 --> 52:33.800]  like so and it seems like it runs into the problem iPhones had that it just shuts down
+[52:33.800 --> 52:40.040]  and then there's also a problem I think iPhones can get into this too with a bad enough battery
+[52:40.040 --> 52:45.280]  where it's a never-ending boot loop where the boot loop of death where the battery is
+[52:45.280 --> 52:51.240]  in such bad shape that as you power it on while it's starting up it hits the point where
+[52:51.240 --> 52:54.960]  it needs to shut down because it's not getting enough energy from the battery and shuts down
+[52:54.960 --> 53:03.800]  and you never you can't get out of it here's somebody who claims to be a Verizon employee
+[53:03.800 --> 53:09.400]  it is most definitely LG's fault it's been happening on the g3 g4 g5 and v10 models they
+[53:09.400 --> 53:14.520]  all happened after their one-year warranty expired but before their upgrade periods the
+[53:14.520 --> 53:18.880]  response has been horrendously shit and we are currently dealing with their own class
+[53:18.880 --> 53:24.600]  action lawsuit those who cry about their iPhone slowing down because their battery is starting
+[53:24.600 --> 53:31.400]  to suck at least your phone still works now who knows you know this is a random person
+[53:31.400 --> 53:35.920]  on reddit you know but there's enough people in the thread with stories like this that
+[53:35.920 --> 53:39.720]  the idea that this is specific to iPhones and that there aren't problems with Android
+[53:39.720 --> 53:45.900]  and that it may or may not be worse with Android phones you know is all on the table yeah it
+[53:45.900 --> 53:49.400]  depends on what you know how much batteries in the phone and how power what's the power
+[53:49.400 --> 53:56.120]  draw and like Apple has these incredibly fast processors now but I imagine that you know
+[53:56.120 --> 53:59.840]  they're already trying to regulate the power pretty severely so it may come down to just
+[53:59.840 --> 54:06.560]  like how big is your battery and maybe Apple has been my gut feeling is Apple maybe has
+[54:06.560 --> 54:11.680]  been optimizing a little bit too aggressively and I would say that maybe this is going to
+[54:11.680 --> 54:18.240]  be a reason to motivate them to do that a little less but I feel like Apple is Apple
+[54:18.240 --> 54:24.980]  has reached maybe the bottom in terms of like their their attempts for super thinness on
+[54:24.980 --> 54:30.280]  phones especially since they've got the camera bump now and they know the value of having
+[54:30.280 --> 54:34.000]  more battery so I think you know already with the iPhone 10 we've seen that where they're
+[54:34.000 --> 54:40.160]  kind of embracing having more battery and obviously the plus models so you know maybe
+[54:40.160 --> 54:44.920]  maybe they are already turning this and stopping the like hyper aggressive you know let's do
+[54:44.920 --> 54:49.680]  as little battery as we can and get away with it because we want to keep it thin and light
+[54:49.680 --> 54:54.300]  you know I think the most telling thing is that the iPhone 10 is actually slightly thicker
+[54:54.300 --> 55:00.360]  than the iPhone right eight and seven and six it's it's I you know it's it's just a
+[55:00.360 --> 55:07.200]  few millimeters I want to say maybe one millimeter or something it's not significant but it certainly
+[55:07.200 --> 55:11.680]  is is significant enough that if you lay them down side by side on a table you can you can
+[55:11.680 --> 55:18.800]  see that it's thicker so that's you know certainly it's a suggestion a strong suggestion that
+[55:18.800 --> 55:25.880]  Apple has has gotten to a thin enough for now you know eventually you know we will laugh
+[55:25.880 --> 55:31.840]  I another thing you know on the 10-year time scale 10 years from now we will look back
+[55:31.840 --> 55:35.740]  on the iPhone 10 and think my god wasn't that exciting when that phone shipped but look
+[55:35.740 --> 55:40.680]  at how thick it is so heavy sure I mean there is a point where you're gonna give yourself
+[55:40.680 --> 55:45.040]  a paper cut with your phone if it gets super thin right it is you know you can get everything
+[55:45.040 --> 55:52.320]  can get thinner at the exact same rate except with if you set your battery target at 14
+[55:52.320 --> 55:56.680]  hours instead of 10 hours right you know it's gonna get thinner from a thicker starting
+[55:56.680 --> 56:02.520]  point and that's I think that's the question here is just you know has Apple stopped being
+[56:02.520 --> 56:06.920]  quite as aggressive with what battery it puts in I mean it still doesn't matter though still
+[56:06.920 --> 56:10.760]  old batteries are still gonna suck though that there's just until there's new battery
+[56:10.760 --> 56:15.840]  tech that does that that works more like a gas tank but they don't have that yet
+[56:15.840 --> 56:22.080]  all right let me take a break and thank our next friend of the show it's our good friends
+[56:22.080 --> 56:30.640]  at Squarespace make your next move with Squarespace look do you ever need a website you do something
+[56:30.640 --> 56:33.960]  new yeah I don't know maybe you have need a new personal website maybe you're gonna
+[56:33.960 --> 56:39.240]  start a podcast maybe you're gonna start a blog maybe you are opening a restaurant or
+[56:39.240 --> 56:47.280]  something exciting like that you needed a website you know the easiest way to make your
+[56:47.280 --> 56:54.440]  website is Squarespace I am blown away I always say this I the number one reason in the back
+[56:54.440 --> 56:57.680]  of my mind that I would think well I wouldn't want to go Squarespace because I don't want
+[56:57.680 --> 57:02.200]  like a cookie cutter website that looks like every other site you know and it sounds to
+[57:02.200 --> 57:05.660]  me like if you Squarespace is the sort of thing we're sure they have a bunch of templates
+[57:05.660 --> 57:11.140]  to choose from but it's you know there's gonna be like 10 looks and my website's gonna look
+[57:11.140 --> 57:15.120]  like all these others and there's thousands and thousands of Squarespace sites out there
+[57:15.120 --> 57:20.360]  so surely it's it's really not like that at all I mean you really can get started and
+[57:20.360 --> 57:23.960]  pick a template and without doing any design work on your own maybe because you're not
+[57:23.960 --> 57:27.340]  a designer or maybe because you don't have time you can really just have a beautiful
+[57:27.340 --> 57:32.880]  website that's right out of their templates but you can design it to be customized right
+[57:32.880 --> 57:40.980]  out the wazoo and I'll give you an example I just this week linked to a fantastic story
+[57:40.980 --> 57:47.200]  by a guy named Jason Justin O'Byrne who was a he's a cartographer oh yeah used to work
+[57:47.200 --> 57:54.220]  so good used to work at Apple and has a series he's more or less writing a book chapter by
+[57:54.220 --> 58:00.380]  chapter on the web I don't know how the book is going to be though because is his examples
+[58:00.380 --> 58:06.780]  are animated like he'll have a here's an example of this block of this city at this scale and
+[58:06.780 --> 58:11.920]  Google Maps and here's the same block at the same scale and Apple Maps and he uses animation
+[58:11.920 --> 58:18.120]  so you can see them one after another and see the differences it inherently you know
+[58:18.120 --> 58:22.620]  sort of thing you can't do animation in a printed book at least not yet maybe like with
+[58:22.620 --> 58:27.960]  a flip book or something but anyway his website in addition to being a fantastic article fantastic
+[58:27.960 --> 58:34.620]  if you didn't read it you really should I will put it in the show notes but I it's a
+[58:34.620 --> 58:39.740]  beautiful it's just a beautiful beautiful design too and once you see it you'll say
+[58:39.740 --> 58:45.840]  yeah I can see why Gruber likes this design it's just one column beautiful type some Futura
+[58:45.840 --> 58:53.220]  bold for the headlines so of course I got nosy and viewed source guess what Squarespace
+[58:53.220 --> 59:00.240]  he said on Squarespace so really it's just a terrific example of something and I can
+[59:00.240 --> 59:06.300]  imagine why he did it is why he's using Squarespace is is so much work and research goes into
+[59:06.300 --> 59:09.900]  the article and when you see it and you think about it and he's got examples from like years
+[59:09.900 --> 59:14.840]  ago where he's been collecting these examples over the years so he can compare the rate
+[59:14.840 --> 59:19.340]  of improvement guess what all he has to do is focus on his research and his writing and
+[59:19.340 --> 59:24.340]  his comparison and doesn't have to worry about web hosting and all of that stuff at Squarespace
+[59:24.340 --> 59:30.700]  just takes care of it really can't emphasize enough just how much Squarespace can can just
+[59:30.700 --> 59:36.220]  take make it easy as easy it to make a website as it is to like just make a new document
+[59:36.220 --> 59:43.020]  in in a word processor and have it be beautiful have it be unique to yourself with your domain
+[59:43.020 --> 59:49.860]  your name your design everything you want so next time it everything's gonna look professional
+[59:49.860 --> 59:53.580]  it's easy to use easy to set up it you do it all through the web browser and you can
+[59:53.580 --> 59:58.620]  start with a free trial today at Squarespace.com and when you decide to sign up all you have
+[59:58.620 --> 01:00:05.260]  to do is remember the code talk show ta ok show and you'll get 10% off your first purchase
+[01:00:05.260 --> 01:00:11.380]  so my thanks to Squarespace go check them out next time you need a website do you love
+[01:00:11.380 --> 01:00:15.980]  that you love that article from Justin O'Byrne right yeah I mean I remember I've been following
+[01:00:15.980 --> 01:00:22.020]  them and I remember linking to them before because they are so detailed and you know
+[01:00:22.020 --> 01:00:26.900]  that requires commitment because he's taking screenshots over time of the same things so
+[01:00:26.900 --> 01:00:30.700]  you can see the progress right I think it's really interesting it led to a really interesting
+[01:00:30.700 --> 01:00:36.540]  conversation I saw on Twitter a lot of things going back and forth about you know there's
+[01:00:36.540 --> 01:00:39.860]  a constant debate about like what's the state of Apple Maps and what's the state of Google
+[01:00:39.860 --> 01:00:43.820]  Maps and I think the latest post by Justin O'Byrne was interesting because he's pointing
+[01:00:43.820 --> 01:00:48.260]  out he's pointing out features like Google is turning its machine learning on to satellite
+[01:00:48.260 --> 01:00:54.080]  photos and drawing the shapes of buildings base basically automatically based on pictures
+[01:00:54.080 --> 01:01:00.020]  of buildings from satellite photos which is cool although I saw somebody use it as an
+[01:01:00.020 --> 01:01:04.340]  example of why Google Maps is way ahead of Apple Maps and I'm not quite sure that as
+[01:01:04.340 --> 01:01:10.960]  cool as it is it's as it's a vital feature like that I would put into the hopper for
+[01:01:10.960 --> 01:01:15.880]  like reasons why to choose one over the other is a is a the shape of a building especially
+[01:01:15.880 --> 01:01:21.040]  since in my neighborhood they've got the shape of my my kids old elementary school from five
+[01:01:21.040 --> 01:01:24.380]  years ago and they knocked that school down and built a new school and it hasn't been
+[01:01:24.380 --> 01:01:28.980]  updated so it's not current shapes but you know but I appreciate that they've got them
+[01:01:28.980 --> 01:01:33.340]  and that Apple doesn't I just I'm not sure if I was to say where in Apple Maps do I want
+[01:01:33.340 --> 01:01:37.140]  Apple to invest more of its resources I'm not sure I would say building shapes but you
+[01:01:37.140 --> 01:01:43.640]  know but it is amazing to see the evolution and what Google pours into to maps from seemingly
+[01:01:43.640 --> 01:01:47.920]  like all sorts of different parts of their their company and their set of technology
+[01:01:47.920 --> 01:01:54.480]  well one of the things that it was interesting about his recent comparison was comparing
+[01:01:54.480 --> 01:01:59.440]  what they're getting out of the satellite images versus Street View and Street View
+[01:01:59.440 --> 01:02:07.840]  is inherently labor-intensive it's you know it requires actual humans for now you know
+[01:02:07.840 --> 01:02:15.160]  again that might change you know coming years with self-driving cars and certainly the Street
+[01:02:15.160 --> 01:02:20.640]  View thing would be one of the first things that would get you know have the human removed
+[01:02:20.640 --> 01:02:26.840]  from it right like it an uber type situation you can think of more scenarios where you
+[01:02:26.840 --> 01:02:32.800]  need human interaction you know with some kind of dilemma or a complicated route to
+[01:02:32.800 --> 01:02:37.840]  take or yeah I need you to stop at three places whereas Street View just set the car going
+[01:02:37.840 --> 01:02:43.840]  and let it go but it's even so even taking out the human labor though it's just you need
+[01:02:43.840 --> 01:02:51.280]  a number of cars the cars can only go so fast and you know so his example was a small town
+[01:02:51.280 --> 01:02:56.800]  where he grew up that still hasn't been Street View but all the roads are mapped because
+[01:02:56.800 --> 01:03:01.680]  the satellite images are you know can be processed by computers and computers keep getting faster
+[01:03:01.680 --> 01:03:08.700]  and faster and faster and that they you know have buildings they show buildings on maps
+[01:03:08.700 --> 01:03:12.260]  like in new developments where the roads aren't even there yet because they haven't updated
+[01:03:12.260 --> 01:03:16.480]  the roads but they've already identified through machine learning the buildings and have like
+[01:03:16.480 --> 01:03:24.000]  the houses on the map which is kind of crazy right right absolutely it's it's and you know
+[01:03:24.000 --> 01:03:30.080]  I think maps as a design challenge are fundamentally interesting I think they've been are historically
+[01:03:30.080 --> 01:03:35.760]  interesting and so obviously you know you could argue the cutting edge of cartography
+[01:03:35.760 --> 01:03:40.880]  is these map services is how Apple and Google not just like the technology behind it but
+[01:03:40.880 --> 01:03:44.700]  like how they choose to depict all this information and how much is too much one of the things
+[01:03:44.700 --> 01:03:48.820]  that he's written about is like at what point do you kind of hide the information or degrade
+[01:03:48.820 --> 01:03:53.480]  it because it's it's overwhelming how do you label neighborhoods Google labels neighborhoods
+[01:03:53.480 --> 01:03:57.440]  more aggressively than Apple does it's all it's fascinating stuff yeah but and where
+[01:03:57.440 --> 01:04:03.680]  it kicks in and I you know it's this drives some people nuts you know that you know but
+[01:04:03.680 --> 01:04:09.920]  I use Apple Maps I like Apple Maps I find it good enough and I like them one thing I
+[01:04:09.920 --> 01:04:14.740]  like about Apple Maps more than Google Maps is I like the user interface of the app itself
+[01:04:14.740 --> 01:04:22.260]  better and the places I tend to go and where I need navigation to Apple Maps does a terrific
+[01:04:22.260 --> 01:04:26.920]  job of it but I don't go many places and I get it that there's more places a lot of places
+[01:04:26.920 --> 01:04:30.900]  throughout the world where Google Maps has better data or has data where Apple doesn't
+[01:04:30.900 --> 01:04:37.360]  etc but I also fully acknowledge and you know everything in his article about Google Google
+[01:04:37.360 --> 01:04:42.280]  being years ahead of Apple Maps I it's really interesting to me as somebody who doesn't
+[01:04:42.280 --> 01:04:49.880]  drive often and when I do drive I tend to just not go far and I don't need navigation
+[01:04:49.880 --> 01:04:57.100]  but I use navigation recently just like the most recent example I can think of is going
+[01:04:57.100 --> 01:05:00.740]  to see The Last Jedi because rather than go see it here in the city where the theaters
+[01:05:00.740 --> 01:05:05.460]  there's some good theaters here but the best theaters in the area are in the suburbs outside
+[01:05:05.460 --> 01:05:10.100]  Philadelphia and so for a special movie like The Last Jedi I want to you know where I buy
+[01:05:10.100 --> 01:05:17.280]  like a reserved seat in a place with reclining seats like I go outside the city and I used
+[01:05:17.280 --> 01:05:21.440]  Apple Maps just to you know route me around I know how to get there but just take me around
+[01:05:21.440 --> 01:05:27.740]  traffic and stuff like that and I think it's gotten so much better as so much obvious Apple
+[01:05:27.740 --> 01:05:33.200]  Maps has gotten so much obviously better in recent years about little things like telling
+[01:05:33.200 --> 01:05:38.880]  you ahead of time which lane you want to get into for an exit and explaining the words
+[01:05:38.880 --> 01:05:45.400]  that are used to tell you about like a complicated exit like that exit with like two exits you
+[01:05:45.400 --> 01:05:53.780]  right like you can make the the sharper right to go one way and a lesser sloping right-hand
+[01:05:53.780 --> 01:05:59.860]  turn to go a different way it's described better than I just described it you know telling
+[01:05:59.860 --> 01:06:05.900]  you which which one you want to take it they're obviously improving Apple Maps terrifically
+[01:06:05.900 --> 01:06:10.120]  but it's also the case that Google Maps is being improved at the same rate if not more
+[01:06:10.120 --> 01:06:18.440]  and so is remaining ahead overall I think right because Google Google tends to have
+[01:06:18.440 --> 01:06:22.760]  have done lane guidance sooner and you know all of those things I use I use Apple Maps
+[01:06:22.760 --> 01:06:28.080]  most of the time but I use Google Maps sometimes too and and they're you know there it is it's
+[01:06:28.080 --> 01:06:33.640]  fun to watch because it is an arms race but I agree that Google is is ahead but it's not
+[01:06:33.640 --> 01:06:40.100]  true that Apple is is not improving that service they are improving it all the time I think
+[01:06:40.100 --> 01:06:44.040]  that the to tie it all together though I and again I'm with you that putting the building's
+[01:06:44.040 --> 01:06:49.260]  shapes on the map I think it's interesting I am a very visual person and so I do tend
+[01:06:49.260 --> 01:06:56.280]  to navigate by landmarks and I know a lot of people do and I think I do find it useful
+[01:06:56.280 --> 01:07:01.640]  I would find it useful to have like a recognizable building shape on the map is it essential
+[01:07:01.640 --> 01:07:06.700]  or probably not but I think where the magic would tie it together is with self-driving
+[01:07:06.700 --> 01:07:13.400]  cars and I know Neil I Patel has to mention him again as mentioned this a lot of the times
+[01:07:13.400 --> 01:07:20.340]  that it's like it the biggest problem with like uber and lyft and other car companies
+[01:07:20.340 --> 01:07:26.840]  is often getting the exact right spot to get picked up and there's so many buildings like
+[01:07:26.840 --> 01:07:33.560]  in New York when Eli is in here in Philadelphia where the address of the building you're in
+[01:07:33.560 --> 01:07:38.440]  isn't doesn't correspond exactly to where you are to get picked up maybe you're a nice
+[01:07:38.440 --> 01:07:48.200]  you know you're on this side Street and the example that Justin O'Byrne gets into is that
+[01:07:48.200 --> 01:07:53.920]  combined with Street View where the machine learning can pick up doors you can combine
+[01:07:53.920 --> 01:07:59.840]  this with you know the map data to not just know the address and the location of a building
+[01:07:59.840 --> 01:08:06.160]  but the location of the doors at a building and that that's a huge that you know that
+[01:08:06.160 --> 01:08:13.620]  that could really change things in the car service business right right I feel that way
+[01:08:13.620 --> 01:08:19.480]  I mean Google has gotten much better about where businesses are in like shopping malls
+[01:08:19.480 --> 01:08:23.200]  and strip malls where you've ever done that I do that sometimes when we're taking a long
+[01:08:23.200 --> 01:08:28.800]  drive to LA or something and we're we're getting dinner in way out in the extreme East Bay
+[01:08:28.800 --> 01:08:31.820]  where we used to live we don't live there anymore and there's a there's a you know let's
+[01:08:31.820 --> 01:08:37.680]  go to the burger place here on our way out and you know map apps can are like oh it's
+[01:08:37.680 --> 01:08:42.660]  in that center right but some of these places are huge and that's the thing that I think
+[01:08:42.660 --> 01:08:47.860]  I've noticed getting better especially with Google but Apple is catching up again is instead
+[01:08:47.860 --> 01:08:52.800]  of just sort of sending you to the center and then saying good luck look for the sign
+[01:08:52.800 --> 01:08:57.460]  that I've noticed now that these services are much better at like no it's in this corner
+[01:08:57.460 --> 01:09:01.460]  like you know exactly where to drive to get to the thing you want to buy and that didn't
+[01:09:01.460 --> 01:09:05.360]  used to be the case that they used to just kind of use your street address and mark it
+[01:09:05.360 --> 01:09:10.240]  on a map and then and then kick you out and that isn't happening anymore so it's all it's
+[01:09:10.240 --> 01:09:15.520]  all getting better I think it's I think it's really exciting and and yeah so so people
+[01:09:15.520 --> 01:09:19.720]  should read those articles and look at those animations they're amazing yeah Apple's made
+[01:09:19.720 --> 01:09:25.560]  a big push at mapping the interior of airports and I know they just added a bunch more super
+[01:09:25.560 --> 01:09:35.600]  useful very very useful because again knowing that there is a you know like a five guys
+[01:09:35.600 --> 01:09:41.400]  in the airport and yeah we everybody I'm with yeah we could all go for five guys but where
+[01:09:41.400 --> 01:09:46.280]  we know it's somewhere in the airport but is it even vaguely near our terminal you know
+[01:09:46.280 --> 01:09:51.520]  knowing stuff like that used to have to like find the airport website or like maybe your
+[01:09:51.520 --> 01:09:57.960]  airport app has the map and all of that and now Apple Maps and Google Maps have they generally
+[01:09:57.960 --> 01:10:01.480]  have that stuff now where you can I both of them where you can look and be like oh that's
+[01:10:01.480 --> 01:10:08.520]  where the that's where the burger place is we can just walk down there anything else
+[01:10:08.520 --> 01:10:13.040]  on the iPhone battery issue there's I how about the $50 discount on battery replacement
+[01:10:13.040 --> 01:10:21.560]  that's pretty interesting it reminds me it's a I'm surprised by it but now that I think
+[01:10:21.560 --> 01:10:26.860]  about it I'm not surprised because it's a typical Apple move when they actually recognize
+[01:10:26.860 --> 01:10:32.160]  that they've made a mistake like didn't they give out bumpers with bumper cases during
+[01:10:32.160 --> 01:10:35.880]  antenna gate yep that was it that's what it reminded me of to the same thing which is
+[01:10:35.880 --> 01:10:40.420]  like oh right okay we saw it we're sorry you feel bad we're gonna of course they only say
+[01:10:40.420 --> 01:10:45.480]  it's 2018 I mean let's see where this goes I kind of feel like maybe they ought to do
+[01:10:45.480 --> 01:10:52.240]  like a battery warranty or offer some sort of like extended battery replacement in general
+[01:10:52.240 --> 01:10:57.320]  but regardless offering it for 29 instead of 79 this is the difference between sort
+[01:10:57.320 --> 01:11:01.920]  of all right if you really want a new battery we'll put it in there to saying look if you're
+[01:11:01.920 --> 01:11:07.900]  having problems and we can check and see that your battery is aging then you know and we
+[01:11:07.900 --> 01:11:12.960]  agree yes $29 you get a new battery yeah that's good you know what the word that they used
+[01:11:12.960 --> 01:11:20.280]  is consumable that batteries are consumable components and part of the communication problem
+[01:11:20.280 --> 01:11:26.840]  up till now is that Apple has never said that before and they're the entirely sealed design
+[01:11:26.840 --> 01:11:34.800]  of the iPhone certainly suggests that it's not a consumable component you know it's your
+[01:11:34.800 --> 01:11:38.560]  iPhone is sealed up you can't get it anything in there and so it's reasonable to expect
+[01:11:38.560 --> 01:11:49.080]  that like the CPU which doesn't you know wear out over time or the RAM or the SSD storage
+[01:11:49.080 --> 01:11:52.840]  or anything else that's in there you know you don't have to get your speakers replaced
+[01:11:52.840 --> 01:12:01.000]  after two years because they're at 50% capacity right the battery is the odd consumable component
+[01:12:01.000 --> 01:12:09.240]  it you know treating it differently than other things I think is justified in the replacement
+[01:12:09.240 --> 01:12:13.640]  you know that I forget what it costs now to replace a screen but screens are obviously
+[01:12:13.640 --> 01:12:17.380]  something that needs to be replaced often because they're made out of glass phones get
+[01:12:17.380 --> 01:12:24.760]  dropped and the screens crack it's you know it's a one of the top issues related to these
+[01:12:24.760 --> 01:12:31.880]  devices industry-wide another one of those things that someday you know Scotty's gonna
+[01:12:31.880 --> 01:12:36.620]  come back from the future and invent clear aluminum for us and exactly we're gonna have
+[01:12:36.620 --> 01:12:44.720]  some kind of display that doesn't crack and we're gonna look back at the decades where
+[01:12:44.720 --> 01:12:49.600]  cracking your phone was a common problem and think my god we were living in caveman times
+[01:12:49.600 --> 01:12:56.400]  but for now that's there but people get that right and I think that the way I think the
+[01:12:56.400 --> 01:13:02.240]  price is around like a hundred bucks now for an authorized screen replacement varies based
+[01:13:02.240 --> 01:13:07.000]  on what the what the device is it's certainly a major reason why people get the extended
+[01:13:07.000 --> 01:13:11.140]  warranty they get the extended Apple care on their phones because they either have first-hand
+[01:13:11.140 --> 01:13:15.700]  experience breaking the screen and wanting to get it replaced you know it's cheaply as
+[01:13:15.700 --> 01:13:19.760]  possible or there even if they haven't done it they're just worried about it because they
+[01:13:19.760 --> 01:13:25.600]  know it's an issue I think the battery needs different a different treatment because it
+[01:13:25.600 --> 01:13:29.720]  wears out through you know if you drop your phone you at least know you've your fault
+[01:13:29.720 --> 01:13:34.700]  well I dropped it I did you know I wish that it was made of different materials so it wouldn't
+[01:13:34.700 --> 01:13:38.280]  break when I dropped it but I did drop it whereas the battery wears out if you treat
+[01:13:38.280 --> 01:13:44.440]  the phone perfectly like you can do nothing wrong except use it and the battery will wear
+[01:13:44.440 --> 01:13:51.200]  out seventy nine bucks isn't a lot but it's a big difference from twenty nine bucks twenty
+[01:13:51.200 --> 01:13:56.600]  nine bucks is great I mean and for an authorized battery replacement I really I think that's
+[01:13:56.600 --> 01:14:02.600]  a great move on Apple's part I can only guess that that's actually a bit of a loss for Apple
+[01:14:02.600 --> 01:14:07.960]  I mean I don't know what the actual battery costs them component wise but the labor alone
+[01:14:07.960 --> 01:14:14.880]  and if it takes you know however long it takes the the tech person in the store to do it
+[01:14:14.880 --> 01:14:19.000]  twenty nine bucks is pushing the limits on just what the labor alone would cost I would
+[01:14:19.000 --> 01:14:26.200]  think yeah it's I mean maybe it's break even maybe it's not but I think there's this this
+[01:14:26.200 --> 01:14:31.000]  I went back and forth with with a bunch of people on Twitter and including Neelay about
+[01:14:31.000 --> 01:14:35.100]  this after he tweeted that that link to my article which which did I mean to be fair
+[01:14:35.100 --> 01:14:42.600]  in two thousand seven in that interview Greg Joswiak basically says they're not consumables
+[01:14:42.600 --> 01:14:46.280]  don't think of them that way don't worry about it and this is a shift in Apple saying all
+[01:14:46.280 --> 01:14:51.300]  right let's just let's just be clear and not pretend but anyway in the Twitter in the Twitter
+[01:14:51.300 --> 01:14:55.700]  back and forth there was this question of like you know Apple wants to make money totally
+[01:14:55.700 --> 01:15:02.160]  their profit making company but what's the value of feeling like they're taking care
+[01:15:02.160 --> 01:15:05.760]  of you and providing good customer service and looking out for their customers and I
+[01:15:05.760 --> 01:15:13.360]  I firmly believe that at the highest levels inside Apple they believe that taking care
+[01:15:13.360 --> 01:15:18.400]  of that person who bought an iPhone three years ago is absolutely imperative and that
+[01:15:18.400 --> 01:15:23.700]  what they don't want is anybody to Apple to have a reputation that if you you know use
+[01:15:23.700 --> 01:15:27.440]  your phone for more than two years it's going to be terrible because Apple hates you like
+[01:15:27.440 --> 01:15:31.240]  they want that they legitimately want that to be a good experience even if you're using
+[01:15:31.240 --> 01:15:37.680]  an older phone and I think you know that is so because of that like saying okay it's going
+[01:15:37.680 --> 01:15:43.340]  to be 29 it's going to be easier we're going to that's the value of investing if this even
+[01:15:43.340 --> 01:15:48.520]  if it is a loss or if it's a break-even in investing in your customers and making them
+[01:15:48.520 --> 01:15:52.000]  feel happy because they're going to feel it's the miracle on 34th Street thing right it's
+[01:15:52.000 --> 01:15:57.040]  like you the good customer service isn't always looking out to sell you your next thing it's
+[01:15:57.040 --> 01:16:02.300]  to it's to make the customer feel like they're happy to be a customer of yours and that that
+[01:16:02.300 --> 01:16:08.720]  builds loyalty so I think this is a case where may you know Apple retail not necessarily
+[01:16:08.720 --> 01:16:14.280]  structured to see the forest for the trees and it's like we can make a profit on this
+[01:16:14.280 --> 01:16:19.420]  and we can also drive people to new sales which we want and and that's great I mean
+[01:16:19.420 --> 01:16:23.920]  I don't want Apple to stop selling iPhones because everybody can use them for seven years
+[01:16:23.920 --> 01:16:28.560]  they you know people want new iPhones and want to push it forward but I do think this
+[01:16:28.560 --> 01:16:35.040]  is a case where you know Apple is pushing back a little bit and saying no no no it's
+[01:16:35.040 --> 01:16:38.780]  we should make it easy for people with a three-year-old phone to get their battery swapped out we
+[01:16:38.780 --> 01:16:45.840]  should not get in their way and by lowering the price by 50 bucks at least for 2018 that
+[01:16:45.840 --> 01:16:50.400]  does that and you know I also think this story just helps in the sense that it makes everybody
+[01:16:50.400 --> 01:16:55.120]  understand that you can take your phone to an Apple store or an authorized or even other
+[01:16:55.120 --> 01:16:59.040]  unauthorized person and swap out your battery and get a new battery which I think a lot
+[01:16:59.040 --> 01:17:05.200]  of people don't think about that so this is educated people in that way too another
+[01:17:05.200 --> 01:17:12.840]  thing I wanted to bring up and it is that it seems like somehow in the course of this
+[01:17:12.840 --> 01:17:18.260]  story everybody with a slow iPhone not everybody but a lot of people with slow iPhones are
+[01:17:18.260 --> 01:17:24.760]  now convinced that this is the one and only reason that an iPhone can become slow aha
+[01:17:24.760 --> 01:17:30.240]  this is it right aha I knew it was something and it's this deliberate scheme and and it's
+[01:17:30.240 --> 01:17:36.380]  not it really isn't and especially if you got a fully charged your phone is fully charged
+[01:17:36.380 --> 01:17:41.020]  and you've just restarted it and you open it up and it takes five seconds for the camera
+[01:17:41.020 --> 01:17:46.640]  app to go from when you tap the icon to when you actually get it that is almost certainly
+[01:17:46.640 --> 01:17:53.680]  not this throttling feature in the OS something else is wrong with your phone and I've linked
+[01:17:53.680 --> 01:17:58.200]  to it on during fireball it's just one anecdote but I had tons of people on Twitter have said
+[01:17:58.200 --> 01:18:03.200]  the same thing where somebody wrote a blog post and they went to the they saw that they
+[01:18:03.200 --> 01:18:07.560]  have a slow iPhone 6s or 6 and they took it to the store because aha it's the battery
+[01:18:07.560 --> 01:18:12.760]  issue and the guy plugged it in and said nope your batteries at like 85% it's you know well
+[01:18:12.760 --> 01:18:17.920]  within normal range nothing wrong with the battery but his iPhone was truly slow and
+[01:18:17.920 --> 01:18:23.680]  exasperated he went home and he raced it you know back to factory settings and then restored
+[01:18:23.680 --> 01:18:29.640]  from a backup and wow his phone was suddenly like it was he remembered when it was new
+[01:18:29.640 --> 01:18:37.820]  it was fast again I I keep mentioning it because I I just wanted it it I think there's more
+[01:18:37.820 --> 01:18:41.720]  people with slow iPhones for other reasons than this battery issue than there are who
+[01:18:41.720 --> 01:18:47.240]  have the battery issue or at least it's as many and I almost think it's a problem you
+[01:18:47.240 --> 01:18:51.560]  mentioned it before I almost think like that the thing we're not talking about is the bigger
+[01:18:51.560 --> 01:19:00.960]  problem is that iOS seems to have a systemic year after year problem of needing to be wiped
+[01:19:00.960 --> 01:19:06.960]  and reinstalled you know which was always the knock against Windows as compared to Mac
+[01:19:06.960 --> 01:19:13.240]  you know that Max you can have you know just upgrade to new versions and keep going and
+[01:19:13.240 --> 01:19:20.680]  you don't have to you know wipe and reinstall is not part of the normal lifespan of a Mac
+[01:19:20.680 --> 01:19:25.320]  and it's not normal for iPhones either I honest I've been thinking about it and I can't prove
+[01:19:25.320 --> 01:19:32.640]  it but to my the best of my recollection the iPhone 10 in my right jeans pocket right now
+[01:19:32.640 --> 01:19:41.240]  has a chain going back to the first iPhone that I bought it at the end of June July 2007
+[01:19:41.240 --> 01:19:48.200]  I believe that my personal iPhone has been upgraded every single year since then through
+[01:19:48.200 --> 01:19:53.380]  multiple devices sometimes by you know putting a review unit in in the mix before I bought
+[01:19:53.380 --> 01:19:59.320]  my own phone and there's nothing on you know if I thought my phone was running slow I would
+[01:19:59.320 --> 01:20:05.680]  certainly wipe and reinstall but it's obviously not everybody and you know my upgrade chain
+[01:20:05.680 --> 01:20:14.080]  goes back to 2007 I'm almost certain but obviously some people it does and and that's you know
+[01:20:14.080 --> 01:20:19.240]  I feel like and it's happened been that case for years that people and it's all over the
+[01:20:19.240 --> 01:20:24.440]  place too I've heard people say like I've seen this to where I my wife's phone was running
+[01:20:24.440 --> 01:20:29.880]  slow and she got a new phone and we were gonna hand it down to my daughter and I and I but
+[01:20:29.880 --> 01:20:36.160]  I was concerned about the slowness and I wiped it and restarted it and it was far more responsive
+[01:20:36.160 --> 01:20:40.840]  it was fine right and I had that moment like well that's weird I've heard from people who
+[01:20:40.840 --> 01:20:47.120]  well that can happen but if you you know if you wipe it but don't restore but I've also
+[01:20:47.120 --> 01:20:50.440]  heard from people who if you wipe and restore it's fine and I've also heard from people
+[01:20:50.440 --> 01:20:54.880]  who say well it's fine for a while and then maybe it slows down again so I feel like there
+[01:20:54.880 --> 01:21:01.320]  are bugs here though I feel like something is absolutely here and and this combined with
+[01:21:01.320 --> 01:21:05.400]  sort of the general trend whenever you have a new operating system to optimize it for
+[01:21:05.400 --> 01:21:09.960]  the latest and greatest hardware and not worry so much about the old hardware I feel like
+[01:21:09.960 --> 01:21:15.540]  these are are similar in the sense that you know again Apple's not sabotaging your phone
+[01:21:15.540 --> 01:21:24.540]  but I don't think enough attention is paid at Apple to issues with two or three year
+[01:21:24.540 --> 01:21:32.360]  old hardware yeah I think on iOS and it's been years it really is and I do I think it
+[01:21:32.360 --> 01:21:39.200]  actually works against Apple's own interests like Apple genuinely wants people to be running
+[01:21:39.200 --> 01:21:46.880]  the latest version of iOS like I don't I don't even see how anybody could say the contrary
+[01:21:46.880 --> 01:21:52.140]  given the way that within a few weeks of it coming out everybody who hasn't upgraded gets
+[01:21:52.140 --> 01:21:58.500]  a very prominent alert saying hey wouldn't you like to upgrade to the latest version
+[01:21:58.500 --> 01:22:03.620]  of iOS you just click this button and we'll do it overnight you know it's it's very easy
+[01:22:03.620 --> 01:22:11.980]  to almost accidentally agree to upgrade to iOS you know iOS whatever point oh the new
+[01:22:11.980 --> 01:22:18.680]  version and right I feel like there's a lot of people out there who at some point a year
+[01:22:18.680 --> 01:22:25.560]  ago two three whatever years ago had an iPhone that they thought was working great and got
+[01:22:25.560 --> 01:22:33.220]  a prompt to upgrade and said sure why not and then felt like their phone degraded significantly
+[01:22:33.220 --> 01:22:38.060]  and thought well I'm never doing that again I really do I mean I hear from people I think
+[01:22:38.060 --> 01:22:42.540]  people who read during fireball and read six colors and listen to the show or you know
+[01:22:42.540 --> 01:22:46.900]  less likely to do that I mean but I feel like there's an awful lot of normal people out
+[01:22:46.900 --> 01:22:53.780]  there who got burned once and then won't do it again and I really do my my mom and I think
+[01:22:53.780 --> 01:22:59.220]  a lot of people are like her when I was seven happened which was such a dramatic change
+[01:22:59.220 --> 01:23:04.940]  in the interface and she still feels burned by that like to the point where she used to
+[01:23:04.940 --> 01:23:08.500]  I got her in the habit of she would ask like oh there's an update I'd say yeah just you
+[01:23:08.500 --> 01:23:13.880]  should always install the updates and after that not only didn't she not ask until I visited
+[01:23:13.880 --> 01:23:18.580]  her or she visited me she would not upgrade and then she'd say well while you're here
+[01:23:18.580 --> 01:23:24.780]  you can decide if you want to do this or not and it was it was entirely because iOS 7 was
+[01:23:24.780 --> 01:23:28.500]  so dramatically different again lots of good reasons why I was seven was different there
+[01:23:28.500 --> 01:23:33.900]  but this is about taking something that seemed familiar and making it seem completely foreign
+[01:23:33.900 --> 01:23:38.120]  and people felt burned and so they're like no forget it I don't trust Apple anymore with
+[01:23:38.120 --> 01:23:42.900]  updates and it's been years now and I don't think that took Apple by surprise I think
+[01:23:42.900 --> 01:23:48.140]  Apple knew that there's some people would have that reaction to it and it it's one of
+[01:23:48.140 --> 01:23:51.980]  those things that separates Apple from other companies like that's why most other companies
+[01:23:51.980 --> 01:23:59.500]  never do something like that like issue a this year's iPhone iOS looks entirely different
+[01:23:59.500 --> 01:24:05.780]  like literally every single pixel you encounter from the time the screen turns on to when
+[01:24:05.780 --> 01:24:12.780]  you power it down will look different that's why other companies don't do things like that
+[01:24:12.780 --> 01:24:18.420]  because some people object to it and you can't please everybody all the time right and so
+[01:24:18.420 --> 01:24:25.020]  like the people who prefer the way iOS 7 looked to the way iOS 6 looked didn't know what iOS
+[01:24:25.020 --> 01:24:30.100]  7 looked like and therefore weren't complaining while iOS 6 was the current version because
+[01:24:30.100 --> 01:24:37.100]  they hadn't seen it right it's the nature of of you know human beings that it's a lot
+[01:24:37.100 --> 01:24:40.780]  more likely to complain about something that changed than to complain about something that
+[01:24:40.780 --> 01:24:46.700]  hasn't changed so I definitely think that's the case and I I think you're exactly spot
+[01:24:46.700 --> 01:24:52.300]  on that there's something systemic in Apple where they're not looking at enough of what
+[01:24:52.300 --> 01:24:59.340]  goes on when a phone gets updated under less than factory conditions like if I sort of
+[01:24:59.340 --> 01:25:03.640]  feel like what Apple should do and maybe they are doing this I don't know but I feel like
+[01:25:03.640 --> 01:25:10.640]  when people come in to the store with a fairly recent iPhone like let's say this iPhone 6
+[01:25:10.640 --> 01:25:17.060]  or a 6s that should be running fine and they can show the Genius Bar tech look this is
+[01:25:17.060 --> 01:25:22.580]  really slow and before you even plug it in and run any diagnostics I feel like if you
+[01:25:22.580 --> 01:25:27.440]  can you know like yeah if the camera app takes seven seconds to load that's a problem I feel
+[01:25:27.440 --> 01:25:33.000]  like Apple should be collecting those phones as like evidence sealing them in a bag give
+[01:25:33.000 --> 01:25:37.800]  the customer something you know a replacement you know give give you know eat the cost of
+[01:25:37.800 --> 01:25:45.500]  just swapping it out with a different phone and sending that to Cupertino for like a dissection
+[01:25:45.500 --> 01:25:50.560]  and figure out what the hell is making this phone slow or at least pull off like logs
+[01:25:50.560 --> 01:25:55.100]  and diagnostics and things and see if you can see if you can do it I would go one better
+[01:25:55.100 --> 01:25:59.860]  and I know that they again they made they may have a team that does this but like when
+[01:25:59.860 --> 01:26:04.020]  so obviously they're working on iOS 12 now that process is starting and they'll have
+[01:26:04.020 --> 01:26:10.780]  a beta in six months and they'll ship it in nine months they should have people on that
+[01:26:10.780 --> 01:26:16.740]  team whose job it is to be worried and I'm sure they do about compatibility issues at
+[01:26:16.740 --> 01:26:22.440]  some point people working on iOS 12 ought to be forced essentially to have their main
+[01:26:22.440 --> 01:26:28.360]  phone be a 6 or a 6s yes I do for during the development period right and and be like your
+[01:26:28.360 --> 01:26:34.540]  job one of your jobs is to see what is wrong on this lower end hardware not just sort of
+[01:26:34.540 --> 01:26:38.800]  like abstract layer with a unit that you keep floating around the lab but like our customers
+[01:26:38.800 --> 01:26:43.680]  live with are going to live with the six on iOS 12 you know we need to make sure that
+[01:26:43.680 --> 01:26:48.600]  experience is good and if that means aggressively turning off features or muting features reducing
+[01:26:48.600 --> 01:26:53.000]  their effectiveness on older hardware like they do on the Mac right where you can run
+[01:26:53.000 --> 01:26:57.660]  High Sierra and on older Macs you can't do airdrop right right I think maybe Apple needs
+[01:26:57.660 --> 01:27:01.860]  to be more aggressive in doing that in older phones because the goal is they want for security
+[01:27:01.860 --> 01:27:07.440]  reasons they want them all on 12 for a way a long way back and great bless them fantastic
+[01:27:07.440 --> 01:27:12.680]  they're not going to abandon them like a lot of Android phone users get abandoned but the
+[01:27:12.680 --> 01:27:19.080]  trade-off there is if you want them to come along to iOS 12 next year you gotta make it
+[01:27:19.080 --> 01:27:27.020]  usable for them otherwise you shouldn't migrate them yeah the cutoff for what phones are eligible
+[01:27:27.020 --> 01:27:32.600]  for iOS latest should correspond directly to which phones are capable of running it
+[01:27:32.600 --> 01:27:38.600]  well like well enough that you somebody at Apple who knows what it's like to use the
+[01:27:38.600 --> 01:27:45.900]  newest iPhone can live with it for two weeks you know I so I feel like there's two levels
+[01:27:45.900 --> 01:27:52.480]  of it like the first level is when iOS is functioning perfectly on the device like let's
+[01:27:52.480 --> 01:28:00.180]  just save after a factory reset in you install iOS 12 beta one on it is it fast is it fast
+[01:28:00.180 --> 01:28:08.480]  enough is it as fast as it as iOS was when this phone was the new phone and then the
+[01:28:08.480 --> 01:28:14.880]  second level is the bugs that are obviously not intentional and aren't going to show up
+[01:28:14.880 --> 01:28:21.640]  after a factory reset that only seemed to occur after an upgrade from a previous version
+[01:28:21.640 --> 01:28:26.840]  and identifying those bugs because it's two levels of complaint right and it's in they're
+[01:28:26.840 --> 01:28:33.360]  both legitimate but the one is that even under after a factory reset this these animations
+[01:28:33.360 --> 01:28:37.840]  are clearly stuttering in a way that they weren't when I was running the previous version
+[01:28:37.840 --> 01:28:44.760]  of iOS and you know how can you not feel burned that your phone a week ago had smooth animations
+[01:28:44.760 --> 01:28:49.200]  but when you go back to the home screen and now you've taken apples advice and upgraded
+[01:28:49.200 --> 01:28:55.760]  and now it's all stuttery and takes longer that's a problem right but then these bugs
+[01:28:55.760 --> 01:29:00.800]  that's the thing that I find worrisome is that these bugs with up major upgrades seem
+[01:29:00.800 --> 01:29:06.160]  to have been around for who knows it could be a hundred different bugs you know and different
+[01:29:06.160 --> 01:29:11.840]  bugs every year but still I really feel like there's way too many instances every single
+[01:29:11.840 --> 01:29:17.280]  year of people who follow me on Twitter saying oh man I just upgraded my two-year-old iPhone
+[01:29:17.280 --> 01:29:24.800]  and it everything sucks yeah and the the thing that really mystifies me is that if when it
+[01:29:24.800 --> 01:29:31.640]  is solvable by wiping and restoring from like an iCloud backup or an iTunes backup when
+[01:29:31.640 --> 01:29:37.720]  when that solves it then it's like okay yeah so it's not any of the files that got backed
+[01:29:37.720 --> 01:29:42.800]  up it's something else that's getting reset and not being backed up that is apparently
+[01:29:42.800 --> 01:29:47.760]  causing this and again you know I'm sure there are people at Apple who I'm sure their radars
+[01:29:47.760 --> 01:29:50.920]  I'm sure people have filed bugs on this I'm sure the people at Apple who have investigated
+[01:29:50.920 --> 01:29:58.180]  this stuff and they may know some of the details and and they may not but I have to ask has
+[01:29:58.180 --> 01:30:03.600]  it ever really been a high priority because that's one of those things where Apple I believe
+[01:30:03.600 --> 01:30:08.640]  Apple that it cares about the users of its products even the old ones but I also believe
+[01:30:08.640 --> 01:30:14.880]  that maybe the new hardware gets prioritized and the old hardware just kind of comes along
+[01:30:14.880 --> 01:30:18.260]  and they don't worry about it too much they don't sweat the details on on if you've got
+[01:30:18.260 --> 01:30:24.560]  a six or a success right whatever the minimum hardware is for iPhone 12 or iOS 12 Phil Schiller
+[01:30:24.560 --> 01:30:30.320]  should be able to use that phone running iOS 12 for a week and not call the you the engineering
+[01:30:30.320 --> 01:30:34.560]  team up and scream at them right I mean it doesn't have to be the best it's not gonna
+[01:30:34.560 --> 01:30:41.600]  be an iPhone 10 but it should be usable like it should be usable and I've seen like my
+[01:30:41.600 --> 01:30:47.940]  my wife's phone before we wiped it and gave it to my daughter it was amazing like I would
+[01:30:47.940 --> 01:30:56.880]  tap apps and then it just was like molasses just like it was not usable it was it was
+[01:30:56.880 --> 01:31:02.400]  really bad and it just you know a wipe and it was fine and it just I don't know you know
+[01:31:02.400 --> 01:31:06.720]  there's obviously something there anyway yeah we've said enough but it Apple should fix
+[01:31:06.720 --> 01:31:12.460]  it anything else what else we have on this battery issue I have we expanded everything
+[01:31:12.460 --> 01:31:17.560]  I think I think it's pretty close I feel like I feel like it I mean this is this is one
+[01:31:17.560 --> 01:31:20.900]  of the challenges with the internet is that there's a lot of nuance to this story and
+[01:31:20.900 --> 01:31:27.640]  it can be ironed out to be the the Australian battery scam if you want to flatten it to
+[01:31:27.640 --> 01:31:31.660]  that but that's it's way more complicated and Apple is complicit in some things but
+[01:31:31.660 --> 01:31:35.760]  not the things people think they are and so you know you you get accused of sort of like
+[01:31:35.760 --> 01:31:39.680]  whitewashing and forgiving Apple and it's like no Apple made a lot of mistakes at various
+[01:31:39.680 --> 01:31:44.320]  points in this it's just not necessarily the mistakes that they're being accused of so
+[01:31:44.320 --> 01:31:51.320]  yeah it's the internet everything gets flattened down to the battery scam all right let me
+[01:31:51.320 --> 01:31:55.960]  take a break here and thank our third and final sponsor of the show our good friends
+[01:31:55.960 --> 01:32:06.160]  at Eero Eero E-E-R-O Eero makes Wi-Fi systems for your home or your office and they are
+[01:32:06.160 --> 01:32:13.000]  just terrific terrific products they offer more speed and more range than competing products
+[01:32:13.000 --> 01:32:19.360]  and with really nice elegant design that it I hate to say it but really almost Apple like
+[01:32:19.360 --> 01:32:25.160]  design in terms of just being little white devices that you just don't mind having invisible
+[01:32:25.160 --> 01:32:31.400]  in your house they've got the brand new second generation part product now the second generation
+[01:32:31.400 --> 01:32:36.800]  Eero which just came out a few months ago has a third 5 gigahertz radio so it's now
+[01:32:36.800 --> 01:32:43.980]  tri-band and it's twice as fast as its predecessor which was a plenty fast system so it's really
+[01:32:43.980 --> 01:32:49.160]  a terrific upgrade of something that already was terrific and the whole idea with Eero
+[01:32:49.160 --> 01:32:54.520]  versus a traditional router is that instead of having one router that has a powerful antenna
+[01:32:54.520 --> 01:32:59.520]  that tries to extend the Wi-Fi throughout your entire house or office or whatever wherever
+[01:32:59.520 --> 01:33:04.400]  you're trying to provide Wi-Fi you get multiple devices and they work in what's called a mesh
+[01:33:04.400 --> 01:33:10.400]  network together to blanket your house with Wi-Fi so if you're like me and you live in
+[01:33:10.400 --> 01:33:16.320]  a townhouse and I right now I'm recording a podcast in the basement and I'm talking
+[01:33:16.320 --> 01:33:20.680]  to you I don't have Ethernet down here I'm talking to you over in the Eero Wi-Fi system
+[01:33:20.680 --> 01:33:25.920]  you can if you can hear me and Jason can hear me it's thanks to Eero and I've got a fourth
+[01:33:25.920 --> 01:33:33.560]  floor bedroom where we've got another Eero up there and before I had Eero I used to you
+[01:33:33.560 --> 01:33:38.520]  know our bedroom had terrible Wi-Fi really did because I had it I worked downstairs and
+[01:33:38.520 --> 01:33:44.200]  so that's where and we tended to live downstairs and so that's where I had it configured to
+[01:33:44.200 --> 01:33:49.320]  have the stronger Wi-Fi now it's terrific we have strong Wi-Fi every single floor of
+[01:33:49.320 --> 01:33:53.000]  the house really great now the other thing that they've got in the new second generation
+[01:33:53.000 --> 01:33:58.540]  system is what they call Eero beacons and the Eero beacon is half the size of the regular
+[01:33:58.540 --> 01:34:03.280]  Eero base station thing which is pretty small sort of like an Apple TV size thing but the
+[01:34:03.280 --> 01:34:09.900]  beacon is even smaller and it just plugs right into the wall outlet like a nightlight and
+[01:34:09.900 --> 01:34:15.900]  even has an actual LED nightlight so you can use it as a nightlight and if you don't want
+[01:34:15.900 --> 01:34:21.640]  it to work as a nightlight you can turn that off too using the absolutely terrific Eero
+[01:34:21.640 --> 01:34:27.480]  app you just put the Eero app on your phone you can manage the whole network and it's
+[01:34:27.480 --> 01:34:32.680]  really really consumer friendly it's not like managing you think like if I've got like three
+[01:34:32.680 --> 01:34:36.420]  of these devices around my house aren't I turning into a network manager it's not like
+[01:34:36.420 --> 01:34:43.120]  that all the configuration all happens automatically super simple you just look in the app and
+[01:34:43.120 --> 01:34:47.440]  it you know tells you everything that's going on it's so easy it's easy to add another one
+[01:34:47.440 --> 01:34:51.640]  later on if you want like if you've already got an older Eero system you can just buy
+[01:34:51.640 --> 01:34:57.840]  the second generation stuff and just plug them in really really great easy to manage
+[01:34:57.840 --> 01:35:03.440]  it's everything's protected with state-of-the-art WPA to encryption so you're safe it's it's
+[01:35:03.440 --> 01:35:11.440]  the state-of-the-art for for consumer Wi-Fi security I love the product I really do I
+[01:35:11.440 --> 01:35:18.320]  do think I think it only works in the U.S. and Canada you got to check that out for more
+[01:35:18.320 --> 01:35:25.960]  information on that and we've got a special offer here for you the talk show use that
+[01:35:25.960 --> 01:35:33.880]  code the talk show and you will get free shipping to the U.S. or Canada you can visit your dot
+[01:35:33.880 --> 01:35:38.720]  com at check and at checkout select overnight shipping and then enter that code the talk
+[01:35:38.720 --> 01:35:42.960]  show to make that free so you're listening to this now you could have one at your doorstep
+[01:35:42.960 --> 01:35:49.400]  tomorrow for free it's really really amazing so my thanks to hero go to hero dot com and
+[01:35:49.400 --> 01:35:59.880]  remember that code the talk show what else is going on this week Jason I got my iMac
+[01:35:59.880 --> 01:36:08.060]  pro oh interesting so I did I have not ordered I am not going to get one so what did you
+[01:36:08.060 --> 01:36:14.560]  order I well I had to talk myself into getting one because I had the first 5k iMac so it's
+[01:36:14.560 --> 01:36:19.040]  three years old and I thought they made a lot of progress since then I'm doing a lot
+[01:36:19.040 --> 01:36:23.480]  more kind of audio processing for podcasts and stuff like that I could really use the
+[01:36:23.480 --> 01:36:28.800]  faster and more pasta processor cores of the iMac pro but the oh I could only remotely
+[01:36:28.800 --> 01:36:36.520]  justify the base model so I have the base model that arrived arrived on Boxing Day so
+[01:36:36.520 --> 01:36:42.740]  a little late Christmas present I guess so it's eight eight dollars eight cores 32 gigabytes
+[01:36:42.740 --> 01:36:51.200]  of RAM yeah and one terabyte SSD I as I you know sat there I'm not getting one I'm not
+[01:36:51.200 --> 01:36:55.160]  Marco Arman I don't just say I'm not gonna get something and not get one I've still got
+[01:36:55.160 --> 01:37:02.820]  the 2014 the original 5k iMac yeah which is right behind me that's the one that I'm replacing
+[01:37:02.820 --> 01:37:07.520]  yeah and and I and it's an i7 I built I like I got the higher processor I did too it's
+[01:37:07.520 --> 01:37:11.400]  a really great computer it'll sell I'm gonna I'm gonna sell it it'll sell well it's it's
+[01:37:11.400 --> 01:37:18.200]  a great computer as I configured the imaginary iMac pro that I would get I thought well I
+[01:37:18.200 --> 01:37:23.320]  never get a Mac with base RAM I always for the last few years I've maxed whatever my
+[01:37:23.320 --> 01:37:28.360]  my MacBook Pro has the most RAM I could possibly put in it which is 16 gigabytes and my iMac
+[01:37:28.360 --> 01:37:33.080]  has the most RAM I could put in it which is 16 gigabytes at the time I believe that the
+[01:37:33.080 --> 01:37:37.880]  5k iMac right now you can get 32 but I have never I don't think I've ever bought base
+[01:37:37.880 --> 01:37:42.640]  RAM on any Mac ever and so I was configuring I'm like well I'm not gonna get the base RAM
+[01:37:42.640 --> 01:37:47.940]  I'm gonna and then all of a sudden I have got like an $11,000 thing yeah and I'm like
+[01:37:47.940 --> 01:37:51.680]  I never get the low I never get the base I always get like a middle config but with this
+[01:37:51.680 --> 01:37:55.960]  I got the base and I feel I feel like I'm I'm pushing it but I tried to configure you
+[01:37:55.960 --> 01:38:03.120]  know what I did I tried to configure the 5k iMac with a terabyte SSD 32 gigs of RAM and
+[01:38:03.120 --> 01:38:09.400]  like the i7 and you know it was like a thousand dollars away from the iMac Pro and I thought
+[01:38:09.400 --> 01:38:13.480]  all right I'm just gonna get the same thing I configured a brand new whatever that you
+[01:38:13.480 --> 01:38:18.800]  know the 5k regular iMac the silver iMac and when I got it the way I liked it it was like
+[01:38:18.800 --> 01:38:25.560]  $4,100 or $4,200 so it was without spitting distance of the $5,000 base config I the thing
+[01:38:25.560 --> 01:38:31.600]  I had to bang into my head is that the base config iMac Pro is nothing like a base config
+[01:38:31.600 --> 01:38:41.000]  regular iMac it's already a seriously Pro machine yeah it's not I actually wonder about
+[01:38:41.000 --> 01:38:45.920]  the Mac Pro this is something that I think I wrote a piece about this the other day that
+[01:38:45.920 --> 01:38:52.680]  I wonder where the Mac Pro will start because my guess is that the Mac Pro will start below
+[01:38:52.680 --> 01:38:59.240]  the iMac Pro and maybe even be less capable but will scale up to be way more capable and
+[01:38:59.240 --> 01:39:05.080]  whereas with the iMac Pro like yeah this is there's the 5k iMac is already basically a
+[01:39:05.080 --> 01:39:11.720]  pro system it doesn't have a Xeon in it but it's it's so powerful that they didn't need
+[01:39:11.720 --> 01:39:17.660]  to go lower with the i the iMac Pro like this is any lower than this and they're basically
+[01:39:17.660 --> 01:39:23.240]  scraping the top of the iMac line which why would you do that so I felt like the base
+[01:39:23.240 --> 01:39:27.220]  model here was was pretty good it is dangerous to listen to people like Marco though because
+[01:39:27.220 --> 01:39:32.360]  you end up in a situation where it sounds like if you are if your budget is a little
+[01:39:32.360 --> 01:39:37.980]  bit larger than mine that the 10 core model is is sort of a sweet spot in terms of single
+[01:39:37.980 --> 01:39:43.240]  and multi-core performance and then of course if you're a monster who just devours computer
+[01:39:43.240 --> 01:39:47.720]  processing power you can you can scale it up from there to 14 cores or whatever you
+[01:39:47.720 --> 01:39:52.420]  want to do but for me it was like I was either I made a deal with myself like if I do this
+[01:39:52.420 --> 01:39:58.080]  it's gonna be the base model or it or not at all because my old 5k iMac had 16 gigs
+[01:39:58.080 --> 01:40:04.940]  of RAM and it had a 512 SSD right so I and so for me it was like all of the base config
+[01:40:04.940 --> 01:40:10.360]  stuff is still way better than the computer that I have well it's just and so I did the
+[01:40:10.360 --> 01:40:16.960]  only accessory I bought was I like to have my iMac on a on an arm instead of sitting
+[01:40:16.960 --> 01:40:22.380]  on the desk and this one is is adaptable to that but you have to buy out like a seventy
+[01:40:22.380 --> 01:40:28.320]  nine dollar visa mount adapter that is coming tomorrow I guess and and then it'll be it'll
+[01:40:28.320 --> 01:40:33.000]  be floating above my desk as it should be the thing that made me laugh as I was configuring
+[01:40:33.000 --> 01:40:39.300]  my imaginary iMac Pro was that and as I up the RAM to 64 and because I don't want base
+[01:40:39.300 --> 01:40:45.200]  RAM is I realized that I'm not buying this because my current three-year-old iMac is
+[01:40:45.200 --> 01:40:52.480]  fast enough really truly I don't feel like there's anything I do on it that's slow yeah
+[01:40:52.480 --> 01:40:58.240]  and it has 16 gigs of RAM so obviously 32 gigs of RAM would actually clearly be quote
+[01:40:58.240 --> 01:41:04.600]  unquote enough for me it really didn't have to laugh at that and the other thing I would
+[01:41:04.600 --> 01:41:09.800]  think the other day where I said like look as a writer I can use a PowerBook 160 with
+[01:41:09.800 --> 01:41:16.740]  right now running OS 8 like like Mac OS 8 I putting letters into a computer does not
+[01:41:16.740 --> 01:41:21.280]  require a lot of processor power that is not a reason as a writer you don't I mean you
+[01:41:21.280 --> 01:41:26.160]  start giving graphics and things like that but as just putting words on a page you know
+[01:41:26.160 --> 01:41:29.000]  we don't we don't need this stuff it's the only reason I went here is because I'm doing
+[01:41:29.000 --> 01:41:33.020]  more audio and video stuff and that's that's where having a computer that's twice as fast
+[01:41:33.020 --> 01:41:38.680]  and I measured I measured on multi-core stuff it's almost twice as fast as the old model
+[01:41:38.680 --> 01:41:45.720]  it's like okay for for video encodes and audio denoise processing and things like that it's
+[01:41:45.720 --> 01:41:50.920]  gonna make a big difference that's why I bought it yeah and I think for anybody I don't edit
+[01:41:50.920 --> 01:42:00.260]  my podcast a good friend Caleb Sexton does or typically 99% of episodes but I don't think
+[01:42:00.260 --> 01:42:06.080]  I don't know if everybody who listens to podcasts realizes how CPU intensive the export process
+[01:42:06.080 --> 01:42:14.200]  is like it's not just like hitting command s and now you've got a mp3 that saved like
+[01:42:14.200 --> 01:42:18.360]  you know when you write command s in a text editor or something like that or like in QuickTime
+[01:42:18.360 --> 01:42:23.860]  like if you open up an audio file in QuickTime and trim and you know you can just hit command
+[01:42:23.860 --> 01:42:29.840]  s and it saves instantly as a file like the export process for like a podcast is pretty
+[01:42:29.840 --> 01:42:35.440]  intensive you've got multiple tracks and it's long probably applying applying plugins to
+[01:42:35.440 --> 01:42:40.640]  them and they're long and and and it adds up yeah I have these occasionally I'll have
+[01:42:40.640 --> 01:42:46.440]  like a three hour recording session and it's got five people on it and three of them have
+[01:42:46.440 --> 01:42:50.640]  like their heater going in the background or their laptop fan has spun up and so there's
+[01:42:50.640 --> 01:42:55.840]  white noise behind them and you know denoising and there's there's software there's this
+[01:42:55.840 --> 01:43:02.560]  amazing software called isotope rx6 that can take out room noise and it takes out echoes
+[01:43:02.560 --> 01:43:08.480]  in rooms it's amazing when it works it is like magic but that stuff is super processor
+[01:43:08.480 --> 01:43:15.040]  intense so if you can imagine denoising a three hour audio file and then de-echoing
+[01:43:15.040 --> 01:43:20.280]  it on top of that like that takes a long time and if you've got eight of those this is why
+[01:43:20.280 --> 01:43:23.880]  I bought an iMac Pro it's like you know what I'm gonna spend the extra money and I'm not
+[01:43:23.880 --> 01:43:31.080]  gonna have to sit there while I watch this stuff render or or denoise or whatever yeah
+[01:43:31.080 --> 01:43:38.880]  and it's the sort of thing it's just fun having used computers for so long where you know
+[01:43:38.880 --> 01:43:43.600]  you can remember like 25 years ago where you could maybe read an article and somebody could
+[01:43:43.600 --> 01:43:47.160]  have like a theoretical like you know in theory you could you could take the noise out of
+[01:43:47.160 --> 01:43:52.600]  an audio recording you know you know here's like a layman's explanation for the algorithm
+[01:43:52.600 --> 01:43:55.760]  and you're like oh that would be pretty clever and it would be like yeah it would take you
+[01:43:55.760 --> 01:44:03.640]  know take 10 years our fastest supercomputers could do it in less than a month like great
+[01:44:03.640 --> 01:44:07.720]  right that's wonderful isotope came in for a demo back when I worked in macworld so it's
+[01:44:07.720 --> 01:44:11.520]  a long time ago now and when they had just released their de-reverb feature and the way
+[01:44:11.520 --> 01:44:15.320]  they they do it is they sell like they sell a bundle for like a thousand dollars and another
+[01:44:15.320 --> 01:44:21.420]  one for 300 and another one for 50 and like the older stuff goes in the $50 one it slowly
+[01:44:21.420 --> 01:44:26.200]  comes down and the the de-reverb is now in the $300 one which I have but when they announced
+[01:44:26.200 --> 01:44:29.160]  it and when they were demoing it for me it was in the like thousand dollar package it
+[01:44:29.160 --> 01:44:33.920]  was hilarious because they're like well we have people who are really good at math and
+[01:44:33.920 --> 01:44:39.560]  they built this algorithm that like detects the reflections with the delays that of the
+[01:44:39.560 --> 01:44:43.840]  sound bouncing off of the walls and does a transform and they like they told me like
+[01:44:43.840 --> 01:44:50.740]  this whole story about how it works and you know it's true like it can it can do some
+[01:44:50.740 --> 01:44:55.800]  amazing things but the amount of processing that is required to do that is incredibly
+[01:44:55.800 --> 01:45:01.160]  intense it's amazing that a computer sitting on a desk or on the end of an arm in my case
+[01:45:01.160 --> 01:45:08.920]  can do that at all in our in our homes but it can now it's just super processor intense
+[01:45:08.920 --> 01:45:13.220]  and fortunately also you know parallelized so that they can send it to all those different
+[01:45:13.220 --> 01:45:16.440]  processor cores because that makes a difference I'll say the big the big difference between
+[01:45:16.440 --> 01:45:21.880]  this one and the iMac when I was testing it my 5k iMac is when I do heavy processor stuff
+[01:45:21.880 --> 01:45:26.320]  on the iMac and you'll know this too if you've ever done like a video in code like the fan
+[01:45:26.320 --> 01:45:30.320]  turns on and you can hear the fan the fan starts to blow and as far as I can tell on
+[01:45:30.320 --> 01:45:35.640]  the iMac Pro the fans always blowing but it's incredibly quiet you have to be listening
+[01:45:35.640 --> 01:45:39.000]  for it and you kind of have to turn the iMac around and stick your ear down there and then
+[01:45:39.000 --> 01:45:46.220]  you can hear it and when I started an intense in code or or de-noise what happens is I don't
+[01:45:46.220 --> 01:45:52.320]  hear any change to the fan sound it just the air blowing out is hotter that's it it's pretty
+[01:45:52.320 --> 01:45:53.320]  cool.
+[01:45:53.320 --> 01:45:58.240]  I was really impressed at the hands-on thing at Apple when they in New York a couple weeks
+[01:45:58.240 --> 01:46:03.320]  ago where they were running these high intensity demos over and over and over again you know
+[01:46:03.320 --> 01:46:08.640]  it was you know sort of around round robin you know you go from one demo 10 minutes next
+[01:46:08.640 --> 01:46:11.900]  one 10 minutes next one 10 minutes and they're just doing the same thing over and over again
+[01:46:11.900 --> 01:46:16.800]  and after every one I'd put my hand back there and and get my ear closer to see if I could
+[01:46:16.800 --> 01:46:22.360]  hear and I know what my iMac sounds like when in my iMac is generally very very I would
+[01:46:22.360 --> 01:46:27.800]  you know maybe Syracuse would obviously disagree but I would define it as silent to my ears
+[01:46:27.800 --> 01:46:32.800]  most of the time but I know what it sounds like when it's taxed in a perfectly silent
+[01:46:32.800 --> 01:46:39.320]  room and you listen very carefully you can hear something but it has to be like that
+[01:46:39.320 --> 01:46:47.100]  like most of the work I do I could work with music playing and when my iMac 5k iMac fan
+[01:46:47.100 --> 01:46:52.460]  blew on it was like even with the music playing it's like very clearly oh there goes the fan
+[01:46:52.460 --> 01:46:57.000]  now it's really working hard and just that level of background noise or having the door
+[01:46:57.000 --> 01:47:03.460]  open to the to the dining room in the kitchen here forget it like forget it I had to lay
+[01:47:03.460 --> 01:47:09.560]  my head down on the desk with my ear sticking kind of like back behind to get any hint that
+[01:47:09.560 --> 01:47:13.700]  that noise was going on and so that's that's pretty impressive and that's because it knows
+[01:47:13.700 --> 01:47:19.280]  I mean this thing is engineered for for all the thermal dynamics of these of this powerful
+[01:47:19.280 --> 01:47:24.340]  GPU and the powerful processor and so and it's got to work for a 14 core right so my
+[01:47:24.340 --> 01:47:29.840]  little 8 core thing it's not a it's not a problem it just it just gets warmer but it's
+[01:47:29.840 --> 01:47:37.500]  a good fan a good quiet fan so I it's just I really prefer it I much prefer to have that
+[01:47:37.500 --> 01:47:42.660]  then the oh there goes the fan now everybody can hear the fan and I you know ironically
+[01:47:42.660 --> 01:47:49.260]  as a podcast denoiser I can I mean I that's what I'm doing that makes my fan go is I'm
+[01:47:49.260 --> 01:47:53.780]  taking out everybody else's computer fans because that's like one of the noisiest thing
+[01:47:53.780 --> 01:47:58.000]  on a podcast is people are right next to their computer and they're running they're on a
+[01:47:58.000 --> 01:48:01.940]  laptop and after like 20 minutes the laptop is like okay I got to turn on the fan now
+[01:48:01.940 --> 01:48:05.360]  and then there's fan noise for the rest of the recording there's sort of a beautiful
+[01:48:05.360 --> 01:48:14.100]  symmetry to that that's right using a quiet computer to computationally ex-denoise noise
+[01:48:14.100 --> 01:48:20.460]  created by other noisy computers slower noisier computers yeah I'll take it on you do have
+[01:48:20.460 --> 01:48:23.880]  it set up you're already are you using it right now are you like talking to me I am
+[01:48:23.880 --> 01:48:28.240]  using it I am talking to you through it right now I have migrated I migrated on the day
+[01:48:28.240 --> 01:48:33.580]  are you do you use the trackpad or do you have the mouse which one did you get both
+[01:48:33.580 --> 01:48:37.980]  I got I got I should have gotten both because I could have sold them both I know I didn't
+[01:48:37.980 --> 01:48:43.740]  I just got the trackpad I and apparently Casey Liss is buying my keyboard because I have
+[01:48:43.740 --> 01:48:47.920]  no need for that keyboard for many reasons I the magic keyboard is okay but it's also
+[01:48:47.920 --> 01:48:52.200]  the one with a number pad and like I do not want that I've got my mechanical keyboard
+[01:48:52.200 --> 01:48:57.400]  here I am go down a path that'll terrify people but I do love the magic trackpad and so I'm
+[01:48:57.400 --> 01:49:01.800]  keeping that that I think the magic trackpad is great yeah I I've got a magic that's the
+[01:49:01.800 --> 01:49:07.000]  only modern Apple input thing I use I still got my extended keyboard to I've got my old
+[01:49:07.000 --> 01:49:14.480]  1999 Logitech mouse with a ball in it that I use as my mouse yeah I used to use that
+[01:49:14.480 --> 01:49:18.240]  so that's exactly what I used to use as a was a trackball but I finally did convert
+[01:49:18.240 --> 01:49:22.760]  no not a trackball I have a mouse the mouse has a ball oh them the mouse oh you've got
+[01:49:22.760 --> 01:49:28.580]  the old school mouse yeah wow it for some reason every time I've tried one with a laser
+[01:49:28.580 --> 01:49:33.040]  I have it set and I have a third-party mouse driver to run my mouse at super speed for
+[01:49:33.040 --> 01:49:38.020]  RSI issues so I really only just okay fingers no that makes sense and the that makes sense
+[01:49:38.020 --> 01:49:44.440]  ball actually seems to work better at the insane mouse speed that I use that's cool
+[01:49:44.440 --> 01:49:48.720]  and it just alright so you're you're as old-school as it gets for input devices except I have
+[01:49:48.720 --> 01:49:56.360]  the magic trackpad which I do love for various things yeah I don't know I don't have any
+[01:49:56.360 --> 01:50:01.080]  other questions about the Mac though it's I mean it's a it's a it's a really fast iMac
+[01:50:01.080 --> 01:50:05.360]  I mean that's the thing I I said on Twitter when I got it I'm like yeah it's fast and
+[01:50:05.360 --> 01:50:09.440]  people are like oh boy you know that's it that's really great thanks for the first impression
+[01:50:09.440 --> 01:50:16.520]  but like if you know what a 5k iMac is you know what this thing is it's just darker and
+[01:50:16.520 --> 01:50:22.440]  faster but like it's the screen it's got the beautiful screen it's got I haven't had a
+[01:50:22.440 --> 01:50:28.300]  computer with Thunderbolt 3 USB C ports on the back and I've got those now and I had
+[01:50:28.300 --> 01:50:32.000]  to I took my first trip to dongle town as part of the migration because I had to dig
+[01:50:32.000 --> 01:50:37.780]  out I did have one I did dig out a Thunderbolt 2 Thunderbolt 3 adapter so that I could put
+[01:50:37.780 --> 01:50:43.800]  my old iMac in in target mode and copy the data over to the to the new iMac so I had
+[01:50:43.800 --> 01:50:49.240]  to get a dongle out for that one what do you use here's a question I've been reevaluating
+[01:50:49.240 --> 01:50:55.840]  my external drives recently because I've it's gotten to the point where where external USB
+[01:50:55.840 --> 01:51:03.700]  3 SSDs are at the price that I would consider paying for for just like my super duper clone
+[01:51:03.700 --> 01:51:08.720]  of my startup drive so like I'm it's like I've I don't use it I haven't used a computer
+[01:51:08.720 --> 01:51:13.200]  with a spinning hard disk as like the startup disk for a couple of years now ever since
+[01:51:13.200 --> 01:51:20.240]  my iMac I guess I got the iMac in this MacBook Pro both in 2014 I think and they both have
+[01:51:20.240 --> 01:51:30.880]  SSDs yeah but you can get I think you can get a one terabyte USB 3 SSD for like $500
+[01:51:30.880 --> 01:51:39.840]  I forget but it's a reason I think I have I have a Samsung USB SSD I think it's a 512
+[01:51:39.840 --> 01:51:45.520]  and it's impossibly small and I use that sometimes for offloading things although now my internal
+[01:51:45.520 --> 01:51:49.440]  storage is twice as much so I won't have to do that as much I have a I have a Mac mini
+[01:51:49.440 --> 01:52:00.840]  server that it has a raid hanging off of it and it's you know I've got like nine terabytes
+[01:52:00.840 --> 01:52:06.480]  of stuff on there I've got a bunch of podcast archives and and it's a Plex server so I got
+[01:52:06.480 --> 01:52:13.560]  movies and TV shows on there that I've written blu-rays I like it I love having that space
+[01:52:13.560 --> 01:52:24.280]  I am starting to think like at what point could I move to SSD for that because I don't
+[01:52:24.280 --> 01:52:29.920]  like spinning disks right I know they're unreliable they're hot they're loud they're so loudly
+[01:52:29.920 --> 01:52:36.040]  would like to kill them but but at the same time I really like have 10 like having I mean
+[01:52:36.040 --> 01:52:40.960]  I have seven terabytes free I like having 16 and a half terabytes right of storage kind
+[01:52:40.960 --> 01:52:45.640]  of on my gigabit Ethernet network over you know around the corner where I can just dump
+[01:52:45.640 --> 01:52:50.240]  big files when I'm done with them and keep the one terabyte on my iMac relatively light
+[01:52:50.240 --> 01:52:55.480]  or back in the day the 512 and so I don't know I'm we're getting there we're getting
+[01:52:55.480 --> 01:53:02.720]  close but the fact that Apple still makes the iMac where by default you get a spinning
+[01:53:02.720 --> 01:53:06.760]  disk drive yeah it's I think it's not even by default you get a fusion drive by default
+[01:53:06.760 --> 01:53:13.920]  you just get a spinning disk drive that shows you how much more expensive SSDs are and on
+[01:53:13.920 --> 01:53:21.000]  products where Apple wants to make the price as low as possible within their margins you
+[01:53:21.000 --> 01:53:24.560]  know I guess what I'm saying is I really want the iMac to be redesigned like the iMac Pro
+[01:53:24.560 --> 01:53:29.480]  was to remove the option of a spinning disk but I understand why they haven't done it
+[01:53:29.480 --> 01:53:34.520]  because it is way cheaper it's just it's so much worse technology in so many different
+[01:53:34.520 --> 01:53:39.680]  ways so I hope one of these days I can I can move my outboard storage but as it is I've
+[01:53:39.680 --> 01:53:46.480]  got sort of like five feet away from me in a in a little sort of in a drawer of some
+[01:53:46.480 --> 01:53:52.440]  old IKEA furniture is a is a raid that ticks along I can hear it ticking every now and
+[01:53:52.440 --> 01:53:56.600]  then when the time machine backup goes on but I'm willing to deal with that because
+[01:53:56.600 --> 01:54:01.800]  I just having all that storage is too good yeah there's like a life hack that I've never
+[01:54:01.800 --> 01:54:07.340]  followed but I understand the logic of it but I've heard numerous times over the years
+[01:54:07.340 --> 01:54:15.200]  that some people say what you should do is throw out all of your socks and buy like 10
+[01:54:15.200 --> 01:54:21.480]  pairs of the exact same sock like like a nice like a dark grey sock that you could wear
+[01:54:21.480 --> 01:54:27.920]  in all situations and then once a year throw them all out again and buy buy however many
+[01:54:27.920 --> 01:54:32.720]  more you need and then you never have to pair socks you just you could just sure throw all
+[01:54:32.720 --> 01:54:37.320]  your socks in a sock drawer and just take them out I do the same thing sort of with
+[01:54:37.320 --> 01:54:42.160]  my external drives where I tend to buy like if I feel like I need like four external drives
+[01:54:42.160 --> 01:54:48.440]  for various things like a super duper clone and an external storage for media that I don't
+[01:54:48.440 --> 01:54:54.480]  I can't fit on my or don't want to fit on the internal drive on my iMac but I tend to
+[01:54:54.480 --> 01:54:59.440]  buy like four of the exact same drive or the same drive from the same company but maybe
+[01:54:59.440 --> 01:55:07.300]  with different capacities just so that I I don't know why I don't really it's a little
+[01:55:07.300 --> 01:55:11.520]  illogical I guess but I kind of like the idea that if I know they're all have the same thing
+[01:55:11.520 --> 01:55:19.360]  and they use the same technology to connect you know like going back decades firewire
+[01:55:19.360 --> 01:55:24.060]  right or you know whatever that I know they're all going to work with this Mac because it
+[01:55:24.060 --> 01:55:27.960]  seems like that's one of the little things that still changes every couple years like
+[01:55:27.960 --> 01:55:31.600]  you said you had to get a Thunderbolt two to Thunderbolt three adapter it's like one
+[01:55:31.600 --> 01:55:36.000]  of those things where like these the drives last so much longer than they used to especially
+[01:55:36.000 --> 01:55:42.520]  SSD SSDs you know but I've run into the situation where it's like I've got like something you
+[01:55:42.520 --> 01:55:46.320]  know a bunch of old movies or something on a hard drive and I can no longer connect it
+[01:55:46.320 --> 01:55:52.320]  to my Mac because the adapters have changed so much so I've gone I just I bought these
+[01:55:52.320 --> 01:55:57.840]  Samsung t5 there I just looked up the prices so one terabyte Samsung t5 portable SSD is
+[01:55:57.840 --> 01:56:03.840]  only 350 bucks and the two terabyte is $700 so you you don't even pay any kind of premium
+[01:56:03.840 --> 01:56:12.140]  you know it's exactly the same dollar per terabyte USB 3.1 yeah I've got I've got one
+[01:56:12.140 --> 01:56:17.840]  of those here I think mine's a 512 but it's a t3 and it's you know it's kind of a joke
+[01:56:17.840 --> 01:56:23.380]  how how small it is like on with the with the visa mounting bracket on the back of my
+[01:56:23.380 --> 01:56:29.880]  iMac I was actually able to just stick the drive in the little kind of Ridge of the mounting
+[01:56:29.880 --> 01:56:35.760]  brackets because there's enough room for the drug for the SSD to just sit there like it's
+[01:56:35.760 --> 01:56:40.720]  just it's nothing it actually it's so small that my biggest complaint about it is that
+[01:56:40.720 --> 01:56:46.480]  it's I can't really get it to lay flat on my desk it's the tension of the cable will
+[01:56:46.480 --> 01:56:53.080]  lift it or rock it yeah it's it's yeah so I have a vision of that of having like a at
+[01:56:53.080 --> 01:56:58.320]  some point being able to have like a raid that is just like 10 terabytes of SSD but
+[01:56:58.320 --> 01:57:03.560]  that right now would cost a lot of money that would be that would be thousands of dollars
+[01:57:03.560 --> 01:57:12.320]  but we'll get there yeah it's like I've never used an SSD for time machine but now it's
+[01:57:12.320 --> 01:57:16.120]  like I want to go SSD only so that's why I bought one of these one terabyte things that
+[01:57:16.120 --> 01:57:21.800]  like replace my time machine drive with USB only thing that's a little like I've got enough
+[01:57:21.800 --> 01:57:27.220]  slots on my or USB ports I should say not slots but ports that I can plug these things
+[01:57:27.220 --> 01:57:33.400]  in and it's like I'm never quite sure what what's okay to put through a hub you know
+[01:57:33.400 --> 01:57:37.840]  like my keyboard and mouse I go through a USB hub because it's obviously not super you
+[01:57:37.840 --> 01:57:42.540]  know you don't need high speed performance but I feel like an SSD you want plugged right
+[01:57:42.540 --> 01:57:49.020]  into the computer and maybe that's not logical I guess I could benchmark it but one thing
+[01:57:49.020 --> 01:57:54.400]  about these modern like the USB 3 drives is that you can't daisy chain them you know like
+[01:57:54.400 --> 01:57:59.720]  in the old days with firewire and with Thunderbolt you could like use one port on your computer
+[01:57:59.720 --> 01:58:04.280]  and have like a drive plugged into it and then a next drive gets plugged into the first
+[01:58:04.280 --> 01:58:11.560]  drive and a third drive could go in the second drive right I don't that's not a thing anymore
+[01:58:11.560 --> 01:58:20.160]  yeah I I mean I at one point I bought a bunch of thunderbolts or maybe they were firewire
+[01:58:20.160 --> 01:58:23.660]  800 yeah I think that was it drives and they were like terabyte drives and I and I could
+[01:58:23.660 --> 01:58:28.560]  chain them and they all had external power bricks and it was awful but at least they
+[01:58:28.560 --> 01:58:33.600]  were all like you said all of the same kind but that was you know and so that was that
+[01:58:33.600 --> 01:58:37.880]  was something I had to do and now you're right I mean one of the things I always hated about
+[01:58:37.880 --> 01:58:42.740]  having a local time machine drive is that then you have your computer attached to this
+[01:58:42.740 --> 01:58:47.120]  drive that is big and hot and has a power brick and all that and one of these Samsung
+[01:58:47.120 --> 01:58:50.420]  SSD is you're absolutely right you could you just plug it in there and I mean you could
+[01:58:50.420 --> 01:58:55.160]  basically tape it to the back of your computer and never see it and it would just sit there
+[01:58:55.160 --> 01:58:59.480]  yeah I almost feel like I would almost have rather have it like have the USB thing connected
+[01:58:59.480 --> 01:59:02.900]  to it and just plug it in the USB port as a dongle in the back you know just have the
+[01:59:02.900 --> 01:59:07.560]  whole drive sticking out back there anyway that's my advice to everybody is get rid of
+[01:59:07.560 --> 01:59:11.560]  your spinning disks and get these SSDs if you can't if you can afford it get off the
+[01:59:11.560 --> 01:59:18.280]  spinning disks yeah the only really it's it I don't know I it just feels good I feel safer
+[01:59:18.280 --> 01:59:22.820]  getting getting my getting them out of there even if they're backup drives one last thing
+[01:59:22.820 --> 01:59:26.740]  I've definitely wanted to talk about is you and I had a Twitter conversation a few weeks
+[01:59:26.740 --> 01:59:32.440]  ago speaking of storage I forget how it started but we were talking about somehow on Twitter
+[01:59:32.440 --> 01:59:38.760]  we got into a conversation about that in iOS they've added a files app to iOS 11 and it's
+[01:59:38.760 --> 01:59:45.980]  really useful in many ways but it's entirely cloud-based so you know you can get your Dropbox
+[01:59:45.980 --> 01:59:53.080]  in there or your box account and your iCloud Drive of course shows up in there but if you
+[01:59:53.080 --> 02:00:01.600]  plug an SD card into your iOS device using the adapter that Apple itself sells to connect
+[02:00:01.600 --> 02:00:08.400]  an SD card to a lightning port the SD card does not show up as a destination in the files
+[02:00:08.400 --> 02:00:16.560]  app and that seems like madness to me yeah it's in fact it's something so you linked
+[02:00:16.560 --> 02:00:24.180]  you did a link list or do a thing I did on six colors about this gadget this that's Kensington
+[02:00:24.180 --> 02:00:31.280]  mobile light writing that was there is what I use now when I'm traveling with an iOS device
+[02:00:31.280 --> 02:00:36.960]  and I want to use like a portable flash recorder to record audio and then edit it and how do
+[02:00:36.960 --> 02:00:41.640]  I do that I can edit it on my iPad but how do I get the files back and even with Apple's
+[02:00:41.640 --> 02:00:47.000]  SD card reading dongle all it'll do is launch the photos app and say would you like to import
+[02:00:47.000 --> 02:00:54.200]  any videos or photos on that card so it will iOS will access an SD card but only two file
+[02:00:54.200 --> 02:00:58.280]  types and that dates back to I mean it's a camera thing it's like just thinking of it
+[02:00:58.280 --> 02:01:02.600]  as it as for camera imports yeah and I thought when files came it would be like the moment
+[02:01:02.600 --> 02:01:08.680]  where Apple is like all right you want to attach an SD card or a USB hard drive or connect
+[02:01:08.680 --> 02:01:16.480]  to a an SMB server we'll fine you can if you want to do that the files app will do that
+[02:01:16.480 --> 02:01:21.140]  go ahead and it just hasn't done it and it kind of baffles me and I know I got a lot
+[02:01:21.140 --> 02:01:25.640]  of pushback you and I saw some of it where people are like no no no but the future is
+[02:01:25.640 --> 02:01:30.360]  wireless and cloud and all those things and I just keep coming back to you know that's
+[02:01:30.360 --> 02:01:33.800]  all true but if you're somewhere where you can't sync a file up and then back down from
+[02:01:33.800 --> 02:01:39.160]  the cloud with slow internet or no internet if the iPad Pro is meant for business users
+[02:01:39.160 --> 02:01:43.160]  and somebody's got a PowerPoint on a keychain drive and they hand it to you and you have
+[02:01:43.160 --> 02:01:48.660]  your iPad it's like you can't get that file you can't right not even with any adapter
+[02:01:48.660 --> 02:01:51.760]  in the world you can't do it it turns out there are adapters that do it but they're
+[02:01:51.760 --> 02:01:57.440]  like special adapters with third-party apps on iOS that talk to the card and then you
+[02:01:57.440 --> 02:02:01.820]  move it into the app and then the app can send it to other things it's just like this
+[02:02:01.820 --> 02:02:07.680]  thing which is a Wi-Fi base station basically that you plug your SD card into and then connect
+[02:02:07.680 --> 02:02:14.000]  to the Wi-Fi and transfer it using its third party it's fast which is why I use it but
+[02:02:14.000 --> 02:02:17.260]  and there are other ones there are a little bit weird adapters too it just seems silly
+[02:02:17.260 --> 02:02:24.360]  that that it's a legacy of Apple kind of putting file systems at arm's length in iOS
+[02:02:24.360 --> 02:02:30.240]  but they kind of gotten over that and yet when I think about the iPad Pro especially
+[02:02:30.240 --> 02:02:34.960]  it just seems a little bit silly that you know they're not forcing the files app in
+[02:02:34.960 --> 02:02:39.640]  people's faces it's for people who need to access files why wouldn't you kind of
+[02:02:39.640 --> 02:02:46.320]  broaden it a little bit because the fact is yeah in the future cloud unlimited internet
+[02:02:46.320 --> 02:02:53.200]  everywhere at full speed like I get it but the reality of of the present day is it's
+[02:02:53.200 --> 02:02:58.800]  gonna take a long time for like my audio recorder doesn't have wireless in it it's not gonna
+[02:02:58.800 --> 02:03:03.760]  it can't auto upload to Dropbox and and like I recorded a podcast out in the middle
+[02:03:03.760 --> 02:03:08.660]  of the Nevada desert after the solar eclipse and like I didn't have good internet there
+[02:03:08.660 --> 02:03:14.920]  to upload that file I I you know I just ran it on my recorder and then when I got to Wi-Fi
+[02:03:14.920 --> 02:03:19.140]  somewhere I wanted to upload the final version and and that was not something I could do
+[02:03:19.140 --> 02:03:24.920]  without a weird third-party app so it's one of the strange strange gaps in iOS that still
+[02:03:24.920 --> 02:03:30.360]  exists it's just so super frustrating if you've got your you got it right there in your hand
+[02:03:30.360 --> 02:03:37.260]  in your in your right hand is like an iPad or an iPhone and in your left hand is an SD
+[02:03:37.260 --> 02:03:44.020]  card with a four gigabyte video on it or something well something video it'll imp if it's a video
+[02:03:44.020 --> 02:03:48.560]  with a limit that's the most frustrating thing is you've got a you've got an SD card plugged
+[02:03:48.560 --> 02:03:53.640]  into an Apple adapter or a USB stick plugged into an Apple adapter and it's looking at
+[02:03:53.640 --> 02:03:59.740]  that SD card or that stick and it sees all the photos and all of the videos on it but
+[02:03:59.740 --> 02:04:05.880]  you know there's a PowerPoint file or a Word file or an audio file audio is a better example
+[02:04:05.880 --> 02:04:12.480]  right and it's just like forget it that it's just like literally the OS doesn't want to
+[02:04:12.480 --> 02:04:18.740]  know about it and I don't know I mean I understand how we got here and I understand why people
+[02:04:18.740 --> 02:04:24.800]  had this tendency to say well you know the future like I get that too but the practical
+[02:04:24.800 --> 02:04:30.700]  present of this and I also I'm always amused when people kind of come to Apple's defense
+[02:04:30.700 --> 02:04:37.820]  for a missing feature by explaining how Apple just can't do it it's just too hard an engineering
+[02:04:37.820 --> 02:04:43.880]  challenge too hard a UI challenge I'm like really like I have a great confidence in Apple
+[02:04:43.880 --> 02:04:49.900]  to solve these relative like the implementation details of this in order to they're already
+[02:04:49.900 --> 02:04:54.520]  reading an SD card they're already reading USB media they just don't want to show it
+[02:04:54.520 --> 02:04:59.800]  there are security implications I realize you know I give you talk to like people who
+[02:04:59.800 --> 02:05:05.980]  really know their their stuff with security that you know USB sticks are dangerous they
+[02:05:05.980 --> 02:05:12.500]  can be you know that there's sure you know it there's reasons you shouldn't stick a unknown
+[02:05:12.500 --> 02:05:19.720]  USB stick into your you know laptop but on iOS in particular you know it's up to Apple
+[02:05:19.720 --> 02:05:25.700]  to do it it's not like I'm asking for any app to be able to read and write to the file
+[02:05:25.700 --> 02:05:33.220]  system you know and and the way that files the files app works is very careful you know
+[02:05:33.220 --> 02:05:39.380]  it's not like you've got real access to the full directory of structure of the the startup
+[02:05:39.380 --> 02:05:45.320]  disk in your iOS device you know they've they have even with the files app maintained a
+[02:05:45.320 --> 02:05:51.180]  difference between the file system that the actual system is running on and the files
+[02:05:51.180 --> 02:05:56.980]  that are exposed to the user there's right you know it there's no reason they couldn't
+[02:05:56.980 --> 02:06:01.300]  continue to do that take that approach to something like an SD card and that you can
+[02:06:01.300 --> 02:06:06.580]  move SD card to some other safe location not like willy-nilly you can put it at the level
+[02:06:06.580 --> 02:06:11.940]  of the startup drive exactly because it's already in a sandbox somewhere and and that's
+[02:06:11.940 --> 02:06:17.260]  you know it's it's a I know it's a little thing too but when I try to think I yeah I
+[02:06:17.260 --> 02:06:21.000]  and I do hit this myself which is why I write about it and whenever I write about it I hear
+[02:06:21.000 --> 02:06:25.940]  from people who are like oh wow I I've also struggled with this for this reason or I bought
+[02:06:25.940 --> 02:06:30.260]  this other weird gadget with another really awful because all these third-party apps for
+[02:06:30.260 --> 02:06:34.900]  these things are terrible but bit but they have to write them because it's the only way
+[02:06:34.900 --> 02:06:40.240]  the product will work because there's no system level stuff to do it so obviously some people
+[02:06:40.240 --> 02:06:43.820]  out there are trying it I think I think when Apple turned the corner to make the case with
+[02:06:43.820 --> 02:06:49.780]  the iPad Pro that like it's a it's a device for getting work done that's when these scenarios
+[02:06:49.780 --> 02:06:53.640]  start to occur to me which is like you know again I had this happen when I was in Yosemite
+[02:06:53.640 --> 02:06:58.020]  where the internet is terrible and somebody wanted to give me a file and I couldn't load
+[02:06:58.020 --> 02:07:01.260]  it on my iPad and we had to figure out whether we could get it on some other device that
+[02:07:01.260 --> 02:07:07.060]  could maybe do airdrop but it got really complicated and it didn't need to be and I've been on
+[02:07:07.060 --> 02:07:11.740]  that that you know it on airplanes and stuff too where it's like I'm not gonna sync all
+[02:07:11.740 --> 02:07:16.820]  of this data to Dropbox over the internet from an airplane and then sync it back to
+[02:07:16.820 --> 02:07:21.800]  the other device it's just it's not gonna happen and it's just it's it's a little detail
+[02:07:21.800 --> 02:07:25.860]  but it's one of those things that I mean what when people get angry when I talk about this
+[02:07:25.860 --> 02:07:29.180]  what blows their mind is the next thing I say which is I think maybe the iPad Pro at
+[02:07:29.180 --> 02:07:34.800]  some point should have USB C instead of lightning because if it's a real computer maybe you
+[02:07:34.800 --> 02:07:40.740]  should just embrace it and maybe that's a bridge too far but I think it's worth asking
+[02:07:40.740 --> 02:07:46.180]  the question like what why are there still roadblocks I think Apple's iOS development
+[02:07:46.180 --> 02:07:51.380]  at least as far as the iPad concerned should all be about like eliminating those last roadblocks
+[02:07:51.380 --> 02:07:56.220]  that people talk about when they're like I really want to use the iPad to do this but
+[02:07:56.220 --> 02:08:00.700]  this thing and they've and they've eliminated so many of them now that the ones that are
+[02:08:00.700 --> 02:08:04.220]  still there really just kind of a stick out that's that's one of them I know it's not
+[02:08:04.220 --> 02:08:09.780]  ideal it's the same way I feel about having to side load files onto the iPad using my
+[02:08:09.780 --> 02:08:14.640]  Mac because they're big files they're audio files and the people are like oh you could
+[02:08:14.640 --> 02:08:18.820]  airdrop them you could use iCloud Drive it's like but they would be so slow it's so much
+[02:08:18.820 --> 02:08:22.820]  faster for me to connect it with a cable but all of those file transfers have to go through
+[02:08:22.820 --> 02:08:27.580]  iTunes that's stupid it should just show up as a disk on my Mac it doesn't have to be
+[02:08:27.580 --> 02:08:31.280]  a real disk could be a fake disk but I should just be able to drag those files in without
+[02:08:31.280 --> 02:08:36.300]  launching iTunes but I know why we're here but it would be nice if somebody at Apple
+[02:08:36.300 --> 02:08:41.620]  could be like okay that's bad let's just let's let's eliminate that roadblock now right it's
+[02:08:41.620 --> 02:08:45.820]  obviously exposed in some way because you can get to it through iTunes but doing it
+[02:08:45.820 --> 02:08:50.400]  through iTunes is ridiculous yeah you have to go you have to click on it and especially
+[02:08:50.400 --> 02:08:54.420]  now that we don't sync our devices very much or if at all in iTunes anymore it's like my
+[02:08:54.420 --> 02:09:00.180]  one obligatory trip to the iTunes device area I use iTunes all the time for music but it's
+[02:09:00.180 --> 02:09:05.020]  that moment of like I plug in my iPad I click on the iPad click on apps scroll to the bottom
+[02:09:05.020 --> 02:09:09.160]  of the window click on the right app and now I can drag files in like it's like it's the
+[02:09:09.160 --> 02:09:13.660]  finder except it's not it's the worst finder replacement ever right like say what you want
+[02:09:13.660 --> 02:09:17.700]  about the finder and we could do a whole two hour podcast with Syracuse and we could do
+[02:09:17.700 --> 02:09:23.660]  a four hour podcast with Syracuse about nothing about gripes about the finder today in 2017
+[02:09:23.660 --> 02:09:31.000]  but at least the finder is primarily designed the intent of the app ever since 1984 has
+[02:09:31.000 --> 02:09:37.260]  been to expose files and make it useful to move files and do things like rename files
+[02:09:37.260 --> 02:09:41.860]  and move them from here to there that's what the app is meant for and you have that app
+[02:09:41.860 --> 02:09:46.940]  and then you've got this other app that was designed primarily to play music and you've
+[02:09:46.940 --> 02:09:52.460]  got to use that app to move files around it's crazy and it's great you can do it don't get
+[02:09:52.460 --> 02:09:56.980]  me wrong there was the moment when I discovered that there's a secret place in iTunes and
+[02:09:56.980 --> 02:10:01.500]  the apps tab down at the bottom where you can literally just you can delete files and
+[02:10:01.500 --> 02:10:06.460]  you can drag files in and it totally works it's amazing but it is so stupid that that's
+[02:10:06.460 --> 02:10:09.500]  where it is there's probably a lot of people listening to this who are like what you can
+[02:10:09.500 --> 02:10:15.260]  do what and they're going to plug their iPhone into their Mac and go to iTunes yeah and navigate
+[02:10:15.260 --> 02:10:20.620]  to the devices and then go down to the bottom and see this and they're going to be like
+[02:10:20.620 --> 02:10:27.660]  what you can't believe it yeah just I mean it and again why do you need to do that it's
+[02:10:27.660 --> 02:10:31.940]  only if you have like a big file otherwise if a little file on iCloud drive or something
+[02:10:31.940 --> 02:10:37.660]  like that it's not going to be a problem but you know I I sometimes have like big files
+[02:10:37.660 --> 02:10:42.660]  that I want to put on my iPad and doing it by wire is way better than like putting a
+[02:10:42.660 --> 02:10:47.900]  giant file in iCloud drive and waiting for iCloud drive to sync it all the way up and
+[02:10:47.900 --> 02:10:52.180]  then immediately on the other device turn around and sync it all the way back down that's
+[02:10:52.180 --> 02:10:57.380]  that's sort of silly and if I've got unlimited time I can do it that way but it's it's it's
+[02:10:57.380 --> 02:11:02.220]  silly but that's the only way I can do it last but not least the other thing I wanted
+[02:11:02.220 --> 02:11:05.340]  to talk to you about because I know you'd appreciate it did you see that thing I linked
+[02:11:05.340 --> 02:11:12.540]  to the other day that this guy Dan Liu wrote about computer latency from 1977 to 2017 yeah
+[02:11:12.540 --> 02:11:18.100]  so he like took like a high-speed camera and with a bunch of different computers running
+[02:11:18.100 --> 02:11:22.420]  a bunch of different operating systems from a bunch of different eras measured the time
+[02:11:22.420 --> 02:11:29.540]  from when you the high-speed camera captures the key moving on a keyboard and the letter
+[02:11:29.540 --> 02:11:37.300]  pressed appearing on screen in the terminal app on that device and the fastest performing
+[02:11:37.300 --> 02:11:46.060]  lowest latency computer he tested was the Apple 2e which is it makes me laugh but it
+[02:11:46.060 --> 02:11:50.020]  it's funny the way he phrases it where he just had this vague notion that computers
+[02:11:50.020 --> 02:11:56.220]  are slower than they were when he was a kid and wanted to actually measure it because
+[02:11:56.220 --> 02:12:00.580]  you know human memory and and you know is funny like that that you might be very you
+[02:12:00.580 --> 02:12:04.580]  know could have tested it and found out he was very wrong and then he has a terrific
+[02:12:04.580 --> 02:12:09.380]  he's an electrical engineer by training and has a terrific explanation for why this is
+[02:12:09.380 --> 02:12:17.220]  so and actually pretty reasonable given what modern computers are doing but the other thing
+[02:12:17.220 --> 02:12:23.860]  that cracks me up is that it always comes down to like the the TI 95 99 4a or whatever
+[02:12:23.860 --> 02:12:28.300]  it was called perform pretty well too it was like second place but not as fast as the Apple
+[02:12:28.300 --> 02:12:35.700]  2e and it often always comes down to was was a genius right right there's like all sorts
+[02:12:35.700 --> 02:12:41.320]  of like crazy optimizations where there's like you know it's like the whole level of
+[02:12:41.320 --> 02:12:45.620]  abstraction between the key being pressed and it being sent as a signal is gone because
+[02:12:45.620 --> 02:12:50.660]  of the clever design of the key switches in the Apple 2 but that actually it I started
+[02:12:50.660 --> 02:12:53.700]  reading this article a couple people said Gruber you're gonna love this and I did love
+[02:12:53.700 --> 02:12:58.100]  it but as soon as I read it I thought you know I always think the same thing it seems
+[02:12:58.100 --> 02:13:04.660]  to me it always seemed to me that that the input on like an like an Apple 2 was super
+[02:13:04.660 --> 02:13:10.020]  fast and it and and it doesn't like it's one of the things about like running emulators
+[02:13:10.020 --> 02:13:14.420]  that it just does it's not just that the screen technology is so different that it looks different
+[02:13:14.420 --> 02:13:20.400]  and doesn't feel the same it does no matter how fast your computer is it never feels as
+[02:13:20.400 --> 02:13:29.060]  fast yeah I mean I talked about how I could do my job and you could do your job on a PowerBook
+[02:13:29.060 --> 02:13:35.380]  160 running right now right and it's a it's a little bit like that I every time there
+[02:13:35.380 --> 02:13:38.000]  was an update right there gets more stuff in the way they're like oh we've got a more
+[02:13:38.000 --> 02:13:42.680]  powerful computer we can put more stuff in the way and whether that's graphics or whether
+[02:13:42.680 --> 02:13:48.680]  it's subsystems or whatever font support whatever it is because we've got the power to deal
+[02:13:48.680 --> 02:13:54.800]  with it which is true but it also means there's more layers between you you know between the
+[02:13:54.800 --> 02:14:00.900]  keyboard and the display and latency is a place where it where it it happens I guess
+[02:14:00.900 --> 02:14:06.100]  this is really good for like um is it George RR Martin writes all of his books on a on
+[02:14:06.100 --> 02:14:14.760]  a like a word star running online PC like a 286 I think yeah and it's just like he's
+[02:14:14.760 --> 02:14:19.320]  got the muscle memory I totally get why he does that and it's all like not even a gooey
+[02:14:19.320 --> 02:14:24.380]  it's all command line kind of stuff but his latency is super low I'm gonna guarantee you
+[02:14:24.380 --> 02:14:29.540]  that that he types it there it comes out there and it's funny I was just I was just starting
+[02:14:29.540 --> 02:14:34.280]  up I have an Apple to see and I was I'm gonna try to get some of my old files off of it
+[02:14:34.280 --> 02:14:37.880]  and I had that moment where like oh this feels pretty good I mean like the keys really move
+[02:14:37.880 --> 02:14:42.680]  and they make a nice kind of clacking sound and and yeah it's there's there's something
+[02:14:42.680 --> 02:14:48.340]  to be said for that old retro stuff we prioritize different things now plus displays our displays
+[02:14:48.340 --> 02:14:53.900]  are so much richer and they're their refresh rates are not as high as the ones in the old
+[02:14:53.900 --> 02:14:58.680]  days because there's so much richer there are lots of good reasons why but still yeah
+[02:14:58.680 --> 02:15:04.820]  the Apple to see is one of my all-time favorite designs guy English and I both swear by it
+[02:15:04.820 --> 02:15:09.500]  and I think of on Twitter we even we were like guy and I were talking recently on Twitter
+[02:15:09.500 --> 02:15:17.660]  about how like it could pass for like a in many ways pass for a modern computer and some
+[02:15:17.660 --> 02:15:22.140]  people are like you guys are nuts that thing looks ancient I I don't know I think I'll
+[02:15:22.140 --> 02:15:28.260]  put a link to the show notes the to see to me it was I had a 2e I was a 2e guy but when
+[02:15:28.260 --> 02:15:33.940]  I when I was buying one off of eBay because I sold my 2e sadly when I when I bought my
+[02:15:33.940 --> 02:15:38.220]  first Mac I wish I had kept it but I know why I didn't I wanted the money right but
+[02:15:38.220 --> 02:15:44.140]  so on eBay I bought a 2c and the reason I bought the 2c is yeah it has a lot of things
+[02:15:44.140 --> 02:15:50.960]  that make it a lot more fuss-free than the 2e like the disk drive is in the computer
+[02:15:50.960 --> 02:15:55.960]  which the 2e was not you the disk drive was external it's got you know it's got video
+[02:15:55.960 --> 02:16:00.700]  on the back and an auxiliary video port if you want to do like higher quality video it
+[02:16:00.700 --> 02:16:06.580]  looks like a laptop without a screen and a lot of its design language ended up being
+[02:16:06.580 --> 02:16:11.940]  you know fed into it's the same design language that they used when they built the the first
+[02:16:11.940 --> 02:16:15.240]  power books it just you know it didn't have a screen although I believe it you could get
+[02:16:15.240 --> 02:16:21.820]  like an LCD screen for it that made it like that much more portable but the idea that
+[02:16:21.820 --> 02:16:24.860]  it was all self-contained it's got a huge power brick but it's self-contained and it's
+[02:16:24.860 --> 02:16:30.140]  got its own disk on the inside like that was a big that was a big step for Apple because
+[02:16:30.140 --> 02:16:36.020]  the Apple twos were all you know everything was outboard and and it was also more hobbyist
+[02:16:36.020 --> 02:16:40.820]  you know I had slots card slots that I could flip open in the Apple 2e and the Apple 2c
+[02:16:40.820 --> 02:16:47.500]  is a sealed container like a modern computer yeah yeah it's it's it's an interesting one
+[02:16:47.500 --> 02:16:53.220]  to look at as where Apple was going and you know and it was a machine that was came out
+[02:16:53.220 --> 02:17:02.300]  of the era while Steve Jobs was in exile yeah at next or no no I guess not it says it was
+[02:17:02.300 --> 02:17:06.820]  released came out it came out 1984 he came out about the same time as the original Mac
+[02:17:06.820 --> 02:17:11.940]  I didn't know this Steve not around to too much longer after that and this was this was
+[02:17:11.940 --> 02:17:16.820]  the last I mean I guess people like the 2gs I guess it was that was for me this is the
+[02:17:16.820 --> 02:17:21.340]  this is the heyday of the Mac I actually are of the Apple 2 I bought my my Apple 2e that
+[02:17:21.340 --> 02:17:27.180]  I had through my first two years of college I bought it right before I started high school
+[02:17:27.180 --> 02:17:34.800]  and it was 1984 and I realized this the other day that my my my Apple 2 the Mac already
+[02:17:34.800 --> 02:17:38.500]  existed when I bought the Apple 2 which seems like that would have been a stupid move but
+[02:17:38.500 --> 02:17:43.140]  the fact was the Mac was so young at that point and the Apple 2 was everywhere it was
+[02:17:43.140 --> 02:17:47.160]  in my elementary school it was in my high school all my friends who had computers had
+[02:17:47.160 --> 02:17:52.260]  the Apple 2 we could trade discs and stuff and that was and it gave me it gave me six
+[02:17:52.260 --> 02:17:56.800]  years or five and a half ish years through high school and the start of college it served
+[02:17:56.800 --> 02:18:02.020]  me really well so Apple and and and the Apple 2 Apple made huge amounts of money on the
+[02:18:02.020 --> 02:18:06.260]  Apple 2 in the 80s we think of it now is like then the Mac era began and that was the end
+[02:18:06.260 --> 02:18:10.660]  of the Apple 2 it's not true like the Mac took a long time to kind of get up and running
+[02:18:10.660 --> 02:18:15.380]  and during that period the Apple 2 was what was fueling Apple's economic engine like to
+[02:18:15.380 --> 02:18:22.060]  the point that I realized when I started as an intern at Mac user magazine elsewhere in
+[02:18:22.060 --> 02:18:29.860]  the universe at that moment there was still an Apple 2 magazine like even in 1993 they
+[02:18:29.860 --> 02:18:35.180]  were still publishing like a plus insider magazine for the Apple 2 so the Apple 2 lived
+[02:18:35.180 --> 02:18:40.140]  a lot longer than then I think like conventional wisdom has it now where it's sort of like
+[02:18:40.140 --> 02:18:44.260]  well then the Mac happened and that was the end of the Apple 2 it's not true the 80s were
+[02:18:44.260 --> 02:18:50.300]  like the Apple 2's golden decade there was really no upgrade path from the Apple 2 to
+[02:18:50.300 --> 02:18:57.780]  the Mac I mean the two the two GS had a finder which was super weird because it just couldn't
+[02:18:57.780 --> 02:19:02.220]  I mean they tried to make it they were trying to retrofit it to be Mac like but it really
+[02:19:02.220 --> 02:19:08.500]  wasn't it was on my big upgrade path was I bought a 3.5 inch disk for the Apple 2 because
+[02:19:08.500 --> 02:19:13.620]  there were Macs that I was using elsewhere at my college and but in my dorm room I had
+[02:19:13.620 --> 02:19:20.280]  the Apple 2 so with the 3.5 inch disk drive there was a there was an app on the Mac called
+[02:19:20.280 --> 02:19:25.140]  Apple to file exchange where basically you could stick an Apple to format a disk in onto
+[02:19:25.140 --> 02:19:29.340]  a Mac and it looked like font da mover it was one of these things or like transmit is
+[02:19:29.340 --> 02:19:33.580]  today where it was like the files on the floppy are here on the left side and the files on
+[02:19:33.580 --> 02:19:37.580]  the on the Mac or over here on the right side and you'd click and press the arrow button
+[02:19:37.580 --> 02:19:41.860]  and it would very slowly kind of grind but that's how that's how I ended up printing
+[02:19:41.860 --> 02:19:45.580]  all of my papers my freshman and sophomore years in college as I write them on the Apple
+[02:19:45.580 --> 02:19:50.780]  to put them on one of those floppies take it to a computer lab or the college newspaper
+[02:19:50.780 --> 02:19:57.860]  office migrate them over onto the Mac open them up format them and print them on a laser
+[02:19:57.860 --> 02:20:01.700]  printer so there was that was the migration pad that's where all the stuff that I brought
+[02:20:01.700 --> 02:20:06.140]  when I bought a Mac was it was that I would just put them on those floppies and then and
+[02:20:06.140 --> 02:20:10.260]  then migrate them back out but that was it that was I guess it was an Apple to card for
+[02:20:10.260 --> 02:20:14.660]  the Mac for a while where you could like boot an Apple to inside of your Mac I don't know
+[02:20:14.660 --> 02:20:19.060]  right and super weird right and it was all because there because there was no real upgrade
+[02:20:19.060 --> 02:20:25.260]  path like if a school had some sort of curriculum that was based on the Apple to it there was
+[02:20:25.260 --> 02:20:30.380]  no way you know whatever it just wasn't any way to run it on a Mac so they literally put
+[02:20:30.380 --> 02:20:37.420]  the Apple to on a card to put a max so that you could just switch the device the Apple
+[02:20:37.420 --> 02:20:42.580]  to was so popular on an awful lot of people went from the Apple to to Windows or to a
+[02:20:42.580 --> 02:20:47.860]  DOS PC like that the Apple to was incredibly popular for a long time and a lot of those
+[02:20:47.860 --> 02:20:51.760]  people didn't make the move to the Mac in fact there's I talk to people who tell the
+[02:20:51.760 --> 02:20:54.700]  story where they were on the Apple to and they loved it and then they went to the PC
+[02:20:54.700 --> 02:20:59.820]  and it was only sort of in the 2000s with the iPod and then you know the and the iMac
+[02:20:59.820 --> 02:21:04.120]  and all of that that they came back to Apple but that they actually had a previous Apple
+[02:21:04.120 --> 02:21:09.260]  experience in the old days with the Apple to before they went to to the dark side yeah
+[02:21:09.260 --> 02:21:13.300]  people it's a lot of people who took a long time you know for some some for reasonable
+[02:21:13.300 --> 02:21:16.700]  reasons some just because it's human nature you don't like change but people who got used
+[02:21:16.700 --> 02:21:20.880]  to computers in the era when you turned it on and you had a cursor blinking on screen
+[02:21:20.880 --> 02:21:26.260]  where you had to type something to continue saw the fact that the Mac didn't have that
+[02:21:26.260 --> 02:21:31.100]  and couldn't be configured to have that as a non-starter whereas you could get Windows
+[02:21:31.100 --> 02:21:36.980]  or a DOS PC you know I always laugh thinking about it but like for years the way people
+[02:21:36.980 --> 02:21:41.680]  even when Windows was was taking off and had millions of users the way you got into Windows
+[02:21:41.680 --> 02:21:48.580]  was to boot into DOS and you typed win yeah and then you could exit windows and go back
+[02:21:48.580 --> 02:21:54.380]  to DOS and do your DOS stuff yeah and that was considered normal that was that was that
+[02:21:54.380 --> 02:22:00.260]  was not I had jobs where that's what you know I never had I had jobs where that's what I
+[02:22:00.260 --> 02:22:05.220]  would do it's and and every good reasons for it actually made sense that Windows didn't
+[02:22:05.220 --> 02:22:09.740]  start automatically yeah sometimes I felt coming from the Apple to sometimes I had those
+[02:22:09.740 --> 02:22:14.380]  moments where I would and even when I was a Mac user where I would be like can I go
+[02:22:14.380 --> 02:22:19.140]  back to DOS I feel like I feel way more comfortable using a DOS command line than I do using Windows
+[02:22:19.140 --> 02:22:22.940]  in the in that area it's like I wanted to either use the Mac or I just wanted the command
+[02:22:22.940 --> 02:22:28.700]  line just exactly back to it's what it wants it's what the machine wanted to use anyway
+[02:22:28.700 --> 02:22:31.220]  this has been a great show I hope you have a good new year hope you're having a good
+[02:22:31.220 --> 02:22:36.300]  holiday break yeah absolutely other than my boss being a mean a mean jerk who wants me
+[02:22:36.300 --> 02:22:40.780]  to work a lot but yeah no it's been good and it's like what likewise and have a happy new
+[02:22:40.780 --> 02:22:44.140]  year I'm I'm looking forward to 2018 I think there's gonna be some good stuff in 2018 you
+[02:22:44.140 --> 02:22:50.520]  got great stuff recently there's so much good stuff at six colors.com you can spell colors
+[02:22:50.520 --> 02:22:55.860]  either way yeah everybody's got a redirect I can't even we don't have time to list all
+[02:22:55.860 --> 02:23:02.160]  of your podcasts but upgrade is certainly the one that might be of most interest to
+[02:23:02.160 --> 02:23:09.340]  to listeners of this show with you and Mike Hurley there's a comparable weekly pop culture
+[02:23:09.340 --> 02:23:16.340]  podcast I hear John Sirkusa was on a recent episode yeah yeah he gets he's around he gets
+[02:23:16.340 --> 02:23:20.900]  around that's he makes his pronouncements about movies and things on on the incomparable
+[02:23:20.900 --> 02:23:25.900]  and the other podcast that maybe talk show listeners want to try out is relatively new
+[02:23:25.900 --> 02:23:31.720]  started in 2017 called download and that is I host that but I try to get two or three
+[02:23:31.720 --> 02:23:36.580]  interesting tech guests and take a broader tech view so it's not just Apple stuff it's
+[02:23:36.580 --> 02:23:41.900]  sort of like what a broader like what happened in tech and what the issues are sometimes
+[02:23:41.900 --> 02:23:46.560]  its details about what what Microsoft or Apple or Google did and sometimes like the most
+[02:23:46.560 --> 02:23:54.620]  recent one we talked about the ramifications of the Disney Fox deal with a reporter from
+[02:23:54.620 --> 02:24:00.420]  The Hollywood Reporter and a writer from Polygon and like like how the world streaming especially
+[02:24:00.420 --> 02:24:05.820]  gets impacted by everything that Disney's doing and buying Fox and buying BAM tech the
+[02:24:05.820 --> 02:24:10.580]  streaming company and owning 60% of Hulu if this deal goes through and it's been a fun
+[02:24:10.580 --> 02:24:14.980]  podcast because it gets me out of my comfort zone a little bit and talking to a bunch of
+[02:24:14.980 --> 02:24:19.180]  interesting people yeah that's also at relay FM it's called download excellent all right
+[02:24:19.180 --> 02:24:45.260]  thank you Jason Happy New Year Happy New Year

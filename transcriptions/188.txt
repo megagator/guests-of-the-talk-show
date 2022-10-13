@@ -1,0 +1,696 @@
+[00:00.000 --> 00:07.880]  Hey there, it's me John Gruber host of the talk show and I'm here to do a little introduction for what is a very
+[00:08.600 --> 00:15.180]  Special episode. I have an interview with Lisa Jackson vice president at Apple of environment policy
+[00:16.000 --> 00:21.400]  Pretty much everything Apple does with regard to the environment. I think it went great. I think it was a fascinating interview
+[00:21.400 --> 00:26.520]  She's super smart super funny. We talked for about an hour and it is interruption free
+[00:26.520 --> 00:32.860]  Once I get going with Lisa, it's just gonna go straight through. It's just under an hour. And how is that possible?
+[00:32.860 --> 00:38.880]  It's made possible because we've made a deal to have an exclusive sponsor for this episode. I'm gonna tell you about them right now
+[00:39.700 --> 00:41.760]  Give me a minute of your time to tell you about
+[00:42.540 --> 00:49.740]  Circle with Disney circle with Disney is a beautiful little device designed for families to manage content and time
+[00:50.140 --> 00:52.420]  online for the kids and the whole family
+[00:52.420 --> 00:58.180]  It lets you it's not it's it's not about controlling everything your kid does on the internet
+[00:58.180 --> 01:04.580]  But it's about giving you the parent some sort of say in what they do online how long they spend and when they do it
+[01:04.700 --> 01:07.220]  What can it do it lets parents filter content?
+[01:07.820 --> 01:14.540]  Customizing what's available and what's filtered by app platform and category you can set time limits for things like YouTube Minecraft Facebook
+[01:14.980 --> 01:16.860]  Netflix and even snapchat
+[01:16.860 --> 01:22.260]  Your kids are staying up too late on the internet. You can set bedtime for each kid and their devices and
+[01:22.780 --> 01:29.460]  they have some called insights which is sort of an analysis of what everybody in your family is doing online when they do it sort of a
+[01:30.780 --> 01:35.580]  Sort of an accounting so you can see just how much time your family is spending on it on the internet
+[01:35.940 --> 01:37.940]  What about 4g? What about LTE?
+[01:38.100 --> 01:40.700]  They have a separate product called circle go
+[01:40.700 --> 01:46.500]  which you can install on your kids smartphone and it gives you the same sort of control over their access when they're on the
+[01:46.500 --> 01:52.060]  Cellular network or any other Wi-Fi network other than your own. So here's the deal you buy the circle with Disney
+[01:52.100 --> 01:56.680]  It's it's a little device plugs right in to your router works with just about any modern
+[01:56.900 --> 02:02.020]  Wi-Fi router in your house could not be easier to set up and it could not be easier to manage
+[02:02.020 --> 02:07.780]  This is not something that turns you as a parent into a system administrator setting up some kind of complicated network
+[02:07.780 --> 02:11.520]  No, it's meant for non-technical parents. It's total Disney style interface
+[02:12.100 --> 02:14.820]  Really great product you can get it
+[02:15.460 --> 02:22.100]  At Amazon Best Buy target and online you can get to go to their website meet circle calm now
+[02:22.100 --> 02:28.700]  That's not like beef. It's not me at its me et like you're meeting them meet circle calm use the code
+[02:29.260 --> 02:31.260]  the talk show at
+[02:31.300 --> 02:36.780]  Meet circle calm and you'll get free shipping and ten dollars off your circle with Disney device
+[02:36.780 --> 02:42.820]  they're a proud sponsor of the talk show they've sponsored before and they're very much excited to be the sponsor of this show because
+[02:43.500 --> 02:50.900]  Disney is very encouraged by Lisa Jackson's efforts at Apple around environmental policy and her work on Apple's connect ed
+[02:51.400 --> 02:54.500]  Program so they're very excited to be the sponsor of the show
+[02:55.280 --> 02:59.640]  Exclusive so my thanks to them and then here we go away with the show
+[03:01.460 --> 03:04.860]  So we met briefly a few weeks ago when I was on campus
+[03:04.860 --> 03:09.700]  for the Mac Pro thing and the first word first words out of your mouth were
+[03:12.220 --> 03:13.860]  We've talked about
+[03:13.860 --> 03:17.940]  Jackson baseball and said how can a guy from Philly be a Yankees fan?
+[03:19.060 --> 03:22.180]  That's true. That's true. I don't understand that
+[03:22.900 --> 03:27.560]  But all right, you can be if you want to suppose a Mets fan Mets for life
+[03:27.620 --> 03:31.980]  Are there any Yankees fans at Apple? I get it from Schiller. He's a Red Sox fan
+[03:31.980 --> 03:36.260]  a Steve Dowling Red Sox fan and now I found out you're a Mets fan
+[03:36.900 --> 03:38.900]  Yeah, I married into the Mets
+[03:39.260 --> 03:44.440]  Can't ever be without them. But yeah, I don't know if they're around. Maybe they're just not holding their head up to
+[03:47.060 --> 03:49.420]  I'm sure they're all gonna come and find me
+[03:50.900 --> 03:56.220]  They're here if there are any Yankees fans at Apple you should go after Lisa Jackson and
+[03:56.220 --> 04:02.900]  Hey, thanks. That's all I need. There aren't any people in the world going after Lisa Jackson, but let's just add them to the list
+[04:04.620 --> 04:09.300]  Well, so we won't talk baseball but so far so good for both the Yankees and Mets they're both off to a good start
+[04:09.300 --> 04:15.500]  So neither of us really has neither of us anything to rib the other about always about the bullpen, right?
+[04:15.740 --> 04:21.980]  But we'll see. Okay. Well, we'll keep our fingers crossed and hopefully I won't talk to you later if things go the wrong way
+[04:21.980 --> 04:30.040]  But we are talking because this episode will air right before Earth Day and Earth Day is a big
+[04:30.840 --> 04:34.280]  start to do an annual celebration for Apple you guys have
+[04:35.360 --> 04:42.280]  Announcements that coincide with Earth Day every year now, correct? Yeah, that's right. It's something we started back in
+[04:42.800 --> 04:44.000]  2014
+[04:44.000 --> 04:47.200]  So this year I have notes here
+[04:48.360 --> 04:50.360]  Let me make sure I don't miss anything
+[04:50.360 --> 04:51.680]  By
+[04:51.680 --> 04:53.680]  the time this episode airs your
+[04:53.880 --> 04:59.160]  2017 environmental responsibility report will be out and you have a big and big announcement there
+[04:59.160 --> 05:02.720]  which is that you guys are setting a new goal, which is a
+[05:03.560 --> 05:08.600]  Closed loop supply chain. Can you tell me what that means? Well, it sounds so technical
+[05:09.000 --> 05:16.280]  You know it what we've said is that for four years now, we said that one of our three priorities is to really
+[05:16.280 --> 05:23.440]  recognize the fact that the resources that we use to make our products are finite just by definition and
+[05:23.840 --> 05:29.600]  The world has been looking for a while for a while at this idea of trying to close the loop on supply chains
+[05:29.600 --> 05:32.920]  So if you think about most supply chains and ours is very complex
+[05:32.920 --> 05:38.980]  I'm going to oversimplify you you mind something out of the earth you source it. Usually it comes from the earth somehow
+[05:39.240 --> 05:43.120]  It's a finite resource and then you manufacture you produce it
+[05:43.120 --> 05:49.000]  Obviously, there are many many people involved in the manufacture of our products and people use them. They buy them they use them
+[05:49.000 --> 05:54.240]  That's great. Hopefully they use them for a very long time. They get all their software upgrades. Everything's wonderful
+[05:54.280 --> 05:57.000]  but at some point you have to discard it and
+[05:57.680 --> 06:03.800]  Apple spent a lot of time and effort over the years for many years on the recycling end
+[06:03.800 --> 06:08.520]  You know being able to try to bring used electronics in and recycle them
+[06:08.520 --> 06:14.840]  But the frustrating part of that has been you know, that's still a line when it's time to make more products
+[06:15.360 --> 06:19.920]  Many of our suppliers still go back to the mines if you will go back to the earth
+[06:20.260 --> 06:25.360]  So one of the things we've set our sights on and I have to start by saying this is a very long term goal
+[06:25.360 --> 06:29.060]  And it's it's not like us to announce goals way out into the future
+[06:29.060 --> 06:34.640]  But it's it's sort of a north north star for us is to start to close that loop to say can we use?
+[06:34.640 --> 06:42.560]  Recycled material maybe our recycled material but recycled material in general to be more of the feedstocks for our suppliers
+[06:42.560 --> 06:47.840]  For the components that make up our products. So if you think about that for a second it, you know
+[06:47.840 --> 06:55.480]  It requires all of us working together. It's kind of a systems problem everything from design to engineering to manufacturing to
+[06:56.360 --> 07:02.400]  Procurement all those relationships with suppliers, but it's really something kind of cool for us
+[07:02.400 --> 07:07.720]  We've we've sort of worked with a lot of the folks who do the work here and I think all of us think it's just a
+[07:07.720 --> 07:08.480]  fun
+[07:08.480 --> 07:11.540]  And really important time to focus on resources
+[07:12.000 --> 07:18.680]  What are you said you have there's three priorities three main priorities at Apple in this in this regard. What are those three priorities?
+[07:19.200 --> 07:26.920]  So they haven't changed and I don't think they will the first is to address climate change and I say it really broadly that way
+[07:26.920 --> 07:28.280]  because
+[07:28.280 --> 07:33.080]  It's not to zero out our carbon footprint or to become carbon neutral
+[07:33.080 --> 07:36.480]  But really to look at climate change as a problem that the world is facing
+[07:37.160 --> 07:42.320]  Really the largest environmental and environmental health problem and economic problem in many places
+[07:42.360 --> 07:47.140]  We know we now see it's another big systems problem. And so
+[07:48.040 --> 07:55.280]  To address it. Obviously the way to address it is energy efficiency more renewable energy cleaner energy on the grid
+[07:55.280 --> 08:02.680]  Moving to a low carbon world and so we take really seriously our responsibility to first start at home
+[08:03.640 --> 08:05.640]  Apple is 100%
+[08:05.960 --> 08:10.160]  Renewably powered in 24 countries including our own. I'm sorry. He's
+[08:11.120 --> 08:15.600]  96% renewably powered about to get in trouble here in 24 countries
+[08:16.320 --> 08:20.880]  We're 100% So in the u.s. We're a hundred percent in 23 other countries
+[08:20.880 --> 08:26.440]  But when you average it out around the world, we're at 96% and that includes our data centers
+[08:26.440 --> 08:28.040]  Those are at 100%
+[08:28.040 --> 08:35.040]  So all of our data centers every time you send a message or send a FaceTime video
+[08:35.040 --> 08:40.040]  you're using a data center that's not contributing to climate change and it includes our
+[08:40.520 --> 08:45.160]  offices our new office Apple Park, of course being one of those but
+[08:45.840 --> 08:50.000]  So 96% we're really proud of so climate change is is number one
+[08:50.000 --> 08:55.840]  We talked a little bit about resources number two, and our third one kind of goes back to
+[08:57.000 --> 09:01.960]  Something that's been in our history for a long time and that's to use greener materials to remove
+[09:02.760 --> 09:04.760]  toxic materials
+[09:05.420 --> 09:07.420]  Usually well ahead of the game
+[09:07.720 --> 09:12.580]  Apple removed halogenated compounds from our products years ago
+[09:12.920 --> 09:17.740]  and so we wanted to sort of honor this history that Apple has had of pioneering the use of
+[09:17.740 --> 09:21.580]  greener safer better materials and then
+[09:22.260 --> 09:27.460]  Keep that as one of our priorities because there's a lot of people here very proud of the work they did to accomplish
+[09:27.980 --> 09:29.460]  for example
+[09:29.460 --> 09:34.080]  PVC pop PVC free power cords. Yes, and that's become
+[09:36.120 --> 09:39.940]  You can bank on it a hallmark of every product
+[09:40.340 --> 09:41.220]  introduction
+[09:41.220 --> 09:45.660]  introduction event is at some point there's going to be that green checklist and
+[09:45.660 --> 09:49.020]  It's not something that gets rushed through it is
+[09:49.700 --> 09:51.080]  Let's pause for a second
+[09:51.080 --> 09:56.420]  We want to tell you how awesome this product is, but we want to pause right now and just say look at this
+[09:56.460 --> 10:02.220]  It's PVC free this free that free that's become a you can bank on it for every product
+[10:02.220 --> 10:08.220]  And yeah, I'm almost hoping it gets to the point where everyone says it along with us and you know
+[10:08.660 --> 10:11.900]  Because Phil Schiller is usually the one who does it
+[10:11.900 --> 10:15.940]  The secretary explaining things I call him
+[10:16.860 --> 10:21.280]  But you know, he usually takes the time to really explain, you know
+[10:21.280 --> 10:24.800]  the products and all they do and it makes me really proud that he always
+[10:25.100 --> 10:29.480]  Insists that one of the things he wants to explain is the time that it takes
+[10:29.480 --> 10:35.140]  I mean are the materials that aren't in there and I think it's partially because he realizes how much deep in
+[10:35.660 --> 10:40.400]  Innovation and engineering it takes to make those decisions to take those materials out
+[10:40.400 --> 10:45.940]  And a lot of times with pollution, it's you know, you're talking about the stuff that didn't happen
+[10:46.540 --> 10:51.780]  So that can be a hard thing for most people to appreciate or understand but it's always really cool
+[10:52.340 --> 10:59.040]  That Apple takes the time to do that and in part of what makes it difficult for Apple in
+[10:59.940 --> 11:02.720]  Particular is that Apple has very high standards
+[11:02.720 --> 11:08.540]  It's what the company is known for in consumers minds part of the brand is that their stuff is very nice
+[11:08.540 --> 11:10.780]  it is nice in terms of
+[11:11.420 --> 11:17.820]  It just looks nice. It feels nice and sometimes I think in the past some of the reason that some of these
+[11:19.660 --> 11:24.060]  Substances and materials that were used that are not environmentally friendly were used it was because
+[11:25.540 --> 11:32.220]  Such-and-such thing makes the glass shinier or something like that. And so it's for Apple. It's not we can't just get rid of it
+[11:32.220 --> 11:34.220]  It's like you can't just get rid of it
+[11:34.220 --> 11:40.600]  You have to get rid of it and still keep the standards for the devices and the quality of the materials as high as possible
+[11:41.480 --> 11:43.480]  And I think that's
+[11:43.760 --> 11:46.840]  True. I mean I wasn't in the labs when work was being done
+[11:46.920 --> 11:53.500]  I think there's also an element of sort of that's the way it's always been done. So power cords is a great example
+[11:54.880 --> 12:00.960]  You know, do you need polyvinyl chloride in the power cord in order to make it strong enough and safe enough?
+[12:00.960 --> 12:07.720]  Well, pretty much around the world Apple is work to get certified power cords that don't have them. They do feel different
+[12:07.720 --> 12:09.120]  They are softer
+[12:09.120 --> 12:15.460]  But there's a really important reason why which is that those materials are never introduced anywhere in the supply
+[12:15.460 --> 12:17.460]  which is really sort of a
+[12:18.120 --> 12:21.600]  prevention of pollution for our workers and for the communities where
+[12:22.360 --> 12:28.220]  Manufacturing happens. I think I think it's also a bit of a nod to the folks in the environmental
+[12:28.220 --> 12:33.300]  Testing and technologies group, you know, we have an environmental testing lab here
+[12:34.020 --> 12:37.420]  And it's grown over the years. I was actually there
+[12:38.820 --> 12:42.340]  yesterday day before can you remember the week is going by fast, but
+[12:42.980 --> 12:49.100]  You know, we also have to test the parts that we get and one of the things we've been doing is testing so far
+[12:49.100 --> 12:50.260]  I think it's over
+[12:50.260 --> 12:56.780]  20,000 individual parts because a lot of things end up in a part we might specify how we want the part to behave on
+[12:56.780 --> 13:00.980]  What we want in it, but a lot of times there is material that are in there that you made
+[13:00.980 --> 13:03.460]  Maybe you don't need or maybe you don't realize or maybe
+[13:03.940 --> 13:08.380]  We want to make sure is substituted out. And so we're also spending a lot of time
+[13:08.380 --> 13:13.740]  It's almost like our own little DNA project, you know learning and understanding intimately
+[13:14.160 --> 13:17.200]  What are in the parts that we get from our suppliers?
+[13:18.420 --> 13:21.940]  One of the things I don't want to skip around too much, but okay
+[13:21.940 --> 13:27.780]  I tend to do that part. I do I do too, but a lot of this stuff is interrelated
+[13:27.940 --> 13:30.700]  It's it's like all of a sudden we're talking about
+[13:31.500 --> 13:32.700]  the
+[13:32.700 --> 13:39.380]  The materials that are used in these devices and it leads you immediately to talking about aspects of the supply chain
+[13:40.620 --> 13:42.060]  but there's a
+[13:42.060 --> 13:46.660]  part of the news this week is a series of four short videos animated videos by
+[13:46.660 --> 13:52.020]  I James Blagdon and I got a sneak look at them ahead of this so I can see it
+[13:52.020 --> 13:54.020]  but by the time the show airs they'll be out and
+[13:54.700 --> 14:00.260]  They're really kind of interesting but but they cover different different aspects of it and one of them covers
+[14:01.020 --> 14:03.020]  the
+[14:03.020 --> 14:04.260]  The
+[14:04.260 --> 14:06.400]  the goal of having no
+[14:07.260 --> 14:12.060]  Correct me if I'm wrong, but the goal is to have no waste going to landfills from the supply chain
+[14:12.060 --> 14:16.780]  Yeah, right now the video covers our final assembly facilities. So
+[14:17.860 --> 14:24.020]  Those that's why you'll see in the video an emphasis on sort of material coming in which is you know
+[14:24.020 --> 14:29.740]  What happens at those facilities a lot of material and parts come in and then they're assembled and a product goes out the door
+[14:30.140 --> 14:37.340]  But yeah, so the emphasis on is on this idea and it's not a new idea, but I think Apple is really embracing it. We have
+[14:37.340 --> 14:41.020]  Facilities now all of our final assembly facilities in
+[14:42.540 --> 14:45.580]  You know, we have a facility in Cork we have facilities in China
+[14:45.580 --> 14:51.340]  We have facility in Brazil and my facility here in California are now
+[14:51.900 --> 14:57.340]  Certified by UL as zero waste and it was you know this classic
+[14:58.220 --> 15:00.220]  environment versus
+[15:00.620 --> 15:02.620]  You know economy
+[15:02.620 --> 15:08.940]  Argument that's so false and it was so evident because the reason this started was looking at a problem and thinking
+[15:08.940 --> 15:13.820]  Oh, we just got all this material and it's waste and thinking oh the answer is recycling
+[15:13.820 --> 15:20.700]  But really the answer is to think smart about why are so many things coming in but leaving empty and can they go back?
+[15:20.700 --> 15:28.460]  Can you take a pallet or can you take a tray that contains material and send it back so you can be used over and over again?
+[15:28.460 --> 15:33.340]  And that saves money. So people really embraced it. It's not always
+[15:34.060 --> 15:37.020]  Easy to see that path towards saving money
+[15:37.020 --> 15:43.820]  but everybody feels really good about the idea of not having to send waste to a landfill in order to
+[15:44.620 --> 15:50.380]  Produce our products in other words. It's sort of in the common sense of the word
+[15:50.380 --> 15:53.740]  It's kind of like a simpler form of recycling where?
+[15:53.740 --> 16:00.540]  Instead of having you know, and and again you think about the magnitude of it it and sometimes it it just it boggles the mind
+[16:00.540 --> 16:01.900]  where they're talking about
+[16:01.900 --> 16:08.780]  a assembly facility that is turning out 150,000 iPhones a day, which is crazy and you just think well
+[16:09.180 --> 16:13.820]  Every single one of those iPhones has a touch ID sensor and it comes in in a tray
+[16:14.540 --> 16:21.180]  And if you can just have those trays that were used to deliver the touch ID sensors in the morning
+[16:21.180 --> 16:26.860]  Go back out and the same tray is being used to deliver the touch ID sensor in the afternoon
+[16:27.500 --> 16:32.460]  It's it's sort of like recycling without actually having to go through all the process of actually
+[16:33.660 --> 16:35.660]  Remulching the material and and
+[16:36.380 --> 16:42.220]  Turning it into a new tray. Why turn it why turn a tray that was used once into another tray when you could just reuse the
+[16:42.220 --> 16:45.980]  Tray. Yeah, exactly. I mean it's that old adage of reduce
+[16:46.700 --> 16:48.860]  reuse and recycle the
+[16:48.860 --> 16:50.700]  Part of it, but it shouldn't be
+[16:50.700 --> 16:57.740]  The first place we go and I kind of like the way you're um, you're explaining because part of our thought of these videos was
+[16:57.740 --> 17:01.180]  You know, not everyone at home has a final assembly facility
+[17:02.060 --> 17:08.220]  But they do have the opportunity to think the same way about the ways that they might produce
+[17:09.260 --> 17:13.980]  And we really wanted to connect our customers first to what we do
+[17:13.980 --> 17:19.020]  But also maybe to spark in them the thoughts of hey, that's a really interesting way of thinking about
+[17:20.060 --> 17:25.020]  You know life in general and maybe it applies a little to me. Maybe maybe they won't make that connection
+[17:25.020 --> 17:28.460]  But really just want to make it simple maybe thought provoking
+[17:29.500 --> 17:34.860]  And to reach people where they are, but but also it gave us a chance the the video you're talking about gave
+[17:35.740 --> 17:40.540]  John a chance to tell his story and there are just so many cool stories at apple of people
+[17:40.540 --> 17:45.020]  Who don't have to but want to do the right thing and figure out?
+[17:45.900 --> 17:51.100]  Through maybe a little bit of trial and error. John has a little bit of a trial and error moment in that short video
+[17:51.100 --> 17:54.060]  but you know, they figure out what to do and then
+[17:54.860 --> 17:57.660]  The beauty of apple of course is once we figure out what to do
+[17:58.540 --> 18:00.540]  We learn how to do it at scale pretty quickly
+[18:01.260 --> 18:04.700]  yeah, i've noticed it like my my son is in seventh grade and
+[18:05.740 --> 18:09.820]  It's not like a rule. It's not a rule. It's not a rule. It's not a rule. It's not a rule
+[18:09.820 --> 18:13.980]  It's not like they're told everybody has to come in with it. But as far as I can tell every kid
+[18:14.700 --> 18:20.620]  Comes into school every day with a like a thermos or a you know, aluminum water bottle
+[18:20.940 --> 18:23.500]  And so for drinking water, nobody brings in
+[18:24.300 --> 18:25.100]  uh
+[18:25.100 --> 18:28.380]  You know like the retail bottles of water every every kid comes in with
+[18:28.620 --> 18:31.980]  With a little thermos that they just fill with the cold water at the beginning of the day
+[18:32.860 --> 18:39.020]  Yeah, and they don't see it right i'm guessing your son doesn't see it as a pain or uh, anything weird
+[18:39.020 --> 18:42.380]  He actually just thinks of it as the way to drink water. I mean exactly
+[18:42.860 --> 18:45.500]  My son is considerably older than yours
+[18:45.660 --> 18:50.460]  But uh, you know, he I was talking to him yesterday and I said, you know, what'd you have for lunch? I didn't eat
+[18:50.940 --> 18:54.860]  I said, uh, you know, so then as a mom i'm upset but then he i'm like, what'd you do?
+[18:54.860 --> 18:58.940]  He's like I drank water all day. I was like how you do that. He said I brought a water bottle from home
+[18:59.020 --> 19:05.020]  Mom, you know just like leave me alone, but they don't you know, it's not a big deal and it's not seen as um,
+[19:05.020 --> 19:10.220]  Um, like like you don't need to buy this, you know bottled water. It's it's right there. It's for us
+[19:10.300 --> 19:13.820]  it's actually one of the blessings we have in this country is a
+[19:14.540 --> 19:18.700]  Mostly secure supply a clean drinking water. Yeah, but it's it that's exactly it though
+[19:18.700 --> 19:21.820]  It just seems it just comes naturally to to kids today
+[19:21.980 --> 19:26.780]  It doesn't it doesn't seem like they they don't even see it as like oh i'm doing my good deed for the environment
+[19:26.940 --> 19:28.940]  It's just this just makes sense
+[19:29.160 --> 19:33.900]  Absolutely, and I I sometimes wonder like what things what other things will be that way
+[19:33.900 --> 19:35.900]  I know climate change will be that way
+[19:36.220 --> 19:37.340]  um
+[19:37.340 --> 19:38.540]  So but you know
+[19:38.540 --> 19:43.580]  You just you wonder what other things will sort of be baked in with an ethic that's a lot more
+[19:43.900 --> 19:46.860]  Thoughtful about the planet and sort of your role in the planet
+[19:47.740 --> 19:48.860]  um
+[19:48.860 --> 19:50.860]  one of the other videos, uh
+[19:50.940 --> 19:54.700]  And again skipping around a little bit, but it's okay. It's all in your purview
+[19:55.820 --> 19:59.100]  one of them focused on the new, uh
+[20:00.140 --> 20:01.420]  apple park
+[20:01.420 --> 20:03.420]  and how the
+[20:03.420 --> 20:05.420]  the building is
+[20:06.460 --> 20:10.060]  I don't think it's a stretch to say that it's an innovative design
+[20:10.700 --> 20:11.580]  to
+[20:11.580 --> 20:12.700]  cooling
+[20:12.700 --> 20:16.060]  that it's a like a combination of cold water running through pipes and
+[20:16.780 --> 20:20.860]  a sort of a breathable let the wind blow through the building to
+[20:21.500 --> 20:23.500]  to circulate um
+[20:23.900 --> 20:25.900]  Can you tell me more about that?
+[20:25.900 --> 20:29.740]  Yeah, you know I so these will be out and hopefully everybody will have seen them
+[20:29.740 --> 20:31.740]  but if you haven't seen the building with uh
+[20:31.740 --> 20:33.740]  dan wisenhunt who's done a
+[20:34.460 --> 20:36.380]  a lot of the work overseeing um
+[20:37.020 --> 20:42.300]  The construction and of apple park. Um, dan talks about you know, the
+[20:43.020 --> 20:49.820]  The way the building was designed by foster and partners to be a breathing building and he does a lovely job and um
+[20:49.980 --> 20:56.140]  Blagdon does a great job of sort of illustrating the idea of here's the typical building and here's how this one works
+[20:56.620 --> 20:58.380]  um now, you know, we have kind of a
+[20:58.380 --> 21:01.020]  We have an advantage first off. We're in you know
+[21:01.660 --> 21:08.860]  Silicon valley in cupertino and uh, the climate here is is mild. Although it can get pretty warm in the summer
+[21:09.180 --> 21:14.480]  It's not new orleans hot like what i'm used to but um, it's it's hot you get warm, but 75
+[21:15.100 --> 21:21.100]  I was going to mention philadelphia humidity, but you you you trumped me with you know, I think they're almost the same
+[21:21.260 --> 21:26.380]  It's the same as dc people you say oh new orleans is so hot and i'm like no it's not it's hot in the summer
+[21:26.380 --> 21:30.540]  And i'm like no it's not it's hot in the summer when it's humid. There's just nothing like it
+[21:31.180 --> 21:34.460]  Uh, but you know 75 of the time at apple park
+[21:34.940 --> 21:39.820]  Uh, we're estimating that um, there won't be a need for additional air conditioning and you're right
+[21:39.820 --> 21:44.380]  The building sort of is designed to have this um flow of air. It would be
+[21:44.940 --> 21:49.100]  Sort of convection into the building through these louvers and then past
+[21:49.960 --> 21:53.100]  Concrete that has cool water circulating in it
+[21:53.100 --> 21:58.220]  Uh, and that should be enough and it is also designed to have a lot of air do that. And so
+[21:58.940 --> 22:04.300]  um, you know, there's lots of studies that show that sort of outside air sun, uh,
+[22:04.380 --> 22:09.040]  Sort of is actually the environment we humans are meant to be in not these artificially
+[22:09.900 --> 22:11.900]  conditioned environment
+[22:12.060 --> 22:19.820]  And the building is on track to be um, certified by the u.s green building council as lead platinum. That's their highest. Um,
+[22:19.820 --> 22:23.040]  um certification for environment and energy
+[22:23.920 --> 22:29.440]  Efficiency and smartness and so we're really proud of that because it includes the rnd facilities. It's really an rnd
+[22:30.080 --> 22:37.440]  Uh park as much as it's an office building. So it's going to be exciting. Um, i'm i i'm thrilled for the day
+[22:37.440 --> 22:42.000]  We actually move in although I know it's going to be a little bit of madness, but it'd be awful fun
+[22:42.640 --> 22:44.640]  Moving is always madness moving
+[22:44.640 --> 22:51.680]  The world's largest corporation in across town is really I don't know what could go wrong. Really?
+[22:53.840 --> 22:54.960]  Um
+[22:54.960 --> 23:01.920]  All right. Here's a question that I have and I I would like explain it to me like i'm an idiot
+[23:02.640 --> 23:06.640]  what it means what renewable energy means in the sense of
+[23:06.640 --> 23:13.620]  96 percent of your operations are running on renewable energy and in 24 countries 100 percent
+[23:13.700 --> 23:16.500]  Explain to me what that means and why why I should care
+[23:17.780 --> 23:18.740]  So
+[23:18.740 --> 23:23.700]  You know, we we set a goal to run on a hundred percent renewable for all of our operations
+[23:23.860 --> 23:29.060]  And I just want to say notably we set a goal from the beginning to run data centers on renewable energy
+[23:29.060 --> 23:38.100]  And renewable energy, um, you should care because climate change is real it's happening and any responsible company ought to be thinking about
+[23:39.220 --> 23:42.900]  Its role in solving that problem. It's just that simple to me
+[23:42.900 --> 23:44.900]  I mean, you know tim talks a lot about
+[23:45.220 --> 23:52.020]  Companies are made of people and companies have values and they should stand for things and this company has said very clearly that one
+[23:52.100 --> 23:54.100]  Of the things we stand for is taking care
+[23:54.660 --> 23:56.340]  of our environment
+[23:56.340 --> 24:02.820]  Um, I don't think that's you know in any way partisan either. I think most people would say less pollution is good
+[24:03.460 --> 24:06.100]  You know, um more pollution is bad
+[24:06.180 --> 24:13.540]  But also the idea that having the planet and having the resources of the planet around for future generations is really important
+[24:14.020 --> 24:15.940]  and then you're a parent but uh
+[24:15.940 --> 24:21.860]  I think many of us think about our obligation to future generations not to leave a place that's you know
+[24:21.860 --> 24:28.980]  Heading to the point where the only option is to you know, recolonize or colonize another planet just doesn't seem like the
+[24:29.860 --> 24:31.860]  Parental thing to do. Um
+[24:32.420 --> 24:38.020]  And so there's there's all kinds of reasons and I could get I could wax all day about climate change
+[24:38.020 --> 24:41.780]  But what we said is look ideally, you know, we are not a power company
+[24:41.780 --> 24:45.220]  We are not a utility if the world was where we want it to be
+[24:46.020 --> 24:51.220]  Today, there'd be a utility saying hey, what kind of power do you want to buy? Okay, sure here i'll sell it to you
+[24:51.220 --> 24:53.220]  That would be awesome. We don't have that choice
+[24:53.860 --> 24:57.060]  Everywhere. So apple has the ability to do a little bit more
+[24:57.300 --> 25:04.020]  So in general we know how much energy we use in a particular country in a particular region and our goal is to put
+[25:04.660 --> 25:08.100]  That much or more clean energy onto the grid
+[25:09.060 --> 25:10.660]  Where we use it
+[25:10.660 --> 25:14.500]  Um, so a couple of things the idea has to be new clean energy
+[25:14.500 --> 25:20.340]  So we don't want to just come in and buy all the available clean energy because then there's nothing left for somebody else to buy
+[25:20.340 --> 25:22.740]  Somebody else to buy that doesn't seem very fair
+[25:23.620 --> 25:25.620]  And wherever possible to displace
+[25:26.180 --> 25:33.380]  Dirtier energy so because we're there there's this new clean energy and maybe it means you don't need as much of
+[25:33.940 --> 25:35.940]  the more polluting forms of energy
+[25:36.900 --> 25:39.700]  And then we try to be very fastidious about um
+[25:40.740 --> 25:47.140]  About quantifying that so we true up at the end of every year. So, um, you know when people ask me
+[25:47.220 --> 25:48.900]  Well, that means you're not
+[25:48.900 --> 25:55.620]  Always using the exact clean energy electron that you generate because we have uh solar powers on top of apple park
+[25:55.620 --> 25:59.060]  We have I mean solar farm at our data centers. We have
+[25:59.860 --> 26:05.620]  Wind power, uh that we purchase here in california. We even have like micro hydro projects in uh
+[26:06.340 --> 26:08.740]  In oregon, we don't always have that connection
+[26:08.820 --> 26:12.100]  It has to go through the grid and the grid plays an important role
+[26:12.100 --> 26:19.860]  But it's like an atm. We make sure we're putting enough clean energy new clean energy in to cover what we have to take out
+[26:20.340 --> 26:26.980]  And although that's not the absolute optimum to us. It feels like if every company did that we'd have a lot more clean energy
+[26:27.860 --> 26:32.020]  On the grid and demand it on the grid and that would displace brown power
+[26:32.980 --> 26:34.660]  I
+[26:34.660 --> 26:36.660]  Is it a source of frustration for you?
+[26:38.820 --> 26:39.940]  Either
+[26:39.940 --> 26:41.940]  Either in your current role
+[26:42.500 --> 26:44.500]  specifically at one company apple
+[26:45.140 --> 26:45.940]  or
+[26:45.940 --> 26:47.940]  looking even broader at
+[26:48.340 --> 26:55.940]  Your career and previously for anybody who doesn't know from for four first four years of the obama administration. You were the the head of the epa
+[26:57.460 --> 26:59.860]  Is it a source of frustration for you that more companies?
+[27:00.660 --> 27:02.660]  Don't seem to have uh
+[27:03.460 --> 27:06.660]  As high a priority on using renewable energy
+[27:06.660 --> 27:11.140]  You know, I think companies are are are moving in that direction, you know
+[27:11.140 --> 27:16.820]  What what we always knew at epa was really clear to me here is, you know a business needs
+[27:17.460 --> 27:20.660]  Certainty and has to make decisions based on
+[27:21.700 --> 27:28.340]  Where policy is going where it thinks the world is going and it has been really clear to most big
+[27:28.500 --> 27:31.700]  You know multinational companies, I think for some time that
+[27:31.700 --> 27:37.140]  We're going to be living in a carbon-constrained future. Um, it's not clear how it's going to be constrained
+[27:37.140 --> 27:44.820]  I mean, there's the paris climate accords. There are all kinds of policy discussions going on around the world about how to get to lower carbon
+[27:45.700 --> 27:49.940]  And some countries are in the middle of that transformation in a very big way
+[27:50.500 --> 27:52.820]  So I think a lot of companies over the last
+[27:53.460 --> 27:59.780]  Eight to ten years had to decide what to do and have made the decision to incorporate energy efficiency
+[27:59.780 --> 28:02.980]  Of course, uh, because that's cheaper and cleaner
+[28:03.940 --> 28:04.980]  but also
+[28:04.980 --> 28:10.100]  Renewable energy and that's true in states like texas certainly in states like california
+[28:10.100 --> 28:12.500]  But you know, we have a big data center in nevada
+[28:13.620 --> 28:20.980]  It's true there. We have a big data center in north carolina, which is uh on its third solar farm now, so
+[28:21.940 --> 28:23.940]  You know, I I I don't
+[28:24.740 --> 28:28.420]  When I left epa the one thing I thought was because i'm not sure if you know
+[28:28.420 --> 28:32.180]  One thing I thought was because i'm an engineer a chemical engineer by training actually
+[28:32.900 --> 28:36.980]  A lot around all these computer science and electrical engineers. So go figure
+[28:37.700 --> 28:38.820]  but um
+[28:38.820 --> 28:45.460]  You know, I wanted to go back to my roots and sort of say I believe i've always believed that business has
+[28:45.780 --> 28:47.780]  Not just a role but a responsibility
+[28:48.740 --> 28:50.740]  Part of the reason I became an engineer
+[28:51.700 --> 28:57.060]  Or an environmental sort of engineer is that I remember being in school and thinking as a chemical engineer
+[28:57.060 --> 29:04.100]  We make all this chem this hazardous waste chemical engineers should be responsible as a profession for stopping this problem
+[29:04.740 --> 29:06.740]  uh, and so I think that's sort of how we
+[29:07.220 --> 29:10.500]  Think of it here and I think more companies are seeing it that way
+[29:10.660 --> 29:17.380]  It is it is a little depressing that there's some old thinking out there still which is you can either have economic growth or you
+[29:17.380 --> 29:18.500]  can have a
+[29:18.500 --> 29:21.620]  clean environment, but that's that's old-fashioned thinking and
+[29:21.620 --> 29:28.420]  Uh, we really need people to sort of look look beyond that and really think about the problem and innovate around it
+[29:29.540 --> 29:31.620]  that's something and again, i'm
+[29:32.580 --> 29:40.340]  Very much a lay person in the expertise on this but it at a common sense level. It frustrates me to hear that argument of
+[29:41.040 --> 29:43.040]  economic growth
+[29:43.040 --> 29:50.640]  Um being tied to we can't spend money on we have to do things the cheapest way possible right now
+[29:50.640 --> 29:55.680]  Which would be to continue using fossil fuels and just spewing carbon into the air
+[29:56.320 --> 29:59.060]  Uh versus it's it's like an idealism
+[29:59.760 --> 30:06.400]  That we can't afford to go to cleaner and renewable sources. That's what frustrates me with that argument. Is that
+[30:07.440 --> 30:08.800]  Isn't that?
+[30:08.800 --> 30:13.920]  where all this opportunity is where new companies or even existing companies could like a
+[30:14.720 --> 30:21.600]  Existing energy companies could stand to make a fortune if they make major breakthroughs in renewable energy
+[30:22.640 --> 30:25.920]  Well sound like an environmental and energy expert to me john
+[30:26.000 --> 30:30.640]  I mean, it's not surprising you see it because you're also used to the thinking
+[30:31.360 --> 30:35.760]  um in in the valley and it's not only in the valley, but this idea that
+[30:35.760 --> 30:43.600]  um, you know, we need to apply the same level of innovation to the environment and our work to protect the planet as we
+[30:43.600 --> 30:49.280]  Do to the other work that we do in apple's case to our products and as soon as you start to see
+[30:49.840 --> 30:56.640]  Innovation as the way forward. Um, then you realize that the only limitation is, you know
+[30:56.640 --> 31:01.760]  Our imagination our creativity and our persistence, you know the sweat you put into something
+[31:01.760 --> 31:06.560]  So when we talk about wanting to use more recycled materials in our products
+[31:06.960 --> 31:12.240]  It's about looking at a supply chain that right now. It's just not going to be sustainable over time
+[31:12.240 --> 31:15.600]  there won't be enough or some country might decide to
+[31:16.160 --> 31:21.280]  You know control the supply of materials needed and the price just goes up
+[31:21.280 --> 31:24.160]  So how how can we get ahead of that? It's all about
+[31:24.800 --> 31:26.640]  uh innovation and not looking
+[31:26.640 --> 31:32.000]  um, I also like to say because you know, I am a little bit of a nerd that the thing about an engineer is that
+[31:32.080 --> 31:37.040]  Engineers wake up and at apple is absolutely true. We wake up when you give us a hard problem
+[31:37.760 --> 31:44.960]  And we look at it as a challenge and if I have one complaint about my profession, it's that we need to continue to
+[31:45.840 --> 31:48.160]  include the idea of ethics like
+[31:48.800 --> 31:53.680]  You know solving the problem part of the elegant solution has to be thinking about
+[31:53.680 --> 31:59.680]  Whether it's truly a sustainable one economically sustainable. Yes, but who's being harmed in this solution?
+[32:00.080 --> 32:07.200]  and I think good companies are there and I hope that customers start to expect and demand that of companies because
+[32:07.840 --> 32:13.840]  Right now I really believe that a lot of the leadership that we're going to see on these issues has to come from businesses
+[32:13.920 --> 32:19.920]  Who stand up and dispute this idea that they need to pollute in order to profit?
+[32:19.920 --> 32:26.960]  Yeah, I I I I hope at least that it sort of changes from consumers maybe like
+[32:28.060 --> 32:36.000]  Environmentally conscious consumers a smaller a niche of them if you will keeping a white list of a handful of
+[32:36.960 --> 32:44.400]  Good companies who are environmentally conscious to more of a broader. Here's a blacklist of companies who are clearly
+[32:44.400 --> 32:51.300]  Disregarding the environment in their actions and operations. I'm not going to do business with them because it's it. I find that offensive
+[32:52.260 --> 32:56.420]  Yeah, it's like a gray green list, you know khaki I think but yeah, absolutely
+[32:56.420 --> 33:00.900]  you know, I just I agree with you and I also don't think I think consumers are
+[33:01.620 --> 33:02.900]  you know
+[33:02.900 --> 33:08.980]  Sort of confused too because you have companies of all stripes standing up and claiming especially this week
+[33:08.980 --> 33:10.980]  You know as we roll into
+[33:10.980 --> 33:17.060]  Earth Day, how you know sort of putting forth their green credentials and Apple's no different
+[33:17.060 --> 33:20.420]  So I think it it tends to make people a bit cynical
+[33:20.420 --> 33:23.620]  so part of the videos was also opening up a little and
+[33:24.180 --> 33:28.740]  showing that all these claims you make take work and effort and
+[33:30.020 --> 33:35.700]  All these promises that we make you know, we try not to make them if we don't know how we're gonna get there
+[33:35.700 --> 33:37.700]  but in some cases they
+[33:37.700 --> 33:43.380]  They require a lot of persistence. And so one of the frustrations I've had also is frankly
+[33:43.780 --> 33:48.340]  there's a lot of people out there claim to say, you know, they make lists everybody makes lists, but
+[33:49.140 --> 33:55.220]  What I want people to know is that for me this company Apple is thinking, you know
+[33:55.220 --> 33:57.940]  years decades ahead about how to
+[33:58.580 --> 34:01.300]  influence our sector the tech sector the
+[34:01.860 --> 34:03.460]  consumer products
+[34:03.460 --> 34:11.300]  sector and make it better and leave the world as Tim would say leave the world better than we found it
+[34:12.740 --> 34:17.220]  One of the other announcements you guys have this week is that in a partnership with
+[34:18.420 --> 34:22.420]  The WWF which when I see it, I still think of the wrestling
+[34:24.180 --> 34:30.500]  They would not like to hear that. I know I know props to the WWF, but it's not the wrestling organization
+[34:30.500 --> 34:36.260]  But it's not the wrestling organization. It's the world wildlife, right and you guys
+[34:37.220 --> 34:43.140]  In partnership with them have gotten over 300,000 acres of working forest in China
+[34:43.700 --> 34:49.860]  To be recommended for what's called the forest stewardship council certification. And that means that Apple is now
+[34:50.500 --> 34:52.500]  protecting and creating
+[34:54.100 --> 34:57.140]  Sustainable working forest as much as is needed to cover
+[34:57.140 --> 35:00.340]  The your paper needs for the packaging that you guys make
+[35:01.700 --> 35:06.900]  Yeah in plain English does that mean that as much paper as you guys are using for packaging
+[35:07.620 --> 35:12.420]  There's trees that are being regrown at the same rate that they're being used to turn into paper
+[35:13.220 --> 35:19.300]  Yeah, I like that. You know, you see you should be in the videos because you're explaining stuff really well, too
+[35:20.180 --> 35:23.060]  Yeah, that's exactly it a while ago. Um,
+[35:23.060 --> 35:29.860]  Actually, I just started at Apple and the woman who runs packaging amongst other things Kate Bergeron was we were all at dinner
+[35:30.020 --> 35:34.500]  Having a glass of wine and she was like, you know, I've been thinking for a long time. We should buy a forest
+[35:35.380 --> 35:38.020]  And it was sort of my introduction to you know
+[35:38.020 --> 35:45.700]  Think different at Apple this idea that somebody who does packaging would go that far deep in her thinking
+[35:45.700 --> 35:49.540]  You know really analyzing the problem. And of course she was trying to get at that very problem
+[35:49.540 --> 35:56.180]  Which is packaging is made out of paper. By the way, our packaging is increasingly almost entirely paper
+[35:56.180 --> 36:00.420]  We tried we've tried to phase out plastics because we think paper can be a renewable resource
+[36:01.860 --> 36:07.220]  And what if we controlled how that paper was, you know, how the wood was harvested and the pulp was
+[36:08.340 --> 36:13.540]  Made and so we didn't buy the forest ourselves, but we found great partners
+[36:13.540 --> 36:20.500]  In the u.s. We found a group called the conservation fund. So we have 36,000 acres in Maine and North Carolina that they've worked to
+[36:21.060 --> 36:25.540]  Preserve and ensure remain in sustainable forestry. So working for us
+[36:25.540 --> 36:33.540]  Yes, trees are chopped but trees are also planted and then we found WWF in China and there it's not a land ownership issue
+[36:33.540 --> 36:39.780]  It was a management issue. We have these big basically paper. They call them plantations and
+[36:39.780 --> 36:46.580]  Making sure that they were being managed sustainably, which has been a goal of China's as well. So we found the right partner
+[36:46.580 --> 36:50.180]  They have some great people on the ground in China
+[36:51.220 --> 36:55.940]  Chinese folks who are really deeply involved in working with these
+[36:56.580 --> 37:02.420]  Chinese businesses and we're really proud of the fact that based on the work they've done in just I think about
+[37:02.980 --> 37:06.900]  Two years we've gotten to the point where we've been able to
+[37:06.900 --> 37:14.500]  Think about two years. We've gotten to the point where those forests the two of the three of them are producing enough
+[37:16.020 --> 37:22.900]  Sustainably and responsibly managed wood to cover our needs now. We've also done something on the other end, which is back to that old
+[37:23.620 --> 37:29.220]  Reduce reuse recycle. We wanted to reduce how much virgin paper we need for packaging
+[37:29.220 --> 37:32.660]  So we've really upped our work on using recycled paper
+[37:32.660 --> 37:37.620]  And we've also upped our work to make packaging smaller and lighter whenever we can
+[37:38.100 --> 37:40.100]  So we still have work to do
+[37:40.180 --> 37:44.180]  You know, this is a long road. And so I don't want it to sound like we're there
+[37:44.460 --> 37:47.420]  But we're really proud of the fact that this year we hit that milestone
+[37:47.900 --> 37:52.900]  and and again, this is another one of those things where the stakes are very high for Apple because
+[37:54.020 --> 37:59.380]  Apple products are known for having beautiful packaging and so it's not enough to just say well
+[37:59.380 --> 38:04.100]  We'll take out the plastic and we'll use cardboard or some kind of paper. It has to be nice
+[38:04.820 --> 38:08.180]  Yeah, it has to be more than nice, right? I mean, I think that's maybe the
+[38:08.900 --> 38:10.580]  The thing I didn't emphasize enough
+[38:10.580 --> 38:14.820]  I don't I didn't want to come here and do this in a way where people felt they were
+[38:15.060 --> 38:17.860]  Giving something up in order to do something good
+[38:18.500 --> 38:22.660]  Um, and I don't mean that to sound, you know, it's sort of like again back to your son, you know
+[38:22.740 --> 38:27.940]  He doesn't he's doing something good, but it doesn't change his experience. He still feels really good
+[38:27.940 --> 38:30.740]  He's getting the water he needs. I mean for us here at Apple
+[38:31.220 --> 38:38.020]  We understand that um, you know, our customers love our products. They feel emotionally attached to the experience all the way
+[38:38.660 --> 38:44.100]  From taking it home to unboxing it to turning it on the first time to seeing the hello
+[38:44.980 --> 38:50.180]  All the way through use and and upgrades. So none of that is what we're trying to impact and in fact
+[38:50.580 --> 38:54.740]  We won't allow it to happen that way. I don't I don't think anybody here would allow us to
+[38:54.740 --> 39:00.740]  Uh impact that um, what we're trying to do is make sure people understand that all these really smart people here
+[39:01.220 --> 39:04.340]  Are thinking about ways to make it green and better
+[39:04.900 --> 39:08.260]  And produce without you know harming the planet
+[39:08.820 --> 39:14.580]  So you don't have to so you can feel really good about the purchase that you make so that you know
+[39:15.140 --> 39:20.900]  That part of making the best products in the world is making the best products for the world
+[39:20.900 --> 39:22.900]  For the world
+[39:24.180 --> 39:28.180]  I I would like to talk this is an area where I just don't know much about it about
+[39:28.560 --> 39:32.420]  Transportation because just going back to that basic idea of like an assembly
+[39:33.060 --> 39:34.260]  uh
+[39:34.260 --> 39:39.140]  Plant in china that's that's manufacturing 150 000 iphones a day
+[39:40.100 --> 39:40.980]  and
+[39:40.980 --> 39:43.940]  Let's say it's september and there's a new iphone
+[39:45.300 --> 39:46.260]  and
+[39:46.260 --> 39:51.380]  The day that it comes out there are millions of ups drivers around north america
+[39:52.340 --> 39:55.460]  Ringing doorbells dropping off pre-ordered iPhones
+[39:56.340 --> 40:00.660]  To get all those iphones from china to north america
+[40:01.380 --> 40:06.100]  And then once they get to north america to distribute them to everybody who purchased it. There's
+[40:06.820 --> 40:09.780]  An awful lot of fossil fuel being burned on that, right?
+[40:09.780 --> 40:14.820]  Yeah, you know transportation as a sector for our carbon footprint. It's actually a very
+[40:15.220 --> 40:21.300]  Uh small percentage of our our carbon footprint. I'll get you the number. I'm looking as I speak but
+[40:22.020 --> 40:28.660]  You know, we do a comprehensive carbon footprint for apple this year for 2016 for the year just passed. It's
+[40:29.300 --> 40:31.860]  29.5 million metric tons
+[40:32.500 --> 40:38.180]  And transportation of our product is four percent of that so do the math really quickly
+[40:38.180 --> 40:42.580]  Um included in that carbon footprint is uh, you know
+[40:42.580 --> 40:47.780]  Some people say cradle to grave we're trying to get rid of the grave and and make a closed-loop system
+[40:47.780 --> 40:52.260]  But right now all the way from the mine, even though we don't you know, we don't own mines
+[40:52.260 --> 40:59.700]  We don't have relationship with mining companies, but we estimate the you know, the extraction and processing of
+[41:00.260 --> 41:04.420]  Let's say the you know, alumina or um to to make aluminum
+[41:04.420 --> 41:07.940]  To make aluminum, uh enclosures all the way
+[41:08.500 --> 41:13.140]  Through a product use we actually include in our carbon footprint the um
+[41:14.020 --> 41:14.980]  the uh
+[41:14.980 --> 41:22.100]  You know the use the electricity you use as an apple customer because you wouldn't use that electricity if it wasn't for apple. So
+[41:22.740 --> 41:28.500]  Um all the way to recycling so it's it's not a huge part of our carbon footprint. Um,
+[41:28.500 --> 41:34.120]  But four percent is nothing to sneeze at the biggest part of our carbon footprint is actually in the manufacturing
+[41:34.420 --> 41:37.540]  All those suppliers that are in our supply chain
+[41:38.420 --> 41:44.500]  And so one of the other things we're doing is spending time with them now that we're at 96 renewable. We've learned a lot
+[41:45.460 --> 41:48.100]  And so now we're trying to bring them along and this year
+[41:49.700 --> 41:51.700]  We're announcing three new suppliers
+[41:51.700 --> 41:59.300]  Um, who've committed to go a hundred percent renewable for all their operations, uh compiles and sun woda and beal
+[41:59.940 --> 42:04.260]  Uh, and that brings us to seven suppliers and I think that number is going to keep going up
+[42:04.500 --> 42:08.180]  Um, I don't want to act like all of them are doing it just because of apple
+[42:08.260 --> 42:14.500]  But those seven have made an apple specific commitment and there are others who are doing it on their own. Um,
+[42:15.140 --> 42:17.940]  So, you know, yes transportation is a problem. Um
+[42:17.940 --> 42:24.420]  Um that we need to think about and we can do that. You know when you make a lighter, um product in a smaller package
+[42:24.820 --> 42:26.820]  It helps with transportation
+[42:26.980 --> 42:28.420]  uh emissions
+[42:28.420 --> 42:30.820]  um, and uh when we think about
+[42:31.380 --> 42:36.600]  Uh marine so taking it by ship versus air that helps with transportation
+[42:37.060 --> 42:37.940]  um
+[42:37.940 --> 42:44.980]  And so every little bit will help but we are tackling the biggest places first the hardest but in other words you guys aren't sweeping
+[42:44.980 --> 42:51.460]  Any aspect of it under the rug by saying well, that's not us, right? Like this is
+[42:52.500 --> 42:56.180]  This is what apple actual apple employees are doing in apple
+[42:56.980 --> 42:58.980]  owned buildings
+[42:59.140 --> 43:01.300]  and anything that happens from
+[43:02.020 --> 43:08.100]  The mine until it gets there that we're not taking that into account. You guys are really trying to account for everything
+[43:08.980 --> 43:12.020]  yeah, because because you can't change the world if if you stop at your
+[43:12.020 --> 43:18.580]  You know at your theoretical borders, you have to change yourself first. You have to lead by example and not demand
+[43:19.140 --> 43:21.140]  Of others what you're not willing to do
+[43:21.460 --> 43:25.300]  But um, I think we're one of the um few companies
+[43:25.380 --> 43:30.820]  I won't say the only companies in the world who take this very comprehensive look at our carbon footprint and
+[43:31.700 --> 43:37.860]  Um look to but first we'd love to get it to zero which would mean that all those suppliers would be at zero
+[43:37.860 --> 43:41.380]  Carbon footprint, um, and we're trying to do it right now
+[43:42.020 --> 43:49.940]  Not not using offsets or credits. Um, you know, there might be some places in the world that it's just not possible to do that right now
+[43:50.020 --> 43:50.980]  but
+[43:50.980 --> 43:51.860]  That's where we are
+[43:51.860 --> 43:58.340]  That's why we're at 96 percent not not saying 100 because we could get to 100 if we just bought bought some credits
+[43:58.580 --> 44:06.020]  And so we're still working hard on that. Um, and yeah, it feels really good to be that expansive because then you can inspire
+[44:06.020 --> 44:12.980]  The energy folks, uh, you know the product power folks to make the most efficient products in the world because
+[44:13.540 --> 44:17.460]  Every time you save, you know a wad of energy on um
+[44:18.100 --> 44:22.500]  On a macbook you're saving a tremendous amount because we sell so many of them so
+[44:23.060 --> 44:26.020]  It you know the more expansive you are the more I guess
+[44:26.740 --> 44:32.660]  Playing fields you have to play with to go back to the sports analogy. Yeah, there's there's an old story from
+[44:32.660 --> 44:37.860]  Yeah, there's there's an old story from uh, like the 80s of the the creation of the original
+[44:38.640 --> 44:44.980]  Macintosh where where I forget somebody had a stopwatch and timed how long it took the prototype to start up
+[44:45.620 --> 44:50.500]  And steve job said you got to get that you got to cut 30 seconds off of that and they're like why?
+[44:50.580 --> 44:55.700]  And he was like, well, we're going to sell millions of these things multiply by that by 30 seconds and you get like
+[44:56.100 --> 44:59.460]  You know came out to like, I don't know 87 years. He goes. There you go. You saved a life
+[44:59.460 --> 45:03.940]  Yeah, yeah, I read and it's like that with energy, right? You'd take you take uh,
+[45:04.900 --> 45:09.220]  You know 70 million iphones and a quarter and if you can make them
+[45:10.180 --> 45:11.540]  a little bit
+[45:11.540 --> 45:16.500]  More energy efficient every little bit you multiply by the 70 million that were just sold and it adds up
+[45:17.460 --> 45:24.740]  Yeah, I think the number is something like since 2008 on average our products are 70 percent more efficient more energy efficient
+[45:24.740 --> 45:29.220]  And there's been some great, you know, big technical technology innovations in there
+[45:29.540 --> 45:33.780]  And I also want to be really clear back to that idea that you don't have to sacrifice
+[45:33.860 --> 45:39.620]  Those are all things that make the experience better, you know energy efficiency the flip side of that is battery life
+[45:40.020 --> 45:45.700]  You know if something doesn't use a lot of energy you need a smaller battery or you need a battery or your battery
+[45:45.940 --> 45:49.940]  Of whatever size, you know goes longer. It goes longer on a charge. So
+[45:49.940 --> 45:57.460]  All these things tend to have sort of comp compounding reasons and sometimes they're even based on the customer experience
+[45:57.460 --> 46:03.220]  But there's a happy sort of, you know carbon benefit as at the same time our environmental benefit, too
+[46:04.260 --> 46:10.020]  You you said earlier that this this this sort of thinking shouldn't be seen as partisan that it really
+[46:10.420 --> 46:12.900]  and I think that the cynics take on that would be
+[46:13.540 --> 46:14.980]  that
+[46:14.980 --> 46:20.420]  Apple as the most profitable company in the world can afford to be
+[46:23.620 --> 46:26.020]  Can afford to spend on this idealism
+[46:27.140 --> 46:34.100]  But I I think your argument would be that no it's apple as the most profitable company in the world can show that
+[46:34.980 --> 46:38.500]  Having a focus on this sort of stuff is not at odds with being profitable
+[46:38.500 --> 46:44.100]  Yeah, and I I mean it's the right thing to do I don't think I think if you go back to sort of
+[46:44.820 --> 46:53.380]  You know core human values, you know protecting the planet where we live where our children, you know grow up where we work the places
+[46:54.100 --> 46:56.580]  That we you know used to fish or swim
+[46:57.300 --> 47:03.460]  As a kid the drinking water that we all honestly take for granted because we've most of us
+[47:03.460 --> 47:10.420]  Haven't had the experience of say people in flint where you literally have to you know shower and wash your face with bottled water
+[47:10.900 --> 47:13.620]  I mean all those things are just goods and so
+[47:14.260 --> 47:18.820]  You know when when the when we think about the environment it shouldn't you know?
+[47:19.140 --> 47:23.300]  Our our position is we're not we're not taking a side in terms of whether
+[47:24.980 --> 47:30.900]  Any political approach is right. We're just saying this is something that is definitely a good thing
+[47:30.900 --> 47:34.980]  and this is something that is definitely a good it's good to have
+[47:35.620 --> 47:39.860]  um to be efficient to be thoughtful and careful kind of the you know,
+[47:40.500 --> 47:48.100]  What my grandmother said, you know waste not want not this idea that you know in a in a world where we have been incredibly
+[47:48.400 --> 47:50.820]  fortunate as a country or as a people
+[47:51.380 --> 47:57.060]  um to to think of that as our responsibility I think it you know for me, uh,
+[47:57.060 --> 48:00.340]  it it's sort of almost a moral thing, but
+[48:01.060 --> 48:05.940]  um, yeah, it's it's it's not about having the money to do it. It's about
+[48:06.580 --> 48:08.900]  Figuring out the innovations that would then
+[48:09.460 --> 48:15.380]  You know, hopefully spread out like ripples and allow others to do it, too. Um, I think if you went to someone who
+[48:16.020 --> 48:20.820]  Right now, um has a utility bill and there was a way that they could have cleaner
+[48:20.820 --> 48:27.540]  Uh energy, um, that would also reduce their utility bill. They would be for it. And so that's a policy question. Um,
+[48:28.100 --> 48:33.300]  I I don't think it depends on what party you're in if you ask somebody do you would you rather have solar power?
+[48:33.540 --> 48:36.340]  I think it's kind of a cool thing. Where do you see?
+[48:37.380 --> 48:39.380]  the role that the
+[48:39.220 --> 48:44.180]  between the government and something, you know in the us like the epa and
+[48:44.900 --> 48:49.860]  A business like apple taking initiative on its own to do these things
+[48:49.860 --> 48:51.700]  Yeah, you know we um
+[48:51.700 --> 48:59.140]  From the epa perspective. There wasn't a ton of places where e put epa and uh apple intersected epa
+[49:00.020 --> 49:05.140]  Is a regulatory agency and uh, there are regulations that definitely affect
+[49:06.340 --> 49:08.340]  the technology sector but
+[49:08.900 --> 49:14.260]  You know regulations in many cases not all cases are meant to set the floor
+[49:14.260 --> 49:21.540]  Um, there's definitely they just can't set the ceiling and in fact if they set a ceiling they're not doing the right thing
+[49:21.700 --> 49:25.140]  Um, they should be there to help innovation go forward
+[49:25.940 --> 49:32.580]  Um, and you know, uh, i'm not for every single piece of regulation, especially those that seem to be
+[49:33.380 --> 49:40.440]  Picking um, you know, which innovations um should or shouldn't go forward. I think that requires real thoughtfulness
+[49:40.440 --> 49:44.840]  um, but you know
+[49:45.880 --> 49:52.040]  I think for companies like ours, um, it's not to say we don't have times when we have regulations that affect us
+[49:52.040 --> 49:56.440]  It's not to say, you know, I don't I don't want anybody to walk away from this thinking we figured out how to do it
+[49:56.440 --> 49:58.440]  Right all the time. We will have problems
+[49:59.240 --> 50:04.040]  Like any other company will but our general orientation is to trying to do
+[50:04.040 --> 50:09.480]  The best we can to meet the goals. We've set for ourselves around climate change around
+[50:10.120 --> 50:17.580]  Greener materials and around conserving. Um and being really smart and not wasteful about resources
+[50:18.520 --> 50:22.120]  All right. One last question that I have for you. Where where do you think?
+[50:22.760 --> 50:24.760]  apple is
+[50:24.920 --> 50:28.920]  Least up to snuff like where is the where where can you guys improve?
+[50:30.280 --> 50:32.440]  Where do you guys have the most opportunity for improvement?
+[50:32.440 --> 50:34.440]  Opportunity for improvement
+[50:34.520 --> 50:39.480]  Oh, man, that's like the interview question when they ask you for your one flaw, you know
+[50:39.480 --> 50:46.680]  You don't answer that but I mean there are there are tons of things that I wish I could snap my fingers and would be done
+[50:46.840 --> 50:48.440]  You know, um
+[50:48.440 --> 50:51.000]  I I wish we could make uh
+[50:51.800 --> 50:53.080]  a better
+[50:53.080 --> 51:00.440]  Connection with our customers so we got more of our products back at end of life. I think we have a ton of work to do
+[51:00.440 --> 51:08.280]  I mean we had just outlined this big hairy goal around. I'm starting to close loops for different materials. And so
+[51:09.160 --> 51:10.120]  um
+[51:10.120 --> 51:12.520]  I think that that's going to be a big
+[51:13.480 --> 51:17.800]  Area of focus for us. I mean, it's a it has to be done
+[51:18.600 --> 51:21.880]  In a way that that maintains all the things that apple
+[51:22.600 --> 51:26.600]  Apple is that's a great. So that's a great point. Uh, somebody buys
+[51:26.600 --> 51:32.680]  Uh, let's say a macbook pro and they use it for the next four or five years and they get a great time out of it
+[51:33.000 --> 51:37.160]  And they upgrade and they take that old one and they just put it in a closet and they think well this
+[51:37.560 --> 51:39.400]  This old macbook pro. It's still good
+[51:39.400 --> 51:43.240]  But you know i'm gonna get a new one they put it in a closet and then a couple more years go by and they're like
+[51:43.240 --> 51:44.760]  Why do I still have this old macbook pro?
+[51:45.640 --> 51:50.360]  Right and at that point at least that's the way I that's the way my closet works at that point
+[51:50.920 --> 51:53.560]  It's you don't want them to just put it in the trash
+[51:53.560 --> 51:57.480]  You want them to do, you know, like the the fact that this complicated
+[51:58.280 --> 52:01.560]  Fancy laptop is made out of recyclable materials
+[52:01.720 --> 52:08.200]  It's it's not you can't just put it in the blue recycling bin where your aluminum cans go to get it properly recycled
+[52:09.000 --> 52:15.080]  Right, uh what we'd love to have happen is that it comes back either to an apple store or
+[52:15.640 --> 52:18.120]  That you go online and ask for a mailing
+[52:18.120 --> 52:24.840]  Box or envelope we'll take back at the stores any any product any apple product you bring in
+[52:25.800 --> 52:27.880]  That's our apple renew program
+[52:28.520 --> 52:34.200]  we you know, we are also emphasizing in the stores the programs that we have that allow you to
+[52:34.920 --> 52:41.400]  Upgrade so if you're a tech person who does like the latest technology we want that
+[52:42.120 --> 52:45.320]  You know, we want last year's or the year before's
+[52:45.320 --> 52:48.760]  Model back because it still has value first off, you know
+[52:48.760 --> 52:53.960]  a lot of the reason people love apple is that if you if you want to sell your product yourself or
+[52:54.760 --> 52:57.400]  Trade it in it has a great value
+[52:58.360 --> 53:04.040]  But at the end of life and that could be you know a long time away. I mean we have people still rocking
+[53:04.840 --> 53:11.000]  Fours and I think threes out there, but you know when when the time comes we'd still like to have it back
+[53:11.000 --> 53:17.000]  It is a bit of a challenge by the way to then make sure all that material gets back in the recycling chain because it's
+[53:17.560 --> 53:23.080]  You know, it's very different and very diverse. We're starting to have quite a bit of a catalog back behind us
+[53:23.640 --> 53:25.640]  But that's part of the challenge
+[53:25.960 --> 53:33.240]  That was the video that was shown when you were on stage a few events ago with the robot who disassembles iphones
+[53:33.800 --> 53:37.240]  Yeah, liam. Liam. Liam is actually a twin now
+[53:37.240 --> 53:45.240]  Here in california and actually over in europe. Um, yeah, and the idea was um to think about that disassembly step and
+[53:45.780 --> 53:46.840]  understand
+[53:46.840 --> 53:52.840]  If you think of this thing as a chain or a big circle every step influences the one before and again
+[53:52.840 --> 53:59.480]  So how do you disassemble this product and do it in a way where you maximize the ability to maybe get tin?
+[54:00.440 --> 54:03.320]  Back or get aluminum back
+[54:03.320 --> 54:09.000]  or um as we're starting to to look at uh with batteries get cobalt back and so
+[54:10.040 --> 54:15.640]  When you start to think about this challenge not to not to scare myself, which I can do
+[54:15.960 --> 54:24.040]  It's you know, it's material by material component by component product by product because the camera is different in you know
+[54:25.400 --> 54:28.520]  The iphone, you know six than it is in the iphone
+[54:28.520 --> 54:37.000]  seven so uh, those are all challenges we're willing to take on um, but you know, the customer's role in that is to
+[54:37.800 --> 54:45.800]  Wherever possible i'm not asking anybody give up their first their first iphone, but wherever possible to um to get those products back to apple
+[54:45.800 --> 54:52.360]  And uh, the other thing that's online that's really important is a lot of people have security concerns your your life is on your device
+[54:52.360 --> 54:58.680]  Um, and so to make sure you wipe it, um, we'll we'll be um, looking out to do that as well
+[54:58.680 --> 55:01.960]  But a lot of people don't want to part with them because of the data that's on it
+[55:01.960 --> 55:09.000]  So, um, there's instructions on how to do that as well. Yeah, that's a good point. Uh, anything else that you wanted to talk about today?
+[55:10.520 --> 55:14.120]  No, I guess we covered it. We got it. We got to give a shout out to drexel, right?
+[55:14.120 --> 55:18.360]  Can I say hi to my son brian who's a dragon? Hey, drexel, how are you doing?
+[55:18.360 --> 55:23.480]  All right. No, that's an amazing connection between between the two of us. Your son is uh,
+[55:24.680 --> 55:31.960]  Doing game game design game development at yeah. Yes. Yes. I'm hoping that is an actual major, but no, it is
+[55:33.080 --> 55:35.080]  It wasn't when I was there
+[55:35.640 --> 55:39.640]  But I I actually know the program. I am familiar with it and yeah
+[55:40.680 --> 55:44.680]  I am teasing it is an amazing program. I'm so excited to be here
+[55:44.680 --> 55:49.400]  I am a huge fan of the school. So, um, shout out to brian and his friends and the amazing
+[55:50.120 --> 55:55.720]  Uh group over there in westfall and the engineering school. It would be pretty funny to imagine some college students just
+[55:56.680 --> 56:01.160]  Sitting around playing playstation all day and tells his mom i'm studying game design
+[56:01.720 --> 56:04.920]  And like your son is young, but let me just tell you beware
+[56:06.120 --> 56:09.400]  They get real smart real fast real real fast
+[56:09.400 --> 56:14.600]  Lisa jackson, thank you so much for your time. It has been an absolute pleasure talking right back at you
+[56:14.600 --> 56:39.720]  Have a good earth day, and I hope I hope to see you soon. Thanks. Happy earth day
