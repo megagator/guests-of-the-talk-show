@@ -1,0 +1,2684 @@
+[00:00.000 --> 00:04.400]  All right, we've got a super special episode of the show.
+[00:04.400 --> 00:05.680]  We've got two guests.
+[00:05.680 --> 00:08.880]  Double your pleasure, double your fun.
+[00:08.880 --> 00:10.540]  What was that chewing gum called?
+[00:11.640 --> 00:12.660]  Doublemint?
+[00:12.660 --> 00:13.500]  Remember Doublemint?
+[00:13.500 --> 00:14.700]  Doublemint, maybe, yeah.
+[00:14.700 --> 00:15.540]  It was always.
+[00:15.540 --> 00:16.440]  Remember the ads.
+[00:16.440 --> 00:18.360]  Yeah, it was always like you'd get like,
+[00:18.360 --> 00:21.620]  it was like two twin teenagers, boys or girls,
+[00:21.620 --> 00:24.300]  would get double the pleasure out of,
+[00:24.300 --> 00:26.500]  I guess, like a shared piece of gum or something.
+[00:26.500 --> 00:31.500]  Brent Simmons, longtime friend of the show,
+[00:31.520 --> 00:33.600]  and Manton Reese, who's a longtime friend of me,
+[00:33.600 --> 00:36.180]  but I don't think has ever been on the show before.
+[00:36.180 --> 00:37.480]  No, thanks for having me.
+[00:38.520 --> 00:40.280]  And I've got both of you on
+[00:40.280 --> 00:43.560]  because you guys both have new stuff that's come out,
+[00:43.560 --> 00:45.840]  some of it you've collaborated on,
+[00:45.840 --> 00:48.640]  and it's all sort of interrelated.
+[00:48.640 --> 00:50.080]  It makes, I think it makes a lot more sense
+[00:50.080 --> 00:52.840]  to have you guys on together than separately.
+[00:52.840 --> 00:54.200]  Yeah, I think so too.
+[00:54.200 --> 00:58.680]  I've described Manton and me in a way as litter mates.
+[00:58.680 --> 01:00.440]  We kind of came up around the same time
+[01:00.440 --> 01:02.080]  and we have a lot of the same values
+[01:02.080 --> 01:07.080]  and 90s scripting and web and Mac and all that good stuff.
+[01:07.640 --> 01:11.240]  So it's not surprised that we're still collaborating
+[01:12.600 --> 01:14.280]  on stuff so many years later.
+[01:14.280 --> 01:15.100]  So one of the things,
+[01:15.100 --> 01:16.640]  it's not even one of the major announcements,
+[01:16.640 --> 01:18.880]  I mean, but I'll just list them up front.
+[01:18.880 --> 01:21.700]  We've got JSON feed, which is a new format
+[01:21.700 --> 01:26.080]  for syndication of content in JSON format.
+[01:26.080 --> 01:28.640]  We've got micro.blog,
+[01:28.640 --> 01:30.920]  which is a microblogging platform
+[01:30.920 --> 01:33.920]  that Manton just launched about a month ago.
+[01:35.680 --> 01:38.760]  We've got other cool stuff related to feeds with Brent.
+[01:38.760 --> 01:40.560]  And then, but then one of the other things
+[01:40.560 --> 01:41.520]  you're working on right now, Brent,
+[01:41.520 --> 01:44.760]  is you are working on a modernization
+[01:44.760 --> 01:47.760]  or just getting frontier to run again.
+[01:47.760 --> 01:52.760]  Well, it really is pretty much a ground up rewrite.
+[01:53.280 --> 01:56.200]  I have the old source code with me
+[01:56.200 --> 02:00.440]  and I can do a build on a 10.6.8 virtual machine,
+[02:00.440 --> 02:04.080]  but otherwise I'm rewriting it almost entirely in Swift.
+[02:04.080 --> 02:08.440]  So it's gonna be all new code or almost all new code.
+[02:08.440 --> 02:10.680]  And Manton, you were a big frontier user
+[02:10.680 --> 02:12.280]  back in the day, right?
+[02:12.280 --> 02:13.240]  I was, absolutely.
+[02:13.240 --> 02:17.640]  I built a bunch of web related things in frontier
+[02:17.640 --> 02:19.720]  and gosh, it's so long ago now,
+[02:19.720 --> 02:21.720]  but yeah, I was a big fan of the design,
+[02:21.720 --> 02:24.560]  how it thought about scripting integrated
+[02:24.560 --> 02:26.440]  with the database.
+[02:26.440 --> 02:27.440]  It's just a great platform.
+[02:27.440 --> 02:30.320]  I'm glad to see it's getting some new life
+[02:30.320 --> 02:32.240]  and maybe some new people will discover it.
+[02:32.240 --> 02:34.400]  So one of you guys take this.
+[02:34.400 --> 02:36.680]  At a high level, can you explain to somebody
+[02:36.680 --> 02:38.940]  who doesn't know what frontier was?
+[02:38.940 --> 02:40.040]  And I think it's fair at this point
+[02:40.040 --> 02:41.040]  to talk about it in the past tense,
+[02:41.040 --> 02:42.240]  cause it doesn't right now, today,
+[02:42.240 --> 02:44.440]  it doesn't really run on a modern platform,
+[02:44.440 --> 02:48.680]  even though there's, it's complicated, right?
+[02:48.680 --> 02:50.760]  The old code never dies completely,
+[02:50.760 --> 02:53.540]  but can somebody take a high level overview
+[02:53.540 --> 02:54.940]  of just what frontier was?
+[02:56.680 --> 02:58.400]  I can give that a try.
+[02:58.400 --> 02:59.480]  I'm so close to it though,
+[02:59.480 --> 03:02.320]  that I don't know if I've ever been good at this.
+[03:02.320 --> 03:05.240]  At a high level, it's a scripting system
+[03:05.240 --> 03:08.520]  with a database and a user interface.
+[03:08.520 --> 03:12.640]  So it makes persistence really, really easy.
+[03:12.640 --> 03:15.840]  Cause the database is tables which can contain objects
+[03:15.840 --> 03:19.120]  and other tables and it's schema-less.
+[03:19.120 --> 03:24.120]  So storing stuff forever is just as easy as using key paths,
+[03:24.600 --> 03:28.320]  which then map to locations in the database.
+[03:28.320 --> 03:32.240]  So foo.bar.x equals, you know, whatever you want it to be,
+[03:32.240 --> 03:34.360]  a string or a number or an outline
+[03:34.360 --> 03:37.680]  or any number of different things.
+[03:37.680 --> 03:41.680]  And for some reason that just makes development
+[03:41.680 --> 03:45.360]  really, really rapid and really fun, really easy.
+[03:46.240 --> 03:48.740]  There's more to it than that, but that's a high level.
+[03:48.740 --> 03:51.820]  So one of the things, it sounds so trivial
+[03:51.820 --> 03:53.920]  and for people out there, and again, I don't wanna bore
+[03:53.920 --> 03:55.940]  anybody, I'm not gonna turn it into a programming podcast,
+[03:55.940 --> 04:00.940]  but the persistence of data was literally non-trivial.
+[04:03.680 --> 04:06.680]  I mean, I mean, trivial in frontier.
+[04:06.680 --> 04:10.040]  It was as easy to store something permanently to disk
+[04:10.040 --> 04:12.880]  by writing it to the object database as it was to write it
+[04:12.880 --> 04:15.800]  to a temporary variable that dies
+[04:15.800 --> 04:17.760]  when the script stops running.
+[04:17.760 --> 04:18.800]  Yeah, absolutely right.
+[04:18.800 --> 04:22.720]  Yeah, as you're typing, there's no difference
+[04:22.720 --> 04:26.720]  between a local variable and a persistent location.
+[04:28.680 --> 04:31.240]  Even a programming language like Perl,
+[04:31.240 --> 04:34.120]  which is the language I'm personally most familiar with
+[04:34.120 --> 04:36.240]  and which is famous or infamous,
+[04:36.240 --> 04:38.220]  depending on your perspective for,
+[04:38.220 --> 04:42.780]  making it possible to be very, very terse
+[04:42.780 --> 04:46.620]  and write minimal lines of code to do the most things,
+[04:46.620 --> 04:50.120]  just to write something to a file at a minimum
+[04:50.120 --> 04:52.500]  is still three or four lines of code
+[04:52.500 --> 04:55.580]  where you get a file handle to a path in the file system
+[04:55.580 --> 04:57.900]  and then you open the file and test to make sure
+[04:57.900 --> 05:01.820]  that it worked, and then you can print to the file handle
+[05:01.820 --> 05:03.220]  and whatever you print to the file handle
+[05:03.220 --> 05:04.500]  be written to the file.
+[05:04.500 --> 05:07.740]  Whereas in frontier, you literally would just pick a name
+[05:07.740 --> 05:12.260]  for your object, whatever dot, whatever dot,
+[05:12.260 --> 05:15.380]  whatever equals foo, and then later on,
+[05:15.380 --> 05:16.940]  whatever dot, whatever dot, whatever,
+[05:16.940 --> 05:19.300]  you can read from it and it says foo.
+[05:19.300 --> 05:22.180]  Yeah, yeah, it's literally no harder
+[05:22.180 --> 05:25.660]  than just assigning a value to a local variable,
+[05:25.660 --> 05:26.980]  just as easy as that.
+[05:28.620 --> 05:30.860]  And it came out, originally frontier came out,
+[05:30.860 --> 05:35.420]  as I recall, around 1992 or so,
+[05:35.420 --> 05:40.380]  I guess I could have done some research, but it seems
+[05:40.380 --> 05:43.300]  very strange to me and sad in some ways
+[05:43.300 --> 05:45.100]  that here we are 25 years later
+[05:45.100 --> 05:48.620]  and there's nothing that easy.
+[05:48.620 --> 05:50.480]  There are certain things that frontier made easy
+[05:50.480 --> 05:54.180]  that 25 years later, there's nothing that fills that void.
+[05:54.180 --> 05:55.660]  Yeah, that's right.
+[05:55.660 --> 05:58.580]  I like to think of it as an artifact
+[05:58.580 --> 05:59.860]  from an alternate universe.
+[05:59.860 --> 06:04.380]  If programming and scripting had gone another way,
+[06:04.380 --> 06:07.860]  frontier might be one of the most important apps
+[06:07.860 --> 06:11.200]  on the platform and there might be a lot of imitators.
+[06:11.200 --> 06:13.700]  But we kind of stuck with the,
+[06:13.700 --> 06:15.660]  here's your text file on disk
+[06:15.660 --> 06:20.660]  and we're reading and writing the files kind of way.
+[06:21.260 --> 06:25.020]  Where frontier is, I think the technical term
+[06:25.020 --> 06:26.980]  might be image-based because you're actually
+[06:26.980 --> 06:29.140]  in an environment with a database
+[06:29.140 --> 06:32.900]  rather than separate files on disk for everything.
+[06:32.900 --> 06:34.060]  Yeah, exactly.
+[06:34.060 --> 06:34.900]  There was something about,
+[06:34.900 --> 06:37.740]  I don't think I even appreciated at the time,
+[06:37.740 --> 06:40.780]  the thing about the language being integrated
+[06:40.780 --> 06:42.820]  with the database until years later.
+[06:42.820 --> 06:44.280]  Like you said, it's been like 20 years
+[06:44.280 --> 06:46.420]  and we still don't really have that.
+[06:46.420 --> 06:49.100]  If you wanna build a web app today, for example,
+[06:49.100 --> 06:52.820]  you pick a language, Ruby, whatever, Python, Perl,
+[06:52.820 --> 06:54.700]  and then you pick like, oh, I need to get
+[06:54.700 --> 06:58.140]  the MySQL library in or some other database framework.
+[06:58.140 --> 07:00.400]  They're all still very separated.
+[07:00.400 --> 07:02.580]  Even on other platforms, you have core data
+[07:02.580 --> 07:04.300]  or something was like the official way.
+[07:04.300 --> 07:06.180]  Love it or hate it, that's like the official way
+[07:06.180 --> 07:10.260]  to do database work on the Mac or iOS,
+[07:10.260 --> 07:11.700]  but it's still very separate.
+[07:11.700 --> 07:13.940]  There's no, I mean, it's not tightly integrated
+[07:13.940 --> 07:16.100]  in the way that frontier was.
+[07:16.100 --> 07:19.500]  Right, it's like every language,
+[07:19.500 --> 07:22.200]  I mean, I'm sure you can go back 50, 60 years
+[07:22.200 --> 07:23.780]  and there's some weird language where you had to,
+[07:23.780 --> 07:28.620]  but every language has built-in arithmetic operators.
+[07:28.620 --> 07:30.820]  So if you've got two integers,
+[07:30.820 --> 07:34.420]  you can just use the type, the integer name variable
+[07:34.420 --> 07:37.660]  plus the other one and you get the sum of the two numbers.
+[07:37.660 --> 07:39.540]  It would be an enormous pain in the ass
+[07:39.540 --> 07:41.340]  if you had to write three or four lines of code
+[07:41.340 --> 07:44.100]  to import arithmetic library
+[07:44.100 --> 07:49.100]  and call like a PLUS plus function just to add two integers.
+[07:50.060 --> 07:51.620]  But that's still sort of the way
+[07:51.620 --> 07:54.540]  that we kind of have to do file IO with everything.
+[07:54.540 --> 07:57.340]  Like the, and I love the Unix scripting system.
+[07:57.340 --> 07:59.460]  I write stuff in Perl all the time.
+[07:59.460 --> 08:02.440]  And there's lots of ways where that's great,
+[08:02.440 --> 08:04.760]  but the fact that that's kind of all we're left with today
+[08:04.760 --> 08:05.700]  is sort of sad.
+[08:06.540 --> 08:07.380]  Yeah.
+[08:07.380 --> 08:09.800]  Yeah, especially since every modern app,
+[08:09.800 --> 08:12.680]  especially web apps need some kind of database persistence.
+[08:12.680 --> 08:14.960]  I mean, it's very rare that you have an app
+[08:14.960 --> 08:17.920]  that's so lightweight that it doesn't need any database
+[08:17.920 --> 08:20.400]  or file IO at all.
+[08:20.400 --> 08:22.520]  The other thing historically that was interesting
+[08:22.520 --> 08:24.040]  about the timing of frontier.
+[08:24.040 --> 08:27.300]  So frontier comes out in 1992 or so, early 90s,
+[08:27.300 --> 08:30.040]  and that's before the web and was mostly
+[08:30.040 --> 08:32.080]  about automating stuff on the Mac.
+[08:32.080 --> 08:33.360]  Originally it was Mac only.
+[08:33.360 --> 08:35.700]  Eventually there was a windows version.
+[08:35.700 --> 08:40.400]  But obviously the big story of the 90s was the web
+[08:40.400 --> 08:45.400]  and frontier quickly shifted to becoming a place
+[08:45.960 --> 08:50.240]  where people would generate, create their own.
+[08:50.240 --> 08:52.720]  It wasn't necessarily a content management system,
+[08:52.720 --> 08:55.920]  but you could use it to make content management systems.
+[08:55.920 --> 08:57.640]  And that's probably Manton where you really
+[08:57.640 --> 08:59.060]  got involved with it.
+[08:59.060 --> 09:00.440]  That's yeah, that's right.
+[09:00.440 --> 09:03.360]  It kind of, I don't think I used it before
+[09:03.360 --> 09:07.280]  it kind of pivoted a little bit toward the web.
+[09:07.280 --> 09:09.720]  And cause like frontier used to be a commercial,
+[09:09.720 --> 09:14.000]  you know, by the box and then the store software package
+[09:14.000 --> 09:16.220]  and at the source there's difficulties with that.
+[09:16.220 --> 09:17.780]  Cause now you're competing with Apple script
+[09:17.780 --> 09:20.440]  and other things as Apple, you know, hypercar,
+[09:20.440 --> 09:22.800]  all those kinds of scripting environments at the time.
+[09:22.800 --> 09:25.060]  And at some point and Brent maybe remembers the details,
+[09:25.060 --> 09:28.600]  but it switched to now it's open source
+[09:28.600 --> 09:30.920]  and there's a lot more web frameworks
+[09:30.920 --> 09:34.080]  and it kind of embracing that and trying to find,
+[09:34.080 --> 09:36.640]  you know, just a new set of people
+[09:36.640 --> 09:41.340]  that can be using frontier for web apps and for websites.
+[09:44.080 --> 09:48.480]  So we've got so many things to talk about.
+[09:48.480 --> 09:52.580]  Let's talk about, I'll let you guys pick.
+[09:52.580 --> 09:54.080]  Do you want to talk about micro.blog first
+[09:54.080 --> 09:55.560]  or do you want to talk about JSON feed first?
+[09:55.560 --> 09:57.560]  Which one do you think makes sense to talk about first
+[09:57.560 --> 09:59.120]  before we talk about the other?
+[10:00.420 --> 10:01.260]  I like JSON feed.
+[10:01.260 --> 10:02.640]  I mean, that's kind of, you know,
+[10:02.640 --> 10:05.120]  we've been focused on that the last couple of weeks.
+[10:05.120 --> 10:05.960]  Let's talk about that.
+[10:05.960 --> 10:10.440]  All right, so Brent, tell me what JSON feed is.
+[10:10.440 --> 10:15.080]  JSON feed is like RSS or Adam, but it's in JSON
+[10:15.080 --> 10:20.080]  and it has a few more features that are needed these days
+[10:20.720 --> 10:23.200]  that didn't exist in RSS and Adam.
+[10:23.200 --> 10:24.400]  But the main point of it, I think,
+[10:24.400 --> 10:26.840]  is still the JSON-ness of it.
+[10:26.840 --> 10:30.560]  XML is something that people hate working with.
+[10:30.560 --> 10:33.040]  They do a lousy job of generating feeds
+[10:33.040 --> 10:35.060]  and everybody just prefers JSON.
+[10:35.060 --> 10:37.920]  So, hey, let's do this in JSON.
+[10:37.920 --> 10:41.100]  And JSON is, what's it called?
+[10:41.100 --> 10:42.600]  What's it stand for?
+[10:42.600 --> 10:45.280]  JavaScript object notation, I think.
+[10:45.280 --> 10:50.280]  Yeah, but basically it's just a way of very simply defining
+[10:50.280 --> 10:55.280]  either, I think that the JavaScript term is dictionary.
+[10:56.160 --> 10:57.820]  Other languages would call it a hash,
+[10:57.820 --> 10:59.880]  but where you have these key value pairs
+[10:59.880 --> 11:01.960]  where there's a name of the thing
+[11:01.960 --> 11:03.920]  and then the value of the thing.
+[11:03.920 --> 11:06.520]  And you can have a whole list of them in an object
+[11:07.800 --> 11:08.920]  and you can have arrays.
+[11:08.920 --> 11:11.120]  And you don't have to be a programming expert
+[11:11.120 --> 11:11.960]  to know what an array is.
+[11:11.960 --> 11:14.160]  It's just, if you have an array of 10 items,
+[11:14.160 --> 11:16.960]  it's just a list of 10 items and the order matters.
+[11:16.960 --> 11:20.440]  And it's, you can have,
+[11:20.440 --> 11:23.360]  what makes it a little bit more complicated than that
+[11:23.360 --> 11:25.040]  is that you can have a dictionary
+[11:25.040 --> 11:26.800]  where one of the objects of the dictionary
+[11:26.800 --> 11:28.920]  is another dictionary or an array.
+[11:28.920 --> 11:32.040]  And so it can get hierarchical and go deeper
+[11:32.040 --> 11:34.080]  to have nested data structures.
+[11:35.760 --> 11:37.600]  But basically at a high level, that's it.
+[11:37.600 --> 11:41.080]  And it's very simple and you can look at it as a human
+[11:41.080 --> 11:44.560]  and kind of get the gist of exactly
+[11:44.560 --> 11:46.760]  what it is and what it means.
+[11:46.760 --> 11:49.440]  Yeah, it's not difficult to read.
+[11:49.440 --> 11:50.680]  And at a programming level,
+[11:50.680 --> 11:53.240]  it's super easy to read and write too,
+[11:53.240 --> 11:55.600]  which kind of covers all bases.
+[11:55.600 --> 11:58.600]  Right, and one of the things that I feel like
+[11:58.600 --> 12:00.520]  is essential to it is that even though
+[12:00.520 --> 12:02.440]  it's based on JavaScript syntax
+[12:02.440 --> 12:06.160]  and a JavaScript implementation that reads or writes JSON
+[12:06.160 --> 12:09.080]  can literally just read the JSON file.
+[12:09.080 --> 12:10.760]  And if it's a valid JSON file,
+[12:10.760 --> 12:13.600]  just interpret it right through the JavaScript interpreter.
+[12:13.600 --> 12:16.040]  You don't have to process it in any way.
+[12:16.040 --> 12:18.240]  It's not specific to JavaScript.
+[12:18.240 --> 12:21.160]  It has been quickly adopted by every single
+[12:21.160 --> 12:24.440]  programming platform that is in use today.
+[12:24.440 --> 12:29.440]  It has built in JSON parsers and generators.
+[12:29.720 --> 12:34.720]  It is, again, trivial is often a dangerous word
+[12:34.960 --> 12:37.880]  to use in programming, but it's generally trivial
+[12:37.880 --> 12:40.360]  in any modern programming environment
+[12:40.360 --> 12:43.000]  to generate or consume JSON.
+[12:43.000 --> 12:47.960]  Often just one line of code for either, yep.
+[12:47.960 --> 12:49.000]  Very simple.
+[12:49.000 --> 12:51.200]  That's not true for XML.
+[12:51.200 --> 12:52.680]  Right.
+[12:52.680 --> 12:56.640]  And obviously there are many, many very well known
+[12:56.640 --> 13:01.400]  and well done XML libraries.
+[13:01.400 --> 13:06.400]  But it is definitely not as one line away as JSON is.
+[13:06.400 --> 13:11.400]  And it's proven in the, well, when did XML first come
+[13:12.920 --> 13:15.160]  into being, probably the late 90s, right?
+[13:15.160 --> 13:17.520]  It's roughly 20 years old.
+[13:17.520 --> 13:20.480]  So I mean, with 20 years of experience under a belt,
+[13:20.480 --> 13:25.200]  we can safely say, even 20 years in,
+[13:25.200 --> 13:28.080]  there's an awful lot of broken XML out there.
+[13:28.080 --> 13:30.760]  And Brent, you can speak to that in your history
+[13:30.760 --> 13:33.560]  as somebody who's written a lot of code
+[13:33.560 --> 13:36.560]  or history as somebody who's written
+[13:36.560 --> 13:39.960]  a very popular feed reader, NetNewswire,
+[13:39.960 --> 13:41.920]  for those of you who don't remember,
+[13:41.920 --> 13:44.560]  was originally Brent's product
+[13:44.560 --> 13:47.160]  and reads RSS feeds and Adam feeds.
+[13:47.160 --> 13:50.200]  And what percentage of feeds out there
+[13:50.200 --> 13:53.280]  do you think had some sort of XML error?
+[13:53.280 --> 13:57.600]  No, I haven't thought in that terms, but it's a lot.
+[13:57.600 --> 14:00.280]  I mean, character encoding errors
+[14:00.280 --> 14:02.040]  are especially pernicious.
+[14:02.040 --> 14:03.600]  They appear all the time.
+[14:03.600 --> 14:07.600]  So people are building their RSS using a template
+[14:07.600 --> 14:09.760]  or whatever, not an actual XML writer,
+[14:09.760 --> 14:13.480]  which would handle all of this stuff for them.
+[14:13.480 --> 14:18.160]  And so feeds are just screwed up a thousand different ways.
+[14:18.160 --> 14:19.000]  It's super common.
+[14:19.000 --> 14:20.560]  And so, yeah, I was always working
+[14:20.560 --> 14:21.960]  around those kinds of bugs.
+[14:25.600 --> 14:28.240]  So the JSON feed launch, you guys,
+[14:28.240 --> 14:32.440]  the spec for it is bylined by both of you.
+[14:32.440 --> 14:35.400]  It's, I think, Matt and Rhys and Brent Simmons.
+[14:37.440 --> 14:42.440]  I have a cheat code because the three of us
+[14:42.880 --> 14:44.520]  are on a Slack group together
+[14:44.520 --> 14:47.120]  that this was hashed over in advance.
+[14:47.120 --> 14:49.680]  So I've been aware of JSON feed
+[14:49.680 --> 14:52.240]  far months before it was actually announced
+[14:52.240 --> 14:55.400]  and I've read the spec and gave you guys some feedback
+[14:55.400 --> 14:58.320]  on typos and stuff like that.
+[14:58.320 --> 15:01.800]  But, Matt, tell me what got you interested?
+[15:01.800 --> 15:03.560]  Because I think it was Brent's idea first,
+[15:03.560 --> 15:06.280]  if I recalled my history from this.
+[15:06.280 --> 15:07.600]  It was originally Brent's idea,
+[15:07.600 --> 15:10.760]  but, Matt, you obviously jumped in far enough
+[15:10.760 --> 15:15.640]  that you became a full-on 50-50 collaborator on the spec.
+[15:15.640 --> 15:16.920]  Yeah, I was actually thinking about this
+[15:16.920 --> 15:19.200]  and I looked back on some of the emails
+[15:19.200 --> 15:22.840]  and actually Brent and I exchanged a couple emails
+[15:22.840 --> 15:25.560]  about this as far back as 2015.
+[15:25.560 --> 15:30.160]  There was a couple emails kind of loosely related to this.
+[15:30.160 --> 15:33.040]  And I thought about it because I think a lot of people,
+[15:33.040 --> 15:36.920]  when they look at JSON feed, especially at an example,
+[15:36.920 --> 15:39.160]  JSON, which is just so much more clear
+[15:39.160 --> 15:44.120]  and readable and simple than XML and RSS feeds,
+[15:44.120 --> 15:46.120]  like you said, I think that some people
+[15:46.120 --> 15:47.120]  are kind of fooled into thinking
+[15:47.120 --> 15:48.960]  it was just whipped together really quickly,
+[15:48.960 --> 15:51.120]  the spec, and put out there.
+[15:51.120 --> 15:52.320]  And so I was kind of curious
+[15:52.320 --> 15:53.560]  to how long we've been talking about it.
+[15:53.560 --> 15:56.040]  And we just briefly exchanged an email way, way back,
+[15:56.040 --> 15:58.840]  but then in earnest at the beginning of this year,
+[15:58.840 --> 16:01.640]  Brent said, you know what, the time is right.
+[16:01.640 --> 16:03.800]  This is a good time.
+[16:03.800 --> 16:04.960]  Let's talk about this.
+[16:04.960 --> 16:08.960]  Let's think through a spec, see what it would look like
+[16:08.960 --> 16:11.640]  and see if it has a place in the open web.
+[16:11.640 --> 16:15.400]  And I'm so glad he did because it's,
+[16:15.400 --> 16:16.800]  I really do think the time is right.
+[16:16.800 --> 16:20.800]  And a lot of the feedback we get from people is,
+[16:20.800 --> 16:24.160]  wow, actually I got an email yesterday from someone said,
+[16:24.160 --> 16:26.760]  oh, we wanted this at our company 10 years ago.
+[16:26.760 --> 16:28.320]  We were hoping someone would do this.
+[16:28.320 --> 16:30.360]  And now finally, you know, it's here.
+[16:32.800 --> 16:34.760]  I kept expecting someone to do it too.
+[16:35.640 --> 16:37.760]  Yeah, for 10 years at least, I thought, wow,
+[16:37.760 --> 16:40.080]  surely this will happen at some point.
+[16:40.080 --> 16:42.040]  And then we realized, well,
+[16:42.040 --> 16:44.280]  I guess we're the people to make it happen.
+[16:44.280 --> 16:45.840]  Well, okay, fine.
+[16:45.840 --> 16:50.840]  There's an infinite, I mean, a whole bunch of XKCD comics
+[16:51.080 --> 16:52.720]  are very famous, but there's one in particular
+[16:52.720 --> 16:55.600]  and we've seen it pop up probably once a day,
+[16:55.600 --> 16:57.200]  every day since JSON feed comes up
+[16:57.200 --> 16:58.920]  where somebody first sees JSON feed
+[16:58.920 --> 17:01.360]  and there's an XKCD comic.
+[17:01.360 --> 17:03.760]  I will put it in the show notes, I swear.
+[17:03.760 --> 17:05.400]  But the gist of it is that somebody says,
+[17:05.400 --> 17:07.640]  hey, there's 14 competing standards in this space.
+[17:07.640 --> 17:08.880]  That's a mess.
+[17:08.880 --> 17:10.600]  This is a terrible idea.
+[17:10.600 --> 17:13.880]  Let's come up with a brand new universal format,
+[17:13.880 --> 17:16.040]  a spec that'll be the one true spec.
+[17:16.040 --> 17:17.080]  And then the third panel is,
+[17:17.080 --> 17:20.080]  now we have 15 competing specs in the space.
+[17:20.080 --> 17:21.800]  And people think they're being very clever
+[17:21.800 --> 17:24.520]  when they mention this in the context of JSON feed.
+[17:25.400 --> 17:29.000]  But my objection to it, it's a funny comic, I get it.
+[17:29.000 --> 17:31.360]  But my objection to it in the context of JSON feed
+[17:31.360 --> 17:34.800]  is that JSON feed is in no way in,
+[17:34.800 --> 17:36.160]  if you read the spec itself,
+[17:36.160 --> 17:39.040]  if you read what both of you have written about it
+[17:39.040 --> 17:40.800]  and your interest in it,
+[17:40.800 --> 17:45.600]  it is not meant as the let's stop using RSS and Adam
+[17:45.600 --> 17:48.000]  and whatever else might be,
+[17:48.000 --> 17:51.120]  it is meant to be the 15th thing in this field
+[17:51.120 --> 17:53.760]  that addresses new issues
+[17:53.760 --> 17:57.720]  or does things better that the other ones can't do,
+[17:57.720 --> 17:59.120]  but isn't meant to replace them.
+[17:59.120 --> 18:00.560]  Is that fair?
+[18:00.560 --> 18:01.560]  Yeah, that is fair.
+[18:01.560 --> 18:05.320]  In fact, the spec itself has some wording to the effect of,
+[18:05.320 --> 18:07.680]  you know, if you can only do one kind of feed,
+[18:07.680 --> 18:10.440]  pick RSS because it's been around a long time,
+[18:10.440 --> 18:13.880]  because it's good, because it's well tested,
+[18:13.880 --> 18:16.000]  supported all over the place.
+[18:16.000 --> 18:19.320]  So we're not saying that any other format should go away
+[18:19.320 --> 18:21.680]  and we're not trying to be the one universal format.
+[18:21.680 --> 18:24.000]  It's, you know, it is what it is,
+[18:24.000 --> 18:28.000]  which is a pragmatic JSON based format.
+[18:29.320 --> 18:30.400]  Yeah, and I think that's important
+[18:30.400 --> 18:33.080]  because some of the feedback,
+[18:33.080 --> 18:34.800]  the negative feedback we've heard
+[18:34.800 --> 18:37.240]  is that it doesn't try to solve all problems.
+[18:37.240 --> 18:40.080]  And some people would like it to solve more problems
+[18:40.080 --> 18:41.800]  and be an even more, you know,
+[18:41.800 --> 18:43.600]  flexible and kind of advanced format,
+[18:43.600 --> 18:45.080]  but then that introduces, you know,
+[18:45.080 --> 18:46.480]  complexity and other issues.
+[18:46.480 --> 18:48.880]  And then you're kind of back where you started in some way.
+[18:48.880 --> 18:50.280]  And it doesn't try to do that.
+[18:50.280 --> 18:53.320]  It really clear, prioritizes, you know, like I said,
+[18:53.320 --> 18:56.800]  clarity, just making it really simple to implement.
+[18:56.800 --> 18:58.080]  It doesn't try to solve everything.
+[18:58.080 --> 18:59.720]  So yeah, that comic is funny.
+[18:59.720 --> 19:02.920]  I laugh, I laugh the first few times I saw that.
+[19:02.920 --> 19:05.400]  I don't laugh quite as much, you know,
+[19:05.400 --> 19:07.800]  10th or 15th time I've seen someone post it,
+[19:07.800 --> 19:10.720]  but it's not quite accurate.
+[19:10.720 --> 19:13.960]  And then JSON feed doesn't attempt to do everything.
+[19:13.960 --> 19:16.560]  It just tries to solve a few problems
+[19:16.560 --> 19:18.040]  and make it really clear.
+[19:18.040 --> 19:19.680]  And that the whole idea, I mean,
+[19:19.680 --> 19:22.080]  if we're glossing over it is, you know,
+[19:22.080 --> 19:23.800]  things are kind of stuck.
+[19:23.800 --> 19:28.800]  We could use kind of just a little kickstart in, you know,
+[19:29.400 --> 19:32.320]  the open web standards, new feed readers, you know,
+[19:32.320 --> 19:35.920]  just people even just thinking and kind of talking about
+[19:35.920 --> 19:40.760]  web standards and feeds and feed readers, I think is a win.
+[19:41.760 --> 19:42.600]  Yeah.
+[19:42.600 --> 19:43.440]  Yeah, for sure.
+[19:43.440 --> 19:44.400]  I totally agree with that.
+[19:44.400 --> 19:48.520]  And I think in the handful of weeks since JSON feed
+[19:48.520 --> 19:50.720]  was announced, the uptake,
+[19:50.720 --> 19:53.520]  I was very optimistic about JSON feed.
+[19:53.520 --> 19:55.760]  There was something about it that just looking at it,
+[19:55.760 --> 19:58.080]  I thought I just smelled a winner.
+[19:58.080 --> 19:59.760]  I think when I linked to it on during fireball,
+[19:59.760 --> 20:01.360]  I said something to the effect of,
+[20:01.360 --> 20:02.960]  I had the same feeling about it,
+[20:04.040 --> 20:05.520]  even though it's not my creation,
+[20:05.520 --> 20:06.760]  but I had that same feeling about it
+[20:06.760 --> 20:10.560]  that I did about Markdown back in 2002 or 2003,
+[20:10.560 --> 20:13.400]  when I, whenever it was that I first released Markdown.
+[20:14.840 --> 20:17.480]  I just thought when you guys finished it,
+[20:17.480 --> 20:18.640]  and it was very close to the end,
+[20:18.640 --> 20:19.680]  I looked at it and I'm like,
+[20:19.680 --> 20:21.360]  this smells like a winner to me,
+[20:21.360 --> 20:24.720]  because I think that if I hadn't been behind the scenes
+[20:24.720 --> 20:26.840]  reading this spec for months beforehand,
+[20:26.840 --> 20:30.280]  if it had just popped into my news as a new thing,
+[20:30.280 --> 20:32.440]  I thought I would look at this and I would think,
+[20:32.440 --> 20:33.320]  oh, that's cool.
+[20:33.320 --> 20:35.000]  I should quick add that to during fireball.
+[20:35.000 --> 20:36.360]  That wouldn't take much work.
+[20:36.360 --> 20:37.880]  And that's exactly what happened
+[20:37.880 --> 20:38.960]  with a bunch of people we know,
+[20:38.960 --> 20:43.000]  like Jason Snell at Six Colors.
+[20:43.000 --> 20:43.920]  The day that it was announced,
+[20:43.920 --> 20:45.040]  he didn't know it was coming.
+[20:45.040 --> 20:46.240]  The day that it's announced,
+[20:46.240 --> 20:50.080]  he's working on adding it to Six Colors,
+[20:50.080 --> 20:51.480]  which still runs on movable type.
+[20:51.480 --> 20:53.800]  And he ran into a very small problem
+[20:53.800 --> 20:58.160]  with JSON encoding his strings for values.
+[20:58.160 --> 21:00.040]  And so I quick put together,
+[21:00.040 --> 21:01.800]  it's the first movable type plugin I've written
+[21:01.800 --> 21:04.200]  in I think 15 years.
+[21:04.200 --> 21:06.320]  But it was very, it's super, super small.
+[21:06.320 --> 21:09.680]  It is literally like, it's way more comments than code.
+[21:09.680 --> 21:12.600]  It's just three or four lines of code to get,
+[21:12.600 --> 21:15.320]  and JSON string encoding is super simple.
+[21:15.320 --> 21:16.520]  There's not a lot of rules.
+[21:16.520 --> 21:17.520]  It's not like XML.
+[21:17.520 --> 21:19.120]  It's very simple.
+[21:19.120 --> 21:21.760]  You pretty much just need to backslash escape
+[21:21.760 --> 21:25.280]  your actual double quotes,
+[21:25.280 --> 21:27.360]  because the string is enclosed by double quotes.
+[21:27.360 --> 21:29.640]  So every actual double quote in your string
+[21:29.640 --> 21:33.280]  needs to be encoded and you take out all your white space.
+[21:33.280 --> 21:35.000]  So if you have a tab in your character,
+[21:35.000 --> 21:38.680]  you just put a backslash T and a return is a backslash N.
+[21:40.600 --> 21:43.440]  And so literally Jason Snell had a JSON feed.
+[21:43.440 --> 21:44.520]  He'd never heard of it.
+[21:44.520 --> 21:46.480]  And within two hours of hearing about it
+[21:46.480 --> 21:47.560]  and a little bit of work for me,
+[21:47.560 --> 21:51.240]  he had a working JSON feed on his site.
+[21:52.160 --> 21:56.000]  Manton, you helped create a WordPress plugin
+[21:56.000 --> 21:57.280]  that was there on day one.
+[21:57.280 --> 21:59.600]  And all, I mean, I lost count.
+[21:59.600 --> 22:01.600]  I very quickly lost count of how many sites
+[22:01.600 --> 22:05.480]  had JSON feeds within 24 hours of the announcement.
+[22:05.480 --> 22:07.200]  And I thought that was pretty cool.
+[22:08.120 --> 22:10.800]  Yeah, this response has been incredible.
+[22:10.800 --> 22:13.160]  And you're right about the like the encoding issues
+[22:13.160 --> 22:14.120]  and just the simplicity.
+[22:14.120 --> 22:16.880]  I mean, one of the problems with XML
+[22:16.880 --> 22:19.680]  is that it's hard to put HTML inside XML
+[22:19.680 --> 22:21.880]  because they're the same, right?
+[22:21.880 --> 22:24.400]  And so you have to escape everything
+[22:24.400 --> 22:26.360]  and that's really easy to get wrong.
+[22:26.360 --> 22:30.040]  And if you just like pull up a default RSS feed
+[22:30.040 --> 22:33.560]  from a website, it's a little bit of a disaster.
+[22:33.560 --> 22:35.480]  I mean, it's a mix of a lot of things.
+[22:35.480 --> 22:38.240]  There's some RSS, there's some Adam in there sometimes.
+[22:38.240 --> 22:40.800]  And there's at least two or three ways
+[22:40.800 --> 22:43.920]  to put HTML in a feed.
+[22:43.920 --> 22:46.600]  And with JSON, it's just way simpler.
+[22:46.600 --> 22:50.360]  You know, we have content underscore HTML field.
+[22:50.360 --> 22:53.040]  You put HTML in it and everything's good.
+[22:54.280 --> 22:59.280]  So I think the original sin is XML itself.
+[22:59.280 --> 23:04.280]  I think XML, and in some ways it's gonna be controversial,
+[23:04.680 --> 23:07.160]  maybe, but I think it was a disaster
+[23:07.160 --> 23:09.120]  for our entire industry.
+[23:09.120 --> 23:12.400]  I think basically, this is my theory of what happened,
+[23:12.400 --> 23:17.360]  is that the web became such a sensational,
+[23:17.360 --> 23:22.360]  explosive success where like 1994, nobody had heard of it.
+[23:23.400 --> 23:26.480]  1995, technical people had heard of it.
+[23:26.480 --> 23:29.080]  And by 1996, everybody was on the web.
+[23:29.080 --> 23:30.920]  And it's crazy.
+[23:30.920 --> 23:35.720]  You know, Microsoft famously, Bill Gates wrote this memo
+[23:35.720 --> 23:39.360]  that was like, we're currently at mid 90s,
+[23:39.360 --> 23:41.520]  the most successful company in the history of the world,
+[23:41.520 --> 23:43.440]  and we're completely shifting our entire,
+[23:43.440 --> 23:44.960]  everything we do is entirely focused
+[23:44.960 --> 23:46.080]  on the internet all of a sudden.
+[23:46.080 --> 23:48.160]  We totally missed this and we're shifting
+[23:48.160 --> 23:50.520]  the biggest company in the world to be internet focused.
+[23:50.520 --> 23:51.800]  And it worked for them, right?
+[23:51.800 --> 23:54.680]  It was, and it was the right move.
+[23:54.680 --> 23:57.880]  And I feel like everybody was so obsessed with the web,
+[23:57.880 --> 24:00.920]  and the web is all based on HTML.
+[24:00.920 --> 24:04.520]  And they were like, well, now let's do everything like HTML
+[24:04.520 --> 24:08.120]  and let's make a data serialization format
+[24:08.120 --> 24:10.640]  that is like HTML, where you've got these tags
+[24:10.640 --> 24:13.240]  that are set by angle brackets that enclose
+[24:13.240 --> 24:17.280]  what they're, you know, whatever it is they represent,
+[24:17.280 --> 24:19.440]  and then you end them with the same type of tag.
+[24:19.440 --> 24:20.800]  I mean, and like you said, Ben,
+[24:20.800 --> 24:23.960]  XML and HTML pretty much are the same basic idea.
+[24:23.960 --> 24:25.760]  There was the whole disaster that we went through
+[24:25.760 --> 24:29.560]  where they literally, we spent like 10 years
+[24:29.560 --> 24:33.640]  of standards process trying to get HTML to become XHTML,
+[24:33.640 --> 24:38.240]  which was the bastard baby of XML and HTML.
+[24:39.240 --> 24:40.480]  And which eventually,
+[24:40.480 --> 24:41.480]  And that failed, thank goodness.
+[24:41.480 --> 24:42.320]  Right, it failed.
+[24:44.760 --> 24:47.600]  And it was, you know, and HTML5,
+[24:47.600 --> 24:51.120]  which is what we have wound up with, which is much better,
+[24:51.120 --> 24:55.720]  pretty much went completely around that XHTML standard
+[24:55.720 --> 24:58.040]  process, but it's exactly like you said,
+[24:58.040 --> 25:00.680]  in some ways it's such a bad idea because it's like,
+[25:00.680 --> 25:04.240]  you've got XML and it's got the same rules as HTML,
+[25:04.240 --> 25:06.120]  but a lot of what you want to encode,
+[25:06.120 --> 25:11.040]  whether it's in feeds or any other use of XML,
+[25:11.040 --> 25:13.760]  if you're using an XML data format,
+[25:13.760 --> 25:17.960]  if your content is HTML, it's a disaster.
+[25:17.960 --> 25:19.720]  It really is, and it looks,
+[25:19.720 --> 25:24.080]  it's almost impossible for a human to look at it
+[25:24.080 --> 25:27.080]  and see if it looks right.
+[25:27.080 --> 25:29.120]  Yep, and even writing software for it,
+[25:29.120 --> 25:32.560]  I mean, I think my code works properly
+[25:32.560 --> 25:34.000]  for all those different kinds of feeds,
+[25:34.000 --> 25:37.320]  but there's so many like decode this and then decode this,
+[25:37.320 --> 25:40.280]  and it's just much more complicated than it needs to be.
+[25:40.280 --> 25:42.560]  There's so many places you can get it wrong.
+[25:43.880 --> 25:46.840]  Yeah, and then, you know, you may have it right in your code,
+[25:46.840 --> 25:48.920]  but there's going to be feeds or documents,
+[25:48.920 --> 25:51.960]  whatever they're, that are going to have it wrong
+[25:51.960 --> 25:54.920]  on their end, and then your users are going to notice
+[25:54.920 --> 25:57.680]  and report it as a bug, and pretty soon you're writing,
+[25:57.680 --> 26:01.760]  you know, workarounds to handle buggy, you know,
+[26:01.760 --> 26:06.760]  documents and feeds and so on, and it gets messy.
+[26:07.120 --> 26:09.760]  I think the central theme of a lot of this
+[26:09.760 --> 26:13.320]  is idealism versus practicality.
+[26:15.200 --> 26:17.440]  Is that the opposite of idealism?
+[26:17.440 --> 26:19.840]  What's a good word for that, Brent?
+[26:19.840 --> 26:21.320]  Pragmatism, practicality. Pragmatism.
+[26:21.320 --> 26:23.120]  Pragmatism is a good word.
+[26:23.120 --> 26:28.120]  And so XML is a very idealistic format, in my opinion,
+[26:29.680 --> 26:34.560]  because it is, because it is literally,
+[26:34.560 --> 26:37.080]  it stands for extensible markup language, I believe,
+[26:37.080 --> 26:38.640]  but it is extensible.
+[26:40.040 --> 26:42.520]  It can and is, in the real world,
+[26:42.520 --> 26:45.520]  being used for just about anything you could imagine,
+[26:46.880 --> 26:50.280]  but it's so complicated because it's so ambitious
+[26:50.280 --> 26:52.440]  and because it aimed to be able to represent
+[26:52.440 --> 26:55.560]  or to model just about anything you could throw at it.
+[26:57.600 --> 26:59.720]  And so people say, like, in your announcement,
+[26:59.720 --> 27:02.800]  and I read the whole Hacker News thread on it.
+[27:02.800 --> 27:04.200]  I know you guys did not.
+[27:04.200 --> 27:07.600]  Wow, thanks for doing that, Brent.
+[27:07.600 --> 27:10.560]  If it was my thing, I would not have been able to do it.
+[27:10.560 --> 27:13.600]  Like, if it was my baby, if JSON feed were my baby,
+[27:13.600 --> 27:15.600]  I would not have read the Hacker News feed,
+[27:15.600 --> 27:17.400]  or I would have read the first two lines
+[27:17.400 --> 27:18.800]  and then closed the tab.
+[27:18.800 --> 27:22.640]  I imagine 100 links to that same XKCD comic.
+[27:22.640 --> 27:24.360]  I think it came up at least three times.
+[27:24.360 --> 27:26.600]  And it was one of the deeper threads
+[27:26.600 --> 27:28.960]  because the first one who did it, I swear,
+[27:28.960 --> 27:31.400]  it's a really deep thread with all the people
+[27:31.400 --> 27:33.920]  who are like, damn it, I was just about to post that.
+[27:33.920 --> 27:34.760]  No.
+[27:38.000 --> 27:41.800]  But one of the bits of pushback on this would be,
+[27:41.800 --> 27:44.920]  and I've seen this repeated several times, I'll paraphrase,
+[27:44.920 --> 27:47.880]  which is you guys are presenting JSON feed
+[27:47.880 --> 27:52.880]  as easier and less error-prone to generate and parse
+[27:53.000 --> 27:54.320]  than XML.
+[27:54.320 --> 27:56.640]  And people are saying, the response is,
+[27:56.640 --> 28:01.240]  if you're having problems parsing and generating XML,
+[28:01.240 --> 28:03.720]  the solution isn't to create another format
+[28:03.720 --> 28:04.560]  in a different language.
+[28:04.560 --> 28:07.480]  How about you fix your XML generators and parsers?
+[28:09.200 --> 28:12.840]  So XML, it was early enough when XML came out
+[28:12.840 --> 28:17.040]  that people didn't really know how developers would behave
+[28:17.040 --> 28:20.400]  in, as a giant mass.
+[28:20.400 --> 28:23.400]  And the fact is, they're just not gonna always behave
+[28:23.400 --> 28:25.760]  all that well because people are, you know,
+[28:25.760 --> 28:27.440]  they have budgets, they have deadlines,
+[28:27.440 --> 28:29.200]  they have different skill levels.
+[28:29.200 --> 28:34.200]  So people aren't necessarily gonna do the right thing.
+[28:34.520 --> 28:36.280]  So it's important to keep that in mind
+[28:36.280 --> 28:41.160]  and use formats that are a whole lot easier
+[28:41.160 --> 28:45.160]  so that the burden isn't on each individual developer.
+[28:45.160 --> 28:50.160]  Right, and that the fact is this isn't gonna,
+[28:50.200 --> 28:53.240]  like that question, like, why don't you just fix X?
+[28:53.240 --> 28:54.960]  It's not gonna change.
+[28:54.960 --> 28:56.120]  I mean, even if you think back,
+[28:56.120 --> 28:58.400]  like we were talking about Brent working on that newswire,
+[28:58.400 --> 29:00.520]  it's been a number of years since Brent worked
+[29:00.520 --> 29:01.400]  on that newswire.
+[29:01.400 --> 29:03.520]  You know, guess how much has changed since then
+[29:03.520 --> 29:04.360]  with RSS feeds?
+[29:04.360 --> 29:06.240]  Nothing, nothing's changed.
+[29:06.240 --> 29:10.640]  Nothing has changed with feed parsing and tools.
+[29:10.640 --> 29:12.800]  It's basically same thing.
+[29:12.800 --> 29:14.760]  And so I think that would continue.
+[29:14.760 --> 29:17.200]  Nothing would change without someone
+[29:17.200 --> 29:19.360]  kind of putting something new out there
+[29:19.360 --> 29:21.440]  and, you know, getting people to talk about it.
+[29:21.440 --> 29:24.480]  It's XML is old enough.
+[29:24.480 --> 29:26.400]  In fact, I think it's long past old enough.
+[29:26.400 --> 29:27.760]  And I think it speaks to you guys saying
+[29:27.760 --> 29:29.920]  that you kind of expected something like JSON feed
+[29:29.920 --> 29:32.000]  to appear 10 years ago.
+[29:32.000 --> 29:33.000]  And in hindsight, it does.
+[29:33.000 --> 29:35.080]  It feels like a real head scratcher that it didn't.
+[29:35.080 --> 29:37.480]  I would say by 10 years ago,
+[29:37.480 --> 29:41.440]  XML was settled enough that we can see
+[29:41.440 --> 29:42.920]  how it's used in the real world.
+[29:42.920 --> 29:45.120]  And in the real world, it's often broken.
+[29:45.120 --> 29:47.680]  And that's just a statement of fact.
+[29:47.680 --> 29:50.480]  And you can say it shouldn't be.
+[29:50.480 --> 29:54.680]  You can say that all these people generating malformed XML
+[29:54.680 --> 29:56.960]  or subtly malformed or questionable XML
+[29:56.960 --> 29:59.240]  that they should fix their tool chain.
+[30:00.920 --> 30:02.000]  I guess that's correct.
+[30:02.000 --> 30:03.840]  There's all sorts of things the world should do though.
+[30:03.840 --> 30:05.280]  We should all exercise every day.
+[30:05.280 --> 30:08.760]  We should, you know, stop drinking beer.
+[30:08.760 --> 30:10.960]  You know, there's all sorts of things that we could do
+[30:10.960 --> 30:12.800]  that should be better.
+[30:12.800 --> 30:15.480]  But that don't reflect the way people actually behave.
+[30:16.480 --> 30:19.400]  In fact, it's because of XML that I don't exercise enough
+[30:19.400 --> 30:20.520]  and drink too much beer.
+[30:20.520 --> 30:25.520]  Here's my favorite anecdote.
+[30:25.800 --> 30:27.680]  I keep, maybe, but hopefully by the,
+[30:27.680 --> 30:29.960]  in fact, I guarantee it by the time this podcast airs,
+[30:29.960 --> 30:32.760]  this will be a post on Daring Fireball is,
+[30:35.520 --> 30:39.200]  in terms of it being easier to generate.
+[30:39.200 --> 30:42.440]  And again, I think that there are people who,
+[30:42.440 --> 30:47.360]  if you're already comfortable with your RSS
+[30:47.360 --> 30:49.800]  and Adam parsing, like you're responsible
+[30:49.800 --> 30:53.480]  for some product or service that consumes RSS feeds,
+[30:53.480 --> 30:56.720]  and you have a working system that consumes these feeds,
+[30:56.720 --> 30:59.440]  and you look at JSON feed, I'm not saying you too,
+[30:59.440 --> 31:01.400]  but you, this hypothetical person
+[31:01.400 --> 31:03.560]  who wishes there weren't another new standard,
+[31:03.560 --> 31:05.680]  you say, well, now you've just given me more work to do
+[31:05.680 --> 31:07.360]  because I have to add support for this new thing
+[31:07.360 --> 31:09.480]  and I already had this thing working.
+[31:09.480 --> 31:14.480]  And it's not that hard to consume XML
+[31:15.200 --> 31:16.680]  that you should be able to do it.
+[31:16.680 --> 31:19.320]  I disagree, and I think it depends
+[31:19.320 --> 31:20.440]  on which platform you're using,
+[31:20.440 --> 31:22.840]  but the real eye-opener for me was Workflow,
+[31:22.840 --> 31:27.040]  which is the iOS automation system.
+[31:27.040 --> 31:29.360]  It's sort of like Automator for iOS.
+[31:29.360 --> 31:32.720]  And it was actually recently acquired by Apple
+[31:34.320 --> 31:37.520]  with a lot of publicity and it's a totally different
+[31:37.520 --> 31:39.440]  discussion as to whether Apple's gonna keep it going
+[31:39.440 --> 31:41.240]  as an actively developed product
+[31:41.240 --> 31:44.960]  or integrate it into iOS somehow or what they're going to do.
+[31:44.960 --> 31:46.240]  I don't know, but it's out there now.
+[31:46.240 --> 31:47.400]  It's still in the App Store.
+[31:47.400 --> 31:50.560]  It was not like, hey, we got acquired by Apple
+[31:50.560 --> 31:52.320]  and now it's left out to die.
+[31:52.320 --> 31:53.960]  They've actually had a couple of updates
+[31:53.960 --> 31:55.640]  since the acquisition.
+[31:55.640 --> 31:58.840]  And basically what you can do with Workflow
+[31:58.840 --> 32:01.880]  is you create these, they call them workflows,
+[32:01.880 --> 32:03.240]  and you drag actions.
+[32:03.240 --> 32:04.880]  It's a visual way of programming.
+[32:04.880 --> 32:06.440]  And maybe there's workflow users
+[32:06.440 --> 32:08.240]  who don't think of it as programming, but it is.
+[32:08.240 --> 32:09.600]  It's a visual way though.
+[32:09.600 --> 32:11.640]  And you drag these things out like,
+[32:12.840 --> 32:16.880]  an action would be get URL and you give it a URL
+[32:16.880 --> 32:19.720]  and it'll, when it runs, it'll go out on the web
+[32:19.720 --> 32:23.040]  and get the content of whatever that URL is.
+[32:23.040 --> 32:25.680]  And then you dragged an action beneath it
+[32:25.680 --> 32:28.720]  and it can do something with it.
+[32:28.720 --> 32:30.680]  So here's like a stupid example would be,
+[32:30.680 --> 32:35.240]  you could get a URL and it say returns text
+[32:35.240 --> 32:36.800]  and it's just plain text.
+[32:36.800 --> 32:38.520]  And then you could have an action underneath it
+[32:38.520 --> 32:40.200]  that says reverse the text.
+[32:40.200 --> 32:44.760]  And it would turn Brent into, how do you reverse Brent?
+[32:44.760 --> 32:45.600]  I'm terrible at this.
+[32:45.600 --> 32:46.920]  This is a terrible example.
+[32:46.920 --> 32:50.200]  T-N-E-R-B, Tnerb.
+[32:50.200 --> 32:52.560]  And maybe there's like an action to speak the text.
+[32:52.560 --> 32:53.840]  So you could have three things in a row.
+[32:53.840 --> 32:55.920]  Get a URL and it returns a string,
+[32:55.920 --> 32:58.760]  reverse the string, and then speak it aloud
+[32:58.760 --> 33:01.760]  through your iPhone or iPad speakers.
+[33:01.760 --> 33:03.600]  And you haven't written a line of code.
+[33:03.600 --> 33:06.200]  You've dragged these three things out.
+[33:06.200 --> 33:09.840]  You string them in order and the results of each one
+[33:09.840 --> 33:11.960]  get passed down the chain.
+[33:11.960 --> 33:14.520]  And there's other systems.
+[33:14.520 --> 33:16.400]  Automator works the same way.
+[33:16.400 --> 33:19.040]  But Workflow has proved to be quite popular
+[33:19.040 --> 33:23.200]  with the iOS enthusiast set.
+[33:23.200 --> 33:25.800]  And it works around certain shortcomings,
+[33:25.800 --> 33:27.160]  in my opinion, on the platform.
+[33:27.160 --> 33:30.400]  Like the fact that there is no scripting system on iOS
+[33:30.400 --> 33:33.640]  like there is on Mac OS.
+[33:33.640 --> 33:36.360]  And anyway, where this ties into JSON feed
+[33:36.360 --> 33:40.160]  is Federico Vitici of Mac Stories,
+[33:40.160 --> 33:45.000]  and arguably the most well-known Workflow user in the world.
+[33:45.000 --> 33:47.840]  He's a serious iOS productivity enthusiast.
+[33:47.840 --> 33:52.840]  He writes all sorts of very interesting stuff in Workflow
+[33:52.840 --> 33:54.720]  to aid his productivity.
+[33:54.720 --> 33:57.640]  He showed an example with JSON feed on Twitter,
+[33:57.640 --> 33:59.440]  and it blew my mind how simple it was.
+[33:59.440 --> 34:01.800]  Because more or less, he just passed in the URL
+[34:01.800 --> 34:03.840]  to Daring Fireballs JSON feed.
+[34:03.840 --> 34:07.520]  And then the next step in JSON was turn that feed
+[34:07.520 --> 34:11.160]  into a dictionary, which is a Workflow data structure, which
+[34:11.160 --> 34:19.120]  is named values or keys that have the title of the feed,
+[34:19.120 --> 34:24.000]  the date of the item, and then a value for each thing.
+[34:24.000 --> 34:25.880]  And then all of a sudden, in the next step,
+[34:25.880 --> 34:31.440]  he can just extract the value from the dictionary value.
+[34:31.440 --> 34:34.640]  So give it a JSON feed, turn it into a Workflow dictionary,
+[34:34.640 --> 34:36.200]  which is something he's familiar with
+[34:36.200 --> 34:38.480]  and is intrinsic to Workflow.
+[34:38.480 --> 34:39.760]  And then he can do things.
+[34:39.760 --> 34:44.240]  All of a sudden, he could show a list of all 25 items
+[34:44.240 --> 34:46.680]  in the Daring Fireball JSON feed.
+[34:46.680 --> 34:50.920]  So Workflow wasn't updated to support JSON feed.
+[34:50.920 --> 34:54.360]  It just naturally works with JSON, period,
+[34:54.360 --> 34:58.560]  and maps JSON to what Workflow calls a dictionary.
+[34:58.560 --> 35:02.960]  And so Federico wrote a thing within a day or two
+[35:02.960 --> 35:04.640]  of JSON feed being announced where
+[35:04.640 --> 35:09.080]  he could do something that was actually useful from Workflow.
+[35:09.080 --> 35:10.200]  And then I looked into it.
+[35:10.200 --> 35:11.600]  Now, I'm not a heavy Workflow user.
+[35:11.600 --> 35:12.520]  But I looked into it.
+[35:12.520 --> 35:15.360]  I opened Workflow, and I replicated what he did.
+[35:15.360 --> 35:16.880]  And I built a little Workflow for me,
+[35:16.880 --> 35:18.360]  which I actually might use.
+[35:18.360 --> 35:21.000]  It's a little thing I can launch from my iPhone home screen now.
+[35:21.000 --> 35:23.540]  It shows a list of all my recent articles at Daring Fireball.
+[35:23.540 --> 35:25.280]  And I can copy the URL for one.
+[35:25.280 --> 35:26.660]  So if I'm texting somebody, and I
+[35:26.660 --> 35:29.280]  know I want to text them a recent article I wrote,
+[35:29.280 --> 35:33.120]  I could do this now with like three taps on my iPhone.
+[35:33.120 --> 35:34.920]  But the thing I looked into is, well,
+[35:34.920 --> 35:38.400]  could I do this with RSS or Atom in Workflow?
+[35:38.400 --> 35:39.880]  And the answer is no.
+[35:39.880 --> 35:41.780]  There's no way to do it.
+[35:41.780 --> 35:45.920]  So it's not just is it easier or harder
+[35:45.920 --> 35:48.840]  to parse JSON versus RSS.
+[35:48.840 --> 35:50.560]  For Workflow users, it's literally
+[35:50.560 --> 35:55.260]  the difference between it's possible and not possible.
+[35:55.260 --> 35:57.880]  Yeah, that's a great example of new tools
+[35:57.880 --> 36:00.160]  that we hope will happen because of this.
+[36:00.160 --> 36:01.920]  It wasn't possible to do that before.
+[36:01.920 --> 36:06.680]  And maybe you could have some custom Workflow RSS
+[36:06.680 --> 36:09.660]  thing that was built in that the Workflow team worked on.
+[36:09.660 --> 36:14.920]  But you can't just have a generic XML action that
+[36:14.920 --> 36:15.760]  would work this way.
+[36:15.760 --> 36:17.760]  And it gets back to the point earlier about,
+[36:17.760 --> 36:22.200]  like in a lot of cases, parsing JSON is just one line of code.
+[36:22.200 --> 36:24.120]  It can't be one line of code for XML
+[36:24.120 --> 36:25.680]  because XML is more complicated.
+[36:25.680 --> 36:27.960]  You don't have just one key.
+[36:27.960 --> 36:30.520]  If you're working on a dictionary, you have attributes.
+[36:30.520 --> 36:32.640]  It's a different type of format.
+[36:32.640 --> 36:35.520]  You can't have the same simplicity with XML.
+[36:35.520 --> 36:38.280]  It's just it's literally not possible to do the same thing
+[36:38.280 --> 36:40.920]  and just make a dictionary out of it.
+[36:40.920 --> 36:43.120]  I just think that there are people who think of,
+[36:43.120 --> 36:45.280]  if you think XML is simple enough that there's not
+[36:45.280 --> 36:50.400]  a need for this, I really think that you're overlooking just
+[36:50.400 --> 36:55.520]  how dramatically simpler JSON is for a lot of modern programming
+[36:55.520 --> 36:57.080]  platforms.
+[36:57.080 --> 36:59.880]  I think of it as being more democratic.
+[36:59.880 --> 37:04.120]  So JSON is just usable everywhere and usable by people
+[37:04.120 --> 37:08.400]  at massively varying skill levels.
+[37:08.400 --> 37:10.840]  That it makes things like working with feeds,
+[37:10.840 --> 37:14.640]  something amateurs of all kinds can totally do and get
+[37:14.640 --> 37:16.800]  some value out of.
+[37:16.800 --> 37:19.120]  I think that it sounds small.
+[37:19.120 --> 37:21.760]  It sounds small in the way I talked about Frontier.
+[37:21.760 --> 37:23.160]  Persistence is so easy.
+[37:23.160 --> 37:24.880]  You might think, oh, well, whatever.
+[37:24.880 --> 37:26.480]  That's a solved problem for me.
+[37:26.480 --> 37:28.120]  But it really does make a huge difference
+[37:28.120 --> 37:31.640]  when you get to using the thing.
+[37:31.640 --> 37:34.640]  It is literally why I started by talking about Frontier,
+[37:34.640 --> 37:39.480]  that I see a path from there to here that is similar.
+[37:39.480 --> 37:45.160]  And democratization of this is exactly something
+[37:45.160 --> 37:46.360]  that I get fired up about.
+[37:46.360 --> 37:49.400]  I really do think that when you make stuff like this easier
+[37:49.400 --> 37:51.760]  for more people to do, like there
+[37:51.760 --> 37:54.840]  was an idea in the early days of personal computing
+[37:54.840 --> 37:57.640]  where maybe everybody would be a programmer.
+[37:57.640 --> 38:00.440]  And I think HyperCard was sort of designed
+[38:00.440 --> 38:03.640]  in that vein of this is the sort of thing
+[38:03.640 --> 38:05.040]  that everybody could do.
+[38:05.040 --> 38:08.640]  And because those of us who can program at some level,
+[38:08.640 --> 38:13.320]  like if you can write some kind of script at some level,
+[38:13.320 --> 38:16.440]  maybe you can't write a full-fledged Koko application
+[38:16.440 --> 38:20.560]  that is too far beyond your capabilities as a programmer.
+[38:20.560 --> 38:22.880]  But if you can program at all, you could see that.
+[38:22.880 --> 38:25.440]  And you can see how exciting it was in the 80s and 90s
+[38:25.440 --> 38:27.480]  when we were writing little scripts in HyperCard.
+[38:27.480 --> 38:30.600]  And you wanted that enthusiasm to spread to everybody.
+[38:30.600 --> 38:33.960]  But the truth is everybody isn't a programmer.
+[38:33.960 --> 38:37.040]  In the same way that, in theory, everybody could write novels,
+[38:37.040 --> 38:39.200]  but most people don't write novels.
+[38:39.200 --> 38:42.240]  And everybody could sing, but not everybody
+[38:42.240 --> 38:44.400]  sings or plays a musical instrument.
+[38:44.400 --> 38:46.840]  I think programming is very much like any of those things
+[38:46.840 --> 38:49.680]  where some people have a knack for it and an interest
+[38:49.680 --> 38:50.760]  and some people don't.
+[38:50.760 --> 38:52.800]  But I still think that there's a huge,
+[38:52.800 --> 38:57.640]  I feel like we gave up as an industry on making things
+[38:57.640 --> 39:03.880]  approachable to more people at a simpler level.
+[39:03.880 --> 39:07.000]  And JSON feed is exactly like that.
+[39:07.000 --> 39:08.840]  And one of the things, too, is it's not just
+[39:08.840 --> 39:11.720]  about making feed readers.
+[39:11.720 --> 39:13.880]  There's all sorts of things that you can do with a feed
+[39:13.880 --> 39:16.680]  and the data from a feed that just might not occur to you
+[39:16.680 --> 39:18.360]  until all of a sudden you're like, whoa,
+[39:18.360 --> 39:20.560]  I wish I could just pick a list of recent articles
+[39:20.560 --> 39:24.720]  from during Fireball and just copy the URL.
+[39:24.720 --> 39:30.120]  Sure, I think if this, then that is an example.
+[39:30.120 --> 39:33.520]  They have feed actions, things you can do.
+[39:33.520 --> 39:34.480]  And people use that.
+[39:34.480 --> 39:38.960]  And it would be nice to make that kind of ease of use
+[39:38.960 --> 39:41.480]  available in more different places,
+[39:41.480 --> 39:42.640]  many more places.
+[39:42.640 --> 39:43.840]  Right.
+[39:43.840 --> 39:48.960]  Right, and I think as JSON feed takes root and blossoms,
+[39:48.960 --> 39:52.240]  we'll see things like that where people who might be IFTTT,
+[39:52.240 --> 39:56.520]  I don't know how you pronounce it, do you say IFTTT or IFTTT?
+[39:56.520 --> 39:58.840]  I don't know.
+[39:58.840 --> 40:03.360]  People might make their own feed for things
+[40:03.360 --> 40:06.320]  that you don't think of, something
+[40:06.320 --> 40:09.880]  to do with your home and just the smart home automation
+[40:09.880 --> 40:13.240]  stuff, and maybe you start making a feed of times
+[40:13.240 --> 40:15.320]  your refrigerator's opened or whatever.
+[40:15.320 --> 40:16.040]  I don't know.
+[40:16.040 --> 40:18.480]  But there's all sorts of things that you could do with it.
+[40:18.480 --> 40:22.480]  And with an easy to generate format,
+[40:22.480 --> 40:24.280]  it just opens the door to things that you
+[40:24.280 --> 40:25.800]  haven't thought of yet.
+[40:25.800 --> 40:27.800]  Yeah.
+[40:27.800 --> 40:30.760]  All right, let me take a break and thank our first sponsor.
+[40:30.760 --> 40:34.200]  I want to tell you about our good friends at Fracture.
+[40:34.200 --> 40:38.400]  Fracture is out to rescue your favorite photos
+[40:38.400 --> 40:39.880]  from the digital ether.
+[40:39.880 --> 40:40.720]  Here's what they do.
+[40:40.720 --> 40:42.880]  They print your photos directly onto glass,
+[40:42.880 --> 40:46.520]  and they add a laser cut rigid backing.
+[40:46.520 --> 40:48.240]  You pick your favorite photos.
+[40:48.240 --> 40:49.520]  You send them to Fracture.
+[40:49.520 --> 40:50.440]  You upload them.
+[40:50.440 --> 40:53.120]  You pick the size that you want them printed at.
+[40:53.120 --> 40:56.000]  Fracture prints them directly on glass
+[40:56.000 --> 41:00.200]  in their carbon neutral factory down in Gainesville, Florida,
+[41:00.200 --> 41:01.800]  handmade.
+[41:01.800 --> 41:04.800]  They ship them to you in a beautiful, clever little box.
+[41:04.800 --> 41:07.320]  You take them out of the box, and they're literally
+[41:07.320 --> 41:10.040]  ready to hang on the wall or prop up on your desk
+[41:10.040 --> 41:12.400]  or wherever you're going to put them, depending on the size.
+[41:12.400 --> 41:15.440]  Everything you need is right there in the box, ready to go.
+[41:15.440 --> 41:17.600]  And they look amazing.
+[41:17.600 --> 41:19.840]  It's not just an easy way to get your photos printed.
+[41:19.840 --> 41:23.560]  It's also the best way to get your photos printed.
+[41:23.560 --> 41:27.000]  And let me tell you, as somebody who I tell you about them
+[41:27.000 --> 41:28.520]  all the time, and I underuse them.
+[41:28.520 --> 41:30.000]  I have Fractures all over the house,
+[41:30.000 --> 41:32.800]  but I should have more because every time I look at one,
+[41:32.800 --> 41:34.560]  it makes me happy.
+[41:34.560 --> 41:38.840]  Looking at nice pictures that I've taken of places I've been
+[41:38.840 --> 41:43.760]  and my wife and my son, other people in our family,
+[41:43.760 --> 41:46.720]  psychologically, it makes you feel good.
+[41:46.720 --> 41:49.520]  Fracture is a company that makes people happy
+[41:49.520 --> 41:52.920]  because pictures of loved ones and places you've
+[41:52.920 --> 41:57.280]  been that you want to remember will make you happy.
+[41:57.280 --> 41:59.920]  I don't want to oversell it, but literally, in a way,
+[41:59.920 --> 42:01.880]  Fracture is selling happiness.
+[42:01.880 --> 42:04.080]  It's a great company, a great service.
+[42:04.080 --> 42:07.000]  You will never, ever regret getting a Fracture.
+[42:07.000 --> 42:08.360]  Where do you go to find out more?
+[42:08.360 --> 42:11.440]  Their website is fractureme.com.
+[42:11.440 --> 42:15.400]  fractureme.com slash podcast.
+[42:15.400 --> 42:17.880]  They use the same URL for all their podcast ads.
+[42:17.880 --> 42:21.400]  And then when you buy your pictures from Fracture,
+[42:21.400 --> 42:23.480]  they will ask you a one-question survey, which
+[42:23.480 --> 42:25.440]  is where did you hear of Fracture?
+[42:25.440 --> 42:29.240]  And you can tell them you heard it from me, the talk show.
+[42:29.240 --> 42:30.120]  My thanks to Fracture.
+[42:30.120 --> 42:31.640]  Go get some pictures printed.
+[42:31.640 --> 42:33.760]  They are terrific.
+[42:33.760 --> 42:34.680]  All right, JSON feed.
+[42:34.680 --> 42:38.040]  Anything else we want to talk about on JSON feed?
+[42:38.040 --> 42:41.240]  Where do we think it's going?
+[42:41.240 --> 42:45.480]  Do you think it's the success about where you expected,
+[42:45.480 --> 42:48.280]  about what you hoped, more or less?
+[42:48.280 --> 42:51.200]  It's more than I thought, actually, yeah.
+[42:51.200 --> 42:52.760]  It almost seemed to me like people
+[42:52.760 --> 42:56.240]  had been sitting around not knowing if anybody else cared
+[42:56.240 --> 42:57.520]  about this stuff.
+[42:57.520 --> 43:00.120]  And then when we came out with this, a whole bunch of people
+[43:00.120 --> 43:02.720]  were like, oh, a lot of people care about this stuff,
+[43:02.720 --> 43:07.120]  the stuff being the open web and feeds and things like that.
+[43:07.120 --> 43:09.160]  In a weird way, it's kind of like a group
+[43:09.160 --> 43:13.360]  is finding each other, which is really cool.
+[43:13.360 --> 43:15.440]  Yeah, I kind of see that, too.
+[43:15.440 --> 43:21.280]  And it would be interesting, we can
+[43:21.280 --> 43:22.920]  parlay this into our next conversation
+[43:22.920 --> 43:24.800]  about feed reading.
+[43:24.800 --> 43:29.400]  And I'm curious, as feed readers now start to adopt JSON feed,
+[43:29.400 --> 43:33.760]  I'm curious what they will do when, let's say,
+[43:33.760 --> 43:35.720]  somebody's using a feed reader, and they
+[43:35.720 --> 43:37.400]  want to subscribe to Daring Fireball.
+[43:37.400 --> 43:42.320]  And they say, new feed, and you type in daringfireball.net.
+[43:42.320 --> 43:46.760]  And on the back end, both of my feeds are discoverable.
+[43:46.760 --> 43:49.520]  There's an RSS feed, technically an Atom feed,
+[43:49.520 --> 43:53.040]  but for the sake of, we'll just call it RSS for clarity.
+[43:53.040 --> 43:55.320]  There's an RSS feed, and there's a JSON feed.
+[43:55.320 --> 43:59.000]  At what point do you think feed readers might start preferring
+[43:59.000 --> 43:59.840]  the JSON feed?
+[44:02.760 --> 44:04.120]  That's a good question.
+[44:04.120 --> 44:07.360]  Yeah, it's hard to know, but I think some might soon.
+[44:07.360 --> 44:12.400]  Because it kind of switches the code path in your app
+[44:12.400 --> 44:15.600]  to something that's simpler, maybe even faster
+[44:15.600 --> 44:18.240]  in some cases.
+[44:18.240 --> 44:19.000]  It's hard to know.
+[44:19.000 --> 44:20.240]  I mean, and the other thing to think about
+[44:20.240 --> 44:23.800]  is we don't expect everything to change overnight,
+[44:23.800 --> 44:25.640]  but you have to start somewhere.
+[44:25.640 --> 44:27.200]  And so I agree with Brent.
+[44:27.200 --> 44:29.440]  I think this is more than I thought
+[44:29.440 --> 44:31.160]  we'd see in the first week or two.
+[44:31.160 --> 44:34.360]  And it gives me a lot of hope that you fast forward,
+[44:34.360 --> 44:38.640]  not just weeks or months, but like five years, 10 years.
+[44:38.640 --> 44:41.560]  I mean, things change over years.
+[44:41.560 --> 44:44.480]  And starting now, which we didn't start earlier,
+[44:44.480 --> 44:49.040]  but starting now works too.
+[44:49.040 --> 44:52.320]  Brent, what do you think?
+[44:52.320 --> 44:54.480]  You know, it looks like Feedbin, for instance,
+[44:54.480 --> 44:58.320]  may already be preferring JSON feed or certainly seems
+[44:58.320 --> 45:01.600]  to be leaning that direction, where others, like Feedly,
+[45:01.600 --> 45:04.200]  aren't even sure yet that they want to support it.
+[45:04.200 --> 45:07.960]  So I don't really know how long it's
+[45:07.960 --> 45:10.360]  going to take feed readers in general to prefer that.
+[45:10.360 --> 45:13.120]  Or we'll see.
+[45:13.120 --> 45:16.760]  A lot can happen in five years.
+[45:16.760 --> 45:18.920]  And it may be that there's some other syndication
+[45:18.920 --> 45:21.720]  format in five years that just blows all this away
+[45:21.720 --> 45:23.440]  and whatever.
+[45:23.440 --> 45:25.080]  Who knows?
+[45:25.080 --> 45:26.160]  Hard to predict.
+[45:26.160 --> 45:28.920]  But I think JSON feed will do well
+[45:28.920 --> 45:32.120]  and will make the ecosystem better.
+[45:32.120 --> 45:33.320]  It just loaded Feedbin.
+[45:33.320 --> 45:38.560]  Feedbin is an online feed reader.
+[45:38.560 --> 45:41.240]  And it's so funny.
+[45:41.240 --> 45:43.840]  I don't use it, so I don't have any feeds in mind.
+[45:43.840 --> 45:49.360]  But it's a very nice little iCloud.com style web
+[45:49.360 --> 45:52.960]  app that looks sort of like a little bit like a native app.
+[45:52.960 --> 45:55.640]  And because I have nothing there in the content column,
+[45:55.640 --> 45:58.400]  they just show an outline of a hamburger.
+[45:58.400 --> 46:00.400]  Like a real hamburger, not a hamburger menu.
+[46:00.400 --> 46:03.640]  It's making me hungry.
+[46:03.640 --> 46:05.360]  And the nice thing about some of those,
+[46:05.360 --> 46:10.320]  like Feedbin is also like a RSS syncing, feed syncing thing.
+[46:10.320 --> 46:13.720]  So there's lots of native apps that
+[46:13.720 --> 46:15.960]  support Feedbin that don't even really
+[46:15.960 --> 46:18.900]  need to add direct support to JSON feed necessarily.
+[46:18.900 --> 46:22.720]  And they'll be, quote unquote, compatible.
+[46:22.720 --> 46:26.240]  And I think the other unknown is how much innovation
+[46:26.240 --> 46:27.320]  this will spark.
+[46:27.320 --> 46:30.300]  We have extensions in JSON feed, people coming up
+[46:30.300 --> 46:32.760]  with new ideas, things they want feeds to do.
+[46:32.760 --> 46:34.960]  And I'm hopeful about that because we haven't,
+[46:34.960 --> 46:36.880]  I mean, when Google Reader shut down,
+[46:36.880 --> 46:39.600]  that was kind of like good news, bad news.
+[46:39.600 --> 46:41.600]  And the good news was that it did
+[46:41.600 --> 46:44.760]  spark some innovation and more feed syncing engines
+[46:44.760 --> 46:46.240]  and services.
+[46:46.240 --> 46:48.680]  And we haven't seen much like that.
+[46:48.680 --> 46:51.180]  But I'm hopeful that we might see something else like that.
+[46:51.180 --> 46:53.080]  Some feed reader will take a leap
+[46:53.080 --> 46:55.000]  and say, I'm going to add a new feature.
+[46:55.000 --> 46:55.560]  Imagine that.
+[46:55.560 --> 46:58.120]  I'm going to add a new feature to a feed reader
+[46:58.120 --> 46:59.520]  that no one has seen before.
+[46:59.520 --> 47:01.840]  And so we'll see.
+[47:01.840 --> 47:04.120]  It sometimes seems to me like things
+[47:04.120 --> 47:08.440]  now are a little calcified, like the bones of the web
+[47:08.440 --> 47:09.120]  have hardened.
+[47:09.120 --> 47:14.240]  And in order to do something new, like JSON feed,
+[47:14.240 --> 47:17.340]  or add new features to a feed reader, whatever,
+[47:17.340 --> 47:19.800]  you have to go through a bunch of hurdles
+[47:19.800 --> 47:23.680]  and pass gatekeepers and have all these people explaining
+[47:23.680 --> 47:24.880]  why you're doing it wrong.
+[47:24.880 --> 47:28.680]  And years ago, we would just make things
+[47:28.680 --> 47:30.560]  and people would like them or not.
+[47:30.560 --> 47:32.280]  And it was fun.
+[47:32.280 --> 47:36.400]  And so part of the message here is like, look, we can have fun.
+[47:36.400 --> 47:39.560]  And we don't actually have to, we
+[47:39.560 --> 47:41.480]  don't have to listen to all the gatekeepers, all
+[47:41.480 --> 47:44.240]  the people who would stop us from doing things.
+[47:44.240 --> 47:46.720]  Now it could be that what we're doing isn't the right thing
+[47:46.720 --> 47:48.000]  or has a bunch of flaws.
+[47:48.000 --> 47:49.880]  You know, maybe, maybe not.
+[47:49.880 --> 47:53.360]  But the point is, let's get back to the place
+[47:53.360 --> 47:56.360]  where we actually do make new things
+[47:56.360 --> 47:58.320]  and have a good time doing it.
+[47:58.320 --> 47:59.060]  It is fun.
+[47:59.060 --> 48:01.000]  And I've written that too, that to me,
+[48:01.000 --> 48:02.880]  this whole thing with JSON feed is fun.
+[48:02.880 --> 48:05.320]  And of course, that hopelessly brands me
+[48:05.320 --> 48:08.760]  as a nerd that I think that a new JSON-based syndication
+[48:08.760 --> 48:09.880]  feed is fun.
+[48:09.880 --> 48:14.880]  But it is, I have to admit, I've had a bit of a thrill
+[48:14.880 --> 48:17.880]  just watching this thing take off over the last week or two.
+[48:17.880 --> 48:18.640]  And it is fun.
+[48:18.640 --> 48:23.840]  It was fun for me to write the little script that makes
+[48:23.840 --> 48:27.560]  the JSON feed for Daring Fireball.
+[48:27.560 --> 48:31.800]  It was a fun programming project for me in the way
+[48:31.800 --> 48:35.440]  that I enjoy little things that you
+[48:35.440 --> 48:39.440]  can complete in the afternoon programming projects.
+[48:39.440 --> 48:40.560]  It was very fun.
+[48:40.560 --> 48:45.120]  I think Dr. Drang wrote a post about creating one
+[48:45.120 --> 48:48.960]  for his website at Lean Crew.
+[48:48.960 --> 48:51.600]  And he's more or less did the same thing.
+[48:51.600 --> 48:57.400]  As a little scratch and itch, do it in an afternoon programming
+[48:57.400 --> 49:02.080]  project, it was as build on the tin,
+[49:02.080 --> 49:06.280]  this is an easy thing to do and fun.
+[49:06.280 --> 49:09.480]  Ironically, I think of all of us who worked on the spec,
+[49:09.480 --> 49:12.880]  I was the last one to actually write code to generate a feed.
+[49:12.880 --> 49:15.760]  The day before we published.
+[49:15.760 --> 49:20.520]  I knew it would be easy, so whatever.
+[49:20.520 --> 49:23.800]  It's funny though, because that is true, I can vouch for that.
+[49:23.800 --> 49:27.920]  I remember it was like, here's a checklist of things
+[49:27.920 --> 49:30.160]  that need to be done before we announce this publicly.
+[49:30.160 --> 49:32.920]  And one of them was have an actual JSON feed
+[49:32.920 --> 49:35.040]  for Inessential.
+[49:35.040 --> 49:37.720]  And for the JSON feed site itself,
+[49:37.720 --> 49:41.040]  which both use the same content management system, which
+[49:41.040 --> 49:44.440]  is really one big hairy Ruby script.
+[49:44.440 --> 49:46.640]  I don't want to keep hammering on XML,
+[49:46.640 --> 49:49.280]  but I will say though, not that it's
+[49:49.280 --> 49:51.840]  hard to make an RSS feed for a site
+[49:51.840 --> 49:54.760]  if you're writing your own, doing it on your own
+[49:54.760 --> 49:56.560]  as opposed to using WordPress or something.
+[49:56.560 --> 50:00.160]  But I can verify firsthand that with the weird system
+[50:00.160 --> 50:03.720]  I have behind the scenes at Daring Fireball where I take,
+[50:03.720 --> 50:07.320]  long story short, the system at Daring Fireball,
+[50:07.320 --> 50:10.640]  my short entries are a different blog behind the scenes
+[50:10.640 --> 50:11.840]  than my longer entries.
+[50:11.840 --> 50:13.880]  And then to just have one feed, I
+[50:13.880 --> 50:16.600]  have a script that takes two separate feeds, one
+[50:16.600 --> 50:18.760]  from my link list entries, one from my articles,
+[50:18.760 --> 50:22.560]  and blends them together into one feed.
+[50:22.560 --> 50:23.880]  And I wrote that myself.
+[50:23.880 --> 50:28.120]  And I have had times in the past 10, 15 years
+[50:28.120 --> 50:30.480]  where that's broken, like when I've upgraded part
+[50:30.480 --> 50:32.360]  of the server or moved to a new server,
+[50:32.360 --> 50:35.200]  where text starts getting encoded differently
+[50:35.200 --> 50:37.640]  because there's different modules.
+[50:37.640 --> 50:38.840]  It's not trivial.
+[50:38.840 --> 50:41.400]  You wouldn't want to save generating an XML
+[50:41.400 --> 50:44.160]  feed for the last minute.
+[50:44.160 --> 50:46.520]  Whereas JSON feed, I could see why
+[50:46.520 --> 50:49.000]  you weren't worried about it.
+[50:49.000 --> 50:51.520]  And you're a big believer in Murphy's Law, right, Brent?
+[50:51.520 --> 50:52.040]  Oh, yeah.
+[50:52.040 --> 50:53.520]  Yeah, yeah, absolutely.
+[50:53.520 --> 50:56.160]  Well, because it's true.
+[50:56.160 --> 50:58.080]  But Murphy's Law often involves XML.
+[51:01.160 --> 51:03.080]  All right, speaking of feed readers, Brent,
+[51:03.080 --> 51:05.400]  you have an announcement to make.
+[51:05.400 --> 51:08.640]  Yeah, I've actually been working on a new feed reader
+[51:08.640 --> 51:12.320]  for quite some time as one of my nights and weekends project.
+[51:12.320 --> 51:15.560]  And I thought for quite a long time
+[51:15.560 --> 51:16.760]  what I wanted to do with it.
+[51:16.760 --> 51:18.240]  And for a long time, I thought I'll
+[51:18.240 --> 51:21.840]  make it a for-pay commercial thing, make some money.
+[51:21.840 --> 51:23.040]  I decided against that.
+[51:23.040 --> 51:25.920]  So the name of the reader is Evergreen.
+[51:25.920 --> 51:28.360]  And it is up on GitHub.
+[51:28.360 --> 51:32.560]  There's a repository, github.com slash
+[51:32.560 --> 51:34.800]  brentsimmons slash evergreen.
+[51:34.800 --> 51:38.880]  And it's not quite usable yet, except by extreme masochists.
+[51:38.880 --> 51:40.720]  But it's coming along.
+[51:40.720 --> 51:47.120]  And eventually, we will have a modern, nice, cool Mac RSS
+[51:47.120 --> 51:49.920]  reader, and Atom reader, and JSON feed reader.
+[51:49.920 --> 51:52.200]  I was going to say, is it going to support JSON feed?
+[51:52.200 --> 51:53.400]  Of course, yeah.
+[51:53.400 --> 51:55.600]  But tellingly, I haven't actually
+[51:55.600 --> 51:57.840]  written the JSON feed support for it yet.
+[51:57.840 --> 52:01.080]  So at the moment, it's only running on my machine.
+[52:01.080 --> 52:03.080]  And it only works with RSS and Atom.
+[52:03.080 --> 52:05.200]  But maybe I have 15 minutes later today,
+[52:05.200 --> 52:06.280]  and I'll fix that.
+[52:09.480 --> 52:13.120]  So it's Mac only, open source.
+[52:13.120 --> 52:14.240]  Open source.
+[52:14.240 --> 52:19.360]  And tell me why it's Mac only.
+[52:19.360 --> 52:26.240]  It's Mac only mainly because my two big passions in my career
+[52:26.240 --> 52:31.760]  have been the open web and the Macintosh desktop Mac apps.
+[52:31.760 --> 52:32.960]  iOS apps were kind of fun.
+[52:32.960 --> 52:34.720]  But also, so massively heartbreaking
+[52:34.720 --> 52:38.480]  that I can't love that the way I love the Mac.
+[52:38.480 --> 52:42.560]  And so for me, the intersection of the open web and the Mac
+[52:42.560 --> 52:45.000]  desktop is my favorite place to work.
+[52:45.000 --> 52:47.000]  And that's why I work on things like Frontier.
+[52:47.000 --> 52:49.400]  And that's why I've worked on RSS readers.
+[52:49.400 --> 52:54.240]  That's why I started Mars Edit a long, long time ago.
+[52:54.240 --> 52:55.880]  So that's my favorite place.
+[52:55.880 --> 53:00.360]  And so I'm writing another feed reader because that's me.
+[53:00.360 --> 53:01.760]  That's what I do.
+[53:01.760 --> 53:04.320]  So right now, your day job, though, for the last what?
+[53:04.320 --> 53:05.760]  How long have you been at OmniGroup?
+[53:05.760 --> 53:06.760]  Two years?
+[53:06.760 --> 53:07.640]  Two and a half years.
+[53:07.640 --> 53:08.720]  Two and a half years.
+[53:08.720 --> 53:10.920]  What do you work on at OmniGroup?
+[53:10.920 --> 53:13.320]  For the past year and a half, maybe,
+[53:13.320 --> 53:14.960]  I've been on OmniOutliner.
+[53:14.960 --> 53:16.680]  And I also love outliners.
+[53:16.680 --> 53:19.280]  And this is my favorite Omni app.
+[53:19.280 --> 53:21.600]  So it's been great working on that.
+[53:21.600 --> 53:24.760]  And I've been solely on the Mac version this whole time,
+[53:24.760 --> 53:26.320]  at least so far.
+[53:26.320 --> 53:29.240]  Before that, I worked on OmniFocus for Mac.
+[53:29.240 --> 53:31.600]  But Mac apps in particular?
+[53:31.600 --> 53:32.320]  Absolutely, yeah.
+[53:32.320 --> 53:33.560]  And we've had this discussion.
+[53:33.560 --> 53:36.240]  Now, obviously, longtime listeners of the show
+[53:36.240 --> 53:40.640]  know that you and I, along with Dave Whiskus,
+[53:40.640 --> 53:43.760]  collaborated on an iOS app.
+[53:43.760 --> 53:45.360]  Ultimately, it was only an iOS app,
+[53:45.360 --> 53:46.800]  although we had plans for a Mac app.
+[53:46.800 --> 53:48.920]  We can go over that some other day.
+[53:48.920 --> 53:50.800]  Vesper, from a couple of years ago.
+[53:53.920 --> 53:59.040]  And in our postmortems of Vesper, one of our big regrets
+[53:59.040 --> 54:01.800]  was that we strategically, I think
+[54:01.800 --> 54:04.600]  I'm speaking for both of us, but we wished that we had done
+[54:04.600 --> 54:07.680]  the Mac version first, both for business reasons
+[54:07.680 --> 54:14.560]  and it just seems like it was a strategic error.
+[54:14.560 --> 54:22.640]  I think we kind of got blinded by the sort of like what
+[54:22.640 --> 54:24.360]  I said about how the web was, everybody
+[54:24.360 --> 54:27.120]  was blinded by HTML and the web in the mid-'90s.
+[54:27.120 --> 54:32.800]  Five, six years ago, iPhone apps were such the thing.
+[54:32.800 --> 54:36.640]  And I don't think you ever enjoyed writing an iPhone app
+[54:36.640 --> 54:39.360]  as much as you enjoyed making a Mac app.
+[54:39.360 --> 54:42.160]  Yeah, it's no comparison.
+[54:42.160 --> 54:44.360]  Even in the early days of iOS, and I
+[54:44.360 --> 54:47.000]  had NetNewswire for iOS, well, for iPhone,
+[54:47.000 --> 54:51.000]  was up on day one of the App Store.
+[54:51.000 --> 54:53.320]  And that was cool, initially, because the iPhones
+[54:53.320 --> 54:54.760]  were so new and exciting.
+[54:54.760 --> 54:57.560]  But they kind of wore off for me.
+[54:57.560 --> 54:59.680]  I've been a long, long time Mac user.
+[54:59.680 --> 55:06.200]  And I love writing Mac apps, just way much more.
+[55:06.200 --> 55:08.560]  It's a different, you often hear the,
+[55:08.560 --> 55:10.880]  I think there's more people out there,
+[55:10.880 --> 55:12.960]  like let's say the WWDC in a few weeks,
+[55:12.960 --> 55:17.080]  there will be more people attending WWDC who
+[55:17.080 --> 55:20.400]  would raise their hand and say that they prefer iOS,
+[55:20.400 --> 55:23.120]  writing iOS apps to writing Mac apps.
+[55:23.120 --> 55:26.120]  And again, not to go out in the weeds on programming
+[55:26.120 --> 55:35.120]  differences, but that people find iOS's UI kit more,
+[55:35.120 --> 55:37.520]  they just like it better than they like the equivalent
+[55:37.520 --> 55:40.240]  on Mac, which is called AppKit, which dates back
+[55:40.240 --> 55:42.360]  to the next days.
+[55:42.360 --> 55:44.360]  And so what you're saying is really the opposite,
+[55:44.360 --> 55:46.880]  though, that you prefer the Mac to iOS.
+[55:46.880 --> 55:48.720]  But it's not really, from your perspective,
+[55:48.720 --> 55:51.060]  I don't think it's really an AppKit versus a UI kit thing.
+[55:51.060 --> 55:57.320]  It's more of the freedom of a Mac app, especially
+[55:57.320 --> 56:00.520]  one that's not sandboxed.
+[56:00.520 --> 56:05.520]  It's liberating in some very literal ways.
+[56:05.520 --> 56:06.320]  It really is.
+[56:06.320 --> 56:10.960]  The personal computer revolution changed the world dramatically.
+[56:10.960 --> 56:13.880]  It brought, going back to democratization,
+[56:13.880 --> 56:17.920]  it brought power to anybody who could manage
+[56:17.920 --> 56:20.080]  to get a computer in their life.
+[56:20.080 --> 56:22.360]  And that's huge, really, really huge.
+[56:22.360 --> 56:23.840]  And it remains huge.
+[56:23.840 --> 56:29.440]  And iOS still isn't liberating in quite that same way.
+[56:29.440 --> 56:31.800]  Maybe it's liberating in other ways, for sure.
+[56:31.800 --> 56:34.960]  You have it in your pocket wherever you go.
+[56:34.960 --> 56:37.720]  But the kind of deeper things that you can do on a Mac
+[56:37.720 --> 56:41.880]  are still difficult to impossible on iOS.
+[56:41.880 --> 56:43.200]  And I like that.
+[56:43.200 --> 56:46.240]  I like being able to do those deeper things
+[56:46.240 --> 56:49.480]  and to enable users to do deeper things.
+[56:49.480 --> 56:52.400]  And I sense a certain frustration from you,
+[56:52.400 --> 56:58.800]  personally, about the, again, not like your anti-app store,
+[56:58.800 --> 57:02.800]  but that distributing your software through the app store
+[57:02.800 --> 57:06.840]  has pluses and minuses, but that the minuses weigh you down.
+[57:06.840 --> 57:08.320]  It makes it less likely that you're
+[57:08.320 --> 57:13.560]  going to do something for iOS as a night and weekend type thing.
+[57:13.560 --> 57:15.600]  Yeah, that's right.
+[57:15.600 --> 57:17.280]  It adds a bunch of housekeeping.
+[57:17.280 --> 57:21.760]  It adds a bunch of stuff I'd just rather not spend time
+[57:21.760 --> 57:22.320]  doing.
+[57:22.320 --> 57:26.800]  And it separates me from my users.
+[57:26.800 --> 57:29.520]  And I don't like that at all.
+[57:29.520 --> 57:33.400]  The fact that Apple provides a download space for your apps
+[57:33.400 --> 57:35.640]  is kind of nice, but I wasn't really asking for that.
+[57:35.640 --> 57:38.080]  I can just use S3 or whatever.
+[57:38.080 --> 57:38.840]  I mean, who cares?
+[57:38.840 --> 57:40.460]  It's sort of a solved problem, right?
+[57:40.460 --> 57:41.120]  Nobody wrote it.
+[57:41.120 --> 57:44.200]  It was a point where it really was, as an indie developer,
+[57:44.200 --> 57:46.400]  it was actually an expense to, well,
+[57:46.400 --> 57:49.120]  where am I going to host the actual,
+[57:49.120 --> 57:51.720]  I guess it was like a.sit file at the time.
+[57:51.720 --> 57:53.120]  Yeah, right.
+[57:53.120 --> 57:56.000]  Where's my stuff at archive with my app going to be?
+[57:56.000 --> 57:59.980]  Because bandwidth, but I haven't heard the last time
+[57:59.980 --> 58:03.880]  that somebody ran up a bandwidth bill on downloads.
+[58:03.880 --> 58:06.940]  And just being on the app store doesn't replace the fact
+[58:06.940 --> 58:08.200]  that you need to do marketing.
+[58:08.200 --> 58:09.860]  So whether there's an app store or not,
+[58:09.860 --> 58:11.360]  you still have to do marketing.
+[58:13.960 --> 58:16.020]  It really just doesn't help that much.
+[58:16.020 --> 58:17.160]  Having something on the app store,
+[58:17.160 --> 58:19.280]  people aren't just going to magically find your app.
+[58:19.280 --> 58:21.080]  You still have to do all the stuff you would
+[58:21.080 --> 58:23.800]  have done without an app store.
+[58:23.800 --> 58:25.440]  So why another feed reader?
+[58:28.120 --> 58:32.320]  Just out of love, because I love it.
+[58:32.320 --> 58:34.880]  Another big reason is I love these technologies.
+[58:34.880 --> 58:36.400]  I love the open web.
+[58:36.400 --> 58:37.480]  I love feeds.
+[58:37.480 --> 58:40.320]  And I'd like to see more people use it.
+[58:40.320 --> 58:46.240]  And so that goes to why I'm making it free.
+[58:46.240 --> 58:49.640]  Yeah, I could not, in other words.
+[58:49.640 --> 58:52.320]  Like one day, a few years ago, I just
+[58:52.320 --> 58:54.840]  found myself writing an RSS parser.
+[58:54.840 --> 58:56.840]  And I'm like, yep, I'm doing this.
+[58:56.840 --> 58:59.240]  Obviously, my fingers want me to do this, and I have no choice.
+[59:02.840 --> 59:04.520]  The name Evergreen is so great, too.
+[59:04.520 --> 59:08.720]  I wonder how much did that lock you into the idea of you
+[59:08.720 --> 59:09.560]  have a great name.
+[59:09.560 --> 59:11.560]  You almost have to finish writing the app.
+[59:11.560 --> 59:14.640]  Yeah, that was a relatively recent change, actually.
+[59:14.640 --> 59:15.840]  It's had a few different names.
+[59:15.840 --> 59:19.000]  The first name was Seneca, which I love.
+[59:19.000 --> 59:20.480]  It's a beautiful name.
+[59:20.480 --> 59:23.840]  And it's the old Roman senator.
+[59:23.840 --> 59:26.240]  It was also the name of the company that made page mill,
+[59:26.240 --> 59:29.080]  though they spelled it with a C instead of an S.
+[59:29.080 --> 59:33.440]  And I've wanted to use that name since that time.
+[59:33.440 --> 59:36.240]  But the problem is there's also this Seneca brand, apple juice.
+[59:36.240 --> 59:39.120]  And I just couldn't get away from that association.
+[59:39.120 --> 59:41.680]  I didn't want people coming to my site
+[59:41.680 --> 59:44.720]  thinking that they're going to learn about apple juice.
+[59:44.720 --> 59:47.560]  It just didn't work.
+[59:47.560 --> 59:51.000]  The book, I can't say that I'm well-read enough
+[59:51.000 --> 59:52.120]  to have read more than one.
+[59:52.120 --> 59:54.440]  But the one book from the Roman senator, Seneca,
+[59:54.440 --> 59:58.240]  that I think he's best known for is On the Shortness of Life,
+[59:58.240 --> 59:59.680]  which is a great.
+[59:59.680 --> 01:00:02.800]  And a lot of really old books is actually almost more
+[01:00:02.800 --> 01:00:05.360]  like an extended essay than a book.
+[01:00:05.360 --> 01:00:07.960]  But I will put a link in the show notes
+[01:00:07.960 --> 01:00:10.480]  to it, because it's really a wonderful essay, something
+[01:00:10.480 --> 01:00:13.000]  that was written, what, like 2,000 years ago,
+[01:00:13.000 --> 01:00:17.120]  that seems as applicable today as ever.
+[01:00:17.120 --> 01:00:20.120]  Yeah, and it kind of went to my motivations
+[01:00:20.120 --> 01:00:20.920]  for writing the app.
+[01:00:20.920 --> 01:00:23.760]  It's like, you know, apparently this is what I love doing.
+[01:00:23.760 --> 01:00:25.240]  So why not just do it?
+[01:00:30.080 --> 01:00:34.400]  I can tell that you're happy with the set of projects
+[01:00:34.400 --> 01:00:35.440]  on your plate.
+[01:00:35.440 --> 01:00:37.480]  You and I have been friends for a very long time.
+[01:00:37.480 --> 01:00:40.040]  And I can just tell you, it almost
+[01:00:40.040 --> 01:00:41.800]  sounds like you do have a lot on your plate.
+[01:00:41.800 --> 01:00:44.000]  You've got a very busy day job.
+[01:00:44.000 --> 01:00:54.840]  I mean, we said you're retooling Frontier to run on a modern Mac.
+[01:00:54.840 --> 01:00:57.960]  JSON feed, in some sense, it's kind of, you know,
+[01:00:57.960 --> 01:00:59.400]  at least that's in the past tense.
+[01:00:59.400 --> 01:01:01.200]  Maybe there will be an update or something.
+[01:01:01.200 --> 01:01:02.880]  But if there is, it'll be minor.
+[01:01:02.880 --> 01:01:04.800]  So you don't have to do a lot of work on JSON feed.
+[01:01:04.800 --> 01:01:05.800]  And now you've got that.
+[01:01:05.800 --> 01:01:07.720]  It's a side project of a side project.
+[01:01:07.720 --> 01:01:10.000]  Right.
+[01:01:10.000 --> 01:01:14.840]  But it is related, though, where I feel like if I think we're
+[01:01:14.840 --> 01:01:19.160]  heading to a path where when Evergreen is at a place where
+[01:01:19.160 --> 01:01:22.320]  it's usable, right, where it's more of a, you know,
+[01:01:22.320 --> 01:01:26.280]  closer to being, yeah, I would call this a complete feed
+[01:01:26.280 --> 01:01:27.000]  reader.
+[01:01:27.000 --> 01:01:29.560]  By that time, I'll bet a decent chunk of the stuff
+[01:01:29.560 --> 01:01:33.560]  that people are putting into it are JSON feeds.
+[01:01:33.560 --> 01:01:37.240]  And one of the things, are you going to have local feeds?
+[01:01:37.240 --> 01:01:39.160]  At some point, possibly not in 1.0.
+[01:01:39.160 --> 01:01:41.480]  But yeah, scripted local feeds.
+[01:01:41.480 --> 01:01:44.120]  Right, so NetNewsWire supported local feeds.
+[01:01:44.120 --> 01:01:46.000]  And what you could do, and what that means
+[01:01:46.000 --> 01:01:50.000]  is if you're like a scripter, you
+[01:01:50.000 --> 01:01:53.520]  could write your own feeds locally on your Mac
+[01:01:53.520 --> 01:01:54.800]  and subscribe to them.
+[01:01:54.800 --> 01:01:58.720]  And it could be something like if you
+[01:01:58.720 --> 01:02:01.480]  have a shared Dropbox folder with people at work,
+[01:02:01.480 --> 01:02:06.360]  you could generate your own feed of when items appear in there.
+[01:02:06.360 --> 01:02:08.200]  And then if you want to, that would
+[01:02:08.200 --> 01:02:09.600]  be like your notification.
+[01:02:09.600 --> 01:02:11.360]  If you're in NetNewsWire all the time,
+[01:02:11.360 --> 01:02:13.920]  you could see, oh, there's new items in my shared Dropbox
+[01:02:13.920 --> 01:02:14.440]  folder.
+[01:02:14.440 --> 01:02:17.080]  And that's the thing that you wrote yourself.
+[01:02:17.080 --> 01:02:21.720]  I think that it will, in Evergreen,
+[01:02:21.720 --> 01:02:23.320]  I think most scripted feeds will be
+[01:02:23.320 --> 01:02:25.640]  JSON feeds because they're so much easier to write.
+[01:02:25.640 --> 01:02:28.240]  If you're writing a feed, if you're starting right now
+[01:02:28.240 --> 01:02:30.360]  to write your own custom feed, why in the world
+[01:02:30.360 --> 01:02:33.760]  would you choose anything other than JSON feed?
+[01:02:33.760 --> 01:02:37.120]  Yeah, because it's as simple as you build the data structure
+[01:02:37.120 --> 01:02:41.480]  in code and say, all right, JSONify this,
+[01:02:41.480 --> 01:02:43.280]  and there, we're done.
+[01:02:43.280 --> 01:02:48.320]  So it's 2017, and Brent Simmons is working
+[01:02:48.320 --> 01:02:52.160]  on Frontier, and Outliner.
+[01:02:52.160 --> 01:02:54.080]  Yeah, I know, I know.
+[01:02:54.080 --> 01:02:55.640]  A feed reader.
+[01:02:55.640 --> 01:02:58.480]  I have like three passions, and I do all three of them,
+[01:02:58.480 --> 01:03:02.360]  and that's that.
+[01:03:02.360 --> 01:03:04.120]  Which means I'm super lucky, and I
+[01:03:04.120 --> 01:03:07.520]  had to get to the age of 49 to be this lucky,
+[01:03:07.520 --> 01:03:09.560]  but I've worked my way there.
+[01:03:09.560 --> 01:03:11.240]  All right, let me take another break here
+[01:03:11.240 --> 01:03:13.480]  and thank our next sponsor.
+[01:03:13.480 --> 01:03:18.560]  It is our good friends at Squarespace.
+[01:03:18.560 --> 01:03:20.000]  You've heard of Squarespace.
+[01:03:20.000 --> 01:03:21.600]  They sponsor the show all the time.
+[01:03:21.600 --> 01:03:23.280]  But listen to me, listen to me.
+[01:03:23.280 --> 01:03:24.860]  I'm going to make it short because you
+[01:03:24.860 --> 01:03:26.160]  know what they are already.
+[01:03:26.160 --> 01:03:29.520]  Squarespace, you go there, type squarespace.com
+[01:03:29.520 --> 01:03:30.200]  in your browser.
+[01:03:30.200 --> 01:03:30.960]  You go there.
+[01:03:30.960 --> 01:03:33.480]  You can say, start a free trial, and you start a free trial.
+[01:03:33.480 --> 01:03:36.960]  And at that moment, you're already building your website.
+[01:03:36.960 --> 01:03:39.120]  You've got templates to choose from that
+[01:03:39.120 --> 01:03:41.640]  are both stylistic templates in terms of like what
+[01:03:41.640 --> 01:03:44.600]  do you think it's going to look like and functional templates
+[01:03:44.600 --> 01:03:46.760]  in terms of what is it that you're making.
+[01:03:46.760 --> 01:03:48.180]  Are you starting a new podcast?
+[01:03:48.180 --> 01:03:51.200]  Well, then you can start like a blog type thing in Squarespace
+[01:03:51.200 --> 01:03:56.120]  where you'll have entries and that sort of thing.
+[01:03:56.120 --> 01:03:58.920]  Or are you building a store because you're selling stuff?
+[01:03:58.920 --> 01:04:01.400]  Maybe you're making t-shirts or something like that
+[01:04:01.400 --> 01:04:02.880]  and you want to sell them.
+[01:04:02.880 --> 01:04:04.800]  The next thing you know, half an hour later,
+[01:04:04.800 --> 01:04:06.000]  your website is finished.
+[01:04:06.000 --> 01:04:06.600]  And it's there.
+[01:04:06.600 --> 01:04:07.960]  And it's a real website.
+[01:04:07.960 --> 01:04:11.760]  The thing that you make in Squarespace, it is the thing.
+[01:04:11.760 --> 01:04:14.280]  There is no separate mode for like, well,
+[01:04:14.280 --> 01:04:15.580]  here's what it would look like.
+[01:04:15.580 --> 01:04:17.620]  And now you have to build it in generator or something
+[01:04:17.620 --> 01:04:18.120]  like that.
+[01:04:18.120 --> 01:04:22.160]  As you make these choices and drag these things out
+[01:04:22.160 --> 01:04:24.720]  and move them around on screen and change the names,
+[01:04:24.720 --> 01:04:25.920]  you have a website.
+[01:04:25.920 --> 01:04:27.280]  It's that easy.
+[01:04:27.280 --> 01:04:29.840]  So next time you have an idea that needs a website,
+[01:04:29.840 --> 01:04:32.860]  I'm telling you right now, go to squarespace.com
+[01:04:32.860 --> 01:04:35.280]  and use this code, Gruber.
+[01:04:35.280 --> 01:04:36.360]  That's my last name.
+[01:04:36.360 --> 01:04:38.540]  But you don't need to use that code until you buy.
+[01:04:38.540 --> 01:04:41.880]  So go there and just spend 30 minutes trying
+[01:04:41.880 --> 01:04:43.080]  to build it in Squarespace.
+[01:04:43.080 --> 01:04:45.620]  And you're probably just going to realize that there's
+[01:04:45.620 --> 01:04:46.960]  no reason to do it anywhere else.
+[01:04:46.960 --> 01:04:50.520]  They handle everything, hosting, domain name, registration,
+[01:04:50.520 --> 01:04:51.640]  everything you need.
+[01:04:51.640 --> 01:04:53.400]  There's web stats, all of your stats
+[01:04:53.400 --> 01:04:55.200]  that you need for who's coming to your site,
+[01:04:55.200 --> 01:04:57.740]  where are they coming from, how many hits a day you're getting.
+[01:04:57.740 --> 01:04:59.840]  Squarespace has all that covered, all of it.
+[01:04:59.840 --> 01:05:02.440]  Just remember my last name, Gruber, when you pay,
+[01:05:02.440 --> 01:05:04.480]  and you'll get 10% off your first order.
+[01:05:04.480 --> 01:05:08.160]  My thanks to Squarespace for their continued sponsorship
+[01:05:08.160 --> 01:05:10.040]  of the talk show.
+[01:05:10.040 --> 01:05:13.520]  Anything else you want to talk about on Evergreen?
+[01:05:13.520 --> 01:05:16.880]  Oh, just the meaning of the name.
+[01:05:16.880 --> 01:05:19.040]  I think the obvious thing is the idea
+[01:05:19.040 --> 01:05:21.360]  that the open web and feeds and syndication
+[01:05:21.360 --> 01:05:24.320]  are evergreen things.
+[01:05:24.320 --> 01:05:25.520]  They haven't gone away.
+[01:05:25.520 --> 01:05:27.700]  There's still a lot of people that like this stuff,
+[01:05:27.700 --> 01:05:31.240]  and still a lot of people who will like this stuff.
+[01:05:31.240 --> 01:05:33.520]  But also, I live in Washington state,
+[01:05:33.520 --> 01:05:34.880]  which is the evergreen state.
+[01:05:34.880 --> 01:05:37.520]  I went to Evergreen State College.
+[01:05:37.520 --> 01:05:41.520]  So it has both some public and some personal meaning.
+[01:05:41.520 --> 01:05:42.360]  I did not know that.
+[01:05:42.360 --> 01:05:43.480]  I just love the name.
+[01:05:43.480 --> 01:05:44.920]  I do love the name.
+[01:05:44.920 --> 01:05:45.840]  I know Manton loves it.
+[01:05:45.840 --> 01:05:49.000]  I think Manton loves it more than you do.
+[01:05:49.000 --> 01:05:50.760]  And I didn't know all the back story there.
+[01:05:50.760 --> 01:05:52.040]  I just knew part of that.
+[01:05:52.040 --> 01:05:53.960]  So I love it even more now.
+[01:05:53.960 --> 01:05:55.360]  I have a question for you, Brennan.
+[01:05:55.360 --> 01:05:57.920]  You mentioned the first thing you said about Evergreen
+[01:05:57.920 --> 01:06:00.500]  was the GitHub URL.
+[01:06:00.500 --> 01:06:02.720]  And you've open sourced some stuff.
+[01:06:02.720 --> 01:06:06.960]  But in the past, I think most of the things you open source
+[01:06:06.960 --> 01:06:12.560]  are later in a project when it's done or it's mature
+[01:06:12.560 --> 01:06:13.080]  or whatever.
+[01:06:13.080 --> 01:06:15.520]  And this is the first thing I can think of in a while
+[01:06:15.520 --> 01:06:18.400]  that you've open sourced at the very beginning.
+[01:06:18.400 --> 01:06:21.680]  Have you thought about what that means?
+[01:06:21.680 --> 01:06:25.280]  Is that going to change any way you approach this
+[01:06:25.280 --> 01:06:28.520]  and how the app will evolve or be forked into other apps?
+[01:06:28.520 --> 01:06:29.400]  And who knows?
+[01:06:29.400 --> 01:06:33.160]  It's kind of just a different process
+[01:06:33.160 --> 01:06:34.160]  than you've used before.
+[01:06:34.160 --> 01:06:35.360]  That's a good question.
+[01:06:35.360 --> 01:06:37.240]  So this is open source, as is the work
+[01:06:37.240 --> 01:06:38.680]  I'm doing on Frontier.
+[01:06:38.680 --> 01:06:43.960]  And for me, it's exciting because I feel, in a way,
+[01:06:43.960 --> 01:06:46.840]  like I'm performing in public.
+[01:06:46.840 --> 01:06:48.480]  I get the right blog posts about it.
+[01:06:48.480 --> 01:06:51.320]  People who want to follow the commits can look at it.
+[01:06:51.320 --> 01:06:55.040]  And just see how something like this is made.
+[01:06:55.040 --> 01:06:58.400]  And maybe for people who aren't developers
+[01:06:58.400 --> 01:07:01.400]  but know enough to be able to understand what's going on,
+[01:07:01.400 --> 01:07:02.960]  maybe it'll be interesting to them.
+[01:07:02.960 --> 01:07:06.080]  And maybe for newer developers, it'll
+[01:07:06.080 --> 01:07:10.560]  be a way to learn from my mistakes
+[01:07:10.560 --> 01:07:14.160]  as well as the things that I do well.
+[01:07:14.160 --> 01:07:21.560]  So I almost feel like I'm inventing a new literary form.
+[01:07:21.560 --> 01:07:26.240]  Not as high art, but the form of, here's a bunch of code.
+[01:07:26.240 --> 01:07:28.960]  Here's a bunch of writing about that code.
+[01:07:28.960 --> 01:07:30.920]  Not that nobody's ever done that before.
+[01:07:30.920 --> 01:07:31.760]  Of course they have.
+[01:07:31.760 --> 01:07:36.400]  But I'm just really into that aspect of it.
+[01:07:36.400 --> 01:07:40.720]  Of all my things I've made, my blog is my longest running.
+[01:07:40.720 --> 01:07:42.040]  Started in 1999.
+[01:07:42.040 --> 01:07:44.560]  And it's also the thing I'm most proud of.
+[01:07:44.560 --> 01:07:46.400]  So sometimes I think I'm doing all this just
+[01:07:46.400 --> 01:07:47.800]  so I have something to write about.
+[01:07:50.520 --> 01:07:55.560]  I'm keenly aware of blogs that predate Daring Fireball.
+[01:07:55.560 --> 01:08:02.120]  Because when I had the idea to do Daring Fireball,
+[01:08:02.120 --> 01:08:06.160]  the motivation was like a ball rolling downhill,
+[01:08:06.160 --> 01:08:08.920]  where every day it went by before I launched it,
+[01:08:08.920 --> 01:08:11.000]  I wished more I already had it.
+[01:08:11.000 --> 01:08:18.080]  And it was the blogs that other people were writing that
+[01:08:18.080 --> 01:08:20.000]  was making me want to do it.
+[01:08:20.000 --> 01:08:26.200]  It's Kotke, and Inessential, and Andy Bayo's waxy.org
+[01:08:26.200 --> 01:08:29.400]  launched I think about six months before Daring Fireball.
+[01:08:29.400 --> 01:08:31.800]  And the ones that are still going, I'm so happy about.
+[01:08:31.800 --> 01:08:34.360]  I'm so happy that Inessential's still going.
+[01:08:34.360 --> 01:08:36.440]  Every once in a while, I'm reading Kotke.
+[01:08:36.440 --> 01:08:37.280]  I read it every day.
+[01:08:37.280 --> 01:08:38.680]  But every once in a while, I'm like, you know what?
+[01:08:38.680 --> 01:08:41.400]  I fucking love that Jason Kotke is still
+[01:08:41.400 --> 01:08:43.720]  killing it with Kotke.
+[01:08:43.720 --> 01:08:44.800]  Yeah, he's amazing.
+[01:08:44.800 --> 01:08:47.480]  It just makes me so happy that it's just
+[01:08:47.480 --> 01:08:49.000]  all these years gone by.
+[01:08:49.000 --> 01:08:52.560]  And I could totally see that.
+[01:08:52.560 --> 01:08:55.680]  And the original blog, Scripting News, is still going strong.
+[01:08:55.680 --> 01:08:57.080]  Of course, definitely.
+[01:08:57.080 --> 01:08:59.480]  And it ties into the creation of RSS, and podcasting,
+[01:08:59.480 --> 01:09:00.880]  and everything with Dave Weiner.
+[01:09:00.880 --> 01:09:04.800]  And absolutely a huge, huge motivating force.
+[01:09:04.800 --> 01:09:06.920]  One of the things about Dave that
+[01:09:06.920 --> 01:09:09.080]  was a huge inspiration for me, beyond
+[01:09:09.080 --> 01:09:11.880]  his technical contributions and the creation of all
+[01:09:11.880 --> 01:09:15.880]  these things that my entire career hangs on.
+[01:09:15.880 --> 01:09:25.400]  But one of the things about Dave that I was so super inspired by
+[01:09:25.400 --> 01:09:31.960]  was that Dave had a column for Wired, and Wired magazine.
+[01:09:31.960 --> 01:09:33.400]  I forget if it was just on the web,
+[01:09:33.400 --> 01:09:34.920]  or if he was in the actual paper.
+[01:09:34.920 --> 01:09:38.760]  But I know he was on Hot Wired.
+[01:09:38.760 --> 01:09:41.200]  And he had his blog.
+[01:09:41.200 --> 01:09:43.120]  And the thing about Dave that was very clear
+[01:09:43.120 --> 01:09:45.440]  is that I could tell that he liked writing for his blog
+[01:09:45.440 --> 01:09:47.680]  better than he did writing for somebody else.
+[01:09:47.680 --> 01:09:49.920]  And it wasn't like he started the blog so that he
+[01:09:49.920 --> 01:09:51.400]  could get a column at Wired.
+[01:09:51.400 --> 01:09:53.080]  It was like he wrote the column at Wired
+[01:09:53.080 --> 01:09:54.880]  so that more people would read his stuff.
+[01:09:54.880 --> 01:09:58.280]  But his own thing was the more important thing.
+[01:09:58.280 --> 01:10:01.320]  And that's the thing that he's 25 years later still doing.
+[01:10:01.320 --> 01:10:03.000]  And it was a huge inspiration for me,
+[01:10:03.000 --> 01:10:05.320]  which was that I wanted to do Daring Fireball
+[01:10:05.320 --> 01:10:07.880]  and make Daring Fireball my career.
+[01:10:07.880 --> 01:10:10.400]  Not write Daring Fireball, get well-known,
+[01:10:10.400 --> 01:10:13.760]  and then go write for Macworld or something.
+[01:10:13.760 --> 01:10:17.760]  So anyway, there's a nice shout-out to Dave.
+[01:10:17.760 --> 01:10:22.680]  And it's funny, at that time, I remember feeling like, gosh,
+[01:10:22.680 --> 01:10:23.640]  there's so many blogs.
+[01:10:23.640 --> 01:10:25.320]  Do we need another blog?
+[01:10:25.320 --> 01:10:26.320]  Do I need to start one?
+[01:10:26.320 --> 01:10:28.560]  I know some people today are probably feeling that way.
+[01:10:28.560 --> 01:10:31.400]  Maybe they want to start a blog, but there's so many.
+[01:10:31.400 --> 01:10:36.920]  But of course, 10, 15 years ago, it was certainly not
+[01:10:36.920 --> 01:10:37.960]  too late to start a blog.
+[01:10:37.960 --> 01:10:39.680]  Now, if you started a blog that long ago,
+[01:10:39.680 --> 01:10:42.240]  you were one of the oldest blogs on the web.
+[01:10:42.240 --> 01:10:47.280]  And so I hope people can help put that in perspective
+[01:10:47.280 --> 01:10:47.960]  for people.
+[01:10:47.960 --> 01:10:50.600]  It's never too late.
+[01:10:50.600 --> 01:10:53.320]  And a lot of these blogs, we talk about Twitter.
+[01:10:53.320 --> 01:10:54.920]  We talk about Facebook and how long
+[01:10:54.920 --> 01:10:56.320]  these services might be around.
+[01:10:56.320 --> 01:10:59.160]  They're all younger than our blogs.
+[01:10:59.160 --> 01:11:05.600]  And so when you stretch it out five, 10, 15 years,
+[01:11:05.600 --> 01:11:07.080]  where do you want your writing to be?
+[01:11:07.080 --> 01:11:09.600]  Like, if you're passionate about writing on the web,
+[01:11:09.600 --> 01:11:10.760]  obviously, Dave is.
+[01:11:10.760 --> 01:11:12.160]  Obviously, you all are.
+[01:11:12.160 --> 01:11:15.000]  Where do you want that content to live?
+[01:11:15.000 --> 01:11:19.120]  And I think blogs, obviously, are a great solution.
+[01:11:19.120 --> 01:11:20.120]  Hold that thought, man.
+[01:11:26.200 --> 01:11:28.720]  I was going to tell the story of how I got into Frontier
+[01:11:28.720 --> 01:11:29.920]  in the first place.
+[01:11:29.920 --> 01:11:31.680]  I don't know if I've ever said before.
+[01:11:31.680 --> 01:11:32.760]  Well, hold that thought.
+[01:11:32.760 --> 01:11:35.800]  All right.
+[01:11:35.800 --> 01:11:39.000]  I'm going to tell you about another friend of the show.
+[01:11:39.000 --> 01:11:40.760]  And we'll do that, and then we're
+[01:11:40.760 --> 01:11:43.920]  going to talk about man and then blogging.
+[01:11:43.920 --> 01:11:46.640]  But it's our good friends at Away.
+[01:11:46.640 --> 01:11:50.600]  Away is a company, another one of these podcast,
+[01:11:50.600 --> 01:11:54.960]  prototypical podcast sponsors, that sells stuff direct to you.
+[01:11:54.960 --> 01:11:55.720]  What do they make?
+[01:11:55.720 --> 01:11:56.520]  They make luggage.
+[01:11:56.520 --> 01:12:00.920]  They make really nice suitcases, and they have a carry-on.
+[01:12:00.920 --> 01:12:04.440]  The carry-on is sort of their prime example.
+[01:12:04.440 --> 01:12:07.360]  That's the one that you want to look at.
+[01:12:07.360 --> 01:12:08.040]  I've got one.
+[01:12:08.040 --> 01:12:10.280]  I've been using it for, I forget how many months now,
+[01:12:10.280 --> 01:12:13.600]  but it's now my go-to carry-on for everywhere I go.
+[01:12:13.600 --> 01:12:16.000]  Hard case, really nicely made.
+[01:12:16.000 --> 01:12:17.200]  Mine still looks brand new.
+[01:12:17.200 --> 01:12:19.840]  I mean, the carry-ons, you get a lot less wear and tear on,
+[01:12:19.840 --> 01:12:21.760]  because they don't go underneath the airplane.
+[01:12:21.760 --> 01:12:23.960]  But really nice size.
+[01:12:23.960 --> 01:12:25.200]  Wonderful wheels.
+[01:12:25.200 --> 01:12:26.200]  The wheels, oh my god.
+[01:12:26.200 --> 01:12:27.440]  I had a carry-on suitcase.
+[01:12:27.440 --> 01:12:29.000]  Maybe it was just because it was old,
+[01:12:29.000 --> 01:12:31.680]  but I had one that was like, as I'd go through the airport,
+[01:12:31.680 --> 01:12:34.400]  it was like squeaking, and it made terrible noise.
+[01:12:34.400 --> 01:12:37.440]  The Away, it rolls so nice, it's like you don't even
+[01:12:37.440 --> 01:12:38.960]  have to put any energy into it.
+[01:12:38.960 --> 01:12:40.560]  It almost goes too fast.
+[01:12:40.560 --> 01:12:43.880]  But here's the thing that they've got that is so brilliant,
+[01:12:43.880 --> 01:12:46.920]  is they've built into the carry-on suitcase
+[01:12:46.920 --> 01:12:49.880]  a battery charger.
+[01:12:49.880 --> 01:12:52.720]  By the standards of something you would carry in your pocket,
+[01:12:52.720 --> 01:12:54.080]  it's huge.
+[01:12:54.080 --> 01:12:57.360]  It's got two USB ports, or two phones, or two iPads.
+[01:12:57.360 --> 01:12:58.520]  You can charge them at once.
+[01:12:58.520 --> 01:13:01.800]  Anything that charges by USB, you can charge from this thing.
+[01:13:01.800 --> 01:13:03.440]  And so when you're at the airport,
+[01:13:03.440 --> 01:13:05.320]  and you're waiting for your flight to go off,
+[01:13:05.320 --> 01:13:07.940]  you don't have to hunt around for one of the two
+[01:13:07.940 --> 01:13:10.760]  seats in the whole terminal that has a charger
+[01:13:10.760 --> 01:13:12.680]  or electrical outlet nearby.
+[01:13:12.680 --> 01:13:14.480]  And they never put them near seats anyway.
+[01:13:14.480 --> 01:13:15.860]  Everybody ever go to the airport,
+[01:13:15.860 --> 01:13:17.400]  you see people sitting on the floor
+[01:13:17.400 --> 01:13:18.900]  so that they can be near the port,
+[01:13:18.900 --> 01:13:21.100]  and there's probably somebody already sitting there.
+[01:13:21.100 --> 01:13:23.040]  You just take any seat you can, and if you
+[01:13:23.040 --> 01:13:24.400]  need to charge your phone, you just plug it
+[01:13:24.400 --> 01:13:25.360]  right in your suitcase.
+[01:13:25.360 --> 01:13:26.520]  It is brilliant.
+[01:13:26.520 --> 01:13:28.840]  This is such a great idea.
+[01:13:28.840 --> 01:13:30.520]  And it's a really great suitcase.
+[01:13:30.520 --> 01:13:32.280]  They've got all sorts of nice stuff inside
+[01:13:32.280 --> 01:13:35.560]  to help you organize your stuff, keep your shirts separate
+[01:13:35.560 --> 01:13:38.480]  and not get them wrinkled, stuff like that.
+[01:13:38.480 --> 01:13:41.320]  So what do you do to find out more?
+[01:13:41.320 --> 01:13:42.280]  Go to their website.
+[01:13:42.280 --> 01:13:48.200]  It's awaytravel.com, awaytravel.com slash talk show.
+[01:13:48.200 --> 01:13:51.720]  And use the promo code talk show during checkout.
+[01:13:51.720 --> 01:13:54.440]  And you will save 20 bucks on your suitcase.
+[01:13:54.440 --> 01:13:55.200]  I've got one.
+[01:13:55.200 --> 01:13:59.240]  I recommend it super thoroughly.
+[01:13:59.240 --> 01:14:02.960]  Go there and check it out, awaytravel.com slash talk show.
+[01:14:02.960 --> 01:14:04.440]  All right, back to the show.
+[01:14:04.440 --> 01:14:05.600]  And Brent, you were going to tell a story
+[01:14:05.600 --> 01:14:08.080]  about how you got involved with Frontier in the first place.
+[01:14:08.080 --> 01:14:10.120]  Yeah, it's not a huge story.
+[01:14:10.120 --> 01:14:12.920]  So it was 1995, and I was literally,
+[01:14:12.920 --> 01:14:14.320]  I had a job as a secretary.
+[01:14:14.320 --> 01:14:17.200]  I didn't have a CS degree.
+[01:14:17.200 --> 01:14:19.400]  And the office had four people in it, including me.
+[01:14:19.400 --> 01:14:21.660]  But we all had Macs, so I was a secretary.
+[01:14:21.660 --> 01:14:25.260]  And one night, I was bored at home,
+[01:14:25.260 --> 01:14:30.480]  and I typed into the search engine in my browser, which
+[01:14:30.480 --> 01:14:34.880]  I think was Lycos at the time, before Google even existed,
+[01:14:34.880 --> 01:14:38.600]  free Mac software was my search term.
+[01:14:38.600 --> 01:14:40.560]  And what that brought up was an article
+[01:14:40.560 --> 01:14:42.160]  of Dave Weiner's on Hotwired.
+[01:14:42.160 --> 01:14:44.520]  I'd never heard of him before, where
+[01:14:44.520 --> 01:14:46.880]  he was talking about the release of Aretha, which
+[01:14:46.880 --> 01:14:50.820]  was a free version of Frontier, technically
+[01:14:50.820 --> 01:14:52.800]  Frontier 4.0 beta.
+[01:14:52.800 --> 01:14:54.560]  And I'm like, oh, something for programming.
+[01:14:54.560 --> 01:14:54.840]  Cool.
+[01:14:54.840 --> 01:14:56.520]  I want to get back into programming.
+[01:14:56.520 --> 01:14:58.080]  I was thinking to myself.
+[01:14:58.080 --> 01:14:59.800]  I downloaded it, and I loved it.
+[01:14:59.800 --> 01:15:05.400]  And the entire rest of my career comes from that one search
+[01:15:05.400 --> 01:15:06.400]  on that one day.
+[01:15:06.400 --> 01:15:13.880]  That's kind of amazing, right?
+[01:15:13.880 --> 01:15:14.800]  Yeah.
+[01:15:14.800 --> 01:15:20.080]  And everything falls out of that, syndication formats,
+[01:15:20.080 --> 01:15:20.760]  outliners.
+[01:15:20.760 --> 01:15:22.200]  I mean, that is the one thing, too,
+[01:15:22.200 --> 01:15:24.640]  that maybe we didn't mention before about Frontier,
+[01:15:24.640 --> 01:15:29.560]  is that the source code editor for Frontier was an outliner,
+[01:15:29.560 --> 01:15:32.520]  not just a simple text editor.
+[01:15:32.520 --> 01:15:36.840]  And people tend to write almost all modern programming
+[01:15:36.840 --> 01:15:39.760]  languages in an outline-like format,
+[01:15:39.760 --> 01:15:45.440]  where if you say if this, then do these things,
+[01:15:45.440 --> 01:15:47.400]  the do these things block, people
+[01:15:47.400 --> 01:15:51.440]  tend to tab them in one more level of hierarchy
+[01:15:51.440 --> 01:15:52.600]  to the right.
+[01:15:52.600 --> 01:15:55.320]  And then when you're done with that block of only
+[01:15:55.320 --> 01:15:57.800]  do this if this if statement is true,
+[01:15:57.800 --> 01:15:59.760]  you go back out to the next level.
+[01:15:59.760 --> 01:16:02.040]  But Frontier took it to the level
+[01:16:02.040 --> 01:16:04.560]  where it was literally like on the outliner,
+[01:16:04.560 --> 01:16:08.480]  like enforced as an outliner.
+[01:16:08.480 --> 01:16:09.480]  Right.
+[01:16:09.480 --> 01:16:12.800]  And if you have a good outliner, it makes restructuring,
+[01:16:12.800 --> 01:16:15.600]  indenting, unindenting, et cetera, really, really easy
+[01:16:15.600 --> 01:16:17.480]  and really, really fast.
+[01:16:17.480 --> 01:16:20.840]  And it also makes it nice, you can collapse stuff
+[01:16:20.840 --> 01:16:23.920]  so you can see your code at a higher level and so on.
+[01:16:23.920 --> 01:16:27.160]  I know we have code folding in a lot of text editors these days,
+[01:16:27.160 --> 01:16:30.560]  but an outliner is, that's like the cheap version of what
+[01:16:30.560 --> 01:16:32.000]  a good outliner gets you.
+[01:16:32.000 --> 01:16:32.880]  Right.
+[01:16:32.880 --> 01:16:36.280]  And it gets rid of any arguments over tabs versus spaces.
+[01:16:36.280 --> 01:16:38.440]  Yeah, that's right, because who cares?
+[01:16:38.440 --> 01:16:41.440]  My favorite story about working with you,
+[01:16:41.440 --> 01:16:43.840]  I think I've said this before on this show,
+[01:16:43.840 --> 01:16:47.800]  but with Vesper, you handled all of the programming.
+[01:16:47.800 --> 01:16:50.600]  And there's one line of code that
+[01:16:50.600 --> 01:16:53.120]  was like a regular expression that I wrote.
+[01:16:53.120 --> 01:16:54.680]  I wrote one line of code for Vesper,
+[01:16:54.680 --> 01:16:57.480]  and of course it was a regular expression.
+[01:16:57.480 --> 01:17:00.720]  But at one point, I did have Vesper checked out
+[01:17:00.720 --> 01:17:04.040]  so I could do my own builds, because it's just what you're
+[01:17:04.040 --> 01:17:05.320]  doing, you're developing.
+[01:17:05.320 --> 01:17:07.080]  I could update changes.
+[01:17:07.080 --> 01:17:08.640]  And there were things I would commit,
+[01:17:08.640 --> 01:17:11.000]  like language, like if there was stuff to write,
+[01:17:11.000 --> 01:17:13.520]  I might contribute stuff like that.
+[01:17:13.520 --> 01:17:14.960]  But one time I started just, I was
+[01:17:14.960 --> 01:17:16.600]  like, you know what, I wonder how the hell this works.
+[01:17:16.600 --> 01:17:19.200]  And I just started going through the source code to Vesper,
+[01:17:19.200 --> 01:17:22.440]  and I realized that you were all over the map
+[01:17:22.440 --> 01:17:24.800]  on tabs versus spaces.
+[01:17:24.800 --> 01:17:25.800]  Right, yeah.
+[01:17:25.800 --> 01:17:29.840]  So I was, all these people were like, you should use spaces.
+[01:17:29.840 --> 01:17:31.480]  So I started Vesper, I'm like, OK,
+[01:17:31.480 --> 01:17:32.880]  I'm going to switch to spaces.
+[01:17:32.880 --> 01:17:35.840]  And a little while in, I'm like, God, I hate spaces.
+[01:17:35.840 --> 01:17:37.400]  I'm going to go back to using tabs.
+[01:17:37.400 --> 01:17:39.520]  But I didn't go through and reformat everything.
+[01:17:39.520 --> 01:17:43.240]  And so on my machine, everything was indented and lined up
+[01:17:43.240 --> 01:17:43.840]  perfectly.
+[01:17:43.840 --> 01:17:47.200]  But if your settings were different from mine,
+[01:17:47.200 --> 01:17:50.440]  I think you said at one point I indented like a drunken sailor.
+[01:17:50.440 --> 01:17:52.520]  That's exactly what it looked like.
+[01:17:52.520 --> 01:17:55.840]  But on my machine, it was all perfect, so yeah.
+[01:17:55.840 --> 01:17:57.360]  And I've stuck with tabs ever since.
+[01:17:57.360 --> 01:18:00.280]  It set that omni where spaces are the rule, so.
+[01:18:00.280 --> 01:18:03.960]  For those who don't know, it's a longstanding and never-ending
+[01:18:03.960 --> 01:18:07.040]  debate in the programming world, where some programmers, when
+[01:18:07.040 --> 01:18:10.520]  they indent code, they use spaces, and some use tabs.
+[01:18:10.520 --> 01:18:16.920]  And it gets very, very, sometimes these arguments
+[01:18:16.920 --> 01:18:22.720]  can get very emotional, because the stakes are so low, right?
+[01:18:22.720 --> 01:18:26.880]  It's just like anything in life, because it
+[01:18:26.880 --> 01:18:29.640]  seems like such a trivial issue, people
+[01:18:29.640 --> 01:18:30.760]  get very worked up about it.
+[01:18:30.760 --> 01:18:33.960]  But usually, an institution, like a group, a company,
+[01:18:33.960 --> 01:18:36.480]  or something like the omni group, is going to just have,
+[01:18:36.480 --> 01:18:37.640]  here's our coding standards.
+[01:18:37.640 --> 01:18:41.920]  Everybody uses spaces, then there's no debate.
+[01:18:41.920 --> 01:18:46.520]  I was appalled by the state of Vespers indentation.
+[01:18:46.520 --> 01:18:47.480]  I'm a little surprised.
+[01:18:47.480 --> 01:18:49.800]  Yeah, I would have been, too, if I had seen that.
+[01:18:49.800 --> 01:18:51.960]  But again, on my machine, everything was perfect.
+[01:18:51.960 --> 01:18:53.760]  So yeah, I don't know what to say.
+[01:18:53.760 --> 01:18:55.920]  The omni use the spaces is fascinating to me,
+[01:18:55.920 --> 01:18:59.000]  because I'm certainly tabs, and I'm not going to start or finish
+[01:18:59.000 --> 01:18:59.800]  that debate on this.
+[01:18:59.800 --> 01:19:02.480]  But traditionally, I feel like Mac programmers,
+[01:19:02.480 --> 01:19:04.720]  especially classic Mac, like I remember
+[01:19:04.720 --> 01:19:07.480]  when I started programming on the Mac in the classic days,
+[01:19:07.480 --> 01:19:09.080]  like no one used spaces.
+[01:19:09.080 --> 01:19:12.520]  I mean, literally, I can't remember any ever encountering
+[01:19:12.520 --> 01:19:14.600]  code with spaces instead of tabs.
+[01:19:14.600 --> 01:19:17.840]  And slowly, over the years and decades,
+[01:19:17.840 --> 01:19:20.720]  especially as people come from other programming communities,
+[01:19:20.720 --> 01:19:22.440]  spaces become more and more dominant.
+[01:19:22.440 --> 01:19:25.320]  So I would be surprised now if spaces aren't more common.
+[01:19:25.320 --> 01:19:27.400]  But I'm kind of surprised to hear about omni.
+[01:19:27.400 --> 01:19:27.800]  It's fascinating.
+[01:19:27.800 --> 01:19:29.120]  Well, I remember they're all next developers.
+[01:19:29.120 --> 01:19:29.960]  Yeah, exactly.
+[01:19:29.960 --> 01:19:33.320]  That's kind of a wrinkle in things.
+[01:19:33.320 --> 01:19:35.920]  My basic, I'm with you, man, and I
+[01:19:35.920 --> 01:19:38.600]  think Mac users tend to be tabs people.
+[01:19:38.600 --> 01:19:41.800]  And my thought was, always was, and this is back to the 90s,
+[01:19:41.800 --> 01:19:44.280]  is why in the world would I want four spaces when
+[01:19:44.280 --> 01:19:46.600]  I have to backspace, backspace, backspace, backspace
+[01:19:46.600 --> 01:19:49.640]  to get rid of one, when I can just hit backspace once
+[01:19:49.640 --> 01:19:50.480]  to get rid of a tab?
+[01:19:50.480 --> 01:19:53.840]  And yes, I know that everybody who codes with spaces now,
+[01:19:53.840 --> 01:19:57.080]  the modern code editors will smartly
+[01:19:57.080 --> 01:19:58.840]  delete all four spaces when you hit it,
+[01:19:58.840 --> 01:20:00.000]  so it treats it the same way.
+[01:20:00.000 --> 01:20:04.480]  But why create the need for a special case?
+[01:20:04.480 --> 01:20:06.720]  It's exactly what the tab key is for.
+[01:20:06.720 --> 01:20:09.200]  Right, that's why the tab key exists.
+[01:20:09.200 --> 01:20:12.800]  And I might want my indentation to look much wider than,
+[01:20:12.800 --> 01:20:15.880]  I might want it to look like eight or something,
+[01:20:15.880 --> 01:20:17.640]  and you can't do that with spaces.
+[01:20:17.640 --> 01:20:20.800]  I think, to your point about editors kind of hide this,
+[01:20:20.800 --> 01:20:24.960]  I bet a lot of people don't even know what they're setting.
+[01:20:24.960 --> 01:20:27.320]  Xcode might default to spaces now, I'm not sure,
+[01:20:27.320 --> 01:20:29.680]  but I bet most people don't even know
+[01:20:29.680 --> 01:20:32.040]  if they're using tabs or spaces.
+[01:20:32.040 --> 01:20:34.120]  Kids today don't even know if they should be upset
+[01:20:34.120 --> 01:20:35.800]  about tabs versus spaces.
+[01:20:35.800 --> 01:20:39.160]  God damn kids.
+[01:20:43.640 --> 01:20:46.960]  All right, so Manton, I mentioned it before.
+[01:20:46.960 --> 01:20:51.960]  Micro.blog, that's your new platform for microblogging.
+[01:20:53.240 --> 01:20:54.680]  Tell me about it.
+[01:20:54.680 --> 01:20:58.240]  Sure, so the idea is, with microblogging,
+[01:20:58.240 --> 01:21:00.760]  and is, you know, Twitter, you know,
+[01:21:00.760 --> 01:21:02.080]  people like Twitter, right?
+[01:21:02.080 --> 01:21:05.360]  Both are short, they're easy, kind of effortless.
+[01:21:05.360 --> 01:21:06.920]  You should put that on your own site too,
+[01:21:06.920 --> 01:21:08.960]  is the basic premise, like you should have a blog
+[01:21:08.960 --> 01:21:11.120]  and you can have short posts on there and it's fine.
+[01:21:11.120 --> 01:21:14.320]  And short posts, you know, a lot of people,
+[01:21:14.320 --> 01:21:16.520]  they don't want to start a blog or they have a blog,
+[01:21:16.520 --> 01:21:17.360]  but they don't know what to write
+[01:21:17.360 --> 01:21:18.320]  because it's kind of daunting.
+[01:21:18.320 --> 01:21:21.280]  They have to have a title and write multiple paragraphs
+[01:21:21.280 --> 01:21:22.960]  and have to sound really intelligent.
+[01:21:22.960 --> 01:21:27.520]  And with short microblogging, it removes all of that, right?
+[01:21:27.520 --> 01:21:30.400]  It's okay to just post something that's a couple sentences.
+[01:21:30.400 --> 01:21:33.040]  And that's the basic premise, you know,
+[01:21:33.040 --> 01:21:34.720]  it's a blog publishing platform,
+[01:21:34.720 --> 01:21:36.000]  but it's also kind of a social network.
+[01:21:36.000 --> 01:21:38.960]  So you can follow people like you can on Twitter,
+[01:21:38.960 --> 01:21:40.600]  you can cross post to Twitter.
+[01:21:40.600 --> 01:21:43.880]  And going kind of back to JSON on feed too,
+[01:21:43.880 --> 01:21:46.240]  I mean, it shares some similar themes
+[01:21:46.240 --> 01:21:50.160]  and just like helping get the message out,
+[01:21:50.160 --> 01:21:53.000]  kind of like encouraging people to think about blogs
+[01:21:53.000 --> 01:21:54.280]  and feed readers again.
+[01:21:54.280 --> 01:21:57.880]  That's the most important goal, I think, of micro.blog.
+[01:21:57.880 --> 01:22:00.800]  Now, you launched this as a Kickstarter campaign.
+[01:22:02.200 --> 01:22:05.320]  And I know I,
+[01:22:05.320 --> 01:22:07.600]  as somebody who contributed to the Kickstarter campaign,
+[01:22:07.600 --> 01:22:11.200]  that's where I got my micro.blog account from.
+[01:22:11.200 --> 01:22:12.920]  Where does it stand now on like signups?
+[01:22:12.920 --> 01:22:14.600]  I haven't even looked like,
+[01:22:14.600 --> 01:22:16.880]  can people who weren't in on a Kickstarter
+[01:22:16.880 --> 01:22:20.120]  get an account at micro.blog?
+[01:22:20.120 --> 01:22:23.280]  Not yet, it's still for Kickstarter backers.
+[01:22:23.280 --> 01:22:27.120]  So I opened it up to Kickstarter backers
+[01:22:27.120 --> 01:22:28.720]  about a month ago now.
+[01:22:28.720 --> 01:22:31.480]  And I guess we're kind of on track
+[01:22:31.480 --> 01:22:33.120]  for where we thought it would be,
+[01:22:33.120 --> 01:22:36.520]  but you kind of using that early period
+[01:22:36.520 --> 01:22:40.520]  with Kickstarter backers to get feedback, make it better.
+[01:22:40.520 --> 01:22:42.600]  The iPhone app's not in the app store yet, right?
+[01:22:42.600 --> 01:22:45.600]  So it's all via test flights, so it's kind of still a beta.
+[01:22:45.600 --> 01:22:49.120]  And then we'll slowly start opening it up to more people
+[01:22:49.120 --> 01:22:50.760]  and eventually everybody.
+[01:22:50.760 --> 01:22:53.760]  Yeah, pretty soon, but don't have an exact date yet.
+[01:22:53.760 --> 01:22:56.200]  But it's also the sort of thing where it's federated,
+[01:22:56.200 --> 01:23:01.000]  where somebody else can create their own hosted service
+[01:23:01.000 --> 01:23:03.120]  that is completely compatible.
+[01:23:03.120 --> 01:23:06.240]  It's not like, I think it's worth clarifying
+[01:23:06.240 --> 01:23:09.000]  that your micro.blog is not an attempt
+[01:23:09.000 --> 01:23:12.200]  to make like a quote unquote open Twitter.
+[01:23:12.200 --> 01:23:17.200]  It's not a unified centralized social network type thing.
+[01:23:17.200 --> 01:23:21.080]  It's really just a hosting service for short posts.
+[01:23:21.080 --> 01:23:22.800]  Right, and it's a little confusing
+[01:23:22.800 --> 01:23:24.320]  because it's kind of a mix of things.
+[01:23:24.320 --> 01:23:27.000]  And it's not right now completely federated.
+[01:23:27.000 --> 01:23:29.600]  Like if people have heard of Mastodon,
+[01:23:29.600 --> 01:23:34.520]  which has got some popularity over the last month or so,
+[01:23:34.520 --> 01:23:38.360]  which is more federated where you have more kind of instances
+[01:23:38.360 --> 01:23:41.320]  of a Twitter-like service running.
+[01:23:41.320 --> 01:23:42.480]  It's a little different than that.
+[01:23:42.480 --> 01:23:45.480]  And that instead of just installing
+[01:23:45.480 --> 01:23:47.680]  the micro.blog software yourself,
+[01:23:47.680 --> 01:23:50.200]  you just use blog software, right?
+[01:23:50.200 --> 01:23:51.320]  So you just use WordPress.
+[01:23:51.320 --> 01:23:52.840]  Like if you wanna run your own site,
+[01:23:52.840 --> 01:23:55.720]  you just use WordPress or Jekyll
+[01:23:55.720 --> 01:23:59.040]  or some other blog publishing platform that you like.
+[01:23:59.040 --> 01:24:01.720]  And then it hooks together into micro.blog
+[01:24:01.720 --> 01:24:03.440]  so you can follow people.
+[01:24:03.440 --> 01:24:05.200]  And if you don't, if WordPress is too much
+[01:24:05.200 --> 01:24:06.280]  and you just want something simple,
+[01:24:06.280 --> 01:24:08.200]  then we can host a microblog for you
+[01:24:08.200 --> 01:24:09.560]  and just make it really easy.
+[01:24:09.560 --> 01:24:11.640]  And that's part of it, just like making this easier.
+[01:24:11.640 --> 01:24:16.640]  I think blog feed readers, publishing platforms,
+[01:24:17.440 --> 01:24:19.360]  they're not as easy as they should be.
+[01:24:19.360 --> 01:24:22.800]  And that's why Twitter and Facebook are so popular in part,
+[01:24:22.800 --> 01:24:25.320]  because it just makes it a lot easier.
+[01:24:25.320 --> 01:24:28.680]  I was thinking back to,
+[01:24:28.680 --> 01:24:32.240]  like when you wrote, John, about Twitter apps
+[01:24:32.240 --> 01:24:34.680]  are like a UI playground years ago,
+[01:24:34.680 --> 01:24:38.680]  it's like there's all this excitement in Twitter apps.
+[01:24:38.680 --> 01:24:41.480]  And of course, Twitter started discouraging.
+[01:24:41.480 --> 01:24:43.600]  A third party apps and that kind of faded away.
+[01:24:43.600 --> 01:24:46.280]  But there was a time where people were having a lot of fun
+[01:24:46.280 --> 01:24:51.040]  building these apps because you could do so much in the UI
+[01:24:51.040 --> 01:24:52.880]  with such a simple idea.
+[01:24:52.880 --> 01:24:56.800]  And I think that simple idea can be for other blogs,
+[01:24:56.800 --> 01:24:58.200]  not just Twitter.
+[01:24:58.200 --> 01:25:00.320]  You can have, it should be that easy
+[01:25:00.320 --> 01:25:02.480]  to post to your own site, basically.
+[01:25:02.480 --> 01:25:03.960]  That's a good way to put it.
+[01:25:03.960 --> 01:25:05.280]  You should write that down.
+[01:25:05.280 --> 01:25:08.640]  It should be micro.blog.
+[01:25:08.640 --> 01:25:11.280]  It should be that easy to post to your own site.
+[01:25:11.280 --> 01:25:12.120]  That's good.
+[01:25:12.120 --> 01:25:12.960]  And you support things.
+[01:25:12.960 --> 01:25:15.320]  You've got support for things like photos.
+[01:25:15.320 --> 01:25:17.440]  So you could, if you wanted to,
+[01:25:17.440 --> 01:25:22.440]  somebody's micro.blog feed might just be like a sort of,
+[01:25:22.920 --> 01:25:25.880]  I follow you there and you often post updates
+[01:25:25.880 --> 01:25:28.560]  about your work on micro.blog itself.
+[01:25:28.560 --> 01:25:31.520]  It's sort of like your public record of,
+[01:25:31.520 --> 01:25:33.240]  here's the progress I'm making on this thing
+[01:25:33.240 --> 01:25:36.840]  that I know that people are following along with.
+[01:25:36.840 --> 01:25:38.160]  But somebody else could do it
+[01:25:38.160 --> 01:25:40.640]  and effectively use their micro.blog
+[01:25:40.640 --> 01:25:43.360]  as like their own personal self-hosted Instagram
+[01:25:43.360 --> 01:25:45.720]  where they just post like a,
+[01:25:45.720 --> 01:25:48.400]  take one nice photo every day and post it.
+[01:25:48.400 --> 01:25:49.240]  Yep, yeah.
+[01:25:49.240 --> 01:25:50.320]  And I'm seeing a lot of that.
+[01:25:50.320 --> 01:25:51.280]  I'm really happy to see it.
+[01:25:51.280 --> 01:25:53.840]  And that the official micro.blog app
+[01:25:53.840 --> 01:25:56.520]  tries to kind of encourage that by having,
+[01:25:56.520 --> 01:25:58.160]  it's not as full feature as Instagram,
+[01:25:58.160 --> 01:26:02.640]  but it has the filters and it has square photos
+[01:26:02.640 --> 01:26:04.520]  which actually turns out to work really well
+[01:26:04.520 --> 01:26:06.040]  in timelines like that.
+[01:26:06.040 --> 01:26:10.040]  And it just make it really easy to post photos.
+[01:26:10.040 --> 01:26:11.760]  And I think that's really important.
+[01:26:11.760 --> 01:26:14.160]  I think like photo blogging is like a really important
+[01:26:14.160 --> 01:26:17.360]  kind of variation on microblogging.
+[01:26:17.360 --> 01:26:19.440]  You don't have to write a lot.
+[01:26:19.440 --> 01:26:21.160]  Everyone takes photos.
+[01:26:21.160 --> 01:26:23.760]  Sometimes they're really good and worth sharing.
+[01:26:23.760 --> 01:26:26.080]  And Instagram is an interesting point now too
+[01:26:26.080 --> 01:26:27.560]  as being part of Facebook.
+[01:26:29.040 --> 01:26:30.640]  I'm not gonna say there's gonna be a pushback
+[01:26:30.640 --> 01:26:31.560]  against Instagram,
+[01:26:31.560 --> 01:26:33.760]  like Instagram is probably not going anywhere.
+[01:26:33.760 --> 01:26:34.840]  I still love Instagram,
+[01:26:34.840 --> 01:26:37.160]  but I think there are a lot of people
+[01:26:37.160 --> 01:26:41.120]  that are aware of the trade-offs with using Instagram
+[01:26:41.120 --> 01:26:43.600]  and Facebook and they love the idea
+[01:26:43.600 --> 01:26:45.760]  of having those photos on their own blog
+[01:26:45.760 --> 01:26:48.480]  as kind of like the first they go to my blog
+[01:26:48.480 --> 01:26:51.960]  and the next they optionally go to Twitter or Instagram.
+[01:26:53.280 --> 01:26:58.280]  Making money is often in conflict with simplicity.
+[01:26:59.360 --> 01:27:02.800]  That's a broad statement, but I think it's often true.
+[01:27:02.800 --> 01:27:05.600]  And I think Instagram is an example of that
+[01:27:05.600 --> 01:27:07.960]  where I still like Instagram a lot,
+[01:27:07.960 --> 01:27:10.320]  but I don't like it as much as I used to
+[01:27:10.320 --> 01:27:15.320]  when Instagram was just square photos with filters
+[01:27:15.320 --> 01:27:16.960]  and there was nothing else.
+[01:27:17.920 --> 01:27:19.960]  I get the stories thing now.
+[01:27:19.960 --> 01:27:21.520]  I don't really, I posted like one,
+[01:27:21.520 --> 01:27:23.920]  I went through a car wash a couple weeks ago
+[01:27:23.920 --> 01:27:25.800]  and I love being in it.
+[01:27:25.800 --> 01:27:26.680]  Ever since I was a kid,
+[01:27:26.680 --> 01:27:29.080]  I like driving my car through a car wash.
+[01:27:29.080 --> 01:27:31.280]  It's just like neat sounds.
+[01:27:31.280 --> 01:27:32.760]  I don't know and it looks cool.
+[01:27:32.760 --> 01:27:35.320]  So I posted an Instagram story from the car wash.
+[01:27:35.320 --> 01:27:38.720]  But for the most part, I don't really get the idea
+[01:27:38.720 --> 01:27:40.920]  of posting something that's gonna disappear.
+[01:27:43.280 --> 01:27:45.920]  It just doesn't fit me personality-wise.
+[01:27:45.920 --> 01:27:46.880]  There's all sorts of stuff
+[01:27:46.880 --> 01:27:48.360]  that I would never post to the internet
+[01:27:48.360 --> 01:27:53.360]  just because obviously I'm a public person
+[01:27:53.840 --> 01:27:55.000]  in terms of my writing and stuff,
+[01:27:55.000 --> 01:27:57.480]  but I'm in large part pretty private.
+[01:27:58.480 --> 01:28:00.080]  So I don't do things.
+[01:28:00.080 --> 01:28:01.760]  When I go to a restaurant, I don't check in.
+[01:28:01.760 --> 01:28:02.600]  I've never done that.
+[01:28:02.600 --> 01:28:03.840]  I don't understand it.
+[01:28:03.840 --> 01:28:05.360]  I don't know why I would want to.
+[01:28:05.360 --> 01:28:07.080]  I don't know why I'd want other people
+[01:28:07.080 --> 01:28:09.240]  to know what restaurant I'm at, et cetera.
+[01:28:10.720 --> 01:28:14.680]  But I just feel, I can kind of ignore it in Instagram,
+[01:28:14.680 --> 01:28:16.760]  but it just, I don't know.
+[01:28:16.760 --> 01:28:19.080]  It just seems to me like two different things,
+[01:28:19.080 --> 01:28:23.120]  whereas I look at, like I'm looking at micro.blog right now
+[01:28:23.120 --> 01:28:24.560]  and I'm scrolling down and it's like,
+[01:28:24.560 --> 01:28:25.600]  well, this is just nice.
+[01:28:25.600 --> 01:28:27.680]  It's just like a list of things I signed up to see
+[01:28:27.680 --> 01:28:29.400]  and then the only things that are there
+[01:28:29.400 --> 01:28:31.520]  are the date that they were posted,
+[01:28:31.520 --> 01:28:33.440]  a reply button, and a favorite button.
+[01:28:33.440 --> 01:28:34.800]  And that's it.
+[01:28:34.800 --> 01:28:36.440]  I like that.
+[01:28:36.440 --> 01:28:40.160]  Yeah, the idea is kind of back to basics in a way.
+[01:28:40.160 --> 01:28:41.920]  And of course, no ads and things like that
+[01:28:41.920 --> 01:28:44.320]  because the business is just helping people
+[01:28:45.280 --> 01:28:47.280]  post their blog or help make it easier.
+[01:28:47.280 --> 01:28:49.760]  The business is not to grow to billions of users
+[01:28:49.760 --> 01:28:51.240]  and put ads in their face.
+[01:28:51.240 --> 01:28:52.280]  And again, all this stuff
+[01:28:52.280 --> 01:28:53.560]  that the three of us are talking about today,
+[01:28:53.560 --> 01:28:54.720]  they all sort of interrelate.
+[01:28:54.720 --> 01:28:56.760]  And Brent, I think that there's an angle with that
+[01:28:56.760 --> 01:28:59.880]  with making Evergreen just a free open source Mac app
+[01:28:59.880 --> 01:29:03.840]  where you've got a day job at Omni Group,
+[01:29:03.840 --> 01:29:07.040]  which is a company that knows how to make money on software,
+[01:29:07.040 --> 01:29:08.640]  but that frees you up.
+[01:29:08.640 --> 01:29:12.080]  Like Evergreen is, it must be liberating in some ways
+[01:29:12.080 --> 01:29:14.000]  that you don't have to worry about Evergreen
+[01:29:14.000 --> 01:29:17.680]  selling for $19 a copy or whatever the price would be.
+[01:29:17.680 --> 01:29:19.400]  It very much is, yeah.
+[01:29:19.400 --> 01:29:20.760]  I kept thinking, well, at some point
+[01:29:20.760 --> 01:29:23.320]  I'll have to deal with licenses and demo version.
+[01:29:23.320 --> 01:29:25.360]  Do I make a light version available?
+[01:29:25.360 --> 01:29:28.840]  And what about when people lose their serial number?
+[01:29:28.840 --> 01:29:32.320]  And I'm like, ugh, don't make me.
+[01:29:32.320 --> 01:29:34.680]  And as soon as I'm like, you know, I don't have to do it.
+[01:29:34.680 --> 01:29:36.200]  All right, so I won't make that money,
+[01:29:36.200 --> 01:29:39.480]  but whatever, I'm fine, you know, so.
+[01:29:39.480 --> 01:29:41.440]  It's a lot easier to have fun
+[01:29:41.440 --> 01:29:44.200]  when there's no need to make money on it.
+[01:29:44.200 --> 01:29:46.160]  Absolutely, yeah.
+[01:29:46.160 --> 01:29:48.000]  Man, you've got a complicated relationship
+[01:29:48.000 --> 01:29:49.520]  with Twitter in history.
+[01:29:50.880 --> 01:29:55.320]  And so one of the things that you've done in the past
+[01:29:55.320 --> 01:29:57.640]  is you, I think it's correct to talk about it
+[01:29:57.640 --> 01:30:00.320]  in a past tense, but you had Tweet Library,
+[01:30:00.320 --> 01:30:05.080]  which was, it was an iPhone app, right?
+[01:30:05.080 --> 01:30:07.000]  Yeah, it started as an iPad app
+[01:30:07.000 --> 01:30:10.240]  and then it became a universal app for both iPhone and iPad.
+[01:30:10.240 --> 01:30:12.480]  And it's, again, it's the same,
+[01:30:12.480 --> 01:30:13.440]  it's just like with Brent,
+[01:30:13.440 --> 01:30:15.600]  it's your same obsessions coming back over.
+[01:30:15.600 --> 01:30:17.680]  Tell us about, what was Tweet Library?
+[01:30:17.680 --> 01:30:18.960]  Yeah, so, and then Tweet Library
+[01:30:18.960 --> 01:30:21.560]  kind of came out of that same period that I referenced too
+[01:30:21.560 --> 01:30:24.280]  of like lots of innovation in Twitter apps.
+[01:30:24.280 --> 01:30:28.200]  And my take on it was, it actually kind of fits in
+[01:30:28.200 --> 01:30:29.880]  with your Instagram comment too.
+[01:30:29.880 --> 01:30:31.640]  It was like, why would I wanna post something
+[01:30:31.640 --> 01:30:32.880]  that disappears?
+[01:30:32.880 --> 01:30:34.200]  And I feel the same way.
+[01:30:34.200 --> 01:30:36.800]  I kind of experimented with Instagram stories,
+[01:30:36.800 --> 01:30:38.160]  but I don't have a Snapchat account.
+[01:30:38.160 --> 01:30:40.240]  I think it's like, to me, if I'm taking a picture
+[01:30:40.240 --> 01:30:41.840]  or I'm writing something,
+[01:30:41.840 --> 01:30:43.560]  if I'm bothering to write it down,
+[01:30:43.560 --> 01:30:44.680]  it kind of matters to me.
+[01:30:44.680 --> 01:30:47.320]  And so I want it to last forever as long as possible.
+[01:30:47.320 --> 01:30:49.240]  You know, I want it to be in my domain name
+[01:30:49.240 --> 01:30:50.880]  and I wanna be able to find it later.
+[01:30:50.880 --> 01:30:53.360]  And so Tweet Library was along those lines of like,
+[01:30:53.360 --> 01:30:55.720]  how can I download all my tweets, search them,
+[01:30:55.720 --> 01:30:58.760]  filter them by keywords or date,
+[01:30:58.760 --> 01:31:01.280]  maybe export them or collect tweets together.
+[01:31:01.280 --> 01:31:04.800]  And back then, Twitter was, I mean,
+[01:31:04.800 --> 01:31:08.320]  Twitter has some, it has better search now,
+[01:31:08.320 --> 01:31:09.840]  at least in the website,
+[01:31:09.840 --> 01:31:12.440]  has better like collecting tweets together.
+[01:31:12.440 --> 01:31:14.200]  But back then it was much more difficult
+[01:31:14.200 --> 01:31:15.040]  to find old tweets.
+[01:31:15.040 --> 01:31:18.440]  And so I wanted an app that could do that.
+[01:31:19.360 --> 01:31:22.560]  You're right in the past tense, I don't sell it anymore.
+[01:31:22.560 --> 01:31:24.120]  It was hard to let that app go,
+[01:31:24.120 --> 01:31:28.240]  but I went through a phase of being very frustrated
+[01:31:28.240 --> 01:31:32.440]  with Twitter and it didn't make much sense
+[01:31:32.440 --> 01:31:34.280]  to keep working on that app for that reason.
+[01:31:34.280 --> 01:31:36.440]  And also just because there were other apps
+[01:31:36.440 --> 01:31:38.320]  that started to do the same thing.
+[01:31:38.320 --> 01:31:41.000]  Yeah, and it's a semi-recent thing,
+[01:31:41.000 --> 01:31:43.240]  but they now, Twitter does now have a thing
+[01:31:43.240 --> 01:31:44.680]  where you can say, send me an archive
+[01:31:44.680 --> 01:31:46.720]  of all of my tweets from history.
+[01:31:46.720 --> 01:31:48.000]  And then like two days later,
+[01:31:48.000 --> 01:31:50.360]  you get an email with like a download link.
+[01:31:50.360 --> 01:31:53.120]  Yeah, and I actually added a feature to Tweet Library
+[01:31:53.120 --> 01:31:55.240]  where you could, yeah, you get a download link
+[01:31:55.240 --> 01:31:56.320]  that's like a zip file,
+[01:31:56.320 --> 01:31:59.040]  and you could import that directly into Tweet Library,
+[01:31:59.040 --> 01:32:00.440]  which was really great
+[01:32:00.440 --> 01:32:02.080]  because the first version of Tweet Library
+[01:32:02.080 --> 01:32:02.920]  couldn't do that.
+[01:32:02.920 --> 01:32:04.720]  You basically had to run the app every once in a while,
+[01:32:04.720 --> 01:32:06.920]  make sure it downloaded everything for you.
+[01:32:08.520 --> 01:32:13.480]  But you yourself don't really use Twitter anymore?
+[01:32:14.520 --> 01:32:17.280]  Not really, so I definitely,
+[01:32:17.280 --> 01:32:21.840]  I got frustrated when Twitter was kind of just becoming
+[01:32:21.840 --> 01:32:23.240]  kind of developer hostile.
+[01:32:24.920 --> 01:32:26.760]  I mean, we're talking about feeds a lot.
+[01:32:26.760 --> 01:32:29.680]  They removed their RSS feeds is one example
+[01:32:29.680 --> 01:32:30.520]  of something they did,
+[01:32:30.520 --> 01:32:32.400]  locked down their API a little more,
+[01:32:32.400 --> 01:32:36.640]  put limits on how big a Twitter app could get
+[01:32:36.640 --> 01:32:39.800]  in terms of popularity compared to the official app,
+[01:32:39.800 --> 01:32:43.440]  the whole famous kind of app tokens that they limited
+[01:32:43.440 --> 01:32:47.360]  and various other shutting down other Twitter apps.
+[01:32:47.360 --> 01:32:49.920]  And so I kind of left, I kind of threw a fin,
+[01:32:49.920 --> 01:32:53.800]  left Twitter for a number of years.
+[01:32:53.800 --> 01:32:55.600]  And in fact, my original Twitter account,
+[01:32:55.600 --> 01:32:58.440]  which is over 10 years ago now,
+[01:32:58.440 --> 01:33:03.320]  I do not post to it and don't log in as it ever anymore
+[01:33:03.320 --> 01:33:05.720]  as kind of a, I left Twitter.
+[01:33:06.800 --> 01:33:08.760]  I was actually one year after Steve Jobs died
+[01:33:08.760 --> 01:33:11.400]  and I collected a bunch of stuff about Steve,
+[01:33:11.400 --> 01:33:13.360]  a lot of tweets and stuff.
+[01:33:13.360 --> 01:33:17.000]  And I wanted to mark the occasion of leaving
+[01:33:17.000 --> 01:33:19.840]  as this is something that I think was great about Twitter,
+[01:33:19.840 --> 01:33:21.520]  like something that made Twitter really special.
+[01:33:21.520 --> 01:33:22.800]  And so I just haven't touched it.
+[01:33:22.800 --> 01:33:24.280]  I've just let it be what it is.
+[01:33:24.280 --> 01:33:26.760]  And I feel like if I went back to that account,
+[01:33:26.760 --> 01:33:30.920]  it would kind of, you know, it would like cheapen
+[01:33:30.920 --> 01:33:33.240]  like what I was trying to capture.
+[01:33:33.240 --> 01:33:35.160]  And that was like five years ago now, I guess,
+[01:33:35.160 --> 01:33:36.000]  four or five years ago.
+[01:33:36.000 --> 01:33:37.800]  And so what I have done though,
+[01:33:37.800 --> 01:33:41.080]  is I created a separate Twitter account, Manton too,
+[01:33:41.080 --> 01:33:42.120]  where I cross post stuff.
+[01:33:42.120 --> 01:33:43.320]  So if I post something in my blog,
+[01:33:43.320 --> 01:33:45.280]  automatically cross posts to Twitter.
+[01:33:45.280 --> 01:33:48.560]  And I started as an experiment and I thought I would stop,
+[01:33:48.560 --> 01:33:51.320]  but I just kind of kept doing it anyway
+[01:33:51.320 --> 01:33:53.600]  for people who don't have feed readers
+[01:33:53.600 --> 01:33:55.680]  and they wanna kind of keep up with my blog,
+[01:33:55.680 --> 01:33:56.920]  they can follow that account.
+[01:33:56.920 --> 01:33:58.640]  Or if they wanna effectively use Twitter
+[01:33:58.640 --> 01:34:01.680]  as a sort of poor man's feed reader.
+[01:34:01.680 --> 01:34:03.320]  Exactly, and I know a lot of people do that.
+[01:34:03.320 --> 01:34:05.880]  I personally, I mean, if that works for you,
+[01:34:05.880 --> 01:34:07.040]  I guess that's great, but I mean,
+[01:34:07.040 --> 01:34:09.120]  I love traditional feed readers
+[01:34:09.120 --> 01:34:11.480]  and hope to see more activity,
+[01:34:11.480 --> 01:34:13.920]  obviously even feed readers with JSON feed and whatnot.
+[01:34:13.920 --> 01:34:15.440]  So that doesn't work for me,
+[01:34:15.440 --> 01:34:16.920]  but if it works for you,
+[01:34:16.920 --> 01:34:18.960]  you can follow Twitter accounts that way.
+[01:34:20.040 --> 01:34:22.360]  So where do you see,
+[01:34:22.360 --> 01:34:25.720]  how do you think the launch of micro.blog has gone so far?
+[01:34:26.840 --> 01:34:28.600]  I think overall good,
+[01:34:28.600 --> 01:34:30.720]  if it's very limited, of course,
+[01:34:30.720 --> 01:34:32.040]  the Kickstarter backers,
+[01:34:33.800 --> 01:34:35.760]  honestly, it wasn't really ready
+[01:34:35.760 --> 01:34:37.440]  when I opened it up to Kickstarter backers,
+[01:34:37.440 --> 01:34:40.400]  like it needed probably a few more weeks at least
+[01:34:40.400 --> 01:34:45.160]  of baking and there were bugs and there were issues.
+[01:34:45.160 --> 01:34:46.760]  And so I'm obviously really glad
+[01:34:46.760 --> 01:34:49.560]  that it was limited to a smaller audience,
+[01:34:49.560 --> 01:34:51.800]  but I feel like we've worked through a bunch of those.
+[01:34:51.800 --> 01:34:54.000]  I feel like it still has,
+[01:34:54.000 --> 01:34:56.000]  there's still a bunch of things to improve
+[01:34:56.000 --> 01:34:59.520]  and there's a bunch for me to work on
+[01:34:59.520 --> 01:35:00.520]  before the public launch,
+[01:35:00.520 --> 01:35:02.160]  but overall, I think it's good
+[01:35:02.160 --> 01:35:04.840]  and I think it's resonating with certain people.
+[01:35:04.840 --> 01:35:06.160]  Some people don't get it and that's okay,
+[01:35:06.160 --> 01:35:08.680]  but some people are excited about it
+[01:35:08.680 --> 01:35:10.400]  and kind of get the potential
+[01:35:10.400 --> 01:35:12.840]  for what it's trying to do with blogs.
+[01:35:12.840 --> 01:35:14.520]  Now, one of the things you were able to do
+[01:35:14.520 --> 01:35:15.640]  through the Kickstarter,
+[01:35:15.640 --> 01:35:17.680]  I think it was like an extra level,
+[01:35:17.680 --> 01:35:19.920]  but you made enough through the Kickstarter
+[01:35:19.920 --> 01:35:22.160]  where you said, if we hit this level,
+[01:35:22.160 --> 01:35:23.980]  I'll hire a community,
+[01:35:25.840 --> 01:35:27.640]  what's Gene's title?
+[01:35:27.640 --> 01:35:29.480]  Yeah, community manager was the-
+[01:35:29.480 --> 01:35:31.560]  So you hired the great Gene McDonald
+[01:35:31.560 --> 01:35:34.840]  of formerly at Smile Software,
+[01:35:34.840 --> 01:35:37.080]  AppCamp for Girls co-founder
+[01:35:37.080 --> 01:35:39.440]  and all around amazing person.
+[01:35:39.440 --> 01:35:43.680]  She's, what's her, community coordinator?
+[01:35:43.680 --> 01:35:46.000]  So when I wrote the Kickstarter update
+[01:35:46.000 --> 01:35:49.100]  about halfway through talking about like a stretch goal
+[01:35:49.100 --> 01:35:53.960]  for the project, community manager was the term I used.
+[01:35:53.960 --> 01:35:56.540]  Now, Gene, I mean, I didn't think I'd be so lucky
+[01:35:56.540 --> 01:35:58.460]  to get someone as great as her
+[01:35:58.460 --> 01:35:59.920]  with so much experience that she has.
+[01:35:59.920 --> 01:36:02.960]  So I don't know if that term is perfect anymore
+[01:36:02.960 --> 01:36:05.360]  for everything that I think
+[01:36:05.360 --> 01:36:07.840]  she's gonna be able to help with the project,
+[01:36:07.840 --> 01:36:09.240]  but yeah, I couldn't be happier.
+[01:36:09.240 --> 01:36:13.040]  I mean, she's got great experience, Smile and AppCamp.
+[01:36:13.040 --> 01:36:15.740]  And I wanted to,
+[01:36:15.740 --> 01:36:20.160]  I didn't wanna wait to address issues of,
+[01:36:20.160 --> 01:36:22.720]  potential just kind of hate and harassment
+[01:36:22.720 --> 01:36:25.200]  and the kind of problems that we see
+[01:36:25.200 --> 01:36:27.840]  almost kind of run unchecked sometimes on Twitter.
+[01:36:27.840 --> 01:36:31.760]  I mean, I don't completely blame Twitter for some of that,
+[01:36:31.760 --> 01:36:35.480]  but I do kind of blame them for not trying to work
+[01:36:35.480 --> 01:36:36.800]  on that stuff earlier.
+[01:36:36.800 --> 01:36:40.880]  And so my thought is start earlier,
+[01:36:40.880 --> 01:36:42.920]  try to get out in front of those kinds of issues
+[01:36:42.920 --> 01:36:44.920]  and then it won't blow up into a huge problem
+[01:36:44.920 --> 01:36:47.680]  because it's very difficult after it becomes a problem.
+[01:36:47.680 --> 01:36:49.900]  And like I said, I don't completely blame Twitter
+[01:36:49.900 --> 01:36:51.800]  because it's hard for them to solve now.
+[01:36:51.800 --> 01:36:53.440]  If they had started earlier,
+[01:36:53.440 --> 01:36:55.800]  maybe it wouldn't be quite as bad.
+[01:36:55.800 --> 01:36:58.600]  It's like any kind of infestation.
+[01:36:58.600 --> 01:37:00.960]  The earlier you can address it,
+[01:37:00.960 --> 01:37:01.920]  the better.
+[01:37:01.920 --> 01:37:06.920]  Or even if you're redoing your patio or your deck,
+[01:37:10.080 --> 01:37:13.680]  if you make sure that the door closes with a good seal
+[01:37:13.680 --> 01:37:16.920]  to keep ants out, it's better to do it now
+[01:37:16.920 --> 01:37:19.120]  than to wait till you've got an ant infestation
+[01:37:19.120 --> 01:37:20.640]  in your house.
+[01:37:20.640 --> 01:37:23.520]  And I don't know, I think Twitter sort of,
+[01:37:23.520 --> 01:37:26.000]  I know people there and I know that there's,
+[01:37:26.000 --> 01:37:27.640]  I don't think there's a single person at the company
+[01:37:27.640 --> 01:37:31.100]  who's happy about the abuse that takes place on the platform
+[01:37:31.100 --> 01:37:34.040]  but I think that they've chalked it up to,
+[01:37:34.040 --> 01:37:35.480]  ah, we'll fix it eventually.
+[01:37:37.140 --> 01:37:39.940]  But once it takes root, it's a lot harder to take care of.
+[01:37:39.940 --> 01:37:44.940]  So I think it was very smart for you to treat this as a,
+[01:37:45.040 --> 01:37:46.600]  hey, here's something that's on my plate
+[01:37:46.600 --> 01:37:50.040]  while it's still a Kickstarter and it's an idea in my head
+[01:37:50.040 --> 01:37:53.200]  as opposed to waiting until it might be too late.
+[01:37:53.200 --> 01:37:55.500]  Yeah, and because some of these things
+[01:37:55.500 --> 01:37:59.120]  need to be addressed through design and features,
+[01:37:59.120 --> 01:38:03.040]  not just hiring more people to police tweets, right?
+[01:38:03.040 --> 01:38:07.760]  So there's some things inherent in how Twitter works
+[01:38:07.760 --> 01:38:11.560]  with reposting, with hashtags and search and trending.
+[01:38:11.560 --> 01:38:16.560]  There's a lot of areas where people will get attention
+[01:38:18.180 --> 01:38:21.040]  that they don't want is I guess a simplified way to put it.
+[01:38:21.040 --> 01:38:23.760]  And so it's almost impossible to change some of those.
+[01:38:23.760 --> 01:38:26.320]  There's like fundamental ways that Twitter works.
+[01:38:26.320 --> 01:38:28.320]  And sometimes those are great things.
+[01:38:28.320 --> 01:38:32.440]  Like I said, I tried to highlight when I left Twitter,
+[01:38:32.440 --> 01:38:34.640]  like some of the great things that Twitter enables
+[01:38:34.640 --> 01:38:37.120]  but sometimes not good things happen
+[01:38:37.120 --> 01:38:38.480]  because of the way features work.
+[01:38:38.480 --> 01:38:42.200]  So with micro.bo, I didn't wanna just copy
+[01:38:42.200 --> 01:38:43.080]  every Twitter feature.
+[01:38:43.080 --> 01:38:47.440]  I wanted to think about every single feature,
+[01:38:47.440 --> 01:38:50.840]  every part of the UI, the design of the app
+[01:38:50.840 --> 01:38:54.040]  just to see if it would be one of those things
+[01:38:54.040 --> 01:38:57.120]  where people could be harassed, for example.
+[01:38:57.120 --> 01:39:00.980]  And so it is, again, back to basics, it's limited
+[01:39:00.980 --> 01:39:02.620]  and we'll be adding more features
+[01:39:02.620 --> 01:39:04.300]  but there's some things we won't add
+[01:39:04.300 --> 01:39:07.620]  because I feel like they encourage bad behavior.
+[01:39:07.620 --> 01:39:09.800]  So one of the things that's interesting about it
+[01:39:09.800 --> 01:39:13.680]  is that it's like Twitter, a micro.blog post
+[01:39:13.680 --> 01:39:15.440]  has just one text field.
+[01:39:15.440 --> 01:39:17.920]  You just type in it and then hit post and it's posted
+[01:39:17.920 --> 01:39:20.080]  so you don't have to come up with a title.
+[01:39:20.080 --> 01:39:22.120]  In fact, you can't, there are no titles.
+[01:39:22.120 --> 01:39:22.960]  Right.
+[01:39:24.320 --> 01:39:26.320]  I think you're exactly right.
+[01:39:26.320 --> 01:39:27.960]  You mentioned this a couple minutes ago
+[01:39:27.960 --> 01:39:32.880]  where I think that that's so freeing in some ways
+[01:39:32.880 --> 01:39:34.720]  and I often think about it with email
+[01:39:34.720 --> 01:39:38.640]  where I don't like to half-ass my subjects
+[01:39:38.640 --> 01:39:41.760]  but there's a lot of times where I'll sit there
+[01:39:41.760 --> 01:39:43.360]  and stare at the subject and I think, you know what?
+[01:39:43.360 --> 01:39:45.720]  Screw it, I'll just hit them up on iMessage instead
+[01:39:45.720 --> 01:39:47.600]  because then I don't have to come up with a subject.
+[01:39:47.600 --> 01:39:52.600]  Right, it's a weird psychological barrier.
+[01:39:52.680 --> 01:39:55.280]  Like I would never think to do a site
+[01:39:55.280 --> 01:39:56.860]  like Daring Fireball without titles
+[01:39:56.860 --> 01:39:59.780]  because that's like my, that's my job, you know?
+[01:39:59.780 --> 01:40:02.520]  And it's something I take very carefully
+[01:40:02.520 --> 01:40:06.920]  so I don't mind the formality of always having a title
+[01:40:06.920 --> 01:40:09.000]  and I don't really expose them
+[01:40:09.000 --> 01:40:12.240]  but I, you know, all 17 years worth of,
+[01:40:12.240 --> 01:40:16.800]  or however long, 15 years of Daring Fireball posts
+[01:40:16.800 --> 01:40:19.880]  have tags with categories and stuff like that.
+[01:40:19.880 --> 01:40:21.620]  I don't mind that because I feel like,
+[01:40:21.620 --> 01:40:25.600]  hey, this is my job, I should straighten up,
+[01:40:25.600 --> 01:40:26.940]  smooth out the wrinkles in my shirt,
+[01:40:26.940 --> 01:40:28.680]  make sure I don't have crumbs on my face,
+[01:40:28.680 --> 01:40:31.000]  whereas when I'm just shooting off at the hip on Twitter,
+[01:40:31.000 --> 01:40:31.840]  who gives a shit?
+[01:40:33.380 --> 01:40:36.880]  Yeah, and different kind of workflows
+[01:40:36.880 --> 01:40:38.480]  work for different people.
+[01:40:38.480 --> 01:40:42.800]  And I think that for some people that's totally fine,
+[01:40:42.800 --> 01:40:45.000]  just like throw out whatever thing on Twitter
+[01:40:45.000 --> 01:40:48.280]  but there's a lot of people that I think would benefit
+[01:40:48.280 --> 01:40:51.880]  from maybe a little thinking about it a little bit
+[01:40:51.880 --> 01:40:55.080]  before they post something and-
+[01:40:55.080 --> 01:40:56.360]  Maybe like our president?
+[01:40:57.880 --> 01:40:58.760]  Just say him.
+[01:40:58.760 --> 01:41:00.480]  Maybe, maybe just a little.
+[01:41:01.520 --> 01:41:04.120]  But yeah, anyway, so like blogging should be easier,
+[01:41:04.120 --> 01:41:05.800]  it should be as easy as Twitter.
+[01:41:05.800 --> 01:41:08.040]  You should still think about what you're posting
+[01:41:08.040 --> 01:41:10.200]  but for some people they don't care if it lasts,
+[01:41:10.200 --> 01:41:12.040]  they don't care if it's searchable
+[01:41:12.040 --> 01:41:13.540]  or they can find it again and then,
+[01:41:13.540 --> 01:41:15.320]  but for other people the idea that
+[01:41:16.380 --> 01:41:18.360]  even if I'm just like this quick comment
+[01:41:18.360 --> 01:41:22.200]  or joke on Twitter, even that is worth keeping.
+[01:41:22.200 --> 01:41:24.120]  It's worth having my own domain name,
+[01:41:24.120 --> 01:41:27.400]  it's worth being able to find later and link to.
+[01:41:27.400 --> 01:41:29.200]  And so it just depends,
+[01:41:29.200 --> 01:41:30.400]  that's what you want to get out of it.
+[01:41:30.400 --> 01:41:33.600]  So differences between micro.blog and Twitter,
+[01:41:33.600 --> 01:41:36.080]  one of them, and again, full circle
+[01:41:36.080 --> 01:41:37.500]  comes to one of our creations,
+[01:41:37.500 --> 01:41:39.960]  you support Markdown for text formatting.
+[01:41:39.960 --> 01:41:44.320]  Which I've seen people suggest that Twitter should do
+[01:41:44.320 --> 01:41:46.160]  and I kind of think that they can't now,
+[01:41:46.160 --> 01:41:47.860]  there's no way that they can,
+[01:41:47.860 --> 01:41:50.440]  like there's a sort of expectation in Twitter
+[01:41:50.440 --> 01:41:53.300]  that if you type an asterisk and then a word
+[01:41:53.300 --> 01:41:54.400]  and then another asterisk
+[01:41:54.400 --> 01:41:56.200]  that you're gonna see the asterisks.
+[01:41:57.640 --> 01:41:59.280]  Yeah, it might be too late.
+[01:41:59.280 --> 01:42:00.120]  But you also-
+[01:42:00.120 --> 01:42:01.520]  And the idea there is just like,
+[01:42:02.600 --> 01:42:03.960]  tweets are fine, I guess,
+[01:42:03.960 --> 01:42:08.280]  but like if you look at a short tweet-like post
+[01:42:08.280 --> 01:42:11.680]  and instead of having like a bunch of URLs
+[01:42:11.680 --> 01:42:12.960]  at the end of it or something,
+[01:42:12.960 --> 01:42:16.480]  if it has inline links and maybe something's in bold,
+[01:42:16.480 --> 01:42:19.580]  like look at both of those side to side
+[01:42:19.580 --> 01:42:21.760]  and it looks really great.
+[01:42:21.760 --> 01:42:22.600]  Yeah.
+[01:42:22.600 --> 01:42:24.080]  Like it just really looks nice
+[01:42:24.080 --> 01:42:26.480]  when you use like just simple Markdown
+[01:42:26.480 --> 01:42:29.800]  and it just, when you're scrolling through your timeline
+[01:42:29.800 --> 01:42:30.840]  and something's in bold
+[01:42:30.840 --> 01:42:32.940]  and then there's an inline link or something,
+[01:42:32.940 --> 01:42:33.780]  it just looks really nice.
+[01:42:33.780 --> 01:42:37.320]  And you don't have to do a microblog post that way,
+[01:42:37.320 --> 01:42:40.040]  but you can, I think it just adds something,
+[01:42:40.040 --> 01:42:43.440]  kind of a clarity to the timeline.
+[01:42:43.440 --> 01:42:47.800]  There's an underappreciated aspect to writing for the web.
+[01:42:47.800 --> 01:42:51.140]  And maybe somebody's written about it in a way,
+[01:42:51.140 --> 01:42:52.320]  but I've never seen it,
+[01:42:52.320 --> 01:42:54.600]  but it's like just implicit
+[01:42:54.600 --> 01:42:56.280]  rather than explicitly talked about.
+[01:42:56.280 --> 01:42:58.320]  And I certainly don't think anybody learns about it
+[01:42:58.320 --> 01:43:00.100]  in school, even though I think it should be taught
+[01:43:00.100 --> 01:43:01.760]  the same way other forms of grammar are,
+[01:43:01.760 --> 01:43:04.180]  which is where do you put a link?
+[01:43:04.180 --> 01:43:06.280]  What words do you use for the link
+[01:43:06.280 --> 01:43:07.760]  when you're linking to something?
+[01:43:07.760 --> 01:43:09.200]  I think very carefully about it
+[01:43:09.200 --> 01:43:12.640]  every time I put a link in my writing, like which words.
+[01:43:12.640 --> 01:43:14.040]  And it bothers me sometimes,
+[01:43:14.040 --> 01:43:16.340]  and I often notice it in like articles
+[01:43:16.340 --> 01:43:20.220]  at like a long-standing print publication,
+[01:43:20.220 --> 01:43:23.640]  like a newspaper, where if the New York Times
+[01:43:23.640 --> 01:43:25.060]  is writing about something
+[01:43:25.060 --> 01:43:27.040]  and the Washington Post reported it first,
+[01:43:27.040 --> 01:43:29.180]  they'll say this was first reported in an article
+[01:43:29.180 --> 01:43:30.360]  by the Washington Post,
+[01:43:30.360 --> 01:43:32.740]  and they'll make the link just the word article.
+[01:43:32.740 --> 01:43:34.340]  And I think, no, it should be like
+[01:43:34.340 --> 01:43:35.960]  article by the Washington Post.
+[01:43:35.960 --> 01:43:38.420]  Like add a couple more words to that link.
+[01:43:39.920 --> 01:43:41.000]  Yeah.
+[01:43:41.000 --> 01:43:43.000]  I wonder if they're almost trying to hide the link
+[01:43:43.000 --> 01:43:43.840]  a little bit.
+[01:43:43.840 --> 01:43:46.840]  No, that's exactly what I, I read into that, though.
+[01:43:46.840 --> 01:43:49.560]  I read at this meta level when I see the links,
+[01:43:49.560 --> 01:43:52.240]  and I think, oh, that's exactly what I think.
+[01:43:52.240 --> 01:43:55.880]  I think that's sort of like they're throwing shade on them
+[01:43:55.880 --> 01:43:58.640]  by making the link as short as possible.
+[01:43:58.640 --> 01:44:00.320]  Like, all right, we'll give you credit for this,
+[01:44:00.320 --> 01:44:02.920]  but we're gonna make it as inconspicuous as possible.
+[01:44:02.920 --> 01:44:05.320]  And I do think that,
+[01:44:05.320 --> 01:44:07.760]  I think that we've, in some ways,
+[01:44:07.760 --> 01:44:12.160]  we've gone backwards with these posting formats
+[01:44:12.160 --> 01:44:13.240]  like Twitter and Facebook,
+[01:44:13.240 --> 01:44:15.060]  where if you want to have a URL,
+[01:44:15.060 --> 01:44:17.720]  you have to show the whole URL.
+[01:44:17.720 --> 01:44:20.560]  Like, it's not that,
+[01:44:20.560 --> 01:44:23.200]  like there were some people who've pushed
+[01:44:23.200 --> 01:44:25.520]  for URLs being completely hidden,
+[01:44:25.520 --> 01:44:27.880]  and the way that like browsers have sort of,
+[01:44:27.880 --> 01:44:30.280]  they still haven't done away with them entirely,
+[01:44:30.280 --> 01:44:34.280]  but like Safari typically just shows
+[01:44:35.120 --> 01:44:37.280]  your domain name in the location field
+[01:44:37.280 --> 01:44:38.760]  until you click in the location field,
+[01:44:38.760 --> 01:44:40.200]  and then it shows the whole URL.
+[01:44:40.200 --> 01:44:43.040]  Like, they've slowly but surely made them,
+[01:44:43.040 --> 01:44:45.760]  tried to make them less of a user-facing thing.
+[01:44:48.000 --> 01:44:49.920]  But we've ended up in this world
+[01:44:49.920 --> 01:44:52.600]  where when you share URLs on Twitter and stuff like that,
+[01:44:52.600 --> 01:44:53.980]  you have to see the whole ugly thing,
+[01:44:53.980 --> 01:44:56.480]  and so many people have CMS systems
+[01:44:56.480 --> 01:44:58.400]  that generate these ugly URLs,
+[01:44:58.400 --> 01:45:00.480]  and even if you don't have ugly URLs,
+[01:45:00.480 --> 01:45:04.680]  all of these people now post these UTM turds
+[01:45:04.680 --> 01:45:08.080]  for SEO tracking or whatever the hell they're for,
+[01:45:08.080 --> 01:45:11.240]  and so the URLs have gotten uglier over time,
+[01:45:11.240 --> 01:45:13.000]  and we're stuck looking at them.
+[01:45:14.060 --> 01:45:17.600]  Yeah, and Twitter tries to like clean them up a little bit,
+[01:45:17.600 --> 01:45:20.280]  like truncate's part of them, but yeah,
+[01:45:20.280 --> 01:45:24.400]  it can get really, a lot of clutter.
+[01:45:24.400 --> 01:45:27.800]  Very clutter, and just being able to do square bracket
+[01:45:27.800 --> 01:45:31.000]  and square bracket, put the URL in parentheses afterwards,
+[01:45:31.000 --> 01:45:33.260]  and then have it render just as a nice word.
+[01:45:35.000 --> 01:45:37.040]  Like, who would have thought in 1996
+[01:45:37.040 --> 01:45:39.760]  that in 2017 we'd be saying, you know what's nice?
+[01:45:39.760 --> 01:45:42.240]  It's a blocking system where you can make links.
+[01:45:43.880 --> 01:45:46.940]  Right, it doesn't seem like something
+[01:45:46.940 --> 01:45:49.800]  that we would be praising a new blocking platform
+[01:45:49.800 --> 01:45:53.000]  for in 2017, but there it is.
+[01:45:53.000 --> 01:45:53.840]  And that's the thing.
+[01:45:53.840 --> 01:45:55.680]  It's the basis for the entire web.
+[01:45:55.680 --> 01:45:56.520]  Right.
+[01:45:56.520 --> 01:46:00.440]  I mean, and like, if there's one theme that underscores
+[01:46:00.440 --> 01:46:02.200]  a lot of what we've talked about today,
+[01:46:02.200 --> 01:46:03.640]  it's like, things should be better.
+[01:46:03.640 --> 01:46:06.640]  Like, we deserve a better web by now, right?
+[01:46:06.640 --> 01:46:10.760]  And like, I think Twitter should have evolved more quickly.
+[01:46:10.760 --> 01:46:13.720]  They ran into issues and leadership changes and whatnot,
+[01:46:13.720 --> 01:46:17.080]  and that happens, but like, it should be better.
+[01:46:17.080 --> 01:46:19.280]  Feed readers should, I mean, feed readers should,
+[01:46:19.280 --> 01:46:22.520]  in some cases, work, like should embrace ideas
+[01:46:22.520 --> 01:46:23.840]  from social networks.
+[01:46:23.840 --> 01:46:26.780]  And yeah, so there's progress to be made.
+[01:46:26.780 --> 01:46:29.600]  And that's, I'm excited for that because like,
+[01:46:29.600 --> 01:46:32.540]  what Brent said about like, these themes in his life
+[01:46:32.540 --> 01:46:35.260]  of like, working on an outliner, you know,
+[01:46:35.260 --> 01:46:38.140]  working, writing on his blog, like these things that last,
+[01:46:38.140 --> 01:46:41.340]  and he's still happy doing, you know, 20 years later.
+[01:46:41.340 --> 01:46:42.940]  I feel the same way about blogging.
+[01:46:42.940 --> 01:46:44.640]  I can't believe actually it took me this long
+[01:46:44.640 --> 01:46:45.740]  to build a blogging platform.
+[01:46:45.740 --> 01:46:48.020]  I probably should have built one a long time ago.
+[01:46:48.020 --> 01:46:50.280]  But I'm glad that there's still like, unsolved problems.
+[01:46:50.280 --> 01:46:52.820]  Like, there's still room for improvement.
+[01:46:52.820 --> 01:46:56.020]  I think that, I don't wanna be too melodramatic,
+[01:46:56.020 --> 01:46:59.300]  but I feel like Google Reader was a catastrophe.
+[01:46:59.300 --> 01:47:02.400]  Like, in the sense of like, the meteor
+[01:47:02.400 --> 01:47:04.040]  that killed all the dinosaurs
+[01:47:04.040 --> 01:47:05.340]  a couple hundred million years ago.
+[01:47:05.340 --> 01:47:10.040]  Like, Google Reader became so popular and so central,
+[01:47:10.040 --> 01:47:13.260]  and it was even, because it was central and it had APIs,
+[01:47:13.260 --> 01:47:16.080]  it was, even for people who didn't look at Google Reader,
+[01:47:16.080 --> 01:47:20.220]  like, NetNewswire had to support it as the syncing engine.
+[01:47:20.220 --> 01:47:22.900]  Like, I'm looking at NetNewswire, but it's using
+[01:47:22.900 --> 01:47:25.220]  Google Reader behind the scenes to do the syncing
+[01:47:25.220 --> 01:47:28.060]  so that an app on my iPhone can see the same
+[01:47:28.060 --> 01:47:31.020]  read on read status and have the same subscription feeds.
+[01:47:31.020 --> 01:47:33.140]  And when Google Reader went away,
+[01:47:33.140 --> 01:47:36.140]  it did so much damage to the open web.
+[01:47:36.140 --> 01:47:38.920]  And it's our own fault for letting the open web
+[01:47:38.920 --> 01:47:41.820]  become so dependent on one centralized,
+[01:47:41.820 --> 01:47:44.420]  proprietary thing from a company.
+[01:47:44.420 --> 01:47:48.360]  Like, the open web thrives when there's multiplicity.
+[01:47:48.360 --> 01:47:52.080]  But it is funny though, I feel like, in hindsight,
+[01:47:52.080 --> 01:47:55.320]  like, it was bad for the web that Google Reader went away.
+[01:47:55.320 --> 01:47:56.680]  And I've said it before, like,
+[01:47:56.680 --> 01:47:58.280]  traffic during Fireball plummeted.
+[01:47:58.280 --> 01:48:01.160]  I mean, I lost 25% of my page views per month,
+[01:48:01.160 --> 01:48:05.480]  just like that, just gone, and it never returned.
+[01:48:05.480 --> 01:48:07.400]  Luckily, I don't think readership is down.
+[01:48:07.400 --> 01:48:09.160]  I just think the number of times a day
+[01:48:09.160 --> 01:48:11.440]  that people came to the site went down
+[01:48:11.440 --> 01:48:13.700]  because Google Reader was their way to get notified
+[01:48:13.700 --> 01:48:15.520]  when something new was posted.
+[01:48:15.520 --> 01:48:20.240]  Thankfully, I never monetized the site by page views.
+[01:48:20.240 --> 01:48:22.280]  It was always based on how many people
+[01:48:22.280 --> 01:48:23.820]  and what I could charge sponsors per week.
+[01:48:23.820 --> 01:48:26.880]  But other sites that had page view based things
+[01:48:26.880 --> 01:48:29.760]  lost 25% of their revenue, just like that.
+[01:48:31.080 --> 01:48:34.000]  But much like the catastrophe of, like, the meteor,
+[01:48:34.000 --> 01:48:37.640]  there has been an awful lot, like,
+[01:48:37.640 --> 01:48:40.280]  there's so many more feed syncing services now
+[01:48:40.280 --> 01:48:42.240]  than there were when Google Reader went away.
+[01:48:42.240 --> 01:48:47.240]  Like, just quietly, the feed, I don't want to say industry
+[01:48:47.240 --> 01:48:48.220]  because that's the wrong word,
+[01:48:48.220 --> 01:48:50.160]  but the community surrounding feeds
+[01:48:50.160 --> 01:48:52.160]  has sort of routed around that.
+[01:48:52.160 --> 01:48:54.740]  And it's good that there's so many options now
+[01:48:54.740 --> 01:48:56.240]  for things like syncing feeds.
+[01:48:58.360 --> 01:48:59.200]  I don't know if you guys-
+[01:48:59.200 --> 01:49:00.020]  Yeah, definitely.
+[01:49:01.680 --> 01:49:02.840]  Yeah, and it's kind of like,
+[01:49:02.840 --> 01:49:05.380]  well, maybe these small mammals will take over
+[01:49:05.380 --> 01:49:06.800]  now that the dinosaurs are dead,
+[01:49:06.800 --> 01:49:09.980]  and something good will come of that.
+[01:49:09.980 --> 01:49:11.780]  People definitely still read during Fireball
+[01:49:11.780 --> 01:49:12.620]  through feed readers.
+[01:49:12.620 --> 01:49:14.680]  I mean, I just looked at it the other day
+[01:49:14.680 --> 01:49:17.160]  and how many hits there are to the feed,
+[01:49:17.160 --> 01:49:20.380]  and they come from a wide variety of sources.
+[01:49:20.380 --> 01:49:22.680]  Wait, there's no one dominant feed reader anymore,
+[01:49:22.680 --> 01:49:24.440]  which I think is a good thing.
+[01:49:24.440 --> 01:49:26.040]  Yeah, I think so, too.
+[01:49:26.040 --> 01:49:29.340]  All right, I got one more sponsor to thank,
+[01:49:29.340 --> 01:49:30.480]  and it's our good friends at MailRoute.
+[01:49:30.480 --> 01:49:31.720]  And then I want to talk to you guys a little bit
+[01:49:31.720 --> 01:49:33.920]  about WWDC, and then we'll wrap it up.
+[01:49:34.800 --> 01:49:37.680]  But our sponsor right now is good friends at MailRoute.
+[01:49:37.680 --> 01:49:41.480]  MailRoute is a company, it's the group behind MailRoute
+[01:49:41.480 --> 01:49:44.200]  has been working together for 20 years.
+[01:49:44.200 --> 01:49:46.360]  They started in 1997.
+[01:49:46.360 --> 01:49:47.960]  They were at Microsoft for a while,
+[01:49:47.960 --> 01:49:50.480]  and now they have their own company, MailRoute.
+[01:49:50.480 --> 01:49:52.560]  And all they do, this is it,
+[01:49:52.560 --> 01:49:56.220]  all they do is handle email filtering.
+[01:49:57.200 --> 01:49:59.400]  You point, if you have a domain name for your company,
+[01:49:59.400 --> 01:50:01.360]  your personal site, anything like that,
+[01:50:01.360 --> 01:50:04.440]  you point your MX records for your domain name to MailRoute,
+[01:50:04.440 --> 01:50:06.540]  and your mail goes to them first,
+[01:50:06.540 --> 01:50:09.860]  and then they forward it on to your existing mail server.
+[01:50:09.860 --> 01:50:11.640]  So they're not hosting your email.
+[01:50:11.640 --> 01:50:14.340]  Your hosting service stays exactly the same.
+[01:50:14.340 --> 01:50:16.180]  You don't have to change your clients at all
+[01:50:16.180 --> 01:50:18.120]  because they all just talk to the same server.
+[01:50:18.120 --> 01:50:19.600]  It's just that all incoming email
+[01:50:19.600 --> 01:50:21.120]  goes through MailRoute first.
+[01:50:21.120 --> 01:50:22.780]  And guess what gets filtered out?
+[01:50:22.780 --> 01:50:25.840]  All of the junk, all the viruses
+[01:50:25.840 --> 01:50:28.600]  and the scammy, spammy attachments,
+[01:50:28.600 --> 01:50:31.640]  all that stuff just goes away.
+[01:50:31.640 --> 01:50:34.400]  And MailRoute has APIs, so if you're like an expert,
+[01:50:34.400 --> 01:50:35.880]  if you're a professional system administrator,
+[01:50:35.880 --> 01:50:38.000]  you can write, integrate it with your software.
+[01:50:38.000 --> 01:50:39.680]  They have APIs that you can connect to.
+[01:50:39.680 --> 01:50:42.400]  They have great user-facing stuff.
+[01:50:42.400 --> 01:50:46.200]  So the users can go there and get a report
+[01:50:46.200 --> 01:50:49.000]  of which emails got filtered and stuff like that,
+[01:50:49.000 --> 01:50:52.760]  see a list of the ones that are maybe in the gray area
+[01:50:52.760 --> 01:50:55.820]  just to double-check it with your eyeballs if you want to.
+[01:50:55.820 --> 01:50:57.240]  Everybody's getting out of this business.
+[01:50:57.240 --> 01:50:58.760]  Even Google has come out recently
+[01:50:58.760 --> 01:51:00.400]  and said that they encourage people
+[01:51:00.400 --> 01:51:03.400]  who use Google Apps for email, for their company email,
+[01:51:03.400 --> 01:51:05.640]  to use a gateway service like MailRoute first
+[01:51:05.640 --> 01:51:07.640]  so that they don't have to be the front line
+[01:51:07.640 --> 01:51:09.120]  of filtering out your email.
+[01:51:09.120 --> 01:51:11.080]  It's a terrific, terrific service.
+[01:51:11.080 --> 01:51:12.600]  I personally know a bunch of people
+[01:51:12.600 --> 01:51:14.500]  who use MailRoute on their domains now,
+[01:51:14.500 --> 01:51:16.120]  and I don't know a single person
+[01:51:16.120 --> 01:51:19.440]  who's started using MailRoute who's stopped.
+[01:51:19.440 --> 01:51:20.880]  It's so good.
+[01:51:20.880 --> 01:51:24.000]  It does one thing, they do one thing really well,
+[01:51:24.000 --> 01:51:27.720]  and I don't even know whose second place is in the business.
+[01:51:27.720 --> 01:51:29.080]  It's so great.
+[01:51:29.080 --> 01:51:31.140]  And I think they have one of the best offers
+[01:51:31.140 --> 01:51:33.440]  you're ever, ever gonna hear from a sponsor.
+[01:51:33.440 --> 01:51:36.440]  You go to mailroute.net slash TTS.
+[01:51:36.440 --> 01:51:37.920]  That's like the initials, the talk show,
+[01:51:37.920 --> 01:51:39.560]  mailroute.net slash TTS.
+[01:51:39.560 --> 01:51:41.360]  You get a 30-day free trial.
+[01:51:41.360 --> 01:51:43.200]  And then when you sign up through that link,
+[01:51:43.200 --> 01:51:47.600]  you get 10% off for the lifetime of your account.
+[01:51:47.600 --> 01:51:49.640]  So like I said a couple weeks ago,
+[01:51:49.640 --> 01:51:51.180]  you could be using them for 20 years,
+[01:51:51.180 --> 01:51:53.080]  and you'll still be saving 10%.
+[01:51:53.080 --> 01:51:53.960]  It's an amazing deal.
+[01:51:53.960 --> 01:51:55.200]  You'll save tons of money.
+[01:51:55.200 --> 01:51:58.000]  So go to mailroute.net slash TTS.
+[01:51:59.720 --> 01:52:01.200]  So WWDC's coming up.
+[01:52:01.200 --> 01:52:03.780]  You guys are going, right?
+[01:52:03.780 --> 01:52:04.780]  Oh yeah.
+[01:52:04.780 --> 01:52:05.620]  Matt, are you coming?
+[01:52:05.620 --> 01:52:06.880]  Well, not actually going to the conference,
+[01:52:06.880 --> 01:52:09.360]  but everything else.
+[01:52:09.360 --> 01:52:10.200]  The same here.
+[01:52:10.200 --> 01:52:11.880]  I'm not going to the conference, but I'll be there.
+[01:52:11.880 --> 01:52:13.800]  I'll be there for a few days.
+[01:52:13.800 --> 01:52:15.400]  I think it's gonna be so weird.
+[01:52:16.600 --> 01:52:21.200]  The three of us have been in WWDC for a long time now,
+[01:52:21.200 --> 01:52:22.800]  at least the last 10 years or so.
+[01:52:22.800 --> 01:52:24.460]  I think we've been, I've been to everyone.
+[01:52:24.460 --> 01:52:27.120]  I think you guys have too, or at least most of them.
+[01:52:27.120 --> 01:52:30.380]  And we hang out together and we go to the same restaurants
+[01:52:30.380 --> 01:52:32.080]  and we drink beer at the same places.
+[01:52:32.080 --> 01:52:35.400]  And it's, I'm ready for a shakeup,
+[01:52:35.400 --> 01:52:37.080]  but I think it's going to be so bizarre
+[01:52:37.080 --> 01:52:39.800]  because it's, I am sort of a creature of habit
+[01:52:39.800 --> 01:52:41.280]  and it's going to be weird
+[01:52:41.280 --> 01:52:43.520]  not being able to go to the House of Shields.
+[01:52:44.840 --> 01:52:45.960]  That's exactly my thought too.
+[01:52:45.960 --> 01:52:47.400]  It's like, we always know we'll end up
+[01:52:47.400 --> 01:52:49.680]  at the House of Shields at the end of the night.
+[01:52:49.680 --> 01:52:50.940]  Everything else may be up in the air,
+[01:52:50.940 --> 01:52:54.320]  but we have that one habit especially.
+[01:52:54.320 --> 01:52:55.480]  If we end up there this time,
+[01:52:55.480 --> 01:52:57.920]  that's going to be a story.
+[01:52:57.920 --> 01:52:59.960]  Yeah, that's probably a mistake.
+[01:53:00.960 --> 01:53:01.800]  Very bad news.
+[01:53:01.800 --> 01:53:02.640]  I know, yeah, we'll work it out.
+[01:53:02.640 --> 01:53:05.080]  I mean, you know, somehow it'll be different.
+[01:53:05.080 --> 01:53:08.960]  All right, one of the events that is going on at WWDC
+[01:53:08.960 --> 01:53:12.400]  is there's going to be a screening of App the Human Story.
+[01:53:12.400 --> 01:53:13.520]  That's a documentary movie.
+[01:53:13.520 --> 01:53:15.500]  It's been in the work for a couple of years now,
+[01:53:15.500 --> 01:53:19.100]  but it's finally coming out as a real deal.
+[01:53:20.640 --> 01:53:23.360]  A terrific documentary that,
+[01:53:23.360 --> 01:53:26.840]  I know I was interviewed for it, Brent, I know you are.
+[01:53:26.840 --> 01:53:28.140]  I'm looking at the website right now
+[01:53:28.140 --> 01:53:29.880]  and it's actually a picture of you, Brent,
+[01:53:29.880 --> 01:53:32.860]  at your computer, footage from the movie.
+[01:53:32.860 --> 01:53:33.700]  So there's going to be a-
+[01:53:33.700 --> 01:53:35.560]  It's going to be at Omni, actually, right there.
+[01:53:35.560 --> 01:53:36.500]  Is it really?
+[01:53:36.500 --> 01:53:38.000]  Boy, that's a nice desk.
+[01:53:39.280 --> 01:53:40.160]  There's a screening.
+[01:53:40.160 --> 01:53:42.160]  I don't know, as we speak right now,
+[01:53:42.160 --> 01:53:43.920]  looks like there's a lot of open tickets available.
+[01:53:43.920 --> 01:53:45.220]  By the time this episode airs,
+[01:53:45.220 --> 01:53:46.360]  I don't know if that's true or not,
+[01:53:46.360 --> 01:53:48.280]  but if it is, you can go to the show notes
+[01:53:48.280 --> 01:53:51.260]  and I will have a link to where you can sign up for this.
+[01:53:52.440 --> 01:53:55.520]  But they are selling tickets to a screening June 4th.
+[01:53:55.520 --> 01:53:59.240]  That's Sunday, the day before the WWDC keynote,
+[01:53:59.240 --> 01:54:01.400]  right there in San Jose.
+[01:54:01.400 --> 01:54:03.200]  So if you're going to be in the area,
+[01:54:03.200 --> 01:54:04.360]  either if you live there
+[01:54:04.360 --> 01:54:07.440]  or if you're going to be in the area for WWDC, you can go.
+[01:54:07.440 --> 01:54:10.180]  And then afterwards, there's going to be a panel discussion
+[01:54:10.180 --> 01:54:13.160]  that I think I'm actually leading the panel discussion at.
+[01:54:13.160 --> 01:54:16.100]  Brent, I know you're on the panel talking about the movie.
+[01:54:16.100 --> 01:54:17.240]  So this is going to be great.
+[01:54:17.240 --> 01:54:19.840]  And the best thing about it is this screening,
+[01:54:19.840 --> 01:54:22.600]  all the proceeds for it are going to AppCamp for Girls,
+[01:54:23.840 --> 01:54:26.240]  which is a terrific program.
+[01:54:27.360 --> 01:54:28.220]  So there's that.
+[01:54:28.220 --> 01:54:30.880]  I don't know what else you guys want to talk about.
+[01:54:30.880 --> 01:54:33.200]  If you have one wish for WWDC for Apple to announce,
+[01:54:33.200 --> 01:54:34.040]  what would it be?
+[01:54:35.560 --> 01:54:38.700]  Bug fixes for Mac OS.
+[01:54:38.700 --> 01:54:40.280]  Man.
+[01:54:40.280 --> 01:54:44.920]  I think Siri, improvements for Siri for developers.
+[01:54:44.920 --> 01:54:47.120]  I think I'm a big fan of the Echo
+[01:54:47.120 --> 01:54:51.040]  and I think Amazon in some ways is way ahead.
+[01:54:52.360 --> 01:54:53.860]  So I don't know if there'll be any hardware or anything,
+[01:54:53.860 --> 01:54:56.280]  but I think there needs to be more
+[01:54:56.280 --> 01:55:01.280]  with the developer SDK for Siri to allow,
+[01:55:01.760 --> 01:55:03.320]  with the Echo, you can do like,
+[01:55:03.320 --> 01:55:05.920]  there's thousands of skills and stuff you can add
+[01:55:05.920 --> 01:55:09.560]  to the Echo and Apple needs, I think more here.
+[01:55:09.560 --> 01:55:10.380]  I think they can do more.
+[01:55:10.380 --> 01:55:12.580]  They've effectively taken the opposite approach
+[01:55:12.580 --> 01:55:14.600]  where last year when they announced SiriKit,
+[01:55:14.600 --> 01:55:17.440]  they were like, and SiriKit works for the following
+[01:55:17.440 --> 01:55:19.120]  like three or four things.
+[01:55:19.120 --> 01:55:21.880]  So like, and some of them are useful
+[01:55:21.880 --> 01:55:23.820]  like ride hailing services, right?
+[01:55:23.820 --> 01:55:26.960]  So you can like tell Siri to get you an Uber
+[01:55:26.960 --> 01:55:29.600]  and because ride hailing service is one of like
+[01:55:29.600 --> 01:55:33.800]  the three or four hard coded things that it does,
+[01:55:33.800 --> 01:55:36.040]  the Uber app has APIs to say, okay,
+[01:55:36.040 --> 01:55:39.600]  when somebody asks for a ride, I call these things
+[01:55:39.600 --> 01:55:41.160]  and then all of a sudden you're in the Uber app
+[01:55:41.160 --> 01:55:43.340]  and it's getting you an Uber or a Lyft
+[01:55:43.340 --> 01:55:44.720]  or whichever one you want.
+[01:55:46.240 --> 01:55:49.840]  But like hard coding the ideas for what you're going to do
+[01:55:49.840 --> 01:55:53.360]  is not the way that software platforms take off
+[01:55:53.360 --> 01:55:55.240]  because the thing that's popular
+[01:55:55.240 --> 01:55:57.680]  is never predicted in advance.
+[01:55:57.680 --> 01:55:59.880]  Well, yeah, it's so limiting and I understand
+[01:55:59.880 --> 01:56:01.960]  why they did it that way and there are some advantages
+[01:56:01.960 --> 01:56:04.400]  like for localization is a big one.
+[01:56:04.400 --> 01:56:08.120]  Apple can handle some of the details about like the phrasing
+[01:56:08.120 --> 01:56:10.920]  in different languages, that's important
+[01:56:10.920 --> 01:56:13.640]  but I wanna be able to do more.
+[01:56:13.640 --> 01:56:15.220]  I mean, like we've been talking about blogging a lot.
+[01:56:15.220 --> 01:56:17.880]  I mean, I should be able to ask Siri to post to my blog
+[01:56:17.880 --> 01:56:21.760]  and right now I guess I could maybe overload the messaging
+[01:56:21.760 --> 01:56:24.720]  part of Siri, but like that sounds like a hack.
+[01:56:24.720 --> 01:56:29.400]  And so I think at the very least Apple needs to let's say
+[01:56:29.400 --> 01:56:32.980]  add 30 or 40 new types of things that Siri can do
+[01:56:32.980 --> 01:56:35.400]  and maybe even have another one that's like,
+[01:56:35.400 --> 01:56:40.360]  oh, and anything, some more flexible way to extend it.
+[01:56:40.360 --> 01:56:44.480]  I think that they know that, I'm not putting out the idea
+[01:56:44.480 --> 01:56:46.400]  that Apple thought that having three or four things
+[01:56:46.400 --> 01:56:48.960]  that Siri could do was the be all end all.
+[01:56:48.960 --> 01:56:51.080]  I think that they shipped what was ready to ship
+[01:56:51.080 --> 01:56:53.280]  and it was better to ship it in a limited form
+[01:56:53.280 --> 01:56:55.240]  than not ship it at all.
+[01:56:55.240 --> 01:56:56.820]  And I agree with that.
+[01:56:56.820 --> 01:57:00.240]  Like it's better that you can at least send messages
+[01:57:00.240 --> 01:57:03.320]  through this than if you couldn't do anything.
+[01:57:03.320 --> 01:57:05.920]  But I really hope that this has been a productive year
+[01:57:05.920 --> 01:57:07.240]  for the Siri kit team.
+[01:57:07.240 --> 01:57:09.480]  I think that's a good wish.
+[01:57:09.480 --> 01:57:13.080]  And I almost feel like if it's not,
+[01:57:13.080 --> 01:57:16.600]  it's a warning sign about this current state of Apple
+[01:57:16.600 --> 01:57:20.200]  as a company and are they able to keep moving fast
+[01:57:20.200 --> 01:57:23.520]  and in new directions because it feels like something
+[01:57:23.520 --> 01:57:25.120]  they really should be doing.
+[01:57:25.120 --> 01:57:28.560]  I'm also with you Brent, I hope that the Mac announcements
+[01:57:28.560 --> 01:57:31.760]  are relatively quiet and that it's not really about,
+[01:57:31.760 --> 01:57:33.880]  wow, lots of new stuff in Mac OS.
+[01:57:33.880 --> 01:57:37.820]  I really hope that it's sort of a quiet snow leopard style.
+[01:57:38.960 --> 01:57:42.520]  Yeah, we're actually just making stuff more reliable.
+[01:57:42.520 --> 01:57:43.360]  Yeah, that'd be great.
+[01:57:43.360 --> 01:57:45.040]  Mac OS, it's mature.
+[01:57:45.040 --> 01:57:46.720]  They don't need to force themselves
+[01:57:46.720 --> 01:57:48.640]  to find new features for it.
+[01:57:48.640 --> 01:57:52.780]  Just make it faster and fix bugs.
+[01:57:53.800 --> 01:57:54.800]  Yep.
+[01:57:54.800 --> 01:57:57.280]  Anything else you guys wanted to talk about?
+[01:57:57.280 --> 01:57:58.920]  Or did I hit everything?
+[01:57:58.920 --> 01:58:02.920]  Anything about Evergreen or JSON feed or micro.blog
+[01:58:02.920 --> 01:58:05.960]  that I didn't ask about but you wanted to talk about?
+[01:58:08.680 --> 01:58:10.640]  That would be covered a lot.
+[01:58:10.640 --> 01:58:11.760]  I'll take it as a no.
+[01:58:13.360 --> 01:58:17.160]  You know, I like all this stuff fits together.
+[01:58:17.160 --> 01:58:18.220]  It really does.
+[01:58:18.220 --> 01:58:19.360]  It just does, yeah.
+[01:58:19.360 --> 01:58:20.540]  And I like that a lot.
+[01:58:20.540 --> 01:58:22.160]  I even like how it fits together with Markdown
+[01:58:22.160 --> 01:58:24.120]  where people will be writing their blog posts
+[01:58:24.120 --> 01:58:28.580]  in Markdown format and posting them to their micro.blog
+[01:58:28.580 --> 01:58:32.520]  and then people will read those things in Evergreen.
+[01:58:34.480 --> 01:58:35.320]  Pretty nice.
+[01:58:35.320 --> 01:58:37.260]  Anyway, the other thing that I just love
+[01:58:37.260 --> 01:58:39.600]  and I just had a podcast with Jim Dalrymple
+[01:58:39.600 --> 01:58:40.960]  and signed off the same way.
+[01:58:40.960 --> 01:58:43.000]  I love being able to say right now,
+[01:58:43.000 --> 01:58:45.840]  I will see you too soon and I look forward to it.
+[01:58:45.840 --> 01:58:48.560]  Yeah, cool, right on.
+[01:58:48.560 --> 01:59:17.560]  See you in San Jose.

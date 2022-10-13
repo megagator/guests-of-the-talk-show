@@ -1,0 +1,1756 @@
+[00:00.680 --> 00:05.680]  Ladies and gentlemen, welcome to Mezzanine.
+[00:08.360 --> 00:11.120]  Won't you please take your seats
+[00:11.120 --> 00:14.600]  and silence your cell phones.
+[00:14.600 --> 00:17.980]  Daring Fireball Productions,
+[00:17.980 --> 00:22.980]  in association with the Daring Fireball Company, LLC,
+[00:24.340 --> 00:27.020]  is delighted to welcome you
+[00:27.020 --> 00:32.020]  to a Daring Fireball presentation of The Talk Show,
+[00:32.360 --> 00:37.080]  live from WWDC 2016.
+[00:37.960 --> 00:42.960]  And now, won't you please welcome your host,
+[00:43.140 --> 00:45.300]  John Gruber.
+[00:47.040 --> 00:48.640]  Thank you, Paul.
+[00:48.640 --> 00:49.960]  I actually needed that reminder,
+[00:49.960 --> 00:52.140]  my cell phone was not on silent.
+[00:52.140 --> 00:55.340]  You're gonna dress up.
+[00:55.340 --> 00:56.180]  Thank you, Mike.
+[01:00.500 --> 01:02.780]  I will start by thanking our sponsors.
+[01:02.780 --> 01:04.580]  This is the fifth year actually that we've been doing,
+[01:04.580 --> 01:06.020]  I've been doing this show at least,
+[01:06.020 --> 01:09.120]  fourth time here at Mezzanine.
+[01:09.120 --> 01:12.820]  And I think that MailChimp has been sponsoring
+[01:12.820 --> 01:14.140]  our bar all along.
+[01:14.140 --> 01:16.900]  And if not, it's at least as far back as I remember.
+[01:16.900 --> 01:20.340]  So just in case it isn't clear,
+[01:20.340 --> 01:21.920]  the bar is on the house.
+[01:21.920 --> 01:22.900]  It is on MailChimp.
+[01:22.900 --> 01:24.580]  MailChimp, if you guys don't know,
+[01:24.580 --> 01:29.180]  they are in email newsletters,
+[01:29.180 --> 01:31.860]  like my friend Ben Thompson's Strategery
+[01:31.860 --> 01:33.960]  goes after MailChimp.
+[01:33.960 --> 01:36.580]  They also have a bunch of new features,
+[01:36.580 --> 01:39.960]  stuff that integrates with online stores
+[01:39.960 --> 01:43.020]  and integration, just about any online store platform
+[01:43.020 --> 01:44.420]  that you might be familiar with.
+[01:44.420 --> 01:47.240]  And then you can get your customers to get email
+[01:47.240 --> 01:50.180]  when products that they're interested are available
+[01:50.180 --> 01:52.780]  or whatever, great company.
+[01:52.780 --> 01:54.060]  If you need to send email,
+[01:55.700 --> 01:57.340]  go to MailChimp.com.
+[01:57.340 --> 02:00.620]  And please, let's hear it for them for the open bar.
+[02:08.500 --> 02:11.660]  Also back with us for the fourth consecutive year
+[02:11.660 --> 02:13.820]  as a sponsor of the show is Microsoft.
+[02:15.540 --> 02:17.340]  At four years, it's not even like a,
+[02:17.340 --> 02:19.440]  whoa, that's weird, Microsoft sponsoring.
+[02:19.440 --> 02:20.580]  No, it's like awesome.
+[02:20.580 --> 02:22.780]  And it makes total sense.
+[02:22.780 --> 02:23.620]  They have this website.
+[02:23.620 --> 02:25.220]  It's gonna give you so much more information
+[02:25.220 --> 02:27.100]  than I have time to give you now.
+[02:27.100 --> 02:31.180]  Any dev, any app.com.
+[02:31.180 --> 02:32.720]  That's the message they're trying to give
+[02:32.720 --> 02:35.540]  that any developer, if you're working a mobile or the web,
+[02:35.540 --> 02:39.760]  for any type of app, if you need cloud services,
+[02:39.760 --> 02:42.140]  it's now called the Azure App Service.
+[02:42.140 --> 02:43.780]  If you need that sort of stuff, go check it out.
+[02:43.780 --> 02:45.300]  Their website has so much information.
+[02:45.300 --> 02:46.120]  Here's the funny thing.
+[02:46.120 --> 02:48.020]  They had the same website last year,
+[02:48.020 --> 02:50.240]  but instead of any dev, any app.com,
+[02:50.240 --> 02:52.860]  I said, any app, any dev.com.
+[02:55.060 --> 02:57.220]  And we are in fact streaming this live.
+[03:01.580 --> 03:03.860]  And you know, the show went on and in the meantime,
+[03:03.860 --> 03:08.060]  I gave out the wrong URL for a pretty pricey sponsorship.
+[03:10.380 --> 03:12.780]  And what happened is there was some kid in Australia
+[03:12.780 --> 03:14.180]  who was watching the live stream,
+[03:14.180 --> 03:18.380]  who quickly like jumped on and registered the domain.
+[03:21.180 --> 03:23.340]  This true story, this is an absolute true story.
+[03:23.340 --> 03:25.080]  If you guys see Matt Hansing,
+[03:25.080 --> 03:26.620]  he's here representing Microsoft.
+[03:26.620 --> 03:28.380]  He's about this tall.
+[03:28.380 --> 03:29.980]  Him and Hockenberry are gonna have a fight
+[03:29.980 --> 03:33.340]  after the show's over.
+[03:33.340 --> 03:34.780]  You can ask him, he'll vouch for this.
+[03:34.780 --> 03:35.940]  So they got in contact with him.
+[03:35.940 --> 03:37.660]  We're like, oh man, that's what Microsoft thought.
+[03:37.660 --> 03:38.580]  We'd better get this domain.
+[03:38.580 --> 03:39.420]  And it was already gone.
+[03:39.420 --> 03:41.380]  And they contacted the kid and they were like,
+[03:41.380 --> 03:43.220]  oh man, this kid is gonna, you know,
+[03:43.220 --> 03:44.660]  he's really gonna let us have it.
+[03:44.660 --> 03:47.420]  And he was like, well, one of those Xboxes would be nice.
+[03:50.940 --> 03:54.460]  So they sent the kid like a box, like with an Xbox
+[03:54.460 --> 03:56.860]  and like all the cool stuff that you could possibly imagine
+[03:56.860 --> 03:59.260]  that goes with an Xbox and they got the domain.
+[03:59.260 --> 04:00.900]  So I think it's safe that you,
+[04:00.900 --> 04:03.420]  you can just go check out the information from Microsoft.
+[04:03.420 --> 04:06.580]  Go to any app or any dev.com.
+[04:08.060 --> 04:09.380]  No, any dev, any app.com.
+[04:09.380 --> 04:12.460]  Microsoft, great sponsor.
+[04:12.460 --> 04:14.340]  And then last but not least, we have one more sponsor.
+[04:14.340 --> 04:15.660]  This one's new.
+[04:15.660 --> 04:18.460]  And surprisingly, this is the thing,
+[04:18.460 --> 04:19.460]  because if you think Microsoft,
+[04:19.460 --> 04:20.500]  well, how are you gonna go bigger than that?
+[04:20.500 --> 04:22.900]  But this is actually one of the few,
+[04:22.900 --> 04:26.660]  I mean, I'm guessing maybe three or four corporations
+[04:26.660 --> 04:30.900]  in the world with a larger market cap than Microsoft.
+[04:31.940 --> 04:33.700]  It's Meh.com.
+[04:33.700 --> 04:34.540]  Yeah.
+[04:38.420 --> 04:41.620]  Meh.com is the store that I would run
+[04:41.620 --> 04:43.540]  if I were gonna run like an online store.
+[04:43.540 --> 04:44.900]  And I mean, let me be clear.
+[04:44.900 --> 04:46.740]  I have absolutely zero interest in running a store.
+[04:46.740 --> 04:48.780]  It seems like a terrible job.
+[04:50.820 --> 04:51.780]  And a lot of hard work.
+[04:51.780 --> 04:53.300]  And I don't like either of those things.
+[04:53.300 --> 04:58.300]  So, yeah, I'm not gonna run a store,
+[04:59.060 --> 05:00.340]  but if I did, it would be like Meh.
+[05:00.340 --> 05:01.220]  Here's the way Meh works.
+[05:01.220 --> 05:02.620]  They have one product a day, that's it.
+[05:02.620 --> 05:03.460]  You don't even know what it is.
+[05:03.460 --> 05:04.700]  You have to like go there at midnight.
+[05:04.700 --> 05:06.020]  You find out what they're selling today.
+[05:06.020 --> 05:07.940]  It's one thing, daily deal,
+[05:07.940 --> 05:10.860]  usually at like an unbelievable price.
+[05:10.860 --> 05:11.780]  I said this before.
+[05:11.780 --> 05:14.220]  I'm half worried that they're like stealing these things
+[05:14.220 --> 05:17.540]  and that I don't know if me endorsing it like this
+[05:17.540 --> 05:18.820]  makes me complicit in a crime
+[05:18.820 --> 05:22.100]  because when you're selling like $120 stereo for $14,
+[05:23.060 --> 05:24.100]  usually that was, you know,
+[05:24.100 --> 05:25.300]  it's like that scene in Goodfellas
+[05:25.300 --> 05:26.260]  where they're selling cigarettes
+[05:26.260 --> 05:28.260]  out of the back of the truck.
+[05:28.260 --> 05:29.900]  But what they really do, the other thing they do
+[05:29.900 --> 05:32.940]  is they just concentrate on making everything real funny.
+[05:32.940 --> 05:35.340]  The descriptions of the products are real funny.
+[05:35.340 --> 05:36.860]  They have funny videos every day.
+[05:36.860 --> 05:39.460]  And I really do get the feeling that they'd be happy
+[05:39.460 --> 05:41.020]  if you just go there and check them out every day
+[05:41.020 --> 05:41.980]  and you never buy anything.
+[05:41.980 --> 05:44.340]  They even, that's like the gimmick of the thing is like,
+[05:44.340 --> 05:46.500]  here's the product, buy or meh.
+[05:46.500 --> 05:47.780]  And you can just type men.
+[05:47.780 --> 05:49.540]  And they're like, well, that guy didn't like that.
+[05:49.540 --> 05:51.820]  So my thanks to them.
+[05:55.860 --> 06:00.380]  So last year was a little different than the previous years
+[06:00.380 --> 06:04.380]  because we had an actual special guest.
+[06:04.380 --> 06:06.060]  What happened was the backstory on it
+[06:06.060 --> 06:08.020]  is it was a week before WWDC
+[06:08.020 --> 06:10.540]  and I still hadn't asked anybody to be on the show.
+[06:10.540 --> 06:13.660]  And I was putting it off because I kind of had it in my head
+[06:13.660 --> 06:17.420]  that I kind of wanted to see if I could get Phil.
+[06:17.420 --> 06:20.540]  And I put it off because I didn't want to hear no.
+[06:20.540 --> 06:21.380]  And it was like a week before.
+[06:21.380 --> 06:22.220]  I was like, well, this is ridiculous.
+[06:22.220 --> 06:23.060]  I'll just ask.
+[06:23.060 --> 06:25.260]  And so I sent an email to Steve Dowling.
+[06:25.260 --> 06:26.580]  I said, look, this is probably ridiculous.
+[06:26.580 --> 06:28.060]  And so just feel free to say no.
+[06:28.060 --> 06:29.980]  But I do this show every year
+[06:31.460 --> 06:33.020]  and I think it'd be really cool.
+[06:33.020 --> 06:35.740]  I think it would work really well if Phil Schiller came on
+[06:35.740 --> 06:38.300]  and the day after the keynote, we could talk about it,
+[06:38.300 --> 06:40.340]  nerd out and go into detail
+[06:40.340 --> 06:41.900]  that you can't get into in a keynote.
+[06:41.900 --> 06:43.580]  And he wrote back and all he said was,
+[06:43.580 --> 06:45.860]  not ridiculous, let's talk tomorrow.
+[06:45.860 --> 06:47.740]  And next thing you know, a week later,
+[06:48.780 --> 06:50.540]  Phil Schiller was screwing around,
+[06:50.540 --> 06:53.260]  not coming out behind the curtain
+[06:53.260 --> 06:58.260]  and making me wonder whether maybe he went to the bathroom.
+[06:58.260 --> 07:02.300]  Maybe we miscommunicated on what the cues were gonna be.
+[07:02.300 --> 07:03.420]  And it was great.
+[07:03.420 --> 07:06.140]  I mean, I don't know how many people were here last year.
+[07:06.140 --> 07:09.020]  It really was great.
+[07:09.020 --> 07:12.060]  It was the best time I've had on stage in my life.
+[07:12.060 --> 07:13.260]  And then I watched the video
+[07:13.260 --> 07:15.700]  and I didn't even really die watching myself.
+[07:15.700 --> 07:17.740]  I was like, this is actually pretty good.
+[07:19.220 --> 07:21.140]  And it ended and it was a big surprise.
+[07:21.140 --> 07:22.060]  We kept it under wraps.
+[07:22.060 --> 07:24.100]  Everybody seemed pleasantly surprised
+[07:24.100 --> 07:25.900]  and it just made it all the more fun.
+[07:25.900 --> 07:29.340]  And then the show's over and I go backstage
+[07:29.340 --> 07:30.780]  and people are like, wow, that was great.
+[07:30.780 --> 07:31.620]  I can't believe it.
+[07:31.620 --> 07:32.460]  That was amazing.
+[07:32.460 --> 07:33.660]  And I started meeting people.
+[07:33.660 --> 07:34.900]  And it was about three minutes,
+[07:34.900 --> 07:36.340]  three or four minutes after the end of the show
+[07:36.340 --> 07:37.980]  when the first person said,
+[07:37.980 --> 07:39.060]  boy, you're really gonna have a hard time
+[07:39.060 --> 07:40.340]  topping that next year.
+[07:40.340 --> 07:45.340]  And I thought, wow, that did not occur to me
+[07:47.660 --> 07:50.660]  because this week has been a blur.
+[07:50.660 --> 07:52.540]  Like I really just asked a week ago
+[07:52.540 --> 07:56.300]  and then we set this up and I've been thinking on questions.
+[07:56.300 --> 07:57.140]  And you're right.
+[07:59.020 --> 08:01.220]  And there's only so far up I can go.
+[08:01.220 --> 08:03.580]  There's only so many different ways that we could go up.
+[08:03.580 --> 08:07.220]  So one of these years, it is absolutely gonna be the case
+[08:07.220 --> 08:09.660]  that it is not as good a guest as the year before.
+[08:09.660 --> 08:10.820]  I mean, one of these times,
+[08:10.820 --> 08:12.980]  it really is gonna be John Molt's coming out.
+[08:14.340 --> 08:15.300]  And that'll be great.
+[08:15.300 --> 08:16.820]  And we'll have a good show.
+[08:19.140 --> 08:20.260]  I mean, there might be more people
+[08:20.260 --> 08:22.420]  even go to the open bar in mid show,
+[08:22.420 --> 08:24.580]  which you can do by the way, please.
+[08:24.580 --> 08:25.820]  Really run up a good tab.
+[08:25.820 --> 08:27.220]  We're good here.
+[08:27.220 --> 08:30.620]  But this is not that year.
+[08:30.620 --> 08:32.660]  This year, I think it's a little better.
+[08:32.660 --> 08:37.660]  So this year, how do you top Phil Schiller?
+[08:42.980 --> 08:44.500]  Here's how, ladies and gentlemen,
+[08:44.500 --> 08:48.420]  please give a warm welcome to Phil Schiller
+[08:50.420 --> 08:52.500]  and Craig Federighi.
+[08:52.500 --> 08:53.340]  Thank you.
+[08:53.340 --> 09:19.020]  Thank you very much.
+[09:19.020 --> 09:19.860]  True story.
+[09:19.860 --> 09:24.860]  I got a text message about 45 minutes ago, hour ago.
+[09:24.860 --> 09:26.260]  Do you guys have any food here?
+[09:27.220 --> 09:28.780]  No, we don't.
+[09:28.780 --> 09:29.900]  We have lots of booze.
+[09:33.740 --> 09:37.900]  So when they get here, here's what Craig,
+[09:37.900 --> 09:40.340]  Craig has a boxed lunch from WWDC.
+[09:43.940 --> 09:45.380]  And that's what he's eating.
+[09:45.380 --> 09:48.900]  And a friend of the show and announcer, Paul Fosse,
+[09:48.900 --> 09:52.020]  asked him, is that a WWDC boxed lunch?
+[09:52.020 --> 09:54.300]  And the answer is, it aged well.
+[09:55.500 --> 09:58.140]  It was an old WWDC boxed lunch.
+[09:58.140 --> 10:02.020]  So let it be said, Apple eats their own dog food.
+[10:06.300 --> 10:07.140]  True that.
+[10:08.940 --> 10:13.380]  I can absolutely validate that for over 20 years
+[10:13.380 --> 10:17.220]  of doing surveys from WWDC, every single year,
+[10:17.220 --> 10:19.260]  the number one complaint is the food.
+[10:19.260 --> 10:22.900]  And so we resign ourselves to the fact that
+[10:22.900 --> 10:25.660]  if that's the worst thing that comes out of WWDC,
+[10:25.660 --> 10:26.500]  all is good.
+[10:28.580 --> 10:30.020]  It's tradition, so.
+[10:32.300 --> 10:33.820]  So I always start the show.
+[10:33.820 --> 10:35.060]  I started it the same way last year.
+[10:35.060 --> 10:35.900]  I always ask the guests,
+[10:35.900 --> 10:38.260]  how do you think the keynote went yesterday?
+[10:38.260 --> 10:39.100]  Good audience.
+[10:40.300 --> 10:41.140]  Great crowd.
+[10:41.140 --> 10:41.980]  Great presenters.
+[10:43.620 --> 10:44.540]  We're missing one.
+[10:44.540 --> 10:46.460]  We're missing one.
+[10:46.460 --> 10:50.020]  Once again, Phil Schiller was not on stage at the keynote.
+[10:50.020 --> 10:51.660]  This is becoming a new tradition.
+[10:53.060 --> 10:56.780]  I was teasing with Tim that between Craig
+[10:56.780 --> 10:59.660]  and Jeff Williams and now Bose,
+[10:59.660 --> 11:02.220]  I don't meet the minimum height requirement to present.
+[11:06.300 --> 11:07.740]  But Craig, I honestly thought,
+[11:07.740 --> 11:09.500]  I just spoke to you yesterday briefly,
+[11:09.500 --> 11:11.660]  and I told you, I thought you did an amazing job.
+[11:11.660 --> 11:14.580]  I mean, how many people thought Craig...
+[11:18.020 --> 11:20.020]  Because you, it's not just that you're up there
+[11:20.020 --> 11:21.180]  and you're good and you're covering stuff,
+[11:21.180 --> 11:26.020]  but you covered like three hours of stuff in 90 minutes
+[11:26.020 --> 11:28.340]  or however long you were on stage.
+[11:28.340 --> 11:29.180]  Yeah.
+[11:30.980 --> 11:31.980]  It was a lot.
+[11:31.980 --> 11:35.020]  Yeah, I mean, the team did a tremendous amount of work
+[11:35.020 --> 11:36.340]  and we try to...
+[11:36.340 --> 11:38.980]  Well, the article I saw on the ringer today,
+[11:38.980 --> 11:41.100]  I don't know if you saw this.
+[11:41.100 --> 11:42.780]  I'm not going to go into details of the article,
+[11:42.780 --> 11:44.100]  but the headline was,
+[11:44.100 --> 11:45.900]  Apple's Craig Federighi is perfect.
+[11:51.660 --> 11:54.820]  I read that article and I can only confirm
+[11:54.820 --> 11:55.820]  that it's half true.
+[12:03.260 --> 12:05.740]  So I didn't think about it yesterday,
+[12:05.740 --> 12:07.140]  but today it occurred to me
+[12:07.140 --> 12:10.540]  that there sort of was a recurring overriding theme
+[12:10.540 --> 12:12.740]  in the announcements yesterday,
+[12:12.740 --> 12:17.140]  which in broad strokes is that you guys have opened up
+[12:17.140 --> 12:19.660]  a lot of stuff to third-party developers
+[12:19.660 --> 12:24.660]  that was previously reserved for Apple's first-party code.
+[12:25.060 --> 12:26.540]  Yeah.
+[12:26.540 --> 12:28.100]  Quickly, I might even miss some,
+[12:28.100 --> 12:31.420]  CallKit so that VoIP apps can get the same
+[12:31.420 --> 12:34.300]  lock screen privileges for incoming calls
+[12:34.300 --> 12:36.740]  as the phone app in FaceTime, which is yours.
+[12:36.740 --> 12:41.740]  Messages, so WhatsApp can, you can specify a contact
+[12:42.460 --> 12:45.980]  when I text Craig default by going to WhatsApp
+[12:45.980 --> 12:47.140]  instead of iMessage.
+[12:47.140 --> 12:48.380]  That's right.
+[12:48.380 --> 12:53.380]  Siri API, iMessage apps, Maps extensions,
+[12:56.020 --> 13:00.220]  and even non-Mac App Store apps can now use CloudKit
+[13:00.220 --> 13:01.860]  and a bunch of other iCloud services.
+[13:01.860 --> 13:02.700]  It is true.
+[13:02.700 --> 13:07.700]  Thank you.
+[13:08.220 --> 13:11.180]  Is that a coincidence or is that like a strategic
+[13:11.180 --> 13:13.820]  part of the plan for this year?
+[13:13.820 --> 13:18.340]  Well, with iOS 8, we started that with extensions,
+[13:18.340 --> 13:20.140]  opening up like the share sheet, for instance.
+[13:20.140 --> 13:21.980]  For a while there was, if we didn't build it,
+[13:21.980 --> 13:23.540]  it couldn't be in the share sheet.
+[13:23.540 --> 13:26.860]  And so we had to build a Twitter interface ourselves
+[13:26.860 --> 13:28.020]  and a Facebook interface.
+[13:28.020 --> 13:31.060]  And as of iOS 8, we started having extensions
+[13:31.060 --> 13:34.780]  for extending the system with sharing, widgets.
+[13:34.780 --> 13:39.580]  And so we built a lot of the technology with XPC services.
+[13:39.580 --> 13:43.460]  You folks know what those are and out of process UI
+[13:43.460 --> 13:46.260]  and all the building blocks to make this possible.
+[13:46.260 --> 13:50.340]  And this year we really felt like giving the developers
+[13:50.340 --> 13:52.660]  more and more opportunities to let users do
+[13:52.660 --> 13:55.500]  what they want to do across all these experiences
+[13:55.500 --> 13:58.860]  was a way that we could really make the platform better
+[13:58.860 --> 13:59.900]  for all of our users.
+[13:59.900 --> 14:04.900]  So yeah, it all came together nicely with Siri as well.
+[14:05.700 --> 14:07.660]  And a big part of it, it seems to me like
+[14:07.660 --> 14:09.940]  as the platforms, plural, evolve,
+[14:09.940 --> 14:12.660]  because it's definitely, especially iOS and Mac,
+[14:14.180 --> 14:19.180]  what it means to have an app is more than like on the Mac,
+[14:19.300 --> 14:21.300]  okay, you launch an app and a window opens up
+[14:21.300 --> 14:25.140]  and you are in this window and it's yours as the developer.
+[14:25.140 --> 14:28.700]  Or on iOS, it's a little simpler, like you get the screen.
+[14:28.700 --> 14:32.220]  But now to be an app that's really taking advantage
+[14:32.220 --> 14:35.940]  of the best, the newest stuff that the platform
+[14:35.940 --> 14:40.100]  has to offer, you need to be inside other apps,
+[14:42.260 --> 14:44.060]  widgets inside iMessage.
+[14:45.940 --> 14:47.780]  I think that just makes sense for mobile.
+[14:47.780 --> 14:50.940]  I mean, if you have an app and the right place
+[14:50.940 --> 14:54.940]  to interact is on the notification on the lock screen
+[14:54.940 --> 14:56.860]  and you don't want the user to have to unlock the phone
+[14:56.860 --> 14:58.820]  and launch your app in order to get something done
+[14:58.820 --> 15:01.940]  or invoking your app with Siri is gonna be the quickest path
+[15:01.940 --> 15:05.180]  to getting something done, we wanna make that possible.
+[15:05.180 --> 15:07.220]  And so I think that's what you're seeing here
+[15:07.220 --> 15:09.660]  as well as, as you say, inside of maps,
+[15:09.660 --> 15:12.460]  if you wanna book a ride or you wanna get a restaurant
+[15:12.460 --> 15:15.820]  or any of those things, it's gonna just be a quicker
+[15:15.820 --> 15:18.300]  and smoother flow if you're integrated into the place
+[15:18.300 --> 15:19.940]  where the user started instead of requiring
+[15:19.940 --> 15:20.780]  switching around.
+[15:20.780 --> 15:22.420]  And so this is opening all that up
+[15:22.420 --> 15:25.100]  and I think developers are gonna do a tremendous number
+[15:25.100 --> 15:26.580]  of things with it that we didn't even envision.
+[15:26.580 --> 15:28.580]  So it should be an exciting year.
+[15:28.580 --> 15:31.620]  It's also just an evolution of the success
+[15:31.620 --> 15:32.580]  of the app model, right?
+[15:32.580 --> 15:36.620]  We, apps took off, been wildly successful,
+[15:36.620 --> 15:40.020]  this amazing software process.
+[15:40.020 --> 15:42.220]  And then you wanna have apps in your maps,
+[15:42.220 --> 15:44.820]  you wanna have apps in your Siri situations
+[15:44.820 --> 15:47.380]  and you wanna have apps in your messaging.
+[15:47.380 --> 15:49.740]  And so we like apps, we like them everywhere,
+[15:49.740 --> 15:51.340]  we wanna use them in many places.
+[15:51.340 --> 15:53.660]  So to me, it's an evolution of what's going on
+[15:53.660 --> 15:54.740]  with apps in general.
+[15:54.740 --> 15:57.460]  And you mentioned XPC and I know,
+[15:57.460 --> 16:01.140]  I mean, this is a fairly nerdy crowd,
+[16:02.100 --> 16:05.980]  but I do think it's a years long shift
+[16:05.980 --> 16:10.980]  where and my layman's XPC is inter-process communication
+[16:11.100 --> 16:13.420]  and it's a way for different processes
+[16:13.420 --> 16:17.260]  that can be sandboxed and all of the privacy
+[16:17.260 --> 16:21.340]  and hey, this process can't diddle with the data
+[16:21.340 --> 16:25.060]  of this process without having it in a shared location
+[16:25.060 --> 16:26.820]  that they can still communicate with each other
+[16:26.820 --> 16:27.860]  in a rich way.
+[16:29.140 --> 16:30.380]  Compared to the old days,
+[16:30.380 --> 16:33.100]  the Mac OS has always been extensible
+[16:33.100 --> 16:35.780]  and whether you wanna go back to the classic Mac OS
+[16:35.780 --> 16:40.780]  with like a nits or the next step days
+[16:41.020 --> 16:44.340]  with things like bundles and input managers
+[16:44.340 --> 16:46.180]  and remember in the early days of Mac OS X
+[16:46.180 --> 16:48.940]  when we had the hacksies and the input managers
+[16:48.940 --> 16:51.740]  and that was, and in layman's terms,
+[16:51.740 --> 16:52.660]  the fundamental differences,
+[16:52.660 --> 16:55.900]  those were ways to extend apps officially or unofficially
+[16:55.900 --> 17:00.820]  where the extension code was running within the process.
+[17:00.820 --> 17:02.780]  Yeah, and from a stability point of view
+[17:02.780 --> 17:05.700]  and a privacy point of view, really bad news.
+[17:05.700 --> 17:10.700]  So we started years and years ago with mock messaging
+[17:11.780 --> 17:16.780]  and on that we built XPC as a form of remote procedure call
+[17:16.780 --> 17:19.980]  and asynchronous messaging, structured messaging thing
+[17:19.980 --> 17:24.160]  but we then created what we internally called XPC containers
+[17:24.160 --> 17:26.500]  which are really what you now think of as XPC services
+[17:26.500 --> 17:28.980]  which are the ability to package a whole bunch of code
+[17:28.980 --> 17:32.140]  and let the system manage launching that code,
+[17:32.140 --> 17:34.020]  tearing that code down when it needed to
+[17:34.020 --> 17:36.420]  but exposing services in that way
+[17:36.420 --> 17:38.860]  and that turned out to be really important
+[17:38.860 --> 17:40.540]  even internally within the OS.
+[17:40.540 --> 17:42.580]  We were using it for quite a while within the OS
+[17:42.580 --> 17:45.080]  before it was exposed as a mechanism for third parties
+[17:45.080 --> 17:48.140]  because it allowed us to set different security boundaries
+[17:48.140 --> 17:50.160]  around different, this is really getting nerdy,
+[17:50.160 --> 17:51.000]  but around...
+[17:51.000 --> 17:51.820]  No, this is good.
+[17:51.820 --> 17:52.660]  Around...
+[17:52.660 --> 17:57.660]  Because if you're gonna go load some image format even
+[18:00.700 --> 18:03.660]  or run a spotlight converter or something
+[18:03.660 --> 18:06.380]  that's gonna run over all your documents,
+[18:06.380 --> 18:08.440]  you wanna make sure that if that thing crashes,
+[18:08.440 --> 18:10.800]  it doesn't crash the overall,
+[18:10.800 --> 18:14.060]  cross the spotlight indexer or the app.
+[18:14.060 --> 18:15.760]  You don't want it to have any more access
+[18:15.760 --> 18:16.980]  to anything but the one thing
+[18:16.980 --> 18:18.460]  it's supposed to have to do the job.
+[18:18.460 --> 18:20.480]  So this was all part of our security
+[18:20.480 --> 18:22.480]  and sandboxing architecture
+[18:22.480 --> 18:25.660]  but then with iOS 8, we saw the opportunity
+[18:25.660 --> 18:28.640]  to combine that with essentially remote views,
+[18:28.640 --> 18:31.420]  the ability to say that the UI you see on screen
+[18:31.420 --> 18:32.880]  that looks like it's all from one app
+[18:32.880 --> 18:35.180]  is actually composed from the main app
+[18:35.180 --> 18:39.320]  but also one or more XPC services serving UI into that
+[18:39.320 --> 18:40.540]  and we manage all that
+[18:40.540 --> 18:42.860]  and that gives you this single experience
+[18:42.860 --> 18:44.880]  but where all the security boundaries
+[18:44.880 --> 18:46.940]  and the stability boundaries are in place
+[18:46.940 --> 18:50.080]  and that's enabled us to take this extensibility model
+[18:50.080 --> 18:53.420]  from something that was really hacksy-prone
+[18:53.420 --> 18:56.980]  in the next step and, well, in it.
+[18:56.980 --> 18:58.940]  Yeah, the init freedom.
+[18:58.940 --> 19:01.620]  And make it much more stable
+[19:01.620 --> 19:04.180]  and so that's been now a building block
+[19:04.180 --> 19:06.000]  for all these things that we're doing
+[19:06.000 --> 19:08.840]  and iOS 10 was just really stepping on the gas
+[19:08.840 --> 19:10.280]  on the places where we could do that
+[19:10.280 --> 19:13.740]  that made the biggest difference for user experience.
+[19:13.740 --> 19:15.060]  One of the most surprising changes,
+[19:15.060 --> 19:18.940]  and again, I think that this is in the spirit of openness
+[19:18.940 --> 19:21.380]  or flexibility on Apple's part
+[19:21.380 --> 19:23.060]  and relinquishing control
+[19:23.060 --> 19:25.460]  that previously wasn't relinquished
+[19:25.460 --> 19:28.700]  and it surprised me is that you can now remove
+[19:28.700 --> 19:31.820]  a whole bunch of the default apps on iOS
+[19:31.820 --> 19:32.740]  from your home screen.
+[19:32.740 --> 19:34.380]  Though you would not want to.
+[19:34.380 --> 19:38.480]  But you have the freedom.
+[19:38.480 --> 19:39.820]  Just knowing you have the power
+[19:39.820 --> 19:41.260]  that you'll never use.
+[19:41.260 --> 19:44.600]  It's one of my favorite pages on the what's new site
+[19:44.600 --> 19:46.900]  is I love the page because it even goes out of the way
+[19:46.900 --> 19:49.020]  to say, you know, because of all the compression
+[19:49.020 --> 19:51.340]  that we use and the techniques that we use
+[19:51.340 --> 19:52.840]  and the shared frameworks,
+[19:52.840 --> 19:54.900]  they only take up 150 megabytes.
+[19:54.900 --> 19:59.900]  Yeah, well, okay, so this is true.
+[20:00.500 --> 20:01.340]  This is true.
+[20:01.340 --> 20:03.260]  We should be really clear on actually what this feature is
+[20:03.260 --> 20:04.100]  and what it's not
+[20:04.100 --> 20:07.420]  because it's not everything you might think it is.
+[20:07.420 --> 20:10.940]  So what it is is you are removing,
+[20:10.940 --> 20:12.740]  when you remove an app,
+[20:12.740 --> 20:14.120]  you're removing it from the home screen.
+[20:14.120 --> 20:16.500]  You're removing all the user data associated from it.
+[20:16.500 --> 20:18.300]  You're removing all of the hooks
+[20:18.300 --> 20:20.700]  that it has into other system services
+[20:20.700 --> 20:23.620]  like Siri no longer will try to use that
+[20:23.620 --> 20:24.980]  when you talk to it and so forth.
+[20:24.980 --> 20:28.220]  We're not actually deleting the application binary
+[20:28.220 --> 20:30.820]  and the reason is really twofold.
+[20:30.820 --> 20:31.900]  One, they're small.
+[20:31.900 --> 20:33.740]  But more significantly,
+[20:33.740 --> 20:36.060]  the whole iOS security architecture
+[20:36.060 --> 20:37.540]  around the system update
+[20:37.540 --> 20:41.860]  is this one signed binary
+[20:41.860 --> 20:45.100]  where we can verify the integrity of that with every update,
+[20:45.100 --> 20:47.300]  that there's no mixing and matching going on
+[20:47.300 --> 20:48.940]  between all of these different pieces.
+[20:48.940 --> 20:53.940]  And so if you go and say, well, I don't like,
+[20:54.320 --> 20:56.280]  what's an app that someone would remove?
+[20:56.280 --> 20:57.500]  I'm gonna give myself a couple here.
+[20:57.500 --> 20:58.860]  No, I can't think of one.
+[20:58.860 --> 20:59.700]  I, I.
+[20:59.700 --> 21:01.520]  Stocks.
+[21:01.520 --> 21:02.840]  Stocks.
+[21:02.840 --> 21:03.680]  Stocks?
+[21:03.680 --> 21:04.500]  Stocks.
+[21:04.500 --> 21:05.340]  Some people don't follow the stock market.
+[21:05.340 --> 21:06.180]  Fair enough.
+[21:06.180 --> 21:07.300]  Some people do not follow the stock market
+[21:07.300 --> 21:08.140]  or there's not one in their country.
+[21:08.140 --> 21:08.960]  Which is good for them.
+[21:08.960 --> 21:09.800]  Yes.
+[21:09.800 --> 21:10.640]  Or something.
+[21:10.640 --> 21:11.460]  Yes.
+[21:11.460 --> 21:13.420]  And so they might remove that app
+[21:13.420 --> 21:16.340]  and when you do, it's hidden
+[21:16.340 --> 21:17.980]  and any user data and preferences and so forth
+[21:17.980 --> 21:18.980]  associated with it's gone.
+[21:18.980 --> 21:20.340]  If you wanna get it back,
+[21:20.340 --> 21:23.060]  we were thinking, well, how do we let you restore this?
+[21:23.060 --> 21:24.340]  And we thought, well, people are naturally,
+[21:24.340 --> 21:26.460]  when they, if they wanna go get it back,
+[21:26.460 --> 21:28.360]  they're gonna go to the app store and search for it.
+[21:28.360 --> 21:30.860]  And so you go to the app store and search for it
+[21:30.860 --> 21:34.620]  and it'll show up and you'll say get
+[21:34.620 --> 21:35.580]  and it will reappear.
+[21:35.580 --> 21:36.900]  Cause that's how they know to install it.
+[21:36.900 --> 21:37.740]  But.
+[21:37.740 --> 21:39.380]  The download will be remarkably fast.
+[21:39.380 --> 21:41.740]  Exactly.
+[21:41.740 --> 21:44.900]  Compression technology, good stuff.
+[21:44.900 --> 21:47.820]  And it has led some to mistakenly report
+[21:47.820 --> 21:50.700]  that we're moving these apps out of the system bundle
+[21:50.700 --> 21:52.960]  and into the store for downloading
+[21:52.960 --> 21:54.380]  and that's not really the case.
+[21:54.380 --> 21:55.860]  We're just making that the easy mechanism
+[21:55.860 --> 21:58.660]  for restoring, is seeing it from the store side.
+[21:58.660 --> 22:00.460]  But it's, it's really still part of the system bundle.
+[22:00.460 --> 22:01.300]  Okay.
+[22:01.300 --> 22:02.120]  Let me set the record straight here.
+[22:02.120 --> 22:03.080]  That's interesting cause that means
+[22:03.080 --> 22:04.740]  there won't be like an update to mail
+[22:04.740 --> 22:05.580]  that comes through the app store.
+[22:05.580 --> 22:07.100]  It's just, just like it used to be.
+[22:07.100 --> 22:08.420]  It'll be part of the system update.
+[22:08.420 --> 22:09.800]  That is correct.
+[22:09.800 --> 22:11.420]  Well, speaking of the app store,
+[22:13.260 --> 22:14.100]  this last week.
+[22:14.100 --> 22:14.940]  No, it's fine.
+[22:14.940 --> 22:15.760]  No.
+[22:15.760 --> 22:16.600]  No.
+[22:16.600 --> 22:17.420]  No.
+[22:17.420 --> 22:18.260]  No.
+[22:18.260 --> 22:19.100]  No.
+[22:19.100 --> 22:19.920]  A week ago.
+[22:19.920 --> 22:21.260]  There's a reason I sat on this side.
+[22:21.260 --> 22:23.420]  I just thought these two were gonna get totally nerd out
+[22:23.420 --> 22:25.100]  and I'm just gonna let them have fun.
+[22:25.100 --> 22:27.040]  And I have no problem with that.
+[22:27.040 --> 22:28.080]  A week ago,
+[22:28.080 --> 22:32.580]  there were a bunch of changes,
+[22:32.580 --> 22:34.140]  improvements to the app store.
+[22:35.340 --> 22:37.140]  In a certain sense, you could, you know,
+[22:37.140 --> 22:39.660]  are one of them and it did not get mentioned in the keynote,
+[22:39.660 --> 22:42.660]  but review times for apps submitted to the app store
+[22:42.660 --> 22:44.620]  are way faster than they used to be.
+[22:44.620 --> 22:45.460]  Yeah.
+[22:45.460 --> 22:46.280]  Yeah.
+[22:46.280 --> 22:47.120]  Yeah.
+[22:47.120 --> 22:47.960]  Yeah.
+[22:47.960 --> 22:48.780]  Yeah.
+[22:48.780 --> 22:49.620]  Yeah.
+[22:49.620 --> 22:50.460]  Yeah.
+[22:50.460 --> 22:51.280]  Yeah.
+[22:51.280 --> 22:52.120]  Yeah.
+[22:52.120 --> 22:52.960]  Yeah.
+[22:52.960 --> 22:53.780]  Yeah.
+[22:53.780 --> 22:54.620]  Yeah.
+[22:54.620 --> 22:55.780]  We thought this is one of those cases
+[22:55.780 --> 22:56.820]  where we could address a problem
+[22:56.820 --> 23:00.780]  before it starts to boil over, you know?
+[23:00.780 --> 23:03.060]  Just an anticipation of potential future.
+[23:05.820 --> 23:08.220]  For the audience at the keynote, though,
+[23:08.220 --> 23:09.740]  that to not even mention that
+[23:09.740 --> 23:13.180]  and just take that applause is amazing
+[23:13.180 --> 23:14.580]  because you know that it's coming
+[23:14.580 --> 23:17.620]  and that developers are pretty happy about that.
+[23:17.620 --> 23:20.340]  It would have been an easy way to get applause,
+[23:20.340 --> 23:22.500]  but we didn't stoop to that trick.
+[23:22.500 --> 23:25.540]  So, yeah, you know, it was exactly,
+[23:25.540 --> 23:27.780]  people have all these awesome conspiracy theories
+[23:27.780 --> 23:28.620]  and they're fun to read,
+[23:28.620 --> 23:31.700]  but it was exactly what we said,
+[23:31.700 --> 23:34.400]  which was we were working on the keynote.
+[23:34.400 --> 23:37.180]  We actually thought about having a whole developer section
+[23:37.180 --> 23:39.140]  to talk about the app store in the keynote
+[23:39.140 --> 23:41.420]  and looking at keeping it really,
+[23:41.420 --> 23:42.780]  we really wanted to get done
+[23:42.780 --> 23:44.900]  in just under two hours if we could,
+[23:44.900 --> 23:48.940]  and you couldn't really talk about that
+[23:48.940 --> 23:52.400]  in the subscription stuff and the ad search stuff
+[23:52.400 --> 23:54.340]  and all that in three minutes.
+[23:54.340 --> 23:57.420]  So we really needed probably about 15 minutes to explain
+[23:57.420 --> 24:01.500]  and it just wasn't worth losing 15 minutes of product time
+[24:01.500 --> 24:03.460]  to talk about that if we could instead
+[24:03.460 --> 24:05.340]  just talk to people ahead of time.
+[24:05.340 --> 24:07.160]  So we decided to do something we've never done before,
+[24:07.160 --> 24:11.220]  which is before the keynote, explain some of this.
+[24:11.220 --> 24:12.940]  However, it was kind of tough to do
+[24:12.940 --> 24:15.800]  because here we're talking to you and a few others
+[24:15.800 --> 24:18.420]  and saying here are things we're doing for the app store,
+[24:18.420 --> 24:22.220]  knowing that we still have to come a few days later,
+[24:22.220 --> 24:23.780]  you know, apps working with Siri
+[24:23.780 --> 24:25.020]  and apps working with messages,
+[24:25.020 --> 24:27.260]  and these are huge impacts on developers
+[24:27.260 --> 24:31.780]  and a new store for message apps were gonna come out.
+[24:31.780 --> 24:33.060]  So we couldn't really tell the whole picture
+[24:33.060 --> 24:34.340]  of all the things we were doing,
+[24:34.340 --> 24:38.180]  so we told sort of half of it and waited for the rest.
+[24:38.180 --> 24:39.540]  Well, part of it that goes together,
+[24:39.540 --> 24:43.340]  so one of the improvements last week was search ads.
+[24:45.420 --> 24:46.820]  I noticed, I don't know, Jay,
+[24:46.820 --> 24:48.860]  if you noticed before we came out,
+[24:48.860 --> 24:51.300]  there was an ad that showed up first,
+[24:51.300 --> 24:55.900]  as John, you did your ads before we started this session.
+[24:55.900 --> 24:58.400]  It was really nice, thank you.
+[25:02.400 --> 25:05.460]  And I found two of the three were relevant
+[25:05.460 --> 25:07.720]  to what we were discussing.
+[25:12.300 --> 25:14.500]  I won't, for the benefit of your advertisers,
+[25:14.500 --> 25:15.940]  I won't mention which one I didn't find
+[25:15.940 --> 25:20.940]  quite relevant to my interests, but.
+[25:26.020 --> 25:27.860]  I was gonna be nice, I was gonna say,
+[25:29.740 --> 25:31.860]  I was gonna say how there's a tie-in
+[25:31.860 --> 25:33.100]  that you couldn't mention a week ago
+[25:33.100 --> 25:35.180]  where the idea of the search ad
+[25:35.180 --> 25:37.900]  is it improves discoverability,
+[25:37.900 --> 25:40.120]  and there's a discoverability aspect
+[25:40.120 --> 25:45.120]  with the iMessage apps where if I send you a widget
+[25:45.120 --> 25:48.160]  through an iMessage app and you don't have it yet,
+[25:48.160 --> 25:50.760]  there's a very subtle, you know, this was,
+[25:50.760 --> 25:53.200]  I forget what it exactly says, but it gives you a catch.
+[25:53.200 --> 25:55.500]  Yeah, a couple of really interesting things
+[25:55.500 --> 26:00.000]  that the team did in working on these message apps
+[26:00.000 --> 26:02.420]  is, number one, that if I send you something,
+[26:02.420 --> 26:06.080]  if I send you a sticker, if I send you a jib jab,
+[26:06.080 --> 26:09.000]  you get to receive it and experience it
+[26:09.000 --> 26:10.720]  without having to download the app.
+[26:10.720 --> 26:13.360]  And so you can do that on a lot of these things
+[26:13.360 --> 26:16.200]  where some other services you're always being hit with,
+[26:16.200 --> 26:19.040]  hey, download this in order to see what someone's sending you
+[26:19.040 --> 26:20.800]  so the team really wanted to have a great experience
+[26:20.800 --> 26:23.220]  with the receiver, you don't have to do that.
+[26:23.220 --> 26:25.240]  However, there is attribution there
+[26:25.240 --> 26:26.960]  and you can choose to get it if you're like,
+[26:26.960 --> 26:28.120]  wow, those jib jabs are really cool,
+[26:28.120 --> 26:31.040]  I wanna download them too and share them with friends,
+[26:31.040 --> 26:33.280]  and hopefully that'll become a nice viral marketing
+[26:33.280 --> 26:35.200]  in addition to other ways for users
+[26:35.200 --> 26:37.140]  to discover apps and messages.
+[26:37.140 --> 26:42.140]  On search ads, make the case,
+[26:43.060 --> 26:44.900]  and when we talked last week, you did,
+[26:44.900 --> 26:48.120]  and on the phone call I thought, yeah, that makes sense.
+[26:48.120 --> 26:50.100]  And then I went away and looked at my notes
+[26:50.100 --> 26:51.940]  and I was like, I'm not sure I get it.
+[26:51.940 --> 26:54.820]  Make the case, on this particular part,
+[26:54.820 --> 26:57.620]  that the system that you guys have designed
+[26:58.940 --> 27:02.560]  can and should be to the benefit of smaller indie developers
+[27:02.560 --> 27:04.800]  and it's not going to be dominated
+[27:04.800 --> 27:09.140]  by the biggest companies with the budgets
+[27:09.140 --> 27:11.180]  that are more than everybody here combined.
+[27:12.100 --> 27:17.100]  So the two priorities we set on the team
+[27:17.620 --> 27:21.200]  as they were working on it was, if we're gonna do this,
+[27:21.200 --> 27:23.880]  we have to do it in a way that, number one,
+[27:23.880 --> 27:26.300]  protects user privacy, there are many ways
+[27:26.300 --> 27:28.540]  that companies do it where they're not protecting privacy
+[27:28.540 --> 27:30.220]  and we need to understand that,
+[27:30.220 --> 27:32.220]  and secondly, how do you do it in a way
+[27:32.220 --> 27:35.860]  that gives advantages to small and indie developers
+[27:35.860 --> 27:38.060]  because it's easy to imagine a system that didn't do that?
+[27:38.060 --> 27:40.860]  And so we set out to think of all the things we could do
+[27:40.860 --> 27:44.220]  to make that possible, and there's a long list of things,
+[27:44.220 --> 27:46.660]  and I won't go through all of them to bore you all,
+[27:46.660 --> 27:50.340]  but there are many things, things like,
+[27:50.340 --> 27:52.000]  first of all, there's no minimum bid,
+[27:52.000 --> 27:54.420]  so we don't set a bar if you have
+[27:54.420 --> 27:55.460]  a very small amount of money,
+[27:55.460 --> 27:57.300]  you can just do what you want with the small money.
+[27:57.300 --> 27:59.840]  The fact that we're gonna work really hard
+[27:59.840 --> 28:02.800]  to try to make relevance the top priority
+[28:02.800 --> 28:06.280]  over bid for why something gets shown,
+[28:06.280 --> 28:08.700]  that the users are the ultimate deciders
+[28:08.700 --> 28:12.300]  of what gets shown based on their clicks
+[28:12.300 --> 28:16.200]  are a big input to what is relevant to the search result.
+[28:16.200 --> 28:20.120]  The fact that we're gonna work hard to try to police
+[28:20.120 --> 28:21.980]  and improve the whole metadata system
+[28:21.980 --> 28:24.060]  if we find, as it easily could,
+[28:24.060 --> 28:27.500]  be abused to hurt developers.
+[28:27.500 --> 28:30.500]  The fact that, and this has been a hotly debated thing,
+[28:30.500 --> 28:33.280]  the fact that you can do conquesting,
+[28:33.280 --> 28:35.100]  you can use someone else's brand
+[28:35.100 --> 28:38.660]  in your ad words that you wanna use.
+[28:38.660 --> 28:41.180]  As we thought about it, that is more likely
+[28:41.180 --> 28:43.380]  to benefit the small developer than the big developer,
+[28:43.380 --> 28:44.900]  because the big developer isn't gonna pick
+[28:44.900 --> 28:46.560]  on a lot of small developer terms,
+[28:46.560 --> 28:48.100]  but a small developer can try to latch on
+[28:48.100 --> 28:49.400]  to a big developer's name.
+[28:49.400 --> 28:51.940]  If you wanna search for Angry Birds in your game,
+[28:51.940 --> 28:55.500]  you can, right, and so we think that that can help them.
+[28:55.500 --> 28:58.060]  The fact that there is no exclusivity,
+[28:58.060 --> 28:59.540]  so a large developer cannot say,
+[28:59.540 --> 29:01.100]  and I wanna be the top bid,
+[29:01.100 --> 29:03.440]  and I'm going to spend everything I can
+[29:03.440 --> 29:04.740]  to buy up this term.
+[29:04.740 --> 29:06.020]  There will be no exclusivity.
+[29:06.020 --> 29:07.480]  There's gonna be a rotation there,
+[29:07.480 --> 29:08.660]  and as that rotation appears,
+[29:08.660 --> 29:10.660]  the relevance will help drive it further.
+[29:10.660 --> 29:13.160]  So we're trying everything we can,
+[29:13.160 --> 29:15.700]  and I think one of the best things is right now,
+[29:15.700 --> 29:18.140]  once we're in beta throughout the summer,
+[29:18.140 --> 29:20.380]  the downloads the users get from the ads
+[29:20.380 --> 29:22.680]  are real downloads to benefit the developer,
+[29:22.680 --> 29:24.520]  but we're not charging during the beta time,
+[29:24.520 --> 29:26.540]  and so it's a chance for everybody to get in
+[29:26.540 --> 29:29.260]  and try it out, help us learn from it,
+[29:29.260 --> 29:31.340]  and drive real downloads and real business
+[29:31.340 --> 29:32.960]  without any marketing spend.
+[29:32.960 --> 29:34.680]  So we're trying to think of things we can do,
+[29:34.680 --> 29:35.920]  and we'll think of more.
+[29:35.920 --> 29:37.700]  We'll take feedback and see what's happening
+[29:37.700 --> 29:39.180]  and where it works and doesn't work,
+[29:39.180 --> 29:40.700]  and who feels like they're getting stomped on,
+[29:40.700 --> 29:43.220]  and we'll try to do all we can to make it better.
+[29:43.220 --> 29:54.140]  And the last bit of news with the App Store changes,
+[29:54.140 --> 29:58.820]  or the third of it, was an expansion of the categories
+[29:58.820 --> 29:59.860]  that are allowed for subscriptions.
+[29:59.860 --> 30:01.300]  I don't know if you noticed,
+[30:01.300 --> 30:03.220]  but there was a little bit of confusion last week
+[30:03.220 --> 30:06.660]  about the difference between apps from all categories
+[30:06.660 --> 30:08.380]  versus all apps.
+[30:08.380 --> 30:09.980]  Let me explain that.
+[30:09.980 --> 30:14.980]  So our intention is exactly as we talked about,
+[30:15.460 --> 30:19.900]  which is we're opening up subscription model
+[30:19.900 --> 30:22.540]  to all categories.
+[30:22.540 --> 30:25.020]  So what kind of an app you make
+[30:25.020 --> 30:26.480]  doesn't directly have an impact
+[30:26.480 --> 30:29.120]  on whether you can have a subscription model or not.
+[30:29.120 --> 30:31.780]  There are, we want to open up subscriptions
+[30:31.780 --> 30:33.820]  to all developers of all apps.
+[30:33.820 --> 30:35.380]  That is the hope.
+[30:35.380 --> 30:39.140]  However, there are a couple little gotchas
+[30:39.140 --> 30:40.340]  where we have to be careful,
+[30:40.340 --> 30:43.180]  and so that's why there's some caution here.
+[30:43.180 --> 30:46.540]  Number one, if you want to create a professional app
+[30:46.540 --> 30:48.480]  and you're gonna maintain it and do updates
+[30:48.480 --> 30:50.580]  and you want to have this ongoing revenue stream,
+[30:50.580 --> 30:53.300]  that's of course an intention of this.
+[30:53.300 --> 30:56.020]  But, yes, you can clap on that.
+[30:56.020 --> 31:01.020]  But do we, do users really want,
+[31:01.980 --> 31:03.620]  and I'm sorry to pick on this category
+[31:03.620 --> 31:04.520]  if somebody makes this app,
+[31:04.520 --> 31:06.700]  because I'm sure there's examples where you would want it,
+[31:06.700 --> 31:09.860]  but do you want a flashlight app to now be an app
+[31:09.860 --> 31:13.220]  you have to pay for forever with a subscription model?
+[31:13.220 --> 31:15.340]  Users probably don't want that.
+[31:15.340 --> 31:17.780]  And so we have to be sensitive, first of all,
+[31:17.780 --> 31:20.900]  to is there some minimum functionality
+[31:20.900 --> 31:23.500]  where users now get pissed off and say,
+[31:23.500 --> 31:25.140]  everything's turned to subscription,
+[31:25.140 --> 31:28.260]  I don't want to buy stuff anymore, this is not okay,
+[31:28.260 --> 31:31.420]  and now that's a drag on business on the App Store
+[31:31.420 --> 31:32.900]  and therefore we all lose.
+[31:32.900 --> 31:34.820]  So we feel a responsibility,
+[31:34.820 --> 31:36.500]  and I read your thing that says,
+[31:36.500 --> 31:38.500]  hey, why not just let the market choose,
+[31:38.500 --> 31:39.960]  well, what if the market screws itself up
+[31:39.960 --> 31:42.180]  and it does badly, and then we all lose?
+[31:42.180 --> 31:44.300]  So we have to be a little bit sensitive
+[31:44.300 --> 31:47.220]  to not do something we think that could backfire
+[31:47.220 --> 31:48.340]  and hurt all of us.
+[31:48.340 --> 31:50.700]  So we want to be careful about minimum functionality,
+[31:50.700 --> 31:52.500]  so there'll be some guideline around that,
+[31:52.500 --> 31:53.660]  which we already have a guideline
+[31:53.660 --> 31:56.160]  on minimum functionality for anything,
+[31:56.160 --> 31:58.820]  you can't just wrap a website and call it an app,
+[31:58.820 --> 32:00.460]  but there'll be a little bit more minimum functionality
+[32:00.460 --> 32:01.860]  for subscription.
+[32:01.860 --> 32:03.800]  I think the guidelines include,
+[32:03.800 --> 32:06.540]  a longstanding guideline is that the App Store has
+[32:06.540 --> 32:07.980]  plenty of fart apps already.
+[32:07.980 --> 32:10.140]  That is absolutely one of the rules.
+[32:10.140 --> 32:13.780]  And then, there is a secondary issue,
+[32:13.780 --> 32:16.340]  which is, and we're working through this,
+[32:16.340 --> 32:20.240]  there are certain states and governments
+[32:20.240 --> 32:23.560]  where there are laws about creating
+[32:23.560 --> 32:26.660]  a subscription revenue stream without a clear promise
+[32:26.660 --> 32:29.140]  to the user of what they're paying for down the road.
+[32:29.140 --> 32:31.600]  And so our legal team's been working with us on this
+[32:31.600 --> 32:34.380]  on trying to make sure we put in place in the store
+[32:34.380 --> 32:38.740]  the right way for developers to make clear their intention
+[32:38.740 --> 32:40.820]  to deliver value for that customer,
+[32:40.820 --> 32:41.940]  or else they'll be breaking the law
+[32:41.940 --> 32:43.820]  by asking for a subscription with no intention
+[32:43.820 --> 32:45.380]  to delivering value down the road.
+[32:45.380 --> 32:47.980]  And so we want to be careful of those things.
+[32:47.980 --> 32:51.340]  So those are the kinds of reasons we have caveats on it,
+[32:51.340 --> 32:54.740]  but the intention is, I think, is all what we all want.
+[32:54.740 --> 33:09.300]  The Mac App Store, I'm not going to say it's been treated
+[33:09.300 --> 33:12.180]  as the ugly stepchild, but maybe the slightly less
+[33:12.180 --> 33:14.780]  attractive stepchild.
+[33:14.780 --> 33:17.700]  And a couple of examples, TestFlight beta testing
+[33:17.700 --> 33:20.020]  was in the iOS App Store.
+[33:20.020 --> 33:23.140]  Craig, is it in the Mac App Store yet?
+[33:23.140 --> 33:23.900]  I don't think so.
+[33:23.900 --> 33:24.540]  All right.
+[33:24.540 --> 33:25.380]  So no TestFlight.
+[33:25.380 --> 33:26.620]  What the hell are you doing?
+[33:26.620 --> 33:29.620]  Video reviews.
+[33:29.620 --> 33:33.260]  I know, and it seems like that really works.
+[33:33.260 --> 33:34.740]  Instead of just static screenshots
+[33:34.740 --> 33:37.620]  to show your app on iOS, you can have a video
+[33:37.620 --> 33:39.000]  that shows it in animation.
+[33:39.000 --> 33:40.900]  And a lot of times, for developers
+[33:40.900 --> 33:44.220]  who are doing the cinematic experience of really
+[33:44.220 --> 33:47.300]  making the app feel great, the video
+[33:47.300 --> 33:52.420]  can do so much more than a static screenshot.
+[33:52.420 --> 33:55.180]  And all of the news last week applies
+[33:55.180 --> 33:57.020]  to all of the app stores.
+[33:57.020 --> 34:02.340]  So that, in and of itself, is a change in the way
+[34:02.340 --> 34:05.900]  the App Store is distributing new features.
+[34:05.900 --> 34:10.060]  So we love all of our kids, and I'm sure all of you
+[34:10.060 --> 34:11.100]  do as well, equally.
+[34:11.100 --> 34:16.980]  And so we love the Mac App Store.
+[34:16.980 --> 34:18.020]  We want it to do well.
+[34:18.020 --> 34:19.860]  We want to support the developers in it.
+[34:19.860 --> 34:21.380]  We care a lot about it.
+[34:21.380 --> 34:22.260]  We use it ourselves.
+[34:22.260 --> 34:23.660]  It's a very important store for ourselves.
+[34:23.660 --> 34:26.020]  We've moved all of our software distribution into it
+[34:26.020 --> 34:27.460]  and are very happy with that.
+[34:27.460 --> 34:30.980]  So we're one happy software developer that's using it.
+[34:30.980 --> 34:36.940]  And we still think, in the long view of all of this,
+[34:36.940 --> 34:38.660]  it matters a great deal.
+[34:38.660 --> 34:40.860]  We think it matters for privacy.
+[34:40.860 --> 34:42.300]  We think it matters for security.
+[34:42.300 --> 34:45.500]  We think it matters for quality on the store.
+[34:45.500 --> 34:47.360]  We've all seen examples of apps that
+[34:47.360 --> 34:50.100]  have been hijacked on servers where people download stuff
+[34:50.100 --> 34:52.180]  that have viruses injected in them
+[34:52.180 --> 34:54.420]  and we don't want any part of any of that, all of us.
+[34:54.420 --> 34:56.980]  So we think it's still an important solution,
+[34:56.980 --> 34:58.820]  and we're dedicated to it.
+[34:58.820 --> 35:01.420]  There are things through the years in the Mac App Store
+[35:01.420 --> 35:04.380]  that haven't been fully implemented because they didn't
+[35:04.380 --> 35:06.940]  make as much sense in the Mac as they did in iOS,
+[35:06.940 --> 35:11.300]  or the engineering effort was really high for a benefit that
+[35:11.300 --> 35:13.700]  wasn't seen as as big, or whatever.
+[35:13.700 --> 35:19.620]  An example, so TestFlight, for the engineering involved there,
+[35:19.620 --> 35:22.020]  people have felt that there are a lot of opportunities
+[35:22.020 --> 35:25.420]  in the Mac from the website to download apps for test
+[35:25.420 --> 35:28.220]  and to distribute beta software.
+[35:28.220 --> 35:30.180]  So the need wasn't as great.
+[35:30.180 --> 35:32.660]  It was a clear need on iOS, not as clear on Mac.
+[35:32.660 --> 35:36.420]  So that's why some decisions were made and trade-offs there.
+[35:36.420 --> 35:39.840]  But as you say, as I've been working more with the App Store
+[35:39.840 --> 35:44.420]  team since December, I've really pushed the team
+[35:44.420 --> 35:48.260]  to please make sure everything makes sense across all
+[35:48.260 --> 35:49.940]  the stores as much as possible.
+[35:49.940 --> 35:51.460]  And maybe there'll be some exception
+[35:51.460 --> 35:53.700]  to that that we have to make, but we don't want to.
+[35:53.700 --> 35:56.620]  We want to try to do everything the same on all the stores
+[35:56.620 --> 35:59.260]  as much as possible, including the Mac App Store.
+[35:59.260 --> 36:07.740]  So one thing the Mac App Store has been good for,
+[36:07.740 --> 36:10.860]  and the Mac software ecosystem in general is good for,
+[36:10.860 --> 36:14.700]  is that it seems to support higher prices of apps
+[36:14.700 --> 36:19.380]  for truly professional apps, deeper apps.
+[36:19.380 --> 36:22.620]  And there's a consensus, or maybe not
+[36:22.620 --> 36:24.740]  consensus is the wrong word, maybe you'll disagree.
+[36:24.740 --> 36:25.940]  But there's a lot of people who think
+[36:25.940 --> 36:28.260]  that one of the things that's holding back the iPad,
+[36:28.260 --> 36:30.700]  especially now that it's the iPad Pro,
+[36:30.700 --> 36:36.140]  from replacing a MacBook for someone who might want to
+[36:36.140 --> 36:42.420]  is that it lacks the same depth of deep apps for work
+[36:42.420 --> 36:43.340]  that the Mac has.
+[36:43.340 --> 36:47.300]  And the reason is that the pricing pressure is more
+[36:47.300 --> 36:49.660]  like iPhone style, a couple of bucks,
+[36:49.660 --> 36:54.220]  as opposed to Mac style, where $50, $80, $100 software
+[36:54.220 --> 36:58.220]  has long been the norm.
+[36:58.220 --> 37:00.900]  I think you see two things happening at the same time.
+[37:00.900 --> 37:04.260]  Number one, the iPad's capabilities
+[37:04.260 --> 37:09.340]  are growing as a PC replacement product for some people.
+[37:09.340 --> 37:11.820]  I know some people have made some statements about that.
+[37:11.820 --> 37:12.740]  I don't know who.
+[37:12.740 --> 37:17.700]  And so we're trying to make it more and more powerful,
+[37:17.700 --> 37:20.340]  making it larger screens, keyboards,
+[37:20.340 --> 37:22.340]  the more powerful processors, and all
+[37:22.340 --> 37:25.660]  that's happening to drive it into a more capable product.
+[37:25.660 --> 37:27.700]  At the same time, you start to see
+[37:27.700 --> 37:29.260]  more professional applications begin
+[37:29.260 --> 37:30.860]  to make their way onto it.
+[37:30.860 --> 37:34.220]  And so I think we're seeing changes there.
+[37:34.220 --> 37:36.620]  We're seeing certainly apps that have
+[37:36.620 --> 37:40.580]  a similar version on your iPhone that you want on your iPad
+[37:40.580 --> 37:41.660]  will have similar pricing.
+[37:41.660 --> 37:43.140]  But other apps that are maybe coming
+[37:43.140 --> 37:46.140]  over from the Mac or the PC are bringing on pricing models
+[37:46.140 --> 37:47.220]  that are more like that.
+[37:47.220 --> 37:51.140]  And so you're going to see this duality with iPad,
+[37:51.140 --> 37:52.900]  that there's a little of both happening.
+[37:52.900 --> 37:55.780]  And we see an increase of the more professional apps
+[37:55.780 --> 37:56.420]  happening.
+[37:56.420 --> 37:58.500]  And we see stuff in flight with developers
+[37:58.500 --> 38:00.380]  we're working on that's really impressive,
+[38:00.380 --> 38:03.340]  desktop quality software, more and more coming to iPad.
+[38:03.340 --> 38:04.860]  Yeah, it's definitely not the hardware,
+[38:04.860 --> 38:08.460]  because the iPad Pro stands toe to toe with the MacBooks
+[38:08.460 --> 38:11.100]  on any technical measure you can give it.
+[38:11.100 --> 38:13.780]  I mean, it's beautiful displays, powerful CPUs,
+[38:13.780 --> 38:15.820]  and stuff like that, so it's not holding it back.
+[38:15.820 --> 38:18.060]  And I do think if you really look
+[38:18.060 --> 38:22.340]  at some of the professional apps that are on the iPad,
+[38:22.340 --> 38:23.820]  some of them are really first class.
+[38:23.820 --> 38:27.620]  And I think the iPad Pro is going to accelerate that.
+[38:27.620 --> 38:31.060]  And we absolutely want to find any way possible
+[38:31.060 --> 38:35.460]  to make deep investment by developers in the platform
+[38:35.460 --> 38:38.980]  possible, because I think we'll all win when that happens.
+[38:38.980 --> 38:40.460]  All right, new topic.
+[38:40.460 --> 38:42.580]  Privacy and security.
+[38:42.580 --> 38:44.900]  I remember a couple of years ago, maybe more,
+[38:44.900 --> 38:46.060]  I don't know how many years.
+[38:46.060 --> 38:49.020]  But I was at WWDC, and I somehow wound up
+[38:49.020 --> 38:50.700]  in a session on security.
+[38:50.700 --> 38:52.220]  I don't even know why I was there.
+[38:52.220 --> 38:53.980]  But I was interested.
+[38:53.980 --> 38:55.820]  I think I was talking to somebody.
+[38:55.820 --> 38:57.340]  He's like, I've got to go into this thing on security.
+[38:57.340 --> 38:58.140]  And I was like, well, I'll go with you.
+[38:58.140 --> 38:59.300]  And I went in and listened.
+[38:59.300 --> 39:01.460]  And at the end, it was when they were still doing Q&As.
+[39:01.460 --> 39:04.980]  And I remember this very vividly.
+[39:04.980 --> 39:07.180]  And somebody asked the question of somebody
+[39:07.180 --> 39:10.860]  who was on the engineering team in charge of security
+[39:10.860 --> 39:12.940]  gave a rant about how passwords are terrible.
+[39:12.940 --> 39:14.740]  And people pick bad passwords because they're
+[39:14.740 --> 39:15.500]  easy to remember.
+[39:15.500 --> 39:19.660]  And passwords that are hard to remember or hard to crack
+[39:19.660 --> 39:23.780]  or hard to guess are unusable or less usable.
+[39:23.780 --> 39:25.900]  Have you guys given any thought to what's
+[39:25.900 --> 39:27.700]  next beyond passwords?
+[39:27.700 --> 39:29.060]  And there is this pause.
+[39:29.060 --> 39:33.060]  And the speaker, yes.
+[39:33.060 --> 39:33.580]  Yes.
+[39:36.580 --> 39:39.860]  And it was like, well, that's a very interesting and truthful
+[39:39.860 --> 39:40.380]  answer.
+[39:40.380 --> 39:42.860]  And we've seen, I think, in the intervening years
+[39:42.860 --> 39:46.420]  some of the things that might have been circulating, Touch ID.
+[39:46.420 --> 39:48.460]  And now, one of my favorite features
+[39:48.460 --> 39:52.020]  you guys announced yesterday, can't wait to use it, is Auto
+[39:52.020 --> 39:52.580]  Unlock.
+[39:52.580 --> 39:53.220]  Auto Unlock.
+[39:53.220 --> 39:53.700]  Yeah.
+[39:53.700 --> 39:54.180]  Yeah.
+[39:54.180 --> 39:56.380]  Yeah.
+[39:56.380 --> 39:59.660]  So can you talk about how that came to be?
+[39:59.660 --> 40:00.660]  Which part of it?
+[40:00.660 --> 40:02.380]  I mean, our caring about security?
+[40:02.380 --> 40:03.100]  Well, no, no.
+[40:03.100 --> 40:05.100]  With Auto Unlock in particular, the details
+[40:05.100 --> 40:09.940]  of what are you guys doing to make Auto Unlock as truly
+[40:09.940 --> 40:13.500]  secure, that it's not, that I'm not over here opening
+[40:13.500 --> 40:16.780]  Phil's MacBook because he's in the room?
+[40:16.780 --> 40:17.340]  Yeah.
+[40:17.340 --> 40:17.860]  Yeah.
+[40:17.860 --> 40:21.780]  Well, I mean, of course, it's a continuation
+[40:21.780 --> 40:25.300]  of the work we did with continuity
+[40:25.300 --> 40:30.300]  to develop really low power, BTLE-based discovery
+[40:30.300 --> 40:32.460]  protocols so your devices could discover each other
+[40:32.460 --> 40:35.980]  continuously with acceptable overhead from a battery point
+[40:35.980 --> 40:36.540]  of view.
+[40:36.540 --> 40:38.740]  And also all the authentication mechanisms
+[40:38.740 --> 40:41.940]  we put in place as far as having your devices
+[40:41.940 --> 40:43.700]  know that they're your devices.
+[40:43.700 --> 40:45.540]  So that's kind of a foundation.
+[40:45.540 --> 40:48.860]  The unique challenge with Auto Unlock
+[40:48.860 --> 40:51.900]  is you don't want a kind of relay attack
+[40:51.900 --> 40:57.100]  where Phil is actually well far away from his office
+[40:57.100 --> 41:00.180]  and someone basically has a Bluetooth listener
+[41:00.180 --> 41:04.020]  that's going to forward a signal to you because you're now
+[41:04.020 --> 41:05.900]  by his Mac.
+[41:05.900 --> 41:08.620]  And this Mac is having a conversation
+[41:08.620 --> 41:12.860]  with Phil's watch over a very long distance.
+[41:12.860 --> 41:17.940]  And so we're actually able to do time of flight calculation
+[41:17.940 --> 41:21.900]  using peer-to-peer Wi-Fi where we literally
+[41:21.900 --> 41:24.260]  can measure how long at the speed of light
+[41:24.260 --> 41:26.980]  it's taking for the signal to travel from your watch
+[41:26.980 --> 41:28.900]  to your Mac and back.
+[41:28.900 --> 41:35.500]  And that's a very fast stopwatch.
+[41:35.500 --> 41:39.340]  And because of that, if you interposed any kind of relay,
+[41:39.340 --> 41:42.380]  it would introduce a delay that immediately would tell us
+[41:42.380 --> 41:43.460]  there's high jinks afoot.
+[41:43.460 --> 41:45.380]  Yeah, make sure they type in their password.
+[41:45.380 --> 41:46.660]  Yes, yeah, absolutely.
+[41:46.660 --> 41:48.940]  And so that piece is critical.
+[41:48.940 --> 41:51.340]  But I think on the bigger picture,
+[41:51.340 --> 41:55.740]  Touch ID is one way that we've helped with passwords.
+[41:55.740 --> 41:59.940]  But actually, on iOS, the Secure Enclave
+[41:59.940 --> 42:02.260]  and that whole architecture, the fact
+[42:02.260 --> 42:05.860]  that your device is not encrypted just
+[42:05.860 --> 42:08.740]  with your password, with your passcode, which honestly,
+[42:08.740 --> 42:10.740]  whether it's four digits or six digits,
+[42:10.740 --> 42:16.540]  is short enough that if a brute force attack were possible,
+[42:16.540 --> 42:18.220]  you readily could break into something.
+[42:18.220 --> 42:21.540]  But instead, it's entangled with a hardware key
+[42:21.540 --> 42:23.180]  that only the Secure Enclave runs.
+[42:23.180 --> 42:27.660]  And the Secure Enclave will only do its unwrapping
+[42:27.660 --> 42:29.820]  when running Apple-signed software,
+[42:29.820 --> 42:32.220]  and will only let you try 10 times.
+[42:32.220 --> 42:38.980]  And so fundamentally, yeah, that was the first very important
+[42:38.980 --> 42:41.540]  step to saying you could have a practical length passcode
+[42:41.540 --> 42:43.700]  with really industrial strength security.
+[42:43.700 --> 42:46.140]  And so we keep pushing on this.
+[42:46.140 --> 42:48.980]  Continuing on the sort of privacy vein,
+[42:48.980 --> 42:55.980]  I think it's a good segue into Siri, quote unquote,
+[42:55.980 --> 42:58.140]  deep learning, AI, these sort of features
+[42:58.140 --> 43:02.180]  that you guys was a big part of the presentation yesterday.
+[43:02.180 --> 43:06.980]  Because a big part of your onstage message about it
+[43:06.980 --> 43:10.540]  was the emphasis on the way that the systems are designed
+[43:10.540 --> 43:16.380]  to protect users' privacy and the technical implications
+[43:16.380 --> 43:18.580]  of that.
+[43:18.580 --> 43:22.300]  So one of my questions, when does deep learning happen?
+[43:22.300 --> 43:24.500]  So I'm on the phone, and I'm taking
+[43:24.500 --> 43:28.700]  a couple of pictures of the event and stuff like that.
+[43:28.700 --> 43:32.220]  When does that analysis occur?
+[43:32.220 --> 43:35.020]  Yeah, so if you upgrade your device to iOS 10,
+[43:35.020 --> 43:39.020]  and you have your photo library there with your 10,000 photos
+[43:39.020 --> 43:43.420]  or 100,000 photos on it, the analysis of that kind of backlog
+[43:43.420 --> 43:46.380]  will occur when you're plugged in on AC overnight.
+[43:46.380 --> 43:48.860]  Because this is a considerable amount of computation
+[43:48.860 --> 43:50.500]  that's going to occur that we will not
+[43:50.500 --> 43:52.580]  have happen in your pocket.
+[43:52.580 --> 43:56.620]  But when you're out taking a fresh picture, at that point,
+[43:56.620 --> 44:00.980]  we will instantaneously perform the analysis on that hot photo
+[44:00.980 --> 44:03.140]  as it's going into your photo library.
+[44:03.140 --> 44:05.820]  We can do it that fast.
+[44:05.820 --> 44:09.140]  It is like scene classification I mentioned yesterday.
+[44:09.140 --> 44:09.780]  Is it yesterday?
+[44:09.780 --> 44:11.060]  Yeah.
+[44:11.060 --> 44:13.540]  That took a long time ago.
+[44:13.540 --> 44:17.260]  That it is like about 11 billion calculations
+[44:17.260 --> 44:19.300]  that have to occur to do that thing like that's
+[44:19.300 --> 44:20.460]  a horse, that's a mountain.
+[44:23.460 --> 44:28.260]  But with the GPUs on iOS devices these days really cook.
+[44:28.260 --> 44:31.940]  So we can get through that essentially instantaneously
+[44:31.940 --> 44:33.220]  with the photos.
+[44:36.180 --> 44:38.380]  And on the privacy part, my understanding,
+[44:38.380 --> 44:40.380]  and correct me if I'm wrong, but my understanding
+[44:40.380 --> 44:45.060]  from what I've learned is if you've got iCloud photo
+[44:45.060 --> 44:47.740]  library and I take a couple of pictures with my iPhone,
+[44:47.740 --> 44:50.260]  the photos will sync to the cloud
+[44:50.260 --> 44:53.940]  and then they will go to my iPad and my Mac.
+[44:53.940 --> 44:57.620]  But the deep learning analysis doesn't go with them.
+[44:57.620 --> 45:03.700]  Each machine performs its own processing on its own time
+[45:03.700 --> 45:05.340]  when it's plugged in and appropriate.
+[45:05.340 --> 45:06.020]  Is that true?
+[45:06.020 --> 45:07.820]  That is true right now.
+[45:07.820 --> 45:12.220]  So each device does its own processing.
+[45:12.220 --> 45:15.060]  In the future we could share the results
+[45:15.060 --> 45:17.020]  of like the first one who does the work,
+[45:17.020 --> 45:21.140]  just make that work go along for the ride.
+[45:21.140 --> 45:25.700]  But today it's going to be each device doing it independently.
+[45:25.700 --> 45:27.660]  When you think about what's going to happen,
+[45:27.660 --> 45:33.700]  if we release iOS and OS X on separate days,
+[45:33.700 --> 45:36.780]  everyone's iPhones will race to do all this work
+[45:36.780 --> 45:39.900]  on their library first.
+[45:39.900 --> 45:44.220]  And then the Mac will be fine at that point.
+[45:44.220 --> 45:45.740]  So we wouldn't have saved the iPhones
+[45:45.740 --> 45:50.100]  from doing the work if we'd had them share the work of the Mac.
+[45:50.100 --> 45:52.660]  Just to add on that view of Sunday,
+[45:52.660 --> 45:54.580]  they may not all have to do it, it's
+[45:54.580 --> 45:58.260]  a view where Apple will never actually
+[45:58.260 --> 45:59.740]  know that analysis ourselves.
+[45:59.740 --> 46:01.500]  We won't see that data.
+[46:01.500 --> 46:04.340]  It's a way to do it where we're out of the loop.
+[46:04.340 --> 46:07.700]  Yeah, I mean, just to be clear, the photos themselves
+[46:07.700 --> 46:10.180]  are the architecture, such that they're
+[46:10.180 --> 46:11.220]  encrypted in the cloud.
+[46:11.220 --> 46:14.700]  And the metadata, any metadata about the photos
+[46:14.700 --> 46:18.300]  that you create or that we create through deep learning
+[46:18.300 --> 46:20.900]  classification is encrypted in a way
+[46:20.900 --> 46:22.540]  that Apple's not reading it.
+[46:30.540 --> 46:33.900]  I want to get nerdy on this differential privacy thing.
+[46:33.900 --> 46:36.740]  Because it's a phrase, it's like an official thing.
+[46:36.740 --> 46:37.900]  I've learned a little more.
+[46:37.900 --> 46:39.580]  It's not just a phrase you guys made up.
+[46:39.580 --> 46:40.580]  It's like a, uh.
+[46:40.580 --> 46:42.820]  It wouldn't have been the phrase we would have made up.
+[46:42.820 --> 46:44.740]  Right.
+[46:44.740 --> 46:46.780]  Yeah, we would have done a better name
+[46:46.780 --> 46:47.820]  if that's what we did.
+[46:50.460 --> 46:52.220]  But like in the State of the Union yesterday,
+[46:52.220 --> 46:54.300]  I mean, there's real math behind it.
+[46:54.300 --> 46:57.860]  This is not just a name that is applied to policies.
+[46:57.860 --> 47:01.980]  This is a branch of statistical analysis
+[47:01.980 --> 47:04.180]  that it, talk to me about it.
+[47:04.180 --> 47:06.500]  Give me a little, I know you touched about it in a keynote.
+[47:06.500 --> 47:09.060]  But give us like a little slightly juicier layman's
+[47:09.060 --> 47:11.220]  overview of differential privacy.
+[47:11.220 --> 47:12.180]  Sure.
+[47:12.180 --> 47:14.780]  Yeah, I mean, of course the idea is
+[47:14.780 --> 47:22.660]  that if we wanted to know what word, a new word that everyone
+[47:22.660 --> 47:25.420]  was, that lots of people were typing that we didn't know
+[47:25.420 --> 47:27.580]  so that we would stop marking it as a spelling error.
+[47:27.580 --> 47:29.460]  Or maybe we'd even suggest it on the keyboard.
+[47:29.460 --> 47:30.740]  Like me.
+[47:30.740 --> 47:33.460]  Yeah, like now it's just, it's trending, it's hot.
+[47:33.460 --> 47:36.660]  We want all our customers to be able to know that word.
+[47:36.660 --> 47:38.500]  But we don't want to know that you and Phil
+[47:38.500 --> 47:39.980]  are in particular typing it.
+[47:39.980 --> 47:42.780]  We want to have no way to have any knowledge of that.
+[47:42.780 --> 47:46.460]  You can imagine if what we're essentially assembling
+[47:46.460 --> 47:52.220]  is a picture of little pieces of data, of the forest.
+[47:52.220 --> 47:53.980]  But all we're getting is a little piece.
+[47:53.980 --> 47:56.140]  And when we get that little piece,
+[47:56.140 --> 47:59.540]  even each device will statistically much of the time
+[47:59.540 --> 48:02.380]  even lie about its little piece.
+[48:02.380 --> 48:06.300]  But those lies will all cancel out with enough data.
+[48:06.300 --> 48:09.180]  And the picture will suddenly resolve,
+[48:09.180 --> 48:12.740]  with enough data points, will resolve itself.
+[48:12.740 --> 48:15.380]  And so, and yet, and literally if we
+[48:15.380 --> 48:20.020]  were trying to learn a word, we would send one bit.
+[48:20.020 --> 48:23.340]  We'd send a position, and we'd hash the word.
+[48:23.340 --> 48:26.100]  We'd send a single bit from the hash.
+[48:26.100 --> 48:29.380]  We'd say at position 23, Phil saw a one.
+[48:29.380 --> 48:31.860]  But Phil's phone would flip a coin and actually say,
+[48:31.860 --> 48:33.260]  actually I'm going to lie about it.
+[48:33.260 --> 48:35.380]  I'm going to say zero even though I saw a one.
+[48:35.380 --> 48:37.340]  And that's the data that goes to Apple.
+[48:37.340 --> 48:39.180]  Then Apple, with enough of that data,
+[48:39.180 --> 48:42.180]  can build a composite picture and say, holy smokes,
+[48:42.180 --> 48:43.380]  we have a word here.
+[48:43.380 --> 48:45.860]  And this many people roughly are seeing it.
+[48:45.860 --> 48:47.620]  And that's typically what you want to know.
+[48:47.620 --> 48:50.060]  You want to know what's happening at large,
+[48:50.060 --> 48:52.580]  but we have no desire to know what specifically
+[48:52.580 --> 48:53.460]  who is doing what.
+[48:53.460 --> 48:54.860]  It's typically what you would want to know.
+[48:54.860 --> 48:57.580]  It's not typically what other companies in the industry
+[48:57.580 --> 48:58.780]  would want to know.
+[48:58.780 --> 49:01.500]  And part of the reason this is so important to get into
+[49:01.500 --> 49:05.140]  is because the theory that, well, we can just
+[49:05.140 --> 49:08.260]  anonymize the data and send it up, and then all is good.
+[49:08.260 --> 49:11.820]  And it's a bunch of crap because I can send all this data
+[49:11.820 --> 49:14.420]  and say, I don't know who you are,
+[49:14.420 --> 49:17.860]  but I happen to know the same location you go to every night.
+[49:17.860 --> 49:20.100]  I happen to know the same place you go to work every day.
+[49:20.100 --> 49:21.060]  I've got all this data.
+[49:21.060 --> 49:23.260]  I just don't know your name or your ID.
+[49:23.260 --> 49:26.620]  Boy, it's really hard to reverse engineer that anonymous data.
+[49:26.620 --> 49:28.860]  And so what you need to do is create a system that goes beyond
+[49:28.860 --> 49:32.300]  anonymizing to really make it impossible to reconfigure
+[49:32.300 --> 49:33.260]  who that user is.
+[49:33.260 --> 49:33.780]  So who?
+[49:33.780 --> 49:34.280]  Who?
+[49:34.280 --> 49:34.780]  Who?
+[49:34.780 --> 49:35.280]  Who?
+[49:35.280 --> 49:35.780]  Who?
+[49:35.780 --> 49:36.280]  Who?
+[49:36.280 --> 49:36.780]  Who?
+[49:36.780 --> 49:37.280]  Who?
+[49:37.280 --> 49:37.780]  Who?
+[49:37.780 --> 49:38.280]  Who?
+[49:38.280 --> 49:38.780]  Who?
+[49:38.780 --> 49:39.280]  Who?
+[49:39.280 --> 49:39.780]  Who?
+[49:39.780 --> 49:40.280]  Who?
+[49:40.280 --> 49:40.780]  Who?
+[49:40.780 --> 49:41.280]  Who?
+[49:41.280 --> 49:41.780]  Who?
+[49:41.780 --> 49:42.280]  Who?
+[49:42.280 --> 49:42.780]  Who?
+[49:42.780 --> 49:45.260]  So the way I have it written down here is that if it works,
+[49:45.260 --> 49:47.580]  as you're describing it, it means it's not just
+[49:47.580 --> 49:51.580]  that Apple doesn't use that information to reverse
+[49:51.580 --> 49:54.060]  the anonymity, it's that mathematically you can't.
+[49:54.060 --> 49:55.020]  We can't.
+[49:55.020 --> 49:55.540]  Right.
+[49:55.540 --> 49:59.300]  The design of the system is such that it's not even possible
+[49:59.300 --> 50:02.100]  if new executives come in in a few years
+[50:02.100 --> 50:06.180]  and maybe they would like to poke around.
+[50:06.180 --> 50:07.340]  But companies change.
+[50:07.340 --> 50:08.260]  I mean, that is true.
+[50:08.260 --> 50:09.740]  No, no, that's absolutely true.
+[50:09.740 --> 50:13.020]  And the point of view, I mean, honestly, the point of view
+[50:13.020 --> 50:17.900]  that someone says, hey, I know we know a ton about you,
+[50:17.900 --> 50:19.700]  but don't worry.
+[50:19.700 --> 50:21.380]  We're nice guys.
+[50:21.380 --> 50:23.800]  And it's all good.
+[50:23.800 --> 50:26.540]  Well, OK, maybe you're nice guys 10 years from now
+[50:26.540 --> 50:27.900]  who's running this thing.
+[50:27.900 --> 50:30.420]  Or what if someone breaks into your computers?
+[50:30.420 --> 50:32.060]  Are they nice guys?
+[50:32.060 --> 50:35.020]  So you just don't want to have any central source that
+[50:35.020 --> 50:37.180]  has that kind of knowledge, because in the fullness
+[50:37.180 --> 50:40.860]  of time, anything is possible.
+[50:40.860 --> 50:43.900]  And so differential privacy is, I mean,
+[50:43.900 --> 50:49.180]  there are mathematical proofs that will show that you cannot,
+[50:49.180 --> 50:52.620]  with any confidence, determine anything about any of the people
+[50:52.620 --> 50:53.780]  contributing to the data set.
+[50:53.780 --> 50:55.060]  And we think that's important.
+[50:55.060 --> 50:55.560]  All right.
+[50:55.560 --> 50:58.940]  Speaking of companies that do collect some information
+[50:58.940 --> 51:01.900]  about people, Google and Facebook
+[51:01.900 --> 51:04.380]  are two competitors that, and I know a lot of times
+[51:04.380 --> 51:05.460]  when you guys talk about these companies,
+[51:05.460 --> 51:06.920]  you might talk about search engines
+[51:06.920 --> 51:09.700]  and you might talk about social networks,
+[51:09.700 --> 51:11.620]  because you're a gentleman.
+[51:11.620 --> 51:13.980]  But I will name names, and I'm going
+[51:13.980 --> 51:16.860]  to just point out that Google and Facebook are both
+[51:16.860 --> 51:21.040]  and actively pursuing a lot of the same goals.
+[51:21.040 --> 51:25.120]  I mean, just the image analysis, that's a mountain,
+[51:25.120 --> 51:28.700]  that's a horse, those companies are showing similar things.
+[51:28.700 --> 51:31.580]  You guys are showing this.
+[51:31.580 --> 51:34.580]  But it really is, I don't want to abuse the metaphor,
+[51:34.580 --> 51:36.760]  but it's 180 degree different tactic,
+[51:36.760 --> 51:39.980]  where they're doing it with cloud servers
+[51:39.980 --> 51:42.880]  and doing the computing in the cloud on data
+[51:42.880 --> 51:44.980]  that they've aggregated there.
+[51:44.980 --> 51:49.380]  And your method is to do it distributed
+[51:49.380 --> 51:52.300]  on the actual devices.
+[51:52.300 --> 51:54.900]  Critics are saying, and I'm not me, I'm not saying this,
+[51:54.900 --> 51:56.980]  I'm like, let's see.
+[51:56.980 --> 52:00.420]  No, I mean, I'm totally like, OK, I saw your keynote,
+[52:00.420 --> 52:02.220]  I'm looking forward to trying it,
+[52:02.220 --> 52:04.860]  and let's see if it works for me.
+[52:04.860 --> 52:06.380]  I don't know.
+[52:06.380 --> 52:09.820]  I think it might, but critics are saying,
+[52:09.820 --> 52:11.940]  critics are already saying, and they've obviously
+[52:11.940 --> 52:13.520]  since the keynote was just yesterday,
+[52:13.520 --> 52:15.100]  I've seen it in a couple of articles,
+[52:15.100 --> 52:20.900]  that your strategy is doomed to keep Apple behind them,
+[52:20.900 --> 52:24.300]  because the Google and Facebook way is the only way that works.
+[52:24.300 --> 52:26.800]  And I'm not quite sure where that comes from,
+[52:26.800 --> 52:28.820]  because their PR department.
+[52:28.820 --> 52:38.540]  I mean, of a prominent search engine or social network
+[52:38.540 --> 52:40.940]  provider that we don't know about.
+[52:40.940 --> 52:43.740]  I think part of it, in my mind, is
+[52:43.740 --> 52:46.140]  maybe there's an assumption on the part of some people
+[52:46.140 --> 52:50.540]  in the press that a server farm has
+[52:50.540 --> 52:53.620]  this massive amount of computational power,
+[52:53.620 --> 52:57.380]  and that a puny little phone can't compete.
+[52:57.380 --> 53:00.020]  But it's not like there's one person's iPhone who's
+[53:00.020 --> 53:02.660]  trying to do the image analysis for all the photos on iCloud.
+[53:02.660 --> 53:05.060]  Like there are a billion phones to throw at this problem.
+[53:05.060 --> 53:07.180]  Right, a billion active devices.
+[53:07.180 --> 53:09.300]  So the billion active Apple devices
+[53:09.300 --> 53:10.820]  that are out there in the aggregate
+[53:10.820 --> 53:13.140]  have an enormous amount of CPU power.
+[53:13.140 --> 53:13.740]  That's right.
+[53:13.740 --> 53:14.700]  That's right.
+[53:14.700 --> 53:16.300]  The other thing is there's this idea
+[53:16.300 --> 53:18.700]  that, well, if you don't have the data,
+[53:18.700 --> 53:20.380]  how would you ever learn?
+[53:20.380 --> 53:23.060]  Well, it turns out if you want to get pictures of mountains,
+[53:23.060 --> 53:25.300]  you don't need to get it out of people's personal photo
+[53:25.300 --> 53:26.260]  libraries.
+[53:26.260 --> 53:31.820]  Like, we found out we could find some pictures of some mountains.
+[53:31.820 --> 53:33.980]  We did some tough detective work, and we found them.
+[53:33.980 --> 53:44.660]  So that's pretty good.
+[53:44.660 --> 53:45.660]  So moving on, Siri.
+[53:49.940 --> 53:52.420]  Siri now has an API.
+[53:52.420 --> 53:56.380]  And it's six categories.
+[53:56.380 --> 53:57.460]  I don't know if I wrote it.
+[53:57.460 --> 53:58.500]  I didn't write them down.
+[53:58.500 --> 54:00.860]  But it's like ride sharing.
+[54:00.860 --> 54:03.700]  Messaging, photo search.
+[54:03.700 --> 54:06.060]  Voice calls.
+[54:06.060 --> 54:06.860]  Payment.
+[54:06.860 --> 54:09.180]  We're missing one more.
+[54:09.180 --> 54:10.100]  Why?
+[54:10.100 --> 54:11.820]  Sending money, yeah.
+[54:11.820 --> 54:12.620]  No, we did payment.
+[54:12.620 --> 54:13.780]  All right.
+[54:13.780 --> 54:15.180]  I can say it a few different ways.
+[54:15.180 --> 54:16.060]  We can get past this.
+[54:16.060 --> 54:17.860]  Well, there's six distinct categories.
+[54:17.860 --> 54:18.700]  Workouts.
+[54:18.700 --> 54:19.220]  There we go.
+[54:19.220 --> 54:20.780]  Thank you.
+[54:20.780 --> 54:23.140]  This is why I should have a live audience for all my shows.
+[54:23.140 --> 54:23.700]  There's crowdsourcing right here.
+[54:23.700 --> 54:25.380]  But it's totally anonymous.
+[54:25.380 --> 54:26.620]  And we don't know who said it.
+[54:26.620 --> 54:27.100]  We don't.
+[54:27.100 --> 54:38.780]  So why restrict Siri to those six specific categories?
+[54:38.780 --> 54:42.380]  Yeah, it comes down to modeling the domains well.
+[54:42.380 --> 54:46.420]  In order to understand what someone is saying,
+[54:46.420 --> 54:48.620]  people are going to speak to Siri
+[54:48.620 --> 54:50.260]  in a whole bunch of different ways,
+[54:50.260 --> 54:52.500]  and even in a whole bunch of different languages.
+[54:52.500 --> 54:59.980]  And when they want to say, send a message to Phil saying
+[54:59.980 --> 55:02.260]  that I'm going to be late for the interview,
+[55:02.260 --> 55:07.580]  then I could have said that in dozens of other ways.
+[55:07.580 --> 55:09.500]  I could have said, WeChat Phil that I'm
+[55:09.500 --> 55:11.540]  going to be late for the interview, WeChat Phil
+[55:11.540 --> 55:15.620]  using WeChat, telling him that, et cetera.
+[55:15.620 --> 55:17.860]  And I even could say something like, WeChat Phil.
+[55:17.860 --> 55:20.220]  And then I'd need to know, OK, well,
+[55:20.220 --> 55:22.940]  what do you want to say to him?
+[55:22.940 --> 55:26.100]  And Siri knows all of this because Siri understands
+[55:26.100 --> 55:27.780]  the domain of messaging well.
+[55:27.780 --> 55:29.780]  It understands all the vocabulary.
+[55:29.780 --> 55:34.580]  It understands what the verbs are, what the objects are,
+[55:34.580 --> 55:37.860]  and can collect them and can do so in a dialogue.
+[55:37.860 --> 55:39.460]  And so we want to make sure that when
+[55:39.460 --> 55:43.140]  you're talking to your assistant that your assistant is
+[55:43.140 --> 55:47.460]  consistently intelligent about understanding you
+[55:47.460 --> 55:49.460]  and how flexible you can be in talking to it.
+[55:49.460 --> 55:51.820]  And so to do that, we had to develop those domains.
+[55:51.820 --> 55:54.260]  And so these are the domains that we've developed in a way
+[55:54.260 --> 55:55.980]  that developers can plug in.
+[55:55.980 --> 55:58.360]  We'll do more and more of that over time.
+[55:58.360 --> 56:01.500]  And of course, we'll search for more and more flexible ways
+[56:01.500 --> 56:03.220]  to enable developers to do that time.
+[56:03.220 --> 56:05.220]  But we want to make sure that what we do
+[56:05.220 --> 56:08.620]  is preserve the intelligence of your assistant.
+[56:08.620 --> 56:11.460]  It would have been super easy for us to say,
+[56:11.460 --> 56:15.180]  hey, just tell us a trigger word or the name of your app,
+[56:15.180 --> 56:17.100]  and we'll hand you a string.
+[56:17.100 --> 56:18.580]  And good luck.
+[56:18.580 --> 56:20.060]  And so you'd say something to Siri.
+[56:20.060 --> 56:22.700]  And most of the time, you'd get back the app
+[56:22.700 --> 56:24.140]  doing something crazy.
+[56:24.140 --> 56:25.860]  And the user would say, what in the heck?
+[56:25.860 --> 56:27.020]  Siri doesn't understand me.
+[56:27.020 --> 56:28.860]  I don't understand this.
+[56:28.860 --> 56:31.340]  And in this case, we're able to be consistent about Siri's
+[56:31.340 --> 56:32.420]  ability to understand you.
+[56:32.420 --> 56:35.100]  And so we'll make models more and more powerful.
+[56:35.100 --> 56:37.140]  And we'll do more of them for more domains.
+[56:37.140 --> 56:39.660]  But we start with a baseline of have a quality experience
+[56:39.660 --> 56:40.500]  around what we cover.
+[56:40.500 --> 56:43.500]  And I think this is an insight into how we,
+[56:43.500 --> 56:45.920]  it's not right or wrong, how we approach things differently
+[56:45.920 --> 56:48.100]  than some other companies do.
+[56:48.100 --> 56:50.580]  We've all been seeing stories for a while saying,
+[56:50.580 --> 56:53.900]  hey, Apple, some other companies are doing some assistance,
+[56:53.900 --> 56:57.460]  and they're allowing these other apps to be bots
+[56:57.460 --> 56:59.660]  and to hand off and do things for them.
+[56:59.660 --> 57:00.260]  You're not.
+[57:00.260 --> 57:01.860]  You're behind.
+[57:01.860 --> 57:04.780]  Where when we have thought about doing it for a while,
+[57:04.780 --> 57:07.060]  we thought about it since the very beginning of Siri,
+[57:07.060 --> 57:09.940]  which is we needed a solution to how do you
+[57:09.940 --> 57:11.580]  keep Siri from being smart at one thing
+[57:11.580 --> 57:12.980]  and then stupid at another?
+[57:12.980 --> 57:15.600]  That will be an inconsistent experience and not what we want.
+[57:15.600 --> 57:18.620]  We want Siri to be equally smart at all the things we do.
+[57:18.620 --> 57:22.060]  And as it gets extended, that intelligence needs to extend.
+[57:22.060 --> 57:23.740]  And so the team has been working hard
+[57:23.740 --> 57:25.540]  at that where others shoved in quickly
+[57:25.540 --> 57:28.380]  to do things that don't translate that intelligence
+[57:28.380 --> 57:29.700]  to third-party apps.
+[57:29.700 --> 57:32.940]  And so to do that means you have to, with intention,
+[57:32.940 --> 57:34.700]  add categories and domains.
+[57:34.700 --> 57:36.620]  The hope is to add more and more so that users
+[57:36.620 --> 57:38.340]  can ask anything they want over time
+[57:38.340 --> 57:41.080]  and use any of their apps that they love, and it all works.
+[57:41.080 --> 57:42.780]  It just takes time building domains.
+[57:42.780 --> 57:44.340]  So we'd rather take the time to do it right
+[57:44.340 --> 57:46.580]  than rush out just because it gets a good story
+[57:46.580 --> 57:48.380]  to say you have something.
+[57:48.380 --> 57:49.200]  Yeah.
+[57:49.200 --> 57:50.040]  Good job.
+[57:50.040 --> 57:50.860]  Woo!
+[57:54.860 --> 57:57.540]  One of the things I've, like in the last year or so,
+[57:57.540 --> 57:59.380]  maybe half year, but I've noticed it,
+[57:59.380 --> 58:02.380]  and I've, sorry, I bang this drum a couple times a month
+[58:02.380 --> 58:06.500]  on Daring Fireball, is why the industry as a whole
+[58:06.500 --> 58:11.500]  doesn't seem to count iMessage as a messaging platform.
+[58:11.620 --> 58:13.820]  And you know, the number that always gets thrown out
+[58:13.820 --> 58:15.140]  is monthly active users.
+[58:15.140 --> 58:17.740]  And WhatsApp has so many monthly active users,
+[58:17.740 --> 58:19.900]  and so they're worth so many billions of dollars.
+[58:19.900 --> 58:24.900]  And iMessage has to be right up there
+[58:26.340 --> 58:29.340]  in terms of monthly active users, daily active users,
+[58:29.340 --> 58:33.260]  hourly active users, users sending iMessages
+[58:33.260 --> 58:34.500]  during the talk show.
+[58:36.580 --> 58:37.800]  Is that frustrating?
+[58:39.580 --> 58:41.540]  I mean, it's okay.
+[58:41.540 --> 58:45.220]  I mean, customers don't read those things.
+[58:45.220 --> 58:47.580]  It's all inside the beltway kind of like
+[58:47.580 --> 58:49.340]  who feels proud that they made a list.
+[58:49.340 --> 58:51.100]  It doesn't matter to users.
+[58:51.100 --> 58:51.940]  Yeah.
+[58:51.940 --> 58:56.120]  I mean, messages is the most used app on iOS, period.
+[58:56.120 --> 58:57.880]  So it's used a lot.
+[58:57.880 --> 59:02.880]  And certainly, we saw that every time
+[59:02.940 --> 59:05.020]  we'd add a couple new emoji,
+[59:05.020 --> 59:06.200]  it would be like the biggest thing.
+[59:06.200 --> 59:09.140]  We'd work all year on like a new file system or something.
+[59:09.140 --> 59:14.140]  And it turned out the rest of the world outside this room
+[59:19.780 --> 59:21.740]  was more excited about the two new emoji.
+[59:21.740 --> 59:26.260]  And so we figured, you know, if there's one place
+[59:26.260 --> 59:27.740]  we could make a tremendous difference
+[59:27.740 --> 59:31.120]  in how people experience iOS fundamentally.
+[59:31.120 --> 59:33.060]  They're spending a lot of time in messages.
+[59:33.060 --> 59:37.620]  And so we put a ton of creative energy into it.
+[59:37.620 --> 59:39.700]  And ultimately, through opening up to developers,
+[59:39.700 --> 59:41.140]  I think the collective energy
+[59:41.140 --> 59:42.580]  that'll go into making messages great
+[59:42.580 --> 59:43.480]  is gonna be phenomenal.
+[59:43.480 --> 59:46.260]  In the keynote, I was sitting like in the middle
+[59:46.260 --> 59:48.460]  of the floor, halfway back, halfway in the center,
+[59:48.460 --> 59:49.300]  just right in the middle.
+[59:49.300 --> 59:52.660]  Really, it was a great place to hear the reactions.
+[59:52.660 --> 59:55.620]  The biggest reaction I thought of the entire keynote
+[59:55.620 --> 59:59.700]  was when you announced that emoji were going to 3x.
+[59:59.700 --> 01:00:02.420]  And I'm not exaggerating.
+[01:00:02.420 --> 01:00:03.500]  I'm not exaggerating.
+[01:00:03.500 --> 01:00:06.880]  And it was like a real visceral buzz.
+[01:00:06.880 --> 01:00:08.860]  And it's like, and here's a crowd of people,
+[01:00:08.860 --> 01:00:11.180]  you know, developers who are more technically minded
+[01:00:11.180 --> 01:00:13.740]  and they are here to hear about technical details.
+[01:00:13.740 --> 01:00:15.420]  And this thing that is really just, you know,
+[01:00:15.420 --> 01:00:20.420]  it's just more fun, got this really powerful reaction.
+[01:00:21.220 --> 01:00:22.040]  And it seemed-
+[01:00:22.040 --> 01:00:22.880]  Next year we're going to 4x.
+[01:00:22.880 --> 01:00:26.880]  See, this is why we don't let you out.
+[01:00:26.880 --> 01:00:31.880]  Now we're gonna be held to that.
+[01:00:31.880 --> 01:00:33.360]  Now we're gonna be held to that.
+[01:00:33.360 --> 01:00:34.520]  And next year when we don't, we're gonna be like,
+[01:00:34.520 --> 01:00:35.520]  you said 4x!
+[01:00:37.520 --> 01:00:40.520]  Apple, you're late, you're late.
+[01:00:40.520 --> 01:00:42.520]  And then eventually it'll be finally 4x.
+[01:00:42.520 --> 01:00:45.520]  Coming down to home stretch here.
+[01:00:45.520 --> 01:00:47.520]  There's a few competitors right now back programming.
+[01:00:47.520 --> 01:00:49.520]  4x, let's beat up the 4x.
+[01:00:49.520 --> 01:00:51.520]  4x, 4x, 4x, 4x, 4x, 4x.
+[01:00:51.520 --> 01:00:56.520]  4x, 4x, 4x, 4x, 4x, 4x, 4x, 4x, 4x, 4x, 4x, 4x, 4x, 4x, 4x, 4x.
+[01:00:56.520 --> 01:01:03.520]  Coming down to home stretch here.
+[01:01:03.520 --> 01:01:07.520]  It's like the Onion story about the chick CEO says,
+[01:01:07.520 --> 01:01:10.520]  screw this, we're going to five blades.
+[01:01:10.520 --> 01:01:12.520]  And like three years later,
+[01:01:12.520 --> 01:01:15.520]  she came out with a five blade razor.
+[01:01:15.520 --> 01:01:21.520]  You can't underestimate what people will stoop to.
+[01:01:21.520 --> 01:01:24.520]  Any of the other iMessage stuff that,
+[01:01:24.520 --> 01:01:25.520]  I mean, because clearly there's a lot of work.
+[01:01:25.520 --> 01:01:27.520]  And a lot of it's very fun.
+[01:01:27.520 --> 01:01:31.520]  A lot of it is the developer integration.
+[01:01:31.520 --> 01:01:33.520]  It really turns it into a platform.
+[01:01:33.520 --> 01:01:35.520]  It's not just a thing that people can text with now.
+[01:01:35.520 --> 01:01:39.520]  It's a thing that the people in this crowd can write software for.
+[01:01:39.520 --> 01:01:44.520]  Anything that stands out that maybe didn't get enough love in the keynote?
+[01:01:44.520 --> 01:01:48.520]  Well, we talked about the way in which I think these apps can spread
+[01:01:48.520 --> 01:01:50.520]  kind of in a really great way virally.
+[01:01:50.520 --> 01:01:51.520]  We didn't talk about that at all.
+[01:01:51.520 --> 01:01:54.520]  And I think that's going to be really powerful for developers
+[01:01:54.520 --> 01:01:58.520]  and it's going to make it worth developers' while to put some energy into them.
+[01:01:58.520 --> 01:02:00.520]  We made them really easy to create.
+[01:02:00.520 --> 01:02:03.520]  So if artists, we think there will be a community of artists
+[01:02:03.520 --> 01:02:05.520]  that will build sticker packs that are just really fun
+[01:02:05.520 --> 01:02:06.520]  and they don't need to write any code to do it.
+[01:02:06.520 --> 01:02:13.520]  So I think that's going to be really important.
+[01:02:13.520 --> 01:02:18.520]  Also, I think the way that they are distributed,
+[01:02:18.520 --> 01:02:21.520]  if you have, it's not just about the extension.
+[01:02:21.520 --> 01:02:24.520]  The extension can be part of your app.
+[01:02:24.520 --> 01:02:28.520]  And so there's some cases where you want a model where the extension
+[01:02:28.520 --> 01:02:31.520]  is sort of in cooperation with your larger app experience.
+[01:02:31.520 --> 01:02:35.520]  I mean, one simple example would be like if you have your sports app,
+[01:02:35.520 --> 01:02:38.520]  your sports app knows what your favorite teams are.
+[01:02:38.520 --> 01:02:42.520]  Well, your extension in messages that let you share those clips
+[01:02:42.520 --> 01:02:46.520]  or whatever is going to know that as well.
+[01:02:46.520 --> 01:02:48.520]  So there's a connection there.
+[01:02:48.520 --> 01:02:53.520]  We have one where something that people like to do a lot is share music.
+[01:02:53.520 --> 01:02:55.520]  Especially if you hear something and you're like, wow, this is great.
+[01:02:55.520 --> 01:02:57.520]  I want to tell my friend about this awesome song.
+[01:02:57.520 --> 01:03:00.520]  Well, if you go to the Apple Music extension,
+[01:03:00.520 --> 01:03:05.520]  it knows what's now playing in your music
+[01:03:05.520 --> 01:03:07.520]  and it knows what you listened to with the last few songs.
+[01:03:07.520 --> 01:03:09.520]  And so that's just one tap to share.
+[01:03:09.520 --> 01:03:11.520]  And so I think there will be interesting integrations
+[01:03:11.520 --> 01:03:15.520]  where the message extension is sort of the tip of the iceberg
+[01:03:15.520 --> 01:03:19.520]  of an experience that you have inside your app as well.
+[01:03:19.520 --> 01:03:23.520]  All right, moving on to watchOS.
+[01:03:23.520 --> 01:03:28.520]  What you guys do year after year is make iterative improvements to your software.
+[01:03:28.520 --> 01:03:32.520]  And you add features, you take what was slow and you make it fast,
+[01:03:32.520 --> 01:03:35.520]  you take what was ugly and you make it look better.
+[01:03:35.520 --> 01:03:41.520]  But the performance improvement on app launch speed on watchOS 3
+[01:03:41.520 --> 01:03:44.520]  does not look like one year over a year.
+[01:03:44.520 --> 01:03:45.520]  It's crazy.
+[01:03:45.520 --> 01:03:49.520]  And I really did in the keynote had a, I got to see this.
+[01:03:49.520 --> 01:03:54.520]  And then when I got hands-on with a watch running watchOS 3, it's for real.
+[01:03:54.520 --> 01:03:55.520]  It really is.
+[01:03:55.520 --> 01:03:56.520]  Anybody in the audience?
+[01:03:56.520 --> 01:03:57.520]  Have you guys upgraded?
+[01:03:57.520 --> 01:04:00.520]  Anybody?
+[01:04:00.520 --> 01:04:01.520]  It's for real.
+[01:04:01.520 --> 01:04:05.520]  How is that possible?
+[01:04:05.520 --> 01:04:06.520]  I mean, a couple of things.
+[01:04:06.520 --> 01:04:10.520]  We certainly actually had some RAM to spare.
+[01:04:10.520 --> 01:04:11.520]  Really?
+[01:04:11.520 --> 01:04:12.520]  Yeah.
+[01:04:12.520 --> 01:04:15.520]  Yeah, it turns out that if people are running,
+[01:04:15.520 --> 01:04:20.520]  they have their favorite 10 apps, we can keep them mostly running.
+[01:04:20.520 --> 01:04:22.520]  We can keep them mostly resident.
+[01:04:22.520 --> 01:04:24.520]  We'll halt them so they're not burning CPU,
+[01:04:24.520 --> 01:04:26.520]  but we can keep them mostly resident,
+[01:04:26.520 --> 01:04:29.520]  which means you're not doing all the work that goes into launching an app
+[01:04:29.520 --> 01:04:30.520]  when you take them live.
+[01:04:30.520 --> 01:04:36.520]  But the other thing is it turns out when we first were coming out with watchOS,
+[01:04:36.520 --> 01:04:39.520]  we were being really conservative about understanding how people were going to
+[01:04:39.520 --> 01:04:44.520]  use the watch and trying to make sure we could hit our goal of very solid,
+[01:04:44.520 --> 01:04:46.520]  all-day battery life so that you could use it all day
+[01:04:46.520 --> 01:04:47.520]  and you could charge it at night.
+[01:04:47.520 --> 01:04:51.520]  And we found we'd actually really overshot the goal,
+[01:04:51.520 --> 01:04:56.520]  which was an area of just massive focus and paranoia throughout the release.
+[01:04:56.520 --> 01:05:00.520]  We needed to make sure that we squeezed every little bit of juice out of the thing.
+[01:05:00.520 --> 01:05:04.520]  And so realizing we had this budget, we said, hey, look,
+[01:05:04.520 --> 01:05:06.520]  we actually have enough to do background updates.
+[01:05:06.520 --> 01:05:09.520]  We're overshot enough that we can keep these apps both in memory
+[01:05:09.520 --> 01:05:12.520]  but also keep them up to date throughout the day.
+[01:05:12.520 --> 01:05:15.520]  So when you look at them, they're already there.
+[01:05:15.520 --> 01:05:18.520]  It's not like launch and then have them get the information.
+[01:05:18.520 --> 01:05:19.520]  It's they already have the information.
+[01:05:19.520 --> 01:05:23.520]  And so those were two really vital techniques.
+[01:05:23.520 --> 01:05:25.520]  I think the other thing is, as you talk about,
+[01:05:25.520 --> 01:05:28.520]  you build something as new and different as the watch,
+[01:05:28.520 --> 01:05:31.520]  and until you finish and you live on it and you figure out,
+[01:05:31.520 --> 01:05:34.520]  like, what's really the essence of this thing
+[01:05:34.520 --> 01:05:37.520]  and appreciate which problems are the most important to solve,
+[01:05:37.520 --> 01:05:42.520]  we realized that the watch is all about glanceability.
+[01:05:42.520 --> 01:05:46.520]  It's useful to the extent that, like, okay, I can solve my task, I'm done.
+[01:05:46.520 --> 01:05:49.520]  If I'm up here and I'm waiting and I'm fiddling around,
+[01:05:49.520 --> 01:05:51.520]  my arm's getting tired, this is no fun anymore,
+[01:05:51.520 --> 01:05:53.520]  I'm going to do it a different way.
+[01:05:53.520 --> 01:05:57.520]  And with that as our obsession for the last year,
+[01:05:57.520 --> 01:05:59.520]  we've taken all of those tasks and we said,
+[01:05:59.520 --> 01:06:03.520]  you have to be able to finish the task end to end, two seconds.
+[01:06:03.520 --> 01:06:06.520]  And that meant the launch better be the instant part,
+[01:06:06.520 --> 01:06:09.520]  because now we need to let the user think and do something in two seconds
+[01:06:09.520 --> 01:06:10.520]  and get it done.
+[01:06:10.520 --> 01:06:14.520]  And with that focus, you find a way and chipped away at it.
+[01:06:14.520 --> 01:06:16.520]  What really strikes me, once I got to hands-on with it
+[01:06:16.520 --> 01:06:20.520]  and I could really see it, is just how much the design changes
+[01:06:20.520 --> 01:06:23.520]  to the navigation of the user experience
+[01:06:23.520 --> 01:06:29.520]  are exactly coinciding with the engineering improvements to make it faster.
+[01:06:29.520 --> 01:06:32.520]  So the fact that glances are no longer a separate thing
+[01:06:32.520 --> 01:06:37.520]  is because the apps themselves in the dock can serve as glances
+[01:06:37.520 --> 01:06:39.520]  because they're getting the background updates,
+[01:06:39.520 --> 01:06:43.520]  because you made the changes that make them stay resident in memory.
+[01:06:43.520 --> 01:06:45.520]  Yeah, it's nice when it all comes together.
+[01:06:45.520 --> 01:06:46.520]  Really?
+[01:06:46.520 --> 01:06:48.520]  Yeah, absolutely.
+[01:06:48.520 --> 01:06:53.520]  The other thing I'll add, once you start to use the new watchOS,
+[01:06:53.520 --> 01:06:55.520]  in addition to having the apps come across faster
+[01:06:55.520 --> 01:06:57.520]  and you can get access to them quickly,
+[01:06:57.520 --> 01:07:01.520]  your watch faces in a sense become apps in themselves
+[01:07:01.520 --> 01:07:03.520]  in the sense that you change the ones you use
+[01:07:03.520 --> 01:07:06.520]  and you rearrange them and change the complications.
+[01:07:06.520 --> 01:07:10.520]  For example, I would normally keep the activity rings on my watch face,
+[01:07:10.520 --> 01:07:13.520]  but now I can choose to make that the next one
+[01:07:13.520 --> 01:07:15.520]  and I just swipe over to them and swipe back
+[01:07:15.520 --> 01:07:18.520]  because I use the activity watch face versus needing the rings.
+[01:07:18.520 --> 01:07:20.520]  And then I can have a different watch face
+[01:07:20.520 --> 01:07:23.520]  for some other time of the day when I need some other actions
+[01:07:23.520 --> 01:07:25.520]  and access to apps.
+[01:07:25.520 --> 01:07:27.520]  So that becomes a much quicker and more useful way
+[01:07:27.520 --> 01:07:29.520]  to expand the things you do with it.
+[01:07:29.520 --> 01:07:32.520]  It's really profound changes through the interaction model.
+[01:07:32.520 --> 01:07:34.520]  Yeah, and really different complications too.
+[01:07:34.520 --> 01:07:38.520]  So if you're going to be in more of your workout mode,
+[01:07:38.520 --> 01:07:42.520]  you would swipe over and the complications that are relevant to that,
+[01:07:42.520 --> 01:07:45.520]  and therefore the launchers essentially for that, are right there.
+[01:07:45.520 --> 01:07:47.520]  So you kind of go, here's what, you know, I'm at work,
+[01:07:47.520 --> 01:07:50.520]  I'm going to be this way, I'm out with the family,
+[01:07:50.520 --> 01:07:51.520]  I'm going to go this way.
+[01:07:51.520 --> 01:07:53.520]  And you have all the different activities that are relevant to that.
+[01:07:53.520 --> 01:07:55.520]  It's like you've got almost a custom dock or custom launcher
+[01:07:55.520 --> 01:07:57.520]  based on your watch face.
+[01:07:57.520 --> 01:07:59.520]  So that's another element where I feel like it's really come together
+[01:07:59.520 --> 01:08:01.520]  in a nice way.
+[01:08:01.520 --> 01:08:05.520]  Yeah, the team has done a really great job.
+[01:08:05.520 --> 01:08:08.520]  So just wrapping up, coming down to the home site, Swift.
+[01:08:08.520 --> 01:08:11.520]  Now you were on my show a few months ago when Swift went open source.
+[01:08:11.520 --> 01:08:14.520]  It was very nice, we had a good time.
+[01:08:14.520 --> 01:08:18.520]  A lot of dynamism.
+[01:08:18.520 --> 01:08:21.520]  And we talked about Swift use within Apple
+[01:08:21.520 --> 01:08:26.520]  and why you guys can't yet write the OS in your absence, Swift,
+[01:08:26.520 --> 01:08:28.520]  but that you're using it, your engineers are using it to write unit tests
+[01:08:28.520 --> 01:08:30.520]  and stuff like that and it's getting used.
+[01:08:30.520 --> 01:08:32.520]  But I saw in the announcement that this new Swift Playground app
+[01:08:32.520 --> 01:08:34.520]  is itself written in Swift.
+[01:08:34.520 --> 01:08:38.520]  Yeah, well actually in an OS X, like most of the dock
+[01:08:38.520 --> 01:08:41.520]  and most of mission control, yeah.
+[01:08:41.520 --> 01:08:46.520]  Well, oh God.
+[01:08:46.520 --> 01:08:52.520]  Another doll.
+[01:08:52.520 --> 01:08:56.520]  In our Sunday rehearsal.
+[01:08:56.520 --> 01:08:58.520]  When was that name first hinted at?
+[01:08:58.520 --> 01:09:00.520]  I don't know.
+[01:09:00.520 --> 01:09:02.520]  Last year.
+[01:09:02.520 --> 01:09:04.520]  Right here.
+[01:09:04.520 --> 01:09:06.520]  I thought it was being so transparent too.
+[01:09:06.520 --> 01:09:08.520]  I saw right through it.
+[01:09:08.520 --> 01:09:11.520]  I know. You were very polite.
+[01:09:11.520 --> 01:09:15.520]  In our run through for the show, when I say,
+[01:09:15.520 --> 01:09:18.520]  oh, we're changing the name to Mac OS,
+[01:09:18.520 --> 01:09:20.520]  and this is like on Sunday,
+[01:09:20.520 --> 01:09:22.520]  what I like to write is to say something about how
+[01:09:22.520 --> 01:09:24.520]  we have these great new features in Mac OS.
+[01:09:24.520 --> 01:09:26.520]  I literally go, and so our new release is Mac OS.
+[01:09:26.520 --> 01:09:30.520]  And so we have some great features in OS X.
+[01:09:30.520 --> 01:09:32.520]  It's tough.
+[01:09:32.520 --> 01:09:34.520]  We spent a lot, 15 years.
+[01:09:34.520 --> 01:09:36.520]  It's a long time, but I think we all feel great about the new name.
+[01:09:36.520 --> 01:09:42.520]  Anyway, in Mac OS, the dock is substantially converted.
+[01:09:42.520 --> 01:09:44.520]  So we're in mission control.
+[01:09:44.520 --> 01:09:46.520]  All those areas are using Swift a lot.
+[01:09:46.520 --> 01:09:49.520]  So it's starting to spread a lot internally.
+[01:09:49.520 --> 01:09:51.520]  There are some barriers.
+[01:09:51.520 --> 01:09:53.520]  But I think this year, the most important thing,
+[01:09:53.520 --> 01:09:55.520]  and I think Chris Latner really covered it
+[01:09:55.520 --> 01:09:57.520]  in the State of the Union,
+[01:09:57.520 --> 01:09:59.520]  is getting to source stability.
+[01:09:59.520 --> 01:10:01.520]  And so we decided this year,
+[01:10:01.520 --> 01:10:05.520]  we're going to put that over all the priorities.
+[01:10:05.520 --> 01:10:07.520]  Take what we've learned.
+[01:10:07.520 --> 01:10:09.520]  When we first shipped Swift a couple of years ago,
+[01:10:09.520 --> 01:10:13.520]  the objective was let's make sure that it's familiar
+[01:10:13.520 --> 01:10:15.520]  from an API point of view.
+[01:10:15.520 --> 01:10:17.520]  Minimize the kind of transition of,
+[01:10:17.520 --> 01:10:19.520]  I'll learn all new method names for all the classes I already know.
+[01:10:19.520 --> 01:10:21.520]  And so we really biased toward that.
+[01:10:21.520 --> 01:10:24.520]  Now people are so familiar with Swift,
+[01:10:24.520 --> 01:10:26.520]  the priority is let's make sure those APIs
+[01:10:26.520 --> 01:10:29.520]  are all very native to Swift in their field.
+[01:10:29.520 --> 01:10:31.520]  And so we've done all the hard work
+[01:10:31.520 --> 01:10:35.520]  to update all the APIs, all the naming conventions,
+[01:10:35.520 --> 01:10:38.520]  and take some major APIs like Core Graphics and LibDispatch
+[01:10:38.520 --> 01:10:40.520]  and make them just awesome for Swift.
+[01:10:40.520 --> 01:10:42.520]  And so that was important stuff.
+[01:10:42.520 --> 01:10:47.520]  But what that means is
+[01:10:47.520 --> 01:10:49.520]  we've achieved that level of source stability,
+[01:10:49.520 --> 01:10:51.520]  so next year it won't be like,
+[01:10:51.520 --> 01:10:53.520]  oh boy, as a developer.
+[01:10:53.520 --> 01:10:55.520]  So that's the important thing.
+[01:10:55.520 --> 01:10:57.520]  ABI stability, which means literally
+[01:10:57.520 --> 01:10:59.520]  that the Swift binary you built
+[01:10:59.520 --> 01:11:01.520]  could be linked against the future libraries,
+[01:11:01.520 --> 01:11:03.520]  that's one that we made a lot of progress,
+[01:11:03.520 --> 01:11:05.520]  haven't gotten all the way there,
+[01:11:05.520 --> 01:11:08.520]  but that's far more of an issue for us internally
+[01:11:08.520 --> 01:11:10.520]  than it is for developers.
+[01:11:10.520 --> 01:11:12.520]  It's important for developers,
+[01:11:12.520 --> 01:11:14.520]  but I think the source stability one was the right priority,
+[01:11:14.520 --> 01:11:16.520]  and I feel really good about the progress
+[01:11:16.520 --> 01:11:18.520]  that the team made on that.
+[01:11:18.520 --> 01:11:20.520]  Last question.
+[01:11:20.520 --> 01:11:22.520]  How about one thing that you guys announced yesterday,
+[01:11:22.520 --> 01:11:24.520]  whether it was in the keynote or not,
+[01:11:24.520 --> 01:11:26.520]  maybe something that missed the keynote,
+[01:11:26.520 --> 01:11:28.520]  but one thing that you think deserves a little extra attention.
+[01:11:28.520 --> 01:11:30.520]  And I'll let you guys think about it.
+[01:11:30.520 --> 01:11:32.520]  I will go first, and your correct answer
+[01:11:32.520 --> 01:11:34.520]  is probably new file system.
+[01:11:34.520 --> 01:11:36.520]  Is that right?
+[01:11:36.520 --> 01:11:39.520]  I'm gonna say universal clipboard
+[01:11:39.520 --> 01:11:42.520]  because I've always wanted this,
+[01:11:42.520 --> 01:11:44.520]  and for me, it's links.
+[01:11:44.520 --> 01:11:46.520]  It's like I'm on my phone, and it's like,
+[01:11:46.520 --> 01:11:48.520]  oh, I want to post this during Fireball,
+[01:11:48.520 --> 01:11:50.520]  but I'm in my office, so why would I do it on a phone?
+[01:11:50.520 --> 01:11:53.520]  I'll go sit down at my iMac and do it with the real keyboard,
+[01:11:53.520 --> 01:11:55.520]  but how do I get this from here to there?
+[01:11:55.520 --> 01:11:58.520]  And man, what I want to do is just copy it
+[01:11:58.520 --> 01:12:00.520]  and go over there and hit Command-V.
+[01:12:00.520 --> 01:12:04.520]  And again, the thinking through that you guys did
+[01:12:04.520 --> 01:12:06.520]  of how to do this in a way
+[01:12:06.520 --> 01:12:10.520]  that isn't going to surprise people in a bad way.
+[01:12:10.520 --> 01:12:12.520]  There's like a two-minute timeout,
+[01:12:12.520 --> 01:12:16.520]  so if I copy something on my phone right now,
+[01:12:16.520 --> 01:12:19.520]  and tomorrow I paste it in my Mac,
+[01:12:19.520 --> 01:12:22.520]  I'm not getting that because it's really like
+[01:12:22.520 --> 01:12:25.520]  ways of detecting what's in there.
+[01:12:25.520 --> 01:12:27.520]  Well, even the communication is,
+[01:12:27.520 --> 01:12:29.520]  like the other continuity features, is peer-to-peer,
+[01:12:29.520 --> 01:12:31.520]  so it's not like you're sending everything you copy
+[01:12:31.520 --> 01:12:33.520]  up to the cloud all of a sudden
+[01:12:33.520 --> 01:12:35.520]  just so that it can get down to the other device.
+[01:12:35.520 --> 01:12:39.520]  It really is about kind of two, did it here, copy, paste,
+[01:12:39.520 --> 01:12:41.520]  which I think is absolutely what people want,
+[01:12:41.520 --> 01:12:45.520]  and it has the right privacy and performance characteristics.
+[01:12:45.520 --> 01:12:49.520]  And as you say, it gets rid of the surprises.
+[01:12:49.520 --> 01:12:51.520]  And it just turns out to be the most, once you have it,
+[01:12:51.520 --> 01:12:54.520]  it's the most natural way in the world to do these kinds of things.
+[01:12:54.520 --> 01:12:57.520]  So I think the team did awesome work there.
+[01:12:57.520 --> 01:12:58.520]  I think that's great.
+[01:12:58.520 --> 01:13:00.520]  Do I have to say new file system again?
+[01:13:00.520 --> 01:13:04.520]  No, I mean, I think the new file system is great.
+[01:13:04.520 --> 01:13:08.520]  And by the way, I mean the prospect of,
+[01:13:08.520 --> 01:13:12.520]  this is when you have to get right, let's say.
+[01:13:12.520 --> 01:13:18.520]  And so we have an awesome file system team
+[01:13:18.520 --> 01:13:21.520]  who really knew which problems we needed to solve
+[01:13:21.520 --> 01:13:25.520]  for a world of flash storage
+[01:13:25.520 --> 01:13:28.520]  and has done a super solid job.
+[01:13:28.520 --> 01:13:31.520]  And we're being conservative about how we're rolling it out
+[01:13:31.520 --> 01:13:36.520]  as a developer preview so people can kick the tires on it this year.
+[01:13:36.520 --> 01:13:39.520]  But we look forward to making it part of the products going forward.
+[01:13:39.520 --> 01:13:41.520]  And I think it's going to be great.
+[01:13:41.520 --> 01:13:43.520]  And obviously, we didn't talk about it
+[01:13:43.520 --> 01:13:45.520]  because we don't talk about peer developer preview material there.
+[01:13:45.520 --> 01:13:47.520]  But I think in terms of something that's important
+[01:13:47.520 --> 01:13:49.520]  for the platform going forward, it's big.
+[01:13:49.520 --> 01:13:51.520]  So let's just say three years from now,
+[01:13:51.520 --> 01:13:57.520]  we're all using iPhones that are using APFS instead of HFS+.
+[01:13:57.520 --> 01:14:02.520]  What would be a noticeable improvement to the experience?
+[01:14:02.520 --> 01:14:04.520]  So it'll help with performance.
+[01:14:04.520 --> 01:14:07.520]  It'll help with things like how we do software updates and other things
+[01:14:07.520 --> 01:14:09.520]  because we can snapshot volumes.
+[01:14:09.520 --> 01:14:10.520]  We can roll things back.
+[01:14:10.520 --> 01:14:13.520]  I mean, there are a lot of important attributes there.
+[01:14:13.520 --> 01:14:16.520]  It's important when you think about multi-user,
+[01:14:16.520 --> 01:14:21.520]  like how files are protected between multiple users on a Mac
+[01:14:21.520 --> 01:14:24.520]  because we actually have file system level encryption
+[01:14:24.520 --> 01:14:27.520]  now standard across both platforms.
+[01:14:27.520 --> 01:14:33.520]  And so I think from a security point of view, it's big.
+[01:14:33.520 --> 01:14:37.520]  And I think performance, I mean, now you do a copy
+[01:14:37.520 --> 01:14:39.520]  or even like the safe save operation.
+[01:14:39.520 --> 01:14:41.520]  When you save documents in a lot of apps,
+[01:14:41.520 --> 01:14:43.520]  it's like move that one aside,
+[01:14:43.520 --> 01:14:46.520]  create another whole copy of all of that,
+[01:14:46.520 --> 01:14:50.520]  now overwrite some of it, now delete the old directory.
+[01:14:50.520 --> 01:14:54.520]  Now that's atomic and the clone file makes all of that super fast.
+[01:14:54.520 --> 01:14:58.520]  So I think it's just going to be great across the board.
+[01:14:58.520 --> 01:15:02.520]  I want to answer in a very different direction.
+[01:15:02.520 --> 01:15:04.520]  Of the keynote, the thing that we haven't talked about
+[01:15:04.520 --> 01:15:10.520]  that to me was really amazing was we had a bunch of demoers
+[01:15:10.520 --> 01:15:12.520]  who had never been in a keynote before.
+[01:15:12.520 --> 01:15:14.520]  It was their first time.
+[01:15:14.520 --> 01:15:19.520]  And they were fantastic.
+[01:15:19.520 --> 01:15:21.520]  Stacy did a great job.
+[01:15:21.520 --> 01:15:24.520]  Bethany and Emron did a great job.
+[01:15:24.520 --> 01:15:27.520]  Boaz did an incredible job.
+[01:15:27.520 --> 01:15:30.520]  And Sheryl, I wasn't going to forget,
+[01:15:30.520 --> 01:15:32.520]  and Sheryl did an incredible job.
+[01:15:32.520 --> 01:15:35.520]  And all of them work on the things they demo
+[01:15:35.520 --> 01:15:38.520]  and they were fantastic.
+[01:15:38.520 --> 01:15:42.520]  So that's my sort of unsung thing of the keynote was those presenters.
+[01:15:42.520 --> 01:15:45.520]  I said mid keynote, I was sitting with Ben Thompson
+[01:15:45.520 --> 01:15:47.520]  and I said, I can't believe that none of these people
+[01:15:47.520 --> 01:15:51.520]  have ever done this before because they're amazing.
+[01:15:51.520 --> 01:15:53.520]  And they really did kick ass up there.
+[01:15:53.520 --> 01:15:55.520]  That was great.
+[01:15:55.520 --> 01:15:58.520]  That's it unless you guys have anything else for me.
+[01:15:58.520 --> 01:16:00.520]  Just thank you for having us.
+[01:16:00.520 --> 01:16:01.520]  I want to give some thanks here.
+[01:16:01.520 --> 01:16:06.520]  I want to thank our sponsors, MailChimp, Microsoft,
+[01:16:06.520 --> 01:16:09.520]  and mad.com, M-E-H.com.
+[01:16:09.520 --> 01:16:12.520]  Go there and buy some junk.
+[01:16:12.520 --> 01:16:17.520]  I want to thank Jake Schumacher and Jed Hurt.
+[01:16:17.520 --> 01:16:18.520]  They're doing the video here.
+[01:16:18.520 --> 01:16:23.520]  So if you're watching at home, you can thank them.
+[01:16:23.520 --> 01:16:26.520]  They are the co-makers of the upcoming documentary,
+[01:16:26.520 --> 01:16:30.520]  App The Human Story, which has been in the works for a while.
+[01:16:30.520 --> 01:16:32.520]  I've seen a rough cut.
+[01:16:32.520 --> 01:16:33.520]  It is amazing.
+[01:16:33.520 --> 01:16:35.520]  It is really coming along.
+[01:16:35.520 --> 01:16:38.520]  Appdocumentary.com if you want to see more.
+[01:16:38.520 --> 01:16:41.520]  Drew Bischoff from Hybrid Events
+[01:16:41.520 --> 01:16:43.520]  is here running whatever apparatus is involved
+[01:16:43.520 --> 01:16:49.520]  in doing the live streaming, which I've heard is very hard.
+[01:16:49.520 --> 01:16:52.520]  I want to thank Mezzanine and the entire staff here,
+[01:16:52.520 --> 01:16:55.520]  who have been...
+[01:16:55.520 --> 01:16:57.520]  They're led by Megan Rogerson.
+[01:16:57.520 --> 01:16:58.520]  She's great.
+[01:16:58.520 --> 01:16:59.520]  She's been here all four years that I've been here.
+[01:16:59.520 --> 01:17:01.520]  The staff is great.
+[01:17:01.520 --> 01:17:02.520]  The bartenders are great.
+[01:17:02.520 --> 01:17:03.520]  The security guy.
+[01:17:03.520 --> 01:17:04.520]  I mean, this is a really great place,
+[01:17:04.520 --> 01:17:07.520]  and I really appreciate it.
+[01:17:07.520 --> 01:17:12.520]  I want to thank Paul Kefasis and my wife, Amy Gruber.
+[01:17:12.520 --> 01:17:16.520]  Just the Tip fame.
+[01:17:16.520 --> 01:17:21.520]  They're a podcast that is on, I don't know, some kind of hiatus.
+[01:17:21.520 --> 01:17:26.520]  But they're the ones who made this event run
+[01:17:26.520 --> 01:17:28.520]  so that I can just sit back here and be nervous
+[01:17:28.520 --> 01:17:30.520]  and make these cards with questions
+[01:17:30.520 --> 01:17:32.520]  and not pay attention to any of the details.
+[01:17:32.520 --> 01:17:35.520]  I don't know anything that's gone on out here.
+[01:17:35.520 --> 01:17:40.520]  The fact that you guys even have seats is thanks to them.
+[01:17:40.520 --> 01:17:44.520]  And I want to thank Phil and Craig for being here.
+[01:17:44.520 --> 01:17:45.520]  Thank you.
+[01:17:45.520 --> 01:17:46.520]  Unbelievable.
+[01:17:46.520 --> 01:17:49.520]  Thank you.
+[01:17:49.520 --> 01:17:54.520]  Last but not least, thank you for being here.
+[01:17:54.520 --> 01:18:09.520]  Thank you.

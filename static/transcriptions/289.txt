@@ -1,0 +1,1548 @@
+[00:00.000 --> 00:05.680]  welcome to the show. I can't believe how long it's been since I've had you on the show.
+[00:05.680 --> 00:12.560]  It's been a bit, yeah. You're, you're, I mean this sincerely and I don't mean, I'm not just saying
+[00:12.560 --> 00:19.680]  this because you're on the show. You, you're one of the nicest and most empathetic people I've ever
+[00:19.680 --> 00:25.360]  met. You're, you're truly, you're just a good person and you, the way you brought, the way you
+[00:25.360 --> 00:37.440]  brought this up to me was excruciating. Yeah, it was hard for me too. So we're working together
+[00:37.440 --> 00:44.080]  on my show, my WWDC show, and then you mentioned this and I was, you know, something to the,
+[00:44.080 --> 00:50.560]  I can't even do it. I can't even be as exquisitely nice and sensitive as you. I can't even paraphrase
+[00:50.560 --> 00:54.640]  it, but you mentioned it and I thought, well, that's, you know, probably is true in the back
+[00:54.640 --> 00:58.800]  of my head. I'll bet it's been at least a year since I've had Adam on. And then I looked at
+[00:58.800 --> 01:05.360]  my podcast feed and then like searched for your name and it was like 13 years ago.
+[01:07.840 --> 01:12.880]  Yeah. And you know, you start to wonder, like I start to wonder, wow, did I, did you get some,
+[01:12.880 --> 01:18.080]  did you get some complaints about me as a guest? I mean, that was my, that was the way I phrased
+[01:18.080 --> 01:23.280]  the question I think was like, Hey, because I love being on your show. I love doing this type
+[01:23.280 --> 01:29.520]  of format way, way more than one in which I have to improvise and be funny because I'm not great
+[01:29.520 --> 01:34.480]  at that, but I like, I don't mind talking about things that I'm thinking about. So I like doing,
+[01:34.480 --> 01:39.120]  I like being a guest and have been a guest a number of times. And then, and then it has,
+[01:39.120 --> 01:44.880]  it's been a while. So I started thinking, Oh God, did, cause you have a vocal, you know,
+[01:44.880 --> 01:50.240]  fan base listenership. And I wondered if they, if they just like wrote you one too many emails
+[01:50.240 --> 01:55.760]  that said, do not, do not have that guy back on your show again. Well, and then the worst part is,
+[01:55.760 --> 02:02.720]  cause I'm nowhere near as good a person as you or as empathetic, but I do, but I remember things
+[02:02.720 --> 02:08.720]  and I have a terrible, uh, uh, Catholic guilt, even though I'm not the least bit religious,
+[02:08.720 --> 02:15.680]  it's like, that's the one thing I picked up. And I remember from years ago, literally no joke years
+[02:15.680 --> 02:24.240]  ago, there was a time when you were on the show and I just purely absentmindedly forgot to do the
+[02:24.240 --> 02:30.160]  thing where I post a link to the show on the daring fireball blog. So like the show went into
+[02:30.160 --> 02:35.440]  the talk show feed and it's on the talk show section of the site and anybody who subscribed
+[02:35.440 --> 02:39.440]  goes in their podcast player. But I just never did the thing, which I do for every new show,
+[02:40.080 --> 02:45.440]  which is then I post a link list item to the show and I repeat the description and thank the
+[02:45.440 --> 02:52.480]  sponsors to, you know, give them some extra love. Uh, and I just, you know, idiot that I am
+[02:52.480 --> 02:57.680]  completely forgot to do it. And you thought maybe it was cause I thought the show sucked.
+[02:58.240 --> 03:03.920]  Oh man, that's embarrassing. That's embarrassing. Well, no, but you didn't say it that way,
+[03:03.920 --> 03:07.840]  of course, because you're a good person, but I could read between the lines and thought,
+[03:07.840 --> 03:12.640]  Oh God, Adam's worried that I thought the show was terrible that I had to post it anyway. When
+[03:12.640 --> 03:20.480]  in fact it was just me being an idiot and having this terrible system, me being self-aware that I'm
+[03:20.480 --> 03:26.560]  absentminded and then having a production system for posting the show that depends upon me
+[03:26.560 --> 03:33.440]  remembering to do X, Y, and Z. You know what? We're both great. We're both flawed and great.
+[03:33.440 --> 03:39.040]  And, and this is going to be a fun show. There was one, there was one episode that we,
+[03:39.040 --> 03:44.480]  that I was a guest on where I remember I did zero prep for it. I didn't read up on the latest
+[03:44.480 --> 03:52.240]  stuff. I had been sort of out of the Apple loop, um, for a bit and then we just, and then I just
+[03:52.240 --> 03:57.360]  kind of bullshit for like, you know, an hour and a half. I think we talked about the latest Apple TV
+[03:57.360 --> 04:03.440]  or something and it was just, didn't feel great about it. So I, I vowed like I should actually
+[04:03.440 --> 04:10.080]  do some, you know, I do some research this time, potentially install the beta OS and
+[04:10.080 --> 04:13.760]  break my laptop, uh, just so I have something to talk about.
+[04:15.760 --> 04:25.120]  Uh, well, speaking of sponsors and speaking of, um, you, Adam, I, I got an extra sponsor this week,
+[04:25.120 --> 04:30.720]  um, and I'm really happy to tell you about them, but it's ATOMS, A T O M S.
+[04:30.720 --> 04:36.720]  That's a good shoe. Yeah. They make great shoes, uh, which is very funny because ever since they
+[04:36.720 --> 04:43.200]  started sponsoring the show last year, remember when we used to meet face to face, uh, at WWDC
+[04:43.200 --> 04:50.640]  last year, just in 2019, I saw a bunch of people at WWDC who had Adam's shoes on and I was like,
+[04:50.640 --> 04:54.160]  wow, they're really popular. And then like, I worked up the gumption to ask somebody and
+[04:54.160 --> 04:56.800]  they're like, yeah, I got them from, I heard about them from your website. And I was like,
+[04:56.800 --> 05:07.120]  Oh, I'm at WWDC. Somehow. I kind of know that sponsorships work, but I don't often see the
+[05:07.120 --> 05:10.400]  results of it. You know, like somebody can advertise an app on daring fireball. I don't
+[05:10.400 --> 05:14.960]  know who's, who's running the app, but people had the shoes. They're great shoes. I wear them
+[05:14.960 --> 05:18.960]  almost every day. I love them. But the other thing they're making out, I want to tell you about is
+[05:18.960 --> 05:25.200]  the ATOMS everyday face mask. Look, ATOMS stands for quality. They're masks. They're
+[05:25.200 --> 05:30.640]  made with the same premium materials as their shoes, combining innovation and comfort with
+[05:30.640 --> 05:36.400]  the anti-microbial properties of copper, making it one of the most effective masks on the market.
+[05:36.400 --> 05:42.720]  It's available in a variety of colors. It's breathable, washable, reusable. And every time
+[05:42.720 --> 05:49.920]  you buy a mask, they donate a mask to charity with each purchase. Um, they've also got the sneaker.
+[05:49.920 --> 05:55.280]  You can check them out. Great. The genius of their thing is that they, they sell the sneakers in
+[05:55.280 --> 06:01.040]  quarter size, which sounds really finicky, but I'm telling you, I've known this since I was a kid,
+[06:01.040 --> 06:06.160]  always felt very self-conscious about it. My left foot has always been a half size larger than my
+[06:06.160 --> 06:13.120]  right foot. I don't know why I feel so conscious about it, but it's kind of awesome to be able to
+[06:13.120 --> 06:17.680]  buy shoes where you can do this. And then you don't know what your quarter size is. You can
+[06:17.680 --> 06:21.520]  just buy, like, you know, order, like it's like Warby Parker a little bit, but you can order,
+[06:21.520 --> 06:26.240]  you know, two sizes, try them on at home and then send the ones back that you don't need
+[06:26.240 --> 06:31.280]  the sizes you don't want. Anyway, I love their masks. The masks also come in different sizes.
+[06:31.280 --> 06:37.360]  I have a big fat head. I need the size large. Most people would take a medium. Anytime I'm out
+[06:37.360 --> 06:41.840]  and about in Philadelphia, I'm almost certainly wearing my Adam's mask. I really do like it.
+[06:41.840 --> 06:51.440]  Go to Adam's ATOMS dot com slash DFM during fireball mask, DFM, Adam's dot com slash DFM.
+[06:51.440 --> 06:56.880]  Check them out. Is it the ear loop style of mask? It is an ear loop style of mask. It's sort of
+[06:56.880 --> 07:05.840]  two pieces of, it's not cotton, it's a sort of a foamy type thing, sort of like the insert to a shoe
+[07:05.840 --> 07:09.920]  and then stitched together in the middle. So you get a little bit of a
+[07:09.920 --> 07:14.640]  conical effect in front of your mouth, which to me is key for me personally, with a mask
+[07:15.360 --> 07:21.040]  key, get a little bit away from my mouth, ear loop style around the ears.
+[07:21.040 --> 07:26.000]  Well, that makes sense because their shoes have those stretchy laces so that you would expect
+[07:26.000 --> 07:33.200]  them to innovate in the loop manufacturer. I think that's the thing that makes the mask
+[07:33.200 --> 07:38.400]  most comfortable for me is the, you know, when there was a shortage of ear loops,
+[07:38.400 --> 07:42.320]  you know, when there was a shortage of masks and nobody really knew how to get,
+[07:42.320 --> 07:47.840]  go out and get a mask and you just kind of like grabbed what was available. It was like
+[07:47.840 --> 07:52.400]  the first ones that I tried on on my big fat head as well would pull my ears forward and they were
+[07:52.400 --> 07:57.040]  uncomfortable and it really sucked. And I thought that this is not sustainable. But then as soon as
+[07:57.040 --> 08:02.400]  I found a mask with the right material on the loops, it was game over. These days I've been
+[08:02.400 --> 08:07.440]  doing like more of a neck gaiter style, the ones that, you know, the tube that you pull over your
+[08:07.440 --> 08:14.080]  whole thing because I feel I feel like it's a kind of a cool look, you know? Yeah. Well, it's,
+[08:14.080 --> 08:20.400]  you know, as we as we go on and without even delving into the political aspects of it,
+[08:20.400 --> 08:27.200]  if we're just going to all wear masks, our faces are, you know, they vary in size and we all wear
+[08:27.200 --> 08:32.240]  different shoes because we like different styles and we have different feet that feel comfortable
+[08:32.240 --> 08:37.040]  and different shoes. It's no surprise that we need different masks. And so I've found it to be
+[08:37.040 --> 08:42.960]  fascinating here in the Gruber household what the various members find more comfortable.
+[08:44.480 --> 08:49.520]  I do, you know, and, you know, you can't in some ways you can't beat those paper ones, you know,
+[08:49.520 --> 08:54.080]  that is just like, but they're hard to get there. They're still hard to get. And they're not,
+[08:54.080 --> 08:58.320]  you know, N95 medical, you know, they're just, you know, the ones that look like the light blue
+[08:58.320 --> 09:02.800]  surgical ones that come in a box of 12. Yeah, they're pretty good for the heat. Amy likes
+[09:02.800 --> 09:07.920]  those now that it's, you know, literally like heat index is like 100 degrees or 98 degrees today.
+[09:08.560 --> 09:14.800]  Pretty hot. Anyway, masks. I like those. I like those bandana type things. That's what
+[09:14.800 --> 09:19.840]  you're talking about. Like you put the tube over your head. Yeah, you pull it down. There's fun
+[09:19.840 --> 09:26.320]  colors. I don't know, I got one with a galaxy kind of a pattern on it, sort of like the early,
+[09:26.320 --> 09:32.640]  you know, Mac OS wallpaper, you know, you remember the like, sort of like, oh, yeah, yeah,
+[09:32.640 --> 09:37.680]  yeah, I got one with that sort of thing. I wasn't it wasn't like an homage to the Mac desktop or
+[09:37.680 --> 09:45.680]  anything. I just kind of liked it. It was on Amazon for like $11. And I put it on. And Roxanna,
+[09:45.680 --> 09:50.560]  my partner said, Oh, no, no, no, no, no, but they wore it anyway. Whatever.
+[09:50.560 --> 09:56.160]  The important thing is that I feel good, right? Yeah, exactly.
+[10:00.560 --> 10:04.720]  I do think it's interesting. I think it's kind of interesting when you go out like I just saw
+[10:04.720 --> 10:11.120]  a survey that Philadelphia I don't know who knows these these surveys I always you know,
+[10:11.120 --> 10:15.120]  I don't know how they conduct them. I don't think it's the you know, the rigorous people at Gallup,
+[10:15.120 --> 10:20.720]  but there was some kind of survey of what percentage of people in each city around the
+[10:21.600 --> 10:25.200]  country are wearing masks and Philadelphia was like at the top or near the top.
+[10:26.800 --> 10:33.280]  But it's like the old analogy about Pennsylvania, which I'll never forget, and which is very true,
+[10:33.920 --> 10:38.640]  which is that Pennsylvania is sort of a microcosm of the United States where you got Philadelphia
+[10:38.640 --> 10:44.640]  on the one coast, Pittsburgh on the other and Alabama in the middle. Like the Pennsylvania
+[10:44.640 --> 10:48.880]  State Hospital Harrisburg, which is, you know, again, picked to be the capital, I guess because
+[10:48.880 --> 10:53.440]  it's in the middle, it's like one of the lowest rates of mask wearing in the country. But anyway,
+[10:53.440 --> 10:58.800]  you go out for a walk in Philadelphia, you you really do, it's really rare not to see some see
+[10:58.800 --> 11:04.160]  somebody not wearing a mask now. And if they're not there, you know, they usually it's like around
+[11:04.160 --> 11:08.560]  their chin or something like that. And they're just taking it off in the heat. And then when
+[11:08.560 --> 11:13.120]  as people come by, they lift it up. It's interesting to me because it's same thing as like,
+[11:13.120 --> 11:19.360]  I look at people's phones when I'm in airports, remember airports. I like to see what people pick
+[11:19.360 --> 11:25.360]  for their mask. And it is sort of like phone cases, you know, people it's it, you you could
+[11:25.360 --> 11:30.720]  go all day and you might not see the same mask twice. That's right. It's a style choice that
+[11:30.720 --> 11:36.880]  nobody expected that we would be making. It's a combination style choice and comfort choice.
+[11:36.880 --> 11:41.920]  Right. And you can kind of if you're a nerd like me, and you just pre occupy yourself thinking
+[11:41.920 --> 11:46.000]  about stuff like that, and then almost get hit by a bus crossing the street because you're looking
+[11:46.000 --> 11:52.400]  at people's masks. You like to play the game I did. Did that fellow pick that mask because he
+[11:52.400 --> 11:56.720]  thinks it's comfortable? Or did he? Did he pick it because of the way it looks? Or a little bit
+[11:56.720 --> 12:02.880]  of column a little bit of column B? Yeah, yeah, I think it's Yeah, you're right. It's a little
+[12:02.880 --> 12:08.640]  bit of both. It's a mix. But I but I always, you know, you we universally appreciate it.
+[12:08.640 --> 12:14.320]  Seeing, seeing it on each other, because sometimes, you know, we have our preconceptions about people
+[12:14.320 --> 12:20.400]  and, you know, just from whatever from their, their other style choices, or, you know, whatever
+[12:20.400 --> 12:27.440]  it's, we sort of form these biases. But so it when you see somebody that you would maybe you
+[12:27.440 --> 12:34.560]  you would think, oh, that person looks a little bit more like somebody in the in the places where
+[12:34.560 --> 12:40.160]  they wouldn't wear masks, and they are wearing a mask. And you're like, yeah, yes, one love. We
+[12:40.160 --> 12:45.600]  are all we are all the same. And that I just appreciate it. I think it's great. So it's like
+[12:45.600 --> 12:51.920]  a good signifier that we're, you know, we're in this together. Yeah, I and it was more of a thing
+[12:52.720 --> 13:01.760]  weeks ago, months ago, who knows in this time, but like when it was a sort of a non majority of
+[13:01.760 --> 13:06.800]  people out, although at that time, it was also more, you know, here in Philadelphia, it was a
+[13:06.800 --> 13:12.800]  lot more like, hey, you should really only be going out for like, emergency rations, rations,
+[13:12.800 --> 13:19.280]  rations. How do you say rations? Yeah, yeah, whatever, I guess. But you would, you'd see
+[13:19.280 --> 13:24.000]  people with a mask, and then you just give them the nod. You know, it's like, yeah, team mask.
+[13:24.000 --> 13:30.720]  Yeah. Yeah, good stuff. I remember, I don't know if you if you recall, the first person out there
+[13:30.720 --> 13:35.680]  in the world that you saw wearing a mask, but it was striking. Yeah, because I've been to Japan,
+[13:35.680 --> 13:40.960]  I've been to places where it's it's just normal practice. If you're if you have a cold or
+[13:40.960 --> 13:47.200]  something, you wear a mask to protect other people from your germs. But really, I'd never seen
+[13:47.200 --> 13:51.920]  somebody out on the street. And I was in the neighborhood where my office is in downtown.
+[13:52.560 --> 13:58.960]  And I saw somebody, a very stylish young person. I was driving and I saw them walking and they had
+[13:58.960 --> 14:05.760]  a mask on. And if for like that very brief moment, it felt like, oh, this is a glimpse into the
+[14:05.760 --> 14:11.760]  future. It felt sci fi in that way. And I also I had a reaction that was like, oh, that's overkill.
+[14:11.760 --> 14:16.400]  Because at the time we were hearing, you know, you don't need to wear a mask. It's, you know,
+[14:16.400 --> 14:21.200]  wash your hands for 20 minutes. And yeah, I care of it. I remember the first people I saw wearing
+[14:21.200 --> 14:28.880]  a mask here, I forget exactly where it was, you know, late March or early April, I forget in that
+[14:28.880 --> 14:35.280]  timeframe, but I was out. I remember exactly where I was around the corner. I don't remember which
+[14:35.280 --> 14:45.040]  errand I was running, probably going to Trader Joe's. But I saw two people walking. And they were
+[14:45.040 --> 14:51.200]  both young, younger than me, anybody younger than me is now young. They were both young,
+[14:51.200 --> 15:00.800]  they were both Asian. And they both had masks on. And I just, I guess I've seen it before,
+[15:00.800 --> 15:05.760]  you know, and again, it's, everybody knows it's common in a lot of Asian countries.
+[15:08.960 --> 15:14.240]  I've seen it in Philadelphia before, but this was definitely in the context of COVID-19.
+[15:14.240 --> 15:20.560]  And I thought, do they think they have it? Did I just walk by two people who think they have it?
+[15:20.560 --> 15:25.040]  Are they, you know, what did you know, and I wasn't, you know, like running away from them
+[15:25.040 --> 15:30.080]  or anything, it just but it was very striking to me, right? It just was like, what, what was that?
+[15:30.080 --> 15:35.600]  That was very strange. I just haven't seen people wearing masks. And like you said, at the time,
+[15:35.600 --> 15:39.920]  here in the US, every the experts were all saying, you know, you don't need a mask. In fact,
+[15:39.920 --> 15:44.480]  you shouldn't be buying masks, let them, you know, keep them for the healthcare workers.
+[15:44.480 --> 15:49.520]  Right, which which seems like it was a it was it caused a huge, huge setback. And even,
+[15:49.520 --> 15:55.440]  you know, probably feeling the residuals in the culture war. Right now, I wonder if they had just
+[15:55.440 --> 16:00.800]  come out at the beginning and said, masks are the thing that will, you know, do the most to protect
+[16:00.800 --> 16:06.800]  you from this, whether we'd still be seeing all the pushback. Yeah, I think I don't know, you had
+[16:06.800 --> 16:11.520]  a tweet a while, a couple of weeks ago, a week or two ago, where you were talking about masks. And
+[16:11.520 --> 16:17.840]  again, good empathetic person that you are, you were observing that look it, when you first see it,
+[16:17.840 --> 16:22.320]  and you're not used to it, it is weird to see people with their faces covered. And we're,
+[16:22.320 --> 16:28.640]  we're, it's not even a cultural thing. It's clearly an evolutionary thing that we've evolved
+[16:28.640 --> 16:36.880]  to see people's faces and read their faces. And we are finally attuned, our brains are finally
+[16:36.880 --> 16:43.840]  attuned to noticing incredibly small differences in people's faces to detect their emotion and to
+[16:43.840 --> 16:52.640]  identify the people we know, and especially the people we love. And so not seeing people's faces
+[16:52.640 --> 17:00.800]  is striking and weird in both the sociological way and just an evolutionary way. And it is,
+[17:01.520 --> 17:05.840]  from the first person perspective, it is weird to put one on and go out in public.
+[17:07.280 --> 17:13.600]  It's just a very strange physical sensation. And it is very, it makes you self conscious.
+[17:14.320 --> 17:18.240]  Yeah, it makes you self conscious. That's right. It's it's like putting on a hat that you're not
+[17:18.240 --> 17:23.040]  sure is like you're the right fit or the right shape for you. But it makes you, you know,
+[17:23.040 --> 17:29.040]  you're sort of testing it out as a style choice. But you're worried, you know, you maybe this,
+[17:29.040 --> 17:33.920]  maybe people think I look dumb. And that's just kind of like a normal thought process that all
+[17:33.920 --> 17:39.600]  of us kind of go for, go through, but you sort of weigh that against the benefits of wearing one
+[17:40.480 --> 17:46.800]  and the safety. And you sort of have to discard all that in it. And it feels like there might be
+[17:46.800 --> 17:51.840]  some element in the decision making of whether or not to wear, you know, whether to wear one or not,
+[17:53.040 --> 17:59.760]  that where people's sort of self imposed shame about their, that this choice or their the look
+[18:00.880 --> 18:07.520]  might say more to them than, you know, the, the very simple calculation of whether it's
+[18:07.520 --> 18:15.120]  going to be safe, safer for them and for other people. Yeah, I think that that's very true. And
+[18:15.120 --> 18:26.080]  it's, you know, so for me, I am not a dress up in a costume person. Yeah, I don't I it's been a very
+[18:26.080 --> 18:30.480]  long time since I've, like, I don't dress up for Halloween. I didn't dress up for Halloween when
+[18:30.480 --> 18:37.120]  my son was young. But I pass no judgment when I was younger, I would have I was a jerk. I'll
+[18:37.120 --> 18:46.480]  admit it. But I pass no judgment and and I in the course of becoming older and far more open minded
+[18:46.480 --> 18:55.280]  in many, many ways, but almost entirely reducible in all regards to the concept of, hey, man,
+[18:55.280 --> 19:01.680]  whatever floats your boat, right? It's all cool with me. You know, like people who like to go to
+[19:01.680 --> 19:08.720]  Comic Con and and dress up as superheroes. Did you see the thing, by the way, where John Lewis went
+[19:08.720 --> 19:13.280]  Comic Con? I didn't know this until he died a couple days ago. John Lewis went to Comic Con a
+[19:13.280 --> 19:20.160]  couple years ago because he had he had co authored or he wrote he wrote a graphic novel, wrote the
+[19:20.160 --> 19:25.120]  script for a graphic novel depicting, you know, some of his actions in the back in the 60s in the
+[19:25.120 --> 19:30.720]  civil rights era. And he went to Comic Con to promote it and dressed as his self, his younger
+[19:30.720 --> 19:37.680]  self from like 1961. Wow, which is like the baddest thing I've ever heard of my life. But
+[19:37.680 --> 19:43.040]  anyway, not really a costume where I feel self conscious about things like that. So let's just
+[19:43.040 --> 19:48.320]  say for example, somebody's having a retirement party or something like that. And it's a surprise
+[19:48.320 --> 19:53.600]  party. And you get there and you know, an hour before because you know, it's a surprise. And the
+[19:53.600 --> 19:58.480]  host says, Hey, everybody's gonna wear this hat. And it's like, you know, like a like a novelty
+[19:58.480 --> 20:02.640]  hat. And we want everybody to wear one. Well, I would put it on because I don't want to be you
+[20:02.640 --> 20:07.200]  know, I mean, I'm gonna go with the flow. But I would think like, do I look like in the back of
+[20:07.200 --> 20:12.720]  my head would be the idea of Do I look like a jerk with this hat on? And I would think I probably do
+[20:12.720 --> 20:17.200]  because I look around and sort of think that maybe everybody else looks a little bit like a jerk with
+[20:17.200 --> 20:22.240]  their hats on. And it would make me feel self conscious. And then I would get you know, I'd get
+[20:22.240 --> 20:28.640]  over it. I think it's, it's, it's certainly the mask thing is certainly exacerbated because,
+[20:30.080 --> 20:36.640]  again, your face is you, right? This is how we, you know, we identify each other. It is,
+[20:36.640 --> 20:45.520]  it is our personality. It's how everybody with vision, you know, can identify people covering
+[20:45.520 --> 20:50.960]  up your face is, you know, it's a lot different than putting on a novelty hat. And it is a
+[20:50.960 --> 20:57.760]  constant reminder it This is not a retirement surprise party. This is a pandemic that is making
+[20:57.760 --> 21:04.640]  people terribly ill, filling hospital ICUs and killing 100 of you know, hundreds of thousands
+[21:04.640 --> 21:10.160]  of people around the world. So you got to do it. Yeah. So but it's like a weird thing to be
+[21:10.160 --> 21:16.320]  reminded of, right? And so you get all the self consciousness of a novelty mask with combined with
+[21:16.320 --> 21:23.760]  the stress and anxiety of the, it's just could not be a more prominent reminder that we're in a
+[21:23.760 --> 21:30.320]  pandemic. Yeah, yeah, I mean, it's, it doesn't feel awesome losing all that real estate on your
+[21:30.320 --> 21:35.680]  face with, you know, that you use to express yourself and then interpret other people's
+[21:35.680 --> 21:42.320]  expression. It's like very sorry for the ham fisted analogy, but it's your face's UI, right?
+[21:42.320 --> 21:49.280]  Right. So it's kind of like, you know, designing something with only two thirds of the available,
+[21:50.560 --> 21:56.800]  you know, screen real estate, you're just conveying far less information I just last week,
+[21:56.800 --> 22:05.680]  I shot of like one of my commercial video things. And the product was specifically for
+[22:05.680 --> 22:12.800]  restaurants to be able to do contactless menus and contactless payments, really fluidly.
+[22:13.840 --> 22:18.000]  And but because the setting and the context of the story is in an open air restaurant,
+[22:18.880 --> 22:25.120]  where it's very important to be wearing, you know, masks, then all of our talent, including myself,
+[22:25.120 --> 22:31.440]  I was in this one, had our masks on for most of it. And as a director, when you don't have the
+[22:31.440 --> 22:37.520]  full face available to you to convey all of the all of the information that you need an actor to
+[22:37.520 --> 22:42.000]  convey, it's really different thing, it's really hard, you have to do so much more with the eyes,
+[22:42.000 --> 22:49.920]  obviously, so much more with the lens, you know, just get in there. And, but I mean, unfortunately,
+[22:49.920 --> 22:53.040]  it's something that we're all getting more accustomed to, we're sort of like learning
+[22:53.040 --> 22:56.400]  to draw more information out from that limited real estate.
+[22:56.400 --> 23:00.480]  Yeah, it's sort of like the opposite of directing a Batman movie, right? Because the Batman movie
+[23:00.480 --> 23:07.920]  right? Because Batman, Batman's cowl leaves open exactly the surface area that we need to cover.
+[23:08.720 --> 23:12.880]  Yeah, that's right. That's right. That's what the assholes who don't wear masks should be wearing
+[23:12.880 --> 23:18.720]  that you just put an eye like a fake, you know, an upper face mask on, just like lean all the
+[23:18.720 --> 23:32.560]  way into it. I'll bet man. America freedom. We could get into that. But why don't before we do?
+[23:33.440 --> 23:40.400]  Why don't I move on and keep the business flowing. And thank our next sponsor. It's our good old
+[23:40.400 --> 23:45.200]  friends at Squarespace. Hey, you've got time on your hands. We all have time on our hands. You're
+[23:45.200 --> 23:49.840]  inside this summer. At one of your lists, you know, they always remind me around New Year's,
+[23:49.840 --> 23:57.280]  you know, that's when people dig into like long forgotten projects. Resolutions, we call them,
+[23:57.280 --> 24:01.200]  you know, resolutions are things you decide to do in early January and then never do.
+[24:02.160 --> 24:06.560]  Maybe dig out that list. Now that we're home for the summer, think about something like a website
+[24:06.560 --> 24:10.480]  you've been hoping to make something you've been wanting to build, or maybe an old website you've
+[24:10.480 --> 24:15.040]  got that really needs to be upgraded. You want to do it all over again? Why don't you check out
+[24:15.040 --> 24:21.120]  Squarespace to do it. They've got everything, everything from registering domains, to picking
+[24:21.120 --> 24:29.200]  templates for design, to the WYSIWYG visual, just drag it around the screen. And what you see while
+[24:29.200 --> 24:36.400]  you're designing the site as the owner of the Squarespace website is literally exactly what
+[24:36.400 --> 24:42.480]  visitors to your website will see, minus the editing controls for dragging this stuff around
+[24:42.480 --> 24:48.160]  really could not be more WYSIWYG, which is a term that for some reason we don't talk about anymore,
+[24:48.160 --> 24:54.800]  but it really is everything you can do at Squarespace. And they have a free trial,
+[24:54.800 --> 25:01.600]  so you can just dig in, you get like 30 days, do what you want. It's real, it's all real,
+[25:01.600 --> 25:06.480]  everybody can visit, you can see that you like it, and you don't have to pay a dime. And then when
+[25:06.480 --> 25:12.560]  you do, you just remember the code, go to squarespace.com slash talk show, and just remember that
+[25:12.560 --> 25:19.120]  same code, talk show, T-A-L-K-S-H-O-W, you get 10% off your first purchase. Squarespace.com
+[25:19.120 --> 25:23.360]  slash talk show, remember that code talk show. You kind of got to remember the code, because you can
+[25:23.360 --> 25:28.560]  go there, sign up, use it for 30 days, and not only then do you have to pay, just remember that code,
+[25:28.560 --> 25:32.800]  you could save 10%. You've got your month in there, if you already know you like it, why not sign up
+[25:32.800 --> 25:38.720]  for a year, use that code, save 10% off our whole year. There you go, save money, you get a great,
+[25:38.720 --> 25:44.320]  great service, you don't have to worry about stuff like systems upgrades, what operating system is
+[25:44.320 --> 25:48.400]  running. Forget it, Squarespace takes care of all that, so go check them out next time you need to
+[25:48.400 --> 25:55.440]  build a website, squarespace.com slash talk show. Hey, speaking of websites, how about the Twitter?
+[25:55.440 --> 26:07.200]  Twitter got hacked. Yeah, that was silly. You didn't get locked out, did you?
+[26:07.200 --> 26:13.600]  It didn't affect you in any way? No, well, I was unable to tweet during the... Oh, right,
+[26:13.600 --> 26:20.160]  yeah, that's right, for Verified, they locked you out of tweeting, but that lasted what, a few hours?
+[26:20.160 --> 26:24.240]  Yeah, something like that, but I did not get locked out. You got locked out, right?
+[26:24.240 --> 26:30.880]  I did, because I was one of the dumdums who changed my password right after. I took the
+[26:30.880 --> 26:36.640]  extra security precaution of changing my password on both of my accounts, both my personal and my
+[26:36.640 --> 26:44.480]  business account, and surprise, surprise, the next two days I was locked out. I think Todd
+[26:44.480 --> 26:47.680]  Vizzieri experienced the same, I don't even know if he's back in business.
+[26:47.680 --> 26:51.680]  Yeah, he was out of business for a couple of days, Todd Vizzieri, he'll listen to this,
+[26:51.680 --> 26:55.840]  he'll hear this and get a kick out of that, but he won't be able to tweet about it.
+[26:59.280 --> 27:00.400]  Sorry, Todd.
+[27:00.400 --> 27:07.200]  Yeah, so not a bad idea, right? Like, you think like, holy hell, Twitter is, the whole thing is,
+[27:07.200 --> 27:13.360]  you know, there's an unknown number of hackers running around doing crazy stuff
+[27:13.360 --> 27:17.840]  with Twitter accounts. Why don't I go in and change my password? It just seems like
+[27:17.840 --> 27:24.560]  just seems like the least you can do, right? Just do something, right? If I was a locksmith
+[27:24.560 --> 27:28.320]  and something crazy like this was going on, maybe I would change the locks on my door, right?
+[27:28.320 --> 27:32.160]  I mean, you can do it. If you could change your locks on your door as easy as you can change your
+[27:32.160 --> 27:38.160]  password on Twitter, I would do it, right? But it turns out then that after this was over,
+[27:38.160 --> 27:44.000]  they were like, we don't even know what the hell happened Twitter-wide, so let's just
+[27:44.000 --> 27:51.520]  flag every account whose password has been changed and lock it down, right? So, eh, eh, right?
+[27:51.520 --> 27:56.320]  Well, I mean, I get it. It was, it's probably, if you're a hacker and you, you would change
+[27:56.320 --> 28:01.040]  people's passwords, I guess, on their behalf. And then I guess it seems like a smart thing to do.
+[28:01.040 --> 28:06.800]  It's just totally counterintuitive that if I had done nothing to secure myself, then I would have
+[28:06.800 --> 28:12.960]  been, I would have been back, you know, back using the app again. But, you know, people were wondering
+[28:12.960 --> 28:20.640]  what was, what, what would the motivation be if it weren't purely to steal, what was it 180,000,
+[28:20.640 --> 28:26.800]  something like $180,000 with a Bitcoin, which was not that big of a take. Yeah. End of the day,
+[28:26.800 --> 28:31.280]  for something like, for the biggest hack that Twitter has ever experienced.
+[28:32.320 --> 28:38.480]  Taking complete, taking complete control over one of the, you know, second only to Facebook,
+[28:38.480 --> 28:46.160]  maybe social network on the planet with perhaps greater media influence than Facebook, right?
+[28:46.160 --> 28:51.680]  Like, so Facebook as a company is worth way more than Twitter as a company. But like, Twitter's the
+[28:51.680 --> 28:56.640]  one that we're always worried about, you know, who tweeting something dumb that starts a war, right?
+[28:56.640 --> 29:01.760]  Like, right, because it doesn't, it's not the walled garden that Facebook is, is that way more
+[29:01.760 --> 29:06.400]  of a sort of an amplification machine or a broadcast. And it is sort of fundamentally
+[29:06.400 --> 29:11.920]  simpler, right? This is the sort of thing I know that you get, like, at its core, it's really hard
+[29:11.920 --> 29:16.960]  to explain what Facebook is, I honestly still don't understand it, I don't really quite understand
+[29:16.960 --> 29:23.680]  what the hell it is, like, Twitter is actually kind of easy to understand, you sign up, you get
+[29:23.680 --> 29:29.920]  a name. And, you know, by convention, we just put an ad sign in front of it. And then you can tweet,
+[29:29.920 --> 29:36.480]  which is that you get to write up to 280 characters and hit send. And then it goes, and then anybody
+[29:36.480 --> 29:41.360]  who looks at your account can see the things you've sent. That's it. That's the whole thing,
+[29:41.360 --> 29:46.720]  really. And then everything else is just sort of butter on that in terms of like, you know, you can
+[29:47.600 --> 29:52.560]  rip, you know, reply to somebody by putting their name in it, and it threads it somehow. But
+[29:52.560 --> 29:58.320]  it's all just tweets, the replies are tweets, everything's tweets, it's, it's just tweets,
+[29:58.320 --> 30:03.200]  it's, it's just tweets all the way down. And tweets are just little blurbs of text that you just
+[30:03.920 --> 30:09.440]  throw out into the ether, right? That's it. It's very easy to understand. And I feel like that is
+[30:09.440 --> 30:15.360]  sort of what makes it more powerful in terms of like, if somebody influential is just going to
+[30:15.360 --> 30:20.720]  post a message, you just post it on Twitter, there it is, it goes out, and everybody can point to it,
+[30:20.720 --> 30:26.560]  anybody who, you know, somebody says, Did you see what Adam Lisagor said, they just post the link,
+[30:26.560 --> 30:30.880]  and you don't even have a Twitter account, maybe you just hit the link, you can read what what it's
+[30:30.880 --> 30:34.480]  there, you don't have to, you know, there's no goofy thing that pops up. That's like, hey, sign
+[30:34.480 --> 30:39.200]  up and tell me where you went to high school to sign into Facebook or whatever. No, it's just
+[30:39.200 --> 30:44.880]  there. And then they can put it you know, you show up on CNN, they can put at Gruber underneath your
+[30:44.880 --> 30:50.000]  name or whatever, and people know where your Twitter is. That simplicity is sort of the core
+[30:50.000 --> 30:57.200]  of what makes it so powerful. These guys took control of it and decided to use it to scam
+[30:57.200 --> 31:03.840]  bitcoins. Yeah, well, I mean, you know, if you're a little bit conspiracy minded, that it was it
+[31:03.840 --> 31:08.560]  sort of people are saying, people are saying, you know, it's Oh, God, that's what a terrible
+[31:08.560 --> 31:14.960]  expression. It's ruined. It's been ruined by you know, who? Yeah, but like, you know, there,
+[31:14.960 --> 31:21.760]  there's there's speculation out there that it was a test run for something bigger. I just realized
+[31:21.760 --> 31:28.000]  while we're talking about this, because I watched the movie sneakers a couple days ago. I love that
+[31:28.000 --> 31:36.720]  movie, meat sneakers. It all starts out with a with a robbery, a heist. I forget the specifics.
+[31:36.720 --> 31:42.880]  It's been a couple days, but and then you learn. And then you learn that the whole thing was an
+[31:42.880 --> 31:51.760]  actual inside job that he that they were that this ragtag gang of, of, you know, essentially,
+[31:51.760 --> 31:58.720]  old school hackers had been paid for, you know, paid by the bank to pull off in order to
+[31:58.720 --> 32:05.760]  discover and patch security flaws. So what if this was a similar kind of an inside job, you know,
+[32:05.760 --> 32:12.960]  and it wasn't that much of an investment to lose 180k in Bitcoin. But now they know, I don't know,
+[32:12.960 --> 32:18.000]  I kind of think like I it's fun to have to theorize about conspiracies like this, I think
+[32:18.000 --> 32:25.440]  it's end of the day completely false. And I would never, I would never hang my, you know, any any
+[32:25.440 --> 32:31.120]  reputation on this kind of thing. But it would be an interesting way to sort of in in, you know,
+[32:31.120 --> 32:37.120]  get people used to the idea that these platforms are not foolproof, or, you know, they're not air
+[32:37.120 --> 32:42.400]  tight, they can be exploited. And we should be a little bit more security minded about that.
+[32:43.200 --> 32:49.120]  You know, I think it's really important leading up to the selection, that we don't consider this
+[32:49.120 --> 32:57.200]  platform as airtight and, you know, solid truth. And I think that if this little hack causes people
+[32:57.200 --> 33:02.880]  to give it a second thought in terms of even the discussion of what's true and what's false,
+[33:02.880 --> 33:11.280]  then I think it served its purpose. So Ben Thompson brought this up on on our dithering
+[33:11.280 --> 33:17.200]  show the other day. And Sunday, we recorded Sunday night, and then that show came out Monday,
+[33:17.200 --> 33:21.520]  that was about yesterday. I don't know who the hell knows what day it is. But then late Sunday
+[33:21.520 --> 33:28.240]  night. Amy and I watched the john Oliver the last last week tonight with john Oliver. Do you like
+[33:28.240 --> 33:33.760]  the john Oliver? I do. I don't watch it regularly. But I think he's great. I think he's great. But
+[33:33.760 --> 33:38.960]  he had a bit it was amazing. Because I wish I kind of I was like, I don't buy the conspiracy
+[33:38.960 --> 33:44.560]  theory thing at all. And Ben was more like, I don't really buy it. But who knows, maybe.
+[33:44.560 --> 33:49.680]  And then it's just amazing. It was just like in the way like this sort of, hey, am I living in
+[33:49.680 --> 33:54.800]  some kind of weird, slip cystic simulation of the universe, because I was just talking. I mean, Ben
+[33:54.800 --> 34:01.520]  and I recorded like 10 at night, and I was late, of course, 10 Eastern. It's like 10am over in
+[34:01.520 --> 34:06.880]  Taipei. And then the john Oliver show comes on at 11. And so it was just like, you know, I don't
+[34:06.880 --> 34:11.280]  know, literally, like 30 minutes after I just talked to Ben about it on our show, john Oliver
+[34:11.280 --> 34:16.880]  had a bit talking about conspiracy theories. And I'm not going to remember it here. But the name of
+[34:16.880 --> 34:22.000]  this psychological thing, I swear to God, I'll find it for the show notes, but it doesn't matter.
+[34:22.000 --> 34:28.720]  But the gist of it is that there's a well known psychological effect in regarding conspiracy
+[34:28.720 --> 34:38.560]  theories. That's something that has a great effect. The human mind assumes there must be
+[34:38.560 --> 34:46.880]  an equally great cause for it. And the example which I have never thought of, and never heard
+[34:46.880 --> 34:52.480]  anybody mention, or at least don't recall anybody mentioning, but which is like, whoa, mind blown,
+[34:53.520 --> 35:02.880]  was comparing the Kennedy assassination with Reagan getting shot, where Kennedy gets shot.
+[35:02.880 --> 35:10.400]  And the official story is it was a lone kook gunman. And the whole world thinks, well,
+[35:10.400 --> 35:16.800]  that can't possibly be it. And is, you know, quite possibly the conspiracy theory of all
+[35:16.800 --> 35:20.400]  conspiracy theories, right? It's certainly up there in the greatest if you're going to make
+[35:20.400 --> 35:24.880]  the greatest hits of conspiracy theories, the Kennedy assassination is up there, right? I mean,
+[35:24.880 --> 35:30.480]  I don't see anybody can dispute it. Right. But what happened with Reagan with john Hinckley,
+[35:30.480 --> 35:38.320]  Jr. It was a lone kook gunman, who went and shot him. And the difference, of course, is that
+[35:38.320 --> 35:47.040]  Kennedy was killed, and the effects were therefore profound, and Reagan recovered. And, you know,
+[35:47.040 --> 35:53.280]  most people, it's not when you think like Ronald Reagan's presidency, like him getting shot is like,
+[35:53.280 --> 35:57.920]  not even at the top of the list of things that happened, which is kind of crazy, right? And
+[35:57.920 --> 36:02.560]  there's zero conspiracy theories, right? There is not one. Have you ever heard a conspiracy theory
+[36:02.560 --> 36:04.400]  about Reagan's shooting?
+[36:04.400 --> 36:12.400]  No, but but but because we got a psychological profile of his killer, if it is it john David?
+[36:12.400 --> 36:16.720]  No, it's no john Hinckley, john Hinckley, john Hinckley, john Hinckley, Jr. Yeah, which,
+[36:16.720 --> 36:24.160]  which seems so entirely plausible, which was that he was a nutso who wanted to impress a movie star.
+[36:24.160 --> 36:31.280]  Right. And that seemed very plausible. Okay, so look at like, look at the incels of art of today.
+[36:32.000 --> 36:37.360]  That makes sense. You know, you could see somebody doing something really evil, for the dumbest of
+[36:37.360 --> 36:43.360]  all reasons. And I guess the world needed no further explanation at the time. Well,
+[36:43.360 --> 36:47.600]  and I get it too. And the thing that Oliver didn't mention, and I was like, well, there is the crazy
+[36:47.600 --> 36:54.640]  aspect though, where Hinckley also shot him at like point blank range, like he just Reagan was
+[36:54.640 --> 37:00.480]  just walking out of like the Hilton after giving a speech. And it just they just phrase it was like
+[37:00.480 --> 37:04.320]  the last time it's ever happened where like the President just sort of left the President United
+[37:04.320 --> 37:08.720]  States just left a building like a normal celebrity, with just, you know, a couple of
+[37:08.720 --> 37:14.720]  security export experts around him, but like, that the crowd on the sidewalk was there to, you know,
+[37:14.720 --> 37:20.640]  shout and say hi to him and everything. You know, and Hinckley was just there with a gun in his pocket
+[37:20.640 --> 37:26.720]  and shot him. Whereas, you know, like the mechanics of the shooting are actually very simple. And if
+[37:26.720 --> 37:32.720]  you understand, if you understand how the President and through the 60, which is crazy, after all,
+[37:32.720 --> 37:37.760]  you know, Kennedy getting shot, you know, that, that they still just let the President walk out
+[37:37.760 --> 37:44.880]  in the sidewalk, get into a car himself. But the mechanics of it, weren't crazy, just a guy and
+[37:44.880 --> 37:49.680]  the fact that he wasn't a trained shooter, you know, and just shot him in the stomach or the
+[37:49.680 --> 37:55.280]  chest. Whereas the Hinckley thing, it does involve, you know, some rather preposterous or rather not
+[37:55.280 --> 38:00.960]  preposterous, but hard to believe marksmanship and number of bullets and, you know, Harvey Oswald,
+[38:00.960 --> 38:06.240]  you know, so I don't want to, I don't want to derail this whole thing into some of the stuff
+[38:06.240 --> 38:10.960]  around the Kennedy assassination. But, you know, yeah, there's other assassinations to talk about.
+[38:10.960 --> 38:17.200]  Right. But just, just thinking about the mechanics of the shooting, it, you know, it required,
+[38:17.840 --> 38:22.800]  even people who believe that there was, you know, that Lee Harvey Oswald, what's with these guys
+[38:22.800 --> 38:27.680]  with the names that are hard to remember Lee Harvey Oswald, you know, even if you believe
+[38:27.680 --> 38:31.920]  that he did it all on his own, you still have to fundamentally believe that he was a tremendous
+[38:31.920 --> 38:37.920]  marksman, you know, who can, you know, so I get it. It's, but the bigger point, though,
+[38:37.920 --> 38:43.920]  I think is true, which is that if Reagan had been killed, there would have been
+[38:44.640 --> 38:49.840]  conspiracy theories about it. Right. And it's certainly, you know, and I think that's sort of
+[38:49.840 --> 38:55.520]  at the heart of this Twitter thing. I just I think it's exactly where it was so prof,
+[38:55.520 --> 39:01.040]  their ownership of Twitter's platform was so profound, where they could literally pick any
+[39:01.040 --> 39:06.640]  account, almost any account they wanted to like there's just nobody even knows which ones are
+[39:06.640 --> 39:12.240]  locked. Everybody knows that Trump's is locked behind the key because because a couple of years
+[39:12.240 --> 39:19.440]  ago, a contractor, a contractor who worked at Twitter security team part time or as a temporary
+[39:19.440 --> 39:27.680]  worker on his last day of work deactivated Trump's account. That was wonderful. So Trump's is under
+[39:27.680 --> 39:35.200]  some kind of special lock and key. I guess Jack Dorsey's is I only guess because, you know, he is
+[39:35.200 --> 39:42.320]  the CEO and his account wasn't apparently tweeting, you know, the Bitcoin scam. Maybe not. I don't
+[39:42.320 --> 39:47.200]  know who else is there. It seems crazy that that Trump's would be under this and Joe Biden's
+[39:47.200 --> 39:51.840]  wouldn't at this point. I mean, I'll bet it is right now. I'll bet as you and I record that
+[39:52.560 --> 39:56.720]  they were like, hey, we better, you know, better put Biden's account under the same
+[39:56.720 --> 40:04.160]  thing as Trump's. Yeah. But how about make everybody's that safe? How you know, I think
+[40:04.160 --> 40:09.040]  that's the main point here is, hey, jerks, we're all spending all this time on your platform. Like,
+[40:09.040 --> 40:17.200]  you know, a big, large portion of society is using this platform to express and learn information.
+[40:17.920 --> 40:23.760]  How about keep us safe? How about don't make this happen? Well, I think the craziest thing is that
+[40:23.760 --> 40:28.640]  you could have everybody says over and over again with everything do two factor, two factor,
+[40:28.640 --> 40:34.160]  two factor. I mean, and I've done it. I have gone through. I'm not going to say every single account
+[40:34.160 --> 40:39.680]  I have that I could have two factor on. I have it on. But everyone that I think is important,
+[40:40.320 --> 40:50.080]  I do. Right. I've got it on my bank. I've got it on my credit cards. You know, my Twitter accounts
+[40:50.080 --> 41:00.640]  have it. My Gmail account has it any, you know, so email, Twitter, banking, credit cards, I mean,
+[41:00.640 --> 41:04.880]  pretty much anything serious. I mean, you know, like my account at J crew.com does not have two
+[41:04.880 --> 41:12.480]  factor authentication. Honestly, I am gonna order you so many chinos are not gonna be flattering
+[41:13.040 --> 41:19.040]  to you. All right. Somebody breaks into my account there and they're gonna find the least surprising
+[41:19.040 --> 41:25.680]  order history that they've ever seen. It's just a bunch of, you know, flashy navy blue polos
+[41:27.440 --> 41:28.960]  and a bunch of gray shorts.
+[41:33.920 --> 41:38.080]  But if you had two factor on your Twitter account and everybody said, well,
+[41:38.080 --> 41:43.520]  what's the when this first thing went wild and all these, you know, this great obvious scams are
+[41:43.520 --> 41:48.320]  coming out of these accounts, everybody's like, oh, my God, that is nuts that so and so didn't
+[41:48.320 --> 41:52.640]  have two factor on their account because everybody just assumed two factor would protect you. Right.
+[41:54.160 --> 41:59.440]  Turns out that the same interface that let them like, just change the email associated with an
+[41:59.440 --> 42:05.680]  account also let them just just like, click a checkbox to turn off two factor, which is sort of
+[42:06.320 --> 42:14.640]  like, yeah, you would think they should lock that down. And it was all social engineering,
+[42:14.640 --> 42:21.200]  right? To hack in the first place. It's like having a vault where, you know, like with a big,
+[42:21.200 --> 42:30.320]  thick, you know, caper movie, three foot thick door for the vault door and a crazy, you know,
+[42:30.320 --> 42:35.440]  combination lock, but it's just a panel and you could just walk around the side.
+[42:37.360 --> 42:41.600]  It's just like one face out of the floor. It's not actually a box. It's like, yeah,
+[42:41.600 --> 42:45.600]  that, you know, the the vault door is super secure, but you could just walk around the
+[42:45.600 --> 42:50.240]  side and just turn it over. There's a guy, there's a security guard, but you just kind of,
+[42:50.240 --> 42:54.400]  you throw a piece of meat around the corner and he goes and chases it.
+[42:56.000 --> 43:00.560]  Well, the other thing that was so wild about everybody, again, I think that this fundamental
+[43:00.560 --> 43:04.480]  theory, the reason people are thinking there must be a greater conspiracy is it was so
+[43:04.480 --> 43:11.200]  bizarre. And it really seems like the Bitcoin part was secondary and it was something that one of the
+[43:11.200 --> 43:16.800]  hackers involved, I don't know if he had it in mind all along, but like the things that they did
+[43:16.800 --> 43:22.560]  first before the Bitcoin thing were just trying to steal what they call OG Twitter handles,
+[43:23.360 --> 43:32.960]  which I was unaware. I realized that they are few and far between. These are the one character
+[43:32.960 --> 43:41.040]  names, like at six, like just add the character six. You know, obviously there's only like
+[43:42.240 --> 43:50.000]  40 or so, I don't know how many, maybe only 37 one character Twitter names, the 26 letters
+[43:50.000 --> 43:56.560]  of the alphabet, the 10 digits. And then our friend Dave, Dave Rutledge, who runs or created
+[43:56.560 --> 44:05.440]  co-created meh.com as at underscore. Oh, wow. Yeah, that's been a mess for him. Yeah. You think
+[44:05.440 --> 44:11.120]  like that's clever. His Twitter handle is underscore, just one underscore. And I believe
+[44:11.120 --> 44:18.080]  his wife is two underscores and he's cured three underscores for one of their kids, I believe.
+[44:19.520 --> 44:25.040]  Yeah, but guess who's account gets hacked all the time? Oh, man, that sucks. Yeah.
+[44:25.040 --> 44:30.400]  And so this was that so that was the big heist on that just getting single character accounts. And
+[44:30.400 --> 44:35.280]  then once they realized they had something, then they did this was their version of the check out
+[44:35.280 --> 44:40.560]  my SoundCloud when you have a tweet. Yeah, viral. Yeah. Interesting and terrible. And it's very
+[44:40.560 --> 44:45.920]  stupid. Yeah, well, and I think that that's ultimately I think that one of the things
+[44:45.920 --> 44:51.840]  that's forgotten in Twitter hacking history, everybody remembers the saga of again, friend
+[44:51.840 --> 44:56.480]  of the show, although I don't think he's ever been on. But Matt Honan, who's, you know, a big
+[44:56.480 --> 45:04.320]  wig over at BuzzFeed News now. But who quite unusually, in my opinion, spells his name,
+[45:04.320 --> 45:14.720]  M.A.T. He doesn't have the second T. You know, which is a lot less common than say being a John
+[45:14.720 --> 45:22.160]  without the H. But not quite as uncommon as being an atom without, like the second day.
+[45:23.360 --> 45:28.400]  Yeah, that'd be weird. Although it's, you know, do you well in it for a career in the Navy?
+[45:29.520 --> 45:30.020]  Yeah.
+[45:32.800 --> 45:38.880]  But anyway, Matt Honan years ago, I mean, this might be 10 years ago, at this point, got hacked.
+[45:38.880 --> 45:45.600]  Got hacked is and badly like this everything. Right. You remember the idea and everything
+[45:45.600 --> 45:52.400]  as Apple, because they only took his Apple ID, I think, to get his Twitter. But he wrote about
+[45:52.400 --> 45:56.720]  it eventually. But it really was devastating at a personal level because they took his Apple ID
+[45:56.720 --> 46:02.160]  and he had everything else, like his banking and everything was all through his Apple ID. But he
+[46:02.160 --> 46:09.360]  lost his Apple ID to these hackers. And it seemed like Twitter's initial reaction was to assume that
+[46:09.360 --> 46:16.000]  Honan got hacked because he was in the media. And that's when I got verified. I never asked for the
+[46:16.000 --> 46:21.040]  ad Gruber account to get the blue checkmark. They just gave I just logged in one day and I had it
+[46:21.040 --> 46:27.040]  because they were going through they had some assembled some sort of list of people like Matt
+[46:27.040 --> 46:34.560]  Honan. And, you know, for obvious reasons, I am vaguely like him in terms of the number of people
+[46:34.560 --> 46:41.040]  following me and that I write stuff that people read. But I think it's clear in hindsight that
+[46:41.040 --> 46:45.760]  the reason Honan got hacked wasn't because he was in the media, but because his username was MAT.
+[46:47.040 --> 46:52.960]  It was one of these og Twitter accounts. I can only I had no idea that there was so much value
+[46:52.960 --> 46:58.400]  in these short handles. Right. Well, and but the value cannot be seen as permanent because surely,
+[46:59.200 --> 47:06.160]  you know, it it no matter what, how how quietly they had tried to play this, if they had really
+[47:06.160 --> 47:10.320]  just tried to steal and they were selling these things, according to the New York Times, you know,
+[47:10.320 --> 47:13.600]  there was like fifteen hundred bucks or twenty five hundred bucks would get you like a two
+[47:13.600 --> 47:20.960]  character username. Surely they didn't expect it to be permanent, I guess, unless it's like
+[47:20.960 --> 47:26.800]  maybe if it's a Twitter account that was abandoned in that nobody used in, you know,
+[47:27.520 --> 47:31.760]  but if somebody was using it, surely Twitter, you know, this is going to come to their attention
+[47:31.760 --> 47:37.760]  and they would see, oh, this person says their Twitter account was stolen on this day and that
+[47:37.760 --> 47:42.800]  was the day we got hacked. And yes, that's when the email address and everything was changed. So
+[47:42.800 --> 47:48.480]  we'll just give it back to this person. Surely they didn't expect it to be permanent. You know,
+[47:48.480 --> 47:52.320]  I think it's just like a typical prank where you, you know, think you're going to get away
+[47:52.320 --> 47:59.840]  with it for an hour and just all very bizarre. And I just think people have a hard time grasping that
+[48:00.960 --> 48:06.480]  like 20 year old computer hackers would do it, would have this power in their hands and use it
+[48:06.480 --> 48:14.240]  to steal the LOL account. Yeah. Yeah, it was real dumb. But I think, again, silver lining
+[48:14.240 --> 48:19.920]  is now we're all just a little bit more aware of the security flaw. Yeah.
+[48:21.680 --> 48:25.680]  Yeah, I don't know. I do wonder what Twitter is going to do. It's pretty embarrassing for them,
+[48:25.680 --> 48:30.720]  especially, you know, and people do and I know we're joking about it. But, you know,
+[48:31.520 --> 48:35.760]  that's the thing that people get is, you know, what if they had, you know, tweeted from somebody's
+[48:35.760 --> 48:41.280]  account that, you know, like, you know, at Joe Biden, I'm dropping out of the race or something
+[48:41.280 --> 48:48.240]  like that. In our stock manipulation, right? I mean, people have lost real money. Yeah,
+[48:48.240 --> 48:56.000]  the Tesla being shorted or, or, or other. Right. And you know, and Tesla in particular comes to
+[48:56.000 --> 49:04.160]  mind because their stock is, you know, on a rocket, and it is so it is volatile. And we know
+[49:04.160 --> 49:12.400]  for a fact that Elon Musk tweets goofy things. Like, you know, it gets high, and tweets that
+[49:12.400 --> 49:20.240]  he's taking the couple at the company private at $420 a share. He did that, like, that wasn't a
+[49:20.240 --> 49:28.480]  hack. So, you know, something just every bit as similar as that would have, you know, it certainly
+[49:28.480 --> 49:35.040]  seemed to be believable. I think. I think Matt Levine, who writes the great money stuff newsletter
+[49:35.040 --> 49:40.080]  for Bloomberg, you know, his idea was have have, you know, if you wanted to really try to make some
+[49:40.080 --> 49:48.240]  money, it's either short the stock or long the stock if you wanted to long it and assume it was
+[49:48.240 --> 49:56.480]  going to go up. Have the just hack two accounts, Elon Musk and say, Hey, this time for real, I'm
+[49:56.480 --> 50:04.480]  taking the company public at blank, put the target number in with the help of Warren Buffett, and
+[50:04.480 --> 50:08.800]  then just take the Buffett account and say, I'm happy to help Elon Musk take the great company
+[50:08.800 --> 50:15.680]  Tesla private would, you know, we've heard all the financing, boom, the stock jumps up, you cash
+[50:15.680 --> 50:22.880]  out. And, you know, and maybe the SEC finds you, but there's so many people who are on a daily
+[50:22.880 --> 50:29.680]  basis shorting and long I mean, it's like become like a Coronavirus quarantine hobby is day trading
+[50:29.680 --> 50:37.120]  stocks. You know, you know, if you did it for enough money that it might be worth it to you,
+[50:37.120 --> 50:43.040]  but not so much that it really sticks out among the zillions of trades, people, crazy trades people
+[50:43.040 --> 50:50.000]  do with Tesla every day, you could have gotten away with it. But instead, they just took goofy
+[50:50.000 --> 51:02.960]  usernames. So dumb. Let's, let's talk about my show. Before I forget. So you helped. Yeah. So I
+[51:02.960 --> 51:10.000]  wrote your remote show. Yeah. And I just want to I want to thank you. Really, I want to thank you
+[51:10.000 --> 51:16.640]  personally. No, absolutely. No sweat. Because I here's here's here. I mean, I mean, relay how
+[51:16.640 --> 51:22.880]  this came to be as I best I recollected. I started talking with Apple, you know, I don't know, six
+[51:22.880 --> 51:30.720]  weeks before WWDC, maybe a little bit before that, you know, just sort of, hey, like, I think maybe
+[51:30.720 --> 51:35.200]  around the time when they first announced that WWDC was going to be virtual, I had some preliminary
+[51:35.200 --> 51:39.680]  talk with Well, look, this, you know, we're obviously not, why don't you know, you're
+[51:39.680 --> 51:44.960]  obviously not going to do a show traditionally, we still will probably be interested in doing
+[51:44.960 --> 51:49.120]  something with you, if you would like to, you know, but it would have to be remote. And I said,
+[51:49.120 --> 51:54.880]  yeah, I would like to I, you know, it's too good of a tradition to let fall. Let's figure it out
+[51:54.880 --> 52:00.800]  when we get closer, get closer. And you know, it's like, okay, here's what we were thinking,
+[52:00.800 --> 52:08.880]  you know, what if we did what if what if Jaws and Craig come on the show again. And even in normal
+[52:08.880 --> 52:18.720]  years, it's, it, it is them suggesting, here's who maybe would be a good idea for the show.
+[52:18.720 --> 52:23.840]  And, you know, Federighi doesn't really spill anything, everybody knows Federighi is going to
+[52:23.840 --> 52:29.280]  be involved. But like a couple of years ago, when Mike Rockwell, who's in charge of all the
+[52:29.280 --> 52:35.280]  machine learning stuff at Apple, when they were like, we're thinking about Mike Rockwell, he's
+[52:35.280 --> 52:41.920]  in charge of this, it was sort of a, you know, there's sort of like a handshake deal,
+[52:42.960 --> 52:48.480]  preliminary to the show that I'm not going to go blab and say, Mike, you know, part of the thing
+[52:48.480 --> 52:52.800]  is that I'm going to keep the guest secret. Part of it is that it's a lot of fun to come out on
+[52:52.800 --> 53:00.160]  stage, and nobody in the audience even knows who's coming out. And part of it is like, if it's Mike
+[53:00.160 --> 53:07.920]  Rockwell, and I announced it in advance, it would sort of suggest that maybe the WWDC keynote is
+[53:07.920 --> 53:13.760]  going to have a lot of machine learning. AI Yeah. There's some corporate secret stuff that they
+[53:13.760 --> 53:19.360]  can't, they don't want that's going to indicate you don't want to divulge. Right. Yeah. But you
+[53:19.360 --> 53:24.320]  know, and it was like, you know, and what do what are we going to do? And the basic conversation I
+[53:24.320 --> 53:34.640]  had with with Bill Evans at Apple PR, was that I'm I watch a lot of these late night shows. I watch
+[53:34.640 --> 53:41.360]  Colbert, we watch the Seth Meyers late night show. I peek in at the Jimmy Kimmel sometimes I like,
+[53:41.360 --> 53:44.640]  you know, I'm, you know, that's why this show is called the talk show. I like talk shows.
+[53:44.640 --> 53:53.840]  I find the production value of the shows during quarantine to be overall to be unbelievably poor.
+[53:54.720 --> 54:02.160]  I can't believe it. I could believe it it like the end of March when it was new. And it was like,
+[54:02.160 --> 54:06.560]  nobody saw. Yeah, it's like, oh, shit, we got to get something up and running, like now six hours
+[54:06.560 --> 54:12.160]  till till Showtime. But yeah, they could easily in this amount of time, they could have easily
+[54:12.160 --> 54:16.720]  built us a little studio for each of the, you know, a little home studio for each of the
+[54:16.720 --> 54:23.600]  right. And the shows and where it particularly falls flat, is the interviews when they have
+[54:23.600 --> 54:29.520]  guests on and they just look I mean, and not even talking about the editing, but just the
+[54:29.520 --> 54:35.920]  compression artifacts that you're actually just looking at the compression artifacts of a zoom
+[54:35.920 --> 54:44.960]  call over mediocre bandwidth. And a terrible sometimes a terrible, like MacBook, webcam.
+[54:46.960 --> 54:52.160]  I just can't believe that they don't have and this we can talk about this with you. But you know,
+[54:52.160 --> 54:57.360]  the way that it would be more self contained, but like the way that that you guys at sandwich
+[54:57.360 --> 55:02.160]  have put together a kit that you can send around to shoot stuff remotely. Like why don't they have
+[55:02.160 --> 55:07.200]  an interview kit, and they can just send it in a box with some instructions. And then as the
+[55:07.200 --> 55:12.640]  weeks go on, they can, you know, here's where people got hung up, oh, people got confused
+[55:12.640 --> 55:17.440]  about this and this. And then you get it down. And then everybody could have like a nice light
+[55:17.440 --> 55:24.880]  or two, and a nice camera and a good microphone. And maybe we wouldn't record the actual compressed
+[55:24.880 --> 55:30.640]  stuff going over the internet. Just basically, I find it very, very difficult to do. Like,
+[55:30.640 --> 55:35.680]  basically, I find it very hard to watch. I really do. I don't watch the interviews anymore. Because
+[55:35.680 --> 55:45.680]  I really, I can't, it's, I just, it's too hard. It feels like I'm, like reading, reading subtitles.
+[55:46.240 --> 55:51.440]  It's a quandary for them for these shows. Because if they, if let's say they do figure out a really
+[55:51.440 --> 55:57.840]  good mobile production kit, and then some of like, then the interviews, the other side of the
+[55:57.840 --> 56:04.320]  interview starts looking and sounding better, or even like looking and sounding great, then they're
+[56:04.320 --> 56:09.840]  kind of stuck at that level of that production quality standard. And then anything that falls
+[56:09.840 --> 56:15.440]  short of that is going to really stick out and look terrible by comparison. So they, they're
+[56:15.440 --> 56:20.400]  almost, I feel like they're doing themselves a favor acknowledging that, that, hey, it's a free
+[56:20.400 --> 56:25.760]  for all, we're going to get what we're going to get limited not only by the capture gear, but the
+[56:25.760 --> 56:33.440]  actual bandwidth that people have available to them. We're just having to what's that? Well,
+[56:33.440 --> 56:38.880]  the physical space that people are quarantining in, right? Not everybody has the luxury of having
+[56:38.880 --> 56:45.040]  a space available with say, like I did nice natural light, or space at all, right? I mean,
+[56:45.040 --> 56:50.640]  there's people who live in small apartments, you know, with kids or pets. And yeah, and also,
+[56:50.640 --> 56:54.560]  most people prioritize different things in their home office, they don't care about what it looks
+[56:54.560 --> 56:58.560]  like behind them, because they're looking in front of them all day long, you know, they so they don't
+[56:58.560 --> 57:04.000]  care. Usually people sort of sit with a back against the wall and a bunch of framed, you know,
+[57:04.000 --> 57:10.640]  commemorative things. And those things don't look good on camera. Yeah. So anyway, that was my basic
+[57:10.640 --> 57:15.840]  thing is I didn't want it to look like that. Because part of it was simple vanity. I don't
+[57:15.840 --> 57:21.600]  want to put out a show that looks like garbage. But also, if I have trouble following along
+[57:21.600 --> 57:28.720]  with a very poor, just sort of record the actual zoom or FaceTime, or it doesn't even matter which
+[57:28.720 --> 57:35.280]  of the things you're using, if you just record it to disk, I really, I just have a hard time
+[57:35.280 --> 57:42.240]  following along. I wanted people to enjoy it, you know, and that was my basic thing was let's,
+[57:42.240 --> 57:46.480]  let's, you know, we haven't doing fancy, but let's make it look good and sound good. And let's figure
+[57:46.480 --> 57:51.680]  this out. And we figured out the mechanics of basically, long story short, and then you know,
+[57:51.680 --> 57:58.240]  I wrote all the technical details, but do it as a double ender. And have a camera that's not even
+[57:58.240 --> 58:04.240]  the webcam recording it, we just use iPhones, but the iPhones are great people. And again, that was
+[58:04.240 --> 58:12.160]  it wasn't like a, an advertisement for iPhones, I wasn't even under any obligation to say that I
+[58:12.160 --> 58:17.440]  shot my end with an iPhone 11. And that I did what I could have used a different camera, I could have
+[58:17.440 --> 58:22.400]  used any camera I wanted to. They just said, we're going to use iPhones. And I was like, I was going
+[58:22.400 --> 58:27.200]  to use an iPhone too, because it's actually the best video camera I own. And I didn't really feel
+[58:27.200 --> 58:33.760]  like buying a new camera just for this. Not because I'm cheap either. I love buying cameras, but I just
+[58:33.760 --> 58:39.360]  was afraid to buy something and learn something new. I want something dependable. People couldn't
+[58:39.360 --> 58:43.120]  believe that they were just shot with iPhone 11. I mean, because both ends look great.
+[58:44.160 --> 58:49.520]  Yeah, yeah, they looked they look and sound great right out of the box. You know, all the default
+[58:49.520 --> 58:56.480]  computational math is there for a reason is to take any material and automatically, automatically
+[58:56.480 --> 59:01.280]  make it look incredible, right without having to do anything. And then when you know, and then if
+[59:01.280 --> 59:06.400]  you have actual post production involved, you can take that and elevate it just that that couple of
+[59:06.400 --> 59:10.880]  notches better. And that's when people start to say, Oh, that didn't even look like an iPhone that
+[59:10.880 --> 59:16.000]  looked like a professional camera. And so a lot of the weight was off my shoulders, though, I think
+[59:16.000 --> 59:22.560]  we got this. I think we can do it mechanically. I think I know what equipment will use. I know
+[59:22.560 --> 59:28.400]  that I've got a good rapport with Federighi and Jaws, you know, this is going to work.
+[59:30.320 --> 59:34.640]  And then they were like, Well, what are you going to do about editing? And again, you know, and it
+[59:34.640 --> 59:42.720]  did not like I said that came out like they were confrontational about it. I was like, ah, I've got
+[59:42.720 --> 59:48.080]  it. And they're like, well, we could suggest like, we can suggest contractors we've worked with for
+[59:48.080 --> 59:53.120]  editing. I was like, I think I think I'll, you know, and again, it wasn't like they were trying
+[59:53.120 --> 59:57.920]  to take ownership of it. It's my show. And, you know, and they're like, Okay, cool. And I thought
+[59:57.920 --> 01:00:04.080]  I had in the back of my head. I'm gonna ask, I'm gonna ask Adam and Sandwich, because, you know,
+[01:00:04.080 --> 01:00:10.480]  I just know that you knock it out of the park. But then I put it off a little too long. And then I got
+[01:00:10.480 --> 01:00:15.040]  all real nervous about is like, Oh, my God, what if they're busy? You know, and it's like, what a
+[01:00:15.040 --> 01:00:23.680]  terrible ask. And I really, I didn't know I didn't really have a plan B. But I was like, well, I could
+[01:00:23.680 --> 01:00:28.320]  figure out a plan B. I mean, you know, it is, well, you know, you have an army at your disposal,
+[01:00:28.320 --> 01:00:35.120]  like a little army of people of fans that would just right mobilize right here. Right. I'm not
+[01:00:36.160 --> 01:00:42.320]  toiling on obscurity. So I wasn't like, it's sandwich or nothing. But it's like sandwich
+[01:00:42.320 --> 01:00:46.480]  or the unknown. And but I reached out and you're like, Yeah, we could do that. It'd be great.
+[01:00:48.640 --> 01:00:57.200]  And then as we got into it, and I just realized, Oh, my God, if I if this weren't you and your
+[01:00:57.200 --> 01:01:03.360]  your colleagues a sandwich, I would just be I'd be on the edge of a cliff, thinking about jumping off
+[01:01:03.360 --> 01:01:10.720]  because it was such a tremendous relief to know that it was in good hands and to give what I
+[01:01:10.720 --> 01:01:17.280]  thought were just sort of like, the equivalent, almost literal equivalent of like, a pen on a
+[01:01:17.280 --> 01:01:24.720]  napkin instructions. Here's, you know, basically, you guys took it and just completely got it,
+[01:01:24.720 --> 01:01:31.600]  you knew exactly what I meant. And cut it together. And, and, you know, like you said, just, you know,
+[01:01:31.600 --> 01:01:36.720]  a little bit of color correction and stuff to just, you know, sweeten it just the right amount.
+[01:01:37.680 --> 01:01:42.240]  Yeah, just make the conversation flow. There's three, there's three, literally three video
+[01:01:42.240 --> 01:01:47.120]  sources that you're sort of in there, in this case, what five? Yeah, because they each had
+[01:01:47.120 --> 01:01:51.840]  two cameras, right? Then you're just you're just making sure everything flows together and doesn't
+[01:01:51.840 --> 01:01:58.800]  impede the conversation. Yeah. And I, you know, came out great, but it was what a relief. And
+[01:01:58.800 --> 01:02:03.680]  what it was fun to be asked, because I've obviously been to, you know, many of your live
+[01:02:03.680 --> 01:02:10.160]  shows in the bay, and you always have like, Caleb Sexton, and, you know, Jake Schumacher,
+[01:02:10.800 --> 01:02:16.800]  sort of doing the live, the live event, coverage of stuff from the audio and video standpoint,
+[01:02:16.800 --> 01:02:21.600]  and then, and those guys are all great and very talented. And of course, Caleb works with you on
+[01:02:21.600 --> 01:02:27.280]  the audio side of things still, but I wouldn't have been well suited to, or set up to do that
+[01:02:27.280 --> 01:02:32.960]  kind of thing. Live events is not our, our bag at sandwich. But this, this kind of thing,
+[01:02:32.960 --> 01:02:37.680]  especially having just come off the project with for slack, where literally it was all done
+[01:02:37.680 --> 01:02:43.040]  remotely. And you know, figuring out how to shuffle data around and capturing from many
+[01:02:43.040 --> 01:02:47.920]  locations, etc. So it just felt like a fun thing to do, let's try this out. And the only thing that
+[01:02:47.920 --> 01:02:53.680]  we didn't really account for was like working with an hour plus of how, how long was the final thing?
+[01:02:54.720 --> 01:02:56.640]  I'm gonna say it was around 80 minutes.
+[01:02:57.280 --> 01:03:02.240]  Yeah, yeah, 80 minutes of 80 minutes of program instead of our typical 90 seconds.
+[01:03:02.240 --> 01:03:02.560]  Right.
+[01:03:02.560 --> 01:03:06.240]  That data is a lot heavier as we as we all experienced. Otherwise,
+[01:03:06.240 --> 01:03:07.920]  we would have gotten it out that first night.
+[01:03:07.920 --> 01:03:08.420]  Right.
+[01:03:09.440 --> 01:03:10.960]  Oh, God, that was harrowing.
+[01:03:10.960 --> 01:03:18.240]  Oh, it was so bad. I had I've talked about it before. But yeah, my 10 megabit per second
+[01:03:18.240 --> 01:03:25.520]  upstream here in Capletown has hasn't really been an issue. Like, Ben Thompson, you know,
+[01:03:25.520 --> 01:03:29.680]  the video goes up to Dropbox, and we use a thing called Zen caster for dithering. But we,
+[01:03:29.680 --> 01:03:35.920]  you know, literally really record like 1617 minutes to do a 15 minute show. And you know,
+[01:03:35.920 --> 01:03:39.840]  he's always making fun of me for how long it takes for my 17 minutes of nothing but
+[01:03:39.840 --> 01:03:49.680]  a wave audio to upload, like, and for 30 frames per second 4k video.
+[01:03:51.440 --> 01:03:53.040]  Yeah, it was heavy.
+[01:03:53.040 --> 01:03:56.880]  Yeah, I did have the thought when we were doing I did have the thought as we were waiting for
+[01:03:56.880 --> 01:04:01.760]  the six or seven hours for my stuff to go to where you guys could access it. I thought well,
+[01:04:02.400 --> 01:04:07.360]  this makes me feel a lot better about the fact that I only shot my side from one camera
+[01:04:07.360 --> 01:04:10.960]  instead of to theirs because it would have doubled it.
+[01:04:12.080 --> 01:04:18.400]  Yeah. And of course, on their end, they you know, we get we they had the same, I think frame IO
+[01:04:19.520 --> 01:04:24.160]  destination. Yeah, that we gave you and there's was up in like 14 seconds flat.
+[01:04:26.400 --> 01:04:31.760]  Like I wisecracked that, you know, I that they apparently have better internet than I do. But
+[01:04:31.760 --> 01:04:39.920]  you know, I suspect it's really no joke that, you know, Apple's not just Apple period, but their new
+[01:04:39.920 --> 01:04:47.360]  new facility has, you know, very fast internet. What do you think? Here's a technical question
+[01:04:47.360 --> 01:04:54.480]  for you. So we shot 4k 30 frames per second, which may or may not be 29.97 whatever, I don't care.
+[01:04:54.480 --> 01:04:58.560]  It's 30 frames. Do you think we should have shot 24 frames per second?
+[01:04:58.560 --> 01:05:04.560]  No. Oh, such a great question. I love talking about frame rates. And I'm dealing with that with
+[01:05:04.560 --> 01:05:12.640]  my own home setup to there's a time and a place for 24 frames per second. And I think even for
+[01:05:12.640 --> 01:05:21.440]  most purposes when you're trying to make something feel greater than contemporaneous when when you're
+[01:05:21.440 --> 01:05:26.640]  trying to lend some weight or some archival importance to something. Yeah, 24 frames per
+[01:05:26.640 --> 01:05:34.960]  second is great because films are shot in 24. And you that the the the eye and the mind can pick up
+[01:05:34.960 --> 01:05:41.920]  on the subtle differences between 24 and 30. Where we all grew up with 30 frames per second, or,
+[01:05:42.800 --> 01:05:50.720]  and so we know that that represents essentially, video, which often, especially when we were kids,
+[01:05:50.720 --> 01:05:59.440]  video was used for, you know, live event type of things, or, you know, news or, you know, SNL kind
+[01:05:59.440 --> 01:06:06.720]  of things, live to tape kind of things. And it makes you feel more present as though it's, it's,
+[01:06:06.720 --> 01:06:14.080]  it's happening in the moment. So with something like a zoom call, yeah, I could easily switch my
+[01:06:14.080 --> 01:06:20.080]  camera to 24 frames per second. But then I just, I feel like it lends almost like a self effect.
+[01:06:20.080 --> 01:06:26.000]  Like a self importance to my image that I don't really need to be in most of my business calls.
+[01:06:26.000 --> 01:06:31.520]  Maybe if I'm trying to say something very, very important, profound, they'll switch it over to
+[01:06:31.520 --> 01:06:37.040]  24. But then again, I'm talking to people who are all mostly, you know, with their MacBook camera,
+[01:06:37.040 --> 01:06:44.800]  and you know, the the same 2997 frame rate. So I'll just be the odd man out and it'll look weird
+[01:06:44.800 --> 01:06:50.400]  and everything. But years and years ago, when I was at Coachella, I noticed and they start and
+[01:06:50.400 --> 01:06:55.520]  they it was one of the first years that they had giant video screens up on the main stage,
+[01:06:55.520 --> 01:07:02.320]  you know, like they do in so many concerts now. Every concert, every concert has giant video
+[01:07:02.880 --> 01:07:07.920]  screens on at least the left and right of the stage so that if you're far away, you can
+[01:07:07.920 --> 01:07:15.520]  experience the event in person. And for those first, it might have been just the first year
+[01:07:15.520 --> 01:07:22.400]  that they had basically an actual crew, like an you know, an actual like multi camera video crew
+[01:07:22.400 --> 01:07:26.400]  up there on the stage shooting with cranes getting the cat, you know, capturing the,
+[01:07:27.040 --> 01:07:32.320]  the audience footage and everything meant to feel like a real time documentary crew.
+[01:07:32.320 --> 01:07:40.560]  Well, they it was the weirdest phenomenon, but they they oh, man, I'm feeling like deja vu,
+[01:07:40.560 --> 01:07:48.240]  like we've talked about this on your show before. And if so, shame on me. Okay, but anyway, so that
+[01:07:48.240 --> 01:07:54.640]  that first year, they it was in the very beginning of video cameras, pro video cameras being able to
+[01:07:54.640 --> 01:08:00.880]  capture in 24 frames per second, which was a huge game changer for filmmakers back then. Right. And
+[01:08:00.880 --> 01:08:10.640]  so they, they captured and displayed their live, you know, doc, you know, filmmaking in 24 frames
+[01:08:10.640 --> 01:08:15.520]  per second, so that everything that you're watching on the video screens up there was 24
+[01:08:15.520 --> 01:08:21.200]  frames per second. And the unintended consequence of that are the psychological effect of that is
+[01:08:21.200 --> 01:08:26.720]  that people in the audience felt like they were watching a movie instead of a concert. And when
+[01:08:26.720 --> 01:08:31.360]  and when you feel it when you're watching a movie, you don't really like scream and dance
+[01:08:31.360 --> 01:08:37.600]  and shout a lot. So what I noticed was that the the audience was or the the crowd was way more
+[01:08:37.600 --> 01:08:44.640]  subdued in ways that aren't, you know, don't lend themselves to a good concert. And it was just the
+[01:08:44.640 --> 01:08:49.040]  weirdest thing. And then the next year, they flipped it back to 30 frames per second. And it
+[01:08:49.040 --> 01:08:53.920]  felt again, like in real time felt real time, like you're supposed to be reacting. You're not
+[01:08:53.920 --> 01:08:59.440]  intended to stay sort of quiet and spectate. You're supposed to participate. I remember the
+[01:08:59.440 --> 01:09:05.120]  first time I saw something like this, and it wasn't live in an audience. It was. And I know
+[01:09:05.120 --> 01:09:10.640]  it was on MTV. I'm gonna just say it was Yeah, the movie award that No, yes, it was it was
+[01:09:10.640 --> 01:09:15.440]  maybe the movie or the movie awards. I totally remember that. Yeah, they did 24 the first
+[01:09:16.400 --> 01:09:20.640]  time. Yeah, maybe it was so I don't know, it was one of their award shows, but they did 24.
+[01:09:20.640 --> 01:09:26.640]  And I have very vivid memories of watching it with Amy. And I don't even watch a lot of award
+[01:09:26.640 --> 01:09:31.840]  shows. I maybe I used to watch more, I think. But well, they used to be more of events. Yeah.
+[01:09:31.840 --> 01:09:37.120]  And now it just everything disappears. But I remember it on in us in a couple of different
+[01:09:37.120 --> 01:09:42.720]  ways is I remember I remember watching it. I remember being blown away by the quality at first
+[01:09:43.600 --> 01:09:48.800]  and thinking, what are they? How are they doing this? And then like, very quickly realized, oh,
+[01:09:48.800 --> 01:09:54.160]  they're shooting 24 frames per second. That's what's giving it this film look. You know,
+[01:09:54.160 --> 01:09:59.120]  and calling it a film look is the thing we don't even talk about anymore, because it has gotten
+[01:09:59.120 --> 01:10:06.400]  so good. But there was a while there in the late 90s, through the early 2000s, where film look,
+[01:10:06.400 --> 01:10:11.520]  film look, film look was something that all anybody. I mean, you certainly know more than
+[01:10:11.520 --> 01:10:16.080]  I do, because you went into it professionally. But even as like somebody like a nerd following
+[01:10:16.080 --> 01:10:21.840]  along, it was something I, you know, I was aware of everybody was looking for filters and things
+[01:10:21.840 --> 01:10:27.920]  you could throw video through to make it look like film. And of course, the biggest is just shoot 24
+[01:10:27.920 --> 01:10:34.080]  instead of 30 frames per second. I figured this out. And of course, I start yapping to Amy about
+[01:10:34.080 --> 01:10:41.200]  it. And she is like there to see Johnny Depp. She's not does not want to hear about frame rate.
+[01:10:41.200 --> 01:10:49.120]  Yeah. And at first, my first feeling was technical euphoria of this is amazing. They're shooting
+[01:10:49.120 --> 01:10:55.200]  something live in 24. And it does look like a movie and it does look like film, even though it
+[01:10:55.200 --> 01:11:01.920]  can't be film, because it's live, you know, and I'm amazed. And then very quickly, I was like,
+[01:11:01.920 --> 01:11:08.240]  but this is all wrong. Like this doesn't feel live at all. This feels like I'm watching a movie
+[01:11:08.240 --> 01:11:15.600]  years from now about the whatever year was the 2003 Video Music Awards or whatever. Like it just
+[01:11:15.600 --> 01:11:21.680]  totally broke the illusion that I was watching a live broadcast of a of an award show. Right. And
+[01:11:21.680 --> 01:11:26.880]  it took the it took the experimentation in order to figure out that that was wrong. That's that's
+[01:11:26.880 --> 01:11:30.960]  that's what's kind of fun is that feeling that where they were with all these the introduction
+[01:11:30.960 --> 01:11:36.640]  of these new tools, the new tech to do 24 frames per second, they were learning it as as the
+[01:11:36.640 --> 01:11:42.960]  rest of us were too. And then like 20 minutes would go by. And I would just say to Amy after
+[01:11:42.960 --> 01:11:48.320]  like, keep my mouth shut, but do you do you see what I mean? It doesn't feel live. It's like,
+[01:11:48.320 --> 01:11:53.360]  don't just like leave. She's like, get out of here. Right? Well, I mean, and it's even the same
+[01:11:53.360 --> 01:11:59.440]  phenomenon in reverse of the H high frame rate stuff that you know, Peter Jackson or on Lee was
+[01:11:59.440 --> 01:12:04.000]  experimenting with, where it seems like it might be a good idea, but then you quickly discover
+[01:12:04.000 --> 01:12:09.680]  Oh, that was a bad idea. Because, because what like the brain associates it was with something
+[01:12:09.680 --> 01:12:15.680]  that it's already experienced, you know, in our in the case of MTV or Coachella, the brain
+[01:12:16.240 --> 01:12:23.600]  associates it with watching a movie. And in the case of Peter Jackson movie, the brain associates
+[01:12:23.600 --> 01:12:30.720]  it with watching soap opera or you know, motion smoothing on your TV. All right, so I will say
+[01:12:30.720 --> 01:12:38.720]  I'll never find it. And I didn't bookmark it. So I'll never find it. But at some point within the
+[01:12:38.720 --> 01:12:43.760]  last month, and it was more like a month ago, when the protests were more of an ongoing
+[01:12:46.160 --> 01:12:54.720]  thing around the country. And there, of course, one of the very notable, I mean, just remarkable,
+[01:12:54.720 --> 01:13:01.120]  I mean, just remarkable, and it's unlike anything else anybody's ever seen in history, aspects of
+[01:13:01.120 --> 01:13:10.320]  protests in 2020 is the fact that almost every the overwhelming majority of the people involved
+[01:13:10.320 --> 01:13:16.320]  in the protests are carrying extraordinarily good video cameras with them at all times.
+[01:13:16.320 --> 01:13:27.440]  But the default and you know, the defaults are the defaults for a reason. The default doesn't
+[01:13:27.440 --> 01:13:32.880]  change for most people in the default for just about every camera I'm aware of, and certainly
+[01:13:32.880 --> 01:13:42.880]  all iPhones is 1080p 30 frames per second. You can go to 60. And I saw one of the things here
+[01:13:42.880 --> 01:13:50.640]  in Philadelphia. You know, the the famous art museum we have on our park or Ben Franklin
+[01:13:50.640 --> 01:13:59.920]  Parkway where the steps are that Rocky Balboa ran up and cinematic fame is it but it's also
+[01:13:59.920 --> 01:14:07.520]  where we have big public events like big concerts for the Fourth of July when you can have concerts
+[01:14:07.520 --> 01:14:14.240]  for the Fourth of July. And it's also a great spot for protests because it's just this big wide
+[01:14:14.240 --> 01:14:20.720]  boulevard Parkway. And anyway, somebody shot a scene there and they clearly had their phone
+[01:14:20.720 --> 01:14:29.280]  at 60 frames per second. And the difference the the you are there aspect of it was just
+[01:14:29.280 --> 01:14:37.600]  unbelievable. It was like, Holy crap, like if you've got this, if you're going to shoot protest
+[01:14:37.600 --> 01:14:42.800]  footage, or like news event footage, and you can quick put your phone in 60 frames per second,
+[01:14:42.800 --> 01:14:50.240]  that might be a fantastic idea. And it really also really helped with the handheld nature of it. And
+[01:14:50.240 --> 01:14:56.880]  it wasn't that the footage that I saw that was 60 wasn't any kind of incident. It wasn't like,
+[01:14:56.880 --> 01:15:04.240]  Oh, here's the cops, you know, beating on a guy or, or here's protesters setting a car fire. It
+[01:15:04.240 --> 01:15:09.760]  was just, hey, look at this amazing crowd of people. But it was panning around, obviously
+[01:15:09.760 --> 01:15:15.920]  handheld. And the panning just was just unbelievable at 60 frames per second in terms
+[01:15:15.920 --> 01:15:21.440]  of convey conveying a sense of this is what it would be like to stand on that spot and pan your
+[01:15:21.440 --> 01:15:27.280]  head. Yeah, that's incredible that what the subtleness the subtlety that our brains can
+[01:15:27.280 --> 01:15:32.160]  pick up on in terms of like the space between the frames and I agree 60 frames per second
+[01:15:32.720 --> 01:15:39.280]  for something like that is so much more immersive. Where you know, and you start to you start to
+[01:15:39.280 --> 01:15:44.400]  think about like, what, what are what is the max where it doesn't matter anymore? Where is that?
+[01:15:44.400 --> 01:15:51.200]  Where did the return start diminishing? You know, we, you know, he's, and then think about the fact
+[01:15:51.200 --> 01:15:58.160]  that Canon just released an 8k prosumer camera. And like, what is that going to make everything
+[01:15:58.160 --> 01:16:05.680]  feel that much more immersive or, or not? Yeah, you know, typically high frame rates are so that
+[01:16:05.680 --> 01:16:12.800]  you can slow them down to, you know, 24 and and and and, you know, distort time in that way and
+[01:16:12.800 --> 01:16:20.320]  sort of make, make a make a moment feel differently. But I really like the this idea,
+[01:16:20.320 --> 01:16:25.200]  because it starts to approach at 60 frames per second, it starts to approach sort of VR feeling.
+[01:16:25.200 --> 01:16:32.320]  Yeah, without the VR. Yeah, definitely. That's absolutely the effect. It is sort of a just
+[01:16:32.320 --> 01:16:37.520]  looking at it on a simple, I say simple and there's somebody at Apple who's worked on like
+[01:16:37.520 --> 01:16:43.040]  the HDR aspects of the OLED screen who is like, it's not simple, but you know what I mean? It
+[01:16:43.040 --> 01:16:48.480]  doesn't involve goggles or curved screen or, you know, any kind of 3d. But there is a VR like
+[01:16:48.480 --> 01:16:54.480]  aspect to 60 frames per second. And I have to say before I forget, because I, again, I should have
+[01:16:54.480 --> 01:17:00.160]  put it in the notes, but now I'll remember it. My funniest behind the scenes aspect of my show,
+[01:17:02.160 --> 01:17:06.560]  which I have to say, and you say, Well, why would you ever need an 8k camera? You know,
+[01:17:06.560 --> 01:17:12.560]  you can't, it maybe you can't see it. And the minimum screen size, you would need to be able
+[01:17:12.560 --> 01:17:18.240]  to see the difference in quality from 4k is enormous, you know, and certainly wouldn't,
+[01:17:19.280 --> 01:17:23.920]  you know, even if you had like a wall to wall TV in your living room quite possibly wouldn't
+[01:17:23.920 --> 01:17:28.880]  be large enough to see the difference. And how many people are going to project their consumer
+[01:17:28.880 --> 01:17:36.400]  shot video onto an actual cinema movie screen where maybe 8k would make a difference. But
+[01:17:36.400 --> 01:17:44.240]  one thing you can do with 4k footage is you can crop. And so if you have 8k footage, and you have
+[01:17:44.240 --> 01:17:50.000]  as you know, you may not do it so much in a professionally shot thing like what you do,
+[01:17:50.000 --> 01:17:53.120]  because you're going to you can plan everything out. But certainly if you're shooting
+[01:17:53.680 --> 01:17:59.360]  news footage, or like a protest or something like that, if you happen to capture something on 8k,
+[01:17:59.360 --> 01:18:04.880]  but the detail is only a portion of the frame, you can crop and instead of losing resolution,
+[01:18:04.880 --> 01:18:10.320]  you can still keep it and broadcast it. And if you're broadcasting at 1080, you know,
+[01:18:10.320 --> 01:18:16.080]  just a tiny fraction of the frame is isn't losing any fidelity at all. And anyway, yeah,
+[01:18:16.080 --> 01:18:21.600]  the thing I'm reminded of is it's the soda can. Yeah.
+[01:18:23.040 --> 01:18:27.760]  So we I was in La Croix or something. What was I forget what it was not La Croix. I don't drink
+[01:18:27.760 --> 01:18:36.400]  La Croix. It was a San Pellegrino. They had San Pellegrino Celsius, the fruity things. Yeah. So I
+[01:18:36.400 --> 01:18:43.520]  stressed inordinately, probably too much over where to frame my end of the video. And got some
+[01:18:43.520 --> 01:18:47.840]  great advice from you, which was I had showed you a couple of places around my house and you're like,
+[01:18:47.840 --> 01:18:50.640]  Hey, dummy, just shoot it right here in the corner of your office. That looks great.
+[01:18:51.920 --> 01:18:56.400]  Because that looks great. It's simple. It's you don't even these other ideas are bad.
+[01:18:56.400 --> 01:19:00.880]  You know, and again, that's not how those aren't the words you said. The words you said made it
+[01:19:00.880 --> 01:19:05.200]  seem like maybe I wasn't an idiot for suggesting some of the other spots, but I could read between
+[01:19:05.200 --> 01:19:10.720]  the lines and figure it out. And then I shot it by my wife and my wife, Amy. And she was like,
+[01:19:10.720 --> 01:19:14.320]  Yeah, he's right. That does look great. Why, you know, why do we pay all this money to get
+[01:19:14.320 --> 01:19:18.320]  these nice slats on the side that we've got a cool thing on the one side of my office?
+[01:19:19.680 --> 01:19:23.840]  Why wouldn't you shoot there? And I was like, Oh, yeah, I don't know why I went and shot footage in
+[01:19:23.840 --> 01:19:30.000]  every other room in my house. So I set it up. And of course, it was nothing was looked like it was
+[01:19:30.000 --> 01:19:33.920]  right. You saw the shot from like, two days before. And it was like, just like, you know,
+[01:19:33.920 --> 01:19:37.600]  like boxes and stuff. And I was like, Well, hey, you know, Amy, can you make this look good? And
+[01:19:37.600 --> 01:19:42.320]  she's like, Yes, I will make it look good. And I think your advice was just make sure there's some
+[01:19:42.320 --> 01:19:47.760]  color. I think she did a good job. We had some nice stuff in there. She did great. It looked
+[01:19:47.760 --> 01:19:52.880]  great. But she really did. And she knocked her so I mean, she and she didn't half acid. She really
+[01:19:52.880 --> 01:19:58.000]  spent a lot of time and because we had actually done the backstory is that my office got renovated
+[01:19:59.600 --> 01:20:05.040]  the end of last year through the beginning of this year and literally wrapped up right when
+[01:20:05.040 --> 01:20:10.400]  quarantine hit like the timing could not have been more serendipitous in terms of like,
+[01:20:10.400 --> 01:20:13.920]  if quarantine had hit like two weeks earlier, you know, and like whenever you have any kind of
+[01:20:15.920 --> 01:20:20.480]  home improvement type stuff the last like couple days everything comes together. You know,
+[01:20:20.480 --> 01:20:25.840]  like there's all sorts of stuff that's mostly done, but then it doesn't get the finishing
+[01:20:25.840 --> 01:20:30.240]  touch until the very end. So like two weeks would have been like we would have had like
+[01:20:30.240 --> 01:20:35.120]  the whole quarantine in a house that's covered with tarps and stuff like that. We weren't.
+[01:20:37.760 --> 01:20:44.080]  But I've never because I'm me, I've never fully unpacked my office stuff from the basement.
+[01:20:45.040 --> 01:20:50.320]  So like, I've got all this stuff I need to put on the shelves, the nice new shelves I have in
+[01:20:50.320 --> 01:20:57.520]  my office, but haven't and to look for nice stuff to put on the shelves. My wife did really had to
+[01:20:57.520 --> 01:21:04.640]  do a lot more work than you might think in terms of going through cardboard boxes with unhelpful
+[01:21:04.640 --> 01:21:11.840]  names. And she made it look really nice. I really think it looked great. And I shot the interview
+[01:21:11.840 --> 01:21:16.960]  with Jaws and Craig first and then I had to shoot my opening where I thank the sponsors.
+[01:21:16.960 --> 01:21:25.680]  Second, and in between, I was parched and got got a soda and left it in left it behind me.
+[01:21:28.240 --> 01:21:32.960]  And really just did not have it in theory, I could have just rerecorded the opening,
+[01:21:32.960 --> 01:21:38.560]  but I just didn't have it in me. I was emotionally spent. I just and I need I wanted to turn this
+[01:21:38.560 --> 01:21:45.520]  around quickly. And but if it had been all me, I would have just said out how would the soda can
+[01:21:45.520 --> 01:21:50.400]  in the back of it? It's like a gag. But my wife had really knocked herself out to make it look
+[01:21:50.400 --> 01:21:56.160]  as perfect as possible. I really felt like I'd be letting her down. And you told me Don't worry,
+[01:21:56.160 --> 01:22:03.120]  we can crop it up. Oh, yeah. Yeah. I mean, that was that was that was Plan A. Plan B was actually
+[01:22:03.120 --> 01:22:10.480]  just to patch it out, you know, just to motion Photoshop it, which wouldn't have been that hard
+[01:22:10.480 --> 01:22:17.280]  either. But the crop the crop did fine. And yeah, we shoot in usually art, we shoot our commercials
+[01:22:17.280 --> 01:22:23.520]  in either 4k or 3k. And it's not really because they're planned out professionally. It we do,
+[01:22:23.520 --> 01:22:30.560]  we punch into shots all the time to get, you know, closer or whatever, just to be able to reframe.
+[01:22:30.560 --> 01:22:36.320]  So it's really nice to have the extra, the extra resolution. Right? Yeah, I didn't mean to I guess
+[01:22:36.320 --> 01:22:40.560]  I didn't think about that. But yeah, I guess I do notice sometimes when I'm watching stuff that it
+[01:22:40.560 --> 01:22:46.160]  probably wasn't a different setup. It's just punched in to get slightly closer in an interview.
+[01:22:46.160 --> 01:22:51.840]  Yeah, you can probably tell a little bit in very, very subtle ways by how, if you're cropping out
+[01:22:51.840 --> 01:22:59.680]  the optical edges of the lens, you can sort of tell, oh, that's not what any actual lens looks
+[01:22:59.680 --> 01:23:04.640]  like on the edges of the frame. Right, but you know, not not in a way that you would ever really
+[01:23:04.640 --> 01:23:09.120]  think about. Right. And if you're interested in the subject matter, that's the last, you know,
+[01:23:09.120 --> 01:23:16.640]  if you're looking at the edges of the frame for optical distortion, the telltale sign of like an
+[01:23:16.640 --> 01:23:22.960]  anamorphic lens or something like that, you're probably bored by whatever it is. Right. And
+[01:23:22.960 --> 01:23:30.160]  that's very different from like your side, as you know, when you're in editing, and you become so
+[01:23:30.160 --> 01:23:39.360]  intimately familiar with every single shot in a way that you almost lose sense of the flow of the
+[01:23:39.360 --> 01:23:43.600]  cinema when you get caught up on, you know, the specifics of how do we cut between these three
+[01:23:43.600 --> 01:23:49.360]  things or but when you're just watching, you really should, if you're noticing the edges of
+[01:23:49.360 --> 01:23:56.480]  the frame, you're probably bored. Yeah, something went wrong. Yeah. So I rewatched the the keynote
+[01:23:56.480 --> 01:24:01.200]  this year, and I and I was just because I when we were talking about frame rate, so it was got
+[01:24:01.200 --> 01:24:07.200]  curious what when if you had to go if you had to guess would what would you say was it shot in 24
+[01:24:07.200 --> 01:24:12.720]  or 30? That's it. This is partly what made me think about it, because there was a sort of
+[01:24:12.720 --> 01:24:19.760]  cinematic look to it. But I don't think it was 24. I think it was 30. But I don't know what they did.
+[01:24:19.760 --> 01:24:24.960]  That's my guess. And I have not I swear to you, I haven't cheated and looked. But my guess is they
+[01:24:24.960 --> 01:24:32.000]  shot the keynote in 30. But there's something going on in post or some things going on in post
+[01:24:32.000 --> 01:24:40.480]  that give it a movie like feel that makes me wonder. That's my guess. Yeah, yeah. Well,
+[01:24:40.480 --> 01:24:45.840]  I mean, I love that there was the whole meticulously composed sort of pre meditated
+[01:24:47.200 --> 01:24:51.920]  feel to the whole thing. I actually do think I mean, I'm gonna guess but I could be wrong and
+[01:24:51.920 --> 01:24:57.200]  whatever then I lose my filmmaker license. But I do think it was shot in 24 frames per second.
+[01:24:59.200 --> 01:25:05.200]  I'm almost positive. Especially looking at the opening stuff with Tim Cook in the,
+[01:25:05.200 --> 01:25:11.120]  you know, in the in the theater, right? Well, hold that thought. Yeah, I want to get back. Let's just
+[01:25:11.120 --> 01:25:15.200]  go deep on the keynote and how they did it. But let me let me take a break here and hit the money
+[01:25:15.200 --> 01:25:23.600]  button. And talk about our friends at feels fe a LS Do you experience stress? I do. I've told you
+[01:25:23.600 --> 01:25:28.960]  about 10 different stressful things I've had in the last month. Or anxiety, chronic pain,
+[01:25:28.960 --> 01:25:36.080]  trouble sleeping, even just once a week, you're not alone. Many people do feels fe a LS is premium
+[01:25:36.080 --> 01:25:45.040]  c BD delivered directly to your doorstep. CBD from feels naturally reduces stress, anxiety, pain,
+[01:25:45.040 --> 01:25:49.680]  sleeplessness. All you do is take a few drops, put it under your tongue and you can feel the
+[01:25:49.680 --> 01:25:56.000]  difference within minutes. They offer if you're new to CBD, which a lot of people are maybe most
+[01:25:56.000 --> 01:26:01.680]  people are, you have a free hotline, you can call them up or text message them ask your questions
+[01:26:01.680 --> 01:26:07.760]  and they'll tell you what they recommend. And it just is all natural. There's no high doesn't get
+[01:26:07.760 --> 01:26:16.560]  it goofy, not like drugs, just de stresses you have no high no hangover, no addiction. I mean,
+[01:26:16.560 --> 01:26:20.480]  it'd be something if they were selling something addictive, but it's not. And they have a membership
+[01:26:20.480 --> 01:26:25.200]  program, you join the fields community, you get fields delivered to your door every month,
+[01:26:25.200 --> 01:26:30.960]  you save money on every order by being a member. Really, if you're interested, here's where you go
+[01:26:30.960 --> 01:26:38.080]  to check them out fe als.com fields.com slash talk show. And this is really quite a deal.
+[01:26:38.080 --> 01:26:44.080]  fields.com slash talk show gets you 50% off your first order and free shipping. I say if they're
+[01:26:44.080 --> 01:26:48.400]  giving you 50% off free shipping, you don't even need that. But they're giving it free shipping
+[01:26:48.400 --> 01:26:54.640]  too. So that's fe als.com slash talk show 50% taken off your first order with free shipping.
+[01:26:54.640 --> 01:27:00.800]  This is a real interesting brand color. I'm on the website. I don't think I've ever seen
+[01:27:00.800 --> 01:27:05.920]  that as a brand color before. Kind of like that bright beige foundation, like makeup
+[01:27:05.920 --> 01:27:12.560]  foundation color. Hmm. It is. It sort of has like a hint of orange to it. Yeah, a little orange.
+[01:27:12.560 --> 01:27:20.080]  Yeah. It is an interesting brand color. Kind of like it. I look at that. And you look at that.
+[01:27:20.080 --> 01:27:26.080]  It's see now you've got me thinking you got me thinking like you. But if you scroll down,
+[01:27:26.080 --> 01:27:30.720]  there's there's a young woman here about halfway down the page. And she's got like a potted plant
+[01:27:30.720 --> 01:27:36.880]  next door. The pot. Oh, yeah. Same color. Yeah, picks up the color. Yeah, you're right. Yeah.
+[01:27:38.080 --> 01:27:48.480]  Right there with the package. So the keynote, I Yeah, this is it was in hindsight, and I've
+[01:27:48.480 --> 01:27:53.680]  rewatched the actual keynote again. So I watched it live, nobody knew it was gonna what it was
+[01:27:53.680 --> 01:28:01.280]  going to be like. I expected something sort of like this. I know there were a lot of people.
+[01:28:02.080 --> 01:28:08.240]  I was, I guess I should have to get my being right points should have posted about it on
+[01:28:08.240 --> 01:28:14.240]  daring fireball. But like the night before I tweeted my predictions for how they would do it,
+[01:28:14.240 --> 01:28:18.800]  like the basic mechanics of how they would do it. And most of the people seem to be under the belief
+[01:28:18.800 --> 01:28:22.320]  that I was crazy because I thought it was going to look like you remember Did you see the video
+[01:28:22.320 --> 01:28:29.680]  when they did the they came out with the magic keyboard for the iPad in March, you know, the
+[01:28:29.680 --> 01:28:34.000]  keyboard cover and you can snap it in and then they they they had like a little video where they
+[01:28:34.000 --> 01:28:39.840]  showed everybody and then they had a video of Craig Federighi somewhere in Apple Park with the
+[01:28:39.840 --> 01:28:48.160]  glass, you know, atrium behind them in the sunny area of Apple Park behind them. Introducing it
+[01:28:48.720 --> 01:28:54.080]  pre filmed, obviously, you know, very professional looking sort of like what you would vaguely think
+[01:28:54.080 --> 01:29:01.280]  Craig Federighi in an office at Apple Park, doing a commercial for the magic keyboard would look
+[01:29:01.280 --> 01:29:06.320]  like I, you know, I was like, I think that's what the whole keynote will be like. And I was
+[01:29:06.320 --> 01:29:11.520]  a little off because I didn't I didn't really foresee that they would actually shoot it in
+[01:29:11.520 --> 01:29:15.120]  the Steve Jobs theater, which is like the main staging ground for most of it.
+[01:29:16.560 --> 01:29:21.920]  But most people seem to think what they would do is just do it like a regular in person keynote
+[01:29:21.920 --> 01:29:28.240]  and just not have an audience or have an audience of Apple employees wearing masks and sparsely
+[01:29:28.800 --> 01:29:32.960]  spread apart, which I was like, there's no way they're going to do that. A it's illegal in
+[01:29:32.960 --> 01:29:39.120]  California. I mean, really, it's it's, you know, it just shows again, without getting political
+[01:29:39.120 --> 01:29:45.760]  about it, how people in America, so many people don't understand the seriousness of the quarantine.
+[01:29:47.040 --> 01:29:53.200]  But even if it wasn't, by the books illegal in Cupertino, California, to have people have
+[01:29:53.200 --> 01:30:03.120]  your employees deem them essential to come in and clap. It's just bad optics. If you're trying to,
+[01:30:03.120 --> 01:30:08.880]  you know, be on team, let's take this serious and truly, you know, isolate people and shoot this in
+[01:30:08.880 --> 01:30:14.720]  the safest way possible. You can't do it. And having a truly empty audience and doing the
+[01:30:14.720 --> 01:30:23.440]  keynote like just filming the day before rehearsal, it would come across like death on video, right?
+[01:30:23.440 --> 01:30:30.960]  Like, something that's meant to have an audience and applause can't just be photographed without
+[01:30:30.960 --> 01:30:36.880]  the audience and applause. It's it's just, I don't even know how to explain why that wouldn't work.
+[01:30:36.880 --> 01:30:42.640]  But it wouldn't work. And of course, that's not what they did. It would have been like that. Do
+[01:30:42.640 --> 01:30:48.720]  you remember the the rip mix burn commercial where the that the kid sits in the audience
+[01:30:48.720 --> 01:30:55.520]  and then invites all his favorite artists to come up on stage? I don't think I do. Oh, yeah, this
+[01:30:55.520 --> 01:31:05.040]  was a this is it was an iTunes commercial. And I want to say maybe 2000 2001. And this teenage kid,
+[01:31:05.040 --> 01:31:10.240]  who's the user, the Apple user, sits in the audience of a big, you know, classic theater,
+[01:31:10.240 --> 01:31:16.160]  and then like, George Clinton. Oh, yeah, yeah. I don't know who else, you know, but yeah,
+[01:31:16.160 --> 01:31:21.680]  you know, probably Smash Mouth or something. I'll come up on the stage. But because he's
+[01:31:21.680 --> 01:31:26.240]  because he's putting together his, you know, his playlist, George Clinton triggered it for me,
+[01:31:26.240 --> 01:31:33.280]  because Yeah, he cuts a very distinctive figure. Yeah, right. There was only one Apple commercial
+[01:31:33.280 --> 01:31:40.400]  with George Clinton. All right. And it cuts Yeah. But yeah, what they did was so super high
+[01:31:40.400 --> 01:31:49.360]  production value. I mean, it's just a crazy and, you know, and it's in contrast, it just is very
+[01:31:49.360 --> 01:31:55.360]  appley to do it that way to take it as seriously as they can and not use this as an excuse to cut
+[01:31:55.360 --> 01:32:06.080]  corners and sort of phone in the keynote. But to actually quite possibly put significantly more
+[01:32:06.080 --> 01:32:12.240]  effort into the staging. I, you know, to be honest, I guess it's incredible. It's a feat.
+[01:32:12.240 --> 01:32:17.040]  It's a it's like an incredible feat what they pulled off. I don't know how how they did it. But
+[01:32:17.040 --> 01:32:23.600]  and I'm actually looking at this. The Apple, sorry, the magic keyboard video that you
+[01:32:23.600 --> 01:32:29.360]  referenced. And interestingly enough, it looks like a lot of the same setup except this one is
+[01:32:29.360 --> 01:32:34.480]  30. I would say this is 30 frames per second. Yeah, magic keyboard one. And you can sort of
+[01:32:34.480 --> 01:32:41.600]  see it. The subtle difference between the that and a dub dub keynote, which is now I'm pretty
+[01:32:41.600 --> 01:32:46.080]  convinced is 24. But the lighting and the lensing and everything looks pretty similar.
+[01:32:47.760 --> 01:32:52.960]  Yeah, that was my guess. And I think it was sort of a dry run. But I do. But I also feel
+[01:32:52.960 --> 01:33:00.320]  though that they they plussed it up a lot for the keynote and what that magic video looks like. Did
+[01:33:00.320 --> 01:33:07.680]  you watch any just regular WWDC sessions? I didn't. But that that's what most a lot of them look like.
+[01:33:08.880 --> 01:33:13.680]  And the sessions just, you know, are staged, but they're not all in the same room either. There's
+[01:33:13.680 --> 01:33:20.000]  a tremendous amount of variety in where they shot them at Apple Park, just to have the speakers in
+[01:33:20.000 --> 01:33:28.320]  different backgrounds. Yeah. There's the funny, the funniest part, for me of the keynote was I
+[01:33:28.320 --> 01:33:38.240]  don't know if you remember, but they when they when they cut from Craig to like a drone fly,
+[01:33:38.240 --> 01:33:44.000]  like some high speed drone flyovers of Apple Park, and then it's sort of like the camera goes into
+[01:33:44.000 --> 01:33:50.080]  the fitness center and you land, it sort of comes around the corner. And the funny the part that
+[01:33:50.080 --> 01:33:55.840]  makes it funny is that they've got this very matrixy music like down, you know, like that,
+[01:33:55.840 --> 01:34:01.760]  like an high speed action movie. And it comes around the corner and then just reveals, you know,
+[01:34:01.760 --> 01:34:09.680]  Kevin Lynch, who is not an action hero. Right by any stretch. It was almost like a comic reveal,
+[01:34:09.680 --> 01:34:14.400]  but I don't think it was intended to be. Right. But I kind of love that. I love that there was
+[01:34:14.400 --> 01:34:20.320]  that amount of care and like sort of cinematic forethought into, into every move into every cut
+[01:34:20.320 --> 01:34:25.920]  and like swish, you know, matching swish pans and all that and all that stuff. I just thought it was
+[01:34:25.920 --> 01:34:32.080]  really excellent. And I tried to, I got in touch with the one person I know who's on the inside at
+[01:34:32.080 --> 01:34:39.840]  the, you know, at Apple in the video, the video realm, and tried to get some inside information,
+[01:34:39.840 --> 01:34:44.080]  but exactly what you said there being tight lipped about it was how it was actually executed.
+[01:34:44.080 --> 01:34:52.720]  Yeah, which is kind of stinks because it it's my explanation for a lot of Apple's secrecy is
+[01:34:55.040 --> 01:35:01.840]  it really comes down to the adage that you know how you create a culture of being
+[01:35:01.840 --> 01:35:08.320]  able to keep a secret. You just don't talk about anything. Right. It's actually not that complicated
+[01:35:08.320 --> 01:35:13.120]  and it, you know, and it's sort of like the the whole COVID-19 thing like, you know what
+[01:35:13.120 --> 01:35:20.560]  the best thing we can do is it sucks. It's really sucks, but it's actually not complicated. Stay
+[01:35:20.560 --> 01:35:27.280]  home. If you do go out, stay apart and wear a mask and wash your hands a lot. And it's like that
+[01:35:27.280 --> 01:35:32.320]  actually would knock it out if everybody did it. So it's like they're the basic idea that they've
+[01:35:32.320 --> 01:35:39.120]  internalized is they do want to keep important strategic stuff or marketing stuff, right? Like
+[01:35:39.120 --> 01:35:43.600]  they don't want to talk about products because they want to unveil them with a big surprise.
+[01:35:43.600 --> 01:35:50.080]  And they don't want to talk about the things that they consider trade secrets to how they do what
+[01:35:50.080 --> 01:35:56.240]  they do. But then that leads them to also be secretive about things that I don't think there's
+[01:35:56.240 --> 01:36:03.360]  any even strategic value in being secret about. Right. But they just like, yeah, why take a
+[01:36:03.360 --> 01:36:08.240]  chance? You know? So yeah, I mean, it could be really interesting and educational to a lot of
+[01:36:08.240 --> 01:36:15.440]  people to learn how they pulled this off. Right. And I'm I'm I mean, some of it is obvious. They
+[01:36:15.440 --> 01:36:20.720]  they obviously have one of the most beautiful campuses in the in the world as their soundstage.
+[01:36:20.720 --> 01:36:27.040]  Right. And, you know, they use pretty probably commonly available production gear and an actual
+[01:36:27.040 --> 01:36:32.640]  crew. And then they like, you know, they did things that you wouldn't normally do in a in a
+[01:36:32.640 --> 01:36:36.960]  live event, which is that they have it on the cap, the camera on a dolly or a slider, and they're
+[01:36:36.960 --> 01:36:42.400]  just moving the slider back and forth because you know, that keeps the the camera feeling alive and
+[01:36:42.400 --> 01:36:48.160]  dynamic. And that's almost like one on one film, you know, Kickstarter filmmaking kind of stuff.
+[01:36:48.160 --> 01:36:57.440]  But then then you get into the question of whether they did any sort of live or more more robust
+[01:36:57.440 --> 01:37:03.520]  compositing of virtual elements against the live action people. And that's where my mind started
+[01:37:03.520 --> 01:37:07.760]  going. And that's where it started to get interesting to me. And I think you and I even
+[01:37:07.760 --> 01:37:14.400]  probably texted about it. Yeah, which is do how much if any of this environment that Craig is in
+[01:37:14.400 --> 01:37:22.000]  for the main stuff, is, is virtual, like, is it is this the actual live set, and every reflection
+[01:37:22.000 --> 01:37:28.800]  and every, you know, piece of architectural detail is actually there and real, including the the
+[01:37:28.800 --> 01:37:33.520]  video display behind them, because I have no doubt that Apple probably has the display technology
+[01:37:33.520 --> 01:37:43.680]  to, you know, throw, you know, in real time, throw incredible, you know, augmented visuals into
+[01:37:43.680 --> 01:37:49.280]  visuals behind him like a concert or something. But I don't think that that happened. So I'm
+[01:37:49.280 --> 01:37:55.760]  thinking that at least that was composited behind him. And, which is interesting, because then you
+[01:37:55.760 --> 01:38:00.240]  see the reflections of the thing on the floor, which helps sell the effect. But then there's a
+[01:38:00.240 --> 01:38:05.840]  world in which they did something sort of like the Mandalorian, which is not necessarily with,
+[01:38:06.960 --> 01:38:12.080]  you know, what Mandalorian did, which is the highest level of what's called virtual
+[01:38:12.080 --> 01:38:18.080]  production, which is where the entire studio is, is filled is surrounded by these LED displays,
+[01:38:18.080 --> 01:38:25.440]  these really powerful, super bright LED displays that are rendering in real time with this in CG,
+[01:38:25.440 --> 01:38:29.680]  what the environment would be of the world they're shooting in, because then that ends up
+[01:38:29.680 --> 01:38:34.640]  lighting the the characters in the foreground. So I don't think that that's what's going on,
+[01:38:34.640 --> 01:38:40.720]  because really, the lighting setup for Craig or for any of the, that quote unquote talent in the
+[01:38:40.720 --> 01:38:48.000]  keynote, the lighting is pretty simple. It's it's sort of like just overhead lighting. And it's like
+[01:38:48.000 --> 01:38:52.640]  slightly directional and soft. So they wouldn't have to do anything fancy with interactive
+[01:38:52.640 --> 01:38:59.200]  lighting, but they could have been on a green stage. And, you know, like sort of the middle
+[01:38:59.200 --> 01:39:04.080]  level of the virtual production is where you're shooting against green with a live action
+[01:39:04.080 --> 01:39:09.680]  performer. And the camera moves around on a on a crane or a dolly like it is in this.
+[01:39:09.680 --> 01:39:17.920]  And the background is tracking in real time to to to that live action footage. And, you know,
+[01:39:17.920 --> 01:39:26.240]  it's really not it we architectural stuff, and environments can be rendered so well with pretty
+[01:39:26.240 --> 01:39:33.520]  democratized tools these days. I even like I did a project like a design project in my backyard with
+[01:39:33.520 --> 01:39:39.760]  a landscape company, and they used some software to render to pre visualize what this design would
+[01:39:39.760 --> 01:39:45.200]  look like in my in my backyard with like off the shelf tools, and it looked so astoundingly real
+[01:39:45.200 --> 01:39:49.760]  like photo real, right with lens flares and everything. So I mean, there's a part of me that
+[01:39:49.760 --> 01:39:55.200]  kind of wants to believe that this is how they did it, or at least part of it with this keynote.
+[01:39:55.200 --> 01:39:59.920]  And if they didn't do it this time, then certainly they will in the future or certainly like a lot of
+[01:39:59.920 --> 01:40:05.600]  us in production will be doing stuff like that. Yeah, I think when you and I first started texting
+[01:40:05.600 --> 01:40:13.680]  about it, we were specifically wondering if the displays the big, you know, mostly black slide
+[01:40:13.680 --> 01:40:20.160]  displays behind the presenters were really there. And, you know, again, like you said, they certainly
+[01:40:20.160 --> 01:40:26.960]  could, it would be well within their budget to do it and well within and if that was the answer,
+[01:40:26.960 --> 01:40:32.000]  if they decided this is what we want it to look like, what's the best way to make it look like
+[01:40:32.000 --> 01:40:37.760]  it? And the answer was to do it practically, let's put a real screen there. They would have done it.
+[01:40:37.760 --> 01:40:44.000]  I mean, it's within certainly Apple would do it. I mean, I've heard stories about the screen at the
+[01:40:44.000 --> 01:40:48.080]  main screen in the Steve Jobs theater where, you know, they had a fantastic screen and then
+[01:40:48.720 --> 01:40:53.840]  they replaced it not because there was something wrong with the other screen, but that they already
+[01:40:53.840 --> 01:40:58.240]  figured out that they could get a better screen. And so they did like, they couldn't stand not
+[01:40:58.240 --> 01:41:02.480]  having the best screen they could possibly have. So they replaced it. And I'm sure I guess somebody
+[01:41:02.480 --> 01:41:08.240]  else could buy it. I don't know, or if it's just, are you in the market? Yeah. Just, you know,
+[01:41:08.240 --> 01:41:14.240]  for 120 or just slice it up into, you know, like 100 pieces and send it out to your,
+[01:41:14.240 --> 01:41:19.840]  to the biggest supporters. Right. But they had it, but they had that screen. If it was practical,
+[01:41:19.840 --> 01:41:25.200]  they had one behind Tim Cook on the stage, which is permanent. So there's a real screen there.
+[01:41:25.200 --> 01:41:31.120]  That's no problem. But then they had one out in what I call the hands-on area, which is underground,
+[01:41:31.120 --> 01:41:36.480]  which is where we first you pull out of the back of the theater. And then there you're there in
+[01:41:36.480 --> 01:41:44.880]  this big white circular room, which is lit from above by some natural light. And then they went
+[01:41:44.880 --> 01:41:50.560]  up the stairs, you know, with the gag where Craig runs up the stairs, but he runs. And that's where
+[01:41:50.560 --> 01:41:55.280]  you're in what I don't know if they have official names for these rooms. I call that the atrium.
+[01:41:55.280 --> 01:41:59.520]  It's like the lobby, you know, like they don't like when you go to an event there,
+[01:42:00.320 --> 01:42:09.680]  that area where you are surrounded by glass walls, and you can see the the actual park aspects of
+[01:42:09.680 --> 01:42:18.000]  Apple's campus, you know, the grass and the trees and everything. That's just for mingling. Like
+[01:42:18.720 --> 01:42:23.760]  there's nothing really there. So would they set up a screen there too? Well, Apple might,
+[01:42:23.760 --> 01:42:27.840]  but once you put it in my head that maybe the screen wasn't there, I was like, whoa.
+[01:42:28.480 --> 01:42:34.320]  And then then you get into wait, are they even there? Like maybe it's not just the screen,
+[01:42:34.320 --> 01:42:41.040]  but are the presenters actually there? And it's not that the footage looks phony. It's that it
+[01:42:41.040 --> 01:42:48.560]  looks so glossy and well produced that it's I don't know how you would tell. Yeah, I don't know,
+[01:42:48.560 --> 01:42:53.920]  like the giveaway for the screen being a replaced screen is probably just how deep the blacks were
+[01:42:53.920 --> 01:42:58.640]  behind him because you wouldn't, you wouldn't really if you're photographing and exposing
+[01:42:58.640 --> 01:43:03.680]  every other shadow the way they're exposed in this in the footage, then you wouldn't be able
+[01:43:03.680 --> 01:43:11.360]  to underexpose the screen that that deep. Right. That's probably why I would I would vote for that
+[01:43:11.360 --> 01:43:15.920]  with the screen was all replaced. And then they don't have to pre program and live, you know,
+[01:43:15.920 --> 01:43:20.480]  live display everything timed to his performance because I don't think that that's in that's
+[01:43:20.480 --> 01:43:26.880]  definitely not any breezy task either is getting all of these non professional actors to do that
+[01:43:26.880 --> 01:43:32.320]  much dialogue. Obviously, they have teleprompters and stuff, but just the the the inordinate number
+[01:43:32.320 --> 01:43:38.400]  of takes that they must do to get each line in the script for what is essentially a feature length
+[01:43:39.200 --> 01:43:40.080]  presentation.
+[01:43:41.200 --> 01:43:47.920]  And I know that even for a normal keynote, that they rehearse a lot like that's another one of
+[01:43:47.920 --> 01:43:53.360]  those very simple answers to a very seemingly very complex question of how do they put out these
+[01:43:53.360 --> 01:44:01.600]  polished keynotes, and it's rehearse, rehearse, rehearse. But I can't help but think that like,
+[01:44:01.600 --> 01:44:09.680]  like, however much time Craig Federighi spends preparing and rehearsing for a regular WWDC
+[01:44:09.680 --> 01:44:17.360]  keynote, he'd spent more time on this, because, yeah, it's just the production aspects of it are
+[01:44:17.360 --> 01:44:24.880]  just on top of however much content he's delivering, which is the same or more, you know,
+[01:44:24.880 --> 01:44:31.440]  the the actual mechanics of doing the production are more complicated. But then how you know,
+[01:44:31.440 --> 01:44:36.320]  I guess on my list, I always come up with, you know, and I don't know that, again, it falls
+[01:44:36.320 --> 01:44:40.240]  under things they probably don't want to talk about. But how in the world are you still doing
+[01:44:40.240 --> 01:44:49.280]  your job? Which I'm, I really have a good sense is probably keeps him busy as the Vice President
+[01:44:49.280 --> 01:44:52.080]  of all software that they're producing.
+[01:44:53.040 --> 01:44:56.800]  Well, this is interesting. Yeah, this is it's an interesting point, because I don't know if
+[01:44:56.800 --> 01:45:02.640]  you picked if you had the same, you know, feeling, but later on in the keynote, when he gets to the
+[01:45:02.640 --> 01:45:08.160]  Mac OS stuff, to me, that's where he feels most comfortable. And I don't know if that's because
+[01:45:08.160 --> 01:45:14.640]  of the history, his history of the actual his actual day job, you would know more about this
+[01:45:14.640 --> 01:45:22.960]  than me. But everything leading up to that all the iOS stuff, and the other platforms felt more
+[01:45:22.960 --> 01:45:28.240]  like showmanship to him. And then when, to me, when it gets into the Mac OS, that's where he
+[01:45:28.240 --> 01:45:34.800]  feels like he's speaking his native language. I don't know that I ever thought of that directly.
+[01:45:34.800 --> 01:45:42.560]  But I, I agree with you in thinking about it. And I think you're exactly right. Why is that he is
+[01:45:43.440 --> 01:45:49.360]  a tremendous stage presence is, you know, very, as his face is a handsome son of a bitch.
+[01:45:49.360 --> 01:45:57.680]  And he has a great voice, and a very wide stance. And he just is, you know, he's very good on camera,
+[01:45:57.680 --> 01:46:07.040]  and he's good on stage. But he's good on stage for someone who is an incredibly competent,
+[01:46:07.040 --> 01:46:16.160]  and unbelievably deeply knowledgeable software executive. I mean, like, I mean,
+[01:46:16.160 --> 01:46:20.480]  in his multiple appearances on my show, I mean, my favorite was the one a couple years ago,
+[01:46:21.120 --> 01:46:33.120]  where we went into the differential privacy aspects. And the explaining this sort of comp,
+[01:46:33.120 --> 01:46:42.320]  you know, the way that the encryption can be used to aggregate the collection of data for the good
+[01:46:42.320 --> 01:46:49.040]  of all users, but in a way that isn't just take our word for it privacy, but it's like mathematically
+[01:46:49.040 --> 01:46:56.640]  provable privacy, that we we can't make a bug or have an error, or have a, you know, like Twitter
+[01:46:56.640 --> 01:47:02.240]  have a controls panel where there's a switch that some doofus or, you know, crook with $100 bill
+[01:47:02.240 --> 01:47:09.600]  slipped in his pocket can uncheck to reveal the address of the user who submitted this information
+[01:47:09.600 --> 01:47:13.680]  thinking it was going to be submitted privately. His explanation for how that worked is like,
+[01:47:13.680 --> 01:47:18.640]  I can't believe you know that, you know, that you just have this on the tip of your tip of your
+[01:47:18.640 --> 01:47:23.120]  mind. Yeah, incredibly smart, dude. That was before they went the they went to San Jose,
+[01:47:23.120 --> 01:47:26.240]  right? That was still in San Francisco. I think it was, I think that was the last one in San
+[01:47:26.240 --> 01:47:31.440]  Francisco, right? And he really, I mean, he really knows it. I mean, it really, I mean,
+[01:47:31.440 --> 01:47:35.760]  it's like, he knows this stuff. And it's like, all the way across the board of everything Apple
+[01:47:35.760 --> 01:47:40.560]  is doing, and you know, the graphic stuff, and he can speak at length at all of that. And yet,
+[01:47:40.560 --> 01:47:48.240]  he's got time to, to star in a movie. It's Yeah, well, I think that they all know, including all
+[01:47:48.240 --> 01:47:52.640]  the, you know, senior execs and everything, they all know that this is part of the job. This is
+[01:47:52.640 --> 01:47:59.520]  sort of what you sign up for when your Apple leadership is that it's your you're an evangelist,
+[01:47:59.520 --> 01:48:07.040]  and not not just in a trade show kind of way, but it really you in a global way represent the
+[01:48:07.040 --> 01:48:12.560]  products you're working on to the world, which makes me I mean, obviously, they're all working
+[01:48:13.760 --> 01:48:20.960]  executives in the technology industry. So they can't be expected to be brilliant presenters.
+[01:48:21.520 --> 01:48:26.560]  I do wish that they would sort of shake up the cadence the Apple presentational cadence a little
+[01:48:26.560 --> 01:48:38.960]  bit. And not feel the pressure to maybe like reproduce or mimic the, you know, the standard
+[01:48:38.960 --> 01:48:46.160]  if you did, does that make sense? What I'm saying? That sort of like, we can't wait to show you what
+[01:48:46.160 --> 01:48:52.160]  we're working on. And that's, you know, FaceTime, you know, like that cadence that they all kind of
+[01:48:52.160 --> 01:48:59.200]  like, it's almost like in in, they're doing it because they feel like that's the only solution.
+[01:48:59.200 --> 01:49:05.120]  But there are, well, first of all, going back to Steve and his presentational style was not that
+[01:49:05.120 --> 01:49:13.040]  at all. Right. We, Claude and JP and I, who worked for me, we were just this last weekend, we,
+[01:49:13.040 --> 01:49:25.920]  we watched the G4 Cube keynote, and we're just marveling at how natural and unrehearsed and
+[01:49:25.920 --> 01:49:33.520]  unscripted Steve seems and we're just, you know, just kind of like all of our, our hearts sort of,
+[01:49:34.240 --> 01:49:38.400]  you know, like, kind of exploded a little bit when we watched that and just remembering where we were
+[01:49:38.400 --> 01:49:46.480]  at the time, but also like, it was the antithesis of this extremely meticulously composed, you know,
+[01:49:46.480 --> 01:49:51.760]  just style of speech and presentation that they have now. But there are a few, I don't know,
+[01:49:51.760 --> 01:49:59.280]  I took note of a few of the outliers in the, in the whole cast of characters that presented.
+[01:49:59.280 --> 01:50:06.400]  And like, I don't know if you remembered Vera Carr, but she's the, the health software manager,
+[01:50:06.400 --> 01:50:11.520]  she's, she's sort of in a yoga position. Oh, yes. On the floor. Yeah, she was awesome. Like,
+[01:50:11.520 --> 01:50:16.960]  she just came off as very natural and looked and sounded great in her environment. And then
+[01:50:17.760 --> 01:50:23.200]  the guy in the home in the living room to Yoc Kaysen, I think the home kit guy was awesome.
+[01:50:23.200 --> 01:50:30.880]  I what I remember about Vera Carr was that she felt very natural. But also, it was more striking
+[01:50:30.880 --> 01:50:34.640]  about that was that it also seemed like she was in the most unnatural position of any of them.
+[01:50:34.640 --> 01:50:40.560]  Right? Yeah. Which is good, which is good. I mean, from a directorial standpoint,
+[01:50:40.560 --> 01:50:46.160]  sometimes sometimes that's what you do to shake somebody out of their complacency.
+[01:50:47.760 --> 01:50:56.640]  Yeah, I do think and it is an interesting thing from a film school perspective of sort of
+[01:50:56.640 --> 01:51:07.040]  what's the word did deconstruct deconstructing the the Apple keynote style, that they went from
+[01:51:07.040 --> 01:51:17.360]  the Steve notes to where they are now, without any sort of needle on a record scratching. Here's
+[01:51:17.360 --> 01:51:24.960]  where Steve left, right? Yeah, you know, there was never any sort of, oh, as soon as he left,
+[01:51:24.960 --> 01:51:34.320]  they got different, they evolved to this sort of platonic ideal of the modern post Steve Jobs
+[01:51:34.320 --> 01:51:42.720]  keynote, right? One of the ones that really sticks out to me in terms of like, you know,
+[01:51:42.720 --> 01:51:49.520]  and it's that whole slow boiling frog phenomenon, which I whenever I mentioned is actually not true,
+[01:51:49.520 --> 01:51:54.000]  that if you put frogs in a pot and slowly boil it, they will jump out and they will
+[01:51:54.000 --> 01:52:01.040]  they will jump out. They're like, Oh, shit. It's just like when you're in a hot tub. And
+[01:52:01.040 --> 01:52:04.960]  it's like, if somebody does have a too hot, it's like, you know, you're like, hey, turn that down.
+[01:52:04.960 --> 01:52:11.200]  And then if nobody turns it down, you do get out. You know, but it is a useful analogy. And people,
+[01:52:11.200 --> 01:52:14.640]  you know what I'm talking about? I always the thing I always bring it up with is,
+[01:52:15.280 --> 01:52:20.960]  whenever I try a new iPhone, and I, you know, like, you know, idiot tech reviewer that I am,
+[01:52:20.960 --> 01:52:25.920]  I get to review on every year, I never really noticed that the new ones faster
+[01:52:27.280 --> 01:52:33.760]  until, like, 10 days after I start using it, and I put it down and go back to my year,
+[01:52:33.760 --> 01:52:39.040]  one year old, I've personal iPhone, because I, you know, I've got the review one, you know,
+[01:52:39.600 --> 01:52:44.800]  10 days before they come out. So I don't own a new one yet. And I go back to my old one.
+[01:52:44.800 --> 01:52:48.320]  And then I'm like, Oh, this, it's like a little slower, like, I can tell when I'm typing on the
+[01:52:48.320 --> 01:52:53.840]  thumb keyboard, you know, wow, you know, and every year, it's the same. And every year, I can tell
+[01:52:53.840 --> 01:52:59.600]  it's a little faster. But you know, 5678 years ago, it was even more noticeable year over year.
+[01:52:59.600 --> 01:53:04.160]  But it's always when you go back. And I think when you go back to older keynotes, you can see
+[01:53:04.160 --> 01:53:08.080]  the difference a lot more than when as we go forward, and the one that sticks out to me,
+[01:53:08.880 --> 01:53:15.200]  is the greatest keynote of all time, the one that everybody always wanted, then it was happened,
+[01:53:15.200 --> 01:53:20.560]  and then everybody wants it to happen again, which was the unveiling of the iPhone, right?
+[01:53:20.560 --> 01:53:28.000]  Everybody always wanted a keynote, where Apple shows us something that seems not just too good
+[01:53:28.000 --> 01:53:32.640]  to be true a little bit, but like this can't possibly be real. People are passing out in
+[01:53:32.640 --> 01:53:39.200]  the aisles like a, you know, you know, preacher thing where they're taking demons out of you.
+[01:53:39.200 --> 01:53:46.320]  People are fainting, gasping. You know, the Blackberry rivals hold a meeting the next day
+[01:53:46.320 --> 01:53:50.960]  and conclude that the whole thing, believe it or not, must be a fraud, because there's no way that
+[01:53:50.960 --> 01:53:58.720]  they could be they that this could be a real device. That keynote. But when you actually
+[01:53:58.720 --> 01:54:03.600]  rewatch that whole keynote, not just the clips of Steve Jobs unveiling the phone,
+[01:54:03.600 --> 01:54:11.040]  but watch the whole thing. It's paced so bizarrely by modern standards. He just comes out and like,
+[01:54:11.040 --> 01:54:15.360]  does like, let's do an update on iTunes. And I forget what it is. First, I don't even remember,
+[01:54:15.360 --> 01:54:22.960]  but it's like, there's like 20 to 30 minutes of just like, crazy, just run of the mill stuff.
+[01:54:23.760 --> 01:54:29.600]  Yeah, for he, well, which, which were which we had patience for back then, right, you know,
+[01:54:29.600 --> 01:54:36.720]  which in the same way that a late night talk show could be Dick Cavett, and like 15 second pauses in
+[01:54:36.720 --> 01:54:42.240]  between a question and answer and people smoking cigarettes, we just had patience in ways that we
+[01:54:42.240 --> 01:54:46.800]  don't have patience these, these days. And that's why this kind of like modern day format for the
+[01:54:46.800 --> 01:54:52.560]  keynote makes more sense. It does make more sense. And there's an absolute if they had,
+[01:54:52.560 --> 01:54:58.320]  let's just say, you know, that they've got AR goggles, and that they're, they know it,
+[01:54:58.320 --> 01:55:01.920]  they've during the lab, and the people work, maybe there's some of the same people even right,
+[01:55:01.920 --> 01:55:07.760]  it hasn't been that long, same people. And they've got that sense that this is this is the iPhone
+[01:55:07.760 --> 01:55:14.080]  again, right? These goggles are way beyond what people are thinking. You know, like, people think
+[01:55:14.080 --> 01:55:18.000]  you're just going to put glasses on and in the corner of your eye, it'll tell you what the air
+[01:55:18.000 --> 01:55:22.240]  temperature is, you know, and if you get a text message, there's a notification at the top. And
+[01:55:22.240 --> 01:55:27.440]  that's what everybody thinks, in the way that everybody thought in 2006, that they were going
+[01:55:27.440 --> 01:55:34.640]  to make an iPod that can make phone calls. Right? Yeah. And instead, they had the iPhone, maybe the
+[01:55:34.640 --> 01:55:40.800]  goggles are that good. Yeah, there is no way that they would announce that like they announced the
+[01:55:40.800 --> 01:55:50.480]  iPhone. It's, it just, it just would be such a totally different event. It would be it would be
+[01:55:50.480 --> 01:55:55.920]  tasteful. So I was gonna use the word bombastic. And that's not right. Because bombastic implies
+[01:55:55.920 --> 01:56:06.400]  a sort of crassness. But it would be I don't know, it would be dramatic in a way that this
+[01:56:06.400 --> 01:56:08.960]  wasn't dramatic. Like, I just,
+[01:56:10.960 --> 01:56:17.120]  I think that Steve's Steve's Steve's gift was, I mean, of many was to shape a narrative like to
+[01:56:17.920 --> 01:56:23.680]  frame a piece of technology in a narrative involving all of technology. And I think that
+[01:56:23.680 --> 01:56:32.000]  that's why the iPhone introduction made such beautiful evolutionary sense in the way that
+[01:56:32.000 --> 01:56:36.320]  it did. And you watch this keynote, you know, I mean, obviously, this is dub dub, this is this
+[01:56:36.320 --> 01:56:44.480]  is not a product announcement type of a keynote. But I feel like if they're if they're honoring
+[01:56:45.680 --> 01:56:51.920]  Steve, and the story that is Apple, then they're going to figure out how to frame the new device,
+[01:56:51.920 --> 01:56:58.080]  whatever it is, in the context of an entire history of Apple and of tech in general.
+[01:56:58.080 --> 01:57:10.400]  Yeah. I wonder if this quarantine induced novel new keynote might not I know a lot of people
+[01:57:10.400 --> 01:57:15.440]  are wondering if if Apple liked it enough that maybe they're always going to do virtual
+[01:57:15.440 --> 01:57:25.040]  WWDCs again, quarantine or not. And I can kind of see it from the you know, I think the keynote,
+[01:57:25.040 --> 01:57:29.600]  I don't I think that they like the crowd and they like doing it on stage.
+[01:57:31.520 --> 01:57:37.760]  So I don't see them doing away with that for everything. For the actual conference for
+[01:57:37.760 --> 01:57:46.400]  developers and the presentations, I could see that I the sessions I've watched so far are so
+[01:57:46.400 --> 01:57:53.200]  they're always good. And again, and it's always very cool because the people this is just I mean,
+[01:57:53.200 --> 01:57:59.040]  this is as long as there's been WWDC, the people doing the presentations are the people responsible
+[01:57:59.040 --> 01:58:05.360]  for the work, right? Like they don't have like a presentation team. And, you know, Joe and Kate
+[01:58:05.360 --> 01:58:11.040]  from the presentation team are told, okay, you're going to do the new, you know, text editing for
+[01:58:12.080 --> 01:58:18.320]  right to left languages, hired talent, right? They're the actual engineers who worked on this
+[01:58:18.320 --> 01:58:25.600]  new thing. And it's always very cool. And sometimes the enthusiasm really spills over
+[01:58:25.600 --> 01:58:30.640]  and really helps polish over the fact that they're not professional presenters. It's because hey,
+[01:58:30.640 --> 01:58:36.880]  you know, they've been working on this thing for three years. And it wasn't even there, even in
+[01:58:36.880 --> 01:58:41.680]  their wildest dreams wasn't going to be in the keynote because it's super technically nerdy type
+[01:58:41.680 --> 01:58:48.320]  thing. You know, WWDC sessions are full of stuff like that. But the people watching the session
+[01:58:49.280 --> 01:58:54.000]  are self selective, the only people who are going to watch the session on a new right to left
+[01:58:54.000 --> 01:59:02.880]  language API, or, you know, something that'll let you write Swift UI code that will run both on a
+[01:59:02.880 --> 01:59:12.800]  watch and on the phone. And on the iPod, or iPad, and on the Mac, and holy crap, it's one UI system
+[01:59:12.800 --> 01:59:15.760]  for all that, blah, blah, blah. The only people who are going to watch that are the people who
+[01:59:15.760 --> 01:59:21.200]  want to use it, you're right, that they're speaking to their people. It's all very cool.
+[01:59:21.200 --> 01:59:28.720]  But I think that letting them pre record it in a in, it would only be better without quarantine,
+[01:59:28.720 --> 01:59:33.840]  where they don't have to worry about on set, all of the precautions that have to be done,
+[01:59:33.840 --> 01:59:38.960]  it would be so much more comforting for them to have a normal set, where people can come up and,
+[01:59:39.600 --> 01:59:46.720]  and fix their hair, you know, and just, you know, I mean, you do you see this 1000 times
+[01:59:46.720 --> 01:59:51.040]  every single day that you're in production, is somebody will go up and say, Hey, you know what,
+[01:59:51.600 --> 01:59:55.360]  his collar is not right. And then I fix the collar. Yeah, get the hair. Yeah. And you can't
+[01:59:55.360 --> 02:00:00.240]  do that with the quarantine, right? It's there, you got to know, we literally on our on the thing
+[02:00:00.240 --> 02:00:05.520]  we just shot, which was our first thing back on a small set was we couldn't have hair and makeup,
+[02:00:05.520 --> 02:00:10.240]  because that person would have to be too close to people, right? So it would only be better.
+[02:00:10.240 --> 02:00:14.320]  But then it takes away the thing that was so palpable to me watching the sessions I've watched
+[02:00:14.320 --> 02:00:20.240]  is that the stage fright being in front of 500 live people in front of you, or even if it's a
+[02:00:20.240 --> 02:00:25.520]  smaller session, 100 people, it's just people who I get nervous, and I do talks every once in a
+[02:00:25.520 --> 02:00:31.920]  while, somebody who's never spoken in front of 300 people before, you're gonna be nervous, right?
+[02:00:31.920 --> 02:00:36.720]  It that nerves is all out of there. And I think that the sessions I've, I hadn't seen anybody
+[02:00:37.280 --> 02:00:42.240]  who thought otherwise, every single comment I've seen on the sessions themselves this year was that
+[02:00:42.240 --> 02:00:48.000]  it was better and more palatable and more enjoyable and more informative to watch. And
+[02:00:48.800 --> 02:00:55.440]  the other thing that they did, which was really awesome in the physical conference of WWDC there,
+[02:00:55.440 --> 02:01:01.760]  it's like, it's like scheduling TV, you've got half hour blocks. And you can have an hour session
+[02:01:01.760 --> 02:01:08.000]  or a half hour session. But there's WWDC videos this year, they're like 13 minutes, because it's
+[02:01:08.000 --> 02:01:13.360]  you have 13 minutes worth of stuff, do a 13 minute video. And there's no reason to pad it out to 30
+[02:01:13.360 --> 02:01:18.960]  or say we can't really do this at WWDC because it doesn't fill a 30 minute slot. You know?
+[02:01:19.520 --> 02:01:25.200]  Yeah. Oh, that's so fascinating. All right. I'm so glad it worked out. Yeah, I love it.
+[02:01:25.200 --> 02:01:33.280]  All right. Let me take one last break here. Thank our good friends at Linode. L-I-N-O-D-E.
+[02:01:33.280 --> 02:01:36.480]  I used to think it was pronounced line node, because that's what it looks like. But it's not
+[02:01:36.480 --> 02:01:42.960]  it's Linode because it's like a node that hosts Linux. But I used to also think Linux was Linux.
+[02:01:44.080 --> 02:01:48.080]  So it really anything it really just goes to show that anything I can mispronounce, I will.
+[02:01:50.560 --> 02:01:59.520]  But what Linode is, is world class hosting for servers. Literally, that is where I host
+[02:01:59.520 --> 02:02:05.120]  Daring Fireball couldn't be happier with them. Really love the service. I love everything about
+[02:02:05.120 --> 02:02:10.960]  it. I even love the control panel. It's set up. It's so nice and easy for even a dingbat like me
+[02:02:10.960 --> 02:02:17.600]  who should not be allowed near the controls of a server can see it and understand what's going on.
+[02:02:17.600 --> 02:02:22.400]  They've got 11 data centers worldwide, enterprise grade hardware, their next generation network.
+[02:02:23.840 --> 02:02:29.440]  It's all just excellent. But the servers around the world, it's important. Maybe you've got
+[02:02:29.440 --> 02:02:33.920]  something that you want to be as close as possible. Keep the keep the latency down.
+[02:02:33.920 --> 02:02:39.040]  Maybe for legal reasons, like some kind of HIPAA type thing, or wherever you are, you've got to
+[02:02:39.040 --> 02:02:46.320]  store your records in a certain country, you can do that with Linode. Really, that's super useful.
+[02:02:48.800 --> 02:02:55.280]  They've got plans that start at just five bucks a month. And it's really a useful plane, I think
+[02:02:55.280 --> 02:02:59.200]  out of $5 a month plan, what the hell are you gonna do with that? There's an awful lot of uses
+[02:02:59.200 --> 02:03:06.640]  for having your own server where their $5 Nanode plan is all you need. Super useful, super fun.
+[02:03:07.840 --> 02:03:13.120]  Everything from work, hosting something like your website, like I do with Daring Fireball,
+[02:03:13.120 --> 02:03:18.320]  or database type thing, or hosting an API, or doing something that's real serious,
+[02:03:18.320 --> 02:03:22.640]  and you're getting paid to do it, or something fun like hosting a Minecraft server for your kids,
+[02:03:22.640 --> 02:03:30.400]  or you. Super fun, super easy to do. And they make it really easy to install stuff like serious
+[02:03:30.400 --> 02:03:37.200]  software for work, like WordPress, or fun stuff like Minecraft, all of it easy to install all
+[02:03:37.200 --> 02:03:43.040]  through their cloud manager, you get root access, it's all serious, it's all anything you want to do
+[02:03:43.040 --> 02:03:49.040]  that would, you know, involve pseudoing, you can do it. If you don't even know what pseudo is,
+[02:03:49.040 --> 02:03:56.640]  they'll, you know, you don't have to worry about it. They've got an API, and a $20 discount
+[02:03:56.640 --> 02:04:07.120]  by using the code TALKSHOW20. T-A-L-K-S-H-O-W-2-0. $20 credit. They've got the $5 a month plan,
+[02:04:07.120 --> 02:04:14.080]  that means you get four months free, four months, just by using the code. They're also hiring,
+[02:04:14.080 --> 02:04:20.080]  still hiring, they're always hiring. linode.com slash careers. Find out more if you're like a
+[02:04:20.080 --> 02:04:26.720]  system administrator type or anybody who, if you have career aspirations that involve working for
+[02:04:27.360 --> 02:04:31.360]  Linode, you know it. Go check it out. It's a great place to work. They've actually got their
+[02:04:31.360 --> 02:04:37.200]  headquarters here in Philadelphia. But you don't have to be here to work for them. Anyway, go to
+[02:04:37.200 --> 02:04:45.440]  linode.com slash the talk show. That's how you know you came from here. linode.com slash the
+[02:04:45.440 --> 02:04:52.080]  talk show. And when you sign up, remember that code TALKSHOW20. That'll save you the 20 bucks.
+[02:04:52.080 --> 02:05:00.640]  My thanks to Linode for sponsoring the show. The last thing I wanted to talk to you about,
+[02:05:00.640 --> 02:05:08.240]  and I think, I don't even know who else in the repertoire of friends and guests I've had on the
+[02:05:08.240 --> 02:05:14.160]  show, who I would love to hear thoughts on this enough. You've already changed my mind
+[02:05:14.160 --> 02:05:22.080]  in the last 24 hours on some of this. Are the sounds in Mac OS X Big Sur. So for the first
+[02:05:22.080 --> 02:05:28.560]  time in a very long time, maybe some of these sounds are like back to classic Mac OS, like
+[02:05:28.560 --> 02:05:37.440]  Sosumi. For all of the visual changes that Mac OS X, just to use the original name and carry
+[02:05:37.440 --> 02:05:44.640]  it through through OS X and Mac OS and everything. But what we now call Mac or Mac OS was OS X. And
+[02:05:44.640 --> 02:05:50.240]  before that was Mac OS X. The sounds like for like the default alerts and what happens when you move
+[02:05:50.240 --> 02:05:55.200]  something to the trash haven't really changed in a very long time. And they didn't Big Sur.
+[02:05:55.200 --> 02:05:57.440]  And people have strong feelings about these sounds.
+[02:06:01.360 --> 02:06:06.880]  And what are your strong feelings? Well, so there's two sets and I've got these videos.
+[02:06:08.240 --> 02:06:12.560]  I'm not even sure. What do you think? Should we play them on the show? I think maybe we should.
+[02:06:12.560 --> 02:06:15.920]  It's like, it seems like if you're listening to a podcast, you should be able to hear them.
+[02:06:16.960 --> 02:06:23.280]  Yeah, that makes sense. Or, or Caleb can cut them in. Hey, Interlude here. I'm
+[02:06:23.280 --> 02:06:27.200]  going to play the sound effects from Big Sur that Adam and I are going to be talking about.
+[02:06:27.200 --> 02:06:30.880]  You can hear them right here in your own ears, and then you'll know what we're talking about.
+[02:06:33.440 --> 02:06:39.360]  So there's two sets. First are the system sounds, which are for events like moving something to the
+[02:06:39.360 --> 02:06:44.400]  trash or taking a screenshot. And then there are the alerts, which are just the sounds you can pick
+[02:06:44.400 --> 02:06:50.560]  for the system beep. I'll run through them all, I'll introduce them. But in both cases, we'll play
+[02:06:50.560 --> 02:07:01.440]  the Catalina Mac OS 10.15 version first, and then the new Mac OS 11 Big Sur sound second. But the
+[02:07:01.440 --> 02:07:07.040]  Catalina ones are really the same going back like seriously, like 20 years, but I think these are
+[02:07:07.040 --> 02:07:15.680]  all taken from Catalina. So first, we have the system sounds, and we have sending something to
+[02:07:15.680 --> 02:07:36.000]  the trash, emptying the trash, moving a file or folder and taking a screenshot, which is the most
+[02:07:36.000 --> 02:07:42.720]  interesting change. Okay, now, the alerts. So I'm going to give them they all have new names. So I'll
+[02:07:42.720 --> 02:07:49.360]  just give you the names. The names are Catalina, classic old school Mac OS first, and then the new
+[02:07:49.360 --> 02:07:59.360]  name for the corresponding sound from Big Sur second. We've got Tink and Boop, Blow and Breeze,
+[02:08:03.200 --> 02:08:04.400]  Pop and Bubble,
+[02:08:04.400 --> 02:08:26.960]  Pop and Bubble, Glass and Crystal, Funk and Funky, Hero and Heroine, Frog and Jump,
+[02:08:26.960 --> 02:08:43.840]  Basso and Mezzo, Bottle and Pebble, Per and Pluck,
+[02:08:43.840 --> 02:09:07.680]  Morse and Pong, Ping and Sonar, Submarine and Submerge. And last, slightly out of alphabetical
+[02:09:07.680 --> 02:09:15.600]  order, the one sound that didn't change name for good reason. So sue me. And so sue me.
+[02:09:19.920 --> 02:09:27.600]  And my thought at first was I like all the new alert sounds like the beeps you pick from. And
+[02:09:27.600 --> 02:09:36.960]  I didn't like the system sounds like the trash and the screenshot. And you said you liked them.
+[02:09:36.960 --> 02:09:41.200]  And I was like, you know, that that that that threw me off that made me see it. And I'm,
+[02:09:41.200 --> 02:09:47.120]  you know, this is I've got a big, a big open mind. I thought, Well, I trust Adam. Let me let me think
+[02:09:47.120 --> 02:09:52.160]  about this. And I tried to live with it a little more. And I think you're right. I think they're
+[02:09:52.160 --> 02:09:57.600]  I think they're good. That's, that's nice to hear. I think that Yeah, I mean, obviously,
+[02:09:57.600 --> 02:10:05.680]  there's going to be resistance to anything that that that swaps out something that you're so
+[02:10:05.680 --> 02:10:11.200]  well used to and have such an impossibly emotional attachment to. But I always kind of hate it. And
+[02:10:11.200 --> 02:10:16.720]  I'll just take as the very basic like the the trash can and the empty trash sound from the
+[02:10:16.720 --> 02:10:23.360]  system. I step one, I, you know, some of our friends probably said, said this to step one of
+[02:10:23.360 --> 02:10:29.360]  a new Mac is you turn off that you turn off those system sounds. Because they're, I don't know,
+[02:10:29.360 --> 02:10:36.080]  they're, they're like a little bit showy. They're a little bit what's what's the word like, I want
+[02:10:36.080 --> 02:10:41.680]  to say aggressive or sharp, they like they want to draw attention to themselves. They don't they
+[02:10:41.680 --> 02:10:48.880]  don't feel feng shui, they don't feel like they're supposed to like, live comfortably in the
+[02:10:48.880 --> 02:10:56.240]  environment of the user experience. But these new ones feel just like that little extra bit softer
+[02:10:56.240 --> 02:11:03.600]  and comfortable and not disruptive to me, but still representing the things that they are,
+[02:11:03.600 --> 02:11:11.280]  with the exception of the of the screen cap on the screenshot sound, which is something new.
+[02:11:11.920 --> 02:11:17.200]  But you know, it's an interesting discussion, because we, you know, we were talking about
+[02:11:17.200 --> 02:11:25.200]  we were talking about this a little bit offline, but this idea that sound effects can be
+[02:11:25.840 --> 02:11:31.920]  skeuomorphic or not as well. Right. And that's exemplified by the screenshot.
+[02:11:32.800 --> 02:11:38.160]  Yeah, absolutely. By the screenshot, which is, you know, what they wanted to make, it's very much
+[02:11:38.160 --> 02:11:45.120]  like the save icon being a disk, a floppy disk, they wanted to make the sound of a screen capture
+[02:11:45.120 --> 02:11:52.800]  like a camera shutter, clicking and saving an image, which makes sense, you know, conceptually,
+[02:11:52.800 --> 02:11:57.520]  but do we really need that anymore, especially when the association of a shutter sound
+[02:11:57.520 --> 02:12:01.680]  is now just referential to itself, it doesn't refer to a camera that any of us own.
+[02:12:02.240 --> 02:12:08.080]  Right. So if you if you can sort of redefine that, and you know, self define a shutter sound
+[02:12:08.080 --> 02:12:12.560]  as something new, that's like almost more digital or bloopy sounding, then why not take that
+[02:12:12.560 --> 02:12:18.960]  opportunity, if it's like a once in a decade thing. It's funny to imagine an alternate universe,
+[02:12:18.960 --> 02:12:28.320]  where the sounds changed as frequently and dramatically as the UI theme of Mac OS 10.
+[02:12:28.320 --> 02:12:33.440]  But the UI theme hadn't changed at all, maybe other than going retina, which I think even in
+[02:12:33.440 --> 02:12:39.680]  the alternate universe would have had to happen. But like, imagine a world where until a month ago,
+[02:12:39.680 --> 02:12:51.040]  Mac OS still looked like the candy aqua Mac OS 10.0 from 2002, with the stripes and the lollipop
+[02:12:51.040 --> 02:12:58.320]  looking red, yellow, green, all the buttons. And then never just higher res, but the sound,
+[02:12:58.320 --> 02:13:03.440]  the sounds changed every four years. And then all of a sudden, all of a sudden in June,
+[02:13:03.440 --> 02:13:09.840]  they unveiled Big Sur. It looks like what Big Sur looks like. I think, you know, people would a lot
+[02:13:09.840 --> 02:13:13.680]  I think people's heads would have exploded. It's kind of hard to imagine, you know.
+[02:13:14.800 --> 02:13:19.600]  Yeah. And I and I mean, the very basic answer is because the sounds aren't as important as
+[02:13:19.600 --> 02:13:24.320]  the visuals, right? Right. Nobody, you know, people say, turn off the sounds. First thing
+[02:13:24.320 --> 02:13:30.880]  you do is turn on. Nobody says first thing you do is turn off your display. Right? It just doesn't
+[02:13:30.880 --> 02:13:38.000]  work. Yeah, use the terminal. It's just as good. All right. So the the alerts, I think they they
+[02:13:38.000 --> 02:13:45.200]  all sound better. I don't think any of them is worse. I guess. A friend of the show. I think
+[02:13:45.840 --> 02:13:50.880]  moltz we're on a slack. That's what we're talking about. We're on a slack where we talk. And I think
+[02:13:50.880 --> 02:13:58.240]  moltz thinks that the breeze one sounds like a windows sound, but it doesn't sound bad. But I
+[02:13:58.240 --> 02:14:02.080]  think it's interesting that they all have parallels, you know, that there were the old
+[02:14:02.080 --> 02:14:08.400]  alerts. And now each one, there's like a one to one correlation between the old and the new. And
+[02:14:08.400 --> 02:14:13.600]  I have to admit, big dummy that I am and overwhelmed by all of the new stuff in Big Sur, I
+[02:14:13.600 --> 02:14:18.400]  didn't even notice that at first, that it's one to one. And then it's like, well, how did you not
+[02:14:18.400 --> 02:14:23.040]  notice that, you know, because like, the one is, you know, like the names are, you know, like,
+[02:14:23.040 --> 02:14:33.120]  ping is now sonar and submarine is now submerged. I mean, it's, you know, it's kind of obvious.
+[02:14:34.160 --> 02:14:41.040]  But yet I missed it. Yeah, I the first the first sound in Mac and the Mac OS that I noticed was
+[02:14:41.040 --> 02:14:45.840]  the startup sound, which is correct me if I'm wrong, but there hadn't been a startup sound
+[02:14:45.840 --> 02:14:50.880]  in the last it they got away from it. They, I think, I think starting and again, I could get
+[02:14:50.880 --> 02:14:54.720]  it wrong, but it almost doesn't matter what the technical explanation but I think it started with
+[02:14:54.720 --> 02:15:01.680]  the ones that have the T two chip for security stopped, including the boot sound by default.
+[02:15:01.680 --> 02:15:08.160]  And then there was a secret scary pseudo command you could issue at the command line, which is
+[02:15:08.160 --> 02:15:13.840]  seriously scary, because it's like you're actually using a command that like changes the firmware
+[02:15:13.840 --> 02:15:18.800]  in your computer. And so yeah, you use everybody just copies and pastes it. But it's like you kind
+[02:15:18.800 --> 02:15:23.360]  of have to trust who you're copying and pasting that you're not like, rendering your Mac unable
+[02:15:23.360 --> 02:15:29.840]  to boot. Well, but you could turn it back on, but now that yeah, and in this in Big Sur in the beta,
+[02:15:29.840 --> 02:15:35.120]  at least there's there's now I mean, by default to startup. And I know that only because a half
+[02:15:35.120 --> 02:15:40.960]  hour before we started recording, I finally got the beta to install so that we'd have something
+[02:15:40.960 --> 02:15:47.040]  to talk about. And then so I turned it on and it and I heard the startup sound for the first time,
+[02:15:47.040 --> 02:15:53.760]  which has it's very similar to the to the prior one that except that it's got a much softer
+[02:15:55.200 --> 02:16:00.320]  timbre and a much softer attack like the the ramp up to the beginning in the beginning of the sound
+[02:16:00.960 --> 02:16:08.400]  is a little bit of a ramp. So it's it's a little bit more like, and which from for me right away,
+[02:16:09.200 --> 02:16:15.440]  drew an association with HBO, you know, network tone or whatever the promo tone.
+[02:16:15.440 --> 02:16:22.720]  Which is a nice sound. It's great. So I don't mind that at all. You what you want is that you
+[02:16:22.720 --> 02:16:27.440]  wait, I think what you want in a sound more than anything else, is if your volume is turned all the
+[02:16:27.440 --> 02:16:35.680]  way up on accident, and everybody in your home is asleep. And you and you do something on your
+[02:16:35.680 --> 02:16:40.160]  computer and it barks, you know, with a sound effect, like you throw something in the trash,
+[02:16:40.160 --> 02:16:44.880]  you don't want it to wake everybody up. Or you don't want to at least have to clench your butt
+[02:16:45.440 --> 02:16:51.280]  because you're worried that it and those like some of these sounds like the glass or the
+[02:16:51.280 --> 02:16:56.800]  chong gong gong, you know, like the the just very cavernous, metallic throwing something away or
+[02:16:56.800 --> 02:17:02.080]  the crinkle the the pringles. You know, when you when you empty the trash, those are harsh,
+[02:17:02.080 --> 02:17:05.120]  harsh sounds, those are waking your family up, they're not going to be happy.
+[02:17:05.120 --> 02:17:11.440]  I do. I do wonder. Well, you know what, I have to mention this because I know I've gotten so
+[02:17:11.440 --> 02:17:16.880]  many emails over and I've never actually mentioned it. But there's a lot of people who think that the
+[02:17:16.880 --> 02:17:22.480]  Apple TV plus promo sound whatever I thought I was hoping you would know what those things are
+[02:17:22.480 --> 02:17:29.600]  called, you know, like every streaming service has their own distinctive thing, like the HBO one or
+[02:17:29.600 --> 02:17:36.880]  Netflix is the done. Yeah, I think that I've always called them as logo tones. Yeah, I like
+[02:17:36.880 --> 02:17:42.560]  promo tones, but logo tones, because when like, when the iPhone first let you make your own ring
+[02:17:42.560 --> 02:17:48.800]  tones I made I made ringtones out of all of those like old school network tones. Well, let's make
+[02:17:48.800 --> 02:17:53.200]  let's make logo tones a thing. That's our that's our mission. Everybody listening. That's our
+[02:17:53.200 --> 02:17:57.840]  mission is to get everyone to know what those things are. And I think that's what we need to
+[02:17:57.840 --> 02:18:02.080]  be listening. That's our mission is to get these things called logo tones, because that's what they
+[02:18:02.080 --> 02:18:07.360]  are. They're audio logos, right? That you can, you can't, you're not even looking at the screen.
+[02:18:07.360 --> 02:18:13.840]  But if your friend or partner or kid starts playing something, you know, if it's on Netflix,
+[02:18:13.840 --> 02:18:19.120]  because it starts, you have your back to the TV, but you hear the sound and you know, bum bum,
+[02:18:19.120 --> 02:18:24.960]  it's on Netflix. Right. So it's a logo tone. Yeah, and they I just found the Apple one. It's the
+[02:18:24.960 --> 02:18:31.600]  Apple TV plus logo HD. It's it's kind of like a single tone of like piano with a bass.
+[02:18:33.440 --> 02:18:37.840]  Yeah, there's people who think it's they there's but there's people who think that's the max
+[02:18:37.840 --> 02:18:46.640]  startup chime. And it's not. It is. It's in the vein of it. And I kind of wonder if there wasn't
+[02:18:46.640 --> 02:18:54.080]  at least some deliberate homage or I don't know, but it's definitely not it. And it surprises me
+[02:18:54.080 --> 02:18:57.680]  that some people think it is. And I think if you heard them back to back, you'd say, Oh, yeah,
+[02:18:57.680 --> 02:19:04.080]  that's not the same thing at all. But it's, it's familiar enough that you might, you know, I can
+[02:19:04.080 --> 02:19:10.000]  see why people think it, but not if you actually listen to it side by side. But anyway, anyway,
+[02:19:10.000 --> 02:19:14.160]  if you get a new Mac now, I guess start I don't know if you have to wait for Big Sur or not. But
+[02:19:14.160 --> 02:19:19.920]  apparently the startup sounds are coming back for all Macs by default, which I think is the right
+[02:19:19.920 --> 02:19:25.760]  way to do it. And I know that this is polarizing, because I've mentioned this. I get it why your
+[02:19:25.760 --> 02:19:31.120]  phone when you power off your phone and start up your phone, it doesn't make a noise. But your Mac
+[02:19:31.120 --> 02:19:35.600]  is not your phone. It's different. Your Mac. I don't know, there's something about it. And maybe
+[02:19:35.600 --> 02:19:41.280]  it is just nostalgia. But I think your Mac, if it's powered off, when you power it on,
+[02:19:41.280 --> 02:19:47.520]  it should make a noise. And if you work in an environment, and this is what you hear from,
+[02:19:47.520 --> 02:19:51.280]  and I'm going to hear from it just by saying this right now. There are people who work in
+[02:19:51.280 --> 02:19:58.240]  environments where any noise is unwelcome. And they've had at least one unfortunate circumstance
+[02:19:58.240 --> 02:20:02.400]  where the computer locked up or they had to restart it after installing something or something
+[02:20:02.400 --> 02:20:08.560]  and they did it. And it made a noise and they were embarrassed. And they were very happy that Apple
+[02:20:09.600 --> 02:20:16.240]  did away with it. But yeah, as long as you can easily mute it or disable it, then I'm good.
+[02:20:16.240 --> 02:20:21.440]  I'm good. Do you remember this? It was I'm looking at YouTube, it was 13 years ago, but like,
+[02:20:22.160 --> 02:20:30.960]  a hidden camera prank video in a library where a guy turns on his laptop, and the startup chime
+[02:20:30.960 --> 02:20:36.880]  goes off. But it's very loud, like they had they had some hidden speakers or something.
+[02:20:36.880 --> 02:20:42.800]  It's very loud. And it lasts like easily 60 seconds. And people keep, oh my god, I'll send
+[02:20:42.800 --> 02:20:47.920]  it to you right now. It's so good. I'll put it in the show notes. Okay.
+[02:20:53.440 --> 02:20:58.560]  Here's so you like the new sounds too. And you know which one in particular you've totally
+[02:20:58.560 --> 02:21:03.760]  you've made me go from why did they do this? Why are they ruining my life too? Okay, I actually
+[02:21:03.760 --> 02:21:10.560]  am with Adam. I think this is smart is the screenshot one. Yeah. And it shouldn't be a camera.
+[02:21:10.560 --> 02:21:18.880]  And it's not just the phasing out of clickety clack cameras. And the fact that have you seen
+[02:21:18.880 --> 02:21:22.880]  I mean, I don't know, I know you shoot with really, you know, serious big boy cameras,
+[02:21:22.880 --> 02:21:27.440]  but a lot of like prosumer cameras have like the option to have a fake shutter sound.
+[02:21:28.880 --> 02:21:35.520]  Yeah, I really don't get I mean, and I guess I get in the sense that well, if a screenshot on a
+[02:21:35.520 --> 02:21:41.360]  computer makes an old timey shutter camera sound, why wouldn't a camera camera have the option of
+[02:21:41.360 --> 02:21:46.720]  doing it digitally. But to me, that was always the absolute worst part of cameras is that they
+[02:21:46.720 --> 02:21:53.200]  made this noise and distracted people if you're trying to shoot, you know, not surreptitiously
+[02:21:53.200 --> 02:22:00.800]  like a creeper, but casually at an event and just capture people without making them self conscious
+[02:22:00.800 --> 02:22:05.200]  and just sort of capture this and having this big, loud click clack was not good. And then when
+[02:22:05.200 --> 02:22:13.040]  you're ever you're watching a professional media event, and there's the nonstop stream of people
+[02:22:13.040 --> 02:22:19.440]  with digital SLRs that actually have this still have the mirror. And they have these giant CF
+[02:22:19.440 --> 02:22:26.000]  cards that can shoot an infinite number of images and they just hold down the shutter. And it's it
+[02:22:26.000 --> 02:22:32.000]  it really sounds like an attack of some sort like a like a machine gun nerf gun is going it doesn't
+[02:22:32.000 --> 02:22:38.640]  sound like a gun gun, but it sounds like some kind of, you know, I don't know, it just always sounds
+[02:22:38.640 --> 02:22:45.600]  like like photographers are attacking the subject. Yeah, very aggressive. And why it just is so
+[02:22:45.600 --> 02:22:49.520]  frustrating at this point, like when it was technically necessary, it was one thing, but
+[02:22:49.520 --> 02:22:55.120]  we know that we can make truly excellent cameras that don't make any physical noise. So why not?
+[02:22:55.120 --> 02:23:02.320]  It would be so create such a more pleasant moment. If everybody just agreed not to use cameras that
+[02:23:02.320 --> 02:23:08.320]  have mirrors. So I get it. And I actually like I like the new screenshot. And it's something
+[02:23:08.320 --> 02:23:12.320]  that happened. And this is where I'm getting it. The question I have for you is where do you draw
+[02:23:12.320 --> 02:23:19.680]  the line for which events in the in the user interface make a noise and which ones don't?
+[02:23:19.680 --> 02:23:24.400]  Yeah, I think it's just if you need feedback to know that it worked. That's, I feel like that's
+[02:23:24.400 --> 02:23:32.000]  the whole point of a of a UI sound. Right. If you if it doesn't make a sound, or there's not some
+[02:23:32.000 --> 02:23:37.360]  sort of a tactile feedback, then you wonder you're stuck with that nanosec of an anxiety of an
+[02:23:37.360 --> 02:23:41.280]  anxiety where it didn't do the thing you needed it to do. Yeah, and I think that's why I leave
+[02:23:41.280 --> 02:23:47.680]  him on, you know, and I, you know, as a self professed, you know, expert user, I still use it.
+[02:23:47.680 --> 02:23:53.280]  I don't, I don't really move that many files to the trash. I don't empty my trash very often.
+[02:23:53.840 --> 02:24:00.160]  So it's not like I'm constantly badgered with the sound of things being rattled around the fake
+[02:24:00.160 --> 02:24:06.560]  trash can. But I kind of like the confirmation of it. And for a screenshot, it's, it's almost
+[02:24:06.560 --> 02:24:11.760]  like a warning to write. It's not just confirmation that you took the screenshot. But it's like a
+[02:24:11.760 --> 02:24:16.240]  warning in case you did it by accident that hey, you know, whatever you were doing just got
+[02:24:16.240 --> 02:24:21.120]  screenshotted. You should be aware, you know, you should be aware of it. Maybe warning isn't the
+[02:24:21.120 --> 02:24:26.320]  right word, but sort of just like, hey, you know, just so you know, whatever you're doing is just
+[02:24:26.320 --> 02:24:33.920]  been captured to an image. Yeah, in iOS 14, I installed install the beta last night of iOS,
+[02:24:33.920 --> 02:24:39.440]  iOS 14. And I discovered a system sound that is the first time that I think I will ever leave a
+[02:24:39.440 --> 02:24:45.280]  system sound on, which is, I don't know what you call it. It's like a push pop. Is that what it
+[02:24:45.280 --> 02:24:51.520]  what do you call it where you you click you tap hold on a link? And it pops up? You know, you
+[02:24:51.520 --> 02:24:56.400]  know, like, like, I don't know, three long press. Yeah, you long, long press on a link in it. And
+[02:24:56.400 --> 02:25:05.200]  it pops up a preview. Yeah. And when you do that in iOS 14, it vibrates it just and then, and I'll
+[02:25:05.200 --> 02:25:10.240]  try to hold it up to the mic right now. So you can maybe hear it. But did you hear that? Yeah,
+[02:25:10.240 --> 02:25:16.560]  yeah, that little tick. Yeah, it's just a it's barely audible. But and I think that the reason
+[02:25:16.560 --> 02:25:22.400]  I'll leave it on is because if I did that in a very silent room, nobody would ever think that
+[02:25:22.400 --> 02:25:27.600]  that was that that came out of my phone, it could have easily just been like, my bone cracking or
+[02:25:27.600 --> 02:25:36.160]  something like that or the chair. But it's that extra little bit of audible slash tactile feedback
+[02:25:36.160 --> 02:25:41.520]  or haptic feedback that makes me know that I'm that I just interacted with with a piece of
+[02:25:41.520 --> 02:25:47.920]  software in an interesting way. Yeah, it's, it's not quite haptic. It's but it is sensory, right?
+[02:25:47.920 --> 02:25:55.840]  It's right. That's what it is. And I do feel that Apple is sort of it's an interesting walk back
+[02:25:55.840 --> 02:26:02.400]  where Apple is sort of introduced all of this pressure sensitive stuff that they called force
+[02:26:02.400 --> 02:26:08.640]  touch on some devices and 3d touch on others and it's all sort of going away. Apparently the watch
+[02:26:09.680 --> 02:26:18.480]  OS six or whatever version the new one is seven or seven has deprecations about assuming that 3d
+[02:26:18.480 --> 02:26:22.560]  touch or force touch or whatever it's called on the watch is going to be there which has everybody
+[02:26:23.600 --> 02:26:30.000]  you know, I think rightly so thinking that then either the next watches this year or the ones next
+[02:26:30.000 --> 02:26:36.320]  year aren't going to do away with that. You know, and the phones already did it and it was sort of
+[02:26:36.320 --> 02:26:43.200]  painful because it's in some ways the experience took a hit because being able to just force touch
+[02:26:43.200 --> 02:26:48.000]  the shortcut I used all the time was being able to force touch on the keyboard and turn it into
+[02:26:48.000 --> 02:26:54.480]  a trackpad for the cursor. And you can still get it but you'd like long press on the spacebar
+[02:26:54.480 --> 02:26:58.880]  or below the spacebar which is a nice trick on the iPhone 10 that you don't even have to hit
+[02:26:58.880 --> 02:27:04.000]  the spacebar exactly you can go below it but like the fact that you have to like press and wait
+[02:27:05.280 --> 02:27:12.160]  is like and I think they've dialed in the weight to like an exquisitely perfect number of
+[02:27:12.160 --> 02:27:17.360]  milliseconds where you don't get it by accident but it's the minimum weight they could possibly
+[02:27:17.360 --> 02:27:22.240]  do so it's as fast as it can possibly be without being accidentally trigger triggerable but it
+[02:27:22.240 --> 02:27:26.400]  still isn't as cool as being able to just press hard and have it right away like I still feel
+[02:27:26.400 --> 02:27:31.040]  like I'm now all of a sudden I'm faster than my phone which is ridiculous because I'm a very
+[02:27:31.040 --> 02:27:42.720]  slow person. Related, I and again on our slack our friend John Syracuse said I'll just call him
+[02:27:42.720 --> 02:27:49.280]  out by name vehemently opposed to the keyboard clicks on the iPhone keyboard. I like them,
+[02:27:49.280 --> 02:27:56.960]  I keep them on and to me to me the ringer switch on the phone I don't really think of it as a
+[02:27:56.960 --> 02:28:04.160]  ringer switch I think of it as a keyboard click switch because I will turn it off you know when
+[02:28:04.160 --> 02:28:07.920]  it's always appropriate you know generally appropriate not to have your phone ringing
+[02:28:07.920 --> 02:28:12.720]  and beeping and booping and bopping but I like to turn it on when I'm writing if I'm going if
+[02:28:12.720 --> 02:28:18.000]  I'm going to like do some email or like extensive texting with somebody on my phone I'll flip it up
+[02:28:18.000 --> 02:28:22.800]  and so that when I'm typing I can hear the taps but I have to immediately tap it off if I'm
+[02:28:22.800 --> 02:28:29.280]  anywhere near my wife because she drives your bonkers that's great that's great you need that
+[02:28:29.280 --> 02:28:34.000]  feedback and it's good to that's good to know that kind of thing by yourself I don't think I
+[02:28:34.880 --> 02:28:42.400]  know I bet that if you secret camera'd me and stop watched it I don't type faster or more accurately
+[02:28:42.400 --> 02:28:48.240]  with the clicks but I feel like I type more accurately and faster with the clicks and that's
+[02:28:48.240 --> 02:28:55.120]  really all that matters I would actually keep doing it even if your stopwatch secret camera
+[02:28:55.120 --> 02:29:02.800]  footage of me proved the opposite that I actually am more effective without it without the clicks
+[02:29:02.800 --> 02:29:09.440]  because I it matters more to me that I feel like I'm productive right does that make sense
+[02:29:09.440 --> 02:29:16.320]  oh absolutely it's all emotional UI is definitely emotional or so I'm gonna say one more thing that
+[02:29:16.320 --> 02:29:20.480]  I just thought of about the system about the new sounds all right in in terms of like
+[02:29:22.880 --> 02:29:29.600]  evolution of sound design and I think it's this I think that the future of this type of
+[02:29:30.320 --> 02:29:38.640]  of human computer and what's the I stand for interaction interaction yeah is going to
+[02:29:38.640 --> 02:29:45.520]  resemble augmented reality more and more than it you know as opposed to less like AR wasn't a trend
+[02:29:45.520 --> 02:29:53.040]  and I think that that goes for visuals as well as sounds where we're going to become more used
+[02:29:53.040 --> 02:30:00.880]  to the idea that you know digital visual stuff is it has to blend in with our environments for
+[02:30:00.880 --> 02:30:05.600]  obviously reason you know if the glasses are a real thing then yes visual digital stuff is
+[02:30:05.600 --> 02:30:10.400]  going to blend in in our environments and track to the environment so that's sort of a no-brainer
+[02:30:10.400 --> 02:30:15.520]  but I think it's interesting to think about sounds the same way and I even think that you know the
+[02:30:15.520 --> 02:30:21.840]  first generation of air air pods what was striking to me was that they sort of you know because they
+[02:30:21.840 --> 02:30:28.000]  let a certain amount of sound in to your eardrums it always felt to me like an overlay of sound
+[02:30:28.000 --> 02:30:33.200]  rather than a replacement of sound right which is how I prefer to experience you know sound through
+[02:30:33.200 --> 02:30:38.160]  through headphones or whatever I don't want to be isolated or noise noise cancellation or anything
+[02:30:38.800 --> 02:30:46.000]  so I like to think of sound in that that way of augmented rather than replacing or or like a
+[02:30:46.000 --> 02:30:52.000]  you know VR type of sound so I think that these new sounds that I'm hearing from the system
+[02:30:52.000 --> 02:30:58.000]  and the alert sound in Big Sur are meant are like sort of like engineered or sound designed to
+[02:30:58.000 --> 02:31:04.400]  to augment sound around us rather than replace it and that's the last thing I'll say about that
+[02:31:04.400 --> 02:31:09.760]  do you have iAirPods Pro or do you still have the no I don't because I really do like my AirPods
+[02:31:09.760 --> 02:31:17.760]  I've always been sort of a I don't know like middle like a calm like a I forgot middling
+[02:31:17.760 --> 02:31:25.120]  taste of of like headphones and stuff like I I loved the the wired earbuds that came with the
+[02:31:25.120 --> 02:31:30.000]  iPhone and the iPods for so many years and I love the first generation second generation of AirPods
+[02:31:30.000 --> 02:31:33.920]  so I don't really feel like I for that same reason I don't want to replace what's around me I just
+[02:31:33.920 --> 02:31:40.320]  want to augment it yeah I I have the pro I would say for anybody who still has the regular ones and
+[02:31:40.320 --> 02:31:45.680]  you're thinking about the pro if you like if you're like you like I would say to you don't even
+[02:31:45.680 --> 02:31:50.400]  worry about it you're if you like your regular AirPods you're good if you you know and to me the
+[02:31:50.400 --> 02:31:56.000]  big area where I love the noise canceling on the AirPods Pro is being on an airplane or a train
+[02:31:56.000 --> 02:32:03.840]  yeah and guess who hasn't been on an airplane or a train in four and a half months when I'm out
+[02:32:03.840 --> 02:32:09.920]  on the street here in Philly I always have my AirPods Pro in whatever they call pass-through
+[02:32:09.920 --> 02:32:18.240]  mode where it's not noise canceling a I'm scared of the noise canceling as a pedestrian I genuinely
+[02:32:18.240 --> 02:32:23.440]  genuinely worry about I feel like I'm lucky enough when I don't have any headphones in at all that I
+[02:32:23.440 --> 02:32:31.840]  don't get hit by a car but yeah uh I I like all of these extra I like to use as many of my senses
+[02:32:31.840 --> 02:32:38.240]  as possible to avoid getting hit by a car or anything untoward like that but I also just like
+[02:32:38.240 --> 02:32:43.760]  it I just prefer it I just like to be part of the world I don't want to cancel out stuff like that
+[02:32:43.760 --> 02:32:51.200]  and with the AirPods Pro it really is like it turns the whole world into AR for audio
+[02:32:51.200 --> 02:32:57.120]  where that's the trick is like so like and for me as a pedestrian all this all of my use cases
+[02:32:57.120 --> 02:33:03.280]  involve being a pedestrian in a center city Philadelphia so like a bus goes by well a bus
+[02:33:03.280 --> 02:33:12.080]  is very noisy and you hear the bus when you're with AirPods Pro in pass-through mode but unlike
+[02:33:12.080 --> 02:33:17.600]  regular AirPods where the pass-through is the actual sound of the bus it's virtual and it knows
+[02:33:17.600 --> 02:33:22.880]  to turn it down so you know the bus is going by but it doesn't mean you have to like pause the
+[02:33:22.880 --> 02:33:28.720]  podcast you're listening to wait for the bus and then hit play to or go back 15 seconds it turns
+[02:33:28.720 --> 02:33:34.240]  the bus down to a level where you doesn't keep you from continuing to hear the podcast you're
+[02:33:34.240 --> 02:33:39.680]  listening to which is awesome it blows me away every time it happens I I'm blown away because
+[02:33:39.680 --> 02:33:45.920]  I'm like you know for years you know and even going back to wired earbuds every single time a
+[02:33:45.920 --> 02:33:51.760]  bus or truck went by me while I was out in the city I would have to go back 15 seconds to hear
+[02:33:51.760 --> 02:33:56.160]  what the hell I just missed on the podcast and now I don't have to do that and it blows me away
+[02:33:56.880 --> 02:34:02.000]  yeah that's just super super cool smart engineering I love it all right last question
+[02:34:02.000 --> 02:34:08.400]  and then we're done on this subject why do movies still have when you're when somebody's using a
+[02:34:08.400 --> 02:34:16.480]  computer in a movie does it make ridiculous sounds for everything oh that's a good question when I
+[02:34:16.480 --> 02:34:21.600]  thought this was the thing here's what I thought I thought as like when I was in my 20s and this was
+[02:34:21.600 --> 02:34:27.120]  still happening I was like well wait until my generation is making the movies and is in charge
+[02:34:27.120 --> 02:34:34.400]  of things and we'll finally get done with this right no because I mean sound designers have to
+[02:34:34.400 --> 02:34:41.040]  reinforce the idea of the world that's being captured on camera like they're there it's not
+[02:34:41.040 --> 02:34:46.880]  meant to be the most realistic although I'd argue that when devices when when hardware devices are
+[02:34:46.880 --> 02:34:52.400]  truly silent then we'll no longer need sound you know them to be sound designed in movies and
+[02:34:52.400 --> 02:34:58.880]  commercials and so I think that's that's the main thing is that it feels weird if you see something
+[02:34:58.880 --> 02:35:06.240]  but don't hear it and also there's this idea this this idea that all of you know all of that medium
+[02:35:06.240 --> 02:35:14.320]  all of cinema through you know through a lens is illusory so you have to always reinforce the
+[02:35:14.320 --> 02:35:20.400]  illusion so it's not it's not about replicating reality it's about convincing people that what
+[02:35:20.400 --> 02:35:27.120]  they're seeing in that box is pretty close to real life so sound designers take that opportunity
+[02:35:27.120 --> 02:35:32.880]  to not only reinforce but make better and it's it's an additive thing it's not subtractive
+[02:35:34.080 --> 02:35:39.440]  there we go Adam I'm gonna have you back on the show within the next five years
+[02:35:41.360 --> 02:35:48.720]  oh good must have done something right then uh everybody can check you out your what your
+[02:35:48.720 --> 02:35:54.720]  twitter handle is now Adam it's just my name Adam lisagor yeah and of course your excellent
+[02:35:54.720 --> 02:36:03.440]  company that was instrumental in making me not jump off a cliff uh sandwich is at sandwich dot
+[02:36:03.440 --> 02:36:10.480]  co which is absolutely fabulous um and you guys are continuing to do killer work even in this
+[02:36:10.480 --> 02:36:14.080]  you guys have figured it out how to do work anything you want to promote anything new I
+[02:36:14.080 --> 02:36:20.000]  know the slack video was about a month ago but yeah yeah I was maybe getting up on two months
+[02:36:20.000 --> 02:36:25.600]  but what is time anymore yeah um yeah I guess a month ago was my show and it was definitely out
+[02:36:25.600 --> 02:36:29.840]  for a month when my show came out so yeah two months all right yeah so I guess that slack
+[02:36:29.840 --> 02:36:34.960]  project is on our site if you like if you would if if to get to know the team and the company a
+[02:36:34.960 --> 02:36:42.160]  little bit or our culture we've done a few more of those we call them lunchbox style remote shoots
+[02:36:42.160 --> 02:36:47.600]  since this started happening and then we just did our first like real commercial for a company
+[02:36:47.600 --> 02:36:53.920]  called out pay which I'm very excited about um out pay is again they're they're they're facilitating
+[02:36:55.200 --> 02:37:02.640]  contactless menu and payment in restaurants for um because it's all it's all sorts of dangerous
+[02:37:02.640 --> 02:37:08.480]  for everybody involved at a restaurant right now if you're just handling everything and um
+[02:37:08.480 --> 02:37:13.440]  and there's all these regulations and restrictions so that so they've been working for a few years on
+[02:37:13.440 --> 02:37:20.240]  a clever solution um to all this problem and uh the timing was interesting and correct so
+[02:37:20.240 --> 02:37:28.480]  we we made a commercial for them and what else yeah just uh probably vote vote in the election
+[02:37:28.480 --> 02:37:35.840]  and up well vote for sure and last but not least uh you and uh uh friends of the show
+[02:37:35.840 --> 02:37:40.000]  merlin man and scott simpson have put the band back together for you look nice today
+[02:37:40.000 --> 02:37:45.440]  and that is now well hey you could just look for it in your favorite podcast app but is the
+[02:37:45.440 --> 02:37:53.600]  website is um i think that we was it's all at californiaking.org now we sort of like we set
+[02:37:53.600 --> 02:37:58.880]  out to do something new when we got the we got back together we started discussing you know what
+[02:37:58.880 --> 02:38:04.560]  could we do it doesn't have to be the old thing let's just get let's just record so we branded it
+[02:38:04.560 --> 02:38:10.000]  as a new thing that scott came up with yet the name california king and it was the fun it was so
+[02:38:10.000 --> 02:38:17.040]  funny we couldn't disregard it and uh and so then we we started recording them and then we realized
+[02:38:17.040 --> 02:38:24.000]  oh this is you look nice today this is the same damn thing so whoops and anyway we started doing
+[02:38:24.000 --> 02:38:28.160]  them as we started the one the way we could differentiate was we started shooting them
+[02:38:28.160 --> 02:38:33.680]  shooting video for them too so now they're all uh the episodes are slightly different
+[02:38:33.680 --> 02:38:39.280]  slightly less edited than they used to used to be and they're all on video on youtube so um
+[02:38:39.280 --> 02:38:45.760]  california king it's it uh for the kids huge amounts of fun yeah huge amounts of fun for me
+[02:38:45.760 --> 02:38:52.560]  and uh we just we do it weekly now instead of maybe every few we uh years and uh it's really
+[02:38:52.560 --> 02:38:57.520]  fun to be a podcaster again yeah well i'm i couldn't be happier that it's back i don't know
+[02:38:57.520 --> 02:39:04.320]  what i'm happier about you look nice today california king or uh gary larson bring him back
+[02:39:04.320 --> 02:39:10.000]  but you guys have more episodes than he has cartoons so uh i'm gonna i'm gonna give the credit
+[02:39:10.000 --> 02:39:16.160]  to you yeah well we should do a calendar although now that i think about it the far side has also
+[02:39:16.160 --> 02:39:22.800]  made uh copious use of cooper black the typeface oh neat yeah huh yeah i wonder if that's what made
+[02:39:22.800 --> 02:39:29.520]  me think of it is that i'm looking here and i see it california king but uh anyway right on well
+[02:39:29.520 --> 02:39:36.080]  this has been a dream thank you so much john gruberian observation that anybody uh anybody
+[02:39:36.080 --> 02:39:43.040]  including me has ever made yeah we really took cooper black and and made it our own i guess um
+[02:39:43.680 --> 02:39:47.360]  i think that was merlin's unique innovation when we started you look nice today
+[02:39:47.360 --> 02:39:53.520]  all right adam thanks man thanks for having me on oh you're the best

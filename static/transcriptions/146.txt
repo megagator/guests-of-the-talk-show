@@ -1,0 +1,1372 @@
+[00:00.880 --> 00:03.940]  Ladies and gentlemen, your pal, John Gruber here.
+[00:03.940 --> 00:06.020]  This is a very special episode of the talk show.
+[00:06.020 --> 00:07.840]  It is a different episode of the talk show
+[00:07.840 --> 00:09.400]  as you're about to find out.
+[00:09.400 --> 00:12.020]  And so it has a different kind of sponsorship set up.
+[00:12.020 --> 00:13.000]  I'm just gonna tell you right here,
+[00:13.000 --> 00:18.000]  this episode is exclusively brought to you by Meh.com.
+[00:19.040 --> 00:21.520]  That's M-E-H.com.
+[00:21.520 --> 00:23.720]  If you don't know what's Meh, it's a daily deal site.
+[00:23.720 --> 00:26.240]  You guys remember Woot, W-O-O-T?
+[00:26.240 --> 00:27.720]  That was a daily deal site
+[00:27.720 --> 00:30.320]  where they put funny content videos and stuff like that up
+[00:30.320 --> 00:31.540]  and they'd have one thing a day
+[00:31.540 --> 00:34.540]  that they would sell at an extraordinary discount.
+[00:34.540 --> 00:35.960]  Then they sold to Amazon.
+[00:35.960 --> 00:37.400]  That was Woot, they sold to Amazon
+[00:37.400 --> 00:39.240]  and Amazon started changing everything around
+[00:39.240 --> 00:41.160]  and eventually got rid of everything about Woot
+[00:41.160 --> 00:42.880]  that made Woot Woot.
+[00:42.880 --> 00:43.960]  So the team laughed.
+[00:43.960 --> 00:45.540]  They left Amazon when they could
+[00:45.540 --> 00:47.880]  and they started a new site that was like Woot
+[00:47.880 --> 00:50.440]  except even better than it used to be.
+[00:50.440 --> 00:51.880]  And that's Meh.
+[00:51.880 --> 00:52.820]  It's the guys behind Woot.
+[00:52.820 --> 00:54.320]  They have a new site Meh
+[00:54.320 --> 00:56.360]  and you go there every day and they have a daily deal.
+[00:56.360 --> 00:59.100]  Something is on sale at an extraordinary discount
+[00:59.100 --> 01:02.280]  like a, gee, I wonder if they rip these off the back
+[01:02.280 --> 01:03.860]  of a truck sort of discount.
+[01:05.020 --> 01:07.600]  Gadgets oftentimes, toys, stuff like that.
+[01:07.600 --> 01:08.600]  But the main reason to go there,
+[01:08.600 --> 01:09.880]  it's not even to find the discount.
+[01:09.880 --> 01:10.920]  It's not a shopping site.
+[01:10.920 --> 01:13.840]  It's one thing a day that's available at a limited time.
+[01:13.840 --> 01:15.680]  The reason to go to Meh.com every day
+[01:15.680 --> 01:17.960]  are the videos that they make,
+[01:17.960 --> 01:20.620]  the descriptions that they write that are hilarious,
+[01:20.620 --> 01:23.240]  sometimes not even about the product at all.
+[01:23.240 --> 01:25.280]  It's really just a great site
+[01:25.280 --> 01:28.440]  to work into your daily routine of places to go
+[01:28.440 --> 01:31.200]  when you wanna be not bored or entertained
+[01:31.200 --> 01:32.400]  for a couple of minutes.
+[01:33.520 --> 01:35.360]  So go there, check them out at Meh.com.
+[01:35.360 --> 01:37.280]  Check out the videos, check out the site
+[01:37.280 --> 01:40.000]  and you can even keep your eye on the daily deals.
+[01:40.000 --> 01:42.240]  You might find something really, really worthwhile.
+[01:42.240 --> 01:43.400]  They're great and they're the ones
+[01:43.400 --> 01:46.540]  who are bringing you today's episode.
+[01:46.540 --> 01:48.880]  And without any further ado,
+[01:48.880 --> 01:51.180]  ladies and gentlemen, the talk show.
+[01:51.180 --> 01:52.120]  This is gonna be fun.
+[01:52.120 --> 01:56.280]  We've got Eddie Q, Senior Vice President,
+[01:56.280 --> 01:57.760]  Internet Software and Services.
+[01:57.760 --> 01:59.960]  Eddie, welcome to the talk show.
+[01:59.960 --> 02:01.200]  How you doing?
+[02:01.200 --> 02:02.660]  And returning to the talk show,
+[02:02.660 --> 02:06.200]  which must mean I didn't botch it up too badly,
+[02:06.200 --> 02:08.980]  Craig Federighi, Senior Vice President
+[02:08.980 --> 02:10.880]  of Software Engineering.
+[02:10.880 --> 02:13.240]  It's a rare honor to be here, John.
+[02:13.240 --> 02:14.080]  Here's my question.
+[02:14.080 --> 02:15.440]  This is a tough one.
+[02:15.440 --> 02:17.080]  I wanna know it now.
+[02:17.080 --> 02:18.680]  Eddie, you're a big sports fan.
+[02:18.680 --> 02:22.640]  Has Steve Dowling sent you to like photography school
+[02:22.640 --> 02:25.680]  for like taking pictures after sporting events now,
+[02:25.680 --> 02:27.160]  post-Super Bowl?
+[02:27.160 --> 02:28.360]  You know, I love that,
+[02:28.360 --> 02:29.660]  because you may know,
+[02:29.660 --> 02:31.660]  Tim and I went to the Super Bowl together
+[02:31.660 --> 02:34.680]  and he's a huge Broncos fan.
+[02:34.680 --> 02:36.280]  Huge, huge Broncos fan.
+[02:36.280 --> 02:38.040]  And so when they won the game,
+[02:38.040 --> 02:39.400]  we were all excited.
+[02:39.400 --> 02:40.720]  We got high-fiving each other.
+[02:40.720 --> 02:41.760]  We went onto the field.
+[02:41.760 --> 02:43.720]  He's taking the photos and he's so excited.
+[02:43.720 --> 02:46.080]  He wanted to congratulate him and sent the picture out.
+[02:46.080 --> 02:47.720]  And then the next morning I wake up
+[02:47.720 --> 02:50.920]  and I get to see all of those messages and tweets
+[02:50.920 --> 02:51.760]  and everything else.
+[02:51.760 --> 02:53.300]  And I thought it was great,
+[02:53.300 --> 02:55.560]  because it shows, you know,
+[02:55.560 --> 02:56.800]  Tim is just like you and me.
+[02:56.800 --> 02:58.660]  He's a huge sports fan and was loving it.
+[02:58.660 --> 03:01.860]  And he loved that his team actually won the Super Bowl.
+[03:01.860 --> 03:03.840]  I said this,
+[03:05.040 --> 03:06.280]  I just thought it was,
+[03:06.280 --> 03:07.320]  that's exactly what I thought.
+[03:07.320 --> 03:09.800]  I thought it was like Tim as a human being.
+[03:09.800 --> 03:12.240]  And it's a real sports fan's photo.
+[03:12.240 --> 03:13.160]  I thought it was goofy,
+[03:13.160 --> 03:16.000]  but I thought it was goofy the reaction that people had.
+[03:16.000 --> 03:17.640]  To me, it was just a happy moment.
+[03:17.640 --> 03:18.480]  All right.
+[03:18.480 --> 03:20.440]  I'm hoping to have a few more for you this year.
+[03:20.440 --> 03:22.560]  Maybe another repeat for the Warriors,
+[03:22.560 --> 03:24.840]  repeat Duke National Championship, you know.
+[03:24.840 --> 03:27.680]  Well, that's, I don't know about the Duke one.
+[03:27.680 --> 03:29.280]  I wasn't gonna mention Duke, Eddie.
+[03:29.280 --> 03:31.640]  No, no, I was, look, I've been,
+[03:31.640 --> 03:33.640]  we've been wanting to talk to you for like three weeks,
+[03:33.640 --> 03:35.820]  but I told Dowling there's no way
+[03:35.820 --> 03:37.080]  I'm gonna talk to John right now,
+[03:37.080 --> 03:38.600]  because we've been losing games straight.
+[03:38.600 --> 03:40.640]  So I waited till we won the last,
+[03:40.640 --> 03:42.600]  we've won the last like two games in a row.
+[03:42.600 --> 03:45.300]  We're hot and I'm like, let's get on the call now.
+[03:45.300 --> 03:48.280]  No, my last sports related suggestion to you
+[03:48.280 --> 03:50.720]  is just in case the Warriors keep it up
+[03:50.720 --> 03:52.120]  and just in case, you know,
+[03:52.120 --> 03:54.940]  maybe WWDC sticks to the typical schedule,
+[03:54.940 --> 03:56.380]  maybe you wanna rehearse more.
+[03:56.380 --> 03:59.640]  And if you have extra tickets for a Warriors finals game,
+[03:59.640 --> 04:01.240]  I know a guy, you know,
+[04:01.240 --> 04:02.680]  who maybe could take them off your hands.
+[04:02.680 --> 04:04.720]  Just saying, just saying.
+[04:04.720 --> 04:05.560]  You're on.
+[04:08.880 --> 04:10.900]  Let's get down to brass tacks here.
+[04:10.900 --> 04:12.280]  One of the things, one of the reasons
+[04:12.280 --> 04:16.660]  that this is even happening is that Apple
+[04:16.660 --> 04:21.500]  is talking about and telling its users
+[04:21.500 --> 04:25.840]  a lot more about what is coming down the pipeline
+[04:25.840 --> 04:27.400]  in software.
+[04:27.400 --> 04:29.260]  So for, I mean, and the best example of that
+[04:29.260 --> 04:30.560]  is that there's a big,
+[04:30.560 --> 04:32.120]  it's not even like a developer page.
+[04:32.120 --> 04:33.700]  It's a big product marketing page
+[04:33.700 --> 04:37.440]  on what's coming in iOS 9.3.
+[04:37.440 --> 04:42.440]  Yeah, yeah, we have a real feature release here
+[04:42.680 --> 04:46.960]  with 9.3 and so we certainly wanted to talk about it.
+[04:46.960 --> 04:49.520]  And we also wanted to get it out in public seeds.
+[04:49.520 --> 04:52.960]  So many of you are running it.
+[04:52.960 --> 04:55.400]  Certainly all of us here are.
+[04:55.400 --> 04:58.280]  And there's a lot of really cool stuff we were able to do.
+[04:58.280 --> 04:59.320]  And we didn't wanna wait all the way
+[04:59.320 --> 05:01.000]  till WWDC to get it out.
+[05:01.000 --> 05:06.000]  So I'm not imagining things that this is a,
+[05:07.960 --> 05:12.160]  at least a subtle change away from keeping features
+[05:12.160 --> 05:15.480]  as a sort of major, you know,
+[05:15.480 --> 05:18.000]  new features that you wanna promote in the OS
+[05:18.000 --> 05:21.920]  as a monolithic once a year at WWDC,
+[05:21.920 --> 05:23.200]  we'll announce them.
+[05:23.200 --> 05:26.600]  And once a year, a couple months later in the fall,
+[05:26.600 --> 05:29.260]  we'll release them sort of schedule.
+[05:29.260 --> 05:33.400]  Yeah, you know, a huge part of what we do with iOS
+[05:33.400 --> 05:36.760]  every year is we're really advancing a platform
+[05:36.760 --> 05:40.620]  for developers and you really can't sort of trickle out
+[05:40.620 --> 05:44.000]  a big change for developers at the platform level
+[05:44.000 --> 05:45.240]  continuously throughout the year.
+[05:45.240 --> 05:47.640]  So that's something where it makes a ton of sense
+[05:47.640 --> 05:51.840]  for us to advance it all at once, have a conference,
+[05:51.840 --> 05:55.400]  get everyone early access to the SDKs
+[05:55.400 --> 05:56.240]  that they're gonna use,
+[05:56.240 --> 05:58.320]  give them a chance to get their apps ready
+[05:58.320 --> 06:00.160]  and take advantage of all the new capabilities
+[06:00.160 --> 06:02.720]  and then get it out with a major OS.
+[06:02.720 --> 06:04.900]  But there are things that we can do
+[06:04.900 --> 06:06.200]  that don't have that characteristic.
+[06:06.200 --> 06:07.720]  You know, and if you look at the kind of features
+[06:07.720 --> 06:11.800]  coming in 9.3 with our support for education
+[06:11.800 --> 06:14.680]  and shared use iPads and the classroom app
+[06:14.680 --> 06:17.760]  or the night shift feature,
+[06:17.760 --> 06:21.440]  or, you know, some of the improvements we made to photos
+[06:21.440 --> 06:25.160]  or even the smart keyboard handling on the iPad Pro,
+[06:25.160 --> 06:28.680]  these are things that we wanted to get out right away
+[06:28.680 --> 06:30.340]  to everyone, because we think everyone can enjoy them
+[06:30.340 --> 06:31.180]  and they aren't the kind of things
+[06:31.180 --> 06:33.960]  that really impact moving the platform forward
+[06:33.960 --> 06:35.560]  for developers.
+[06:35.560 --> 06:37.440]  Right, it's not really developer changes,
+[06:37.440 --> 06:40.360]  but it is, they're definitely major features.
+[06:40.360 --> 06:42.740]  One of my favorites is for the smart keyboard
+[06:42.740 --> 06:44.760]  that when you'd go to Spotlight Search,
+[06:44.760 --> 06:49.340]  you can arrow key down to the search results.
+[06:49.340 --> 06:52.720]  Yeah, I know you did helpfully note for us
+[06:52.720 --> 06:54.620]  shortly after we shipped the iPad Pro
+[06:54.620 --> 06:56.540]  that we missed one there.
+[06:56.540 --> 07:00.000]  So it's been great to miss more than one, let me say.
+[07:00.000 --> 07:02.600]  And so we've been responding to all the kind
+[07:02.600 --> 07:04.440]  of great feedback we've gotten on the iPad Pro,
+[07:04.440 --> 07:06.600]  which we're all excited about the device
+[07:06.600 --> 07:09.760]  and so excited about how people have really embraced it.
+[07:09.760 --> 07:12.040]  But, you know, we all have our,
+[07:12.040 --> 07:13.560]  as we all use it more deeply,
+[07:13.560 --> 07:16.120]  we're all seeing things where we can improve
+[07:16.120 --> 07:17.680]  a bunch of things, including the keyboard support.
+[07:17.680 --> 07:20.080]  And so we've taken this opportunity in 9.3
+[07:20.080 --> 07:22.100]  to make some of those enhancements.
+[07:22.100 --> 07:26.440]  So that is an interesting thing.
+[07:26.440 --> 07:29.180]  So one of the things is you guys actually are all,
+[07:29.180 --> 07:31.740]  and I say, not just you like Craig and Eddie,
+[07:31.740 --> 07:35.340]  but everybody on the executive leadership team.
+[07:35.340 --> 07:37.040]  In addition to having, you know,
+[07:37.040 --> 07:38.640]  these jobs that are very specific
+[07:38.640 --> 07:39.540]  in terms of your responsibilities,
+[07:39.540 --> 07:44.540]  you're also users of the products that Apple makes.
+[07:45.360 --> 07:46.680]  Oh yeah, oh yeah.
+[07:46.680 --> 07:50.360]  No, I mean, well, that's why we're here for sure.
+[07:50.360 --> 07:52.800]  I mean, no one was more enthusiastic to get access
+[07:52.800 --> 07:57.800]  to the inside of Apple and software than myself and Eddie.
+[07:58.840 --> 08:03.120]  And certainly, you know, I am installing,
+[08:03.120 --> 08:05.880]  I think I probably install something like 500 versions.
+[08:05.880 --> 08:07.640]  I mean, literally it's 500 or 1,000 versions
+[08:07.640 --> 08:10.700]  of OS X and iOS myself every year.
+[08:10.700 --> 08:14.240]  I mean, I have, you know, four Macs and four iPads
+[08:14.240 --> 08:16.620]  and two phones, and I upgrade them all
+[08:16.620 --> 08:19.780]  to the newest build pretty much every day.
+[08:19.780 --> 08:21.520]  So I don't know, I think I did the math wrong.
+[08:21.520 --> 08:22.880]  I think it's like a hundred thousand versions
+[08:22.880 --> 08:26.300]  of OS X and iOS I install every year.
+[08:26.300 --> 08:30.400]  John, I've been doing this for more than 30 years.
+[08:30.400 --> 08:33.860]  You know, the way I started with this was bringing my Mac
+[08:33.860 --> 08:36.840]  into the office for my first job.
+[08:36.840 --> 08:40.720]  And so working on the Mac for me was like a dream come true.
+[08:40.720 --> 08:43.480]  So I live on our products every day.
+[08:43.480 --> 08:44.960]  I use all of our products every day.
+[08:44.960 --> 08:47.740]  They're part of my life, my kids, my family.
+[08:47.740 --> 08:50.560]  And so it's great, and we share that experience
+[08:50.560 --> 08:51.920]  and we give each other feedback.
+[08:51.920 --> 08:56.740]  And we, you know, we, it's what we do.
+[08:56.740 --> 08:59.920]  But so like you, like Eddie, like you,
+[08:59.920 --> 09:02.840]  when you get like a new MacBook Pro
+[09:02.840 --> 09:04.560]  or whatever you're going to use, you know,
+[09:04.560 --> 09:06.080]  but you set it up yourself?
+[09:06.080 --> 09:06.920]  Oh, absolutely.
+[09:06.920 --> 09:11.000]  My first of all, hopefully everyone can set it up themselves
+[09:11.000 --> 09:12.560]  because that's what we build it for.
+[09:12.560 --> 09:14.420]  And it's really easy.
+[09:14.420 --> 09:15.260]  I set it up.
+[09:15.260 --> 09:18.600]  I transfer my content from my old MacBook
+[09:18.600 --> 09:20.660]  or I just did a new iMac as a matter of fact.
+[09:20.660 --> 09:21.840]  I actually bought it myself.
+[09:21.840 --> 09:23.880]  I bought, I went on the online store.
+[09:23.880 --> 09:25.400]  I wanted to see what the experience was.
+[09:25.400 --> 09:27.420]  I ordered it, checked all the mail.
+[09:27.420 --> 09:28.260]  I wanted to see the mail,
+[09:28.260 --> 09:30.480]  the notifications that came to my phone
+[09:30.480 --> 09:32.360]  and then installed it all.
+[09:32.360 --> 09:34.200]  Yeah, I mean, no joke, Eddie, seriously,
+[09:34.200 --> 09:35.400]  most meetings I'm in with Eddie,
+[09:35.400 --> 09:36.360]  at some point in the meeting,
+[09:36.360 --> 09:37.840]  he breaks out one of his devices
+[09:37.840 --> 09:39.920]  and starts upgrading it mid-meeting.
+[09:39.920 --> 09:42.200]  And then we're able to get on the fly feedback
+[09:42.200 --> 09:43.920]  on the new software during the meeting.
+[09:43.920 --> 09:45.720]  So it's very helpful.
+[09:45.720 --> 09:48.080]  I know it sounds like a trivial question,
+[09:48.080 --> 09:50.920]  but it's something I've always wanted to ask people
+[09:50.920 --> 09:53.040]  like you, because I can see it both ways
+[09:53.040 --> 09:55.360]  where I know you guys are technically adept
+[09:55.360 --> 09:58.320]  and have the background to do it.
+[09:58.320 --> 10:00.960]  But on the other hand, as the senior vice presidents
+[10:00.960 --> 10:05.360]  of a semi-large corporation, you don't have to.
+[10:05.360 --> 10:07.720]  If you wanted to have somebody set up your stuff for you,
+[10:07.720 --> 10:08.540]  you could do it.
+[10:08.540 --> 10:09.960]  So it's always been curious to me
+[10:09.960 --> 10:11.600]  whether you guys go through it
+[10:11.600 --> 10:14.000]  because you want to get that like, what's it like
+[10:14.000 --> 10:16.000]  to be a real user experience?
+[10:16.000 --> 10:19.000]  Or do you take advantage of the fact
+[10:19.000 --> 10:20.620]  that you don't have to if you don't want to?
+[10:20.620 --> 10:22.020]  Oh yeah, and it's not just that.
+[10:22.020 --> 10:26.280]  I mean, we're both involved every day
+[10:26.280 --> 10:28.640]  in the development of the software
+[10:28.640 --> 10:30.600]  that's being put together.
+[10:30.600 --> 10:33.200]  And so we all wanna run the latest thing
+[10:33.200 --> 10:35.920]  that we were just in an HI review talking about.
+[10:35.920 --> 10:39.180]  We wanna get that feature that we talked about last week
+[10:39.180 --> 10:40.720]  and start living on it
+[10:40.720 --> 10:42.960]  so we can start giving the team feedback
+[10:42.960 --> 10:44.800]  on what we're seeing.
+[10:44.800 --> 10:48.160]  And so it's an integral part of how we develop here
+[10:48.160 --> 10:51.280]  is that we all live on the software.
+[10:51.280 --> 10:53.200]  And at the same time, I mean, probably like yourself
+[10:53.200 --> 10:56.840]  and we're all the tech support teams for our families
+[10:56.840 --> 10:59.180]  and our parents and our in-laws.
+[10:59.180 --> 11:03.960]  And so I have all my kids are running the betas all the time
+[11:03.960 --> 11:07.120]  so we get live feedback, helpful feedback
+[11:07.120 --> 11:08.880]  from the whole family nonstop.
+[11:08.880 --> 11:12.400]  We're immersed in the Apple universe of feedback.
+[11:12.400 --> 11:15.120]  John, let me give you an example of something
+[11:15.120 --> 11:16.840]  because this happens all the time for me.
+[11:16.840 --> 11:17.960]  I'm using our product.
+[11:17.960 --> 11:19.860]  So this weekend I was using Apple TV.
+[11:19.860 --> 11:20.840]  I've got the new Apple TV.
+[11:20.840 --> 11:22.840]  And by the way, which we should talk about,
+[11:22.840 --> 11:25.720]  there's a lot of great new features coming out with this.
+[11:25.720 --> 11:27.700]  This is a major release of Apple TV.
+[11:28.640 --> 11:31.080]  But I'm doing a purchase of a movie
+[11:31.080 --> 11:34.080]  and I've got a family plan, Apple Music,
+[11:34.080 --> 11:35.280]  the whole thing with everybody.
+[11:35.280 --> 11:37.900]  And the message that comes up on the screen says,
+[11:37.900 --> 11:41.460]  somebody from your family has already purchased this.
+[11:41.460 --> 11:43.020]  Would you like to buy it again?
+[11:45.640 --> 11:46.920]  Pretty dumb message.
+[11:46.920 --> 11:49.560]  And so it's an example of I got on there
+[11:49.560 --> 11:51.100]  and it's like, I'm talking to my team.
+[11:51.100 --> 11:52.420]  Why are we doing it this way?
+[11:52.420 --> 11:55.220]  And it's just a history thing of before there was family plan
+[11:55.220 --> 11:57.580]  it would ask you that question because it was a single user.
+[11:57.580 --> 12:00.100]  Once you have a family plan, it should just download.
+[12:00.100 --> 12:02.300]  It shouldn't even bother to ask you.
+[12:02.300 --> 12:05.120]  And so we live, both Craig and I,
+[12:05.120 --> 12:06.820]  and that's part of what we love doing.
+[12:06.820 --> 12:09.300]  And so it's great to be able to have an impact
+[12:09.300 --> 12:12.420]  and change these things because we're using them ourselves.
+[12:13.700 --> 12:15.460]  Yeah, that's a perfect example.
+[12:15.460 --> 12:16.740]  One of the questions I wanted to ask you is,
+[12:16.740 --> 12:19.180]  what was the last bug that you encountered yourself?
+[12:19.180 --> 12:20.000]  And that's a good one.
+[12:20.000 --> 12:22.180]  And it's an interesting explanation, right?
+[12:22.180 --> 12:24.420]  Just to clarify, what you're saying is,
+[12:24.420 --> 12:28.160]  it's saying that the person who's now in your family plan,
+[12:28.160 --> 12:30.100]  who'd made that purchase earlier,
+[12:30.100 --> 12:31.940]  made the purchase before there was a thing
+[12:31.940 --> 12:32.940]  called the family plan
+[12:32.940 --> 12:35.140]  and therefore it didn't automatically download.
+[12:35.140 --> 12:37.100]  No, it was just, it wasn't.
+[12:37.100 --> 12:38.340]  They did make the purchase
+[12:38.340 --> 12:39.780]  and they were part of the family plan.
+[12:39.780 --> 12:41.520]  Originally when we were doing this,
+[12:42.640 --> 12:44.260]  there wasn't a thing as family plan
+[12:44.260 --> 12:46.300]  and so it was designed just to ask you
+[12:46.300 --> 12:47.460]  if you wanted to purchase again.
+[12:47.460 --> 12:50.300]  When we did this software for family plan,
+[12:50.300 --> 12:51.500]  we didn't take into account that.
+[12:51.500 --> 12:53.860]  We just said, oh, somebody already purchased it.
+[12:53.860 --> 12:55.700]  And instead of just downloading it, we didn't do that.
+[12:55.700 --> 12:57.000]  But I wanna give you, since you said,
+[12:57.000 --> 12:58.160]  I wanna give you a little,
+[12:58.160 --> 13:00.900]  to tell you a little bit how crazy Craig and I are
+[13:00.900 --> 13:02.180]  about this stuff.
+[13:02.180 --> 13:03.260]  And you said, what's the latest?
+[13:03.260 --> 13:05.860]  Cause it just reminded me of this.
+[13:05.860 --> 13:08.900]  I was installing a new version of OS X on my iMac.
+[13:08.900 --> 13:12.500]  It's a non-release version a couple of days ago.
+[13:12.500 --> 13:15.820]  And I ran into a problem that I couldn't,
+[13:15.820 --> 13:17.900]  I knew would be very difficult to recreate.
+[13:17.900 --> 13:19.300]  And this was about 7.30 at night.
+[13:19.300 --> 13:21.940]  I had just gotten home doing the update.
+[13:21.940 --> 13:23.560]  And I called Craig up and I said,
+[13:23.560 --> 13:25.640]  here's the problem that I've got.
+[13:25.640 --> 13:28.320]  I was leaving the next day to Yuma, Arizona, by the way.
+[13:28.320 --> 13:30.800]  I wanna give a shout out to the kids and teachers
+[13:30.800 --> 13:31.960]  out in Yuma, Arizona.
+[13:31.960 --> 13:35.080]  That are using iPads.
+[13:35.080 --> 13:36.840]  But I called Craig up, told him about the problem.
+[13:36.840 --> 13:38.440]  I said, look, I'm leaving tomorrow.
+[13:38.440 --> 13:40.640]  I said, I want you guys to kind of look at this.
+[13:40.640 --> 13:42.240]  Cause I think this is, it's kind of weird.
+[13:42.240 --> 13:44.180]  I don't think it's gonna be easy to recreate.
+[13:44.180 --> 13:45.020]  He says, sure.
+[13:45.020 --> 13:47.680]  So I took the iMac, put in my car, drove to Craig's house,
+[13:47.680 --> 13:50.720]  gave him the iMac, came back home, went on my trip.
+[13:50.720 --> 13:53.480]  Craig and his engineering, the engineer was looking at it,
+[13:53.480 --> 13:54.320]  figured it out.
+[13:54.320 --> 13:55.940]  And the next day got the iMac back.
+[13:55.940 --> 14:00.940]  So it was sort of like preserving a crime scene, right?
+[14:02.500 --> 14:03.340]  That's right.
+[14:03.340 --> 14:05.180]  Except we found out at the end that no crime was committed
+[14:05.180 --> 14:06.660]  cause we fixed it.
+[14:06.660 --> 14:08.120]  Yeah.
+[14:08.120 --> 14:08.960]  Right.
+[14:08.960 --> 14:12.460]  But if you, you know, if you have a bug or just an edge case
+[14:12.460 --> 14:14.420]  that you're worried you can't reproduce,
+[14:14.420 --> 14:16.340]  it's like you really do just want to like freeze the
+[14:16.340 --> 14:19.820]  computer right where it is and let the engineers,
+[14:19.820 --> 14:22.860]  you know, start debugging.
+[14:22.860 --> 14:23.700]  Yeah, absolutely.
+[14:23.700 --> 14:26.020]  And it was, it was helpful that Eddie was,
+[14:26.020 --> 14:27.420]  was on the case on that one.
+[14:29.020 --> 14:30.620]  That's a really great story though.
+[14:30.620 --> 14:32.660]  I love that he just drops it off.
+[14:34.780 --> 14:36.620]  It's good to know people.
+[14:36.620 --> 14:38.740]  But that's, it is, it's interesting,
+[14:38.740 --> 14:41.460]  but it's, that's exactly the sort of question I had is how,
+[14:41.460 --> 14:45.060]  how involved do you guys get when you run into one of these
+[14:45.060 --> 14:47.320]  little, you know, it's inevitable.
+[14:47.320 --> 14:49.380]  I mean, there's, nobody has ever written bug-free software.
+[14:49.380 --> 14:51.180]  It's the nature of software,
+[14:51.180 --> 14:53.620]  but what do you guys do when you guys encounter it?
+[14:53.620 --> 14:56.740]  And that's drive over to Craig's house is the answer.
+[14:59.020 --> 15:00.340]  So before we forget, let's,
+[15:00.340 --> 15:03.820]  let's go back and talk about what's coming up in Apple TV.
+[15:03.820 --> 15:08.820]  So the, right now it's a, it's a beta, it's tvOS 9.2.
+[15:09.160 --> 15:12.580]  And there is a lot of, it really is a major feature.
+[15:12.580 --> 15:16.560]  Just off the top of my head, Siri dictation for text entry
+[15:16.560 --> 15:18.260]  and searching for apps.
+[15:18.260 --> 15:21.420]  That's something people started complaining about as soon as
+[15:21.420 --> 15:23.760]  the new Apple TV shipped.
+[15:23.760 --> 15:25.100]  That's a big one.
+[15:25.100 --> 15:25.940]  Yeah, it's huge.
+[15:25.940 --> 15:29.080]  Look, when you, when you get your Apple TV the first time,
+[15:29.080 --> 15:31.260]  the first thing you've got to do is enter your,
+[15:31.260 --> 15:33.340]  your Apple ID and your password.
+[15:33.340 --> 15:37.580]  And being able to, you've got Siri built into this remote.
+[15:37.580 --> 15:41.120]  Why not just tell it and spell it out instead of having to,
+[15:41.120 --> 15:43.380]  you know, go through the typing mechanism of doing it.
+[15:43.380 --> 15:45.420]  And so we wanted to do that right from the beginning and
+[15:45.420 --> 15:47.140]  then searching on the app store,
+[15:47.140 --> 15:48.860]  we added searching across movies,
+[15:48.860 --> 15:50.740]  TV shows and Netflix and Hulu.
+[15:50.740 --> 15:54.140]  We've added a bunch of new content providers like FX.
+[15:54.140 --> 15:56.180]  You can search Disney channel.
+[15:56.180 --> 15:57.900]  We're adding, we continue to add more, but
+[15:57.900 --> 15:59.940]  obviously the app store is a huge one.
+[15:59.940 --> 16:01.540]  And and so we've done that.
+[16:01.540 --> 16:06.540]  We've added some languages, Spanish, French to that.
+[16:06.540 --> 16:09.580]  And we've added iCloud photo library full support so
+[16:09.580 --> 16:11.460]  you can see all of your photos.
+[16:11.460 --> 16:13.460]  And also as you, one of the things that you've noticed if
+[16:13.460 --> 16:15.540]  you've downloaded a lot of apps on the app store,
+[16:15.540 --> 16:18.660]  from the app store having folders now.
+[16:18.660 --> 16:22.260]  So just like you have on iOS, you can add folders.
+[16:22.260 --> 16:24.860]  Right. So, you know, you could just group together all your
+[16:24.860 --> 16:27.480]  little arcade games, put them in an arcade folder.
+[16:27.480 --> 16:28.740]  That's right.
+[16:28.740 --> 16:29.580]  Right.
+[16:31.240 --> 16:32.460]  What can you tell me?
+[16:32.460 --> 16:33.740]  I know this is from the list.
+[16:33.740 --> 16:36.860]  And this is how lazy I am at preparing for a very important
+[16:36.860 --> 16:37.700]  talk show.
+[16:37.700 --> 16:40.240]  One of the features is conference room display mode.
+[16:40.240 --> 16:42.100]  What, what is that?
+[16:42.100 --> 16:44.100]  We had this in the original Apple TV.
+[16:44.100 --> 16:45.980]  And part of this is if you know,
+[16:45.980 --> 16:49.860]  most conference rooms from Wi-Fi connectivities into the
+[16:49.860 --> 16:51.320]  networks, you have people,
+[16:51.320 --> 16:54.140]  you have private networks that are set up for the
+[16:54.140 --> 16:55.460]  corporation, but then, you know,
+[16:55.460 --> 16:58.660]  somebody comes in to present and you don't really want to let
+[16:58.660 --> 17:01.420]  them into your private network from the company.
+[17:01.420 --> 17:04.980]  And so we had this capability and we wanted to add that to
+[17:04.980 --> 17:08.180]  the Apple TV so that it would be easy for people to come in
+[17:08.180 --> 17:09.300]  and present.
+[17:09.300 --> 17:11.320]  Well, we can, we can also lock the,
+[17:11.320 --> 17:13.860]  the display so that instead of showing you the latest top
+[17:13.860 --> 17:16.500]  movies at the beginning of every meeting,
+[17:16.500 --> 17:18.180]  it can just tell you that you can airplay to it.
+[17:18.180 --> 17:21.340]  So we all stay on top of all the top films here at Apple
+[17:21.340 --> 17:23.620]  when we start every meeting, but now we have,
+[17:23.620 --> 17:24.820]  now we have an alternative.
+[17:24.820 --> 17:25.660]  That's true.
+[17:26.500 --> 17:30.020]  So it's not, it's really Siri wide.
+[17:30.020 --> 17:31.720]  I mean, and this affects every platform,
+[17:31.720 --> 17:35.020]  but the expansion to include new languages,
+[17:35.020 --> 17:38.020]  obviously that is really super important to,
+[17:38.020 --> 17:40.220]  let's just say people who speak Spanish.
+[17:40.220 --> 17:43.480]  It's really like a make or break feature.
+[17:43.480 --> 17:48.480]  How, how difficult is that to do each language going,
+[17:49.980 --> 17:52.980]  you know, to keep adding languages to Siri and to keep the,
+[17:52.980 --> 17:57.160]  the level of quality of, of series recognition.
+[17:58.060 --> 18:00.980]  Yeah, we have over 35 languages in Siri.
+[18:00.980 --> 18:04.700]  Apple TV presents an actually an interesting problem
+[18:04.700 --> 18:07.640]  compared to just Siri itself in that a lot of the things
+[18:07.640 --> 18:09.900]  that you search for are not in the native language
+[18:09.900 --> 18:11.100]  you're speaking.
+[18:11.100 --> 18:13.360]  So you're actually, let's say speaking in Spanish,
+[18:13.360 --> 18:17.060]  but you're searching for an English title.
+[18:17.060 --> 18:20.780]  And so Siri has to be aware that it's actually able to,
+[18:20.780 --> 18:23.820]  to speak multiple languages because you wouldn't
+[18:23.820 --> 18:27.040]  and understand when it is that it's asking for a title
+[18:27.040 --> 18:30.460]  versus when it is that you're actually giving a verb
+[18:30.460 --> 18:31.780]  or a noun to it from that.
+[18:31.780 --> 18:34.220]  And so it's an interesting, challenging problem,
+[18:34.220 --> 18:36.060]  which is why we've been adding languages to Siri.
+[18:36.060 --> 18:37.580]  We're not quite to Apple TV.
+[18:37.580 --> 18:39.360]  We're not quite up to the 35 that Siri has,
+[18:39.360 --> 18:41.380]  but we'll keep adding on.
+[18:41.380 --> 18:44.140]  And it's supporting that multi-language aspect of Siri
+[18:44.140 --> 18:48.460]  that makes it even more fun for us to try to resolve.
+[18:48.460 --> 18:52.740]  Yeah, our machine learning teams at Apple
+[18:52.740 --> 18:55.740]  and within the Siri team have done some remarkable work.
+[18:55.740 --> 18:57.720]  And I know you've noticed some of the improvements
+[18:57.720 --> 19:00.980]  to Siri's both performance and its ability to recognize,
+[19:00.980 --> 19:03.940]  but the core technology has improved so much
+[19:03.940 --> 19:07.180]  that it's really helped us get high accuracy
+[19:07.180 --> 19:10.460]  when we take on all of these new languages.
+[19:10.460 --> 19:13.380]  And some of these challenges like now we have to know
+[19:13.380 --> 19:14.760]  not just that you're speaking Spanish,
+[19:14.760 --> 19:16.000]  but while you're speaking Spanish,
+[19:16.000 --> 19:17.680]  you're talking about, they might be giants,
+[19:17.680 --> 19:20.060]  but you're pronouncing those words with a Spanish accent
+[19:20.060 --> 19:21.980]  and Siri needs to recognize that.
+[19:21.980 --> 19:24.300]  These are the kinds of things that, you know,
+[19:24.300 --> 19:26.040]  a few years ago were just out of reach.
+[19:26.040 --> 19:28.740]  And now we have the core technology to do it.
+[19:28.740 --> 19:30.500]  And I think the experience with Siri
+[19:30.500 --> 19:33.300]  has just taken some giant leaps forward.
+[19:33.300 --> 19:36.820]  By the way, at a huge scale,
+[19:36.820 --> 19:40.480]  these are billions of requests that come in every week
+[19:40.480 --> 19:41.540]  to Siri.
+[19:41.540 --> 19:42.720]  Across all the platforms.
+[19:42.720 --> 19:43.560]  That's right.
+[19:45.380 --> 19:47.780]  So in addition to that, here's another one
+[19:47.780 --> 19:51.140]  that's added to tvOS 9.2
+[19:51.140 --> 19:54.260]  is sort of the old school way of text entry,
+[19:54.260 --> 19:56.460]  Bluetooth keyboard support.
+[19:56.460 --> 19:58.180]  And it's a little thing,
+[19:58.180 --> 20:01.300]  but it's one of those things
+[20:01.300 --> 20:05.140]  where the old Apple TV supported it, including at setup,
+[20:05.140 --> 20:06.940]  so that you could set up like if you had
+[20:06.940 --> 20:11.260]  the Apple magic keyboard, you could connect to it.
+[20:11.260 --> 20:14.060]  And then the new Apple TV came out and it didn't have it.
+[20:14.060 --> 20:16.380]  And everybody was, some people maybe,
+[20:16.380 --> 20:18.380]  were a little annoyed that everything they had to do
+[20:18.380 --> 20:20.100]  with the new Apple TV in November
+[20:20.100 --> 20:23.340]  was up, down, left, right to, you know, enter everything.
+[20:25.420 --> 20:27.600]  Is this just an issue of,
+[20:28.560 --> 20:31.240]  hey, it was a new version of tvOS, all new.
+[20:31.240 --> 20:32.940]  It's, you know, integrating it with iOS.
+[20:32.940 --> 20:34.560]  We just didn't get to it by November.
+[20:34.560 --> 20:36.540]  Or was this like a rethink?
+[20:36.540 --> 20:38.380]  Like, hey, a lot of people are asking us
+[20:38.380 --> 20:40.180]  for Bluetooth keyboard support.
+[20:40.180 --> 20:41.640]  Let's go back and put it back in.
+[20:41.640 --> 20:42.480]  That's a great question.
+[20:42.480 --> 20:43.800]  In that case, it was really simple.
+[20:43.800 --> 20:44.940]  We were doing the new OS
+[20:44.940 --> 20:47.260]  and it's something we wanted to get to.
+[20:47.260 --> 20:49.140]  We knew it wasn't the majority of customers.
+[20:49.140 --> 20:51.700]  And so we felt like we could add it later
+[20:51.700 --> 20:52.600]  and we always planned it.
+[20:52.600 --> 20:55.960]  And yes, I did get a few emails and a few tweets about it.
+[20:57.140 --> 20:59.300]  You know, what's just hilarious about this though,
+[20:59.300 --> 21:03.760]  is we have a very vocal community, as you know,
+[21:03.760 --> 21:07.580]  and when we were getting this feedback,
+[21:07.580 --> 21:09.500]  even actually before making the decision
+[21:09.500 --> 21:10.580]  not to include it in the first release,
+[21:10.580 --> 21:12.140]  that the team had done the analysis
+[21:12.140 --> 21:14.860]  based on our diagnostics and usage data of, you know,
+[21:14.860 --> 21:17.540]  about how many customers use a Bluetooth keyboard
+[21:17.540 --> 21:19.580]  with their Apple TV every week.
+[21:19.580 --> 21:21.540]  And they charted it out over time.
+[21:21.540 --> 21:25.260]  And it's a small rate relative to the, you know,
+[21:25.260 --> 21:27.940]  how people are using the built-in remote and so forth.
+[21:27.940 --> 21:29.860]  But we noticed that that rate of use
+[21:29.860 --> 21:32.380]  of the Bluetooth keyboard dropped to almost nothing
+[21:32.380 --> 21:34.720]  during WWDC.
+[21:34.720 --> 21:37.260]  And what this told us was pretty much everyone
+[21:37.260 --> 21:40.200]  is using it as a developer who's going to WWDC
+[21:40.200 --> 21:41.900]  or an Apple employee.
+[21:41.900 --> 21:44.140]  Now that didn't stop all of them from writing Eddie
+[21:44.140 --> 21:45.140]  when it was missing.
+[21:45.140 --> 21:46.180]  But just to give you a sense
+[21:46.180 --> 21:48.540]  of kind of what's going on underneath all that.
+[21:50.940 --> 21:52.260]  That is hilarious.
+[21:52.260 --> 21:55.940]  Because I was going to say that I think
+[21:55.940 --> 21:59.100]  it's a hard sell across your family.
+[21:59.100 --> 22:01.020]  Like whether there's one person in the family
+[22:01.020 --> 22:03.220]  who's, you know, technically adept
+[22:03.220 --> 22:05.220]  and wants to put a Bluetooth keyboard in the living room.
+[22:05.220 --> 22:07.300]  I think it's a hard sell family-wide
+[22:07.300 --> 22:09.900]  to keep a keyboard in the living room.
+[22:09.900 --> 22:10.880]  And we do have a little bit,
+[22:10.880 --> 22:12.580]  something even a little bit better coming out
+[22:12.580 --> 22:15.320]  in a few months, which is we have a new remote app
+[22:15.320 --> 22:17.220]  so that if you have your iPhone,
+[22:17.220 --> 22:19.580]  you can use the keyboard on the iPhone to do that.
+[22:19.580 --> 22:22.460]  And I think that certainly will get a lot more use.
+[22:22.460 --> 22:24.600]  And more than that, I mean, really the full, you know,
+[22:24.600 --> 22:27.340]  Siri to your phone, communicating with your TV.
+[22:27.340 --> 22:30.980]  And it's a great upgrade to that app.
+[22:30.980 --> 22:33.140]  Well, there's a remote app for the iPhone now
+[22:33.140 --> 22:35.160]  that you can connect to Apple TV.
+[22:35.160 --> 22:38.300]  There is, as Craig said, it only does the keyboard.
+[22:38.300 --> 22:40.580]  The new remote app will do all of the capabilities
+[22:40.580 --> 22:44.900]  that the existing new Apple TV remote does like Siri.
+[22:44.900 --> 22:46.580]  And like gestures, for instance,
+[22:46.580 --> 22:47.820]  because you have obviously, you know,
+[22:47.820 --> 22:49.700]  the trackpad function of the remote
+[22:49.700 --> 22:51.760]  can be done with your phone now too, with that remote.
+[22:51.760 --> 22:54.540]  So it's a really full replacement.
+[22:54.540 --> 22:55.980]  Oh, so I have a scoop here.
+[22:55.980 --> 22:57.340]  Yeah, there you go.
+[22:57.340 --> 22:59.240]  That's actually- You heard it here first.
+[22:59.240 --> 23:01.900]  Well, you can't broadcast this for three months.
+[23:04.900 --> 23:06.720]  I think that's gonna actually make a lot of people
+[23:06.720 --> 23:07.560]  very happy though.
+[23:07.560 --> 23:11.980]  And it might, would that work with some of the games too,
+[23:11.980 --> 23:13.580]  so that if there's a two player game,
+[23:13.580 --> 23:15.180]  that somebody could use their phone
+[23:15.180 --> 23:16.500]  and have it be the slider
+[23:16.500 --> 23:18.300]  and somebody else can use the remote?
+[23:18.300 --> 23:21.820]  Yes, that's exactly, you can use the Apple TV remote
+[23:21.820 --> 23:25.220]  for one person and their phone for the second person.
+[23:25.220 --> 23:26.320]  Oh, that sounds great.
+[23:26.320 --> 23:31.080]  So let's move on and sort of talk about something
+[23:31.080 --> 23:34.440]  that it almost feels like a Groundhog Day.
+[23:34.440 --> 23:36.160]  And it's almost, you know, since it's February,
+[23:36.160 --> 23:37.560]  it actually is close to Groundhog Day,
+[23:37.560 --> 23:39.800]  is that last year, there were a couple of posts
+[23:39.800 --> 23:42.200]  that came up early in the year about Apple having
+[23:44.320 --> 23:46.400]  little tiny sort of death by a thousand
+[23:46.400 --> 23:48.300]  paper cut software problems across the board.
+[23:48.300 --> 23:50.000]  And there was a lot of discussion about it
+[23:50.000 --> 23:53.680]  and sort of culminated, at least for me,
+[23:53.680 --> 23:56.680]  when Phil Schiller was on the show at the live show
+[23:56.680 --> 23:59.040]  at WWDC, and we talked about it,
+[23:59.040 --> 24:02.120]  and I thought Phil talked about it really openly.
+[24:02.120 --> 24:03.920]  And then it seemed to fade away
+[24:03.920 --> 24:05.760]  from the punditry discussion.
+[24:05.760 --> 24:10.760]  And then last week, Walt Mossberg had a column,
+[24:11.040 --> 24:13.240]  I think the headline was Apple's App Problem.
+[24:15.080 --> 24:16.760]  What do you guys say to this?
+[24:16.760 --> 24:18.320]  Just the general, nothing specific,
+[24:18.320 --> 24:19.600]  let's not get into any specific app,
+[24:19.600 --> 24:22.420]  but the general idea that Apple's software
+[24:22.420 --> 24:25.060]  is, has declined in quality,
+[24:25.060 --> 24:27.600]  let's say over the last five years?
+[24:27.600 --> 24:32.560]  I would say first that there's nothing we care about more.
+[24:32.560 --> 24:36.400]  So, you know, it's not just me and Eddie
+[24:36.400 --> 24:39.800]  filing lots of radars and, you know, using our devices,
+[24:39.800 --> 24:41.720]  but everyone who works here at Apple,
+[24:41.720 --> 24:44.040]  we recognize this is the single most important thing
+[24:44.040 --> 24:47.720]  about what we do and what we come to work to do every day.
+[24:47.720 --> 24:51.880]  So I take extremely seriously any time
+[24:51.880 --> 24:54.760]  any of our customers says that they aren't having
+[24:54.760 --> 24:57.080]  the experience that they expected from us.
+[24:57.080 --> 24:59.840]  And clearly Walt's article indicates
+[24:59.840 --> 25:02.600]  that he is at the moment in that camp.
+[25:03.520 --> 25:08.520]  I look at it and say, I know our core software quality
+[25:09.880 --> 25:12.520]  has improved over the last five years,
+[25:12.520 --> 25:14.700]  improved significantly,
+[25:15.640 --> 25:19.280]  but the bar just keeps going up.
+[25:19.280 --> 25:21.620]  And that's a bar that we embrace.
+[25:21.620 --> 25:24.040]  That is a challenge that, you know,
+[25:24.040 --> 25:26.000]  every year we realize we,
+[25:26.000 --> 25:27.800]  the things we were good at last year
+[25:27.800 --> 25:29.840]  and the techniques we were using
+[25:29.840 --> 25:32.520]  to build the best software we can
+[25:32.520 --> 25:34.060]  are not adequate for the next year
+[25:34.060 --> 25:35.420]  because the bar keeps going up.
+[25:35.420 --> 25:38.540]  We have a billion active devices now.
+[25:38.540 --> 25:42.480]  And, you know, if you think back to just nine years ago now
+[25:42.480 --> 25:47.480]  with the iPhone, it, how much think back then
+[25:47.620 --> 25:49.760]  of kind of how you interface with technology
+[25:49.760 --> 25:51.800]  and comparatively how narrowly each of us
+[25:51.800 --> 25:52.800]  interface with technology.
+[25:52.800 --> 25:56.840]  And now think about how integral your iPhone,
+[25:56.840 --> 26:01.000]  your iPad, and still your Mac are to your life.
+[26:01.000 --> 26:02.060]  How many hours a day?
+[26:02.060 --> 26:04.520]  I mean, we see the usage metrics and year after year
+[26:04.520 --> 26:07.200]  as our team builds a new phone and thinks,
+[26:07.200 --> 26:08.740]  how big a battery should we put in this phone?
+[26:08.740 --> 26:09.840]  We have to go back to them and say,
+[26:09.840 --> 26:11.760]  guys, actually you're gonna have to up that a good bit
+[26:11.760 --> 26:12.840]  because people are using their phones
+[26:12.840 --> 26:13.880]  more than ever this year.
+[26:13.880 --> 26:15.900]  And we see that trend go up and up and up
+[26:15.900 --> 26:17.720]  and people are doing more and more.
+[26:17.720 --> 26:20.600]  And what this means is when you have a billion people
+[26:20.600 --> 26:22.880]  running phones in every corner of their lives
+[26:22.880 --> 26:25.120]  with all of these third-party apps in all these countries
+[26:25.120 --> 26:30.000]  and all these languages that there are going to be issues.
+[26:30.000 --> 26:32.980]  There were always issues, but now these issues are, you know,
+[26:32.980 --> 26:35.600]  you have plenty of people that can encounter
+[26:35.600 --> 26:38.840]  one here and there and it gets amplified.
+[26:38.840 --> 26:41.600]  And maybe I could ask you, I mean, I feel like something
+[26:41.600 --> 26:43.940]  if you go back five years or 10 years
+[26:43.940 --> 26:47.400]  in just the nature of internet journalism and the press
+[26:47.400 --> 26:51.120]  and how stories like this get communicated and amplified
+[26:51.120 --> 26:53.820]  is change things a little bit as well.
+[26:53.820 --> 26:57.580]  And so I think that plays into the element
+[26:57.580 --> 26:59.260]  of why are we hearing about this again?
+[26:59.260 --> 27:02.220]  Or why do we hear about it in the way we do?
+[27:03.120 --> 27:05.760]  But I know we put just tremendous focus
+[27:05.760 --> 27:08.940]  on improving our game every year.
+[27:10.940 --> 27:15.940]  Yeah, there's a certain aspect to the basic idea
+[27:15.940 --> 27:20.120]  that to me is a little bit more of a, not just me,
+[27:20.120 --> 27:22.840]  I'm saying what I detect when I see people nodding
+[27:22.840 --> 27:26.520]  their heads in agreement on Twitter and follow up posts
+[27:26.520 --> 27:30.380]  to say the, like Mossberg's column last week,
+[27:30.380 --> 27:33.800]  that it's more of a gut feeling than anything
+[27:33.800 --> 27:36.040]  that anybody can put their finger on and say,
+[27:36.040 --> 27:41.040]  here's this one thing that's, you know, absolutely terrible.
+[27:41.040 --> 27:45.160]  And I know just from, you know, talking with Phil last year
+[27:45.160 --> 27:48.480]  and like what you're saying now that you guys have a lot
+[27:48.480 --> 27:53.480]  of ways that you measure this stuff with real analytics
+[27:53.600 --> 27:57.520]  from the diagnostics that people explicitly opt in
+[27:57.520 --> 27:59.840]  to provide to you when they're setting up devices.
+[27:59.840 --> 28:00.960]  That's right.
+[28:00.960 --> 28:04.560]  And that it, I sense it, you guys, I mean, you two are both,
+[28:04.560 --> 28:08.080]  you know, optimistic, cheerful people, but I can't help
+[28:08.080 --> 28:13.040]  but I suspect, and it's not coming from your voices here
+[28:13.040 --> 28:14.920]  on this show, but I just suspect in general
+[28:14.920 --> 28:18.680]  that there's a sort of frustration within the walls at Apple
+[28:18.680 --> 28:22.080]  that you guys have these numbers that say software quality
+[28:22.080 --> 28:24.960]  is going up and then on the outside, everybody is saying,
+[28:24.960 --> 28:27.840]  wow, so Apple software, their eye is off the ball.
+[28:27.840 --> 28:29.880]  Is that, is it frustrating?
+[28:29.880 --> 28:32.320]  No, look, I think you said a few words
+[28:32.320 --> 28:33.480]  that I would disagree with.
+[28:33.480 --> 28:34.960]  You said everybody.
+[28:34.960 --> 28:37.440]  I think the vast majority of our customers
+[28:37.440 --> 28:39.920]  are quite happy with our products and the feedback
+[28:39.920 --> 28:42.640]  that they get and they ask for help.
+[28:42.640 --> 28:44.480]  And that's why we built things like Genius Bars,
+[28:44.480 --> 28:46.760]  which have been very popular.
+[28:46.760 --> 28:49.920]  Why we, you know, we spend a great deal of money and effort
+[28:49.920 --> 28:52.120]  on our Apple care and support lines
+[28:52.120 --> 28:54.640]  so that when people need help, you know,
+[28:54.640 --> 28:55.960]  training all of those things.
+[28:55.960 --> 29:00.400]  So I think it's not to say that we don't have any bugs
+[29:00.400 --> 29:01.920]  or that we don't have any issues.
+[29:01.920 --> 29:04.240]  Every piece of software does.
+[29:04.240 --> 29:07.080]  We care deeply about it, which is why we all, you know,
+[29:07.080 --> 29:09.920]  do all of these different touch points, monitor them,
+[29:09.920 --> 29:12.240]  look at them, make sure we're addressing them.
+[29:12.240 --> 29:14.640]  And at the same time as doing that,
+[29:14.640 --> 29:16.360]  upping the game even more,
+[29:16.360 --> 29:19.240]  because part of upping the game is not just standing still
+[29:19.240 --> 29:20.560]  and making the things that you have work,
+[29:20.560 --> 29:24.160]  but making them even better, making them easier to use.
+[29:24.160 --> 29:26.880]  Those are all the things we have to do at the same time.
+[29:26.880 --> 29:30.760]  And Apple customers deserve the best.
+[29:30.760 --> 29:34.320]  And that's absolutely what we're signed up for.
+[29:34.320 --> 29:39.320]  So if and when we hear people are having challenges,
+[29:40.240 --> 29:43.720]  while on the one hand, we're frustrated, of course,
+[29:43.720 --> 29:47.640]  to hear it overall characterized as this,
+[29:48.760 --> 29:50.120]  quality is dropping overall,
+[29:50.120 --> 29:51.760]  because we know that's not true,
+[29:51.760 --> 29:54.120]  but at the same time, there's certainly reality
+[29:54.120 --> 29:57.920]  to if people are having these experiences,
+[29:57.920 --> 29:59.480]  then there's something we can improve.
+[29:59.480 --> 30:03.520]  And I can tell you the number of meetings we have
+[30:03.520 --> 30:05.720]  and have had even over the last few weeks
+[30:05.720 --> 30:09.320]  where we're constantly talking about how do we up the game?
+[30:09.320 --> 30:12.880]  Because when you talk about a billion customers
+[30:12.880 --> 30:15.080]  and you talk about the kind of upgrade rates we have,
+[30:15.080 --> 30:18.880]  I mean, I think back to when we shipped Snow Leopard
+[30:18.880 --> 30:22.200]  and how many people installed 10.6.0?
+[30:23.760 --> 30:25.200]  Effectively, no one.
+[30:25.200 --> 30:27.520]  I mean, approximately no one.
+[30:27.520 --> 30:28.920]  In fact, we used to talk about,
+[30:28.920 --> 30:30.760]  well, the upgrade rate to this OS
+[30:30.760 --> 30:34.480]  will about match the sales of new Macs that have it installed.
+[30:34.480 --> 30:36.160]  I mean, people just didn't upgrade.
+[30:36.160 --> 30:37.000]  And if they did upgrade,
+[30:37.000 --> 30:40.600]  it's like, why don't we wait for 10.6.5 or something?
+[30:40.600 --> 30:43.240]  Now we release a piece of software
+[30:43.240 --> 30:46.240]  and in a matter of a couple of weeks,
+[30:46.240 --> 30:48.680]  we have coming up on 50% of our base
+[30:48.680 --> 30:50.040]  running that piece of software.
+[30:50.040 --> 30:52.080]  I mean, hundreds of millions of people
+[30:52.080 --> 30:53.120]  suddenly pounding on it,
+[30:53.120 --> 30:57.960]  running a diversity of apps that just is unprecedented
+[30:57.960 --> 31:00.880]  and using it in these incredibly connected ways.
+[31:00.880 --> 31:04.120]  And so, yeah, the bar is higher
+[31:04.120 --> 31:09.120]  and we will continue to adapt every year
+[31:09.280 --> 31:10.440]  to meet that challenge.
+[31:10.440 --> 31:14.360]  And the scale, John, for this is truly amazing
+[31:14.360 --> 31:16.800]  because of the usage that people,
+[31:16.800 --> 31:18.980]  I mean, they rely on these for their lives.
+[31:18.980 --> 31:20.200]  I'll give you a couple of points
+[31:20.200 --> 31:25.200]  that we peak out at 200,000 messages a second
+[31:25.200 --> 31:27.620]  that are sent on messages, for example.
+[31:27.620 --> 31:32.280]  We do 750 million transactions every week
+[31:32.280 --> 31:34.700]  in our app store, iTunes store.
+[31:35.600 --> 31:37.100]  We've done billions of dollars.
+[31:37.100 --> 31:40.240]  Now you're talking about dollars for payments in Apple Pay.
+[31:40.240 --> 31:44.800]  So, this is like, it's a part of everyone's lives
+[31:44.800 --> 31:46.000]  and it's great, we love this.
+[31:46.000 --> 31:49.840]  This is the reason why we do what we do
+[31:49.840 --> 31:51.000]  and we get up in the morning
+[31:51.000 --> 31:52.200]  and we're excited about coming in
+[31:52.200 --> 31:54.720]  is because we can do more.
+[31:54.720 --> 31:58.760]  And so, the scale of this is huge, huge.
+[31:59.920 --> 32:02.720]  So, what was the number for messages?
+[32:02.720 --> 32:04.480]  200K per second at the peak?
+[32:04.480 --> 32:05.320]  That's right.
+[32:06.960 --> 32:08.960]  People got a lot to say, apparently.
+[32:08.960 --> 32:12.500]  Yeah, that was probably right at the moment
+[32:12.500 --> 32:13.920]  in the first quarter of the Super Bowl
+[32:13.920 --> 32:17.280]  where they didn't overturn that catch, right?
+[32:18.200 --> 32:20.640]  Yeah, for some reason it was really high
+[32:20.640 --> 32:25.080]  from North Carolina, I don't know what was.
+[32:25.080 --> 32:26.000]  But that is extraordinary.
+[32:26.000 --> 32:29.520]  So, Eddie, that gets to a specific point
+[32:29.520 --> 32:33.280]  and this is clearly a ball that's in your court
+[32:33.280 --> 32:36.960]  is the general meme that Apple
+[32:36.960 --> 32:39.200]  doesn't do online service as well.
+[32:39.200 --> 32:41.480]  And that's your responsibility.
+[32:43.200 --> 32:44.600]  What do you say to that?
+[32:45.720 --> 32:47.880]  Well, I think you go back to the things
+[32:47.880 --> 32:49.320]  that we do really well.
+[32:49.320 --> 32:52.160]  Some of that we earned, to be clear,
+[32:52.160 --> 32:54.920]  part of the reason we did that many years ago
+[32:54.920 --> 32:57.440]  with MobileMeer Maps, but we've corrected those.
+[32:57.440 --> 33:02.440]  And you look at iCloud, we have 782 million iCloud users.
+[33:04.160 --> 33:05.400]  Some have multiple devices,
+[33:05.400 --> 33:07.840]  which is why we have a billion devices.
+[33:07.840 --> 33:10.760]  They upload billions of photos every single week,
+[33:10.760 --> 33:11.920]  every single day.
+[33:13.360 --> 33:16.460]  And you look at the scale of messages,
+[33:16.460 --> 33:19.860]  you look at Apple Pay, you look at our stores,
+[33:19.860 --> 33:23.440]  we run some of the largest services in the world,
+[33:23.440 --> 33:25.600]  very successfully.
+[33:25.600 --> 33:29.440]  You take a look at Maps, we've corrected
+[33:29.440 --> 33:33.720]  more than two and a half million customer feedback
+[33:33.720 --> 33:35.800]  that we've gotten from customers directly to Maps
+[33:35.800 --> 33:37.520]  that we've corrected and notified them back
+[33:37.520 --> 33:38.520]  that we fixed them.
+[33:39.480 --> 33:42.080]  So the scale of this is huge
+[33:42.080 --> 33:45.000]  and I would compare it to any company out there.
+[33:45.000 --> 33:46.920]  And the ramp is unbelievable.
+[33:46.920 --> 33:50.600]  I mean, you consider when we launch a new release
+[33:50.600 --> 33:54.120]  of iOS and OS X and the corresponding cloud services,
+[33:54.120 --> 33:57.080]  how we go from effectively zero
+[33:57.080 --> 34:02.080]  to unbelievable international scale, literally overnight.
+[34:03.520 --> 34:08.000]  It's incredible and the team has done that at a scale
+[34:08.000 --> 34:12.120]  I think that is, I can't think of another example
+[34:12.120 --> 34:15.780]  of what happens when we turn the lights on on a new service
+[34:15.780 --> 34:20.320]  like we do and it generally goes off without a hitch.
+[34:20.320 --> 34:23.400]  The other thing I love about, which is, and I love this,
+[34:23.400 --> 34:28.040]  we're not out harping our services as the brand.
+[34:28.040 --> 34:31.640]  The service isn't the thing, it's the experience.
+[34:31.640 --> 34:35.520]  And so whether you're typing in a note on your iPhone
+[34:35.520 --> 34:39.360]  and it's on your Mac, we're not advertising this
+[34:39.360 --> 34:41.200]  as notes services or anything.
+[34:41.200 --> 34:42.520]  We just want the experience to be
+[34:42.520 --> 34:44.200]  so a lot of these things are behind the scenes
+[34:44.200 --> 34:46.600]  and they just work and it's great for customers.
+[34:47.520 --> 34:49.640]  Yeah, even iMessage is a good example of that.
+[34:49.640 --> 34:53.920]  And I personally have, I'd send, I don't even know,
+[34:53.920 --> 34:57.120]  I'm a big chunk of that 200,000 messages per second.
+[34:59.200 --> 35:00.640]  I send a lot of messages
+[35:00.640 --> 35:03.120]  and almost all of my messages are blue.
+[35:05.460 --> 35:08.980]  Well, you have good friends, smart ones.
+[35:08.980 --> 35:13.700]  Yeah, but if you just look at how many people
+[35:13.700 --> 35:18.700]  are using iMessage and how many messages they're sending,
+[35:19.020 --> 35:22.060]  it compares very, very favorably
+[35:22.060 --> 35:25.540]  to a lot of the independent messaging apps
+[35:25.540 --> 35:29.980]  and services out there like WhatApp and WeChat
+[35:29.980 --> 35:31.380]  and things like that.
+[35:31.380 --> 35:33.460]  And I feel like that's one of those things
+[35:33.460 --> 35:34.820]  that Apple doesn't really get credit for,
+[35:34.820 --> 35:36.740]  that they've got this messaging service
+[35:36.740 --> 35:40.380]  with an extraordinary number of users
+[35:40.380 --> 35:42.300]  who are extraordinarily engaged with it
+[35:42.300 --> 35:46.960]  and it's not really figured into what Apple does at all
+[35:46.960 --> 35:48.980]  because you guys don't really brand it that way.
+[35:48.980 --> 35:50.980]  You're just like, hey, just use this app
+[35:50.980 --> 35:54.140]  and send it, send your message to the person you know
+[35:54.140 --> 35:54.960]  and it goes through.
+[35:54.960 --> 35:57.620]  Yeah, I think that's what's great really
+[35:57.620 --> 36:02.620]  about what we do is we tie together the hardware,
+[36:03.000 --> 36:04.340]  the software and the services in a way
+[36:04.340 --> 36:08.060]  that you weren't thinking you just used a cloud service
+[36:08.060 --> 36:09.940]  necessarily when you bought your new iPhone
+[36:09.940 --> 36:12.180]  and all your settings came back exactly the way you expected
+[36:12.180 --> 36:15.420]  and so forth or when we do a feature like Apple Pay.
+[36:15.420 --> 36:17.260]  I mean, Apple Pay is a hardware feature.
+[36:17.260 --> 36:18.580]  It's a software feature.
+[36:18.580 --> 36:21.780]  It's a cloud feature and it just works
+[36:21.780 --> 36:25.420]  and it's a tremendous complex undertaking
+[36:25.420 --> 36:26.940]  but the customer doesn't have to think
+[36:26.940 --> 36:28.680]  about any of those component pieces.
+[36:28.680 --> 36:32.700]  They get an experience that hopefully delights them.
+[36:32.700 --> 36:34.220]  I'll give you a real quick anecdote.
+[36:34.220 --> 36:35.140]  Hopefully quick.
+[36:35.140 --> 36:38.320]  I was on an airplane recently and the plane took off
+[36:38.320 --> 36:41.900]  and I got on the Wi-Fi and an online service
+[36:41.900 --> 36:43.580]  from a different company, it wasn't an Apple thing,
+[36:43.580 --> 36:46.540]  it was somebody else, gave me a warning
+[36:46.540 --> 36:48.460]  that I couldn't, it looked like I was signing in
+[36:48.460 --> 36:50.620]  from an unusual location because it was,
+[36:50.620 --> 36:53.420]  I don't know where the plane Wi-Fi was saying it from.
+[36:53.420 --> 36:55.500]  How do I wanna verify that it's really me?
+[36:55.500 --> 36:57.660]  And the only options were to get a phone call
+[36:57.660 --> 37:01.460]  or an SMS text message which I can't get
+[37:01.460 --> 37:03.260]  because I'm 10,000 feet up in the air
+[37:03.260 --> 37:06.540]  and I showed it to the guy, my friend for the day
+[37:06.540 --> 37:08.300]  sitting next to me on the plane
+[37:08.300 --> 37:10.740]  who we'd spoken before the flight took off
+[37:10.740 --> 37:12.160]  and he was like, oh yeah, you can get text.
+[37:12.160 --> 37:15.700]  I'm texting my wife right now and he was sending,
+[37:15.700 --> 37:18.300]  he was sending an iMessage and I just like,
+[37:18.300 --> 37:19.700]  oh yeah, okay, I'll do that
+[37:19.700 --> 37:20.820]  because I didn't wanna explain
+[37:20.820 --> 37:23.860]  but he thought he was solving my problem
+[37:23.860 --> 37:25.220]  because he just thought, no, no, it's great.
+[37:25.220 --> 37:26.420]  This is absolutely wonderful.
+[37:26.420 --> 37:28.980]  I'm texting right now and he didn't really have
+[37:28.980 --> 37:31.300]  to think about what he's using to text.
+[37:31.300 --> 37:32.380]  He's just doing it.
+[37:32.380 --> 37:34.700]  Yeah, I think that's a fantastic example.
+[37:38.220 --> 37:43.220]  So let's shift from services to talk about
+[37:45.060 --> 37:47.420]  a specific bit of software
+[37:47.420 --> 37:49.020]  which isn't really about how it works
+[37:49.020 --> 37:50.940]  but really sort of how it's designed
+[37:50.940 --> 37:53.000]  and it's iTunes on the desktop
+[37:53.000 --> 37:55.100]  and here is where I wanted to quote Walt.
+[37:55.100 --> 37:57.180]  So here's what Walt Mossberg wrote.
+[37:57.180 --> 37:59.860]  Apple's iTunes program was once the envy of the world.
+[37:59.860 --> 38:01.660]  A combined digital music store and player,
+[38:01.660 --> 38:03.100]  it could also sync your iPod
+[38:04.020 --> 38:05.580]  and it worked on both Mac and Windows.
+[38:05.580 --> 38:08.060]  It was reasonably fast and very short-footed.
+[38:09.140 --> 38:11.180]  Now I dread opening the thing.
+[38:13.340 --> 38:15.540]  And that's sort of damning
+[38:15.540 --> 38:17.180]  and the thing that to me is more damning
+[38:17.180 --> 38:20.460]  is that I don't, I see a lot of people who agree with that
+[38:20.460 --> 38:23.100]  and I don't see anybody who really disagrees with it.
+[38:24.700 --> 38:29.300]  Yeah, look, let's go back to Walt's thing specifically
+[38:29.300 --> 38:32.900]  to address, which is his performance issues
+[38:32.900 --> 38:34.580]  and that we've actually looked at it.
+[38:34.580 --> 38:35.900]  Nothing to do with iTunes
+[38:35.900 --> 38:37.320]  but your question is still dead on
+[38:37.320 --> 38:39.880]  because it's something we started about two years ago
+[38:39.880 --> 38:42.240]  thinking about what we wanted to do with iTunes.
+[38:42.240 --> 38:46.340]  And let me walk you back with where it's designed from
+[38:46.340 --> 38:48.460]  and where I think it can go to.
+[38:48.460 --> 38:51.180]  So first of all, we designed it in a time
+[38:51.180 --> 38:54.000]  when everybody was syncing directly via cable.
+[38:54.980 --> 38:57.940]  So the things didn't exist in the cloud
+[38:57.940 --> 38:59.700]  and having a centralized place
+[38:59.700 --> 39:02.620]  where all of your content was there to sync
+[39:02.620 --> 39:04.620]  was really key because it made it really easy to do.
+[39:04.620 --> 39:06.360]  It didn't matter where the content was.
+[39:06.360 --> 39:07.780]  You didn't have to launch multiple apps.
+[39:07.780 --> 39:08.780]  You didn't have a separate app
+[39:08.780 --> 39:10.500]  that made it really difficult to see.
+[39:10.500 --> 39:12.260]  And so it worked really, really well.
+[39:12.260 --> 39:13.740]  And by the way, given that we have
+[39:13.740 --> 39:15.380]  a billion devices out there,
+[39:15.380 --> 39:16.780]  there's still hundreds of millions of people
+[39:16.780 --> 39:18.860]  doing exactly that.
+[39:18.860 --> 39:20.480]  When we went to Apple Music, we said,
+[39:20.480 --> 39:22.440]  well, let's see, we're building a new service.
+[39:22.440 --> 39:24.020]  Why don't we do it all in the cloud?
+[39:24.020 --> 39:25.420]  Apple Music's all in the cloud.
+[39:25.420 --> 39:27.000]  Let's do it that way.
+[39:27.000 --> 39:29.100]  And one of the things that we wanted to do
+[39:29.100 --> 39:31.120]  that was different was we didn't want
+[39:31.120 --> 39:32.640]  just the music that lived in the cloud.
+[39:32.640 --> 39:37.100]  If you had music, whether it was a live performance
+[39:37.100 --> 39:38.520]  with Bruce Springsteen, for example,
+[39:38.520 --> 39:40.580]  which I just bought because I haven't seen the new show
+[39:40.580 --> 39:42.500]  and I'm a huge Bruce fan,
+[39:42.500 --> 39:43.740]  how do I get that to the cloud?
+[39:43.740 --> 39:45.660]  Well, in most of the services that are out there,
+[39:45.660 --> 39:47.300]  there's no way to do that.
+[39:47.300 --> 39:49.320]  Because it lives in iTunes, it lets you do that
+[39:49.320 --> 39:52.060]  and it's very easy to upload that into the cloud
+[39:52.060 --> 39:54.140]  and then exists in all of your devices.
+[39:54.140 --> 39:56.260]  And so we decided that in the short term,
+[39:56.260 --> 39:58.460]  what we wanted to do is really make it
+[39:58.460 --> 40:00.580]  so that when you're in music and iTunes,
+[40:00.580 --> 40:02.360]  all you see is music.
+[40:02.360 --> 40:05.220]  And if you were doing a separate music app,
+[40:05.220 --> 40:07.420]  it would really look a lot like iTunes
+[40:07.420 --> 40:09.060]  when you're in the music player,
+[40:09.060 --> 40:10.780]  because there's only one area
+[40:10.780 --> 40:13.800]  where you pick which media type you wanna do.
+[40:13.800 --> 40:15.780]  That's not to say that we are continuing
+[40:15.780 --> 40:18.580]  and we'll continue to think about what's the best way
+[40:18.580 --> 40:20.580]  to architect the app and whether it makes sense
+[40:20.580 --> 40:23.360]  to do a separate app for some of the components
+[40:23.360 --> 40:24.660]  that are in there or all of the components
+[40:24.660 --> 40:25.580]  that are in there.
+[40:25.580 --> 40:27.820]  But right now, we think we've designed iTunes
+[40:27.820 --> 40:29.940]  and you'll see we've got a new refresh
+[40:29.940 --> 40:33.020]  with the new version of OS X that's coming out next month
+[40:33.020 --> 40:37.180]  that makes it even easier to use in the music space.
+[40:37.180 --> 40:40.560]  There are definitely, there's a big responsibility
+[40:40.560 --> 40:44.020]  in transitioning the experiences for a lot of these apps.
+[40:44.020 --> 40:45.420]  So these are so important to people
+[40:45.420 --> 40:47.180]  and we see it every time we change them at all.
+[40:47.180 --> 40:50.140]  And there are cases where, if you look at photos,
+[40:50.140 --> 40:53.140]  where we did a really bold rethink
+[40:53.140 --> 40:54.820]  of where photos needed to go
+[40:54.820 --> 40:56.380]  and how to transition it.
+[40:56.380 --> 40:59.620]  And by and large, I think that's been well received
+[40:59.620 --> 41:01.980]  and I personally love it.
+[41:01.980 --> 41:03.900]  And, but you'll hear people who say,
+[41:03.900 --> 41:05.940]  hold on, there was a reason why I liked
+[41:05.940 --> 41:07.220]  the way things used to be.
+[41:07.220 --> 41:10.620]  And people are pretty serious about their music
+[41:10.620 --> 41:12.900]  and about their collection.
+[41:12.900 --> 41:17.300]  And so I think we talk,
+[41:17.300 --> 41:19.060]  we debate pretty heavily internally
+[41:19.060 --> 41:21.420]  the right way to evolve these things.
+[41:21.420 --> 41:24.740]  And we tend to err on the side of being pretty bold
+[41:24.740 --> 41:29.300]  but there's a lot of responsibility.
+[41:29.300 --> 41:31.900]  You get the other side of these stories.
+[41:32.740 --> 41:33.980]  Some of the people, when you talk about people
+[41:33.980 --> 41:35.060]  nodding your head,
+[41:35.060 --> 41:37.460]  if I look at some of the comments that come online
+[41:37.460 --> 41:41.020]  when people say, yeah, Apple's quality is bad.
+[41:41.020 --> 41:42.580]  And someone will say, yeah,
+[41:42.580 --> 41:45.500]  like when they took away my iPhoto app
+[41:45.500 --> 41:46.460]  and replaced it with photos,
+[41:46.460 --> 41:47.900]  I don't like the new photos app.
+[41:47.900 --> 41:51.180]  And that's why they think Apple software quality is bad.
+[41:51.180 --> 41:52.700]  Now, many of us would say, well, hold on,
+[41:52.700 --> 41:55.140]  I know there's exactly an example of where Apple software
+[41:55.140 --> 41:57.340]  quality is quite good.
+[41:57.340 --> 42:00.700]  We delivered something faster, cleaner, simpler
+[42:00.700 --> 42:02.500]  but someone's gonna say, no, but it's changed.
+[42:02.500 --> 42:03.980]  And I was attached to it.
+[42:03.980 --> 42:08.260]  And so this is a tricky balancing act.
+[42:08.260 --> 42:11.340]  And I think our customers give us a lot of responsibility
+[42:11.340 --> 42:13.180]  to thoughtfully evolve their experiences.
+[42:13.180 --> 42:17.140]  And we try to take that responsibility very seriously.
+[42:17.140 --> 42:18.660]  I don't think anybody would disagree
+[42:18.660 --> 42:22.180]  that institutionally Apple compared to
+[42:22.180 --> 42:24.100]  any company you might compare it against
+[42:24.100 --> 42:28.980]  has been always more willing to push through changes.
+[42:28.980 --> 42:30.540]  Whether you can go back to the eighties
+[42:30.540 --> 42:32.580]  and say that the Macintosh debuted
+[42:32.580 --> 42:35.060]  without any kind of command line at all,
+[42:35.060 --> 42:36.900]  which was the only way anybody knew how to use a computer
+[42:36.900 --> 42:37.740]  up until then.
+[42:37.740 --> 42:39.260]  And they're like, no, this is the right way.
+[42:39.260 --> 42:43.940]  You know, to another almost canonical example of it
+[42:43.940 --> 42:47.460]  was the 1998 original iMac shipping without a floppy disc.
+[42:47.460 --> 42:48.740]  And it's nobody had ever,
+[42:48.740 --> 42:52.020]  how can you have a personal computer without a floppy disc?
+[42:52.020 --> 42:53.260]  Little things like that.
+[42:53.260 --> 42:56.980]  Do you guys find though that it's getting harder
+[42:56.980 --> 42:58.700]  to do that now that you're talking about
+[42:58.700 --> 43:01.860]  having 700, 800 million users?
+[43:01.860 --> 43:05.620]  Is it harder because of that natural part of humanity
+[43:05.620 --> 43:07.940]  that just is resistant to change of any kind?
+[43:07.940 --> 43:09.780]  Sure, of course it's harder.
+[43:09.780 --> 43:12.580]  When you have more customers, those things are harder to do.
+[43:12.580 --> 43:15.380]  But that doesn't, at least for me,
+[43:15.380 --> 43:17.140]  and I've been here when we were really small
+[43:17.140 --> 43:19.940]  and now when we're much larger, it hasn't really changed.
+[43:19.940 --> 43:21.780]  We're still willing to push.
+[43:21.780 --> 43:24.740]  We just have to make sure that we think about
+[43:24.740 --> 43:26.540]  the ways that people are using the product
+[43:26.540 --> 43:30.460]  and when we make the changes that they're not significant
+[43:30.460 --> 43:32.940]  and we're improving more than we're actually taking away
+[43:32.940 --> 43:35.060]  or that it's the right thing to do.
+[43:35.060 --> 43:37.340]  And so you have to be a little more conscious
+[43:37.340 --> 43:38.780]  of understanding all of the different ways
+[43:38.780 --> 43:40.100]  in which customers use it.
+[43:40.100 --> 43:42.820]  But you bet we gotta keep pushing
+[43:42.820 --> 43:45.460]  because if you wanna innovate, you gotta move.
+[43:45.460 --> 43:47.260]  You can't sit still with what you have.
+[43:47.260 --> 43:49.380]  Yeah, and that's so strong internally.
+[43:49.380 --> 43:53.460]  I mean, the base instinct of everyone here
+[43:53.460 --> 43:57.420]  is let's do it the right way.
+[43:57.420 --> 43:59.860]  If this is now the right way, forget the past.
+[43:59.860 --> 44:00.700]  Let's do it the right way.
+[44:00.700 --> 44:02.980]  And it's a second thought then to, well, hold on.
+[44:02.980 --> 44:05.460]  Okay, what does that mean for the transition
+[44:05.460 --> 44:08.660]  and taking our customers along with us on this?
+[44:08.660 --> 44:11.500]  But it's so integral to who we are
+[44:11.500 --> 44:14.420]  and how people think here that, yeah,
+[44:14.420 --> 44:16.260]  there's more of an external,
+[44:16.260 --> 44:17.620]  there's a larger customer base
+[44:17.620 --> 44:18.980]  that we have responsibility for,
+[44:18.980 --> 44:22.060]  but we know part of why they're Apple customers
+[44:22.060 --> 44:23.860]  is because that's what they expect from us.
+[44:23.860 --> 44:28.340]  We would be doing them a disservice if we stopped pushing.
+[44:28.340 --> 44:30.580]  All right, let me make the specific comparison
+[44:30.580 --> 44:32.420]  between two apps that we've just been talking about
+[44:32.420 --> 44:36.980]  is iTunes and photos for Mac.
+[44:36.980 --> 44:41.580]  So in the digital hub era, when the Mac was positioned,
+[44:41.580 --> 44:42.860]  here's our idea for the Mac.
+[44:42.860 --> 44:45.260]  It's your digital hub for all of these little devices
+[44:45.260 --> 44:49.260]  like cameras and iPods that you have in your life.
+[44:49.260 --> 44:51.460]  iPhoto was the Mac solution to photos
+[44:51.460 --> 44:55.740]  and iTunes was the Mac and Windows solution to music.
+[44:55.740 --> 44:58.420]  And then later, media, like TV shows and stuff.
+[45:00.100 --> 45:03.420]  The new strategy is clearly iCloud-centric.
+[45:03.420 --> 45:04.780]  I mean, you guys have been explicit about that
+[45:04.780 --> 45:08.620]  since iCloud was announced on stage in 2011.
+[45:09.780 --> 45:10.900]  And it didn't come right away.
+[45:10.900 --> 45:13.660]  It wasn't like photos for Mac came out immediately,
+[45:13.660 --> 45:15.820]  but that was the answer and last year
+[45:15.820 --> 45:17.420]  was really that transition year.
+[45:18.580 --> 45:21.140]  But the idea was, look, iPhoto was great for then,
+[45:21.140 --> 45:23.140]  but now we've got this photos app
+[45:23.140 --> 45:26.100]  which is truly just a peer
+[45:26.100 --> 45:27.860]  to what you've got on your iOS devices
+[45:27.860 --> 45:29.580]  and it's really designed for the modern age
+[45:29.580 --> 45:31.300]  and the modern model.
+[45:31.300 --> 45:34.700]  And iTunes and music haven't really made that shift.
+[45:34.700 --> 45:37.100]  Is that because music is different
+[45:37.100 --> 45:39.140]  and because iTunes has different responsibilities
+[45:39.140 --> 45:41.940]  or is it because iTunes has to exist for Windows
+[45:41.940 --> 45:44.380]  and iPhoto didn't or is it something else?
+[45:44.380 --> 45:46.340]  No, it's, look, I think you're seeing music
+[45:46.340 --> 45:49.340]  make that transition now since last year
+[45:49.340 --> 45:51.180]  when we introduced Apple Music.
+[45:51.180 --> 45:53.940]  The truth is music before that was very local.
+[45:53.940 --> 45:56.260]  It really didn't live in the cloud.
+[45:56.260 --> 45:59.380]  And you moved your content
+[45:59.380 --> 46:01.140]  by moving it to a device locally
+[46:01.140 --> 46:02.500]  and then the device was there
+[46:02.500 --> 46:04.540]  and then if you wanted to update that device,
+[46:04.540 --> 46:05.780]  you brought it back.
+[46:05.780 --> 46:07.700]  Now that we've, and it's not just bringing
+[46:07.700 --> 46:09.620]  a subscription service, as I said,
+[46:09.620 --> 46:11.340]  it's about bringing all of your music
+[46:11.340 --> 46:12.820]  no matter how you acquired it,
+[46:12.820 --> 46:15.140]  if it doesn't exist in the subscription service
+[46:15.140 --> 46:17.340]  and you bought it yourself separately
+[46:17.340 --> 46:19.660]  or it's available separately as a bootleg,
+[46:19.660 --> 46:22.380]  all of the things that you consume with music
+[46:22.380 --> 46:24.340]  and we're seeing that transition now.
+[46:24.340 --> 46:27.540]  So for myself, I live in a world
+[46:27.540 --> 46:29.940]  where my music is all in the cloud
+[46:29.940 --> 46:31.740]  and I think we're gonna see more and more customers.
+[46:31.740 --> 46:35.700]  We just passed over 11 million Apple Music subscribers
+[46:35.700 --> 46:37.500]  and all of those people live in a world
+[46:37.500 --> 46:38.940]  where music is in the cloud.
+[46:38.940 --> 46:43.500]  So that's a big number.
+[46:43.500 --> 46:48.500]  11 million Apple Music subscribers is a big number
+[46:48.740 --> 46:52.500]  and it's only since, I mean, when did it come out of beta?
+[46:52.500 --> 46:54.020]  It came out in September
+[46:54.020 --> 46:56.740]  but we gave away the first three months for free.
+[46:56.740 --> 47:00.980]  So think about it as later in the year, October.
+[47:02.620 --> 47:07.060]  So and the growth rate is good on that.
+[47:07.060 --> 47:07.940]  We've been very pleased.
+[47:07.940 --> 47:10.740]  It's great, we just this past week,
+[47:10.740 --> 47:12.860]  we introduced it in Taiwan
+[47:12.860 --> 47:15.980]  and we also introduced it in Turkey, which has been great.
+[47:15.980 --> 47:18.300]  We introduced a version for Android,
+[47:18.300 --> 47:21.540]  our first Android application and-
+[47:21.540 --> 47:23.620]  That's our second, we had moved to iOS.
+[47:23.620 --> 47:24.820]  That's true, thank you.
+[47:26.740 --> 47:29.180]  Much loved app on the Android Play Store.
+[47:30.700 --> 47:33.640]  It's always a good source of humor is to go,
+[47:34.900 --> 47:36.380]  it's like going to read the Yelp reviews
+[47:36.380 --> 47:39.340]  for your favorite local restaurant and seeing,
+[47:39.340 --> 47:41.660]  seeing the people who don't get it.
+[47:41.660 --> 47:43.660]  And one of the things we've learned by the way
+[47:43.660 --> 47:46.220]  as we've gone to Apple Music is that
+[47:46.220 --> 47:49.620]  we have to educate people as much as all of us
+[47:49.620 --> 47:51.060]  know about music subscriptions.
+[47:51.060 --> 47:52.600]  When you go around the world,
+[47:53.700 --> 47:55.560]  what does it mean to have access
+[47:55.560 --> 47:57.220]  to all of the music in the world?
+[47:58.260 --> 47:59.860]  And what does that mean and how does that work?
+[47:59.860 --> 48:02.420]  And that's something that we're doing
+[48:02.420 --> 48:04.260]  a lot of work on right now.
+[48:04.260 --> 48:05.420]  Cause we noticed that, you know,
+[48:05.420 --> 48:07.660]  a lot of times people just didn't understand the concept.
+[48:07.660 --> 48:09.060]  What do you mean I pay 99?
+[48:09.060 --> 48:09.900]  What do I get?
+[48:09.900 --> 48:11.060]  How do I get it?
+[48:11.060 --> 48:12.220]  All of those things.
+[48:12.220 --> 48:15.680]  And that's been a big part of moving the number
+[48:15.680 --> 48:18.460]  and continuing to move the number forward.
+[48:18.460 --> 48:19.420]  All right, before we wrap this up,
+[48:19.420 --> 48:21.500]  there's a topic I want to get to.
+[48:21.500 --> 48:22.980]  And it's, I guess it's a little bit more
+[48:22.980 --> 48:24.720]  on Craig's side of the court,
+[48:24.720 --> 48:25.820]  but I've got some good friends who,
+[48:25.820 --> 48:26.740]  if I don't talk about this,
+[48:26.740 --> 48:28.540]  I think you're going to shoot me
+[48:28.540 --> 48:29.380]  cause I have the opportunity.
+[48:29.380 --> 48:31.980]  Is this about dynamic dispatch and Objective-C?
+[48:31.980 --> 48:32.820]  I'm ready.
+[48:32.820 --> 48:36.540]  No, so it's about radar.
+[48:36.540 --> 48:38.820]  So Eddie mentioned that with maps,
+[48:38.820 --> 48:41.660]  maps has a feature where if you see an error,
+[48:41.660 --> 48:44.440]  you can report the error and when it gets fixed,
+[48:44.440 --> 48:45.580]  you get notified and it says,
+[48:45.580 --> 48:48.100]  Hey, thank you for reporting that, you know,
+[48:48.100 --> 48:51.500]  that this road is not where it used to be,
+[48:51.500 --> 48:52.720]  or there's a new road here.
+[48:52.720 --> 48:54.020]  We have now fixed it.
+[48:55.240 --> 48:57.360]  What I hear a lot from my friends
+[48:57.360 --> 49:02.020]  who are third-party developers is the sense that radar
+[49:02.020 --> 49:05.380]  is nearly a black hole, that you file your report,
+[49:05.380 --> 49:09.100]  it goes in there and an awful lot of bugs
+[49:09.100 --> 49:12.400]  that even ones that are submitted with examples,
+[49:12.400 --> 49:13.820]  like here, run this example code
+[49:13.820 --> 49:15.580]  and it will prove that this is a bug
+[49:15.580 --> 49:17.260]  in this new version of the OS.
+[49:17.260 --> 49:18.440]  And then you just never,
+[49:18.440 --> 49:20.060]  they just never hear anything about it.
+[49:20.060 --> 49:20.880]  Yeah.
+[49:20.880 --> 49:23.540]  Like how can radar get more like Apple maps
+[49:23.540 --> 49:27.220]  where it gives, I'm serious.
+[49:27.220 --> 49:28.940]  I think that developers really,
+[49:28.940 --> 49:32.220]  and I feel like it's a, what's the,
+[49:32.220 --> 49:34.200]  I don't know what the opposite of a virtuous circle,
+[49:34.200 --> 49:36.500]  an in-virtuous circle where developers,
+[49:36.500 --> 49:37.940]  if they feel like it's a black hole,
+[49:37.940 --> 49:40.020]  they report fewer bugs because they feel like
+[49:40.020 --> 49:42.660]  they're wasting their time and developers not reporting bugs
+[49:42.660 --> 49:44.900]  is I'm sure not what you want.
+[49:45.860 --> 49:46.700]  That's for sure.
+[49:46.700 --> 49:47.900]  Yeah.
+[49:47.900 --> 49:49.220]  We're, I mean, quite honestly,
+[49:49.220 --> 49:51.780]  we're not where we want to be with radar
+[49:51.780 --> 49:53.480]  as an externally facing tool.
+[49:53.480 --> 49:55.340]  I mean, it's the lifeblood of the organization
+[49:55.340 --> 49:58.480]  in terms of how we manage our bugs and manage our releases
+[49:58.480 --> 50:00.940]  and I file tons of them.
+[50:00.940 --> 50:05.300]  And so does everyone who works here in software,
+[50:05.300 --> 50:07.880]  but our external interface is not great.
+[50:07.880 --> 50:10.940]  And a big part of that is something we struggle with
+[50:10.940 --> 50:14.460]  is how we sort out communicating about the issues
+[50:14.460 --> 50:18.940]  that we fix, because you may report an issue.
+[50:18.940 --> 50:22.140]  We may dupe it to a bug that we're working on fixing.
+[50:22.140 --> 50:23.180]  We may fix that bug.
+[50:23.180 --> 50:24.780]  Maybe we fix it in iOS 10.
+[50:24.780 --> 50:26.920]  Maybe we fix it in something that's probably gonna go
+[50:26.920 --> 50:28.860]  in iOS 9.3.
+[50:28.860 --> 50:30.540]  You want to know that we've fixed it.
+[50:30.540 --> 50:34.460]  We don't necessarily right now have a great way to decide
+[50:34.460 --> 50:36.780]  when we want to communicate to you that there's a release
+[50:36.780 --> 50:38.740]  that it's getting fixed in, that we're promising
+[50:38.740 --> 50:40.660]  that the fix is gonna happen.
+[50:40.660 --> 50:43.500]  And so we fundamentally have communication feedback problems
+[50:43.500 --> 50:44.960]  that we need to sort out.
+[50:44.960 --> 50:47.660]  I can tell you that the reports do get read,
+[50:47.660 --> 50:50.180]  that they do influence what we do,
+[50:50.180 --> 50:54.900]  but our back-channel communication needs some work
+[50:54.900 --> 50:58.740]  because we are reading them.
+[50:58.740 --> 51:00.820]  We just don't tell you what's happening with them.
+[51:00.820 --> 51:02.740]  And I understand absolutely the frustration
+[51:02.740 --> 51:05.240]  of a lot of developers who file those bugs.
+[51:06.940 --> 51:09.740]  Do you agree that that sort of improving that
+[51:11.740 --> 51:14.180]  is sort of a point where the trickle down from that,
+[51:14.180 --> 51:15.280]  where if you guys could improve
+[51:15.280 --> 51:16.980]  the back-channel communication from radar,
+[51:16.980 --> 51:21.140]  it would influence the sort of lots of little bugs
+[51:21.140 --> 51:24.200]  getting fixed that people are complaining about
+[51:24.200 --> 51:26.240]  and address, it's like a centralized place
+[51:26.240 --> 51:30.960]  to address the widespread entire user-based wide problem
+[51:30.960 --> 51:33.380]  of, hey, this little thing is going wrong
+[51:33.380 --> 51:35.380]  and I don't understand why.
+[51:35.380 --> 51:37.180]  I think it helps.
+[51:37.180 --> 51:38.900]  I think we have other ways also
+[51:38.900 --> 51:40.340]  that we're getting a lot of great feedback.
+[51:40.340 --> 51:43.580]  We did our first, as you know, public beta for iOS
+[51:43.580 --> 51:45.980]  in a year ago, the public beta for OS X.
+[51:45.980 --> 51:49.380]  And actually in that way brought over a million people
+[51:49.380 --> 51:51.560]  into the program.
+[51:51.560 --> 51:54.980]  And we did include in those a feedback assistant tool,
+[51:54.980 --> 51:59.140]  which was meant as a kind of radar-like feedback tool,
+[51:59.140 --> 52:01.500]  but one that we could, the average person could use,
+[52:01.500 --> 52:02.820]  whether on iOS and OS X.
+[52:02.820 --> 52:05.020]  And it automatically,
+[52:05.020 --> 52:06.620]  not only does it give us what the user types,
+[52:06.620 --> 52:07.980]  but it automatically gives us
+[52:07.980 --> 52:11.140]  a lot of additional diagnostics.
+[52:11.140 --> 52:12.380]  They get prompted and says,
+[52:12.380 --> 52:14.300]  oh, is it okay if we send this, this, and this back,
+[52:14.300 --> 52:17.340]  and gives us some really great actionable information
+[52:17.340 --> 52:18.780]  about the issues they uncover.
+[52:18.780 --> 52:21.620]  And so that's another great channel to find out
+[52:21.620 --> 52:24.300]  about the issues people are running into.
+[52:24.300 --> 52:25.980]  And it's made a huge difference
+[52:25.980 --> 52:28.380]  on the quality of our software.
+[52:28.380 --> 52:31.660]  I mean, we, just one metric and it's not,
+[52:31.660 --> 52:33.740]  there are lots of different ways in which,
+[52:33.740 --> 52:35.000]  lots of different kinds of feedback we get,
+[52:35.000 --> 52:36.140]  but something that's very measurable
+[52:36.140 --> 52:37.260]  are things like crash rate.
+[52:37.260 --> 52:39.300]  And I can tell you in the past,
+[52:39.300 --> 52:40.940]  you'd see this seesaw pattern
+[52:40.940 --> 52:42.940]  where a.0 release would come out
+[52:42.940 --> 52:45.900]  and that would have a certain high crash rate.
+[52:45.900 --> 52:48.020]  And then we'd issue our software updates
+[52:48.020 --> 52:49.660]  and that rate would go down.
+[52:49.660 --> 52:53.460]  After doing the public beta here for iOS,
+[52:53.460 --> 52:58.380]  our release, our.0, our 9.0 was better
+[52:58.380 --> 53:01.100]  than any previous release of iOS 8,
+[53:01.100 --> 53:02.180]  that the numbers that,
+[53:02.180 --> 53:04.240]  and those are the kind of systematic steps
+[53:04.240 --> 53:06.380]  where you can get feedback from our users,
+[53:06.380 --> 53:08.680]  both automatic and the kind of things
+[53:08.680 --> 53:09.740]  where they write up an issue
+[53:09.740 --> 53:11.240]  and it helps us improve the product.
+[53:11.240 --> 53:14.220]  So you're gonna see more and more of that from us.
+[53:14.220 --> 53:16.640]  And we think it continues to pay off.
+[53:16.640 --> 53:19.400]  So you're, just to reiterate that,
+[53:19.400 --> 53:20.960]  I just wanna make sure I heard you correctly.
+[53:20.960 --> 53:22.680]  You're saying that when 9.0 came out,
+[53:22.680 --> 53:23.520]  the release version,
+[53:23.520 --> 53:26.240]  that the crash rate for apps was actually lower
+[53:26.240 --> 53:28.320]  than the version of iOS 8,
+[53:28.320 --> 53:30.720]  whatever the stable version of iOS 8 was
+[53:30.720 --> 53:31.940]  that people were upgrading from.
+[53:31.940 --> 53:34.120]  That's right, of our apps.
+[53:34.120 --> 53:35.120]  Right, oh, okay.
+[53:35.120 --> 53:39.120]  Yeah, yeah, third party apps are a,
+[53:39.120 --> 53:40.320]  I don't actually have the number on that,
+[53:40.320 --> 53:42.880]  but they're, that's always a challenge.
+[53:42.880 --> 53:44.700]  I mean, one thing honestly that can happen to us
+[53:44.700 --> 53:48.300]  on quality is sometimes also a third party
+[53:48.300 --> 53:49.480]  will happen to ship an app
+[53:49.480 --> 53:51.520]  about the same time we ship an OS update
+[53:51.520 --> 53:53.720]  and independent of that, that app starts crashing
+[53:53.720 --> 53:55.360]  and that affects user, so you gotta cut,
+[53:55.360 --> 53:57.640]  it's always a challenge to cut through the noise,
+[53:57.640 --> 53:58.840]  but we have pretty good analytics
+[53:58.840 --> 54:03.020]  and our numbers are showing we're on the right track there.
+[54:03.920 --> 54:06.080]  Well, it's about the time to wrap this up.
+[54:06.080 --> 54:06.920]  I wanted to know though,
+[54:06.920 --> 54:08.240]  because you guys were nice enough to come on,
+[54:08.240 --> 54:10.440]  is there anything that I haven't asked you
+[54:10.440 --> 54:11.720]  that you wished I had?
+[54:11.720 --> 54:13.640]  Is there something that you guys
+[54:13.640 --> 54:16.240]  wanted to talk about that we haven't discussed?
+[54:16.240 --> 54:19.660]  Well, since this is an audio podcast and not a video one,
+[54:20.960 --> 54:22.240]  I'm disappointed that you can't see
+[54:22.240 --> 54:23.840]  the purple shirt I'm wearing.
+[54:23.840 --> 54:25.920]  He did really rise to the occasion.
+[54:25.920 --> 54:27.040]  I don't know if Eddie thought he was gonna be
+[54:27.040 --> 54:30.200]  on camera here, but he's in full stage wear.
+[54:30.200 --> 54:32.680]  It's- You know, I thought about that
+[54:32.680 --> 54:35.560]  just before we got on the air.
+[54:35.560 --> 54:38.760]  I linked to a story the New York Times had
+[54:38.760 --> 54:42.820]  about this amazing science that astronomers have done
+[54:42.820 --> 54:47.820]  where they've measured as audio this gravitational wave
+[54:47.840 --> 54:50.880]  that proves this thing Einstein predicted 100 years ago,
+[54:50.880 --> 54:52.640]  that if two black holes collided,
+[54:52.640 --> 54:54.920]  you'd be able to produce this gravity wave
+[54:54.920 --> 54:56.000]  that you could hear, and I thought,
+[54:56.000 --> 54:57.800]  wouldn't that be great if we had a microphone
+[54:57.800 --> 54:59.840]  that could produce a sound-
+[54:59.840 --> 55:00.680]  Of Eddie's shirt?
+[55:00.680 --> 55:01.920]  To reproduce Eddie's shirt.
+[55:01.920 --> 55:02.760]  Of Eddie's shirt.
+[55:02.760 --> 55:03.600]  Yes.
+[55:05.840 --> 55:06.680]  Yeah, we all have sort of a-
+[55:06.680 --> 55:07.520]  We just didn't-
+[55:07.520 --> 55:08.940]  A synesthetic experience.
+[55:08.940 --> 55:09.960]  Yeah, I know it's, yeah.
+[55:09.960 --> 55:13.460]  All the senses come alive when we see Eddie's shirt.
+[55:13.460 --> 55:16.880]  We just didn't have enough time to set up the technology.
+[55:16.880 --> 55:18.640]  Maybe next time.
+[55:18.640 --> 55:19.920]  This was great.
+[55:19.920 --> 55:22.200]  I hope you guys enjoyed it as much as I did.
+[55:22.200 --> 55:23.040]  I love it.
+[55:23.040 --> 55:24.800]  John, I got one question for you though.
+[55:24.800 --> 55:25.640]  Okay.
+[55:25.640 --> 55:26.840]  Since we started with sports
+[55:26.840 --> 55:28.320]  and it's almost baseball season,
+[55:28.320 --> 55:30.880]  give me your World Series prediction.
+[55:30.880 --> 55:31.720]  Oh.
+[55:33.360 --> 55:37.540]  I hate to say it, but I think the Cubs,
+[55:37.540 --> 55:40.540]  because it doesn't seem like a good bet,
+[55:40.540 --> 55:44.540]  but boy, the Cubs look good in the National League,
+[55:44.540 --> 55:46.100]  and in the American League,
+[55:47.340 --> 55:50.180]  boy, I don't, I'll just go out on the limb
+[55:50.180 --> 55:51.580]  and say the New York Yankees.
+[55:53.660 --> 55:54.620]  That was for Phil.
+[55:55.820 --> 55:57.740]  So that's great.
+[55:57.740 --> 56:00.340]  You gotta remember though, it is an even year,
+[56:00.340 --> 56:03.500]  and in even years, the San Francisco Giants always win.
+[56:03.500 --> 56:07.660]  That's the weirdest little like inexplicable,
+[56:07.660 --> 56:09.860]  like they've, and they've kept a core together.
+[56:09.860 --> 56:11.160]  I don't understand that at all.
+[56:11.160 --> 56:13.300]  I don't know if they just party way too hard
+[56:13.300 --> 56:14.500]  after they win the World Series
+[56:14.500 --> 56:17.040]  and it tanks the hole next season or what,
+[56:17.040 --> 56:21.080]  but that is the weirdest little mini dynasty streak
+[56:21.080 --> 56:21.920]  I've ever seen.
+[56:21.920 --> 56:22.760]  It is.
+[56:22.760 --> 56:23.580]  So I don't know.
+[56:23.580 --> 56:24.420]  I don't know that I'd want to bet against
+[56:24.420 --> 56:26.220]  the Giants next year.
+[56:26.220 --> 56:28.620]  All right, well, it was great talking to you.
+[56:28.620 --> 56:29.440]  Thank you.
+[56:29.440 --> 56:30.280]  Thank you both.
+[56:30.280 --> 56:31.820]  Eddie Q, Craig Federighi,
+[56:31.820 --> 56:34.300]  I really greatly appreciate the time.
+[56:34.300 --> 57:03.300]  Thanks, John.

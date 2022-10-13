@@ -1,0 +1,1235 @@
+[00:00.000 --> 00:09.040]  what a week they upgraded to moabi no really oh we'll have to get to that oh my god so what
+[00:09.040 --> 00:15.440]  do we got we got big news john molts we got uh we got facetime bug big facetime bug we got a big
+[00:15.440 --> 00:20.880]  facebook scandal a couple facebook scan all the face stuff we got apple quarterly results i say
+[00:20.880 --> 00:27.680]  we i say we go with facebook first okay uh that sounds like fun so as we record we're recording
+[00:27.680 --> 00:33.280]  on wednesday january 30 uh and it's still breaking on this story we don't quite know how it's gonna
+[00:33.280 --> 00:39.200]  end up but what we know is that yesterday tech crunch ace reporter josh constein broke a big
+[00:39.200 --> 00:47.280]  story that facebook got caught running uh some kind of spyware effectively like it was opt-in
+[00:49.520 --> 00:54.400]  hey pay is it yeah is it spyware if they're paying paying you for to spy on you i guess it still is
+[00:54.400 --> 00:58.720]  right all right let me try to summarize the story so yeah years ago facebook beginning years ago
+[00:58.720 --> 01:06.480]  facebook bought a vpn app called ovano uh and this is a free vpn that was supposedly advertised as
+[01:06.480 --> 01:12.800]  you know protect your traffic and a vpn can be a totally legitimate way to protect your your
+[01:12.800 --> 01:18.640]  network connection so that you know you connect via vpn and then you uh could go to a public wi-fi
+[01:18.640 --> 01:25.440]  and all of your traffic goes over the secure ssh tunnel to the vpn server and so anybody on the
+[01:25.440 --> 01:31.040]  local public wi-fi can't you know spy on your your your traffic all they see is this encrypted
+[01:31.040 --> 01:38.000]  connection um all sorts of companies of course require the use of a vpn to connect to company
+[01:38.000 --> 01:44.400]  you know sensitive company data and consumers can use a vpn to do things like masquerade their
+[01:44.400 --> 01:50.000]  location maybe you could use a vpn to to get if you're outside the us maybe you can get us only
+[01:50.000 --> 01:55.600]  content or something like that but anyway facebook bought them not out of the goodness of their heart
+[01:55.600 --> 02:01.760]  shockingly but because they when have they ever done anything out of the goodness of their heart
+[02:01.760 --> 02:07.280]  the thing is when you connect via a vpn you you're safe from the the network your local network
+[02:07.280 --> 02:12.320]  but you you are you're you're handing everything all of the everything funnels through the vpn and
+[02:12.320 --> 02:18.320]  and whoever owns the vpn knows everything right you it's you might as well just let somebody sit
+[02:18.320 --> 02:22.560]  down at your computer you know you have to trust them as much as the vpn as much as you would trust
+[02:22.560 --> 02:28.800]  somebody sitting in front of your computer and facebook used this avano uh was popular enough
+[02:28.800 --> 02:33.680]  obviously everybody didn't use it it's not like it was something that everybody who uses facebook
+[02:33.680 --> 02:36.800]  was secretly running behind the scenes you had to you know download avano and
+[02:36.800 --> 02:41.360]  you know run it but enough people were running it that facebook could use the data they were
+[02:41.360 --> 02:45.200]  collecting and they were collecting data on everything everybody who installed it did every
+[02:45.200 --> 02:51.680]  app they launched every network connection what apps they used for how long and they used it to
+[02:51.680 --> 02:56.160]  to make decisions like buying whatsapp for 19 billion dollars because the data they had showed
+[02:56.160 --> 03:03.040]  hey this is popular and getting more popular we should buy it uh and in september apple put the
+[03:03.040 --> 03:08.320]  kibosh on it when it came to light just how much they were collecting and and you know i i think
+[03:08.320 --> 03:13.920]  it's fair to say it was being billed under false advertising like by declaring this was for privacy
+[03:13.920 --> 03:21.760]  and then using it to spy on it and it violated terms of the the app store yes it wasn't simply
+[03:21.760 --> 03:27.600]  arbitrary or or you know we don't like you know we didn't think of this it it really was violating
+[03:27.600 --> 03:33.120]  the terms of the app store immediately we now know as of yesterday immediately thereafter facebook
+[03:33.120 --> 03:38.720]  started doing something very similar through a privately distributed beta that was signed with
+[03:38.720 --> 03:45.040]  their enterprise certificate now that's something for example so so like a big company like ibm or
+[03:45.040 --> 03:49.200]  any company really can have a enterprise certificate and use that to distribute
+[03:50.160 --> 03:55.840]  apps to employees that don't go through the app store so it could be like an app that's just for
+[03:55.840 --> 04:01.680]  internal use in your company that you want on iphones or it could be for uh testing betas of
+[04:01.680 --> 04:05.760]  things that a public app that will go through the app store but while it's in development
+[04:05.760 --> 04:10.720]  your employees can use it you know without going through the app store um test flight which a lot
+[04:10.720 --> 04:16.320]  of people probably know as a as apple's like publicly facing beta distribution thing is is
+[04:16.320 --> 04:21.920]  sort of a one way to to do that but you know an enterprise a company like facebook doesn't have
+[04:21.920 --> 04:28.160]  to go through test flight to to do that so it ends up that they were distributing an app
+[04:29.520 --> 04:35.120]  well number one apple's terms for the the enterprise specifically say that this is for
+[04:35.680 --> 04:42.960]  the use of your employees for testing apps and using internal apps facebook was advertising
+[04:42.960 --> 04:46.880]  trying to get people to sign up for this program they were paying them twenty dollars a month
+[04:46.880 --> 04:52.320]  and then you know and then they for some reason wanted a screenshot of your recent amazon purchases
+[04:53.840 --> 04:56.080]  that isn't that out of left field i mean
+[04:58.400 --> 05:06.000]  i don't even like oh man like that's the part where you got to think like i can see and
+[05:06.000 --> 05:13.120]  what am i doing yeah and they were they were asking for for kids down to 13 13 to 17 year olds
+[05:13.120 --> 05:17.920]  13 to 17 year olds i guess they were i don't know how well they were enforcing it you know
+[05:17.920 --> 05:24.240]  that they were supposedly for 13 to 17 year olds requiring parental permission yeah that's i
+[05:24.240 --> 05:27.680]  didn't get a good answer in that because it seemed like in some cases it was just like it was like a
+[05:27.680 --> 05:33.280]  check box like does your parent agree to this check right like you know any kid any kid could
+[05:33.280 --> 05:41.760]  do that right like yeah i it's unclear to me how enforced that was is it sort of like you know like
+[05:41.760 --> 05:47.840]  we i've got it set up so that when jonas gets by a buys an app you know we have a family account and
+[05:47.840 --> 05:52.640]  me or amy has to authorize it is it like that where the parent you know there's like a connection
+[05:52.640 --> 05:58.800]  within facebook didn't seem like it and be in these things they don't with uh provisioning
+[05:58.800 --> 06:04.800]  profiles that any anybody can install it from a website you don't have to right there's no there's
+[06:04.800 --> 06:10.400]  no restriction in parental controls that controls that right um and i have found that i found that
+[06:10.400 --> 06:16.880]  out the hard way believe me but there's a whole bunch and and facebook isn't the only one that
+[06:16.880 --> 06:22.560]  like issues these things to widely and for free on the internet there's a whole bunch of other
+[06:22.560 --> 06:26.960]  instances where this happens and like some like there's a there's a minecraft thing that helps
+[06:26.960 --> 06:32.320]  you like you can install like one of the knocks against the ios version of minecraft is that it
+[06:32.320 --> 06:37.360]  doesn't let you install mods like like on android you can actually install mods because you know the
+[06:37.360 --> 06:43.920]  apps can interact with each other more and this supposedly this i have not tried it but this
+[06:43.920 --> 06:49.200]  profile will let you do that on ios and so obviously hank you know downloaded that without
+[06:49.200 --> 06:54.480]  thinking um and it's you know and it's like the signature on it i wish i had his device in front
+[06:54.480 --> 07:02.720]  of me but it's like it's something like the the shins in industrial so that that's technically
+[07:02.720 --> 07:07.680]  against the app store yes right right yeah i wonder how widely that says this is being abused
+[07:07.680 --> 07:14.400]  just before we started recording somebody on on twitter sent me a dm that showed uh that that
+[07:14.400 --> 07:24.560]  google seemingly has a very similar uh app uh yeah i saw this the screen wise meter app on an ios
+[07:24.560 --> 07:30.320]  device uh it does not seem this seems like it might be a similar scandal by the time this is
+[07:30.320 --> 07:35.600]  what i mean by that we're recording on wednesday held by tomorrow that who knows maybe google's
+[07:35.600 --> 07:42.560]  going to be in hot water um but anyway they were paying paying people 20 kids even here's another
+[07:42.560 --> 07:50.720]  insult for me and you it was they only wanted people aged 13 to 35 so we're not even close
+[07:50.720 --> 07:58.080]  we're we don't care we don't care what you want right it's like it's like as you age and you fill
+[07:58.080 --> 08:03.120]  out forms you know and it's like what age group are you in yeah and it's like it it never for
+[08:03.120 --> 08:07.760]  whatever reason it never goes by the decade it's like are you in your 20s are you in your 30s
+[08:07.760 --> 08:12.240]  because you know i mean you roll over you hit 40 or you hit 50 and you know hit those things and
+[08:12.240 --> 08:18.400]  it always you know whether you're particularly sensitive to that or not i'm not i i don't like
+[08:18.400 --> 08:23.120]  get depressed if i when i hit a landmark birthday but you know even if you're like me and you're a
+[08:23.120 --> 08:30.640]  bit cynical and jaded and accept the warm and breath of death that's imminent it's still you
+[08:30.640 --> 08:35.200]  note it right and where and other people get you know maybe you really get upset when they hit hit
+[08:35.200 --> 08:39.200]  some of these marks but they don't ask you that it's always weird weird ranges you know like are
+[08:39.200 --> 08:44.320]  you different they're yeah they're yeah they vary by whoever's asking the question yeah are you 18
+[08:44.320 --> 08:50.240]  to 24 are you 25 to 33 you know it's like the thing that bugs me though is there's usually like
+[08:50.240 --> 08:57.520]  a 55 and up or something i am quickly approaching that like right and you just know that when you
+[08:57.520 --> 09:02.800]  click that one it just goes right in a circular file right yeah right right to dev null thanks
+[09:03.520 --> 09:09.520]  thanks for reading don't care well anyway we're not even close to being in a range of where
+[09:09.520 --> 09:17.280]  facebook facebook doesn't even want to spy on us uh anyway 13 to 35 they're paying them 20 bucks a
+[09:17.280 --> 09:22.560]  month uh the facebook one is in the google one you get like points toward the google play store
+[09:22.560 --> 09:28.240]  or something like that seems worse almost yeah i mean you know although you know like if they're
+[09:28.240 --> 09:34.480]  going for kids that's probably what the kids want anyway but yeah i wonder uh but they shouldn't be
+[09:34.480 --> 09:41.920]  going for kids you would hope not yeah but anyway they called it a facebook research app although
+[09:41.920 --> 09:46.000]  the the web page i mean there was a way that if you paid attention as you were clicking through
+[09:46.000 --> 09:49.600]  that you could see this was going to facebook but they kind of disguised it like the initial
+[09:49.600 --> 09:57.120]  web page where you'd sign up was uh administered through beta testing services applause beta bound
+[09:57.120 --> 10:03.760]  and you test and it did seem that they were sort of the shins and industrial complex right
+[10:05.120 --> 10:09.120]  right it wasn't like they registered a fake name or something there was you know eventually you
+[10:09.120 --> 10:13.520]  could see that it was uh facebook but it didn't seem like they were upfront about it
+[10:13.520 --> 10:19.360]  i can see i worry i actually even mentioned to my son i brought this up to jonas yesterday i could
+[10:19.360 --> 10:23.920]  see that if if it seemed like you were going to get 20 bucks a month i can't i could see him
+[10:23.920 --> 10:30.240]  signing up for this oh yeah like i it's like the old what would you do to go yeah i mean i need to
+[10:30.240 --> 10:34.800]  go check hank's device and make sure that it's not on there because i would not be surprised at all
+[10:34.800 --> 10:37.840]  it is it's like the old what would you do for a klondike bar
+[10:37.840 --> 10:42.160]  who do i have to kill right one of my all-time favorite tweets from the old days when we all we
+[10:42.160 --> 10:47.600]  used to do like circa 2007 was just cracked one-liners on twitter is the one time i don't
+[10:47.600 --> 10:53.120]  know how many and it was back in the old uh favorite favored favored whatever favored
+[10:53.120 --> 10:59.680]  whatever it was called yeah uh i tweeted uh you don't want to know what i would do for a klondike
+[10:59.680 --> 11:05.440]  bar i don't even like klondike bars i don't even like klondike bars i don't even like klondike bars
+[11:05.440 --> 11:09.520]  but i just thought it was a funny tweet back in the day when we did that anyway i don't want to
+[11:09.520 --> 11:16.480]  know what my son would do for 20 a month what would you install for 20 a month yeah it's hard
+[11:16.480 --> 11:23.840]  to it's a hard thing to explain to a kid yeah why this is important yeah um and i don't think
+[11:23.840 --> 11:29.760]  hank fully gets it yet but um i mean that's serious money i mean what is it 480 a year
+[11:29.760 --> 11:37.760]  am i doing the math right yeah 10 times no 10 times no 280 no 240 240 i doubled it 240 right
+[11:37.760 --> 11:44.400]  math majors clearly but 240 bucks a year just to sign up and let facebook see what you're doing on
+[11:44.400 --> 11:50.320]  your phone tells you how how valuable that information is to facebook right yeah i mean it's
+[11:52.080 --> 11:57.120]  i mean they probably wouldn't pay everybody you know they're not gonna what do they have like 1.7
+[11:57.120 --> 12:02.240]  billion users they're not going to pay 20 billion dollars a month to get it on everybody but you
+[12:02.240 --> 12:06.800]  know to get you know however many i'd be fascinated to know how many people they got to sign up for
+[12:06.800 --> 12:10.240]  this by the way it's too bad the jig's up i would sign up and then just like screw around with it
+[12:12.240 --> 12:19.200]  i got an ios device lying around here that i'm not using anyway so uh the story broke yesterday
+[12:19.200 --> 12:28.080]  it's very clearly against the terms of the developer enterprise certificate which very
+[12:28.080 --> 12:36.480]  clearly says this is for your employees and facebook somehow and initially this is this is
+[12:36.480 --> 12:41.200]  what gets me is tech crunch does the you know the responsible thing they're you know they they're
+[12:41.200 --> 12:46.880]  a straight and narrow reporting operation so they contacted fate you know they figure all this out
+[12:46.880 --> 12:51.360]  they obviously caught them red-handed but then they contacted facebook for comment and comment
+[12:51.360 --> 12:56.800]  facebook said that what they were doing doesn't violate apple's enterprise certificate policy
+[12:58.320 --> 13:08.240]  nothing to see move along but the actual words that apple uses are distribute provisioning
+[13:08.240 --> 13:15.520]  profiles only to your employees and only in conjunction with your internal use applications
+[13:15.520 --> 13:23.520]  for the purpose of developing and testing like that's a direct quote like it it really does it
+[13:24.080 --> 13:29.200]  it's not just that they broke the rules flagrantly and that this is a sketchy thing to even want to
+[13:29.200 --> 13:34.320]  do right like the idea that you would even have a meeting to say well how can we how can we put
+[13:34.320 --> 13:39.440]  something on a couple of thousand people's phones including especially teenagers and figure out what
+[13:39.440 --> 13:44.400]  the hell they're doing like that's a weird you're you're already at a weird place where you're even
+[13:44.400 --> 13:50.560]  thinking about it yeah and it's not just that they did it but it's that that to me that the
+[13:50.560 --> 13:56.240]  the cherry on the top is their initial statement was well this isn't even against the rules
+[13:59.360 --> 14:05.120]  what could be wrong what could be wrong with this right certainly nothing we were just talking we
+[14:05.120 --> 14:10.160]  were reminiscing because jonas had a birthday recently and you know brings up you know remember
+[14:10.160 --> 14:16.080]  you know remember when remember when when jonas was little and jonas had a thing it was so funny
+[14:16.080 --> 14:21.680]  and it i think it's genetic and he got it from me was if if we caught him doing something he
+[14:21.680 --> 14:26.720]  wasn't supposed to do like trying you know like trying to get a cookie you know which he would
+[14:26.720 --> 14:30.080]  literally it happened you know i know it's a cliche like kids stealing cookies from the cookie
+[14:30.080 --> 14:34.480]  jar but like we caught him trying to get a new minnow when he hadn't asked if he could have a
+[14:34.480 --> 14:41.920]  numino and amy would say like or amy or me would say what are you doing he would he would say don't
+[14:41.920 --> 14:53.760]  look at me at the time it was a little angering and in hindsight it's adorable yeah right don't
+[14:53.760 --> 15:00.560]  look at me don't look at me is he i think he was trying to do like a force you know like yeah
+[15:00.560 --> 15:05.760]  an obi-wan thing right yeah don't look at the droids these aren't the droids you're looking for
+[15:10.240 --> 15:15.360]  facebook's reaction seems like the the corporate corporate equivalent of that this isn't against
+[15:15.360 --> 15:22.400]  the rules it does seem like they tried to pull a jedi mind track god and they you do get the
+[15:22.400 --> 15:28.480]  sense though they just don't they don't have any clue that that what they do is wrong well no i
+[15:28.480 --> 15:34.160]  think they do general basis i think they do know it's wrong because i i really do i i honestly
+[15:34.160 --> 15:39.280]  think that i'm not saying and i'm sure that there are facebook and there's so many gazillion
+[15:39.280 --> 15:43.520]  facebook employees i'm sure there's some who listen to the show and so i'm not trying to say
+[15:43.520 --> 15:52.160]  everybody who works facebook is a bad person um but at the you know there are parts of the company
+[15:52.160 --> 15:56.880]  you know you you kind of have to you know what's the old quote that you hard to make a man
+[15:56.880 --> 16:02.720]  understand something when his paycheck depends on not understanding it right like you know
+[16:03.680 --> 16:08.160]  and there are people there who are clearly either bad people or uh
+[16:11.280 --> 16:17.040]  just so a amoral if not immoral because one of the other stories that's that's come out in the last
+[16:17.040 --> 16:26.640]  week was that uh that they had paid pay to play games where they were uh knowingly taking money
+[16:26.640 --> 16:32.640]  from children all right who their own investigation showed that the kids would be very
+[16:32.640 --> 16:38.480]  likely to think that they were spending virtual in-game currency right because that's a huge thing
+[16:38.480 --> 16:42.880]  like there's a ton of games where you know you run around and collect you know coins or whatever
+[16:42.880 --> 16:49.040]  yeah and it's and then you can cash the points or the coins in for weapons or or upgrades or
+[16:49.040 --> 16:53.200]  second chances whatever but it turned out that they were spending their parents money because
+[16:53.200 --> 16:57.440]  it was like the parents were like here you know play this facebook game play this game and they
+[16:57.440 --> 17:03.360]  and there was no like unlike ios or even android there was no mechanism for parental approval it's
+[17:03.360 --> 17:09.600]  like you put your credit card in and anything that gets bought right immediately gets rung up right
+[17:09.600 --> 17:14.320]  and i i'm not saying you know i i know that there have been cases where kids have run up bills on
+[17:14.320 --> 17:22.800]  ios too but you you've got to you know and i guess the most likely way would be handing your phone
+[17:22.800 --> 17:28.560]  over to a kid but even then it still prompts for like your you know your your fingerprint
+[17:28.560 --> 17:31.760]  yeah your face i think it's done it's gotten better i mean i think in the early days it was
+[17:32.800 --> 17:37.200]  people were still trying to understand it on ios and also i think apple was still struggling to
+[17:37.200 --> 17:42.800]  make the system work a little bit better yeah i mean i guess yeah i mean hank hank did exactly
+[17:42.800 --> 17:50.480]  that he got he like with the ipad he rang up like a 125 dollar bill at one point and you know and
+[17:50.480 --> 17:57.600]  they were they were very good about just like going oh yeah okay and refunding it right very
+[17:57.600 --> 18:02.720]  good about refunding it whereas facebook's thing this story uh it suggested is that they were very
+[18:02.720 --> 18:07.760]  resistant to refunding it yeah and they had a name for the kids they were they were whales yeah they
+[18:07.760 --> 18:14.400]  well the kids who were big spenders it's exactly which is exactly the terminology from the casino
+[18:14.400 --> 18:23.280]  industry the casino um angry birds of all games and here's a quote this is a story that i i linked
+[18:23.280 --> 18:29.200]  a week or so ago uh from reveal uh in nearly all cases the parents knew their child was playing
+[18:29.200 --> 18:33.520]  angry birds but didn't think the child would be allowed to buy anything without their password
+[18:33.520 --> 18:39.920]  or authorization first surprised that's actually a reasonable assumption right that you'd at least
+[18:39.920 --> 18:43.920]  you know well my kid ain't isn't gonna be able to buy anything unless i authorize it well guess what
+[18:43.920 --> 18:52.720]  you just click a button and you you bought something um it did this this lawsuit has
+[18:52.720 --> 18:59.840]  uncovered actual uh you know internal documentation from uh from facebook so it's not just speculation
+[18:59.840 --> 19:05.680]  i mean these are actual communications within the company uh truly outrageous i mean i don't see how
+[19:05.680 --> 19:10.240]  you can debate that this is this isn't these are bad people i mean again i'm not saying everybody
+[19:10.240 --> 19:16.480]  facebook's bad but there are clearly bad people in decision-making positions yeah um yeah i mean
+[19:16.480 --> 19:20.880]  some of the comment the back and forth that they quoted was like you know like are we refunding
+[19:20.880 --> 19:25.760]  this like no lol okay yeah yeah here's here's i'm gonna read the transcript here's the transcript
+[19:25.760 --> 19:32.560]  between two employees uh jillian is is the one investigating a refund request and michael i
+[19:32.560 --> 19:38.400]  guess is her supervisor jillian would you refund this whale ticket user is disputing all charges
+[19:38.400 --> 19:43.520]  michael what's what's the user's total lifetime spent oh yeah okay this sounds a lot like being
+[19:43.520 --> 19:50.480]  in a casino jillian it's six thousand five hundred forty five dollars oh my god but the card was just
+[19:50.480 --> 19:57.040]  added on september 2 they are disputing all of it i believe that user looks underage as well
+[19:57.040 --> 20:05.680]  well maybe not under 13 michael is the user writing in a parent or is this user a 13-ish year old
+[20:05.680 --> 20:14.320]  jillian it's a 13-ish year old says it's 15 looks a bit younger she not it's lol michael
+[20:14.960 --> 20:21.520]  i wouldn't refund i wouldn't refund jillian oh that's fine cool agreed just double checking
+[20:21.520 --> 20:28.720]  sixty five hundred dollars oh my god and the worst part is is that's not even facebook's primary
+[20:28.720 --> 20:33.680]  business model right making money from games i mean i'm i'm sure it adds up i mean but it's
+[20:33.680 --> 20:38.640]  mostly advertising uh the idea that they would be you know i mean these are people who knew it was
+[20:38.640 --> 20:44.080]  a kid i mean it had to be a mistake how do you not just say you know again you know it
+[20:45.680 --> 20:50.400]  small mom and pop business a sixty five hundred dollar refund is something but when it's virtual
+[20:50.400 --> 20:54.400]  you know it's not like they gave the kid a sixty five hundred dollars worth of goods you know what
+[20:54.400 --> 20:59.600]  i mean yeah you know what i mean some kid goes on amazon walk away with something actually physical
+[20:59.600 --> 21:04.160]  physical yeah right some kid goes on amazon and buys a you know sixty five hundred dollar gaming
+[21:04.160 --> 21:11.280]  pc again again something that well hank i so i bought him a book one time when he was little
+[21:11.280 --> 21:16.640]  i mean this is a long time ago and on a and on a computer and i you know stupidly did it on his
+[21:16.640 --> 21:22.560]  computer and left the credit card in there what does it matter with you i don't know and so he's
+[21:22.560 --> 21:30.240]  and so he's on amazon and he's just like any like he's looking up wetsuits and he bought a thousand
+[21:30.240 --> 21:38.560]  dollars worth of wetsuits i mean unfortunately we were able to return all of them the funniest part
+[21:38.560 --> 21:44.480]  too is like oh i didn't i was just clicking buttons i didn't know what i was doing the
+[21:44.480 --> 21:50.720]  funniest part is that you do a parenting podcast well i've always said that it's a cautionary tale
+[21:50.720 --> 21:59.920]  it's not it's not i don't claim to have any uh any good advice i mean this is it's just it could not
+[21:59.920 --> 22:04.400]  be more outrageous right i mean there's no physical goods it's not like there's a sixty five hundred
+[22:04.400 --> 22:09.440]  dollars worth of wetsuits that okay you have to send the wetsuits back then we'll issue a refund
+[22:09.440 --> 22:12.800]  right i mean that would be fair and i think amazon would do that yeah amazon has a pretty
+[22:12.800 --> 22:19.040]  generous return policy um you know with the virtual in-game stuff you know it's it you know
+[22:19.040 --> 22:24.880]  i i'm sure it gets abused i'm sure that there are you know i i wouldn't it be fascinating to talk
+[22:24.880 --> 22:31.040]  to someone at apple who deals with this you know at a management level like where do they draw the
+[22:31.040 --> 22:37.840]  line where you know a a a an adult fully knowledgeable blows more money than they're
+[22:37.840 --> 22:44.320]  comfortable with on you know candy crusher or whatever and then asks for a refund uh
+[22:44.320 --> 22:49.200]  uh i think i told you i don't think i ever talked about this on the show but uh
+[22:50.480 --> 22:55.440]  apparently that's a big problem at hotels with the uh in-room mini bars um
+[22:56.800 --> 23:01.920]  i forget who i was talking to who knew about it uh i was like talking to someone who worked at a
+[23:01.920 --> 23:08.080]  hotel and and the gist of it is that you would you know basically you would not believe how many
+[23:08.080 --> 23:15.360]  mini room charges are disputed that they are like i didn't drink it yet uh yeah what do you mean
+[23:15.360 --> 23:19.440]  i what do you mean i drank all the vodka in the the fridge i didn't i didn't touch it you mean
+[23:19.440 --> 23:25.760]  like lyingly disputed yeah like they know like they you know they i've never once checked into
+[23:25.760 --> 23:31.760]  a hotel and had like a half empty mini bar right like if there's a mini bar it is always you know
+[23:31.760 --> 23:38.240]  it's very orderly uh you could see where the slots are for the things you know uh but you know
+[23:38.240 --> 23:43.360]  apparently it is extremely common for people people to partake of the mini bar and then when
+[23:43.360 --> 23:48.320]  they're presented with the bill dispute all of it and just say i didn't do it and that the hotels
+[23:48.320 --> 23:54.080]  often just say okay we just eat it you know whatever uh i don't know how often i would
+[23:54.080 --> 24:01.200]  imagine there's a similar similar situation with legitimate in-app game purchases right i would
+[24:01.200 --> 24:07.600]  imagine that somebody you know wakes up oh sure realizes they spent a hundred dollars on on clash
+[24:07.600 --> 24:13.040]  of clans or whatever regrets it and then says hey that was my kid you know whatever i don't know how
+[24:13.040 --> 24:18.880]  they adjudicate that because obviously that is legitimate there's probably like a read they
+[24:18.880 --> 24:22.400]  probably i mean they must keep track of them in some way and right and say you know like if you're
+[24:22.400 --> 24:26.320]  if you're calling up every other day and doing it right then right there has to be eventually you're
+[24:26.320 --> 24:33.280]  gonna like right you either have to do some real parenting or you you have a problem yeah it would
+[24:33.280 --> 24:37.360]  be fascinating to know how that goes but when the first one comes in i mean and these people are
+[24:37.360 --> 24:43.120]  saying they even know it it's the 13 year old i i the fact that it's the 13 year old who who is
+[24:43.120 --> 24:48.240]  the girl who's who's contacting facebook for this makes me it almost breaks my heart because it makes
+[24:48.240 --> 24:53.120]  me think because it's not the parent writing and it's the girl and it's like she must know she's
+[24:53.120 --> 25:02.400]  in trouble screwed up yeah right and and it's i i it's oh it's it's it the whole thing we laughed
+[25:02.400 --> 25:06.160]  at it but it actually the fact that it was the girl writing in and that they're just lolling at
+[25:06.160 --> 25:12.560]  her and they're like i wouldn't refund uh i figured just checking it's like it actually
+[25:12.560 --> 25:18.160]  to me makes it heartbreaking in a way that that it wouldn't if it was the the adult writing in
+[25:18.160 --> 25:23.440]  yeah it's just crazy though i mean obviously that's a mistake there's no there's no universe
+[25:23.440 --> 25:31.520]  right like a billionaire you know uh howard schultz's daughter could be writing in and it's
+[25:31.520 --> 25:36.240]  like there's no way even a billionaire isn't going to let his 13 year old buy 6500 worth of angry
+[25:36.240 --> 25:44.960]  birds i would hope not i would i guess i would i don't know i mean i bet maybe there's somebody
+[25:44.960 --> 25:50.800]  maybe there is somebody but i i would hope nobody does that well it's in a lot of ways it's a bad
+[25:50.800 --> 25:56.800]  company and this thing is really interesting to me well anyway uh back to this this latest thing
+[25:56.800 --> 26:02.000]  with this facebook uh so they're they're up in arms over there now right i mean today they're
+[26:02.000 --> 26:07.040]  having a bad day over at facebook because they none of their stuff works right so what apple did
+[26:07.040 --> 26:15.280]  last night was revoke their their enterprise certificates plural according to recode because
+[26:15.280 --> 26:20.480]  apparently they have several um so their apps are all in the store you can still download you know
+[26:20.480 --> 26:26.080]  facebook's still in the app store instagram all you know all the dozens of apps they have um and
+[26:26.080 --> 26:30.800]  you know they still work perfectly on your phone but internal to facebook because they've disabled
+[26:30.800 --> 26:36.080]  their enterprise certificate the employees versions of all these apps stopped working like
+[26:36.080 --> 26:43.440]  like when they revoke your certificate it it means you know that it it i guess it doesn't delete the
+[26:43.440 --> 26:50.000]  app from your device but it means that it doesn't work yeah so i don't know how many thousands tens
+[26:50.000 --> 26:55.600]  of thousands of employees facebook has but all of their installed versions of facebook's apps
+[26:55.600 --> 27:02.160]  stopped working today uh i don't even begin to understand the processes that would be in place
+[27:02.160 --> 27:11.120]  at a big company like that um but i have friends who work at you know similarly size companies uh
+[27:11.120 --> 27:17.280]  or or you know similar popularity companies and like the the things i've heard this morning or
+[27:17.280 --> 27:21.520]  like this would be to say that this would be disruptive for us would be an understatement
+[27:21.520 --> 27:26.080]  that there's it's not just that you've got to go to the app store and download facebook from the
+[27:26.080 --> 27:30.960]  app store and install it but there's all sorts of automated testing and etc during the development
+[27:30.960 --> 27:36.160]  you know the whole development workflow revolves around having a working developer certificate
+[27:38.880 --> 27:45.200]  testing you know in the production version of the app is not a difficult and be not recommended
+[27:46.000 --> 27:52.960]  so how permanent this is is still uh you know at at air at press time here as they say you know
+[27:52.960 --> 28:00.960]  unknown but uh even if it's just a day it is obviously a bit of a wrap on the wrist from apple
+[28:00.960 --> 28:06.800]  to facebook yeah it'll be interesting to see what happens with google now yeah i i this other thing
+[28:06.800 --> 28:10.560]  yeah i wonder it makes me wonder how many of the how much of this is going on from other companies
+[28:10.560 --> 28:14.320]  like how many places how many people are doing this yeah like i said i mean i you know every
+[28:14.320 --> 28:18.240]  once in a while i see that hank has downloaded one of these things and so these this stuff is out
+[28:18.240 --> 28:25.600]  this stuff is out there considerably i think um and and it has been out and it's been going on for
+[28:25.600 --> 28:31.680]  years yeah people's hunger for data these companies hunger for data is just insatiable it really is
+[28:31.680 --> 28:39.280]  uh and it's fascinating to me even with the app store in place and even with apple's policies
+[28:39.280 --> 28:45.760]  making the app store more a stricter app store than say the google play store in terms of what
+[28:45.760 --> 28:51.600]  goes through and android famously has has you know built into the system the ability to you
+[28:51.600 --> 28:57.520]  you as the user can say i you know uh i think i'm on almost all android phones it's off by default
+[28:57.520 --> 29:02.720]  but you can turn on you don't need to use like a secret you know thing it's a officially supported
+[29:02.720 --> 29:07.840]  preference to side load applications from other sources other than the play store obviously like
+[29:07.840 --> 29:12.640]  in china where google it the stuff doesn't really go through google's android everything is sort of a
+[29:12.640 --> 29:19.440]  a fork of the open source android you know who knows what's going on but even with apple's
+[29:19.440 --> 29:24.720]  policies in place where side loading isn't really possible it's a it seems like this developer
+[29:24.720 --> 29:29.360]  certificate thing the more we look at it in the last 24 hours it might be widely being used to
+[29:29.360 --> 29:36.240]  sort of effectively do side loading and b it's sort of distressing how much stuff goes through
+[29:36.240 --> 29:42.880]  the app store anyway right how much trackers and and all sorts of stuff is is going on and
+[29:42.880 --> 29:48.080]  when people analyze you know what apps in the app store actually keeping track of yeah
+[29:50.080 --> 29:56.720]  i i feel like the political angle on this is you can't escape it that it's and i realize it's not
+[29:56.720 --> 30:02.640]  the law right like what apple says our app store policies doesn't mean it's illegal right i'm not
+[30:02.640 --> 30:08.320]  saying facebook did anything illegal although i it there ought to be a law as they say right yeah
+[30:09.280 --> 30:12.960]  well see yeah i mean it seems like there should be i mean it certainly should be for adults only
+[30:12.960 --> 30:20.080]  i mean like a kid should not be targeted by this stuff absolutely i definitely think a kid shouldn't
+[30:20.080 --> 30:25.520]  be and i i think anyway in adults it seems almost like a akin to the kind of like medical
+[30:25.520 --> 30:32.080]  experimentation where you get you know you get paid to come in and like take a drug or something
+[30:32.080 --> 30:40.960]  like that um and uh i mean that stuff happens they they have conditions for those so situations
+[30:40.960 --> 30:46.480]  there's a security expert named will uh i hope i pronounce his surname correctly straffic
+[30:46.480 --> 30:51.280]  s-t-r-a-f-a-c-h i followed him for years on twitter he goes under the twitter name chronic
+[30:53.120 --> 31:00.160]  but he's a outstanding uh uh security expert who's who's you know either uncovered all sorts
+[31:00.160 --> 31:07.680]  of shenanigans over the years or or can analyze shenanigans that are discovered by others and so
+[31:07.680 --> 31:14.080]  tech crunch reached him you know for expert commentary um you know and it to me it's this
+[31:14.080 --> 31:18.640]  whole thing like tech crunch has been on a real role it's it's truly i thought it was an outstanding
+[31:18.640 --> 31:25.200]  report because they they it's sometimes when a bigger publication like say the new york times
+[31:25.200 --> 31:29.680]  or somebody gets something technical they you see that they get technical things wrong or they
+[31:29.680 --> 31:35.840]  yeah go to the wrong they go to like an analyst for like a business analyst for commentary as
+[31:35.840 --> 31:41.440]  opposed to tech crunch who went to a legitimate well-known highly regarded security expert anyway
+[31:41.440 --> 31:48.240]  here's what he said this is a quote he gave to facebook this hands facebook continuous access
+[31:48.240 --> 31:54.800]  to the most sensitive data about you and most users are unable to reasonably consent there is
+[31:54.800 --> 31:59.520]  no good way to articulate just how much power is handed to facebook when you do this i thought
+[31:59.520 --> 32:05.280]  that the the key part of that is well a good to emphasize that yes this hands over it's you
+[32:05.280 --> 32:08.880]  that it's hard to even say how much how much facebook knows about what you're doing on your
+[32:08.880 --> 32:16.160]  phone when you consent to this um but this idea that that users are unable to reasonably consent
+[32:17.040 --> 32:23.440]  and i think that's going to be controversial or people will disagree you know um like i saw this
+[32:23.440 --> 32:27.040]  morning there was a headline that facebook's controversial data tracking blah blah blah and
+[32:27.040 --> 32:30.480]  i was like this isn't controversial because there's not really people on the other side like
+[32:30.480 --> 32:35.200]  controversy is when there's people arguing one side and other people arguing the other you know
+[32:35.200 --> 32:41.040]  taxes are too high no taxes are too low well there's two groups it's controversy uh nobody's
+[32:41.040 --> 32:46.320]  really saying hey this is okay um although there was one guy on twitter and i don't want to call
+[32:46.320 --> 32:51.680]  them out by particular but it's a somewhat reasonable take his take was sort of the hey
+[32:51.680 --> 32:55.440]  it's a free country i think he even said it in the tweet to me that hey it's a free country
+[32:55.440 --> 33:02.400]  that it's not like they surreptitiously installed this they you know paid people 20 a month told
+[33:02.400 --> 33:11.520]  them you know what it does and they agreed to it um now that that angle yeah well that disregards
+[33:11.520 --> 33:16.800]  the you're violating apple's terms but i so i think and i think he knows that this guy i don't
+[33:16.800 --> 33:24.480]  think he was saying yeah yeah i think he was just talking about the general moral universe of this
+[33:24.480 --> 33:32.480]  of this action i i side with straffic that people they they yes people agreed to the terms but i
+[33:32.480 --> 33:38.400]  don't think that that normal people most people could really understand the profoundness of of
+[33:38.400 --> 33:42.800]  what they're handing over to facebook yeah and we don't there's other things that we don't there we
+[33:42.800 --> 33:48.080]  don't allow predatory lending practices i mean well you know well some but we don't we don't
+[33:48.080 --> 33:51.600]  have enough restrictions on predatory lending practices i don't say that but there are certain
+[33:51.600 --> 33:58.320]  restrictions on predatory lending practices right that and in fact it's actually i feel like that's
+[33:58.320 --> 34:07.760]  one of the areas where the united states really needs to uh take take back that that's a great
+[34:07.760 --> 34:14.480]  analogy in my in my opinion right like payday lending at exorbitant exorbitant interest rates
+[34:15.280 --> 34:18.400]  well and you think about the kind of i mean like you you could make the some people i've seen
+[34:18.400 --> 34:21.360]  making the argument like well who would do this and why would they do it well like if you don't
+[34:21.360 --> 34:27.760]  have very much money 240 bucks a year might seem like an awful lot and that might seem like oh
+[34:27.760 --> 34:31.040]  okay well you know facebook's getting something they're getting something so why not well
+[34:32.400 --> 34:38.240]  because facebook is getting a lot more than it the people who are getting the money realize it
+[34:38.240 --> 34:44.000]  is true and and i don't you know i don't want to say it's the capital l libertarian parties but
+[34:44.560 --> 34:50.160]  lower case l libertarian philosophy that you know people should be free to make their own choices
+[34:50.160 --> 34:55.360]  would suggest that even you know a payday lending place that tells you hey we're going to charge 20
+[34:55.360 --> 35:02.960]  percent interest per week uh you know if they charge what they told you and you agreed to it
+[35:02.960 --> 35:09.520]  then why is that not allowed right why can't you choose willingly and openly to pay 20 percent
+[35:09.520 --> 35:16.640]  weekly interest or whatever you know they might want to charge and i'm of the opinion and i think
+[35:16.640 --> 35:22.240]  and i think the majority of you know people would agree that part of the role of government is to
+[35:22.240 --> 35:27.920]  protect people you know protect the populace from themselves and the truth is too many people don't
+[35:27.920 --> 35:35.840]  don't understand how interest works you know it's you know it you know we're getting into
+[35:35.840 --> 35:42.160]  philosophical ground here but yeah uh you know i i think that there should be things that are
+[35:42.160 --> 35:48.960]  outlawed even if it not because they're deceptive but it just because it's outrageous right it
+[35:48.960 --> 35:55.680]  there's it they're simply taking advantage of uh they're taking advantage companies taking
+[35:55.680 --> 35:59.680]  advantage of people i just read a thing the other day another example it is legal right now and i
+[35:59.680 --> 36:04.400]  really really feel like it's something that the united states has really ought to crack down on
+[36:04.400 --> 36:13.360]  our um overdraft fees in bank accounts and i forget the stat i think it was like i don't know
+[36:13.360 --> 36:17.280]  if it was for the quarter or the year but somebody had a you know and they had a link citing it but
+[36:17.280 --> 36:23.360]  effectively they were like us banks made 3.5 billion dollars last i'm gonna say a year 3.5
+[36:23.360 --> 36:29.040]  billion dollars on overdraft fees which means they took 3.5 billion dollars from people who
+[36:29.040 --> 36:35.440]  were broke yeah all right right uh it's and you know all right so maybe your checking account it
+[36:35.440 --> 36:40.640]  was as empty but you weren't broke because you had a savings account but but effectively that's 3.5
+[36:40.640 --> 36:46.480]  billion dollars from people whose checking account was down to zero yeah that it's it's wrong right
+[36:46.480 --> 36:51.600]  and and yes you you know when you sign up for your bank account and you get this booklet of all the
+[36:51.600 --> 36:56.080]  rules and regulations i'm sure it's written in there exactly what the overdraft fee is exactly
+[36:56.080 --> 37:00.080]  how it can get triggered i'm sure it's all perfectly you know and it's been triple checked
+[37:00.080 --> 37:06.000]  by all of their lawyers again i just don't think i don't think it's right you know and and i don't
+[37:06.000 --> 37:11.680]  think i think straffic is right that you can't expect non-technical people to understand exactly
+[37:11.680 --> 37:18.720]  what they're giving over to facebook in this case right yeah i mean i obviously completely agree
+[37:18.720 --> 37:22.800]  and there are many more cases that we can i mean other examples of similar things that we could
+[37:22.800 --> 37:27.840]  cite but yeah uh i think the interesting thing one of the interesting angles here is the
+[37:29.200 --> 37:34.880]  the sort of game of chicken that facebook is obviously willing to play with apple right
+[37:34.880 --> 37:43.920]  because if if you and i started a company and we made an app and we used our developer certificate
+[37:43.920 --> 37:50.480]  if we did exactly what facebook did and we you know used it you know just did exactly what they
+[37:50.480 --> 37:56.080]  did i paid people twenty dollars a month and used our developer beta certificate to go around the
+[37:56.080 --> 38:03.040]  app store and install a vpn that was collecting all of their data uh the john and john company
+[38:05.840 --> 38:12.560]  is their apps in the app store are probably going away yeah right probably not much of an
+[38:12.560 --> 38:18.880]  appeal process uh you know i there's an obvious angle to this and again this is where i was going
+[38:18.880 --> 38:25.280]  minutes ago with my look i know apple is not the law but when we talk legally there's there's a
+[38:27.120 --> 38:32.800]  principle that you know doesn't really hold true effectively but it it's it's a good guiding light
+[38:32.800 --> 38:39.920]  which is that the law applies equally to everyone no one's above the law uh it is hard not to see
+[38:39.920 --> 38:45.600]  say that that bigger companies in the app store are right that's what i was gonna say it's like
+[38:45.600 --> 38:50.720]  that's clearly not exactly how the app store has played out but right it you know if you're big
+[38:50.720 --> 38:58.240]  enough you get treated differently uh you know a good example of that was uber a couple of years
+[38:58.240 --> 39:09.040]  ago uh was caught geofencing apple's campus uh in their app i forget exactly why but the gist of it
+[39:09.040 --> 39:18.480]  was the uber app acted differently when the geo the location was within blank of apple's campus
+[39:18.480 --> 39:26.480]  in cupertino and outside that area acted differently so that when on the assumption that
+[39:26.480 --> 39:33.120]  it was going to be tested by app store testers in cupertino they would see they would miss behavior
+[39:33.120 --> 39:36.080]  they would they wouldn't see behavior that uber was trying to hide from apple
+[39:36.080 --> 39:40.560]  and you know once uncovered you could prove that the app was doing this right it you know
+[39:40.560 --> 39:44.720]  you don't have to have the source code to notice that it does this only when you're not near
+[39:44.720 --> 39:49.520]  apple's campus it's not like uber you know uber did not get kicked out of the app store
+[39:49.520 --> 39:57.520]  uh you know apple probably made a phone call yeah you know which i wouldn't be great which someday
+[39:57.520 --> 40:03.680]  it would be great if apple just released all these uncomfortable phone calls uncomfortable
+[40:03.680 --> 40:07.600]  phone calls we've made to app store violators like wouldn't you love to hear that call
+[40:10.240 --> 40:15.120]  it's you know hard not again it's hard not to think that if uh you and i submitted an app to
+[40:15.120 --> 40:25.840]  apple that tried to geofence seriously we're not still going to be in the app store yeah anyway so
+[40:25.840 --> 40:32.000]  it's it really seems like facebook has a sort of a sort of assumes that they can do whatever they
+[40:32.000 --> 40:39.120]  want until they get caught and pay no price for it because what are you what are you going to do
+[40:39.120 --> 40:45.120]  pull facebook from the app store and say there's no facebook on iphone yeah and that's for i mean
+[40:45.120 --> 40:50.640]  you know in this instance it is fortunate in a way that it well i mean i don't know if it's fortunate
+[40:50.640 --> 40:54.960]  or not because eventually it seems like this is going to come to a head but that apple was able
+[40:54.960 --> 41:01.280]  to do something that really does seem like it's hurting facebook internally without pulling the
+[41:01.280 --> 41:11.120]  you know the the public facing app yeah uh i don't know but it's you know it's an interesting dynamic
+[41:11.120 --> 41:19.680]  to me that facebook i think you know implicitly it seems to believe that they can keep keep breaking
+[41:19.680 --> 41:25.040]  as many rules as they want and they'll just have to stop doing it you know stop doing the thing
+[41:25.040 --> 41:30.560]  and face no further repercussions because what's apple gonna do pull them from the app store and i
+[41:30.560 --> 41:37.600]  actually see that i you know i see that they have a point it would be you know what would typical
+[41:37.600 --> 41:42.320]  app you know what if can fake can facebook cross a line where apple would literally pull that
+[41:42.320 --> 41:46.880]  facebook app from the app store yeah it would be interesting to see what would happen because
+[41:46.880 --> 41:53.280]  i mean if they would just like said okay we're just on android now right it's that's you know
+[41:53.280 --> 41:58.800]  just you know it's seems unlikely but it's possible right there has to be some line that
+[41:58.800 --> 42:05.200]  they could cross you know and that would have that happen and what would iphone owning facebook users
+[42:05.200 --> 42:12.160]  think and you know would that in would that death penalty include all of their apps which would
+[42:12.160 --> 42:21.680]  include instagram uh whatsapp yeah uh i mean it's it it they hold even with the app store in place
+[42:21.680 --> 42:28.880]  in place they hold an enormous amount of power in this relationship and and in terms of you know
+[42:30.960 --> 42:35.120]  you know it in some ways it's incomprehensible to think that they'd apple would pull facebook
+[42:35.120 --> 42:41.680]  instagram and whatsapp from the app store yeah yeah now you you've never had a facebook account
+[42:41.680 --> 42:47.120]  right i have not i'm thinking about signing up though well you can get twenty dollars a month
+[42:47.120 --> 42:55.040]  man i'm also also thinking about taking up cigarette smoking and heroin um i had one
+[42:55.040 --> 42:59.920]  and i deleted it uh last like september or something like that august september sometime
+[42:59.920 --> 43:06.560]  around then and um uh but my wife uh relies on it heavily and she for years she relied on it just
+[43:06.560 --> 43:10.800]  to like keep in touch with her parents who used to live back east and now have since moved out here
+[43:10.800 --> 43:15.760]  so that's less of a factor but um one of the things that i mean she uses it for work because
+[43:15.760 --> 43:22.080]  she's a private investigator and one of the amazing things about it is that people are so
+[43:22.080 --> 43:27.040]  careless with the stuff that they put on uh facebook that it is a great boon to her business
+[43:27.040 --> 43:31.520]  because she's able to figure things out about people and you know find people that she's
+[43:31.520 --> 43:38.000]  looking for and do stuff like that um just through facebook yeah i mean when you see and you see all
+[43:38.000 --> 43:47.280]  sorts of stories all the time about people's you know just from politics to uh gossip type scandals
+[43:47.280 --> 43:52.080]  you know all sorts of stuff ends up you know like through stuff that was posted on facebook like
+[43:52.880 --> 43:59.520]  yeah they have you know i don't know how much of it is through dark pattern design and how
+[43:59.520 --> 44:04.400]  much of it is simply human nature on the part of users you know that once they're using it
+[44:04.400 --> 44:08.960]  they get comfortable um but yeah people you know clearly share all sorts of stuff
+[44:10.080 --> 44:14.960]  i i will say this you know that i have an instagram account i i signed up for instagram
+[44:14.960 --> 44:22.160]  the first day that instagram went was in the app store like and i had heard of it before i know mg
+[44:22.160 --> 44:27.920]  sigler was a beta tester and i'd seen him tweet like they weren't exactly like they weren't
+[44:27.920 --> 44:35.440]  completely cloaked you know there was um and i you know that there were beta users of instagram who
+[44:35.440 --> 44:40.320]  were tweeting like screenshots and stuff so i kind of knew the gist of what it was going to be and i
+[44:40.320 --> 44:46.480]  thought it looked pretty cool and uh i think i probably learned from mg when you know like hey
+[44:46.480 --> 44:51.280]  it's in the app store now and i you know i i'd been intrigued by it and of course in a panic
+[44:51.280 --> 44:57.760]  really wanted to get at grouber so i quick downloaded it and i was like got it uh so i've
+[44:57.760 --> 45:03.920]  been using it literally since the the day that it hit the app store and uh and i used to like it a
+[45:03.920 --> 45:12.640]  lot and now i like it less um but i as still a continuing user of instagram i don't take any
+[45:12.640 --> 45:20.800]  sanctimonious angle on my i've never had a facebook account because i at this point having
+[45:20.800 --> 45:27.920]  an instagram account and continuing to use it puts me on no better whatever you want to call it moral
+[45:27.920 --> 45:33.520]  or you know again sanctimonious ground yeah right i got i might as well have a facebook account for
+[45:33.520 --> 45:37.920]  all that matters you know i'm sure they're tracking everything through it you know so i'm
+[45:37.920 --> 45:43.520]  i'm on the fence about whether to get off instagram but yeah i am i am as well i am on
+[45:43.520 --> 45:47.600]  instagram still you know but i have used it i've started using it a lot less than i used to
+[45:47.600 --> 45:51.920]  i don't think i don't think i've talked about this on the show for if famously well famously
+[45:52.560 --> 46:00.320]  in my mind i didn't see ads and i continued not to see any ads in instagram and that that gravy
+[46:00.320 --> 46:07.120]  train ended for me i'm gonna say like two months ago maybe yeah yeah you mentioned this someplace
+[46:07.120 --> 46:14.080]  and i'm uh it it it worked for me for a while and then but it's been you know it's been at least
+[46:14.080 --> 46:18.160]  i mean it's been well over a year for sure i don't know i've never understood i don't know
+[46:18.160 --> 46:23.120]  anybody at instagram i don't know i never understood why i wasn't getting ads for so long
+[46:24.240 --> 46:29.840]  uh i certainly wasn't i was curious in some ways i was like i'd like to see these ads i hear about
+[46:29.840 --> 46:37.760]  them um boy i sure missed the days when i didn't have instagram ads because boy oh boy did they
+[46:37.760 --> 46:45.600]  show a lot of them like and i don't know if that was it was i i would presume that for most
+[46:45.600 --> 46:53.120]  instagram users it was the uh slow slowly temperature rising frog in a pot you know that
+[46:53.120 --> 46:57.600]  you know it started a little warm and then it got hotter slowly over time but when you go
+[46:57.600 --> 47:08.320]  from no ads to the late 2008 number of ads it is jarring yeah i i would honestly estimate i
+[47:08.320 --> 47:14.240]  presume this is typical i i would say at least one out of four posts in my instagram stream is an ad
+[47:14.240 --> 47:18.880]  possibly closer to one out of three yeah it's like the thing that's the thing that's super
+[47:18.880 --> 47:24.800]  annoying is that they look just like everything else and and the people who are making the ads
+[47:24.800 --> 47:29.440]  go to great lengths in order to try to make them look like pictures that some friend of yours took
+[47:29.440 --> 47:36.720]  yeah one of the things that i really i mean i you know i wish tumblr was tumblr has many problems
+[47:36.720 --> 47:41.600]  and i hardly use tumblr anymore but one of the i think the way they implemented ads was a lot
+[47:41.600 --> 47:46.640]  better because it's when it scrolls it scroll it's like it's like you're scrolling up and
+[47:46.640 --> 47:52.000]  the posts go away and like suddenly this ad reveals and then you keep scrolling and then
+[47:52.000 --> 47:56.720]  more of your posts come back up over the ad so it looks like the ad is like a static thing in
+[47:56.720 --> 48:00.880]  the background i have i don't use tumblr anymore i'll have to yeah i know i mean i barely use it
+[48:00.880 --> 48:07.840]  either but um it's just a much it's a much more refreshing way to have to deal with ads on a
+[48:07.840 --> 48:10.640]  platform like if you're gonna do it i wish they would do it that way but of course they don't
+[48:10.640 --> 48:13.520]  want to do it that way because they want you to think that it's like some post that your friend
+[48:13.520 --> 48:20.160]  made uh i will say their ads are strikingly accurate i mean they're they're way more
+[48:20.160 --> 48:26.560]  are they really hard i mean some of it is obvious i follow a bunch of watch brands on instagram so
+[48:26.560 --> 48:32.320]  i see a lot of watch type stuff um but i saw i got an ad i don't know where they got it i mean but i
+[48:32.320 --> 48:39.120]  saw an ad for american giant american giant is that company that a couple of years ago they
+[48:39.120 --> 48:44.080]  they make uh like hoodies and sweatshirts and stuff like that they're they're like uh almost
+[48:44.080 --> 48:51.600]  like a higher end american apparel uh who doesn't really exist anymore but they made a hoodie that
+[48:51.600 --> 48:58.240]  like five or six years ago uh was heralded as the greatest hoodie ever made and all of a sudden it
+[48:58.240 --> 49:04.320]  was like back ordered by six months and i actually own one i have one uh and it is a very nice hoodie
+[49:04.320 --> 49:11.600]  um but they showed me an ad and uh i that was interesting and then i actually tapped on it to
+[49:11.600 --> 49:19.680]  see more and then oh my god did i start getting ads for hoodies and american giant yeah uh yeah
+[49:19.680 --> 49:24.880]  and then i got an ad about a week ago i saw an ad in my instagram feed for some kind of uh
+[49:25.440 --> 49:30.400]  like an elastic strap you put on your shoulders sort of looks like you know how like the james
+[49:30.400 --> 49:35.920]  bond uh holster that he puts for putting a gun under a suit yeah like that sort of thing but
+[49:35.920 --> 49:40.000]  you know symmetric and the idea is you put it on and it helps with your posture keeps your
+[49:40.000 --> 49:43.840]  shoulders back or something you can wear it on the clothes i could probably use that that that
+[49:43.840 --> 49:49.440]  seemed to i well hey you know maybe my posture could use some help too but i i it intrigued me
+[49:49.440 --> 49:53.440]  because it seemed like it was out of nowhere although on the other hand i was like do they
+[49:53.440 --> 49:58.160]  know i have bad posture the other stuff is accurate enough that it kind of spooked we've
+[49:58.160 --> 50:04.640]  looked into pictures of you but as an experiment as an experiment i tapped it and all of a sudden
+[50:04.640 --> 50:09.360]  i started getting ads for the same sort of device but from like three or four different companies
+[50:09.360 --> 50:17.200]  like i mean so in some sense that is it's not like wow what a crazy ai you know skynet type
+[50:17.200 --> 50:23.280]  system they must have to target me at some level the initial ads did have that aspect like how did
+[50:23.280 --> 50:27.680]  they how did they know that i'm interested in some of this stuff like it actually is up my alley
+[50:27.680 --> 50:31.840]  but then once you click on something it's just the most obvious thing possible they just show
+[50:31.840 --> 50:40.320]  you as many variations of this thing as possible right so i don't like um amazon yeah i've seen
+[50:40.320 --> 50:47.440]  people say wouldn't it you know could apple take on instagram could apple do a uh something that
+[50:47.440 --> 50:55.440]  is like instagram but without all the bad stuff of instagram uh this comes up every time you complain
+[50:55.440 --> 51:00.320]  about instagram yeah i well that's the one i mean the one thing that i've started doing more of is
+[51:00.320 --> 51:08.880]  sharing just through shared uh ifoto yes folders whatever they called uh yeah icloud sharing groups
+[51:08.880 --> 51:13.280]  yeah yeah yeah um with just with my family because i mean the one thing that i feel bad about like
+[51:13.280 --> 51:17.520]  if i completely get off of instagram is you know my mom and my dad won't be able to see pictures
+[51:17.520 --> 51:25.440]  of hank and stuff like that um but you know i just i share a folder with them and now problem solved
+[51:25.440 --> 51:30.640]  yeah so i to me that's not an instagram thing because i don't know it's not no it's not the
+[51:30.640 --> 51:35.520]  same but i think it's that particular part of the problem it is a facebook alternative though
+[51:35.520 --> 51:40.480]  right because that's the sort of thing people use facebook for is right you know the you know your
+[51:40.480 --> 51:44.240]  niece has a third birthday party and you take a bunch of pictures you don't want to post them
+[51:44.240 --> 51:51.280]  publicly so facebook is the sort of thing where you can post them privately uh the icloud sharing
+[51:51.280 --> 51:56.480]  thing takes that role in my life you know we have some just a few shared groups like one for
+[51:57.360 --> 52:02.560]  you know just me and amy and jonas one for amy side of the family uh which is more active and
+[52:02.560 --> 52:09.040]  i think there's one where my mom is invited uh i don't know she has icloud so i think there is um
+[52:10.240 --> 52:14.560]  but you know that's what we put there i take pictures of like a niece or nephew's birthday
+[52:14.560 --> 52:20.160]  party and then i'll post the good ones there um i don't know though because you know i don't know
+[52:20.160 --> 52:23.680]  if you know this but apple doesn't really have a great record with social media networks
+[52:25.920 --> 52:31.200]  just put them all in ping all right hold on let me take a break and uh yeah and uh hit the money
+[52:31.200 --> 52:38.480]  button here uh i tell you about our good friends at casper casper products are cleverly designed
+[52:38.480 --> 52:43.600]  to mimic human curves providing supporting supportive comfort for all kinds of bodies
+[52:44.400 --> 52:49.920]  mattresses that's what casper specializes in look you spend one third of your life sleeping i
+[52:49.920 --> 52:55.200]  spend well over a third of my life sleeping so you should be comfortable trust me i mean it's
+[52:55.200 --> 53:01.680]  it's i sleep is my favorite thing to be tell you the truth the experts at casper they're not just
+[53:01.680 --> 53:05.680]  white labeling mattresses and putting a casper sticker on them they've got an engineering team
+[53:06.480 --> 53:10.560]  mattress engineers it sounds like a joke but everything is engineered everything's designed
+[53:10.560 --> 53:20.240]  casper designs their own mattresses they design the material they design every aspect of it
+[53:20.240 --> 53:26.080]  and they have a breathable design all of their mattresses that helps you sleep cool and regulate
+[53:26.080 --> 53:31.440]  your body temperature throughout the night they offer three mattresses they got the regular
+[53:31.440 --> 53:35.680]  casper mattress that used to be the only one but they've got two new ones that they released in the
+[53:35.680 --> 53:40.880]  last year or so the wave and the essential the wave features a patent-pending premium support
+[53:40.880 --> 53:46.640]  system to mirror the natural shape of your body and they have the essential which has a streamlined
+[53:46.640 --> 53:53.040]  design and a price that as they say won't keep you up at night in other words it's a lower price but
+[53:53.040 --> 53:59.600]  it's still a great mattress and they offer a wide array of other products pillows sheets that sort
+[53:59.600 --> 54:06.160]  of thing anything sleep related you can get from casper and it's all designed developed and assembled
+[54:06.960 --> 54:13.120]  right here in the united states now they've got affordable prices really affordable prices for
+[54:13.120 --> 54:17.840]  premium mattresses compared to mattress stores because they've cut out the middleman they make
+[54:17.840 --> 54:24.400]  they design them they make them and they ship them directly to you there is no you know retail
+[54:24.400 --> 54:29.600]  mattress operation uh now you can do this though you can buy these internet mattresses from casper
+[54:30.800 --> 54:36.480]  with the safety the the security of knowing that you can get a hassle-free return if you're not
+[54:36.480 --> 54:43.360]  completely satisfied 100 night risk-free sleep on at trial that's just amazing you get three full
+[54:43.360 --> 54:47.120]  months and you don't like it no hassle they'll just come right to your house take back give you
+[54:47.120 --> 54:52.960]  all your money back and they've got free shipping and free returns in the us and canada so our
+[54:52.960 --> 55:00.960]  friends up north can partake in the casper fun as as well look we've got casper mattresses here
+[55:00.960 --> 55:05.440]  in the house we love them they're terrific products they last for years i i've been
+[55:05.440 --> 55:09.600]  cast for some sponsoring the show for years now we've got one that they sent before the first
+[55:09.600 --> 55:15.280]  first time they sponsored the talk show still seems good it's new and they got a special offer
+[55:15.280 --> 55:19.840]  for those of you who listen to the show you can save 50 bucks towards select mattresses by
+[55:19.840 --> 55:25.840]  visiting casper.com slash talk show and using that code talk show know that just talk show
+[55:25.840 --> 55:32.720]  all one word at checkout that's casper.com slash talk show select mattress is 50 bucks off
+[55:33.440 --> 55:37.040]  using that special code talk show terms and conditions apply
+[55:39.760 --> 55:45.280]  yeah so we were talking about the idea of an apple alternative to instagram you know and what
+[55:45.280 --> 55:52.160]  is it you know is is the stories feature integral to instagram i mean i don't i don't use the stories
+[55:52.160 --> 55:57.760]  thing i don't get it i know i'm old i know people know how to do it i saw marco yeah i don't either
+[55:57.760 --> 56:05.680]  i like i get over in that area and it's like where the hell am i yeah i really miss when instagram
+[56:05.680 --> 56:14.400]  was you follow people and then they they carefully select their photos they want to post they tend
+[56:14.400 --> 56:20.080]  to either be like momentous occasions or just particularly pleasing photos and then you stream
+[56:20.080 --> 56:28.080]  down and in a chronological order you see the posts the photos from the people who you chose
+[56:28.080 --> 56:33.840]  to follow and then they're all heavily filtered right and then if you wanted there's comments
+[56:33.840 --> 56:39.840]  that are neatly organized as you know one level in you know so if you want to see them you can
+[56:39.840 --> 56:46.480]  but if you don't uh you don't have to like scroll past them uh and then that was it i really i
+[56:46.480 --> 56:51.360]  that's the instagram i liked and i'm you know i i'm sure they're making much more money now than
+[56:51.360 --> 57:00.160]  they were before uh but boy i sure miss that uh yeah yeah me too you know in theory apple could
+[57:00.160 --> 57:05.680]  do it you know and you know could be iphone only and then it's all all of them are implement you
+[57:05.680 --> 57:09.520]  don't have to tag them shot with iphone i get well i mean i guess you can't keep people from
+[57:09.520 --> 57:16.800]  uploading a uploading other stuff yeah yeah but you know you know keep it iphone ios only uh
+[57:17.600 --> 57:22.480]  how they would deal with usernames i don't know right because you wouldn't want to expose your
+[57:22.480 --> 57:29.840]  apple id right you you might want to but you you probably i wouldn't you know you know it's not
+[57:29.840 --> 57:34.880]  like you want people all of a sudden face timing you which will get to another segment of the show
+[57:34.880 --> 57:41.760]  in a bit uh right i don't want my apple id is my you know in the hypothetical world where apple
+[57:41.760 --> 57:49.920]  launched an instagram competitor for publicly posting images in a timeline you know you'd
+[57:49.920 --> 57:54.480]  want to have a username that was separate from your apple id i mean i guess apple could just
+[57:54.480 --> 57:59.520]  open up a new username space you know and have there'd be like a gold rush to claim your your
+[57:59.520 --> 58:05.360]  desired name yeah uh i don't think apple would do it i don't think they really have an interest in
+[58:05.360 --> 58:11.920]  it i i see how they have an interest in the private icloud photo sharing uh which again
+[58:11.920 --> 58:17.920]  is a great feature i don't know that they have an interest in the public instagram type thing no
+[58:18.640 --> 58:23.760]  it seems like another one of those things like uh the you know making books from
+[58:23.760 --> 58:30.480]  pictures yeah right and photos that uh they would if they did it that they would do it for a while
+[58:30.480 --> 58:34.000]  and then they go ah we're not doing this anymore yeah and that's it's that's one where they were
+[58:34.000 --> 58:37.840]  already doing it all they had to do is keep doing it and they had so little interest in it that they
+[58:37.840 --> 58:43.360]  cancelled it right so i don't know i don't know what the solution is you know and and you know
+[58:44.000 --> 58:50.240]  given their track record with ping and uh they even just cancels i don't see i definitely don't
+[58:50.240 --> 58:55.840]  see it happening yeah it's it you know i don't know what the betting odds would be that it would
+[58:55.840 --> 59:00.480]  succeed but it'd probably be pretty low based on their track record but at least they would have a
+[59:00.480 --> 59:05.040]  chance because it's apple and they could publicize it and they could get it in front of people with
+[59:05.040 --> 59:10.560]  iphones you know they could make it uh you know prompt you in the photos app or something you know
+[59:10.560 --> 59:15.920]  whereas it's it's i i think the ship has long since sailed for some and you know again the
+[59:15.920 --> 59:21.840]  john and john startup company to start an instagram clone right like like i think if we went around
+[59:21.840 --> 59:28.560]  and tried to raise capital to we're gonna take on instagram uh you know even if we could prove that
+[59:28.560 --> 59:34.000]  we had the technical chops to do it it it's it's you know at this point it's we're gonna we're
+[59:34.000 --> 59:41.600]  gonna use an enterprise certificate yeah you're gonna download it from a website but it's a shame
+[59:41.600 --> 59:46.080]  but it's a shame because instagram is the good parts of instagram still remain good but man
+[59:46.080 --> 59:51.520]  they're getting buried in yeah yeah we used to all be on flickr remember i mean like that was a
+[59:51.520 --> 59:56.880]  that was the big thing right before instagram and then everybody jumped ship to instagram and
+[59:56.880 --> 01:00:03.360]  killed flickr and then now i mean the flickr app is not bad yeah but it's a different mindset
+[01:00:03.360 --> 01:00:08.640]  though right like oh it's completely yeah right and and because facebook or not facebook flickr
+[01:00:08.640 --> 01:00:15.360]  predated like flickr should have in theory been instagram before instagram but it would have
+[01:00:15.360 --> 01:00:23.120]  i would have required flickr to do what facebook has done fairly well which is know when to put
+[01:00:23.120 --> 01:00:30.480]  stuff in facebook proper and know when to buy instagram or buy whatsapp right they what flickr
+[01:00:30.480 --> 01:00:39.920]  should have done is spin out a separate app for this concept of of curated streaming because the
+[01:00:39.920 --> 01:00:45.840]  thing with flickr is that it they the design of flickr is i i haven't used it much in years but
+[01:00:46.400 --> 01:00:50.400]  i presume though it's still the same where the idea though is if you go on a trip you upload all
+[01:00:50.400 --> 01:00:55.520]  your pictures from the trip to flickr right not just the the keepers right and so if you're
+[01:00:55.520 --> 01:01:00.000]  following me you don't want to see 20 pictures in a row of me at disney world you want to see the one
+[01:01:00.000 --> 01:01:05.840]  right right uh and that's yeah and they don't they don't show i think they do a similar thing to the
+[01:01:06.400 --> 01:01:11.680]  thing where you can post multiple pictures to instagram like so if you upload like you see one
+[01:01:11.680 --> 01:01:16.480]  yeah that whole set right and then you can thumb you can you can thumb sideways through the other
+[01:01:16.480 --> 01:01:20.960]  ones um but you don't have to see all of them yeah i did see i have to look into it i hope
+[01:01:20.960 --> 01:01:26.720]  i'm not too late i saw something where uh you know flickr is under new management now and uh
+[01:01:26.720 --> 01:01:32.560]  there's some kind of thing where you've got to pay to keep your flickr right going and you know
+[01:01:32.560 --> 01:01:37.200]  i've got enough ones there that i kind of want i don't want to lose them i don't want them to go
+[01:01:37.200 --> 01:01:41.920]  404 like i don't really use it i don't actively use flickr so it seems wrong to pay that's the
+[01:01:41.920 --> 01:01:48.240]  thing yeah i didn't either i was i and i had been paying for pro for years for some reason uh and
+[01:01:48.240 --> 01:01:53.040]  then i you know i finally like right before they got bought i discontinued it i stopped paying for
+[01:01:53.040 --> 01:01:58.160]  it and then the new i think the new fee is like it used to be 25 bucks and now it's like 50 and
+[01:01:58.160 --> 01:02:02.640]  i was just like oh man i just don't i mean like i didn't use it enough for 25 bucks i don't think
+[01:02:02.640 --> 01:02:09.840]  i'm using enough for 50 so uh but they yeah you can download your your old all your old photos so
+[01:02:09.840 --> 01:02:15.040]  i did that and then i and i went so they you can keep a thousand like up to a thousand in the
+[01:02:15.040 --> 01:02:20.240]  regular account you know like for free um and so i went through and i just deleted a bunch that i
+[01:02:20.240 --> 01:02:23.840]  decided weren't worth keeping anyway yeah i don't know what the deadline is on that but i got it
+[01:02:23.840 --> 01:02:28.640]  it's february it's mid february all right well then i got time uh i'll wait till the last day
+[01:02:30.160 --> 01:02:35.680]  i like an idiot i've got stuff there that's not just personal too i've got daring fireball stuff
+[01:02:35.680 --> 01:02:41.840]  there like i have even just as recently i think as a couple months ago shooting iphone camera
+[01:02:41.840 --> 01:02:48.320]  comparisons posted you know the the you know here's the old camera here's the new camera
+[01:02:48.320 --> 01:02:54.160]  comparisons on flickr um just because i don't really have a good mechanism i don't have not
+[01:02:54.160 --> 01:03:00.480]  even any mechanism really for that sort of thing on daring fireball itself um and you know it was
+[01:03:00.480 --> 01:03:06.480]  always a good way uh you know because flickr does all the moderation like being able to comment on
+[01:03:06.480 --> 01:03:10.400]  those photos you know it never went out of control it wasn't like there were 400 comments on them
+[01:03:10.400 --> 01:03:14.560]  because i posted them from daring fireball but you know people could comment them on them uh
+[01:03:14.560 --> 01:03:19.760]  and so you know like i feel like i can legitimately call it a business expense to keep it going so
+[01:03:19.760 --> 01:03:27.360]  that those previous those years worth of things keep going but anyway flickr not gonna beat
+[01:03:27.360 --> 01:03:36.160]  instagram no uh sorry to say yeah i don't know i think we beat this uh facebook thing to death
+[01:03:36.160 --> 01:03:44.960]  yep let's go to the facetime bug okay oh what a doozy it's not good so group it was group
+[01:03:44.960 --> 01:03:51.120]  facetime right and so you make a group facetime call and you can hear and see the person before
+[01:03:51.120 --> 01:03:58.560]  they pick up yeah so the trick to trigger it was i call you your phone starts ringing while your
+[01:03:58.560 --> 01:04:06.080]  phone is ringing with the facetime call from john grouber i go down to the ad page and i go down to
+[01:04:06.080 --> 01:04:13.440]  person button to do great group facetime and add myself add add me i don't know how that's even
+[01:04:13.440 --> 01:04:21.920]  possible but then once i do that for your phone starts broadcasting the audio to me but even
+[01:04:21.920 --> 01:04:30.960]  though you haven't answered it right uh and that there's a i don't know how reliable this was
+[01:04:30.960 --> 01:04:35.840]  supposedly then if if you hit the power button or i hit the power button i'm not sure which way it
+[01:04:35.840 --> 01:04:40.400]  was somehow there's a way that in some cases people were able to trigger video as well that
+[01:04:40.400 --> 01:04:46.480]  it would start broadcasting video uh bad bug really not a nightmare bug there's no other way
+[01:04:46.480 --> 01:04:52.800]  to underplay it it's it's surely was uh a real jolt once apple somebody at apple you know the
+[01:04:52.800 --> 01:04:59.120]  facetime team really got their hands on what was going on i'm sure it was you know a truly electric
+[01:04:59.120 --> 01:05:06.240]  flop sweat moment because that's bad right and it just it's as bad as it sounds right right
+[01:05:07.440 --> 01:05:12.800]  it's not and of course people you know took it too far because that's the world we live on
+[01:05:12.800 --> 01:05:17.520]  everybody's got to take it to the extreme and say that it's you know that it was it enabled
+[01:05:17.520 --> 01:05:23.120]  surreptitious surveillance and there was an obvious trail right like you you're gonna if it
+[01:05:23.120 --> 01:05:26.880]  happened to your phone if somebody took advantage of it let's say you're you didn't even hear it
+[01:05:26.880 --> 01:05:31.680]  ringing like you left your phone and on your desk or something and went away there still is a notice
+[01:05:31.680 --> 01:05:37.920]  that you got a facetime call right it's not and it's you know it's not too hard to turn off
+[01:05:37.920 --> 01:05:42.080]  facetime you know but you know that you've got a facetime call it's not like somebody could do it
+[01:05:42.080 --> 01:05:48.320]  and your phone didn't even ring or light up and people could use it to listen to you it's you know
+[01:05:48.320 --> 01:05:56.240]  it's not that bad although some people wrote about it as though it were yeah uh i think the worst i
+[01:05:56.240 --> 01:06:02.880]  mean the the it's bad it's a it's a bad bug and it obviously should never should never have shipped
+[01:06:02.880 --> 01:06:11.280]  that way and it's a very weird it's it's a very weird thing to have happen yeah it but um i mean
+[01:06:11.280 --> 01:06:15.520]  i think the worst thing is that they seem to have been notified about it like almost a week
+[01:06:15.520 --> 01:06:22.240]  beforehand right right that there was a 14 year old kid who apparently discovered this while
+[01:06:22.240 --> 01:06:29.600]  setting up a facetime with his friends while gaming which is of course a huge thing you know
+[01:06:29.600 --> 01:06:36.080]  using any you know facetime or or there's something called discord that jonas uses now
+[01:06:37.440 --> 01:06:43.760]  you know facetime is obviously iphone ios apple only but even if you're playing pc games if
+[01:06:43.760 --> 01:06:48.320]  everybody in your circle has iphones you could use facetime but anyway kid was trying to set it up
+[01:06:48.320 --> 01:06:57.200]  uncovered this and then his mom seemingly did everything she's apparently an attorney in
+[01:06:57.200 --> 01:07:02.480]  arizona and you know they're not a technical expert and her messages to apple were clear
+[01:07:02.480 --> 01:07:09.920]  about that but a very clear communicator and and seemingly did everything she could possibly do
+[01:07:09.920 --> 01:07:14.880]  like she went to apple support you know which is probably not the right place but you know it's a
+[01:07:14.880 --> 01:07:20.960]  good start and eventually got directed to the actual channel where you're supposed to report
+[01:07:20.960 --> 01:07:30.880]  security issues and submitted it and i think with uh enough an accurate enough reasonable
+[01:07:30.880 --> 01:07:36.160]  accurate enough steps to reproduce you know because that's always the thing with with bugs
+[01:07:36.160 --> 01:07:41.120]  you know uh all bugs should be reported but if you can this this thing happened and i don't know why
+[01:07:41.120 --> 01:07:49.360]  and yeah yeah but a bug report that says here do do a b c d in that order and you expect blank to
+[01:07:49.360 --> 01:07:55.680]  happen and instead this happens is a great bug report especially if it really can't be reproduced
+[01:07:55.680 --> 01:08:00.640]  on other devices not just your device and this apparently could be reproduced on anybody's device
+[01:08:03.200 --> 01:08:09.760]  yeah like a week ago and it seemingly you know did not trigger any response from apple and the
+[01:08:09.760 --> 01:08:18.320]  you know i don't think we know what what the explanation right were they did they recognize
+[01:08:18.320 --> 01:08:24.800]  what was happening and were hoping to fix this quietly without having any publicity or
+[01:08:25.680 --> 01:08:30.320]  was this ignored whether because they get a thousand of these things a day and it was lost
+[01:08:30.320 --> 01:08:38.240]  in the shuffle or uh you know they just the whole thing just goes right down that circle
+[01:08:38.240 --> 01:08:45.920]  you know like i said the circular file yeah i i mean you think you get faster is the i mean what
+[01:08:45.920 --> 01:08:51.760]  what would you do what would you and i do i mean the thing so years ago hank discovered that if you
+[01:08:51.760 --> 01:08:58.960]  if you said butts to siri um it would bring up the wikipedia entry for anal sex i believe this
+[01:08:58.960 --> 01:09:03.360]  has come up on the show before yeah well yeah it should come up every time shortly shortly after
+[01:09:03.360 --> 01:09:09.520]  shortly after the after this and so um the butts incident i uh yeah right the butts of the famous
+[01:09:09.520 --> 01:09:18.240]  butts incident of uh 2012 or whenever it was um i talked about it on twitter and then i i filed a
+[01:09:18.240 --> 01:09:25.280]  bug report um because i had a you know developer account um and that seemed to get that seemed to
+[01:09:25.280 --> 01:09:31.360]  get some traction and actually i mean i think within like a week or so it was it was closed oh
+[01:09:31.360 --> 01:09:36.160]  that's the other thing that this the mother did the mother at one point was told to file a radar
+[01:09:36.160 --> 01:09:42.320]  which is really out there uh i mean and and so she did though she saw she's not a developer but
+[01:09:42.320 --> 01:09:48.880]  she went as far as to sign up for a developer account and filed a radar about this that's yeah
+[01:09:48.880 --> 01:09:54.480]  which is really ridiculous going to through the security channel should be enough uh right you
+[01:09:54.480 --> 01:09:59.840]  know i i tend to think though that this is a i don't think that apple was hiding it i don't
+[01:09:59.840 --> 01:10:07.920]  think anybody at apple who recognized the severity of this tried to hide it i just feel i just feel
+[01:10:07.920 --> 01:10:13.920]  that it was that the whole thing is sort of a yada yada yada we don't you know there's so
+[01:10:13.920 --> 01:10:20.720]  much noise we don't bother looking for the signal sort of attitude in there yeah um because i really
+[01:10:20.720 --> 01:10:26.720]  think that if this had been if anybody in a position to recognize just how bad this bug is
+[01:10:26.720 --> 01:10:31.040]  and how bad the publicity is it would have escalated to the point where they pulled and
+[01:10:31.600 --> 01:10:37.280]  the the temporary fix apple has issued a statement saying that there will be a a software update by
+[01:10:37.280 --> 01:10:42.880]  the end of this week to address it but the temporary fix of disabling the group facetime
+[01:10:42.880 --> 01:10:49.920]  server like i believe that right now as we record you can't make a group facetime right uh that is
+[01:10:49.920 --> 01:10:54.000]  yeah that i haven't tried but i mean that's my assumption since they took the group facetime
+[01:10:54.000 --> 01:11:01.600]  server down yes uh you know that's a good enough stop gap you know and i feel like they want to get
+[01:11:01.600 --> 01:11:07.120]  they need to fix it in a way that even when the software update is in place that people who
+[01:11:07.120 --> 01:11:12.320]  haven't gotten the software update yet aren't affected you know i don't know how they do that
+[01:11:12.320 --> 01:11:17.760]  but you know but in the meantime anybody who i really firmly believe that anybody at apple who
+[01:11:17.760 --> 01:11:23.360]  would recognize this properly and if it had gotten to the you know next step somebody recognizes it
+[01:11:23.360 --> 01:11:28.160]  and somebody has the ability inside apple you know and presumably the people reading those you know
+[01:11:28.160 --> 01:11:33.440]  the security report channel would have this ability to contact the facetime team and the
+[01:11:33.440 --> 01:11:38.960]  facetime team would reproduce it and then immediately go and hit that button that turns
+[01:11:38.960 --> 01:11:44.000]  off well holy shit you know yeah i would turn off the group facetime server before contacting you
+[01:11:44.000 --> 01:11:50.240]  know phil shiller i mean i i would you know i mean i i i wouldn't wait i if you had the if you
+[01:11:50.240 --> 01:11:54.880]  had the ability to hit that red button to turn off the group facetime server i would hit it at that
+[01:11:54.880 --> 01:12:04.960]  point i mean it's that bad uh yeah i really think that it was a uh what are you going to say over
+[01:12:04.960 --> 01:12:13.040]  you know just uh just not paying enough attention not willfully trying to hide this yeah i wouldn't
+[01:12:13.040 --> 01:12:18.560]  think so i i it's just out of character i mean they have it so it seems like it's a process
+[01:12:18.560 --> 01:12:22.880]  problem yeah i would say it's very much a process problem and it does seem like it's not the first
+[01:12:22.880 --> 01:12:28.320]  time that this kind of thing has happened right but you know somebody brought up there was
+[01:12:28.320 --> 01:12:34.240]  something that somebody reported on a on like a support forum recently i forget what the issue
+[01:12:34.240 --> 01:12:40.000]  was but there was a bad bug and somebody filed a you know like on the help.apple.com support forums
+[01:12:40.000 --> 01:12:46.400]  or whatever the url is i can see that that apple doesn't go through those and make sure that every
+[01:12:46.400 --> 01:12:51.440]  single one of the thousands of posts per hour doesn't have a critical security bug that somebody's
+[01:12:51.440 --> 01:12:55.760]  because it's just too much but when somebody takes the time to officially report it through
+[01:12:55.760 --> 01:13:00.400]  the security channel boy you'd like to think that there's a process in place no matter how
+[01:13:01.280 --> 01:13:06.000]  how much noise there is through that channel you'd like to think that there's something looking for
+[01:13:06.000 --> 01:13:11.040]  you know always vigilant for stuff like this yeah you know what i mean like when you're a lifeguard
+[01:13:11.040 --> 01:13:14.880]  at the beach there's a thousand people in the water but you really you know it's the one who's
+[01:13:14.880 --> 01:13:22.320]  drowning you got to look for right so yeah this is not a good look for apple but you know and i've
+[01:13:22.320 --> 01:13:27.360]  seen people saying you know like it is a little coincidental that it's happened at the same time
+[01:13:27.360 --> 01:13:31.840]  as this facebook thing and how can apple preach about privacy when they have this terrible privacy
+[01:13:31.840 --> 01:13:37.760]  bug but it's to me that the fundamental difference here between the two is that this is clearly a bug
+[01:13:37.760 --> 01:13:45.040]  this was not something that they did on purpose right it's it's you know it's it's a manslaughter
+[01:13:45.040 --> 01:13:50.240]  versus murder i guess right right it's whereas facebook doesn't really have like a whoops we
+[01:13:50.240 --> 01:13:55.520]  didn't mean to do that yeah we didn't mean to pay people twenty dollars in this program
+[01:13:57.680 --> 01:14:03.360]  like they don't really have much of a leg to stand for there on an intent right yeah
+[01:14:03.360 --> 01:14:09.440]  uh repeated you know serial killer yeah so i don't know i'd like to hear something about
+[01:14:09.440 --> 01:14:13.280]  this process but i doubt that we will but hopefully you seem like the kind of thing
+[01:14:13.280 --> 01:14:17.280]  that would come out no but hopefully they're looking at this internally and we'll we'll
+[01:14:17.280 --> 01:14:24.480]  address it because it's yeah it's not a good look on the upside you know it it doesn't i i
+[01:14:24.480 --> 01:14:30.000]  because it it really only got publicized yesterday i mean i don't know how many people i don't know
+[01:14:30.000 --> 01:14:34.000]  how many jerks tried to take advantage of it yesterday before they shut down the group
+[01:14:34.000 --> 01:14:39.840]  facetime server but it i haven't seen any horror stories about it yet so no hopefully nobody really
+[01:14:39.840 --> 01:14:47.920]  got got taken advantage of in this way yeah uh yeah i mean i think yeah i mean well i mean bugs
+[01:14:47.920 --> 01:14:55.280]  happen this is a really bad one though uh yes and i i keep struggling with this whole thing like i
+[01:14:55.280 --> 01:15:02.400]  mean is apple buggier than they used to be what do you have a do you have an opinion on that because
+[01:15:02.400 --> 01:15:09.760]  i remember bugs from days gone by and you know it's hard it's a hard thing i think
+[01:15:10.880 --> 01:15:15.840]  and i don't think this is a case of that i don't know what the code path is here that triggered it
+[01:15:15.840 --> 01:15:20.320]  i'm guessing that this is just a this isn't really sloppiness it's just some kind of
+[01:15:20.320 --> 01:15:27.200]  facepalm duh of course you know looking at the source code you know this this whole add yourself
+[01:15:27.200 --> 01:15:33.680]  to the group facetime thing is such a weird idea you know it hopefully you know it should have
+[01:15:33.680 --> 01:15:40.560]  been tested but and even if it was tested i'm not sure that they would test the angle of hey the
+[01:15:40.560 --> 01:15:45.520]  other person hasn't answered yet you know like i just feel that there's a there's something here
+[01:15:45.520 --> 01:15:49.520]  that's just an oversight i don't think it's ineptitude i think it's just the sort of bug
+[01:15:49.520 --> 01:15:55.680]  that anybody yeah even talented in testing it's a flaw in the testing process i guess i don't know
+[01:15:55.680 --> 01:16:01.760]  yeah yeah overall is apple's stuff buggier than it used to be i don't think so i just yeah i
+[01:16:01.760 --> 01:16:06.880]  don't think so either but yeah i see a lot of people claiming that that's true yeah i don't
+[01:16:06.880 --> 01:16:12.800]  see bugginess what i see that is worse than it used to be is an eye for details you know that
+[01:16:12.800 --> 01:16:20.240]  there are uh check boxes that don't align align with their labels you know that are two pixels off
+[01:16:21.680 --> 01:16:26.080]  i really do things that you would notice more than other people right and they're the sort of thing
+[01:16:26.080 --> 01:16:32.000]  that apple never got wrong because and the reason they almost never got stuff like that wrong is
+[01:16:32.000 --> 01:16:38.960]  that every single engineer at apple had the eye that that sense you know that they cared about
+[01:16:38.960 --> 01:16:45.760]  things like having the label for the checkbox perfectly aligned with the checkbox uh like it
+[01:16:45.760 --> 01:16:52.160]  just was what it's what drew people to the mac in the first place and would draw a software engineer
+[01:16:52.160 --> 01:16:58.320]  to want to work at apple writing this apps and control panels and system pref panels for apple
+[01:16:58.320 --> 01:17:04.880]  is that they cared about details like that uh and there's obviously you know a sort of
+[01:17:04.880 --> 01:17:10.880]  as they've grown the head count i'm not sure that they've managed to maintain the the culture as
+[01:17:10.880 --> 01:17:15.920]  well so i see more stuff like that like just little hig violations that it's like oh my god
+[01:17:15.920 --> 01:17:20.320]  nobody would ever do that dialogue boxes like if you have to dial if you have two boxes and a
+[01:17:20.320 --> 01:17:26.960]  dialogue uh like cancel and do the thing those two buttons should be the same width no matter
+[01:17:26.960 --> 01:17:32.960]  you know yeah um so like for example if you if it's just canceling okay and it you know it's
+[01:17:32.960 --> 01:17:37.760]  properly spelled just okay the okay button shouldn't be the size of the word okay it should
+[01:17:37.760 --> 01:17:44.400]  be at least as wide as the cancel button right um and i see a bunch of dialogue boxes throughout the
+[01:17:44.400 --> 01:17:52.320]  mac os 10 now where the the the the okay button whether it says okay or something else is smaller
+[01:17:52.320 --> 01:17:57.520]  than the cancel button and it just bothers me every time like the die i know one of them is the
+[01:17:57.520 --> 01:18:02.320]  the dialogue box that you get when you off what i just talked about like if jonas goes to buy
+[01:18:02.320 --> 01:18:08.000]  something and i approve it it's like when i type my apple id password in to approve it the button
+[01:18:08.000 --> 01:18:14.880]  that you click is smaller than the cancel button and it drives me nuts every goddamn time because
+[01:18:14.880 --> 01:18:18.800]  i just can't see how anybody who works at apple doesn't know that you don't do that and in fact
+[01:18:18.800 --> 01:18:24.720]  the guides in if you use the actual guides in interface builder and xcode it should auto size
+[01:18:24.720 --> 01:18:28.160]  them that way like you have to go out of your way to make a button smaller smaller they think they
+[01:18:28.160 --> 01:18:33.280]  think that they're doing something better yeah so anyway i see some stuff like that and i i don't
+[01:18:33.280 --> 01:18:40.560]  want to take up the rest of the show but i the my my still in progress rant about the marzipan apps
+[01:18:40.560 --> 01:18:45.440]  you know i just don't yeah like the fact that they got approved to me is a sign of the same sort of
+[01:18:45.440 --> 01:18:50.960]  thing like right you know they're just weird in so many ways and on mac like and i don't see it but
+[01:18:50.960 --> 01:18:55.440]  i don't i don't think bugginess is a problem i've said this before too my big complaint with apple
+[01:18:56.400 --> 01:19:04.160]  in i don't know how far back it goes it's a long longish trend and i've been saying this for years
+[01:19:04.160 --> 01:19:12.480]  and obviously to no effect but my big problem is that they have sort of without saying so clearly
+[01:19:12.480 --> 01:19:18.400]  switched to a policy of preferring silent failure over showing an explicit error dialogue
+[01:19:18.400 --> 01:19:24.560]  over showing an explicit error dialogue so all sorts of stuff that can go wrong often goes wrong
+[01:19:24.560 --> 01:19:29.920]  and you don't see any error like you know i i just as an example like if you're you're you're
+[01:19:32.960 --> 01:19:39.600]  i photos in count you you got a bum photo in your photo library and that photo won't sync to your
+[01:19:39.600 --> 01:19:44.880]  icloud library it just doesn't sync to the icloud library they don't show you an error and say hey
+[01:19:44.880 --> 01:19:49.200]  this photo is corrupt and tell you which photo it is like i had a thing and and this was years ago
+[01:19:49.200 --> 01:19:53.200]  and i think they fixed it i i'm really really happy i hate to single out icloud photo syncing
+[01:19:53.200 --> 01:19:58.880]  because icloud photo syncing has been incredibly good for me in the last few years uh just
+[01:19:58.880 --> 01:20:03.760]  incredibly good and like surprisingly fast even when i've shot like a bunch of 4k videos and stuff
+[01:20:03.760 --> 01:20:08.240]  like that syncs to other devices very fast but a couple of years ago i had a thing that was driving
+[01:20:08.240 --> 01:20:16.640]  me up a good uh just like somebody couldn't target driving me insane better was that when it tells
+[01:20:16.640 --> 01:20:20.960]  you at the bottom how many photos you have i had one device i forget which device it doesn't even
+[01:20:20.960 --> 01:20:28.960]  matter but i had like two max an iphone and ipad and one of them had one fewer items or one more
+[01:20:28.960 --> 01:20:33.840]  i forget if it was one more one more right it was one was corrupted it would be on that device but
+[01:20:33.840 --> 01:20:39.520]  would not sync to the other ones yeah it had one more photo than all the other devices and
+[01:20:39.520 --> 01:20:46.000]  never showed me an error it just had a different count and i i mean i honest to god it is lucky
+[01:20:46.000 --> 01:20:50.000]  that i didn't have an aneurysm i mean maybe somebody at apple who doesn't like me wrote this
+[01:20:50.000 --> 01:20:55.360]  bug to drive me insane but i i mean and how do you find it and i figured it out eventually i
+[01:20:55.360 --> 01:21:01.200]  figured out that you can make there's a way to make a smart library a smart album on the mac
+[01:21:01.200 --> 01:21:08.000]  version of photos where the criteria is is not synced to icloud something like that you can say
+[01:21:08.000 --> 01:21:12.240]  show me all the photos that are not synced to icloud which should be empty at all times and i
+[01:21:12.240 --> 01:21:19.680]  had one that's interesting yeah it was actually a photo of me and om malek and matt mullenweg at the
+[01:21:21.760 --> 01:21:29.120]  i actually remember the exact photo at the uh yankees astros wildcard game three or four years
+[01:21:29.120 --> 01:21:36.080]  ago and the worst part was a duplicate i had two versions of the photo somehow so i could delete
+[01:21:36.080 --> 01:21:40.640]  the one that was somehow not once i figured out which one it was i just deleted it and i didn't
+[01:21:40.640 --> 01:21:44.800]  even lose the photo because i i had the identical photo i had another copy of the photo in my
+[01:21:44.800 --> 01:21:50.160]  library at the time yeah but i actually remember that i also remember that the yankees lost that
+[01:21:50.160 --> 01:21:58.880]  game which was terrible freaking dallas kite that's a shame yeah it's a real shame but anyway
+[01:21:58.880 --> 01:22:03.040]  that drove me nuts but anyway but in the fact that the thing that really drove me nuts is that
+[01:22:03.040 --> 01:22:07.600]  they didn't show me an error message clearly that it could have right they knew there's some the
+[01:22:07.600 --> 01:22:11.680]  syncing process knew that this photo was stubbornly not going to icloud why not show me an error
+[01:22:11.680 --> 01:22:19.280]  dialogue and help me find which one of the 29 000 items is is the problem yeah uh i can't i don't
+[01:22:19.280 --> 01:22:22.560]  have it off the top of my head i don't have another but there's all sorts of things that
+[01:22:22.560 --> 01:22:28.160]  i think apple does i'm sure you can come up with some examples with in itunes um of similar stuff
+[01:22:28.160 --> 01:22:34.160]  yeah with music um because that stuff has always been somewhat problematic right i don't have too
+[01:22:34.160 --> 01:22:39.680]  much of a problem with it anymore but um actually i never had a huge problem with it but you'd you'd
+[01:22:39.680 --> 01:22:47.920]  often get weird results of like i would have the studio version of a song on my mac and then when
+[01:22:47.920 --> 01:22:53.920]  i would sync a playlist it would put in like a live version of the same song and i i the reason
+[01:22:53.920 --> 01:22:58.720]  it offends me this trend of not giving you errors for that you know and just tell you what's what's
+[01:22:58.720 --> 01:23:05.600]  what is the sync problem here what songs are are are is itunes sync confused by i get it that it's
+[01:23:05.600 --> 01:23:13.680]  like a sort of aesthetic ideal that error error dialogues are ugly and unseemly right yeah yeah i
+[01:23:13.680 --> 01:23:17.680]  mean windows is usually the the counter example where it's like we're gonna give you a neuro
+[01:23:17.680 --> 01:23:25.040]  dialogue for everything and they're gonna they're gonna cascade yeah you have to close all of them
+[01:23:25.600 --> 01:23:31.120]  see how fast you can close them all right uh i but i think that's the you know to me
+[01:23:31.920 --> 01:23:37.440]  it it's blaming the wrong thing the the problem isn't the error dialogue the problem is the bug
+[01:23:37.440 --> 01:23:42.400]  that resulted in the error dialogue right yeah and when you don't when you don't show that nobody
+[01:23:42.400 --> 01:23:48.560]  suffers for the bug right so that's my bigger complaint with apple's trends i don't think that
+[01:23:48.560 --> 01:23:53.360]  they do have more bugs though and i don't think the reliability is lower although there's certain
+[01:23:53.360 --> 01:23:59.600]  products that are could be better having two home pods in our kitchen thing again i don't think we
+[01:23:59.600 --> 01:24:07.280]  have time to really go into it but it's we i have to i have to unplug and replug the home pods on a
+[01:24:07.280 --> 01:24:13.920]  surprisingly regular basis although in recent weeks i don't know that i have so it may finally
+[01:24:13.920 --> 01:24:20.240]  be getting better but yeah and even through christmas it was still semi-regularly all of
+[01:24:20.240 --> 01:24:26.480]  a sudden one of the two home pods in the kitchen would stop playing or uh just stop answering
+[01:24:27.680 --> 01:24:33.120]  you know it's just a lot and you know and unplug it replug it fixed it because there is no reset
+[01:24:33.120 --> 01:24:37.360]  button and you can't tell it to reset you have to you know the only way to reset it is to actually
+[01:24:37.360 --> 01:24:45.360]  go back to 1978 and pull the plug out of the wall but i wouldn't hold that up as a company-wide
+[01:24:45.360 --> 01:24:49.920]  problem yeah all right let me take a break here and thank our next sponsor it's our good friends
+[01:24:49.920 --> 01:24:55.680]  at audible look good listening just listening make you a better parent a better leader even
+[01:24:55.680 --> 01:25:02.720]  a better person could listening to motivating fitness programs get you fit could listening
+[01:25:02.720 --> 01:25:08.000]  inspire you to start something new look it's the new year there's never been a better time to start
+[01:25:08.000 --> 01:25:13.520]  listening on audible with audible you get access to an unbeatable selection of audiobooks including
+[01:25:13.520 --> 01:25:20.960]  bestsellers motivation mysteries thrillers memoirs and more audible has the largest selection of
+[01:25:20.960 --> 01:25:26.960]  audiobooks on the planet and now with audible originals the selection has gotten even more
+[01:25:26.960 --> 01:25:32.800]  custom with content made for members that you can't get anywhere else hey they always want you
+[01:25:32.800 --> 01:25:40.800]  to pick a book i wasn't going to read this book and now i can't wait to read it it's a memoir
+[01:25:41.360 --> 01:25:46.000]  from lisa brennan jobs that's steve jobs's first daughter and it's called small fry
+[01:25:46.720 --> 01:25:50.880]  because it's a personal memoir and i knew it and it's not the book isn't about steve jobs
+[01:25:50.880 --> 01:25:55.840]  it's about her but he's obviously you know he's her father and they had a fractious relationship
+[01:25:55.840 --> 01:26:01.760]  it's obviously he's obviously in it but i'm just not a reader of personal life stuff and in the
+[01:26:01.760 --> 01:26:05.440]  various jobs biographies and stuff about his personal life was the least interesting to me
+[01:26:05.440 --> 01:26:12.720]  i'm more interested in his life but lisa brennan jobs was on craig mod's on margins podcast i'm
+[01:26:12.720 --> 01:26:17.200]  going to put a link to the show on margins the episode where she was his guest in the show notes
+[01:26:17.200 --> 01:26:21.920]  i promise um and it's one of the most remarkable interviews it's a one-hour interview it's a great
+[01:26:21.920 --> 01:26:27.280]  show but craig is i can't put you he's such a good interviewer and lisa brennan jobs is an
+[01:26:27.280 --> 01:26:32.560]  incredibly engaging guest and they spent the first half of the show talking about the design of the
+[01:26:32.560 --> 01:26:40.320]  cover so i really really liked it but it really i went from really having no interest in the book
+[01:26:40.320 --> 01:26:45.680]  but wanting to hear how she was on my friend craig mod's show to at the end of it being i've got to
+[01:26:45.680 --> 01:26:54.240]  buy this book and it is on audible so you can get it and the audible version has the same great cover
+[01:26:54.240 --> 01:26:58.240]  so you you'll know what they're talking about when you listen to that that's small fried by lisa
+[01:26:58.240 --> 01:27:02.800]  brennan jobs that's my recommendation i'm gonna i'm gonna read that anyway when you become an
+[01:27:02.800 --> 01:27:06.960]  audible member you can choose three titles every month one audio book and two audible originals
+[01:27:06.960 --> 01:27:12.800]  that you can't hear anywhere else audible members also get access to exclusive audio fitness programs
+[01:27:12.800 --> 01:27:17.040]  so you can start the new year off on the right foot fitness wise listen on any device anytime
+[01:27:17.040 --> 01:27:23.440]  anywhere at the home at the gym on a commute or just on the go you can enjoy easy audiobook
+[01:27:23.440 --> 01:27:28.720]  exchanges rollover credits and an audiobook library that you keep forever even if you cancel
+[01:27:28.720 --> 01:27:33.840]  when you buy books audible the most inspiring minds the most compelling story is the best place
+[01:27:33.840 --> 01:27:42.480]  to listen get started with a 30-day trial when you go to audible.com talk show or text
+[01:27:42.480 --> 01:27:52.560]  talk show to 500 500 and listen for a change that's audible.com talk show what is left we
+[01:27:52.560 --> 01:27:58.640]  got the uh got apples financials that came out yesterday end of the quarter now this is in some
+[01:27:58.640 --> 01:28:03.600]  ways the least surprising quarterly announcement ever because a month ago or at least four weeks
+[01:28:03.600 --> 01:28:10.160]  ago tim cook had issued this extraordinary warning letter to investors warning that their guidance
+[01:28:10.160 --> 01:28:16.400]  for the the quarter they just reported was off by seven billion dollars which sounds terrible but
+[01:28:16.400 --> 01:28:21.120]  then you realize they still made 84 billion dollars the second most in company history
+[01:28:21.120 --> 01:28:29.440]  and therefore the second most in the history of corporations period just seems insane put
+[01:28:29.440 --> 01:28:36.400]  perspective on it um and as as everybody you know when he when he issued that letter
+[01:28:36.400 --> 01:28:42.160]  at the beginning of january they knew exactly where they were going to be they said look it's
+[01:28:42.160 --> 01:28:48.960]  going to be 84 billion ends up it was 84.3 but they you know right they they they could announce
+[01:28:48.960 --> 01:28:54.960]  something like their their revenue as soon as the quarter's over like they've got systems in place
+[01:28:54.960 --> 01:28:59.920]  and numbers like they know you know they knew that was going south it's not like that i don't know
+[01:28:59.920 --> 01:29:04.000]  exactly you know maybe some of the stuff they report in these things does take some time to
+[01:29:04.000 --> 01:29:08.880]  compile but like the big ticket numbers like the you know margin and revenue they know right away
+[01:29:08.880 --> 01:29:13.680]  that it's not like somebody's sitting there with a calculator for four weeks luke luka isn't there
+[01:29:13.680 --> 01:29:19.760]  you know one one one three seven five so there's tax stuff and yeah i mean things like that that
+[01:29:19.760 --> 01:29:25.040]  yeah i i you know i think that there's some stuff that takes time to compile but you know when he
+[01:29:25.040 --> 01:29:29.840]  said it's going to be 84 billion you could pretty much bet the house it was 84 billion i i seem to
+[01:29:29.840 --> 01:29:34.960]  remember we because i used to work in um the finance department at a company i mean much
+[01:29:34.960 --> 01:29:42.560]  obviously a bit smaller than apple um but uh it took us like two weeks to get the finance to get
+[01:29:42.560 --> 01:29:46.560]  the financial reports out it used to like when i got there it was like it was like a month
+[01:29:47.120 --> 01:29:52.000]  um and this was back in the mid-90s and and then we you know we one of the reasons i got hired was
+[01:29:52.000 --> 01:29:55.360]  to implement a new financial system and so we did all this stuff and then eventually after we
+[01:29:55.360 --> 01:30:03.280]  did all this stuff it took like two weeks um i you know what else it's you know so in some
+[01:30:03.280 --> 01:30:07.040]  ways it wasn't surprising but it was interesting to me it was the most interesting i was to read
+[01:30:07.040 --> 01:30:14.080]  tim cook's prepared remarks in a number of quarters yeah so they they famously did or
+[01:30:14.080 --> 01:30:21.360]  not releasing right iphone units anymore but they gave a lot of other information like what
+[01:30:21.360 --> 01:30:28.720]  but well like one of the things they said they said like 1.4 billion they installed base right
+[01:30:29.520 --> 01:30:34.160]  well they said that the the number i saw was that the installed base i think that's just talking
+[01:30:34.160 --> 01:30:40.080]  iphone i don't think it was ios devices but whatever that even though the no he said ios
+[01:30:40.080 --> 01:30:45.840]  devices 1.4 billion and then he said then they said iphones was was 900 million yeah but one
+[01:30:45.840 --> 01:30:52.720]  of those was up the active user base was up 100 million for the year uh even though sales year
+[01:30:52.720 --> 01:30:58.240]  over year were were down a bit uh and and the explanation for that the common sense explanation
+[01:30:58.240 --> 01:31:06.080]  for that is that with people using iphones iphones lasting longer um there are more older iphones that
+[01:31:06.080 --> 01:31:11.520]  are in use either through like the second-hand market or through hand-me-downs within a family
+[01:31:11.520 --> 01:31:16.880]  or among friends you know where your kids are using iphones they were previously the parents
+[01:31:16.880 --> 01:31:22.000]  and the parents have the new iphone and so even though only one new iphone was bought by somebody
+[01:31:22.000 --> 01:31:25.920]  who already had an iphone the installed base grows because the hand-me-downs in use
+[01:31:29.200 --> 01:31:36.080]  what else was was interesting the china explanation you know again not surprising
+[01:31:36.080 --> 01:31:42.400]  but you know was it was the first thing that he addressed which is basically it was like down
+[01:31:42.400 --> 01:31:50.160]  27 percent or something right yeah i thought i thought that what was it was the iphone
+[01:31:50.160 --> 01:31:58.240]  iphone revenue was down 19 is that right or is that it's like iphone was down pretty bad
+[01:31:58.240 --> 01:32:05.440]  iphone was down a lot but everything else was up or no every that's it the 19 percent was everything
+[01:32:05.440 --> 01:32:14.560]  else apple's non-iphone business grew 19 but the iphone business shrunk uh and and you know in some
+[01:32:14.560 --> 01:32:24.560]  ways you know it's not i'm not trying to spin this as wow this is good news but in some ways it's
+[01:32:24.560 --> 01:32:33.600]  it's good news that the iphone is it looking like less of an outlier it's less you know like the
+[01:32:33.600 --> 01:32:38.880]  other aspects of apple business apple's business growing and the iphone coming down to normal makes
+[01:32:38.880 --> 01:32:44.320]  the company a little bit less lopsidedly yeah right right well it's been a complaint about
+[01:32:44.320 --> 01:32:49.120]  apple for a number of years is like oh my gosh they're so dependent on the iphone as if something
+[01:32:49.120 --> 01:32:55.600]  was going to happen to the iphone but um yeah i mean so if they're less dependent on the iphone
+[01:32:55.600 --> 01:33:02.880]  that's probably a little bit better right like if you own five restaurants and 85 of your revenue
+[01:33:02.880 --> 01:33:08.880]  comes from one of them it's a little bit more worrisome it would be it's better if all five are
+[01:33:08.880 --> 01:33:12.400]  a little bit you know even if the one is more popular than the others it's better if the others
+[01:33:12.400 --> 01:33:19.200]  are pulling more of their weight in terms of the overall revenue and profits of the company right
+[01:33:21.440 --> 01:33:27.360]  mac is up ipad or revenue at least mac revenue is up ipad revenue is up services revenue is way up
+[01:33:28.800 --> 01:33:35.040]  although i've seen some stuff that you know what exactly constitutes a service in apple's
+[01:33:35.040 --> 01:33:40.880]  accounting you know how much of that is is is smoke and mirrors and how much is legit you know
+[01:33:40.880 --> 01:33:44.880]  because they don't break it down they don't tell you you know this is from apple music this is from
+[01:33:45.680 --> 01:33:51.760]  itunes music and video sales this is why do you say why do you say smoke and mirrors well because
+[01:33:51.760 --> 01:33:55.360]  i think that they're accounting i think some people speculate that they're accounting for
+[01:33:55.360 --> 01:34:02.960]  some part of hardware sales as services i don't know okay i don't know you know that would be
+[01:34:02.960 --> 01:34:07.680]  though i don't know i you know that they're they're you know but that it's ambiguously
+[01:34:07.680 --> 01:34:12.320]  enough to find that they can i don't know i'm not accusing them of any kind of fraud i'm just
+[01:34:12.320 --> 01:34:17.760]  saying i'm not sure that everybody buys that the services stuff is is completely independent of
+[01:34:17.760 --> 01:34:24.880]  hardware sales yeah what about that margin on services what did they say what it was i didn't
+[01:34:24.880 --> 01:34:31.280]  see that like 65 right wow there's 60 something was 60 something percent i can't remember it was
+[01:34:31.280 --> 01:34:39.920]  65 but it was it was it was up there huh well and some people are like whoa that's that's too much
+[01:34:39.920 --> 01:34:44.320]  well and because i mean some of that comes out of like you know the 30 thing so that leads into
+[01:34:44.320 --> 01:34:49.520]  that argument again well but it makes you wonder because some of it can't be more than 30 right
+[01:34:49.520 --> 01:34:59.360]  because it's coming from a 70 30 revenue split right so it makes you wonder where the part that
+[01:34:59.360 --> 01:35:06.800]  60 comes from you know you know and you know allow me here to hit insert this is like a the
+[01:35:06.800 --> 01:35:15.360]  the podcast equivalent of a text expander snippet like let me insert my rant here that i hate i i
+[01:35:15.360 --> 01:35:22.560]  worry deeply that apple's focus on growing services revenue puts the company's financial
+[01:35:22.560 --> 01:35:30.320]  interest at direct odds with the user experience of icloud storage by keeping the free tier
+[01:35:31.040 --> 01:35:41.360]  at a ridiculous five gigabytes yeah and i don't think the paid tiers any of them are out that out
+[01:35:41.360 --> 01:35:47.760]  of line with what you pay for they're pretty close yeah yeah to me it's that free tier like five
+[01:35:47.760 --> 01:35:56.240]  gigabytes just is not enough and i really just i i i don't know i i it just bothers me how many
+[01:35:56.240 --> 01:36:07.200]  people aren't getting icloud backups of their devices that could be and uh and the services
+[01:36:07.200 --> 01:36:11.840]  thing where they're trying to make money from people by doing it which isn't wrong but i just
+[01:36:11.840 --> 01:36:18.000]  wish the free tier was more and what it would encompass enough more for more people to be able
+[01:36:18.000 --> 01:36:24.400]  to use it to back up their entire device at least like just back up one iphone right
+[01:36:26.720 --> 01:36:33.840]  well you can i mean isn't the backup now though is um not backing up all the apps right no it
+[01:36:33.840 --> 01:36:38.480]  doesn't back up the apps because you can down re-download them from the app store yeah which
+[01:36:38.480 --> 01:36:43.360]  depending on depending on your device you could back up to a five gigabyte here yeah but i just
+[01:36:43.360 --> 01:36:46.880]  feel i just feel like people's photo libraries alone i don't disagree with you i'm just saying
+[01:36:46.880 --> 01:36:53.120]  that um you could you know technically do it yeah i wonder i would love to know i'd love to know the
+[01:36:53.120 --> 01:36:58.000]  numbers on that what percentage of iphone users can fit an entire backup in a five gigabyte plan
+[01:36:58.560 --> 01:37:03.280]  yeah or i guess the more interesting number is what percentage of the ones who are on the free
+[01:37:03.280 --> 01:37:11.680]  plan can back up their device to iCloud right you know because i think that the whole the fact that
+[01:37:11.680 --> 01:37:17.520]  you still can back up to itunes you know for free you know it's presuming your your whatever mac or
+[01:37:17.520 --> 01:37:23.040]  pc you're running itunes on has a free space for it um i i don't i i would like to know what
+[01:37:23.040 --> 01:37:29.360]  percentage of iphone users even know that you can connect your iphone to a pc running or mac using
+[01:37:29.360 --> 01:37:34.240]  itunes and do a backup that way i would guess it's tiny i mean i don't i just don't think that's
+[01:37:34.240 --> 01:37:39.600]  that's just not the way people use iphones anymore yeah and i don't even know that it would occur to
+[01:37:39.600 --> 01:37:44.560]  most people i don't i mean like my mom has an iphone now i don't think she it would i don't
+[01:37:44.560 --> 01:37:50.880]  think it would occur to her in a million years to connect it to her mac by by by usb right other
+[01:37:50.880 --> 01:37:56.320]  than to charge it and i don't i can't i can't think of the last time i i used to do for a long
+[01:37:56.320 --> 01:38:01.040]  time and that's the way i did it i mean i did it for like a crazy long time um but i have not done
+[01:38:01.040 --> 01:38:09.120]  that in years all right all right here's the numbers before anybody writes in the correct
+[01:38:09.120 --> 01:38:15.200]  so here's the the right from the horse's mouth at apple revenue from iphone declined 15 from the
+[01:38:15.200 --> 01:38:21.600]  prior year while total revenue from all other products and services grew 19 so that's it 15
+[01:38:21.600 --> 01:38:28.640]  decline year over year for iphone revenue but in 19 everything else went up 19 yeah ipad up 17
+[01:38:28.640 --> 01:38:35.840]  right yeah which makes me think and and you know unit sales are pretty flat i think uh just makes
+[01:38:35.840 --> 01:38:41.120]  it well they don't tell you that either oh no it's revenue is file i don't know yeah it's just
+[01:38:41.120 --> 01:38:48.880]  a hard not to think that that's the uh the ipad pro is sure pretty popular right right because
+[01:38:48.880 --> 01:38:53.440]  it came out last quarter so presumably a lot of people were waiting for a new ipad and bought
+[01:38:53.440 --> 01:39:00.960]  the expensive ipad pros yeah and it was expensive yeah i think i talked about that the last time
+[01:39:01.840 --> 01:39:06.560]  it was on like it's like i got the i got the bottom line with just like a like a cover and
+[01:39:06.560 --> 01:39:11.200]  it was like a thousand bucks practically yeah i think it's pretty you know there's a rumor i don't
+[01:39:11.200 --> 01:39:15.920]  want to you know we have enough news to cover that we can do it but there's rumors of upcoming ipad
+[01:39:15.920 --> 01:39:22.720]  like regular ipad non-pro updates and uh yeah the ipad mini apparently is still alive and
+[01:39:22.720 --> 01:39:28.880]  we'll be getting an update of some sort yeah and the ipod touch yeah and the ipod touch uh which
+[01:39:28.880 --> 01:39:33.920]  is yeah that is interesting to me like it's on the one hand it's overdue for an update and then
+[01:39:33.920 --> 01:39:40.720]  the other hand who who's buying ipod touches right like i i i genuinely ask because it seems to me
+[01:39:40.720 --> 01:39:45.920]  like most people who even give a device like this to to their kids are giving them old iphones
+[01:39:47.360 --> 01:39:52.720]  probably right you know and it's still the ipod touch is 300 bucks so it's not like it's cheap
+[01:39:52.720 --> 01:39:57.680]  you know it's not like buying an ipod shuffle well i know that i mean certain i mean developers were
+[01:39:57.680 --> 01:40:02.800]  buying them right for a while to to test yeah but are they still versions but again i don't know
+[01:40:02.800 --> 01:40:08.080]  yeah i don't know i don't have the numbers i feel like that was a vestige of the era when there
+[01:40:08.080 --> 01:40:13.280]  weren't a lot of quote unquote old spare iphones floating around everybody's house and now there
+[01:40:13.280 --> 01:40:20.640]  are um but you know or is it like an institutional thing like you know hospitals and warehouses and
+[01:40:20.640 --> 01:40:26.400]  anywhere else where people are running little you know so this leads me to a two-prong question i
+[01:40:26.400 --> 01:40:35.680]  guess like do you think that they are just trying to increase the number of devices that they have
+[01:40:35.680 --> 01:40:42.000]  in order to maximize like you know they know that the overall units are going to be continued to be
+[01:40:42.000 --> 01:40:48.720]  flat i don't know going forward and are they just trying to like get into more niches that they
+[01:40:48.720 --> 01:40:56.320]  might have missed earlier in order to keep that service revenue going i don't know i really i
+[01:40:56.320 --> 01:41:00.640]  don't know i would love to know who the target market is for ipod touch i mean you know and
+[01:41:00.640 --> 01:41:04.160]  i've always thought i never bought i've never bought one i've always thought it's adorable
+[01:41:04.160 --> 01:41:10.480]  uh you know because there are a couple of them i think yeah i remember in the early days uh
+[01:41:11.600 --> 01:41:16.720]  forget if it was a wwdc probably was a wwdc because it might have it might have already
+[01:41:16.720 --> 01:41:22.640]  been after mac world expo was no longer a thing but i just remember milling about the top floor
+[01:41:22.640 --> 01:41:30.480]  of moscone west before a keynote on a monday or tuesday whatever day and you know it's 45 minutes
+[01:41:30.480 --> 01:41:35.360]  before they open the doors but there's coffee and donuts and there's hundreds and hundreds of people
+[01:41:35.360 --> 01:41:43.120]  and i saw somebody talking on the or using an iphone and it was so clearly i i was like i i
+[01:41:43.120 --> 01:41:47.840]  my first thought was holy shit someone from apple is here using a prototype iphone this is insane
+[01:41:48.400 --> 01:41:54.320]  why would you do that like because it was so clearly thinner than the existing iphones and
+[01:41:54.320 --> 01:41:58.560]  it turned out it was a guy with an ipod touch but like without thinking about it i thought
+[01:41:58.560 --> 01:42:02.800]  it was like next year's iphone and it was amazing and he's just out here using it in front of
+[01:42:02.800 --> 01:42:07.840]  hundreds of people uh i i've always liked the product it's always been intriguing to me but
+[01:42:07.840 --> 01:42:12.160]  i don't i don't know anybody who buys them so i don't know i think what's interesting what
+[01:42:12.160 --> 01:42:17.200]  occurred to me with these rumors and just looking at the prices like you can get a new ipad starting
+[01:42:17.200 --> 01:42:24.480]  at like it's like 300 and some bucks uh yeah and their sales on them are down to like below 300
+[01:42:24.480 --> 01:42:32.800]  below 300 and so to me the really interesting something i i guess i knew and everybody knows
+[01:42:32.800 --> 01:42:40.320]  because it's out there but i just had never really thought about is that the ipad lineup is very
+[01:42:40.320 --> 01:42:46.560]  different than the mac lineup where the big complaint a lot of people have after last fall's
+[01:42:46.560 --> 01:42:53.680]  announcement of the new macbook air is boy apple has a lot a lot of macbooks for around 1200 or
+[01:42:53.680 --> 01:43:00.800]  1300 you know the macbook the macbook air and the you know the macbook pro without the touch bar
+[01:43:01.600 --> 01:43:06.080]  that have you know various trade-offs between them but it's if you're kind of looking to spend
+[01:43:06.080 --> 01:43:12.480]  1300 on a macbook you've got a widely variety you know you've got three different very very
+[01:43:12.480 --> 01:43:18.560]  different things to choose from whereas the ipad lineup is very differentiated by price right
+[01:43:18.560 --> 01:43:23.600]  you've got like these three to four hundred dollar ones and then you've got these thousand dollar plus ones
+[01:43:24.960 --> 01:43:30.880]  and i'm sure you know you can you can get a regular non-pro ipad and max out the storage
+[01:43:30.880 --> 01:43:34.880]  and get it with cellular and you know get the price up you know that there's ways to fill in
+[01:43:34.880 --> 01:43:39.760]  those price gaps but if you're really price sensitive you're looking at it's very clear
+[01:43:39.760 --> 01:43:44.640]  which one to buy and if you're and if you're really looking to max out your ipad it's very
+[01:43:44.640 --> 01:43:49.520]  clear which one to buy there's a lot it's a lot more of a it's a much more clear product lineup
+[01:43:49.520 --> 01:43:57.440]  than the macbook lineup yeah you know you know and what's interesting we um so i got it i got a new
+[01:43:57.440 --> 01:44:07.120]  ipad and i gave my father-in-law my old ipad uh air 2 and because he had an i he had my old ipad air
+[01:44:07.920 --> 01:44:11.600]  and so i you know he was like like i'm not going to use the ipad air if you want to take that back
+[01:44:11.600 --> 01:44:18.160]  go ahead so i took the ipad air back and um then i updated it and and it's it's still like it's not
+[01:44:18.160 --> 01:44:25.440]  a bad device like it still does everything yeah and it's really old now yeah i well i think that
+[01:44:25.440 --> 01:44:31.040]  is clearly now that again they're not issuing they're not telling you unit sales but it seems
+[01:44:31.040 --> 01:44:36.720]  as though the bleeding has stopped in terms of ipad selling you know going downhill in terms of
+[01:44:36.720 --> 01:44:42.080]  unit sales and my gut feeling always has been and i think it's starting to be backed up by what we
+[01:44:42.080 --> 01:44:48.640]  see in the data is simply that people got by an ipad and it just keeps working yeah and for what
+[01:44:48.640 --> 01:44:54.560]  they use it for it keeps working perfectly right and that was like with the ipad air 2 it was doing
+[01:44:54.560 --> 01:44:59.600]  everything that i needed it to do but i just thought oh i you know i've had this for a number
+[01:44:59.600 --> 01:45:05.200]  of years i should get a new one now yeah it's i i really do think that's the explanation for
+[01:45:05.200 --> 01:45:10.800]  why they were selling like 10 million of them a quarter and or 20 million a quarter and then went
+[01:45:10.800 --> 01:45:16.400]  down to like 9 10 million a quarter it's just that in the initial run-up there was nobody had
+[01:45:16.400 --> 01:45:21.280]  an ipad and therefore all the people who kind of wanted one or could use one bought one and a whole
+[01:45:21.280 --> 01:45:27.920]  bunch of them are just still using them yeah yeah it's you know and and really i see what people do
+[01:45:27.920 --> 01:45:33.280]  you know for playing candy crush and browsing the web you know you really don't need a newer one and
+[01:45:33.280 --> 01:45:38.400]  they last they're really well made yeah i don't think they take nearly the abuse that a phone
+[01:45:38.400 --> 01:45:43.520]  takes because they're not going in pockets and purses and right yeah the other thing he had he
+[01:45:43.520 --> 01:45:48.560]  had the original like we had given him the original ipad that he had um and uh okay so he gave that
+[01:45:48.560 --> 01:45:56.560]  back to me too that thing is a tank it's hilarious to hold one of those things now and the bezel on
+[01:45:56.560 --> 01:46:04.480]  it oh my god yeah it's really big and and pregnant on the back yeah yes it's very bulbous compared
+[01:46:04.480 --> 01:46:11.200]  to the new ones that the whole bent iphone ipad thing seems to have gone away remember there was
+[01:46:11.200 --> 01:46:16.640]  a great yes yeah there was a mini scandal for a day that that people were getting brand new ipad
+[01:46:16.640 --> 01:46:22.480]  pros and they were bent out of the box or too easily bent and then apple didn't issue a statement
+[01:46:22.480 --> 01:46:27.040]  but they issued like an off the record don't quote a statement that the verge interpreted it as
+[01:46:27.040 --> 01:46:33.520]  that's normal uh and but it seems like that died down and i haven't seen anything again
+[01:46:33.520 --> 01:46:38.960]  like i was curious about how that would play out after the initial kerfuffle would would people be
+[01:46:38.960 --> 01:46:43.600]  able to say look here's one i just bought there's a clear bent it's clearly outside the four
+[01:46:44.480 --> 01:46:48.080]  micrometers or whatever the hell they were saying this the the four sheets of paper
+[01:46:48.080 --> 01:46:53.520]  thickness that's that's within their specs right yeah that seems like it went nowhere
+[01:46:54.560 --> 01:47:00.480]  yeah i mean i'm presumably maybe it was just an early flaw in the production process or
+[01:47:00.480 --> 01:47:04.400]  the shipping process or something and they stamped it out yeah i don't know i don't know
+[01:47:04.400 --> 01:47:08.880]  seems like they got it yeah um all right let me take a third break here and thank our friends at
+[01:47:08.880 --> 01:47:13.920]  squarespace i love squarespace look you need a website do you have an idea for a new website
+[01:47:13.920 --> 01:47:18.560]  do you have an old website that needs to be updated desperately try squarespace
+[01:47:20.640 --> 01:47:25.520]  squarespace has everything you need for a website you go there you can register your domain
+[01:47:26.160 --> 01:47:30.160]  you pick out a template they have got award-winning templates really beautiful
+[01:47:30.160 --> 01:47:35.200]  every squarespace website looks so professionally made uh and their templates they scale from
+[01:47:35.200 --> 01:47:41.680]  everything from the phone up to a giant display responsive design you need to sell stuff you can
+[01:47:41.680 --> 01:47:46.640]  drag and drop out a store right there on the site they handle all the credit cards all the security
+[01:47:46.640 --> 01:47:50.880]  stuff you want to start a blog you want to start a podcast you can do it right there on squarespace
+[01:47:50.880 --> 01:47:54.960]  you have a squarespace website and doesn't have a blog but you decide you need a blog
+[01:47:54.960 --> 01:48:02.000]  you can just add a blog and you do it all right there in the browser it's all drag and drop all
+[01:48:02.000 --> 01:48:08.560]  visual and they have award-winning technical support if you do get stuck and they have a
+[01:48:08.560 --> 01:48:14.560]  30-day free trial you get a free trial start today build it see if you like it and then you
+[01:48:14.560 --> 01:48:21.280]  only have to pay at at the end of that period uh if you like it you can't lose anything so that's
+[01:48:21.280 --> 01:48:26.080]  my advice my advice is you need a new website you have an older website that needs that needs uh an
+[01:48:26.080 --> 01:48:30.480]  upgrade needs to be started over try it at squarespace first give it an hour give it half
+[01:48:30.480 --> 01:48:36.480]  an hour even see how far you get uh you'll probably be surprised it's really great and
+[01:48:36.480 --> 01:48:44.320]  people who listen to this show just keep signing up for squarespace uh which is great uh got a
+[01:48:44.320 --> 01:48:49.600]  special deal for you start building your website at squarespace.com and when you do pay when your
+[01:48:49.600 --> 01:48:55.200]  free trial's over just remember this code talk show know the talk show all three sponsors today
+[01:48:55.200 --> 01:48:59.920]  have same code talk show and you'll get 10 off your order you can pre-pay for an entire year
+[01:48:59.920 --> 01:49:07.440]  save 10 off the entire year uh it's a great service my thanks to squarespace go to squarespace.com
+[01:49:07.440 --> 01:49:13.280]  slash talk show today squarespace.com slash talk show and just remember that code talk show when
+[01:49:13.280 --> 01:49:21.760]  you check out well what's else on on your list what else we got the trying to think
+[01:49:24.000 --> 01:49:28.080]  those stories were pretty big yeah that was pretty big uh did you see the the new york
+[01:49:28.080 --> 01:49:34.720]  time story on apple having trouble getting screws in texas oh yeah yeah right i did see that uh
+[01:49:35.520 --> 01:49:40.720]  interesting but seemingly you know i don't know it's an interesting story it was interesting to
+[01:49:40.720 --> 01:49:45.360]  hear the details about a specific component but specific component i don't know where i can put
+[01:49:45.360 --> 01:49:51.680]  the word specific but uh well it's gonna be it's new now it's in the lexicon uh
+[01:49:51.680 --> 01:50:01.280]  uh what about apple tv i wrote yesterday there was a rumor from november that the information
+[01:50:01.280 --> 01:50:06.720]  had the information is usually pretty uh subscriber only but usually you know their stuff pans out uh
+[01:50:06.720 --> 01:50:10.400]  and they didn't say apple is coming out with a dongle you know one of these uh like a chrome
+[01:50:10.400 --> 01:50:16.080]  cast thing where you just plug it in the hdmi port um but some kind of you know instead of
+[01:50:16.080 --> 01:50:24.080]  150 to 200 apple tv uh yeah something cheaper like a dongle uh this is yeah i mean one of our
+[01:50:24.080 --> 01:50:29.840]  favorite uh when my pals on the rebound one of our favorite um saws is is just how expensive and out
+[01:50:29.840 --> 01:50:35.520]  of whack with the rest of the market the apple tv is and and i feel i always joke about how
+[01:50:36.320 --> 01:50:43.600]  particularly taken i feel for having gotten the one with a larger drive capacity i did too why why
+[01:50:43.600 --> 01:50:49.920]  did i do that that was 40 bucks or whatever it's like just flushed down the drain it's what's the
+[01:50:49.920 --> 01:50:55.200]  there's the fear of missing out right there's yeah so i'm i've got fear of running out of space
+[01:50:58.320 --> 01:51:02.560]  all right so yeah yeah so i mean if they're right i mean if they're if the rumors of the
+[01:51:04.080 --> 01:51:10.160]  streaming service are true which they seem like they probably are then uh it seems like uh
+[01:51:10.160 --> 01:51:15.680]  they need to reduce that price a bit so that they can get that into more homes because otherwise you
+[01:51:15.680 --> 01:51:20.400]  know i mean they're not gonna you you gotta run on you gotta buy 150 apple tv and then you gotta
+[01:51:20.400 --> 01:51:24.640]  pay whatever a month for the streaming service that doesn't seem like that's gonna go very far
+[01:51:24.640 --> 01:51:31.760]  yeah and really the way typical people think is they they're you know as the world moves from
+[01:51:31.760 --> 01:51:38.800]  everything you watch comes through your cable or your satellite whatever traditional tv to a i want
+[01:51:38.800 --> 01:51:44.000]  to a i want to stream stuff over the internet i want to get my net i want to watch netflix
+[01:51:44.000 --> 01:51:50.960]  i want to watch hulu i want to watch hbo but not through my cable company or amazon prime another
+[01:51:50.960 --> 01:51:55.280]  perfect example very popular you know i've got amazon prime so i know i've already i've already
+[01:51:55.280 --> 01:52:02.800]  got access to these stuff i want to watch it how do i do it when you know option a from amazon
+[01:52:02.800 --> 01:52:13.120]  option b from roku uh when you know or or 69 or 50 or something like that and option c from apple
+[01:52:13.120 --> 01:52:21.040]  starts at 150 and it's 180 if you want 4k uh you know it looks out of whack it's not like a little
+[01:52:21.040 --> 01:52:24.640]  bit more expensive it's a lot more expensive one thing i've heard you know i don't think it's
+[01:52:24.640 --> 01:52:29.120]  surprising you know like why does apple charge so much more like one thing i've heard from reliable
+[01:52:29.120 --> 01:52:37.120]  a little birdie um is apple effectively sells them at cost like they really are like 180 box
+[01:52:37.120 --> 01:52:41.600]  and you know you think like wow this is amazing it has an a10 processor and it's which we know
+[01:52:41.600 --> 01:52:48.720]  is super fast and has crazy good graphics and um you know it it i've heard the same thing about
+[01:52:48.720 --> 01:52:52.560]  a home pod too like why is home pod so much more expensive than these other speakers you can talk
+[01:52:52.560 --> 01:52:57.120]  to well a home pod i actually have reason to believe as actually apple actually sells it
+[01:52:57.120 --> 01:53:05.280]  at a loss like i don't know i can't prove it but you know i don't think it's a big loss uh
+[01:53:06.080 --> 01:53:12.400]  you know i've always thought that the and again who knows you know over time things get cheaper
+[01:53:12.400 --> 01:53:19.600]  to make the same thing that was you know cost x in 2016 doesn't cost x it costs x minus something
+[01:53:19.600 --> 01:53:24.080]  in 2018 because everything gets cheaper over time but i always thought and i don't have any source
+[01:53:24.080 --> 01:53:30.320]  on this other than the oddity of the price of air pods that they're 159 which isn't you know
+[01:53:30.320 --> 01:53:36.880]  it's not an even price like 149 is even because that's 150 i have always thought that that that
+[01:53:36.880 --> 01:53:43.040]  air pods probably cost like or at least did when they debuted were like 160 product um
+[01:53:45.280 --> 01:53:51.120]  and i know you know company-wide apple very famously has very high margins and somehow
+[01:53:51.120 --> 01:53:57.440]  uh almost like to a spooky degree company-wide it always is right around for years now in the tim
+[01:53:57.440 --> 01:54:02.000]  cook era there was more fluctuation in the jobs era but in the cookie era even though they're
+[01:54:02.000 --> 01:54:06.320]  selling more stuff and you'd think there might be more fluctuation it's very consistently 38
+[01:54:06.320 --> 01:54:13.440]  to 39 company-wide margin i think that with apple tv and home pod they can sell them at little to
+[01:54:13.440 --> 01:54:18.560]  no margin or even negative margin on home pod and it doesn't really show up because the numbers are
+[01:54:18.560 --> 01:54:25.040]  so low you know it's spitting into the ocean right yeah um you know like so if anything if the
+[01:54:25.040 --> 01:54:30.480]  problem if you think it's a problem that these products are so expensive compared to their
+[01:54:30.480 --> 01:54:36.800]  competition that fewer too few people buy them it's not because apple is charging too much it's
+[01:54:36.800 --> 01:54:45.280]  because apple engineered and designed too good of a product you know or too too expensive of a product
+[01:54:45.280 --> 01:54:49.440]  yeah you know people want to buy scooters and apple's building motorcycles
+[01:54:51.040 --> 01:54:56.800]  uh but i think a dongle for apple tv would make a lot of sense and you know maybe a year or two
+[01:54:56.800 --> 01:55:01.120]  ago you'd say well that but apple wouldn't do that but now that they're building itunes into
+[01:55:01.120 --> 01:55:08.960]  samsung tvs this year uh obviously not selling and any kind of even a 50 dongle to get your itunes
+[01:55:08.960 --> 01:55:15.680]  stuff on the samsung tvs what about the 10 gazillion tv sets that people have bought
+[01:55:15.680 --> 01:55:22.080]  over the last five six seven eight years that are they're perfectly happy with don't have itunes
+[01:55:22.080 --> 01:55:26.240]  built in you know like building i you know having this announcement where these tvs from
+[01:55:26.880 --> 01:55:31.680]  samsung and sony and these companies all are going to support airplay too out of the box that's great
+[01:55:32.400 --> 01:55:37.760]  to extend the reach of airplay but there's a gazillion tvs that people aren't in any mood
+[01:55:37.760 --> 01:55:45.200]  to replace that don't have any apple stuff built in uh so i would say you know like some kind of
+[01:55:45.200 --> 01:55:50.080]  dongle that doesn't you know presumably wouldn't be able to offer the full apple tv experience i
+[01:55:50.080 --> 01:55:53.680]  would say just skip the app store and sort of build a dongle that works like the old
+[01:55:53.680 --> 01:55:57.920]  apple tv where you get what's built into it and that's it you know it's got itunes
+[01:55:58.560 --> 01:56:06.000]  and which seems like you know a continuing series of nails in the coffin of the apple tv app store
+[01:56:06.000 --> 01:56:11.200]  right because that does not seem to be going anywhere particularly no and if it you know and
+[01:56:11.200 --> 01:56:16.000]  then other than things that are streaming apps and that kind of thing but there's no like the gaming
+[01:56:16.000 --> 01:56:21.680]  the gaming aspect of that is i mean i have not touched a game on the apple tv and i can't remember
+[01:56:21.680 --> 01:56:26.720]  how long i have and i have a controller yeah i bought the nimbus controller too and i don't nice
+[01:56:26.720 --> 01:56:33.440]  controller but it's not great though either it's you know yeah it's all right uh no ever since we
+[01:56:33.440 --> 01:56:36.880]  bought a switch i haven't played i don't really play a lot on the switch either but if i'm gonna
+[01:56:36.880 --> 01:56:42.560]  play games i play on the switch i don't play on apple tv yeah but if they were ever going to try
+[01:56:42.560 --> 01:56:49.040]  to make a second run at making the apple tv a gaming platform you know that might be you know
+[01:56:49.040 --> 01:56:52.960]  maybe that's the way to do it i feel like the critical error they made to have any hope of
+[01:56:52.960 --> 01:56:58.960]  making apple tv a gaming platform was not including a controller in in the box yeah i
+[01:56:58.960 --> 01:57:05.120]  think we've talked about this before but yeah absolutely and requiring all games to work with
+[01:57:05.120 --> 01:57:10.800]  the apple tv remote as a gaming controller so that you can't even make a game that requires
+[01:57:10.800 --> 01:57:16.080]  a real gaming controller even though it's not included in the box those two things combined
+[01:57:16.080 --> 01:57:23.040]  were yeah i i don't see how they ever hoped to get that off the ground i really don't yeah i mean
+[01:57:23.040 --> 01:57:28.720]  whatever our complaints are about the apple tv remote as a remote for watching videos tv shows
+[01:57:28.720 --> 01:57:35.120]  and video and there are plenty in every you know every podcast you know that even has mentioned
+[01:57:35.120 --> 01:57:41.360]  apple has mentioned all those problems as a gaming controller it is i mean it's it's you know it's
+[01:57:41.360 --> 01:57:46.800]  awful it's like it is to gaming controllers what the stuff you make in a toilet in prison is to
+[01:57:46.800 --> 01:57:56.960]  real booze prison game controller right i mean it's you know it's all you got i guess right i
+[01:57:56.960 --> 01:58:02.320]  mean if you're on desert island with an apple tv and an apple tv remote i guess you'll play those
+[01:58:02.320 --> 01:58:09.680]  games with the apple tv remote but it's it is not good yeah there's only so so much interest
+[01:58:09.680 --> 01:58:15.120]  you have in games that are like cannibal where it's like just tap a button yeah that only goes
+[01:58:15.120 --> 01:58:20.400]  yeah right and even there the apple tv remote it isn't that good even as like a single button
+[01:58:20.400 --> 01:58:27.120]  controller it's not that good i don't know did you see the other thing related to that
+[01:58:27.120 --> 01:58:31.680]  though was the rumor about apple having a subscription gaming service oh yeah right
+[01:58:31.680 --> 01:58:35.040]  right that was i was trying to think of what the other thing was yeah that's the second side of
+[01:58:35.040 --> 01:58:41.200]  that coin right right and uh you know we've you and i have both heard from little birdies that
+[01:58:41.200 --> 01:58:45.440]  there's some some legitimacy there is some legitimacy to that not that we know it's going
+[01:58:45.440 --> 01:58:50.640]  to happen but that uh they've approached some people they have approached people
+[01:58:52.080 --> 01:58:56.240]  and you know i think that totally makes sense because what are the three ways people entertain
+[01:58:56.240 --> 01:59:01.280]  themselves with subscription media content they subscribe to subscription music they
+[01:59:01.280 --> 01:59:07.520]  subscribe to subscription uh video where you watch tv and movies uh well how else that people
+[01:59:07.520 --> 01:59:12.640]  entertain themselves video games right that that's it so why you know it and we know apple has apple
+[01:59:12.640 --> 01:59:17.520]  music we're 100 sure they're doing original video content we don't know how they're going to charge
+[01:59:17.520 --> 01:59:21.920]  for it whether they're going to bundle it with apple music or do it separately um but they're
+[01:59:21.920 --> 01:59:28.000]  definitely doing it um so why not do it with games where they have a dominant position in mobile
+[01:59:28.000 --> 01:59:38.080]  gaming however bad their position is on tv gaming and pz gaming and uh it sounded like it was not
+[01:59:38.080 --> 01:59:43.920]  going to be the big name games no i don't think so because i don't ties into that because apparently
+[01:59:43.920 --> 01:59:50.880]  it's going to be you you can't sell them on on android as well right yeah they have to be ios
+[01:59:50.880 --> 01:59:57.200]  exclusive right or or or at least you know as far as mobile platforms right right so you could do
+[01:59:57.200 --> 02:00:02.800]  like a pc version and you could do you could have a console version but on mobile it would be ios
+[02:00:02.800 --> 02:00:08.720]  exclusive uh and you could see why like the eas of the world the big companies wouldn't be interested
+[02:00:08.720 --> 02:00:12.240]  anyway because they want it they want to make their money on their own they're never going to
+[02:00:12.240 --> 02:00:19.040]  agree to that right uh i i you know it sounds like something apple should do and it sounds like
+[02:00:19.040 --> 02:00:23.840]  something a company interested in increasing services revenue should do uh and it could be
+[02:00:23.840 --> 02:00:29.520]  a good idea you know especially if they cultivate it and get a bunch of games and you just pay this
+[02:00:29.520 --> 02:00:34.640]  one flat fee per month that you're willing to pay and then all of the games that you get are
+[02:00:35.200 --> 02:00:42.320]  both good and don't nickel and dime you to death for in-app purchases yeah and it's the other thing
+[02:00:42.320 --> 02:00:46.400]  that i thought was interesting about it sounded like the i mean it might be actually be of
+[02:00:46.400 --> 02:00:50.480]  interest to i mean people have been saying well gosh why would independent gamers be
+[02:00:51.120 --> 02:00:56.960]  interested in this the the app store pricing is already so bad for them but that they would get
+[02:00:56.960 --> 02:01:01.600]  almost like a book deal yeah yeah you get a bunch you get a bunch of money up front to do it and
+[02:01:01.600 --> 02:01:07.360]  then you get like a you know um as your game is used you get a sort of a smaller amount that
+[02:01:07.360 --> 02:01:12.800]  continues on presumably for a number of years right the idea that would be like a book advance
+[02:01:12.800 --> 02:01:17.600]  would take a lot of the uncertainty out of it right where you can at least say we don't know
+[02:01:17.600 --> 02:01:21.920]  what our royalties will be going forward because we don't know how popular it would be but if this
+[02:01:21.920 --> 02:01:28.080]  upfront number looks like it's you know hey that's gonna be that's that's already makes it worth our
+[02:01:28.080 --> 02:01:32.880]  while to try it you know it would take a lot of the uncertainty out of it yeah you know they
+[02:01:32.880 --> 02:01:38.080]  certainly have the market you know in terms of the installed base multiplied by the number of
+[02:01:38.080 --> 02:01:44.320]  developers who already are writing games for the platform so i don't know i buy it i i would i would
+[02:01:44.320 --> 02:01:47.600]  encourage actually be very interested yeah i mean i mean depending on the games that are involved
+[02:01:47.600 --> 02:01:52.800]  but i mean i i would probably well i don't get that many games anymore but
+[02:01:54.640 --> 02:01:57.680]  what i used to get i'll sign up for it and then never play any games
+[02:01:59.280 --> 02:02:04.640]  no but you know what amy and jonas play a lot of games on their ios devices so a family you know
+[02:02:04.640 --> 02:02:08.880]  assuming that the subscription will work with the family plan thing it would actually right i wonder
+[02:02:08.880 --> 02:02:13.120]  how i assumed that it would work for the family plan yeah so you know you know if it's 10 bucks
+[02:02:13.120 --> 02:02:18.240]  for a person and 15 to add it to your family plan i the way my family plays games on mobile devices
+[02:02:18.240 --> 02:02:25.440]  even without me it would be easily worth it easily so i don't know yeah i say go apple go with that
+[02:02:25.440 --> 02:02:32.080]  idea yeah no that's that aspect is makes it probably definitely financially worth my while
+[02:02:34.000 --> 02:02:38.480]  that's it for me john it's always good to have you in the show okay uh i spent too too long nice to
+[02:02:38.480 --> 02:02:43.200]  be here we didn't have you on in 2018 enough we're gonna make 2019 a year of moltz on the talk show oh
+[02:02:43.200 --> 02:02:46.720]  excellent i'm happy to hear that yeah i'll see and i'll see in december
+[02:02:51.440 --> 02:02:57.520]  everybody can get all the moltz they want on uh on other podcasts including turning this car around
+[02:02:57.520 --> 02:03:02.560]  where where do you go for turning this car around you could search for it in your podcast
+[02:03:02.560 --> 02:03:08.560]  this car around dot net or dot com or something yeah you search you go to itunes and you search
+[02:03:08.560 --> 02:03:13.920]  for turning this car around that's regular regular mac nerdery mac and apple nerdery at the uh the
+[02:03:13.920 --> 02:03:20.000]  rebound correct and uh you can just same place go to itunes yeah just or or overcast or whatever
+[02:03:20.000 --> 02:03:25.600]  your podcast is to search for the rebound you can find it uh anyway good talking to you or just
+[02:03:25.600 --> 02:03:33.760]  drive by my house yeah just i'll hook you up free wi-fi

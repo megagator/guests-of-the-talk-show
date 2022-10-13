@@ -1,0 +1,989 @@
+[00:00.960 --> 00:07.520]  Hey, it's your internet pal, John Gruber, trying something different, something new after 226
+[00:07.520 --> 00:14.640]  episodes of this edition of the talk show. It's just me today, no guest. And it's July 31st.
+[00:15.360 --> 00:25.040]  I have two sponsors scheduled for July, sort of been remiss this month doing regular episodes.
+[00:25.040 --> 00:30.880]  Uh, so I'm trying something new. It's just me. And I'm going to talk in your ear here.
+[00:31.760 --> 00:38.800]  Uh, and for what to talk about, I tweeted this morning, uh, asking for questions,
+[00:38.800 --> 00:45.040]  ask me anything more or less. And I am overblown. I thought I could knock this out in an hour,
+[00:45.040 --> 00:48.720]  get all the good questions. Why not? I like a sort of a short one hour episode,
+[00:48.720 --> 00:52.960]  get through all the questions. Um, there's no way that that's going to happen.
+[00:52.960 --> 00:59.360]  I've just spent the last, uh, probably close to four hours sorting through the questions on
+[00:59.360 --> 01:06.400]  Twitter. Uh, they're terrific. I've categorized them. Uh, I don't think there's any chance I'd
+[01:06.400 --> 01:12.720]  be lucky if I get through half of them. Um, I think it could be really fun. Um, so my thanks
+[01:12.720 --> 01:17.680]  to everybody who asked questions, my, uh, apologies to everybody whose questions I don't get to.
+[01:17.680 --> 01:21.760]  Maybe I'll do another episode like this, but anyway, it's just me answering your questions
+[01:21.760 --> 01:28.160]  today on the talk show. And before I do, why don't I knock this out of the way and
+[01:28.160 --> 01:35.440]  tell you about, uh, Squarespace. Squarespace has been sponsoring this podcast longer than
+[01:35.440 --> 01:40.400]  any other sponsor I can think of. There's a bunch of repeat sponsors who I'm sure you're
+[01:40.400 --> 01:45.440]  all familiar with, but Squarespace is, is the King. And I thank them for their continuing
+[01:45.440 --> 01:52.000]  support. Here's the thing though. I truly believe in Squarespace. I really do think
+[01:52.000 --> 02:01.120]  that it is the best way, um, for almost anybody to get a website off the ground.
+[02:01.120 --> 02:05.520]  And it doesn't matter what type of website you're building. Uh, you could host a blog,
+[02:06.160 --> 02:13.360]  you could host a podcast, you can put up a store, you can set up a portfolio
+[02:13.360 --> 02:20.720]  and you get so much customization. The main thing I hear, Oh, you go there, you get templates
+[02:20.720 --> 02:24.880]  to choose from and I start thinking, ah, you're going to get like a cookie cutter site. You
+[02:24.880 --> 02:29.280]  use Squarespace sites every day and you don't even realize it. I do this all the time. The
+[02:29.280 --> 02:34.160]  main reason I often find out that somebody is using Squarespace is I see a typeface that
+[02:34.160 --> 02:38.640]  they're using and I select it and I go into the Safari web inspector and start looking
+[02:38.640 --> 02:42.240]  at the source code to see what typeface it is. This just happened to me this week with
+[02:42.240 --> 02:46.400]  a company, a great company, local company here in Philly, the Philly bread company.
+[02:46.400 --> 02:50.720]  You can go to philly bread.com, see their website. They're, they're using what's obviously
+[02:50.720 --> 02:56.880]  some version of courier, but I could sort of suspected it wasn't like the, the, the
+[02:56.880 --> 03:01.040]  system version of courier and it definitely isn't courier new. So I went into the web
+[03:01.040 --> 03:05.840]  inspector to see what they're using. And in fact it is courier STD, which is sort of a,
+[03:06.480 --> 03:10.000]  a web hosted version of courier. It looks great. It's a great look for their site. It's
+[03:10.000 --> 03:13.760]  a great fit for their brand. Anyway, poking around the source code, guess what? It's a
+[03:13.760 --> 03:18.720]  Squarespace site. Again, they're, they're making cool bread. They make the best English
+[03:18.720 --> 03:22.240]  muffins. They call them Philly muffins. Oh my God. They are the best English muffins
+[03:22.240 --> 03:26.000]  I've ever had in my life. You guys, if you don't live in, if you do live in Philly, see
+[03:26.000 --> 03:31.040]  where you can get them. And if you don't live in Philly, you're missing out. But anyway,
+[03:31.040 --> 03:35.280]  they're using Squarespace makes total sense because all they want to do is make great
+[03:35.280 --> 03:40.080]  bread. They're, they're not here to make a website and spend a lot of time on it and
+[03:40.080 --> 03:46.640]  maintain it, et cetera, et cetera. Squarespace is the way that you can make your website
+[03:46.640 --> 03:54.480]  and just have no work. Just make it easy. It just runs and they handle everything. You
+[03:54.480 --> 04:01.600]  can register your domain with them. They have the CMS so you can post new content. They
+[04:01.600 --> 04:08.080]  also have award winning tech support. The next time you need to make a website or, and
+[04:08.080 --> 04:12.960]  knowing the people who listen to the show, the next time somebody comes to you for help
+[04:12.960 --> 04:18.160]  making a website, go to Squarespace, get started, give it an hour, give it even just half an
+[04:18.160 --> 04:23.480]  hour and see how far you can get. You'll be amazed. And it's really just a terrific product
+[04:23.480 --> 04:33.360]  and service. Um, go there and you get a free trial. I think it's 30 days. Uh, get started
+[04:33.360 --> 04:39.520]  and then just remember this code talk show. No, the just T A L K S H O W. When you do
+[04:39.520 --> 04:44.300]  sign up to pay, use that code and you get 10% off. They let you sign up for a whole
+[04:44.300 --> 04:49.200]  year at a time. So you could save 10% on a whole year of Squarespace hosting just by
+[04:49.200 --> 04:54.560]  remembering that code talk show. All right, let's get started. There's a lot of questions.
+[04:54.560 --> 04:58.640]  Like I said, I don't think I'm going to get through them all. First category is a questions
+[04:58.640 --> 05:05.480]  related to the new 15 inch Mac book pro, which I've been testing now for about two weeks
+[05:05.480 --> 05:11.920]  and pretty much doing all of my computing on. I've kind of thrown myself in knee deep.
+[05:11.920 --> 05:15.640]  And let me issue this. This is a correction from the show I did last week with Marco Arment
+[05:15.640 --> 05:21.040]  talking about this and I raved about migration assistant, a product from Apple that lets
+[05:21.040 --> 05:27.160]  you get a new Mac, use migration assistant. You can copy over all of your stuff from another
+[05:27.160 --> 05:32.880]  machine. I said it copied almost everything except it didn't get my login items. Well,
+[05:32.880 --> 05:38.820]  I ended up looking into this and it turns out that the login items, the things in the
+[05:38.820 --> 05:44.540]  users and groups, a system pref panel that are apps that, and a lot of them are usually
+[05:44.540 --> 05:52.920]  background apps that start automatically when you log in. A lot of the ones that I thought
+[05:52.920 --> 05:58.680]  didn't get moved over, I looked at my source machine, which is the, my old personal 2014
+[05:58.680 --> 06:03.040]  Mac book, 13 inch Mac book pro. It turns out I looked there and the ones that I thought
+[06:03.040 --> 06:08.760]  I had set up as login items weren't set up there either. And so I think what has happened
+[06:08.760 --> 06:14.960]  for a couple of these things like text expander and the keyboard maestro engine, keyboard
+[06:14.960 --> 06:19.480]  maestro is a great, great utility. But then there's part of what makes it work is that
+[06:19.480 --> 06:23.260]  there's this invisible process in the background and engine and it has to be running. Otherwise
+[06:23.260 --> 06:28.520]  the keyboard maestro doesn't work. Another one that I didn't think moved over was a great
+[06:28.520 --> 06:34.560]  little background service called fast scripts by Daniel Jalkett. Fast scripts is a system
+[06:34.560 --> 06:41.160]  wide scripts menu that lives up in the menu bar and lets you have these, uh, uh, you know,
+[06:41.160 --> 06:45.140]  Apple scripts, shell scripts, anything like that. You can run them anywhere in the system.
+[06:45.140 --> 06:48.960]  Love it. I could, I don't know what I would do without it. Anyway, I think that these
+[06:48.960 --> 06:53.120]  apps, they weren't in my login items on my previous Mac book pro. And I think what was
+[06:53.120 --> 06:57.860]  happening is that for you, cause I do have the preference turned on to reopen previously
+[06:57.860 --> 07:03.640]  running apps when I log back in. So if I restart the machine or log out and log in, I have
+[07:03.640 --> 07:07.680]  the preference set to reopen whatever apps were already running. I think for years now,
+[07:07.680 --> 07:13.000]  because I have that set, those background things have been relaunching automatically.
+[07:13.000 --> 07:17.520]  Every time I restart or install a system update, uh, without being login items, they were just
+[07:17.520 --> 07:21.760]  relaunching cause I have that preference on. So my apologies to the migration assistant
+[07:21.760 --> 07:27.040]  team. Uh, it's even better than I thought because the couple of login items I did have
+[07:27.040 --> 07:31.580]  on that machine did make it over to the new machine. So even your login items move over,
+[07:31.580 --> 07:35.400]  they're definitely supposed to. And even on my machine, the ones that were there as login
+[07:35.400 --> 07:42.040]  items did, uh, so glad to get that off my chest. I felt very guilty about having, having
+[07:42.040 --> 07:49.160]  besmirched, uh, even one tiny aspect of migration assistant, given how amazingly good it turned
+[07:49.160 --> 07:56.960]  out to be. Uh, so here we go. Act book pro, uh, James Atkinson asks, uh, probably already
+[07:56.960 --> 08:02.280]  asked, but does it get loud under load? Uh, well that's the first question. So it wasn't
+[08:02.280 --> 08:09.320]  asked already. James, that's a very good question in my personal use, uh, which is not very
+[08:09.320 --> 08:15.760]  strenuous. I'm not doing video editing. I'm, I'm not doing, uh, anything particularly heavy.
+[08:15.760 --> 08:20.440]  The fan has never come on, so it is dead silent. Uh, and I've done some stuff that is somewhat
+[08:20.440 --> 08:27.440]  stressful. I've imported images, uh, uh, shot and raw on my Fuji X 100 S into photos and
+[08:27.440 --> 08:33.560]  had them process in the background. Um, I have installed a bunch of stuff from homebrew,
+[08:33.560 --> 08:39.520]  some of which needed to be compiled, uh, uh, by the Xcode command line tools. The fan never
+[08:39.520 --> 08:43.380]  came on. The only thing that I've done in the two weeks I've had this machine where
+[08:43.380 --> 08:49.560]  the fan came on is when I let my son Jonas play Fortnite on it. And yes, when he was
+[08:49.560 --> 08:56.440]  playing Fortnite, the fan definitely came on and the machine definitely got hot. Um,
+[08:56.440 --> 09:04.220]  was it loud? It was no louder than I would expect then. Then it would be for a Mac book
+[09:04.220 --> 09:09.400]  under duress, you know, that was being stressful. I don't think it was any louder than previous
+[09:09.400 --> 09:14.000]  machines, probably quieter. And if anything, the people who wish that the thing could run
+[09:14.000 --> 09:20.280]  faster under load, they probably wish that it got louder, that it had a bigger, thicker,
+[09:20.280 --> 09:25.520]  more significant cooling system. Um, you can definitely hear it when it's under load. Um,
+[09:25.520 --> 09:31.240]  but Fortnite was the only thing I've done where that even kicked in. Uh, again, I don't
+[09:31.240 --> 09:35.560]  know how else to say it other than while the fan is running. I don't, I don't know how
+[09:35.560 --> 09:42.960]  it could be any quieter. Uh, next question is from somebody whose Twitter name is, uh,
+[09:42.960 --> 09:50.720]  ironically racist, such directly. So hopefully that means they're not actually racist. Uh,
+[09:50.720 --> 09:56.000]  I don't know, but it's a good question. Uh, in your opinion, do you think Apple should
+[09:56.000 --> 10:03.400]  not will, should a swallow their pride in reverse course with touch bar and thickness
+[10:03.400 --> 10:11.120]  of Mac book pros, presumably be make a new top of the line pro Mac book pro presumably
+[10:11.120 --> 10:17.560]  again for pros that's thicker with legacy ports, uh, hardware function, keys, higher
+[10:17.560 --> 10:22.760]  end components, et cetera, or C stay the course. So I think a and B here are actually the same
+[10:22.760 --> 10:28.120]  thing. I mean, swallowing their pride and reversing course with the touch bar and thickness
+[10:28.120 --> 10:33.980]  and be making a new top of the line pro that's thicker is that's the same thing. So I sort
+[10:33.980 --> 10:39.560]  of feel like it's a or B, you know, are they going to make a thicker quote unquote pro
+[10:39.560 --> 10:44.960]  or B stay the course. And I suspect, uh, again, he's asking whether they should not will.
+[10:44.960 --> 10:53.840]  I think they will stay the course, whether they should. I don't know. Uh, I think that
+[10:53.840 --> 11:02.880]  a significantly thicker like gaming PC laptop style laptop is just not in Apple's DNA and
+[11:02.880 --> 11:07.840]  I don't think it should be in their DNA. I don't think they should do it. Um, a little
+[11:07.840 --> 11:13.040]  bit thicker. What's the point, right? Uh, you know, I know that there's a lot of, Hey,
+[11:13.040 --> 11:17.640]  we, you know, the previous generation was thin enough. Uh, nobody asked for them to
+[11:17.640 --> 11:24.940]  make it thinner. Why not keep it the thickness that it was and have it run faster, et cetera.
+[11:24.940 --> 11:31.000]  I get it. Uh, and there is something to this right where, and I think Marco and I talked
+[11:31.000 --> 11:39.720]  about this on my show last week where the current lineup of Mac book pros, I think it
+[11:39.720 --> 11:48.400]  compared to the desktop is roughly analogous to the regular iMac five case. They are excellent
+[11:48.400 --> 11:53.640]  machines. They are premium machines. They are definitely not low end machines. These
+[11:53.640 --> 12:03.600]  are premium personal computers with terrific displays, excellent consumer to prosumer performance.
+[12:03.600 --> 12:13.640]  Um, but Apple saw fit with the iMac to do the iMac pro, which is not just like a little
+[12:13.640 --> 12:19.600]  name. It's not just that they tacked on the word pro to it and, and anodized the aluminum
+[12:19.600 --> 12:25.980]  in a space gray color and gave you a black keyboard and trackpad. Uh, you know, it internally
+[12:25.980 --> 12:30.320]  it is, they're using Intel Xeon processors, which are totally professional grade. They're
+[12:30.320 --> 12:37.400]  using professional grade Ram and it's, they didn't just shoehorn those into the same enclosure.
+[12:37.400 --> 12:43.040]  It is an entirely different, as much as they look the same cosmetically side by side, the
+[12:43.040 --> 12:47.800]  cooling system in the iMac pro is entirely different. It's just, if you took it apart,
+[12:47.800 --> 12:53.640]  it's just an entirely different system architecture and it is in every way that it is different
+[12:53.640 --> 13:00.120]  than a regular iMac other than the cosmetic difference of the space, great aluminum. Um,
+[13:00.120 --> 13:03.760]  put that aside in every other way that they're different. They are different in ways that
+[13:03.760 --> 13:12.920]  are truly for professionals who need high end computing performance. Is there such a
+[13:12.920 --> 13:19.920]  need in the laptop lineup? And I kind of think there is, I do, there are people who use laptops
+[13:19.920 --> 13:26.000]  for whatever reason, like, you know, developers who work at a place where everybody gets issued
+[13:26.000 --> 13:31.060]  a laptop, that's just it. Or you move around, you know, and, and you, you know, even if
+[13:31.060 --> 13:36.280]  you want a display rather than get an iMac or an iMac pro, you want to plug your Mac
+[13:36.280 --> 13:42.120]  book into the external display. Or another example, video and photo professionals who
+[13:42.120 --> 13:47.360]  are doing stuff in the field, right? You're out there shooting photos in the field and
+[13:47.360 --> 13:51.880]  you want to process them in light room or Photoshop or whatever you're using right there
+[13:51.880 --> 13:55.000]  on the spot where you need a portable for that and you need the best performance that
+[13:55.000 --> 14:01.480]  you can possibly get. Uh, and it's weird. I do, I, I, and I mentioned this with Marco,
+[14:01.480 --> 14:07.000]  I kind of feel that Apple has backed themselves into a corner marketing wise by calling all
+[14:07.000 --> 14:12.520]  of the premium non super thin Mac books, quote unquote, Mac book pro. They've already used
+[14:12.520 --> 14:20.000]  the pro moniker. Um, so with the iMac, the iMac, again, the regular iMac, five K's are
+[14:20.000 --> 14:25.360]  amazing machines. They are not like baby computers. They are terrific computers. I use one from
+[14:25.360 --> 14:32.360]  2014 and it is still to my touch super fast. It is super fast, still has a beautiful display.
+[14:32.360 --> 14:40.820]  I love it. Um, it, but the iMac pro is pro in ways that there is no corresponding Mac
+[14:40.820 --> 14:46.800]  book pro that is that much more quote unquote pro than the standard machines. Is that reason
+[14:46.800 --> 14:50.860]  enough not to do it just because they've already used the pro name for the Mac book pros? That
+[14:50.860 --> 14:56.140]  seems a bit silly and I don't think that's actually explains why they wouldn't do it,
+[14:56.140 --> 14:59.760]  but I think it kind of belies their thinking on the matter that, that they sort of see
+[14:59.760 --> 15:05.720]  what they've got, what their shipping is pro. Uh, I, I don't know if that's a good answer
+[15:05.720 --> 15:10.960]  for should they, uh, it's a little bit rambling, but that's the best I can do. I got to move
+[15:10.960 --> 15:16.720]  on. Jay Robert Lennon asks, have you found a meaningful use for the touch bar or does
+[15:16.720 --> 15:22.000]  it seem to you that it's going to go the way of the iPod high fi? Here's a corresponding
+[15:22.000 --> 15:25.880]  question from the other perspective. Taylor Allen asks, do you think there's anything
+[15:25.880 --> 15:30.680]  apple can do to change the narrative around the touch bar? I like it and find it useful
+[15:30.680 --> 15:35.960]  for editing an email. Uh, the touch bar is one of those things and I think it's as often
+[15:35.960 --> 15:40.120]  the case, but the people who hate it, the people who wish that apple had never done
+[15:40.120 --> 15:44.760]  it or that they would just forget about it, brush it under, you know, the rug and go back
+[15:44.760 --> 15:50.120]  to hardware keys. They seem to think everybody agrees on that and I don't think that's the
+[15:50.120 --> 15:55.320]  case at all. I mean it clearly Taylor Allen here who asked the question likes it. I don't
+[15:55.320 --> 16:02.440]  hate it either. Um, and I personally wonder how much the, the hate around the touch bar
+[16:02.440 --> 16:09.160]  is specifically about the absence of a hardware escape key. Um, I use the escape keys somewhat
+[16:09.160 --> 16:16.600]  often. I miss it. Um, I don't like the software one on the touch bar, um, but I don't use
+[16:16.600 --> 16:21.960]  it as much as some people, some developers use it a lot. Um, just because there are text
+[16:21.960 --> 16:26.280]  editors that developers use like vim that pretty much you're hitting escape as often
+[16:26.280 --> 16:31.400]  as you hit the space bar, uh, that frequently and not having a hardware escape key is it
+[16:31.400 --> 16:37.560]  can be a problem. Um, so what I kind of wish that apple had done with these new Mac book
+[16:37.560 --> 16:42.520]  pros that just shipped this month, um, I, and I think I said this back in 2016 when
+[16:42.520 --> 16:49.880]  I first reviewed these machines, um, I kind of wish that they had put a hardware, traditional
+[16:49.880 --> 16:57.080]  hardware escape key right up in the top left corner above the Tilda and back to key, uh,
+[16:57.080 --> 17:02.920]  just and made the touch bar go from that escape key over to the touch ID button on the other
+[17:02.920 --> 17:07.640]  side. We already have a button up there in the touch bar, a real button. That's the touch
+[17:07.640 --> 17:13.080]  ID sensor. That's a button. It's not part of the touch bar. Um, I don't think cosmetically
+[17:13.080 --> 17:17.240]  it would look bad if there was a hardware escape key up there in the corner and they're
+[17:17.240 --> 17:24.840]  already not, um, uh, using the, the, the part of the touch bar all the way to the right.
+[17:25.560 --> 17:30.520]  That's what I kind of wish that they had done as a, as a 2.0 touch bar. And I wonder how
+[17:30.520 --> 17:35.560]  much of the complaints that would alleviate for me personally, everything else about the
+[17:35.560 --> 17:41.560]  touch bar. I like, I don't, I I've never liked using the F one through F 12 keys for things
+[17:41.560 --> 17:46.200]  like brightness and sound. It's always seemed like occludes to me. It's always seemed ugly
+[17:46.200 --> 17:50.600]  to me that they print, they've, they've got the F F one F two, all that printed on it.
+[17:50.600 --> 17:55.400]  And these cryptic little icons for the brightness and stuff like that. They've seemed very fiddly
+[17:55.400 --> 18:01.000]  to me for ever since they've started doing it. And it's, it seems to me very on apple
+[18:01.000 --> 18:05.240]  like to have those keys. I think that the touch bar is elegant. And for things like
+[18:05.240 --> 18:09.880]  brightness and sound, you know, volume adjustment, I like the touch bar better than using hardware
+[18:09.880 --> 18:16.680]  buttons. It's not perfect though, because they're, you know, you have to look at it.
+[18:16.680 --> 18:20.600]  You can't do it by feel. So I guess if you really memorize where the volume keys are,
+[18:20.600 --> 18:25.800]  you could get there without having to look. But I kind of, you know, I think this is more elegant
+[18:25.800 --> 18:31.560]  and I like it. And I don't think it's going to go away. I don't think that apple is going
+[18:31.560 --> 18:39.080]  to abandon it. Last week on my show, Marco mentioned a trick that you can use. You don't
+[18:39.080 --> 18:45.560]  need third party software at all. You can go into system preferences, keyboard, and there's
+[18:45.560 --> 18:50.360]  a modifier keys button, and then it brings up a little alert where you can change what the
+[18:50.360 --> 18:55.880]  modifier keys do. And you can change the caps lock key to map it to escape. And that's,
+[18:55.880 --> 19:00.440]  that's what Marco has been doing with these keyboards. I've turned it on and I think it's
+[19:00.440 --> 19:09.560]  pretty cool because I don't really use caps lock for caps lock. Using it as escape is a pretty
+[19:09.560 --> 19:14.040]  good work around and it's really smart. It even is smart enough to know once you've said, hey,
+[19:14.040 --> 19:18.840]  use the caps lock key for escape. It no longer triggers the green light for caps lock. So it's
+[19:18.840 --> 19:23.800]  not like every other time that you use caps lock for escape that the green light for caps lock
+[19:23.800 --> 19:28.520]  comes on and off. It just never comes on once you've said don't use it for caps lock. That's
+[19:28.520 --> 19:34.360]  a pretty good work around. Otherwise though, if you really want a high end MacBook with
+[19:35.080 --> 19:38.440]  hardware function keys, I think you're out of luck. I think that that chip has sailed.
+[19:40.120 --> 19:44.040]  And honestly, I don't get it. I don't get what you'd want the other F keys for.
+[19:47.240 --> 19:55.880]  Sorry. Josh centers editor at tidbits wrote, I have a friend wanting to max out a MacBook
+[19:55.880 --> 20:01.160]  pro is the I nine a goodbye after the fix, meaning the supplemental software update that
+[20:01.160 --> 20:07.720]  came out last week to fix the weird bug where in some certain cases the core I nine high end
+[20:08.600 --> 20:16.200]  MacBook pro actually was performing worse than the four core core I seven or is it too limited
+[20:16.200 --> 20:21.560]  thermally to go back to justice question as far as I can tell after the supplemental fix last week,
+[20:21.560 --> 20:27.320]  the core I nine is working perfectly. Again, I haven't run extensive benchmarks, but I've
+[20:27.320 --> 20:33.720]  looking at the YouTube YouTubers like Dave David Lee, I think his name is who originally reported
+[20:33.720 --> 20:41.800]  the issue where Adobe premiere pro was actually running slower on the core I nine and only got
+[20:41.800 --> 20:48.840]  acceptable performance when he literally put it in this freezer and then got similar results
+[20:48.840 --> 20:52.360]  running it not in the freezer after the supplemental fix. As far as I can tell,
+[20:52.360 --> 20:56.440]  the supplemental fix actually fixed it. It was a bug. It was relatively simple.
+[20:57.000 --> 21:03.160]  And the core I nine runs as fast as Apple promises. If you look at Apple's promise
+[21:03.160 --> 21:07.880]  performance gains and I think they say like up to 70% faster than last year's high end
+[21:08.840 --> 21:15.960]  model, that's about right. I don't think the core I nine is magic. I think as Marco said last week
+[21:15.960 --> 21:20.520]  on the show, effectively, they they really probably should have just kept it as they still
+[21:20.520 --> 21:25.080]  should have called it a core I seven. It's not really like a new thing. They've they've added
+[21:25.080 --> 21:32.120]  two cores, but they've stayed on a 14 nanometer process. And, you know, you effectively get the
+[21:32.120 --> 21:37.560]  performance you'd expect going from four cores to six cores. And that's it. So if that sounds
+[21:37.560 --> 21:41.880]  good to you, I would definitely recommend this machine. I think it's exactly what Apple describes
+[21:41.880 --> 21:47.400]  it as. I don't think there's any thermal problem with it. And it's a good time to buy because we
+[21:47.400 --> 21:51.400]  know that Apple doesn't really update machines. Like, they're not going to come out with new
+[21:51.400 --> 21:55.240]  MacBook Pros three months or six months from now. They, you know, pretty much the best you can hope
+[21:55.240 --> 22:01.240]  for is once a year. So if you have the professional need and you want the fastest possible MacBook
+[22:01.240 --> 22:07.640]  that you can get, you should definitely get the core I nine MacBook Pro. It is it is absolutely
+[22:07.640 --> 22:12.120]  what Apple says. It's the fastest MacBook Pro you can buy. It's faster at everything. How much
+[22:12.120 --> 22:17.480]  faster depends on how much you know, whatever the task is, how much it can be multi threaded
+[22:18.120 --> 22:23.160]  or parallelized, whatever you want to call it. But I think it is exactly as Apple describes.
+[22:24.200 --> 22:29.960]  Cameron Williams asks, Apple still makes the best laptops, but would you say they're still
+[22:29.960 --> 22:36.120]  great laptops? I say yes. Do I think they're perfect? No, but I don't know that they've ever
+[22:36.120 --> 22:43.640]  been perfect. Probably the closest to perfect was around 2014. And, you know, there are, you know,
+[22:43.640 --> 22:51.320]  that's what I own. And I love that machine. It's obviously slower than the current ones. It's four
+[22:51.320 --> 22:58.120]  years old. But boy, that was as close to perfection as as Apple could get had great battery life,
+[22:58.120 --> 23:04.680]  had a retina display, had a great selection of ports. And I think if there's any downside,
+[23:04.680 --> 23:08.440]  there are two things that you know, people they're all they're both obvious, and they've both been
+[23:08.440 --> 23:13.960]  discussed to death. But the two things that are questionable on the current MacBook Pro lineup
+[23:13.960 --> 23:22.120]  are the keyboard and the port situation on the keyboard front. The reliability issue is a huge
+[23:22.120 --> 23:28.280]  was a huge problem. Does this silicone membrane that they've started shipping as of this generation
+[23:28.280 --> 23:33.960]  this month? Does it fix the reliability problem? The jury's out we only time will tell. And you
+[23:33.960 --> 23:38.520]  know, I've used this thing for two weeks. I had it at Marco's beach house. I mean, I didn't take
+[23:38.520 --> 23:44.360]  it to the actual beach. So it's not like I actually exposed it to sand. But I've had no problems with
+[23:44.360 --> 23:49.480]  any of the keys. But you know, two weeks in who does? I mean, it's, you know, the problem a lot
+[23:49.480 --> 23:55.000]  of people have is it happens a year in or two years in or three years. And I expected, you know,
+[23:55.000 --> 24:02.040]  a keyboard to work for years and years. There's no reason with 2000 or 3000 or even more MacBook
+[24:02.040 --> 24:06.520]  that you shouldn't expect it to work for years and have the keyboard work with perfect reliability.
+[24:07.800 --> 24:13.480]  So the jury's out on whether this fixes that in terms of the keyboard working as designed,
+[24:13.480 --> 24:18.840]  you know, the big issue is the travel. In other words, these keys don't move as far down
+[24:18.840 --> 24:23.800]  as the previous ones. But Apple's been doing that that's that's been true forever. The keyboard,
+[24:23.800 --> 24:29.880]  you know, Apple's laptops going back to the power book era have always moved in one direction in the
+[24:29.880 --> 24:34.040]  long run, they've always gotten thinner. And because the machines get thinner and lighter,
+[24:34.040 --> 24:42.840]  the keyboards necessarily have to get thinner. I two weeks in, especially using this machine
+[24:42.840 --> 24:47.640]  almost exclusively for the last two weeks, I'm getting used to the keyboard. And to me,
+[24:47.640 --> 24:54.760]  laptop keyboards are always a compromise. I mean, and I'm weird because I like to use an old Apple
+[24:54.760 --> 25:01.800]  extended keyboard to mechanical keyboard with lots of travel and clicky feel. That has, you know,
+[25:01.800 --> 25:06.680]  a keyboard hardware keyboard at my desk that has way more travel and clickiness than anything that
+[25:06.680 --> 25:13.720]  Apple sells or any modern keyboard really has other than new mechanical keyboards. And compared
+[25:13.720 --> 25:20.360]  to that compared to a real mechanical keyboard, no laptop keyboard ever has felt great to me in
+[25:20.360 --> 25:27.320]  terms of what I think typing on a laptop compared to typing at my desk. And you get used to it,
+[25:27.320 --> 25:32.440]  you know, it's always a compromise. I find that I'm used to this even as someone who really likes
+[25:32.440 --> 25:36.360]  a clicky keyboard with lots of travel, I can get used to this and the longer I use it, the more
+[25:37.160 --> 25:44.920]  it feels okay. But it's a personal preference. But I don't think you know, I don't expect them
+[25:44.920 --> 25:49.320]  to go back to more travel. I think once they go to this, I you know, if you don't like it,
+[25:49.320 --> 25:54.280]  if you think that the travel isn't enough, bad news for the future, because I don't think they're
+[25:54.280 --> 26:00.600]  ever going to go back. The port situation is the bigger problem, I think. And again, Marco Orman,
+[26:00.600 --> 26:08.280]  and I talked about this at length in the previous episode of the show, but the US the USBC ecosystem
+[26:09.560 --> 26:16.280]  several years into these USBC only MacBook simply isn't where Apple surely expected it to be. You
+[26:16.280 --> 26:25.640]  can't get a good USBC hub, you really can't. And there are tons of USB, a plugs and peripherals out
+[26:25.640 --> 26:34.040]  there. And at the very least, I don't, I don't use a lot of USB peripherals. But even as someone who
+[26:34.040 --> 26:42.840]  doesn't use a lot of them, even I already need a USB C, a USB A to USB C adapter. Even right now,
+[26:42.840 --> 26:48.680]  I'm recording this podcast using the 15 inch MacBook Pro, I need a USB adapter just to plug
+[26:48.680 --> 26:54.120]  my microphone in. I mean, I guess I could buy a different cable. But I don't have that cable. So
+[26:54.120 --> 26:59.720]  I needed the adapter. That's a downside. But I don't think it means that they're not great
+[26:59.720 --> 27:04.200]  laptops. I still think they're great laptops. I think that they have tremendous fit and finish.
+[27:04.200 --> 27:14.520]  Absolutely beautiful displays. And overall are in great trackpads. It's there. I think
+[27:14.520 --> 27:21.720]  they're great laptops overall. I really do. Tom bridge asks, Does the true tone display actually
+[27:22.520 --> 27:28.440]  matter? I think it does. And I think it's exactly the same on the Mac as it is on iOS, where for me,
+[27:28.440 --> 27:35.960]  at least true tone isn't something I notice. It's something I don't notice. But then when I look at
+[27:35.960 --> 27:40.600]  a non true after I get used to it, when I look at a non true tone display side by side with a true
+[27:40.600 --> 27:46.440]  tone display and indoor lighting, I am appalled by the non true tone display. I think it looks off.
+[27:46.440 --> 27:52.840]  I it's, again, it's just something that you don't appreciate until you see it till you get used to
+[27:52.840 --> 27:56.840]  it and then go back to one that doesn't have it. I love that this machine has it. And it's probably
+[27:56.840 --> 28:07.480]  my single favorite thing about it compared to my personal 2014 MacBook Pro. Here's a question from
+[28:07.480 --> 28:14.120]  Brandon Miller. I'm curious about the difference you see meaning me between night shift and true
+[28:14.120 --> 28:18.920]  tone. You're pretty on the record about liking true tone, but to me, they're pretty similar
+[28:18.920 --> 28:23.320]  and make the screen look terrible. We have these great accurate screens and they make it look like
+[28:23.320 --> 28:29.560]  someone peed on them. So that's interesting. But to me, I think there's a big difference
+[28:29.560 --> 28:34.360]  between night shift and true tone. I believe it that Brandon here and I believe other people
+[28:34.360 --> 28:41.240]  can see the true tone effect and don't like it that they can tell no matter what the color is
+[28:41.240 --> 28:45.560]  ambient color in the room is, they can see that the display is doing something,
+[28:48.120 --> 28:51.880]  faking something, you know, doing a color shift to accommodate for it and it throws everything off.
+[28:51.880 --> 28:56.440]  I believe you that you see it. And if you do see it, I'm sure you hate it. But I think the point
+[28:56.440 --> 29:01.960]  of true tone is that for most people, they don't see it. And it actually makes the display seem
+[29:01.960 --> 29:08.520]  more natural, even though it's actually not showing true colors. Whereas night shift is
+[29:08.520 --> 29:13.720]  purposefully shifting the color in a way that is supposed to be noticeable. You're supposed to be,
+[29:13.720 --> 29:18.600]  you know, there's no way that people don't notice that there's everything is as a yellow, greenish,
+[29:18.600 --> 29:25.080]  sickly tint to it. When I see somebody using night shift on an iPhone, I'm appalled. I often
+[29:25.080 --> 29:30.360]  think because I go, I don't have it turned on. Nobody in my family uses it. So I don't see it
+[29:30.360 --> 29:35.240]  for weeks at a time. And then I see somebody using it. And I often my first thought for a moment is
+[29:35.240 --> 29:40.280]  always like, maybe they dropped their phone and broke the display in some way. And now it shows
+[29:40.280 --> 29:45.240]  weird colors. And then I think, Oh, no, no, they've got night shift on like, to me, it looks so gross
+[29:45.240 --> 29:51.320]  that it seems broken. Your mileage may vary, obviously, other people might see have the same
+[29:51.320 --> 29:56.120]  feeling with true tone. But to me, that's night shift is doing that on purpose. And I still believe
+[29:56.120 --> 30:01.640]  that the the if it if it works with your eyes, if you feel like your eyes aren't bothered as much
+[30:01.640 --> 30:05.720]  when you're using night shift, you know, good for you and keep using it. But I think the
+[30:05.720 --> 30:09.800]  pseudoscience that it makes you sleep better is a crock of shit. I don't think that there's any
+[30:09.800 --> 30:14.120]  any truth to that at all. Again, if your eyes are comfortable, you can tell. But I think this idea
+[30:14.120 --> 30:18.840]  that it helps you sleep better at night because you're not showing blue tones on the screen is a
+[30:18.840 --> 30:27.800]  big pile of horseshit. Dimitri, no last name asks, Do you think it's worth to upgrade from a 2017
+[30:27.800 --> 30:35.240]  base 15 inch to the new base model 15 inch with upgraded RAM? And for two extra cores?
+[30:36.120 --> 30:43.240]  Also, can fan speed be adjusted by the user? I don't think it's worth upgrading from a 2017.
+[30:43.240 --> 30:49.560]  I really don't unless you're really RAM constrained. But if you're RAM constrained,
+[30:50.120 --> 30:57.160]  you know it. If you really need 32 gigs of RAM, rather than a 16 gig config, you know it. And I
+[30:57.160 --> 31:01.720]  guess it is worth it if you're what you're the work you're doing actually maxes out the RAM.
+[31:02.280 --> 31:05.720]  Otherwise, I can't see that it would be worth upgrading from a 2017 model.
+[31:07.000 --> 31:10.680]  I would I would just use that till it you know, for a couple of years and then upgrade.
+[31:10.680 --> 31:15.960]  Can the fan speed be adjusted by the user? No way. I mean, I don't even know where you would
+[31:15.960 --> 31:19.880]  do that. I mean, maybe there's some kind of command line stuff you can do that's all you know,
+[31:19.880 --> 31:24.680]  off the books. But it's certainly in the, you know, in terms of the controls that Apple exposes
+[31:24.680 --> 31:27.960]  and system preferences, there's no control over fan speed, but I don't think you need to worry
+[31:27.960 --> 31:35.720]  about it. The fan never kicks in for me. Joel Houseman asks, Does the new keyboard with the
+[31:35.720 --> 31:41.240]  membrane feel any different than the previous version of this horrible keyboard? Tell us what
+[31:41.240 --> 31:48.280]  you really think, Joel. I think it definitely feels different. I don't have an extensive number
+[31:48.280 --> 31:54.200]  of these side by side to compare with, but I did compare it to the regular just plain MacBook from
+[31:54.200 --> 32:01.640]  2017. And I remember using these, the first generation of it, or maybe that was the second
+[32:01.640 --> 32:05.880]  generation on the 20th. I think the first generation butterfly was on the original one
+[32:05.880 --> 32:12.760]  port MacBook, second generation started with the 2016 MacBook Pros that switched to this design.
+[32:12.760 --> 32:17.160]  And now this is the Apple's calling the third generation. I think it definitely feels better,
+[32:17.800 --> 32:23.640]  feels different and better. And it definitely sounds better. There's no question about it.
+[32:23.640 --> 32:28.120]  It's there's, there's, it's just quieter. And it's a more pleasing sound while you're typing.
+[32:28.120 --> 32:32.840]  It's it truly is a third generation keyboard. There's, you know, whether you like it or not,
+[32:32.840 --> 32:37.880]  whether you think it's still a horrible keyboard, there's no question in my mind that it's more than
+[32:37.880 --> 32:42.600]  just a putting a membrane on the old keyboard. It's, it's a different, you know, it's definitely
+[32:42.600 --> 32:50.920]  a generation ahead. It's like a 3.0. And I like it better. Jeff, no last name, asked, Why didn't
+[32:50.920 --> 32:56.680]  Apple include a plug adapter extension given the cost is $2800? That's a great question.
+[32:56.680 --> 33:01.640]  So for those of you if you don't know, up until this up until they started switching to these
+[33:01.640 --> 33:08.760]  USB C adapters for MacBook Pros, you're when you bought a new MacBook, or MacBook Pro of any kind,
+[33:08.760 --> 33:14.200]  or a power book going back to that, you'd get the rectangular power adapter, which by default,
+[33:14.200 --> 33:19.000]  has a little prong that you can open up and plug right into the wall. So the adapters right in the
+[33:19.000 --> 33:25.400]  socket, or they'd ship an extensive, you know, maybe a five or six foot cord, and you could swap
+[33:25.400 --> 33:30.920]  pop the little prong off the power adapter, put the extension cord on instead, and get an extra
+[33:30.920 --> 33:39.000]  six feet. And they used to include that in the box, and they don't anymore. I presumably why
+[33:39.000 --> 33:44.280]  they didn't include it is that Apple has determined or guessed or figured that most people don't use
+[33:44.280 --> 33:51.720]  it. And therefore they can save some money by not including it. And perhaps more than the cost of
+[33:51.720 --> 33:57.880]  the extension cord itself, I feel like the big savings is in space in the packaging that the
+[33:57.880 --> 34:04.600]  packaging I don't have the box in front of me, but the box for this, I don't believe that that they
+[34:04.600 --> 34:10.280]  could fit that power cord in the box, the box that they're actually shipping these things in,
+[34:10.280 --> 34:17.960]  they'd have to make the box at least a little bit thicker to include a power cord. And so I guess,
+[34:17.960 --> 34:25.400]  you know, they're, they're saving a bit of money. But as Jeff says, for $2800 plus, what could be
+[34:25.400 --> 34:29.640]  an up to, you know, the config I'm using here is like a $5,000 config. And I think it goes up to
+[34:29.640 --> 34:37.560]  like 7000. If you maxed out the SSD storage for a multi $1,000 laptop, I think it's a nickel and
+[34:37.560 --> 34:42.120]  dime move not to include the power cord. So I sort of feel like we're Apple should meet users
+[34:42.120 --> 34:46.520]  halfway. My idea would be that, okay, if you don't want to include it by default, because most people
+[34:46.520 --> 34:50.440]  don't use it don't. But anyone who buys one of these machines who wants one should be able to
+[34:50.440 --> 34:58.120]  get one for free. Like maybe while you're buying online, they could say, Would you like a power
+[34:58.120 --> 35:03.480]  adapter cord? And if you say yes, it would ship in a separate little box. And if you're buying
+[35:03.480 --> 35:07.720]  in the store, they could ask you as you're buying it, and then just give you one. I really think
+[35:07.720 --> 35:13.960]  it's ridiculous that you have to with a 20 to 3040 $5,000 laptop that you have to spend money
+[35:13.960 --> 35:19.640]  to get a power extension cord. I'm personally a fan of them with my personal MacBook, I keep
+[35:19.640 --> 35:26.280]  the extension cord on the power adapter, at least in my the one that I take with me in my backpack
+[35:26.280 --> 35:32.680]  traveling, because I usually don't need it. Usually the the length between the adapter
+[35:33.480 --> 35:40.520]  in the mag safe thing is long enough for me. But often enough, I do need the extra length
+[35:40.520 --> 35:46.200]  that the extension cord enables that it's worth keeping it in my backpack. So, you know, at least
+[35:46.200 --> 35:51.400]  a couple times a year, I find myself needing it. And so it's worth having. And I do feel like it's
+[35:51.400 --> 35:57.480]  sort of a nickel and dime move with these machines not to include it. Paul springers asks,
+[35:59.320 --> 36:04.600]  a thicker MacBook Pro, which has more ports, more CPU power, more GPU and battery life should Apple
+[36:04.600 --> 36:12.440]  get on that? Well, I this is sort of a repeat of a previous question. I best I can say is, in theory,
+[36:12.440 --> 36:19.880]  yes, but I don't expect it. No. Sam Armstrong asks, will ever will Apple ever back down from
+[36:19.880 --> 36:25.880]  their current laptop laptop keyboard? I'm planning on getting a Windows machine unless they make major
+[36:25.880 --> 36:31.080]  changes. Back down is the wrong way to look at it. If you're expecting them to go back to the
+[36:31.080 --> 36:34.760]  previous keyboard design, it is not going to happen. And I don't think it should. I don't
+[36:34.760 --> 36:39.560]  think it's I think that while there are some people who hated and hate this design and wish
+[36:39.560 --> 36:46.520]  that they would, I don't think that that number is enough that to justify it. In theory, would they
+[36:46.520 --> 36:54.600]  ever go to a keyboard with more travel in in some future world where maybe with arm based max, the
+[36:54.600 --> 37:02.040]  actual computer part is so much smaller and it maybe needs so much less physical battery inside
+[37:02.040 --> 37:06.520]  the case that without making the machine thicker, they could put a keyboard in that has slightly
+[37:06.520 --> 37:12.120]  more travel. In theory, they could do that. It would make me happy. I don't expect it to happen,
+[37:12.120 --> 37:18.440]  though. Why should one consider the core? I know there's a question from a guy named
+[37:18.440 --> 37:23.240]  Mayor and may why you are no last name or no first name. I don't not sure which,
+[37:23.240 --> 37:28.120]  but why should one consider the core? I nine over the core. I seven, given the core count is the
+[37:28.120 --> 37:35.400]  same is typing uncomfortable on the laptop when it gets hot. Well, the core count isn't the same,
+[37:35.400 --> 37:39.480]  so I'm a little confused by this because the core I nine has six cores in the core. I seven
+[37:39.480 --> 37:44.680]  models have four cores. So if you need more cores, the core I nine actually is worth it.
+[37:46.600 --> 37:49.640]  I think it is also slightly faster at single threaded stuff.
+[37:49.640 --> 37:55.000]  But if you don't really have multi core needs, if you don't do stuff that can be parallelized,
+[37:55.000 --> 37:58.520]  you probably shouldn't buy the core I nine model. You should save the money and get the
+[37:58.520 --> 38:03.720]  get a quad core core. I seven when the machine gets hot. The only time it's gotten hot for me
+[38:03.720 --> 38:10.920]  is when my son was playing Fortnite. And like most or perhaps every other MacBook I've used
+[38:10.920 --> 38:17.560]  in recent memory, it really only gets hot in the area above the keyboard in that aluminum strip
+[38:17.560 --> 38:25.880]  between the top of the keyboard and the display hinge. That's really the only spot where I see
+[38:25.880 --> 38:31.080]  it. I feel it getting hot. The keyboard itself doesn't get hot, so I don't think it gets
+[38:31.080 --> 38:43.320]  uncomfortable. Mikey Lauren asks, is 13 inch is still the best compromise for you? That's a very
+[38:43.320 --> 38:48.520]  good question. I've been a fan of 13 inch MacBook pros for a while. And even before that, I was
+[38:48.520 --> 38:53.240]  using my before I was using a 13 inch MacBook Pro. I was actually using an 11 inch MacBook Air
+[38:53.240 --> 39:00.680]  for a few years as my portable. Using this 15 inch, though, for the last two weeks has been
+[39:00.680 --> 39:06.920]  eye opening in some ways in terms of really appreciating the extra screen real estate that
+[39:06.920 --> 39:14.040]  it provides. I've done a lot of stuff with side by side windows, including putting together all
+[39:14.040 --> 39:20.200]  these Q and A's. I actually solicited them by Twitter. And I also said you could send them by
+[39:20.200 --> 39:26.040]  email. As I said before, I spent close to four hours putting these questions together. And I
+[39:26.040 --> 39:30.520]  only got through the one sent by Twitter. I actually literally have not looked at my email
+[39:30.520 --> 39:38.680]  in like 48 hours. So I just going through Twitter, but putting them together at a BB edit window
+[39:38.680 --> 39:45.000]  with a bunch of open text documents based on categories and tweet bot over on the right. And
+[39:45.000 --> 39:51.800]  I could drag tweets over from tweet bot to BB edit in a way without overlapping the windows side
+[39:51.800 --> 39:57.800]  by side full width for both windows that I don't think I could have done on the 13 inch. I mean,
+[39:57.800 --> 40:01.880]  I could have, but something would have, you know, the BB edit window probably would have been
+[40:01.880 --> 40:07.560]  uncomfortably narrow. I do appreciate the size for me personally, though, because it's not my
+[40:07.560 --> 40:15.080]  only machine, because primarily I, you know, at home and mostly at home, I use an iMac, a 5k
+[40:15.080 --> 40:23.480]  iMac at my desk. The portability advantages of 13 inch that it's smaller, it fits in a smaller
+[40:23.480 --> 40:32.200]  bag. It's a little bit lighter. You can use it on it in more crowded conditions like a coach seat
+[40:32.200 --> 40:38.040]  on an airplane more comfortably than you could a 15 inch. I think for me personally, 13 inch is
+[40:38.040 --> 40:42.600]  still the best compromise, but I have to admit using this 15 inch for two weeks. I'm a little
+[40:42.600 --> 40:49.080]  bit, a little bit more torn on the issue than I was two weeks ago. But if I had to, if you said
+[40:49.080 --> 40:55.720]  you have to buy a new MacBook Pro today, I would probably buy a, I would buy a 13 inch MacBook Pro,
+[40:56.760 --> 41:05.000]  but it's close. Here's a guy whose name on Twitter is Squash Alcatraz. I don't, I don't believe
+[41:05.000 --> 41:12.200]  that's his actual given name. It's probably a pseudonym, but if it is your name, you know,
+[41:12.200 --> 41:19.640]  you, your parents probably owe you an apology. Which is the bigger dud? MacBook leather sleeves
+[41:19.640 --> 41:24.600]  or iPod socks? I love this question. For those of you who don't remember, iPod socks were a
+[41:24.600 --> 41:31.320]  real product that Apple came out with probably sometime around 2003, 2004, but maybe 2003. I
+[41:31.320 --> 41:35.960]  don't know. But it was in the spinning hard drive era of iPods when they were thicker, more like
+[41:35.960 --> 41:44.120]  the size of a pack of cards. And one year they came out with new iPods and they'd also came out
+[41:44.120 --> 41:49.800]  with these socks, which were literally like socks. And you, the idea was you could slip your iPod
+[41:49.800 --> 41:53.480]  into it and then throw it in your backpack and not worry about the iPod getting scratched up.
+[41:53.480 --> 41:57.720]  Wasn't really padded, but it would certainly scratch proof and it was easy to slide them in
+[41:57.720 --> 42:05.000]  and out. I believe that they sold for something like 19 or $20. Maybe they were $20, maybe they
+[42:05.000 --> 42:10.920]  were $29 knowing Apple. I'm almost certain they weren't more than $29 because I think that would
+[42:10.920 --> 42:17.720]  have been scandalous. I had one. I had a gray one, of course. Not really much for colors. I liked it.
+[42:17.720 --> 42:23.800]  It was actually a useful way. I actually used it as intended. Like when I was throwing an iPod into
+[42:23.800 --> 42:30.920]  a bag for travel, I would put it in the sock. You know, was it overpriced for a cotton sock?
+[42:30.920 --> 42:36.440]  Even if it was $19. Yeah, I guess. But I thought it was useful. So I would say the bigger dud are
+[42:36.440 --> 42:41.480]  these new MacBook leather sleeves because I think people did buy the socks. I don't think they were
+[42:41.480 --> 42:45.320]  a hit. They didn't really, they came out with them once. Only talked about them once. Never talked
+[42:45.320 --> 42:52.840]  about them again. But these leather sleeves are 180 for the 13 inch and $200 for the 15 inch. And
+[42:52.840 --> 42:56.520]  I don't think they're worth it. I don't think they're good. I don't think they're, they don't
+[42:56.520 --> 43:05.560]  feel premium to me. Somebody last week after Marco and I laughed about this thing on the show last
+[43:05.560 --> 43:10.840]  week, somebody pointed me to a company called Saddleback Leather and they make leather sleeves
+[43:10.840 --> 43:16.200]  for Mac books and they, I haven't touched them, but they certainly look like better leather and
+[43:16.200 --> 43:21.160]  they have like a lifetime guarantee or a hundred year guarantee. I mean, literally like they
+[43:21.160 --> 43:26.760]  guaranteed past your lifetime to last. And they're only a hundred dollars. I mean, it really,
+[43:27.880 --> 43:31.960]  it does seem like the prices on these Mac book leather sleeves are exorbitant. It doesn't really
+[43:31.960 --> 43:36.440]  make sense to me to spend $200 on these things. I mean, I think the discussion would be very
+[43:36.440 --> 43:42.120]  different if they were, I don't know, $70 or something like that. I don't expect these to
+[43:42.120 --> 43:48.120]  sell at all. So I would guess the bigger dud is the Mac book leather sleeve. TJ Draper asks,
+[43:48.120 --> 43:55.960]  I9, do the fans run much? How loud? Again, for me, only playing Fortnite and that was
+[43:55.960 --> 43:59.720]  Jonas playing Fortnite. Other stuff I do, they don't. And they're not that loud. They're no
+[43:59.720 --> 44:09.960]  louder than you would expect. Samer Farha asks, is not having a physical escape key an issue
+[44:09.960 --> 44:16.600]  or is it fine in practice? Well, I talked about this. I think it is an issue, but it is fine.
+[44:16.600 --> 44:20.920]  And being able to map caps lock to escape, I think does alleviate it to some degree,
+[44:20.920 --> 44:23.640]  although you're going to have to change some habits to get used to that.
+[44:24.760 --> 44:30.120]  If Apple sold upgradable storage and Ram, but thicker Mac book, would you consider it?
+[44:30.840 --> 44:36.760]  This is a question from Gordon McDowell. If Apple sold upgradable, but thicker iMac,
+[44:36.760 --> 44:42.520]  would you consider it? Their phones get thicker, but the laptops get smaller or phones get bigger,
+[44:42.520 --> 44:51.240]  but the laptops get smaller. I think upgradable components, you know, they're trade-offs,
+[44:51.240 --> 44:54.360]  you know, and that's the way the world used to be, you know, that you could buy a machine
+[44:54.360 --> 45:01.480]  and upgrade the Ram a year later. You could upgrade the storage at any time. You can't do
+[45:01.480 --> 45:06.760]  that anymore. Everything's all sealed up. The Ram is soldered onto the motherboard.
+[45:06.760 --> 45:12.520]  Uh, it is what it is. I think that it's the way the future though, uh, and, and we're never
+[45:12.520 --> 45:18.040]  going to go back. Uh, and it, to me, it's not really a selling point. I do appreciate when I
+[45:18.040 --> 45:23.240]  was younger and, and I was strapped for money. I do appreciate the fact that I could get the
+[45:23.240 --> 45:27.880]  best machine I could afford, which wasn't necessarily the best machine period. And then
+[45:27.880 --> 45:33.480]  later, uh, a year later, maybe two years later, I mean, at one point, I think I upgraded the Ram in
+[45:33.480 --> 45:40.680]  my 1991 Mac LC, like four, four years after I bought it, maybe five. I don't know. But I would,
+[45:40.680 --> 45:51.000]  I upgraded from four megabytes to 10 megabytes of Ram. Um, I think that the LC had two megabytes
+[45:51.960 --> 45:57.880]  built in and then there were two slots, which by which I had two, one megabyte SIM cards in,
+[45:57.880 --> 46:04.760]  and then I upgraded to two, four megabytes Sims a years later for a total of 10 megabytes of Ram,
+[46:05.720 --> 46:13.240]  uh, which is funny because, you know, like a fart sound uses 10 megabytes of Ram these days. Um,
+[46:14.200 --> 46:18.360]  I appreciate that, that, you know, and I'm sure, you know, there's always, you know,
+[46:18.360 --> 46:22.760]  the students today who probably can't buy a maxed out Mac book and then years from now,
+[46:22.760 --> 46:28.200]  maybe they could upgrade it in theory. So I, you know, I'm not saying that upgrade ability has no,
+[46:28.200 --> 46:35.320]  uh, uh, positive sides, but it's just the way the, it's just the way of the world today. And,
+[46:35.320 --> 46:39.160]  and I think the way that machines have gotten thinner, the way that, that, that, you know, body
+[46:39.960 --> 46:47.960]  construction of these things. Um, it's just, just how it is. I mean, it's, it's no more,
+[46:47.960 --> 46:56.120]  you know, I get over it is my answer. Nick here, uh, author of the excellent pixel Envy website
+[46:56.840 --> 47:04.520]  asks, and he prefaces his question with in parentheses for real, in what ways does this
+[47:04.520 --> 47:11.160]  meaning this 15 inch Mac book pro not feel like a spiritual successor to say the first 15 inch Mac
+[47:11.160 --> 47:17.800]  book pro or the power book G four. And is that a problem or is it simply evolutionary? It's a good
+[47:17.800 --> 47:22.440]  question. I feel that it mostly does feel like the true spiritual successor to me. The modern
+[47:22.440 --> 47:29.080]  Apple laptop era starts not with the power book G four. Well, it was specifically the titanium power
+[47:29.080 --> 47:38.040]  book G four, um, where Apple moved from plastic and you know, black or very dark plastic, uh,
+[47:38.040 --> 47:45.240]  construction to metal cases. Uh, titanium was obviously substandard in many ways. It flaked
+[47:45.240 --> 47:54.120]  it, it, you know, um, it didn't last. It, it, it showed a lot of wear on the palms because it,
+[47:54.120 --> 48:00.040]  it just wasn't adorable material. Aluminum clearly is Apple's go-to material for the last,
+[48:02.120 --> 48:10.840]  uh, geez, I don't know what, 15 years, uh, uh, maybe more, uh, you know, but the, the,
+[48:10.840 --> 48:21.880]  uh, and the aluminum era for max, uh, for iPods for watches, you know, they use it everywhere.
+[48:21.880 --> 48:26.840]  Um, and I don't see that coming to an end soon. I mean, eventually they'll move on to something,
+[48:26.840 --> 48:35.000]  I guess. Um, but they really, really use and, and have redefined the way that machines are
+[48:35.000 --> 48:39.000]  constructed. I mean, you find aluminum laptops now and it's the standard across the industry
+[48:39.000 --> 48:45.160]  because they all copy Apple. Um, but that's clearly, this is where they, to me, there's
+[48:45.160 --> 48:53.800]  a clear evolution from the titanium G four to this month old 15 inch Mac book pro. I think it
+[48:53.800 --> 48:58.520]  is the spiritual successor in almost every way. And if there's any way that it's not,
+[48:58.520 --> 49:07.480]  it's the port situation where, especially for the 15 inch pro laptops, Apple, obviously, and
+[49:07.480 --> 49:13.240]  you know, it's obvious to anybody who follows the company, even remotely Apple moves away from
+[49:13.240 --> 49:21.400]  legacy ports faster than any other computer maker. Um, you name the port. Apple is probably the first
+[49:21.400 --> 49:26.680]  to abandon it. Even if you include the flop floppy disc as a port, which I think is fair. Um,
+[49:28.200 --> 49:34.440]  Apple moves away from ports faster than anybody, but the 15 inch pro laptops have always had what
+[49:34.440 --> 49:40.840]  I would, at least by Apple standards, a generous assortment of ports that, that people would find
+[49:40.840 --> 49:48.200]  useful. I think it's most telling that Apple had for years included an SD card reader in their pro
+[49:48.200 --> 49:55.160]  laptops, even in the 13 inch model, um, which is sort of an unappley type thing to do, um, to
+[49:55.160 --> 50:04.120]  include something so specific. Um, but it's useful. And I think that given if the USB-C ecosystem
+[50:04.120 --> 50:10.760]  were in better shape and it was easier to get everything with USB-C by default, and if there
+[50:10.760 --> 50:18.040]  were really good USB-C ports or hubs available that could power, you know, supply power and
+[50:18.040 --> 50:22.120]  multiple other ports, it might be a little different, but I feel like the failure in
+[50:22.120 --> 50:27.560]  this is the failure of USB-C as a whole. And that's the one area where it feels, but it doesn't,
+[50:27.560 --> 50:34.680]  it's not for lack of, um, spirit, right? I feel like the spirit is there. It's just that the,
+[50:34.680 --> 50:39.960]  the, the actual market has failed Apple in this regard. All right. That's the end of my MacBook
+[50:39.960 --> 50:44.200]  pro questions. Here we are. We're almost an hour in there. I'm never going to get to all of these
+[50:44.200 --> 50:51.320]  topics. I've still got a whole topic on the Mac in general, not specific to the MacBook pro iOS
+[50:51.320 --> 50:59.240]  and including, uh, both the software and iPhone and iPad, a whole category on our home pod,
+[50:59.240 --> 51:05.960]  Apple TV, entertainment, uh, category on Apple in general. And then, uh, last a miscellaneous
+[51:05.960 --> 51:11.960]  and personal, uh, category of questions. There is absolutely no way I'm one out of six categories
+[51:11.960 --> 51:15.400]  down and I'm almost an hour in, and I really thought that this whole thing was only going
+[51:15.400 --> 51:19.720]  to last an hour. So I don't know what I'm going to do. If this proves popular, maybe I'll do a
+[51:19.720 --> 51:26.120]  second episode with the, uh, with the same sort of format, no guests, just me answering these
+[51:26.120 --> 51:31.160]  questions. Um, but before I get to the rest of these Mac questions, let me take a break and thank
+[51:31.720 --> 51:37.480]  my other sponsor today. And it's a great company. I love this company. Uh, Casper,
+[51:38.120 --> 51:43.880]  Casper are the sleep experts on the internet. You spend one third of your life sleeping,
+[51:43.880 --> 51:50.760]  so you should be comfortable when you do it. The experts at Casper work tirelessly to make sleep
+[51:51.960 --> 51:58.520]  as great as it could be quality sleep surfaces, mattresses, and a lot more. The original Casper
+[51:58.520 --> 52:03.720]  mattress combines multiple supportive memory foams for a quality sleep surface with the right amount
+[52:03.720 --> 52:10.040]  of both sink and bounce. They're breathable design helps you sleep cool and regulate your body
+[52:10.040 --> 52:15.720]  temperature throughout the night. They have over 20,000 reviews and an average of 4.8 stars across
+[52:15.720 --> 52:21.640]  their own website, Amazon and Google. Casper is becoming the internet's favorite mattress. Now
+[52:21.640 --> 52:26.680]  that they offer two other mattresses now, in addition to their original, the wave and the
+[52:26.680 --> 52:32.360]  essential, the wave is sort of their higher end model. Uh, it features a patent pending premium
+[52:32.360 --> 52:38.600]  support system to mirror the natural shape of your body. The essential has a streamlined design
+[52:38.600 --> 52:45.240]  at a price that won't keep you up at night. And they also offer a wide array of other products
+[52:45.240 --> 52:52.760]  like pillows and sheets, uh, comforters, just, just about anything you need to go on a mattress.
+[52:52.760 --> 52:56.440]  They offer it and it's really great stuff. I've got one of the pillows now. I love it.
+[52:57.000 --> 53:02.280]  Uh, I think we have the comforter upstairs. It's really, really great. Uh, it's just so
+[53:02.280 --> 53:06.520]  comfortable and it really does help you regulate your temperature. You don't get too hot. It keeps
+[53:06.520 --> 53:11.480]  you warm when you want to be warm. It's really, really great. All of their stuff is really great
+[53:11.480 --> 53:17.800]  and everything they sell is designed, developed and assembled right here in the USA. Look,
+[53:17.800 --> 53:23.160]  they sell these things at affordable prices for high quality premium mattresses. Their prices
+[53:23.160 --> 53:29.000]  cannot be meet, cannot be beaten by, by what you see in like a brick and mortar retail mattress
+[53:29.000 --> 53:34.920]  store. It's, it's, it's just unbelievable for the quality that you get. And the reason is simple.
+[53:34.920 --> 53:41.080]  They cut out the middleman and sell directly to you. They design it, they make it, they ship it
+[53:41.080 --> 53:47.160]  to you. That's the deal. A hassle free returns if you're not completely satisfied. Look, that's the
+[53:47.160 --> 53:52.120]  big deal. You go to a mattress store, you can try it, you can sit on it, you can see if you like it,
+[53:52.120 --> 53:56.600]  uh, kind of gross in my opinion, but you can at least try it out before you buy it.
+[53:56.600 --> 54:00.840]  Can't do that with an internet mattress, but Casper has you covered. They have a hundred
+[54:00.840 --> 54:05.400]  night risk free sleep on it trial. That's over three months. You can spend three months with
+[54:05.400 --> 54:10.920]  the Casper mattress. And if you are not completely satisfied, go back to their website, say,
+[54:10.920 --> 54:14.200]  I want my money back. They'll give you your money back. They'll come, they'll take the mattress
+[54:14.200 --> 54:19.560]  away. No hassle. It's just not like when you cancel your cable service and they give you
+[54:19.560 --> 54:24.360]  the run around and stuff like that. They make it easy. Uh, I've even heard from, from a listener
+[54:24.360 --> 54:28.680]  or two over the years that they've been sponsoring who said, you know, I bought this thing. It wasn't
+[54:28.680 --> 54:33.480]  for me. Uh, I really didn't believe that it would be that easy to send it back. And it really was.
+[54:33.480 --> 54:37.800]  Um, we've got a bunch of cappers Casper mattresses here in the house. I think we're up to three.
+[54:38.440 --> 54:43.000]  Uh, and we love them. They're great. They really are. I wouldn't say that if it weren't true.
+[54:43.560 --> 54:50.680]  Uh, they're really great products. I really like them. Uh, and they come to you in an amazing,
+[54:50.680 --> 54:55.480]  how did they do that size box? Uh, we just got the wave recently, so we just got one. Uh,
+[54:55.480 --> 55:01.000]  and again, it's, it's hard to believe that that is a queen size mattress when it shows it up at
+[55:01.000 --> 55:07.800]  the door. You just think there's just no way and opens up. There it is. Uh, a full size mattress,
+[55:07.800 --> 55:14.760]  kind of amazing. They've got free shipping and free returns in the United States and Canada.
+[55:16.600 --> 55:23.960]  A hundred day risk free guarantee and a special offer special offer just for listeners of this
+[55:23.960 --> 55:32.280]  show. You get 50 bucks towards select mattresses by visiting casper.com slash talk show. That's
+[55:32.280 --> 55:37.960]  just casper.com slash talk show and remember that code talk show at checkout casper.com
+[55:37.960 --> 55:44.200]  slash talk show and that special code talk show and you save 50 bucks towards select mattresses.
+[55:44.200 --> 55:50.360]  That's 50 bucks in your pocket. Terms and conditions apply. My thanks to Casper for
+[55:50.360 --> 55:56.920]  sponsoring this show. All right, let's move on to questions about the Mac and then I don't know
+[55:56.920 --> 56:05.160]  what I'll do. Uh, Ben Beard asks, what are your thoughts on future Mac books with arm processors?
+[56:05.160 --> 56:12.680]  The ATP guys think it could happen as soon as 2020 related question. J dubs asks, do you think
+[56:12.680 --> 56:19.000]  Apple will put a powerful, more powerful a series chip in the Mac book pros and use it just to power
+[56:19.000 --> 56:26.440]  marzipan apps as a way to transition to arm and extend battery life? Uh, I don't think that that's
+[56:26.440 --> 56:37.240]  going to happen. Uh, I think that putting a, a, a, an Apple arm chip in as the touch bar processor
+[56:37.960 --> 56:43.000]  as a little side, a computer within the computer makes sense, but only in the sense that it's a
+[56:43.000 --> 56:47.800]  peripheral in terms of actually using it to run apps. I don't think that that makes sense. I think
+[56:47.800 --> 56:53.160]  Apple will switch to arm. I think they are absolutely full steam ahead working on it. I
+[56:53.160 --> 56:57.400]  agree with the ATP guys that it could happen as soon as 2020 I really don't think it could happen
+[56:57.400 --> 57:03.960]  next year. I think 2019 is probably too soon. Uh, if I had to guess, my guess would be that they
+[57:03.960 --> 57:10.760]  might announce it next year at a, at WWDC to get developers on board with recompiling their apps
+[57:10.760 --> 57:16.920]  for arm and, and which shouldn't be too big of a problem hopefully. Um, uh, cause hopefully
+[57:16.920 --> 57:22.440]  developers have seen this coming and haven't been doing anything Intel specific. Um, you know,
+[57:22.440 --> 57:27.720]  for years now, but who knows, but that's what they did when they switched from power PC to Intel is
+[57:27.720 --> 57:35.080]  they announced it at WWDC. Um, I said it would start shipping next year and early the next year,
+[57:35.080 --> 57:39.640]  I think in like February, they came out with the Mac book pro. They started with the Mac book pro,
+[57:40.360 --> 57:44.280]  but it just switched it. And I think that's what they'll do again. It's not going to be that you
+[57:44.280 --> 57:50.920]  have an Intel processor and an arm processor that's powerful enough to really run apps. Um,
+[57:52.600 --> 57:58.200]  there's no reason really for marzipan, um, to, to need an arm processor. Uh,
+[57:59.720 --> 58:06.520]  I, I, I, I really don't think there's anything, you know, there's, it, it runs just fine on,
+[58:06.520 --> 58:14.280]  on, um, the Mojave beta, you know, running on Intel, the, the, the power savings that you might
+[58:14.280 --> 58:19.800]  get from theoretically running marzipan apps on an arm processor, while everything else runs on
+[58:19.800 --> 58:28.040]  Intel, uh, I think is far outweighed by the cost that you'd incur by including both a premium arm
+[58:28.040 --> 58:32.680]  processor and an Intel processor in the same machine. That's just wasteful. And that's just
+[58:32.680 --> 58:37.560]  not how transitions work. Transitions work by ripping off the bandaid. It's just, here you go,
+[58:37.560 --> 58:44.120]  here's a new Mac book that instead of having an Intel CPU uses, uh, an Apple, a series arm arm
+[58:44.120 --> 58:50.360]  CPU. That's how it works. Um, and before you say it, yes, I remember, I think there was some kind
+[58:50.360 --> 58:56.920]  of weird thing where you could get like a 68 K coprocessor back when the power PC max first shipped.
+[58:56.920 --> 59:03.160]  I don't remember, but for the most part, once when Apple switched from 68 K to power PC, it was just,
+[59:03.160 --> 59:09.560]  here's power PC max. Everything is running either natively as power PC code or emulated 68 K. When
+[59:09.560 --> 59:13.720]  they switched from power PC to Intel, it was here's this machine is now Intel based, not
+[59:13.720 --> 59:21.320]  power PC based. And I think they'll do the same thing with arm Daniel, all ALM. He's the developer
+[59:21.320 --> 59:26.200]  of the excellent timing app for a Mac just sponsored during fireball recently. Actually,
+[59:26.200 --> 59:31.240]  it's a great app. It's sort of like, uh, helps you keep track of, of what your, what apps you're
+[59:31.240 --> 59:35.800]  using and what you're working on, uh, without doing any kind of work. You don't have to log
+[59:35.800 --> 59:42.520]  it. It's a great app. Check it out. He asks, uh, theory next Mac mini will essentially be a
+[59:42.520 --> 59:50.280]  rebranded Apple TV four K with an a 11 or a 12 processor. What do you think? Uh, in theory,
+[59:50.280 --> 59:57.800]  that sounds great because the Apple TV, as we, as, as it ships today, the Apple TV four K is,
+[59:57.800 --> 01:00:04.520]  is when you run, uh, when you try to run the benchmarks on it, very, if not faster than the
+[01:00:04.520 --> 01:00:10.200]  currently shipping Mac mini, which is ridiculously old, it's faster or as fast and it's way smaller.
+[01:00:10.200 --> 01:00:16.200]  Um, so in theory, that would be great cause it would be cheaper. It would be smaller. Uh,
+[01:00:16.200 --> 01:00:24.360]  the performance is definitely there, but I kind of hope not. I don't think cause I really feel
+[01:00:24.360 --> 01:00:30.040]  like the Mac mini is so ridiculously outdated at this point that I really, really hope that
+[01:00:30.040 --> 01:00:36.120]  they come out with a new one this fall. Um, not just faster, but it has to be smaller because
+[01:00:36.120 --> 01:00:40.280]  as I've written on daring fireball recently, the Mac mini isn't even many anymore compared to
+[01:00:40.280 --> 01:00:45.640]  like these Intel and you see computers, I don't know if they pronounce them knock or what, but
+[01:00:45.640 --> 01:00:50.840]  you know, there, there are Intel based mini computers that are the size of an Apple TV
+[01:00:50.840 --> 01:00:56.520]  or smaller. Um, it's ridiculous that Apple is still selling the Mac mini and calling it mini
+[01:00:56.520 --> 01:01:02.360]  when it's way bigger than these things ridiculously outdated. So my hope is that Apple ships a new Mac
+[01:01:02.360 --> 01:01:07.320]  mini this year in the fall. And if they do, as I said a couple of questions ago, there's no,
+[01:01:07.320 --> 01:01:10.760]  I don't think that, you know, there's no way that they're going to switch to arm this year.
+[01:01:11.560 --> 01:01:13.800]  Um, so it would have to be Intel based. Um,
+[01:01:16.280 --> 01:01:24.920]  Peter Zignigo, Zignigo perhaps, uh, asks the discussion of Fortnite not being supported on
+[01:01:24.920 --> 01:01:30.680]  Intel integrated graphics with Marco Arment is the fact that it runs great on modern iOS
+[01:01:30.680 --> 01:01:35.400]  hardware, evidence of Apple's lead in mobile graphics and or epics willingness to put in
+[01:01:35.400 --> 01:01:41.560]  extra effort for that market. I think indisputably, I don't think there's any question that, that the
+[01:01:41.560 --> 01:01:49.720]  fact that epic put the work in to get Fortnite running well on iPhones and iPads and doesn't
+[01:01:49.720 --> 01:01:54.600]  have, it doesn't really, I think it might run on integrated graphics, but they definitely tell you
+[01:01:55.160 --> 01:02:01.640]  that it's, it's not great and it, it isn't great. It does certainly doesn't run anywhere near as
+[01:02:01.640 --> 01:02:07.880]  anywhere near as well as it does on iOS hardware. Of course, that's proof that, uh, it's proof of
+[01:02:07.880 --> 01:02:14.280]  the importance of the iOS market and the iOS market is so big and so important that developers
+[01:02:14.280 --> 01:02:20.440]  like epic are willing to, to target it specifically. And, you know, metal, the metal
+[01:02:20.440 --> 01:02:27.960]  API APIs are only used on Apple platforms. It's not a cross-platform, um, set of eight graphic
+[01:02:27.960 --> 01:02:34.760]  API APIs and it's worth it for developers to support it even though it's specific to Apple's
+[01:02:34.760 --> 01:02:41.640]  platforms. Um, because the iOS market is so big and the Mac market is, has, you know, famously,
+[01:02:41.640 --> 01:02:45.400]  infamously, I mean, I can, I'm not going to go on at length about this, but the Mac has never
+[01:02:45.400 --> 01:02:51.880]  been known for gaming. It's always been behind PCs and gaming and perhaps it's further behind
+[01:02:51.880 --> 01:02:57.160]  than it ever has been at this point. Um, you know, cause there's this whole concept where
+[01:02:57.160 --> 01:03:01.320]  I talked about it with, with on the last episode where my son wants to get a gaming PC.
+[01:03:01.320 --> 01:03:06.280]  There wasn't the, the, the phrase gaming PC is now it's just like a whole category. Uh,
+[01:03:06.280 --> 01:03:11.880]  and it wasn't years ago. I mean, PCs were known to be better for gaming. People who are serious
+[01:03:11.880 --> 01:03:16.680]  gamers did buy PCs that were, that they'd configure specifically for gaming, but now
+[01:03:16.680 --> 01:03:22.600]  it's just like an entire product category. Um, it is no question about it that the Mac is not
+[01:03:22.600 --> 01:03:27.400]  really relevant and, and you know, the bigger tell to me isn't the fact that it doesn't run well on
+[01:03:27.400 --> 01:03:31.880]  integrated graphics. The bigger tell to me is that bug that I talked about on the last episode with,
+[01:03:31.880 --> 01:03:38.120]  with Marco, where when you run fortnight on, um, I don't know if it's every Mac, but certainly on
+[01:03:38.120 --> 01:03:43.160]  the 15 inch Mac book pro, the first time you try to join a game, it literally, there's a bug where
+[01:03:43.160 --> 01:03:48.600]  it takes 10 minutes before you, you get in and it just sits there saying loading dot, dot, dot.
+[01:03:48.600 --> 01:03:53.080]  And the solution is to literally just sit there and wait 10 minutes and it lets you in.
+[01:03:53.080 --> 01:03:58.840]  And then subsequently you can join games, you know, on a regular, uh, with a regular amount
+[01:03:58.840 --> 01:04:03.240]  of weight. A couple of people wrote to me and thank me for mentioning that because they ran
+[01:04:03.240 --> 01:04:07.880]  into the same thing and made the same assumption that my son and I made at first, which was that
+[01:04:07.880 --> 01:04:12.760]  this, it was a never ending bug. You know, once you wait two, three, four minutes to join a game,
+[01:04:12.760 --> 01:04:16.840]  it's a pretty safe assumption that you should just force quit the app and try again. And if
+[01:04:16.840 --> 01:04:21.560]  you run into it, just give up. Um, but this is actually truthfully a thing where you have to
+[01:04:21.560 --> 01:04:25.000]  wait 10 minutes and let you in. So a couple of people wrote to thank me for mentioning that
+[01:04:25.000 --> 01:04:30.120]  because they, they run into it and just gave up. Um, but the fact that that bug has been around,
+[01:04:30.120 --> 01:04:33.880]  at least since April, which is the first time I saw it mentioned on a forum and they still
+[01:04:33.880 --> 01:04:38.600]  haven't fixed it at the end of July is ridiculous. I mean, if the PC version had a bug like that,
+[01:04:38.600 --> 01:04:42.840]  they'd fix it the next, as soon as they possibly could. Um, and the fact that they've let this
+[01:04:42.840 --> 01:04:47.640]  languish on a Mac tells you everything you need to know about how important Epic sees the Mac
+[01:04:47.640 --> 01:04:58.280]  as a platform for Fortnite. Uh, Mumper asks, do you have a preference on minimizing windows versus
+[01:04:58.280 --> 01:05:02.440]  using the close button? If so, why I still struggle to see the difference or any reasoning
+[01:05:02.440 --> 01:05:08.280]  to use one over the other. This is a crazy question to me. Um, I personally don't use
+[01:05:08.280 --> 01:05:13.080]  minimize at all. Uh, I think by default, when you minimize windows on Mac OS tenant sticks,
+[01:05:13.080 --> 01:05:17.240]  the window into the dock as a separate little icon, you know, the, the window itself becomes
+[01:05:17.240 --> 01:05:21.320]  an icon in the dock. And then there's a preference you can turn on in the dock settings to have
+[01:05:21.320 --> 01:05:26.920]  minimized windows effectively go into the app they belong to. So like, let's just say you're
+[01:05:26.920 --> 01:05:33.000]  using text edit and you minimize a window. If you have that preference on, it goes into the
+[01:05:33.000 --> 01:05:38.440]  animation shows it going into the text edit app icon on the dock. And then to get back to that
+[01:05:38.440 --> 01:05:46.680]  window, you, uh, you, you click on the app in the dock to get the menu and, uh, you can choose it
+[01:05:46.680 --> 01:05:54.040]  from there. Um, I don't, I don't minimize windows almost, almost never. Uh, I just don't find it
+[01:05:54.040 --> 01:05:59.960]  useful either way. So I either have the window open and if I'm done with it, I close it. Uh,
+[01:05:59.960 --> 01:06:09.400]  I don't minimize, um, I, the, the minimize feature could be totally broken and I wouldn't notice for
+[01:06:09.400 --> 01:06:16.200]  weeks or months because I just never use it. Um, back in the day, in the classic Mac OS era,
+[01:06:16.760 --> 01:06:21.960]  I thought that the, uh, instead of minimizing what you could do is they called it window shade
+[01:06:21.960 --> 01:06:25.800]  and you could double click. There was a button you could click in the top right corner of the
+[01:06:25.800 --> 01:06:30.520]  window or you could just double click in the dead space anywhere in the title bar of a window
+[01:06:30.520 --> 01:06:36.280]  and the whole window would, uh, effectively window shade. It would, the window would go up and all
+[01:06:36.280 --> 01:06:43.400]  you'd be left with is the title bar. And it was a really convenient way to get at something behind
+[01:06:43.400 --> 01:06:47.880]  the window you were currently in. And one of the things that made it cool was because the title
+[01:06:47.880 --> 01:06:52.280]  bar didn't move. You could double click the title bar to window shade the window and either look
+[01:06:52.280 --> 01:06:55.880]  behind the window or drag something behind the window. But if you just wanted to look behind the
+[01:06:55.880 --> 01:07:01.320]  window, it, the title bar was still there, still underneath the mouse pointer. So you could just
+[01:07:01.320 --> 01:07:08.280]  double click again to open it back up. Part of what to me, what makes the Mac OS 10 model of
+[01:07:08.280 --> 01:07:15.240]  minimizing, which has been here ever since Mac OS 10.0, uh, back in 2001 or 2002, whenever the hell
+[01:07:15.240 --> 01:07:23.240]  it shipped, um, is that you can't undo, you can't un-minimize a window without moving the mouse over
+[01:07:23.240 --> 01:07:28.840]  to the dock. Whereas the macro at the classic Mac OS window shade feature, you could double click,
+[01:07:28.840 --> 01:07:34.600]  look behind, double click again and, you know, undo what you've just done without moving the
+[01:07:34.600 --> 01:07:41.880]  mouse. Um, that was huge, huge, one of the, one of the many thousand paper cuts of ways that, uh,
+[01:07:41.880 --> 01:07:47.880]  Mac OS 10 to me remains, uh, inferior to the classic Mac OS and UI design.
+[01:07:49.560 --> 01:07:54.360]  Um, but that's a can of worms. We can't get into here if we want to finish on any reasonable
+[01:07:54.360 --> 01:08:03.480]  amount of time. Uh, next question, Steven Foskett asks, do you think Apple really has an insanely
+[01:08:03.480 --> 01:08:08.840]  great idea for the new Mac pro? If so, what will it look like? Uh, first part of the first question,
+[01:08:08.840 --> 01:08:12.360]  yes, I do think they have a great idea or at least they think they have a great idea because
+[01:08:12.360 --> 01:08:17.560]  I also think they thought the trashcan Mac pro was a great idea, but based on what they've told us
+[01:08:17.560 --> 01:08:24.920]  publicly, uh, you know, they, they seem pretty, pretty, uh, clear that, that they see that it
+[01:08:24.920 --> 01:08:32.280]  was a mistake that the Mac, the trashcan Mac pro was not designed around the what's now obvious,
+[01:08:32.280 --> 01:08:41.240]  the importance of growing importance of multiple GPUs and, uh, the, the having a thermal envelope
+[01:08:41.240 --> 01:08:47.560]  that could take a significantly hotter GPUs than the trashcan is designed to take. Uh,
+[01:08:47.560 --> 01:08:52.040]  so I think they've got their, their, I think they're recalibrated and now have their focus
+[01:08:52.040 --> 01:09:00.200]  on where the highest of high end performance computing is going in 2018, 2019. What will it
+[01:09:00.200 --> 01:09:05.800]  look like? I have no idea. None. Uh, I don't have any little birdies who've spilled anything about
+[01:09:05.800 --> 01:09:10.200]  it. Uh, Apple's lips seem to be sealed on this. I haven't seen even any rumors about what it's going
+[01:09:10.200 --> 01:09:18.920]  to look like. I have no idea. Um, but I do expect it to be a super high performance. I mean, there's,
+[01:09:18.920 --> 01:09:24.680]  you know, to me, the most intriguing thing is given the super high performance universally hailed
+[01:09:24.680 --> 01:09:31.880]  of the iMac pro, um, you know, what exactly, how much faster could, you know, Mac pro to justify
+[01:09:31.880 --> 01:09:35.640]  its existence has to be a lot faster than that. And that's pretty interesting because the iMac pro
+[01:09:35.640 --> 01:09:46.760]  is very fast. Uh, Bruce wager wagger asks, is it believable that Apple can't make a good Mac for
+[01:09:46.760 --> 01:09:52.040]  less than a thousand dollars? Seems like their choice, not a question of ability. Of course,
+[01:09:52.040 --> 01:09:56.360]  there's no question that they could make a cheaper Mac. Uh, I think that's always been true though.
+[01:09:56.360 --> 01:10:04.920]  It's been true for, you know, 25 years, uh, or 30 years, wherever, however long the Mac is what 94,
+[01:10:04.920 --> 01:10:15.400]  2004. Yeah. 30, 35 years, 34 years of Mac. Uh, I maybe back in 1984, they couldn't make a cheaper
+[01:10:15.400 --> 01:10:21.000]  Mac. Uh, but certainly for the last 25 years, they could have, if they wanted to, there's no reason,
+[01:10:21.000 --> 01:10:25.400]  you know, it's a marketing decision that they don't. And the fact that they make iPads,
+[01:10:25.400 --> 01:10:32.120]  uh, that are performance compatible, certainly as performant enough that they could run MacOS 10
+[01:10:32.120 --> 01:10:38.360]  if Apple so wanted and they sell them for as low as, you know, $300, uh, is, is with a very
+[01:10:38.360 --> 01:10:42.280]  nice display is proof positive that they could make a cheaper Mac if they wanted to, but they
+[01:10:42.280 --> 01:10:52.440]  choose not to for, for whatever reasons. Uh, Vikram Nair asks, how ridiculous is it of Apple to sell
+[01:10:52.440 --> 01:10:58.680]  the Mac mini or Mac pro at anywhere near the full price as when it came out? What is Apple doing
+[01:10:58.680 --> 01:11:05.480]  here and why? That's a good question. And I think it's often misunderstood. I think that Apple's
+[01:11:05.480 --> 01:11:11.240]  pricing scheme for max and the fact that the, you know, the Mac mini is years and years old,
+[01:11:11.240 --> 01:11:15.720]  the Mac pro is five years old or something like that. And they still sell them at the
+[01:11:15.720 --> 01:11:23.400]  same prices as when they came out. That's because the Apple sees the price as part of the brand
+[01:11:24.440 --> 01:11:27.720]  branding and marketing of its devices. Um,
+[01:11:30.200 --> 01:11:37.640]  and it really only works if they update them regularly when they don't update them regularly,
+[01:11:37.640 --> 01:11:43.000]  it starts to get absurd. And in theory, absolutely. If they're going to continue to sell
+[01:11:43.560 --> 01:11:48.680]  years old Mac minis and Mac pros, the prices should be significantly lower today than they
+[01:11:48.680 --> 01:11:54.760]  were when they came out. But they don't because they want to, they want to effectively protect
+[01:11:54.760 --> 01:11:59.320]  those price points so that when new Mac pros do come out or new Mac minis do come out,
+[01:11:59.320 --> 01:12:04.680]  they can keep them at the price that they want them to be at, uh, and not have it seem like the,
+[01:12:04.680 --> 01:12:09.400]  like a price hike. So like, let's just say if they had started, if they had just, if they,
+[01:12:09.960 --> 01:12:16.600]  in the alternate universe where they had still, the Mac mini was just as old today as, as it is
+[01:12:16.600 --> 01:12:21.480]  in our universe, but they had like lowered the price by a hundred dollars every year that it
+[01:12:21.480 --> 01:12:27.400]  went on on updated. And then they come out with a new Mac mini this fall and it goes back to the
+[01:12:27.400 --> 01:12:32.280]  original price. It would seem like this huge price hike and they want to avoid that. Um,
+[01:12:32.280 --> 01:12:39.800]  uh, I don't think there's, you know, uh, I don't think there's any magic to that. Uh, uh,
+[01:12:39.800 --> 01:12:45.800]  it is a bit stubborn and it, and it is something that Apple and possibly only Apple can get away
+[01:12:45.800 --> 01:12:53.400]  with in the PC industry because Apple's, uh, brand and, and user allegiance allows them to,
+[01:12:54.040 --> 01:12:58.040]  um, but they just don't, their computers aren't commodities in a way that like Dell
+[01:12:58.040 --> 01:13:03.880]  computers are and that, you know, raised and lower by fluctuate as component prices go up,
+[01:13:03.880 --> 01:13:07.480]  go up and down. They come out with a price and the price is part of the brand of the,
+[01:13:07.480 --> 01:13:11.640]  the device and it stays the same even when it gets a bit ridiculous,
+[01:13:11.640 --> 01:13:13.560]  as is the case with the Mac mini and Mac pro.
+[01:13:15.320 --> 01:13:21.320]  Jackson Kernian asks, do we know any more about how and why Apple got app store,
+[01:13:21.320 --> 01:13:26.520]  skeptical Mac developers back into the store as announced at WWDC? I don't think there's any
+[01:13:26.520 --> 01:13:30.120]  secret to it. I don't think there's anything that, that I, you know, that, that, that's on the record.
+[01:13:30.840 --> 01:13:35.000]  Um, but you know, apps like BB edit, which had been out of the store and now coming back
+[01:13:35.000 --> 01:13:43.080]  panics. Uh, uh, I believe it's coda, uh, not transit transmit. I forget. I don't know which
+[01:13:43.080 --> 01:13:50.600]  of panic's apps is definitely coming back to the store. I think it's coda. Um, and you know, I,
+[01:13:50.600 --> 01:13:56.920]  I know rich Segal at bare bones. I know the guys at panic. Uh, and, and I, I just, I don't think
+[01:13:56.920 --> 01:14:01.640]  there's any secret to it. I don't, you know, it's just good old fashioned developer relations. And
+[01:14:01.640 --> 01:14:05.400]  I know there's a whole bunch of other apps that this is the case for, but I honestly think it's,
+[01:14:05.400 --> 01:14:11.560]  it's, there's no secret to it. It's people at Apple who work in developer relations on a one
+[01:14:11.560 --> 01:14:16.920]  on one personal basis, reaching out to Mac developers who've, you know, whose apps either
+[01:14:16.920 --> 01:14:21.560]  were in the store and were pulled or were never in the store and saying, what do you need? You know,
+[01:14:21.560 --> 01:14:25.560]  what do you need from us from Apple? What can we do differently? What APIs can we change? What can
+[01:14:25.560 --> 01:14:30.760]  we change with sandboxing? What can we improve? What would make the app store? Uh, you know,
+[01:14:30.760 --> 01:14:35.640]  what would make you get back in the app store listening and then doing what, what needs to be
+[01:14:35.640 --> 01:14:41.960]  done? Uh, just good old fashioned developer relations, you know, and it's to me, um, a great
+[01:14:41.960 --> 01:14:49.560]  sign of Apple's, uh, uh, uh, belief in support of third party Mac developers, uh, and a great sign
+[01:14:49.560 --> 01:15:02.520]  for the platform going forward. Uh, next question, uh, Dave swallow asks, do you think Apple will
+[01:15:02.520 --> 01:15:08.680]  ever release a Mac mini, a new Mac mini to compete with an Intel and you see a small Mac that can be
+[01:15:08.680 --> 01:15:13.560]  a home server? Well, I hope so. Um, I honestly don't know what to think at this point though.
+[01:15:13.560 --> 01:15:17.880]  The Mac mini is so old that I really hope they come out with a new one. And if they come out
+[01:15:17.880 --> 01:15:25.560]  with a new one, I certainly hope it's a lot smaller, uh, possibly cheaper. Um, uh, but at
+[01:15:25.560 --> 01:15:29.720]  this point I wouldn't be surprised if they never updated either. I don't know why they continue to
+[01:15:29.720 --> 01:15:33.080]  sell it though, if that's their goal, but look at what they did with airport hardware, where they
+[01:15:33.080 --> 01:15:39.160]  kind of stopped updating it years ago and continued to sell it long after, uh, they'd seemingly
+[01:15:39.160 --> 01:15:47.640]  internally decided to, to no longer create new, new hardware. Uh, next question, Kevin
+[01:15:48.360 --> 01:15:53.400]  Van Harren asks, since you just found out migration assistant is decent,
+[01:15:53.400 --> 01:15:59.880]  do you keep your documents slash desktop in iCloud? I do not, but it's, it's not because,
+[01:15:59.880 --> 01:16:05.320]  uh, I think it's very different migration assistant. I really underestimated. I really
+[01:16:05.320 --> 01:16:11.640]  just figured based on old experience from the early two thousands, at least when it didn't
+[01:16:11.640 --> 01:16:15.800]  really do a good job of moving everything I wanted from an old machine to a new machine. And I found
+[01:16:15.800 --> 01:16:21.160]  it to be less work to just start from scratch and add it by hand. Um, I really underestimated
+[01:16:21.160 --> 01:16:26.120]  the modern migration assistant. I think I understand exactly what when you, when you
+[01:16:26.120 --> 01:16:30.200]  decide to share your documents folder, in other words, you're the documents folder at the root
+[01:16:30.200 --> 01:16:35.320]  level of your home folder and your desktop and iCloud. I know exactly what it's supposed to do
+[01:16:35.960 --> 01:16:41.720]  and whether it works seamlessly or not. I don't want it. I don't want my desktop, the files on my
+[01:16:41.720 --> 01:16:47.320]  desktop, on my various max to be shared between them. And I don't want my documents folder to be
+[01:16:47.320 --> 01:16:56.280]  shared between max. I have Dropbox. I also use iCloud, um, uh, you know, storage within apps
+[01:16:56.280 --> 01:17:04.920]  like numbers. Um, you know, the, I work suite, uh, uh, what's it called? iCloud drive. Um,
+[01:17:04.920 --> 01:17:11.640]  I use iCloud drive. I use Dropbox, uh, Dropbox, both of those, uh, at this point, I don't know if
+[01:17:11.640 --> 01:17:19.800]  I could do without either. Um, and if I want a file to be synced between machines, I will either
+[01:17:19.800 --> 01:17:28.200]  store it in Dropbox or store it in iCloud drive. Uh, I like having a documents folder in my home
+[01:17:28.200 --> 01:17:33.720]  folder on each Mac that is local to that Mac for when I do have files that I don't want to sync
+[01:17:33.720 --> 01:17:38.280]  for whatever reason between machines. Uh, so no, I don't use that. And to me,
+[01:17:38.280 --> 01:17:42.280]  sinking the desktop in particular, it just seemed, it would just seem weird. The desktop clearly to
+[01:17:42.280 --> 01:17:48.600]  me is supposed to be conceptually local to the machine. It would be very strange. I would find
+[01:17:48.600 --> 01:17:55.480]  it very undesirable to have my document or my desktop sync between machines. Uh, next question,
+[01:17:56.120 --> 01:18:03.400]  trying to wrap these Mac questions up here. Uh, Michael Rockwell asks, do you expect Apple to
+[01:18:03.400 --> 01:18:11.640]  transition the iMac to SSDs as the default option? It's a great question. I think that this is
+[01:18:11.640 --> 01:18:18.120]  possibly a sign of the difference between the Tim Cook Apple and Steve jobs is Apple. I think
+[01:18:18.120 --> 01:18:25.240]  if Steve jobs were still around the iMac maybe already would be SSD by default, um, or SSD only
+[01:18:25.240 --> 01:18:33.800]  that they're, you know, and the iMac pro is SSD only. Um, I, the, the advantages of SSD over
+[01:18:33.800 --> 01:18:40.120]  spinning hard drives in every single regard, other than cost that you can get more storage
+[01:18:40.680 --> 01:18:46.920]  for significantly less money with a spinning hard drive than an SSD. Um, but the other advantages of
+[01:18:46.920 --> 01:18:52.760]  SSD are so great in terms of reliability and performance and even, you know, the fact that
+[01:18:52.760 --> 01:18:59.080]  they're dead silent are so great. And to me, that's what Apple computers, Apple products
+[01:18:59.080 --> 01:19:04.280]  are supposed to be is great. Um, they're so great that it's worth the premium you have to pay.
+[01:19:04.280 --> 01:19:08.520]  If you really need more storage, I really, you know, and you want to pay spinning hard disk
+[01:19:08.520 --> 01:19:14.600]  prices, then, then you should have to, I think Apple should make you use, uh, an external drive.
+[01:19:14.600 --> 01:19:20.680]  I believe Apple, the iMac should be SSD only at this point. So I definitely think it will be at
+[01:19:20.680 --> 01:19:24.280]  some point, but I think, I think the more interesting thing is that to me, I think it
+[01:19:24.280 --> 01:19:31.560]  should be already. And I think it would be if Steve jobs were still CEO, uh, Derek Martin asks,
+[01:19:31.560 --> 01:19:35.720]  do you think it's possible that Apple could release max primarily powered by an Apple arm chip,
+[01:19:35.720 --> 01:19:41.160]  but which also contain an X 86 chip for backward compatibility? I kind of answered this before.
+[01:19:41.160 --> 01:19:45.800]  That's not how transitions work. I don't think they'll do that. I think that once they switched
+[01:19:45.800 --> 01:19:51.880]  to arm, it'll be all arm and probably possibly with some kind of, um, emulation layer so that
+[01:19:52.520 --> 01:19:58.840]  un-updated apps that are X 86 can still run even, even, you know, through an emulator,
+[01:20:01.080 --> 01:20:06.360]  St. Chris asks, were you a fan of tabbed folders in Mac OS nine, where you could pin a folder to
+[01:20:06.360 --> 01:20:12.760]  the screen edge as just a title bar tab. It was the central organizing principle of my workflow.
+[01:20:12.760 --> 01:20:16.840]  I haven't found anything that can replicate it in Mac OS 10. I was a huge fan. I wouldn't call it
+[01:20:16.840 --> 01:20:22.520]  the central organizing principle of my workflow back then, but it was a great feature. And yet
+[01:20:22.520 --> 01:20:29.960]  again, especially with the finder, just a terrific example of how the classic finder was a just vastly
+[01:20:29.960 --> 01:20:35.960]  infinitely better design than the macro has 10 finder ever was, or probably will be. The idea
+[01:20:35.960 --> 01:20:39.560]  was you could just drag a window, take the title bar, drag it down to the bottom of the screen.
+[01:20:39.560 --> 01:20:45.320]  And when it got to the bottom, it would change, change from a window into a tab and the tab would
+[01:20:45.320 --> 01:20:51.720]  stay anchored at the bottom. And while it was there, you could click the tab and it would pop
+[01:20:51.720 --> 01:20:57.400]  up and you could access the stuff in it and then click it again. And it would go back down to a tab
+[01:20:58.440 --> 01:21:03.960]  super convenient for like your current project. If your current project is, you know, organized
+[01:21:03.960 --> 01:21:11.400]  in a single folder in the finder or frequently accessed folders. It was just terrific. A great
+[01:21:11.400 --> 01:21:21.080]  feature. And again, I miss it. Ryan Jones asks, how do you feel about the decline of exquisite
+[01:21:21.080 --> 01:21:27.400]  attention to detail in Apple products, specifically software such as more inconsistencies or fewer
+[01:21:27.400 --> 01:21:32.920]  subtle delights? That's a good question. And I definitely think he's right. I would go so far as
+[01:21:32.920 --> 01:21:38.600]  to say it only pertains to software. To me, Apple's attention to detail and hardware is greater than
+[01:21:38.600 --> 01:21:45.640]  ever. I think that their hardware shows is more refined, more, you know, closer to the perfection
+[01:21:45.640 --> 01:21:52.360]  than it's ever been. Not to go off on a tangent, but just one example is the hinge on the current
+[01:21:52.360 --> 01:22:00.840]  MacBook Pros, the hinge between the display and the main body. It works with so little effort,
+[01:22:00.840 --> 01:22:06.920]  yet it stays in whatever position you put it in with. You can get it exactly at the angle you
+[01:22:06.920 --> 01:22:12.280]  want it to with less effort. The hinge even looks good. It's almost like it's not there. You hardly
+[01:22:12.280 --> 01:22:19.480]  even see anything. It looks good. It feels good. It is super reliable. It's just exquisite attention
+[01:22:19.480 --> 01:22:26.920]  to detail. Say what you want about the new keyboard, but the fact that it has these this,
+[01:22:26.920 --> 01:22:32.680]  you know, about the feel about what do you think about the low travel? But the way that they the
+[01:22:32.680 --> 01:22:41.000]  keys on these butterfly switches move all at once up and down is such a it's so nice. And it really
+[01:22:41.000 --> 01:22:45.000]  is something that when I go back to my old keyboard, it really does feel a little junky.
+[01:22:45.720 --> 01:22:49.880]  The hardware attention to detail is terrific. And, you know, I could go on and on about the
+[01:22:49.880 --> 01:22:57.240]  hardware of the iPhone, which is just terrific. The software definitely there's no doubt in my
+[01:22:57.240 --> 01:23:05.320]  mind that there is less attention to detail in Apple software than in the old days. In the old
+[01:23:05.320 --> 01:23:15.240]  days, and I would say especially like in the classic Mac era, it was very hard to find any
+[01:23:15.240 --> 01:23:23.480]  user interface mistakes in Apple's own software. It was, you know, just in terms of just little
+[01:23:23.480 --> 01:23:28.200]  details, there's there's things now and it's been this way in Mac OS X forever. I forget exactly
+[01:23:28.200 --> 01:23:37.640]  where I think. Let's see if I can find it here. There's things in system preferences where there's
+[01:23:37.640 --> 01:23:42.280]  there's a like a little sheet that comes down in system preferences where there's an OK and
+[01:23:42.280 --> 01:23:49.160]  cancel button and the OK button rather than being the same width as the cancel button. It's only
+[01:23:49.160 --> 01:23:57.080]  wide enough for the word OK, which is wrong. It's clearly a user interface mistake. It's,
+[01:23:57.800 --> 01:24:04.360]  you know, wrong according to the HIG and it's wrong according to just my native UI
+[01:24:04.360 --> 01:24:12.840]  instincts. I can't believe that Apple employs somebody who would make such a mistake while
+[01:24:12.840 --> 01:24:20.280]  laying out a dialog box. And furthermore, I cannot believe even more that even given the existence of
+[01:24:20.840 --> 01:24:26.760]  some engineer who isn't aware of that UI convention that, you know, an OK and a cancel
+[01:24:26.760 --> 01:24:31.480]  button should be the same width, even if the word OK has to float and a lot of, you know,
+[01:24:31.480 --> 01:24:39.640]  horizontal white space. I can't believe that it got approved and furthermore, can't believe that
+[01:24:39.640 --> 01:24:45.240]  it's been there for years and Apple still hasn't fixed it. There's all sorts of little things like
+[01:24:45.240 --> 01:24:54.760]  that in Mac OS X. You know, it is what it is, but I just feel like and I think part of it is just
+[01:24:54.760 --> 01:25:01.720]  that Apple has had to, you know, they've expanded and they have so many engineers that they can't
+[01:25:01.720 --> 01:25:08.440]  only hire engineers who are familiar forward and backward with every single UI convention of the
+[01:25:08.440 --> 01:25:19.480]  Mac. I do find it a little depressing. Let's keep going here. Next question. Got to wrap this up
+[01:25:19.480 --> 01:25:26.120]  soon. I'm running out of steam. It's surprisingly hard to do this without a guest. Let's see here.
+[01:25:29.720 --> 01:25:33.640]  Do I think touch will ever come to the Mac? There's a question from Jamie Halmick.
+[01:25:37.720 --> 01:25:41.080]  Not like the touch bar, but real touch interaction on the screen. Conversely,
+[01:25:41.080 --> 01:25:45.560]  do you think mouse support will ever come to the iPad? A couple other people asked about this touch
+[01:25:45.560 --> 01:25:49.960]  support for Mac OS. Just a matter of time. Never going to happen. Walford East wrote.
+[01:25:52.280 --> 01:25:58.760]  I certainly think it never should come to the Mac. I really do believe I firmly believe the Apple
+[01:25:58.760 --> 01:26:04.600]  party line on touchscreen Macs that the Mac is designed fundamentally designed from a user
+[01:26:04.600 --> 01:26:12.760]  interface perspective to be used with your hands on a desk or table, palms down on a keyboard,
+[01:26:12.760 --> 01:26:19.800]  on a mouse, on a track pad, and that ergonomically reaching up and touching a screen is suboptimal
+[01:26:20.840 --> 01:26:30.040]  and that the Mac has user interface controls. Everything from the red, yellow, green buttons
+[01:26:30.760 --> 01:26:36.280]  to the menu bar to the way menu bar items are arranged to how small items in the dock can get
+[01:26:36.280 --> 01:26:40.760]  when you're running a bunch of applications. They have all sorts of controls throughout the UI.
+[01:26:40.760 --> 01:26:45.880]  Just think about the main palette and Photoshop and apps like Photoshop, how small the buttons
+[01:26:45.880 --> 01:26:52.440]  are with a precision pointer using a trackpad or mouse. You can pack controls that are very small
+[01:26:52.440 --> 01:26:57.960]  and close to each other, and they remain totally functional. And on a touch screen, they need to
+[01:26:57.960 --> 01:27:03.240]  be bigger and further apart to accommodate the fact that your finger touching a screen is
+[01:27:03.240 --> 01:27:12.920]  imprecise. And so the Mac UI as it is, things are too close, too small to be touch friendly.
+[01:27:12.920 --> 01:27:20.120]  And if Apple were to issue touchscreen Macs and an edict that everything should be redesigned to
+[01:27:20.120 --> 01:27:24.760]  be touch friendly, then you'd be wasting all this screen real estate when you do use a mouse
+[01:27:24.760 --> 01:27:30.840]  and trackpad. I really think it's a bad idea. I really do. And I don't think it's ever going
+[01:27:30.840 --> 01:27:35.640]  to come. Would I be shocked if it did come? I don't know, because people seem to be clamoring
+[01:27:35.640 --> 01:27:39.800]  for it, but I think that they're wrong. And I think Apple should and will stick to its guns.
+[01:27:40.440 --> 01:27:42.600]  I really don't think a touch screen Mac is a good idea.
+[01:27:47.880 --> 01:27:53.560]  When let's see here. Next question. I've lost my train of thought here in these questions.
+[01:27:53.560 --> 01:27:58.200]  Oh, here's a good one. Ryan Humphrey asks, If you were starting a business today where
+[01:27:58.200 --> 01:28:01.960]  long term success was going to be dependent on heavily investing in either Apple or Microsoft's
+[01:28:01.960 --> 01:28:06.040]  commitment to desktop slash professional hardware, would you be comfortable locking yourself into
+[01:28:06.040 --> 01:28:10.600]  Apple? Absolutely. I don't think there's any reason to doubt Apple's commitment to the Mac
+[01:28:11.160 --> 01:28:15.880]  as a platform going forward. I think these two statements can both be true. Apple is
+[01:28:15.880 --> 01:28:26.200]  as committed to the Mac as you could want the company to be today. And Apple is primarily
+[01:28:26.200 --> 01:28:31.000]  the primary focus of the company, the single most important product is the iPhone. I think both of
+[01:28:31.000 --> 01:28:34.840]  those things can be true that yes, the iPhone is Apple's most important product is the most
+[01:28:34.840 --> 01:28:40.120]  successful, the one with the most users generates by far the most money, and therefore justifies
+[01:28:40.120 --> 01:28:46.040]  being the company's prime focus of attention, but that the company remains totally committed
+[01:28:46.040 --> 01:28:54.920]  to the Mac. I think both of those things can be true and are true. NBA asks, same question asked
+[01:28:54.920 --> 01:28:59.400]  on ATP this week. When do you expect to see the first arm Mac? It's sort of a repeat question.
+[01:28:59.400 --> 01:29:04.680]  Sorry about that. I'm going to say 2020 and if not 2020 2021 at the latest.
+[01:29:08.920 --> 01:29:13.480]  P Krishna asks, Which keyboard are you going to use if your Apple extended keyboard too broke?
+[01:29:13.480 --> 01:29:19.160]  I would just take out one of my mint condition unopened Apple extended keyboard twos that I have
+[01:29:19.160 --> 01:29:24.760]  in storage and use one of those if my current one broke. But I guess that's sort of a non
+[01:29:24.760 --> 01:29:31.240]  answer. I think what you're really asking is what if at a technical level, the ADB to USB adapter I
+[01:29:31.240 --> 01:29:36.520]  used to do it stopped working with Mac OS X, I guess I would buy some sort of mechanical keyboard,
+[01:29:36.520 --> 01:29:41.640]  I'd probably talk to Jason's now. And see, I've still never found a mechanical keyboard that I
+[01:29:41.640 --> 01:29:46.280]  would be satisfied with. But I'm sure I could find something that I would like better than anything
+[01:29:46.280 --> 01:29:55.880]  else. Phil Swenson asks heard anything about the Apple monitor promised last year seems like a
+[01:29:55.880 --> 01:30:02.040]  reasonably priced for Apple at least monitor with more ports would migrate mitigate port issues.
+[01:30:02.040 --> 01:30:09.480]  And no one wants the LG. I haven't heard anything I just presume and I think this is pretty obvious
+[01:30:09.480 --> 01:30:14.760]  that whenever Apple's the Mac Pro is ready to the new Mac Pro is ready to come out it will debut
+[01:30:14.760 --> 01:30:23.560]  alongside the Apple branded 5k or perhaps even 8k monitor that Apple talked about last year. And I
+[01:30:23.560 --> 01:30:29.240]  would certainly hope that it includes a bunch of ports so that people with like a MacBook Pro who
+[01:30:29.240 --> 01:30:38.360]  plug into the new monitor could get things like you extra USB ports and stuff like that. But I
+[01:30:38.360 --> 01:30:43.000]  haven't heard anything about it and presume it won't come before and won't come after it'll cut
+[01:30:43.000 --> 01:30:50.040]  debut alongside the new Mac Pro. Richard Martin asks, what a MacBook with a massive glass keyboard
+[01:30:50.040 --> 01:30:56.520]  touchpad slash Apple pencil abstracted interface area in lieu of the current keyboard touchpad area
+[01:30:56.520 --> 01:31:02.360]  be a good product? I'm going to say no, it would be a terrible product. Absolutely terrible to me.
+[01:31:02.360 --> 01:31:09.080]  And you know, it runs into this with the with these low travel keys. And with the particularly
+[01:31:09.080 --> 01:31:17.160]  with the inverted the lack of an inverted arrow key arrangement, inverted t arrow key arrangement,
+[01:31:17.960 --> 01:31:24.920]  which Marco and I talked about last week. It's it would be terrible because the thing about it's not
+[01:31:24.920 --> 01:31:28.920]  even what it would be like once you look at the key and get your fingers on you know, let's just
+[01:31:28.920 --> 01:31:33.800]  say it would be like an iPad, right? Like you have an iPad keyboard on a glass surface of the top of
+[01:31:33.800 --> 01:31:41.800]  the where the hardware keyboard on a MacBook is now put aside what it would be like to actually
+[01:31:41.800 --> 01:31:47.720]  type on that keyboard once your fingers are in the right place, which I think, you know, clearly
+[01:31:47.720 --> 01:31:55.160]  would be inferior, you know, no travel keys, even with some sort of haptic feedback along the lines
+[01:31:55.160 --> 01:31:59.720]  of the way that the current track pads, you know, don't really click but have haptic feedback
+[01:31:59.720 --> 01:32:06.600]  instead. Put aside what that would be like typing, which I think would be inferior. But the big
+[01:32:06.600 --> 01:32:13.160]  problem is that you have to look to do it like the whole one of the huge advantages that that
+[01:32:14.120 --> 01:32:18.280]  that a hardware keyboard on a laptop has that's irreplaceable is the fact that you can get your
+[01:32:18.280 --> 01:32:24.600]  fingers you get your hands in the right place simply by touch alone. And there is absolutely
+[01:32:24.600 --> 01:32:31.720]  nothing that a glass keyboard could do to to replicate that. I guess in theory, they could
+[01:32:31.720 --> 01:32:37.720]  put little nubbins where the J and F keys are on the glass and there'd be permanent nubbins on the
+[01:32:37.720 --> 01:32:42.040]  glass and you could kind of get your fingers in the right space but I don't see I just don't see
+[01:32:42.040 --> 01:32:47.480]  how it could ever be good. I think it would be terrible. Just a terrible product. I think so
+[01:32:47.480 --> 01:32:54.200]  much of the appeal of who knows how many times a day like in a full day of work on a MacBook
+[01:32:54.200 --> 01:33:01.240]  or laptop of any kind, how many times a day does an experienced user put their hands on the keyboard
+[01:33:01.800 --> 01:33:06.680]  and get there, you know, which also puts your thumb in a position to use the trackpad without
+[01:33:06.680 --> 01:33:13.240]  looking. Hundreds, maybe, I mean, just hundreds of times a day and and to have to look every single
+[01:33:13.240 --> 01:33:17.320]  time would be such an enormous step backward. I think it would be a disaster. So hopefully,
+[01:33:17.320 --> 01:33:26.600]  Apple has no plans to do that. And I say hopeful because, you know, Apple's, you know, as I've said,
+[01:33:27.400 --> 01:33:31.880]  MacBooks get thinner and thinner as years go on and the keyboards get thinner and thinner along
+[01:33:31.880 --> 01:33:37.880]  with them and the ultimate in keyboard thinness would be a keyboard that has no travel whatsoever.
+[01:33:37.880 --> 01:33:43.160]  So hopefully that's not on our radar because I think it would be a terrible step backward
+[01:33:43.160 --> 01:33:47.480]  that they'd never recover from or that the experience would never recover from, at least.
+[01:33:47.480 --> 01:33:54.520]  A related question from Saint Chris, who I think had a question earlier. Do you wish Apple would
+[01:33:54.520 --> 01:34:01.480]  move the quote tactile nubs from the index fingers back to the middle fingers on the home row of
+[01:34:01.480 --> 01:34:06.200]  their keyboards? Now, for those of you who don't remember now, think about this on a U.S. QWERTY
+[01:34:06.200 --> 01:34:10.920]  keyboard. He's talking about these the little things on the F and J keys, the ones that you
+[01:34:10.920 --> 01:34:15.880]  put your index finger on. There's little, you know, tactile nubs, whatever you want to call them.
+[01:34:17.560 --> 01:34:22.040]  Back in the day, including on my beloved Apple extended keyboard to Apple keyboard,
+[01:34:22.040 --> 01:34:26.760]  put those nubbins on the middle finger keys, which in the U.S. would be the D and K keys.
+[01:34:27.400 --> 01:34:33.960]  And I have to admit, I prefer that. I don't know why. I don't really think there's any logic to it.
+[01:34:33.960 --> 01:34:41.000]  I don't know how much variation there was between various computer manufacturers back in the 80s.
+[01:34:41.800 --> 01:34:47.880]  But Apple, like the Apple extended or the Apple twos, I say, had those nubbins on the D and K key
+[01:34:47.880 --> 01:34:53.400]  and then early Mac keyboards stuck with the Apple to design of putting them on the index finger.
+[01:34:54.120 --> 01:34:58.440]  I can't justify it rationally. Other than that, it just always has felt right to me. And I don't
+[01:34:58.440 --> 01:35:04.360]  think it's just because my first computers that I used were Apple's. I think that to me, there is
+[01:35:04.360 --> 01:35:09.880]  something intuitive about the fact that your longest finger, your middle finger is the one
+[01:35:09.880 --> 01:35:16.040]  that reaches the keyboard first and therefore finds those nubbins. So me personally, I do wish
+[01:35:16.040 --> 01:35:21.000]  that Apple would move them back to the middle finger. But I think that that ship has sailed
+[01:35:21.000 --> 01:35:25.640]  the rest of the end. You know, Apple has used this, you know, moved them to the index fingers
+[01:35:25.640 --> 01:35:31.320]  at least 20 years ago, 20, 25 years ago. The whole everybody, every keyboard I've seen for
+[01:35:31.320 --> 01:35:35.960]  20, 20 some years has them on the F and J key. So I don't think Apple can move this without
+[01:35:35.960 --> 01:35:42.120]  seeming like they'd lost their corporate mind. But for me personally, do I wish that I could,
+[01:35:42.120 --> 01:35:50.120]  for example, custom order, you know, if I if I custom order a MacBook, and as a preference
+[01:35:50.120 --> 01:35:56.120]  could get the nubbins on the D and K keys, I would do it in a heartbeat. I really do like that.
+[01:35:56.120 --> 01:36:01.400]  I thought I thought this was pretty interesting question. All right, last Mac question, and I
+[01:36:01.400 --> 01:36:09.160]  guess it's gonna be the last question of the episode. What is a voice or perspective about
+[01:36:09.160 --> 01:36:14.680]  tech that Apple isn't listening to that could turn into a major problem? Examples, but not my answer.
+[01:36:14.680 --> 01:36:23.800]  India, where Apple is sort of missing the boat on on mobile gamers, teenagers, artists,
+[01:36:23.800 --> 01:36:31.080]  iOS only people, etc. This is a question from Jason Becker. I am going to say that the single
+[01:36:31.080 --> 01:36:37.080]  I don't think that Apple is missing, or isn't listening to. So maybe I'm not answering the
+[01:36:37.080 --> 01:36:41.960]  question. But I think the biggest question the biggest problem that Apple faces that might
+[01:36:41.960 --> 01:36:54.520]  really be a problem is the growing the growing rise of non native web based apps, these things
+[01:36:54.520 --> 01:37:00.920]  that are based on electron and stuff like that, that don't use native that you know, and it's a
+[01:37:00.920 --> 01:37:06.120]  Mac specific problem. It's not an iOS problem, at least not yet, although it might be for the iPad
+[01:37:06.120 --> 01:37:13.160]  as time goes on. The only reason the Mac can justify its existence is the fact that Mac
+[01:37:13.160 --> 01:37:19.720]  software for some people, is vastly superior to anything else. It's the superiority of Mac
+[01:37:19.720 --> 01:37:25.080]  software that justifies the existence of the Mac alongside Windows and whatever else you could use
+[01:37:25.080 --> 01:37:31.080]  on a desktop computer. And as it, it's never, I don't think we've ever seen the case that,
+[01:37:31.080 --> 01:37:34.920]  you know, back in the day with Java, there were cross platform apps, and there was no
+[01:37:34.920 --> 01:37:39.560]  cross platform apps. And there's always, you know, there was flash, and there's also always
+[01:37:39.560 --> 01:37:43.960]  been cross platform solutions, but none of them have ever really taken off in the way that like
+[01:37:43.960 --> 01:37:49.480]  these electron type things have, and they're, they're a terrible be, they're no better on the
+[01:37:49.480 --> 01:37:55.080]  Mac than they are on any other platform. So if all you use are electron based apps, there's really no
+[01:37:55.080 --> 01:37:59.320]  just there's no, there's no reason for you to be a legion, you know, have any allegiance to the Mac,
+[01:37:59.320 --> 01:38:06.600]  it doesn't really matter what what you use. I think it's a problem. I think Apple sees it as
+[01:38:06.600 --> 01:38:11.240]  a problem. And that's partly why they're going with this marzipan thing where if companies aren't
+[01:38:11.240 --> 01:38:17.560]  going to do the work of doing a first class native Mac client, but they, you know, are willing,
+[01:38:17.560 --> 01:38:25.160]  they do want to have a quote unquote Mac app, it would be better if they used their iOS app code
+[01:38:25.160 --> 01:38:30.360]  base to get something running on the Mac, even if it's not optimal, then it would be to shoehorn a
+[01:38:30.360 --> 01:38:37.800]  stupid web app into a web app shell like electron. But I feel like that's a concession to the point
+[01:38:37.800 --> 01:38:45.240]  that the true solution for most of these apps would be to just do a real real Mac app. And I,
+[01:38:45.240 --> 01:38:49.320]  you know, I think it's a bit of a problem. Alright, that's it for the Mac questions.
+[01:38:49.320 --> 01:38:52.200]  There's a whole bunch of other topics, I guess I'll have to do another one of these shows.
+[01:38:52.200 --> 01:38:58.280]  Hopefully, people like this. I don't know how interesting it is. I want to thank the two
+[01:38:58.280 --> 01:39:02.840]  sponsors for this episode, Squarespace and Casper. And I want to thank everybody out there who sent
+[01:39:02.840 --> 01:39:07.000]  these questions. And it's been a lot of fun. I can't believe that I only got through two out of
+[01:39:07.000 --> 01:39:24.040]  six categories.

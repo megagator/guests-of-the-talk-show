@@ -1,0 +1,1205 @@
+[00:00.000 --> 00:02.000]  What a week what a week
+[00:03.840 --> 00:08.160]  God so I thought that we would be talking about my interview with
+[00:09.160 --> 00:13.280]  Craig Federighi and Eddie Q and Apple software quality and we can get to that later
+[00:13.280 --> 00:19.220]  But obviously this is this is a week when there's actually a very clear. I can't wait to get to that later
+[00:20.720 --> 00:25.080]  So let's I mean for anybody who's had their head in the ground all week
+[00:25.080 --> 00:30.240]  Or anybody who I guess is listening, you know, I guess you always have to preface these podcasts
+[00:30.240 --> 00:34.320]  Cuz who knows when somebody's gonna listen to you know, go back and listen to old episodes, but this was the week
+[00:34.960 --> 00:36.480]  where
+[00:36.480 --> 00:39.480]  Tuesday night Apple published an open letter from Tim Cook
+[00:41.140 --> 00:46.680]  Revealing that the FBI had has obtained a court order to compel Apple to
+[00:46.680 --> 00:53.560]  So long story short supply the FBI with a custom version of iOS that would help them
+[00:55.560 --> 01:03.080]  Break the passcode of an iPhone 5c that was owned by or wasn't really owned by it was used by one of the
+[01:04.440 --> 01:09.800]  Shooters in the San Bernardino incident a few months ago, right and
+[01:11.400 --> 01:13.960]  Apple is saying that you know that they they have helped
+[01:13.960 --> 01:19.000]  Incorporated with law enforcement many times in the past and I think they might still in the future
+[01:19.000 --> 01:22.840]  But in terms of you know, what they're willing to do supplying, you know
+[01:22.840 --> 01:29.960]  More or less writing malware for iOS is a line that they don't want to cross and then all hell
+[01:33.800 --> 01:39.480]  Well, I have a lot of respect for Apple for for standing up for it, you know for what they believe in
+[01:39.480 --> 01:41.720]  They they could just as easily have have
+[01:42.920 --> 01:48.120]  You know gone along with it and kept quiet. All right, but they didn't yeah
+[01:48.120 --> 01:52.760]  I I wrote it, you know, it's a funny thing and we can write about this too. It's an interest I
+[01:53.480 --> 01:55.480]  took an interesting
+[01:55.720 --> 01:58.280]  Strategy this week on during fireball. I've been very active
+[01:58.280 --> 02:02.520]  I have a lot of posts on this but I didn't write like a feature of a column or article
+[02:02.520 --> 02:07.720]  It's all just links and my commentary interspersed in there with without any links
+[02:07.720 --> 02:14.680]  It's very interspersed in there with without really writing one big article and I expected like when I woke up Wednesday morning
+[02:14.680 --> 02:15.960]  I thought well I got a right, you know
+[02:15.960 --> 02:21.160]  I have to write like a big piece about this and as I started like reading everything that was out there
+[02:21.160 --> 02:23.160]  I was like, you know
+[02:23.720 --> 02:28.280]  One way to put it would be that I spent the week blogging not writing. Yeah, you know what I mean?
+[02:28.280 --> 02:32.520]  And I in a way I feel like it was it was a better use of my time and a better
+[02:32.520 --> 02:38.360]  Service to the readers of daring fireball because I found so many good articles that other people had written
+[02:38.680 --> 02:41.240]  That were making the points. I wanted to make that rather than
+[02:42.520 --> 02:47.000]  Remake them myself. Why not just point them to them and then add my two cents on this
+[02:47.000 --> 02:49.000]  but anyway, one of the points I did make
+[02:49.320 --> 02:53.560]  and I really think it's important for people who listen to our shows or read our websites because I think
+[02:53.800 --> 02:58.040]  overwhelmingly the people who like read during fireball or the loop and listen to the talk show are
+[02:58.040 --> 03:04.360]  already on our side and that they they and that they have a basic enough grasp of the way encryption works that they
+[03:05.000 --> 03:07.000]  See apples point
+[03:07.560 --> 03:11.480]  But I really can't emphasize enough how many you know, how how
+[03:12.360 --> 03:17.480]  I don't we're in an echo chamber here with the people who agree with this and if you get outside it and go to the
+[03:17.480 --> 03:19.480]  Real world where people don't understand encryption
+[03:20.040 --> 03:24.920]  The support for Apple is not as as clear-cut or blanket, you know
+[03:24.920 --> 03:30.680]  And it's dangerous for Apple politically that they really are going out on the limb. Yeah, they really are and
+[03:32.520 --> 03:34.440]  It's
+[03:34.440 --> 03:36.440]  it's it's not
+[03:36.840 --> 03:38.840]  Funny I guess but it's
+[03:39.960 --> 03:43.080]  When you look at at the case that the the FBI
+[03:43.640 --> 03:46.360]  Chose to use this on I mean, they were very deliberate
+[03:46.760 --> 03:51.640]  They they wanted something that would fire up the public so much against apple
+[03:51.640 --> 03:53.640]  and
+[03:53.640 --> 03:55.640]  In some ways that's worked
+[03:56.040 --> 04:01.800]  you know people are saying in some circles people are saying that Apple should comply because
+[04:03.080 --> 04:09.160]  These were bad people and we need to stop bad people but there's bigger issues than that. It's not just this one
+[04:09.880 --> 04:10.840]  issue
+[04:10.840 --> 04:16.200]  Yeah, it's not so much maybe maybe fired up against Apple is the wrong way to put it not to quibble with your words
+[04:16.200 --> 04:22.920]  But it's a little bit more that that people would universally side with the FBI and say well the FBI has got to be able to
+[04:23.400 --> 04:25.400]  To get at these people's phones
+[04:26.520 --> 04:31.400]  And it really is a just perfectly crafted case from the FBI's perspective
+[04:31.640 --> 04:34.200]  Because it was a terrible incident everybody agrees with that
+[04:34.200 --> 04:38.040]  I mean the Apple goes out of its way to say this is a terrible incident and you know
+[04:38.040 --> 04:42.040]  we'll do anything we can that we think is within the law and within our
+[04:42.040 --> 04:48.040]  And within our um the interest of maintaining overall security for our users to help
+[04:48.520 --> 04:52.520]  Uh, but let's just face it. I mean the fact that these were
+[04:53.160 --> 04:57.320]  People from a Muslim background it it makes it even worse
+[04:57.400 --> 05:00.440]  There's there's an element to and there's a lot, you know, as opposed to
+[05:01.240 --> 05:06.520]  If it was the guy remember it was just like a week or two prior to that if it was the guy from uh, Colorado
+[05:06.600 --> 05:08.600]  Who shot up a Planned Parenthood?
+[05:08.600 --> 05:12.680]  Um, it that wouldn't do it at the way that having it be
+[05:13.320 --> 05:14.600]  uh
+[05:14.600 --> 05:20.120]  Suspects of a Muslim descent just because that's it's that's the way it is. That's human nature. Yeah
+[05:20.840 --> 05:24.200]  You know and it's and that's what they're banking on, right?
+[05:25.320 --> 05:27.000]  that it's just it's
+[05:27.000 --> 05:33.400]  That the politics of that and the the emotional dynamic of that are just overwhelmingly, you know
+[05:33.400 --> 05:37.800]  Powerful and I don't know that it is. I think an apple is saying maybe not
+[05:38.760 --> 05:41.640]  well, and and I I think if you look at
+[05:42.440 --> 05:44.440]  Tim Cook's letter
+[05:45.560 --> 05:50.120]  It's very compelling. I think it was well thought out very well written
+[05:50.840 --> 05:57.160]  And he he brings up some really great points. I mean that was that was written
+[05:57.960 --> 06:02.120]  I mean you could see Tim saying that yeah, you know, uh, and
+[06:02.120 --> 06:04.120]  I think by now we we all
+[06:04.840 --> 06:09.080]  Can believe what what Tim says he stands on on principle?
+[06:10.120 --> 06:13.160]  And he does what he says he's going to do. Yeah
+[06:14.920 --> 06:20.920]  Matthew panzerino had a good article pointing out the differences, you know that there's one of the
+[06:22.360 --> 06:24.360]  Cynical takes on this
+[06:24.920 --> 06:26.440]  Is
+[06:26.440 --> 06:30.200]  And it's definitely not just from one source and matthew panzerino's story had a couple of lines
+[06:30.200 --> 06:32.840]  To it, but i'm going to paraphrase it but that
+[06:34.360 --> 06:40.760]  More or less claiming that apple is showboating and trying to gain publicity for being you know
+[06:40.760 --> 06:43.640]  having these super secure phones and you know
+[06:44.520 --> 06:50.520]  Getting people to say wow iphone is so powerful the fbi can't even crack it and using that as a positive thing
+[06:51.080 --> 06:56.440]  and in the past apple has helped the fbi 70 times to do the same thing and
+[06:56.440 --> 07:01.720]  You know, if you want to be cynical like that and say that apple is trying to make this a thing that brag about the iphone
+[07:01.720 --> 07:05.400]  security you're welcome to but I really I really think that that's
+[07:06.920 --> 07:11.640]  I don't think that's the case. I think it's so risky because now you've got like presidential candidates like down, you know
+[07:12.520 --> 07:15.560]  Ridiculous ridiculous that i'm talking about him. Seriously, but
+[07:16.360 --> 07:21.560]  He is the lead the leading republican presidential candidate is saying flat out apple is
+[07:21.560 --> 07:25.640]  Apple should absolutely who do they think they are where his actual words who do they think they are?
+[07:25.640 --> 07:30.840]  He you know, they absolutely should comply with this court case that it's become part of our you know
+[07:30.840 --> 07:35.400]  Political debate and to say that this is a sure win, you know, pr wise for apple
+[07:36.040 --> 07:39.560]  Is to me, I think you're you're looking for the cynical angle
+[07:39.560 --> 07:44.760]  But the bigger difference is that what apple has done in the past when they've helped law enforcement is very different
+[07:45.480 --> 07:49.000]  And I know that you know, you're you're looking for the cynical angle
+[07:49.000 --> 07:54.920]  Is very different and I know saying very might you might say, uh, it seems, you know, just like one little step
+[07:55.320 --> 07:58.680]  It's different. It's you know in the past they've helped them, you know
+[07:59.480 --> 08:04.680]  Without modifying the software help them use the software as is to get data off the phone, right?
+[08:05.880 --> 08:10.780]  And in times past in years past a lot less of the information on the phones was encrypted
+[08:12.200 --> 08:14.600]  It's really only in recent years that the entire
+[08:14.600 --> 08:21.240]  uh disk of the you know, storage volume of the iphone is is full disk encrypted. Let me ask you something
+[08:22.200 --> 08:28.040]  Why do you think the other tech companies haven't taken a stronger stand?
+[08:29.880 --> 08:31.240]  Uh
+[08:31.240 --> 08:33.240]  Well, I think
+[08:34.120 --> 08:38.040]  It's multifaceted but I think one of them is that and um
+[08:38.760 --> 08:42.360]  I think it was panzerino again who had the was it the why apple piece and
+[08:42.360 --> 08:47.000]  More or less. Oh, no, it wasn't panzerino. It was uh, kieran healy who I linked to. That's right
+[08:47.960 --> 08:54.920]  Um, i'll try to put that in the show notes show notes, but but kieran healy, uh, his argument was to again to paraphrase
+[08:55.800 --> 08:59.720]  uh, apple's the only company that still makes hardware that really is a hardware company and
+[09:00.440 --> 09:05.240]  Because of that, you know, none of these other companies, you know, google. Yes. Google makes nexus devices
+[09:05.320 --> 09:11.320]  And yes, microsoft makes the the nokia phones which have look I mean literally no exaggeration like what?
+[09:11.320 --> 09:14.200]  No exaggeration, like, you know 1.1 market share
+[09:15.960 --> 09:22.760]  It's not as important to them whereas apple's fundamental business is selling hardware to people and that there's a trust issue there
+[09:25.240 --> 09:29.720]  That puts apple in a position that no other company really is where this is a big deal
+[09:31.860 --> 09:36.120]  Secondarily I think that there are other and again this is starting to be a little cynical
+[09:36.120 --> 09:39.960]  but I think that you know in the new york times has even mentioned this in articles, but that
+[09:39.960 --> 09:43.240]  Apple doesn't depend on government sales to a large degree
+[09:43.240 --> 09:51.640]  Whereas microsoft just signed for example a huge deal to get the entire department of defense to upgrade all of their pcs to windows 10
+[09:53.720 --> 09:55.880]  And that they don't want to anger them
+[09:56.920 --> 10:01.640]  I'm, not quite sure why google doesn't take a stronger stand, but they clearly don't yeah
+[10:03.000 --> 10:08.120]  What do you think? Well, I was talking to to peter cohen last night and
+[10:08.120 --> 10:10.120]  and peter said
+[10:11.160 --> 10:16.840]  Maybe uh, they don't want everybody to know that they've already cooperated with the government
+[10:18.440 --> 10:21.000]  Which is you know, really cynical stand but
+[10:23.960 --> 10:29.480]  I don't know. I mean obviously they don't want this the fbi sites turned on them
+[10:30.520 --> 10:35.000]  Right, you know, they're just trying to keep their their head down. That's that's an obvious point but
+[10:35.000 --> 10:40.040]  You know, is there something else in there right? I mean if they take a big stand
+[10:40.040 --> 10:43.000]  Is the government going to come back and say well, what are you talking about?
+[10:43.560 --> 10:45.560]  You've all you've already given us lots of info
+[10:46.120 --> 10:52.440]  Right that in some way however to whatever degree they've already cooperated with the government in the past is something the government can hold against them
+[10:52.680 --> 10:58.280]  Publicity-wise. Yeah, that might be a good argument there and i'll just emphasize one of the things that's you know
+[10:58.280 --> 11:03.640]  I think overlooked in this if you just look at it in broad terms that wow apple won't cooperate with the government
+[11:03.640 --> 11:06.840]  Wow, apple won't cooperate with the fbi on this san bernardino case
+[11:07.080 --> 11:13.400]  they have already like they and just for example, the the suspect in this case apparently was using uh,
+[11:14.520 --> 11:17.080]  icloud backup until a certain point and
+[11:18.760 --> 11:21.320]  I actually think this is one of the things that i've been looking around
+[11:21.400 --> 11:24.760]  I don't know that we on the outside have a very good understanding of
+[11:26.360 --> 11:28.360]  Just how available
+[11:28.360 --> 11:35.320]  What is the encryption on the stuff that's backed up from icloud, um, like when they come but anyway the apple did
+[11:35.960 --> 11:41.960]  Comply with the fbi and supplied them with access to some some asked some subset of their whatever
+[11:41.960 --> 11:44.360]  It's the unencrypted part of the icloud backup
+[11:44.840 --> 11:48.360]  Uh from the san bernadino shooter the reason the fbi wants the phone
+[11:48.680 --> 11:52.520]  Is that there was like six weeks after the last backup to icloud. Um
+[11:52.520 --> 12:00.120]  You know between the last backup and the incident and they're they're concerned and it seems like a reasonable concern that maybe there's some
+[12:00.360 --> 12:03.320]  You know actionable intelligence in that interim
+[12:03.880 --> 12:07.000]  But it's not like apple hasn't done what they can they're just saying here's a line
+[12:07.000 --> 12:09.000]  We're not going to draw or we are going to draw
+[12:09.560 --> 12:15.080]  Is there I want to read this one bit from tim cook's letter. There's a whole thing that's really good, but I really like this part
+[12:16.280 --> 12:21.160]  The government is asking apple to hack our own users and under the name of the government
+[12:21.160 --> 12:27.960]  users and undermine decades of security advancements that protect our customers including tens of millions of american citizens from
+[12:28.260 --> 12:35.160]  sophisticated hackers and cyber criminals and here's the to me the really compelling part of this the same engineers who built
+[12:35.480 --> 12:43.160]  Strong encryption into the iphone to protect our users would ironically be ordered to weaken those protections and make our users less safe
+[12:43.160 --> 12:49.480]  And I to me that is really compelling I you know, if you're the an engineer at apple who works on this security stuff
+[12:50.040 --> 12:53.480]  uh, you're more or less your career is devoted to uh,
+[12:54.840 --> 13:02.200]  Only in one direction making things more secure for users and then to be compelled to to do the exact opposite is
+[13:03.080 --> 13:06.120]  I honestly, I think it's something that some people would object to do that
+[13:06.120 --> 13:11.240]  Some people would say, you know, you can court order me to do it, but i'm not going to do it and would they be right
+[13:11.240 --> 13:17.320]  In some sense. I mean, maybe not legal. I'm not a lawyer. I can't say legally that they could object but certainly morally, right?
+[13:19.400 --> 13:21.400]  I mean
+[13:21.800 --> 13:26.600]  I I don't know where this goes. What if
+[13:28.520 --> 13:31.880]  Apple is compelled to do this. What do they do?
+[13:34.600 --> 13:38.200]  Well, I mean we know what's going to the supreme court either way
+[13:38.200 --> 13:40.200]  I guess uh
+[13:40.840 --> 13:42.360]  I honestly don't know how stuff works
+[13:42.360 --> 13:48.920]  You know its way through the the supreme court though and in a case where the where the fbi might be saying, you know
+[13:49.720 --> 13:54.360]  Time is of the essence. You know, we want to get this information while it's still warm, you know
+[13:54.360 --> 14:00.360]  There's no point to getting it. They're not building a case one thing to note just in case anybody has forgotten the details of it
+[14:00.520 --> 14:03.800]  They're not using this to build a criminal case against the san bernardino shooting
+[14:03.800 --> 14:10.760]  Because they're dead, right? So it's really just trying to find actionable intelligence that might lead them to
+[14:11.320 --> 14:14.840]  Discover if they had if there was anybody else involved if there's anybody else
+[14:14.840 --> 14:18.840]  They know who who you know, they ought to be looking at who might be planning something in the future
+[14:21.400 --> 14:27.800]  So in that case it's you know time is of the essence so I don't know I would guess it's going to though
+[14:27.800 --> 14:34.760]  I mean that and then you know, I I that the fbi obviously, you know in the justice department has some sort of path to expedite
+[14:35.800 --> 14:42.680]  You know a case to the supreme court, but aren't they using this more as a precedent so that they can say, okay you
+[14:43.560 --> 14:49.560]  You've been ordered to do this. And by the way, we have these other five phones that we need it done on, right?
+[14:49.560 --> 14:51.560]  I think I think that this is all about
+[14:51.560 --> 14:57.560]  Precedent, I think it's less. I and again you can accuse me of being cynical and maybe i'm wrong
+[14:57.560 --> 15:02.600]  But it it seems to me from what I know of the case that the two san bernardino suspects
+[15:03.720 --> 15:08.680]  Didn't don't really seem like they were part of uh, you know a widespread
+[15:09.720 --> 15:10.840]  terrorist
+[15:10.840 --> 15:16.440]  Group, it wasn't like they were really part of like a al-qaeda or isis or whatever, you know other groups
+[15:16.440 --> 15:21.640]  Are out there. Um that they were just two kooks, you know, and
+[15:22.600 --> 15:26.600]  You know mentally ill and and poisoned by by this ideology
+[15:26.600 --> 15:31.560]  But it was it doesn't really seem like they were any kind of masterminds. I mean, it wasn't really a very
+[15:32.200 --> 15:33.560]  I mean, it was a terrible tragedy
+[15:33.560 --> 15:38.440]  But it really seemed a little bit more bitterly personal that they went and shot up a place where they worked and they had you
+[15:38.440 --> 15:41.640]  Know, you know personal beefs with the people who who shot them
+[15:41.640 --> 15:47.960]  up. Um, so I I I think logically that the fbi making a big case of this isn't really about getting information
+[15:47.960 --> 15:51.480]  That's going to save people, you know, and that they really need it. I think it's uh,
+[15:52.040 --> 15:58.040]  I think it's about the precedent. I mean and that once you've got what if they win this and they get this
+[15:58.600 --> 16:04.360]  They have a precedent that says we can come now we can use this precedent to compel tech companies
+[16:04.360 --> 16:09.080]  To do this and to do this and to do this and to do this and to do this and to do this and to do this
+[16:09.080 --> 16:12.120]  And now we can use this precedent to compel tech companies
+[16:13.000 --> 16:16.920]  not just to give this give us information that they have access to but to
+[16:17.640 --> 16:19.640]  Force them to write software
+[16:19.960 --> 16:21.640]  That gives us
+[16:21.640 --> 16:23.640]  The access that we want to right
+[16:23.720 --> 16:27.320]  I mean and it's all sorts of there's all sorts of implications that this
+[16:27.800 --> 16:33.240]  If you take this precedent is as logical that all sorts of things could happen. Could they compel apple to
+[16:34.020 --> 16:36.760]  re-engineer iMessage to to uh
+[16:36.760 --> 16:39.400]  To so that it's not end-to-end encrypted anymore, right?
+[16:41.160 --> 16:45.480]  And the the fallout from this is endless
+[16:47.560 --> 16:49.560]  Could be
+[16:49.560 --> 16:52.120]  But okay, so let's look at it the other way what if apple wins
+[16:53.080 --> 16:55.080]  I think that
+[16:55.080 --> 17:02.360]  Nothing. I think that's you know, nothing bad happens. I I think I mean and I guess other than the fact that uh, you know, it's
+[17:02.360 --> 17:06.920]  You know, it's possible that in the future case there would be one where
+[17:07.640 --> 17:09.080]  um
+[17:09.080 --> 17:12.680]  There's information on a phone that law enforcement has and they can't get to it
+[17:12.680 --> 17:17.800]  and if they could it would be better for society, but that's you know, that sort of
+[17:18.500 --> 17:20.500]  situation is
+[17:22.040 --> 17:24.040]  That's the price of liberty, right
+[17:24.840 --> 17:29.000]  Like you can't take I don't think you can take the absolute. I personally feel very strongly
+[17:29.000 --> 17:34.040]  You can't take the absolutist position that law enforcement should be able to get anything and everything they want
+[17:34.920 --> 17:38.040]  the let's say that the fbi wins and and now
+[17:39.480 --> 17:45.880]  Apple has to write this software and break into the phone, but what's stopping people then just
+[17:47.160 --> 17:51.560]  Not using apple's built-in things and using another form of
+[17:52.200 --> 17:57.160]  App and and strong encryption, right? Do they does the fbi then need to sue?
+[17:57.160 --> 18:03.480]  That company to open it up, right? That's one of the reasons that I feel I honestly feel that the fbi is
+[18:04.040 --> 18:11.160]  being driven and part of this is really driven by the public statements of like fbi director komi and and others is that
+[18:11.800 --> 18:13.800]  a large part of this is
+[18:14.280 --> 18:18.040]  I hate to say it because i'd like to think that we'd have better people in there
+[18:18.040 --> 18:25.400]  But people who generally genuinely don't understand the technology right and they don't understand that you either either everybody has
+[18:25.400 --> 18:31.720]  Security through encryption or nobody does and that there is no way to have security
+[18:33.240 --> 18:41.160]  And again, I and I a couple of people have emphasized this there's privacy angles on this but there's I I think the security angle is is more
+[18:43.160 --> 18:49.320]  Compelling and you know, it's a look, you know, some of it's conflated but it's you know, what happens if somebody
+[18:49.320 --> 18:56.120]  Steals your phone or you leave it in a cab and somebody gets it and it's it's not
+[18:56.760 --> 18:59.560]  And it's relatively easier. There's some sort of known way
+[19:00.440 --> 19:07.000]  To get to the contents of it. Well, there's that's genuine security problem given the information that a lot of us have on our phones
+[19:07.000 --> 19:09.000]  You know financial information
+[19:09.880 --> 19:13.400]  You know and the personal information, you know the photos we have and stuff like that
+[19:14.440 --> 19:16.440]  It's definitely a security thing
+[19:16.440 --> 19:23.720]  But I feel like that the the the FBI clearly doesn't see this properly that they're looking
+[19:24.040 --> 19:26.520]  They they're somehow looking for some kind of magic solution
+[19:26.520 --> 19:30.600]  But it would it would really like a law that that that crippled
+[19:31.400 --> 19:37.080]  Apple's ability just to pick one company but or any US company though, but a US company to
+[19:37.880 --> 19:43.400]  To not have secure encryption on these devices would really harm them in the worldwide
+[19:43.400 --> 19:50.120]  Market, it truly would because there's absolutely nothing. It wouldn't keep people bad guys from having encryption
+[19:50.120 --> 19:53.000]  It would only keep them from having encryption out of the box
+[19:53.720 --> 19:59.160]  On on a us-made device, right? Right. Isn't that what I mean? That's more or less what you're saying, right, right?
+[20:00.040 --> 20:04.040]  Yeah, and okay. So the US government wins this
+[20:04.920 --> 20:09.640]  Then every other government is going to come and say yeah, we we kind of want to look at this fellas phone
+[20:09.640 --> 20:15.640]  Absolutely, and you know that there's this funny thing and who knows by the time the show airs
+[20:15.640 --> 20:22.280]  Maybe the times will have a separate story about it. But there was this weird thing. I linked to yesterday where it was actually
+[20:24.920 --> 20:30.760]  Edward Snowden was the one whose Twitter account and he's been all over this on Twitter for obvious reasons. Um,
+[20:31.720 --> 20:35.320]  But Edward Snowden noted a passage in the US
+[20:35.320 --> 20:41.320]  but Edward Snowden noted a passage in a New York Times story on this that was about China and
+[20:42.600 --> 20:47.640]  Like within an hour that whole segment of the article was edited out of the New York Times article and it still isn't back
+[20:47.640 --> 20:51.240]  But basically here's what it said. I'll just read it. This is from a New York Times report
+[20:51.480 --> 20:54.680]  China is watching the dispute closely analysts say the Chinese government
+[20:55.320 --> 21:02.280]  Does take cues from the United States when it comes to encryption regulations and that it would most likely demand that multinational companies provide
+[21:02.280 --> 21:10.040]  Accommodations similar to those in the United States last year Beijing backed off several proposals that would have mandated that foreign firms provide
+[21:10.760 --> 21:15.800]  Providing encryption keys for devices sold in China after heavy pressure from foreign trade groups
+[21:17.400 --> 21:23.320]  A push from American law enforcement agencies to unlock iPhones would embolden Beijing to demand the same
+[21:25.640 --> 21:30.680]  I think it's clear. I mean in China is just one country. I mean, why wouldn't every country right and then
+[21:30.680 --> 21:37.800]  What is Apple's gonna need to open up a brand new company just to deal with all of this stuff, right? I mean does
+[21:38.680 --> 21:40.680]  Does Apple
+[21:40.680 --> 21:43.880]  Give the software to the FBI in order to to
+[21:44.760 --> 21:49.320]  Hack it themselves or does the FBI give the device to Apple and Apple does it?
+[21:50.120 --> 21:57.400]  I believe from what I read of this case that FBI is offered either way that they've said whatever you want if you want to
+[21:57.400 --> 22:00.120]  Give us the software and have us do it. We'll do it
+[22:00.120 --> 22:03.720]  If you want us to bring the device to you and do it at your facilities, we'll do that
+[22:04.280 --> 22:09.720]  They just want the code but it's a slippery slope either way. I really do think so
+[22:09.720 --> 22:17.480]  I absolutely and I know that slippery slope arguments it maybe they're overused, you know overall just in our
+[22:18.120 --> 22:23.960]  Debates about all sorts of stuff, but I think in this case it really is a slippery slope
+[22:23.960 --> 22:30.520]  Isn't isn't the government's position that they just want this one device
+[22:31.480 --> 22:35.080]  You know, that's all we want. We just want this one device, but once that's done
+[22:35.880 --> 22:42.280]  There's no turning back right because that's how the law works. You know, it's you know, one case sets precedent for future cases
+[22:42.280 --> 22:47.000]  Yeah, which is why Apple has to take a stand on this one and you know
+[22:47.000 --> 22:53.240]  That's why I think what what the government did in choosing this case is to make sure that
+[22:53.240 --> 22:55.000]  choosing this case
+[22:55.000 --> 22:57.000]  Was so strategic for them
+[22:57.320 --> 22:59.000]  yeah, I think
+[22:59.000 --> 23:01.000]  And again, it's you know, the basic
+[23:01.960 --> 23:05.560]  Just about it with you know, if you really want to talk about good guys and bad guys
+[23:06.200 --> 23:08.200]  is that
+[23:08.200 --> 23:14.280]  Even reasonably smart and well-organized bad guys are going to use their own encryption software
+[23:14.520 --> 23:17.560]  Not that necessarily that they wrote but that they're going to you know
+[23:17.560 --> 23:24.040]  It's obviously is out there and and the us can't stop the rest of the world from writing good secure
+[23:24.660 --> 23:26.660]  encryption software, right
+[23:26.760 --> 23:29.480]  That's they're just going to use third-party software
+[23:30.040 --> 23:35.880]  If the first-party software can and maybe for reasonable reasons, maybe the smart ones already don't trust
+[23:37.400 --> 23:42.520]  Anything written by apple or google or what you know any other us company and they're already doing it
+[23:42.520 --> 23:49.000]  Uh and the dumb bad guys, uh, they're dumb, right?
+[23:49.080 --> 23:54.680]  So why why do you need why do you need to make everybody's software insecure do your job, right?
+[23:54.760 --> 23:58.680]  Like it's and I guess part of it is that there's an entitlement in the u.s
+[23:58.760 --> 24:04.440]  Like law enforcement gets so in the us is is in such a privileged position
+[24:06.840 --> 24:09.720]  In terms of what they get and the way that they're
+[24:09.720 --> 24:15.240]  You know, they have access to so much stuff, but that they there's a sense of entitlement that not only should they be able
+[24:15.240 --> 24:17.880]  To get stuff but they should be able to get whatever they want easily
+[24:18.360 --> 24:24.220]  And there is you know, that's not necessarily the case if the truth is that it's a really really mathematically difficult
+[24:24.840 --> 24:30.200]  Or even to the point of calling it impossible to break the encryption on a device. Well tough noogies
+[24:30.280 --> 24:35.000]  You know what? I mean? You've got that's you know, you guys have a tough job. I mean, I'm not saying that glibly
+[24:35.000 --> 24:41.240]  And I realize that the stakes can be high in a you know, a criminal case or in an investigation, but that's just the way it is
+[24:43.240 --> 24:46.040]  It's really it's not that different than arguing
+[24:47.000 --> 24:52.520]  and I go these analogies sometimes to the real world can get can get difficult, but it's like
+[24:56.120 --> 25:00.280]  Sometimes people will say, you know, what how would you feel if
+[25:00.280 --> 25:03.800]  if somebody kidnapped a family member and
+[25:05.720 --> 25:08.920]  The police knew where they were but they couldn't break down the door
+[25:10.600 --> 25:17.240]  That's a rough and it's a tough analogy because I don't think there exists like a door that the police can't break into right
+[25:17.400 --> 25:22.680]  But that's sort but like what if you could make one what if what if it somebody invents a door?
+[25:23.320 --> 25:26.520]  You could build a house that that the police can't break into
+[25:26.520 --> 25:31.640]  Would that be illegal?
+[25:31.640 --> 25:36.200]  Not with there's no law against it. Now. You'd have to pass a law specifically against it, right?
+[25:36.600 --> 25:39.240]  It's just that the math is such that we've been able to make
+[25:39.940 --> 25:41.940]  virtual locks
+[25:42.120 --> 25:44.120]  Through encryption that are actually unbreakable
+[25:47.000 --> 25:54.040]  The government of all organizations tells us to be safe and tells us to you know
+[25:54.040 --> 26:01.960]  Not not necessarily encrypt everything but do everything that you can to to protect yourself and your identity and and protect all of this stuff
+[26:02.280 --> 26:04.280]  But as soon as they make a back door
+[26:05.160 --> 26:07.160]  Then that back door is there for everybody
+[26:08.920 --> 26:12.120]  And and I don't know what they don't understand about that
+[26:12.120 --> 26:16.520]  I mean you mentioned it earlier about these people not understanding the technology, but
+[26:17.240 --> 26:19.240]  Do they not care that
+[26:19.240 --> 26:25.000]  They're making a back door or do they really not understand that once a back door is there it's there for all well
+[26:25.000 --> 26:29.400]  I'll just out to pit. You know, I mentioned Trump before I'll pick someone from the other side, but I've
+[26:30.360 --> 26:34.280]  listened to Hillary Clinton talk about this several times and she heard
+[26:35.480 --> 26:40.280]  Her argument is more us. We'll put enough smart people in a room and I'm sure they'll be able to come up with something
+[26:41.480 --> 26:42.600]  and
+[26:42.600 --> 26:46.600]  I get I genuinely think she believes that but it's that's
+[26:46.600 --> 26:50.040]  there's you know what they're looking for it what they and what they claim that
+[26:50.680 --> 26:56.840]  smart people at Apple and Google ought to be able to make is is something that the FBI can use and no one else can use and
+[26:56.840 --> 26:58.840]  That's just not that's not possible
+[26:59.640 --> 27:06.280]  and there's just we keep talking in circles about it, but there's just no way that it could happen so
+[27:07.400 --> 27:11.560]  Doesn't the government have enough smart people of their own that are telling them?
+[27:11.560 --> 27:17.320]  This isn't possible. I don't know. There must be at it at a certain level. Well, there must be right
+[27:17.320 --> 27:20.840]  but that maybe that they're not because they're not at the you know,
+[27:21.640 --> 27:28.840]  Executive ranks that they're you know, they're it's treated as well. That's your argument. You know, here's our argument
+[27:30.200 --> 27:32.200]  We want the information
+[27:33.080 --> 27:37.000]  And it seems to be kind of a you know, they've got the blinders on
+[27:37.000 --> 27:44.440]  and they can see beyond Apple is the information they just have to get through Apple to get it. Yeah
+[27:45.080 --> 27:48.520]  This all fits with something and I think Apple is not surprised by this
+[27:48.520 --> 27:54.360]  I think Apple as I don't you know, I know a couple of these articles have have really put this as a
+[27:55.160 --> 28:00.360]  Lynch pin of the Tim Cook era at Apple and I'm not quite sure how much that has to do with the
+[28:00.360 --> 28:03.080]  difference between Tim Cook and Steve Jobs and how much it has to do with the
+[28:03.080 --> 28:07.080]  difference between Tim Cook and Steve Jobs and how much it has to do with just the timing
+[28:07.720 --> 28:15.080]  of you know when Jobs got ill enough to step down and Cook took over you know, which is when this
+[28:15.080 --> 28:22.920]  issue became hot, you know that that you know, it it just coincides, you know that the transition
+[28:22.920 --> 28:30.040]  from from Jobs to Cook coincides with when this you know, the cell phones as objects of desire
+[28:30.040 --> 28:35.720]  from law enforcement really heated up. But the gist of it is I heard this years ago from a couple
+[28:35.720 --> 28:42.360]  people at Apple was that the edict came down from the top from Tim Cook on down that anything
+[28:43.480 --> 28:52.280]  new that we create that stores data. We should store in a way that even we can't see it.
+[28:53.080 --> 28:58.200]  So that when we get requests for it, we can say we can't give it to you. That are the
+[28:58.200 --> 29:04.360]  end that and that anything we already have existing systems that maybe don't comply with
+[29:04.360 --> 29:11.400]  that. They need to be identified. And we need to rewrite them in a way that, that, you know,
+[29:12.040 --> 29:16.520]  protects the data so that we even we can't do it. And that that's the only way that, you know,
+[29:16.520 --> 29:24.280]  we can object and the purpose of this isn't to to obstruct law enforcement. It's that if we don't
+[29:24.280 --> 29:30.200]  take that philosophy that even we can't get the data, then it's not really safe. Right. And
+[29:31.880 --> 29:37.880]  I think that goes back a lot to, you know, where Apple makes its money. They don't want your data.
+[29:37.880 --> 29:45.720]  They don't care about your data. And and others do. So you know, it's it's reasonable. I mean,
+[29:45.720 --> 29:51.960]  the argument that we talked about with Peter, it's reasonable to consider the fact that other
+[29:51.960 --> 30:01.480]  companies have cooperated in the past, because they do look at the data. You know, so yeah,
+[30:01.480 --> 30:05.160]  one of the things and another one I know I mentioned earlier that I'm really curious about
+[30:06.040 --> 30:13.560]  what, let's just say if you're iCloud backup user, and the FBI comes to Apple and says,
+[30:13.560 --> 30:18.600]  we'd like to see Jim Dow Rumple's iCloud backup, what do they get? I would love to know that.
+[30:18.600 --> 30:23.240]  And if there's an answer that Apple has given, I can couldn't find it. So if anybody knows,
+[30:23.240 --> 30:27.640]  I would love to know the other question I have this week. And it gets back to your original
+[30:27.640 --> 30:32.120]  question of why is it Apple that's that's in this fight? How come we never hear about?
+[30:34.120 --> 30:39.480]  They're not you I get none of them are US companies except other than Microsoft. But like,
+[30:39.480 --> 30:43.560]  we never hear about Samsung or LG or any of these other companies like what do they do when a
+[30:43.560 --> 30:49.160]  suspect has an Android phone? Why is this? Why is this not in the news at all? Like what happens?
+[30:49.160 --> 30:56.440]  Is it is it that it's it? Is it just one of those things where Apple gets headlines? And so people
+[30:56.440 --> 31:02.200]  only write about it when it's Apple and the iPhone? Or is is Android different? And it's,
+[31:02.200 --> 31:06.440]  you know, like, trivial that even when you have a passcode, that there's some way that they can
+[31:06.440 --> 31:10.760]  get the information they want? I don't understand why nobody's writing about that.
+[31:10.760 --> 31:13.880]  And I don't have the, you know, I don't have the perspective on it.
+[31:13.880 --> 31:21.000]  Well, there must be some requests from the government to Google for information.
+[31:21.000 --> 31:29.000]  There must be. Oh, definitely. And the thing about Google, but that's that's online content.
+[31:29.000 --> 31:34.360]  And who knows, maybe it's because if you use an Android phone, you everybody who uses Android
+[31:34.360 --> 31:40.120]  phone signs up for Google and going to Google is enough that they don't need to go to the right.
+[31:40.120 --> 31:44.600]  That's what I'm saying. You know, they they have, I don't know, though, because there's things like
+[31:44.600 --> 31:49.480]  text messages, right? So Android users send a lot of SMS text messages, they don't go through Google.
+[31:50.600 --> 31:53.800]  Right. So if the FBI wants to see those, they need to get them off the phone.
+[31:56.120 --> 32:00.600]  I can't help but think that they would want to still want to access the phone. And I think
+[32:00.600 --> 32:05.000]  I can't help but think that they would want to still want to access the phone. And, you know,
+[32:05.000 --> 32:10.440]  does what what percentage of Android users back up all of their photos to Google? I mean,
+[32:10.440 --> 32:15.000]  there must be some percentage, but is it all I don't know. Okay, I'm gonna I'm gonna throw
+[32:15.000 --> 32:23.000]  something out there that can be funny. But maybe, as we know, from the things that we see, maybe
+[32:23.000 --> 32:29.800]  Android is just so full of holes that the FBI can hack it themselves. Yeah, that's that's sort of
+[32:29.800 --> 32:41.000]  what I'm hinting at. You know, iOS is very secure operating system, and a lot of it because Apple
+[32:41.000 --> 32:48.680]  doesn't really care about your data, they care about your security and your privacy. And, you
+[32:48.680 --> 32:58.840]  know, I'm trying not to be too, you know, fanny here, but I believe that to be true. And we've
+[32:58.840 --> 33:07.560]  seen the malware and things that can infect Android phones. So what's I mean, I tend to think
+[33:07.560 --> 33:13.560]  that the FBI just sat down with some of its smart people and said, hack this thing, and they can.
+[33:13.560 --> 33:21.880]  And they can. Yeah, I don't know. Let me take a break here. And we come back to it. But I'll take
+[33:21.880 --> 33:27.960]  a break here and thank our first sponsor. And it is our good friends at Harry's go to harrys.com
+[33:27.960 --> 33:34.360]  and use the promo code talk show, just talk show and you will save five bucks off your first
+[33:34.360 --> 33:40.200]  purchase. Harry's offers high quality razors and blades and other shaving products for a fraction
+[33:40.200 --> 33:47.000]  of the big razor brands. They make their own blades in their own factory. They bought it
+[33:47.000 --> 33:50.600]  in Germany, it was an old razor blade factory in Germany, and they liked it so much, they just
+[33:50.600 --> 33:55.800]  bought the factory. And it's fundamentally this is how they sell their stuff for less
+[33:55.800 --> 34:00.200]  because there's no middleman, they own the factory, they make the blades, they make the products,
+[34:00.200 --> 34:04.760]  and then you buy it from them, and they just ship it right to your door. And so there's no
+[34:04.760 --> 34:12.280]  distributor, there's no markup for a retail store. So you get a better price, you get a high quality
+[34:12.280 --> 34:16.680]  product, and you get the convenience of just having this stuff show up at your house and
+[34:16.680 --> 34:21.240]  you don't have to go buy it. Their starter set is an amazing deal for 15 bucks, you get a razor
+[34:21.240 --> 34:25.080]  moisturizing shave creamer gel and three razor blades. And when you need more blades, they're
+[34:25.080 --> 34:30.600]  just two bucks each or less an eight pack, for example, it's just 15 and a 16 pack is 25.
+[34:30.600 --> 34:36.680]  I love their packaging. I love their style. I love the way they write. A couple of months ago,
+[34:36.680 --> 34:41.720]  they sent me this, they have a new thing here, daily face wash. So this is what I use in the
+[34:41.720 --> 34:46.520]  shower when I wash my face. And it's sort of like a gritty type thing. And I like it, it feels,
+[34:46.520 --> 34:50.600]  you know, it's got like, some kind of grit to it. But I read the instructions because I'm an
+[34:50.600 --> 34:55.560]  I'm an idiot. And I actually always look for stuff like this. These are the these are their
+[34:55.560 --> 35:00.600]  instructions. Here's how they this is what how they take to use the face wash, wash as only you would
+[35:01.560 --> 35:06.520]  a little bit goes a long way. Caution not in the eyes. That's it.
+[35:08.360 --> 35:14.360]  Lovely, right? Because you don't really need it's in other words, hey, dummy. You know how to wash
+[35:14.360 --> 35:20.040]  your face and be and my favorite part is a little bit goes a long way. You know, just you put a
+[35:20.040 --> 35:24.520]  little bit a little bit. There you go. And, you know, again, hey, dummy, don't put it in your eyes.
+[35:24.520 --> 35:31.480]  There you go. That's it. So great stuff. Great style. Good, even the hardware handles on
+[35:31.480 --> 35:36.200]  everything on the razors, all great stuff. Go there, go to harrys.com. And remember that
+[35:36.200 --> 35:41.560]  promo code talk show and you will save five bucks off your first purchase. Well, to Harry's,
+[35:41.560 --> 35:48.920]  if I if I can tell you something, I actually use Harry's as big of a beard as I have, you know,
+[35:48.920 --> 35:54.840]  I get to trim up the sides and stuff. I have I have the full Harry's kit. So there you go.
+[35:58.520 --> 36:05.000]  True story. Well, I don't is there more to say about the FBI Apple case? At the moment? Maybe
+[36:05.000 --> 36:15.320]  not. Do you believe what the FBI says? And do you believe what Apple says? I believe what Apple says.
+[36:15.320 --> 36:22.440]  And I think they're very careful. I think they are. And it's just a hallmark of Tim Cook is,
+[36:22.440 --> 36:32.760]  is a and I would say without question, the biggest difference between Cook and Jobs is that Jobs
+[36:32.760 --> 36:42.840]  would would fly off the handle. And, you know, just a small example. But remember, in 2007,
+[36:42.840 --> 36:47.480]  when it was people, the first iPhone came out, and people were like, Hey, how come we can't
+[36:47.480 --> 36:52.600]  write native apps? And he was, he said, Ah, you don't, you know, your bad, you write a bad native
+[36:52.600 --> 37:00.840]  app will bring down the whole West Coast phone network. Now, I, there's an argument to be made
+[37:00.840 --> 37:05.080]  that it's, you know, like, what if it was a super popular app like Facebook? And what if there was a
+[37:05.080 --> 37:11.400]  terrible bug that, you know, kept the data connection on full time, if the app was installed?
+[37:11.400 --> 37:16.360]  If there's some, you know, it's not it's completely ridiculous, but it wasn't a good answer.
+[37:16.360 --> 37:23.880]  But that's jobs, right? Whereas Tim Cook, Tim Cook is, is so he's like a surgeon with every word out
+[37:23.880 --> 37:31.160]  of his mouth in public. Yes. And I do I believe that I don't think there's anything that Apple
+[37:31.160 --> 37:38.200]  said, at least in that open letter that I even raised an eyebrow. Me neither. I mean, the only
+[37:38.200 --> 37:44.360]  thing that I think is up for debate is whether it qualifies as a backdoor. And the only reason I'd
+[37:44.360 --> 37:49.000]  say that and Tim Cook says, you know, and he even admitted says in the letter, the FBI is using
+[37:49.000 --> 37:54.120]  different words, I call it a backdoor, but he's even acknowledging he's he's careful enough and
+[37:54.120 --> 37:58.600]  fair enough that he even acknowledges that there's a debate over whether backdoor is the right word.
+[37:58.600 --> 38:03.400]  And I think that argument that it's not a backdoor is that a backdoor maybe you could argue is
+[38:03.400 --> 38:08.440]  something that Apple ships to everybody. And it's in in the phone that you buy from Apple,
+[38:08.440 --> 38:15.720]  it's already there. You know that, that this is something that the FBI, you know, that's not what
+[38:15.720 --> 38:21.000]  the FBI is asking for. They're not asking the FBI is not asking Apple to push a software update to
+[38:21.000 --> 38:26.280]  every iPhone out in the world, that would let them bypass the passcode. They're saying do this just
+[38:26.280 --> 38:32.440]  one. But, you know, given the provisions that Tim Cook said, I believe him get with the FBI. I don't
+[38:32.440 --> 38:36.680]  know. I think the one argument a couple people have made, including John McAfee.
+[38:40.120 --> 38:41.800]  Come on, the show ends right now.
+[38:43.480 --> 38:50.280]  Come on. Come on, you didn't. It's either the FBI is lying, and they have hackers on their staff
+[38:50.280 --> 38:54.840]  who could break in, get this passcode right now. Or they're incompetent, because they should be
+[38:54.840 --> 39:01.160]  able to, like, why can't they go right down the street to the NSA, and, and have this thing
+[39:01.160 --> 39:07.400]  unlocked? And I find it very difficult to believe that the NSA couldn't do this. And that if it was,
+[39:07.400 --> 39:12.840]  if this one phone really was that important, that they would do that. And I find that disingenuous.
+[39:12.840 --> 39:17.160]  That's what and it's also what makes me think it's about the legal precedent, not the actual
+[39:17.160 --> 39:24.760]  information on the San Bernardino suspects phone. So you you think that the NSA could hack this
+[39:24.760 --> 39:30.520]  iPhone on their own? I don't have any reason to believe that are not that I don't have reason to
+[39:30.520 --> 39:35.640]  believe that I don't have proof. I can't prove that, for the obvious reason that, you know,
+[39:35.640 --> 39:41.880]  the NSA keeps everything all of their capabilities secret. But if I had to bet, oh, I would bet
+[39:41.880 --> 39:47.720]  heavily that the NSA if could could access the information on this. So why bother going through
+[39:47.720 --> 39:52.840]  all this? Why not just go get the precedent? But but does the precedent actually matter if they
+[39:52.840 --> 39:58.520]  can hack it? Well, I think because going forward in the future, they're they're concerned about
+[39:58.520 --> 40:02.680]  the ever escalating security of these phones. And I guess that's one area where we could talk about
+[40:02.680 --> 40:11.240]  where, you know, what is one of the aspects of this is, whatever happens to Apple in the courts
+[40:11.240 --> 40:20.440]  on this case, I think it's only going to motivate them to further cleverly design the the encryption
+[40:20.440 --> 40:25.160]  mechanisms on the iPhone to make it impossible in the future to even comply with a
+[40:25.160 --> 40:31.000]  request like this. So here's something we don't know. And it's a little technical. And hopefully,
+[40:31.000 --> 40:37.400]  I will keep this straight enough that I'm going to be accurate. But the phone in this case is an
+[40:37.400 --> 40:43.000]  iPhone five C, the San Bernardino phone, and the five C is before the secure enclave and before
+[40:43.000 --> 40:52.120]  touch ID. And that makes it a simpler case cryptographically to to get. So I'm going to
+[40:52.120 --> 41:01.240]  graphically to to get we're starting with the iPhone five s and going forward, the phones,
+[41:01.240 --> 41:07.320]  iPhones with the touch ID and the secure enclave. Now touch ID is sort of irrelevant.
+[41:08.840 --> 41:13.960]  But it's the phones that have touch ID that have the secure enclave. They use the secure enclave
+[41:13.960 --> 41:21.560]  in the path of encryption to enforce it. And so one of the things that limits the rate of
+[41:22.600 --> 41:26.600]  so mathematically, and you don't really have to I even I really I have a computer science
+[41:26.600 --> 41:30.440]  degree. And I did really well in math. And I really this stuff really boggles my mind.
+[41:31.800 --> 41:38.840]  But basically, one of the keys used to encrypt the data on the phone is on the secure enclave.
+[41:38.840 --> 41:46.680]  And so as you know, the the phone iOS verifies that the passcode is correct. It goes through the
+[41:46.680 --> 41:52.600]  secure enclave and the secure enclave adds its key. And there's no way to get that key from iOS,
+[41:52.600 --> 41:59.000]  it just says, okay, secure enclave, here's the passcode that was sent. Now, output of that you
+[41:59.000 --> 42:06.360]  give me the thing that lets me decrypt this. And it's the secure enclave that enforces this 80
+[42:06.360 --> 42:12.680]  millisecond time between brute force attempts, which isn't that long, except that if you want
+[42:12.680 --> 42:18.840]  to do millions of them to get like a six digit passcode, 80 milliseconds means it takes a lot
+[42:18.840 --> 42:24.280]  longer to go through all of them than it would otherwise. And if you use an alphanumeric password,
+[42:24.920 --> 42:28.040]  if you're really concerned about security on your phone, and you use letters and numbers on
+[42:28.040 --> 42:33.560]  the passcode, it really does make it the 80 millisecond attempt between decryption attempts
+[42:33.560 --> 42:42.760]  really does make it time wise impossible. The question is, can Apple be forced to put like a
+[42:42.760 --> 42:53.560]  flash update on the secure enclave to to eliminate the 80 millisecond time between attempts? And I
+[42:53.560 --> 42:58.680]  think Apple hasn't said publicly, but reading between the lines, I think the answer right now
+[42:58.680 --> 43:05.480]  might be yes. And what somebody has said, was that, for example, like the iPhone five s shipped
+[43:05.480 --> 43:11.160]  with the secure enclave, and it didn't have that 80 millisecond enforcement between attempts, and
+[43:11.160 --> 43:17.480]  then a software update later on, added it. So if they could add something like that to secure
+[43:17.480 --> 43:24.120]  enclave, they could obviously take it away. The question is, and I don't know that Apple's,
+[43:24.120 --> 43:30.440]  I don't and I don't think they want to say is, can those flash updates to the secure enclave today?
+[43:30.440 --> 43:35.720]  Can they happen while the phone is locked? Because that's, you know, the whole point is if the phone
+[43:35.720 --> 43:42.280]  is already locked, maybe they can't flash update the secure enclave to change the passcode. Right?
+[43:42.280 --> 43:49.560]  It's like you've it's like a catch 22. But if you can, that might be something that Apple is very
+[43:49.560 --> 43:54.120]  strongly looking at in the future to say, well, now we're going to engineer, we're going to have,
+[43:54.120 --> 44:00.120]  you know, Johnny Suruji's team engineer at secure enclave, where this 80 millisecond attempt between
+[44:00.120 --> 44:04.120]  passcode attempts is hardwired into the silicon, and there's nothing we can do about it.
+[44:05.720 --> 44:09.880]  I and there's got to be other things that they're looking at going forward. Like, I don't think we
+[44:09.880 --> 44:16.200]  are at the end of Apple's, how we secure your data on the phone, I think that every single year,
+[44:16.200 --> 44:22.680]  every single year, in the last five years, that the system has gotten more clever,
+[44:23.400 --> 44:27.640]  and more completely sealed up so that even Apple can't do anything with it.
+[44:28.360 --> 44:34.280]  What if what if Apple said that they they lose this case, and they say, okay,
+[44:34.920 --> 44:39.960]  we will give you this information, but then they lock up the next operating system even tighter,
+[44:39.960 --> 44:44.600]  so that there is no possible way. I don't even know if that's possible. Right?
+[44:44.600 --> 44:49.560]  Um, no, I think it has to be, though, I definitely think it's possible to lock it up tighter. I think
+[44:49.560 --> 44:59.400]  that that they could, you know, create definitely create a system where the the the flash, you know,
+[44:59.400 --> 45:05.400]  the ROM, whatever you want to call it, the code that runs on the secure enclosure, where it can't
+[45:05.400 --> 45:10.440]  be can't be updated while the phone is locked. I think that's definitely technically, technically
+[45:10.440 --> 45:16.600]  possible. I mean, I could be wrong, but I think it is. So what does the government do? Then does
+[45:16.600 --> 45:25.320]  it go to court and say, you can't make your OS any stronger? I right. And at that point,
+[45:27.640 --> 45:32.600]  I, you know, I guess they could try to pass the law, but you really do start running up against
+[45:32.600 --> 45:41.160]  issues like a, that would cripple us tech companies competitively worldwide, absolutely
+[45:41.160 --> 45:47.640]  would be crippling. I mean, who would want the US tech product if if they knew that by mandated
+[45:47.640 --> 45:52.760]  by US law that it had to be, you know, insecure? And B, I think that there's a very strong
+[45:52.760 --> 45:58.360]  constitutional argument that that's a violation of free speech, you know, that that code is speech
+[45:58.360 --> 46:04.520]  and saying you can't write code that that does this is, you know, it's more or less saying that
+[46:04.520 --> 46:11.720]  this, you know, this form of mathematics is illegal. Oh, what a case. I really do think it
+[46:11.720 --> 46:15.560]  comes down to a sense of entitlement on law enforcement that they feel like any any information
+[46:15.560 --> 46:19.320]  that exists, they should be able to access and they they're unwilling to wrap their heads around
+[46:19.320 --> 46:24.280]  the idea that there's that we're coming to a point where there will exist information in the universe
+[46:24.280 --> 46:29.480]  that they simply can't get. I mean, and I keep thinking and again, this isn't really a legal
+[46:29.480 --> 46:35.080]  argument. It's just sort of a philosophical argument. But they've never had a right to the
+[46:35.080 --> 46:40.760]  information in your head. And in fact, the US Constitution, the US Constitution has the,
+[46:42.040 --> 46:51.880]  the fifth amendment, which means that you have a right not to incriminate yourself. And so the,
+[46:51.880 --> 46:57.400]  you know, if you invoke it that, you know, even if you committed a crime, you cannot be forced
+[46:57.400 --> 47:07.880]  to admit it in court. In some sense, again, this is I'm not speaking legally, but philosophically,
+[47:07.880 --> 47:12.680]  the information on your phone is in some way an extension of what's in your head, right? Like the
+[47:12.680 --> 47:16.600]  pictures you've taken are things you've seen that you want to remember the notes you've written to
+[47:16.600 --> 47:24.120]  yourself or your notes. I just don't think it's that outlandish philosophically that you could
+[47:24.120 --> 47:31.720]  have a phone that is so securely encrypted that if, if law enforcement takes it that they can't
+[47:31.720 --> 47:36.200]  access it any more so than that they don't have a right to, you know, read your mind,
+[47:36.920 --> 47:42.120]  or force you to to testify against yourself. How long will this case go on?
+[47:42.120 --> 47:50.120]  I don't know, I can't help but think it's I this particular case, who knows, but I feel like the
+[47:50.120 --> 47:55.240]  argument isn't going to stop. Like even if this case gets resolved somehow quickly, it's the next
+[47:55.240 --> 48:02.040]  one coming is is is going to be the same. I believe that this will go all the way to the
+[48:02.040 --> 48:14.600]  Supreme Court because I don't think either side will just let it fall. But if they lose,
+[48:15.720 --> 48:22.680]  if the government loses this case, will they try a different tact? I mean, is there another legal
+[48:22.680 --> 48:29.240]  way for them to say, okay, well, we argued that this last time, but now we're arguing
+[48:29.240 --> 48:36.360]  this, I mean, is this going to go on forever? I don't know. I mean, and maybe, you know,
+[48:36.360 --> 48:42.360]  I mean, one thing we didn't mention is that the that the the foundation of the FBI's request and
+[48:42.360 --> 48:49.000]  the judge that the judge granted against Apple is based on the all writs act of 1789. Right?
+[48:49.000 --> 48:55.800]  Yeah. So basing this on a law from 1789 would suggest that the law really didn't have
+[48:55.800 --> 49:05.240]  encrypted cell phones in mind. Yeah. So unless Nostradamus did it. So two of the things that
+[49:05.240 --> 49:11.400]  I've taken away this week is that one, if the FBI wins, this sort of grants them under this
+[49:11.400 --> 49:15.480]  all writs act precedent that says we can get whatever we you know, we can use this ancient
+[49:15.480 --> 49:21.720]  law to get whatever we want. And we have this very powerful ability to force tech companies
+[49:21.720 --> 49:29.160]  to help us, you know, by writing new code and and stuff like that. So that would be good for
+[49:29.160 --> 49:33.240]  the FBI from their perspective. I don't think that's good public policy. I think that's
+[49:33.240 --> 49:37.320]  terrible. But from law enforcement's perspective, that would be they would see that as a win.
+[49:37.320 --> 49:41.880]  And I think if they lose, this is why I almost feel like the FBI might see this as a no lose
+[49:41.880 --> 49:48.200]  situation is if they lose, then they go to Congress and say, look, the law on the book,
+[49:48.200 --> 49:54.200]  we just tried it. We have to, you know, they go to they go to Congress, and they say, we have to
+[49:54.200 --> 50:00.760]  be able to get this stuff to keep people safe from these crazy terrorists. That's very compelling to
+[50:00.760 --> 50:08.440]  a lot of politicians who either believe it or be cowardly, you know, it just don't want to be seen
+[50:08.440 --> 50:16.280]  on the wrong side of terrorism, right, of being, quote, unquote, strong against terrorism. And they
+[50:16.280 --> 50:21.560]  go to Congress and say, look, we just tried with this law that's on the books, and it we lost. So
+[50:21.560 --> 50:28.760]  we need you to pass a new law that says blah, about, you know, encryption and stuff like that.
+[50:30.520 --> 50:35.640]  And I think the only good solution for us publicly would be if, if that fails to,
+[50:35.640 --> 50:42.360]  but I feel like the FBI might suspect that they've got the the support on in Congress to do that.
+[50:42.360 --> 50:49.000]  Here's a question for you I wanted to ask before we move off it is, does being a Canadian
+[50:50.040 --> 50:54.760]  give you a different perspective on this? Because I feel like Americans are often too insular, and
+[50:54.760 --> 51:00.840]  we see these things as US only issues. And just simply being on the other side of the US Canadian
+[51:00.840 --> 51:08.840]  border, does it give you a different perspective? You know, it's, we don't really have a lot of
+[51:08.840 --> 51:19.160]  things like this. That would come up. You know, I can't see the Canadian government suing Apple.
+[51:20.040 --> 51:28.280]  You know, it's just it's just not something that does it give did you have a sense that you don't
+[51:28.280 --> 51:32.440]  have like an implicit trust of the US Department of Justice?
+[51:32.440 --> 51:42.200]  Implicit trust of the US Department of Justice? No, I don't think it's, I don't think it's that
+[51:42.200 --> 51:52.040]  I think we're more, we're more trusting than what you guys are of your government. We may not like
+[51:52.040 --> 51:58.680]  it. You know, our government will put in new taxes, which they do all the time. And we just
+[51:58.680 --> 52:06.760]  say, Oh, gosh, darn it. That's awful. But you know, we paid. That's fine. You know, whereas
+[52:06.760 --> 52:12.760]  you guys may riot. Like, no, no, you're not going to do that. The thing I keep thinking about,
+[52:12.760 --> 52:18.360]  too, is just that the stuff is also new. It's only 2025 years that anybody really, you know,
+[52:18.360 --> 52:22.680]  public, you know, typical people had access to computers and computer networking. And law
+[52:22.680 --> 52:27.720]  enforcement worked just fine before that. It's just, it's not like everything that they used
+[52:27.720 --> 52:32.360]  to be able to do before there were cell phones that they night they can't do anymore. It's just
+[52:32.360 --> 52:39.400]  new information and new a new source of evidence that that they have had access to. But if they
+[52:39.400 --> 52:44.120]  don't have access to it, if they can't get anything they want off an iPhone that has a
+[52:44.120 --> 52:49.320]  strong passcode on it, I don't think that that means that law enforcement can't do its job.
+[52:49.320 --> 52:57.000]  Well, and but the difference between then and now is that then the bad guys weren't using cell phones
+[52:57.000 --> 53:04.280]  either. So there were they were recording information in different ways that that the
+[53:04.280 --> 53:10.680]  government could have access to. You know, so if they're if they're now using the cell phones to
+[53:10.680 --> 53:15.480]  record all of their information, and the government can't access it, then that, you know, there is an
+[53:15.480 --> 53:21.160]  argument that they don't have access like they used to. But, you know, I'm still drawing back
+[53:21.160 --> 53:29.720]  to to what you said about the NSA does. If the NSA has access, this seems like a dangerous move
+[53:30.840 --> 53:38.680]  for the government to do for a precedent that they might not need. You know, I don't know.
+[53:40.840 --> 53:46.760]  It could be it could be a bad move if they can get it. I mean, I don't understand why they just
+[53:46.760 --> 53:51.480]  wouldn't say, yeah, whatever, you know, you don't need to give us that we've got access anyway,
+[53:51.480 --> 53:59.160]  to anything that we want. I really don't think that they do. Could the iPhone be that good?
+[53:59.880 --> 54:00.600]  That they don't?
+[54:01.720 --> 54:06.920]  Oh, it's, you know, you never know what the end, you know, in the end, if the NSA knows of a flaw
+[54:06.920 --> 54:11.480]  in the scheme, they're gonna keep their mouth shut about it. But it's, it does seem to me that Apple
+[54:11.480 --> 54:18.200]  is moving towards creating a complete system that can, you know, can mathematically be shown that
+[54:18.200 --> 54:26.280]  it can't be can't be broken with the combination of, you know, with the secure enclave and when
+[54:26.280 --> 54:31.960]  and with all the various ways that the keys are stored to get everything encrypted or unencrypted.
+[54:34.760 --> 54:38.600]  Oh, boy, we're in for fun. How long do you think that this initial
+[54:38.600 --> 54:41.960]  part will take? Is this like a month thing? Or?
+[54:43.160 --> 54:49.240]  I don't know. Yeah, I guess I know Apple has been given till February, we're recording on February
+[54:49.240 --> 54:55.720]  19. And I know they have like one week to file their response. So I think, you know,
+[54:56.600 --> 55:06.120]  a couple of months, I'm guessing. I'll take a break in the show and thank our second sponsor.
+[55:06.120 --> 55:12.920]  And it's our good friends at Squarespace. You can go to squarespace.com slash the talk show
+[55:14.200 --> 55:22.680]  and find out more. You guys know what Squarespace is it's all in one hosting and design and template
+[55:22.680 --> 55:29.560]  type stuff for your website. They've recently launched three different new website products
+[55:29.560 --> 55:36.600]  because they know that people's needs vary. So here's three of the new things that they've
+[55:36.600 --> 55:40.600]  launched cover pages are single page websites that are perfect for when your idea is just
+[55:40.600 --> 55:44.600]  starting out. You know what a single page website is something that you have a new thing to announce
+[55:44.600 --> 55:48.680]  and you have a big headline at the top. And all the information goes right down the page on one
+[55:48.680 --> 55:52.680]  big scrolling thing they have got they've got that set up. So if you ask the type of site you need
+[55:52.680 --> 55:57.640]  Squarespace already as you covered Squarespace commerce is robust enough to be both your online
+[55:57.640 --> 56:03.800]  storefront and business manager. So if you want to keep track of inventory and you want to have
+[56:03.800 --> 56:08.920]  a whole variety of products that you show people and let them sell and have all of the ecommerce
+[56:08.920 --> 56:13.320]  stuff and the security stuff and the credit card processing go through Squarespace commerce already
+[56:13.320 --> 56:20.200]  has you covered. Squarespace websites is another one that helps you provide beautiful versatile
+[56:20.200 --> 56:25.000]  templates that help you create the online home that you've always wanted. That's a multi page
+[56:25.000 --> 56:29.720]  deeper website. They have so many templates to choose from. It's ridiculous. They look so
+[56:29.720 --> 56:34.600]  professional. Any kind of new website that you want to create, you really ought to look at
+[56:34.600 --> 56:39.400]  Squarespace first and give it half an hour, give it an hour and see how far you get. And you'll
+[56:39.400 --> 56:45.240]  find out a lot of the cases most of the time. You're already most of the way done to just being
+[56:45.240 --> 56:49.720]  finished and launching. So go there and check it out. If you have any kind of need for a new
+[56:49.720 --> 56:59.080]  website, you can start with a free trial. It's squarespace.com slash the talk show. And remember
+[56:59.080 --> 57:08.200]  this use this code daring da ri n g. And use that when you pay See, here's the problem. You can go
+[57:08.200 --> 57:12.120]  there now get a free trial, use it for 30 days. And then when you go to pay, maybe you don't remember
+[57:12.120 --> 57:18.760]  the code, just remember the code daring da ri n g, and you will save 10%. So you'll save big bucks
+[57:18.760 --> 57:23.720]  and you'll get a beautiful website. My thanks to Squarespace. All right, what about my interview
+[57:23.720 --> 57:30.680]  last week with Federighi and Q? Do you listen to it? I did. I did, actually. It was great.
+[57:31.640 --> 57:37.480]  I thought it was a great interview. And, you know, you got some scoops in there, too.
+[57:38.360 --> 57:42.520]  Yeah, I wasn't expecting that. It's like they didn't say, hey, we're going to give you some
+[57:42.520 --> 57:46.520]  stuff. It's like when when Eddie started saying that, I really kind of expected that.
+[57:46.520 --> 57:53.240]  I was like, am I listening? Am I hearing this right? That you're giving me this
+[57:53.240 --> 57:56.440]  information that I'm pretty sure never came out before. I was ready to hear him like get
+[57:56.440 --> 58:05.240]  like a punch in the shoulder from like. I thought it was really good interview.
+[58:06.280 --> 58:12.680]  They were they were very open. And and it, you know, it kind of seemed like
+[58:12.680 --> 58:19.240]  just three guys sitting around chatting. Well, that's definitely the case. I mean,
+[58:19.240 --> 58:24.120]  in the argument against it would be and it seemed like, you know, I worried afterwards
+[58:24.120 --> 58:29.080]  that maybe I didn't ask good enough questions. Hard questions is maybe the wrong term to use,
+[58:29.080 --> 58:34.600]  but maybe I didn't press quite hard enough. I really was worried afterwards. And then the
+[58:34.600 --> 58:38.200]  show came out and I read all the reactions. I read all the emails, I read all the tweets,
+[58:38.200 --> 58:42.120]  and most people seem to really like it. But there were definitely some people are like,
+[58:42.120 --> 58:46.760]  dude, you asked this question and they didn't give a straight answer and you didn't press them on it.
+[58:47.320 --> 58:51.960]  And you're always going to have that, though. I mean, you and I've been doing this long enough
+[58:51.960 --> 58:56.520]  to know that no matter what we ask, that's people are going to react like that.
+[58:58.280 --> 59:05.720]  And my take on it is, well, at least I asked. And I thought even the ones that they didn't answer
+[59:05.720 --> 59:10.280]  straightforwardly, they at least they weren't there. The answers weren't completely empty,
+[59:10.280 --> 59:18.600]  you know, and and I know that they're, you know, they're both surprisingly good. This is the thing
+[59:18.600 --> 59:23.800]  that blows me away. It's it's for two people who don't do podcasts regularly. I mean, I know
+[59:23.800 --> 59:29.080]  Federighi was on the show back in December to talk about Swift. I don't know that any Q I don't know
+[59:29.080 --> 59:32.360]  that he's ever done a podcast before. I've seen him on interviews like at Recode or something
+[59:32.360 --> 59:40.840]  like that. But he doesn't do it a lot. But it came across as like naturals, right? Yeah. And I know
+[59:40.840 --> 59:43.560]  that there's no way that if they're not going to answer it the first time, they're not going to
+[59:43.560 --> 59:53.240]  answer it if I if I reassert it. And then all of a sudden, it the discussion loses the the flow.
+[59:53.240 --> 01:00:00.360]  Yeah. Well, I think that you got a lot of great information. I think that yes. I mean,
+[01:00:00.360 --> 01:00:09.000]  I mean, I texted you when I listened to it last week, and and said, you know, it was great
+[01:00:09.000 --> 01:00:19.080]  interview. It was informative, it was, you know, entertaining. So you actually got a lot more than
+[01:00:19.880 --> 01:00:28.440]  what I would have suspected. I the one thing that I think is interesting is the it goes beyond any
+[01:00:28.440 --> 01:00:33.320]  words that actually came out of either of their mouths, is the fact that the interview happened
+[01:00:33.320 --> 01:00:42.920]  at all shows that Apple definitely cares about this whole perception of Apple software being
+[01:00:42.920 --> 01:00:50.920]  in decline, right? Or being or having less care and thought put into it than their hardware.
+[01:00:50.920 --> 01:00:56.600]  And that Apple, the fact that the interview happened at all shows that Apple wants to counter
+[01:00:56.600 --> 01:01:01.560]  that, which I thought was interesting. And so any sort of, you know, thought that Apple doesn't
+[01:01:01.560 --> 01:01:11.000]  pay attention to these discussions, you know, on the outside. I think it's clear that they do up
+[01:01:11.000 --> 01:01:18.840]  to the very highest levels of the company. Yeah, I agree. I mean, I've interviewed Eddie before
+[01:01:18.840 --> 01:01:26.840]  I never interviewed Craig, but interviewed Eddie before. And, you know, he, he's a great guy. I
+[01:01:26.840 --> 01:01:35.560]  really like Eddie. And, you know, I think their personalities came across in the interview that
+[01:01:35.560 --> 01:01:40.840]  you gave. I mean, yeah, it's great to get the the information, but they could have been, you know,
+[01:01:40.840 --> 01:01:45.000]  wet blankets in the interview, too. And it would have been very difficult. And then, you know,
+[01:01:45.000 --> 01:01:50.200]  maybe that's when you start asking the questions. Just no answer this.
+[01:01:52.360 --> 01:01:57.400]  The one question, if there's one, and it's always the case that there's always at least one,
+[01:01:57.400 --> 01:02:02.040]  it's like, it's all over. We were like, hit stop, and the recording is over. And I think
+[01:02:02.040 --> 01:02:05.880]  that's great. And then immediately I'm like, Oh, I knew the one question I wanted to ask
+[01:02:06.440 --> 01:02:12.120]  is I really wanted to ask Eddie and I can't believe I forgot it, or just it was in my notes,
+[01:02:12.120 --> 01:02:16.360]  but it just never seemed to come up in the flow is I wanted to ask Eddie, if he himself has ever
+[01:02:16.360 --> 01:02:24.680]  hit the bug, where your iPhone or your iOS device could be iPhone could be iPad, but your iOS device
+[01:02:24.680 --> 01:02:32.440]  starts asking you for your iCloud password. And you enter it. And then it like a second goes by,
+[01:02:32.440 --> 01:02:37.320]  and then it comes the same dialogue comes back up, and then you enter it, and it goes away just long
+[01:02:37.320 --> 01:02:42.360]  enough that you think, okay, it's stuck, and then it comes back. And it doesn't say your password
+[01:02:42.360 --> 01:02:48.440]  was incorrect. And like, when, when it when I hit this, you know, and I think everybody's part of
+[01:02:48.440 --> 01:02:53.960]  the same way, where you can kind of enter your iCloud password pretty fast. And you do it. And
+[01:02:53.960 --> 01:02:58.680]  then is when you hit this bug, which I know exists, I've, you know, I've seen it firsthand,
+[01:02:58.680 --> 01:03:02.520]  I know other people talk about it. But then like, by the third time, you start entering your
+[01:03:02.520 --> 01:03:07.800]  password very, very carefully. Yeah. Are you like me? Like, can you do it one character at a time
+[01:03:07.800 --> 01:03:13.720]  with one finger, and you actually look at the pop up letters as they come, and then you hit return.
+[01:03:13.720 --> 01:03:18.440]  And then it goes away. And you think, oh, that solved it. And then it comes back up. I wanted
+[01:03:18.440 --> 01:03:24.120]  to ask Eddie that. And I didn't. And damn it, I really regret it. Were you satisfied with the
+[01:03:25.000 --> 01:03:29.720]  with the way that the conversation went? I mean, yeah, I really was. I worry deeply about it,
+[01:03:29.720 --> 01:03:37.080]  because I don't feel like being in that role of interviewing people like that is comes naturally
+[01:03:37.080 --> 01:03:41.560]  to me. So I mean, I stressed, I don't I hope it didn't sound that way. But I stressed greatly
+[01:03:41.560 --> 01:03:49.880]  about it before. No, it didn't sound that way. Like I said, I thought it was a really entertaining
+[01:03:49.880 --> 01:03:55.800]  interview. I think that implicit in their response to the issue of the software, you know,
+[01:03:55.800 --> 01:04:00.040]  being in decline is that I thought one of the most interesting answers to that was
+[01:04:01.400 --> 01:04:09.960]  Craig Federighi said that the bar is being raised, it's higher than ever. And that's in terms of
+[01:04:09.960 --> 01:04:15.320]  expectations that we have for how reliable everything will work and how polished everything
+[01:04:15.320 --> 01:04:23.320]  will be. I thought that was, you know, again, is it sort of a non answer? No, maybe, but I think
+[01:04:23.320 --> 01:04:27.960]  it's an interesting way of looking at it. And that we collectively see these as problems now,
+[01:04:29.240 --> 01:04:35.880]  simply because we have higher, higher expectations. Okay, so let's, let's look at that, though.
+[01:04:37.800 --> 01:04:45.800]  Why do we have higher expectations? I think it's because Apple gives us higher expectations.
+[01:04:45.800 --> 01:04:53.640]  You know, we're not, I don't think that we as consumers are saying to Apple, you know, your,
+[01:04:53.640 --> 01:05:01.160]  your software is awful. It seems to me more that Apple is saying, you know, when they do events
+[01:05:01.160 --> 01:05:11.640]  and stuff, our software is great. And 99% of the time, it really is great. But then when that 1%
+[01:05:11.640 --> 01:05:22.360]  hits, it's like, okay, this, this isn't so great. So are we just holding Apple up to their own
+[01:05:23.800 --> 01:05:31.400]  words and what they say about their software? Or are we being unfair? And saying, no, I don't think
+[01:05:31.400 --> 01:05:40.200]  we are being unfair. And I think that it's it is central to the entire reason Apple's own, you know,
+[01:05:40.200 --> 01:05:47.560]  there's a lot of times where we're in other cases where Apple seems to be held, either by a
+[01:05:47.560 --> 01:05:52.200]  publication or just one individual pundit or somebody to an unreasonably high standard that
+[01:05:52.200 --> 01:05:58.520]  other companies aren't held to. And I call them out, sometimes you call them out, you know, other,
+[01:05:58.520 --> 01:06:05.880]  you know, and Macalope calls them out all the time. This is a case, though, where I think Apple
+[01:06:05.880 --> 01:06:12.680]  itself asks to be held to a higher standard, right, that Apple itself proclaims that our
+[01:06:12.680 --> 01:06:17.880]  products because we do the whole, you know, this is their story that because we do the whole thing,
+[01:06:17.880 --> 01:06:22.360]  we control the software and the hardware and the integration between them, we provide an overall
+[01:06:22.360 --> 01:06:30.200]  better experience than our competitors, who don't have that whole, you know, software and hardware
+[01:06:30.200 --> 01:06:36.520]  story to tell. They say that that's Apple's story, right. And I've long thought that that's the, you
+[01:06:36.520 --> 01:06:45.560]  know, that the can Apple succeed in the long run? Yes, but I think that the only way they succeed
+[01:06:45.560 --> 01:06:54.600]  in the long run is by continually providing a better overall experience, you know, and and
+[01:06:54.600 --> 01:07:00.280]  blurring the lines between hardware and software. And I think that overall, they've done a great job
+[01:07:00.280 --> 01:07:07.480]  with that, you know, even even when you look at the integration between devices, I mean, not just
+[01:07:07.480 --> 01:07:13.080]  the integration between hardware and software, but the integration between iPad, Mac, iPhone,
+[01:07:13.960 --> 01:07:21.320]  you know, that handoff and and iMessage being everywhere, and you know, all that kind of stuff,
+[01:07:21.320 --> 01:07:28.440]  all that kind of stuff. I that makes the devices more useful for me. Oh, tremendously for me. But
+[01:07:28.440 --> 01:07:32.440]  it's I feel like that's one of those things, though, where there's, you know, for so many
+[01:07:32.440 --> 01:07:36.200]  handoff works great for me. And I do it all the time where I'll be like walking around the house,
+[01:07:36.200 --> 01:07:42.920]  making coffee or something and reading something on my phone. And I want to link to it from daring
+[01:07:42.920 --> 01:07:47.560]  fireball. But why not? I'll just wait till I get to my desk and do it from my iMac where I have a
+[01:07:47.560 --> 01:07:51.480]  nice keyboard. And all I do is just sit down at my desk while the phone is still open. And right
+[01:07:51.480 --> 01:07:57.320]  there at the side of my dock is the little handoff, you know, Safari thing. So I click one button.
+[01:07:57.320 --> 01:08:03.480]  And, you know, a second later, the web page that was on my phone is now I click one button on on my
+[01:08:03.480 --> 01:08:09.240]  Mac. And the thing on my phone is now on my thing on my phone is now on my Mac. Yeah. And it works
+[01:08:09.240 --> 01:08:17.480]  great for me. But with, you know, 700 million iCloud users, is there, you know, are there a million of them
+[01:08:17.480 --> 01:08:24.120]  for whom that doesn't work for reasons they don't understand, you know, is 99.9% of people having
+[01:08:24.120 --> 01:08:29.880]  it work? Good enough? How do you you know, and then how do you solve it for the, the last 10%?
+[01:08:29.880 --> 01:08:36.120]  Well, I think, you know, one thing that, that we all know is that there's always going to be
+[01:08:36.120 --> 01:08:43.480]  problems and bugs with software, you know, and we're accepting of that. I really believe that we
+[01:08:43.480 --> 01:08:49.640]  are accepting of that. And, you know, if you look at something like iCloud, people iCloud is a
+[01:08:49.640 --> 01:08:59.560]  favorite, one of the favorite whipping horses of people. For me, iCloud works great, iCloud services
+[01:08:59.560 --> 01:09:09.560]  work great. And I think a lot of it comes down to how we use it. So I use iCloud more like, more
+[01:09:09.560 --> 01:09:18.040]  like a consumer, you know? Yeah. And I'll give one example that I know, I know I'm not alone with is
+[01:09:18.040 --> 01:09:26.680]  the sinking of the text shortcuts. So in other words, the like, if you set up, you know, like a text,
+[01:09:26.680 --> 01:09:32.440]  the way that OS 10, and iOS have like a text, a simple text expander, like system where you
+[01:09:32.440 --> 01:09:38.840]  can have a little shortcut, like you type ADDR, and then expands to your full address.
+[01:09:40.840 --> 01:09:47.320]  I was bedeviled for months, with an inability, they're supposed to sync between devices.
+[01:09:47.880 --> 01:09:55.000]  And for months, I was absolutely bedeviled by syncing problems between them where just all
+[01:09:55.000 --> 01:09:59.800]  sorts of craziness would happen where they'd be doubled, where they all of a sudden, none of them
+[01:09:59.800 --> 01:10:05.160]  were on my phone. And sometimes on my, I mean, anything that could go wrong went wrong. All of
+[01:10:05.160 --> 01:10:11.000]  a sudden, my Mac went back to or one of my Macs would go back to like the default ones that the
+[01:10:11.000 --> 01:10:19.160]  ship when it's brand new. And I think I think that what happened was that it had the problems
+[01:10:19.160 --> 01:10:25.000]  initially happened for me when I was running the iOS nine beta last summer on my own. And that
+[01:10:25.000 --> 01:10:32.040]  something got corrupted in my iCloud account that even after iOS came out of iOS nine came out of
+[01:10:32.040 --> 01:10:37.400]  beta that something was wrong with those keyboard shortcuts, or text shortcuts, whatever they call
+[01:10:37.400 --> 01:10:46.440]  them. And then for months afterwards, it was all messed up. And eventually, though, it just it got
+[01:10:46.440 --> 01:10:53.960]  fixed. And it's knock on wood, but for like the last few months, it just works. And I've even,
+[01:10:54.520 --> 01:10:59.400]  like doubted myself and just gone there and painstakingly, I held my phone up to my Mac
+[01:10:59.400 --> 01:11:04.040]  and scrolled both lists to make sure that there's not like, oh, I just know there's gonna be one
+[01:11:04.040 --> 01:11:07.800]  missing. And I get to the bottom and be like, Damn, they're all there. And they're all the same.
+[01:11:09.560 --> 01:11:14.120]  And so, you know, I don't know who knows how that happened. Who knows if it fixed itself? Who knows
+[01:11:14.120 --> 01:11:20.840]  if somebody at Apple fixed a bug, figured it out and did it. But even when stuff like that happens,
+[01:11:20.840 --> 01:11:27.480]  and again, I don't want to be seen here as as wholly on Apple's side of this argument. But I
+[01:11:27.480 --> 01:11:34.920]  do think, though, that that it's easy for somebody who's experienced the same thing to look at the
+[01:11:34.920 --> 01:11:39.400]  sinking between those texture cuts as buggy because it was buggy, and to overlook the fact
+[01:11:39.400 --> 01:11:44.840]  that it's not buggy right now. I know security, Syracuse is always talking on ATP that he, he
+[01:11:44.840 --> 01:11:51.480]  can't get his addresses to sync. Right? Yeah. And I gotta tell you, I have, I have not had a problem
+[01:11:51.480 --> 01:11:57.720]  with address sinking in iCloud ever. I mean, and I've been using it since it was called, you know,
+[01:11:58.440 --> 01:12:03.720]  itools or whatever it used to be before mac.com. Maybe back then, maybe back then I had some,
+[01:12:04.280 --> 01:12:07.080]  I don't know, I didn't even have an iPhone back then. So I don't even know what I was sinking it
+[01:12:07.080 --> 01:12:11.400]  too. So maybe I wouldn't even know what if I had sync problems, but at least in recent years,
+[01:12:11.400 --> 01:12:17.080]  my address is definitely sync and they sync fast. I Yeah, I don't have problems with calendars with
+[01:12:17.080 --> 01:12:22.440]  contacts. I don't have problems thinking any of that stuff. I don't have problems with iCloud
+[01:12:22.440 --> 01:12:28.680]  Drive. You know, it sinks. I mean, you could you could reasonably make the argument should iCloud
+[01:12:28.680 --> 01:12:37.160]  Drive be more like Dropbox and sure. But looking at the service as it is, I don't have problems
+[01:12:37.160 --> 01:12:46.280]  with how it works. And, you know, when the problems that we do have, like this password thing,
+[01:12:47.240 --> 01:12:55.480]  just seemed to be so bizarre. Is it is it something that's, you know, it can't be unique
+[01:12:55.480 --> 01:13:00.120]  to just one person, obviously, because a lot of people have it. But is it unique to a setup?
+[01:13:00.120 --> 01:13:05.800]  Yeah, I don't know. You know, so I, you know, I think that they're getting there. I think that's
+[01:13:05.800 --> 01:13:13.000]  the gist of it. I do worry, I do worry that one of the reasons and I just don't think it's
+[01:13:13.800 --> 01:13:18.920]  deniable. I mean, this is like when the whole thing that started this new round of Apple
+[01:13:18.920 --> 01:13:22.760]  software is is not as good as it used to be, or not as good as it should be, however,
+[01:13:22.760 --> 01:13:26.840]  way you want to phrase it, started with Mossberg's column. And then the same day,
+[01:13:26.840 --> 01:13:32.760]  you and I both wrote about it. And my take is that that my angle was that one thing I think
+[01:13:32.760 --> 01:13:36.440]  is undeniable is that it is true that their software is not as good as the hardware. But
+[01:13:36.440 --> 01:13:44.360]  maybe that's just the way it has to be. Because the hardware is, is in some ways simpler. And
+[01:13:44.360 --> 01:13:51.000]  that certain aspects of the hardware have to be bug free. Like you can't, there's no way that they
+[01:13:51.000 --> 01:13:57.480]  can do a software upgrade of the camera lens. Right? Yeah. And so the requirements of that
+[01:13:57.480 --> 01:14:02.920]  and and so the here's, here's another argument. This is is does the ability to do software updates
+[01:14:02.920 --> 01:14:07.720]  make Apple way and anybody else who can do them make them lazy about shipping,
+[01:14:08.840 --> 01:14:13.000]  you know, be quality software because they know they can make it a quality software over the air
+[01:14:13.000 --> 01:14:17.240]  or they think they can. Whereas you know, is it different than in the old days where the software
+[01:14:17.240 --> 01:14:23.880]  had to be printed on a CD or DVD or if you want to go back further floppy disks. And if there was
+[01:14:23.880 --> 01:14:30.200]  a bug, the bug might never get fixed by the by the consumer because software updates were so
+[01:14:30.200 --> 01:14:37.080]  hard to distribute. Like it used to be a big, big deal to ship the gold master of a piece of
+[01:14:37.080 --> 01:14:43.480]  software. Oh, yeah, it was huge. And not that like an OS update still isn't taken seriously or or
+[01:14:43.480 --> 01:14:48.200]  or you know that there's all sorts of, you know, rigorous quality control that it goes through.
+[01:14:48.200 --> 01:14:54.680]  But it's not like it used to be when when hard software went through an actual, you know,
+[01:14:54.680 --> 01:14:59.960]  effectively it'd be turned into hardware when you put it on it on a disk. That's right. Yeah. Well,
+[01:14:59.960 --> 01:15:07.080]  I and I think that, you know, for a lot of developers, they do think I'll release this now
+[01:15:07.080 --> 01:15:16.200]  and I can fix it. But I mean, we we know, too, that there are you can't account for every
+[01:15:16.200 --> 01:15:24.920]  configuration. And, you know, the Mac App Store, I think, has done a lot to to help with every app
+[01:15:24.920 --> 01:15:32.840]  is going to work. At least you have that that feeling, you know, these are tested. We know
+[01:15:32.840 --> 01:15:39.080]  they're good. And we put them out there for sale on the Mac App Store. So that helps a lot. The
+[01:15:39.080 --> 01:15:45.320]  App Store helps a lot. I think it's great that Apple has the review process that they do with
+[01:15:45.320 --> 01:15:49.960]  all of the stuff. I wonder if some of the Apple software could make it through the review process
+[01:15:49.960 --> 01:15:56.200]  sometimes. Well, I wouldn't do a lot of the stuff that doesn't, you know, doesn't follow the
+[01:15:56.200 --> 01:16:01.640]  sandboxing rules wouldn't. Yeah. Although a lot about that, I say that, but I know that a lot of
+[01:16:01.640 --> 01:16:06.600]  app, most of Apple's, you know, own first party apps are sandbox. So it's it's not entirely.
+[01:16:08.520 --> 01:16:11.640]  But they don't, you know, if they need to, they don't mind giving themselves an exemption.
+[01:16:14.920 --> 01:16:19.560]  I thought an interesting angle and I don't know if I was satisfied with the answer from Craig,
+[01:16:19.560 --> 01:16:27.400]  but on the issue of is Apple shifting away from monolithic feature updates for OS's. In other
+[01:16:27.400 --> 01:16:33.800]  words, I think for the last few years, all the major new features of OS 10 and iOS have been
+[01:16:33.800 --> 01:16:40.680]  announced at WWDC. And then they all ship in the fall when the release versions come out. And every
+[01:16:40.680 --> 01:16:45.800]  once in a while, there'll be one that maybe waits till the next release. Like remember there, I
+[01:16:45.800 --> 01:16:52.040]  think like two years ago, there was a keychain, something related to the keychain. And it wasn't
+[01:16:52.040 --> 01:16:57.640]  in the initial versions of either OS, but it came out like in the November updates. And it
+[01:16:57.640 --> 01:17:01.160]  was something there was some kind of bug with like a keychain feature. But for the most part,
+[01:17:01.160 --> 01:17:05.800]  they're all announced at WWDC. And then they all come out in the fall at once. And then Apple
+[01:17:05.800 --> 01:17:11.240]  spends the next six months fixing bugs in those OS's and before they turn their attention to next
+[01:17:11.240 --> 01:17:17.400]  year's OS's. And are they moving away from that sort of let's do all the features at once to a
+[01:17:17.400 --> 01:17:22.360]  more let's keep working on these features in parallel. And then when they're ready, then we'll
+[01:17:22.360 --> 01:17:31.000]  ship them like with the seemingly imminent iOS 9.3, which is now in public beta, which has maybe
+[01:17:31.000 --> 01:17:37.800]  not huge features, but some significant features. Yeah, the the efflux thing with the efflux like
+[01:17:37.800 --> 01:17:45.160]  feature with the night shift color palette, and maybe the most significant one for a smaller
+[01:17:45.160 --> 01:17:49.960]  number of users, but for those who applies to is very, it's a really major update to the OS is the
+[01:17:49.960 --> 01:17:54.280]  way that for education purposes, iPads can have multiple users now and you could have any student
+[01:17:54.280 --> 01:18:01.160]  sign into any iPad. That's the sort of feature that you typically would only come in a major,
+[01:18:01.160 --> 01:18:07.960]  you know, dot o release of the OS. I can't help but think that common sense says that,
+[01:18:08.920 --> 01:18:13.800]  while marketing wise, that's less powerful, because you can't just announce all this stuff
+[01:18:13.800 --> 01:18:20.280]  at once, that from a quality perspective, letting these features come out naturally when they're
+[01:18:20.280 --> 01:18:26.120]  ready, even if it's in the point three update to the major version of the OS is is, you know,
+[01:18:26.120 --> 01:18:33.000]  common sense is that just seems like it's a better process for quality. And I don't mind smaller
+[01:18:33.000 --> 01:18:42.520]  feature updates. I really don't I, I just want things to be secure and, and stable. That's,
+[01:18:42.520 --> 01:18:49.240]  that's my main thing. That's what I want from them. Yeah, and I wonder how much, you know,
+[01:18:50.040 --> 01:18:56.760]  how much do they need the OS, a major OS updates to have big marketing type features? You know,
+[01:18:56.760 --> 01:19:01.480]  I mean, obviously, they're always going to have some, but how much do you need 10, 10,
+[01:19:01.480 --> 01:19:07.320]  pole features in an OS update? Is, is, is that, you know, maybe that's an outdated way of looking
+[01:19:07.320 --> 01:19:13.480]  at an operating system. I think it is, you know, that it's really more, you know, it's enough to
+[01:19:13.480 --> 01:19:21.240]  just say, you know, come this fall, and they're announced new iPhones to just talk about what's
+[01:19:21.240 --> 01:19:25.480]  new in the iPhone itself. Here's this new camera that does blah, blah, blah. And here's how much
+[01:19:25.480 --> 01:19:32.680]  better it is than the old camera. And here is how much faster graphics performance is compared to
+[01:19:32.680 --> 01:19:39.320]  last year, which lets you do these amazing things like play this game and do this stuff like, isn't
+[01:19:39.320 --> 01:19:44.680]  that enough? Like it rather than then, you know, and and and let the engineers who are working on
+[01:19:44.680 --> 01:19:51.240]  iOS focus on just continually crossing off every little niggling little bug that's that's bothering
+[01:19:51.240 --> 01:19:58.200]  people. Well, I think that we need something, you know, it's always nice. When when Apple announces
+[01:19:58.200 --> 01:20:04.840]  a new iPhone that, you know, you can now do panoramic pictures, and you know, we have this
+[01:20:04.840 --> 01:20:11.880]  great camera. And the fact is, people rely on on that camera. But that's tied. That's a good
+[01:20:11.880 --> 01:20:15.960]  example, though. It's obviously the panoramic camera thing is obviously software, because it's,
+[01:20:15.960 --> 01:20:22.280]  you know, it, but it's also hardware, right? It's, it wasn't like they could have done it
+[01:20:22.280 --> 01:20:27.480]  without a camera, it was tied to it, you know, it's, you know, it's very specific to the to the
+[01:20:27.480 --> 01:20:35.240]  camera in the phone. So I brought up three points in the article that I did on on the software
+[01:20:35.240 --> 01:20:45.720]  of why some of the bad software bad things happen. One was that they knew about it and released it
+[01:20:45.720 --> 01:20:56.120]  anyway. Two was that they didn't know. They were given a date released by, you know, March 1,
+[01:20:56.120 --> 01:21:02.840]  that's it. What do you think it is? Well, I definitely think that it's part of the it's part
+[01:21:02.840 --> 01:21:11.960]  of why I think the monolithic release schedule is problematic is that the the iPhones have to
+[01:21:11.960 --> 01:21:18.920]  come out in September. And I mean, I say have to in a way that if they didn't, if something truly
+[01:21:18.920 --> 01:21:27.160]  catastrophic happened to the supply chain, you know, a natural disaster in Asia, something
+[01:21:27.160 --> 01:21:32.920]  Yeah, truly catastrophic. And Apple literally added has, you know, calls a meeting in, you know,
+[01:21:32.920 --> 01:21:40.360]  late August and says, wow, we have to postpone the iPhone seven launch until January. It's not
+[01:21:40.360 --> 01:21:44.360]  going to sink the company. I mean, it's it's bad for it would definitely be bad for the company.
+[01:21:44.360 --> 01:21:51.560]  I'm sure it would be bad for their stock. But but, you know, to keep everything, according to plan,
+[01:21:51.560 --> 01:21:58.600]  the iPhone has to come out in September. And if the new iPhone comes out in September, iOS 10 has
+[01:21:58.600 --> 01:22:02.760]  to come out in September, because the new iPhone, you know, are always engineered such that they
+[01:22:02.760 --> 01:22:11.320]  need the newest version of the operating system. And therefore, iOS, you know, whatever this year's
+[01:22:11.320 --> 01:22:18.520]  new version number is, come hell or high water is shipping in the middle of September. And that's
+[01:22:18.520 --> 01:22:24.600]  how it is. And that's why I feel like the more features you're promising for that release,
+[01:22:24.600 --> 01:22:29.640]  the more risk there is that some of them are not going to be, you know, fully baked.
+[01:22:30.840 --> 01:22:36.280]  Well, and didn't we see that? And you talked about it last week with with Craig and Eddie about
+[01:22:36.280 --> 01:22:41.880]  Apple TV. I mean, there are new features coming out for Apple TV that just didn't make it right
+[01:22:41.880 --> 01:22:47.560]  in the in the software. Yeah. And, you know, does that mean that they should have postponed
+[01:22:47.560 --> 01:22:51.880]  the release of the app of the new Apple TV? I think definitely not. I think right as they
+[01:22:51.880 --> 01:22:57.640]  released it, it was a compelling upgrade and a compelling device. But that's just the nature
+[01:22:57.640 --> 01:23:05.640]  of it, you know. But isn't I think there's a big difference between releasing software that's
+[01:23:07.000 --> 01:23:15.640]  missing features and Apple never says it can do this and it can't to releasing software that
+[01:23:15.640 --> 01:23:24.760]  that Apple says it'll do this and it doesn't. Right. Yeah, I definitely think so. And here's
+[01:23:24.760 --> 01:23:30.840]  an example. So maybe this is the way that I if I could bend Phil Schiller and Tim Cook's ear and
+[01:23:30.840 --> 01:23:37.480]  Craig's ear on on this. Take a look, compare it to the release of photos for Mac, which was
+[01:23:37.480 --> 01:23:44.200]  announced at WWDC. But without they just said early next year. And I think it had a very good
+[01:23:44.200 --> 01:23:49.800]  launch. I think photos for Mac to complete the search and iCloud photo library and complete this
+[01:23:49.800 --> 01:23:55.720]  circle of OK, now all of your photos are on all of your devices that are signed into iCloud
+[01:23:57.080 --> 01:24:03.720]  in a in a storage sensitive way so that, you know, if you have thousands of photos,
+[01:24:03.720 --> 01:24:08.040]  you have the option of whether you want the full version on any particular device. It all worked
+[01:24:08.040 --> 01:24:11.880]  really well. But I think part of that was that they didn't promise a date and say that come hell
+[01:24:11.880 --> 01:24:16.360]  or high water, it's going to ship on this date. Right. Like, I would like to see more features
+[01:24:16.360 --> 01:24:26.280]  that WWDC and API's announced as this is coming within the next year. You know, and and if it's
+[01:24:26.280 --> 01:24:33.160]  not in iOS 10.0, if we have to wait till 10.1, that so be it. I agree. And I do think you had
+[01:24:33.160 --> 01:24:36.920]  a strong point. I definitely think you had a strong point that there are some cases where
+[01:24:36.920 --> 01:24:41.960]  Apple has shipped stuff where it's it just seems inexcusable, like you had to know that this was
+[01:24:41.960 --> 01:24:50.840]  not ready to ship. Right. And that's, that's where I wonder, you know, it seems obvious that you knew
+[01:24:51.400 --> 01:24:58.200]  that this didn't work. And if, if you want to release software like that, then release it as
+[01:24:58.200 --> 01:25:05.240]  beta, say, you know, we have this, this new thing, and we're going to release it today as public
+[01:25:05.240 --> 01:25:15.320]  beta. We're looking forward to your feedback. And if that's the case, then I think the whole
+[01:25:15.320 --> 01:25:26.120]  conversation changes on whether the software is good or not. Because, you know, I've been running
+[01:25:26.840 --> 01:25:32.760]  beta software for OS's and for things like that. I never write about it because it's not fair to
+[01:25:32.760 --> 01:25:39.240]  to write about beta software like that. Right. But as soon as you come to me and say,
+[01:25:41.480 --> 01:25:45.960]  this software is ready, you can do all of these great and wonderful things.
+[01:25:46.920 --> 01:25:51.880]  And, you know, we're, we're proud to announce it and release it today. And then it doesn't
+[01:25:53.320 --> 01:25:58.280]  or, you know, not just that it doesn't but that it has major bugs.
+[01:25:58.280 --> 01:26:04.840]  Which brings us to the next segment of the show where we should talk about iTunes and Apple Music.
+[01:26:06.840 --> 01:26:15.080]  Which I will get to after thanking our final sponsor. And it's our good friends at Fracture.
+[01:26:15.080 --> 01:26:19.640]  You guys know Fracture. They're the company that prints your photos directly onto glass.
+[01:26:20.760 --> 01:26:24.280]  You've got photos in your iPhone, you've got photos on whatever other cameras you have.
+[01:26:24.280 --> 01:26:30.280]  You put them on Instagram, you put them in photos on your Mac, send them up to Flickr.
+[01:26:30.280 --> 01:26:34.680]  Well, how about getting them somewhere where they're not just ones and zeros and putting them
+[01:26:34.680 --> 01:26:39.800]  onto a real analog print that you can hang on the wall that you can put on your desk.
+[01:26:39.800 --> 01:26:43.960]  There's no better way to do that than through Fracture. Where instead of printing them on paper
+[01:26:43.960 --> 01:26:47.880]  and then you've got this piece of paper that you've got to somehow perfectly align within
+[01:26:47.880 --> 01:26:53.480]  a rectangular frame and the pain in the ass of, you know, opening those little clips on the back
+[01:26:53.480 --> 01:26:59.240]  of the frame and getting them back in there without having the photo fall two degrees off
+[01:26:59.240 --> 01:27:06.360]  parallel. Forget it. With Fracture, your picture is printed right on the glass itself. And it looks
+[01:27:06.360 --> 01:27:15.080]  super cool. It's super beautiful. It goes edge to edge. And they ship with everything you need
+[01:27:15.080 --> 01:27:20.440]  to hang them on the wall, including a screw to put in a wall right there in the package.
+[01:27:20.440 --> 01:27:26.680]  Really clever packaging, really high quality printing and a really, really just super cool
+[01:27:26.680 --> 01:27:31.160]  effect when you actually see them on your wall. You know, people who know you, when you start
+[01:27:31.160 --> 01:27:33.720]  hanging these up, if they've ever heard of Fracture, they're going to say, is that a fracture?
+[01:27:33.720 --> 01:27:37.400]  And if they don't, they're going to say like, how did you do that? How does this, how does,
+[01:27:37.400 --> 01:27:40.920]  you know, what is this? And then you're going to end up giving a pitch like this on Fracture
+[01:27:40.920 --> 01:27:48.200]  to your friends. And it's all really affordable too with prices starting at just 15 bucks for
+[01:27:48.200 --> 01:27:53.240]  the small square size. They've got all sorts of sizes, all sorts of shapes, and they've got a
+[01:27:53.240 --> 01:27:59.240]  really cool team that hand assembles every single order down in Gainesville, Florida. And if you
+[01:27:59.240 --> 01:28:03.240]  need any other reason to buy one besides them being our sponsors and them being really cool
+[01:28:03.240 --> 01:28:08.840]  things to buy as gifts, to buy for yourself, to hang on your walls, here's the even better. You
+[01:28:08.840 --> 01:28:17.000]  can save 10% off with the code TALKSHOW10. TALKSHOW10 will save you 10%. Just go to Fracture
+[01:28:17.000 --> 01:28:22.040]  me.com to check it out online and remember that code TALKSHOW10 and you'll save some bucks.
+[01:28:25.880 --> 01:28:34.040]  So that brings us to iTunes, which was, again, I think that's one thing that on Twitter, people
+[01:28:34.040 --> 01:28:38.680]  called me out for not pressing at EQ hard enough on. But on the other hand, I felt like he
+[01:28:38.680 --> 01:28:43.720]  acknowledged that it's on the table, that maybe on the desktop that iTunes should be broken up like
+[01:28:43.720 --> 01:28:52.520]  it is on iOS and have separate apps for playing music, for managing device updates, for, you know,
+[01:28:52.520 --> 01:28:57.240]  I mean, it's just kind of ridiculous what iTunes on the desktop does, you know, how much stuff it's
+[01:28:57.240 --> 01:29:04.280]  required to do. Well, and you can see why they don't want to mess with it, because it processes,
+[01:29:04.280 --> 01:29:08.920]  you know, billions of dollars in transactions. Right. Well, and it's actually used a lot. I
+[01:29:08.920 --> 01:29:12.200]  think it was one of the numbers that was dropped in that interview last week was that
+[01:29:12.200 --> 01:29:17.480]  there's 100 million people who still update and sync their device through a USB cable.
+[01:29:17.480 --> 01:29:22.040]  Yeah, iTunes. So I mean, I mean, 100 million users is a real number. I mean,
+[01:29:22.040 --> 01:29:29.320]  yep, I can understand that. And for the record, you know, I know that I've been very outspoken
+[01:29:29.320 --> 01:29:37.400]  about Apple Music, and the problems that I've had with it. I use Apple Music all the time.
+[01:29:37.400 --> 01:29:45.320]  Every day, I use Apple Music. And it has gotten really, really good. It really has.
+[01:29:47.000 --> 01:29:58.040]  Eddie and his team, I think have done a tremendous job in fixing a lot of the errors and problems
+[01:29:58.040 --> 01:30:04.440]  that Apple Music had, which brings me back to the point of, at what point does Apple
+[01:30:04.440 --> 01:30:11.080]  release software knowing that it's it doesn't work that well? You know, was Apple Music one of those?
+[01:30:11.080 --> 01:30:18.680]  Because when you start using it, you can see where all the the flaws were.
+[01:30:18.680 --> 01:30:22.440]  All right, did it did it was it released dictated by the quality of the software was the release
+[01:30:22.440 --> 01:30:26.200]  dictated by when the negotiating rights opened up?
+[01:30:26.200 --> 01:30:35.080]  Right. And I tend to think that it was the release was was based on a date, not on the quality of the
+[01:30:35.080 --> 01:30:41.000]  software. Because what we see now with the quality of the software, I would have been extremely happy
+[01:30:41.000 --> 01:30:41.480]  with.
+[01:30:41.480 --> 01:30:46.200]  Well, what specific things do you think are better now than than than in the past year? Because you've
+[01:30:46.200 --> 01:30:51.960]  been I mean, without, I would say almost without question, one of the leading critics of of Apple
+[01:30:51.960 --> 01:30:56.600]  Music in terms of bugginess and inconsistency and and confusion?
+[01:30:56.600 --> 01:31:03.400]  Well, and it's the bugginess and inconsistency isn't just on iPhone, it's on Mac, it's on Apple TV.
+[01:31:03.400 --> 01:31:14.360]  You know, and I think, if you look at the service overall, everything has gotten better, the app has
+[01:31:14.360 --> 01:31:21.960]  gotten better. The the stations, the algorithm that they use for their radio stations has gotten
+[01:31:21.960 --> 01:31:28.920]  better. The the curated stations have gotten better, everything has gotten better. There are
+[01:31:28.920 --> 01:31:37.000]  still bugs in the software and and people, people have accused me of looking for for bugs. I don't
+[01:31:37.000 --> 01:31:46.760]  have time in my day to look for bugs. I really don't. So I've told Apple that the reason that I'm
+[01:31:46.760 --> 01:31:53.960]  able to find these bugs is because I use it so much. That's it. That's the the only reason that I
+[01:31:53.960 --> 01:32:01.560]  can I find them and when I find them, I tell them about them. You know, here's but it's funny. I
+[01:32:01.560 --> 01:32:07.080]  know it's got to be the same for you. But it's always amuses me when like two emails in a row or
+[01:32:07.080 --> 01:32:10.840]  maybe two tweets in a row, just back to back. And it's the fact that they're back to back that makes
+[01:32:10.840 --> 01:32:15.640]  it so amusing, where there's one accusing you of being in Apple's pocket. Yeah, and one accusing
+[01:32:15.640 --> 01:32:22.040]  you of unfairly criticizing Apple and just looking for things to say over the exact same thing that
+[01:32:22.040 --> 01:32:29.320]  you wrote. Yeah, well, yeah, it's true. It's true. It happens. And what I'm not even going to say
+[01:32:29.320 --> 01:32:37.240]  I what I'm not even sure that Apple recognizes this, but the reason that I'm so upset or I was
+[01:32:37.240 --> 01:32:43.720]  so upset about Apple music is because I care about it so much. Well, and it also seemed like some of
+[01:32:43.720 --> 01:32:48.040]  your initial problems were were data loss, which is sort of the cardinal, you know, like, there's
+[01:32:48.040 --> 01:32:53.880]  all sorts of things that are forgivable and bugs and data loss is like high up on the list of ones
+[01:32:53.880 --> 01:33:00.520]  that are unforgivable. Well, you ought to design systems, ideally, such that data never gets lost.
+[01:33:00.520 --> 01:33:09.720]  And to be to be fair and open to Apple here, the data loss came from a misunderstanding of what I
+[01:33:11.160 --> 01:33:20.200]  knew iTunes match to do. So apparently, I deleted the song some of my own songs.
+[01:33:20.200 --> 01:33:28.920]  And not knowing that the way that iTunes match work had changed. So the songs weren't there,
+[01:33:29.560 --> 01:33:36.680]  but they were there. And then some of the other ones I deleted. But I just I don't think that
+[01:33:37.880 --> 01:33:47.480]  the way that they implemented iTunes matches the service in Apple music was a good thing to do,
+[01:33:47.480 --> 01:33:53.880]  a good thing to do, because they before you could turn, you could see with iTunes match,
+[01:33:53.880 --> 01:33:59.080]  you could see your purchase music and your your your uploaded music and your matched music.
+[01:33:59.720 --> 01:34:07.640]  So I could turn off Apple music and and or I could, you know, use iTunes match on all my devices
+[01:34:07.640 --> 01:34:12.840]  and basically see all my music. But when they implemented Apple music, they made iTunes match
+[01:34:12.840 --> 01:34:19.160]  part of iCloud music library. So if I wanted to get rid of iCloud music library, and just see my
+[01:34:19.160 --> 01:34:25.800]  iTunes match, there was no way to do that. But I didn't know that. You know, so that's,
+[01:34:25.800 --> 01:34:30.520]  and it gets to my complaint with it is that, in some ways, I think what makes me an astute
+[01:34:30.520 --> 01:34:37.480]  critic of software is that I'm kind of an idiot. And I really have cognitive problems with complex
+[01:34:37.480 --> 01:34:42.680]  software, I really, I really think I do, I just need it to be obvious, not necessarily simple, but
+[01:34:42.680 --> 01:34:50.840]  I need it to be obvious. And I really feel like, and I tried to get there last week with with
+[01:34:50.840 --> 01:34:57.480]  Federighi and Q, but that I really like what they did with photos for Mac. And, and I say this
+[01:34:57.480 --> 01:35:01.720]  knowing that I know that there are people out there who really missed some features from iPhoto
+[01:35:01.720 --> 01:35:07.400]  that aren't in photos for Mac. But I really like it because I really when I open photos for Mac,
+[01:35:07.400 --> 01:35:11.880]  it's not that there aren't other features I wish that they would add back. And it's not like,
+[01:35:12.440 --> 01:35:17.640]  I feel, especially in terms of editing images, I really and I, you know, I just feel like it's
+[01:35:17.640 --> 01:35:22.840]  coming. And this is how it's going to evolve in the years to come. But I really like that I open
+[01:35:22.840 --> 01:35:29.480]  it up. And I understand where everything is. And in a way that if they had tried to glom it into
+[01:35:29.480 --> 01:35:34.600]  iPhoto, I don't think it would have worked. Whereas with iTunes, I just really feel like
+[01:35:34.600 --> 01:35:40.600]  by continuing to build on the same foundation, that was the original iTunes from a decade ago,
+[01:35:41.240 --> 01:35:45.720]  they've wound up with something that's just confusing. And iTunes match is a perfect example
+[01:35:45.720 --> 01:35:49.080]  of that where I understand when they first came out with iTunes match, I understood what it was
+[01:35:49.080 --> 01:35:53.400]  meant to do. And it sound appealing, and I paid for it. And I still I guess I still do pay for it.
+[01:35:54.280 --> 01:35:58.600]  But now that they have Apple Music, I just feel like it's too much. I feel like there should be
+[01:35:58.600 --> 01:36:05.400]  just like two things. Here's your music, which you have copies of right here on your on your computer.
+[01:36:06.440 --> 01:36:13.080]  And you can sync them to your other devices if you want. And then if you want to pay us to have
+[01:36:13.080 --> 01:36:20.360]  access to, you know, music, like on a subscription basis, that's Apple Music. Like I kind of feel
+[01:36:20.360 --> 01:36:25.960]  like iTunes match should just go away. Well, see, I really liked iTunes match because then I could
+[01:36:25.960 --> 01:36:34.600]  have one copy of my music on on my computer. And then I could just use iTunes match and not take up
+[01:36:35.240 --> 01:36:40.520]  space on my device, you know, on my iPhone or my iPad, I could just use iTunes match and get
+[01:36:41.240 --> 01:36:47.480]  a whole cloud library. But when they when they change that, and rolled it into iCloud music
+[01:36:47.480 --> 01:36:53.960]  library, I'm basically paying for a service that it doesn't do what it did, you know, in
+[01:36:53.960 --> 01:36:59.800]  in my mind, they kind of took away a feature, but are still charging me for that feature, right?
+[01:36:59.800 --> 01:37:08.680]  You know, so. But if I look at an Apple Music today, right now, I was using it this morning
+[01:37:08.680 --> 01:37:17.880]  before we did this. And if I look at the app and the service, it's something that I would recommend.
+[01:37:17.880 --> 01:37:25.480]  I think it's it's great. And I use it. I use the radio more now than what I've ever used radio
+[01:37:25.480 --> 01:37:31.720]  before. I mean, I was a big fan of Pandora, because I think Pandora had the best algorithmic radio
+[01:37:33.160 --> 01:37:39.080]  service out there better than Spotify better than apples better than everybody. But apples is
+[01:37:39.080 --> 01:37:47.880]  getting really, really good. So the way that I use radio is I'll pick a song Guns N' Roses. So pick
+[01:37:47.880 --> 01:37:56.680]  Sweet Child o Mine or Welcome to the Jungle. And I'll say, make a station based on what you
+[01:37:56.680 --> 01:38:13.160]  do. And I'll say, make a station based on this song. And what I expect here from that station
+[01:38:14.040 --> 01:38:22.280]  is basically hit after hit after hit, nothing but hits for as long as I play that station.
+[01:38:22.280 --> 01:38:28.200]  And I I'll use that when I go for a drive or, you know, when I'm doing something that I just
+[01:38:28.200 --> 01:38:35.080]  want to hear. You know, I have people over and I pick a song, I want to hear other songs like that
+[01:38:35.080 --> 01:38:44.120]  and nothing but hits. And for a while, what you were getting from from the radio stations was
+[01:38:44.120 --> 01:38:50.120]  and this is even before Apple Music, you were getting kind of like the the best of the B sides
+[01:38:50.120 --> 01:38:57.240]  that nobody ever wanted to hear. And I would just be skipping through songs saying, What is this?
+[01:38:58.040 --> 01:39:05.320]  Why are you playing? And, you know, that's that's what you ended up with. That's not the case
+[01:39:05.320 --> 01:39:13.720]  anymore. Now I'm hearing a lot of great songs, you know, just and that's great. So what I also
+[01:39:13.720 --> 01:39:21.240]  I also use the hard rock channel, the pre done curated hard rock channel on Apple Music. And it's
+[01:39:21.240 --> 01:39:30.840]  gotten really, really, really good. And I use that for discovery. And I have added so many songs to
+[01:39:30.840 --> 01:39:37.880]  my library from the hard rock channel that, you know, I'll be listening to songs and hearing new
+[01:39:37.880 --> 01:39:44.840]  music and say, Yeah, that's pretty good. And I'll reach over and tap the the heart button. So heart
+[01:39:44.840 --> 01:39:50.120]  that and then, you know, two or three days later, I'll be, you know, listening to the hard rock
+[01:39:50.120 --> 01:39:54.280]  channel. And that song will will come on again. And I'll say, Geez, that's pretty good. I'll reach
+[01:39:54.280 --> 01:39:59.000]  over to hit the heart button. And I'll have already heard it. So I said, Well, I need to add
+[01:39:59.000 --> 01:40:03.800]  that to my library. And I'll go in and add that song. Sometimes I'll add the whole album, but
+[01:40:03.800 --> 01:40:11.560]  I'll add that song to my library. And then I also rate it with stars. So then it goes into my
+[01:40:11.560 --> 01:40:20.040]  playlist of, you know, I have a playlist done of four stars or higher. So if I'm going on a long
+[01:40:20.040 --> 01:40:26.680]  drive, I'll put on that playlist of all the songs forever, that I've rated four stars or higher.
+[01:40:26.680 --> 01:40:32.680]  And you know, I could have a couple 1000 songs in there. And I know that I'm gonna love every single
+[01:40:32.680 --> 01:40:37.720]  one of them. Well, it sounds like you're having a much better experience with it than you used to.
+[01:40:38.440 --> 01:40:45.080]  Well, yeah, I mean, it but see, that's why I need my library, right? As part of this, because people
+[01:40:45.080 --> 01:40:50.520]  have said, you know, like I added, and this was this was a couple months ago, I haven't tried it
+[01:40:50.520 --> 01:40:59.560]  since. But I added Led Zeppelin one and two, two from my music to my iTunes library. And it changed
+[01:40:59.560 --> 01:41:04.680]  the names of those those classic albums to Led Zeppelin Mothership, which is their greatest hits
+[01:41:04.680 --> 01:41:13.560]  album. And it just it just pissed me off. Come on. No, no, no, it's not. That's not it.
+[01:41:14.840 --> 01:41:19.720]  Right. And it's even worse that it was those albums because those it's wrong in any case to
+[01:41:19.720 --> 01:41:25.800]  botch that album name, but they're so canonical, you know, iconic, you know what I mean? Like Led
+[01:41:25.800 --> 01:41:31.640]  Zeppelin, every Zeppelin album, but especially to me, one, two, three, and four. Well, and I can't
+[01:41:31.640 --> 01:41:35.800]  houses of the holy, they're all they're all, you just know, which album it is, right?
+[01:41:36.600 --> 01:41:42.360]  But things like that I don't find happen much anymore. There are and see, that's why I want my
+[01:41:42.360 --> 01:41:50.760]  my own music. Because I've I've spent the last, you know, what, 15 years reading songs in iTunes.
+[01:41:50.760 --> 01:41:59.400]  And, and using those playlists for ratings, and also for plays, you know, what are what are my,
+[01:41:59.400 --> 01:42:06.600]  my top 500 songs played of all time in my iTunes library, I have a playlist for that. Right. So if
+[01:42:06.600 --> 01:42:13.560]  I want to narrow down, you know, the stars, and to just what I've actually played, then I guess it
+[01:42:13.560 --> 01:42:20.920]  would be all Ozzy songs, but you know, then I can take that playlist. And people have said, you know,
+[01:42:20.920 --> 01:42:27.720]  when I posted a picture of Led Zeppelin one and two being changed to Mothership. And people said,
+[01:42:27.720 --> 01:42:35.080]  why would you add it from your your own songs? When you can just add it from Apple Music and be
+[01:42:35.080 --> 01:42:43.720]  done with it? And my, my argument was, well, then you're, you're admitting that it doesn't work.
+[01:42:43.720 --> 01:42:48.520]  I mean, you're, you're basically admitting defeat and saying, fine, you know, it doesn't work. I'll
+[01:42:48.520 --> 01:42:54.200]  just do what Apple wants me to do. No, I have I have valid reasons that I want this stuff
+[01:42:55.400 --> 01:43:01.000]  on my own. And you know, do I want to spend like a year going through all my music and updating
+[01:43:01.000 --> 01:43:05.720]  the stuff from Apple Music with all the ratings and everything I had? No, I'm not going to do
+[01:43:05.720 --> 01:43:09.960]  that. So while we're talking about Apple Music, have you seen this story about I think it was
+[01:43:10.600 --> 01:43:19.320]  Hollywood reporter that that broke it, but that, that Apple is backing a TV series, maybe a limited
+[01:43:19.320 --> 01:43:27.800]  run TV series about about and starring Dr. Dre? Yeah, I did see that. And to me, the, it was
+[01:43:27.800 --> 01:43:33.240]  interesting part was, so anybody who's been waiting for a while for Apple to start having
+[01:43:33.240 --> 01:43:38.040]  their own exclusive content, because they're sort of the last ones to the game. I mean, I don't
+[01:43:38.040 --> 01:43:42.440]  know, I guess Microsoft doesn't really, but YouTube, you know, through, you know, Google
+[01:43:42.440 --> 01:43:49.560]  through YouTube has YouTube red only content. Hulu, obviously, it's all about their own content.
+[01:43:49.560 --> 01:43:57.480]  Netflix has their own content. And Amazon has exclusive content, that if you're an Amazon Prime
+[01:43:57.480 --> 01:44:03.080]  number. So the question is, if Apple if it's true, I mean, and it seems like it's definitely
+[01:44:03.080 --> 01:44:06.920]  true that they're shooting this Dr. Dre thing, like that Hollywood reporter, you know, had
+[01:44:06.920 --> 01:44:14.040]  reports of, you know, who's in it and what the content is. I'm fascinated by the idea of how
+[01:44:14.040 --> 01:44:20.360]  are they going to release it? Like, is it are they going to sell it through iTunes, like you pay
+[01:44:20.360 --> 01:44:27.480]  $1.99 an episode like you do for shows from networks? Are they going to make it so that if
+[01:44:27.480 --> 01:44:33.080]  you are an Apple Music subscriber, you get it for free? Would they do both so that if you're not an
+[01:44:33.080 --> 01:44:38.520]  Apple Music subscriber, you can buy it. But if you're, you know, if you do is it like sign up for
+[01:44:38.520 --> 01:44:43.480]  Apple Music, and you can watch this Dr. Dre show? And if so, is isn't Apple Music a bad name for
+[01:44:43.480 --> 01:44:51.160]  Apple Music? Right? Like, yeah, like, it's less than a year old, but it's already, you know, in
+[01:44:51.160 --> 01:44:57.240]  the way that iTunes got this name that with tunes, you know, the root word of iTunes is tunes. And it
+[01:44:57.240 --> 01:45:01.800]  evolved in all these ways that eventually had nothing to do with music is Apple Music already
+[01:45:01.800 --> 01:45:10.680]  about video content. And don't forget that iTunes iTunes was iTunes Music Store, and they drive to
+[01:45:10.680 --> 01:45:17.960]  music, right? You know, like, iOS was iPhone. Right? Is Apple ever going to stop naming things
+[01:45:17.960 --> 01:45:22.280]  music and then going on to make them go in other ways? And just it would be like if Amazon Prime
+[01:45:22.280 --> 01:45:28.200]  had been named Amazon free shipping, the Amazon free shipping club? No, it's like they had the
+[01:45:28.200 --> 01:45:33.640]  foresight when they named it Amazon Prime that, hey, we might do all sorts of cool stuff for people
+[01:45:33.640 --> 01:45:38.680]  who sign up for this. So let's just give it a name that just sort of means, you know, Amazon premium
+[01:45:38.680 --> 01:45:44.440]  customer. But I think I think they they did such a good job with with iTunes over the years that
+[01:45:44.440 --> 01:45:49.720]  people know, you know, you just go to iTunes to get everything, which may be part of the problem in
+[01:45:49.720 --> 01:45:56.280]  trying to split it up. You know, I but you know, with your, you know, with your, you know, with
+[01:45:56.280 --> 01:46:01.560]  your question, I mean, it would make sense for Apple because they have the money to be able to
+[01:46:01.560 --> 01:46:10.760]  say yes, sign up for Apple Music and get Dr. Dre's show for free. Yeah, you know, they could very
+[01:46:10.760 --> 01:46:17.000]  well do that. I think it's interesting that that they are getting into it. And I think it's a good
+[01:46:17.000 --> 01:46:22.360]  thing. And they need to do it. Yeah. What if I mean, it could I don't know. I mean, they have so
+[01:46:22.360 --> 01:46:28.920]  many options, but it could could just say, if you have any Apple device, you can watch it for free.
+[01:46:28.920 --> 01:46:36.360]  You know, any any iPhone, iPad, Apple TV can can watch the show for free. I don't know. I'm very
+[01:46:36.360 --> 01:46:40.440]  curious what they would do, or what they're going to do. I've been thinking about it for a long time
+[01:46:40.440 --> 01:46:44.760]  because I've long, everybody's long suspected Apple might get into original content. But now
+[01:46:44.760 --> 01:46:49.080]  that they are, I'm excited to find out how they're actually going to go to market with it. Because
+[01:46:49.080 --> 01:46:55.560]  because I don't think it's clear. It is going to be well, and let's not forget that they grew from
+[01:46:56.520 --> 01:47:04.440]  what, 6 million subscribers to 11 million, they told you on the show last week. I mean, that's
+[01:47:04.440 --> 01:47:10.680]  huge. It's funny, because it's not huge by Apple standards, like on the same show, you know, they
+[01:47:10.680 --> 01:47:17.720]  mentioned that they have 700 million users, 700 and some million total users, and they've only
+[01:47:17.720 --> 01:47:23.640]  got 11 million on Apple Music. But it's, you know, it's, it's in comparison to other streaming
+[01:47:23.640 --> 01:47:29.480]  services. And it is sort of a slow and steady wins the race type thing, right? And like,
+[01:47:29.480 --> 01:47:35.320]  by huge, I meant huge increase in in a relatively short period of time. I mean, they almost doubled
+[01:47:35.320 --> 01:47:42.200]  it. So here's the question, though. Did they double it because of this Taylor Swift thing?
+[01:47:42.200 --> 01:47:46.760]  I mean, for a while, it looked like Taylor Swift had bought Apple, right? Because she was just
+[01:47:46.760 --> 01:47:51.000]  everywhere, you walk into a retail store, that stores were just plastered with Taylor Swift.
+[01:47:51.960 --> 01:47:57.960]  The iTunes store was plastered with Taylor Swift. I mean, every banner was Taylor Swift is,
+[01:47:58.920 --> 01:48:05.000]  is that why it grew? And, you know, I've also said before that, I don't think it hurt.
+[01:48:05.000 --> 01:48:10.920]  Why? No, it certainly didn't hurt. I mean, is it because the service over that time
+[01:48:10.920 --> 01:48:17.800]  got better? I understand that there are a lot of people, a lot of people that never had a problem
+[01:48:17.800 --> 01:48:26.600]  with Apple Music. I get that I've talked to those people, you know, and I envy those people, I
+[01:48:26.600 --> 01:48:36.680]  really do. But if you came to me today with Apple Music and said, here it is, I'd be 100% behind it,
+[01:48:36.680 --> 01:48:42.440]  100% behind it, and I can't see saying a bad thing. Like I said, there's still a couple of
+[01:48:42.440 --> 01:48:49.640]  niggly little bugs in it, but nothing that I would say, you know, oh, this is, this is terrible.
+[01:48:49.640 --> 01:48:54.440]  I mean, it's just, it's a software bug. I don't care. Well, I think the music industry is going
+[01:48:55.480 --> 01:49:03.400]  clearly kind of going the same way as the TV and video world where exclusive,
+[01:49:03.400 --> 01:49:13.960]  you know, exclusives drive the subscriptions, you know, it's, you know, Netflix isn't Netflix
+[01:49:13.960 --> 01:49:18.040]  without the Netflix original content at this point, even though a lot of what people watch
+[01:49:18.040 --> 01:49:22.360]  on Netflix are their whole library of movies and stuff like that. But it's the fact that they have
+[01:49:22.360 --> 01:49:27.720]  some stuff that you can only get on Netflix. That is, you know, if you're only going to subscribe to
+[01:49:27.720 --> 01:49:32.280]  one or two monthly services, you know, it's the exclusive stuff that makes you pick which ones
+[01:49:32.280 --> 01:49:38.200]  it is. And just as the, you know, another example, so the, and it just seems like, you know, Taylor
+[01:49:38.200 --> 01:49:43.240]  Swift having original stuff on, on Apple Music, like the movie they made and stuff like that
+[01:49:43.800 --> 01:49:49.800]  is exclusive. And then you've got Kanye West, who has a new album out that's only on Tidal. And he
+[01:49:49.800 --> 01:49:53.240]  said, for whatever reason, you know, that it's never going to be on,
+[01:49:54.040 --> 01:49:55.560]  he called it Apple, but it's never going to be.
+[01:49:55.560 --> 01:50:04.280]  Yeah, and, and I for one, I'm thankful that he's not going to be on Apple Music. So
+[01:50:05.560 --> 01:50:09.240]  I saw him on Saturday Night Live last week, I thought it was like incomprehensible.
+[01:50:09.240 --> 01:50:17.320]  I mean, I'm a little old, and I'm definitely not in the demo, but it was a very bizarre performance.
+[01:50:18.200 --> 01:50:22.040]  He's an interesting guy. But But again, though, it's just but you just never used to see that in
+[01:50:22.040 --> 01:50:27.160]  the old days, there was never like, like an album that came out from a major act that was only at
+[01:50:27.160 --> 01:50:33.800]  at Tower Records, right? Right. It just wasn't how the industry worked. And it just seems like now,
+[01:50:33.800 --> 01:50:41.480]  especially from the perspective of the the superstar music acts, that it's all about
+[01:50:41.480 --> 01:50:46.840]  exclusives. And Apple is in a strong position, in my opinion, in that regard, because they can
+[01:50:46.840 --> 01:50:53.720]  a pay for it. And B, I think that from the, you know, in addition to just the fact that Apple has
+[01:50:53.720 --> 01:50:59.240]  the money to pay for it, they know people know that Apple has the marketing ability to, to really
+[01:50:59.240 --> 01:51:03.000]  help, you know, that if Apple is behind you in the marketing, you know, you've got a really good
+[01:51:03.000 --> 01:51:12.280]  marketing partner. Yeah, I agree. And I, I love the fact that they are getting into this original
+[01:51:12.280 --> 01:51:18.920]  content. I can't wait to see where that goes. Yeah, you know, but there's, you know, there's,
+[01:51:18.920 --> 01:51:23.000]  there's a lot of things that they can do. They have a lot of connections. And you know, what I
+[01:51:23.000 --> 01:51:29.960]  think is really funny. Remember the whole thing with Jimmy Iovine talking about women in playlists,
+[01:51:31.400 --> 01:51:36.600]  you know, that that women are sitting around talking about boys and you know,
+[01:51:36.600 --> 01:51:41.320]  listening to music and they need help with playlists. The latest commercial were three women
+[01:51:41.320 --> 01:51:46.280]  sitting around talking about, you know, breaking up and, and listening to music. I thought that
+[01:51:46.280 --> 01:51:52.040]  was kind of ironic. And I guess that brings us to the last and final scandal of the week,
+[01:51:52.040 --> 01:51:55.800]  which is that in that I think that was the commercial or there's one of the new,
+[01:51:55.800 --> 01:52:01.080]  two new iPhone commercials, Apple at the narrator, a young woman pronounces the word
+[01:52:01.800 --> 01:52:07.960]  Jeff, as GIF, which is how I pronounce it. Is it you know, the GIF image format? Is it a soft,
+[01:52:07.960 --> 01:52:14.280]  soft G or hard G and Apple has come out strongly on the hard G side, which is where I've always
+[01:52:14.280 --> 01:52:19.480]  been. Me too. So, but there we go. But I know people are losing, losing their shit over that.
+[01:52:19.480 --> 01:52:25.160]  Yeah. Well, we have, we have so much time in our hands these days that we can,
+[01:52:25.720 --> 01:52:31.000]  we can lose their shit over something like like that. But I don't know what is the right way.
+[01:52:31.000 --> 01:52:37.160]  I've always said GIF. This is why it's the long story short, the controversy is that the
+[01:52:37.160 --> 01:52:40.440]  I think it was one guy. I mean, I guess I can look it up in the show notes, but whoever it
+[01:52:40.440 --> 01:52:46.680]  was who created it, if you remember, it was a Unisys image format that they had a patent on
+[01:52:46.680 --> 01:52:54.120]  and that they never enforced it. But then when the, and it was like a sort of obscure image format
+[01:52:54.120 --> 01:53:00.760]  in the late eighties, early nineties, but then when the web happened and we needed really tightly,
+[01:53:00.760 --> 01:53:07.720]  you know, very small byte count image format, and then all the browsers supported the format
+[01:53:07.720 --> 01:53:11.720]  and it exploded. And then Unisys was like, Hey dude, we still own a patent on that. And
+[01:53:11.720 --> 01:53:18.120]  really kind of made a stink about it. Anyway, the, the team or the guy at Unisys who invented it
+[01:53:18.120 --> 01:53:23.000]  and it stands for graphics interchange format. And the guy who invented it says that they've
+[01:53:23.000 --> 01:53:29.000]  always pronounced it with the soft G, GIF, like the peanut butter. And therefore that side of
+[01:53:29.000 --> 01:53:33.800]  that side of the argument says the guy who invented it says it's GIF, therefore it's GIF.
+[01:53:36.200 --> 01:53:43.240]  Whereas everybody else is like, if it's graphics interchange format, it's a hard G it's GIF. And
+[01:53:43.800 --> 01:53:48.760]  who cares what the original guy said, language evolves naturally. And the natural way that this
+[01:53:48.760 --> 01:53:55.320]  has evolved is that it's a hard G. Okay. So the big question doesn't matter.
+[01:53:55.320 --> 01:53:59.480]  But there was like, when that video came out, there was like an hour or two on Twitter where
+[01:53:59.480 --> 01:54:04.600]  that's all anybody was talking about. I mean, do you go to anybody and say GIF and they don't know
+[01:54:04.600 --> 01:54:11.240]  what you're talking about? No, no, I just, I just think it sounds better. Great. I'd be very curious
+[01:54:11.240 --> 01:54:18.040]  to know, like, whether readers and listeners of the show, if, how they fall, it seems like
+[01:54:18.040 --> 01:54:25.320]  it's a little bit like the vodka versus gin martini thing where there's the one side cares
+[01:54:25.320 --> 01:54:29.080]  a lot and the other side is like, Hey, you pronounce it however you want. Yeah. You know,
+[01:54:29.080 --> 01:54:33.800]  like with martinis, the people who like vodka martinis, other people, you know, and somebody
+[01:54:33.800 --> 01:54:38.200]  else's, well, I think a real martini has to be made with gin and the vodka person says, okay,
+[01:54:38.200 --> 01:54:42.280]  enjoy, you know, enjoy your gin martini. But the gin martini person is like, you're not drinking
+[01:54:42.280 --> 01:54:46.520]  a real martini. That's not a martini. You're, you know, you're not drinking a real martini.
+[01:54:46.520 --> 01:54:52.760]  You're, you know, um, and I feel like the hard G GIF people are like, I say, GIF, you say GIF.
+[01:54:52.760 --> 01:54:58.520]  All right. But the soft G people really get bent out of shape about it. Apparently because the,
+[01:54:58.520 --> 01:55:03.560]  you know, the guy, like I said, the guy who created it says it's the other way. Well,
+[01:55:03.560 --> 01:55:08.520]  anyway, Apple says it's hard G. So I say it's hard G. Oh, I always said hard G. Uh,
+[01:55:08.520 --> 01:55:18.040]  anything else before we wrap up? I don't think so. Uh, I guess I have a crush. I guess most
+[01:55:18.040 --> 01:55:26.920]  podcasts do their corrections at the beginning. Uh, two episodes ago, um, I said, uh, I think
+[01:55:26.920 --> 01:55:30.920]  that was with Ben Thompson. I, I was, we were talking about the new four inch iPhone that's
+[01:55:30.920 --> 01:55:36.200]  supposedly coming next month. And I think I said that it's going to have the a eight processor
+[01:55:36.200 --> 01:55:41.000]  that's a year old from the iPhone six. And Mark Gurman has reported that it's an a nine. I think
+[01:55:41.000 --> 01:55:46.600]  a couple other rumors, rumors have said a nine. I, I, I misspoke on the air. So the rumor is,
+[01:55:46.600 --> 01:55:50.280]  I don't know if it's true or not, but anyway, I should correct it that the rumor as reported
+[01:55:50.280 --> 01:55:54.600]  by Mark Gurman and I think others is that the new, uh, four inch iPhone is going to have an
+[01:55:54.600 --> 01:56:02.600]  a nine processor, which would put it at the, um, you know, six months behind the iPhone success
+[01:56:02.600 --> 01:56:07.960]  and success plus in terms of specs. And that is exactly why when I was on the show with Ben,
+[01:56:07.960 --> 01:56:12.920]  that I said, I think that it's a phone that Apple intends to keep on the market for 18 to 24 months
+[01:56:12.920 --> 01:56:16.760]  because they're putting the top of the line, a nine in there. And that makes a lot more sense.
+[01:56:16.760 --> 01:56:23.240]  I misspoke when I said a eight though, and I regret the error. Well, clearly you're not trustworthy
+[01:56:23.240 --> 01:56:34.200]  anymore. Can I ask you one question before? Do you use Apple music? Not a lot. I don't listen to
+[01:56:34.200 --> 01:56:40.280]  a lot of music to tell you the truth. Okay. I never, I haven't in a long time. I don't,
+[01:56:40.280 --> 01:56:44.200]  I can't work with music playing. Well, I could, I shouldn't say I can't, but, uh, you know,
+[01:56:44.200 --> 01:56:49.560]  I'm a little princess and a P I like to, with a P under my mattress. Uh, I like to work in silence.
+[01:56:49.560 --> 01:56:55.560]  So I don't listen to music while I'm writing or reading. Um, uh, if I do want to listen to music
+[01:56:55.560 --> 01:57:00.840]  though, I, I would. Yeah. Okay. I was just wondering, I think where I will eventually
+[01:57:00.840 --> 01:57:07.240]  use Apple music the most and I need to, I need to get a new car to make it work better. But,
+[01:57:07.240 --> 01:57:14.840]  um, I anticipate, you know, that getting a car where instead of using, um, serious,
+[01:57:14.840 --> 01:57:20.520]  serious, which we have in our car, um, I would much rather have Apple music and just go over
+[01:57:20.520 --> 01:57:27.160]  the LTE connection on my phone. Cause it would be a much higher quality. Even my shitty ears can,
+[01:57:27.160 --> 01:57:32.840]  can hear the, the, the horrible compression on current satellite radio. Um, so it would be way
+[01:57:32.840 --> 01:57:37.400]  higher fidelity. And I, you know, obviously I think it would, I would just rather go through
+[01:57:37.400 --> 01:57:41.800]  the Apple music stations and the Apple music algorithms and have the complete access to my
+[01:57:41.800 --> 01:57:46.520]  personal library at all times rather than just choose from the stations that Sirius offers.
+[01:57:47.800 --> 01:57:52.040]  The car is where I would listen to music, but I don't drive much. So it's, it's not that much,
+[01:57:52.040 --> 01:57:56.840]  you know, even there, it's not much. But like when I go out, like on a walk in the city or
+[01:57:56.840 --> 01:57:59.800]  something like that, I listen to podcasts instead of music. I don't really listen to it much,
+[01:57:59.800 --> 01:58:03.640]  but if I do listen to music, I do use it, but I don't use it enough that I have strong opinions
+[01:58:03.640 --> 01:58:09.880]  on it. So that's why it, I don't really write much about Apple music. Well, give it a try. I
+[01:58:09.880 --> 01:58:17.080]  think you'll like it. Uh, everybody can check out Jim's work, of course, at, uh, loop insight.com.
+[01:58:17.080 --> 01:58:23.400]  That's Jim's website. And on Twitter, he's, uh, I'm going to guess, uh, my guess is your username
+[01:58:23.400 --> 01:58:33.560]  is Jay Dalrymple. That is it. And, uh, and you can enjoy his plight, his plight on, you know,
+[01:58:33.560 --> 01:58:41.720]  you know, no, there's no plight anymore. It's all good. It's polite tweets.
+[01:58:41.720 --> 01:59:02.440]  All right, Jim, thanks a lot. It's good talking to you. You too, man.

@@ -1,0 +1,1765 @@
+[00:00.000 --> 00:04.720]  Oh my god, so this is the weirdness of podcasting number one
+[00:04.720 --> 00:10.040]  It's the weirdness of the erratic schedule of the talk show where I just published a show with molts yesterday
+[00:10.040 --> 00:14.960]  But I got to get another October show in and and there's so much more to talk about. That's it's not just you know
+[00:14.960 --> 00:17.720]  the month it's actually a lot of topics but
+[00:19.440 --> 00:25.680]  When molts and I talked I think the Nats backs were getting against the wall now, it's tied three to three
+[00:25.680 --> 00:27.680]  We're talking just hours before
+[00:27.680 --> 00:34.320]  Game seven of the World Series between your beloved Nationals and the
+[00:36.620 --> 00:41.560]  Houston Astros who might be the best team in baseball
+[00:42.680 --> 00:48.620]  Yankees aside, okay, you know Astros had the best record and the Astros beat the Yankees. So, you know fair's fair
+[00:50.180 --> 00:52.160]  So, I don't know if you're aware of this
+[00:52.160 --> 00:58.860]  But my I was just in Houston for the entire time that the Nationals were playing in in DC
+[00:58.860 --> 01:01.880]  No, I didn't know that. Yeah, my whole family's in in Texas
+[01:01.880 --> 01:04.160]  So I was I watched all the games
+[01:04.160 --> 01:09.300]  But I didn't get to go to any of them and they went to the games when they were in Houston
+[01:09.300 --> 01:11.300]  So they'll they'll probably be there tonight
+[01:11.820 --> 01:13.820]  You don't sound like you're from Texas
+[01:14.640 --> 01:19.080]  I'm not my you know, it's a it's a broad family all over the country like that
+[01:19.080 --> 01:24.160]  My you know, we come from immigrants and they settled in different places like that. Yeah, my cousin Rob
+[01:24.560 --> 01:26.560]  is a couple years older than me grew up in
+[01:27.640 --> 01:31.480]  Northern New Jersey, you know sort of the greater suburban New York area
+[01:33.040 --> 01:35.040]  And I think when he was around
+[01:35.360 --> 01:37.800]  21 22 or so moved to Dallas and
+[01:39.360 --> 01:44.080]  Lived there for quite a while and very quickly picked picked up a Texas accent
+[01:44.080 --> 01:49.620]  That's kind of funny. I I grew I was born in in the Bronx if you can believe it
+[01:50.320 --> 01:52.320]  I can hear that a little bit
+[01:52.880 --> 01:55.000]  Interesting interesting I get so much
+[01:56.140 --> 02:00.180]  People, you know say I don't hear an accent from you, but then I'll say dog. Yeah
+[02:01.240 --> 02:03.560]  All of a sudden you sound like Susan wall in the Yankees
+[02:04.640 --> 02:06.640]  Yankees radio announcer
+[02:07.720 --> 02:11.400]  Everybody I'm sure people who are listening to the show are familiar with your work
+[02:11.400 --> 02:14.960]  I linked to you probably at least once a week, but if you're not Dave is
+[02:15.600 --> 02:18.980]  Do you even have a title or no? You're just you're just probably
+[02:19.500 --> 02:23.000]  Executive editor of the loop if that's a thing. Yeah
+[02:24.840 --> 02:26.840]  When I used to work at bare-bones software
+[02:27.560 --> 02:32.600]  20 years ago I was a long time ago if you think about it when I first got there Rich Siegel the founder
+[02:32.600 --> 02:34.600]  You know makers of BB edit
+[02:35.920 --> 02:37.920]  He had business cards
+[02:37.920 --> 02:43.640]  And Jim Korea who's now he's moved on he's at the he's at the Omni group now good friend of mine
+[02:43.640 --> 02:45.640]  No developer software developer
+[02:46.240 --> 02:50.740]  I think Jim now works mostly on the Omni focus very popular app
+[02:51.360 --> 02:53.360]  But anyway when I was at bare-bones
+[02:54.080 --> 03:01.280]  Jim's business cards said Jim Korea guy who does all the work and and rich riches said
+[03:01.600 --> 03:04.120]  Rich Siegel he takes all the credit
+[03:04.120 --> 03:06.120]  Or
+[03:08.120 --> 03:13.200]  Maybe you and Jim need cards like that as well. Yeah, that's where I'm going. I got it. I got to work on that
+[03:13.200 --> 03:14.940]  Yeah, anyway, good luck tonight
+[03:14.940 --> 03:20.360]  So anyway by the time that's what I'm saying about the the the offsetting of podcasting is this show won't come out till tomorrow
+[03:20.400 --> 03:26.720]  So by tomorrow the whole world will know who won the World Series probably be I'll either be very drunk or very sad
+[03:26.720 --> 03:28.420]  well, I mean
+[03:28.420 --> 03:29.920]  Wait, what?
+[03:29.920 --> 03:36.840]  No, I guess very drunk or very drunk. Yeah, that's the way to put it. Yeah. It's just different types of drunks, right?
+[03:39.200 --> 03:44.400]  Anyway, I don't want to see you know famously you can't open these tech podcasts with lots and lots of baseball talk
+[03:44.400 --> 03:49.960]  But there was a band last night's game was a wackadoo. So number one here some math and nerdery. I thought about this
+[03:51.640 --> 03:57.540]  This is something that is nothing to do with baseball in particular, but it has to do with statistical anomalies
+[03:57.540 --> 04:01.940]  So the World Series for those of you who aren't baseball fans is the best of seven series
+[04:03.000 --> 04:10.000]  Whichever team has the better record from the regular season gets home field advantage first two games are played at their ballpark
+[04:10.520 --> 04:14.120]  next three games are played at the other team's ballpark and
+[04:14.400 --> 04:19.720]  Then the final two games if necessary if one of the two teams hasn't already won four games are played at
+[04:20.400 --> 04:22.880]  the home field advantage teams
+[04:23.440 --> 04:24.520]  ballpark
+[04:24.520 --> 04:26.040]  this year
+[04:26.040 --> 04:32.240]  Every single game to this point for six games was won by the road team the away team
+[04:32.760 --> 04:36.520]  Which has net a never happened in the World Series
+[04:36.760 --> 04:43.560]  It has never happened in a baseball Major League Baseball seven game series and it's also did you know this never happened in?
+[04:44.520 --> 04:46.440]  the other two major
+[04:46.440 --> 04:52.960]  Sports in the US that have playoff series football doesn't count because you play one game and done but in the NHL and in the NBA
+[04:52.960 --> 04:59.160]  There has never been a seven game series in the postseason the playoffs or everyone to call it where the home team won
+[04:59.160 --> 05:01.540]  All are the away team won the first six games
+[05:01.960 --> 05:07.520]  So I knew about you know, the home team thing happening right now, but I never knew that this was a new thing
+[05:07.560 --> 05:09.560]  That's that's kind of amazing
+[05:10.200 --> 05:13.120]  It's really crazy. So I tried that, you know, I like to do the math
+[05:13.120 --> 05:17.120]  so I I was too lazy to figure out what the
+[05:17.840 --> 05:22.840]  Home, like what is the home field advantage in baseball? It's not as great as in other sports
+[05:22.840 --> 05:26.960]  And I you try to if you try to search for it on the web
+[05:27.440 --> 05:34.440]  You'd search for like World Series home field advantage history or statistics and all I could get are
+[05:35.380 --> 05:42.560]  explanations for how they determine home field advantage, you know and that they used to get it to the team that won the
+[05:43.960 --> 05:48.840]  All-star game which was stupid. That was the dumbest thing in the history of hated that it was so stupid
+[05:48.840 --> 05:51.180]  And you know, it was all because that one game ended in a tie
+[05:51.180 --> 05:53.180]  Yeah
+[05:53.620 --> 05:58.260]  2002 the all-star game ended in a tie because it was tied after nine innings and they didn't you know
+[05:58.260 --> 06:04.380]  It's only an all-star game. So exhibition game. They don't want to bust any pitchers arms. And so they just said okay, you know
+[06:04.380 --> 06:10.000]  Let's shake hands. It's a tie and some people were bothered by that and they were like, well, let's make the stakes mean something
+[06:10.000 --> 06:16.940]  Hope whoever wins the World Series that division that league gets home field advantage in the World Series, which is terribly unfair
+[06:16.940 --> 06:21.420]  Before that you remember when we were kids the way they did it was just every other year
+[06:21.420 --> 06:26.880]  It was like I forget which one was which but like odd years the national team National League team hosted
+[06:27.460 --> 06:31.000]  Even years the American League team and so it was just like if your team
+[06:31.340 --> 06:35.520]  Got to the World Series. It was like a coin flip whether you were gonna get home field advantage
+[06:36.440 --> 06:43.220]  Which again seems a little weird and I gotta say this this setup is is good. It's fair
+[06:43.220 --> 06:49.620]  It's you know, I like I like it, but especially it's the first experience that my team has had right in the World Series
+[06:49.620 --> 06:55.520]  We've never been here before we've always done poorly in the postseason and now we're just one game away from magic
+[06:55.540 --> 06:58.820]  Yeah, and it's weird watching on TV as a fan
+[06:58.820 --> 07:04.940]  I have no no real bones in this, you know, my beloved Yankees aren't in my second favorite team. The Phillies aren't in
+[07:06.740 --> 07:11.420]  And I can't say I really hate and you know, it's like the Red Sox are in and I would just
+[07:11.420 --> 07:15.500]  Root strongly against them. Although the Astros are sort of like that
+[07:15.500 --> 07:19.540]  There's a lot not a lot and I'd to like about the Astros a lot of a lot of teams think they cheat
+[07:20.540 --> 07:26.120]  And that they they got like, you know electronic gizmos throughout the ballpark trying to steal pitches and signals and stuff
+[07:26.820 --> 07:30.240]  You know, there's like the the clean old-fashioned what you see with your eyes
+[07:30.760 --> 07:36.040]  Way of stealing signals, which everybody knows is part of the game and you know using cheating devices is not
+[07:36.040 --> 07:38.600]  I don't know if they do it or not, but they kind of have that reputation
+[07:38.600 --> 07:42.520]  Then they got the whole domestic abuse
+[07:44.120 --> 07:48.240]  Scandal heading into the World Series left a bad taste in everybody's mouth
+[07:48.240 --> 07:51.620]  So easy to root against the Astros and like I told moltz the other day
+[07:51.620 --> 07:56.720]  I just naturally whoever beats the Yankees I root against him just out of spite. Yeah, I get that
+[07:56.720 --> 07:59.500]  I get that and and they the Astros definitely
+[07:59.960 --> 08:05.880]  Handled that situation about as badly as you can handle a PR situation really terribly
+[08:05.880 --> 08:09.480]  I don't know what they were thinking really. I don't want to get into it, but
+[08:10.120 --> 08:11.880]  basically
+[08:11.880 --> 08:13.880]  an executive for the Astros
+[08:15.240 --> 08:17.040]  Made some
+[08:17.040 --> 08:24.720]  Weird statements after they won their American League championship. They have they have a pitcher who was in a domestic abuse
+[08:25.600 --> 08:29.840]  Situation and had you know was suspended for 75 games played for another team
+[08:29.840 --> 08:33.940]  They traded to get him on the cheap because he was sort of damaged goods because he you know
+[08:33.940 --> 08:37.060]  Who'd beaten up his his girlfriend or something, you know, whatever it was he did
+[08:38.660 --> 08:42.140]  Signed him he came in he pitched in the game that they were talking about
+[08:42.140 --> 08:46.320]  This is against the Yankees gave up a home run that tied the game and then
+[08:46.980 --> 08:50.700]  The Astros won it anyway, but this pitcher, you know kind of stuck up the joint
+[08:51.020 --> 08:56.480]  He blew a save with a home run. And meanwhile, this guy's in the locker room saying I'm so glad we got him
+[08:56.480 --> 09:00.620]  I'm so glad we got a sooner and he's shouting it right at these women baseball reporters
+[09:00.620 --> 09:05.700]  One of whom was wearing the purple bracelet that that symbolizes, you know support for domestic abuse
+[09:07.480 --> 09:10.660]  Survivors and victims and he's shouting it right in her face
+[09:10.660 --> 09:17.100]  Which you know really clearly it was sort of like he's trying to stick it to them that they signed a guy with a questionable
+[09:17.100 --> 09:23.560]  Past but anyway couldn't couldn't have been a worse look for someone right? So one of the reporters wrote the story up for
+[09:25.180 --> 09:27.940]  Jennifer Epstein, I believe her name is I know her last name is Epstein
+[09:27.940 --> 09:31.760]  I think she's Jennifer, but she writes for Sports Illustrated wrote it up
+[09:33.260 --> 09:38.140]  So far it's already a stinky problem, you know, it's this is not good and what the Astros should have done at this point
+[09:38.140 --> 09:42.580]  Said hey this guy, you know, we're gonna we the Astros are gonna suspend this guy, you know
+[09:42.580 --> 09:44.260]  We're gonna look into this, you know
+[09:44.260 --> 09:49.200]  He suspended for 12 weeks while Major League Baseball looks into it. Maybe he could have salvaged his baseball career
+[09:49.200 --> 09:51.200]  But instead what the Houston Astros did
+[09:51.420 --> 09:54.900]  Is denied it they said this Sports Illustrated story is
+[09:54.900 --> 09:58.780]  Well, you know not true and we can't believe they published it
+[09:59.620 --> 10:01.060]  and then
+[10:01.060 --> 10:04.660]  The part that it's like you have to think like what did they think was gonna happen is?
+[10:05.260 --> 10:09.480]  Like at least half a dozen other reporters from various publications
+[10:09.900 --> 10:16.660]  Who were in the room said I saw it happen and what what what's in the Sports Illustrated story is exactly what happened
+[10:17.500 --> 10:23.220]  Including the Houston Chronicle reporter local person right was right there and said actually
+[10:23.220 --> 10:24.980]  this
+[10:24.980 --> 10:30.700]  Report is exactly on the record. So anyway, they had to fire the guy. I mean rightly so
+[10:31.580 --> 10:36.280]  But a real just a real stinky story to head into the World Series a boo on the Astros
+[10:37.860 --> 10:44.380]  Go Nat anyway last night we had a funny thing. I don't again not a lot of baseball talk, but
+[10:45.580 --> 10:50.420]  You and I were chatting about this earlier. There was a play in the seventh inning where a guy
+[10:50.420 --> 10:57.560]  Trey Turner leadoff man speedy guy for the Nationals hit a weird little little dribbler very hard play
+[10:57.620 --> 11:00.520]  he's running down to first base right on the baseline and
+[11:01.160 --> 11:04.820]  The catcher picks it up throws it to first and it hits it hits him in the butt
+[11:04.840 --> 11:06.480]  But his foot was already on the bag
+[11:06.480 --> 11:11.320]  He was already safe and then a ball rolls away and people run around and so it looked like the Nationals were gonna have
+[11:12.080 --> 11:16.720]  Men on second and third with one nobody out nobody nobody out nobody out
+[11:16.720 --> 11:23.220]  Which is a really in a what was it tied at the time? Yeah, or were those three tonight?
+[11:24.900 --> 11:26.020]  Three two, yeah
+[11:26.020 --> 11:32.700]  And anyway, the home plate umpire says that he ran into the baseline it interfered with the ability to make the play and he's out
+[11:32.700 --> 11:37.540]  And and and the guy from third has to go all the way back to first even if he was out
+[11:37.540 --> 11:41.460]  He's didn't you know, I understand that's how the rules written and if he's gonna call the rule
+[11:41.620 --> 11:45.220]  But it was a very strange play everybody agrees. It was bad
+[11:45.220 --> 11:47.820]  I can't see I haven't seen one person say, you know
+[11:49.180 --> 11:54.100]  Actually, it was the right call. I haven't even seen usually there's always the actually guy, right? Yeah
+[11:54.100 --> 11:56.860]  I haven't seen one person defend the call this it's actually
+[11:57.580 --> 11:59.580]  Maybe the least controversial
+[12:00.620 --> 12:02.620]  controversial play I've ever seen
+[12:02.660 --> 12:07.380]  Even that terrible pass interference call in the NFC playoff game last year
+[12:07.380 --> 12:11.380]  I saw at least a few people say, you know, it was kind of close in real time
+[12:11.380 --> 12:17.260]  That was the thing I saw it was that in real time. It was kind of close and you can't go by the slow motion
+[12:17.820 --> 12:23.260]  Even though that's what the instant replay rule is for that was the only other thing I could compare it to I
+[12:23.580 --> 12:28.620]  Hadn't seen anybody have any defense for this at all. I don't see I don't see what Trey Turner could have done
+[12:29.140 --> 12:32.020]  Differently other than agree to be out, you know
+[12:32.020 --> 12:37.980]  He was made as straight a line for first base as you could make right all he was trying to do to me the spirit
+[12:37.980 --> 12:44.620]  of the rule is clearly that the runner is supposed to only make an honest attempt to get to the base and
+[12:45.020 --> 12:47.660]  Therefore not make any dishonest motions
+[12:47.740 --> 12:54.740]  You know with his arms or is the path he takes to try to interfere with their ability to throw the ball to the head
+[12:54.740 --> 12:57.260]  Of him all he was trying to do and it's very clear
+[12:57.260 --> 13:01.620]  I all these other major league players around the league tweeted about it and said hey
+[13:01.620 --> 13:07.940]  this is this is terrible rule terrible call, but the weird part about it then was the the
+[13:10.620 --> 13:15.740]  Instant replay so they didn't challenge it and they went to instant replay and they had a commercial break
+[13:15.740 --> 13:18.420]  It was incredibly long and baseball fans
+[13:18.780 --> 13:23.660]  With the what so there's an instant replay rule for those of you don't watch and it's only a couple years old
+[13:23.660 --> 13:28.940]  But basically teams can challenge a call and you know, not every call but most calls
+[13:28.940 --> 13:34.860]  The umpire are the managers of the team, which is what most sports call the coach makes a little signal
+[13:34.900 --> 13:38.140]  they go to a booth an umpire and
+[13:38.700 --> 13:44.980]  MLB headquarters in New York watches the play over and over again slow motion tells the umpires in the get in the ballpark
+[13:44.980 --> 13:50.460]  Here's what it should be scored and then they come out and it's over and it takes usually takes 90 seconds to two minutes
+[13:51.220 --> 13:53.140]  Fans already gripe about that, right?
+[13:53.140 --> 13:57.740]  This is like a common gripe that that the two minutes it takes for a replay takes too long
+[13:57.740 --> 14:01.980]  This did it needs to be sped up the baseball games already take too long speed it up
+[14:02.100 --> 14:08.320]  This one took like five six minutes and then it turns out that they were saying that it wasn't even a reviewable play
+[14:09.020 --> 14:12.460]  like the rules for which plays can be reviewed or not don't include the
+[14:13.140 --> 14:15.140]  runners interference
+[14:15.700 --> 14:20.820]  Which is crazy just the whole thing was crazy, right? So my theory I don't know if you saw my tweets later
+[14:20.820 --> 14:24.860]  It was very late at night. But my I have a theory as to what happened and why the replay took so long
+[14:24.860 --> 14:31.100]  My theory and I really think it's what happened. I don't think it's a crazy theory. My theory is that
+[14:32.220 --> 14:35.340]  Given that it's not reviewable. It should have been a very short review
+[14:35.340 --> 14:40.860]  They should say hey, they challenged this and then the guy in New York would say, you know what this that's not a reviewable play
+[14:40.860 --> 14:44.780]  So it doesn't matter. I don't even have to look at the replay. I don't have to look at it
+[14:44.980 --> 14:51.380]  We can't review it then they'd take the headsets off and say it's you know, the call stands. It's not reviewable instead
+[14:51.380 --> 14:57.300]  I think what happened is that in they looked at it in New York and realized how awful the call was and how big the
+[14:57.420 --> 15:02.280]  Situation was and that they desperately were trying to figure out a way that they could overturn it
+[15:02.740 --> 15:07.660]  That's what I think it was all about. I think you could be right about that. I mean, it's possible
+[15:07.660 --> 15:14.540]  I think that it was so egregious so clearly against the spirit of the play and so it just made the umpires look so bad
+[15:14.540 --> 15:21.380]  That they were trying to get the guy get do the both do the right thing and get the ump who made the call out off
+[15:21.380 --> 15:23.620]  The hook right because if they'd overturned it
+[15:24.240 --> 15:28.220]  Everybody would you know would you know, you'd forget about it. People wouldn't be talking about it still
+[15:30.460 --> 15:33.900]  So it so basically if the if that was the rod
+[15:33.900 --> 15:37.180]  Can you imagine if the World Series ended with you know?
+[15:37.180 --> 15:42.900]  They came back the Astros came back scored a couple of runs and then that that was the reason that the World Series ended
+[15:42.900 --> 15:46.700]  All right. Well, it's a lot like that pass interference call on the Saints last year
+[15:46.700 --> 15:51.380]  But except it's you know, that was at one level before the Super Bowl not the Super Bowl itself
+[15:51.620 --> 15:57.460]  Yeah, and they never and it did and there's their season. So I at that I have to take my word for this
+[15:57.460 --> 16:03.500]  I mean I could send screenshots, but you you know screenshots can be forged but at that moment I texted my friend Paul kafosis
+[16:03.900 --> 16:11.620]  Who's a friend of the show previous guest co-host with my wife of the just the tip podcast, which is I guess still in hiatus
+[16:11.620 --> 16:17.700]  A good friend. I texted him and we both agreed terrible call. Oh my god, and I said
+[16:18.340 --> 16:20.660]  the baseball gods should give the
+[16:21.700 --> 16:23.700]  Nationals a home run after that
+[16:24.340 --> 16:30.320]  And what what actually happened is two batters later Anthony Rendon hit hit a two-run home run
+[16:32.380 --> 16:36.820]  Unbelievable, you can't make this up and and you gotta you gotta think in his mind
+[16:36.900 --> 16:39.080]  He was probably steaming about this
+[16:39.080 --> 16:46.700]  but he is such a such a cool customer he he may be in my mind one of the best batters in baseball in terms of
+[16:46.900 --> 16:52.780]  You know just knowing the strike zone and having great vision and all that and so he you know
+[16:52.780 --> 16:56.220]  I think he just said I'm hitting a home run and he did it
+[16:56.940 --> 17:00.460]  Now the backstory for me personally, which is what I was texting you about
+[17:00.460 --> 17:04.020]  but I think it's a funny story is I still needed to write up my
+[17:04.020 --> 17:10.060]  Day one review right AirPods Pro and I had like half written half notes
+[17:10.460 --> 17:12.780]  But it was already like 1030 at night
+[17:12.780 --> 17:17.340]  I didn't want to I couldn't watch the rest of the game, you know three innings of baseball could take a long time
+[17:17.340 --> 17:19.660]  I wanted to do it while I was you know hot
+[17:20.300 --> 17:21.540]  and
+[17:21.540 --> 17:25.260]  I'm really bad at estimating how long it takes me to finish something like that
+[17:25.260 --> 17:30.500]  Like for all I knew I'd be up till 3 in the morning. So I paused the game on my TiVo and
+[17:30.500 --> 17:34.060]  And immediately or maybe even before I paused it
+[17:34.060 --> 17:40.140]  I turned on do not disturb on my phone so that I would no longer get text messages or alerts from you know
+[17:40.140 --> 17:45.700]  The MLB app or I don't you know, I didn't want to spoil the game what I wanted to do pause the game
+[17:46.620 --> 17:48.620]  finish my review
+[17:48.740 --> 17:51.180]  then go upstairs and
+[17:52.060 --> 17:55.900]  unpause the game and watch the rest while still in do not disturb and
+[17:55.900 --> 18:02.100]  Pretend as though I was watching it live and I successfully pulled it off. It took me another at least two hours
+[18:02.100 --> 18:04.660]  I think an hour to I forget
+[18:04.660 --> 18:09.780]  Yeah, it was after midnight when I published it and I had to sort of backdate it to get the the date to be
+[18:09.780 --> 18:14.220]  yesterday, you know, no small accomplishment because to be able to
+[18:14.860 --> 18:22.260]  Pause a game like that of with this kind of importance and get no clue. No spoilers. No one ruined it for you
+[18:22.260 --> 18:26.540]  That's incredible. I I was still getting I message alerts like
+[18:30.060 --> 18:35.140]  Ben Thompson texted me a couple of things and I just averted my eyes from the notification
+[18:36.540 --> 18:40.020]  Like I just it didn't matter to me like I kind of vaguely saw that it was Ben's
+[18:40.700 --> 18:45.220]  Avatar for my message and I knew who it was, but I didn't read it and I had my text
+[18:45.620 --> 18:48.220]  You know the alerts come in on the right side on a Mac
+[18:48.220 --> 18:52.160]  My text was on the left and I just wouldn't look over. I've got that kind of discipline
+[18:52.700 --> 18:57.380]  But I successfully pulled it off. I waited two hours. I believe the game was over
+[18:57.380 --> 19:02.620]  I can't be sure because I couldn't check. I don't know what time the game ended, but I think the game was actually entirely over
+[19:03.620 --> 19:05.860]  I had no idea what happened
+[19:05.860 --> 19:12.260]  I'd left three to two right after that controversial call and my prediction that the baseball gods would reward them with a home run
+[19:12.260 --> 19:16.700]  I unpause it I crack open a beer and two batters later. I was like, holy shit
+[19:16.700 --> 19:19.620]  I was like, I need to tell people I'm like, oh, no, it's too late. They're in bed
+[19:23.260 --> 19:26.940]  I couldn't I was so mad that I didn't tweet it because that would have added a
+[19:27.460 --> 19:30.740]  Timestamp, right you can't famously because you can't edit tweets
+[19:30.740 --> 19:36.980]  It actually would have but I swear I texted it. Anyway, I believe you. I believe you good luck tonight day
+[19:36.980 --> 19:40.280]  I really I really am rooting for him. What do you think's gonna happen? Oh, I have the math
+[19:40.460 --> 19:42.460]  So here's what I did I estimated
+[19:42.460 --> 19:48.380]  The best way I estimated the home field advantage in the playoffs. I figure the home team maybe a 60% chance
+[19:49.140 --> 19:54.620]  The away team 40% maybe that's a little high. Maybe baseball's more like 55 45
+[19:55.780 --> 20:01.380]  But what I did what the one stat I could find was that since 2001?
+[20:03.180 --> 20:05.940]  The team with home field advantage has won
+[20:07.220 --> 20:11.460]  32 series that's not just the World Series obviously since 2001
+[20:11.460 --> 20:12.980]  just
+[20:12.980 --> 20:17.420]  MLB postseason and the team without home field advantage has won 22
+[20:17.820 --> 20:22.460]  so that's 22 out of 54 series from the division to the
+[20:23.060 --> 20:28.860]  LCS to the World Series that's about 40% something. Yeah, and that was my ballpark estimate. So I thought I'll go with that
+[20:29.100 --> 20:35.060]  So what are the odds that something with a 40% chance would happen six times in a row six straight games?
+[20:35.060 --> 20:42.700]  So it's forty point zero point four raised to the sixth power and it's like point zero zero
+[20:43.180 --> 20:49.580]  Four nine something so rounding rounding off about you know, since we're just making up the advantage. It's about
+[20:50.460 --> 20:57.660]  One-half of one percent chance for any World Series to go like this. So something you would expect to see about once every 200 years
+[20:59.220 --> 21:01.220]  Well, let's hope right
+[21:01.220 --> 21:07.420]  Well, the other weird thing I swear to you. I hope this is you know, well if you don't like sports, you know
+[21:07.500 --> 21:12.180]  Come on, I listen to video game talk on other podcasts and I don't like video games. So, you know buck up
+[21:13.660 --> 21:18.700]  The other weird thing for me as a I don't have a skin in this game fan
+[21:18.700 --> 21:24.940]  but I just like baseball and I find playoff baseball to be terribly exciting to watch no matter who's in it is how
+[21:24.940 --> 21:31.740]  Weird it is. It's very palpable as a fan on TV that the away team has won every game
+[21:32.060 --> 21:35.540]  Because every single game has ended with the feel of like a funeral
+[21:37.620 --> 21:38.860]  Absolutely
+[21:38.860 --> 21:45.740]  Because and there's there's a lot of you know, the things that almost get them back into it are
+[21:46.580 --> 21:53.820]  Incredibly more powerful. Yeah, and a couple of these games have gotten away at the very end like so last night's game was terribly guys
+[21:53.820 --> 21:57.460]  We just you know asserted in the seventh inning out of nine innings
+[21:58.220 --> 22:02.540]  Terribly close, you know by the the Nationals were ahead by the skin of their teeth
+[22:04.100 --> 22:09.940]  But they hit a two-run homer then they hit another homer and it ended up they had what a five-run lead by the ninth inning
+[22:10.020 --> 22:17.620]  So that the Houston ballpark really had that funeral sense of dread of I was really, you know, this is bad, you know
+[22:17.620 --> 22:23.740]  It's six straight games of that sort of, you know, you don't hear that raucous a
+[22:25.660 --> 22:27.460]  Deliria of
+[22:27.460 --> 22:34.020]  Of a crowd seeing their home team, you know win a World Series game and and this is this is sort of a
+[22:35.460 --> 22:38.060]  Maybe people won't really get this who are not baseball fans
+[22:38.060 --> 22:43.980]  But this is sort of the don't normally in baseball in the postseason in any kind of series you line up your pitchers, right?
+[22:43.980 --> 22:48.460]  So the best pitcher pitches against the best pitcher because our best pitcher was hurt
+[22:49.220 --> 22:54.460]  we're now in a slot where our third best pitcher is supposed to pitch tonight, but
+[22:55.260 --> 23:00.020]  Magically aid through some miracle of something drugs something
+[23:00.580 --> 23:06.140]  Our best pitcher max Scherzer is now and and he's a great pitcher. He's not just our best pitcher
+[23:06.140 --> 23:11.180]  He's one of the best pitchers of baseball. He's gonna pitch tonight and there are the third best pitcher
+[23:11.180 --> 23:14.580]  he was supposed to pitch on two days ago three days ago and
+[23:14.980 --> 23:20.020]  Woke up woke up with like a neck cramp. That was so bad that he couldn't even get himself dressed
+[23:20.460 --> 23:25.100]  Right, but it's worked as I mean, you know, I mean you get older you sleep wrong. I something, you know
+[23:25.100 --> 23:29.820]  I I kind of like it sounds a little weird because you just don't see that with pro athletes
+[23:29.820 --> 23:34.300]  But you know like a neck cramp or a pinched nerve or something, you know could could be like that
+[23:34.620 --> 23:39.000]  Anyway, did you see that you had to have seen I know you're watching did the guy who?
+[23:39.000 --> 23:44.040]  He's a Nationals fan and a couple of games ago. Yeah the bud guy
+[23:44.040 --> 23:50.960]  Yeah, so there's this guy in the stands with he's sitting in the first row out in left field above the home run fence
+[23:51.400 --> 23:54.840]  So a home run hit in his direction, you know, he'd be right there in prime
+[23:55.400 --> 24:00.560]  Location to maybe catch the ball low and behold a home run is heading right at him
+[24:00.920 --> 24:03.960]  But he can't catch it because he's holding
+[24:04.520 --> 24:06.520]  two cans of beer
+[24:06.520 --> 24:12.920]  One in each hand a two-fisted drinker. Yeah, and they were big cans of beer too. They were like, I don't know pints
+[24:12.920 --> 24:16.320]  Maybe even I don't know if there's something if there's a can that's a bigger than a pint
+[24:16.320 --> 24:19.000]  But it was you know, two big cans of beer
+[24:19.000 --> 24:22.400]  I mean, you know pot quite possibly holding it for a friend or his wife or something
+[24:22.680 --> 24:28.560]  But anyway, the ball's coming right at him. He's got two two cans of beer. He doesn't panic
+[24:28.600 --> 24:31.300]  He just lets the ball hit him in the chest
+[24:31.300 --> 24:38.340]  It drops right in front of him and then he kneels down I get presumably puts the beers on the on the ground and picks
+[24:38.340 --> 24:40.340]  up the ball
+[24:40.420 --> 24:45.140]  Just like a soccer play, you know that thing where you stop the ball with your chest and it drops right in front of you
+[24:45.340 --> 24:46.940]  Right in front of you. That's what he did
+[24:46.940 --> 24:50.820]  I didn't see what the exit velocity was on that home run, but your typical home run
+[24:50.820 --> 24:56.380]  They know they measure these things now your typical home run is at least a hundred miles an hour off the base now
+[24:56.380 --> 25:01.340]  That's off the bat. I what you know, I guess it slows down by the time it gets out there
+[25:01.340 --> 25:03.340]  but you know, we were talking about a
+[25:03.580 --> 25:07.620]  Hard baseball going around a hundred miles an hour. It just took it right in his chest
+[25:08.100 --> 25:11.020]  But but he had all that beer to sort of soften the blow. So
+[25:12.420 --> 25:16.700]  That the funny thing about that was that there was a guy next to him
+[25:16.700 --> 25:19.820]  He was sort of like near an aisle and there you could see it on the footage
+[25:19.820 --> 25:24.260]  There's a guy next to him who sort of scrambles over to try to pick up the ball off the ground
+[25:24.260 --> 25:28.580]  And you know in the moment, you know, everybody wants to catch a home run ball
+[25:29.300 --> 25:34.820]  In the moment, I don't know that I maybe I would have tried the same thing, but it's a bad look
+[25:34.820 --> 25:36.820]  they showed this replay over and over again and
+[25:37.020 --> 25:43.860]  Clearly the guy who let that ball hit him right in the chest and have it drop right in front of him deserves that ball
+[25:45.020 --> 25:45.780]  Absolutely, right
+[25:45.780 --> 25:50.220]  So that guy I want to know who that guy was you tried to scramble over there on his knees and try to steal that
+[25:50.220 --> 25:52.540]  Ball from the guy because that's sort of a bad move
+[25:52.540 --> 25:58.980]  Yeah bad move bad move but but the funny thing to add to all the funny things is that Budweiser
+[25:59.620 --> 26:01.620]  sponsored the guy
+[26:01.820 --> 26:08.020]  They they bought him tickets to the World Series. They bought him tickets to last night's game and their hand and they got him
+[26:08.620 --> 26:11.700]  Go ahead. Well, they're selling t-shirts. They're selling t-shirts
+[26:13.700 --> 26:20.140]  Your 15 minutes of fame ladies and gentlemen, what's the slogan? It's like always protect the beer or something something like that
+[26:20.140 --> 26:24.940]  Yeah first or something like that. I don't know but there's some guy who at Anheuser-Busch
+[26:25.460 --> 26:30.900]  Some marketing guy who jumped on that and it's like that guy. He's on his way up. He's up the cover
+[26:30.900 --> 26:32.900]  He's going right up the corporate ladder
+[26:32.980 --> 26:34.980]  All the way to the tippy top
+[26:36.780 --> 26:43.740]  Alright, let's take a break. I will thank our first sponsor and then we'll get into the the real show Express VPN
+[26:45.220 --> 26:46.940]  look, I've
+[26:46.940 --> 26:53.100]  You get on a public Wi-Fi network you go on on somebody else's network. You don't know what's going on
+[26:53.100 --> 26:57.540]  You go into an airport you go into a coffee shop get on a walk on the on the Wi-Fi
+[26:58.820 --> 27:00.820]  You can't be sure what's going on
+[27:01.460 --> 27:07.780]  There's other things you can do with the VPN too. But one thing is basically that it makes your connection private
+[27:08.180 --> 27:13.540]  Everywhere everything your device does on on the internet is private when you're connected to a VPN
+[27:13.540 --> 27:19.060]  Even if the network itself isn't private that's VPN virtual private network
+[27:19.060 --> 27:24.260]  It's like you have your own little private network tumbling through the non-private network
+[27:24.780 --> 27:25.980]  Express
+[27:25.980 --> 27:27.980]  VPN is
+[27:28.060 --> 27:29.220]  a
+[27:29.220 --> 27:34.460]  Company that takes privacy and security to the next level they invented a technology called trusted server
+[27:34.820 --> 27:42.260]  to ensure that VPN servers run from RAM and that no data logs are written to a server's hard drive even by
+[27:42.260 --> 27:46.260]  Accident it is the fastest and most reliable VPN
+[27:46.260 --> 27:52.060]  They are also recommended as the number one VPN provider by review sites like tech radar and CNET
+[27:52.620 --> 27:58.380]  all you need to do is download the Express VPN app on your computer or smartphone and
+[27:58.780 --> 28:04.060]  Then use the internet just as you normally would you click one button in the V?
+[28:04.140 --> 28:08.260]  Express VPN app to secure 100% of your network data. You don't have to worry
+[28:08.260 --> 28:11.340]  You don't have if you're thinking in the back of your mind. Well, that sounds good
+[28:11.340 --> 28:15.940]  I'd like to have that but ah to complex networking stuff. I don't know. I don't know anything about that
+[28:15.940 --> 28:17.940]  You don't need to know it you download the app
+[28:18.620 --> 28:23.260]  You click one button and all of a sudden your connection is private. It's really that simple
+[28:23.620 --> 28:29.220]  They've encapsulated all of the complexity in a one button type thing. You want to turn it off. Guess what?
+[28:29.740 --> 28:31.500]  Tap the same button
+[28:31.500 --> 28:38.300]  If you want the best in online security and privacy select protection not selection head on over to Express VPN
+[28:38.820 --> 28:40.060]  com
+[28:40.060 --> 28:46.100]  slash TTS TTS for the talk show and when you
+[28:46.820 --> 28:50.340]  Use that link Express VPN comm slash TTS
+[28:50.440 --> 28:56.580]  You will get three extra months free with a one-year package protect your internet today with the VPN
+[28:57.140 --> 29:03.060]  That is recommended by CNET and tech radar go to Express VPN comm slash TTS to get started. I
+[29:03.060 --> 29:10.780]  I guess we should start with the AirPods Pro, right? I mean, that's the news. I'm fascinated by I thought you're right
+[29:10.780 --> 29:15.020]  It was great in and especially in the sense that it really
+[29:15.260 --> 29:20.020]  For someone who who's never seen them and most of us have never seen the AirPods Pro
+[29:20.460 --> 29:23.740]  You really took us on a journey and answered
+[29:23.740 --> 29:29.460]  I think the question certainly the questions that I had about what that what it was like to wear them and you took them
+[29:29.460 --> 29:31.300]  all the way from New York
+[29:31.300 --> 29:37.140]  To Philadelphia, right? Yeah. Yeah, so I think it was a pretty good test and for
+[29:37.700 --> 29:40.380]  Like getting something, you know, and there was there was no
+[29:41.220 --> 29:48.180]  Embargo on it from Apple Apple, you know, I didn't find out I didn't know until I think Sunday night that there was something on Tuesday
+[29:48.620 --> 29:53.880]  In New York, you know and they don't tell you exactly what it is and then and then on Monday
+[29:54.620 --> 29:57.420]  Apple officially announced them, you know with a
+[29:58.100 --> 30:00.260]  newsroom post and then they unveiled the
+[30:00.260 --> 30:02.860]  spectacularly bad website
+[30:05.260 --> 30:10.720]  Scroll up a lose. I so once that happened then Apple PR, you know said, you know, this is for
+[30:11.420 --> 30:14.900]  You know the this is this is why we want you to come to New York for a briefing
+[30:14.900 --> 30:21.100]  It'll be on background only which is you know, their usual terms and they wanted to reckon, you know
+[30:21.100 --> 30:24.680]  They wanted to emphasize that that I you know, which I I knew but you know
+[30:24.680 --> 30:30.420]  Maybe other people in the media wouldn't it was that you needed to upgrade your phone to 13.2 to support
+[30:30.420 --> 30:34.060]  You know air the AirPods Pro require iOS 13.2 or later
+[30:38.500 --> 30:42.640]  So, yeah, I was in New York I got them talk to Apple ask questions
+[30:43.660 --> 30:49.140]  And then you know left around 2 30 got home around 5, but you know, it was a really good test
+[30:49.140 --> 30:54.980]  I mean, I'm not gonna repeat all of it, but I mean New York City streets, New York City subway the
+[30:56.020 --> 31:01.020]  Amtrak train and you know if you and for those of you, I know that that's sort of a regional thing in the u.s
+[31:01.020 --> 31:03.020]  but you know Amtrak is
+[31:04.040 --> 31:06.920]  How would you say it compares to an airplane in terms of noise?
+[31:06.920 --> 31:13.500]  It's a very airplanes are much more consistent white noise and exactly exactly. It's it's it's a
+[31:13.500 --> 31:19.340]  Much more up-and-down kind of noise and it that you said I think clackety-clack or something like that
+[31:19.340 --> 31:21.580]  That's exactly yeah, clackety-clack rumble
+[31:22.460 --> 31:25.140]  Yeah, that's what it's like and it's and it's almost
+[31:26.580 --> 31:32.620]  Non-stop, you know, obviously when the trains stop there's no noise, but as the train is rolling along it's you know pulls it
+[31:32.620 --> 31:38.740]  it's it's hitting those those tracks and you're it's really loud and if if the AirPods
+[31:38.740 --> 31:45.120]  AirPods Pro could deal with that. I think that's a really good test the airplane. It's less
+[31:45.420 --> 31:51.980]  There's I think there's less calculations per second. Yeah, it seems like easier noise to filter just right, right
+[31:51.980 --> 31:53.980]  It's sort of like pure white noise in a way
+[31:55.300 --> 31:59.180]  And then walking, you know from 30th Street Station back to my home in Center City, Philly
+[31:59.180 --> 32:01.900]  You know and wearing them around the house where it isn't noisy
+[32:02.820 --> 32:08.580]  Pretty good test. I mean so getting stuff and trying to write about it that night is really really hard
+[32:08.580 --> 32:11.900]  And for a complex product, I'd never even try it
+[32:11.900 --> 32:18.060]  Like I maybe for like first impressions if I only got if I got like a review unit iPhone
+[32:18.940 --> 32:22.300]  And maybe I'd write something that the night that I got it
+[32:22.300 --> 32:27.260]  But for the most part even just doing them on a one-week schedule seems incredibly difficult
+[32:27.260 --> 32:34.280]  But AirPods are so simple really, you know that it kind of can be encapsulated, you know, three four hours experience is pretty good
+[32:34.280 --> 32:38.920]  Except I think what you did was there are a number of
+[32:40.000 --> 32:46.520]  Kind of big deals about the AirPods that you that you really captured like the you know
+[32:46.520 --> 32:49.880]  there's transparency mode and the noise cancellation and the
+[32:50.400 --> 32:55.600]  The sort of the physical controls and then the software controls got all of them and I think they're each
+[32:56.800 --> 33:02.280]  Worth talking about like I had a question you you raised the point that you hadn't
+[33:02.280 --> 33:06.440]  You you actually didn't bring your what were the?
+[33:07.240 --> 33:09.320]  Bose quiet comfort twos
+[33:09.320 --> 33:16.040]  I think the model number is but there I have a couple year old player Bose noise cancelling over the ear headphones
+[33:16.400 --> 33:21.360]  Okay, so let me ask you a question that I have which is when you put on those Bose
+[33:21.360 --> 33:26.600]  I don't know if they're if you could walk outside like are they small enough? You could wear them outside
+[33:26.600 --> 33:31.400]  I could but I think wearing over the ear headphones outside is weird. I don't know
+[33:31.400 --> 33:36.240]  I mean, I know some people do it but but let's say you did they are wireless. They're you know, they're they're
+[33:37.560 --> 33:42.280]  You know, I don't know. I haven't used wired headphones in quite some time so I could go outside
+[33:42.960 --> 33:49.580]  Let's say you did right and you have because you have a sense of how they are with noise cancellation and specifically I'm thinking
+[33:49.960 --> 33:54.800]  walking on the street so you have to be somewhat aware of the
+[33:55.520 --> 33:57.560]  You know traffic that you know
+[33:57.560 --> 34:02.120]  People beeping their horns or whatever that you have to be aware of all the stuff that's going on around you
+[34:02.200 --> 34:05.960]  So that you don't you know walk in the middle of in front of a car or whatever, right?
+[34:06.280 --> 34:08.160]  it is
+[34:08.160 --> 34:11.180]  the one thing I got from your write-up was that the
+[34:12.120 --> 34:14.840]  the AirPods Pro have the ability to
+[34:17.180 --> 34:19.180]  You know to
+[34:19.600 --> 34:23.900]  What transparency mode I guess is what I'm talking about the the idea that you can hear parts of
+[34:23.900 --> 34:29.220]  What's going on around you did the Bose let you do that as well or they don't have a mode like that
+[34:29.220 --> 34:32.460]  They're either on or they're off and so it's always noise cancellation
+[34:32.460 --> 34:36.420]  And I think the way Apple presents it in the user interface
+[34:36.420 --> 34:41.620]  Have you seen it like I had like the little movie but it's like you in in control center
+[34:41.620 --> 34:47.700]  If you forced tap if you have the AirPods Pro in you force tap on the volume and you get more
+[34:47.860 --> 34:53.340]  You know specific options. Yeah, like three it pops up into three different pieces, right?
+[34:53.340 --> 35:00.500]  but it's I think that's it it conveys just how different transparency is, you know transparency isn't like
+[35:02.740 --> 35:09.420]  Like where I'm going is in theory you could have a feature right where either noise cancellation is on or off
+[35:09.700 --> 35:17.500]  Right on that you're either just playing just playing the audio with no no noise cancellation off or you're using noise cancellation on
+[35:18.140 --> 35:19.380]  and
+[35:19.380 --> 35:21.900]  transparency could be a checkbox like
+[35:21.900 --> 35:27.940]  Like oh, it's like an option for when noise cancellation is on. Do you also want to use?
+[35:28.780 --> 35:30.780]  transparency to get some
+[35:31.380 --> 35:35.700]  Surrounding sounds through or something like that, but that's not what it's like at all
+[35:35.700 --> 35:39.580]  It is it is in practice an entirely different mode
+[35:39.580 --> 35:47.300]  It is absolutely nothing like the noise cancellation and it is nothing at all like having noise cancellation off
+[35:47.300 --> 35:51.060]  It is a third mode. It is equally, you know
+[35:51.060 --> 35:56.180]  Like they're pretty it's it's really like the other side of the coin with noise cancellation compared to regular non
+[35:56.900 --> 36:02.260]  Regular AirPods and I think the way that they presented as such is is exactly right
+[36:02.260 --> 36:06.500]  It is the NA if there's anything that longer term, you know
+[36:06.500 --> 36:11.540]  Whether I'll write about it or others something that I think is going to take days or a week before we really get it
+[36:11.540 --> 36:19.780]  Figured out is that hold this transparency mode. It really deserves more attention. It's it's really mind-bending and kind of interesting and
+[36:22.060 --> 36:26.940]  Nobody really saw that coming like the rumor was of the new AirPods are gonna have noise cancellation
+[36:26.940 --> 36:30.980]  Everybody knows what noise cancellation is and lo and behold they have noise cancellation
+[36:31.260 --> 36:35.780]  But really in terms of the presentation and the feature set, you know
+[36:35.780 --> 36:40.400]  like when you squeeze the by default when you squeeze that what do they call the force sensor the
+[36:40.400 --> 36:46.600]  The quote-unquote button on the buds when you press and hold it it toggles between two things
+[36:48.160 --> 36:49.640]  Transparency and
+[36:49.640 --> 36:51.640]  noise cancellation it's
+[36:52.080 --> 36:55.040]  Effectively, it's 50% of what you're supposed to be doing with it
+[36:55.040 --> 36:57.480]  I mean whether they expect you'll use it 50% of the time or not
+[36:57.480 --> 37:05.400]  I don't know but it's 50% of the feature set of what makes these different than regular AirPods. So so can you explain
+[37:05.400 --> 37:12.640]  It was using a real-world example. What would if I was in the I was in an environment where I had noise cancellation on
+[37:12.640 --> 37:18.700]  I heard I hear nothing but music if I have music on or I hear nothing if I've got nothing playing but with
+[37:19.000 --> 37:26.680]  Transparency what kind of noises would filter through what I hear cars car engines. Yes, definitely you hear most things
+[37:26.680 --> 37:31.560]  It's it's very hard to describe and you can't record it right because it's only in my ears
+[37:31.560 --> 37:33.860]  So I can't play it and you kind of have to hear it
+[37:33.860 --> 37:35.100]  even
+[37:35.100 --> 37:38.460]  If I could record it it you listening it
+[37:39.260 --> 37:42.460]  with a different sort of you know, like a speaker on your
+[37:42.980 --> 37:48.820]  Computer or different type of headphones that aren't don't have the the silicone seals to seal off your ears
+[37:48.820 --> 37:53.140]  You kind of have to experience it, but you definitely hear ambient noise. So
+[37:54.700 --> 37:59.860]  Again in my corner grocery store where the the cooler is pretty loud
+[37:59.860 --> 38:04.380]  You know the thing that you can walk up and take cold beverages out of and buy them
+[38:05.500 --> 38:09.900]  You don't hear it at all with noise cancellation, but you definitely hear it with
+[38:11.340 --> 38:16.660]  Transparency on but it's not the same as the way you hear it when you're wearing regular
+[38:17.420 --> 38:21.780]  EarPods that don't have noise cancellation or a sealed ear canal
+[38:22.380 --> 38:26.920]  It's sort of less it is sort of dampened, but you hear it
+[38:26.920 --> 38:28.920]  But
+[38:29.440 --> 38:35.840]  It's really hard to explain and they're definitely filtering stuff and it's not just pure pass-through, you know
+[38:35.840 --> 38:40.200]  it's not like they're just broadcasting what what's on the outside although mostly they are but it's
+[38:41.800 --> 38:45.840]  You know and it's obviously meant to be to keep what it is
+[38:45.840 --> 38:52.200]  you're listening to either music or a you know, the video that you're watching or a podcast you're listening to you're
+[38:52.200 --> 38:57.920]  You are obviously supposed to be able to continue enjoying the music or listening to the podcast
+[38:58.120 --> 39:02.040]  While these sounds from the outside are also getting pumped through
+[39:04.280 --> 39:09.200]  It seems like magic that they the way that they've that they balance it
+[39:09.200 --> 39:14.960]  It is when you want it when it when I've wanted it so far. I mean, what are we about 27 hours in?
+[39:15.600 --> 39:18.800]  It seems like exactly the right thing. So one thing I figured out today
+[39:18.800 --> 39:21.720]  That I was kind of leaning towards last night
+[39:21.720 --> 39:26.100]  but I've convinced myself today after run it going out and running some errands before you and I
+[39:26.840 --> 39:32.980]  Recorded this is I definitely like transparency mode while I'm walking around the city. It is
+[39:34.080 --> 39:40.120]  And typically for me it's for listening to podcasts. I very seldom listen to music when I'm just walking around I listen to podcasts
+[39:40.760 --> 39:42.920]  I can hear the podcast just fine
+[39:42.920 --> 39:49.480]  It's very hard to describe how it's how being able to hear the city around me
+[39:50.080 --> 39:53.120]  compares with these air pods Pro
+[39:54.960 --> 39:56.960]  Buds with
+[39:57.260 --> 40:01.440]  transparency on compared to the regular air pods
+[40:02.480 --> 40:04.480]  What are we gonna call them air pods amateur?
+[40:07.320 --> 40:12.640]  That I've been using for you know, three years now as I walk around the city listening to podcasts
+[40:12.640 --> 40:16.360]  It's different but the effect is similar, you know
+[40:16.360 --> 40:21.360]  Like I would you know, you can tell by the way they feel in your ear that they're different and it definitely sounds different
+[40:21.800 --> 40:28.740]  But I don't like walking around the city with noise cancellation on it is too. I'm too in my head and I I
+[40:30.000 --> 40:32.760]  You know and obvious too isolated, right, right
+[40:32.760 --> 40:39.480]  And it's not like you can't be safe as a pedestrian walking around the city like that because quite obviously there are you know
+[40:39.480 --> 40:43.280]  Millions of people who have low hearing who?
+[40:44.040 --> 40:46.040]  Navigate the world just fine
+[40:46.680 --> 40:49.080]  but because I don't have
+[40:49.800 --> 40:51.800]  low hearing I'm
+[40:54.100 --> 40:59.120]  You're not good at a low hearing person I would say I'm bad I would say I'm downright bad at it
+[40:59.120 --> 41:05.840]  Right, like it's I I feel nervous and I feel like it's did generally general genuinely dangerous for me to be walking around
+[41:05.840 --> 41:13.140]  The streets of Philadelphia with noise cancellation on and I don't find it pleasant. It's too weird to me, right?
+[41:13.180 --> 41:15.240]  It maybe I could get used to it
+[41:17.180 --> 41:18.340]  But
+[41:18.340 --> 41:18.940]  You know
+[41:18.940 --> 41:25.340]  Like what would have happened if these air pods Pro had come out and they only had noise cancellation on or off and they didn't have
+[41:25.660 --> 41:27.720]  Transparency I was trying to think about it today
+[41:28.660 --> 41:30.660]  And I'm not sure what I would have done
+[41:31.060 --> 41:33.940]  It's hard to say but I definitely know that I prefer
+[41:33.940 --> 41:37.620]  Transparency to either of those options while walking around the city
+[41:38.220 --> 41:43.500]  So I find it interesting that Apple has a killer feature here
+[41:43.500 --> 41:49.020]  Right transparency is one of the killer features of the air pods Pro and maybe killer feature isn't the right term
+[41:49.020 --> 41:50.860]  But you know what? I mean, it's that
+[41:50.860 --> 41:55.620]  Sell the thing they can sell something they can get their hands around as a selling team, right?
+[41:55.620 --> 41:58.900]  All right, they did this this would have been perfect for a keynote
+[41:58.900 --> 42:04.380]  This would have been a perfect thing with you know, something play some sound playing
+[42:04.820 --> 42:08.620]  in a video playing above Tim Cook's head or whoever where
+[42:09.020 --> 42:15.540]  They they flipped the switch and you were in noise cancellation mode and they flipped another switch and now you're in transparency mode
+[42:15.540 --> 42:19.420]  And you could hear it with visuals to sort of guide you to what you're you know
+[42:19.420 --> 42:25.800]  What's obviously a dog is barking and then but I don't know how you know in theory. Yes, but in practice
+[42:25.800 --> 42:27.800]  I'm not sure how you
+[42:27.800 --> 42:34.160]  It's it's it's like you can't show off the quality of a screen on a screen, right?
+[42:34.160 --> 42:38.520]  And and when they introduced home pod, I think it was Phil Schiller on stage. He even said
+[42:39.040 --> 42:41.640]  When they introduced home pod, I think it was at a WWDC
+[42:43.360 --> 42:49.940]  This is really hard like he what he wanted to demonstrate the way that home pod adjusts itself to the acoustics of the room that
+[42:49.940 --> 42:53.600]  You're in and the way that it has an accelerometer and as soon as you move it
+[42:53.600 --> 42:59.800]  It knows to reconfigure itself as soon as it detects it you've stopped moving it and how do you simulate?
+[43:00.400 --> 43:08.480]  The way that home pod will sound in your living room or your kitchen or your office in a 5,000 person auditorium
+[43:08.920 --> 43:13.240]  But but home pod I think you're listening to the quality of the audio
+[43:13.240 --> 43:17.800]  Whereas this would be like you could you could demonstrate noise cancellation easily
+[43:17.800 --> 43:24.120]  Right because you'd have sound sound sound sound sound and then quiet right hush, right and then you'd have you know
+[43:24.120 --> 43:28.240]  I think they could do it, but I'll tell you what, I think we're gonna see some pretty cool commercials
+[43:28.240 --> 43:34.160]  That's it's a app Apple's gonna I'm sure they have ads in the hopper ready to release or close to yeah
+[43:34.160 --> 43:37.620]  I don't know. It's a hard it's a hard thing to market. I think though because
+[43:38.440 --> 43:42.400]  It you got to figure most people don't have
+[43:42.400 --> 43:48.840]  you know the majority of people who might buy these probably possibly have never used noise cancelling headphones before and
+[43:49.120 --> 43:53.800]  probably if they have they've had over-the-ear ones not ones that go in your ear and
+[43:54.520 --> 43:59.220]  Part of the reason that this is such a genius feature at this point 20
+[43:59.220 --> 44:02.800]  Like I said 27 hours in I'm willing to describe it as essential
+[44:02.800 --> 44:07.980]  It's essential to the nature of the product is the fact that because they're in earbuds
+[44:07.980 --> 44:12.380]  Those tips the silicone tips seal in your ear canal
+[44:12.620 --> 44:17.860]  so if you just have them in and you're not playing anything and you just
+[44:18.500 --> 44:25.020]  Turn them off. They you know, they're effectively like wearing earplugs. You you do hear less of the real world around you and
+[44:25.860 --> 44:27.460]  So the only way you you know
+[44:27.460 --> 44:31.380]  You hear way more of the world around you with transparency mode on than you do
+[44:31.380 --> 44:35.780]  even if you turn noise cancellation completely off because once they're in your ear, you're
+[44:35.780 --> 44:38.380]  somewhat sealed off from the surroundings
+[44:40.900 --> 44:45.220]  So do you did having the experience now and
+[44:45.780 --> 44:51.060]  put yourself in the in the you know, the position of someone with a budget who's on a budget who I could you know,
+[44:51.060 --> 44:54.220]  I have a little you you can buy this is your job
+[44:54.220 --> 44:58.980]  You can buy all the all the gear but someone just a regular person who's thinking about I want to buy some headphones
+[44:59.740 --> 45:04.480]  If the air pods are a hundred fifty nine dollars the air pods Pro
+[45:04.480 --> 45:08.480]  two hundred and forty nine dollars, right? I think that's the the price
+[45:08.480 --> 45:13.960]  Well, there's three there's three price points and let's I like to round up the extra buck. So let's call regular air pods
+[45:14.600 --> 45:15.720]  160
+[45:15.720 --> 45:19.560]  Regular air pods with the Qi charging case are right
+[45:19.980 --> 45:25.840]  200 you have to it's a $40 premium to get the case that she charges and then the pros are
+[45:26.480 --> 45:31.320]  250 and only you know only come with a Qi capable case
+[45:31.320 --> 45:33.320]  So
+[45:35.200 --> 45:42.880]  160 to 250 is a pretty big jump and I could see how someone who's price-conscious is just gonna go for the $160 regular ones and
+[45:44.280 --> 45:46.840]  You know, I I think that makes a lot of sense
+[45:46.840 --> 45:49.800]  The the one that doesn't make as much sense to me is if you want
+[45:50.000 --> 45:55.880]  If you're gonna spend 200 on the one with the Qi charging case, you might as well spend 50 more bucks and get these
+[45:55.880 --> 46:02.680]  Keys provided that you give them a shot first if you know if you're really I mean you can buy them and if you do
+[46:02.680 --> 46:06.120]  If they really don't fit your ear or you find it physically uncomfortable you you know
+[46:06.120 --> 46:10.880]  You can send them back to Apple in the return period so you don't have to go to the store to try them
+[46:12.320 --> 46:14.160]  But I hate sending stuff back
+[46:14.160 --> 46:20.040]  So, you know the fact that you can try them on in the store is to me a big advantage if I were uncertain about
+[46:20.040 --> 46:25.220]  It I would definitely go and try it first. I I have returned stuff to Apple before
+[46:25.220 --> 46:29.460]  You know, I bought a phone and then I said I don't you know, this isn't the phone for me
+[46:29.460 --> 46:35.140]  I'm gonna buy this other phone and they made it so easy and and you know
+[46:35.140 --> 46:39.940]  There there's there's that sort of potential of for guilt. There's none of that. None of that
+[46:39.940 --> 46:44.860]  It was like no we want you to be happy. Yeah, really want it. So please get what you want
+[46:44.860 --> 46:46.860]  Yeah, I think that's great. So
+[46:47.420 --> 46:49.260]  so the the
+[46:49.260 --> 46:50.860]  $250
+[46:50.860 --> 46:52.460]  you're getting
+[46:52.460 --> 46:57.380]  the noise cancellation the the transparency mode new sort of
+[46:58.660 --> 47:05.020]  Physical things the flat thing on one side and the button that's really not a button. It's sort of a pressure sensitive thing
+[47:05.220 --> 47:10.580]  You're getting sweat and water resistance, right? Yeah that what do they call it px4?
+[47:10.580 --> 47:17.420]  I think I px4 so it's IP. Thank you IP apparently more sweat and water. You can't go swimming with them, but apparently it's more
+[47:17.420 --> 47:24.240]  You know more rain and sweat resistant than air pods regular air pods are although I haven't heard many complaints
+[47:24.240 --> 47:29.720]  If any that I can think of from people who say that their air pods shorted out or something just because they were working out
+[47:30.800 --> 47:35.860]  But apparently they're even more water resistant, which you know, it's only a good thing
+[47:36.640 --> 47:41.040]  Yeah, I wear air pods every day when I'm working out and I you know
+[47:41.040 --> 47:44.040]  I sweat whatever and I've net it's never been a problem for me
+[47:44.040 --> 47:51.520]  No, they definitely also fit more securely and for me like I wrote I've never had an air pod fall out accidentally except
+[47:51.680 --> 47:53.680]  when
+[47:53.840 --> 48:00.000]  Unthinkingly like taking I forget what I did the one time it why or why I did it like I I
+[48:00.680 --> 48:05.820]  Had to I took off a shirt while I was wearing them and it of course popped him right out of my ear
+[48:05.820 --> 48:07.820]  I was like, oh where the hell did that go?
+[48:07.840 --> 48:12.520]  Other than something like that like taking off my shirt while I was wearing them just because I was absent-minded
+[48:12.520 --> 48:17.020]  I've never had an air pod fall out accidentally, but I know other people they do
+[48:17.960 --> 48:20.400]  I saw on Marquez Brownlee's
+[48:21.320 --> 48:28.980]  Youtuber quickie first impression review of them that with regular air pods if he shakes his head back and forth pretty quickly like a
+[48:29.440 --> 48:34.200]  Pretty vehement, you know shaking your head. No gesture. They can make them fall out
+[48:34.200 --> 48:37.580]  I can't even make regular air pods fall out of my ears when I do that
+[48:37.580 --> 48:43.780]  So I you know mine just have my ears just happen to be a shape that fits the regular air pods pretty well
+[48:43.780 --> 48:46.020]  But I know for other people that's a real issue some people
+[48:46.660 --> 48:49.620]  Because regular air pods are one size fits all
+[48:50.280 --> 48:52.640]  Some people they don't work at all and for others
+[48:52.640 --> 48:58.780]  I have a couple of friends who they occasionally fall out, you know, like while they're exercising or something. These are much longer
+[49:00.020 --> 49:05.700]  Fit and they come with different like the the powerbeats Pro they come with a different
+[49:05.700 --> 49:10.460]  Sort of clickable ends, right? Yeah. Yeah. I love it
+[49:10.460 --> 49:12.580]  I like it's it's not a you know
+[49:12.580 --> 49:16.380]  It's not a button but the best way to think of it as a button and the way it clicks
+[49:16.500 --> 49:20.220]  audibly in the ear on the side on which you click it is so
+[49:22.980 --> 49:27.580]  It's so much makes it feel not feel to your fingers obviously
+[49:27.580 --> 49:34.180]  But feel as an overall the overall experience like a button, you know like the button that's on the wired earbuds that come
+[49:34.180 --> 49:36.180]  You know that Apple still makes
+[49:37.180 --> 49:42.180]  Like I had I had my son try it and didn't tell him how it worked and I was like
+[49:42.780 --> 49:44.540]  Now do you think that really clicked or not?
+[49:44.540 --> 49:48.020]  And he was completely convinced it clicked and then when I told you know
+[49:48.020 --> 49:50.340]  And then I had him take it out and squeeze it and it didn't click
+[49:50.340 --> 49:55.100]  He thought that maybe they had done something like the force track trackpad and had haptic, you know
+[49:55.100 --> 49:58.020]  Something haptic in there and I was like, nope, there's no haptics
+[49:58.020 --> 50:04.580]  It's literally just the sound of the click but it's so low latency and so perfectly, you know
+[50:04.580 --> 50:11.740]  Like the the amount you have to squeeze feels exactly right that it convinces your brain that you're clicking a button. I love it
+[50:11.740 --> 50:13.300]  It's it's really I think it's great
+[50:13.300 --> 50:17.140]  and I think it's one of the best things versus the regular air pods because I
+[50:17.420 --> 50:24.540]  Don't think that that tapping the air pods thing is a great. I don't think that's a great way to a physical control
+[50:24.540 --> 50:26.900]  It just seems like you're punishing yourself a bit
+[50:26.900 --> 50:30.460]  Well, it's also not perfectly predictable
+[50:30.980 --> 50:35.620]  Like I've tapped and sort of there's a little bit of a sweet spot and I still to this day
+[50:35.620 --> 50:40.300]  Don't know what the sweet spot is, but I there are times when I tap and nothing and then I get it, right?
+[50:40.300 --> 50:44.780]  It's like I move my finger a little bit. Yeah, so I think changing to the button is
+[50:46.100 --> 50:48.100]  Is a real a real deal
+[50:48.540 --> 50:51.540]  One of the things they talked about in the briefing and again, it's on background
+[50:51.540 --> 50:58.420]  But I think it's okay to you know did reveal of his background info and they kind of get into it in the marketing page
+[50:58.420 --> 51:00.420]  for the air pods
+[51:01.860 --> 51:03.860]  But the
+[51:05.220 --> 51:08.740]  There's three three types of air pods now, there's the original air pods
+[51:08.940 --> 51:12.820]  there's the generation to air pods that look the same but
+[51:13.820 --> 51:16.780]  Also have the option of the wireless charging case
+[51:16.780 --> 51:21.740]  Which came out what earlier this year like at the right after like around January or February or something?
+[51:24.220 --> 51:28.540]  And now there's the air pods Pro but the second generation air pods even though they
+[51:28.940 --> 51:33.580]  Look the same they include they're the first ones that include what Apple calls the h1 chip
+[51:34.460 --> 51:39.500]  right, and this h1 chip is one of Apple's custom silicone chips and it has 10 audio cores and
+[51:39.500 --> 51:45.100]  The air pods Pro also have the h1 chip except and the air pods Pro
+[51:45.100 --> 51:50.140]  They put the h1 chip in a what they call a sip a system in
+[51:51.020 --> 51:53.020]  What the hell does it stand for?
+[51:53.580 --> 51:55.580]  system in package
+[51:55.580 --> 51:59.980]  Which is sort of like assist I can that be you know, like the way they call the a11
+[52:01.020 --> 52:03.020]  SOC a system on chip it's
+[52:03.020 --> 52:10.540]  It's some way of encapsulating multiple chips together into a smaller package. And so the actual
+[52:11.580 --> 52:14.220]  computer running inside each of these
+[52:15.020 --> 52:17.260]  air pod Pro buds is
+[52:19.180 --> 52:23.340]  Significantly smaller apparently than the circuitry of the
+[52:24.540 --> 52:28.460]  The other air pods including the generation two ones
+[52:28.460 --> 52:35.180]  The other air pods including the generation two ones and because of that it takes up less space
+[52:35.980 --> 52:37.580]  there's
+[52:37.580 --> 52:43.660]  That's why the stem is smaller on the the new the new air pod pros because they don't need that extra stem space
+[52:43.820 --> 52:47.020]  For battery like when the iFixit guys Tara
+[52:48.060 --> 52:53.980]  Tore the regular air pods apart you could pretty much see that those stems that come out of regular air pods
+[52:53.980 --> 52:59.340]  Are mostly filled with battery right the the microphones in there, you know, one of the microphones is in there
+[52:59.340 --> 53:05.980]  And so there's obviously some circuit, you know cables and stuff to connect the microphone to the rest of it, but it's mostly
+[53:06.620 --> 53:11.740]  Filled with battery but that they made them shorter now because they don't need the space for the battery because they could put more of the
+[53:11.740 --> 53:13.740]  battery in the other part of the
+[53:14.140 --> 53:15.340]  ear pod
+[53:15.340 --> 53:21.580]  And the other thing that I they I think they've kind of glossed over into marketing, but I think it's a real thing
+[53:21.580 --> 53:24.300]  I really think it affects it in practice is
+[53:25.180 --> 53:30.860]  There's a the the black grills of on this
+[53:32.060 --> 53:34.060]  pass through air
+[53:34.620 --> 53:38.300]  So right, right. So the reason for this is
+[53:39.260 --> 53:45.180]  To keep the air pressure inside your ear once they're in and sealed by the tip
+[53:46.300 --> 53:48.620]  equal to the air pressure outside
+[53:48.620 --> 53:52.140]  the your ear and if you've ever worn
+[53:52.940 --> 54:00.060]  Earbuds that have silicone tips that seal in your ear canal, you know the experience of having those get
+[54:00.860 --> 54:05.280]  Mismatched especially like when you're wearing them on an airplane where the air pressure changes significantly
+[54:06.140 --> 54:10.620]  So I haven't worn these on an airplane yet and can't verify that it's significantly different
+[54:11.100 --> 54:16.220]  But you I never got that feeling of needing to like, you know, put my pinky in my ear
+[54:16.220 --> 54:21.420]  To you know, like pop it or something like that, you know, it's the I think there's something there really is something to this
+[54:22.380 --> 54:26.220]  Air channel that goes through but I think that's just another sign of this
+[54:27.020 --> 54:34.300]  Sip chip that the h1's in being so much smaller because they it's so much smaller that they have space in these tiny little
+[54:35.180 --> 54:37.020]  buds to just have
+[54:37.020 --> 54:38.540]  empty space
+[54:38.540 --> 54:43.260]  Right. That's the whole point. I'm trying to make here is that not only did they make the stem smaller, which is obvious
+[54:43.260 --> 54:50.060]  But they actually had space to just leave his space so that they could pass through the air to keep the air pressure the same
+[54:52.380 --> 54:54.380]  So
+[54:54.700 --> 55:00.940]  I'm looking at you know, I'm sort of on the website scroll scroll up Alou's a website, you know, just sort of that crazy
+[55:02.460 --> 55:08.700]  And and it looks like they're as you're describing all this I'm seeing it. It's you described it. Well the
+[55:08.700 --> 55:15.500]  Those events are they seem much bigger than what was on the first generation or the second generation AirPods?
+[55:15.500 --> 55:19.580]  Yeah, they're definitely bigger and the second generation AirPods. I looked it up while you were talking
+[55:20.220 --> 55:27.820]  Was that right before WWDC March 20th was the of this year was the announcement. Remember that sequence of things that happened before?
+[55:28.860 --> 55:31.820]  WWDC well, that's quite a bit before WWDC March
+[55:32.460 --> 55:34.460]  Yeah, I think it was the first
+[55:34.460 --> 55:38.140]  I mean, did you black out for the months of April in May?
+[55:39.180 --> 55:41.180]  I I did I hope
+[55:42.060 --> 55:47.660]  But yeah, it was like the week of announcements. You're right. It was like, you know, Monday. Here's this Tuesday. Here's that
+[55:49.420 --> 55:53.340]  People were hoping for that this week with macbook pros and and maybe mac pros but
+[55:53.980 --> 55:59.980]  Obviously did not happen and that tile thing. Oh, yeah people want that. I don't think that's coming this year. I don't know
+[55:59.980 --> 56:04.460]  That seems like something that maybe got postponed for whatever reason until next year
+[56:06.300 --> 56:11.020]  Because that seems like something that they would have to do on stage in an event that seems like
+[56:12.220 --> 56:14.220]  like I think that you know, I
+[56:14.860 --> 56:21.020]  Again, I think some people who don't think about it clearly don't think you know people who are surprised like I saw a whole bunch of
+[56:21.020 --> 56:24.540]  People yesterday say that Apple quietly announced the AirPods Pro
+[56:24.540 --> 56:31.260]  It's actually not very quiet all they the only thing is that they didn't hold one of their big public keynote events
+[56:31.260 --> 56:36.140]  But they kind of did a huge full-court press in terms of getting as many
+[56:36.700 --> 56:40.940]  People in the tech industry to write about these at the same time, you know the seeding, you know
+[56:40.940 --> 56:45.020]  a day before the writer types like me and Joanna Stern and
+[56:45.740 --> 56:47.740]  Nilay from the verge
+[56:47.740 --> 56:50.780]  You know a day before us they had to go to the tech industry
+[56:50.780 --> 56:56.000]  Nilay from the verge, uh, you know a day before us they had the youtubers come in and MKBHD
+[56:56.860 --> 57:02.480]  And iJustine and you know a couple of but you know people with millions of subscribers
+[57:02.700 --> 57:07.660]  I mean, I think MKBHD is up to just a hair under 10 million subscribers on his youtube channel
+[57:09.260 --> 57:13.580]  A whole I mean a whole bunch of youtube, uh influence
+[57:13.580 --> 57:18.780]  Had videos drop yesterday morning about these things. I mean, that's a big deal
+[57:19.580 --> 57:26.460]  Yeah, it was not quiet. I mean you couldn't you couldn't miss it. I think people just underestimate how much apple doesn't
+[57:27.340 --> 57:31.660]  Hold keynote events willy-nilly just because there's something new like they
+[57:32.220 --> 57:38.380]  Really don't want they really want to hold keep their powder dry and hold events when it really means something and if anything
+[57:38.380 --> 57:42.060]  You know the one that sticks out in recent years would be that one they held last year
+[57:42.060 --> 57:47.420]  Is would be that one they held last march where it was just about services and about tv shows that they
+[57:48.220 --> 57:50.220]  didn't even show previews of
+[57:50.700 --> 57:56.460]  right, like that was the event that sort of stands out is sort of the exception to the rule that i'm trying to say they
+[57:56.620 --> 58:01.260]  Stand by but except that I think that people like us weren't the audience for that event
+[58:01.340 --> 58:05.820]  I think it was meant for wall street. It was you know, the reason they held an event
+[58:06.380 --> 58:07.740]  without
+[58:07.740 --> 58:14.220]  Previews to show was simply to make a statement about how serious they were about subscription revenue
+[58:15.980 --> 58:18.620]  Uh, you know, I I do get the feeling that
+[58:19.340 --> 58:24.700]  There's a a sea change in terms of how product is being announced
+[58:24.780 --> 58:27.020]  it started with the march stuff, you know with the
+[58:27.740 --> 58:29.980]  You know, we're just going to put out a news a press release
+[58:30.620 --> 58:35.820]  And and maybe it's accompanied by seeding various writers the tech press whatever
+[58:35.820 --> 58:39.580]  The influencers but there's also um, there was a story
+[58:40.540 --> 58:42.140]  about uh
+[58:42.140 --> 58:47.340]  A stew if you got a four not four dollar ninety-nine cent a month, uh apple music student subscription
+[58:47.820 --> 58:52.860]  They're now bundling apple tv plus for free. Have you heard that one? No, I did not hear that
+[58:53.260 --> 58:58.860]  Yeah, so that's that's a thing and the i'd say one reason you didn't hear of it was because
+[58:59.500 --> 59:03.100]  Uh, it was not it didn't even make an apple newsroom story
+[59:03.100 --> 59:07.180]  It was uh, haley steinfeld the the uh, you know
+[59:07.180 --> 59:12.860]  She's she plays uh, emily dickinson on the new apple tv plus show. She announced it on instagram
+[59:14.780 --> 59:21.580]  Which is a weird for apple that's like that they're so famous for their precise control of of their message
+[59:22.220 --> 59:23.580]  and
+[59:23.580 --> 59:26.220]  How often does somebody else announce an apple product?
+[59:27.020 --> 59:29.660]  Uh, that's did you link to this from uh from the loop?
+[59:29.660 --> 59:34.460]  I did, uh, I think this was this morning. Yeah, it was the first story of this morning
+[59:34.460 --> 59:40.700]  So if you scroll back you'll see it's the headline is 499 a month apple music student subscription now bundles blah blah blah
+[59:40.940 --> 59:46.700]  But uh, you can you can see how prepared I was for this podcast by not having read your work from today
+[59:47.740 --> 59:53.580]  That's fine. I've been busy. But I uh, I think that it's interesting that she's um,
+[59:53.580 --> 59:59.020]  That they allowed right someone, you know, clearly it's someone they have a very strong relationship with
+[59:59.900 --> 01:00:02.060]  Because she's a star of an apple tv plus show
+[01:00:02.780 --> 01:00:08.700]  And one of their I would say better rated apple tv plus shows right and uh, but but
+[01:00:09.260 --> 01:00:16.460]  It's weird to me that on instagram, you know, not even an apple controlled thing instagram is a facebook thing, right?
+[01:00:16.460 --> 01:00:22.780]  No, well, I you know, I I think you're right that it's sort of a detection of the sea change in the way people consume media
+[01:00:22.940 --> 01:00:29.500]  And what is the best way to reach people and get your message apart across, you know in the steve jobs era?
+[01:00:31.020 --> 01:00:35.900]  You know, I think it speaks to the generation that steve jobs was
+[01:00:37.180 --> 01:00:41.660]  And you know and I think it was true for I don't think he fell behind the times but he clearly
+[01:00:41.660 --> 01:00:46.940]  And he you know, and he I think was much more
+[01:00:48.380 --> 01:00:55.660]  I don't think anybody would deny it was much more hands-on about the public relations and product marketing strategy than tim cook
+[01:00:55.740 --> 01:00:59.820]  Is not that tim cook doesn't care but tim cook isn't a micromanager, right?
+[01:00:59.900 --> 01:01:05.820]  Tim cook doesn't sit down and sketch out the design for new hardware because he's the ceo
+[01:01:06.620 --> 01:01:07.980]  um
+[01:01:07.980 --> 01:01:12.700]  You know tim steve jobs largely did it, you know or was involved in his own pr
+[01:01:14.460 --> 01:01:20.220]  And he what he cared about obviously were the big daily newspapers, you know that that in the jobs era
+[01:01:21.100 --> 01:01:21.980]  the
+[01:01:21.980 --> 01:01:28.540]  Like they were the influencers right and you know the the no better example than you know, the single greatest, you know
+[01:01:30.060 --> 01:01:32.060]  Apple product of all time the original iphone
+[01:01:32.780 --> 01:01:34.140]  uh
+[01:01:34.140 --> 01:01:38.620]  David poe got it who at the time was the tech columnist for the new york
+[01:01:39.180 --> 01:01:40.140]  times
+[01:01:40.140 --> 01:01:45.180]  Walt mosberg, of course tech columnist, uh for the wall street journal at the time
+[01:01:46.220 --> 01:01:48.220]  ed bagge at usa today
+[01:01:48.700 --> 01:01:50.700]  and steven levee who
+[01:01:51.100 --> 01:01:54.240]  Was at newsweek at the time so not a newspaper
+[01:01:54.780 --> 01:01:59.740]  But steven levee is you know, super super still super great writer
+[01:02:00.380 --> 01:02:02.380]  um with a great history of covering
+[01:02:02.380 --> 01:02:04.300]  uh
+[01:02:04.300 --> 01:02:11.580]  Jobs's career all the way back to like the original apple one, you know, like when the two steves were were running apple together. I mean
+[01:02:12.380 --> 01:02:13.740]  so
+[01:02:13.740 --> 01:02:15.920]  a very very old school traditional
+[01:02:16.780 --> 01:02:22.060]  Mindset of who who they need to get in the media to influence the world and how do you reach them?
+[01:02:22.860 --> 01:02:23.820]  um
+[01:02:23.820 --> 01:02:29.580]  and you know, and I think the biggest difference between then and now and I think it's been a slow evolution was at that time it
+[01:02:29.580 --> 01:02:30.860]  was
+[01:02:30.860 --> 01:02:32.860]  four four reviewers
+[01:02:33.580 --> 01:02:34.860]  And that was it, right?
+[01:02:34.860 --> 01:02:41.580]  So it's four things and that was it and now it's spread out among so many dozens
+[01:02:42.220 --> 01:02:44.220]  You know, so no one person
+[01:02:45.420 --> 01:02:50.060]  Has anywhere near the influence of say walt mosberg from back then nobody nobody
+[01:02:50.220 --> 01:02:55.420]  I don't know who you would say like the most influential one would say is the most influential reviewer of
+[01:02:55.980 --> 01:02:58.060]  This year's new iphones. I I don't
+[01:02:58.700 --> 01:02:59.980]  you know even
+[01:02:59.980 --> 01:03:04.460]  It certainly isn't me in terms of mark, you know reaching the most people. Uh
+[01:03:05.500 --> 01:03:10.060]  I don't know, you know, it's there's nobody like certainly true. That's certainly true. But but um,
+[01:03:10.780 --> 01:03:12.700]  I think that
+[01:03:12.700 --> 01:03:16.140]  There's a there's a flip side of that too on apple side apple's side
+[01:03:16.380 --> 01:03:21.100]  The pr people are they can't it can't be one person controlling the pr message, right?
+[01:03:21.180 --> 01:03:25.340]  Right, it's groups of people and each group has its pr people and right
+[01:03:26.140 --> 01:03:28.140]  Also back in the day
+[01:03:28.140 --> 01:03:30.060]  I'm talking about steve
+[01:03:30.060 --> 01:03:31.500]  he was
+[01:03:31.500 --> 01:03:32.940]  um, not that
+[01:03:32.940 --> 01:03:37.020]  Not to address him and in tag him in any way label him
+[01:03:37.020 --> 01:03:42.300]  Anyway, but steve we clearly know was the visionary the the guy who who thought of the product
+[01:03:42.940 --> 01:03:48.140]  And said this is what we're going to do and then he would take input from other people but he was that filter
+[01:03:48.140 --> 01:03:50.460]  He was the bottleneck for product design
+[01:03:51.100 --> 01:03:56.940]  right, right and and so when he was connecting to someone to walt mosberg or
+[01:03:56.940 --> 01:04:03.100]  Or or steve levey or pick your your person when he was connecting to those people. He was on the phone with them
+[01:04:03.420 --> 01:04:05.500]  He was talking to them. He was sort of
+[01:04:06.440 --> 01:04:14.060]  Evangelizing the product there was a very direct connection and now there's like five levels of indirection between
+[01:04:14.620 --> 01:04:15.580]  yeah
+[01:04:15.580 --> 01:04:21.420]  You know the product visionary and there's there's got to be you know, there's a there's a watch product visionary
+[01:04:21.420 --> 01:04:27.180]  I think and there's a air pods product visionary and there may be it may not even be a single person
+[01:04:27.260 --> 01:04:29.820]  it may be a group of designers who
+[01:04:30.540 --> 01:04:33.020]  You know who all have sort of a different
+[01:04:33.340 --> 01:04:37.660]  my goal is to make the smallest possible battery or to get the most amount of life from the battery and
+[01:04:38.060 --> 01:04:40.060]  another person is about the audio and
+[01:04:41.020 --> 01:04:46.860]  Like that it's it's just apple has become such a much more complex company. They're
+[01:04:46.860 --> 01:04:51.740]  You know, they're just in so many more pieces. It's just hard to compare the old days with the new days
+[01:04:51.820 --> 01:04:54.700]  And so we have new things new ways of getting the message out
+[01:04:55.340 --> 01:04:58.460]  and you know, i'm not going to speak as an expert on how to reach your
+[01:04:59.500 --> 01:05:00.860]  millennials
+[01:05:00.860 --> 01:05:01.740]  but
+[01:05:01.740 --> 01:05:09.100]  I I can't help but think off the top of my head that having an instagram star who's on a apple tv plus show
+[01:05:09.900 --> 01:05:15.420]  Do it on instagram is a pretty good way to reach the actual people
+[01:05:15.420 --> 01:05:21.180]  Who are of the age and demographic who might pick up a five dollar a month student?
+[01:05:21.420 --> 01:05:28.060]  Apple music subscription and then start watching tv plus shows like I I had tossed that around that whole idea before they announced
+[01:05:28.060 --> 01:05:30.700]  How you're actually going to pay for apple tv plus
+[01:05:31.420 --> 01:05:37.020]  I was a big proponent of the idea that maybe they'll just give it to everybody who has apple music, right?
+[01:05:37.020 --> 01:05:41.660]  Just apple music now includes apple tv plus we even before we knew the name
+[01:05:41.660 --> 01:05:48.620]  Because I I didn't think it was so much. I and I know that they keep talking about services services services to the point where there
+[01:05:48.620 --> 01:05:53.580]  Are people and I really think it's totally wrong and I almost I can't believe how many people
+[01:05:54.300 --> 01:06:00.460]  I don't want to say fall fall for it. But people who say that apple as a company is pivoting towards services
+[01:06:01.180 --> 01:06:08.700]  When they haven't done anything to decrease their interest or reliance on making hardware products that they've always done
+[01:06:08.700 --> 01:06:17.340]  It's it's an expansion of their domain not a shifting of their intentions in my belief
+[01:06:17.340 --> 01:06:19.340]  I I think it's I think it's more
+[01:06:19.980 --> 01:06:26.220]  Not to not disagreeing with you as much as i'd say you could fine-tune the model to say that uh, there's a financial
+[01:06:26.780 --> 01:06:33.180]  Analysis you could do and in which case yeah, they're pivoting to services for what where are their dependencies?
+[01:06:33.180 --> 01:06:40.220]  Well, they're they're they recognize that they're the um smartphone market is maturing and they need to
+[01:06:40.780 --> 01:06:47.020]  You know have a model that that where they can still provide satisfaction to their shareholders by having growth like that
+[01:06:47.020 --> 01:06:52.220]  But that's just the financial side on the product side. It's still the product side and the products they're still building products
+[01:06:52.220 --> 01:06:54.220]  They're still building max. They're still building
+[01:06:54.780 --> 01:06:56.780]  Allegedly, they're still building a mac pro
+[01:06:56.780 --> 01:07:00.780]  Allegedly, they're still building a mac pro, uh
+[01:07:02.300 --> 01:07:05.180]  Yeah, I said, well, you know and I get it that and like I said
+[01:07:05.180 --> 01:07:10.940]  I think that whole march event was geared towards wall street and it was to to have a story you need us, you know
+[01:07:10.940 --> 01:07:12.380]  whilst you know
+[01:07:12.380 --> 01:07:16.220]  we're human human beings love stories and it's what we're hooked up to
+[01:07:17.100 --> 01:07:18.300]  to
+[01:07:18.300 --> 01:07:19.820]  to understand
+[01:07:19.820 --> 01:07:22.060]  And it's a story and I don't think it's not
+[01:07:22.860 --> 01:07:25.340]  It's not bullshit. It's it's not like they're not
+[01:07:25.340 --> 01:07:30.460]  Putting a lot of you know, they're supposedly spending billions of dollars on these original content shows
+[01:07:30.460 --> 01:07:36.620]  I mean, it's even for apple billions of dollars is something that you know, pretty sure you have to send to tim cook's desk
+[01:07:36.620 --> 01:07:38.620]  You know, like nobody's
+[01:07:38.940 --> 01:07:43.420]  Nobody's putting that putting that through without you know, somebody double checking it, you know
+[01:07:43.660 --> 01:07:49.900]  They have you know hundreds of billions, but still once you're in the billions, you know, that's something that's truly strategic to the company
+[01:07:49.900 --> 01:07:51.900]  To the company, um
+[01:07:55.580 --> 01:08:00.540]  I don't know. We're we're we're a little off the chart there. But anyway, that's really interesting
+[01:08:00.620 --> 01:08:03.980]  I'm, not surprised though that they're doing this tossing in the apple tv
+[01:08:04.060 --> 01:08:10.300]  I really think they just want what they want is they just want people to pay for subscriptions period and if you're paying for the games
+[01:08:10.540 --> 01:08:11.740]  and
+[01:08:11.740 --> 01:08:12.780]  the
+[01:08:12.780 --> 01:08:15.740]  the music and maybe you know, I mean
+[01:08:15.740 --> 01:08:21.600]  I i'm sure news is sort of the ugly stepchild there that probably has will have lined up with the lowest number of subscribers
+[01:08:23.180 --> 01:08:29.500]  Although there's and there's still definitely the possibility that once the tv stuff gets off the ground a little more that they're going to roll out
+[01:08:29.500 --> 01:08:31.260]  some kind of apple
+[01:08:31.260 --> 01:08:36.780]  Prime well, like everybody calls it prime like amazon prime like you get amazon prime and then you get everything
+[01:08:37.420 --> 01:08:43.180]  Uh, so for lack of a better word, i'm sure they'll come up with their own name, but apple prime or you get all of it
+[01:08:43.180 --> 01:08:48.540]  Um, and again students, you know who you know, don't have money because they're students, right?
+[01:08:48.620 --> 01:08:52.780]  So, you know, we just want you on board. We just if you just give us five dollars a month
+[01:08:53.740 --> 01:08:55.900]  And but millions and millions of you do it
+[01:08:56.380 --> 01:09:00.860]  we'd be delighted to allow you to watch the tv plus shows too and
+[01:09:01.420 --> 01:09:04.620]  Because they're students and don't have a lot of money to toss around on
+[01:09:04.940 --> 01:09:08.220]  A subscription there and a subscription here and a subscription over there
+[01:09:08.540 --> 01:09:10.860]  They also don't have money to buy a new iphone every year
+[01:09:10.860 --> 01:09:17.920]  So they're not going to necessary, you know, they're less likely than idiots like me who buy one every single year to just automatically
+[01:09:18.460 --> 01:09:21.340]  Luck my way into the I don't have to pay for apple
+[01:09:21.820 --> 01:09:25.420]  you know, I don't have to pay five dollars a month for tv plus because I was smart and
+[01:09:26.380 --> 01:09:28.460]  Spent fourteen hundred dollars on the phone
+[01:09:29.420 --> 01:09:35.260]  Right. So the tv plus thing I think is interesting because their goal I think is not
+[01:09:36.040 --> 01:09:39.040]  Necessarily in the short term to have a lot of subscribers
+[01:09:39.040 --> 01:09:40.640]  much more
+[01:09:40.640 --> 01:09:44.320]  Their goal I think in the short term is to have a lot of viewers
+[01:09:44.960 --> 01:09:46.960]  Have a lot of people tasting
+[01:09:47.040 --> 01:09:50.160]  The the service just to get a sense of it and they know it's good
+[01:09:50.160 --> 01:09:52.720]  They know their first kick at the can is going to be okay
+[01:09:52.800 --> 01:09:56.800]  Maybe not the best possible thing because they're learning they're eating their learning curve now
+[01:09:57.360 --> 01:10:03.600]  But in a year after everybody has had a free year with their purchase of their iphone or piece of hardware their apple tv
+[01:10:03.600 --> 01:10:06.000]  Whatever their piece of hardware is after a year
+[01:10:06.000 --> 01:10:10.320]  after a year, they'll have a lot more shows presumably and they'll
+[01:10:10.800 --> 01:10:14.400]  also, I think be in the later episodes of shows where they've
+[01:10:14.880 --> 01:10:20.640]  They've put some of those lessons learned to work and the what's the show with jennifer aniston the morning show?
+[01:10:21.120 --> 01:10:26.960]  Yeah, so the morning show what i've read is that the earlier episodes were
+[01:10:27.520 --> 01:10:31.760]  They struggled with their their you know, the vision is is a little hard to to parse
+[01:10:31.760 --> 01:10:36.880]  But as they're as they went further along the sense I get is that it's you know
+[01:10:36.880 --> 01:10:42.880]  They they start they're going to find a groove and I think they will even if you go to episodes five six and seven
+[01:10:42.960 --> 01:10:44.960]  Which nobody's seen yet
+[01:10:45.040 --> 01:10:50.640]  They'll you know, they'll they'll start to have an understanding of what makes a a serial show
+[01:10:51.420 --> 01:10:54.160]  Bingeable what makes it hold people's attention?
+[01:10:54.160 --> 01:11:00.320]  There's all kinds of really well-known lessons in crafting shows that apple's just they're learning now
+[01:11:00.320 --> 01:11:07.280]  They're there. It's not fair to assume that they should know this. So the nice thing is apple has these deep pockets
+[01:11:08.000 --> 01:11:11.600]  And they're definitely not going to turn the switch off like, you know
+[01:11:11.600 --> 01:11:16.560]  The google does famously turns off projects that don't make sense to somebody
+[01:11:17.200 --> 01:11:21.040]  apples, I don't believe there I I believe that apple tv plus is
+[01:11:21.840 --> 01:11:28.800]  Has a really long lifespan and that means that we'll get more more products and they'll start to have a back catalog
+[01:11:28.800 --> 01:11:30.960]  which is going to take time to do and they'll also have
+[01:11:32.400 --> 01:11:39.920]  Better quality products as they go. Well, I I'm a big believer in I can't take credit for it. It's
+[01:11:42.560 --> 01:11:47.120]  Peter kafka's theory peter kafka who writes it about the media recode. He was on my show
+[01:11:48.320 --> 01:11:50.640]  Like half a year ago and we were talking about it
+[01:11:51.200 --> 01:11:57.200]  I love his theory which is that strategically for apple a big part of the tv plus is
+[01:11:57.200 --> 01:12:03.360]  Is nothing to do with whatever money they will actually make from tv plus but it's to get
+[01:12:04.160 --> 01:12:10.720]  People using the apple tv app and that explains why they're willing to put it on
+[01:12:11.440 --> 01:12:13.680]  samsung tvs and lgvs and
+[01:12:14.800 --> 01:12:16.640]  amazon's
+[01:12:16.640 --> 01:12:18.640]  boxes
+[01:12:19.040 --> 01:12:22.640]  Because once you're in the tv app, which is where you have to go to watch tv plus
+[01:12:23.840 --> 01:12:25.520]  and I think
+[01:12:25.520 --> 01:12:30.800]  Giving it away quote unquote free to everybody who buys a device and giving it away free, you know
+[01:12:30.800 --> 01:12:33.520]  Which isn't really free to all these students paying five dollars a month
+[01:12:34.080 --> 01:12:39.840]  All of it, you know, sure it gets you watching tv plus and sure maybe eventually you're not going to have a free subscription
+[01:12:39.920 --> 01:12:43.760]  And you will pay five dollars a month. But once you're in that apple tv app
+[01:12:44.720 --> 01:12:47.760]  On your phone on your tablet on your actual tv set
+[01:12:48.320 --> 01:12:54.480]  You're right there next to those channels that they've talked about and hasn't really gotten a lot of attention
+[01:12:54.480 --> 01:12:56.480]  But which is a way
+[01:12:56.880 --> 01:12:58.480]  um
+[01:12:58.480 --> 01:13:04.720]  To get you to pay for other things like cbs all access where you have to go to watch the star trek shows and
+[01:13:05.360 --> 01:13:10.720]  Uh, presumably that's where the disney plus thing will be because apparently, you know, disney and apple are going to you know
+[01:13:10.720 --> 01:13:15.680]  Make this work somehow, you know financially where you'll be able to sign up for the disney
+[01:13:16.400 --> 01:13:22.560]  Streaming thing, you know pretty much everybody but netflix you can get right there in the channels thing
+[01:13:22.560 --> 01:13:26.640]  And apple gets a cut of that and it's not 30, you know from the big ones
+[01:13:26.640 --> 01:13:28.880]  They're certainly not going to get 30 from disney
+[01:13:28.880 --> 01:13:32.560]  but they're going to get something and you get a little bit here and a little bit there and
+[01:13:32.960 --> 01:13:38.560]  All of a sudden it adds up to a lot but you're not going to get them to sign up for disney plus
+[01:13:38.560 --> 01:13:43.040]  Unless they're using the tv app and to get them, you know, so I I kind of like it
+[01:13:43.040 --> 01:13:45.200]  I mean effectively it's i'm not going to call it trojan horse
+[01:13:45.200 --> 01:13:50.320]  But it's sort of like the whole maybe the main point of tv plus isn't to get you to sign up for tv plus
+[01:13:50.320 --> 01:13:55.600]  But it's to get you in the tv app in the first place where you will sign up for channels maybe
+[01:13:56.160 --> 01:14:01.440]  That's really interesting. I I had not heard that theory before is it is it that um
+[01:14:02.400 --> 01:14:03.920]  so so do you think
+[01:14:03.920 --> 01:14:11.440]  People who don't use the tv app now will be forced to use the tv app when uh, basically november 1st in a couple of days
+[01:14:12.720 --> 01:14:16.320]  Uh, I don't think well to do what to watch tv plus
+[01:14:16.320 --> 01:14:20.720]  Yeah, I think you'll have to you have to go through the tv app. Yeah, I don't think there's any other way to do it
+[01:14:20.720 --> 01:14:25.680]  and now you can get that app on your apple products and you can get that app now on your
+[01:14:26.800 --> 01:14:29.360]  I forget if they're on the the roku or not. Um
+[01:14:30.240 --> 01:14:34.720]  But I know they're on the amazon, uh sticks fire stick fire stick and
+[01:14:35.440 --> 01:14:41.920]  They're on the you know, the ones that are the partnerships where they're built into some of the tv sets are already rolling out
+[01:14:41.920 --> 01:14:49.280]  Rolling out um, yeah as far as I know the only unless i'm missing something the only way to watch apple tv plus is
+[01:14:49.920 --> 01:14:54.640]  The apple's original content shows is to use the apple tv app on whatever platform you want
+[01:14:54.720 --> 01:15:00.160]  But then you're already right there and ready, you know right there like a couple of taps away from
+[01:15:00.960 --> 01:15:01.760]  um
+[01:15:01.760 --> 01:15:06.400]  And they are you're obviously already signed in the only way you can watch tv plus is to be signed into your apple
+[01:15:06.400 --> 01:15:12.640]  I.t. So you're already right there just a couple of taps on whatever remote control you use for your device or whatever screen you're on
+[01:15:12.880 --> 01:15:18.400]  from signing up for cbs all access or something like that because you want to watch the new picard show or
+[01:15:19.360 --> 01:15:21.440]  Or you know the disney thing or whatever
+[01:15:22.240 --> 01:15:26.640]  so netflix even though you can't sign up for netflix on the apple tv because
+[01:15:27.120 --> 01:15:30.880]  For obvious reasons netflix doesn't want to share their revenues with apple
+[01:15:31.600 --> 01:15:33.120]  You can still
+[01:15:33.120 --> 01:15:38.080]  Watch netflix on your apple tv plus or on the apple tv app
+[01:15:39.360 --> 01:15:41.360]  No, not not through the tv app
+[01:15:42.000 --> 01:15:48.960]  Well when I when I launch my apple tv and I I i'm not I don't spend a lot of time thinking about the tv app
+[01:15:49.360 --> 01:15:51.360]  So I could be wrong about the way this works
+[01:15:51.360 --> 01:15:57.200]  But when I fire up my apple tv, I think i'm in the tv app by default because there's two sort of defaults
+[01:15:57.520 --> 01:16:01.680]  No, well, I don't know. I maybe I have mine set up differently. I go right to the home screen
+[01:16:01.680 --> 01:16:03.760]  I don't know. Maybe they are in the tv app. I don't know
+[01:16:05.280 --> 01:16:08.000]  I don't know, but you certainly can't sign up for it there and by you know
+[01:16:08.000 --> 01:16:12.640]  And apple's interest is you signing up for quote-unquote channels, and I think that that strategy
+[01:16:13.660 --> 01:16:14.880]  explains
+[01:16:14.880 --> 01:16:16.880]  the weird
+[01:16:17.120 --> 01:16:21.680]  Everybody walked out of that march event holding their head like why didn't they show us previews?
+[01:16:21.920 --> 01:16:26.000]  And why what the hell is the difference between channels tv plus, you know?
+[01:16:26.640 --> 01:16:30.960]  You know, why did you know but the the channel's product is all about other people's content
+[01:16:30.960 --> 01:16:36.800]  But it's other people's content in a way that apple gets a taste of the the subscription money
+[01:16:38.240 --> 01:16:40.240]  Right, it's not
+[01:16:41.120 --> 01:16:46.080]  That's the whole point of channels obviously is so that you if you're going to watch cbs all access or
+[01:16:46.880 --> 01:16:50.240]  Sign up for hulu or something like that, you know that you're going to do it through
+[01:16:50.800 --> 01:16:52.960]  TV and apple gets some kind of cut
+[01:16:54.160 --> 01:17:00.180]  All right. So let me ask you this question about um sort of related to the apple tv plus discussion
+[01:17:00.180 --> 01:17:01.700]  discussion
+[01:17:01.700 --> 01:17:03.700]  What do you think are the biggest?
+[01:17:04.420 --> 01:17:09.380]  And you're just right off the top of your head. What do you think are the biggest uh streaming services?
+[01:17:10.020 --> 01:17:16.020]  The most important streaming services is netflix still the big dog. Oh, of course. I'm sure I don't even think it's close
+[01:17:16.100 --> 01:17:18.740]  I I would guess I i'm talking right out of my
+[01:17:19.300 --> 01:17:21.300]  Right. Yeah, that's that's that's fine
+[01:17:21.300 --> 01:17:24.820]  I would guess I would guess netflix in terms of eyeballs
+[01:17:24.820 --> 01:17:30.900]  The only thing you could compare it to is youtube and it that's not an app that is an apples to oranges comparison
+[01:17:30.980 --> 01:17:37.060]  Right youtube is its own beast unlike anything else. There is nothing else to compare youtube to
+[01:17:37.760 --> 01:17:39.060]  except
+[01:17:39.060 --> 01:17:42.260]  for the fact that you have to zoom out to the level of
+[01:17:43.060 --> 01:17:48.820]  Hey, we're all human beings and we only get 24 hours a day. And so you can only watch so much at once
+[01:17:48.820 --> 01:17:55.700]  Yeah, even though my son usually watches two things at once so you can you can double it to some degree
+[01:17:56.340 --> 01:17:58.340]  By playing video games while you watch
+[01:17:59.060 --> 01:18:04.180]  A second screen, uh, but nobody talks about the third screen, right? I mean, i'm sure it's somewhere out there. There's some
+[01:18:04.900 --> 01:18:06.900]  poor kid with a
+[01:18:08.500 --> 01:18:14.260]  Attention rattled brain who's got a third screen propped up but for the most part people talk about the second screen for good reason
+[01:18:14.340 --> 01:18:16.420]  But anyway, we still only have so many hours in a day
+[01:18:16.420 --> 01:18:20.340]  You can only watch so many youtube even if you only watch youtube or only watch netflix
+[01:18:20.500 --> 01:18:26.580]  You're you can't even keep up with the new content. So let's put youtube out of it because they're they're not in that streaming
+[01:18:27.140 --> 01:18:33.860]  Or youtube that i'm talking about isn't about streaming. I think absolutely I think netflix. I think netflix consumes more
+[01:18:34.500 --> 01:18:40.820]  Hours of attention than all of the others combined would be my guest hbo plus hulu plus prime plus
+[01:18:40.820 --> 01:18:45.380]  Uh, whatever else and if they don't it's they're still so much bigger, you know
+[01:18:46.020 --> 01:18:54.260]  It's it's hard to compare but but now we've got disney plus coming right right no november 14th or whenever the the drop date is
+[01:18:54.580 --> 01:19:01.460]  Right, that's and and disney plus I think more than everybody but maybe hbo
+[01:19:02.340 --> 01:19:05.860]  But even bigger than hbo maybe certainly comparable to hbo
+[01:19:05.860 --> 01:19:12.500]  They have the the back catalog of all back catalogs. They have I think the most valuable back catalog of anybody
+[01:19:13.060 --> 01:19:18.500]  Well, they're they're like the ones they're the one company that's famously valued their back catalog, right?
+[01:19:18.500 --> 01:19:23.140]  They call it the disney vault and they've they've called it that you know, it's not just about the streaming era
+[01:19:23.140 --> 01:19:26.980]  They've called it about that back when movies you only were seen in movie theaters
+[01:19:27.780 --> 01:19:32.900]  Like yeah when you had bambi right they they famously didn't put those movies out on vhs
+[01:19:32.900 --> 01:19:39.460]  Or when they did they made a huge deal out of it like so vhs became a big deal and you could buy movies
+[01:19:39.460 --> 01:19:44.980]  And watch them at home whenever you wanted to and it was a huge deal and I was super super excited about it
+[01:19:44.980 --> 01:19:49.300]  Like and somehow I i've told this story I think years ago on the show, but my friend jd
+[01:19:50.100 --> 01:19:53.380]  Growing up somehow got an illegal copy
+[01:19:53.380 --> 01:19:59.700]  His dad seemed hooked up into that sort of market where jd's dad knew a guy who knew a guy and he had a vhs
+[01:19:59.700 --> 01:20:04.900]  Copy of raiders of the lost ark before raiders of the lost ark was commercially available on vhs
+[01:20:05.300 --> 01:20:11.700]  Like how this thing came into being and how a copy of it ended up at my friend jd's house. I don't know
+[01:20:12.580 --> 01:20:14.580]  but for years
+[01:20:15.460 --> 01:20:22.100]  If it was like a saturday and it was rainy or cold and so we couldn't go outside and play sports
+[01:20:22.980 --> 01:20:27.700]  Jd would call and he'd say you want to watch raiders and i'd say sure and i'd go down to the
+[01:20:27.700 --> 01:20:32.900]  Jd's house and we'd watch raiders of the lost ark and I swear to god that was it was the only movie
+[01:20:32.900 --> 01:20:35.540]  It wasn't like you want to come down my house and watch a movie
+[01:20:35.860 --> 01:20:40.180]  It was do you want to watch raiders and i'd come down and we would watch raiders of the lost ark
+[01:20:40.180 --> 01:20:45.380]  Which still to this day is one of my favorite movies of all time, but there's no movie no movie
+[01:20:45.940 --> 01:20:52.740]  No, not star wars. Not uh, like monny python. Not any of the movies that you know people in my generation have watched multiple times
+[01:20:52.740 --> 01:20:55.940]  There's no movie that I have every line of dialogue committed to memory
+[01:20:55.940 --> 01:20:57.940]  Like I do raiders of the lost ark
+[01:20:58.820 --> 01:21:00.020]  But anyway
+[01:21:00.020 --> 01:21:02.820]  Disney at the time even when people started making
+[01:21:03.620 --> 01:21:06.500]  Studio started making all of this extra money, you know
+[01:21:06.500 --> 01:21:10.340]  They they were still doing their budgets based on what they thought they'd make from the theaters
+[01:21:10.340 --> 01:21:14.740]  And then they'd make extra money by selling vhs tapes for and they were expensive
+[01:21:14.740 --> 01:21:19.300]  Yeah, do you remember how it was like 60 or 70 bucks to buy to buy a movie on vhs?
+[01:21:19.700 --> 01:21:22.020]  And they would do a thing where they would say
+[01:21:22.020 --> 01:21:26.500]  This is going to be we're going to start selling it on this date and we're going to stop selling it on this date
+[01:21:26.500 --> 01:21:30.980]  And that's it and and they were they were good to their word. They when they stopped selling it
+[01:21:30.980 --> 01:21:38.020]  They they those copies dried up. You couldn't buy it anywhere. Yeah, and disney for for decades would just re-release
+[01:21:38.180 --> 01:21:42.900]  You know, I remember going to see peter pan in the theater and you know, peter pan had been out for 40 years
+[01:21:42.900 --> 01:21:44.980]  But they they did like a big
+[01:21:44.980 --> 01:21:49.380]  You know as though it was a brand new movie. They're like look you haven't we haven't let you see this for 20 years
+[01:21:49.380 --> 01:21:56.260]  But here it is 1978 or nine or whatever. It was peter pan back in theaters and you know, i'll go to see it
+[01:21:56.980 --> 01:22:01.700]  So so the the point is that disney plus has they have star wars
+[01:22:01.700 --> 01:22:07.140]  They have they have such a massive catalog all the pixar stuff. They have the simpsons, right? Isn't that disney plus?
+[01:22:07.140 --> 01:22:11.860]  Oh all the people under you people disney is such a strong brand people don't
+[01:22:11.860 --> 01:22:17.380]  People who don't pay attention to like, whoa, is it the paramount logo or the columbia logo?
+[01:22:17.940 --> 01:22:23.940]  Or the 20th century fox logo that comes up before the movie starts people under I might underestimate
+[01:22:23.940 --> 01:22:28.340]  Just how big the 20th century fox library is of of huge hit movies
+[01:22:29.220 --> 01:22:33.540]  So they have they have this back catalog that will crush everybody else so you could
+[01:22:34.100 --> 01:22:39.380]  And and jim dalrymple who you know, we do the podcast the the dalrymple is the one that's the one that's the one that's the one
+[01:22:39.380 --> 01:22:42.680]  You know, we do the podcast the dalrymple report every week
+[01:22:42.900 --> 01:22:48.740]  Jim famously has no interest in disney plus, but I think they will have a
+[01:22:49.460 --> 01:22:51.380]  massive following that will
+[01:22:51.380 --> 01:22:58.260]  I think rival netflix because it's so cheap, right right, and they I think they're setting the bar
+[01:22:58.260 --> 01:23:00.260]  They're setting the price for this market
+[01:23:00.900 --> 01:23:07.940]  We're you know, you all you can eat for this price. Why would you go spend twice that and and hbo has
+[01:23:07.940 --> 01:23:14.820]  divided up all their services Disney Plus is everything HBO has HBO go and HBO
+[01:23:14.820 --> 01:23:20.060]  now and HBO Max and HBO and I couldn't tell you what the four things what
+[01:23:20.060 --> 01:23:24.900]  what's different about them all one of them's live HBO obviously but the rest
+[01:23:24.900 --> 01:23:31.580]  are different takes on their HBO back catalog and HBO go is the one I use
+[01:23:31.580 --> 01:23:35.580]  because I still have a cable subscription that includes HBO so it's
+[01:23:35.580 --> 01:23:39.900]  they're so screwed up in their back and I think they had to I don't think it's
+[01:23:39.900 --> 01:23:43.800]  because they're inept I think it's because of the weird contracts they're
+[01:23:43.800 --> 01:23:48.500]  in with cable providers right for exclusivity that they are separate
+[01:23:48.500 --> 01:23:54.820]  services there so HBO go is what you go and sign up for if you already have
+[01:23:54.820 --> 01:23:59.280]  access to HBO through your cable subscription old-school cable then you
+[01:23:59.280 --> 01:24:04.220]  get the HBO go app and somehow sign in through your cable provider and now you
+[01:24:04.220 --> 01:24:07.540]  can watch shows on demand in the app and that's what I use because I have it and
+[01:24:07.540 --> 01:24:13.780]  then the other one is it is HBO if you don't have your accord cutter and you
+[01:24:13.780 --> 01:24:20.380]  need you need to pay HBO directly to get HBO but somehow is that HBO now yeah I
+[01:24:20.380 --> 01:24:25.140]  think that's HBO now and suppose HBO HBO Max is a different thing all right HBO
+[01:24:25.140 --> 01:24:30.340]  Max is their new thing but it's very confusing but it's 15 bucks a month for
+[01:24:30.340 --> 01:24:36.580]  HBO say HBO Max you don't get all the HBO with it so 15 bucks and Disney is
+[01:24:36.580 --> 01:24:44.380]  what is Disney like 8 bucks 99 or 799 yes 7 or 8 bucks and now at some point
+[01:24:44.380 --> 01:24:48.580]  as you said you have so many hours in the day at some point you got to choose
+[01:24:48.580 --> 01:24:52.620]  you know you could there are people who certainly will buy all the subscriptions
+[01:24:52.620 --> 01:24:58.860]  but for I would say for Millennials certainly and for many people they they
+[01:24:58.860 --> 01:25:01.820]  look at their numbers and say well what can I afford to spend and what am I
+[01:25:01.820 --> 01:25:06.660]  gonna do and and they'll say I'm gonna pick two things to buy well the work I
+[01:25:06.660 --> 01:25:10.240]  think we're gonna start to see consolidation and elimination we're
+[01:25:10.240 --> 01:25:14.540]  gonna start to see different subscription services go out of you
+[01:25:14.540 --> 01:25:18.260]  know basically they'll have to drop their price I think to compete yeah I
+[01:25:18.260 --> 01:25:24.340]  don't know it'll be interesting yeah and Apple is in a unique position where they
+[01:25:24.340 --> 01:25:30.380]  really don't have to they don't have to make as much money from the $4.99 a month
+[01:25:30.380 --> 01:25:34.900]  Apple TV plus subscriptions to pay for the shows that they're producing because
+[01:25:34.900 --> 01:25:39.460]  exactly right that's the difference with a with Apple so you can't really compare
+[01:25:39.460 --> 01:25:44.260]  their price to Disney's and say well why would I spend $5 for a handful of shows
+[01:25:44.260 --> 01:25:50.220]  versus $8 for the world's biggest treasure trove of content well if you're
+[01:25:50.220 --> 01:25:54.900]  only gonna choose one sharp choose Disney but Apple's willing to go you
+[01:25:54.900 --> 01:25:59.300]  know have a lot of back doors that you can get Apple TV plus content for quote
+[01:25:59.300 --> 01:26:05.820]  unquote free just to go that that that's why I think Netflix is the big dog now
+[01:26:05.820 --> 01:26:09.700]  right I think Netflix is gonna feel the squeeze eventually because their
+[01:26:09.700 --> 01:26:15.140]  catalogue is good but it doesn't compete with Disney's and their kids you know
+[01:26:15.140 --> 01:26:18.820]  you can't underestimate the kids market you know and that Disney has you know
+[01:26:18.820 --> 01:26:22.620]  for strategic reasons has pulled all of their stuff from Netflix like everything
+[01:26:22.620 --> 01:26:28.060]  on everybody knows that stuff that isn't Netflix original content drifts in and
+[01:26:28.060 --> 01:26:32.860]  out of the Netflix oh they've you know now you can watch old James Bond movies
+[01:26:32.860 --> 01:26:37.460]  on Netflix again but only until March and then they're gonna go away again
+[01:26:37.460 --> 01:26:41.380]  without the Disney stuff in there it's Netflix is a lot less compelling for
+[01:26:41.380 --> 01:26:45.460]  kids although I have to admit I have it you know my son's 15 and close to 16 I
+[01:26:45.460 --> 01:26:51.060]  haven't really looked for like you know stuff that 5 and 6 year olds watch a lot
+[01:26:51.060 --> 01:26:55.340]  of those 5 and 6 year old kids well a lot like I don't know if your son did
+[01:26:55.340 --> 01:27:00.060]  this but a lot of those teenagers and and older kids now grew up with the
+[01:27:00.060 --> 01:27:05.660]  Disney Channel shows like Suite Life of Zack and Cody or I don't I don't I've
+[01:27:05.660 --> 01:27:09.460]  named the only show I can think of but there's a bunch of Disney shows that
+[01:27:09.460 --> 01:27:13.640]  kids feel great nostalgia for them and that makes the catalog valuable so I
+[01:27:13.640 --> 01:27:19.040]  think Netflix is number one now Apple you have to include Apple in the short
+[01:27:19.040 --> 01:27:23.060]  list of streaming services that are gonna survive and be around for the long
+[01:27:23.060 --> 01:27:29.980]  haul and Disney Plus clearly but now you get to HBO and and you wonder are they
+[01:27:29.980 --> 01:27:34.300]  gonna get squeezed out or or will we have enough room for the four and then
+[01:27:34.300 --> 01:27:39.140]  is it can we have enough room for ten giant streaming services is Hulu gonna
+[01:27:39.140 --> 01:27:44.580]  have a problem you know HBO is sort of the apple of original content where
+[01:27:44.580 --> 01:27:48.260]  they're smaller they have fewer subscribers you know compared to
+[01:27:48.260 --> 01:27:54.260]  broadcast cable networks and they've always gotten by fundamentally on the
+[01:27:54.260 --> 01:27:59.580]  very simple notion that their stuff is better you know that's their slogan it's
+[01:27:59.580 --> 01:28:08.180]  not TV it's I forget which way it goes if it's it's not yeah and it's true from
+[01:28:08.180 --> 01:28:13.100]  in my opinion you know like their original shows really set the bar they
+[01:28:13.100 --> 01:28:19.420]  created these these shows that are movie quality as opposed you know that and and
+[01:28:19.420 --> 01:28:23.860]  you get people now like you know nobody bats an eye that Jennifer Aniston who's
+[01:28:23.860 --> 01:28:27.700]  still a big box-office stars doing you know and Steve Carell and Reese
+[01:28:27.700 --> 01:28:32.780]  Witherspoon would do a TV show like 15 20 years ago that was unheard of you
+[01:28:32.780 --> 01:28:36.900]  know you're a star you were you were in the playing in the major leagues and if
+[01:28:36.900 --> 01:28:42.820]  you're a TV star you were in like AAA well it's the decline of movies too I
+[01:28:42.820 --> 01:28:47.060]  think people don't go to movies nearly as as often as they used to because they
+[01:28:47.060 --> 01:28:51.860]  have all these they have great TVs in their living rooms and they have all
+[01:28:51.860 --> 01:28:56.180]  this content and for adults the movies that are getting made aren't like what
+[01:28:56.180 --> 01:29:00.300]  they used to be they're really more you know Martin Scorsese drew criticism but
+[01:29:00.300 --> 01:29:03.940]  I think he was very right where he was he wasn't being disdainful like that's
+[01:29:03.940 --> 01:29:07.180]  the thing is that if you just read the headline you think Martin Scorsese took
+[01:29:07.180 --> 01:29:12.620]  a shit on the the Marvel Marvels he didn't take a shit on them all he was
+[01:29:12.620 --> 01:29:16.660]  saying you know when he compared them to theme parks and from from what he's
+[01:29:16.660 --> 01:29:21.260]  talking about cinema as being they are but theme park he's not saying theme
+[01:29:21.260 --> 01:29:25.300]  parks aren't a hell of a lot of fun they are fun they're great to go to but it's
+[01:29:25.300 --> 01:29:33.500]  not you know it's not cinema right you can you can love and I like the the the
+[01:29:33.500 --> 01:29:39.300]  the Marvel franchise very much I don't like every one of them but you know but
+[01:29:39.300 --> 01:29:44.460]  I overall like it a lot I tend to go to see them in the actual theaters but I
+[01:29:44.460 --> 01:29:49.340]  tend to you know one of the reasons I go to the theater to see the like Avengers
+[01:29:49.340 --> 01:29:52.700]  movies and stuff like that is because it is sort of like a theme park and you
+[01:29:52.700 --> 01:29:58.140]  want to see it real big and super loud you know it's not at all like an adult
+[01:29:58.140 --> 01:30:04.820]  drama and a lot of that stuff is moved to TV shows yeah I think about Good
+[01:30:04.820 --> 01:30:10.180]  Fellas which is one of my all-time favorite movies the the Godfather and
+[01:30:10.180 --> 01:30:15.460]  there's a theme here I think but but I you know I love I love those movies and
+[01:30:15.460 --> 01:30:19.940]  and there but they're they're different than the entertainment that is more
+[01:30:19.940 --> 01:30:24.020]  generally available now and there's being produced now nothing like nothing
+[01:30:24.020 --> 01:30:28.380]  like the Marvel movies I can't are you excited about the Irishman we can't
+[01:30:28.380 --> 01:30:33.140]  mention Scorsese and Goodfellas and not mention that I and we're talking about
+[01:30:33.140 --> 01:30:39.380]  Netflix I hope I hope it's as good as it could be well there's the reviews are
+[01:30:39.380 --> 01:30:44.360]  excellent really really excellent but so Netflix is in its position where they've
+[01:30:44.360 --> 01:30:50.300]  gotten so big that they're literally bankrolling a hundred million plus
+[01:30:50.300 --> 01:30:57.780]  dollar budget Martin Scorsese movies with all these stars and it is you know
+[01:30:57.780 --> 01:31:03.460]  it's these weird just the way rules hang on like to be considered for an Oscar
+[01:31:03.460 --> 01:31:07.060]  it has to have like an exclusive period where it's playing on actual movie
+[01:31:07.060 --> 01:31:12.180]  theaters screens so the Irishman will be in movie theaters exclusively before
+[01:31:12.180 --> 01:31:15.660]  it's on Netflix even though Netflix with most of their stuff as soon as it's
+[01:31:15.660 --> 01:31:20.580]  ready there it is stream it all yeah here's ten episodes of our show you can
+[01:31:20.580 --> 01:31:25.620]  watch them all tonight do you think that in say ten years do you think the Oscars
+[01:31:25.620 --> 01:31:29.940]  will exist anymore do you think always be the Oscars yeah will it change no
+[01:31:29.940 --> 01:31:33.320]  they'll figure out a way I think there's always gonna be movies I mean whether I
+[01:31:33.320 --> 01:31:38.340]  whether they're gonna maintain the rule that it has to be in a cinema theater
+[01:31:38.340 --> 01:31:42.900]  before you know to be I'm sure they'll change the rules for of consideration
+[01:31:42.900 --> 01:31:47.820]  but I think the Oscars will remain because I don't think I who knows I
+[01:31:47.820 --> 01:31:50.700]  could be wrong but I don't think movies will stop and I don't think being a
+[01:31:50.700 --> 01:31:55.020]  movie star will stop being the thing I just think it's shifting I just think
+[01:31:55.020 --> 01:32:02.380]  that the shift from actual theater theaters to watching more and more first
+[01:32:02.380 --> 01:32:08.900]  run movies on home theaters is inevitable and it's fine I mean part of
+[01:32:08.900 --> 01:32:12.420]  that is me being older I mean like the social aspect like when I was a teenager
+[01:32:12.420 --> 01:32:16.140]  going to movie with a bunch of friends was like the best that was just
+[01:32:16.140 --> 01:32:22.620]  absolutely fantastic like I specifically remember like which theater in the area
+[01:32:22.620 --> 01:32:27.480]  we went to see Die Hard we're at you know I remember the theater it was the
+[01:32:27.480 --> 01:32:33.660]  Fox North theater and in Reading Pennsylvania where I saw Die Hard just
+[01:32:33.660 --> 01:32:38.340]  it was like this that was living for me you know that this is living the high
+[01:32:38.340 --> 01:32:44.220]  life is being like a 13 year old going to see an r-rated excellent classic who
+[01:32:44.220 --> 01:32:47.160]  knew we didn't know it at the time but you know an excellent adventure movie
+[01:32:47.160 --> 01:32:53.380]  like Die Hard in a big theater with all my pals you know that was great now I'm
+[01:32:53.380 --> 01:32:57.580]  a crufty old man I want to be left alone and I want to watch movies in the
+[01:32:57.580 --> 01:33:02.180]  privacy of my own home and you you also want subtitles and you want to be able
+[01:33:02.180 --> 01:33:05.580]  to pause it when you want to pause it all right oh yeah yeah cuz I can't hold
+[01:33:05.580 --> 01:33:09.580]  my I can't hold my urine for that long
+[01:33:09.780 --> 01:33:14.420]  yeah well that's fair I mean that is a thing I guess I can I do still go to
+[01:33:14.420 --> 01:33:17.980]  theaters and I don't want to meet I'll go see Star Wars when it opens you know
+[01:33:17.980 --> 01:33:22.340]  I but I have to like strategically plan my caffeine and take before going to the
+[01:33:22.340 --> 01:33:25.660]  movies so that I'm right so that I'm not afraid to be all right let me take a
+[01:33:25.660 --> 01:33:32.540]  break here and thank our next sponsor my good friends at Linode Linode is a
+[01:33:32.540 --> 01:33:36.580]  server hosting company and they're proud to announce their newest data center in
+[01:33:36.580 --> 01:33:40.860]  Toronto Canada is open and they've got one in Mumbai I think it's open actually
+[01:33:40.860 --> 01:33:44.460]  so that maybe that's the newest one but they're opening data centers all around
+[01:33:44.460 --> 01:33:50.780]  the world very important because you think I'm a nerd you want one close to
+[01:33:50.780 --> 01:33:54.460]  you low latency but guess what there's also legal considerations depending on
+[01:33:54.460 --> 01:33:58.740]  your business and what you do you might need legally based on your business to
+[01:33:58.740 --> 01:34:03.100]  have a data center in the legal jurisdiction where your business is
+[01:34:03.100 --> 01:34:06.860]  that's why Linode is expanding all around the world in addition to the
+[01:34:06.860 --> 01:34:13.100]  advantages of being close for latency reasons anything you can imagine that
+[01:34:13.100 --> 01:34:17.040]  needs a server you can build it on Linode things that are small like you
+[01:34:17.040 --> 01:34:22.020]  want to just pay I don't know a couple bucks a month to host your blog or
+[01:34:22.020 --> 01:34:25.900]  you're running a big business and you want to have hundreds of servers
+[01:34:25.900 --> 01:34:30.740]  available at the highest scale you can build it on Linode dedicated CPUs
+[01:34:30.740 --> 01:34:35.580]  distributed applications hosted services tiny little websites anything you can
+[01:34:35.580 --> 01:34:40.740]  imagine you can do at Linode all of their servers feature native SSD storage
+[01:34:40.740 --> 01:34:46.060]  very important every one of them is on a 40 gigabit network they use great
+[01:34:46.060 --> 01:34:51.060]  industry leading processors they have great technical support data centers all
+[01:34:51.060 --> 01:34:55.660]  around the world and you pay for what you use with hourly billing across all
+[01:34:55.660 --> 01:35:01.700]  plans and you can manage your costs very effectively their tools make it easy to
+[01:35:01.700 --> 01:35:07.220]  provision secure monitor back up your cloud if you know you only need extra
+[01:35:07.220 --> 01:35:14.540]  amount of bandwidth and servers because you have a big launch coming you can
+[01:35:14.540 --> 01:35:19.360]  scale up pay for what you use and then when traffic recedes the big event is
+[01:35:19.360 --> 01:35:23.620]  over the big debut or whatever the event thing is you go right back down and you
+[01:35:23.620 --> 01:35:28.260]  just pay for what you use and it's all really really easy to manage they have a
+[01:35:28.260 --> 01:35:35.700]  new cloud manager with a great new user interface at cloud.linode.com it's open
+[01:35:35.700 --> 01:35:41.140]  source it's a single page app built using cutting-edge react.js backed up
+[01:35:41.140 --> 01:35:45.660]  entirely by their public beta API they have an API for all this stuff really
+[01:35:45.660 --> 01:35:50.460]  great as nerdy as you might be listening as to this show you're you could go all
+[01:35:50.460 --> 01:35:55.020]  the way to the depths of system administration nerdery at Linode if you
+[01:35:55.020 --> 01:35:59.620]  just want to do something simple you just want to get a get a SSH connection
+[01:35:59.620 --> 01:36:04.500]  to a server where you can put files and host a simple blog Linode works great
+[01:36:04.500 --> 01:36:10.500]  for that too and you get a $20 credit when you use promo code talk show 2019
+[01:36:10.500 --> 01:36:18.300]  talk show 2019 go to linode.com slash the talk show so the URL is linode.com
+[01:36:18.300 --> 01:36:23.220]  slash the talk show but when you want to get the $20 credit remember that code
+[01:36:23.220 --> 01:36:28.780]  talk show 2019 they have a $5 a month plan you get four months for free using
+[01:36:28.780 --> 01:36:34.140]  just that code four months anyway my thanks to Linode for sponsoring the show
+[01:36:34.140 --> 01:36:39.500]  I don't know how we say well how do we segue there Dave from the air pods to
+[01:36:39.500 --> 01:36:43.780]  the streaming stuff it was seamless I don't remember doing it I don't remember
+[01:36:43.780 --> 01:36:47.580]  doing it but we went seamlessly is there anything more on the air pods that we
+[01:36:47.580 --> 01:36:51.740]  have left to talk about I don't want to keep moving down the list but you know
+[01:36:51.740 --> 01:36:55.420]  hang on let me go back to your piece because that's really where I was
+[01:36:55.420 --> 01:37:02.620]  drawing right so the the force sensor that so there's like a flat section on
+[01:37:02.620 --> 01:37:07.660]  the earbud earbud stem that faces forward right the best way to think
+[01:37:07.660 --> 01:37:11.140]  about it is like the new the second generation Apple pencil the way there's
+[01:37:11.140 --> 01:37:18.900]  a flat side of the Apple pencil right so this stem of the the air pod air pods
+[01:37:18.900 --> 01:37:24.580]  pro buds summit somebody say that three times some of this pluralization is is
+[01:37:24.580 --> 01:37:29.540]  tough is sort of like that it's not quite because it's not flat all the way
+[01:37:29.540 --> 01:37:34.180]  it kind of goes back to round at the very end but I think it's the closest I
+[01:37:34.180 --> 01:37:37.940]  can come to describing it there's a flat part of it that's very distinct you can
+[01:37:37.940 --> 01:37:42.940]  feel it I'm feeling one right now it's it's very flat and it it faces forward
+[01:37:42.940 --> 01:37:46.500]  when you have them in your ears and so you just pinch it and it and it feels
+[01:37:46.500 --> 01:37:51.060]  like a button and and it plays a click as you were describing before but it
+[01:37:51.060 --> 01:37:55.220]  plays it in whatever ear you're touching right yep so if you click click the
+[01:37:55.220 --> 01:37:58.940]  button you know put that in quotes if you want click the button on your left
+[01:37:58.940 --> 01:38:04.660]  air pods pro bud it'll play a click sound in your left ear and it the
+[01:38:04.660 --> 01:38:09.620]  latency is so low and so responsive to the actual squeeze of your attempted
+[01:38:09.620 --> 01:38:14.140]  click that it it I swear it's gonna it maybe it's just me I don't know I haven't
+[01:38:14.140 --> 01:38:18.260]  talked to other people but I swear it you'll you'll be convinced that the but
+[01:38:18.260 --> 01:38:22.420]  it's actually an actual button that actually clicks so another piece of this
+[01:38:22.420 --> 01:38:29.260]  is the the sort of ear the things that go in your ear canal that that that have
+[01:38:29.260 --> 01:38:34.500]  small medium and large yes what do you call that they're called tips yeah so
+[01:38:34.500 --> 01:38:42.700]  the tips actually like at most air air pod or ear pod type things they they
+[01:38:42.700 --> 01:38:47.660]  sort of you have to sort of squeeze them on and and turn them until you just get
+[01:38:47.660 --> 01:38:50.980]  them to fit on to the thing and then you put them in your ears but these like
+[01:38:50.980 --> 01:38:56.420]  click yeah right are they and they're there the base the part that connects is
+[01:38:56.420 --> 01:39:01.060]  oval shaped they're not spherical or not not round not circles they are there
+[01:39:01.060 --> 01:39:06.700]  they're ovals and so I there's no upside or downside but you just orient the oval
+[01:39:06.700 --> 01:39:10.460]  the right way it's pretty obvious and then you press it in and it clicks in
+[01:39:10.460 --> 01:39:15.920]  and the click is very clicky and I you know I've taken them on and off quite a
+[01:39:15.920 --> 01:39:20.380]  bit in the last day because I've tried these multiple sizes of the tips and I
+[01:39:20.380 --> 01:39:25.340]  had my son try multiple sizes of the tips and you once you get the hang of it
+[01:39:25.340 --> 01:39:29.940]  it's pretty easy but the clicking it on is it never seems to be like halfway on
+[01:39:29.940 --> 01:39:37.140]  it's a lot physically it doesn't resemble it at all but it's in the way
+[01:39:37.140 --> 01:39:42.100]  that Apple obviously spent a lot of time on every one of their Apple watch straps
+[01:39:42.100 --> 01:39:47.580]  that the whatever it is that that connects it it's it's very clearly
+[01:39:47.580 --> 01:39:52.180]  connected do you know what I mean like yeah no I do that that was what I was
+[01:39:52.180 --> 01:39:57.140]  asking you so it like clicks into place yeah and it's like snaps in it and it's
+[01:39:57.140 --> 01:40:01.740]  it seems like it's impossible to do it wrong like and to me wrong would be like
+[01:40:01.740 --> 01:40:07.140]  I've had things not necessarily earbuds in particular but sometimes with
+[01:40:07.140 --> 01:40:10.100]  putting earbuds on where it's like you're not certain whether you got it on
+[01:40:10.100 --> 01:40:14.580]  right or maybe you got half of it on like there's two tabs that are both
+[01:40:14.580 --> 01:40:19.600]  supposed to click into place and you only click the one in and so it's you
+[01:40:19.600 --> 01:40:25.240]  heard a click it's on but inadvertently unknown to you it's really only half on
+[01:40:25.240 --> 01:40:28.500]  it might come off it doesn't seem like that's possible it either clicks in if
+[01:40:28.500 --> 01:40:33.700]  it clicks it's in and if it doesn't click you don't have it on yet so have
+[01:40:33.700 --> 01:40:38.540]  you listened to music on these things yet yes okay so if you were going to
+[01:40:38.540 --> 01:40:42.580]  compare I don't know if you can do this but can you compare the air pods with
+[01:40:42.580 --> 01:40:46.500]  the air pods Pro is there do you have any sense of are they the same musically
+[01:40:46.500 --> 01:40:50.380]  I'm not a I don't want to pass judgment on that and that and I'm not trying to
+[01:40:50.380 --> 01:40:58.580]  be coy or I just don't have audio file I don't know they both sound good to me
+[01:40:58.580 --> 01:41:04.140]  and the difference I hear isn't in what I'm able to judge and perceive and
+[01:41:04.140 --> 01:41:12.540]  describe and put into words is the noise cancelling type part and the this sound
+[01:41:12.540 --> 01:41:16.580]  makes the music sound good or rich or the bass is too high or something like
+[01:41:16.580 --> 01:41:19.860]  that I'm not really good at I can't really say I thought music sounded
+[01:41:19.860 --> 01:41:25.340]  great with them and but the difference between them and regular air pods to me
+[01:41:25.340 --> 01:41:32.220]  is that's fine I won't put you on the hook I was more curious if there was so
+[01:41:32.220 --> 01:41:38.740]  at the very least like look at for me it's like this imagine you have two two
+[01:41:38.740 --> 01:41:45.980]  pieces of ham okay and I'm imagining all right and you're and on the one piece of
+[01:41:45.980 --> 01:41:52.900]  ham you you dump an entire container of salt and now you want me to tell you
+[01:41:52.900 --> 01:41:56.680]  which is the better piece of ham I can't tell you because all I can taste is the
+[01:41:56.680 --> 01:42:02.620]  salt right okay that to me is noise cancellation like so to me comparing the
+[01:42:02.620 --> 01:42:06.900]  regular air pods to the air pods Pro all I can think about is the noise
+[01:42:06.900 --> 01:42:10.460]  cancellation aspects and the transparency aspects like I'm just not
+[01:42:10.460 --> 01:42:14.820]  good and in general even if you didn't dump the salt I'm not real good at
+[01:42:14.820 --> 01:42:19.740]  telling you like I don't know this ham tastes good and this ham tastes bad but
+[01:42:19.740 --> 01:42:22.940]  I can't tell you what it is about this ham that tastes good that's different
+[01:42:22.940 --> 01:42:26.020]  from this other ham that tastes good at least with music wag with ham I'd
+[01:42:26.020 --> 01:42:29.820]  actually probably be better at it but but it's fair to say that when you're
+[01:42:29.820 --> 01:42:37.620]  spending the $250 you're you're really paying for the I mean the splash
+[01:42:37.620 --> 01:42:41.980]  resistance well I don't know and and the and the noise cancel I honestly don't
+[01:42:41.980 --> 01:42:48.260]  know I I'm such a bad judge of this you know I just don't I don't know I don't
+[01:42:48.260 --> 01:42:52.980]  have strong opinions on the hot you know like Marco Arment for example so for all
+[01:42:52.980 --> 01:42:56.860]  I know maybe I don't want to say it one way or the other maybe people who do
+[01:42:56.860 --> 01:43:01.540]  have very discerning taste in the music reproduction of headphones and can say
+[01:43:01.540 --> 01:43:05.980]  things like rock and roll classic rock and roll sounds great on these headphones
+[01:43:05.980 --> 01:43:12.060]  but classical music is really ruined because the treble is so weak or it
+[01:43:12.060 --> 01:43:15.540]  loses the woodwinds or something like that I don't know how to talk about
+[01:43:15.540 --> 01:43:20.060]  music like that but for all I know people like that will put these in and
+[01:43:20.060 --> 01:43:23.420]  say these are fantastic these are the music reproduction blows away the other
+[01:43:23.420 --> 01:43:26.740]  air pods forget about the noise cancellation I don't at the very at the
+[01:43:26.740 --> 01:43:31.260]  very least you're getting the the noise cancellation and the splash resistance
+[01:43:31.260 --> 01:43:35.940]  and the other you know the and I think I think music sounds great it sounds very
+[01:43:35.940 --> 01:43:39.620]  good to me and music may be another bonus we just don't know yet until we
+[01:43:39.620 --> 01:43:42.900]  hear from for more of an audiophile I would review I would guess from
+[01:43:42.900 --> 01:43:47.940]  anybody's review though that by the standards of earbuds wireless earbuds or
+[01:43:47.940 --> 01:43:53.580]  earbuds in general really that they're very good sounding I mean us are sealed
+[01:43:53.580 --> 01:43:59.700]  better right way better I mean it's like night and day so I would think that you
+[01:43:59.700 --> 01:44:03.220]  know that people who really care about the music reproduction would prefer
+[01:44:03.220 --> 01:44:08.940]  these two regular air pods but I don't want to pass judgment on it and the case
+[01:44:08.940 --> 01:44:16.740]  as far as what one thing I heard was that the case stays open I don't know if
+[01:44:16.740 --> 01:44:21.180]  you ever did this thing but there's a thing that for a while people did with
+[01:44:21.180 --> 01:44:25.740]  their original it does I see that I have I have both of mine in front of me right
+[01:44:25.740 --> 01:44:30.500]  now so let me ask you this question with the old air pods cases what people used
+[01:44:30.500 --> 01:44:34.660]  to do and I I've done it but it's just not good enough with the original air
+[01:44:34.660 --> 01:44:39.420]  pods you know with the air even gen 2 case it doesn't stay open and you could
+[01:44:39.420 --> 01:44:44.660]  if you opened it you could put your iPhone on the short end and lean it back
+[01:44:44.660 --> 01:44:51.380]  against the bigger piece so you have like a little cheapo air iPhone stand I
+[01:44:51.380 --> 01:44:56.340]  don't know if this makes sense people talk about that but do you have to put
+[01:44:56.340 --> 01:45:01.940]  it like upside down no you you you put it with this with the opening face up
+[01:45:01.940 --> 01:45:06.300]  and then you open it so it bends so it makes a little triangle I'm trying this
+[01:45:06.300 --> 01:45:10.180]  right now and then you and then you put the other and I I saw somebody post
+[01:45:10.180 --> 01:45:14.260]  about this and I wondered if the new case because it stayed open would be
+[01:45:14.260 --> 01:45:19.700]  more stable maybe it is yeah you can kind of yeah so you put it I wouldn't
+[01:45:19.700 --> 01:45:23.060]  but it still feels like it's gonna drop it I wouldn't want to put my iPhone in
+[01:45:23.060 --> 01:45:26.780]  there it feels like something's gonna fall over and then it's gonna fall on
+[01:45:26.780 --> 01:45:31.580]  the floor yeah and that I think if you do that you're gonna like this case
+[01:45:31.580 --> 01:45:36.300]  better but I I would still never do that yeah I was just I was just curious but
+[01:45:36.300 --> 01:45:40.940]  it does open so what what's the or it does stay open what's the purpose of it
+[01:45:40.940 --> 01:45:45.220]  staying open is it I don't think any sense of it I don't playing with it
+[01:45:45.220 --> 01:45:48.660]  right here in front of me I don't think that's a function of that they did that
+[01:45:48.660 --> 01:45:53.260]  on purpose I think that it's just because it's shorter you know it's
+[01:45:53.260 --> 01:45:59.300]  shorter and wider and so because that access of the triangle when it's open is
+[01:45:59.300 --> 01:46:06.380]  shorter it it doesn't have the it it doesn't close the clasp the way that the
+[01:46:06.380 --> 01:46:11.780]  other one does okay and how about go ahead sorry no I it's an it I it's an
+[01:46:11.780 --> 01:46:15.100]  interesting question but I think it's just the nature that it's such a
+[01:46:15.100 --> 01:46:20.520]  different dimensioned case you know effectively if you want to compare the
+[01:46:20.520 --> 01:46:25.020]  two cases you have to turn the new one on the side because it's so much wider
+[01:46:25.020 --> 01:46:29.180]  and so much squatter that it's only when you turn it on the side do they look
+[01:46:29.180 --> 01:46:34.900]  like they're roughly in the same XY and C dimensions interesting how about the
+[01:46:34.900 --> 01:46:42.760]  the does the interior of the sort of imagine the area around where your
+[01:46:42.760 --> 01:46:47.220]  airpod is going to drop so that you know it's sort of a the opening but the area
+[01:46:47.220 --> 01:46:51.280]  the shelf around the opening is that look the same on the old case and the
+[01:46:51.280 --> 01:46:57.440]  new case or is there like a piece of material there I had it looked like it
+[01:46:57.440 --> 01:47:03.220]  could be that from the pictures I saw the hinge is bigger there's a more of it
+[01:47:03.220 --> 01:47:07.260]  some and the hinge sticks up it's it's quite different I mean you would never
+[01:47:07.260 --> 01:47:10.980]  ever confuse the two cases I mean it's just very different but it you know it
+[01:47:10.980 --> 01:47:15.780]  seems to open and shut about the same you know here here's the one here's the
+[01:47:15.780 --> 01:47:22.100]  other you know they sound the same they do yeah it isn't one thing that's a
+[01:47:22.100 --> 01:47:28.620]  little different and takes getting used to is on the old one the stems go in in
+[01:47:28.620 --> 01:47:34.140]  the center of the case and in the new one the stems go in on the outside and
+[01:47:34.140 --> 01:47:39.180]  so I try I trusting I keep trying to put them in the wrong way because I've got
+[01:47:39.180 --> 01:47:43.940]  two or three years of habit the other way oh the other thing I said I did I
+[01:47:43.940 --> 01:47:46.620]  forgot I can't believe I forgot to mention this in my review here's my
+[01:47:46.620 --> 01:47:53.060]  first original observation on the show the new air pods Pro are way easier to
+[01:47:53.060 --> 01:47:57.020]  get in and out of the case or at least out of the case like there's no you just
+[01:47:57.020 --> 01:48:01.660]  come in from the back and and pull them out there what you don't have to kind of
+[01:48:01.660 --> 01:48:06.940]  pop them out you can just pinch them and they come right out so you do you do you
+[01:48:06.940 --> 01:48:12.060]  have the more of an ability to grab on to them as your thumb and forefinger yes
+[01:48:12.060 --> 01:48:15.860]  if you come in from the back you have way more of an ability to grab on to
+[01:48:15.860 --> 01:48:19.500]  them with your thumb and forefinger don't do it side to side do it back to
+[01:48:19.500 --> 01:48:24.420]  front and that they come right out interesting well I can't wait to get
+[01:48:24.420 --> 01:48:31.100]  mine did you pre-order I did not because I don't do that I I'm just slow well
+[01:48:31.100 --> 01:48:34.520]  you're gonna you're gonna get can you get the other air pods engraved or is it
+[01:48:34.520 --> 01:48:39.420]  only the air pods Pro that you can get engraved I mine I'm looking at my Gen
+[01:48:39.420 --> 01:48:44.780]  2 and mine says dark mode Dave I really like and I'm gonna do the same but I
+[01:48:44.780 --> 01:48:48.860]  maybe I'll have to say dark mode Dave Pro or see I get paralyzed by a
+[01:48:48.860 --> 01:48:53.780]  decision like that like I don't know I don't know what to get engraved see like
+[01:48:53.780 --> 01:48:56.540]  my wife wouldn't hesitate if my wife's gonna get something grave she's gonna
+[01:48:56.540 --> 01:49:00.660]  get her initials and that's it there she goes she you know
+[01:49:00.660 --> 01:49:05.160]  where's me it's like what should I do should I do something cute should I see
+[01:49:05.160 --> 01:49:09.860]  should I type in like the Unicode symbol for the star and circle and see if
+[01:49:09.860 --> 01:49:14.460]  they'll print that on them should I like that actually I just have it say Gruber
+[01:49:14.460 --> 01:49:18.200]  I'm gonna guess that they don't let you I think I tried to get something you
+[01:49:18.200 --> 01:49:22.060]  know Apple's been offering engraved stuff since the iPods at some point I
+[01:49:22.060 --> 01:49:26.780]  did try that and it was like special characters are not allowed I'd say live
+[01:49:26.780 --> 01:49:30.620]  on the edge because you know that in a year you're gonna have something new so
+[01:49:30.620 --> 01:49:35.180]  yeah it'll be a short-term thing if you don't like it they'll be you'll live
+[01:49:35.180 --> 01:49:39.500]  with it for a short term and it's not gonna affect the functionality of them
+[01:49:39.500 --> 01:49:44.580]  one question a couple people had a friends you know but uh friends asked
+[01:49:44.580 --> 01:49:48.380]  whether there would be whether Apple is gonna release the specs for the
+[01:49:48.380 --> 01:49:54.100]  connectors for the tips so that third parties could make tips interesting and
+[01:49:54.100 --> 01:50:02.020]  I could think of two reasons for that one would be what if you don't like the
+[01:50:02.020 --> 01:50:06.820]  feel of any of the three tips that Apple provides and it seems to me like they're
+[01:50:06.820 --> 01:50:12.260]  small medium and large are pretty at first glance they look pretty close and
+[01:50:12.260 --> 01:50:15.960]  then when you start thinking about how how they feel you can kind of feel the
+[01:50:15.960 --> 01:50:19.320]  difference you know like when I tried the small ones it they definitely felt
+[01:50:19.320 --> 01:50:23.260]  loose in my ear and I wasn't surprised at all that the that the software your
+[01:50:23.260 --> 01:50:29.980]  fit test said hey you should try a different size but maybe there's you
+[01:50:29.980 --> 01:50:34.020]  know I'm sure there's you know out of you know how many people are on the
+[01:50:34.020 --> 01:50:37.200]  planet now Dave for seven billion eight billion what do we have something
+[01:50:37.200 --> 01:50:40.260]  something like that you know there's surely there's some number of million
+[01:50:40.260 --> 01:50:44.220]  people who none of the three will fit and they might like a different type of
+[01:50:44.220 --> 01:50:51.300]  tip for fit reasons but I would also imagine that much like phone cases
+[01:50:51.300 --> 01:51:01.140]  people might enjoy putting colorful tips on and both for just sort of the fun of
+[01:51:01.140 --> 01:51:05.300]  having your own colored tips and the practical reason of if you know you're
+[01:51:05.300 --> 01:51:09.900]  in a family of multiple AirPods Pro users you might want to easily identify
+[01:51:09.900 --> 01:51:15.100]  who's or who's by the color of the tips I like that idea actually there's also
+[01:51:15.100 --> 01:51:18.740]  what if you lose them right what you want to have extras well the losing them
+[01:51:18.740 --> 01:51:22.220]  thing I asked Apple about and so I don't think you can buy them yet as far as I'd
+[01:51:22.220 --> 01:51:24.940]  searched and I couldn't but they said that they are going they said that they
+[01:51:24.940 --> 01:51:29.420]  were going to sell them replacement tips and that they would be cheap and they
+[01:51:29.420 --> 01:51:33.260]  actually use the word cheap and I don't know I ever heard someone from Apple
+[01:51:33.260 --> 01:51:38.900]  ever used the word cheap before I read somewhere $4 yeah I published that piece
+[01:51:38.900 --> 01:51:42.300]  so I thought yeah they because I was like you got to tell me how cheap how
+[01:51:42.300 --> 01:51:45.940]  cheap is cheap because Apple's version of cheap maybe not be cheap and then
+[01:51:45.940 --> 01:51:48.340]  they were like we'll get back to you and then they texted me and they're like
+[01:51:48.340 --> 01:51:52.180]  four dollars I think it's like 395 or something and I was like holy crap that
+[01:51:52.180 --> 01:51:56.660]  is cheap so that's great so if you do lose them or you wear them out and who
+[01:51:56.660 --> 01:51:59.780]  knows how they're gonna wear over time you know if they're gonna look gross
+[01:51:59.780 --> 01:52:03.260]  after a year or something like that you should be able to buy if what I was told
+[01:52:03.260 --> 01:52:06.520]  yesterday is correct you should be able to reply replace get replacements for
+[01:52:06.520 --> 01:52:12.220]  four bucks I asked and didn't get an answer at least yet whether the four
+[01:52:12.220 --> 01:52:18.280]  bucks gives you a set of all six to small medium and large or whether it's
+[01:52:18.280 --> 01:52:22.240]  four bucks and you have to say I'd like too small or too medium or too large I
+[01:52:22.240 --> 01:52:26.080]  don't know but even if you only get one you know if it's four bucks to get two
+[01:52:26.080 --> 01:52:29.700]  medium tips that still is a pretty good deal to me because you probably know
+[01:52:29.700 --> 01:52:34.660]  what size you need right right but on the other hand one of the things Apple
+[01:52:34.660 --> 01:52:40.500]  told me about the fit test is that it's totally prepared to recommend to you a
+[01:52:40.500 --> 01:52:47.020]  different size for your left ear and your right ear and so I would hope I
+[01:52:47.020 --> 01:52:49.940]  mean just you know why not it would be great if you got all three for four
+[01:52:49.940 --> 01:52:53.940]  bucks so that if you like a small in your left and a medium in your right you
+[01:52:53.940 --> 01:52:58.620]  don't have to buy two sets I don't know but anyway they're going to sell
+[01:52:58.620 --> 01:53:02.640]  replacements as for whether they're going to help third parties make them
+[01:53:02.640 --> 01:53:06.740]  they had no answer so I don't know but I don't think it seems like the sort of
+[01:53:06.740 --> 01:53:11.700]  engineering problem that the sort of companies that would make third-party
+[01:53:11.700 --> 01:53:17.740]  tips or cases or watch straps you know that they specialize in figuring stuff
+[01:53:17.740 --> 01:53:21.700]  like that out and it doesn't seem like a tricky connector so I would guess that
+[01:53:21.700 --> 01:53:28.620]  with or without Apple's help there will be third-party tips for AirPods Pro so
+[01:53:28.620 --> 01:53:33.340]  so controversial question okay all right no no ask me I'm just saying I would
+[01:53:33.340 --> 01:53:37.260]  like credit though in the future when it becomes a thing that people have like
+[01:53:37.260 --> 01:53:44.460]  hot pink tips and you know Washington Nationals World Championship 2019 tips
+[01:53:44.460 --> 01:53:48.020]  and stuff like that I want everybody to say you know Gruber thought of that
+[01:53:48.020 --> 01:53:52.220]  before that was a even a thing I like it I like it we'll call them Gruber tips
+[01:53:52.220 --> 01:53:56.940]  all right controversial you say so yeah so I've been saying this a long time and
+[01:53:56.940 --> 01:54:00.600]  I get so much pushback especially from Jim when we talk about it on the Dow
+[01:54:00.600 --> 01:54:11.060]  report but I am not a fan of how disposable the original AirPods have
+[01:54:11.060 --> 01:54:15.660]  have become when you know when my battery started to die of the first gen
+[01:54:15.660 --> 01:54:19.540]  and I before I got that I I think my battery started to die about a month
+[01:54:19.540 --> 01:54:24.600]  before they announced the second gen so when the second gen hit I was like I
+[01:54:24.600 --> 01:54:29.100]  was my finger was hovering over the order button my wife was to my wife is
+[01:54:29.100 --> 01:54:32.940]  probably in the same boat as you and she wears them to the gym almost every day
+[01:54:32.940 --> 01:54:36.300]  yeah I mean she wears them to the gym every day she goes every day she goes to
+[01:54:36.300 --> 01:54:39.660]  the gym and she goes to the gym almost every day or exercises in some ways and
+[01:54:39.660 --> 01:54:43.140]  and she wears them while she cooks and you know she really wears them way more
+[01:54:43.140 --> 01:54:47.700]  than I do same with me I wear them when I cook I wear them when I'm just doing
+[01:54:47.700 --> 01:54:55.660]  my stuff around the house okay so I I don't like the fact that I there's no
+[01:54:55.660 --> 01:54:59.300]  way to take them apart there's no way for Apple to take them apart as far as I
+[01:54:59.300 --> 01:55:04.220]  know they Apple can sort of crush them and and retrieve some materials maybe
+[01:55:04.220 --> 01:55:09.140]  but but they can't open them replace the batteries close them and say here you go
+[01:55:09.140 --> 01:55:15.380]  and charge me money they charge me money and give me a new set right they don't
+[01:55:15.380 --> 01:55:21.780]  so my question is I saw a text the Apple put this out in the video but I saw a
+[01:55:21.780 --> 01:55:30.740]  text from Panzer about showing the exploded view of the of the AirPods Pro
+[01:55:30.740 --> 01:55:34.540]  you know just like every single component was in this picture but in an
+[01:55:34.540 --> 01:55:37.820]  exploded view you know you saw everything in it but it looked like it
+[01:55:37.820 --> 01:55:43.140]  opened really cleanly like it looked different I'd you know it just felt like
+[01:55:43.140 --> 01:55:47.620]  maybe there's a way that they can actually take this apart and that it's
+[01:55:47.620 --> 01:55:51.980]  not just filled with glue you know that so that there's no way to open them and
+[01:55:51.980 --> 01:55:56.820]  the fact I think part of it for me was I saw that you could snap off that the
+[01:55:56.820 --> 01:56:02.100]  tips that that they you didn't pull them off like you know they they clicked into
+[01:56:02.100 --> 01:56:05.580]  place they snapped into place and I thought I wonder if there's new thinking
+[01:56:05.580 --> 01:56:10.320]  from Apple on this and do you have any sense of this at all is it exactly the
+[01:56:10.320 --> 01:56:15.420]  same the single piece construction as the old AirPods I'm gonna do this one as
+[01:56:15.420 --> 01:56:20.580]  a cliffhanger and I'm taking a break here to thank our third and final
+[01:56:20.580 --> 01:56:28.320]  sponsor of the show return after all quite a hiatus I will call it but a long
+[01:56:28.320 --> 01:56:32.900]  ago sponsor of the show hello fresh what is hello fresh it's a meal kit delivery
+[01:56:32.900 --> 01:56:36.240]  service that shops plans and delivers step-by-step recipes and pre-measured
+[01:56:36.240 --> 01:56:44.740]  ingredients so you can just cook eat and enjoy we are hello fresh users here in
+[01:56:44.740 --> 01:56:49.100]  the Gruber household we enjoy their food it is great it is really really it's
+[01:56:49.100 --> 01:56:53.860]  really good food it really is I the biggest thing for me before we started
+[01:56:53.860 --> 01:56:58.780]  getting stuff like this was like if they're gonna pick out the vegetables
+[01:56:58.780 --> 01:57:01.500]  are they gonna come and be like the weird-looking vegetables are they gonna
+[01:57:01.500 --> 01:57:04.500]  be good-looking vegetables that everything that comes looks great it
+[01:57:04.500 --> 01:57:08.900]  looks exactly like that sort of produce that somebody who's picking by hand would
+[01:57:08.900 --> 01:57:15.260]  pick really great and they have everything you could want they've got
+[01:57:15.260 --> 01:57:19.340]  the classic menu they've got veggie menu so if you want vegetarian food they've
+[01:57:19.340 --> 01:57:23.540]  got you covered and family for the difference for families with you know
+[01:57:23.540 --> 01:57:28.500]  like small kids each box is made up of fresh responsibly obtained ingredients
+[01:57:28.500 --> 01:57:32.560]  from carefully selected farms and high rated trusted sources you can make
+[01:57:32.560 --> 01:57:37.380]  family dinners fuss free with hello fresh is picky eater kid tested and
+[01:57:37.380 --> 01:57:42.780]  approved family plan recipes if you have had little kids or have them now you
+[01:57:42.780 --> 01:57:45.580]  know exactly what they're talking about well they've got you covered they're
+[01:57:45.580 --> 01:57:50.680]  thinking about you and your kids and what they want to eat you can make your
+[01:57:50.680 --> 01:57:56.540]  family dinners so much fun so much easier each week there's a 20-minute
+[01:57:56.540 --> 01:57:59.460]  meal on the classic menu for when you really don't have more time than that
+[01:57:59.460 --> 01:58:04.540]  20 minutes just to start to finish and you're eating because they know people
+[01:58:04.540 --> 01:58:07.180]  are busy sometimes the reason you don't cook dinner is because you don't have
+[01:58:07.180 --> 01:58:11.700]  time guess what 20 minutes on the classic menu ready to go you can look
+[01:58:11.700 --> 01:58:16.260]  forward to your hello fresh delivery knowing dinner just got much easier
+[01:58:16.260 --> 01:58:20.580]  they've got so much more you can just enjoy the simple fact of not having to
+[01:58:20.580 --> 01:58:25.180]  plan dinner I can't tell you how much time we spend here sometimes just saying
+[01:58:25.180 --> 01:58:27.980]  what the hell are we gonna have for dinner tonight what should we have for
+[01:58:27.980 --> 01:58:32.500]  dinner tonight what should we have tomorrow you know what hello fresh takes
+[01:58:32.500 --> 01:58:35.780]  it away you don't have to worry about it they believe cooking should be simple
+[01:58:35.780 --> 01:58:41.620]  and convenient not a chore there are so many benefits to subscribing less time
+[01:58:41.620 --> 01:58:47.180]  meal planning less time grocery shopping by far each week and you get delicious
+[01:58:47.180 --> 01:58:52.180]  filling meals that you'll enjoy eating it's really good wow we've had it for a
+[01:58:52.180 --> 01:59:00.820]  while we love it just you name it stuff like steak pasta dishes I mean you name
+[01:59:00.820 --> 01:59:04.780]  it I and you know what I'll also say this their descriptions of their meals
+[01:59:04.780 --> 01:59:07.860]  very very honest if you think you're gonna like it you're probably gonna like
+[01:59:07.860 --> 01:59:14.300]  it I can't remember one that didn't come and please us exactly the way we thought
+[01:59:14.300 --> 01:59:17.900]  it would please us it's really really a fair description of their meals and
+[01:59:17.900 --> 01:59:23.100]  recipes here's their call to action you can get 30 bucks off your first week of
+[01:59:23.100 --> 01:59:29.460]  hello fresh by visiting hellofresh.com and entering the code talk show just
+[01:59:29.460 --> 01:59:35.780]  talk show know the ta LKSH ow and you will save 30 bucks off your first week
+[01:59:35.780 --> 01:59:40.540]  visit hellofresh.com with special code talk show and get started today really
+[01:59:40.540 --> 01:59:44.460]  is a great service with delicious food and it really really really saves you
+[01:59:44.460 --> 01:59:48.220]  time in terms of cooking especially the grocery shopping angle my thanks to
+[01:59:48.220 --> 01:59:55.460]  HelloFresh for sponsoring the show well that's it we're out of time Dave that
+[01:59:55.460 --> 02:00:01.620]  was a cliffhanger then no no this question was asked at the the briefing
+[02:00:01.620 --> 02:00:07.780]  and basically you know the story is nothing has changed there is no at least
+[02:00:07.780 --> 02:00:13.220]  according to Apple representatives yesterday there is nothing more
+[02:00:13.220 --> 02:00:20.900]  repairable or battery replacement or anything like that different between the
+[02:00:20.900 --> 02:00:28.380]  AirPods Pro Buds and the AirPods first and second generation does that matter
+[02:00:28.380 --> 02:00:32.900]  to you at all if you ever think about it ago I wrote about it somebody quoted
+[02:00:32.900 --> 02:00:36.180]  over a couple of weeks or months ago I wrote that like when that when this
+[02:00:36.180 --> 02:00:41.620]  became a thing I think it was maybe when Jeffrey Fowler wrote a column about the
+[02:00:41.620 --> 02:00:46.020]  disposability of AirPods in the Washington Post somebody wrote a column
+[02:00:46.020 --> 02:00:51.700]  about it it's definitely a weird thing when you think about it and you know I'm
+[02:00:51.700 --> 02:00:55.540]  old enough to remember when all batteries were disposable and
+[02:00:55.540 --> 02:01:03.020]  replaceable anything you bought that was battery operated took you know AAA
+[02:01:03.020 --> 02:01:08.020]  AA CD whatever happened to be does anybody know the story on that what
+[02:01:08.020 --> 02:01:12.540]  happened to be better I don't I don't know or single a what is there there's
+[02:01:12.540 --> 02:01:17.420]  no single a 9-volt remember when we were when I was a kid at least all the
+[02:01:17.420 --> 02:01:21.580]  electronic game gazmos gizmos always took 9-volt batteries which I always
+[02:01:21.580 --> 02:01:25.820]  thought was I always thought they were cool yeah definitely you know you had to
+[02:01:25.820 --> 02:01:29.300]  like snap them into place in a different way and one battery would power the
+[02:01:29.300 --> 02:01:33.300]  whole thing smoke detectors I'll make that they still take them for good
+[02:01:33.300 --> 02:01:39.380]  reason you know I guess because they're easily replaceable and obtained it would
+[02:01:39.380 --> 02:01:43.060]  seem crazy back then like when I would buy those games what was the company
+[02:01:43.060 --> 02:01:49.620]  that made him Tyco tyco I hope tech Tecmo I don't know maybe I don't know but
+[02:01:49.620 --> 02:01:52.060]  whatever that you know I had a bunch of those electronic games they were
+[02:01:52.060 --> 02:01:55.900]  hesitate to even call them video games because they didn't have video but they
+[02:01:55.900 --> 02:02:01.060]  were electronic games it would have been crazy if it were if the deal was you can
+[02:02:01.060 --> 02:02:05.100]  buy it and then you just charge it overnight by connecting it to power and
+[02:02:05.100 --> 02:02:09.620]  then two years from now it'll be garbage and you have to throw it away that would
+[02:02:09.620 --> 02:02:13.300]  have seemed crazy it just wasn't the way things worked and it doesn't seem right
+[02:02:13.300 --> 02:02:18.820]  it seems like if the problem with a pair of air pods is that the battery the
+[02:02:18.820 --> 02:02:26.220]  lithium-ion battery has expired itself through going through its you know by
+[02:02:26.220 --> 02:02:31.660]  design you know not not prematurely not a defect in your unit but you've used it
+[02:02:31.660 --> 02:02:35.420]  enough times through enough charge cycles that the lithium-ion battery is
+[02:02:35.420 --> 02:02:40.020]  no longer useful but it's the only thing wrong with it right everything else
+[02:02:40.020 --> 02:02:43.620]  works perfectly right but you know but that's it there's you you know what you
+[02:02:43.620 --> 02:02:46.340]  do is you you know I guess what you're supposed to do is take them into the
+[02:02:46.340 --> 02:02:51.860]  Apple Store and say you want to recycle them and then they'll do the right thing
+[02:02:51.860 --> 02:02:56.900]  that's you know I've never done that I have to say I I just put stuff like that
+[02:02:56.900 --> 02:03:00.660]  in a drawer I mean I guess it's partly my pack rat attitude I just if I had
+[02:03:00.660 --> 02:03:03.700]  like a pair of AirPods like I guess I still have my wife's that don't really
+[02:03:03.700 --> 02:03:06.740]  hold a charge my original my wife's original AirPods they're just in a
+[02:03:06.740 --> 02:03:12.220]  drawer in a box somewhere I guess I should take them should have taken them
+[02:03:12.220 --> 02:03:15.460]  to the Apple Store and said I'd like to recycle these but that seems like a
+[02:03:15.460 --> 02:03:20.380]  weird thing to do it's like I don't I don't know it's not great but I did
+[02:03:20.380 --> 02:03:26.940]  nobody else makes earbuds of this size you know like I'm not I hope that Apple
+[02:03:26.940 --> 02:03:31.420]  is working hard to address it as soon as they can is that a thing that is like
+[02:03:31.420 --> 02:03:36.900]  two three years in the future is it a ten year problem I don't know I hope
+[02:03:36.900 --> 02:03:42.420]  it's on their radar if if they really mean institutionally what they say about
+[02:03:42.420 --> 02:03:46.780]  you know their environmental concerns they certainly should be looking at it
+[02:03:46.780 --> 02:03:51.620]  but I also understand where they're coming from if like their best concept
+[02:03:51.620 --> 02:03:59.940]  for a design that makes the AirPod buds battery replaceable even if it meant
+[02:03:59.940 --> 02:04:03.740]  getting them officially serviced at Apple you're right like the way that you
+[02:04:03.740 --> 02:04:08.500]  can get your battery replaced in an iPhone if their best a design for that
+[02:04:08.500 --> 02:04:13.340]  would make it thicker and heavier and bigger I could see why they don't go
+[02:04:13.340 --> 02:04:17.540]  that route because I think people would I think that would be less appealing to
+[02:04:17.540 --> 02:04:24.900]  people right I think people care more about does it does it feel like planned
+[02:04:24.900 --> 02:04:31.300]  obsolescence or does it feel like I mean I don't think it's planned
+[02:04:31.300 --> 02:04:35.540]  obsolescence because and I know you can be cynical and say that it is that of
+[02:04:35.540 --> 02:04:38.660]  course they design them so that two years from now you have to buy more but
+[02:04:38.660 --> 02:04:45.980]  I don't think so because I don't think anybody feels good about having $200
+[02:04:45.980 --> 02:04:50.380]  earbuds you know that's just round to the midway price of their lineup you
+[02:04:50.380 --> 02:04:56.020]  know they're roughly 200 bucks nobody feels good about spending $200 on them
+[02:04:56.020 --> 02:05:02.300]  never once misusing them using them so frequently that they battery wore out
+[02:05:02.300 --> 02:05:07.260]  never losing one and then two years from now you know you your option your best
+[02:05:07.260 --> 02:05:11.420]  option is to go buy another $200 set of them like nobody feels good about that
+[02:05:11.420 --> 02:05:16.220]  and so if there were an option to get somebody else's product that does the
+[02:05:16.220 --> 02:05:20.500]  same thing and is appealing way but you wouldn't have to throw it out after two
+[02:05:20.500 --> 02:05:25.580]  years they would do it so I don't think it's planned obsolescence because that
+[02:05:25.580 --> 02:05:30.460]  would I really do think Apple thinks it's believes it's in the business of
+[02:05:30.460 --> 02:05:34.660]  keeping customers happy right that they're not people don't just randomly
+[02:05:34.660 --> 02:05:39.700]  buy Apple products you know it's not some brand X and you know people
+[02:05:39.700 --> 02:05:43.020]  randomly buy it so if you can rip them off a little bit and they're not happy
+[02:05:43.020 --> 02:05:47.380]  with it who cares you already got their money apples in the business of having
+[02:05:47.380 --> 02:05:51.020]  relationships relationships with their customers that you're gonna like Apple
+[02:05:51.020 --> 02:05:57.660]  products and if you're new to the Apple product family that system yeah to the
+[02:05:57.660 --> 02:06:02.300]  ecosystem for yeah that's the perfect word your first experience you know will
+[02:06:02.300 --> 02:06:05.260]  hopefully be a good one I mean there's a story of you know to bring it back to
+[02:06:05.260 --> 02:06:09.140]  baseball Joe DiMaggio I forget who he's talking to but somebody told the story
+[02:06:09.140 --> 02:06:14.620]  where towards the end of his career Joe DiMaggio he was like I could be
+[02:06:14.620 --> 02:06:18.080]  mistelling it but it's the way I'll miss tell it is good enough close enough to
+[02:06:18.080 --> 02:06:23.260]  the truth meaningless game late summer Joe DiMaggio busts his ass to catch a
+[02:06:23.260 --> 02:06:28.140]  fly ball just really really goes all out in a meaningless game a game the Yankees
+[02:06:28.140 --> 02:06:32.740]  maybe we're already way ahead somebody a younger kid my team is Joe why you why
+[02:06:32.740 --> 02:06:36.100]  would you kill yourself to catch that ball it doesn't matter and his story his
+[02:06:36.100 --> 02:06:41.700]  answer was I know with as many you know 50,000 people in Yankee Stadium somebody
+[02:06:41.700 --> 02:06:47.580]  here is watching me play for the first time and I got and I want them to know
+[02:06:47.580 --> 02:06:52.340]  what Joe DiMaggio how Joe DiMaggio played baseball right so somebody's
+[02:06:52.340 --> 02:06:55.460]  first for Apple product is there you know the one that they're buying today
+[02:06:55.460 --> 02:06:59.220]  so I think and I think Apple remains cognizant of that and they want that to
+[02:06:59.220 --> 02:07:02.300]  be a good experience right you're only as good as your first impression if your
+[02:07:02.300 --> 02:07:06.540]  first Apple product is a stinker you're not going to come back so I don't think
+[02:07:06.540 --> 02:07:10.180]  it's planned obsolescence I really don't and the fact that nobody else makes
+[02:07:10.180 --> 02:07:18.300]  anything in this AirPods category that is has replaceable batteries is a sign
+[02:07:18.300 --> 02:07:22.220]  that I don't think it's possible yet or it's not possible in a way that would be
+[02:07:22.220 --> 02:07:27.660]  compelling to customers based on what it would cost or what it would look like or
+[02:07:27.660 --> 02:07:30.860]  how heavy it would be or whatever compromises would have to be made
+[02:07:30.860 --> 02:07:35.300]  because what if what if it meant like not using glue I mean I think that
+[02:07:35.300 --> 02:07:41.420]  excluded view is sort of you know it's idealized right it's of course of course
+[02:07:41.420 --> 02:07:47.540]  it's and when you compare it to the teardowns that as we speak I fix it my
+[02:07:47.540 --> 02:07:50.780]  art might already have since the I guess they shipped today I wouldn't be I guess
+[02:07:50.780 --> 02:07:54.700]  I fix it I didn't look but probably already has a teardown when you look at
+[02:07:54.700 --> 02:07:58.780]  the actual teardowns you see all the glue they're sort of a mess inside
+[02:07:58.780 --> 02:08:04.880]  they're not neat and tidy at all but when but they're so small they're so
+[02:08:04.880 --> 02:08:09.340]  small that I think it's excusable and when Apple does have room like when you
+[02:08:09.340 --> 02:08:13.740]  open the new Mac pros that are supposedly coming any day now they're
+[02:08:13.740 --> 02:08:18.080]  beautiful inside Renee Apple is always sort of a spouse that Steve Jobs mantra
+[02:08:18.080 --> 02:08:22.460]  of you know the good cabinet maker cares with the back of the cabinet looks like
+[02:08:22.460 --> 02:08:26.960]  even if if it's gonna spend decades up against a wall because he has pride in
+[02:08:26.960 --> 02:08:31.520]  his work they care about the inside of their computers they always have so I
+[02:08:31.520 --> 02:08:36.320]  think the fact that like air pods are an ugly gluey mess inside is just the best
+[02:08:36.320 --> 02:08:42.500]  that they can do to make them the design that they are so it's opposing forces of
+[02:08:42.500 --> 02:08:47.960]  Lisa Jackson's environmental you know push which I think she's great does a
+[02:08:47.960 --> 02:08:53.180]  great job of you know all that all the things that Apple does to have to be
+[02:08:53.180 --> 02:09:00.100]  sustainable to good supply chain not no child labor you know they they clearly
+[02:09:00.100 --> 02:09:05.540]  are pushing into all those things in keeping doing what they can to make to
+[02:09:05.540 --> 02:09:10.580]  minimize their impact on the planet up and the opposing force to that would be
+[02:09:10.580 --> 02:09:15.800]  design and and they're sort of finding each other here this is like a front
+[02:09:15.800 --> 02:09:23.060]  line on that particular battle and I I am a long time repair ability person I
+[02:09:23.060 --> 02:09:28.160]  I've I fix all my computers that every one that I can I I've taken apart every
+[02:09:28.160 --> 02:09:32.700]  Mac I've ever owned I've replaced fans it used to be able to swap out memory
+[02:09:32.700 --> 02:09:39.940]  I've replaced video cards drives taken old drives put you know formatted
+[02:09:39.940 --> 02:09:43.700]  replaced with the larger drives all that kind of stuff did you ever do that sort
+[02:09:43.700 --> 02:09:48.100]  of stuff or oh sure you know probably less than a lot of less than you and
+[02:09:48.100 --> 02:09:53.220]  probably less than an awful lot of people listening to the show nodding
+[02:09:53.220 --> 02:09:57.820]  their head in agreement with you but yeah you know and back in the day
+[02:09:57.820 --> 02:10:04.700]  especially and you know it was a combination that as a I'm 46 now and
+[02:10:04.700 --> 02:10:12.540]  when as I grew to this age you know I grew up in the era when computers became
+[02:10:12.540 --> 02:10:18.620]  less serviceable and I was of an age back then when saving money by buying
+[02:10:18.620 --> 02:10:24.900]  third-party RAM was a meaningful serious difference what I would have a budget
+[02:10:24.900 --> 02:10:30.060]  for a new computer and if I bought third-party RAM I'd have more RAM than
+[02:10:30.060 --> 02:10:35.220]  if I bought the RAM from Apple and back then to Apple used to really really
+[02:10:35.220 --> 02:10:39.460]  gouge people I mean however high you think Apple's RAM prices are now you
+[02:10:39.460 --> 02:10:44.100]  don't know anything compared to like the 90s I mean in the 90s it was like like
+[02:10:44.100 --> 02:10:49.260]  it was as though you were buying RAM that was like dad like gold-plated yeah
+[02:10:49.260 --> 02:10:55.420]  like like you took it to Tiffany and had him turn it into diamond-crusted jewelry
+[02:10:55.420 --> 02:11:00.060]  and and hard drives too it was the same thing yeah and because back then hard
+[02:11:00.060 --> 02:11:03.100]  drives would break all the time I mean you know everybody and it's like people
+[02:11:03.100 --> 02:11:08.100]  of our age are much better about backups because we're still scarred right like
+[02:11:08.100 --> 02:11:14.300]  we everybody remembers a time when you hit command s on a document and you you
+[02:11:14.300 --> 02:11:21.820]  heard your hard drive like make a bad click and stop you're just you just hear
+[02:11:21.820 --> 02:11:25.340]  a bad sign you would just hear a scraping you would just hear some sort
+[02:11:25.340 --> 02:11:31.460]  of sound you never heard your hard drive make before and or a little tick tick
+[02:11:31.460 --> 02:11:35.140]  tick tick tick tick tick sound and whether whether you noticed anything on
+[02:11:35.140 --> 02:11:39.620]  screen or not maybe everything on screen looked fine nothing locked up nothing no
+[02:11:39.620 --> 02:11:43.860]  beach balls no watch cursor everything looks fine but immediately you would
+[02:11:43.860 --> 02:11:48.060]  start saving everything closing everything good you would power down
+[02:11:48.060 --> 02:11:51.740]  immediately you'd because you heard one bad click out of your hard drive you
+[02:11:51.740 --> 02:11:57.460]  would save everything power everything down and immediately take off the the lid
+[02:11:57.460 --> 02:12:01.420]  to the computer take a look inside see if you smell just do I smell anything
+[02:12:01.420 --> 02:12:07.620]  put it back on put it back on power it up and make the best backup you had the
+[02:12:07.620 --> 02:12:12.540]  you had the power to you know the ability to do and that's so good
+[02:12:12.540 --> 02:12:19.700]  immediately in your mind you're thinking where's that Mac connection catalog just
+[02:12:19.700 --> 02:12:23.940]  because you heard one bad click right so we're taking a picture of my screen
+[02:12:23.940 --> 02:12:29.380]  before yeah cuz you had writing on screen and you're like I don't know if
+[02:12:29.380 --> 02:12:33.180]  there's gonna get saved I don't want to lose yeah that's right so I'm with you
+[02:12:33.180 --> 02:12:37.740]  I you know and but I I don't think apples moved against repair ability
+[02:12:37.740 --> 02:12:40.980]  because they're against repair ability I think that they've moved against it
+[02:12:40.980 --> 02:12:44.700]  because it's lower on their list of priorities and you know I it's a
+[02:12:44.700 --> 02:12:48.500]  recurring theme for me that I mentioned many times over the years that I think
+[02:12:48.500 --> 02:12:53.620]  vastly overlooked by people is that it doesn't just matter what your priorities
+[02:12:53.620 --> 02:12:58.780]  are it matters exactly what order they're in and that you could say are
+[02:12:58.780 --> 02:13:03.860]  three highest priorities are a B and C but that makes a big difference even if
+[02:13:03.860 --> 02:13:07.860]  it seems like a B and C are mostly aligned with each other it makes a big
+[02:13:07.860 --> 02:13:13.580]  difference than if you say our three highest priorities are C B and A you're
+[02:13:13.580 --> 02:13:16.340]  gonna end up making all sorts of different even though they're the same
+[02:13:16.340 --> 02:13:21.580]  three priorities if C is your highest priority you are going to make different
+[02:13:21.580 --> 02:13:26.580]  very different decisions and for Apple the biggest priority you can call it
+[02:13:26.580 --> 02:13:32.460]  design or you can call it experience but it's ultimately how nice is this thing
+[02:13:32.460 --> 02:13:36.180]  how nice is the experience of wearing air pods is still their highest
+[02:13:36.180 --> 02:13:38.980]  priority and they I do I don't think they're hypocrites about the
+[02:13:38.980 --> 02:13:42.820]  environment but it's a higher priority than the environment but but I also
+[02:13:42.820 --> 02:13:49.320]  think it's changed because it used to be that product was there you know their
+[02:13:49.320 --> 02:13:53.060]  highest priority and then Steve came back and there was that sort of famous
+[02:13:53.060 --> 02:13:57.580]  I'm now I'm gonna simplify the the product line again right right with that
+[02:13:57.580 --> 02:14:04.060]  three by three chart or whatever it was two by two chart then but now I don't
+[02:14:04.060 --> 02:14:08.500]  know when it started but when Facebook really started to become a problem I
+[02:14:08.500 --> 02:14:14.460]  think privacy started to creep up the list till it became maybe their highest
+[02:14:14.460 --> 02:14:19.860]  priority do you think that's that's incorrect mm-hmm I think that the
+[02:14:19.860 --> 02:14:26.420]  interesting thing about Apple and privacy is that privacy doesn't interfere
+[02:14:26.420 --> 02:14:33.700]  with their other their other priorities in a way it does for other companies
+[02:14:33.700 --> 02:14:38.100]  because for just to name an obvious example you know Facebook and Google
+[02:14:38.100 --> 02:14:44.980]  make money through advertising in by monetizing their users privacy's in
+[02:14:44.980 --> 02:14:48.700]  certain ways and you know we don't it's a whole other description discussion we
+[02:14:48.700 --> 02:14:55.100]  don't have time to even dip our toes into but because Apple doesn't make any
+[02:14:55.100 --> 02:15:01.140]  money at all on advertising based on knowing anything at all about its
+[02:15:01.140 --> 02:15:04.340]  customers they can they can deal with privacy in a way that doesn't interfere
+[02:15:04.340 --> 02:15:08.260]  with their priorities because obviously our priority for Facebook and for Google
+[02:15:08.260 --> 02:15:14.380]  and for Apple you know is making money yeah well said though III see the
+[02:15:14.380 --> 02:15:18.060]  difference all right so let's just say let's just be complete cynics and and
+[02:15:18.060 --> 02:15:21.940]  skeptical about capitalism and large corporations in general and just agree
+[02:15:21.940 --> 02:15:27.380]  that one thing that Apple Facebook and Google all share in common is that their
+[02:15:27.380 --> 02:15:31.460]  very highest priority is making money I'm not saying I agree with that but
+[02:15:31.460 --> 02:15:36.540]  let's just say from the cynical angle that it is Apple can approach privacy in
+[02:15:36.540 --> 02:15:42.460]  a way that doesn't that doesn't run up against that that number one priority of
+[02:15:42.460 --> 02:15:46.300]  being profitable and making money in a way that Facebook and Google do there's
+[02:15:46.300 --> 02:15:50.060]  no closing forces there there's no opposing forces like with the with the
+[02:15:50.060 --> 02:15:54.300]  non-replaceable batteries versus taking care of the planet that's a that's well
+[02:15:54.300 --> 02:15:59.020]  said yeah and so you know I wouldn't it be great I hope somebody else comes out
+[02:15:59.020 --> 02:16:05.020]  with some of these wireless earbuds that are totally you know compelling products
+[02:16:05.020 --> 02:16:09.980]  that look cool and are come at a good price and work great and have easily
+[02:16:09.980 --> 02:16:14.860]  accessible or easily accessible to the service type minded person batteries it
+[02:16:14.860 --> 02:16:17.980]  would be great and it would force that would force Apple to up its game if
+[02:16:17.980 --> 02:16:20.940]  somebody else could do it but nobody else has done it yet so I don't even you
+[02:16:20.940 --> 02:16:25.180]  know we don't have proof that it's even possible to to obviously somebody could
+[02:16:25.180 --> 02:16:30.700]  make a wireless ear bud that could have a serviceable battery but we still
+[02:16:30.700 --> 02:16:35.500]  haven't seen one that is that's also a compelling consumer product yep yep I I
+[02:16:35.500 --> 02:16:41.040]  hear you that's that's the that is the Holy Grail like you know let's be
+[02:16:41.040 --> 02:16:44.940]  cynic let's just be honest here let's say that I went up to New York yesterday
+[02:16:44.940 --> 02:16:49.920]  in some alternate universe to find out what AirPods Pro are and they're still
+[02:16:49.920 --> 02:16:54.960]  250 bucks right that's what the in in our real universe that's what AirPods
+[02:16:54.960 --> 02:17:03.960]  Pro are but in the alternate universe the $250 AirPods Pro the only difference
+[02:17:03.960 --> 02:17:09.140]  between them and regular AirPods is that the battery is user so serviceable they
+[02:17:09.140 --> 02:17:14.060]  look the same they sound the same the case looks the same but when the
+[02:17:14.060 --> 02:17:17.140]  battery wears out two years from now you could take it into the Apple Store and
+[02:17:17.140 --> 02:17:22.340]  for $25 come back the next day or come back two hours later and they have
+[02:17:22.340 --> 02:17:26.140]  brand-new batteries in them they wouldn't sell any more of them I don't
+[02:17:26.140 --> 02:17:31.060]  think we'd sell any of them if they cost fewer over time if they cost $250 in the
+[02:17:31.060 --> 02:17:35.620]  current AirPods sell 100 for 160 they wouldn't sell any of them I mean I guess
+[02:17:35.620 --> 02:17:39.020]  there's some number I mean I'm not gonna say they'd sell zero of them but and I
+[02:17:39.020 --> 02:17:42.380]  think people would say Apple's lost its mind I mean that's a great feature but
+[02:17:42.380 --> 02:17:46.920]  they everybody what everybody would say is that should just be the regular new
+[02:17:46.920 --> 02:17:51.580]  AirPods and they shouldn't be $250 they should be $160 like the regular AirPods
+[02:17:51.580 --> 02:17:56.380]  nobody would see that as a compelling reason to pay more even though if you
+[02:17:56.380 --> 02:18:01.620]  really think about it the obvious it in theory that's possible that by by
+[02:18:01.620 --> 02:18:07.380]  putting more making them in a more expensive way they could do it you know
+[02:18:07.380 --> 02:18:11.220]  that part of the reason that the batteries aren't replaceable is the glue
+[02:18:11.220 --> 02:18:19.540]  is cheap and sealing them up without glue is more expensive anyway we've gone
+[02:18:19.540 --> 02:18:22.780]  on long enough you've got to go get ready for the game my friend I do I do
+[02:18:22.780 --> 02:18:26.900]  I do thank you so much for having me great you see this I told you it would
+[02:18:26.900 --> 02:18:31.940]  be a short episode you actually did say that I did say that I really did and I
+[02:18:31.940 --> 02:18:35.620]  told that to molt the other day too and we went an hour and 55 minutes I once I
+[02:18:35.620 --> 02:18:39.700]  get started talking and it's interesting conversation how do we do I did one
+[02:18:39.700 --> 02:18:44.580]  thing backstory folks is that Dave I I already came to Dave a couple hours
+[02:18:44.580 --> 02:18:47.740]  before the show I was running short on time I needed another episode in October
+[02:18:47.740 --> 02:18:51.820]  I still much to talk about I want to talk about the AirPods and we were
+[02:18:51.820 --> 02:18:54.780]  chatting about the baseball I was like why don't you just do my show and you
+[02:18:54.780 --> 02:19:00.300]  were like I could do that and it was this is great Dave got excited sent me a
+[02:19:00.300 --> 02:19:07.500]  whole light list of ideas we could talk about we got to one I was gonna say how
+[02:19:07.500 --> 02:19:11.220]  did we do I was I'm gonna guess we didn't get to any of them but we got
+[02:19:11.220 --> 02:19:16.580]  probably AirPods right yeah no we did Apple TV plus World Series that we did
+[02:19:16.580 --> 02:19:20.580]  good what's gonna happen is after after we're done I'm gonna read that and I'm
+[02:19:20.580 --> 02:19:23.540]  gonna look at it and I'm probably chock-full of good ideas and then I'm
+[02:19:23.540 --> 02:19:26.640]  gonna end up using those ideas on the next few episodes of the show and you're
+[02:19:26.640 --> 02:19:33.580]  gonna be like son of a bitch no god bless you go with it I'm fine with that
+[02:19:33.580 --> 02:19:37.180]  and I really I had such a good time this was great all right thank you for
+[02:19:37.180 --> 02:19:40.300]  having me good luck tonight I swear I swear to you I'm not trying to jinx
+[02:19:40.300 --> 02:19:45.260]  anything but go Nats all right all right go Nats thank our sponsors hey before
+[02:19:45.260 --> 02:19:47.660]  you say bye let me thank our sponsors come on we got to pay the bills here
+[02:19:47.660 --> 02:19:54.740]  Express VPN easy one tap VPN protect your desktop or your iOS device hello
+[02:19:54.740 --> 02:19:59.500]  fresh get your groceries get sign up for a subscription get fresh groceries and
+[02:19:59.500 --> 02:20:06.620]  recipes the whole meal kit portioned for the meal sent right to your house and
+[02:20:06.620 --> 02:20:11.620]  Linode a great server hosting company go there to host whatever you need whether
+[02:20:11.620 --> 02:20:16.940]  it's small or large go to Linode calm Dave everybody can find you at the loop
+[02:20:16.940 --> 02:20:22.700]  calm on your writing and on Twitter at Dave mark right at Dave mark that works
+[02:20:22.700 --> 02:20:26.140]  all right good luck

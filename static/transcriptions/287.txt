@@ -1,0 +1,983 @@
+[00:00.000 --> 00:08.720]  Ah, what a week. It's still Friday. I guess WWDC is still going on, but I guess it's, you know, it's officially sort of over in the
+[00:09.920 --> 00:12.680]  Yeah, Friday's normally the day. It's it's
+[00:13.640 --> 00:20.460]  It's all rerun sessions right at the show and it's normally the day where people start filtering out of town, you know
+[00:20.680 --> 00:25.400]  It's like the last like the Friday drinking crowd is quite a bit thinner than the Thursday night drinking crowd
+[00:25.400 --> 00:30.180]  All right. I think I've gone home on Friday most of the last few years
+[00:31.320 --> 00:33.500]  because my wife comes with me now and
+[00:34.320 --> 00:36.320]  She gets the shits of it a lot sooner
+[00:39.040 --> 00:43.300]  I always liked like in the old days when I would come out by myself. I actually liked
+[00:44.480 --> 00:50.960]  The Friday night when like most a lot of people were gone or people left during the day and they local Californians
+[00:50.960 --> 00:56.820]  You know could just drive or whatever and then it was just like a nice quiet night and a dinner where you didn't have to
+[00:56.820 --> 00:59.720]  Try to find. Oh, where can we find a table for 11?
+[01:01.600 --> 01:05.920]  And it was like oh this is nice and then you could relax and go home on Saturday and it was normal
+[01:05.920 --> 01:09.280]  Yeah, but yeah, but now we're all I'm already home
+[01:12.200 --> 01:14.480]  Long long journey back the other
+[01:14.480 --> 01:22.040]  the other things that I was grossly wrong about is I thought well since this will be remote and I'll be at home the
+[01:22.040 --> 01:26.480]  Whole time even if I'm busy and I have a show and I did have a show and it did
+[01:27.240 --> 01:35.300]  Occupy some time. I thought well this year. I'll get to watch a lot of the sessions during the week. I have watched no sessions
+[01:36.080 --> 01:43.420]  Yeah, the only sessions I've watched are clips on Twitter and I thought the same thing and it's not only did I not get to
+[01:43.420 --> 01:45.420]  Watch sessions. I felt this was
+[01:45.760 --> 01:51.440]  Way more hectic then. Yeah, it was actually being there. Yeah. Yeah, I thought the same thing, too
+[01:53.160 --> 02:00.840]  At a very high level I would just like to start with the App Store stuff because it broke before
+[02:01.480 --> 02:07.720]  WWDC and you and this is why I thought well, let's talk to let's talk to our old friend Panzer because Phil Schiller
+[02:08.360 --> 02:12.060]  Talked to you and you had an interview and they you know tried to
+[02:12.060 --> 02:15.060]  I'm not gonna say they tried to clean it up, but they tried to
+[02:15.780 --> 02:18.780]  Deal with it. You know, there was this controversy that was
+[02:19.980 --> 02:24.940]  started with the base camps new hay app being rejected from the store and
+[02:25.940 --> 02:31.540]  For doing what seemed you know, and again, we could easily derail this this entire show, right?
+[02:31.820 --> 02:33.980]  But let me see if I can summarize it very quickly
+[02:34.500 --> 02:37.860]  Hey is an email the service and app
+[02:37.860 --> 02:43.780]  all rolled into one and the idea is you pay them a hundred dollars a year and you get a
+[02:43.900 --> 02:51.180]  Your name at hey calm and then once you have that you could download their app for other, you know for iPhone or for Android
+[02:51.780 --> 02:56.300]  Or Mac or whatever and then you log in and then you can use the app
+[02:56.300 --> 03:02.180]  And if you just download the app and you don't have a hay account yet it it has the Netflix effect
+[03:02.180 --> 03:09.580]  which was my catch-all term for you download the app and open it and it has a username and password field and a
+[03:10.620 --> 03:13.660]  Terms of service link or something like that and that's about it
+[03:14.620 --> 03:19.620]  Because and and they got rejected for that and that's how base camp works and that's how
+[03:20.100 --> 03:26.980]  Dozens and dozens and dozens of software as a service type apps work and things that aren't even software as a service
+[03:26.980 --> 03:32.100]  You know, like you buy like a nest app or something like that, you know for your nest thermostat
+[03:32.100 --> 03:38.380]  Well, if you don't have a nest thermostat, the nest app doesn't do anything because what can it do? Mm-hmm
+[03:38.700 --> 03:40.700]  Well, they got they got rejected
+[03:40.700 --> 03:47.500]  they kind of I think in a very clever way played this up in such a way that it led to
+[03:48.340 --> 03:55.660]  Hundreds of accusations that they did this on purpose as a publicity stunt. Mm-hmm, which is really not the case and
+[03:56.300 --> 03:58.300]  Like they've said I've seen
+[03:58.300 --> 04:03.220]  DHH and Jason Fried respond to people on Twitter and they're like, okay
+[04:03.220 --> 04:09.500]  Let's just go with this for a second your theory that we did this on purpose requires us to have two plants in the App
+[04:09.500 --> 04:13.900]  Store one who approved our initial version and then a second one to reject it
+[04:14.540 --> 04:18.340]  Are like bug fix update like how would that work exactly?
+[04:20.140 --> 04:22.140]  Anyway
+[04:22.140 --> 04:27.620]  I feel Schiller talked to you at TechCrunch and
+[04:28.540 --> 04:31.100]  It did not it was interesting
+[04:31.100 --> 04:36.900]  It was it wasn't, you know meaningless but in some ways what he said actually generated more controversy
+[04:37.660 --> 04:39.660]  Yeah, I mean
+[04:40.420 --> 04:43.580]  Look the at that point in time it seems like
+[04:44.300 --> 04:47.380]  You know, we could talk about it. Obviously what they announced
+[04:48.100 --> 04:50.340]  at the at the show or
+[04:50.340 --> 04:53.540]  Or sort of during after the keynote
+[04:54.860 --> 04:59.340]  Very casually announced some things about the App Store changing in some ways
+[04:59.740 --> 05:03.220]  But at the time that I had my interview, you know
+[05:03.220 --> 05:07.780]  They had they had sent this letter and I guess they sent it day and date with the press
+[05:09.100 --> 05:16.780]  To to base camp and the letter, you know outlined is essentially an App Store rejection letter, but public right?
+[05:16.780 --> 05:20.340]  Yeah, because they sent it to press and I guess because
+[05:21.740 --> 05:24.220]  You have the timing that they sent it to the press
+[05:24.220 --> 05:29.980]  They sent it to base camp and and they said that they got it only after they'd already seen it published
+[05:30.700 --> 05:34.820]  Publicly, I think they were trying to avoid that by sending it to all the press and them at the same time
+[05:36.020 --> 05:42.740]  in in some ways I see their point because like, you know, certainly base camp is the is the party that chose to
+[05:42.740 --> 05:47.740]  Go public for lack of a better term, you know, they chose to kind of litigate it publicly
+[05:48.620 --> 05:52.500]  So Apple probably felt justified in some way in sending that letter to everybody, right?
+[05:53.780 --> 05:58.540]  But that letter didn't go out until after I had had my interview, you know
+[05:58.540 --> 06:03.740]  I didn't see that letter until after I had had my interview already and my article was essentially complete
+[06:04.220 --> 06:08.060]  And I included the letter at the last minute and then you know
+[06:08.060 --> 06:13.860]  Hit the publish button because I had gotten it along with all the press and theoretically base camp all at the same time
+[06:14.740 --> 06:16.300]  The letter though
+[06:16.300 --> 06:19.820]  Was essentially an App Store rejection letter, right and it just laid out
+[06:20.580 --> 06:24.860]  their reasons for rejecting it and their you know their case for
+[06:25.340 --> 06:27.340]  The App Store working the way that it does
+[06:27.820 --> 06:30.660]  and then you know sort of ended with a paragraph about
+[06:31.700 --> 06:34.500]  Basecamp having benefited from the App Store
+[06:34.500 --> 06:39.020]  You know and and not contributed any revenue back to it, which I think is probably
+[06:39.860 --> 06:42.460]  Overall the most controversial thing about it. Yeah
+[06:43.060 --> 06:46.700]  You know or certainly seem to engender the most developer reaction
+[06:46.700 --> 06:49.820]  They're like, oh, we're only worth it if we make a lot of money for you, you know, etc
+[06:49.820 --> 06:53.340]  Which we can talk about but I think that the one phrase from my piece
+[06:53.340 --> 06:56.540]  Which was something that Phil said was that look if we don't if the app
+[06:57.620 --> 07:03.500]  Opens on the store and doesn't do anything. You know, it doesn't work. It doesn't do anything for you. That's not what we want
+[07:03.500 --> 07:05.500]  That's not the user experience we want
+[07:05.940 --> 07:10.500]  Which is none of what he said to me was anything as you said
+[07:10.500 --> 07:13.620]  It's like not anything super revelatory because it's just them restating
+[07:14.260 --> 07:20.540]  What they believe this the App Store rules to represent right? They're like look this is why we put these stores these rules in the store
+[07:21.380 --> 07:28.780]  This is what we believe the store is about and Phil is just restating that stuff and I think people because of the reader app
+[07:28.780 --> 07:35.660]  Rule in it with Netflix and all of that stuff. They really glommed on to that particular statement about you know
+[07:35.660 --> 07:40.940]  An app opening and not working and they're like, hey, what about these other apps now, of course in the Apple universe?
+[07:41.580 --> 07:45.180]  According to Apple's rules. They already have a carve-out for those apps
+[07:45.180 --> 07:49.700]  And so the real argument everybody's making is like why is email not part of that carve-out, right?
+[07:50.100 --> 07:54.540]  Or I guess you could extend that to why does this carve-out even exist, right?
+[07:54.540 --> 08:00.620]  But it's not like it was saying anything extremely new. I felt it was newsworthy in that, you know, they were
+[08:01.260 --> 08:04.340]  Holding to their stance, which is the my angle I took with my piece, right?
+[08:04.380 --> 08:11.260]  That's really what the news was at that moment is that Apple's not saying like hey, we've reconsidered or hey
+[08:11.260 --> 08:15.700]  We're gonna change this thing because of hey or whatever they were, you know
+[08:15.700 --> 08:19.780]  Phil was very much coming from the place of we have these rules for a reason
+[08:19.780 --> 08:25.780]  We think that they you know are the right way to go and we're not really going to be changing them at this point
+[08:25.780 --> 08:27.540]  And so that's the tack I took and you know
+[08:27.540 --> 08:32.300]  And I tried to report it straight because I put a little opinion in there too because I feel that people
+[08:32.900 --> 08:34.900]  You know do want to know
+[08:34.900 --> 08:39.380]  You know what the the people that are following this thing regularly think about it
+[08:39.380 --> 08:45.500]  But I didn't want about too much of my own feeling and passion or whatever into that because it I think the moment warranted it
+[08:45.500 --> 08:47.500]  You know
+[08:47.500 --> 08:53.900]  So, you know, I just think that it was such a hot-button topic that even Phil saying we don't we're not changing our mind
+[08:53.900 --> 09:00.460]  It became kind of a magnet. Yeah, I think that's a good way to put it is is because it's a hot-button topic and
+[09:01.500 --> 09:03.500]  I
+[09:03.700 --> 09:06.300]  Don't want to conflate something
+[09:07.020 --> 09:12.980]  And again, I realize people's livelihoods are at stake. So I'm not saying it's trivial right like the Basecamp folks
+[09:13.540 --> 09:15.540]  put millions of dollars
+[09:15.780 --> 09:17.060]  into
+[09:17.060 --> 09:22.540]  Developing. Hey, I mean it's a huge and huge huge huge endeavor for them
+[09:24.580 --> 09:30.740]  And I realized that these apps or policies affect companies large and small so I it's not trivial
+[09:31.940 --> 09:39.340]  but I realized that in the face of a pandemic that is reraging out of control that in the face of
+[09:42.420 --> 09:44.140]  Protests on
+[09:44.140 --> 09:45.580]  equality and
+[09:45.580 --> 09:50.540]  Police brutality across the country and it'll literally also across the world
+[09:51.060 --> 09:53.060]  that you know, but
+[09:53.580 --> 09:56.980]  people are this whole thing combined together the a
+[09:57.380 --> 10:03.340]  Bunch of emotional powder kicks have made people more sensitive to hot-button topics, right?
+[10:03.340 --> 10:08.500]  like that's my point is that if hey had come out a year ago and
+[10:08.500 --> 10:16.460]  And in the exact same way with the exact same controversial aspects about a rejection and policy and stuff like that
+[10:16.460 --> 10:23.340]  I think that it would have played very differently. You know, I'm talking literally like three
+[10:23.340 --> 10:25.340]  You know, whatever it was five days before
+[10:25.740 --> 10:27.700]  WWDC but if it had been before
+[10:27.700 --> 10:34.180]  WWDC 2019 it would have played differently people are on edge and of course they are of we all are and it's like you don't
+[10:34.180 --> 10:40.180]  Even really know it you think like you're normal and it's like yeah, I don't know you you just you were on edge
+[10:40.180 --> 10:47.140]  We've been cooped up or you know, we're worried about getting sick. You know, it's it's crazy. You know, it's it's it and and
+[10:48.260 --> 10:52.780]  So yeah, I and I'm not defending it. I'm not even passing judgment on it, but I think whatever
+[10:53.980 --> 10:59.660]  Phil Schiller said whatever the letter which was just like from the App Store, you know
+[10:59.660 --> 11:05.100]  They're closing paragraph about you know, we we we see that you haven't contributed anything to the App Store
+[11:05.900 --> 11:11.660]  Or your base camp app has been downloaded millions of times and hasn't contributed any revenue to the App Store
+[11:12.180 --> 11:17.220]  You know sort of has that if you want to you can see it as that typical
+[11:17.700 --> 11:21.100]  Gangster threat of nice store. You've got here, you know
+[11:21.580 --> 11:24.300]  Mm-hmm. I think it was yeah, absolutely and I think it was
+[11:25.940 --> 11:28.660]  The way that that was phrased the in the letter
+[11:28.660 --> 11:30.340]  I
+[11:30.340 --> 11:38.260]  Absolutely think that it was hey, you've benefited significantly from this App Store. So yeah, I think it's reasonable to say that
+[11:39.660 --> 11:41.940]  We do not try to
+[11:42.700 --> 11:47.940]  You know carve into that business and we haven't for years right into the base camp business
+[11:48.340 --> 11:51.980]  Because it's played by the rules that we've laid out and you know
+[11:51.980 --> 11:55.300]  You've made every dime of that we have made zero times from that, right?
+[11:55.300 --> 11:59.300]  the the least charitable what even if you ignore the whole like
+[12:00.140 --> 12:03.500]  Sub threat subtext, which I think as you said everybody's on edge
+[12:03.500 --> 12:10.020]  So, you know the you're gonna read the worst possible motivations into a lot of things or a lot of people are right now
+[12:10.580 --> 12:17.380]  But even if you ignore that shave off like the the worst 10% of the way that you can read into that
+[12:17.380 --> 12:24.260]  I think there's certainly a whole additional swath of people that weren't willing to go to the extreme of like oh man
+[12:24.260 --> 12:28.140]  This is you know, this is a threat and you know, and I know that
+[12:28.980 --> 12:30.480]  David used the word
+[12:30.480 --> 12:35.180]  Gangsters, right, right and even if you don't go into that kind of realm, you know
+[12:35.180 --> 12:39.760]  Which is a very aggressive stance to take against it. It still definitely reads as like
+[12:41.100 --> 12:42.220]  Hey
+[12:42.220 --> 12:47.100]  If you don't contribute revenue to it, we're doing you a favor. Yeah, right
+[12:47.100 --> 12:51.860]  Yes is a charity for you. And I think that that's like the bigger thing that I
+[12:51.860 --> 12:55.060]  I think a larger cadre a larger
+[12:55.620 --> 12:57.620]  trench of people
+[12:57.860 --> 13:03.320]  Responded to even if you ignore the sort of worst 10% of the way you could interpret that right?
+[13:03.780 --> 13:08.700]  And I think that that is basically I do believe probably still because they were on edge and all of that
+[13:08.700 --> 13:12.380]  But you remember there are a lot of people a lot of independent developers in the App Store
+[13:12.980 --> 13:19.260]  Where 30% is not just a cost of doing business. It's a real difference between you know
+[13:19.260 --> 13:21.260]  Whether they're kids eat or not or whatever
+[13:21.260 --> 13:27.020]  you know how much money they make from the store whether or not it's a sustainable business that they can do forever or whether it's
+[13:27.260 --> 13:32.460]  Something that they were able to do for a while and now can't do any more and I've seen examples of all of that
+[13:32.460 --> 13:34.980]  You know developers who had a real strong business on the store
+[13:34.980 --> 13:37.860]  But then and eventually just couldn't make ends meet couldn't make it work
+[13:38.420 --> 13:44.520]  And their products were cool and great and interesting and they had users and it wasn't like oh, it was a failure
+[13:44.780 --> 13:47.900]  It was just like I can't make the economics work, right? And so
+[13:48.540 --> 13:50.540]  when you're gonna come into a
+[13:50.540 --> 13:54.700]  aid scenario like that, I believe saying that was
+[13:55.700 --> 13:57.180]  accurate and
+[13:57.180 --> 14:03.700]  In some ways fair to say look we don't take a cut of this business because I think honestly that was a big
+[14:04.340 --> 14:07.700]  critical thing and it's certainly a part of the antitrust discussion is
+[14:08.460 --> 14:13.780]  Is Apple taking is are they rent seeking are they using the control of the App Store to?
+[14:14.260 --> 14:16.460]  Take a cut of businesses that they had no
+[14:16.460 --> 14:22.060]  Part in building or have no real, you know part in maintaining right and
+[14:23.180 --> 14:29.260]  That that statement was really speaking directly to that argument. It's like an art. Look we don't want to cut of this
+[14:29.500 --> 14:33.300]  Are they using as this is to me the the right way?
+[14:33.300 --> 14:39.860]  Hopefully the the regulatory appraisal approach will take is are they using as leverage?
+[14:40.500 --> 14:42.500]  to get a cut of
+[14:42.500 --> 14:48.420]  X Y & Z companies large and small whatever but if are they using to get as
+[14:49.140 --> 14:55.060]  Leverage something they shouldn't be allowed to use as leverage to get that right, right?
+[14:55.380 --> 14:59.900]  That's that to me is the question that you know, hopefully that's what the regulatory
+[15:00.580 --> 15:02.580]  inquiries will focus on
+[15:03.500 --> 15:08.700]  And it's to clarify it, you know, the the the thing that Schiller said about hey
+[15:08.700 --> 15:14.460]  You hope you download the app and launch it. It doesn't do anything. We that's not what we want. He wasn't saying and again
+[15:14.460 --> 15:18.660]  I'm not trying to be like a lawyer here and parse his words, but he's not saying that that necessarily
+[15:19.740 --> 15:24.420]  Means it's against the guidelines of the App Store. So everybody citing
+[15:25.100 --> 15:31.740]  XY and Z and the dozens and dozens of apps that you download and don't really do anything unless you already have an account
+[15:31.920 --> 15:33.480]  He wasn't saying it's not allowed
+[15:33.480 --> 15:38.940]  He's saying literally that's not what we want in an ideal situation that you know in theory
+[15:38.940 --> 15:41.500]  They would want an app and again whether that's right or wrong
+[15:41.500 --> 15:42.460]  That is what he said
+[15:42.460 --> 15:49.880]  But that is the the solution that they found that both sides found amenable to do this where the hey guys
+[15:50.940 --> 15:52.540]  added a
+[15:52.540 --> 15:59.100]  Pretty clever and actually in theory useful feature where now you can download the hey app and you can get a temporary
+[15:59.100 --> 16:06.220]  Throwaway 14-day email address that you could use to sign up for something that you don't want to use a real email address
+[16:06.300 --> 16:10.860]  Because you suspect, you know, hey they want they want my email address for this
+[16:10.860 --> 16:16.300]  I know this is just gonna get me spam. You could use their app get a temporary one use it for 14 days
+[16:17.340 --> 16:19.340]  But you still sign up on their website
+[16:19.680 --> 16:25.980]  Pay them and do this and now it's in and hopefully will no longer be controversial
+[16:25.980 --> 16:27.980]  So
+[16:27.980 --> 16:34.380]  I asked about this on my show with Jaws and Federighi and I didn't want to belabor the point
+[16:35.100 --> 16:38.660]  Because there's so much to talk about and we had you know a limited amount of time
+[16:39.620 --> 16:44.180]  But I brought it up and Jaws said something that as he said it
+[16:44.180 --> 16:49.860]  I wasn't sure if it was a great answer and then I rewatched it afterwards and I thought it was a better answer than I gave
+[16:49.860 --> 16:53.660]  Then I thought at the extemporaneously as we were doing the interview
+[16:53.660 --> 16:55.460]  But
+[16:55.460 --> 16:58.020]  He brought up the fact that the App Store
+[16:58.700 --> 17:04.880]  You know that before the App Store that getting your soft, you know, selling your software was way worse
+[17:05.660 --> 17:07.060]  and
+[17:07.060 --> 17:11.380]  I feel like I have to mention if there was something I should have followed up on the point and
+[17:11.540 --> 17:15.700]  Didn't is I was only thinking of it and I think it's what Jaws meant, but I'm not sure
+[17:15.700 --> 17:20.260]  I think he was talking about the mobile landscape where pre App Store
+[17:20.260 --> 17:24.660]  Getting quote unquote apps. I mean, I don't even know if people call them apps
+[17:24.660 --> 17:28.900]  but getting stuff all went through the carriers and if you wanted to have I
+[17:29.780 --> 17:36.620]  Mean, I don't even know of anybody who had like third-party email for phones before the iPhone in the App Store
+[17:36.900 --> 17:43.280]  but if you did you'd have to go through Verizon and it would be like a Verizon branded thing and then you'd have to
+[17:43.280 --> 17:52.120]  Completely separately negotiate with AT&T and get do something and have an AT&T logo when your app starts and it's
+[17:53.120 --> 17:59.680]  Software updates would all go through them and that's just talking to carriers in one country the United States
+[17:59.680 --> 18:05.240]  and that's what it was like all over the world and the software was crappy because the API's were crappy and
+[18:05.480 --> 18:08.760]  Yeah, that the the App Store blew that apart
+[18:08.760 --> 18:13.840]  But that was that's that's 12 years ago. That's a long time ago
+[18:14.720 --> 18:22.520]  Yeah, and the App Store is it just is not the upstart that is blowing up the idea of mobile software
+[18:23.280 --> 18:30.360]  The App Store has become bigger and the idea of app stores writ large on Android
+[18:31.080 --> 18:37.240]  through Google and Google Play and in China through the Chinese carriers and and variants of
+[18:37.240 --> 18:38.120]  a
+[18:38.120 --> 18:40.120]  Android that don't go through Google
+[18:40.560 --> 18:43.400]  It's the what that's the new world, right?
+[18:43.400 --> 18:50.240]  And that world is bigger and more dominant and more a part of everyday life for just normal everyday people
+[18:50.520 --> 18:52.520]  then the pre
+[18:53.040 --> 18:59.120]  2007 software landscape for mobile ever was or even could have dreamed of being right, right
+[19:00.320 --> 19:04.440]  so that would be my comeback to that and then the other thing I think I have to mention is
+[19:04.440 --> 19:08.920]  that it completely it really only makes sense in the
+[19:09.240 --> 19:16.760]  historical context of looking at mobile and doesn't look at the historical context of the Mac and desktop software right right where
+[19:17.760 --> 19:22.760]  You know, I know and a lot of the same developers, you know developers who were writing great Mac software
+[19:23.720 --> 19:25.560]  through the 90s and the
+[19:25.560 --> 19:33.200]  2000s and writing cocoa apps and selling them directly with no App Store and no 30% cut to Apple and building a good business and
+[19:33.200 --> 19:36.760]  Having them promoted by Apple and stuff like that, you know
+[19:36.760 --> 19:44.120]  It's it certainly is not the true the truth that you had to go through retail channels where Ingram micro was taking 70% of your price
+[19:44.560 --> 19:50.360]  To get a box software on a shelf, right? Yeah, there there was a thriving landscape for indie
+[19:51.040 --> 19:54.680]  independent and not just small indie developers, but like it
+[19:55.080 --> 20:01.360]  You know a big startup well-funded with millions and millions of dollars of VC money could build software for the Mac
+[20:01.360 --> 20:03.920]  Using these API's, you know, yeah
+[20:04.960 --> 20:09.240]  the last point I want to make on this front is on this issue of
+[20:10.640 --> 20:12.640]  Apple benefiting from
+[20:13.920 --> 20:18.800]  Developers with great apps in the App Store whether they make money from them or not
+[20:18.840 --> 20:25.200]  Right and and there's that that line in that letter insinuates that if Apple isn't making money from them
+[20:25.840 --> 20:31.080]  Just a direct, you know income revenue coming in then they're not really benefiting
+[20:31.080 --> 20:36.400]  And again, I think that I it to me it harkens back to what I said about
+[20:36.840 --> 20:42.480]  Jaws's comment and the indie Mac or not indie, but just independent of Apple, you know
+[20:42.480 --> 20:47.440]  It did not indeed like meaning small companies, but just all developers third-party developers
+[20:48.320 --> 20:55.080]  That's good for Apple. It was great for Apple when when and I really I really mean it
+[20:55.080 --> 20:59.920]  I don't know that there would be an iPhone without it that part of the appeal and
+[20:59.920 --> 21:00.960]  and
+[21:00.960 --> 21:07.920]  Really the very best technical thing that Apple acquired when next when next came back, you know
+[21:07.920 --> 21:12.000]  Maybe the best thing was the leadership and Steve Jobs and the executives he brought with them
+[21:12.000 --> 21:16.920]  But at a technical level it was the what became known as the cocoa frameworks
+[21:17.440 --> 21:19.440]  mm-hmm and
+[21:19.480 --> 21:22.280]  That they let develop it sounds like hype
+[21:22.280 --> 21:27.240]  You know that hey one person can write an app that does amazing things
+[21:27.240 --> 21:30.520]  but you wind up with things like my friend Gus Mueller at
+[21:31.480 --> 21:34.960]  Flying meat who's one, you know, he runs a company with his wife
+[21:35.080 --> 21:41.500]  But he's the only developer and has written acorn which is a legitimate Photoshop
+[21:41.840 --> 21:46.960]  Competitor not saying it's feature for feature as deep as Photoshop, but you can certainly for me personally
+[21:46.960 --> 21:50.360]  I use it where I used to use Photoshop one person and
+[21:51.280 --> 21:57.220]  Because of cocoa because of all the how deep this for these frameworks are that's good for Apple, right?
+[21:57.220 --> 22:02.320]  It is good for Apple when developers are building apps that can only
+[22:03.320 --> 22:09.560]  exist on Apple platforms or if it is cross-platform that it is a
+[22:10.080 --> 22:16.320]  Full-fledged, you know, like hey, which is a web-based thing and it has an Android app and a Mac app and stuff like that
+[22:16.880 --> 22:22.600]  It Apple benefits both ways it benefits when developers do things that take advantage of Apple's
+[22:22.600 --> 22:29.280]  systems in a way that can only exist on the Apple platforms because then it's a distinguishing feature and then it benefits when
+[22:30.080 --> 22:35.040]  Cross-platform stuff is fully available and a great experience on the Apple platform
+[22:36.360 --> 22:42.280]  You know again, I'm showing my age I guess but I remember you know in the 90s when there was an awful lot of cool
+[22:42.280 --> 22:46.640]  Stuff that was only on Windows and it was a huge problem for Apple huge
+[22:46.720 --> 22:49.720]  Yeah, and I mean, you know, all you gotta do is look at gaming
+[22:49.720 --> 22:54.240]  All right, if you just want to pick one one industry that drove
+[22:55.040 --> 23:01.020]  You know technological advances and high-margin computer hardware businesses and all of that for decades
+[23:01.020 --> 23:06.800]  It's been gaming right and like a good portion of the reason the Mac wasn't dominant for a long time
+[23:07.400 --> 23:12.720]  Was that gamers didn't buy Macs because they knew that they couldn't, you know, I'm making generalizations
+[23:12.720 --> 23:16.760]  I know there are gamers on Macs, you know, I'm a gamer I had a Mac but at the same time
+[23:16.760 --> 23:21.920]  They're they was driving the high-margin hardware business forward and Apple, you know, either
+[23:22.560 --> 23:28.000]  For whatever reason or for many reasons, I should say the reasons are there which we don't need to go into
+[23:28.120 --> 23:33.200]  Chose not to kind of go after that right and they went towards the creative professional and all of that stuff
+[23:33.360 --> 23:35.720]  but if they had wanted to
+[23:36.680 --> 23:40.600]  Say capture the gaming market and if they had you know had a desire to
+[23:41.000 --> 23:45.400]  Their strategy would have been different and it's the same thing with the App Store if they had wanted
+[23:45.400 --> 23:47.400]  only revenue generating
+[23:47.840 --> 23:54.520]  Direct revenue generating apps on the App Store their policies and marketing would have been different but they knew in their core
+[23:54.520 --> 23:59.120]  they knew that the numbers about how many apps were on the store and
+[23:59.480 --> 24:05.440]  How many developers supported it and how many major companies had an app for the for the iPhone?
+[24:05.440 --> 24:07.360]  Even if they were not for pay apps
+[24:07.360 --> 24:14.320]  even if they were free apps or extension apps all of those things benefited the iPhone ecosystem and drove
+[24:14.320 --> 24:22.120]  the billions and eventually trillions of dollars in sales of the iPhone if there's just no no getting around that so you
+[24:22.920 --> 24:30.160]  Making that statement is one of those times where it's like this is technically true and it is fair to point out
+[24:30.280 --> 24:31.720]  but maybe
+[24:31.720 --> 24:36.000]  It's not the right time and maybe it's a little disingenuous
+[24:36.640 --> 24:41.800]  Because you know very well that free apps and apps that contribute no revenue to the store
+[24:41.800 --> 24:46.360]  Still drive hardware sales and just because the business
+[24:47.080 --> 24:53.880]  Overall has a much stronger mix of services revenues now and an App Store revenue is a non
+[24:55.000 --> 24:58.040]  Trivial, you know component of that services revenue
+[24:58.560 --> 25:01.960]  doesn't mean that you're not still selling hardware by the bucket and
+[25:02.240 --> 25:10.280]  those apps didn't contribute to that and then they continue to contribute to that and that that's the primary sustaining business of
+[25:10.280 --> 25:11.960]  We're you know
+[25:11.960 --> 25:17.520]  we Apple are selling a thousand dollar phones and five hundred dollar phones and
+[25:18.040 --> 25:24.160]  $700 iPads and three hundred dollar iPads and three hundred dollar keyboards for iPads and
+[25:24.560 --> 25:29.560]  Macs that range from a thousand to sixty thousand dollar wheels, you know
+[25:31.000 --> 25:36.760]  I got a variety of items got a bunch of hair caught in my wheel. I better get another one. How much is that? Oh
+[25:36.760 --> 25:38.760]  $100
+[25:40.000 --> 25:47.400]  But that's the primary business that they're in and that the services stuff is secondary and that the specific
+[25:48.160 --> 25:55.600]  Aspect of services that is taking a cut of third-party developers writing stuff for your platform is secondary on the secondary
+[25:55.600 --> 26:03.200]  Right, like the main services push for Apple should be their own services getting people to pay for iCloud getting people to sign up
+[26:03.200 --> 26:05.200]  for Apple TV plus
+[26:05.200 --> 26:07.200]  Etc and so forth and so
+[26:07.920 --> 26:10.360]  Hopefully that's not lost but it's a good segue into
+[26:11.200 --> 26:16.840]  WWDC because I think it plays into it, but let me take a break right here and just thank our first sponsor. Oh
+[26:16.880 --> 26:18.880]  I love this company. Hello fresh
+[26:19.520 --> 26:26.380]  You can get mouth-watering seasonal recipes with pre-measured ingredients delivered right to your door with hello fresh
+[26:26.440 --> 26:28.720]  America's number one meal kick kit
+[26:29.800 --> 26:33.220]  Hello fresh makes cooking at home fun easy and affordable
+[26:33.220 --> 26:38.660]  Break out your of your dinner rut. Oh, are we in a dinner rut here at the Gruber household?
+[26:39.460 --> 26:44.820]  In mid-june three before months five months six years into quarantine
+[26:44.820 --> 26:47.220]  But hello fresh can help you break out
+[26:47.220 --> 26:53.820]  They have over 22 seasonal chef curated recipes each week and you get to pick what's up for you
+[26:53.820 --> 26:56.500]  What what's right for your family your household you?
+[26:56.500 --> 27:02.980]  Low calorie options of vegetarian options family-friendly recipes that's code for kid-friendly
+[27:03.700 --> 27:05.700]  Recipes, but they've got you covered
+[27:06.220 --> 27:09.300]  They have more five-star recipes than any other meal kit
+[27:09.300 --> 27:13.420]  So, you know, you're gonna get something delicious you save time and stress
+[27:14.020 --> 27:21.420]  Effortlessly, they cut out the stressful meal planning and prepping so you can enjoy cooking get dinner on the table in just about 30 minutes
+[27:21.820 --> 27:25.140]  Sometimes even 20 minutes with their quick recipe options
+[27:25.140 --> 27:29.960]  That's another thing you get to choose as you go, you know your budget for time
+[27:30.540 --> 27:35.660]  Average trip to the grocery store takes 41 minutes. That's over 35 hours a year. If you go once a week
+[27:36.180 --> 27:40.320]  Hello fresh can cut that down and we all know with everything going on today
+[27:40.980 --> 27:47.220]  Cutting down on trips to the grocery store is more important than ever less stressful. Ah, it's just so great
+[27:47.860 --> 27:49.860]  flexible fit your lifestyle
+[27:49.860 --> 27:56.260]  Recipe options that are delicious and fit your needs and they even can throw in stuff like sides
+[27:56.660 --> 28:00.420]  desserts garlic bread cookie dough all sorts of fun stuff
+[28:01.100 --> 28:07.060]  And right now hello fresh is starting at just five dollars and sixty six cents per serving
+[28:07.820 --> 28:12.020]  Go to hello fresh comm slash talk show ten
+[28:12.540 --> 28:14.860]  That's talk show one zero
+[28:14.860 --> 28:21.900]  hello fresh comm slash talk show ten and remember that code talk show ten during hello fresh's
+[28:22.140 --> 28:25.500]  Sale and you could get ten free meals including free shipping
+[28:25.700 --> 28:33.200]  That's hello fresh comm slash talk show ten and that code talk show ten get ten free meals including shipping
+[28:33.620 --> 28:36.140]  My thanks to them. So anyway
+[28:36.900 --> 28:38.300]  parlaying this into
+[28:38.300 --> 28:39.580]  WWDC I
+[28:39.580 --> 28:46.940]  think what part of what's interesting about this and it really is to me a parlay from this controversy over the app store and where
+[28:46.940 --> 28:48.940]  Apple's focus should be of
+[28:49.420 --> 28:54.220]  if you get too caught up speaking about the iPhone in particular and
+[28:55.500 --> 29:00.120]  You know and that's where Hayes app got caught up the iPhone has
+[29:02.180 --> 29:06.980]  Direct rivals primarily, you know almost entirely now the Android platform and
+[29:06.980 --> 29:11.880]  And something like hey can run on Android and it's largely the same
+[29:13.760 --> 29:20.480]  And you can get caught up thinking about the developer angle that way but Apple is really expanding it
+[29:20.480 --> 29:24.760]  I think the watch in particular. I know on my show this week with Federighi and Jaws
+[29:24.760 --> 29:26.480]  I didn't spend a lot of time on the watch
+[29:26.480 --> 29:30.320]  But the watch is so interesting to me from a developer perspective
+[29:30.760 --> 29:33.760]  because it's a very personal device and
+[29:33.760 --> 29:35.360]  I
+[29:35.360 --> 29:40.080]  It really is I know that that's sort of what Apple said six seven years ago when they first introduced it
+[29:40.080 --> 29:46.660]  But it is a watch is a personal fashion statement and it's right there. It's literally touching your skin when you're using it
+[29:47.720 --> 29:53.760]  And they're adding it there. I think it's really neat the way that they're emphasizing these the
+[29:54.840 --> 29:59.220]  complications as a way of personalizing it so that and face sharing
+[30:00.120 --> 30:02.120]  So that you can
+[30:02.120 --> 30:05.280]  If you have a face set up just the way you want it
+[30:05.280 --> 30:09.520]  You can share it with a friend or a family member like hey, how do you get your watch to look like that here?
+[30:09.520 --> 30:14.920]  Let me show it to you. Yeah, but the other thing that's really interesting about the watch in a broad sense
+[30:14.920 --> 30:16.920]  Is there's no real competition for it?
+[30:17.440 --> 30:19.200]  Mm-hmm, and I'm curious
+[30:19.200 --> 30:25.800]  You know what if you thought about that during the week at WWDC and that in that it fits in with the landscape
+[30:25.800 --> 30:27.800]  It's not like watch developers
+[30:28.160 --> 30:30.160]  Apple watch developers are this whole other
+[30:30.160 --> 30:36.480]  Ecosystem of developers. It is the same developers who were writing iPhone apps and iPad apps and Mac apps
+[30:38.040 --> 30:40.040]  Yeah, I mean
+[30:40.680 --> 30:45.720]  In some ways the the watch for some time now, it's been clear that it doesn't actually have a competitor, right?
+[30:45.720 --> 30:48.160]  There certainly have been other challengers
+[30:49.240 --> 30:55.000]  And certainly people that were in that space, you know before Apple and have now
+[30:55.000 --> 30:59.480]  gone defunct or kind of lost their way and then there's certainly
+[31:00.040 --> 31:04.440]  Major competitors that are trying to pour money into it like Google obviously
+[31:05.560 --> 31:11.980]  But it's become very clear that the competition the watch has is not against other people
+[31:11.980 --> 31:18.280]  It is against its own usefulness, right? It is against that the desire for somebody or the the
+[31:18.280 --> 31:24.300]  The sight line somebody has from not having one to why would it be good for me to have one?
+[31:24.800 --> 31:28.040]  That's their major challenge and competition, right?
+[31:28.880 --> 31:30.880]  and I think that that's
+[31:31.280 --> 31:33.280]  That's probably
+[31:33.320 --> 31:36.580]  You could look at a lot of the announcements that were made
+[31:37.240 --> 31:43.080]  At the web about the watch through that lens and it starts to make pretty pretty simple
+[31:43.080 --> 31:49.760]  Straightforward sense, right the watch sharing or the face sharing is definitely something that is that was lacking
+[31:49.760 --> 31:52.560]  What the watch is some sort of like viral mechanic?
+[31:53.120 --> 31:59.880]  For sharing its usefulness, right? Because the face is essentially the core of what makes it useful to most people
+[32:00.200 --> 32:01.520]  You're Lee look at things
+[32:01.520 --> 32:04.120]  It tells you things you can take actions from the face
+[32:04.440 --> 32:08.360]  All of the the initial wave of things that they thought were gonna be useful like oh
+[32:08.360 --> 32:12.400]  They got a bunch of apps and you can scroll around and poke at nobody uses that shit, right?
+[32:12.400 --> 32:18.840]  You know like, you know in all reality, you know, they're edge cases, but the 80% use case
+[32:18.840 --> 32:24.280]  Which is what Apple always cares about is that the face, you know, it's what is it telling me right now?
+[32:24.760 --> 32:31.360]  what can provide me quick access to like a like an activity or weather or or
+[32:31.960 --> 32:38.960]  Calendar or radio station or whatever, right and that via that face sharing thing while it seems like oh
+[32:38.960 --> 32:44.080]  This is kind of fun thing. Oh cool, right? It actually is the first time that the watch has had some sort of
+[32:44.360 --> 32:48.800]  potentially viral channel for sharing directly its usefulness
+[32:49.360 --> 32:55.520]  With other people because I don't actually believe that the watch sharing is aimed primarily
+[32:55.880 --> 33:00.120]  It's aimed strongly secondarily at people that own watches
+[33:00.480 --> 33:06.400]  It's aimed primarily at people that don't own watches and it's aimed at saying like oh look at this watch
+[33:06.400 --> 33:09.040]  Sharing thing and it has a nice preview. It shows me the
+[33:09.640 --> 33:14.040]  complications and the things that I could do on it if somebody shared it with me and I can
+[33:14.680 --> 33:17.960]  Look all these things I could do if I only had the watch and this
+[33:18.640 --> 33:21.260]  watch sharing thing adds that sort of
+[33:22.320 --> 33:23.880]  like
+[33:23.880 --> 33:28.400]  patina of usefulness to the whole enterprise and it acts as like a
+[33:28.880 --> 33:33.640]  Genuine vector for telling people this thing is useful to you. It shortens the onboarding time
+[33:33.640 --> 33:41.240]  It keeps it useful long-term so that they continue to be invested in the platform and they buy new watches and all of that
+[33:41.240 --> 33:44.400]  So I think that if you look through the at the announcements through that
+[33:45.000 --> 33:47.160]  Lens you start some of them start to make more sense
+[33:48.440 --> 33:51.920]  Yeah, and I just think it shows the way forward
+[33:53.040 --> 33:56.600]  Or not the way forward but it it's a clarifying
+[33:56.600 --> 34:03.160]  Notion for Apple that that this is a virtuous circle where?
+[34:03.720 --> 34:11.240]  You're you're improving the watch in ways that makes the watch more valuable to the people who already have it makes it more likely that
+[34:11.240 --> 34:14.980]  They'll buy a new one eventually that they'll recommend it to friends and that
+[34:15.360 --> 34:21.000]  They're gonna wear it and use it and like it and be like I feel naked without my watch. I want my steps
+[34:21.000 --> 34:23.000]  I want my but I want these
+[34:23.000 --> 34:27.000]  Complications that I've set up because my watch face was just for me
+[34:27.640 --> 34:34.480]  And that keeps people in the ecosystem. It makes it more likely, you know, if you have a watch you want to have an iPhone
+[34:34.480 --> 34:37.900]  It makes it more likely you're in the iPhone and then Apple is selling
+[34:39.200 --> 34:44.160]  three four hundred dollar watches and five hundred six hundred thousand dollar iPhones
+[34:45.160 --> 34:51.560]  Keeping people in the system apples, you know last I checked doing pretty well financially and again, I famous
+[34:51.560 --> 34:57.200]  Spending Tim Cook's money is a very easy thing to do as an armchair quarterback. I get it
+[34:57.200 --> 34:59.080]  I try not to do it
+[34:59.080 --> 35:04.800]  But at a certain level when you're literally the most profitable company in the world
+[35:05.360 --> 35:12.480]  And by however, you want to do the inflation adjustment up there among the handful in history like going back
+[35:12.760 --> 35:16.000]  hundreds of years to the East India Trading Company you
+[35:16.640 --> 35:19.660]  You know, you don't have to sweat the marginal
+[35:19.660 --> 35:25.380]  Get let's see if we can get 30% out of the signups from this software as a service thing on the phone
+[35:26.020 --> 35:32.180]  Again, I'm not saying they shouldn't do it. It's very easy to tell somebody else when they've had when they have enough money
+[35:32.180 --> 35:34.180]  You know, it's not mine
+[35:34.180 --> 35:35.380]  but
+[35:35.380 --> 35:41.620]  They don't need it, you know, and I just think that the watch is really clarifying as to how
+[35:42.340 --> 35:48.860]  Just getting buy-in from developers to do things that really only make sense in the Apple ecosystem
+[35:48.860 --> 35:53.700]  Is really good for Apple in and of itself, even if they're not making any
+[35:54.820 --> 36:01.940]  30% of this or that just by having you know developers making these complications for the watch. Mm-hmm
+[36:02.140 --> 36:04.900]  Yeah, and and the the face sharing are
+[36:05.540 --> 36:08.940]  Yeah, face sharing. I think that's what they're calling it, but the face sharing situation
+[36:09.940 --> 36:15.740]  It allows it's it's the first time that Apple to Apple always emphasizes on their site, you know, obviously
+[36:15.740 --> 36:19.220]  oh, here's some third-party apps and things that you can install and
+[36:20.460 --> 36:26.300]  Here's all of our first party features we built right and some of those are cool in some of the third-party apps are neat
+[36:26.300 --> 36:28.300]  but the face sharing thing is
+[36:29.380 --> 36:33.980]  Interesting because it doesn't currently nothing like it currently exists even for the App Store
+[36:34.700 --> 36:38.100]  Because the App Store says hey, here's some single
+[36:39.180 --> 36:41.180]  serving single
+[36:41.180 --> 36:48.900]  Compartment experiences that you can download that may be useful to you. Here's a calendar app. Here's a game. Here's a health app
+[36:49.620 --> 36:51.060]  etc
+[36:51.060 --> 36:53.980]  but what the App Store doesn't have currently is
+[36:55.020 --> 36:57.020]  Here's a package of things
+[36:57.340 --> 37:01.540]  That are useful to you together in this really compelling way
+[37:01.860 --> 37:06.180]  Like it doesn't right now the App Store doesn't have a way to download workflows
+[37:06.180 --> 37:13.500]  To say and you know to some degree shortcuts is that but that's not really accessible to a major audience
+[37:13.740 --> 37:20.980]  It's accessible to people that want to tool around with it and it's very cool. But as far as I am a I
+[37:21.620 --> 37:27.200]  Don't know. I'm a I'm a CPA and I want to get the best use out of my iPhone
+[37:27.200 --> 37:29.700]  Oh, you need these seven tools, you know
+[37:30.220 --> 37:35.740]  I'm an I'm an athlete and I'm a not only an athlete. I'm a college athlete
+[37:35.740 --> 37:37.740]  Okay, you need to download
+[37:37.940 --> 37:39.940]  this education helper
+[37:40.180 --> 37:44.660]  You know this this will thing to keep track of your classes that's specifically designed for athletes
+[37:44.740 --> 37:47.380]  you need to download this training app this this
+[37:48.640 --> 37:54.780]  nutrition app and this thing right and that could be packaged together by the college or by a
+[37:55.420 --> 37:58.720]  Developer or whatever. None of that exists for the store. It's all like lists of apps
+[37:59.060 --> 38:03.020]  Like oh if you're if you're a so-and-so you need these ten apps. Okay, cool
+[38:03.020 --> 38:08.260]  Now I gotta download them figure out how to configure them understand what they do, you know all of this, right?
+[38:08.260 --> 38:13.140]  It's a lot of labor. Whereas the watch face is very interesting because it says hey
+[38:13.300 --> 38:20.360]  Here's three different apps from a developer three different developers plus some first-party stuff from Apple
+[38:20.980 --> 38:27.460]  swizzle together to create a best-case scenario for a runner or for a swimmer or for a person concerned with health or for a
+[38:27.460 --> 38:31.820]  Person that manages a complex schedule or for a person who does both, you know
+[38:31.820 --> 38:38.820]  Yeah, and here's here's some things that will work for you. And I think that's really cool and unique to the watch and it does
+[38:39.660 --> 38:41.660]  What Apple does best which is say?
+[38:42.420 --> 38:48.460]  Third-party stuff, you know or what Apple at its best I should say does which is hey, here's third-party stuff that does amazing work
+[38:48.620 --> 38:52.660]  We think this really shows off the the the cool stuff that the platform is capable of
+[38:52.980 --> 38:55.940]  plus here's some first-party work that we did because we know
+[38:56.100 --> 39:00.920]  This hardware intimately and we knew we could push it to the limit to do something like you know
+[39:00.920 --> 39:08.420]  Hearing amplification or assistance or health health care or whatever, you know, and I think that's that's a really interesting and unique thing
+[39:09.020 --> 39:16.240]  Yeah, and I think I'm getting this right that that one of the weird weird but maybe in hindsight was a weird limitation was previously
+[39:16.540 --> 39:22.220]  you could only have one complication from an app on one watch face at a time and
+[39:22.860 --> 39:25.940]  So you couldn't if you're let's say you're a weather nut
+[39:25.940 --> 39:33.140]  you couldn't have like three weather complications from the same weather app on the same face at at a time and
+[39:33.700 --> 39:39.340]  You know again, that's like it's a niche and it's like the sort of thing that maybe Apple didn't think of is
+[39:39.340 --> 39:43.620]  Hey, what if you are a weather nut, you know, what if you really do want, you know?
+[39:43.660 --> 39:49.420]  Three different complications right all about the weather on your watch face at a time. Maybe you're a meteorologist, you know
+[39:49.420 --> 39:54.700]  Maybe you're a commuter right between two cities, right? Whatever they have micro ornaments
+[39:54.700 --> 39:59.500]  I mean look at right in the bay. I mean, those are different. Those are different weather ecosystems, you know
+[40:00.140 --> 40:04.100]  Right. What if you don't live in the bay where it's 71 degrees
+[40:04.940 --> 40:08.220]  On cold days in 73 when it's hot, right?
+[40:08.220 --> 40:11.620]  But you commute there for work and then you go back to Hayward where it's like 90
+[40:12.420 --> 40:17.140]  And so, you know, there are definitely cases where you would want that for sure
+[40:17.140 --> 40:22.700]  Yeah, but I just think that the watch even though it is sort of the you know
+[40:22.700 --> 40:23.940]  you
+[40:23.940 --> 40:28.020]  know, like I said on my show I had an hour with those with the
+[40:28.380 --> 40:33.700]  Federighi and Jaws and we certainly spent the last least time on a watch and not because it isn't deserving
+[40:33.940 --> 40:39.100]  But then it just had so much to say about the Mac and other things which you and I can get to in a moment
+[40:39.300 --> 40:45.340]  But I just think it exemplifies that sort of how does app the answer to that question of well
+[40:45.340 --> 40:45.860]  You know
+[40:45.860 --> 40:51.060]  Why should hey get to have an app in the App Store if they're not giving Apple any money Apple get stuff out of it
+[40:51.060 --> 40:56.180]  When developers are engaged with their platforms and it's it's just ridiculous to pretend otherwise
+[40:57.300 --> 41:01.660]  Can't necessarily put a dollar amount on all of it. All right, let me take one more break
+[41:01.660 --> 41:05.100]  We only have two sponsors for this show because it's sort of a special brief post
+[41:05.740 --> 41:07.740]  WWDC
+[41:07.980 --> 41:12.060]  Episode but it's our good friends at Squarespace. Oh man Squarespace
+[41:12.060 --> 41:17.540]  That's where you can start building your website today right at Squarespace calm talking about software as a service
+[41:17.540 --> 41:23.500]  You just pay them you get a great website. You have a great interface to do every single thing
+[41:23.500 --> 41:29.020]  You could possibly want to do with your own custom website from designing it to deciding
+[41:29.020 --> 41:30.620]  What components are a part of it?
+[41:30.620 --> 41:34.540]  like if you want a blog you want to host a podcast or maybe you have a
+[41:34.820 --> 41:40.540]  Portfolio of stuff that you want to sell and actually do the commerce on your website and sell it
+[41:40.580 --> 41:42.580]  You can do all of that at Squarespace
+[41:42.580 --> 41:48.100]  Analytics built-in see who's coming to your website where from stuff like that
+[41:48.940 --> 41:55.380]  And it's just so professional looking all these templates to choose from all
+[41:55.740 --> 42:00.380]  WYSIWYG right there you'd see it you look at it what you see as you're designing
+[42:00.380 --> 42:05.900]  It is exactly what people will see when they're visiting it because it's literally the exact same interface
+[42:05.900 --> 42:10.140]  Except yours as the editing option and and the actual viewing one doesn't
+[42:10.140 --> 42:14.620]  Really next time you need a website somebody comes to you for help with a website
+[42:15.020 --> 42:20.860]  Get them started at Squarespace put an hour or two into it and see how far you get and you really won't look back
+[42:21.460 --> 42:24.020]  Where do you go to find out more go to Squarespace calm?
+[42:25.100 --> 42:26.340]  talk-show and
+[42:26.340 --> 42:30.660]  When you decide to sign up and pay look you get a free trial it lasts
+[42:30.660 --> 42:34.580]  I think like a month. It's crazy. You get a great free trial
+[42:34.580 --> 42:40.900]  Just remember that when you go to pay go to squarespace.com slash talk show or just remember the code
+[42:41.060 --> 42:43.460]  Talk-show and you get 10% off your first purchase
+[42:44.300 --> 42:48.900]  Including up to an entire year a whole year and if you do sign up for a year
+[42:48.900 --> 42:52.900]  You also get a free domain name registration. So that my thanks to Squarespace
+[42:52.900 --> 42:58.400]  Just remember the code talk show squarespace.com slash talk show code talk show save 10%
+[42:58.400 --> 43:03.740]  So the Mac is really moving to arm. Yeah, it is
+[43:05.600 --> 43:12.120]  I'm in a finally. I don't know. I think it is a finally. I think it's probably not surprising in hindsight
+[43:12.120 --> 43:15.360]  I think that they've hinted Apple does not like to say
+[43:15.720 --> 43:22.000]  How long they've been working on things that they've been working on there, you know secretive about everything including how many years?
+[43:22.600 --> 43:24.600]  certain endeavors have taken
+[43:24.600 --> 43:27.960]  But they couldn't even help but say at this time, you know
+[43:27.960 --> 43:32.440]  Like they when they revealed that the emulation layer is going to be called Rosetta, too
+[43:33.040 --> 43:35.280]  They even said that they've had you know
+[43:35.280 --> 43:41.840]  The same some of the same engineers who worked on the power PC the Intel Rosetta are working on this and that they've been spending
+[43:41.880 --> 43:43.680]  years on it
+[43:43.680 --> 43:49.540]  And so I you know one of the things that I know you've spent a lot of time recently
+[43:49.540 --> 43:54.780]  with Mac Pro and thinking about that and you and I were there and that handful of
+[43:55.380 --> 43:58.980]  people who were invited to talk to Schiller and
+[43:59.500 --> 44:05.780]  Federighi and and John Ternus about Apple's sort of hey, we you know, we're
+[44:06.820 --> 44:10.620]  We painted ourselves in that thermal corner. Let's get our way out of it
+[44:10.620 --> 44:14.540]  We we want we want to be a big part of the pro workstation market
+[44:14.540 --> 44:23.020]  You know, where where how does this clarify the view for that for you of where Apple not just where they are right now
+[44:23.020 --> 44:26.180]  And what this means in the next two years as they transition
+[44:26.180 --> 44:30.820]  But where they've been thinking for the last four or five years on Mac hardware
+[44:31.460 --> 44:33.460]  yeah, I mean, I think it's
+[44:33.500 --> 44:35.500]  it's certainly a
+[44:36.700 --> 44:38.460]  It's interesting because I haven't you know
+[44:38.460 --> 44:43.060]  As you mentioned I've been kind of using a Mac Pro lately and I'm kind of playing around with it and trying to think about
+[44:43.060 --> 44:45.060]  It. I'll probably write something about it
+[44:45.260 --> 44:49.820]  I wanted to kind of wait until the first blush of people that had their chance to talk and
+[44:50.500 --> 44:51.820]  frankly until
+[44:51.820 --> 44:55.300]  Professionals had had it in their workflows for a bit so that I could ask around
+[44:55.580 --> 45:00.940]  You know to to people that I knew were using it and kind of say hey, how does this how does it actually work?
+[45:01.140 --> 45:06.360]  You know not well, how do I think this thing's gonna work and not really discussion about you know?
+[45:07.180 --> 45:12.220]  Pricing value or all the initial stuff. I want to know did they do a good job, right?
+[45:12.220 --> 45:17.580]  Did this thing work and I think that when you look at it through the context or look at arm through the context of the?
+[45:17.580 --> 45:21.700]  Mac Pro, I think it's very interesting because a lot of people were saying like oh who would buy a Mac Pro now and all
+[45:21.700 --> 45:23.020]  That stuff. Uh
+[45:23.020 --> 45:27.240]  You know, I don't think we're gonna be seeing ARM processors and Mac pros for five years
+[45:28.220 --> 45:30.220]  personally, I
+[45:30.820 --> 45:36.480]  Don't I think I think when they say two years, I think within two years there it'll be everything
+[45:36.480 --> 45:40.380]  I really do now whether that means they won't continue to still have
+[45:40.380 --> 45:45.700]  Mm-hmm the Intel CPU option in the Mac Pro in particular. I
+[45:46.340 --> 45:54.260]  Don't know but I think that there might be an entirely arm option for even like a twenty five thousand thirty thousand dollar
+[45:54.780 --> 46:01.580]  Workstation class Mac Pro within two years interest. I really do. Okay, I think so. Mm-hmm. I don't know
+[46:01.580 --> 46:05.940]  I think the one thing that was you know, it was very it's stood out for me
+[46:06.540 --> 46:09.860]  Which matters for it matters for everybody it matters for all compute
+[46:09.860 --> 46:14.140]  But it's specially matters for mobile compute is Johnny Suruji
+[46:14.660 --> 46:17.540]  Apple's kind of chip head chip guy
+[46:18.340 --> 46:19.860]  was saying
+[46:19.860 --> 46:25.560]  The phrase that he used was it was basically incomparable price per per watt, right?
+[46:26.780 --> 46:33.380]  Right and and that our power per watt, excuse me, not price per watt and they haven't mentioned pricing it but power per watt
+[46:33.380 --> 46:39.820]  so basically you put in X amount of power into a current Intel processor and you get back a certain amount of
+[46:40.420 --> 46:42.420]  a lot of
+[46:42.580 --> 46:48.580]  compute and then you put in the same amount of power to an ARM processor or their ARM processors that they're going to be making
+[46:48.580 --> 46:54.300]  Are already are making that we don't know about yet and you're gonna get back more for the same amount of wattage, right?
+[46:54.300 --> 46:59.140]  And this this is something that obviously if any chip people are listening to this
+[46:59.140 --> 47:03.620]  I'm sorry that we're talking about it in like baby goo goo gaga speak, right?
+[47:03.700 --> 47:09.460]  But I think a lot of people don't they kind of it definitely there was some discussion about it
+[47:09.460 --> 47:11.460]  but I think a lot of people kind of
+[47:11.660 --> 47:18.540]  Overlooked that particular sentence just because there was a lot going on. Oh my god, they're armed. They're switched away from Intel, you know
+[47:18.540 --> 47:23.540]  Oh cool develop their own processors, you know tightly integrated with hardware and software. Yeah
+[47:23.540 --> 47:29.580]  Yeah, yeah, right, but like I wrote a piece in two that I was looking at the other after that presentation
+[47:29.580 --> 47:34.980]  I looked it up because it was essentially the same kind of argument for the iPhone and the argument that I was making at the
+[47:34.980 --> 47:36.100]  time this is
+[47:36.100 --> 47:39.060]  They just started chipping a series processors
+[47:39.460 --> 47:41.460]  and so my argument was
+[47:41.700 --> 47:48.220]  Look the iPhones biggest flaw is the battery right and it's not really a flaw in that. It's a mistake Apple made
+[47:48.220 --> 47:50.220]  It's just a flaw in the system, right?
+[47:50.220 --> 47:56.980]  it iPhones would be capable of so much more if they were more power efficient or if they had more power available to them and
+[47:57.420 --> 47:59.900]  The only way you know to do that
+[48:00.380 --> 48:04.980]  Well, there's two major ways one way is develop an entirely new battery chemistry
+[48:05.980 --> 48:13.260]  Which all companies on the planet that have any interest in compute have been exploring to no avail yet
+[48:13.260 --> 48:18.900]  You know, there's some promising technologies but like carbon nanotubes and everything else is always on the horizon and you know
+[48:18.900 --> 48:25.420]  Graphite graphene and blah blah blah blah blah, right? There's always some new battery technology on the horizon somewhere, but none of it has been materialized
+[48:26.260 --> 48:31.980]  so the other major way to do that, of course is to get more efficient on the compute side and
+[48:32.220 --> 48:36.420]  Apple has done that in a variety of ways including moving their graphics
+[48:37.180 --> 48:41.780]  Frameworks to write to the chip rather than having an intermediate layer like an OpenGL
+[48:42.300 --> 48:47.660]  They've done a large amount of work obviously optimizing their software to run on their own
+[48:47.660 --> 48:53.540]  Silicon, which is a huge part of it and they've got Matt, you know, every time the iPhone comes out
+[48:53.540 --> 48:57.640]  It's like Oh better battery life better battery life. It's like how are you doing? This is the same battery, right?
+[48:57.640 --> 49:03.020]  And sometimes it's more battery in the casing, you know, it's few millimeters here few millimeters there
+[49:03.180 --> 49:08.260]  You know liquid battery technologies and you know all of that. They're eking it out wherever they can
+[49:08.740 --> 49:16.280]  Well this I view as their big chance to kind of push hard into that. Hey, how what if we shipped?
+[49:16.280 --> 49:17.460]  a
+[49:17.460 --> 49:22.520]  Laptop with our own processor, you know one question is like what if we shipped a laptop with their own processor?
+[49:22.520 --> 49:25.300]  And had tightly integrated everything and better security all of that
+[49:25.300 --> 49:30.940]  I think that's great. But a lot of those points are kind of hard to sell. What is really easy to sell is
+[49:31.760 --> 49:37.200]  Hey, we just came out with a laptop that has all the same power as that Intel laptop that you were thinking of buying
+[49:37.240 --> 49:39.940]  But it's double the battery life. Enjoy
+[49:40.960 --> 49:44.520]  right and like a hundred percent improvement on battery life is
+[49:44.520 --> 49:45.960]  absolutely
+[49:45.960 --> 49:47.020]  within
+[49:47.020 --> 49:50.240]  stabbing distance, you know of an arm driven
+[49:51.000 --> 49:56.680]  portable and that's why I think that a lot of their focus is gonna be on where they can get the biggest toehold and
+[49:56.680 --> 50:00.620]  games and sort of own that market and really just destroy the
+[50:01.140 --> 50:07.040]  The competition for at least some period of time and that's why I think the focus is definitely gonna be on MacBook Pros and all
+[50:07.040 --> 50:10.320]  of that, you know the portable lineup first, but
+[50:10.320 --> 50:16.280]  you know, and that's why in my mind the timeline was like longer for the Mac Pro, but also
+[50:17.280 --> 50:24.120]  Very exciting in the near term for MacBooks, you know, because I think this will be the first time we've we've seen a
+[50:25.920 --> 50:31.240]  Generational multiplicative jump in a long time because a lot of the underlying technologies haven't changed. I
+[50:33.160 --> 50:39.960]  Feel like exactly like you do where I feel like you you and I talking about this is sort of like babies talking about
+[50:39.960 --> 50:42.920]  Nuclear physics compared to people who really know the chips
+[50:43.080 --> 50:44.320]  but on the other hand
+[50:44.320 --> 50:49.520]  I feel like we're at least the babies who kind of have a sense of how big a deal this is and I really want to
+[50:49.520 --> 50:51.040]  convey and like
+[50:51.040 --> 50:56.840]  Maybe it's a bad analogy, but I I feel like there's a lot of people who are thinking about this
+[50:58.000 --> 51:00.000]  wrongly along the lines of
+[51:00.820 --> 51:02.820]  Let's say instead of switching
+[51:02.820 --> 51:10.580]  instruction set architectures from Intel to ARM or x86 to ARM if Apple had bought AMD and
+[51:11.100 --> 51:14.900]  They said okay. We're we've bought AMD now
+[51:14.900 --> 51:21.940]  we own them and we're going to switch the Mac to you know AMD x86 processors and
+[51:23.020 --> 51:25.980]  You know, there's gonna be cost efficiency and we don't have to pay
+[51:25.980 --> 51:30.200]  you know any kind of margin on it because we're gonna do these chips ourselves and you know
+[51:30.200 --> 51:33.960]  It it's not like that at all. That's not what they're did
+[51:33.960 --> 51:41.320]  That's not even close to what they're doing and that would have been big news and a big deal in the market for PC hardware
+[51:42.400 --> 51:45.100]  And certainly would have meant a lot to PC
+[51:45.280 --> 51:53.300]  PC gamers who like buying AMD chips if they were worried that Apple now that they bought AMD isn't going to
+[51:53.640 --> 51:58.400]  Sell them in that way etc and so forth that I don't even know if that was ever even on the table
+[51:58.400 --> 52:02.160]  But I just think that that's how some people are looking at this like oh
+[52:03.440 --> 52:06.640]  From a business perspective Apple's cutting Intel off
+[52:07.120 --> 52:13.560]  No longer has to pay Intel any kind of profit on these chips, you know, which are expensive parts of a Mac, you know
+[52:13.560 --> 52:15.080]  150 bucks or you know
+[52:15.080 --> 52:17.920]  200 bucks out of a thousand dollar MacBook Air and
+[52:18.120 --> 52:23.700]  Now they can cut that off and they have lower margin and maybe they're a little smaller and run a little cooler or something
+[52:23.700 --> 52:25.520]  I don't think that's it at all
+[52:25.520 --> 52:32.840]  I think it's like you said like it we're talking about like a 2x factor. We're talking about I think about the fact that the iPad Pro
+[52:33.840 --> 52:35.760]  clearly out benchmarks
+[52:35.760 --> 52:37.760]  MacBook pros and doesn't have a fan
+[52:38.280 --> 52:43.960]  Like what are they gonna do? Are they gonna bring fanless design to the MacBook pros?
+[52:44.000 --> 52:52.020]  Which would be huge or are they gonna keep the fans and build chips that we've never seen from Apple that do
+[52:52.020 --> 52:55.580]  Can run to the point where they require a fan?
+[52:55.580 --> 53:01.380]  But imagine what they could do if that's what the a 12 Z can do without a fan
+[53:01.740 --> 53:06.660]  What would happen if they built one that yeah. Oh, yeah, we're gonna keep the fans, you know, and it's you know
+[53:06.660 --> 53:11.620]  In the same way we're like, you know a 16-inch MacBook Pro typically even when the fan kicks in
+[53:11.620 --> 53:13.620]  It's not like you hear a hairdryer going
+[53:15.020 --> 53:18.420]  But but I mean like a weird a
+[53:18.420 --> 53:20.700]  a schism in
+[53:22.340 --> 53:27.860]  Performance per watt that that just does not and and also probably isn't really that
+[53:28.220 --> 53:33.780]  Analogous to even the power PC to Intel ship shift 15 years ago. It's more significant
+[53:33.860 --> 53:38.660]  maybe another very loose analogy that you could poke holes in very quickly is
+[53:39.260 --> 53:46.940]  Sort of thinking of electric cars and vehicles as oh you just don't have to put gasoline in them anymore
+[53:46.940 --> 53:48.940]  But they ride the same, right?
+[53:48.940 --> 53:54.940]  So instead of pumping gas into them you plug it in but then you actually get in one and press the gas puddle and you're
+[53:54.940 --> 53:56.500]  like oh, oh
+[53:56.500 --> 53:57.980]  this
+[53:57.980 --> 54:00.460]  This is totally different. Oh
+[54:01.460 --> 54:07.940]  Can I do that again? I would like to stop this and start it again. I would like to yeah. Oh, right it
+[54:07.940 --> 54:11.060]  you know, I I feel like there might be that sort of
+[54:11.060 --> 54:18.620]  Moment when they reveal this even just the very first max that they have in order where you just look at them
+[54:18.620 --> 54:21.700]  You'd be like, oh this is this is very different. Yeah
+[54:21.700 --> 54:27.620]  I mean, I'm excited about it in for ways that I mean like my most of the time honestly
+[54:27.620 --> 54:31.100]  I work on either the iPad Pro now or a desktop, right? And so for me
+[54:31.900 --> 54:37.660]  The the battery power debate is like I mean the iPad pros battery life is so amazing, you know
+[54:37.660 --> 54:40.620]  That it I'm already living in that world, right?
+[54:40.620 --> 54:46.020]  But plenty of people can't yet work on an iPad Pro or want the more want more flexibility
+[54:46.020 --> 54:50.060]  They want to use a Mac right for all of the reasons. The Mac is so good
+[54:50.060 --> 54:56.180]  You use it to tinker try crazy new things, you know build apps for for one thing
+[54:56.820 --> 55:01.980]  And you know, I'm so glad that they're they're investing in that and I think a lot of people are but I'm you know
+[55:01.980 --> 55:06.940]  We the fact is we have never seen a maker a software hardware maker ever
+[55:06.940 --> 55:09.660]  That has fielded a chip design team
+[55:10.300 --> 55:15.620]  Set their rules for how that hardware you is used and then built the software for that hardware
+[55:15.660 --> 55:18.940]  They're always it's always playing on somebody else's playground
+[55:19.060 --> 55:22.780]  Even if they have influence even if they've said oh with these are the specs that we want
+[55:22.780 --> 55:26.820]  they've never had that kind of down to the roots control and
+[55:27.900 --> 55:33.980]  it's always somebody else's job right to do those things and somebody else's responsibility and
+[55:33.980 --> 55:41.060]  ultimately somebody else's decision and how to fabricate those things and sure Apple has been doing that for a little while with it the a
+[55:41.060 --> 55:46.140]  Series chips because they've been you know saying hey, here's exactly what we want. Please build this
+[55:46.460 --> 55:51.300]  But we've never really seen that from a desktop manufacturer ever
+[55:52.220 --> 55:54.220]  every you could argue
+[55:55.100 --> 56:01.340]  Right now that every Windows laptop could work ten times better if Microsoft also made all the processors
+[56:01.340 --> 56:06.700]  Right because there's those teams could integrate very deeply with one another and and make it work
+[56:06.700 --> 56:10.220]  But you're you're always dealing with like either you've got
+[56:10.780 --> 56:12.780]  Underhead or overhead, you know either
+[56:13.180 --> 56:18.740]  Power that you're utilizing or power that you wish you had or that you aren't utilizing or power that you wish you had
+[56:19.740 --> 56:24.540]  And I think that it's a very very exciting thing to see what happens when they do that
+[56:24.540 --> 56:24.900]  I mean
+[56:24.900 --> 56:28.100]  I think people at Intel up the smart people are probably really really worried right now
+[56:28.100 --> 56:33.340]  because the only reason they have to be able to sleep right now is Mac market share because they're like
+[56:33.340 --> 56:38.540]  Oh, you know, it's a tiny part of the market. We supply a ton of processors to to a lot of different manufacturers
+[56:38.540 --> 56:40.540]  You know, we're agnostic etc
+[56:41.060 --> 56:45.100]  But if you're able to launch a laptop that says hey
+[56:45.100 --> 56:51.380]  This is 75 to 100 percent better than a competitor rather than the normal 20 percent that happens every generation
+[56:51.860 --> 56:55.340]  It starts being a huge fucking problem for them, you know
+[56:55.980 --> 56:57.500]  Yeah
+[56:57.500 --> 57:04.140]  well, and I think I touched on this on my show and I just feel in and it there's only so far you can press with
+[57:04.140 --> 57:06.300]  Those guys and I feel like Federighi was delightfully
+[57:07.060 --> 57:08.380]  Like yeah
+[57:08.380 --> 57:13.940]  We're totally committed to the Mac and and in a way that I hopefully would reassure more people
+[57:14.180 --> 57:20.940]  Than even just that huge slide from two years ago with the big know that we're gonna just combine the iPad and the Mac
+[57:22.060 --> 57:23.980]  and I
+[57:23.980 --> 57:29.380]  Just feel that there is a sense at the company that they they have a very
+[57:30.820 --> 57:34.580]  They're not doing things like redesigning the Mac Pro
+[57:35.140 --> 57:42.420]  with a year or two ahead, you know, like like the the end of the their their foresight for where they're going with the Mac is
+[57:42.900 --> 57:47.580]  2022 or something like that. They're not going through this transition with you know, like
+[57:47.580 --> 57:53.460]  One or two years of Mac hardware ahead of them. This is a very long play
+[57:53.460 --> 58:02.460]  I mean decade at least probably decades and what they're really thinking of is not I think is not just
+[58:03.460 --> 58:06.100]  Shackled to the history of what is the Mac?
+[58:07.100 --> 58:14.380]  In the context of the PC market it is the broader sense of what do we need?
+[58:14.380 --> 58:19.740]  What is the need for a computer workstation at the highest levels of?
+[58:20.300 --> 58:26.540]  Performance that as an industry we can build where's that going five ten years from now?
+[58:26.540 --> 58:33.020]  What are the needs what what what jobs are there to be done that require the most possible?
+[58:33.660 --> 58:37.500]  graphics and CPU and now neural engine compute
+[58:37.500 --> 58:45.020]  going forward and I think that it really I I think that there's a sense that that what the Mac is the Mac is I
+[58:45.020 --> 58:50.620]  guess going to be Apple's answer in that regard and that's a very different problem domain than
+[58:51.340 --> 58:55.140]  What is it that you do with an iPad or an iPad Pro or your phone?
+[58:55.140 --> 59:00.620]  I mean and it's not to diminish those things like you I know you just said it and I know you're you're really serious about
+[59:00.620 --> 59:04.460]  It that you do a lot of your work on iPad. I've done more work
+[59:04.460 --> 59:12.180]  more of my writing on a daily basis and emailing and a lot of other stuff that I would consider work on my iPad ever
+[59:12.300 --> 59:16.460]  since the the update in March that added trackpad and support
+[59:17.380 --> 59:23.280]  It's delightful, but I'm not I know that I'm not pressing it as a computer right that you know
+[59:23.280 --> 59:27.700]  And and that's really what this is about in a lot of ways is what what do you need?
+[59:27.700 --> 59:34.980]  What why why you know, like maybe that's it is why why still fight to make the Mac relevant?
+[59:34.980 --> 59:35.620]  Why not?
+[59:35.620 --> 59:42.140]  Why not just just make iPads and put the iPad on a laptop and say we don't even have to have this other platform
+[59:42.140 --> 59:43.820]  We could simplify things greatly
+[59:43.820 --> 59:51.300]  I think it's because they see a whole bunch of problems that that demand a computing platform that has the most
+[59:51.300 --> 59:59.300]  Performance that they can get possible. Mm-hmm. I think that's terribly exciting. Yeah. Yeah, it is and I
+[59:59.820 --> 01:00:02.260]  that the idea that there was
+[01:00:03.540 --> 01:00:06.740]  You know, there's certainly there's certain Apple applications, especially
+[01:00:07.420 --> 01:00:12.940]  Neural engine work and in ML work that and AR for as a current example
+[01:00:13.540 --> 01:00:19.300]  That tax, you know iPad hardware, let's say right because that iPad hardware is currently some of the most powerful
+[01:00:19.300 --> 01:00:21.260]  You can buy from Apple, right?
+[01:00:21.260 --> 01:00:25.940]  And that right they're certainly ones that hit the peaks there
+[01:00:25.940 --> 01:00:30.180]  You know that the tap against the boundaries of what the iPad does
+[01:00:30.180 --> 01:00:35.460]  But the vast majority of what you do on it doesn't and some of that is related to the tasks, right?
+[01:00:35.460 --> 01:00:39.620]  You just there, you know, you're not compiling an enormous application
+[01:00:40.220 --> 01:00:42.020]  with millions of lines of code
+[01:00:42.020 --> 01:00:47.380]  With a bunch of itinerant frameworks, you know that that on the iPad Pro, you know
+[01:00:47.380 --> 01:00:51.220]  That you would normally do on a Mac and there are certain things that developers do there
+[01:00:51.220 --> 01:00:54.620]  There are certain things that graphics professionals do obviously, you know
+[01:00:54.620 --> 01:01:00.120]  Like with the Mac Pro like I've been playing around with a bunch of 6k streams in final cod and things like that
+[01:01:00.120 --> 01:01:07.060]  There are certain things that would overtax, you know would hit the cap of what's going on there. And so when
+[01:01:07.580 --> 01:01:09.580]  when you say
+[01:01:09.740 --> 01:01:15.820]  In sometimes it could sound hyperbolic that we literally don't know what these machines are actually capable of that's just true
+[01:01:15.820 --> 01:01:22.260]  Like we don't know what an arm-powered Mac is capable of yet
+[01:01:22.700 --> 01:01:28.660]  Because they've just never had the same set of constraints and that's one of the things about owning the hardware
+[01:01:28.700 --> 01:01:30.780]  Obviously is that Apple can say hey
+[01:01:30.780 --> 01:01:37.260]  These are the constraints that we have for the iPad obviously battery life is an enormous one. It needs to drive this, you know
+[01:01:38.340 --> 01:01:43.340]  Display needs to drive these certain things and it can it's essentially never going to be plugged in
+[01:01:43.340 --> 01:01:46.660]  you know while it's being used all of those constraints and
+[01:01:47.420 --> 01:01:49.060]  so we're
+[01:01:49.060 --> 01:01:56.420]  The laptop thing is more of a known quantity because I think we're gonna say see like hey what what is in a laptop that?
+[01:01:56.780 --> 01:02:04.460]  laptop version of the iPad Pro look like but the desktop aspect of it is gonna be fascinating because we've never seen that like you mentioned in
+[01:02:04.460 --> 01:02:09.140]  the Mac Pro and like my my timeline is based on this idea that the
+[01:02:09.140 --> 01:02:14.580]  Mac Pro architecture as it currently exists was actually designed to support arm
+[01:02:15.060 --> 01:02:19.260]  Because there's no way that they would have restarted two years ago at the time
+[01:02:19.260 --> 01:02:22.300]  They restarted and not known that they were doing this. So
+[01:02:23.540 --> 01:02:27.020]  right, and I think that maybe in
+[01:02:27.940 --> 01:02:30.220]  Hindsight and maybe someday we'll get the story
+[01:02:30.220 --> 01:02:37.700]  But maybe if if this arm transition took them a little bit longer than they thought and maybe what they had before
+[01:02:37.700 --> 01:02:41.260]  Didn't last quite as long as they wanted and that maybe
+[01:02:41.820 --> 01:02:47.500]  part of that whole meeting, you know with me and you and you know freed and
+[01:02:50.580 --> 01:02:57.620]  You know and they more or less pre announced the iMac Pro and said we're gonna make an all-new Mac Pro and
+[01:02:58.060 --> 01:02:59.900]  Maybe that they figured you know
+[01:02:59.900 --> 01:03:06.420]  We do need we have enough of a gap in between what we already have and where we want to go with our own
+[01:03:06.420 --> 01:03:10.980]  Silicon that we need to do something in the interim and have like an awesome
+[01:03:12.100 --> 01:03:19.340]  Intel based iMac Pro for true pro performance and let's ship the Mac Pro that we have in mind
+[01:03:19.580 --> 01:03:24.780]  based around Xeon stuff first, but clearly they built that I mean
+[01:03:24.780 --> 01:03:31.580]  I did the Mac Pro in particular. I mean absolutely positively was built by Ternus's team
+[01:03:32.340 --> 01:03:34.340]  Knowing what they were doing
+[01:03:34.340 --> 01:03:39.340]  Deeply at a deep technical sense where they're going with their custom silicon
+[01:03:40.060 --> 01:03:41.220]  Yeah
+[01:03:41.220 --> 01:03:48.740]  Yeah, terribly excited. Yeah, it's it honestly is really really interesting because this stuff doesn't you know processor roadmaps are known
+[01:03:48.740 --> 01:03:55.380]  Right because those companies make processors and they got to tell their there. They got to tell the markets. What's coming, right?
+[01:03:55.380 --> 01:04:01.220]  Hey, we got this new things and hopefully people are gonna love them and we're making great stuff and all these technical advances
+[01:04:01.220 --> 01:04:05.940]  But you know, we kind of know what Intel is shipping three years out, right and or four years out
+[01:04:05.940 --> 01:04:07.940]  And so you kind of what?
+[01:04:09.020 --> 01:04:11.020]  Right exactly in an ideal world
+[01:04:13.140 --> 01:04:18.820]  But it's right now we just did this is the first time in a long time where the the
+[01:04:19.420 --> 01:04:22.260]  arc under a major computing platform
+[01:04:22.860 --> 01:04:26.340]  Or the the column under which you would fill in these
+[01:04:26.340 --> 01:04:31.340]  Oh, this is gonna use the you know, the 9900 and this is gonna use the 7200 and this is gonna use whatever
+[01:04:31.780 --> 01:04:38.180]  It's blank and we just don't you know, we just don't know and that is that's exciting, you know to a you know
+[01:04:38.180 --> 01:04:42.820]  To a processing nerd that's exciting. But also to anybody who's interested in general-purpose computing
+[01:04:42.820 --> 01:04:47.420]  I think it's I thought that the other thing that was a little bit of a hint and I just think that there's way too
+[01:04:47.420 --> 01:04:54.940]  Many people who were looking at these dev kits with the a12z and thinking that that's even vaguely what they're talking about shipping
+[01:04:54.940 --> 01:04:56.220]  You know like oh well
+[01:04:56.220 --> 01:05:00.700]  I guess they'll come out with an a14 for the iPhone in September and then there'll be an a14 M
+[01:05:00.700 --> 01:05:06.100]  And that's just a slight variant for the Mac. It's like that's not what they're talking about. No doesn't feel that way to me
+[01:05:08.980 --> 01:05:12.540]  So, what do you want to talk about before we wrap up you want to talk about my show
+[01:05:12.540 --> 01:05:18.460]  Oh, no, I mean, I think it's like your show with great. I think that I think the WWDC is interesting topic though
+[01:05:18.940 --> 01:05:24.100]  Just like the how the show went. Oh, yeah, how they did a good job virtually. Yeah. Yeah, I
+[01:05:24.100 --> 01:05:26.100]  I
+[01:05:26.100 --> 01:05:31.340]  There's some people saying hey, they should do this from now on, you know, it's just like forgo the physical one
+[01:05:31.340 --> 01:05:37.580]  I saw mark. I saw Marco Arment tweeted that Marco just doesn't want to leave his beloved beach house
+[01:05:37.580 --> 01:05:41.260]  Yeah, he's off. He's off enjoying the the warm Atlantic Ocean
+[01:05:42.260 --> 01:05:46.700]  Yeah, yeah. Yeah, I you know, I will just say I have been a guest at Marco's Beach House
+[01:05:46.700 --> 01:05:53.180]  I can just tell you that Marco at that Beach House is he's like plugged into the matrix and like it's like
+[01:05:53.180 --> 01:05:55.020]  it
+[01:05:55.020 --> 01:06:00.820]  The dopamine to come out of his brain is just a he really love it. It's like it is paradise friend
+[01:06:00.820 --> 01:06:06.740]  He just yeah, he just does not want to leave. It's like June is June is beach time for Marco Arment
+[01:06:06.980 --> 01:06:09.060]  Yeah, you know what? I mean? Like if if
+[01:06:09.780 --> 01:06:12.460]  WWDC's traditional month is January
+[01:06:14.300 --> 01:06:16.300]  He wouldn't yeah, yeah
+[01:06:16.300 --> 01:06:23.380]  You're like, let's go. Let's get 72 in January in the bay. So, um, yeah
+[01:06:23.380 --> 01:06:30.220]  Yeah, but I do I I do wonder I I wonder I don't think it's off the table that this might
+[01:06:30.540 --> 01:06:36.060]  Permanently change WWDC in some way. Certainly. They'll still have the radio, you know
+[01:06:36.660 --> 01:06:38.940]  for you know a keynote I
+[01:06:40.700 --> 01:06:42.140]  I
+[01:06:42.140 --> 01:06:49.180]  Still think that they like it. I think they like the face-to-face WWDC. I will this change how they do the
+[01:06:49.940 --> 01:06:51.140]  presentations I
+[01:06:51.140 --> 01:06:57.940]  the other thing that is compelling is a lot of some developers are saying I like these presentations better because
+[01:06:58.620 --> 01:07:00.940]  presenting directly for a camera is
+[01:07:02.500 --> 01:07:05.340]  Giving these presentations are more intimate and
+[01:07:06.180 --> 01:07:11.740]  Direct feeling than a presentation that was meant to be delivered on a stage in a convention
+[01:07:11.740 --> 01:07:18.420]  Yep room. Yeah, and you know, honestly, I thought that the format did a few things for me that I thought were very positive one
+[01:07:19.220 --> 01:07:23.620]  The presenters got their time to shine. These are people that have worked on these projects
+[01:07:24.140 --> 01:07:25.820]  You know, they'd have worked
+[01:07:25.820 --> 01:07:33.180]  You know for years sometimes without ever talking about it once to anybody on these things and they they got a chance to you know
+[01:07:33.180 --> 01:07:37.340]  The presentations on the stage are great and fine and all of that and I know the videotaped
+[01:07:37.340 --> 01:07:42.780]  Versions of those are fine. But those those presentations are often extremely slide heavy, you know
+[01:07:42.780 --> 01:07:49.340]  And the presenter is de-emphasized for lack of a better term and in these the presenter is definitely right up there in the front
+[01:07:49.580 --> 01:07:53.060]  You get to see so many really interesting cool people present projects
+[01:07:53.060 --> 01:07:59.060]  They've worked on for a really hell of a long time at Apple as I mentioned sometimes in complete obscurity or secrecy for years
+[01:07:59.060 --> 01:08:02.180]  And I think that was really fun. Yeah, that was really cool
+[01:08:02.180 --> 01:08:06.740]  Their passion definitely showed and I thought the presentations were more engaging for it, you know
+[01:08:06.740 --> 01:08:13.740]  Yeah, and then for me like the other big thing that's positive out of this and I'm hell I'm gonna ask Apple
+[01:08:13.740 --> 01:08:18.340]  I don't know if they'll ever share how much data they have but I I tweeted that I'd bet
+[01:08:18.940 --> 01:08:20.940]  anything that
+[01:08:21.100 --> 01:08:24.260]  This is the most inclusive audience for dub-dub that they've ever had
+[01:08:24.880 --> 01:08:29.260]  Because I know that Apple has gone through an extensive amount of efforts to try to get students
+[01:08:29.740 --> 01:08:32.960]  developers of color black developers Latinx developers
+[01:08:32.960 --> 01:08:42.160]  LGBTQ director developers to the show physically, you know to take part in the show to make sure that they are
+[01:08:43.200 --> 01:08:48.760]  Creating a welcoming environment, but there's only so much you can do and show sometimes this feels homogenous
+[01:08:48.760 --> 01:08:55.560]  a lot of white dudes, you know, yeah and well and yeah and the biggest thing and literally 50-50
+[01:08:55.920 --> 01:09:00.040]  demographically not in the world is right women and men and gender and
+[01:09:00.040 --> 01:09:06.920]  And LGBTQ and but just you know, yeah lots lots and lots of white and I'd imagine that like that
+[01:09:06.920 --> 01:09:09.080]  Yeah, that's the audience sort of quote unquote
+[01:09:09.760 --> 01:09:15.300]  Participating in this live week, you know sure that the videos are eventually available to everybody, you know
+[01:09:15.300 --> 01:09:20.440]  We've known that for a long time, but or for some time now that they've been doing that
+[01:09:20.440 --> 01:09:25.320]  But I think in this live sort of everybody's talking and interacting with one another
+[01:09:25.320 --> 01:09:32.440]  Largely using Twitter to be honest as a medium, you know to share clips of and you notice that there's tons of clips of
+[01:09:33.000 --> 01:09:37.160]  Presentations now whereas they used to be sort of like a chilling effect on that, you know
+[01:09:37.160 --> 01:09:40.640]  They're like, oh don't share a lot of things, you know, that was like the general gist
+[01:09:41.800 --> 01:09:44.960]  Don't share video recordings of the presentations
+[01:09:44.960 --> 01:09:48.920]  Well, they don't there's a ton on Twitter now, and I think they're really cool
+[01:09:48.920 --> 01:09:53.400]  A lot of them show off really neat features and a lot of the discussion around them
+[01:09:53.400 --> 01:09:55.920]  if you look at them, there's a very diverse set of
+[01:09:56.920 --> 01:10:03.440]  Developers having you know taking part in this sort of live discovery of these features and conversations about them
+[01:10:03.480 --> 01:10:08.320]  That they just don't get if they watch the video a week or two later and all of the initial
+[01:10:08.600 --> 01:10:14.320]  Chatter about them has maybe died down or whatever. I just think that there's a very interesting thing that happened here
+[01:10:14.600 --> 01:10:21.360]  That would never have happened because the in-person scenario is largely lottery based which doesn't
+[01:10:21.360 --> 01:10:23.360]  sort of allow for any
+[01:10:28.000 --> 01:10:30.000]  Intentionality in the mix, right?
+[01:10:30.600 --> 01:10:37.440]  Whereas this is just the opposite of that where it's everybody so you by nature you're gonna get a more inclusive environment
+[01:10:37.440 --> 01:10:40.800]  I thought that was really cool. You know, I've certainly for a long time
+[01:10:40.800 --> 01:10:46.080]  I've wished as I even as I attended the shows it's like man, you know wish this this group was more
+[01:10:46.080 --> 01:10:51.360]  Inclusive across the board because it's frankly gets boring when it's the same people, you know
+[01:10:52.160 --> 01:10:57.360]  So and there was there there's a simple cost. There's a simple cost factor too, right?
+[01:10:57.360 --> 01:11:04.360]  I mean above and beyond the lottery and getting lucky to go is that airfare and a hotel or
+[01:11:05.040 --> 01:11:10.560]  Airbnb or whatever, you know just putting a roof over your head and eating and getting around
+[01:11:10.560 --> 01:11:13.280]  Yeah, a lot of developers are gonna self-select out of that
+[01:11:13.280 --> 01:11:16.360]  So like hey, and I got a family I get a job and I got all this stuff
+[01:11:16.360 --> 01:11:18.360]  So it opens it up to them too. Yeah, right
+[01:11:19.320 --> 01:11:22.400]  And it's a you know, just the schedules a factor on the student
+[01:11:22.400 --> 01:11:22.840]  Yeah
+[01:11:22.840 --> 01:11:25.380]  Scaper there's an awful lot of students who maybe could go
+[01:11:25.640 --> 01:11:31.040]  Would go would try to go even though it's limited space and can't because they're taking final exams
+[01:11:31.200 --> 01:11:36.720]  In the second week of June or something like that, you know that especially like high school type students
+[01:11:36.720 --> 01:11:40.660]  I know college is usually done by June but but a lot of high schools are still going
+[01:11:40.660 --> 01:11:45.700]  And now they're they're full-fledged, you know a 17 year old
+[01:11:46.780 --> 01:11:50.740]  Teenage developer is on equal footing for consuming
+[01:11:51.460 --> 01:11:54.420]  WWDC with the you know middle-aged
+[01:11:55.700 --> 01:12:00.840]  Professional who's been going for 15 20 years. It's it is absolutely
+[01:12:01.540 --> 01:12:03.260]  diversifying and
+[01:12:03.260 --> 01:12:08.780]  Several senses of the word. I also think it's really interesting very Apple not surprising to me
+[01:12:08.780 --> 01:12:11.500]  But definitely surprised some people in that
+[01:12:12.260 --> 01:12:18.340]  Apple used this as an opportunity to up their production values not lower their production values
+[01:12:18.340 --> 01:12:21.620]  Oh, it's coronavirus time people in quarantine
+[01:12:22.060 --> 01:12:28.180]  You know, our presentations won't be as polished the the average presentation level, you know
+[01:12:28.580 --> 01:12:30.580]  Production quality wise is way up
+[01:12:31.500 --> 01:12:34.180]  That to me is the thing that seems hard
+[01:12:34.180 --> 01:12:40.820]  Like I don't think Apple's can as concerned about the cost of putting on the massive convention because again
+[01:12:40.820 --> 01:12:43.780]  I don't know if you know this but Apple has a fair amount of money
+[01:12:45.780 --> 01:12:49.940]  Again again, I'm not the one writing the check
+[01:12:51.100 --> 01:12:52.420]  You know, but I you know
+[01:12:52.420 --> 01:12:58.700]  I I know how much less I paid to produce my show this year by not renting out to
+[01:12:59.060 --> 01:13:01.060]  California theater for one night
+[01:13:01.060 --> 01:13:04.060]  And it's a lot of zeros by my standards
+[01:13:04.900 --> 01:13:10.900]  But I I just think that the one thing about this year's show that to me would would
+[01:13:11.420 --> 01:13:14.980]  Make apples to catch Apple's institutional eye
+[01:13:15.780 --> 01:13:22.220]  As to hmm. This would be hard to go back on is production quality production quality is
+[01:13:22.740 --> 01:13:28.580]  Defines Apple in every way right like they they make the nicest watch bands, right?
+[01:13:28.580 --> 01:13:34.180]  You know what? I mean, they're their videos are supposed to be high production quality
+[01:13:34.180 --> 01:13:40.380]  You know, the keynote had was high production value quality from start to finish and was fascinating
+[01:13:40.380 --> 01:13:45.780]  Did you notice by the way the safety disclosures at the end? Did you watch it? I thought that was really cool
+[01:13:45.780 --> 01:13:49.660]  Yes, totally steal that so if anybody from Apple isn't to this I'm ganking it
+[01:13:49.700 --> 01:13:50.820]  But we you know
+[01:13:50.820 --> 01:13:54.580]  We're doing our virtual events this year and it was something was inspiring to us to see like hey
+[01:13:54.580 --> 01:13:56.660]  Cuz we are we're going through all the same planning, you know
+[01:13:56.660 --> 01:13:58.820]  We want to make sure that we pull off our events safely
+[01:13:59.020 --> 01:14:03.900]  Even though they're virtual there will be contact among production members and we want to make sure that's handled carefully
+[01:14:03.900 --> 01:14:05.900]  I thought that was really cool touch, right?
+[01:14:06.420 --> 01:14:12.540]  And I just I really do in a way that it it just seems like they can they can
+[01:14:13.140 --> 01:14:16.180]  deliver a production quality of these session videos
+[01:14:17.320 --> 01:14:19.540]  when they're delivered personally and
+[01:14:19.540 --> 01:14:28.020]  Staged entirely in a way that is only meant to be delivered on video that simply cannot be done for something delivered on stage
+[01:14:28.020 --> 01:14:33.660]  To an audience of a few hundred people in a room and I don't know how they I don't know how they go back on
+[01:14:33.660 --> 01:14:35.660]  That so, I don't know. I don't know what they do
+[01:14:36.140 --> 01:14:42.720]  It also doesn't make sense to just have a 5,000 person keynote and then say okay the rest of the week is virtual
+[01:14:42.720 --> 01:14:49.760]  Yeah, I agree. I mean, I don't I don't know what the exact path forward is, but I don't think a hybrid approach
+[01:14:49.760 --> 01:14:51.760]  Is that of the question? Yeah for sure
+[01:14:53.320 --> 01:14:55.320]  Yeah
+[01:14:55.320 --> 01:14:57.120]  What did you think I?
+[01:14:57.120 --> 01:15:04.240]  Wasn't sure I guess if I was something I I wasn't I I hadn't rewatched the keynote yet when I did my interview with Jaws
+[01:15:04.240 --> 01:15:10.640]  And and Federighi and then I rewatched part of it and I kind of think parts of it weren't real
+[01:15:10.640 --> 01:15:15.120]  I think that there was you know, there were special effects in there
+[01:15:15.120 --> 01:15:22.360]  Like I'm not entirely sure Craig Federighi was in the stage Steve Jobs theater for everything where it looked like he was in the atrium
+[01:15:22.360 --> 01:15:25.880]  You know, and I'm not even sure that the screen behind him was real. It was it's
+[01:15:26.640 --> 01:15:32.120]  It but it was convincing if it wasn't real and if it was real it was done in a way
+[01:15:32.120 --> 01:15:35.880]  That was so polished that it almost didn't look real. I don't know
+[01:15:35.880 --> 01:15:42.800]  Yeah, I mean it could it could have been just been touch-up, you know visual touch-up that kind of gave it that look
+[01:15:43.520 --> 01:15:50.120]  Certainly it they chose a look for it that I guess you would call like new Apple video, you know
+[01:15:50.120 --> 01:15:54.840]  It's certainly a little bit overexposed a little bit contrast, you know
+[01:15:55.600 --> 01:15:57.360]  graded that way
+[01:15:57.360 --> 01:15:59.360]  although it would be fun to like in
+[01:15:59.360 --> 01:16:06.440]  It maybe engage somebody in who does visual work to kind of run a
+[01:16:06.960 --> 01:16:08.560]  run down a
+[01:16:08.560 --> 01:16:13.400]  An examination of the keynote and be like, oh they definitely did this here that there, you know
+[01:16:14.080 --> 01:16:16.400]  We know we know people who might be down for that
+[01:16:16.400 --> 01:16:22.800]  I was talking to my friend Adam Lisa Gore at sandwich video because they did the editing from my show and and we were so
+[01:16:22.800 --> 01:16:24.880]  Busy with my show that we didn't really have a lot of time
+[01:16:24.880 --> 01:16:26.880]  He was just like I was like, what do you think and he was like
+[01:16:26.880 --> 01:16:28.880]  It's interesting
+[01:16:31.680 --> 01:16:36.880]  But I do think I think it was a success I really do I think it was yeah pelling I think it was appley
+[01:16:36.880 --> 01:16:43.160]  I think it was on-brand and in for Apple and engaging for people who watched and very enjoyable
+[01:16:44.200 --> 01:16:51.200]  And I just don't know where the line stopped between real drone shots of Apple Park and what was virtual
+[01:16:51.200 --> 01:16:55.920]  I mean, you know it all to their credit where the special effects were like, I don't know
+[01:16:55.920 --> 01:17:01.000]  I'm pretty sure a camera didn't really pass through the ceiling but it sure looked like it did
+[01:17:01.200 --> 01:17:04.560]  Yeah, exactly a little little Hitchcock situation going on there
+[01:17:05.240 --> 01:17:11.160]  Yeah, the I think they definitely used an FPGA fpv drone for some of it, which is a trend
+[01:17:11.160 --> 01:17:15.700]  I've been following more you're gonna see this more and more. I think you're gonna even see it in action films
+[01:17:15.700 --> 01:17:19.620]  There's already been some action films that have used drones, but specifically racing drones
+[01:17:19.620 --> 01:17:26.820]  Which is you know, these drones that are capable of these incredibly tight turns indoor to outdoor transitions moving through
+[01:17:26.820 --> 01:17:29.860]  You know super small spaces and all of this stuff
+[01:17:29.860 --> 01:17:34.620]  But you could tell it was also combined with some crane work and some visual effects for sure
+[01:17:34.620 --> 01:17:40.540]  Yeah, but I thought it was pretty pretty nicely done and given that they pulled it together and essentially a couple of months
+[01:17:41.620 --> 01:17:46.260]  Yeah, yeah, like at least you know, I don't know when the hey maybe
+[01:17:46.260 --> 01:17:52.820]  I've really occurred to the WWDC planning crew, but certainly, you know March, you know
+[01:17:54.340 --> 01:17:59.220]  Stuff got real but I think even if I do assume it'd be in March sometime. Yeah. Yeah
+[01:18:00.180 --> 01:18:01.860]  You know, that's a lot to pull together
+[01:18:01.860 --> 01:18:06.580]  It would have been an impressive thing if they had decided a year ago that this was going to be entirely virtual
+[01:18:06.580 --> 01:18:12.660]  I think for something that they pulled together, you know, and in three months was really really hats off, you know
+[01:18:12.660 --> 01:18:19.460]  Hats off, you know and budget be damned. It's just hard to do in a compressed period of time no matter what your budget
+[01:18:19.460 --> 01:18:23.380]  Yeah, so it's some time right at some point. The money is not really the factor at all
+[01:18:23.380 --> 01:18:28.100]  It's like can can you pull it off in that group of time and remember too that it's not just the keynote
+[01:18:28.420 --> 01:18:33.380]  And the splashiness of that and then presenting stuff online a lot of those things they had already had in place
+[01:18:33.620 --> 01:18:38.020]  You know, obviously the new developer portals and updates to all of that stuff was in place
+[01:18:38.020 --> 01:18:44.680]  But it's also all of the sessions with everybody that they would normally do on stage, you know recording all of those individually
+[01:18:45.140 --> 01:18:47.300]  I love that. Everybody had their individual desk pets
+[01:18:48.580 --> 01:18:54.260]  You know, I did too. They got their own desk pets. It seems like yeah, um, which was fun. Yeah
+[01:18:55.380 --> 01:19:00.340]  Well, anyway, thank you very much. Good to talk to you. Yes. Wish I would wish I would have seen you this week
+[01:19:00.500 --> 01:19:02.500]  It seems weird that I haven't yeah
+[01:19:02.500 --> 01:19:09.380]  Uh someday yeah, I do. I do miss having some questionable, uh, cuisine and pretty decent beers
+[01:19:13.300 --> 01:19:15.300]  Lots of fried foods
+[01:19:16.980 --> 01:19:20.580]  Should we should we eat half of our body weight and prime rib? Sure. Why not?
+[01:19:21.460 --> 01:19:23.140]  Yeah
+[01:19:23.140 --> 01:19:33.540]  Oh, yeah, it's not even it's not even yeah. I know I I was wondering why I didn't have the meat sweats. I was like something's missing
+[01:19:33.540 --> 01:19:50.020]  Good talking to you. All right. Well, we'll toast to the house of prime rib next year. Hopefully

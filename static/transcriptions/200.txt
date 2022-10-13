@@ -1,0 +1,379 @@
+[00:00.000 --> 00:05.760]  Ladies and gentlemen, boys and girls, it's your good friend John Gruber here welcoming you to episode
+[00:06.280 --> 00:09.540]  200 of the talk show. It's quite a milestone
+[00:11.440 --> 00:14.520]  Now there's going to be a regular episode of the talk show as soon as I can
+[00:15.080 --> 00:19.120]  Where I'll have a special guest on and we will talk about last week's
+[00:19.880 --> 00:24.700]  News the introduction of the iPhone 10 iPhone 8 Apple watch series 3
+[00:25.880 --> 00:27.880]  Apple TV 4k the
+[00:27.880 --> 00:32.400]  The public opening of Apple Park the grand
+[00:32.960 --> 00:40.940]  Premiere of the Steve Jobs theater all that and more and and digressions and parentheticals and and it'll it'll be great
+[00:42.240 --> 00:49.480]  But for this the 200th episode of the show, I've got something I think that's even better. I have a truly very special guest
+[00:50.200 --> 00:52.200]  Craig Federighi Apple's
+[00:52.200 --> 01:00.360]  Senior vice president of software engineering is here and I've got a bunch of questions to ask him about face ID and the development of
+[01:01.680 --> 01:03.680]  the iPhone 10
+[01:05.240 --> 01:10.980]  But as you might imagine Craig Federighi is a busy man and in a week like this he's particularly busy
+[01:11.160 --> 01:14.320]  So this is not a two-hour episode of the talk show
+[01:14.320 --> 01:19.400]  I think I'm only gonna have about 20 or 30 minutes of his time, but I think that's gonna be great
+[01:19.400 --> 01:24.680]  And I can't think of a better way to mark the 200th episode of the show than to have a guest like him
+[01:25.960 --> 01:32.720]  But because this is a special episode. I've also got a special sponsor. The show is exclusively brought to you
+[01:33.440 --> 01:35.800]  by the folks at duck duck go
+[01:37.480 --> 01:41.120]  Duck duck go is the search engine that doesn't track you
+[01:41.600 --> 01:45.320]  Other search engines do track you as you probably knew
+[01:45.320 --> 01:52.040]  But they also track you even in private browsing mode, which is probably something you didn't know duck duck
+[01:52.040 --> 01:54.880]  Go duck duck go has has conducted some studies
+[01:55.720 --> 02:01.280]  And that show they show that a large percentage of people even privacy minded people
+[02:02.000 --> 02:06.760]  Vastly overestimate just how much private browsing does to protect your privacy
+[02:07.280 --> 02:13.000]  When you're using search a lot of people think when you're in private browsing your search is anonymous
+[02:13.000 --> 02:17.640]  It is not they still track your IP address. They can still set cookies
+[02:17.640 --> 02:19.360]  They're just cookies that are per session
+[02:19.360 --> 02:23.720]  But then they can compare them to the cookies that they have at the same IP address from other sessions
+[02:24.760 --> 02:27.260]  It's not anonymous. Anyway, they have a they have a
+[02:28.800 --> 02:33.080]  Study with high-level findings. I'll put a link to it in the show notes somewhere and
+[02:36.560 --> 02:39.120]  I just want to add one thing. Yes duck duck go
+[02:39.120 --> 02:43.800]  Emphasizes privacy, but guess what? It's also an excellent search engine
+[02:45.800 --> 02:49.280]  Apple has it added as one of the very very few
+[02:49.920 --> 02:57.000]  Default search engine options in Safari on both Mac OS and iOS. I've been using it as my default search engine in Safari
+[02:57.960 --> 03:04.040]  For years and I don't know about a year or so ago. I switched my iPhone 2 and I have not looked back
+[03:04.040 --> 03:08.680]  It's that good. I wouldn't say that just because they were sponsoring the show. It's true. So
+[03:09.280 --> 03:14.320]  My thanks to duck duck go you can check them out at duck duck go calm or just
+[03:14.880 --> 03:17.160]  go to your Safari settings and
+[03:17.960 --> 03:22.080]  Give them a try as your default search engine and now on with the show
+[03:22.880 --> 03:24.880]  Hey, John
+[03:24.880 --> 03:26.480]  another
+[03:26.480 --> 03:28.480]  quiet week
+[03:28.480 --> 03:35.000]  Yeah, it's a good week, all right, so let's let's just get it out of the way first
+[03:38.120 --> 03:45.760]  During the keynote address when you were demonstrating face ID in action. Yes time in public. Yes
+[03:47.160 --> 03:49.160]  ho ho ho
+[03:49.760 --> 03:55.020]  Exactly according to plan, you know, it's tough when you rehearse something like that to really make it feel authentic in the moment
+[03:55.020 --> 03:56.600]  But I think I nailed it
+[03:56.600 --> 04:03.120]  No kidding. No, no, that was that was that was a thing, wasn't it? Yeah. Yeah. Tell me what happened?
+[04:05.240 --> 04:10.080]  What happened so, you know, we obviously I live on a
+[04:10.800 --> 04:14.120]  iPhone 10 right now and it works really reliably for me and
+[04:15.200 --> 04:19.200]  We had done the stage rehearsal number of times, of course
+[04:19.200 --> 04:23.420]  It works every time so in the moment when I went to to raise the phone to do what?
+[04:23.420 --> 04:29.020]  I'm used to doing and having it unlock. I was staring at a lock that did not unlock and
+[04:29.540 --> 04:33.900]  So that was that was a heart attack moment for me. Honestly, you're just it did not compute
+[04:35.100 --> 04:41.100]  You know, we discovered after the fact what had gone on but in the moment you're kind of wondering
+[04:41.900 --> 04:44.700]  Wow, this is this is a surprise. So
+[04:45.580 --> 04:50.820]  you know what what it ended up happening is we had the phone on the stage and
+[04:50.820 --> 04:56.980]  and you know, people are very pretty fastidious about cleaning up and nudging things and so forth and so
+[04:57.900 --> 05:00.900]  the normal kind of bio lockout mechanisms that
+[05:01.540 --> 05:02.980]  exist for
+[05:02.980 --> 05:08.760]  Touch ID that everyone's used to apply to face ID equally and so with enough
+[05:09.280 --> 05:14.700]  accidental unlock failed unlock attempts the system does its normal give me your passcode kind of lockout and
+[05:15.140 --> 05:19.560]  That was the moment. I found myself in unexpectedly on stage. So
+[05:19.560 --> 05:23.760]  Fortunately, we have backups. So just went to that device and that one apparently hadn't been
+[05:24.400 --> 05:30.160]  Nudged and locked out so I was able to get on with the with the demo which was fun to do after that
+[05:30.840 --> 05:32.840]  Right. So in other words somebody
+[05:33.120 --> 05:39.760]  Backstage somebody whose job is to like let's say get these demo units exactly perfectly in the right place
+[05:40.080 --> 05:45.400]  Looking at perfect for the demo exquisitely aligned on that table. You'd be impressed. That's what I've heard
+[05:45.400 --> 05:49.600]  I can you can you confirm that they wear white gloves. I've heard that they like
+[05:50.560 --> 05:54.860]  I'm not sure about the gloves, but I can tell you they they polished that phone really well
+[05:55.600 --> 05:58.760]  So it's a few too many times. I'm afraid
+[05:59.280 --> 06:03.300]  Right. It's it's the perfectionism in Apple is even on stage
+[06:04.360 --> 06:09.360]  If this is the first time we're gonna see face ID that that phone is gonna be pretty looking good
+[06:09.360 --> 06:12.040]  Somebody yeah, somebody picked it up to polish it
+[06:12.040 --> 06:15.120]  Inadvertently without thinking it's like
+[06:16.000 --> 06:21.140]  Triggered the hey, is this Craig? Nope, and it was not too many times
+[06:21.140 --> 06:25.120]  And all you would have had to do is put the passcode in. Yeah, if somebody
+[06:25.960 --> 06:26.640]  Yeah, exactly
+[06:26.640 --> 06:30.720]  And I thought of that but I thought that would be a pretty weird demo of face ID where I had to have typed in
+[06:30.720 --> 06:35.020]  Right passcode. So right. So I decided to go to backup instead of typing in the passcode
+[06:35.020 --> 06:37.020]  But yeah, that would have that would work too
+[06:37.120 --> 06:40.280]  Now I will say to your credit and I've heard this many times
+[06:40.280 --> 06:46.780]  I think it's it's and I think it's true is that the true test of a presenter demos are hard and and Murphy's law
+[06:47.240 --> 06:50.220]  Tends to kick in and the true test of a presenter
+[06:50.920 --> 06:54.320]  Isn't having a streak of like never having a demo fail
+[06:54.320 --> 06:59.300]  It's how do you recover from a demo fail and I think you handled it perfectly
+[06:59.300 --> 07:02.520]  I don't see how it could have gone any better give oh, thank you
+[07:02.520 --> 07:07.780]  Thank you that the thing was already there. But yeah, the reason this is a particularly bad demo fail
+[07:07.780 --> 07:09.220]  is that
+[07:09.220 --> 07:16.660]  Face ID is new. Yeah, I'm exactly and and people and to be honest there are
+[07:18.180 --> 07:20.180]  There have been other attempts by other
+[07:21.100 --> 07:27.700]  Phone makers or gadget makers to do some kind of facial recognition thing and and it doesn't work that great
+[07:27.700 --> 07:35.160]  And so there's a perception in the same way that there were fingerprint scanners before touch ID that didn't work. So great
+[07:35.160 --> 07:39.020]  Oh, yeah, and the perception among people who don't try it is I don't buy it
+[07:39.020 --> 07:45.460]  I don't this I'm skeptical about face ID and then lo and behold there it you know it at a glance
+[07:45.460 --> 07:49.340]  It looks like it didn't work for you, right? Yeah. No. No, I mean the
+[07:49.980 --> 07:52.620]  That element of this is not lost on me for sure
+[07:52.620 --> 07:58.520]  That was that was unfortunate because it does work so well and it is a I mean
+[07:58.520 --> 08:02.060]  It's obviously in a totally different league than what else is is out there today
+[08:02.060 --> 08:08.620]  And we all you know, a bunch of us have been living on them for quite a while now and it's it just works
+[08:08.620 --> 08:11.460]  It's really automatic. So that was part of the shock
+[08:11.460 --> 08:16.420]  I think for me on stage the moment it happened was hold on this just always works. So what's going on?
+[08:17.180 --> 08:22.220]  But no, I I get I get why there's a problem and and you know, I'm honestly we're just all
+[08:22.340 --> 08:27.460]  We're just all counting the days that customers can finally get their hands on these because I think just like with with touch ID
+[08:27.460 --> 08:33.940]  initially people thought oh this is this is you know Apple done something that's totally not gonna work and I'm not a believer and I'm
+[08:33.940 --> 08:40.460]  not gonna use this feature and now now everyone's worried because they can't imagine life without touch ID and
+[08:41.300 --> 08:44.100]  We're you know, we're gonna see exactly the same thing with face ID
+[08:44.100 --> 08:46.580]  I mean those of us that are using it we you know
+[08:46.580 --> 08:48.900]  it's one thing when you're when you're you have an idea and
+[08:49.340 --> 08:53.500]  and you're working toward it and you think it's gonna be great and then there's
+[08:53.540 --> 08:56.580]  the moment when you actually create it and you get to live on it and
+[08:56.580 --> 09:01.380]  And it's even better and and that's that's how all of us, you know
+[09:01.380 --> 09:02.980]  We're virtually high-fiving in the halls
+[09:02.980 --> 09:05.700]  Once we got it all dialed in and we were living on them
+[09:05.700 --> 09:09.820]  We're like it is it is what we thought it would be it is you don't even think about it
+[09:09.820 --> 09:11.820]  it just works and so
+[09:12.060 --> 09:14.060]  In a way all of this
+[09:14.660 --> 09:17.860]  Uncertainty out there amongst people who haven't had the opportunity to live on it
+[09:17.860 --> 09:23.800]  I totally get it and I'm it's just gonna it's gonna melt away once people get to experience this product in their hands
+[09:23.800 --> 09:28.040]  And it's somebody, you know a skeptic listening to this could say well
+[09:28.040 --> 09:34.000]  Of course Apple's senior vice president of software engineering is going to say that I can say that I have
+[09:34.520 --> 09:39.040]  various friends and acquaintances who work in your division, I
+[09:40.000 --> 09:46.520]  Happened to run into a few of them while I was out there this week right including somebody else who is disclosed
+[09:46.640 --> 09:48.840]  This is on on iPhone 10
+[09:48.840 --> 09:55.500]  Yeah, and had therefore been carrying two phones around for a while because it's you know
+[09:55.500 --> 09:57.440]  It just if you're just closed on it
+[09:57.440 --> 09:59.760]  You can't take it out when you're around people who aren't disclosed
+[09:59.760 --> 10:01.800]  Yeah, so you have to have another phone in your pocket
+[10:01.800 --> 10:05.880]  Which is the one you can take out when you're in an area that's not to secure
+[10:06.520 --> 10:11.640]  And and what he told me and he's the sort of person who would never lie to me
+[10:11.720 --> 10:15.660]  He may not he may give me a non answer, but he said as soon as he got used to face ID
+[10:15.660 --> 10:19.340]  It wasn't like he'd get mixed up going back and forth
+[10:19.340 --> 10:21.780]  Which one do I need to put my thumb on which no one do I do it?
+[10:21.780 --> 10:25.260]  He just instantly assumed face ID would work on both phones
+[10:27.060 --> 10:32.740]  What and and it instantly like never miss touch ID just it since it was like what's wrong with this phone
+[10:32.740 --> 10:36.460]  Why isn't it unlocking and he's swiping up from the bottom and it's not doing anything
+[10:37.260 --> 10:43.020]  And that was the experience I had personally with touch ID is when I first got a iPhone 5s
+[10:43.020 --> 10:47.860]  I got used to touch ID and then I'd go over to my iPad and I put my thumb on the button and I'd be like
+[10:47.860 --> 10:49.860]  Why is what is my iPad broken?
+[10:50.220 --> 10:52.220]  Yeah
+[10:52.660 --> 10:57.540]  So it sounds like for those of you who've been living with iPhone 10 that if face ID has the same effect
+[10:58.100 --> 11:03.540]  Yeah, it absolutely does. It absolutely does. It's it's it's pretty it's pretty miraculous
+[11:04.060 --> 11:06.420]  It just it just works. And so
+[11:07.620 --> 11:10.900]  Yeah, I can't wait till people actually get to try it and you know
+[11:10.900 --> 11:14.500]  You don't have to even even touch ID as much as as much as we love it
+[11:14.500 --> 11:18.860]  I think this is that much better, you know, if my hands are wet, it doesn't matter. It just works. So
+[11:19.460 --> 11:21.460]  So I think it's pretty great
+[11:22.300 --> 11:26.540]  So I know people have so many questions I can just run through a bunch of them
+[11:26.540 --> 11:32.100]  I've gotten a slew of emails and tweets asking specifically about sunglasses because
+[11:33.220 --> 11:38.060]  Part of it is it it it requests not just your face. It requires eye contact
+[11:38.060 --> 11:40.540]  so for example your
+[11:41.180 --> 11:46.460]  Kids can't sneak up on you when you're sleeping and unlock your phone by pointing it at your face. That's exactly right
+[11:46.460 --> 11:52.300]  Yeah, we call it attention detection. And so we we make sure not only that it's you but that you are looking at the phone
+[11:53.020 --> 11:56.900]  All right. So what happens if you're wearing sunglasses? Yeah, so it kind of depends
+[11:56.900 --> 12:00.420]  so for most sunglasses actually even if they're opaque to
+[12:01.080 --> 12:03.900]  They look opaque to you or me looking at the person wearing them
+[12:03.900 --> 12:07.980]  They actually transmit IR and for those glasses
+[12:08.700 --> 12:11.740]  Touch ID or face ID rather sees through them
+[12:12.260 --> 12:16.780]  in the same way it would if you were wearing, you know, your normal prescription eyeglasses and it just works and
+[12:17.580 --> 12:22.180]  There are some glasses that they're coating and it's it's not polarization in particular
+[12:22.180 --> 12:28.460]  It's just how they transmit IR. There are some sunglasses that block it and so in that case attention
+[12:29.100 --> 12:30.660]  Detection would fail
+[12:30.660 --> 12:32.840]  So it really depends on the pair of glasses you have
+[12:32.840 --> 12:38.200]  So you have a choice and get a different pair of glasses if you have this problem. There's also the option
+[12:39.200 --> 12:41.200]  That we have in there for a number of reasons
+[12:41.680 --> 12:48.040]  That you can choose to temporarily or permanently disable attention detection. And so for instance, I've actually been getting some letters
+[12:48.600 --> 12:50.600]  emails over the last few days
+[12:51.440 --> 12:55.080]  with people saying I'm blind can I use this feature and
+[12:55.080 --> 13:02.560]  In fact, you can you turn off attention detection at which case it makes sure it's you but it isn't looking for the glance
+[13:03.120 --> 13:06.400]  And so we've we've sort of thought through a lot of a lot of those kinds of cases
+[13:06.400 --> 13:12.680]  And so you do have that option if there's something around your face where that would block attention detection, but it does mean
+[13:13.280 --> 13:17.240]  In that case that that other element of protection would be temporarily disabled
+[13:17.880 --> 13:22.500]  Right, and you know, it would be similar to my hands are always wet
+[13:22.500 --> 13:27.040]  I have a job where I'm preparing stuff and my hands are wet will touch ID always work for me
+[13:27.040 --> 13:30.920]  And so there's always going to be exceptions. I'm not making excuses for you, but
+[13:32.160 --> 13:32.960]  No, it's true
+[13:32.960 --> 13:38.640]  And we've always said that we've always had the fallback with touch ID and we do with face ID as well as as you can
+[13:38.640 --> 13:40.640]  Use your passcodes if you find yourself in some circumstance
+[13:41.640 --> 13:47.360]  Where where you can't use it. It's exactly the same as all of us are used to a touch ID. Just use your passcode
+[13:47.360 --> 13:53.040]  But in the you know, I'm certainly finding the vast majority of the cases. I'm using it's always working for me
+[13:53.040 --> 13:55.040]  I don't even have to think about it, right
+[13:56.240 --> 13:58.240]  and so bottom line
+[13:58.640 --> 14:04.000]  This really is what you guys think is is the next generation of?
+[14:04.720 --> 14:06.440]  biometric
+[14:06.440 --> 14:12.180]  Authentication it's not just hey, we went edge to edge. So there wasn't room for touch ID
+[14:12.180 --> 14:17.860]  It's no weird. This is you know, along the lines of this. We think this is the future of the iPhone
+[14:18.620 --> 14:23.120]  Face ID is the future the next step in in biometric off the authentication
+[14:24.300 --> 14:30.340]  We yeah, we do we do. I mean, I think they're they're they're potentially settings where different biometric
+[14:31.580 --> 14:35.180]  techniques or combinations thereof even could make sense, but I
+[14:35.740 --> 14:38.180]  Think there's there's something about you're using
+[14:38.180 --> 14:45.060]  certainly in cases you're using a product that demands your attention and it recognizes you and I mean
+[14:45.060 --> 14:49.180]  This is how we as people work in authenticating each other, right? We identify each other
+[14:49.180 --> 14:55.100]  It's the most natural thing in the world and now and now you interact and so we find I think we're all wired for that
+[14:55.200 --> 14:57.740]  Interaction to work really well and it's extremely natural
+[14:58.580 --> 15:01.900]  with our devices and the levels of
+[15:01.900 --> 15:07.140]  Of accuracy the level of security we're able to achieve with it are pretty extraordinary
+[15:07.220 --> 15:11.820]  So we we are really excited about this as the path forward
+[15:12.940 --> 15:15.060]  And so for example your iPhone
+[15:16.460 --> 15:23.020]  Just based on let's say your email and and your iMessages alone probably contains some sensitive information
+[15:23.100 --> 15:28.500]  Yeah, and you yourself have the phone in your pocket is guarded by Face ID
+[15:28.500 --> 15:35.940]  That is absolutely correct. Yes at this very moment. There you there you have it if that's not trust in the system
+[15:35.940 --> 15:39.780]  I don't know what is that's right. And same same is true for Tim Cook, right?
+[15:40.980 --> 15:43.740]  Everyone at Apple is trusting Face ID
+[15:45.260 --> 15:47.420]  Everyone who has access to an iPhone 10 right now
+[15:47.980 --> 15:53.740]  All right. So another thing that people I've heard from from during fireball readers is well
+[15:53.740 --> 15:56.860]  Why can't I just look at it to unlock it? Why do I have to swipe?
+[15:56.860 --> 15:59.260]  Yeah, I've gotten that one, too. I
+[15:59.900 --> 16:05.140]  Think I think if you think about a lot of us like functionality on the lock screen, right?
+[16:05.140 --> 16:08.220]  We want to look at our notifications. Maybe we're just looking at the time
+[16:09.020 --> 16:15.420]  Maybe we wanted to get to the lock screen camera or and we now have a quick shortcut actually to get at the flashlight
+[16:15.620 --> 16:21.940]  So the idea that every time you did one of those things you're suddenly tossed into mail or or you know
+[16:21.940 --> 16:23.940]  Twitter or whatever you were last doing
+[16:23.940 --> 16:27.460]  I don't think it's a very predictable experience and I think those people are
+[16:28.020 --> 16:34.540]  fearful of they haven't had the opportunity to really live on the device and use it and so they have a sense that
+[16:35.020 --> 16:37.020]  This doing the swipe is going to somehow be
+[16:38.820 --> 16:42.700]  A barrier so they're trying to solve a problem that in fact when you use the device doesn't exist
+[16:43.860 --> 16:48.260]  They think you have to wait for it to unlock and then you swipe and so it's going to feel unresponsive
+[16:48.260 --> 16:51.380]  The fact is that the moment you you raise the phone
+[16:51.380 --> 16:56.260]  You can start swiping whether it's finished recognizing you or not. And if that's what you wanted to do
+[16:56.980 --> 17:02.980]  It's going to automatically take you it's going to automatically unlock once it finishes recognizes you which feels pretty much instantaneous
+[17:03.780 --> 17:06.980]  And so I think preserving the access to the lock screen
+[17:07.940 --> 17:14.660]  Is is is more important than then avoiding this this swipe that I think to all of us who live on it
+[17:14.660 --> 17:16.420]  It's just feels completely
+[17:16.420 --> 17:18.420]  Automatically automatic and intentional in the use of the phone
+[17:18.420 --> 17:24.740]  So, you know with all the nostalgia over this being the 10th anniversary of the original iPhone somebody just on Twitter today
+[17:26.180 --> 17:33.380]  Or no, I don't know somewhere I just somebody threw up a link to a YouTube clip of the original iPhone commercials from 2007
+[17:35.140 --> 17:40.100]  And it starts with this is how you unlock it and you swipe to unlock
+[17:40.420 --> 17:43.940]  Yeah, and it was sort of a I mean it was only 10 years ago
+[17:43.940 --> 17:50.900]  but it's sort of like we were naive about security at the time where it was sort of it was encouraged to just
+[17:51.220 --> 17:57.780]  you know wake the phone and swipe to unlock and you're in there and and the last 10 years we've you know, we as as a
+[17:58.340 --> 18:00.340]  Culture have really
+[18:00.340 --> 18:02.900]  Sharpened our minds on privacy and yes security
+[18:04.100 --> 18:06.980]  But this sort of goes back to that where you just pick it up
+[18:06.980 --> 18:13.300]  Even better than before because there's there's the detection of the you know, if the screen turns on just by picking it up
+[18:13.300 --> 18:19.460]  Yes, and you just make one little swipe gesture and you're in it really hearkens back to the original
+[18:19.460 --> 18:24.020]  It's it's up instead of to the side, but it's very similar to me exactly
+[18:24.020 --> 18:29.060]  Yeah, no, it does it does and it's as you say it's even it's even easier to do
+[18:29.060 --> 18:32.660]  It's even more automatic. But but it's it's the same thing
+[18:32.660 --> 18:38.740]  When you think about that old the the original device, um where security wasn't a consideration
+[18:39.940 --> 18:42.260]  That was that was the best way to use the phone
+[18:42.900 --> 18:49.940]  And now with face ID it's as if you can just use it in the most natural way where security isn't this overt part of the process
+[18:50.820 --> 18:55.140]  It's it's automatic. So the experience is back to exactly as as we wanted it to be
+[18:56.420 --> 18:57.860]  Mm-hmm
+[18:57.860 --> 19:06.100]  Um, I while I have you I apple famously. I mean, this is right back from you know, the founding of the company
+[19:08.100 --> 19:09.540]  Famously
+[19:09.540 --> 19:16.420]  The key to the company's product success has been the integration between software and hardware doing both of them
+[19:18.260 --> 19:23.060]  But at at at this point and I think with the the the
+[19:23.060 --> 19:27.540]  The ski, you know, the the hardware for the face ID that's that's in the phone
+[19:28.100 --> 19:32.100]  It's not like you guys went out and got an off-the-shelf
+[19:33.140 --> 19:38.740]  Face scanner component right put it put it at the top of the phone and then your team
+[19:39.540 --> 19:45.620]  All right. Now your job is to write drivers for this thing and then create api's for our developers
+[19:46.180 --> 19:48.180]  To connect to it, right?
+[19:48.180 --> 19:56.420]  This the the entire from the silicon up is is custom apple designed like how different is that for your team?
+[19:56.660 --> 20:01.700]  Working like at that silicon level as opposed to off-the-shelf component level with the hardware
+[20:02.260 --> 20:06.660]  I mean this is I mean, you're right. This this is what this is what makes apple apple
+[20:06.660 --> 20:13.140]  I mean, this is the most special and and the biggest treat as as a creator of products for all of us to be able to
+[20:13.140 --> 20:18.580]  Look at a problem like this and know that we can put the right support that we want
+[20:19.300 --> 20:23.140]  Onto the the core silicon of the of the system we uh
+[20:23.780 --> 20:28.900]  Phil talked about the neural engine that's on the chip that we could wire in for
+[20:29.620 --> 20:36.660]  For doing this this high performance recognition this challenging recognition task and that we can even make sure that the silicon that we've built to do it
+[20:37.300 --> 20:39.300]  Is is is a great way to do it
+[20:39.300 --> 20:45.700]  Um is tied in behind the the secure enclave, uh, so that we have all the security properties we want in that architecture
+[20:45.700 --> 20:48.340]  I mean, I can't imagine where you would buy that off the shelf
+[20:49.220 --> 20:56.420]  And then the way it is connected to this just absolutely amazing set of sensors, uh at the top of the phone
+[20:57.460 --> 20:58.980]  that that
+[20:58.980 --> 21:01.460]  and and the design of that and the design of how
+[21:02.180 --> 21:06.340]  the the flood illuminator and the dot pattern and all the mechanisms for writing
+[21:06.340 --> 21:14.580]  That was that was co-designed between the the hardware and sensors team and our security team to figure out all of the all the different ways
+[21:14.580 --> 21:18.580]  We wanted that that to work uh securely to make sure that the device could
+[21:19.220 --> 21:24.020]  Store what it needed to match your face without well making sure that that information was completely
+[21:24.500 --> 21:30.260]  You know under your control locked up, uh behind the secure enclave and never never left your phone
+[21:30.260 --> 21:35.460]  Uh, all all of this is you know, the ability to think about a really hard problem end to end
+[21:36.180 --> 21:42.580]  And then bring to bear the best the best minds and the best technologies at every level along that stack to deliver it
+[21:43.380 --> 21:45.380]  Is is the most special
+[21:46.020 --> 21:51.380]  Experience in in creating a product and uh, and that's why it is kind of magic when it finally all comes together
+[21:51.380 --> 21:54.820]  You know, it wasn't just a bunch of pieces that you bolted together. You had an
+[21:54.820 --> 21:59.780]  Idea, you had a vision and uh, and and here you can make it real
+[21:59.780 --> 22:05.060]  Yeah, I was thinking software and hardware. I wasn't even thinking about security being at a fundamental
+[22:05.940 --> 22:11.300]  Part of the collaboration from you know, from the white sheet of paper at the beginning of the whole process
+[22:11.940 --> 22:18.500]  To the end but that makes a lot of sense too. It really has become I mean security and privacy have become
+[22:18.500 --> 22:25.380]  It really has become I mean security and privacy have become a consideration in the design of of you know
+[22:25.380 --> 22:30.100]  So many of the things we do many many of the things we do and to do them, right?
+[22:30.100 --> 22:33.620]  You have to think about them at a fundamental level you have to design them in
+[22:34.260 --> 22:38.420]  Often to the silicon often to the hardware to really make a truly
+[22:38.740 --> 22:44.900]  Um secure product and uh, and we have the opportunity to do that and it's a it's a rare opportunity. I think right
+[22:44.900 --> 22:49.460]  like i'm imagining if it was just hardware and software and you made a facial id scanner and then
+[22:49.940 --> 22:53.380]  Like a couple of months ago into the security guys are like here make sure this is secure
+[22:54.420 --> 22:59.860]  Yeah, right. It's got a little usb line between the camera and the chip and no problem
+[23:00.820 --> 23:02.180]  Yeah, exactly
+[23:02.180 --> 23:03.620]  No, and it's true. I mean
+[23:03.620 --> 23:07.460]  I should say one more thing which is this even even ops
+[23:07.700 --> 23:12.820]  Our operations and manufacturing team ends up being involved here because when you think about how you secure this thing
+[23:12.820 --> 23:19.220]  You now have all these components that need to trust each other and need to have secure connections to one another
+[23:19.700 --> 23:23.380]  and so even the whole process by which we manufacture and then
+[23:23.940 --> 23:29.300]  uh pair all of the components on on the system is part of has to be considered as part of the
+[23:29.520 --> 23:31.520]  manufacturing process and so
+[23:31.700 --> 23:36.500]  this and and this is something that we think about end to end when we build a product and uh,
+[23:36.900 --> 23:38.900]  I I do think I do think it's pretty special
+[23:38.900 --> 23:43.940]  Let's say i'm a app developer and I have an app that already works with touch id
+[23:45.220 --> 23:51.780]  Like let's say like my credit card app, uh, when I launch that app, I have to authenticate with touch id before i'm i'm in
+[23:53.380 --> 23:57.540]  Would an app like that does an app like that need to be updated to support face id, too
+[23:58.420 --> 24:01.940]  No, actually we were able to support exactly the same api
+[24:01.940 --> 24:04.500]  So if you think about how it works right now that app
+[24:05.060 --> 24:07.060]  would essentially it gets it it
+[24:07.060 --> 24:10.420]  Asks the system to request a touch id
+[24:11.220 --> 24:13.060]  authentication
+[24:13.060 --> 24:16.580]  Now instead of waiting for the user to
+[24:17.220 --> 24:20.680]  Put their their finger on the sensor and complete a touch id authentication
+[24:21.220 --> 24:24.740]  We automatically the system at the system level will surface
+[24:25.700 --> 24:27.300]  our face id
+[24:27.300 --> 24:34.980]  Ui showing that we're doing a match and we can return the same success code to the application saying great thumbs up or thumbs down
+[24:34.980 --> 24:37.380]  as if the system had presented the
+[24:38.260 --> 24:44.260]  Previous generation touch id screen and the user had failed to match or cancelled out of the the touch id operation
+[24:44.580 --> 24:50.260]  So it's it's extraordinary that right now we're all running on you know apps that were designed for touch id and they work just perfectly
+[24:50.340 --> 24:52.340]  out of the box with face id
+[24:52.980 --> 24:54.980]  It's almost like you guys
+[24:54.980 --> 24:59.860]  Might have had an idea but it might be coming down the line. We like to think we think ahead sometimes
+[25:01.620 --> 25:03.620]  All right, here's a scenario
+[25:03.620 --> 25:10.340]  That uh, it's you know for obvious reasons is is on a lot of people's minds is
+[25:14.180 --> 25:20.900]  What happens if you are say involved in a situation with law enforcement or perhaps going through customs
+[25:22.820 --> 25:24.820]  And
+[25:24.820 --> 25:30.660]  There you know in the I don't know what the laws are around the world, but I know that there's this this to me very strange
+[25:30.660 --> 25:33.220]  This to me very strange. Uh
+[25:34.500 --> 25:36.920]  There's been a ruling in the united states that law enforcement
+[25:37.620 --> 25:44.020]  Can compel somebody to supply their fingerprint to a phone but can't compel somebody to supply
+[25:44.500 --> 25:48.500]  Their passcode so we're not lawyers. Let's forget about the legal distinction
+[25:50.580 --> 25:56.660]  Ios 11 adds a feature where you can press the side button on
+[25:56.660 --> 26:02.020]  an iphone existing iphones at least yeah five times and then all it does is just
+[26:02.260 --> 26:08.260]  Put you in a situation like you are after a power down power up where you have to supply your passcode before
+[26:08.980 --> 26:11.540]  The biometrics can unlock the phone. Yeah, exactly
+[26:12.660 --> 26:14.660]  I think people are
+[26:14.660 --> 26:22.180]  I know in fact, I know people are more worried about this with face id than touch id because compelling someone to supply their fingerprint involves
+[26:22.180 --> 26:26.180]  More than just if if somebody is in possession of your phone
+[26:26.900 --> 26:30.980]  Pointing it at your face and making you look at it. So is there anything like that?
+[26:32.340 --> 26:38.900]  Some kind of way to I mean first i'd say like we we aren't we aren't designing products with a an aim to
+[26:39.860 --> 26:45.300]  Avoid law enforcement doing doing their job. Um, we you know, we we appreciate law enforcement
+[26:46.100 --> 26:49.620]  But there are lots of scenarios where someone who you don't trust
+[26:49.620 --> 26:53.860]  Might be trying to get your phone that could be a thief coming for you
+[26:53.860 --> 26:58.260]  that could be a border crossing into a country where you think the people who are trying to you know,
+[26:58.260 --> 27:00.100]  Inspect your phone may not be
+[27:00.100 --> 27:05.060]  Someone you trust and in those situations as you as you mentioned we introduced
+[27:05.700 --> 27:08.120]  This this new capability with ios 11
+[27:09.380 --> 27:15.460]  And where where you can basically force the the device into biolock we made it even easier to get to on
+[27:15.460 --> 27:21.460]  Iphone 8 and iphone 10 where on iphone 8 and 10 you can just grip the side buttons
+[27:21.460 --> 27:27.060]  So both the the screen lock button on the right hand side of the phone and either of the volume buttons on the left
+[27:27.460 --> 27:33.140]  And just grip those two together for a few seconds and we will put the the phone in in biolock. So
+[27:33.940 --> 27:35.940]  It's the kind of thing that you could
+[27:36.340 --> 27:40.260]  Do in your pocket as you were being compelled to hand your phone to
+[27:40.260 --> 27:48.420]  To someone you didn't trust and and then they can't use either touch id or or in the case of iphone 10 face id
+[27:49.140 --> 27:54.100]  To try to get access to your phone and and we think that can be that's an important improvement across the board
+[27:54.900 --> 27:58.900]  On iphone 10 does that not conflict with taking a screenshot?
+[27:58.900 --> 28:02.660]  I thought I read somewhere that to take a screenshot you do the side button and volume down
+[28:02.820 --> 28:05.700]  Yeah, it does turn out you get a bonus screenshot out of the experience
+[28:05.700 --> 28:12.660]  In the current build, but uh, we are we are looking at saying if you hold the buttons down
+[28:12.660 --> 28:18.500]  Maybe we'll throw the screenshot away for you automatically you could consider it a sort of a commemorative screenshot for that particular
+[28:19.300 --> 28:20.980]  particular moment
+[28:20.980 --> 28:25.460]  I got you. I got you though. You side button and just tap and just claw your phone basically
+[28:25.460 --> 28:30.900]  Yeah, just no but if you if if you just want to take a screenshot, it's just two buttons you press them
+[28:30.900 --> 28:32.900]  Yeah, you cleanly let go
+[28:32.900 --> 28:38.660]  You let go to invoke this turn off face id temporarily you you press and hold them
+[28:39.220 --> 28:43.140]  Yeah, exactly. It's the difference between you know, sort of click and click and hold and uh right now
+[28:43.140 --> 28:48.260]  We're for we're firing the click, uh on the click and hold and that's uh, yeah that need not be a conflict
+[28:48.820 --> 28:55.860]  All right, and it with the five button press on the iphone seven and earlier you you even get a nice bit of haptic feedback
+[28:55.940 --> 28:59.860]  Now to know that it triggered is is there something like that with the press both buttons?
+[28:59.860 --> 29:02.900]  Same thing. Yeah, you get a haptic so, you know, you've done it exactly
+[29:03.540 --> 29:08.180]  Right, uh, so that's brilliant. So let's just say and and and thieves are a perfect example
+[29:08.180 --> 29:12.020]  I know that that's something that people are worried about is hey, what if somebody steals my phone?
+[29:12.580 --> 29:16.020]  And they quick turn it around and I look at it and it's unlocked
+[29:16.580 --> 29:22.500]  Um, so if somebody like if you're getting mugged, I hope nobody does but if somebody is getting mugged and they say give me your phone
+[29:22.740 --> 29:25.460]  You as you're handing it to them if you squeeze those buttons
+[29:25.460 --> 29:28.660]  It will disable face id exactly. So
+[29:29.380 --> 29:34.340]  So they've got your phone, but they won't have your they won't have an unlocked phone. That is right. Yep
+[29:35.220 --> 29:37.220]  Uh, it seems like you guys thought of a lot of this stuff
+[29:38.340 --> 29:44.660]  We try we try but uh, but the folks on the internet are constantly coming up with new questions. So i'm sure we'll learn something
+[29:46.100 --> 29:47.060]  Well
+[29:47.060 --> 29:53.140]  Craig it's always a pleasure to have you on the show. Uh, you're welcome back anytime you want. Oh, thank you. John
+[29:53.140 --> 29:56.820]  But like I said, you're you're probably pretty busy this week. So, uh
+[29:57.620 --> 30:03.140]  Exciting that's about it. Yeah. All right. Awesome. Well, uh, I appreciate the opportunity to speak with you
+[30:03.140 --> 30:23.860]  All right until next time Craig. Thank you. All right. Thanks. John. Bye
