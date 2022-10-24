@@ -6,14 +6,24 @@ import pluralize from '../utilities/pluralize'
 import * as statStyle from '../style/guest_stats.module.css'
 
 import Episodes from '../../content/episodes.json'
+import {
+  AverageFit,
+  L2NormalFit,
+  LinearFitError,
+} from '../utilities/algorithms'
+
+const algorithmOptions = {
+  Average: AverageFit,
+  L2: L2NormalFit,
+}
 
 const GuestStats = (props) => {
   const [episodes, setEpisodes] = React.useState([])
   const [cadence, setCadence] = React.useState(0)
   const [next, setNext] = React.useState(null)
   const [nextDiff, setNextDiff] = React.useState(null)
+  const [fitAlgorithmChoice, setAlgorithmChoice] = React.useState('L2')
 
-  const deps = props.guest ? [props.guest] : []
   React.useEffect(() => {
     const filteredEpisodes = Episodes.filter((epi) => {
       if (!props.guest) return true
@@ -42,11 +52,19 @@ const GuestStats = (props) => {
       previousApp = DateTime.fromISO(appearance.pubDate)
     }
 
-    const sum = daysInBetween.reduce((prev, curr) => prev + curr, 0)
     let averageDays = 0
-    if (sum > 0 && daysInBetween.length > 0) {
-      averageDays = Math.round(sum / daysInBetween.length)
+    try {
+      averageDays = new algorithmOptions[fitAlgorithmChoice](
+        daysInBetween
+      ).predict()
+    } catch (error) {
+      if (error instanceof LinearFitError) {
+        averageDays = 0
+      } else {
+        throw error
+      }
     }
+
     setCadence(averageDays)
 
     if (averageDays > 0) {
@@ -56,8 +74,11 @@ const GuestStats = (props) => {
 
       const diffNow = projectedNextApp.diffNow('days').toObject().days
       setNextDiff(Math.round(diffNow))
+    } else {
+      setNext(null)
+      setNextDiff(null)
     }
-  }, deps)
+  }, [fitAlgorithmChoice, props.guest])
 
   return (
     <div className={statStyle.stat_table}>
@@ -73,7 +94,7 @@ const GuestStats = (props) => {
               <td>None</td>
             ) : (
               <td>
-                {cadence} {pluralize('day', cadence)}
+                {cadence.toFixed(2)} {pluralize('day', cadence)}
               </td>
             )}
           </tr>
@@ -85,18 +106,38 @@ const GuestStats = (props) => {
               <td>
                 {next.toLocaleString(DateTime.DATE_MED)}
                 <br />
-                {nextDiff > 0 ? (
-                  <em>
-                    (in {nextDiff} {pluralize('day', nextDiff)})
-                  </em>
-                ) : (
-                  <em>
-                    ({Math.abs(nextDiff).toLocaleString()}{' '}
-                    {pluralize('day', nextDiff)} ago)
-                  </em>
-                )}
+                <em>
+                  {nextDiff === 0 ? (
+                    <>Today</>
+                  ) : nextDiff > 0 ? (
+                    <>
+                      in {nextDiff} {pluralize('day', nextDiff)}
+                    </>
+                  ) : (
+                    <>
+                      {Math.abs(nextDiff).toLocaleString()}{' '}
+                      {pluralize('day', nextDiff)} ago
+                    </>
+                  )}
+                </em>
               </td>
             )}
+          </tr>
+          <tr>
+            <td>Algorithm</td>
+            <td>
+              <select
+                name="algorithm"
+                value={fitAlgorithmChoice}
+                onChange={(event) => setAlgorithmChoice(event.target.value)}
+              >
+                {Object.keys(algorithmOptions).map((option) => (
+                  <option key={option} value={option}>
+                    {option}
+                  </option>
+                ))}
+              </select>
+            </td>
           </tr>
         </tbody>
       </table>
