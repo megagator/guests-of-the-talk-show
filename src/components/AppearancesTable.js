@@ -109,21 +109,6 @@ const AppearanceTable = () => {
           <tr>
             <td>
               <button
-                onClick={() => reorderTable(SortKey.Appearances)}
-                className={`${mainStyle.title} ${
-                  sort === SortKey.Appearances ? tableStyle.active : ''
-                } ${
-                  order === SortOrder.Asc
-                    ? tableStyle.sort_asc
-                    : tableStyle.sort_desc
-                }`}
-                title={makeSortTitle(sort, order, SortKey.Appearances)}
-              >
-                Shows
-              </button>
-            </td>
-            <td>
-              <button
                 onClick={() => reorderTable(SortKey.GuestName)}
                 className={`${mainStyle.title} ${
                   sort === SortKey.GuestName ? tableStyle.active : ''
@@ -152,6 +137,21 @@ const AppearanceTable = () => {
                 Last Podcast
               </button>
             </td>
+            <td>
+              <button
+                onClick={() => reorderTable(SortKey.Appearances)}
+                className={`${mainStyle.title} ${
+                  sort === SortKey.Appearances ? tableStyle.active : ''
+                } ${
+                  order === SortOrder.Asc
+                    ? tableStyle.sort_asc
+                    : tableStyle.sort_desc
+                }`}
+                title={makeSortTitle(sort, order, SortKey.Appearances)}
+              >
+                Shows
+              </button>
+            </td>
           </tr>
         </thead>
         <tbody>
@@ -159,12 +159,12 @@ const AppearanceTable = () => {
             return (
               <tr key={guest} className={mainStyle.event}>
                 <td>
-                  <strong>{Guests[guest].length}</strong>
-                </td>
-                <td>
                   <Link to={`/guest/${slugify(guest)}`}>{guest}</Link>
                 </td>
                 <td>{latestAppearanceEpisode(Guests[guest])}</td>
+                <td>
+                  <strong>{Guests[guest].length}</strong>
+                </td>
               </tr>
             )
           })}
