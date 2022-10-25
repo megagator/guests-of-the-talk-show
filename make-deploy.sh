@@ -1,11 +1,12 @@
 #! /bin/bash
 
 download_audio () {
-    cat ../content/episodes.json | jq '.[0].file.url' | xargs -r -I{} curl -L {} -O
+    rm ./*.mp3
+    < ../content/episodes.json jq '.[0].file.url' | xargs -r -I{} curl -L {} -O
 }
 
-if [[ -z $1 || $1 -ne '-f' ]]; then
-    cd feed-parser/
+if [[ -z $1 || $1 != '-f' ]]; then
+    cd feed-parser/ || exit
 
     npm run parse && \
     download_audio && \
