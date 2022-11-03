@@ -1,0 +1,1438 @@
+[00:00.000 --> 00:05.600]  Federico, it's so good to hear your voice. I do hope that after the show,
+[00:08.800 --> 00:13.760]  the world goes a little bit better than it did the last time you were on. Do you remember?
+[00:14.960 --> 00:21.680]  Oh my gosh, that was right... Was that right before the lockdowns? Like, I remember we were
+[00:21.680 --> 00:28.480]  talking like, is this gonna last for a few months? Like, that was spring 2020, I think.
+[00:28.480 --> 00:34.480]  Yeah, the last time you were gracious enough to be my guest on this show was at the end of
+[00:34.480 --> 00:38.560]  February. The show probably came out in the beginning of March, I didn't check,
+[00:38.560 --> 00:46.880]  of 2020. And Italy was going through, at the time, seemed to have an abnormally
+[00:47.920 --> 00:52.320]  large problem with... Have you heard of it? It was called COVID-19.
+[00:53.680 --> 00:54.180]  No.
+[00:55.040 --> 00:56.880]  It was a novel coronavirus.
+[00:56.880 --> 00:57.920]  Oh, gosh.
+[00:58.880 --> 01:05.840]  And in hindsight, I cannot believe how much, at the time, I just chalked it up to,
+[01:05.840 --> 01:12.480]  well, I feel bad for all of my friends in the whole country of Italy that they've had such
+[01:12.480 --> 01:19.040]  rotten luck with this, as opposed to what, in hindsight, was clearly, Italy is just going first.
+[01:20.080 --> 01:22.720]  Yeah, and I remember having the conversation with you about like,
+[01:22.720 --> 01:27.120]  do you think Apple is going to postpone WWDC? And I remember you saying, well,
+[01:27.120 --> 01:31.200]  no, I don't think they are. I think they can still pull off an event. And then, of course,
+[01:31.200 --> 01:32.480]  we know how that went.
+[01:32.480 --> 01:39.360]  I was, like much of the world, at that two-week period before all the shutdowns, far...
+[01:40.960 --> 01:47.200]  I don't even... I was gonna say optimistic. I think a better word would be naive and in denial
+[01:47.200 --> 01:54.720]  in denial about how significant it was. But really, quite a lot has happened outside
+[01:55.440 --> 02:01.600]  the area of Apple technology design, all the stuff we talked about since the last time you were on.
+[02:01.600 --> 02:09.680]  I hope that... It's funny because we're recording this literally the day after Elon Musk took over
+[02:09.680 --> 02:14.320]  Twitter. So I'm not sure if this is like another one of those things, like what's gonna happen
+[02:14.320 --> 02:20.720]  before, like if you ever invite me back, like is this like a bad sign? Am I bad luck for
+[02:20.720 --> 02:25.520]  global events whenever I come on the talk show? I hope not. Oh, gosh.
+[02:27.600 --> 02:33.200]  Right. This could be... This Elon Musk's acquisition of Twitter could be the COVID-19
+[02:33.200 --> 02:37.520]  of your appearance this week, where I'm hopelessly naive and I'm thinking, hey,
+[02:37.520 --> 02:41.520]  I think this actually could be just what the doctor ordered for Twitter and it could be,
+[02:41.520 --> 02:47.360]  could well be in hindsight, the beginning of Twitter turning into... It's funny because he,
+[02:47.360 --> 02:53.600]  even he used the word hellscape yesterday in an open letter he posted to Twitter advertisers that
+[02:53.600 --> 03:01.840]  he does not want Twitter to become a quote unquote hellscape. Well, he does not want that
+[03:01.840 --> 03:06.800]  for sure. Like that's the, again, the optimistic and naive maybe point of view. I don't know.
+[03:06.800 --> 03:10.560]  I honestly don't know what to think about that. Like, yeah, we might as well talk about it first.
+[03:10.560 --> 03:12.400]  I mean, it's one of the things I want to talk about.
+[03:14.880 --> 03:17.600]  Because like I'm opening my timeline this morning and I see...
+[03:18.560 --> 03:23.440]  It kind of feels like living on the cusp of the end of times in many ways. Like I see all
+[03:23.440 --> 03:28.240]  these people saying, well, it's been fun. You can find me on other places. And then there's
+[03:28.240 --> 03:33.040]  other people saying, oh, I want to be optimistic. I think we've lived through many eras of bad
+[03:33.040 --> 03:38.160]  Twitter management before. We might as well see what happens now. And obviously I think
+[03:38.160 --> 03:42.960]  I owe a lot to Twitter, right? That's the, like the underlying sentiment that I have
+[03:42.960 --> 03:49.280]  is I can honestly say that I wouldn't be here today without this social network. Like all
+[03:49.280 --> 03:54.080]  the people that I've met, all the connections that I've made. I can, all the friendships
+[03:54.080 --> 03:59.040]  that I have in real life, as far as my work is concerned, like all these people that I have met
+[03:59.040 --> 04:03.840]  through Twitter. So like there's immense value. There's always been immense value for me
+[04:03.840 --> 04:09.120]  in the social network aspect of Twitter, in the professional aspect of it. And to think,
+[04:09.120 --> 04:13.680]  I'm very sad about the idea that, well, maybe that's just gone now and it's all going
+[04:13.680 --> 04:19.360]  downhill and it will be a hellscape for quote unquote free speech. I don't like thinking
+[04:19.360 --> 04:26.480]  about that. And then I also, I read your post about it. Maybe to an extent it is what
+[04:26.480 --> 04:34.240]  Twitter needed, like this sort of hard reset. It just, that optimistic point of view also
+[04:34.240 --> 04:42.000]  comes with the fear, right? With the concern that given the man who bought it and some
+[04:42.000 --> 04:47.840]  of the views that he has about free speech and restoring access to certain kinds of users,
+[04:48.560 --> 04:52.080]  I can understand why people are concerned. And I don't know.
+[04:52.080 --> 04:59.520]  No, it is complicated. And I do not mean to, I'll be, I may come across as slightly flippant
+[04:59.520 --> 05:07.040]  here. I am trying to be optimistic about it. I do think one thing I feel strongly about,
+[05:07.040 --> 05:18.640]  and I know it's counterintuitive in some ways. I do think Elon Musk is somebody who in general,
+[05:18.640 --> 05:29.760]  you can't necessarily take him by his, what he tweets or what he says when he shows up
+[05:29.760 --> 05:35.920]  on a podcast, you know, like when he was on the Joe Rogan podcast a couple of years ago. And
+[05:35.920 --> 05:46.720]  cause he clearly, I know this is sounds so it's like saying that rain is wet. He likes the
+[05:46.720 --> 05:52.640]  attention he, and he, you kind of get the feeling it's kind of obvious that if a couple of weeks
+[05:52.640 --> 06:01.440]  go by and he hasn't gotten attention, he will do something just to get attention. And most people
+[06:02.560 --> 06:11.120]  don't go through life that way. It's also true. Now I don't think I, this is maybe a poor analogy
+[06:11.120 --> 06:19.680]  because I don't think Elon Musk is a grifter or a scam artist, but it's the reason that human
+[06:19.680 --> 06:27.440]  beings throughout history have often been susceptible to scams in general, because most
+[06:27.440 --> 06:36.080]  people are naturally honest and have a sort of default to thinking that other people are honest.
+[06:36.080 --> 06:43.200]  It just wouldn't occur to people to scam another person. And that's why people fall for like
+[06:43.200 --> 06:49.200]  famously, I mean, there's, it's an ongoing problem and it often happens to older people who are less
+[06:49.200 --> 06:53.760]  technically adept, but they'll get some kind of email like a phishing scam. And it says, Hey,
+[06:53.760 --> 06:59.920]  you've got a problem. You should call this phone number to talk to Microsoft tech support. And if
+[06:59.920 --> 07:06.880]  they fall for it and call, they get talked through installing a key logger or some kind of one of
+[07:06.880 --> 07:13.200]  those remote desktop apps so that the attacker now has control over their computer. And people just
+[07:13.200 --> 07:19.040]  sort of get sucked into that. Now, again, I'm not saying Elon Musk is a scammer, but I do think
+[07:19.040 --> 07:26.400]  though, he says certain things and people take him at his word for it. And I don't know that's
+[07:26.400 --> 07:34.480]  what he means. And along those lines, his, I believe in absolute free speech and opposing
+[07:34.480 --> 07:41.200]  viewpoints should be able to post stuff to Twitter stuff that right now you're not allowed,
+[07:41.200 --> 07:47.280]  you know, that stuff right now you would get, you might get suspended from Twitter for posting.
+[07:47.280 --> 07:51.600]  You would be allowed to post under Elon Musk. I think to some degree that is going to happen,
+[07:51.600 --> 07:57.360]  but how far he's going to take it. I'm not sure that we should take him at his word for it.
+[07:57.360 --> 08:02.400]  Yeah, because there's also like, at some point you run into the government paying attention to
+[08:02.400 --> 08:06.960]  you, right? Like it's funny, all the memes and all the jokes that he posts, like that's fun and you
+[08:06.960 --> 08:11.760]  get the attention and you get the retweets, but then when it comes to, okay, now you actually
+[08:11.760 --> 08:17.440]  need to run the business and now you're getting subpoenaed for obtaining certain user records.
+[08:17.440 --> 08:21.520]  And then you need to appear in court. And then there's the European government coming after you.
+[08:21.520 --> 08:25.040]  That's like, well, not the European government, but the European Union, there's the Italian
+[08:25.040 --> 08:29.600]  government. Like then it becomes actual work and you need to put in the actual work if you want to
+[08:29.600 --> 08:34.320]  run a business. I mean, or you could just say, you know what, whatever. I don't care. I'm just,
+[08:34.320 --> 08:37.920]  I bought Twitter. I'm going to, I'm going to remove, I'm going to reverse all of these
+[08:37.920 --> 08:42.880]  lifetime bans that were applied and I'm going to see what happens. That doesn't sound to me
+[08:42.880 --> 08:49.600]  like a solid business plan, like to see what happens. Like, sure, he likes, as you said,
+[08:49.600 --> 08:54.480]  he likes the attention and there are going to be like short term, I mean, Kanye West has already
+[08:54.480 --> 08:59.040]  been reinstated, right? Like, so short term over the next few days and weeks, like this is going
+[08:59.040 --> 09:05.120]  to happen, but then what it actually means in terms of like a private company doing this
+[09:06.160 --> 09:12.240]  over and over for several months, like at some point there needs to be some degree of new
+[09:12.240 --> 09:17.440]  guidelines and new practices in place for Twitter because he also said like, I don't want this to
+[09:17.440 --> 09:22.560]  become a hellscape, but if you just do, if you just reverse previous decisions, that's what's
+[09:22.560 --> 09:26.320]  going to happen. So maybe he has a solution in mind. I'm sure he has a solution in mind.
+[09:26.320 --> 09:33.040]  And again, what he tweets and what he actually does in practice. I mean, look at his track
+[09:33.040 --> 09:37.520]  record, right? All the things he said about Tesla autopilot and where we are today with Tesla
+[09:37.520 --> 09:44.080]  autopilot, like he likes to say many things and to a degree, like many, many times he said some
+[09:44.080 --> 09:48.240]  things and his employees at his various companies don't even know about the things he's talking
+[09:48.240 --> 09:55.280]  about. His persona, I guess, is very different from the actual reality of the businesses that
+[09:55.280 --> 10:01.600]  he runs. So that'll be fascinating to see in a in a company that is not about a product like
+[10:01.600 --> 10:06.320]  a physical product you're selling like like a car. This is about a communications platform.
+[10:06.320 --> 10:11.920]  So what does that actually mean? Where Elon Musk says, oh, Kanye West is back. Trump is back. I
+[10:11.920 --> 10:16.800]  don't care. All these users who were shadow banned or search banned before. We're going to remove all
+[10:16.800 --> 10:22.800]  those restrictions. Okay, great. Then what? Like, what's the plan? Like, you need to make money, but
+[10:23.840 --> 10:30.080]  are you going to make money if a bunch of your most loyal users leave? Like you said,
+[10:30.080 --> 10:35.360]  it's complicated. But I do agree that his persona does not necessarily reflect on the actual
+[10:35.360 --> 10:42.000]  business decisions of the service. That's the hope. It's also the case that if you just take
+[10:42.000 --> 10:50.240]  a step back and really think about it, it is so far beyond my understanding, my ability to
+[10:50.240 --> 10:56.240]  comprehend the sum of money, somebody spending forty four billion dollars. And I know he's not
+[10:56.240 --> 11:01.440]  they didn't just write a check and take it out of his bank account. It's not a cash transaction.
+[11:01.440 --> 11:06.960]  He's got loans and borrowing money from banks and there's various other partners, but just a massive
+[11:06.960 --> 11:12.560]  amount of money. And going from a publicly held company to a privately held company does not happen
+[11:12.560 --> 11:18.000]  very often to at least to companies, major companies that we've all heard of. Again,
+[11:19.680 --> 11:25.760]  he's just such a he is whether you like him or not. And there's certainly aspects of him that I
+[11:25.760 --> 11:36.720]  find just overall distasteful. And I don't think that I don't think I think overall, I don't like
+[11:36.720 --> 11:41.520]  Elon Musk. And I think there's lots and lots of people who agree the same way. It's just is not
+[11:41.520 --> 11:47.520]  my type of person. But at the same time, I have to admit, I admire his accomplishments. I mean,
+[11:47.520 --> 11:53.920]  going all the way back to PayPal, where he first made his fortune, PayPal, for all my complaints
+[11:53.920 --> 11:58.640]  about it. And it's just one of those things. It's a lot like Twitter. We all have complaints about
+[11:58.640 --> 12:06.240]  it. But it truly did change the world and was the first sort of, hey, wouldn't it be great if
+[12:06.240 --> 12:12.480]  we could just send each other money securely and reliably across the internet and across borders?
+[12:12.480 --> 12:19.280]  And as much as he says things that don't come true, and that he seems outright dishonest,
+[12:19.280 --> 12:25.120]  the Tesla auto driving or whatever they call it is certainly the primary example. He's also made
+[12:25.120 --> 12:33.120]  outlandish claims about the boring company, which is, again, in some ways, it's like he spent,
+[12:33.120 --> 12:38.400]  these are massive billions and billions of dollars endeavors, but he likes to have
+[12:38.400 --> 12:47.120]  fun and make jokes and selling or buying Twitter at $54.20 a share so he can put $4.20 in as
+[12:47.120 --> 12:56.960]  a reference to marijuana. And he did the same thing before with Tesla, where he had proposed
+[12:56.960 --> 13:04.480]  maybe taking Tesla private and that he had secured funding at $420 a share. Who does that?
+[13:07.120 --> 13:15.120]  But at the same time, he has done these things. Teslas really are cars that people love. The
+[13:15.120 --> 13:21.520]  existence of Tesla as a company has single-handedly greatly advanced the entire
+[13:22.880 --> 13:28.720]  world of personal transportation's transition away from fossil fuels and towards
+[13:30.160 --> 13:37.360]  electric drives. It's something we obviously, it is literally the climate crisis. It cannot
+[13:37.360 --> 13:44.080]  be overstated as one of the top problems, generational problems that will be with us
+[13:44.080 --> 13:50.240]  for the rest of your and my entire life. It has been a crisis ever since everybody out there who's
+[13:50.240 --> 13:58.160]  listening to us. Since we were born, it's going to be with us for decades to come. And it can't
+[13:58.160 --> 14:05.040]  be overstated how important it is. And electric cars are a big part of trying to literally save
+[14:05.040 --> 14:10.720]  the world. And I know that sounds like hyperbole, right? It sounds like every time I hear blah,
+[14:10.720 --> 14:19.440]  blah, blah, save the world, you figure it's some kind of blockbuster Avengers movie with a kids
+[14:19.440 --> 14:25.600]  movie with lots of superheroes and a $100 million, $200 million budget full of special effects and
+[14:25.600 --> 14:31.840]  some kind of ridiculous plot. But it can be real. There are save the world problems and it's one of
+[14:31.840 --> 14:39.280]  them. He's actually got a company that makes rocket ships that really do go into space.
+[14:39.280 --> 14:47.360]  He has a company with actual communication, lower satellites that really do work and are helping
+[14:47.360 --> 14:55.040]  to keep the people of Ukraine in contact with the rest of the world over the internet as their
+[14:55.040 --> 15:04.160]  ground-based infrastructure is attacked by Russia. These are real things that are really important,
+[15:04.160 --> 15:09.840]  and yet he's kind of a goofball. Yes. So that's the thing. And I share
+[15:09.840 --> 15:15.200]  your perspective. Like I dislike the person, at least, I mean, obviously I don't think you know
+[15:15.200 --> 15:19.920]  Elon Musk personally. I don't know Elon Musk personally. What I know about him, I know from
+[15:19.920 --> 15:24.640]  the things he posts and the things he says. And I share your perspective of like, I dislike the
+[15:24.640 --> 15:30.320]  person that I see on the internet, but I respect his accomplishments, right? I mean, provided that
+[15:30.320 --> 15:35.200]  once you establish the baseline of like, is capitalism okay? Assuming that it is okay,
+[15:35.200 --> 15:40.640]  I respect his business accomplishments. And to an extent, this reminds me of the very old question
+[15:40.640 --> 15:46.960]  of like, can you separate the art from the artist, right? Can you enjoy a piece of art, whether it's
+[15:46.960 --> 15:53.840]  a movie or a song or a book, even though it was made by an absolute jerk of a person? Like,
+[15:53.840 --> 15:59.520]  can you enjoy art that was made by the most despicable person ever? Really complicated
+[15:59.520 --> 16:07.920]  question, right? But in that case, I think when it comes to art, by and large, art is pretty
+[16:08.720 --> 16:15.120]  safe in terms of potential damage to other people. Like, if you say, no, I cannot separate the
+[16:15.120 --> 16:20.000]  artist from the art, then it's mostly okay. You just don't read the book or you just don't watch
+[16:20.000 --> 16:25.200]  the movie or you don't play the video game. By and large, it doesn't harm anybody. Now, this is
+[16:25.200 --> 16:33.360]  a simplification, but bear with me. The problem with I don't like the person who also runs a very
+[16:33.360 --> 16:39.760]  popular social network, like that becomes very problematic and concerning because people like
+[16:39.760 --> 16:47.920]  me and you, I would say, like, overall, we usually don't run the risk of getting harassed or having
+[16:47.920 --> 16:53.440]  people dox us online, like people like me and white men on Twitter, basically, like, it's pretty
+[16:53.440 --> 16:59.520]  safe. So even if I don't like Elon Musk, well, what's going to happen to me, right? How are the
+[16:59.520 --> 17:04.160]  decisions that Elon Musk is going to take for Twitter, how are those going to affect me
+[17:04.160 --> 17:09.200]  personally? And I can say, well, I'm mostly going to be okay, even though I don't like the guy,
+[17:09.200 --> 17:13.600]  nothing's going to happen to me. And I don't think because I come from a position of privilege from
+[17:13.600 --> 17:18.800]  that point of view, I don't think the same is true for all kinds of other people, which I think is
+[17:18.800 --> 17:26.480]  where, rightfully so, a lot of folks are concerned because they cannot separate the guy who bought
+[17:26.480 --> 17:33.120]  the company from the company and the potential harm. It's all about the potential harm that
+[17:33.120 --> 17:37.520]  certain decisions are going to cause. And I also respect that point of view.
+[17:38.400 --> 17:44.000]  I love that point. And I do think that you've put your finger that being able to separate art from
+[17:44.000 --> 17:48.560]  artists and like Roman Polanski, people, a lot of people feel the same way, you know, and where do
+[17:48.560 --> 17:54.720]  you draw the line? Is it the director, Roman Polanski, director of some absolutely historically
+[17:55.520 --> 18:03.040]  renowned films? But what do you, if you choose not to watch any of his movies because of
+[18:04.800 --> 18:11.040]  absolutely appalling sexual abuse crimes that he committed decades ago, what are you accomplishing?
+[18:11.040 --> 18:18.560]  Right. I personally can easily separate art from artists and it doesn't keep me from enjoying
+[18:18.560 --> 18:23.520]  their work or make me less likely to want to watch them. And I don't necessarily, I don't really feel,
+[18:23.520 --> 18:27.520]  I know some people think, well, I don't want them to profit at all. I don't know how that works.
+[18:27.520 --> 18:33.920]  I don't know when I rent or buy a movie from iTunes. If I look and see that I don't own
+[18:33.920 --> 18:41.600]  Chinatown on iTunes and I buy Chinatown for $9.99 or $15, how much of it actually goes to Roman
+[18:41.600 --> 18:48.160]  Polanski? I don't know. I can completely disassociate from that, but I also completely
+[18:48.160 --> 18:53.680]  respect somebody who says, I'm not contributing. I can't enjoy a movie if I know somebody did that,
+[18:53.680 --> 18:57.680]  but where do you draw the line? Like you can look at somebody, then you look at somebody like
+[18:57.680 --> 19:05.200]  Harvey Weinstein and he didn't direct any movies. He's a producer, but the list of movies that his
+[19:05.200 --> 19:09.840]  name is in the credits as a producer for is as long as your arm. And now what do you say? You're
+[19:09.840 --> 19:16.160]  not going to watch any of the, where do you draw the line? Do you not buy? I know people personally
+[19:16.160 --> 19:22.000]  who, or at least I see them on Twitter, of all places, Twitter, which he now owns. Musk has
+[19:22.000 --> 19:27.280]  said things and people, I've seen people tweet, whether it's true or not, or they're just having a
+[19:27.280 --> 19:33.600]  fit of peak say, I have a Tesla and I'm selling it, or I was in the market for a car and I was
+[19:33.600 --> 19:37.840]  thinking about buying a Tesla, but definitely not. Won't even consider it. I want nothing to
+[19:37.840 --> 19:44.000]  do with the guys. It's complicated, right? Yeah. Yeah. And I think another, another great example
+[19:44.000 --> 19:49.760]  of this is, I don't know if you've been keeping an eye on this, but the whole, all the things that
+[19:49.760 --> 19:54.400]  JK Rowling, the author of the Harry Potter series, that the things that she's been saying when it
+[19:54.400 --> 20:00.640]  comes to trans rights and women's rights. And that is a great example of this. Like for many people,
+[20:00.640 --> 20:07.600]  her tweets and posts and her claims have really soured the whole relationship with the Harry
+[20:07.600 --> 20:13.200]  Potter franchise, which is the kind of franchise that millions of people grew up with, myself
+[20:13.200 --> 20:20.160]  included. And drawing the line, it's complicated, but I keep coming back to this. I think obviously
+[20:20.160 --> 20:25.680]  anybody's free to enjoy whatever they want, but I also think it's important to listen to the folks
+[20:25.680 --> 20:32.880]  who are saying this franchise in a way is indirectly or maybe directly harming people like
+[20:32.880 --> 20:37.360]  me. And I see this, I have some really close friends of mine who are saying, please do not
+[20:37.360 --> 20:43.040]  support anything out of JK Rowling because all the rights, the money and the royalties that she makes
+[20:43.040 --> 20:47.920]  go into her bank account. And she's not the kind of person that, that I cannot accept her because
+[20:47.920 --> 20:53.600]  she's in a way, she's ruining my life. And I understand that perspective, but it's also true
+[20:54.480 --> 21:03.040]  that it's very complicated to explain this to people and to tell each one of them,
+[21:03.040 --> 21:07.680]  oh, you need to draw the line here. I was recently, just a couple of weeks ago at a
+[21:07.680 --> 21:13.920]  comic book convention here in Rome. And you wouldn't believe the amount of people there
+[21:13.920 --> 21:20.400]  who were in Harry Potter costumes or going to the Harry Potter stand to buy merchandise and to buy
+[21:20.400 --> 21:25.360]  movie posters and books and action figures and whatever. It's still a massive franchise,
+[21:25.360 --> 21:32.800]  but then you talk to other people and they absolutely cannot stand JK Rowling anymore.
+[21:32.800 --> 21:37.360]  They're not reading Harry Potter anymore. They're not going to the new, to see the new movies because
+[21:37.360 --> 21:42.320]  of her public persona. And this is a very, this is a very old problem, right? I think this kind
+[21:42.320 --> 21:47.760]  of problem has existed forever. I think it's more of a public problem now because for obvious
+[21:47.760 --> 21:53.280]  reasons, we're all more connected. We're all, everybody with a Twitter account can say things.
+[21:53.280 --> 21:58.800]  JK Rowling likes to say things. Elon Musk likes to say things. And the same can be said of other
+[21:58.800 --> 22:06.240]  musicians, movie directors, writers. And so there's, I don't think there's a single answer to this.
+[22:06.240 --> 22:13.120]  I think it's just important that we, first of all, we got to see what happens in terms of, to go back
+[22:13.120 --> 22:17.840]  to Twitter, we got to see what happens, but we also got to keep an open mind and listen. I think
+[22:17.840 --> 22:23.200]  listening to people, for example, on Twitter, if Elon Musk makes a decision that is going to affect
+[22:23.200 --> 22:30.400]  people of a certain group and those people say, since this decision, now I get, let's talk very
+[22:30.400 --> 22:36.880]  practical terms. Now I'm getting harassed again. Now I'm getting DMs from strangers who are doxing
+[22:36.880 --> 22:40.560]  me online. Like we got to listen to those problems and we've got to keep an eye on those problems.
+[22:40.560 --> 22:46.800]  Like those very practical consequences that maybe people like you and I will not see, will not
+[22:46.800 --> 22:52.080]  experience, but they are true regardless. Now, historically, Twitter never had a great track
+[22:52.080 --> 22:58.240]  record in terms of managing abuse. And probably they've gotten better over the past few years,
+[22:58.240 --> 23:04.640]  but they've done things that arguably they should have done years ago. Is Elon Musk going to improve
+[23:04.640 --> 23:09.600]  this? Is Twitter as a company going to become a much more agile company in dealing with these
+[23:09.600 --> 23:19.200]  problems? We'll see, but all this to say, I understand the concern, I think. Right. And I do,
+[23:19.200 --> 23:27.360]  I'm laughing. We're being a little casual about the whole thing, but I genuinely believe that
+[23:27.360 --> 23:37.440]  Twitter is overall and like you, it has changed my life and has made me, enabled me to be more
+[23:37.440 --> 23:44.320]  in touch with the people who read my work and who listen to this show than I would be in the
+[23:44.320 --> 23:50.240]  hypothetical alternate world where Twitter never existed. It is, and always has been the closest
+[23:50.240 --> 23:57.600]  Daring Fireballs ever had to having comments. And I think it actually has in the large worked out far
+[23:57.600 --> 24:02.800]  better. I can't imagine how it would have been better, or it continues to be that I write a
+[24:02.800 --> 24:08.720]  couple of dozen posts a week. And when somebody wants to comment on them publicly, they can just
+[24:08.720 --> 24:14.720]  at me on Twitter or reply to an at Daring Fireball automatic post. And I read all of them.
+[24:14.720 --> 24:21.360]  It is easier and I enjoy keeping up with my mentions on Twitter than I do reading email.
+[24:21.360 --> 24:29.440]  I'm far more likely to be at mentions zero than I am inbox zero. Absolutely. And I enjoy it. I enjoy
+[24:29.440 --> 24:36.720]  the back and forth and engaging with them. And to me, it works out better than having the comments
+[24:36.720 --> 24:42.640]  actually on the site. I don't know. So I really do hope it works out. I do think fundamentally
+[24:42.640 --> 24:51.840]  that being a publicly held company that rose alongside Facebook, which was so much more
+[24:51.840 --> 25:00.560]  successful financially and at a very superficial level was there for by the investors in the
+[25:00.560 --> 25:08.160]  business class viewed through a face made Twitter to be viewed by investors through a Facebook prism.
+[25:08.160 --> 25:16.800]  Yeah. Why can't you be more like Facebook? And decades ago, in the 90s, when Apple was in serious
+[25:16.800 --> 25:27.040]  financial trouble and near bankruptcy and under threat to be acquired, I mean, the weird hard to
+[25:27.040 --> 25:34.800]  believe this is true, could have been acquired at the snap of a finger by Sun Microsystems
+[25:34.800 --> 25:41.360]  and just wasn't solely because I think it was Scott McNeely was the CEO of Sun at the time in
+[25:41.360 --> 25:47.280]  the mid 90s. And he just thought Apple was so it would have been an inconsequential amount of money
+[25:47.280 --> 25:52.320]  for Sun at the time to buy Apple, they had the deal in place, it wouldn't have been a big deal
+[25:52.320 --> 25:57.920]  financially. And they didn't do it simply because he was so pessimistic about any possible future
+[25:57.920 --> 26:06.080]  for Apple that why bother? And where's Sun today? Forgotten, right? Largely forgotten.
+[26:06.080 --> 26:11.760]  If you're young enough, you're like, Son, I don't remember what they did. Right? Could have been
+[26:11.760 --> 26:19.280]  amazing. Just amazing how close we are to not having Apple exist. Because Microsoft at the time
+[26:19.280 --> 26:24.880]  was so phenomenally successful compared to any other software oriented company. And Windows was
+[26:24.880 --> 26:32.560]  so not just dominant, but dominant and growing. And as the internet exploded from an obscure
+[26:33.360 --> 26:40.640]  the university only research wide area network to the communication and open standard of the
+[26:40.640 --> 26:46.480]  whole world. The business world saw Apple through a Microsoft like prism and was like, well, if
+[26:46.480 --> 26:52.400]  Microsoft is making a zillion dollars by licensing their operating system to anybody who will pay for
+[26:52.400 --> 26:57.760]  it and let dozens and dozens of companies make computers, that's what Apple should do too. Right?
+[26:58.640 --> 27:06.320]  And it's so obviously wrong. It was it seemed wrong to me at the time for Apple to go that path.
+[27:07.120 --> 27:12.400]  But the pressure was so strong, and Apple was in such dire straits that eventually they did it,
+[27:12.400 --> 27:18.640]  they actually started a system and a licensing program where there were Mac clones. Again,
+[27:18.640 --> 27:22.880]  again, it sounds bananas. And if you're young enough that you didn't live through it,
+[27:22.880 --> 27:27.760]  or you weren't paying attention to Apple at the time, you weren't a Mac user. It just seems like
+[27:27.760 --> 27:32.480]  a historical curiosity. But for me, who was already a diehard Mac user at the time, it was
+[27:32.480 --> 27:38.240]  as bananas as it sounds today, that Apple of all companies was licensing the Mac operating system
+[27:38.240 --> 27:46.640]  to clone makers. Twitter, similarly, has suffered so much, I think, under just the basic high level
+[27:46.640 --> 27:52.480]  viewpoint of this company should be more like Facebook. And they're not. It's such a
+[27:52.480 --> 27:58.560]  superficial comparison, but they've suffered so greatly. So going private frees them from any
+[27:58.560 --> 28:03.200]  sort of pressure like that and Musk can truly do what he thinks is best for the company.
+[28:03.200 --> 28:10.240]  I think there's so much potential there. And he is smart and is successful with so many ways. And
+[28:10.240 --> 28:16.800]  I think he obviously, and as goofy as this whole acquisition saga has been, and the back and forth,
+[28:16.800 --> 28:21.040]  and the I don't want to do it anymore because now the whole stock market's down. I want to back out
+[28:21.040 --> 28:28.640]  of this. It seems so unprofessional and not the way $44 billion acquisitions are supposed to play
+[28:28.640 --> 28:34.720]  out. But you know he's not taking it lightly. It's a dead serious acquisition of a truly massive
+[28:34.720 --> 28:39.040]  amount of the man's personal wealth. I wouldn't count him out and I'm definitely not betting
+[28:39.040 --> 28:44.720]  against him. That's where I am. All right, let me take a break here and thank our first sponsor.
+[28:44.720 --> 28:51.520]  It is our good friends at Hover. Hover is a jumping off point for a ton of entrepreneurs
+[28:51.520 --> 28:56.480]  and creative people. And they want you to start your business or your next creative project with
+[28:56.480 --> 29:03.920]  a new domain name. Hover has over 300 domain name extensions, the top level domains like.com,.net,
+[29:03.920 --> 29:09.440] .org, those things. They have over 300 of them that you can choose from when building your
+[29:09.440 --> 29:13.840]  brand online. No matter what you want to build, there's a domain name waiting for it. You will
+[29:13.840 --> 29:18.560]  find excellent technical support from Hover available to answer any questions you may have.
+[29:18.560 --> 29:24.800]  Their support team does not upsell you, which is how so many domain name registers work.
+[29:24.800 --> 29:32.400]  Instead, their focus is solely on selling you domain names at a fair price. And you get
+[29:32.400 --> 29:38.720]  absolutely top-notch technical support from them, which can matter so much when, instead of, say,
+[29:38.720 --> 29:45.040]  buying a new domain name, if you're transferring domain names from an other registrar to Hover,
+[29:45.600 --> 29:52.480]  but you're already using it for email and you want to transfer this and you don't want to lose
+[29:52.480 --> 29:58.640]  access to your email or screw up the records or something like that, which can be so nerve-wracking.
+[29:58.640 --> 30:05.120]  Hover's technical experts can walk you through it. This is all they do. So if you're like,
+[30:05.120 --> 30:09.200]  oh, my God, I've never done this. I've never transferred the MX records from my email for
+[30:09.200 --> 30:13.840]  a domain name from one registrar to another. I don't know how to do it. I don't want to screw
+[30:13.840 --> 30:19.200]  it up because it's so important. That's all they do. They'll help you out. It is absolutely
+[30:19.200 --> 30:25.120]  fantastic. They have just absolute best-in-class customer and technical support. And I think
+[30:25.120 --> 30:30.000]  technical support is so important for any company, but especially for something as important as
+[30:30.000 --> 30:35.600]  domain names. They offer domains in email that you can pair with your domain just through Hover.
+[30:35.600 --> 30:42.000]  They have a terrific user experience and user interface. And like I said, over 300 domain name
+[30:42.000 --> 30:47.840]  extensions to choose from and an absolutely terrific suggestion feature so that if you type
+[30:47.840 --> 30:54.160]  yourclevername.com and the.com version is not available, which is so often the case,
+[30:54.160 --> 30:59.520]  but they have just a great recommendation engine to suggest other top-level domains
+[30:59.520 --> 31:04.560]  or similar things to stick in front of the top-level domain that are similar to what you
+[31:04.560 --> 31:08.960]  type. Just absolutely a terrific search engine to help you find domain names that are actually
+[31:08.960 --> 31:16.080]  available. So make a name for yourself with Hover. Go to hover.com, H-O-V-E-R, hover.com
+[31:16.080 --> 31:24.240]  slash talk show. That's hover.com slash talk show. And you get with that code, with that URL, a 10%
+[31:24.240 --> 31:28.800]  discount with that referral link on all new purchases. My thanks to Hover. Great company
+[31:28.800 --> 31:35.680]  that I recommend wholeheartedly. Let's go from Elon Musk, the most interesting flippant and
+[31:35.680 --> 31:44.480]  seemingly driving down the road at a high speed while texting and not looking at the road,
+[31:44.480 --> 31:52.480]  to the most careful, choreographed, and seemingly never says anything out of line ever,
+[31:52.480 --> 31:57.120]  CEOs, Tim Cook. And think about Apple. Apple had their financial quarter. I'm not a business
+[31:57.120 --> 32:01.120]  podcaster as much as we just spent talking about it, but Apple reported their results
+[32:01.120 --> 32:08.880]  yesterday as we record. And in a very shaky worldwide economy where a lot of companies
+[32:08.880 --> 32:13.840]  have been reporting results that have precipitously affected their stock price. I know Twitter,
+[32:13.840 --> 32:18.720]  or Facebook, speaking of Facebook, results from two or three days ago resulted overnight
+[32:18.720 --> 32:25.760]  and off hours trading in a 20% drop in their stock price. Apple's results were very strong.
+[32:26.320 --> 32:30.640]  A little bit of growth year over year across the board. I think iPads were the only ones that were
+[32:30.640 --> 32:39.120]  down. Max were up 5%. And largely, I believe it's 600 basis points. I forget what basis points
+[32:39.120 --> 32:45.840]  mean. Do you? I think you divide by, I think it means 6%, basically. But that's the, they call
+[32:45.840 --> 32:52.320]  them head in business speak, currency headwinds, where all the headwinds. Yeah. And basically,
+[32:52.320 --> 33:01.040]  all that means is that right now, in 2022, the US dollar is very strong against the Euro
+[33:01.040 --> 33:08.160]  and other worldwide currencies. And therefore, a US company like Apple, and it is so you I'm
+[33:08.160 --> 33:14.880]  sure that this affects you directly, Federico, that prices for Apple products are right now,
+[33:14.880 --> 33:19.120]  very, very high. I mean, do you in Italy, how high are the prices for like,
+[33:19.840 --> 33:24.160]  I can tell you that I went to the Apple store a couple of days ago to buy one of those regular
+[33:24.160 --> 33:31.920]  smart folios. So the one without the keyboard, just the cover, it's 150 euros. Now 125, actually.
+[33:31.920 --> 33:36.480]  So I'm at the cash register. And the guy's like, okay, it's 125. And my girlfriend looks at me,
+[33:36.480 --> 33:44.080]  she's like, are you crazy? 125 for a cover? So yeah, the prices are high in euros right now. Yes.
+[33:45.360 --> 33:53.200]  And it's super frustrating too. And one weird or unique aspect of Apple compared to so many
+[33:53.200 --> 34:02.880]  other companies is that for Apple, the price of products is sort of, I think the best way to look
+[34:02.880 --> 34:07.920]  at it is they consider the prices part of the brand as much a part of the brand as the packaging,
+[34:08.480 --> 34:15.440]  as the name of the product. And when they say the MacBook Air starts at 999 for the
+[34:16.720 --> 34:25.120]  M one generation MacBook Air with the old form factor, that 999 price stays, you can bank on it
+[34:25.120 --> 34:29.920]  until they come out with a new MacBook Airs, whether that's next summer or next fall, however
+[34:29.920 --> 34:37.120]  long it is. Dell famously is the opposite. And RAM prices go up and next week, the same laptop
+[34:37.120 --> 34:46.080]  that will cost $1,241 this week because RAM prices went up next week, it's $1,329. And just oddball,
+[34:46.720 --> 34:53.520]  unround prices that just reflect the way component prices cost, currency prices fluctuate,
+[34:53.520 --> 35:00.720]  stuff like that. Whereas Apple picks prices there, the price is usually part of the brand, 999 or
+[35:00.720 --> 35:08.320]  $449 for the new regular iPad. Yeah, we talk about their prices almost as if they are features of the
+[35:08.320 --> 35:13.440]  product itself, like the price points. We have so many conversations on all the podcasts, like the
+[35:13.440 --> 35:19.840]  price points are part of the product. And yeah, they're like features. And yes, I agree with that.
+[35:19.840 --> 35:27.520]  But the disappointment of that is for people outside the US, it's like these prices that
+[35:27.520 --> 35:34.880]  are set where you're buying smart folios without even a keyboard are 100, what'd you say? 150 euros
+[35:34.880 --> 35:42.080]  or 125 euros. It's going to be that price going forward no matter what happens, even if the dollar
+[35:42.080 --> 35:47.680]  and the euro come back more into alignment where they've been traditionally, that's still going to
+[35:47.680 --> 35:55.840]  be the price. And it hurts. In this world, Apple still reported a good quarter. Again, it's an
+[35:55.840 --> 36:02.720]  interesting contrast where in some ways, Tim Cook really could be considered the opposite of Elon
+[36:02.720 --> 36:10.640]  Musk. When is the last time Tim Cook has ever said anything surprising or controversial or out of
+[36:10.640 --> 36:19.200]  line? It's really hard to imagine, honestly. And the most unusual and personal thing he's ever done
+[36:19.200 --> 36:23.680]  was, and at this point, it's so far in the past where it's hard to remember how profound it is,
+[36:23.680 --> 36:30.480]  was when he came out publicly as gay and wrote about it. And up until that point,
+[36:30.480 --> 36:36.560]  there was speculation, widely speculated that he was gay. It didn't come as a surprise or out of
+[36:36.560 --> 36:46.000]  the blue when he came out publicly. And it never seemed like he was not out as gay out of any sort
+[36:46.000 --> 36:52.080]  of embarrassment about it. He's just private. He's just obviously, and even since, he's just
+[36:52.080 --> 36:57.680]  obviously an extraordinarily private person. It's the most private thing he's ever revealed.
+[36:57.680 --> 37:03.760]  His reasons for it are so admirable where he very clearly said the thing that really motivated him
+[37:03.760 --> 37:11.840]  to do it was the knowledge that there are so many young people, including kids, who know inside that
+[37:11.840 --> 37:17.760]  they're gay and don't know what to do and can use somebody, a role model, like somebody who grew up
+[37:17.760 --> 37:24.400]  in the very conservative US South, Alabama, which it's hard to emphasize just how conservative that
+[37:24.400 --> 37:29.120]  by any measure of politics inside the US or worldwide, how conservative that is.
+[37:29.120 --> 37:34.480]  Just terrific, really. And it's something that we can all look up to him for having done.
+[37:34.480 --> 37:39.520]  But other than that, what else has he ever done that gives any clue into how he really
+[37:40.240 --> 37:46.960]  feels or acts? Nothing, right? No. I mean, the one bit of emotion that we maybe
+[37:46.960 --> 37:52.880]  saw out of him was when he waved the checkered flag at the racetrack a couple of weeks ago.
+[37:52.880 --> 38:03.440]  I mean, I cannot recall a moment where Tim Cook kind of e-opened Twitter and he tweeted something
+[38:03.440 --> 38:09.520]  random. No, he never does that. It's very much in direct contrast with not just Elon Musk,
+[38:09.520 --> 38:15.120]  but other CEOs, right? I mean, there are other tech companies that are very much,
+[38:15.120 --> 38:22.720]  well, more open, maybe doesn't describe it, but it's almost as if his public persona is also
+[38:22.720 --> 38:29.680]  a reflection of the culture of the company. Just the secrecy, but just to tell you just enough,
+[38:29.680 --> 38:34.640]  just the things you need to know. Sort of remove that aspect from the conversation.
+[38:34.640 --> 38:39.040]  You don't need to know about Tim Cook's personal life. You probably don't need to know about Tim
+[38:39.040 --> 38:46.080]  Cook's personal belief on things. I find it fascinating, but it also seems consistent with
+[38:46.080 --> 38:54.240]  the company because I think it would be weird and it would be very strange, very odd if Tim Cook
+[38:54.240 --> 39:00.720]  just started saying things. I don't know, but it's almost as if I wouldn't imagine Tim Cook just
+[39:00.720 --> 39:08.160]  replying to random people on Twitter or saying things like, oh, this new TV program is bad.
+[39:08.160 --> 39:14.800]  It's like, no, that's the CEO of Apple doesn't say certain things. So yeah, I agree with that.
+[39:14.800 --> 39:20.960]  We don't know anything about him. And it's very different from other CEOs these days.
+[39:20.960 --> 39:23.920]  If he started trolling people on Twitter, it would be so...
+[39:23.920 --> 39:25.040]  Can you imagine that?
+[39:25.040 --> 39:34.640]  It is hard to imagine somebody else who would be more surprising to become a controversial troll
+[39:34.640 --> 39:40.960]  on Twitter than Tim Cook. I think most people would immediately assume from the first tweet
+[39:40.960 --> 39:47.280]  that somehow his account had been hacked. It would be so much more, however strong his info sec is
+[39:47.280 --> 39:53.040]  around his accounts. And presumably one would think his Twitter account, like everything else,
+[39:53.040 --> 39:57.520]  is as secure, personally secure as it could possibly be. I'd be shocked if he weren't
+[39:57.520 --> 40:03.040]  personally, both personally and with the assistance of the security people at Apple.
+[40:03.040 --> 40:07.440]  But I think he personally is very knowledgeable about how his devices work.
+[40:07.440 --> 40:13.440]  As unlikely as it would be that his account got hacked, it's more likely that his account would
+[40:13.440 --> 40:19.120]  get hacked and the hacker is using it to turn his account into a troll. Or if he tweeted telling
+[40:19.120 --> 40:25.520]  people to go buy crypto or something. I'm long on whatever, Bitcoin, I think it's going to turn
+[40:25.520 --> 40:30.640]  around. I would just immediately think, holy crap, not holy crap, Tim Cook's pushing Bitcoin, but I
+[40:30.640 --> 40:36.480]  would think holy crap, Tim Cook's Twitter got hacked. Yeah, the one person in Apple's executive
+[40:36.480 --> 40:42.000]  team that I think if he started trolling people and saying random things on Twitter, I don't think
+[40:42.000 --> 40:48.000]  any of us would be surprised. I think it's Adeque. I would love to see Adeque on Twitter because I
+[40:48.000 --> 40:52.880]  can totally picture the guy talking about his favorite food, snapping a picture of his dinner,
+[40:52.880 --> 40:57.360]  the recording videos when he goes to the club, because I mean, Adeque is totally a club person.
+[40:57.360 --> 41:03.360]  Mm hmm. That's the one guy at Apple that I absolutely love to see on Twitter. Not even
+[41:03.360 --> 41:08.560]  Craig, not even Jaws. I mean, Jaws is on Twitter, but it's obviously like very much like for
+[41:08.560 --> 41:14.000]  marketing reasons. But Adeque now Adeque would be fun. Yeah, Adeque would. And he's the one senior
+[41:14.000 --> 41:22.560]  executive who has publicly let his honest emotions out as a sports fan. He's famously a diehard
+[41:22.560 --> 41:30.960]  Warriors fan in the NBA and has frequently had courtside seats so that he's easily photographed.
+[41:30.960 --> 41:34.640]  There's some photographs of him sitting right in the front row where he's on the court where you
+[41:34.640 --> 41:42.400]  could see like the photograph is of a player along the sideline. And you can clearly see him standing
+[41:42.400 --> 41:48.880]  up screaming at the refs or something like that. He wears his fandom like like any true diehard
+[41:48.880 --> 41:55.840]  sports fan on his sleeve. And Tim Cook is a big sports fan too. And college sports,
+[41:55.840 --> 42:02.960]  his beloved alma maters, Auburn and Duke, he's a huge fan of. And I've seen him look very happy
+[42:02.960 --> 42:08.560]  at sporting events. And you could see that he's sort of relaxed, but he's never truly off
+[42:10.320 --> 42:15.520]  his knowledge, like in a way that Eddie is, right? Like Eddie, it would be shot like Eddie
+[42:15.520 --> 42:20.240]  point. There's a picture at some point of Eddie pointing his finger and screaming at something
+[42:20.240 --> 42:26.560]  happening on court. Tim Cook never relaxes in that way, right? He's always very cognizant.
+[42:26.560 --> 42:31.040]  I would find and I would just find it so exhausting personally. But he, you know,
+[42:31.040 --> 42:37.200]  he obviously has that ability. He's always, you know, just seemingly ready to have selfies taken
+[42:37.200 --> 42:43.040]  with fans of Apple. And he's very practiced at it. Have you ever seen it like in times when you've
+[42:43.040 --> 42:48.640]  been at Apple events and in the press area and he makes his way through Tim Cook and his get,
+[42:48.640 --> 42:54.400]  you know, just swarmed with people even that's that's at a professional event where the people
+[42:54.400 --> 43:01.440]  are in the media and presumably have a little bit more professional detachment than they would at
+[43:01.440 --> 43:07.520]  say Tim Cook showing up at just a random Apple store just he's he's visit visiting Italy for
+[43:07.520 --> 43:12.480]  the first time in years and he's making a personal appearance at one of the I presume is are there
+[43:12.480 --> 43:18.000]  more than one Apple store in Rome you know yeah he's you know making an appearance at a Rome Apple
+[43:18.000 --> 43:24.800]  store unannounced and all these people are like holy crap I was just here to spend 120 dollars
+[43:25.520 --> 43:30.640]  on an iPad cover there's Tim Cook let me see if I can get a selfie and he's always happy to do it
+[43:30.640 --> 43:38.560]  but very in a very detached way I actually do have a story to tell you okay I mean it's been
+[43:38.560 --> 43:44.320]  about more than seven years so it's probably fine to talk about it without getting into the
+[43:44.320 --> 43:51.760]  logistics of it so basically the first Apple event I was invited to was seven years ago March 2015
+[43:51.760 --> 43:56.480]  that was the Apple watch event not the first one from September the one after where they
+[43:56.480 --> 44:01.840]  sort of reintroduce the Apple watch and so I was invited to that event and it was at the
+[44:01.840 --> 44:08.160]  Yerba Buena Center in San Francisco so you're talking to PR people there and sitting in one of
+[44:08.160 --> 44:14.800]  the first rows and I sort of again without getting into the logistics of this I kind of knew that
+[44:15.360 --> 44:21.520]  something was gonna happen later because the reason why I was invited there is that I had
+[44:21.520 --> 44:27.440]  published just a few days before this article on Mac stories called Second Life and that was
+[44:27.440 --> 44:33.440]  an article about sort of how I recovered physically speaking using the iPhone and the very
+[44:33.440 --> 44:39.760]  first versions of the health app using workouts doing exercise after doing chemo years before
+[44:39.760 --> 44:44.240]  when I had cancer did the whole treatment thing thankfully everything was okay everything is still
+[44:44.240 --> 44:50.640]  okay and I did this story about how I was using apps for my sleep schedule to lose weight to have
+[44:50.640 --> 44:56.720]  to follow this diet and to exercise so I published this article and this article caught Apple's
+[44:56.720 --> 45:01.600]  attention I guess and I was invited to this event so I followed the event everything seems pretty
+[45:01.600 --> 45:07.760]  safe and then they tell me like Federico can you set like a few minutes aside because everybody
+[45:07.760 --> 45:14.960]  was going to the hands-on area because a team wants to talk to you hmm and I was like I remember
+[45:14.960 --> 45:23.280]  my first reaction was team who just in hindsight was so silly right because you're thinking huh
+[45:23.280 --> 45:28.400]  the only Tim I can think of is Tim Cook and it's obviously not him so which Tim is it right is it
+[45:28.400 --> 45:34.640]  Tim who the PR person at the time she's no longer working at Apple she looks at me is like yeah
+[45:34.640 --> 45:39.760]  Tim and so I was and I was very nervous but basically I had and I think I also wrote about
+[45:39.760 --> 45:47.360]  this and there's a photo that they took I had this this five minutes with him with no PR person next
+[45:47.360 --> 45:52.160]  to us right because usually whenever you talk to Tim if you know usually there's always the PR
+[45:52.160 --> 45:57.120]  or multiple PR people just sort of hovering there to make sure the team doesn't say anything that
+[45:57.120 --> 46:02.560]  is not supposed to say right but this was like five minute private conversation that apparently
+[46:02.560 --> 46:09.760]  Tim wanted to have with me about this story and about like and sort of using the iPhone as a tool
+[46:09.760 --> 46:16.080]  to recover from a very serious health problem and I can tell you that and that's something that has
+[46:16.080 --> 46:23.840]  stuck with me all these years first of all it gave me this very like warm hug like in a way that I
+[46:23.840 --> 46:30.160]  wasn't you wouldn't expect from from the guy right I think what we're just saying before like we're
+[46:30.160 --> 46:39.920]  used to see Tim Cook as this sort of a not cold presence but very private detached maybe is a
+[46:39.920 --> 46:49.280]  good word for it yes and those five minutes were the opposite of that extremely kind he wanted to
+[46:49.280 --> 46:56.400]  know the story wanted to hear the story from me as well and something that that he told me back then
+[46:56.400 --> 47:01.440]  so that was seven years ago I remember and this has stuck with me to this day said something along
+[47:01.440 --> 47:12.400]  the lines of never it was like I'm asking you please never stop asking for more from us like
+[47:12.400 --> 47:21.680]  it's because people from us the demand a certain degree of quality and care and we were also talking
+[47:21.680 --> 47:28.000]  about privacy you know for I mean you're storing health data on a phone but it was like please it
+[47:28.000 --> 47:33.760]  was like thank you for using our products but also please never stop asking us to do more and
+[47:33.760 --> 47:41.440]  to expect more from us and that was very I mean it was a very lovely conversation and it was very
+[47:41.440 --> 47:48.160]  very different from when you see for what you see on Twitter what you see at events and I feel very
+[47:48.160 --> 47:54.000]  fortunate to be able to have had that experience because otherwise I mean other Apple events like
+[47:54.000 --> 47:58.880]  you see these execs there's always the PR person it's not like you can just go up to them and talk
+[47:58.880 --> 48:05.040]  to them for five minutes with no interruptions so that was cool and that is my one Tim Cook story
+[48:05.040 --> 48:14.080]  from seven years ago which is to say I think he has this detached persona and he has to right
+[48:14.080 --> 48:20.080]  because he's the CEO of the most valuable company in the world but from what I saw in five minutes
+[48:20.080 --> 48:25.280]  which I don't know how much that counts as a degree of accuracy to describe Tim Cook but from
+[48:25.280 --> 48:32.960]  what I saw personally great guy and very kind and warm and he wanted to talk and he wanted to listen
+[48:32.960 --> 48:37.280]  and yeah that was cool I never told this story publicly before I hope I don't run into any
+[48:37.280 --> 48:42.000]  trouble but no I don't think so I'm sure that's fine but that is fascinating and true I'm
+[48:43.920 --> 48:49.040]  surprised but not shocked because I do I that actually fits with my understanding of him but
+[48:49.040 --> 48:53.360]  I understand the reason people might find it mildly surprising because they might think he's
+[48:53.360 --> 49:06.000]  his viewpoint is so high level that he wouldn't know something as the opposite of high level the
+[49:06.000 --> 49:14.400]  lowest of low level of knowing that one particular writer at a prominent site that that writes about
+[49:14.400 --> 49:20.240]  Apple and its products had been going through publicly which is great and I always you know
+[49:20.240 --> 49:24.400]  the way that you wrote about your battle with cancer publicly just terrific you know of course
+[49:24.400 --> 49:28.560]  we're all very happy that you're doing well but that you shared that right it's very personal and
+[49:28.560 --> 49:37.200]  that he was fully aware of it and took great interest in it is it's I remember and it's longer
+[49:37.200 --> 49:44.240]  ago for me but when I first realized that people at that level read Daring Fireball yeah it was it
+[49:44.240 --> 49:50.400]  was it was a surprise back because I had this my humility innate humility had made me think the
+[49:50.400 --> 49:56.640]  opposite that I'm it's really just like at the time let's say 15 to 20 years ago that they
+[49:56.640 --> 50:02.480]  probably aren't familiar with the writings of anybody beneath the level of Walt Mossberg then
+[50:02.480 --> 50:06.320]  at the Wall Street Journal and David Pogue at the New York Times they hate you know like they
+[50:06.320 --> 50:12.240]  hand like the three or four reviewers who got the original iPhone in 2007 right I think it was
+[50:12.240 --> 50:20.640]  Walt Mossberg, David Pogue, that's the Journal in the Times, Ed Begg at USA Today, and Steven Levy
+[50:20.640 --> 50:26.640]  who was then and I believe at Wired but has a long-standing personal relationship with had with
+[50:26.640 --> 50:32.240]  Steve Jobs and had been writing about Apple in the tech industry for decades and I I just assumed
+[50:32.240 --> 50:37.280]  that anybody beneath that level including me at my own little Daring Fireball that the high level
+[50:37.280 --> 50:43.680]  executives weren't reading that stuff my my similar story would be it was when Phil I first
+[50:43.680 --> 50:54.000]  realized that Phil Schiller read my site and I was at it was WWDC that year 2007 and the iPhone
+[50:54.000 --> 50:59.680]  wasn't out yet but was had been announced in January months earlier and was going to go on
+[50:59.680 --> 51:08.720]  and was going to go on sale at the end of June just weeks later from WWDC and on stage at WWDC
+[51:08.720 --> 51:14.640]  the developers conference this is the famous sweet solution because what developers really wanted to
+[51:14.640 --> 51:19.600]  know is oh my god you're telling we all know Coco and Objective-C and these frameworks and you're
+[51:19.600 --> 51:26.400]  telling us that the iPhone is running a forked version of the OS and the frameworks and if you
+[51:26.400 --> 51:31.040]  know how to write Mac apps you're well on your way to knowing how to write iPhone apps are we
+[51:31.040 --> 51:37.360]  going to be allowed to make apps for this and their answer was you can write web apps and this
+[51:37.360 --> 51:46.800]  is great and everybody and I described it Daring Fireball as a shit sandwich for developers to eat
+[51:47.520 --> 51:52.400]  and that was keynote was on Monday and then on Tuesday I was there at WWDC
+[51:52.400 --> 51:58.560]  and I was at the top floor and go it was like I think it was time for lunch and I was going down
+[51:58.560 --> 52:05.040]  the elevator and our escalator at Moscone West and right behind me on the escalator on the way down
+[52:05.040 --> 52:11.520]  was Phil Schiller with Ron Okamoto who was then the head I think he's since retired but long time
+[52:11.520 --> 52:18.880]  Apple executive in charge of developer relations and my personality is such that my instinct of
+[52:18.880 --> 52:25.760]  course was to just ignore them and be shy and just stare ahead and I thought no you know I should
+[52:25.760 --> 52:29.680]  turn around and introduce myself because you know when else am I going to have a chance and so I
+[52:29.680 --> 52:35.360]  took a deep breath and turned around and and said hey I'm John Gruber and I really thought oh my
+[52:35.360 --> 52:42.320]  god I hope he at least is vaguely aware of my stuff and Phil said hey great to meet you and
+[52:42.320 --> 52:47.440]  then he said I gotta tell you I really didn't like that shit sandwich comment oh no that's the
+[52:47.440 --> 52:53.040]  first so I say hi I'm John Gruber and he goes hey nice to meet you great to see you I gotta tell you
+[52:54.000 --> 52:58.560]  I don't like that I disagree with your shit cut shit sandwich comment that's the first thing Phil
+[52:58.560 --> 53:06.960]  Schiller said to me and I thought instantly holy shit on the biggest day on the day of the WWDC
+[53:06.960 --> 53:12.640]  keynote one of the things Phil Schiller read was my first take coverage at Daring Fireball
+[53:12.640 --> 53:17.600]  and I would have taken a step backwards if I hadn't been on an escalator and would have
+[53:17.600 --> 53:21.920]  fallen down I you could have you could have knocked me over with a feather at that point
+[53:21.920 --> 53:26.240]  but then we had it split you know probably very similar length three four five minutes
+[53:26.240 --> 53:30.320]  of conversation I remember very much what one of the things we talked about because one of the
+[53:30.320 --> 53:38.720]  things they announced was enterprise features for what was still not named iOS and I thought
+[53:38.720 --> 53:43.920]  that was surprising the iPhone wasn't didn't debut as something that was going to be sold to
+[53:43.920 --> 53:50.400]  corporations and a corporate smartphone it was a personal thing that appealed to people and it
+[53:50.400 --> 53:55.440]  was a very interesting conversation that I found really helped me understand where they were going
+[53:55.440 --> 54:00.720]  and the way that Phil Schiller explained it as not being in contradiction that Apple could expand
+[54:00.720 --> 54:06.400]  in ways that had these features for the enterprise that really mattered but wouldn't
+[54:06.400 --> 54:13.840]  cripple or hold back the iPhone as a consumer device for individuals and people to buy it was
+[54:13.840 --> 54:18.560]  very informative and I thought wow this is great and you know here we are all these years later
+[54:18.560 --> 54:23.440]  and I occasionally get to interview such people on stage but I but I did very similar to me to be
+[54:23.440 --> 54:29.360]  surprised at wow they read this and they care and in the years since I have found out that those
+[54:29.360 --> 54:35.040]  they are to a tee people across the board all the executives that I've worked with
+[54:35.040 --> 54:42.560]  all the executives who people out there know from being on stage in these keynotes they know what
+[54:42.560 --> 54:48.240]  we in the media are writing and saying they just yes they you might think they don't because they
+[54:48.240 --> 54:53.520]  don't comment and they don't participate publicly in the debate but they're very well aware of all
+[54:53.520 --> 54:59.680]  the criticism and praise they care a lot they just keep their mouths shut and their tweets
+[54:59.680 --> 55:07.360]  they don't feel about it yeah it's a and it's if you think about it too much I think it becomes
+[55:07.360 --> 55:12.800]  this very strange position to be in which is why I try not to think about it too much oh what what
+[55:12.800 --> 55:18.240]  if because like for example when I first interviewed Craig on on my podcast a couple of
+[55:18.240 --> 55:23.360]  years ago and he on the show one of the first thing one of the first things he said was like
+[55:23.360 --> 55:29.200]  yeah as a you know whenever you do your annual iOS review I sit down and I read the thing and
+[55:29.200 --> 55:33.600]  I make a and I make a note of all the things you don't like and in that moment I'm like oh shit
+[55:35.840 --> 55:39.920]  what happens now what happens now and I try not to think about that too much because
+[55:40.720 --> 55:49.600]  I think it becomes this very odd like mental problem of like oh well what if the Apple
+[55:49.600 --> 55:56.000]  executive doesn't like that doesn't matter ultimately like I think it's important to
+[55:56.000 --> 56:01.520]  to keep your North Star as I'm doing this and I don't know about you but personally like I'm
+[56:01.520 --> 56:05.440]  doing this for myself because I want to write about this stuff and I'm doing it for readers
+[56:05.440 --> 56:10.960]  like if my readers went away I wouldn't be able to make a living out of Apple executives reading
+[56:10.960 --> 56:15.360]  my blog and so that's like I'm doing it for the people who want to read my stuff and if people
+[56:15.360 --> 56:19.440]  want to read my stuff people want to know my opinion so and if an Apple executive happens
+[56:19.440 --> 56:24.720]  to be reading that great you know it means that maybe I have a shot at catching their
+[56:24.720 --> 56:30.880]  attention for things I like and things I don't like but in for the sake of being honest
+[56:32.720 --> 56:43.440]  I have that issue of like when I really dislike something or find a ton of problems with something
+[56:44.960 --> 56:51.440]  in the back of my mind I gotta be honest I know that it's kind of awkward that you know I write
+[56:51.440 --> 56:56.000]  down this list of complaints and there's the Apple executive on the other end reading those
+[56:56.000 --> 57:01.280]  complaints and thinking oh look at this jerk and I even granted an interview with him he's gonna
+[57:01.280 --> 57:05.520]  hear from me next time we do an interview or we're never gonna do interviews again which is
+[57:05.520 --> 57:12.000]  you can't get you can't get caught up thinking about it though exactly you cannot but the thought
+[57:12.000 --> 57:16.400]  appears in your mind thought is there but you cannot think about it too much no you have to
+[57:16.400 --> 57:21.680]  detach from it and always keep the readers the readers have to come first and honesty above all
+[57:21.680 --> 57:29.840]  else and as much as you might think if I say this about stage manager on iPadOS at some point in the
+[57:29.840 --> 57:36.640]  future I'm going to have an interview with Craig Federighi again and there's going to be an off
+[57:36.640 --> 57:42.800]  the record part of it before we're on the record and he might call me out on this comment got to
+[57:42.800 --> 57:46.800]  tell you I didn't like that shit sandwich comment you're gonna have that moment and you're gonna
+[57:46.800 --> 57:52.560]  have to defend it I try to think about it only so far as it helping to keep me honest and if I'm
+[57:52.560 --> 58:02.320]  going to slam them for something or be a vociferous critic about x that I better be ready to defend it
+[58:02.320 --> 58:10.480]  and that keeps me honest of I'm not just going to criticize this very and very strong no uncertain
+[58:10.480 --> 58:17.760]  terms just for the sake of doing it and getting wanting the attention you know and let's face it
+[58:17.760 --> 58:27.440]  one of the aspects of our you're in my racket is that many people out there consider us to be in
+[58:27.440 --> 58:33.200]  the bag for Apple oh yeah for sure right it is a fundamental part of our stuff and my my way of
+[58:33.200 --> 58:39.200]  looking at it is I just try to be honest I'm just past 20 years of writing Daring Fireball but if
+[58:39.200 --> 58:47.440]  you look at Apple's the 20 years that I've been doing this publicly Apple is literally no no
+[58:47.440 --> 58:53.680]  exaggeration the most successful company in the world over those two decades and so if my coverage
+[58:53.680 --> 58:59.760]  overall of their products over that period wasn't largely and overwhelmingly positive it's clear
+[58:59.760 --> 59:05.120]  that I would have gotten it wrong right and we certainly run into it and I won't want to go on
+[59:05.120 --> 59:10.960]  a huge digression about it but we run into it with political coverage where there's a whole class of
+[59:10.960 --> 59:18.560]  political pundits and reporters who the quote unquote both sides ism right that both sides
+[59:18.560 --> 59:24.160]  blah blah blah and that if they truly do feel and say publicly when they talk about their work
+[59:24.160 --> 59:29.760]  that if they feel like they should be getting equal criticism from the left and right and if
+[59:29.760 --> 59:38.160]  they are that means they're doing their job is fundamentally I think harmful and wrong if it's
+[59:38.160 --> 59:45.440]  if you consider the possibility that one side of our political spectrum has gone off the rails
+[59:45.440 --> 59:52.880]  which you know no hint from knowing my politics I see the right worldwide from Europe to the
+[59:52.880 --> 01:00:00.720]  United States but especially here in the United States as being driven in a gut wrenchingly
+[01:00:00.720 --> 01:00:08.000]  right wing reactionary way if your goal is to have equal criticism from the left and right you're
+[01:00:08.000 --> 01:00:12.560]  doing a disservice because it's not a reflection of the way things actually are and if your goal
+[01:00:12.560 --> 01:00:18.400]  writing about if you're if you're beat is primarily about Apple products and platforms
+[01:00:18.400 --> 01:00:25.440]  and you judge yourself as I should be about 50 50 good stuff and bad stuff and that my list of
+[01:00:25.440 --> 01:00:34.400]  pros should be equally as long as my list of cons that's not how you achieve balance the balance
+[01:00:34.400 --> 01:00:39.840]  isn't an equal number of pros and cons the balance is an accurate reflection of how good these
+[01:00:39.840 --> 01:00:43.920]  products are and does it when you look back at your reviews and I'm sure you do the same thing
+[01:00:43.920 --> 01:00:50.400]  as you're writing new reviews and you're referencing you're writing about stage manager
+[01:00:50.400 --> 01:00:54.560]  this year obviously a lot but you're thinking back to split view and you're like when did they
+[01:00:54.560 --> 01:01:00.080]  introduce split view and you go back I don't know seven or eight years however long ago it was
+[01:01:00.080 --> 01:01:05.840]  and you're like rereading iPad OS or probably before they called it iPad OS when it was still
+[01:01:05.840 --> 01:01:11.600]  labeled which I we can get to later whether it still should be called iOS but when they first
+[01:01:11.600 --> 01:01:16.400]  when they first added split view and you look back and read your review I do this all the time and
+[01:01:16.400 --> 01:01:22.160]  usually you know what I think hey that holds up I did a good job pat on my back I usually feel
+[01:01:22.160 --> 01:01:27.440]  better about my six seven eight year old reviews when I look back at them than when I first
+[01:01:27.440 --> 01:01:31.440]  published them because when I first published them all I can think about is the ways that it
+[01:01:31.440 --> 01:01:36.800]  could have been better and yeah blah blah blah the new stuff like the way I have this problem like
+[01:01:36.800 --> 01:01:41.760]  the new stuff always sucks and the old one is like oh the old one is pretty good but this new
+[01:01:41.760 --> 01:01:46.080]  one that I'm publishing now this sucks it's terrible I should keep tweaking it and at some
+[01:01:46.080 --> 01:01:49.920]  point you gotta stop and you gotta just publish it and call it a day and whatever uh all right let
+[01:01:49.920 --> 01:01:54.640]  me take a break here and thank our next sponsor it's our good friends at I mean I mean this very
+[01:01:54.640 --> 01:02:00.640]  sincerely very good friends at memberful memberful is a service that if you are a creative person
+[01:02:00.640 --> 01:02:07.280]  allows you to monetize your passion and your audience with memberships memberful allows you
+[01:02:07.280 --> 01:02:12.800]  to build a sustainable recurring revenue or a part of your revenue if it's a multi-legged thing where
+[01:02:12.800 --> 01:02:19.440]  you might have advertising and you want to build a multi-legged stool three legs so that you can
+[01:02:19.440 --> 01:02:25.600]  make money through selling this selling merchandise having ads and directly selling membership to sort
+[01:02:25.600 --> 01:02:31.600]  of diversify and build this strength of turning your passion into a business well memberful is
+[01:02:31.600 --> 01:02:36.080]  the easiest way to do it if part of that is going to be memberships they have everything you need
+[01:02:36.080 --> 01:02:42.480]  to run a membership program custom branding gift certificates apple pay free trials private podcasts
+[01:02:42.480 --> 01:02:46.400]  so you can do things like create a podcast a special version of the podcast or a different
+[01:02:46.400 --> 01:02:51.760]  podcast that's only available to your paying audience and tons more and they seamlessly
+[01:02:51.760 --> 01:02:58.640]  integrate with all the tools you already use and you maintain full control and ownership of your
+[01:02:58.640 --> 01:03:05.360]  audience your brand your membership your whole list and if you ever decide to build your own
+[01:03:05.360 --> 01:03:10.400]  system or switch to another system they're so confident that you won't that you'll stay with
+[01:03:10.400 --> 01:03:16.720]  memberful and like it that they there's no lock-in at all and they will let you move and help you
+[01:03:16.720 --> 01:03:21.040]  move if you really need it because they're so confident that that you're going to stay with
+[01:03:21.040 --> 01:03:29.120]  them and again you can get started with memberful for free with no credit card required if you
+[01:03:29.120 --> 01:03:36.240]  are a paying member of any of the various sites out there that people who listen to this podcast
+[01:03:36.240 --> 01:03:42.080]  are there is an excellent chance that you're already subscribing to membership programs
+[01:03:42.080 --> 01:03:47.360]  that go through memberful and you may not even know it or have paid attention because they so
+[01:03:47.360 --> 01:03:52.560]  allow individual sites to keep their branding on the front of it again you get started for
+[01:03:52.560 --> 01:03:57.280]  free no credit card required if you're a creative person where do you go to find out more go to
+[01:03:57.280 --> 01:04:04.640]  memberful.com slash talk show memberful.com slash talk show have you heard of memberful
+[01:04:04.640 --> 01:04:10.880]  federico oh we use it we use it at mac stories we love it yeah i agree with all of that i don't
+[01:04:10.880 --> 01:04:15.600]  mean to put you on the spot and i'm not it's my sponsorship not yours but i was thinking today
+[01:04:15.600 --> 01:04:21.200]  is like hey this is a nice coincidence to have somebody who's monetizing their own site through
+[01:04:21.200 --> 01:04:27.600]  memberful on the show when they're scheduled for it um yeah yeah so before we go to ipad stuff
+[01:04:27.600 --> 01:04:39.040]  in the news this week speaking of monetizing uh one of the announced i guess i forget when apple
+[01:04:39.040 --> 01:04:46.400]  first announced it that they would be expanding the ad spots in the app store but that went live
+[01:04:47.040 --> 01:04:56.880]  this week coincident with ios and ipad os 16.1 and mac os ventura mac os 13 ventura shipping
+[01:04:56.880 --> 01:05:02.800]  they said they were going to have more ads and they definitely have more ads and i would say
+[01:05:02.800 --> 01:05:10.720]  it went over like a lead balloon it was a very rocky start what did you what are your takeaways
+[01:05:10.720 --> 01:05:17.920]  from the way that these ad spots launched well well so obviously they opened up a lot of new
+[01:05:17.920 --> 01:05:22.560]  slots in the app store right so one of the one of the first things you you'll notice is that in the
+[01:05:22.560 --> 01:05:29.440]  today tab that used to be like where all the curated stories were placed and it started out
+[01:05:29.440 --> 01:05:35.040]  i don't remember how many years ago like five or six years ago the when the today tab launched
+[01:05:35.600 --> 01:05:41.200]  and it was sold it was marketed as this place where apple editors and creators could write
+[01:05:41.200 --> 01:05:48.800]  these stories in depth sort of looks at popular apps tips and tricks roundups and it was the
+[01:05:48.800 --> 01:05:54.400]  focus was very much on the human creation aspect of it and over time over the past couple of years
+[01:05:54.400 --> 01:06:00.640]  if you've been keeping an eye on the today section i think it was pretty inevitable that they it's
+[01:06:00.640 --> 01:06:06.240]  not like apple moved away from the human aspect of it like the highly curated sort of magazine
+[01:06:06.240 --> 01:06:12.640]  like almost nature of that page when it launched but they started doing like this
+[01:06:13.440 --> 01:06:22.400]  fewer and fewer stories more just very simple list based collections like here's a roundup of
+[01:06:22.400 --> 01:06:28.240]  popular social network apps and like and there was a list with tiktok whatsapp youtube like all
+[01:06:28.240 --> 01:06:34.560]  the obvious stuff free to play games obviously where have been more heavily featured in the
+[01:06:34.560 --> 01:06:40.800]  today page and so in hindsight given what's been happening there in the today section for the past
+[01:06:40.800 --> 01:06:48.240]  couple of years the fact that you will now see promoted slots in there doesn't come as a huge
+[01:06:48.240 --> 01:06:54.080]  surprise like i get it it's the front page of the app store for a lot of people you go there you see
+[01:06:54.080 --> 01:07:00.560]  a story you see a list of apps and you see an ad and in theory it should be personalized for
+[01:07:00.560 --> 01:07:05.600]  your purchasing habits the kind of apps and games that you download from the app store maybe it
+[01:07:05.600 --> 01:07:12.560]  isn't depending on the degree of personalization that you have but i i don't necessarily mind
+[01:07:12.560 --> 01:07:19.520]  i guess i understand why you would put ads in the today page i think what didn't go over so well
+[01:07:19.520 --> 01:07:27.200]  is obviously the inclusion of certain categories of apps in the product pages so in the product
+[01:07:27.200 --> 01:07:32.240]  page itself for an app or a game when you scroll when you open an app on the app store you see the
+[01:07:32.240 --> 01:07:37.760]  icon you see the description you see the screenshots the ratings and then at the very end you have the
+[01:07:37.760 --> 01:07:44.080]  two sections one is more apps from the same developer and the other is you might also like
+[01:07:44.720 --> 01:07:52.560]  and the ads go into the top slot of that you might also like section so related apps that you might
+[01:07:52.560 --> 01:08:03.200]  enjoy and what really seemed off about it was the inclusion of gambling apps all this sort of
+[01:08:03.200 --> 01:08:09.760]  casino apps that you can spend real money on to gamble on the app store as well as other things
+[01:08:09.760 --> 01:08:18.240]  like adult live chats like all these apps that well you could call them like they are a little
+[01:08:18.240 --> 01:08:25.840]  shady but for sure they are distasteful i think it's maybe a good word to describe them like they
+[01:08:25.840 --> 01:08:32.560]  they are in direct opposition maybe with the brand that apple likes to push forward for their
+[01:08:32.560 --> 01:08:39.040]  company and for the app store in general that it's this safe space where you know if you're a parent
+[01:08:39.040 --> 01:08:44.800]  and you have kids you can go in and find games that are suitable for based on age restrictions
+[01:08:44.800 --> 01:08:51.760]  or if you are an ipad user you can go in into the apps section you can find productivity apps
+[01:08:51.760 --> 01:08:59.040]  and so to open i don't know to open a pdf reader application scroll just a little and see an ad
+[01:08:59.040 --> 01:09:08.720]  for adult live chat and like friend finder for adults like that that that's very distasteful and
+[01:09:08.720 --> 01:09:16.400]  an apple like and so rightfully so a lot of developers started tweeting that like this is
+[01:09:16.400 --> 01:09:23.760]  not great that that i'm seeing gambling and casino apps and adult chats right there on the product
+[01:09:23.760 --> 01:09:30.480]  page of my app and very quickly following i don't know how many tweets and stories very quickly
+[01:09:31.120 --> 01:09:38.240]  apple sent the has to be one of the shortest statements that they have ever sent to mac
+[01:09:38.240 --> 01:09:43.680]  rumors i think say it's just a one-liner saying that for the moment they are pausing
+[01:09:44.720 --> 01:09:51.360]  certain categories certain categories of ads on the app store and that's it so it is interesting
+[01:09:51.360 --> 01:09:57.200]  i thought that you you did an absolutely amazing job summarizing the situation for anybody out
+[01:09:57.200 --> 01:10:01.760]  there who wasn't paying attention but yes and i think you sort of put your finger on exactly
+[01:10:02.560 --> 01:10:08.800]  fundamentally what is new and different about today's app store advertising slots compared to
+[01:10:09.600 --> 01:10:19.360]  a week ago before this went live and it's at the highest level the today page right which is
+[01:10:19.360 --> 01:10:27.360]  is the front page of the app store and you're very much correct that the today page is best
+[01:10:27.360 --> 01:10:35.920]  considered as a like a magazine or a form of media and unsurprising or not unsurprising actually it
+[01:10:35.920 --> 01:10:40.080]  may be historically as surprising and isn't something i would have predicted 15 or 20 years
+[01:10:40.080 --> 01:10:47.440]  ago but in the trance the internet era transfer transformation of the apple centric media world
+[01:10:47.440 --> 01:10:52.560]  and macworld again i'm not i still have friends and i know people who still write there but
+[01:10:53.120 --> 01:10:59.120]  macworld isn't what macworld used to be right and lots of people who were previously full-time
+[01:10:59.120 --> 01:11:06.240]  employees at macworld are either a on their own now like jason snell and dan warren who write at
+[01:11:06.240 --> 01:11:11.760]  six colors but still have columns that run at macworld but aren't you know jason snow literally
+[01:11:11.760 --> 01:11:18.400]  was the editor-in-chief of macworld magazine and now is primarily running his own site at six
+[01:11:18.400 --> 01:11:27.680]  colors but more people who were formerly names that you've known as bylines at macworld are now
+[01:11:27.680 --> 01:11:32.560]  full-time employees at apple who work on app store editorial and you just don't see their names
+[01:11:32.560 --> 01:11:39.200]  anymore because at apple you don't sign your name to work serenity caldwell is the closest to a
+[01:11:39.200 --> 01:11:48.240]  public presence in that scheme because she does the video synopses like like the what happened
+[01:11:48.240 --> 01:11:54.000]  today at wwdc in 90 seconds which is amazing boy i do miss having her as a regular guest on this
+[01:11:54.000 --> 01:11:59.440]  show because she was always one of my favorites but so she's so good at it but because she's
+[01:11:59.440 --> 01:12:04.240]  narrating it you're like hey i know that voice but for the most part the people who work there
+[01:12:04.240 --> 01:12:11.280]  don't see that but they are they and they're doing that's why the editorial at the app store
+[01:12:11.280 --> 01:12:17.440]  is actually very good it's not it's sort of the opposite of you're in my style where you and i
+[01:12:18.880 --> 01:12:25.520]  put our personality into our writing and you're like oh my god that is such a groupery joke or
+[01:12:25.520 --> 01:12:34.000]  such a federico observation to spend a thousand words in the middle of your ipad os review on this
+[01:12:34.000 --> 01:12:41.280]  tiny little detail and it's all written through that sort of voice of apple detachment but it is
+[01:12:41.280 --> 01:12:47.200]  excellent quality and you can often find good stuff but it is the highest level of the app
+[01:12:47.200 --> 01:12:52.640]  store right the today view is like the cover right the front page of the magazine that is
+[01:12:52.640 --> 01:12:57.360]  the app store all and then the other new slot and now there's ads there and there weren't previously
+[01:12:57.360 --> 01:13:04.400]  and now there are and i think that is a significant change and then at the very most detailed level
+[01:13:04.400 --> 01:13:12.480]  which is the product page for an individual app now there are ads from possibly competitors
+[01:13:12.480 --> 01:13:18.640]  which i think before it went live was what i would have considered and who knows how this is where
+[01:13:18.640 --> 01:13:24.000]  this is going to settle it may be that long term will be where it settles and becomes the most
+[01:13:24.000 --> 01:13:31.680]  controversial thing but if you're selling a pdf markup app that lets you open pdfs and mark them
+[01:13:31.680 --> 01:13:37.440]  up with an apple pencil and save them and sync them and do clever things with them and more apps
+[01:13:37.440 --> 01:13:44.080]  like this what if that top spot is for a competing pdf markup app and you have no say in it and that
+[01:13:44.080 --> 01:13:50.560]  it's your product page for your app or your company's app that you're selling through the
+[01:13:50.560 --> 01:13:58.560]  app store you don't get the money from the ad on the product page yeah that doesn't go to you the
+[01:13:58.560 --> 01:14:05.680]  developer when a competing app or a casino app marco armand a developer of overcast and host of
+[01:14:05.680 --> 01:14:13.520]  co-host of atp was vehemently offended by the casino style ads that were on the overcast page
+[01:14:13.520 --> 01:14:18.000]  and it's not just because he wasn't getting the money even if they offered him the money he
+[01:14:18.000 --> 01:14:24.240]  clearly would have preferred just not to sully his page with ads he finds distasteful to use your
+[01:14:24.240 --> 01:14:28.560]  word but it's worse than that because the money goes to apple you know and you have no choice
+[01:14:28.560 --> 01:14:35.040]  right so i think at the same time you're still giving them your 30 oh right right there they are
+[01:14:35.040 --> 01:14:40.400]  literally they are having their cake and eating it too yeah right they're getting it from both sides
+[01:14:40.400 --> 01:14:48.560]  where their exclusive control over all third-party software for the platform of ios and ipad os
+[01:14:49.120 --> 01:14:53.600]  all goes through the app store as we all know and it's obviously controversial and people have very
+[01:14:53.600 --> 01:15:00.560]  strong feelings one way or the other whether that's the way apple should choose to run it and
+[01:15:00.560 --> 01:15:09.120]  not have some sort of either options on the table it would obviously be allowing choosing partner
+[01:15:09.120 --> 01:15:15.120]  companies to run alternative app stores i'm sure microsoft microsoft has said so publicly that they
+[01:15:15.120 --> 01:15:22.160]  would love to do their own app store for games for ios and android if they could probably especially
+[01:15:22.160 --> 01:15:27.120]  android and apple could choose to have a couple of partner companies around the world that they
+[01:15:27.120 --> 01:15:33.120]  would authorize to run alternative app stores they could if they so choose on their own have an
+[01:15:33.120 --> 01:15:40.000]  android like advanced option somewhere in settings to allow quote-unquote side loading and so off
+[01:15:40.000 --> 01:15:46.480]  think everybody even people who are proponents of side loading all but the most extreme would agree
+[01:15:46.480 --> 01:15:53.280]  that it should be like android where it's off by default and turning it on shouldn't be hidden
+[01:15:53.280 --> 01:16:00.880]  per se but it's so significant a decision and opens a casual user up to so many risks that it
+[01:16:00.880 --> 01:16:06.400]  ought to at least be clear how significant a decision it would be to turn it on but that they
+[01:16:06.400 --> 01:16:11.040]  could and they haven't right and whether apple should choose to do these things like have
+[01:16:11.040 --> 01:16:16.400]  alternate app stores or game stores or whether they should voluntarily choose to allow side
+[01:16:16.400 --> 01:16:23.680]  loading as an option and or whether governments around the world the us and the eu should at the
+[01:16:24.240 --> 01:16:30.240]  point of the law and regulation force them to do so obviously people have strong opinions this is
+[01:16:30.240 --> 01:16:35.840]  an ongoing debate and consideration that we're nowhere near the end of and will be with us for
+[01:16:35.840 --> 01:16:40.400]  time to come but the bottom line is the way things stand today everything goes through apple's app
+[01:16:40.400 --> 01:16:47.920]  store and apple takes 30 or 15 percent of every dollar that gets spent through these ads and it
+[01:16:47.920 --> 01:16:55.120]  is a significant amount of money it is not a huge portion apple as a company doesn't depend upon it
+[01:16:55.120 --> 01:17:01.120]  if somebody could snap their fingers like uh thoros theros whatever the guy's name in uh
+[01:17:01.120 --> 01:17:09.040]  the avengers movie the bad guy who you know thanos right if instead of killing half of the
+[01:17:09.040 --> 01:17:15.520]  galaxy's population instead just snapped his fingers and made all app store revenue go away
+[01:17:15.520 --> 01:17:20.320]  for apple and google apple would not be in financial straits if every dollar they've
+[01:17:20.320 --> 01:17:27.200]  ever made from their 30 went away apple would still be remarkably profitable and have remarkably
+[01:17:27.200 --> 01:17:32.400]  high revenue they don't need it but they definitely cash those checks and it has been a
+[01:17:32.400 --> 01:17:38.800]  major part of the last five to six years of their narrative to wall street as to where the company's
+[01:17:38.800 --> 01:17:44.640]  growth is coming from with quote-unquote services yeah in that world app store revenue is a huge
+[01:17:44.640 --> 01:17:50.800]  part of it they take that and it does to me fundamentally it's like okay if that's the way
+[01:17:50.800 --> 01:17:56.560]  you want to go that's controversial enough right as i think i just covered aptly how controversial
+[01:17:56.560 --> 01:18:03.360]  it is that's the way it is but now they want to take ads for it too i actually find it very i
+[01:18:03.360 --> 01:18:11.040]  find it distasteful whatever the ads are however even if they were the most uncontroversial and
+[01:18:11.040 --> 01:18:18.320]  tasteful companies that you could imagine i don't know airlines for example right i mean i'm you may
+[01:18:18.320 --> 01:18:25.600]  not like airlines but if the product page for overcast marco's podcast player or pdf readers
+[01:18:25.600 --> 01:18:34.160]  or a third-party game and at the bottom it was just dominated by ads from delta and us airway
+[01:18:34.160 --> 01:18:38.320]  you know american airlines and united and for whatever you know if that's the way it had worked
+[01:18:38.320 --> 01:18:43.520]  out that these airlines want everybody to download their apps i would say just the least controversial
+[01:18:43.520 --> 01:18:47.280]  sort of company it could be but that's not what happened it's even worse than that
+[01:18:47.280 --> 01:18:54.000]  they flipped the switch and it really was largely casinos and i don't even understand this where
+[01:18:54.000 --> 01:19:00.720]  you give like these some of them are real casinos it's i for better or for worse and i do like
+[01:19:00.720 --> 01:19:07.200]  betting on sports with real money and i actually do have the apps now for some of them so there
+[01:19:07.200 --> 01:19:12.320]  are you know things like real money casinos where you give companies real money and it doesn't go
+[01:19:12.320 --> 01:19:16.320]  through in-app purchases right that's this is something where you have a direct financial
+[01:19:16.320 --> 01:19:21.200]  relationship with these actual casinos and you use like a bank transfer and it goes from your
+[01:19:21.200 --> 01:19:26.640]  bank account to the casino it's real money that you're putting in your account does not go through
+[01:19:26.640 --> 01:19:32.720]  the app store apple doesn't get a cut of it but there are also these apps i understand the urge
+[01:19:32.720 --> 01:19:37.280]  to gamble with real money and i enjoy it as something i do with sports occasionally and a
+[01:19:37.280 --> 01:19:42.240]  couple times a year i'll go to las vegas and play blackjack i don't gamble frequently but when i do
+[01:19:42.240 --> 01:19:47.520]  i enjoy it and i so i get the desire and something people human beings have done since the dawn of
+[01:19:47.520 --> 01:19:53.040]  time i don't the thing i don't understand are these slot machine apps where you do use in-app
+[01:19:53.040 --> 01:19:58.880]  purchases yeah and the money does go through apple and you because it's in-app purchases you don't
+[01:19:58.880 --> 01:20:04.160]  actually win money you get like gems and yeah you got like tokens or something i think i don't
+[01:20:04.160 --> 01:20:14.320]  understand the desire to do that yeah i mean either i it i can't help but think that before
+[01:20:14.320 --> 01:20:19.680]  apple flipped the switch and made it live they're as surprised as we are that these are the apps
+[01:20:19.680 --> 01:20:24.800]  that won the bid because my understanding of how this works is you bid on these slots it's
+[01:20:24.800 --> 01:20:31.040]  a bidding market for ads which is how so much online advertising from companies like google
+[01:20:31.040 --> 01:20:37.440]  and facebook have worked in the modern internet era that you bid on like at google you bid on
+[01:20:37.440 --> 01:20:45.040]  search terms and if you would like to have your company's product whatever it is maybe it's photo
+[01:20:45.040 --> 01:20:52.400]  editing software maybe you sell lenses for cameras or you're a company who rents out lenses for
+[01:20:52.400 --> 01:20:58.160]  interchangeable lens things and you would just like to have your ad in the mix of ads that show
+[01:20:58.160 --> 01:21:03.840]  up when somebody puts the word camera into a search on google you bid on it you say i'd be
+[01:21:03.840 --> 01:21:09.840]  willing to spend three dollars each time you present my ad and at some point somebody does
+[01:21:09.840 --> 01:21:15.920]  types in the thing and your ad your offer of three dollars wins the bidding war and there's
+[01:21:15.920 --> 01:21:20.960]  your ad presented atop the search results of whatever it is the person typed something like
+[01:21:20.960 --> 01:21:27.280]  that is how apple's system works and i cannot help but think that apple was expecting tasteful ads
+[01:21:28.160 --> 01:21:37.440]  and was as surprised as we are outside that they were dominated i mean and it's really hard to
+[01:21:37.440 --> 01:21:43.280]  overstate how much so dominated by distasteful ads yeah absolutely like i and i think you're right i
+[01:21:43.280 --> 01:21:51.040]  think maybe the they underestimated just how much of these companies are so much big spenders i
+[01:21:51.040 --> 01:21:57.120]  guess when it comes to ads on the app store but then again if you're apple you must have seen
+[01:21:57.680 --> 01:22:03.280]  the numbers beforehand you must have seen the bidding coming from certain types of companies
+[01:22:03.280 --> 01:22:10.160]  right i i have no idea how the back end on apple's side works for this it might as well be that they
+[01:22:10.160 --> 01:22:15.600]  just enabled the slots and then suddenly all these companies they were waiting to bid on
+[01:22:15.600 --> 01:22:20.960]  those placements and all those bids came in and that's why in a matter of hours we started seeing
+[01:22:20.960 --> 01:22:26.800]  those ads and maybe apple was unprepared we were unprepared developers were unprepared and all of
+[01:22:26.800 --> 01:22:33.520]  these evolved pretty quickly in 24 hours but i guess the bigger question is should well two two
+[01:22:33.520 --> 01:22:40.320]  questions should as apple calls them certain categories be allowed as ads because it becomes
+[01:22:40.320 --> 01:22:45.680]  especially problematic if and there's countless examples of this on twitter this week of you open
+[01:22:45.680 --> 01:22:52.480]  the product page for a gambling addiction recovery app and you see an ad for a casino like yes
+[01:22:53.520 --> 01:22:59.680]  that in itself it's just that's just plain dumb when i first saw that i thought either this is
+[01:22:59.680 --> 01:23:07.440]  a prank or this is a one-off mistake this can't be widespread because it is so it's not like you
+[01:23:07.440 --> 01:23:13.680]  have to make a complicated argument for how it's problematic it is on its face problematic if
+[01:23:13.680 --> 01:23:19.920]  you're searching for gambling addiction apps which there are a bunch of i now know because i did the
+[01:23:19.920 --> 01:23:24.480]  search and looked at some of the results and they do things like i don't know how effective they
+[01:23:24.480 --> 01:23:31.200]  are but they allow people to who have a gambling problem to keep track of how many days if they're
+[01:23:31.200 --> 01:23:36.800]  counting i don't know what the gambling equivalent of sobriety is but count up of how many days in
+[01:23:36.800 --> 01:23:41.840]  a row you've gone without gambling or to manage your gambling in a reasonable way and keep track
+[01:23:41.840 --> 01:23:48.800]  of it so that you don't get in over your head if that was a problem for you and to have when you
+[01:23:48.800 --> 01:23:54.160]  type gambling addiction return and look at the list of options and say that app looks interesting
+[01:23:54.160 --> 01:23:59.840]  and then you drill down to the app and at the bottom is an ad pitching you on a give us real
+[01:23:59.840 --> 01:24:06.880]  money slot machine app it's problematic yeah yeah there was this other example that that someone
+[01:24:06.880 --> 01:24:12.480]  shared on twitter of them i think it was like a marriage counseling app like a basically like
+[01:24:12.480 --> 01:24:19.360]  this guide to improve your relationship with your partner if you're having marital issues and and
+[01:24:19.360 --> 01:24:26.480]  the ad was for adult sex finder at the bottom it's like perfect you're trying to save your marriage
+[01:24:26.480 --> 01:24:33.200]  and the app store is showing you an ad for how to find adult friends in your area like that that
+[01:24:33.200 --> 01:24:38.400]  is just perfection absolute perfection right there you can't make it up really i mean you really
+[01:24:38.400 --> 01:24:46.320]  can't if you were writing a novel or a screenplay about a thinly veiled fictional version of apple
+[01:24:46.320 --> 01:24:51.280]  if you were writing about the orange computer company and it's a thinly veiled version of
+[01:24:51.280 --> 01:24:59.120]  apple and you wanted to the plot twist is that they're corrupted by their capitalist instincts
+[01:24:59.120 --> 01:25:05.760]  to maximize profits and they start doing ridiculous things and your example was that
+[01:25:05.760 --> 01:25:11.840]  somebody looking for help with their marriage got promoted a hookup app for cheating on your
+[01:25:11.840 --> 01:25:16.560]  significant other you would say oh that's ridiculous no one would believe that but here we
+[01:25:16.560 --> 01:25:24.000]  here we are and they did it it's one of those things where i kudos to them for quickly for
+[01:25:24.000 --> 01:25:30.000]  listening observing and within i think about 36 or 48 hours of it going live pulling the plug on
+[01:25:30.000 --> 01:25:36.400]  certain of these categories and issuing that extraordinarily terse but admittedly clear
+[01:25:36.400 --> 01:25:40.640]  statement we are we're aware of this and we're temporary i'm not quoting them but temporarily
+[01:25:40.640 --> 01:25:45.760]  pausing certain categories of ads kudos to them for not just putting their head in their sand
+[01:25:45.760 --> 01:25:51.280]  in the in a hole and their fingers in their ears and going la la la la la i can't hear you we're
+[01:25:51.280 --> 01:25:55.360]  just going to take the money kudos to them for realizing it pulling the plug but how did they
+[01:25:55.360 --> 01:26:00.160]  not see this as a problem and how do they not see however much money they're making from these ads
+[01:26:00.160 --> 01:26:09.200]  on product pages how do they not see that it's costing them more in brand value and trust and
+[01:26:09.200 --> 01:26:18.080]  goodwill yes both from developers themselves and customers who are expecting a premium experience
+[01:26:18.080 --> 01:26:25.360]  yeah as they go through the app store which again is not voluntary on this platform through apple's
+[01:26:25.360 --> 01:26:35.360]  own design i don't care personally for the ads in apple news and it's the size i find them to
+[01:26:35.360 --> 01:26:41.920]  be too large and too frequent and i know that it's the partner those ads do go to the publication
+[01:26:41.920 --> 01:26:46.240]  right or some of the money in the ads in apple news goes to the publication if you're reading
+[01:26:46.240 --> 01:26:52.400]  an article from vanity fair in apple news and as you scroll you see ads some of that money goes to
+[01:26:52.400 --> 01:26:58.160]  vanity fair and some of it goes to apple but i find the format of those ads and the frequency
+[01:26:58.160 --> 01:27:03.520]  and the way that they show up in the middle of an article it's so distracting especially on the
+[01:27:03.520 --> 01:27:09.040]  phone where you're by nature of the phone in a single column i find it so disruptive to the
+[01:27:09.040 --> 01:27:14.240]  reading process and it's again we could go on a whole divergence of the way that the indie
+[01:27:14.240 --> 01:27:20.880]  publications like max stories and daring fireball and six colors do advertising and keep our
+[01:27:20.880 --> 01:27:25.280]  editorial first and foremost so that when you're in the flow and you're reading
+[01:27:26.400 --> 01:27:33.120]  federico vatici's massive review of a new version of ios or ipad os or stage manager this time that
+[01:27:33.120 --> 01:27:37.840]  you don't get disrupted as you're reading i find apple news to be disruptive but apple news is
+[01:27:37.840 --> 01:27:44.560]  voluntary and some people love it right apple news is surprisingly popular to me it's on my list of
+[01:27:44.560 --> 01:27:50.560]  things to do in the next year or so that to make the daring fireball experience on apple news
+[01:27:50.560 --> 01:27:54.800]  better it's overdue because i know people do want to read there and i want to support that but at
+[01:27:54.800 --> 01:28:00.560]  least it is voluntary you can choose to use apple news or you can ignore it if you think that the
+[01:28:00.560 --> 01:28:08.080]  ads in the stocks app which is really just sort of a business oriented fork of apple news if you
+[01:28:08.080 --> 01:28:13.360]  don't like them there's hundreds of other business apps and stock tracking apps in the app store that
+[01:28:13.360 --> 01:28:19.520]  you can choose from the app store is not something that you get to choose whether or not to use if
+[01:28:19.520 --> 01:28:25.120]  you're an iphone or ipad user you have no choice and so therefore it's i'm not saying that they
+[01:28:25.120 --> 01:28:30.720]  should not have any ads period but i think that the fact that it's unavoidable puts it in a different
+[01:28:30.720 --> 01:28:36.080]  position and i think they strongly ought to consider that there should be no ads no ads on the
+[01:28:36.080 --> 01:28:43.200]  today view no ads inside no ads period it's the app store as a place is more of a direct reflection
+[01:28:43.200 --> 01:28:50.480]  of their brand than apple news or stocks especially because starting a few years ago apple itself they
+[01:28:50.480 --> 01:28:57.360]  started putting their apps on the app store right so if you delete books or mail or apple news from
+[01:28:57.360 --> 01:29:03.360]  your phone the app store is the place where you need to go in and re-download the apple apps and
+[01:29:03.360 --> 01:29:10.400]  the fact that again there's plenty of screenshots people were seeing ads for casinos and hookup
+[01:29:10.400 --> 01:29:19.200]  apps when searching for books for the apple books app and you would get the books product page and a
+[01:29:19.200 --> 01:29:26.560]  casino ad on it like that just feels cheap and very much against anything that the apple brand
+[01:29:26.560 --> 01:29:32.160]  stands for in terms of premium quality care a safe environment when it comes to the app store it's
+[01:29:32.160 --> 01:29:39.920]  against all of that and it's just plain distasteful like it just it's not the apple look and so you
+[01:29:39.920 --> 01:29:45.200]  gotta wonder how did this happen and i think you're right i think i think the point of well
+[01:29:45.200 --> 01:29:51.680]  maybe apple does not anticipate the kinds of ads that they will get maybe and maybe this will serve
+[01:29:51.680 --> 01:29:56.480]  as a lesson for the future right like let's make sure that when we roll out these new slots that
+[01:29:57.040 --> 01:30:03.120]  if we really need to do ads on the app store that maybe let's make sure that only certain
+[01:30:03.120 --> 01:30:08.720]  categories are allowed that said still think there's the bigger question of what you just
+[01:30:08.720 --> 01:30:15.600]  said john of should ads be allowed on the app store period like should that be a thing that exists
+[01:30:15.600 --> 01:30:22.000]  anywhere in the app store and i can't help but wonder if maybe this is the precursor to a
+[01:30:22.000 --> 01:30:26.480]  different kind of app store which has been talked about before i think and there are some other
+[01:30:26.480 --> 01:30:33.440]  companies that are trying this where it's freemium app store for everything where you just sign up
+[01:30:33.440 --> 01:30:38.400]  for the equivalent of an apple arcade subscription but it's not called apple arcade it's called i
+[01:30:38.400 --> 01:30:46.000]  don't know apple app store and you pay ten dollars and everything is free there's ads and developers
+[01:30:46.000 --> 01:30:51.200]  get their share of the revenue cut from the subscription pricing and the ads like i got this
+[01:30:51.200 --> 01:30:56.480]  in the back of my mind and i wonder like because otherwise why would you do this ad right why would
+[01:30:56.480 --> 01:31:00.800]  you do these ads if you know you have a certain type of experience with the app store you have
+[01:31:00.800 --> 01:31:06.880]  a certain type of brand are they necessary is my question and if you consider the possibility
+[01:31:06.880 --> 01:31:13.360]  of the app store going in a different direction where you pay for basically like like netflix you
+[01:31:13.360 --> 01:31:18.720]  pay ten dollars and you can download whatever you want then it becomes a way for developers to say
+[01:31:18.720 --> 01:31:24.480]  well i guess i'm making money off of the subscription plan and the ads but this is just speculation
+[01:31:24.480 --> 01:31:32.080]  right i'm thinking about that right yeah the streaming netflix which is famously you know
+[01:31:32.080 --> 01:31:39.600]  had no advertising still has no advertising but they've announced they're going to but like hulu
+[01:31:39.600 --> 01:31:50.240]  and disney plus and so many of these it's not free with ads or pay to have no ads it's instead
+[01:31:50.800 --> 01:31:59.120]  pay less with ads and pay a lot more to get no ads but at least you can buy your way out of it
+[01:31:59.120 --> 01:32:03.920]  there is no way to buy your way out of the ads on the app store there's a commonly held sentiment
+[01:32:03.920 --> 01:32:12.560]  whether people think it's a good idea or a bad idea but it's taken root it for decades that
+[01:32:13.280 --> 01:32:17.760]  the idea that publicly held corporate to go back to the idea of publicly and privately held
+[01:32:17.760 --> 01:32:24.000]  corporations but that publicly held corporations who have shareholders are under a legal obligation
+[01:32:24.000 --> 01:32:30.720]  to maximize their profits and their thus their return to shareholders like i've seen it this
+[01:32:30.720 --> 01:32:34.720]  week where there are people on twitter talking about this who are defending it on the grounds
+[01:32:34.720 --> 01:32:40.640]  of yeah i agree this sucks but they have to do it because they're obligated to make as much
+[01:32:40.640 --> 01:32:47.360]  money as possible that's that is nonsense there are people who do think and there are investors
+[01:32:47.360 --> 01:32:55.440]  and influential hedge funds manager types who when companies get into trouble try to pressure
+[01:32:55.440 --> 01:33:01.280]  companies in ways to force them to do things that the company maybe not doesn't want to do but
+[01:33:01.280 --> 01:33:06.880]  because they're in a position of weakness because their stock price is down uh you know we saw that
+[01:33:06.880 --> 01:33:11.360]  this week with facebook where there's now an instant quote-unquote institutional investor who
+[01:33:11.360 --> 01:33:15.920]  published an open letter that's strongly criticizing the amount of money that mark
+[01:33:15.920 --> 01:33:22.960]  zuckerberg and facebook are spending on their arvr endeavors and that the amount of money that
+[01:33:22.960 --> 01:33:30.000]  they're losing admittedly losing quarter after quarter um and it's no surprise that open letter
+[01:33:30.000 --> 01:33:36.160]  is only coming now while facebook's stock is down even if they felt the same thing they didn't
+[01:33:36.160 --> 01:33:41.360]  publish it two years ago when the stock was still at an all-time high i get it but that's it's not
+[01:33:41.360 --> 01:33:46.960]  true so you might as a publicly held company if your stock is down and you're in a position of
+[01:33:46.960 --> 01:33:54.800]  weakness and you're susceptible to antagonistic institutional investors who want to see the
+[01:33:54.800 --> 01:34:01.120]  company go in a different way things like this happen where some company buys a 10 stake in the
+[01:34:01.120 --> 01:34:06.960]  company and then demands a seat on the board and wants to fire the ceo it happens that's the way
+[01:34:06.960 --> 01:34:12.240]  it goes to be a publicly held corporation you do have to at some level answer to your shareholders
+[01:34:12.240 --> 01:34:19.520]  and the board and the board ideally in a healthy company is looking out for the benefits of
+[01:34:19.520 --> 01:34:24.880]  shareholders but the idea that any and every decision a company can make that would be
+[01:34:24.880 --> 01:34:31.600]  profitable they're obligated to do is false it is not the law it might be what some investors want
+[01:34:31.600 --> 01:34:36.240]  but it is absolutely not the law it would be ridiculous if there were and you can always come
+[01:34:36.240 --> 01:34:43.600]  up with hypothetical scenarios that any company wouldn't do and there are things you can't put a
+[01:34:43.600 --> 01:34:50.080]  price on things certain aspects of a company how much is the apple logo work right what is the
+[01:34:50.080 --> 01:34:56.800]  apple just the logo that the famous logo is on the back of all of our devices right it's on the back
+[01:34:56.800 --> 01:35:02.240]  of your phone it's on the back of your macbook it's on the back of your ipad it is the only
+[01:35:02.240 --> 01:35:09.360]  signage outside every apple store around the world no no words doesn't say apple store no a p p le
+[01:35:09.360 --> 01:35:14.720]  just the logo just that mark it's one of if not the most recognized logos in the world how much
+[01:35:14.720 --> 01:35:21.040]  is it worth what's the price tag what if somebody in multi-trillionaire or billionaire in in the
+[01:35:21.040 --> 01:35:26.960]  middle east went to tim cook and said i want to buy the my my daughter loves apple so much i want
+[01:35:26.960 --> 01:35:32.800]  to buy the apple logo from you and here's a check for 500 billion dollars would tim cook say yes
+[01:35:33.360 --> 01:35:37.600]  i i don't think there's any amount of money that would get tim cooked and egg
+[01:35:37.600 --> 01:35:44.080]  that's that's obviously hypothetical it is a contrived scenario but you can't there is no
+[01:35:44.080 --> 01:35:49.280]  price tag for it right and apple is under no obligation to make decisions that might
+[01:35:49.280 --> 01:35:55.520]  be profitable and obviously ads are profitable right it costs less money for apple to run
+[01:35:55.520 --> 01:36:01.440]  the back end of the bidding network and the bandwidth that sends it costs to send the ad
+[01:36:02.080 --> 01:36:08.320]  over the internet when you load the today view is less obviously profitable for apple to sell these
+[01:36:08.320 --> 01:36:13.200]  ads but they're under no obligation to do so they it's their choice and there's all sorts of other
+[01:36:13.200 --> 01:36:17.600]  things that they could do that they haven't and i've been thinking about it a lot this week the
+[01:36:17.600 --> 01:36:25.440]  stickers that come on the palm rest of pcs pc laptops right intel inside or n video or this that
+[01:36:26.320 --> 01:36:33.040]  famously there was the moment when apple went to intel 15 years ago 2006 and we all laughed at the
+[01:36:33.040 --> 01:36:37.600]  guy i was actually in the room it was in apple's town hall but it was like they used to it's how
+[01:36:37.600 --> 01:36:43.360]  long ago it was where at the end of apple events they would hold it would have q and a's with the
+[01:36:43.360 --> 01:36:49.680]  press and some somebody asked which we laughed in the audience and i feel bad for having been
+[01:36:49.680 --> 01:36:53.760]  there and laughing because it actually is a good question and i'm so glad in hindsight that he
+[01:36:53.760 --> 01:36:59.440]  asked the question was are you going to have intel inside stickers on macbooks once you go to intel
+[01:36:59.440 --> 01:37:05.040]  and steve jobs laughed he chuckled and very politely said i believe his answer was something
+[01:37:05.040 --> 01:37:12.560]  to the effect of we like our own stickers but obviously they could have made more money by
+[01:37:12.560 --> 01:37:17.680]  saying to intel okay we'll put intel inside stickers on our macbooks but you give us
+[01:37:17.680 --> 01:37:24.240]  x amount of money and they chose not to do so because it's it was contrary to the brand and
+[01:37:24.240 --> 01:37:29.360]  the experience that you you either keep this sticker on the pod rest on a palm rest or you
+[01:37:30.000 --> 01:37:35.440]  peel it off and maybe leave a sticky residue behind or something like that they don't do it
+[01:37:35.440 --> 01:37:41.920]  so why do they do this yeah and that argument i as you said like it doesn't make any sense because
+[01:37:41.920 --> 01:37:46.960]  the people claim that you're as a public company you're obligated to maximize profits for your
+[01:37:46.960 --> 01:37:52.160]  shareholders like they what they don't understand is that their argument cuts both ways because if
+[01:37:52.160 --> 01:37:59.440]  you if by doing that you start running your company into the ground and you know ruining
+[01:37:59.440 --> 01:38:04.720]  your brand time after time and you end up at a point where nobody's buying your stuff anymore
+[01:38:04.720 --> 01:38:11.440]  well then are you really doing a favor to your shareholders then by making you know the wrong
+[01:38:11.440 --> 01:38:17.600]  decisions every single time to temporarily maximize your profits but by doing that you're
+[01:38:17.600 --> 01:38:23.840]  going against everything that your brand stands for like is that really is that the obligation
+[01:38:23.840 --> 01:38:28.160]  that you are under no you're doing a disservice to your shareholders so that argument doesn't
+[01:38:28.160 --> 01:38:34.480]  make any sense because yes you need to maximize your profits but you need to do that while keeping
+[01:38:34.480 --> 01:38:39.200]  with the basic structure of your company your brand what you stand for and the reason why
+[01:38:39.200 --> 01:38:44.480]  people buy your products and i would expect that people don't buy apple products thinking oh i know
+[01:38:44.480 --> 01:38:49.360]  that at some point i'm gonna get a casino ad somewhere in here on this phone like no people
+[01:38:49.360 --> 01:38:54.560]  don't think that people think oh this is gonna be an elegant classy premium experience and so that's
+[01:38:54.560 --> 01:39:01.040]  why everybody complained about that because it's so against everything that apple stands for it's
+[01:39:01.040 --> 01:39:06.160]  distasteful it's potentially problematic for a ton of folks that are as we said recovering from
+[01:39:06.160 --> 01:39:12.800]  gambling addiction and just it feels unnecessary and you might say no but apple needs to maximize
+[01:39:12.800 --> 01:39:19.680]  the profits sure but first there could be other ways to maximize your profits and second if that
+[01:39:19.680 --> 01:39:25.760]  idea is in direct opposition to your brand then you shouldn't do it because ultimately you're also
+[01:39:25.760 --> 01:39:29.760]  obligated to maintain the well-being of your company not just to maximize your profits to
+[01:39:29.760 --> 01:39:36.960]  the investors or shareholders whatever so i don't get that argument at all and as you said kudos to
+[01:39:36.960 --> 01:39:44.480]  apple for acting very critically i believe it was probably even 24 hours actually maybe so we'll see
+[01:39:44.480 --> 01:39:51.120]  what happens next i don't think there's a an easy way out from casino ads like either you allow them
+[01:39:51.120 --> 01:39:58.240]  or you don't and no matter like it becomes that problem of like well would you like casino ads
+[01:39:58.240 --> 01:40:05.680]  but in small doses like no like what if you just get a tiny casino like no it's still ugly and
+[01:40:05.680 --> 01:40:11.520]  tacky and it doesn't really work for your product and it does the thing that's confounding about it
+[01:40:11.520 --> 01:40:16.160]  and we talked in the previous segment of the show about how apple's executives pay attention to what
+[01:40:16.160 --> 01:40:21.120]  people like us right and what the general sentiment is of the company but yet clearly
+[01:40:21.120 --> 01:40:29.760]  internally they don't see what is very clear to us outside the company looking in they don't see
+[01:40:29.760 --> 01:40:34.720]  how bad this makes them look they clearly don't because if they saw it they wouldn't have done it
+[01:40:34.720 --> 01:40:40.480]  they clearly think that those of us saying how bad it makes them look we're the ones who were wrong
+[01:40:40.480 --> 01:40:46.000]  and i don't feel any question about it that we're right that they're doing they're doing more harm
+[01:40:46.000 --> 01:40:53.200]  to their brand than as hard as it is impossible it is to assign a dollar value to their brand
+[01:40:53.200 --> 01:41:00.080]  and the trust if you could that value that subjective value is they're losing more there
+[01:41:00.080 --> 01:41:04.960]  than they are gaining in dollars by doing this there's just no question to me and it's very
+[01:41:04.960 --> 01:41:08.320]  strange all right let me take another break here thank our next sponsor it's our good friends at
+[01:41:08.320 --> 01:41:15.280]  collide k-o-l-i-d-e collide if you're listening to this podcast the odds are good that at some
+[01:41:15.280 --> 01:41:23.280]  point you're going to go through an audit like s o c two or iso 27 001 i don't know what those
+[01:41:23.280 --> 01:41:29.200]  things mean but if you do you should think about collide because if you know what those mean and
+[01:41:29.200 --> 01:41:33.440]  you go through one of those audits you know you're going to have to answer some tough questions about
+[01:41:33.440 --> 01:41:39.120]  endpoint security questions like do all of your company's laptops have their disks encrypted does
+[01:41:39.120 --> 01:41:43.360]  everyone have the company's password manager installed do you have a system in place to
+[01:41:43.360 --> 01:41:48.720]  monitor and maintain compliance through your cross-platform fleet even if you're confident
+[01:41:48.720 --> 01:41:55.360]  the answer to those questions is yes the bigger question is can you prove it to an auditor if
+[01:41:55.360 --> 01:42:00.240]  you're not quite sure how you'd go about proving compliance across your fleet of devices then you
+[01:42:00.240 --> 01:42:08.400]  need collide collide is an endpoint security tool for mac windows and linux that's new that's
+[01:42:08.400 --> 01:42:14.320]  different and apparently very difficult technically but linux devices that does things that mdms can't
+[01:42:14.320 --> 01:42:18.480]  and it gives you visibility you need to achieve and maintain compliance with these technical
+[01:42:18.480 --> 01:42:24.000]  audits best of all collide doesn't resort to surveilling employees or locking down devices
+[01:42:24.000 --> 01:42:28.640]  in ways that employees are going to resent and work around by doing things like just using their
+[01:42:28.640 --> 01:42:34.560]  personal device instead of the work device instead collide works with your end users to resolve
+[01:42:34.560 --> 01:42:40.240]  issues and relies on their cooperation and informed consent you can meet your security
+[01:42:40.240 --> 01:42:46.400]  goals and pass your audit without compromising on security visit collide.com slash the talk show
+[01:42:46.400 --> 01:42:54.400]  to find out how that's collide k-o-l-i-d-e.com slash the talk show follow that link they'll
+[01:42:54.400 --> 01:43:00.240]  hook you up with a goodie bag including a t-shirt just for activating a free trial that's collide
+[01:43:00.240 --> 01:43:07.920]  k-o-l-i-d-e.com slash the talk show ipad hardware came out last week i wrote a review i focused
+[01:43:07.920 --> 01:43:13.920]  primarily on the new just plain ipad you published your review what are your thoughts on the state
+[01:43:13.920 --> 01:43:22.560]  the new ipad hardware and the state of the lineup overall i i really liked the base model ipad more
+[01:43:22.560 --> 01:43:28.640]  so than i expected i think it i think it makes for an excellent ipad and arguably depending on
+[01:43:28.640 --> 01:43:35.040]  what you're looking for from your ipad i think it actually could be a better deal than an ipad air
+[01:43:35.040 --> 01:43:40.080]  for a lot of people now i get it it's more expensive than the ipad 9 which is still in the
+[01:43:40.080 --> 01:43:48.560]  lineup but it's also 150 less than an ipad air and unless you think you really need stage manager
+[01:43:48.560 --> 01:43:54.720]  and external display support which is also coming to the ipad air because it's got the m1 and unless
+[01:43:54.720 --> 01:44:00.320]  you think oh no dude i need the magic keyboard in my life not the magic keyboard folio i think this
+[01:44:00.320 --> 01:44:05.280]  is honestly like a very good ipad and sure there's other things that you're gonna miss right the the
+[01:44:05.280 --> 01:44:10.240]  fully laminated display p3 a white color gamut there's all those other things that you don't
+[01:44:10.240 --> 01:44:17.040]  have but the base model ipad i i really liked as a like i'm thinking about it as this sort of uh
+[01:44:18.080 --> 01:44:24.480]  using it as a portable media consumption ipad if you will because i i work on the 12.9 on the
+[01:44:24.480 --> 01:44:29.120]  big ipad pro but obviously that using that as a tablet when you just want to read something
+[01:44:29.120 --> 01:44:34.320]  or want to watch a video want to play a quick game it's a giant tablet to hold in your hands and it's
+[01:44:34.320 --> 01:44:41.200]  not exactly comfortable the ipad i really liked now i'm i'm the opposite of jason snell jason
+[01:44:41.200 --> 01:44:47.200]  you had jason on the show last week it's very much against the kickstands in keywords just
+[01:44:47.200 --> 01:44:53.120]  jason is very vocal against the kickstands i love kickstands i'm one of those people
+[01:44:53.120 --> 01:44:58.640]  that i really like the freely adjustable a kickstand form factor and something that i
+[01:44:58.640 --> 01:45:04.960]  started doing with the base model ipad actually was to detach it from the keyboard and use it
+[01:45:04.960 --> 01:45:11.040]  with just the back cover attached in the back of the ipad and use the kickstand as sort of this
+[01:45:11.040 --> 01:45:17.280]  giant elongated pop socket kinda like just holding the ipad from the kickstand it's
+[01:45:17.280 --> 01:45:23.600]  surprisingly comfortable both in portrait and landscape so the ipad i think the one thing i
+[01:45:23.600 --> 01:45:29.840]  dislike and you wrote about this too using the apple pencil one right not having compatibility
+[01:45:29.840 --> 01:45:34.960]  with the second generation apple pencil if you are an artist if you think you're gonna use the
+[01:45:34.960 --> 01:45:38.880]  apple pencil a lot and if you like the second generation apple pencil more than the first one
+[01:45:39.440 --> 01:45:43.840]  it's impossible to recommend this ipad like this is not the ipad for you because you're stuck with
+[01:45:43.840 --> 01:45:49.840]  the pencil from seven years ago right overall i really like that one the ipad pro there's not a
+[01:45:49.840 --> 01:45:56.080]  there's not much to say about it really it's a by and large a spec bump update we didn't get
+[01:45:56.080 --> 01:46:01.760]  i don't know how many of us maybe we were expecting big design changes from the ipad
+[01:46:01.760 --> 01:46:08.240]  pro line for sure i was at least expecting some kind of new charging story whether they're
+[01:46:08.240 --> 01:46:15.840]  bringing magsafe from the mac or maybe adding a second usb-c port or maybe having finally a
+[01:46:15.840 --> 01:46:21.200]  landscape camera and instead we ended up with the landscape camera on the base model ipad but not
+[01:46:21.200 --> 01:46:28.320]  in the ipad pro and the ipad pro the small one the 11 inch did not get mini led but the one thing
+[01:46:28.320 --> 01:46:34.800]  that i really liked and surprised it surprised even me the apple pencil hover feature i'm not
+[01:46:34.800 --> 01:46:40.400]  an artist i when i try to draw something or sketch something i do these little stick figures like i
+[01:46:40.400 --> 01:46:46.320]  have no artistic capabilities whatsoever but the one thing that i noticed that i've started doing
+[01:46:46.320 --> 01:46:58.000]  is hover makes me use the ipad pro in tablet mode more because in if you're holding the pencil now
+[01:46:58.000 --> 01:47:04.080]  you get access to hover features because it's almost like having a pointer and and i think
+[01:47:04.080 --> 01:47:08.880]  i've like over the past two years of magic keyboard i've started using the ipad pro less
+[01:47:08.880 --> 01:47:13.520]  like a tablet and more like a laptop meaning it's always in the magic keyboard and i always have the
+[01:47:13.520 --> 01:47:20.080]  pointer and i have kind of forgotten just how pleasant it is to use an ipad just as a tablet
+[01:47:20.080 --> 01:47:24.240]  in touch mode which is something that you cannot say about the surface for example the microsoft
+[01:47:24.240 --> 01:47:32.560]  surface very much more optimized for laptop usage and right not so much for tablet usage the ipad
+[01:47:32.560 --> 01:47:39.600]  is a very pleasant tablet but with pencil hover it's even nicer because now you get access to all
+[01:47:39.600 --> 01:47:45.040]  kinds of hover based features that with your finger you just don't have because you cannot
+[01:47:45.040 --> 01:47:50.720]  hover with your fingers over anything but with the pencil you can and so you get i mean it's not be
+[01:47:50.720 --> 01:47:56.400]  it's not like this huge feature obviously but it's still nice that you can now do things like
+[01:47:56.400 --> 01:48:03.520]  like in safari you can close a tab without actually switching to the tab yes yeah right or
+[01:48:03.520 --> 01:48:10.560]  if you're watching a video on the youtube website which now thankfully supports 4k in safari you can
+[01:48:10.560 --> 01:48:16.800]  scrub through the video and get a preview right of the frame without actually changing your position
+[01:48:16.800 --> 01:48:24.000]  in the video that's something you can do a pencil hover so that surprised me but the lineup in
+[01:48:24.000 --> 01:48:32.640]  general it does feel a little confusing but also because i think it's very much like a lineup in
+[01:48:32.640 --> 01:48:39.360]  flux at the moment yeah where you have things that very clearly are supposed to be everywhere
+[01:48:39.360 --> 01:48:45.920]  like the landscape camera i think it it would make absolute sense to have it on an ipad like
+[01:48:45.920 --> 01:48:51.680]  the ipad pro that a lot of people using landscape because they sell you a keyboard for it but it's
+[01:48:51.680 --> 01:48:56.800]  not there and that's maybe because of the apple pencil 2 component requiring wireless charging on
+[01:48:56.800 --> 01:49:02.400]  that side but two years from now you would expect that apple figures out a way to make it happen
+[01:49:03.040 --> 01:49:09.040]  so it's maybe a little confusing right now the i would say that the most
+[01:49:10.640 --> 01:49:18.640]  confusing aspect for me is the role of the 11 inch ipad pro i i struggle to imagine that model
+[01:49:18.640 --> 01:49:25.040]  say three years from now like what because you have such a compelling package in the base model
+[01:49:25.040 --> 01:49:32.080]  ipad and the ipad air that it's become really hard for me i think to justify the 11 inch ipad pro
+[01:49:32.080 --> 01:49:40.960]  unless you are the type of person who wants to have the m2 and thunderbolt and apple pencil hover
+[01:49:40.960 --> 01:49:48.080]  and promotion but i think that's the one model where i don't know if it's long for this world
+[01:49:48.080 --> 01:49:55.040]  you know i don't know i my main ipad is an 11 inch ipad pro it's still the 2018 model the first one
+[01:49:55.040 --> 01:50:02.000]  i believe with face id here's another generation that came out now apple provided me with the ipad
+[01:50:02.000 --> 01:50:08.400]  the regular ipad as a review unit in the 12.9 inch new ipad pro which i did use and tried out
+[01:50:08.400 --> 01:50:14.400]  the hover stuff but the 12.9 is not for me too big for my needs as a secondary device but yet again
+[01:50:14.400 --> 01:50:20.560]  here's another here we are four years in and my temptation to buy the new 11 inch ipad pro is zero
+[01:50:20.560 --> 01:50:28.480]  because i don't use it enough and the i know how much faster the m2 is compared to the a12x but
+[01:50:28.480 --> 01:50:34.240]  when you've been very very good at making very efficient fast chips for as long as apple silicon
+[01:50:34.240 --> 01:50:43.280]  team is a four-year-old a12x is still very snappy i don't really see oh going back to my 11 inch
+[01:50:43.280 --> 01:50:49.600]  ipad pro after a week of testing the new 12.9 inch with m2 i don't feel like it feels slow
+[01:50:49.600 --> 01:50:55.520]  it doesn't your your markdown is still as fast as before do you know what for me the killer feature
+[01:50:55.520 --> 01:51:01.520]  and the one thing i just cannot get used to every time i review an ipad air or now the regular ipad
+[01:51:01.520 --> 01:51:08.880]  is the lack of face id especially in a laptop configuration because when it's handheld and
+[01:51:08.880 --> 01:51:14.320]  you're using it as a touch device it you get very used to just waking it up instead of by
+[01:51:14.320 --> 01:51:19.120]  tapping the screen by using the button and the button is actually where the touch id is but with
+[01:51:19.120 --> 01:51:24.320]  the laptop i'm used to just hitting the space or when it's used as a laptop attached to a keyboard
+[01:51:24.320 --> 01:51:29.520]  i'm used to just hitting a key or clicking the trackpad and it just wakes up and it's on and i
+[01:51:29.520 --> 01:51:36.160]  don't really think about face id at all zero i never think about it until i'm testing one of
+[01:51:36.160 --> 01:51:41.680]  these ipads that have touch id and i wake it up and there's the thing up there next to the button
+[01:51:41.680 --> 01:51:48.160]  saying touch id to unlock and i'm like ah forgot and ah and i've got something i'm holding a mug
+[01:51:48.160 --> 01:51:53.120]  of coffee in my left hand so i've got to use my right hand and reach around and it's awkward and
+[01:51:53.120 --> 01:52:00.400]  it's like i'm playing twister or something making a contortion to get my right hand index finger on
+[01:52:00.400 --> 01:52:05.920]  a button that's on the left edge of the screen i would imagine going forward eventually face
+[01:52:05.920 --> 01:52:11.680]  id will trickle down through the lineup i actually sort of i don't know how expensive it is but it is
+[01:52:13.280 --> 01:52:21.120]  a weird difference between ipad hardware and iphone hardware where the modern both of them
+[01:52:21.120 --> 01:52:28.560]  have gone through a quote-unquote all-screen reimagining of the fundamental layout of the
+[01:52:28.560 --> 01:52:35.360]  device where the old way was square corner display a chin and forehead at the top and bottom of the
+[01:52:35.360 --> 01:52:41.600]  screen and a button a home button that eventually got touch id on the iphone and ipad where you hit
+[01:52:41.600 --> 01:52:49.920]  this button to go home to this this all-screen round corners no home button interface but on
+[01:52:49.920 --> 01:52:57.840]  the phone those phones all have face id and not touch id i don't know i know there's speculation
+[01:52:57.840 --> 01:53:04.000]  some people think apple might eventually come out with a touch id button on some iphones maybe in
+[01:53:04.000 --> 01:53:09.600]  addition to face id which i you know is a whole side discussion where i kind of feel like maybe
+[01:53:09.600 --> 01:53:15.440]  they don't want to do that because they would like one and only one biometric authentication
+[01:53:15.440 --> 01:53:20.400]  this is it this device uses touch id this device uses face id and when you need to authorize
+[01:53:21.200 --> 01:53:27.280]  there's one and only one way to do it i also think with iphones it proves a touch id on a button
+[01:53:27.280 --> 01:53:33.920]  would prove trickier because of how many people absolutely insist on using not just a case but
+[01:53:33.920 --> 01:53:40.080]  a protective case and so therefore like a case that had a cutout for the button people wouldn't
+[01:53:40.080 --> 01:53:44.960]  want to use because they want the bumper to go all the way around all four sides of the phone
+[01:53:44.960 --> 01:53:49.120]  so once you've done that then how do you know how do you cover you can't cover up a touch id button
+[01:53:49.120 --> 01:53:55.520]  with a case but people want to have a case that covers up the buttons so but it's much more clear
+[01:53:55.520 --> 01:54:03.200]  and the ipad line is so clearly bifurcated between if it's called a pro it has face id and if it
+[01:54:03.200 --> 01:54:10.160]  doesn't have the word pro in the name it's touch id and i find touch id to be so just slightly more
+[01:54:10.160 --> 01:54:15.120]  finicky than face id it's my biggest personal complaint but it's fueled by the fact that for
+[01:54:15.120 --> 01:54:21.200]  four years my main personal ipad that i own is face id yeah especially when you're using it in
+[01:54:21.200 --> 01:54:26.240]  a magic keyboard i agree with that like it's so nice to just hit the space bar and it unlocks and
+[01:54:26.240 --> 01:54:31.680]  you're done you don't need to think about it at all yeah i will also say it but overall i do think
+[01:54:31.680 --> 01:54:39.440]  the ipad lineup is in good shape i i forgive them for the fact that it's clearly amidst a year's
+[01:54:39.440 --> 01:54:47.040]  a year's long transition and that this is once each time they release new ipad hardware it's a
+[01:54:47.040 --> 01:54:53.920]  milestone going forward to their end point and it will make more sense i mean clearly price is an
+[01:54:53.920 --> 01:55:02.320]  issue where the starting price for a brand new ipad has dropped to 330 with the ninth generation
+[01:55:02.320 --> 01:55:08.400]  ipad the last one that had a home button and the square corner display and they've kept that ipad
+[01:55:08.400 --> 01:55:16.080]  in the lineup so that they can still keep that 330 starting price for a 64 gig ipad ninth gen
+[01:55:16.880 --> 01:55:24.240]  because this new 10th gen starts at 449 presumably i don't think it's you have to be a fortune teller
+[01:55:24.240 --> 01:55:29.280]  to predict that eventually the 10th generation ipad that just came out last week is going to
+[01:55:29.280 --> 01:55:34.560]  drop in price and the ninth generation will go away yeah and whether it goes to 330 or they
+[01:55:34.560 --> 01:55:40.320]  raise the lower price to 350 or something like that that this will be it but that will be that'll
+[01:55:40.320 --> 01:55:47.600]  be a nice moment in the ipad history when the entry model for 350 it has the modern round
+[01:55:47.600 --> 01:55:56.720]  corner display as somebody who is picky about displays it is the epitome of good better best
+[01:55:56.720 --> 01:56:06.800]  where the worst display on an ipad that apple sells is this not laminated no xdr support display
+[01:56:06.800 --> 01:56:12.640]  it is still a very good display and you can look at it side by side with the most expensive display
+[01:56:12.640 --> 01:56:18.880]  the 12.9 inch with the mini led and again it's very strange to me that the 11 inch pro still
+[01:56:18.880 --> 01:56:25.120]  doesn't have the mini led that's really a very curious thing given that the price you'd think
+[01:56:25.120 --> 01:56:30.320]  is just about size but the 12.9 inch has an altogether different screen technology but
+[01:56:30.320 --> 01:56:36.080]  looking at it it's the best screen apple makes arguably on any device the ipad 10th gen looks
+[01:56:36.080 --> 01:56:40.240]  great i mean yeah i can see the difference i can definitely see the lamination if i hold it at an
+[01:56:40.240 --> 01:56:46.400]  angle but it's good it is a very good entry model display good stuff overall the pencil thing is
+[01:56:46.400 --> 01:56:50.560]  very weird i'm convinced and i've heard from people i can't believe this never occurred to
+[01:56:50.560 --> 01:56:57.120]  me before last week but that the why didn't the camera move to the long side for the ipad pros
+[01:56:57.120 --> 01:57:03.600]  too that it physically is in conflict with the connector for the pencil too presuming that
+[01:57:03.600 --> 01:57:07.040]  they're going to move all the ipads to have the front facing camera there they're going to have
+[01:57:07.040 --> 01:57:12.160]  to re-engineer where the pencil connector goes or come out with a pencil three with a different
+[01:57:12.160 --> 01:57:17.840]  connector i i don't know i think that at this point now that the pencil one is obviously
+[01:57:17.840 --> 01:57:23.920]  here for years to come yeah that the last thing people want to hear is that there's now a pencil
+[01:57:23.920 --> 01:57:30.000]  three yeah well it's funny when you think about it the original apple pencil came out when the
+[01:57:30.000 --> 01:57:37.440]  iphone 6s came out so that's a long time ago 2015 and it's likely sticking around for at least a
+[01:57:37.440 --> 01:57:43.280]  couple of years you would imagine at this point right at the very least so it's i think it's not
+[01:57:43.280 --> 01:57:50.400]  absurd to think that the apple pencil one will stay with us for a decade wouldn't be shocked if
+[01:57:50.400 --> 01:57:58.880]  in 20 20 50 25 we're still gonna have the apple pencil one have you ever used a logitech crayon
+[01:57:58.880 --> 01:58:04.720]  i bought no never no so i've used one i bought one last friday i guess a week ago today i just
+[01:58:04.720 --> 01:58:08.800]  went down to the apples because i hadn't used one i'd been curious about it and i was so frustrated
+[01:58:08.800 --> 01:58:14.400]  by the apple pencil one which i really just dislike i i liked it when it was the apple
+[01:58:14.400 --> 01:58:20.000]  pencil and then i wrote in my review of the apple pencil two that i can't remember any 2.0 product
+[01:58:20.000 --> 01:58:25.280]  that so improved upon a product that i already liked i liked the material change i like that
+[01:58:25.280 --> 01:58:30.320]  they added a flat side i like that there's no more cap to lose i like that it paired my every
+[01:58:30.320 --> 01:58:36.160]  single difference between pencil one and pencil two made a product that i previously liked and
+[01:58:36.160 --> 01:58:39.920]  now i was like this old pencil i hate i don't like the way it feels i don't like the way it
+[01:58:39.920 --> 01:58:45.360]  rolls around i don't like that it has a cap to lose but i bought the new logitech crayon a week
+[01:58:45.360 --> 01:58:52.320]  ago 70 bucks so it's lower in price it doesn't pair it has the the logitech obviously collaborated
+[01:58:52.320 --> 01:58:57.040]  with apple you know there's some kind of special relationship there between logitech and apple
+[01:58:57.040 --> 01:59:00.800]  where they're the only other company that makes something like an apple pencil it's a unique
+[01:59:00.800 --> 01:59:06.560]  product i like it i like it i definitely like it better than a pencil one so anybody who either
+[01:59:07.280 --> 01:59:11.520]  wants to buy that ipad either because they don't already own a pencil or they need a new one i
+[01:59:11.520 --> 01:59:16.880]  would strongly recommend trying the logitech crayon for 70 bucks i think it's a better product
+[01:59:16.880 --> 01:59:22.160]  i like the way it feels it's more future proof because the logitech crayon works on all ipads
+[01:59:22.160 --> 01:59:28.320]  from 2018 onwards so if you own multiple models you own an ipad pro and you're buying an apple
+[01:59:28.320 --> 01:59:33.680]  a regular no adjective ipad you can buy a logitech crayon it'll work with both of them
+[01:59:33.680 --> 01:59:38.880]  so yeah and you will lose the pressure sensitivity that's it but if you're less i mean about but if
+[01:59:38.880 --> 01:59:43.200]  you're an artist also you're not buying the base model right so exactly you're not buying the base
+[01:59:43.200 --> 01:59:48.560]  model ipad and the for various reasons but the pressure sensitivity would be one the lack of
+[01:59:48.560 --> 01:59:53.040]  lamination definitely matters because you're looking at it at an angle all of that stuff and
+[01:59:53.040 --> 01:59:59.760]  again if you're an artist but you're on a starving artist budget i sympathize and so maybe you would
+[01:59:59.760 --> 02:00:06.640]  maybe for that market you've only got a budget for a regular ipad not an ipad pro but you do want to
+[02:00:06.640 --> 02:00:10.880]  use it for pressure sensitive drawing well then you should buy the pencil one and it's not that
+[02:00:10.880 --> 02:00:18.480]  bad to pair it with a ridiculous little easily lost dongle but it is i mean yeah yeah or you
+[02:00:18.480 --> 02:00:24.720]  could go look for a i mean even a refurbished ipad pro from 2018 or you know one of those uh
+[02:00:24.720 --> 02:00:31.120]  revisions the a12z like you can get i guess you can get a pretty good deal on on a refurbished
+[02:00:31.120 --> 02:00:37.200]  ipad pro and it's still gonna have like it's not gonna it's not gonna have xdr but you're still
+[02:00:37.200 --> 02:00:41.520]  gonna be able to use the apple pencil 2 and you will have access to stage manager you will have
+[02:00:41.520 --> 02:00:46.240]  access to all the features minus the upcoming external display support which again if you are
+[02:00:46.240 --> 02:00:52.000]  an artist you probably care about that but still it's a i know plenty of people are saying i'm
+[02:00:52.000 --> 02:00:57.040]  sticking with my 2018 ipad pro because it i mean you just said it john does exactly what i want it
+[02:00:57.040 --> 02:01:01.040]  gets all the latest features and i don't necessarily care about external display support
+[02:01:01.040 --> 02:01:08.720]  yeah it's apple it's a product line where it is that they're clearly in flux it would be better
+[02:01:08.720 --> 02:01:14.240]  it will be better in a handful of years like when the front facing cameras unified and maybe pencil
+[02:01:14.240 --> 02:01:19.920]  support makes more sense but even so right now the ipad lineup is in great shape to me it is
+[02:01:19.920 --> 02:01:26.160]  fascinating and interesting that you can get a truly excellent ipad at prices ranging from 350
+[02:01:26.160 --> 02:01:32.480]  bucks all the way up to 15 1600 for a maxed out 12.9 you know the mac lineup is not equivalent
+[02:01:32.480 --> 02:01:38.880]  you can't buy a macbook for 400 no all right let me take one last break here thank our fourth
+[02:01:38.880 --> 02:01:44.560]  sponsor of the show it's our good friends at squarespace oh squarespace it's the all-in-one
+[02:01:44.560 --> 02:01:50.480]  platform for building and hosting your website and your presence on the internet they've got
+[02:01:50.480 --> 02:01:55.840]  everything you need analytics you want to know who's coming to your website how many people
+[02:01:55.840 --> 02:02:00.560]  where they're coming from which sources of traffic are sending how much you can look at
+[02:02:00.560 --> 02:02:05.920]  it right through the analytics that are built in online store you want to sell something online
+[02:02:05.920 --> 02:02:11.920]  at your website you can set it up and everything from building the store and managing the design
+[02:02:11.920 --> 02:02:16.640]  of it to the actual commerce and taking credit cards and making money and having the money
+[02:02:16.640 --> 02:02:22.400]  go through and dealing with refunds and all the complicated stuff squarespace has it email
+[02:02:22.400 --> 02:02:27.040]  campaigns you want to send email to your customer squarespace email campaigns that's a feature
+[02:02:27.600 --> 02:02:32.320]  custom templates for the design and look of your website you can start with one of their
+[02:02:32.320 --> 02:02:37.440]  award-winning templates and tweak it to your heart's desire or if you're a designer or have
+[02:02:37.440 --> 02:02:43.120]  a designer or know a designer and want to build a custom website design from scratch from the
+[02:02:43.120 --> 02:02:47.920]  ground up you can do it you can be as technical as you want and get down and look at the code and
+[02:02:47.920 --> 02:02:52.480]  the html and the javascript and the css or if you don't know what the difference is between
+[02:02:52.480 --> 02:02:58.720]  javascript and css squarespace spans that gamut of technical expertise where you can get into the
+[02:02:58.720 --> 02:03:03.360]  code or you can never look at the code and do everything whizzy wig and graphically it is
+[02:03:03.360 --> 02:03:08.320]  simply a terrific product next time you have to build a website or somebody you know comes to you
+[02:03:08.320 --> 02:03:14.240]  for help because you're their nerd friend have them try squarespace you get 30 days free trial
+[02:03:14.960 --> 02:03:20.960]  no features held back no watermark it is like being a paying customer a real deal website and
+[02:03:20.960 --> 02:03:26.240]  when that free trial is up and you start to pay just remember the code from this show talk show
+[02:03:26.240 --> 02:03:32.880]  just t-a-l-k-s-h-o-w use that code you save 10% off your first version first purchase at
+[02:03:32.880 --> 02:03:39.680]  squarespace go to squarespace.com same code squarespace.com talk show to get that free trial
+[02:03:39.680 --> 02:03:45.600]  and just remember squarespace.com talk show use that code talk show when your free trial's up
+[02:03:45.600 --> 02:03:57.120]  save 10 all right last topic ipad os 16 i i will say i did not know you and i are friends i would
+[02:03:57.120 --> 02:04:02.080]  say but i didn't know what you were going to do i was extremely curious what is federico going to
+[02:04:02.080 --> 02:04:10.400]  do with his ipad review this year and you did something i was like oh my god this is so smart
+[02:04:10.400 --> 02:04:18.640]  and to me fair here what did you do so i did my ios 16 review as usual in september and obviously
+[02:04:18.640 --> 02:04:25.680]  a ton of i thought all of the shared features between the two os's i'm gonna do basically all
+[02:04:25.680 --> 02:04:31.680]  of them in the ios one then we did the separate my quest went to our one john voorhees did that
+[02:04:31.680 --> 02:04:38.400]  and for ipad os i figured because there's been i mean five months we've been talking about this
+[02:04:38.400 --> 02:04:46.000]  and the key feature of ipad os 16 is a stage manager and then there's a collection not a long
+[02:04:46.000 --> 02:04:54.000]  one but a collection of other features in ipad os 16 but i figured given this long period of
+[02:04:54.000 --> 02:05:02.880]  testing and reversed decisions and technical problems and design considerations i'm just
+[02:05:02.880 --> 02:05:11.360]  i'm just gonna do a story for monday the 24th about stage manager i'm gonna save everything
+[02:05:11.360 --> 02:05:17.440]  else for later i still don't know how i'm gonna do like is there gonna be like a proper ipad os 16
+[02:05:17.440 --> 02:05:23.120]  review what's that gonna look like it's not gonna be two pages about the 15 other features in this
+[02:05:23.120 --> 02:05:29.920]  update i don't know but i figured i'm gonna do a story that is just about multitasking from the
+[02:05:29.920 --> 02:05:37.920]  perspective of i started using this in june and it was mostly okay until the public beta in july
+[02:05:37.920 --> 02:05:45.440]  that's when i did my first impression story then i i have this this hole from late july to
+[02:05:46.080 --> 02:05:53.120]  essentially early october when stage manager on my ipad pro who was crashing like every two minutes
+[02:05:53.120 --> 02:05:59.680]  and i'm not i know you're not exaggerating because i no no no and i took august off from trying it we
+[02:05:59.680 --> 02:06:04.560]  had some family vacations but i you were you're not exaggerating it actually got less stable than
+[02:06:04.560 --> 02:06:11.120]  it was in the initial betas which is so far less and this is so unusual like this whole summer for
+[02:06:11.120 --> 02:06:15.760]  me has been very unusual i mean besides the fact that we bought a house and there was that whole
+[02:06:15.760 --> 02:06:21.680]  complication this summer but just the os is like it was very different from before like usually
+[02:06:21.680 --> 02:06:30.320]  they get better in the summer yes and here instead they got worse at the worst possible time
+[02:06:30.320 --> 02:06:36.960]  because august for me is when i'm like okay i need to wrap up my notes and start writing because
+[02:06:36.960 --> 02:06:43.600]  september is going to be right around the corner and instead it got it started getting worse like
+[02:06:43.600 --> 02:06:52.720]  it started getting worse in in august and so up until uh three weeks ago basically i couldn't use
+[02:06:52.720 --> 02:06:57.840]  it okay i i if i tried i couldn't get i couldn't work i couldn't write i couldn't publish articles
+[02:06:58.560 --> 02:07:03.760]  whenever i tapped on an app i mean let alone the external display support which was unusable
+[02:07:04.480 --> 02:07:10.880]  but just it was crashing my the magic keyboard was not typing like very fundamental issues
+[02:07:10.880 --> 02:07:19.200]  very fundamental issues then it stopped thankfully with uh i believe i i lost track of the betas it
+[02:07:19.200 --> 02:07:26.640]  was beta 10 or beta 11 when when it stopped crashing for me and so i realized i'm gonna
+[02:07:26.640 --> 02:07:31.680]  do a story and i'm gonna i'm gonna be super honest about it i will say in the introduction that this
+[02:07:31.680 --> 02:07:37.840]  is the review based on two weeks of of usage because in the summer i had to stop using it
+[02:07:37.840 --> 02:07:44.640]  i will write this story in a week based on the release candidate version and we'll see what
+[02:07:44.640 --> 02:07:51.920]  happens that that was the approach i took i honestly like it's not the story i wanted to do
+[02:07:51.920 --> 02:08:00.560]  like i didn't like putting this together but i also think it was important for me to actually
+[02:08:00.560 --> 02:08:07.360]  have a list of the things i do like about sage manager because i i do think sage manager can be
+[02:08:07.360 --> 02:08:13.680]  can be worked on and should be worked on but i also figured it's important to have a record of
+[02:08:13.680 --> 02:08:21.120]  where we stand for this very unusual time in beta season right and it is you know it's out now right
+[02:08:21.120 --> 02:08:26.080]  it is there and your ipad you know if your ipad is eligible to support sage manager and you've
+[02:08:26.080 --> 02:08:32.560]  upgraded to ipad six ipad os 16 it's off by default but it's there for you to turn it on
+[02:08:32.560 --> 02:08:39.280]  and therefore fair game for criticism and it is here's i'm gonna quote a side note from your
+[02:08:39.280 --> 02:08:44.800]  review i'm gonna quote the whole thing but you wrote up talking about stage manager you made
+[02:08:44.800 --> 02:08:51.600]  a side note that says in this article i'll use the term apps and workspaces interchangeably since in
+[02:08:51.600 --> 02:08:56.400]  the context of stage manager they indicate the same thing you can have a workspace with a single
+[02:08:56.400 --> 02:09:01.520]  app in it that the workspaces i think are you're talking about those things on the left yeah the
+[02:09:01.520 --> 02:09:07.200]  stages the workspaces yeah and but technically those can be workspaces with different apps in
+[02:09:07.200 --> 02:09:12.480]  them you get the idea don't think about the terminology too hard because not even apple
+[02:09:12.480 --> 02:09:18.400]  did and they get paid to do this stuff i thought that was so cleverly said but i also think if
+[02:09:18.400 --> 02:09:24.000]  anything that's the one part the whole gist of the article is your problems with stage manager
+[02:09:24.000 --> 02:09:30.800]  and your problems with ipad os 16 testing it over the summer it's a keen point that they're
+[02:09:30.800 --> 02:09:35.120]  even apple didn't think through the terminology but i actually think that it gets to the heart
+[02:09:35.120 --> 02:09:41.760]  of what's wrong with stage manager that if you don't have names yeah for these things
+[02:09:43.360 --> 02:09:47.760]  it's not just a sign that you didn't come up with good names it's a sign that you haven't
+[02:09:47.760 --> 02:09:54.800]  thought through the way the system works thoroughly enough yes and i think it goes back to
+[02:09:54.800 --> 02:10:01.360]  there are many little things that one could say are wrong with stage manager but there is the one
+[02:10:01.360 --> 02:10:12.720]  objective issue with it is that on ipad os windows like windowing happens to an app it's not something
+[02:10:12.720 --> 02:10:20.720]  that is intrinsically part of the os itself and that's because ipad apps right now if you enable
+[02:10:20.720 --> 02:10:26.800]  stage manager an ipad app has no idea that it's running in stage manager like the developer as far
+[02:10:26.800 --> 02:10:32.400]  as the developer goes they don't know if the app is in full screen if the app is in stage manager
+[02:10:32.400 --> 02:10:39.520]  if you're using regular ipad os or stage manager ipad os and i think which is that's a whole
+[02:10:39.520 --> 02:10:44.400]  conversation as to why apple chose this technical approach but i think that reflects on the
+[02:10:44.400 --> 02:10:50.960]  i think that reflects on the foundation of the thing and maybe the confusion that there is on
+[02:10:50.960 --> 02:10:56.880]  apple's side in terms of like okay how do we call these things and what limitations do we set and
+[02:10:56.880 --> 02:11:04.000]  i've seen so many different like i still don't understand if the windows are called piles or not
+[02:11:04.000 --> 02:11:08.800]  are they called stages all i know is that there's the strip i think that's the official name for it
+[02:11:08.800 --> 02:11:15.440]  the strip on the left your workspace is also sometimes referred to as the stage but then you
+[02:11:15.440 --> 02:11:23.360]  have windows in a stage and yeah it's it gets very complicated there so that would be my highest
+[02:11:23.360 --> 02:11:30.400]  level takeaway if i got five minutes to talk to craig federighi and everybody else at apple or
+[02:11:30.400 --> 02:11:35.760]  if they're listening to anybody there who's making these decisions my highest level advice for where
+[02:11:35.760 --> 02:11:42.960]  does apple go to to improve stage manager to fulfill its potential which i think everybody
+[02:11:42.960 --> 02:11:51.440]  agrees yeah whether you're a like you somebody who's truly an ipad power user and you find it to
+[02:11:51.440 --> 02:11:58.800]  be your most productive platform for doing truly significant work that involves inherently right i
+[02:11:58.800 --> 02:12:02.640]  trust me i know what it's like when you're writing articles and you're building up lists and you've
+[02:12:02.640 --> 02:12:09.040]  got an app with your notes and an outline for where you're going and safari tabs and you're
+[02:12:09.040 --> 02:12:15.280]  writing and you're adding markdown links for all this stuff and how much multitasking and getting
+[02:12:15.280 --> 02:12:21.040]  in the flow and and you thrive in this environment and so presumably stage manager ought to be
+[02:12:21.040 --> 02:12:28.320]  something that makes you feel like even more in the flow or to somebody who's more like me who
+[02:12:28.320 --> 02:12:34.880]  the ipad is a secondary platform and it isn't and probably never will be my main platform for work
+[02:12:34.880 --> 02:12:41.040]  but i think across the board if people see the potential of stage manager i think that it the
+[02:12:41.040 --> 02:12:49.280]  best sign of that is how after the wwdc keynote when they unveiled it for both mac and ipad and
+[02:12:49.280 --> 02:12:57.680]  said it's only coming to the m1 and later ipad pros how many people instantly were well wait i've
+[02:12:57.680 --> 02:13:06.960]  got a you know like mine the 2018 ipad pro or the a12z from the generation before the m1 i want this
+[02:13:06.960 --> 02:13:12.160]  too because you see the potential but how does apple go from where it is today which is clearly
+[02:13:12.160 --> 02:13:19.920]  unsatisfactory to where it wants to be my top advice would be you know you're on to something
+[02:13:19.920 --> 02:13:28.480]  when you've got terms for all of these things that make sense and because that's a sign that
+[02:13:28.480 --> 02:13:36.640]  the concept has been honed to a clear vision that is understandable that you have names for these
+[02:13:36.640 --> 02:13:42.400]  things and the fact that you that even apple as you pointed out in the side note even apple
+[02:13:42.400 --> 02:13:49.520]  doesn't really have consistent clear names for this is proof that the idea is currently muddled
+[02:13:49.520 --> 02:13:56.800]  hazy vague it's incomplete in the way that software can be like this software everybody
+[02:13:56.800 --> 02:14:03.600]  has used apps or websites where it's like this is not a cohesive consistent system for whether it's
+[02:14:03.600 --> 02:14:10.160]  a website for a store or enterprise software or something in a way that hardware can't be you
+[02:14:10.160 --> 02:14:14.880]  can't have hardware where it's like ah there's a button but we don't know what the button does
+[02:14:14.880 --> 02:14:20.080]  we don't know what or here's a button that doesn't have a name right like when app when
+[02:14:20.080 --> 02:14:26.400]  apple added a new button to apple watch ultra they gave it a name and it's called the action
+[02:14:26.400 --> 02:14:32.240]  button and it's a good name because it describes what you do with the button you assign an action
+[02:14:32.240 --> 02:14:38.640]  to the button and it's a great name it is a great addition to the hardware but the fact that there's
+[02:14:38.640 --> 02:14:43.680]  a good name for it is proof that it's a cohesive idea for a feature and the fact that stage
+[02:14:43.680 --> 02:14:50.960]  managers components have no good names is the red flag that this was not conceptually baked
+[02:14:51.600 --> 02:15:00.240]  yeah and i do think that usually that kind of refinement is what you get during the beta season
+[02:15:00.240 --> 02:15:06.000]  right that kind of okay let's sit down let's start giving these things proper terms and you end up
+[02:15:06.000 --> 02:15:11.680]  with support documents right and everything is really fleshed out by september but here i think
+[02:15:11.680 --> 02:15:21.280]  the single problem that created this chaos in the ipad os timeline this summer was that apple maybe
+[02:15:22.720 --> 02:15:28.800]  mismanaged a little the announcement of stage manager when they said oh this is going to be m1
+[02:15:28.800 --> 02:15:37.840]  only by having to reverse that decision i fear that all the development time and the design time
+[02:15:37.840 --> 02:15:45.280]  that usually goes into refinements listening to feedback adding options settings changing a few
+[02:15:45.280 --> 02:15:51.120]  things here and there all that time and all that engineering effort instead went into making sure
+[02:15:51.120 --> 02:15:57.040]  that this thing can work on older hardware with limits yeah and so you end up in but you end up
+[02:15:57.040 --> 02:16:04.240]  still with releasing this now it works on older hardware but essentially you have the same stage
+[02:16:04.240 --> 02:16:12.640]  manager that you have at wwc like it's like now we are in june but it's actually october end of
+[02:16:12.640 --> 02:16:19.040]  october right because all that time went into restructuring the very foundation to make sure
+[02:16:19.040 --> 02:16:26.560]  that it can work on a 2018 ipad pro so you i know i know that this is something i know from talking
+[02:16:26.560 --> 02:16:34.640]  to people who i know who work at apple that the apple has largely put well not even largely really
+[02:16:34.640 --> 02:16:41.840]  put their software platforms on an annual upgrade cycle where every year at wwc they make an
+[02:16:41.840 --> 02:16:50.000]  announcement for the next major new version of mac os ipad os ios watch os tv os even although i
+[02:16:50.000 --> 02:16:55.280]  guess tv os didn't make the wwc keynote this year but every year in the fall they're going to get a
+[02:16:55.280 --> 02:17:02.480]  new major version number the mac is going to get a new name like ventura and people can criticize
+[02:17:02.480 --> 02:17:09.520]  that and everybody loves to look back at mac os 10.6 i think was snow leopard yeah or was it
+[02:17:09.520 --> 02:17:15.760]  mountain lion i forget but it was the one where it went from the cat it might have been lion to
+[02:17:15.760 --> 02:17:19.680]  mountain lion but i know the number was 10 i remember the numbers better than the names but
+[02:17:19.680 --> 02:17:23.840]  the idea was we're not even going to give it a new cat name because it's just a variant and
+[02:17:23.840 --> 02:17:28.240]  quote unquote no new features even though they did actually add a bunch of features
+[02:17:28.240 --> 02:17:33.600]  but when they said that i think bertrand surlet was the still the the in the job that craig
+[02:17:33.600 --> 02:17:39.360]  federighi is now when he announced that it was applauded in the audience developers cheered
+[02:17:39.360 --> 02:17:45.360]  it was an applause line borderline standing ovation because that's what developers really
+[02:17:45.360 --> 02:17:52.640]  wanted was hey spend a year trimming fat fixing bugs addressing issues that aren't quote unquote
+[02:17:52.640 --> 02:18:01.040]  tentpole features but just shore up the foundation of this platform both technically and conceptually
+[02:18:01.680 --> 02:18:07.120]  as it's presented to the user to have a better place to go forward for the next decade to come
+[02:18:07.120 --> 02:18:12.720]  and people like to hear that but on the other hand i get it apple wants to have major new features
+[02:18:12.720 --> 02:18:18.000]  to announce it's a balancing game you don't have to have inside sources or no people who work there
+[02:18:18.000 --> 02:18:23.200]  to see that's how apple works that they're craig federighi's job at the highest level is largely
+[02:18:23.840 --> 02:18:32.480]  balancing the allocation of time programmers time on his various teams under his very wide
+[02:18:32.480 --> 02:18:38.000]  and large umbrella because he's in charge of all software that apple makes how much time is spent
+[02:18:38.000 --> 02:18:42.800]  improving and fixing bugs proving existing features and fixing bugs and how much is spent
+[02:18:42.800 --> 02:18:49.600]  on new stuff and the new the right balance is a mix of both hard not to see this year though
+[02:18:49.600 --> 02:18:56.800]  i can't help but feel that stage manager overall needed another year and that yeah maybe in trying
+[02:18:56.800 --> 02:19:02.000]  to achieve that right mix they were looking at here's the whiteboard again the thing i know that
+[02:19:02.000 --> 02:19:06.560]  one point i wanted to make is i know that there are software projects at apple that take two or
+[02:19:06.560 --> 02:19:13.040]  three years internally to come to fruition even though apple is on a one year at a head schedule
+[02:19:13.040 --> 02:19:18.640]  and there's going to be an ipad os 17 next year and there's going to be mac os 14 with a new name
+[02:19:19.520 --> 02:19:27.440]  but that the new features that will make it in and all of these platforms it come june 2023
+[02:19:27.440 --> 02:19:33.600]  next june there will be new features for these platforms and those features have been in the
+[02:19:33.600 --> 02:19:41.200]  works 18 months or two years as you and i speak today and at some point april or may they're
+[02:19:41.200 --> 02:19:46.000]  going to say this one makes the cut for this year this one i think needs another you know let's let
+[02:19:46.000 --> 02:19:51.840]  this go keep going we like where you this team is going but that's it's not ready for this year
+[02:19:52.400 --> 02:19:59.280]  can't help but feel very strongly that stage manager especially for ipad needed another year
+[02:19:59.280 --> 02:20:05.600]  but that maybe apple looked at the list of new features for ipad os and was yeah too tempted
+[02:20:05.600 --> 02:20:14.960]  to say we need something more yeah we need a wow feature for 2022 and they got too optimistic their
+[02:20:14.960 --> 02:20:19.200]  eyes were bigger than their stomach and food parlance and that they thought we can fix this
+[02:20:19.200 --> 02:20:25.040]  by the fall we're close and i don't think they were yeah and i think that's absolutely correct
+[02:20:25.040 --> 02:20:30.560]  and i think it was pretty telling in june steve transmit has been talking about this for a month
+[02:20:30.560 --> 02:20:35.680]  but it was pretty telling at the time that there was no developer framework for this right that
+[02:20:35.680 --> 02:20:43.520]  there was no no api for ipad os developers to say okay let me optimize for stage manager
+[02:20:43.520 --> 02:20:49.840]  and that reflects badly on the experience in in multiple ways i mean not even when you're comparing
+[02:20:49.840 --> 02:20:55.680]  how windows work on a mac versus how they work in ipad os but just all the things that you cannot
+[02:20:55.680 --> 02:21:02.160]  do like presenting a pop-up outside of the bounds of your own window right or just in general just
+[02:21:02.160 --> 02:21:08.080]  optimizing for a window environment even from a design perspective like maybe there's a ui that
+[02:21:08.080 --> 02:21:13.440]  you want to draw differently if your app is running in a window and obviously for users that
+[02:21:13.440 --> 02:21:19.360]  also means that ipad apps when they're running in a window they're just the full screen ui but
+[02:21:19.360 --> 02:21:24.480]  it's not shrunk down like you don't have a title bar you don't have any controls and so you end up
+[02:21:24.480 --> 02:21:28.240]  in this situation where if you want to move a window you gotta be extra careful when you grab
+[02:21:28.240 --> 02:21:33.760]  it because you have this invisible strip of pixels where the quote-unquote title bar is
+[02:21:33.760 --> 02:21:38.160]  supposed to be that's the invisible area that's where you can drag and that's because there's no
+[02:21:38.160 --> 02:21:43.040]  api for developers like on mac OS you know they can use appkit and say i want to draw a title
+[02:21:43.040 --> 02:21:47.120]  bar here and i want to make sure you know i want to have these buttons here and i want to have
+[02:21:47.120 --> 02:21:52.320]  controls because when my users are running my app in a window it's more convenient to have these
+[02:21:52.320 --> 02:21:57.760]  buttons right here they cannot do this on ipad os and so when you say you need another year i would
+[02:21:57.760 --> 02:22:04.080]  say yeah it absolutely needed another year because that the thing is i do believe that fundamentally
+[02:22:04.080 --> 02:22:10.480]  the idea is correct that that it's the given like if you if you asked me 10 years ago do you think
+[02:22:10.480 --> 02:22:15.120]  the ipad is gonna get windowing i would have said you know 10 years ago absolutely not like that's
+[02:22:15.120 --> 02:22:21.840]  insanity but given how given where we are today i do think it's it was the logical conclusion like
+[02:22:21.840 --> 02:22:28.720]  you have an ipad with a keyboard and a big screen and a trackpad and a pointer and you can already
+[02:22:28.720 --> 02:22:34.720]  do split screen what's stopping you from doing windowing with this powerful chips that you have
+[02:22:34.720 --> 02:22:39.840]  and you have thunderbolt now and you can connect an external display like it's obviously we were
+[02:22:39.840 --> 02:22:46.560]  going in this direction and the idea the underlying idea i do think that it's like i wouldn't want to
+[02:22:46.560 --> 02:22:52.080]  see apple just discontinue stage manager like i and i don't think any of the people criticizing
+[02:22:52.080 --> 02:22:58.480]  stage manager are arguing for that but i need more time and at the same time i know that like
+[02:22:58.480 --> 02:23:03.440]  i'm trying to sort of force myself to use it and in other there's ton of people out there right now
+[02:23:03.440 --> 02:23:11.360]  saying yeah i don't get the complaints it's good enough and yes i think that for some people it is
+[02:23:11.360 --> 02:23:18.080]  good enough but if i were apple i would maybe ask myself the question why is it that some people
+[02:23:18.080 --> 02:23:22.720]  some of the people who are using ipad the most and i don't even want to count myself into this
+[02:23:22.720 --> 02:23:28.640]  but if you you know look at jason snell look at my friend chris lolly he runs an excellent youtube
+[02:23:28.640 --> 02:23:34.480]  channel where it used to be ipad first for a long time and then he switched to a macbook for obvious
+[02:23:34.480 --> 02:23:40.960]  reasons given the state of ipad os but even chris said you know stage manager it's not good enough
+[02:23:40.960 --> 02:23:49.120]  and i cannot exactly rely on it right now so why is it that your most loyal like the very definition
+[02:23:49.120 --> 02:23:54.800]  of power users are unhappy at the moment i mean obviously it's not like we came up all together
+[02:23:54.800 --> 02:24:01.280]  with the secret plan to hate stage manager right why is it that the users that are supposed to love
+[02:24:01.280 --> 02:24:08.240]  this are not loving this and so i hope that apple listens to that and just guess gets back to work
+[02:24:08.240 --> 02:24:12.960]  because i don't think anybody wants them to abandon it right i just i think we all wanted
+[02:24:12.960 --> 02:24:20.160]  to just keep refining it and next year there should really be a developer story for this as
+[02:24:20.160 --> 02:24:27.920]  well yeah this is the apple does not like to well they do they have these public betas over the
+[02:24:27.920 --> 02:24:33.760]  summer but in large part they don't really work other than the summer public betas they don't do
+[02:24:33.760 --> 02:24:41.680]  a lot of work in public and see the progress but it was their choice to ship stage manager for ipad
+[02:24:41.680 --> 02:24:49.200]  this year knowing how much influx the concept both the concept and the underlying technologies are
+[02:24:49.200 --> 02:24:55.600]  like you said that there's no developer api and a dev app really just knows what size class it
+[02:24:55.600 --> 02:25:02.640]  currently is not what context it's in which is clearly something that an app would like to know
+[02:25:02.640 --> 02:25:09.680]  is what context is my content in their choice to do this so hopefully they'll continue to work and
+[02:25:09.680 --> 02:25:19.040]  that will actually see conceptual and technical progress in 16.2 and 16.3 and 16.4 as this year
+[02:25:19.040 --> 02:25:27.120]  goes on and not just wait for june and here and coming later a year from now literally it'll be
+[02:25:27.120 --> 02:25:34.560]  a year from now when ipad os 17 ships which is when most people will see it not to make the
+[02:25:34.560 --> 02:25:40.960]  zillions of ipad users who want to use stage manager now wait until then for significant
+[02:25:40.960 --> 02:25:45.600]  improvements and it's apple doesn't typically do that but they don't typically ship a feature in the
+[02:25:45.600 --> 02:25:51.200]  state that stage manager is and again i'm with you completely where i keep comparing it i did
+[02:25:51.200 --> 02:25:56.160]  it on the podcast i think with jason last week and i've written about it but and it's perhaps
+[02:25:56.160 --> 02:26:01.520]  because it's fresh in my memory but also because i think it's a good example to me it's not like
+[02:26:01.520 --> 02:26:07.200]  the all-new safari tabs from last year's cycle which i spent a lot of time writing about and
+[02:26:07.200 --> 02:26:11.840]  perhaps had some influence on getting apple to change their mind and say never mind we'll stick
+[02:26:11.840 --> 02:26:18.320]  with the tabs that we have that to me and the reason i spent so much attention on it and
+[02:26:18.320 --> 02:26:22.800]  publicly wrote about it and wrote about it in an extremely critical way it was because i felt
+[02:26:22.800 --> 02:26:28.000]  strongly that it was truly a mistake and that there was no that this was not a path there was
+[02:26:28.000 --> 02:26:34.800]  no there's no destination down this path that is actually a better solution for tabs and it's all
+[02:26:34.800 --> 02:26:40.880]  it's going to do is drive people to other browsers like chrome that do have tabs right as it's
+[02:26:40.880 --> 02:26:46.560]  like i think i put my article last summer that the ads write themselves chrome the mac browser
+[02:26:46.560 --> 02:26:51.920]  where the tabs look like tabs right you don't want to be as safari's team did not want to be
+[02:26:51.920 --> 02:26:57.680]  in that position where the selling point for alternative browsers that that they would prefer
+[02:26:57.680 --> 02:27:02.160]  people not use they want people to use safari and be in the icloud ecosystem with bookmarks
+[02:27:02.160 --> 02:27:08.880]  and tab groups and performance wise apple knows that webkit performs better and makes the battery
+[02:27:08.880 --> 02:27:13.920]  last longer on max than chromium browsers too so they want you know they don't want people
+[02:27:15.520 --> 02:27:20.720]  to have the experience of thinking battery life is worse than it is because they're using a
+[02:27:20.720 --> 02:27:27.360]  browser that's less efficient but if the message is would you like your tabs to look like tabs
+[02:27:28.160 --> 02:27:33.680]  people are going to switch for that reason alone i don't feel that way about stage manager at all
+[02:27:33.680 --> 02:27:38.880]  which is why i i'm happy to spend time on a podcast with you and with jason last week and just
+[02:27:38.880 --> 02:27:44.720]  sort of talk about it in an open way as opposed to focusing on writing because i don't have a focus
+[02:27:44.720 --> 02:27:50.240]  thing and there's no possible way this is where i'm so happy about your article because i was like
+[02:27:50.240 --> 02:27:56.080]  ah federico wrote exactly what i wanted him to because he's thought this through and is has
+[02:27:56.080 --> 02:28:04.400]  done the best job i can imagine of clarifying an unclear concept right it's it's truly a
+[02:28:04.400 --> 02:28:11.280]  terrific article and i can't think of a harder thing to do to write clearly about a feature
+[02:28:11.280 --> 02:28:17.200]  whose problem is that it that it's it itself is not clear i'm so glad you said that because i
+[02:28:17.200 --> 02:28:22.720]  feel like i was going crazy i was losing like how do my how do i make sense of this and right and
+[02:28:22.720 --> 02:28:27.920]  this is why also like in the story i had this section at the end just like in case it's not
+[02:28:27.920 --> 02:28:35.920]  clear let me clarify the things i don't like like it really helped and like you i use i really like
+[02:28:35.920 --> 02:28:41.440]  working with notes and outlines when i'm working on these stories but i figured this is this can
+[02:28:41.440 --> 02:28:48.400]  be so confusing i hope it can be useful to people to have a very simple list of how this works and
+[02:28:48.400 --> 02:28:54.320]  the problems with it so yeah it's it was really challenging but thank you for saying that well
+[02:28:54.320 --> 02:28:58.640]  federico we've gone long enough you're very generous with your time i'll let you get on with
+[02:28:58.640 --> 02:29:03.760]  your evening but my thanks to you for coming back to the show and i and i'll just reiterate what i
+[02:29:03.760 --> 02:29:10.160]  said at the outset i really hope that this appearance is not followed by a global pandemic
+[02:29:10.160 --> 02:29:15.040]  oh my god not again i will also thank our sponsors we had four sponsors this episode we had
+[02:29:15.040 --> 02:29:19.120]  squarespace where you can make your next move memberful where you can monetize your passion
+[02:29:19.120 --> 02:29:25.680]  with membership hover find a domain name for your passion and collide a cross-platform endpoint
+[02:29:25.680 --> 02:29:31.280]  security solution for teams that value privacy and transparency and of course everybody can read
+[02:29:31.280 --> 02:29:38.640]  federico and his team and colleagues like john voorhees fine work at maxstories.net where you
+[02:29:38.640 --> 02:29:43.680]  continue to kill it absolutely thank you absolutely doing great stuff and we didn't even get to
+[02:29:43.680 --> 02:29:48.560]  ventura but john did have an excellent excellent review of that so there's all sorts of stuff for
+[02:29:48.560 --> 02:30:13.840]  all sorts of stuff for people to read this week mad max stories thank you federico thank you john
