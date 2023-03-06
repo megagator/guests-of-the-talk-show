@@ -6,7 +6,7 @@
 .graph {
   width: 100%;
   border-spacing: 0;
-  text-align: left;
+  /* text-align: left; */
 }
 
 .hidden {
@@ -78,8 +78,11 @@ tbody td {
   padding: 0.375rem 0.75rem;
 }
 
-tbody tr:nth-child(2n) td {
+tbody tr:nth-child(2n) {
   background-color: var(--dark);
+  /* background-image: url(../images/NSTexturedFullScreenBackgroundColor.png);
+  background-repeat: repeat;
+  box-shadow: 3px 3px 3px var(--dark) inset; */
 }
 
 tbody tr:nth-child(2n) td:first-child {
@@ -91,34 +94,48 @@ tbody tr:nth-child(2n) td:last-child {
   border-bottom-right-radius: var(--corder-radius-sm);
 }
 
+/* .event td:nth-child(2) {
+  width: 33.333%;
+  display: block;
+} */
+
 .event td > span {
   display: flex;
   justify-content: space-between;
 }
+/* .event td span span:first-child {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
 .event td span span:last-child {
+  white-space: nowrap;
   padding-left: 1rem;
   text-align: right;
+  font-family: 'Gill Sans MT', 'Gill Sans', 'Gill Sans Std', Verdana,
+    'Bitstream Vera Sans', sans-serif;
+  text-transform: uppercase;
+  color: var(--white-600);
 }
 .event td:last-child {
   text-align: right;
 }
 
+.appearances .event td span span:last-child {
+  text-align: right;
+}
+
 @media (max-width: 500px) {
-  .event td > span,
+  .event td > span {
+    display: block;
+  }
+
   .event td > span span {
     display: block;
   }
 
   .event td span span:last-child {
-    /* text-align: left; */
-    font-family: 'Gill Sans MT', 'Gill Sans', 'Gill Sans Std', Verdana,
-      'Bitstream Vera Sans', sans-serif;
-    text-transform: uppercase;
-    color: var(--white-600);
     padding-left: 0;
-  }
-
-  .appearances .event td span span:last-child {
     text-align: left;
   }
 }

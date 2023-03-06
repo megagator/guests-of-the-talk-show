@@ -22,7 +22,7 @@ const guestTemplate = (props) => {
       <div className={mainStyle.container}>
         <Header isSingular={true} />
         <h1
-          className={`${mainStyle.title} ${mainStyle.text_center} ${mainStyle.m_bot_lg} ${mainStyle.m_top_lg}`}
+          className={`${mainStyle.title} ${mainStyle.center} ${mainStyle.m_bot_lg} ${mainStyle.m_top_lg}`}
         >
           {guest}
         </h1>

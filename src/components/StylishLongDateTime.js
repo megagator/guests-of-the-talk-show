@@ -8,14 +8,18 @@ const longDateFmt = {
   month: 'long',
   day: '2-digit',
   year: 'numeric',
+}
+
+const timeFmt = {
   hour: 'numeric',
   minute: 'numeric',
 }
 
 const StylishLongDateTime = (props) => {
-  let fullDate = isoToLocalString(props.date, longDateFmt)
+  const fullDate = isoToLocalString(props.date, longDateFmt)
+  const [day, date, year] = fullDate.split(',')
 
-  let [day, date, year, time] = fullDate.split(',')
+  const time = isoToLocalString(props.date, timeFmt)
 
   return (
     <>

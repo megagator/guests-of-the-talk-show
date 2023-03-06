@@ -53,6 +53,16 @@ const makeSortTitle = (currentSort, currentOrder, buttonsSort) => {
   return `Sort the table by the ${sortString}, ${order}`
 }
 
+// const randomBackgroundPosition = () => {
+//   const randX = Math.round(Math.random() * 200 - 100)
+//   const randY = Math.round(Math.random() * 200 - 100)
+//   const res =  {
+//     backgroundPosition: `${randX}% ${randY}%`
+//   }
+//   console.log(res)
+//   return res
+// }
+
 const AppearanceTable = () => {
   let [sort, setSort] = React.useState(SortKey.PodcastNumber)
   let [order, setOrder] = React.useState(SortOrder.Desc)
@@ -157,7 +167,7 @@ const AppearanceTable = () => {
         <tbody>
           {Object.keys(sortedGuests).map((guest, i) => {
             return (
-              <tr key={guest} className={mainStyle.event}>
+              <tr key={guest} className={tableStyle.event}>
                 <td>
                   <Link to={`/guest/${slugify(guest)}`}>{guest}</Link>
                 </td>

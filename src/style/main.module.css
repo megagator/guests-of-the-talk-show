@@ -86,10 +86,6 @@ header a {
   letter-spacing: 0.2em;
 }
 
-.text_center {
-  text-align: center;
-}
-
 em {
   font-family: script;
   font-weight: normal;
@@ -164,6 +160,10 @@ h6 {
   text-align: center;
 }
 
+.right {
+  text-align: right;
+}
+
 .m_top_0 {
   margin-top: 0;
 }
@@ -232,38 +232,6 @@ h6 {
   background-color: var(--colorful-10);
   color: var(--colorful-dark-10);
   border-color: var(--colorful-dark-10);
-}
-
-.event td > span {
-  display: flex;
-  justify-content: space-between;
-}
-.event td span span:last-child {
-  padding-left: 1rem;
-  text-align: right;
-}
-.event td:last-child {
-  text-align: right;
-}
-
-@media (max-width: 500px) {
-  .event td > span,
-  .event td > span span {
-    display: block;
-  }
-
-  .event td span span:last-child {
-    /* text-align: left; */
-    font-family: 'Gill Sans MT', 'Gill Sans', 'Gill Sans Std', Verdana,
-      'Bitstream Vera Sans', sans-serif;
-    text-transform: uppercase;
-    color: var(--white-600);
-    padding-left: 0;
-  }
-
-  .appearances .event td span span:last-child {
-    text-align: left;
-  }
 }
 
 .site_footer {

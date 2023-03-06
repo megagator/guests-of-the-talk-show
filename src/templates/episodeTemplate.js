@@ -26,16 +26,19 @@ const guestTemplate = (props) => {
       </Helmet>
       <div className={mainStyle.container}>
         <Header />
-        <h2 className={mainStyle.title_thin} title={episode.rawTitle}>
-          <>
-            <small>Episode {episode.number}</small>
-            <br />
-            <a href={episode.link}>〝{episode.title}〞</a>
-          </>
+        <h2
+          className={`${mainStyle.title_thin} ${mainStyle.center}`}
+          title={episode.rawTitle}
+        >
+          <small>Episode {episode.number}</small>
+          <br />
+          <a href={episode.link}>〝{episode.title}〞</a>
         </h2>
-        <p>
+        <p className={mainStyle.center}>
           <em>
-            with <GuestList guests={episode.guests} />
+            with:
+            <br />
+            <GuestList guests={episode.guests} />
           </em>
         </p>
         <audio controls preload="none">

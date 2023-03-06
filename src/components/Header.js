@@ -13,7 +13,7 @@ const Header = (props) => {
       </Helmet>
       <header className={mainStyle.m_top_lg}>
         <Link to="/">
-          <h1 className={`${mainStyle.headline} ${mainStyle.text_center}`}>
+          <h1 className={`${mainStyle.headline} ${mainStyle.center}`}>
             {guestNoun} <em>of</em>The Talk Show
           </h1>
         </Link>

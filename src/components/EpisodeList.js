@@ -118,7 +118,7 @@ const EpsisodeList = (props) => {
         <tbody>
           {filteredEpisodes.map((epi, i) => {
             return (
-              <tr key={`episode_${epi.number}`} className={mainStyle.event}>
+              <tr key={`episode_${epi.number}`} className={tableStyle.event}>
                 <td>
                   <span>
                     <span>
@@ -129,7 +129,9 @@ const EpsisodeList = (props) => {
                     <span>{isoToLocalString(epi.pubDate)}</span>
                   </span>
                 </td>
-                <td>{friendlyDuration(epi.durationSeconds)}</td>
+                <td className={mainStyle.right}>
+                  {friendlyDuration(epi.durationSeconds)}
+                </td>
               </tr>
             )
           })}
