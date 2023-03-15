@@ -23,6 +23,7 @@ const GuestStats = (props) => {
   const [next, setNext] = React.useState(null)
   const [nextDiff, setNextDiff] = React.useState(null)
   const [fitAlgorithmChoice, setAlgorithmChoice] = React.useState('L2')
+  const [disabledAlgorithms, setDisabledAlgorithms] = React.useState(new Set())
 
   React.useEffect(() => {
     const filteredEpisodes = Episodes.filter((epi) => {
@@ -40,9 +41,18 @@ const GuestStats = (props) => {
     filteredEpisodes.reverse()
     setEpisodes(filteredEpisodes)
 
+    // L2 doesn't work with fewer than 3 data points
+    if (fitAlgorithmChoice === 'L2' && filteredEpisodes.length < 3) {
+      console.log('disabling L2')
+      setAlgorithmChoice('Average')
+      setDisabledAlgorithms(new Set([...disabledAlgorithms, 'L2']))
+    }
+  }, [props.guest])
+  
+  React.useEffect(() => {
     const daysInBetween = []
     let previousApp = null
-    for (const appearance of filteredEpisodes) {
+    for (const appearance of episodes) {
       if (previousApp !== null) {
         const newApp = DateTime.fromISO(appearance.pubDate)
         const diff = newApp.diff(previousApp, 'days').toObject()
@@ -78,7 +88,7 @@ const GuestStats = (props) => {
       setNext(null)
       setNextDiff(null)
     }
-  }, [fitAlgorithmChoice, props.guest])
+  }, [fitAlgorithmChoice, episodes])
 
   return (
     <div className={statStyle.stat_table}>
@@ -131,11 +141,14 @@ const GuestStats = (props) => {
                 value={fitAlgorithmChoice}
                 onChange={(event) => setAlgorithmChoice(event.target.value)}
               >
-                {Object.keys(algorithmOptions).map((option) => (
-                  <option key={option} value={option}>
-                    {option}
-                  </option>
-                ))}
+                {Object.keys(algorithmOptions).map((option) => {
+                  const disabled = disabledAlgorithms.has(option)
+                  return (
+                    <option key={option} value={option} disabled={disabled}>
+                      {option}
+                    </option>
+                  )
+                })}
               </select>
             </td>
           </tr>
