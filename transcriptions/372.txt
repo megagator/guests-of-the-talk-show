@@ -1,0 +1,1146 @@
+[00:00.000 --> 00:02.320]  Rene, good to have you here.
+[00:02.320 --> 00:03.160]  Good to be here, John.
+[00:03.160 --> 00:05.800]  This is unusual for people who don't know the behind the scenes stuff.
+[00:05.800 --> 00:09.440]  We are using a system that is typically used by YouTube streamers.
+[00:09.440 --> 00:11.880]  So I feel very much at home right now.
+[00:11.880 --> 00:13.280]  Yeah, I'm looking at you.
+[00:13.280 --> 00:14.600]  It's more than just audio.
+[00:14.600 --> 00:15.440]  So we'll see.
+[00:15.440 --> 00:16.920]  We'll see how it goes.
+[00:16.920 --> 00:18.360]  There's a lot going on.
+[00:18.360 --> 00:23.160]  We just talked for your YouTube show and we could start with it and just reiterate.
+[00:23.160 --> 00:26.200]  We could just repeat everything we said on your show.
+[00:26.200 --> 00:27.520]  I can just send you the recording.
+[00:27.520 --> 00:30.000]  That's helpful.
+[00:30.000 --> 00:34.800]  But we talked on your show, we did a whole thing about Apple's entry into generative
+[00:34.800 --> 00:37.520]  AI or what do we expect, which they haven't been into yet.
+[00:37.520 --> 00:38.600]  And I won't reiterate the whole thing.
+[00:38.600 --> 00:41.680]  They can just watch your fun show and see me blather there.
+[00:41.680 --> 00:46.000]  But I'll skip to the end, which was with WWDC coming up.
+[00:46.000 --> 00:46.960]  Spoiler warning.
+[00:46.960 --> 00:48.160]  Yeah, spoiler warning.
+[00:48.160 --> 00:54.760]  Do we expect any generative AI news from Apple at WWDC?
+[00:54.760 --> 01:02.920]  My thing is Xcode because all the other major IDEs out there led by Microsoft co-pilot
+[01:02.920 --> 01:07.520]  or GitHub co-pilot, whoever's branding it is, have these things where if you're writing
+[01:07.520 --> 01:14.440]  programming code in your IDE, the same way that you and I can stick around with chat
+[01:14.440 --> 01:23.400]  GPT coming up, trying to get it to write a screenplay for the 15 Fast and Furious movie
+[01:23.400 --> 01:24.400]  or whatever.
+[01:24.400 --> 01:30.080]  The Star Wars prequels as if they were written and directed by the Empire Strikes Back team.
+[01:30.080 --> 01:31.080]  Right.
+[01:31.080 --> 01:35.960]  Or even weirder, Wes Anderson, Wes Anderson Star Wars movie or something like that.
+[01:35.960 --> 01:40.640]  Actually that was one of the, there's so many of these floating around, but one of the generative
+[01:40.640 --> 01:45.600]  arts that was floating around I saw in the last week was a movie about the World Cup
+[01:45.600 --> 01:47.920]  soccer directed by blank.
+[01:47.920 --> 01:49.760]  And it was like 10 of these things.
+[01:49.760 --> 01:53.880]  The Kubrick one is obviously why people send it to me, but like the Wes Anderson one was
+[01:53.880 --> 01:54.880]  amazing.
+[01:54.880 --> 01:55.880]  It really did.
+[01:55.880 --> 02:00.840]  It really did look like the poster from Wes Anderson's soccer movie.
+[02:00.840 --> 02:02.040]  Unbelievable.
+[02:02.040 --> 02:06.720]  It doesn't look like anything else that he's done, but it's not like, Oh, they just took
+[02:06.720 --> 02:09.240]  blank and then just put soccer uniforms on it.
+[02:09.240 --> 02:13.360]  It looked like an original composition, but totally amazing.
+[02:13.360 --> 02:17.080]  We have prompts that'll turn live action movies into as if Pixar had made them, which are
+[02:17.080 --> 02:19.240]  always astonishing as well.
+[02:19.240 --> 02:20.380]  Right.
+[02:20.380 --> 02:27.640]  My big thing that I'm looking for on the AI front at WWDC is Xcode code chat help to help
+[02:27.640 --> 02:34.420]  fill in source code, which either, either they've been ready.
+[02:34.420 --> 02:37.040]  This isn't the sort of thing they could squeeze in at the last minute.
+[02:37.040 --> 02:41.720]  They they've either been planning for this cause they've seen it coming from copilot
+[02:41.720 --> 02:45.920]  or it's going to WWDC comes and goes and they don't mention it.
+[02:45.920 --> 02:47.920]  And to me, that's a swing and a miss.
+[02:47.920 --> 02:54.620]  So, and, and again, like the, the, the reason it really matters is Xcode is the only game
+[02:54.620 --> 02:57.840]  in town for creating software for Apple platforms.
+[02:57.840 --> 03:03.960]  It's so like if a final cut doesn't come out with AI editing features, well, you can still
+[03:03.960 --> 03:06.400]  use Adobe premiere on your Mac.
+[03:06.400 --> 03:07.880]  You can't really solve any of those.
+[03:07.880 --> 03:08.880]  Yeah.
+[03:08.880 --> 03:09.880]  Yeah.
+[03:09.880 --> 03:13.580]  You can't, but you can't really substitute anything for Xcode at a certain level.
+[03:13.580 --> 03:18.320]  Something you're looking for on the AI front from Apple at WWDC.
+[03:18.320 --> 03:19.320]  Yeah.
+[03:19.320 --> 03:20.560]  I mean, I think like there's, there's camera features.
+[03:20.560 --> 03:25.080]  I would love to see, for example, a version of the pixels, magic eraser, or just out painting,
+[03:25.080 --> 03:29.000]  which is like, you can crop into an image, but if you need to crop out, it can generate
+[03:29.000 --> 03:30.000]  just like quick backup.
+[03:30.000 --> 03:33.960]  So basically what these systems do is they ask what's next, what's the next pixel, what's
+[03:33.960 --> 03:34.960]  the next word.
+[03:34.960 --> 03:37.780]  And then they make their best, their best guess as to what that could be.
+[03:37.780 --> 03:41.820]  So if you take a photo and it's poorly framed, but you need more of the photo, it could figure
+[03:41.820 --> 03:44.200]  out where all those pixels should be.
+[03:44.200 --> 03:45.200]  So that kind of stuff.
+[03:45.200 --> 03:49.880]  And also I think we've gotten to a point where the AI is just way over-processing faces and,
+[03:49.880 --> 03:50.880]  and scenes in general.
+[03:50.880 --> 03:52.800]  They look almost baked at this point.
+[03:52.800 --> 03:55.840]  So if the, if you get to a point where the AI looks natural again, I think that would
+[03:55.840 --> 03:57.080]  be hugely welcome.
+[03:57.080 --> 03:58.080]  Yeah.
+[03:58.080 --> 04:04.480]  It's like, I'm sort of getting spoiled by using natural language to direct these things.
+[04:04.480 --> 04:08.560]  And I'm not even all that heavily, you know, I don't spend that much time on a weekly basis
+[04:08.560 --> 04:10.120]  playing with these things.
+[04:10.120 --> 04:16.300]  But it's like, they've added all of these great features to the iOS camera app over
+[04:16.300 --> 04:17.300]  the years.
+[04:17.300 --> 04:22.760]  I think they've done it at just a remark and as somebody who just bought a Ricoh GR3X,
+[04:22.760 --> 04:27.920]  which I, I think has a, I think Ricoh has a better interface for their camera than most
+[04:27.920 --> 04:30.300]  camera makers.
+[04:30.300 --> 04:38.160]  But even it, that's a very low bar and I'm continuously impressed as I familiarize myself
+[04:38.160 --> 04:42.840]  with the Ricoh settings and how to change the different modes and which button to use
+[04:42.840 --> 04:43.840]  for which.
+[04:43.840 --> 04:48.240]  Continually like, Hey, that's a lot better on the iPhone camera.
+[04:48.240 --> 04:49.240]  Right.
+[04:49.240 --> 04:53.000]  And it's, but you know, you've got like a little, Oh, that's how you toggle action mode
+[04:53.000 --> 04:54.000]  on and off.
+[04:54.000 --> 04:58.440]  Oh, but, but cinematic mode is an entirely different video mode.
+[04:58.440 --> 05:00.320]  So I kind of, you kind of learn these things.
+[05:00.320 --> 05:04.560]  At some point you just want to tell the iPhone camera, please make this look more natural.
+[05:04.560 --> 05:05.560]  Right.
+[05:05.560 --> 05:06.560]  Like Zork.
+[05:06.560 --> 05:10.160]  We were like, again, we've got, we've been bombed back to the interface of Zork.
+[05:10.160 --> 05:13.760]  You just want to say, take this picture as though it is from this camera and then it'll
+[05:13.760 --> 05:18.000]  give you like your favorite ancient Leica camera or something that you just loved.
+[05:18.000 --> 05:19.000]  Right.
+[05:19.000 --> 05:24.040]  And I do, it's, I think Marques Brownlee had a pretty, all of his videos are widely viewed,
+[05:24.040 --> 05:28.500]  but he, he had a pretty good one in the last couple of weeks about like, Hey, what's going
+[05:28.500 --> 05:30.840]  on with the iPhone camera?
+[05:30.840 --> 05:35.640]  And so I think he's talking about the same thing you're alluding to where, where it's
+[05:35.640 --> 05:39.800]  not that pictures look bad, but they just, it's, it's a clear sign of, oh, I think over
+[05:39.800 --> 05:40.800]  processing.
+[05:40.800 --> 05:41.800]  Right.
+[05:41.800 --> 05:42.800]  It's not a hundred percent.
+[05:42.800 --> 05:46.680]  It's like, if you take a bad photo and you put it through an AI photo, like regenerator,
+[05:46.680 --> 05:47.960]  sometimes it can't do very much.
+[05:47.960 --> 05:51.000]  And that's what it looks like sometimes, like it's trying to fix the image.
+[05:51.000 --> 05:52.000]  I had this great story.
+[05:52.000 --> 05:56.920]  So I went to Justine and Jenna Ezarik's creator camp two weeks ago and they gave us paper
+[05:56.920 --> 05:59.960]  maps, which was great, but I didn't want to carry it with me.
+[05:59.960 --> 06:04.220]  So I took a photo of the map because I wanted to see all the little numbers on it.
+[06:04.220 --> 06:07.200]  And when I zoomed in later to see it, there were no numbers.
+[06:07.200 --> 06:11.680]  It thought it was a pattern and tried to reinterpret it, interpret it as a pattern, but it made
+[06:11.680 --> 06:13.560]  the numbers illegible.
+[06:13.560 --> 06:17.800]  And if it had just photographed the pixels of what was there, I would have been able
+[06:17.800 --> 06:19.140]  to read it easily.
+[06:19.140 --> 06:24.040]  But the AI processing was so much that it made it useless for that particular task.
+[06:24.040 --> 06:25.040]  That's pretty funny.
+[06:25.040 --> 06:26.040]  Right.
+[06:26.040 --> 06:28.400]  I, some stuff on that front would be good.
+[06:28.400 --> 06:32.320]  And I guess the other, as we mentioned on your show, but the big elephant in the room
+[06:32.320 --> 06:34.400]  is Siri, right?
+[06:34.400 --> 06:43.580]  And they can't no matter what there's it's well, can't, I guess, is famous last words
+[06:43.580 --> 06:52.600]  in all of computers, but at the moment, there's no practical way for Siri to entirely be backed
+[06:52.600 --> 06:56.480]  by an open AI chat, GPT style backend.
+[06:56.480 --> 07:02.280]  You can see it when you talk, when you type to these things, how slow they are, right?
+[07:02.280 --> 07:03.280]  Yeah.
+[07:03.280 --> 07:09.040]  You can actually see the words coming out of the chat GPT coming in.
+[07:09.040 --> 07:11.760]  It takes sometimes multiple seconds.
+[07:11.760 --> 07:19.640]  You type your command and hit return and it's dot, dot, dot for a while before you get an
+[07:19.640 --> 07:20.640]  answer.
+[07:20.640 --> 07:23.400]  Siri obviously can't work that slowly.
+[07:23.400 --> 07:27.240]  I do dream though, I dream that we will get to the point where the Zork interface is replaced
+[07:27.240 --> 07:31.080]  with a natural language audio interface, not for everything, but like where it's useful.
+[07:31.080 --> 07:35.440]  And we basically get to the point of that Avengers scene with Tony Stark, where he has
+[07:35.440 --> 07:41.700]  the mixed reality glasses on, and he has this, this conversational interface with Jarvis.
+[07:41.700 --> 07:44.720]  And he says, like, he starts making a molecule and he's like, give me this, give me that.
+[07:44.720 --> 07:47.220]  He moves his hands around, but he says, add this and do that.
+[07:47.220 --> 07:53.580]  And that feels like what craft is inevitably it has to be in the digital AI mixed reality
+[07:53.580 --> 07:54.580]  world.
+[07:54.580 --> 08:00.320]  And you just wonder what maybe because Apple has a different perspective because they,
+[08:00.320 --> 08:09.560]  they're always designing for, we've got literally a billion devices out there that are whatever
+[08:09.560 --> 08:13.200]  it is we're, we're building towards in the AI front.
+[08:13.200 --> 08:18.260]  We've got a billion devices out there that we know the Silicon, we designed it from the
+[08:18.260 --> 08:21.360]  ground up or from the sand up, if you prefer.
+[08:21.360 --> 08:26.200]  Do they have an entirely different perspective on how to approach AI and the modern world
+[08:26.200 --> 08:32.040]  of these large language mod models that can do more local processing?
+[08:32.040 --> 08:38.280]  I mean, and I, everything we've seen from the big leading end experts or entries like
+[08:38.280 --> 08:45.980]  chat GPT and Microsoft's integration of their technology and Google's barred is from companies
+[08:45.980 --> 08:47.700]  who are cloud first.
+[08:47.700 --> 08:51.700]  So of course it's cloud massively, right?
+[08:51.700 --> 08:59.240]  And we've seen on this, the, the device side smarts, lots of stuff that Apple's doing now
+[08:59.240 --> 09:06.840]  with the handwriting recognition, the recognition of, of things in photos, both for search.
+[09:06.840 --> 09:12.360]  So you can say, show me cars, and it shows you all the photos in your entire photo library
+[09:12.360 --> 09:14.360]  with cars.
+[09:14.360 --> 09:17.560]  And I forget what they call it, but the feature where you can take a picture and just sort
+[09:17.560 --> 09:22.280]  of drag the person and you get a cutout of the person.
+[09:22.280 --> 09:26.680]  And it shows you pictures with the words car, right, right, right.
+[09:26.680 --> 09:31.940]  And you can search for the text of things on signs in your photos.
+[09:31.940 --> 09:38.120]  It does all that stuff locally and that stuff that a decade ago, or even, even more recently,
+[09:38.120 --> 09:45.480]  a lot of people thought had to be done server side because that's the companies that were
+[09:45.480 --> 09:47.900]  already doing it were doing server side, right?
+[09:47.900 --> 09:52.640]  It can, that sort of thing can fool people into thinking, well, if everybody who's doing
+[09:52.640 --> 09:58.800]  X is doing it in the cloud server side, X has to be done server side.
+[09:58.800 --> 10:03.400]  And therefore Apple isn't, this isn't good for Apple because of privacy or because they
+[10:03.400 --> 10:05.000]  want to do stuff on devices.
+[10:05.000 --> 10:09.400]  But it, Apple's in a unique position where they can do stuff device side because they
+[10:09.400 --> 10:12.740]  have a billion devices with very fast silicon.
+[10:12.740 --> 10:16.020]  So what we see from Apple on the AI front might be different.
+[10:16.020 --> 10:21.920]  It might not feature like, I'm repeating myself a little bit here, but there's a lot of companies
+[10:21.920 --> 10:23.800]  are chip like chip set.
+[10:23.800 --> 10:27.480]  Like they will say, here's an NFC chip, figure out what you want to do with it.
+[10:27.480 --> 10:30.740]  Where Apple is very feature set and they're like, here is Apple pay.
+[10:30.740 --> 10:35.540]  And yes, it uses NFC behind the scenes, but if you didn't know that you would never know
+[10:35.540 --> 10:36.540]  that.
+[10:36.540 --> 10:39.720]  And so it's possible we'll see features from Apple that use generative AI or some other
+[10:39.720 --> 10:40.720]  things.
+[10:40.720 --> 10:43.920]  But what we do now, we were at, we were talking previously, like, did they even mention how
+[10:43.920 --> 10:48.000]  much AI is involved in holding your finger on the picture and dragging the thing out
+[10:48.000 --> 10:49.000]  of it?
+[10:49.000 --> 10:50.140]  I don't remember that they did.
+[10:50.140 --> 10:53.760]  And so we might see just a bunch of things that you can type in or do that are based
+[10:53.760 --> 10:54.760]  on these things.
+[10:54.760 --> 10:57.240]  And it's just, that is what is behind the scenes for the feature.
+[10:57.240 --> 10:58.240]  Yeah.
+[10:58.240 --> 10:59.240]  So we'll see.
+[10:59.240 --> 11:08.440]  I mean, I, I, I, at a meta level, it's always part of the, the it's, it's, it's why punditry
+[11:08.440 --> 11:09.480]  is still a thing.
+[11:09.480 --> 11:15.740]  It's oftentimes though, it's like, of course, after an Apple keynote, they would love it
+[11:15.740 --> 11:20.760]  if everybody was only talking about what they put in the keynote, but it's often what's
+[11:20.760 --> 11:25.180]  not in the keynote, but we didn't get that gets the most attention.
+[11:25.180 --> 11:31.040]  And I, I think to some degree, it's almost inevitable that we're going to be a little
+[11:31.040 --> 11:36.700]  we collectively, maybe not close watchers of Apple, but tech watchers in general will
+[11:36.700 --> 11:42.480]  be a little underwhelmed by the AI stuff because it's just not their game.
+[11:42.480 --> 11:48.240]  And it's not, but you know, who knows, but again, WWE or Xcode in particular to me is
+[11:48.240 --> 11:52.200]  the one that I'm most, most interested in because they really need to have it.
+[11:52.200 --> 11:55.560]  And if they don't do it this year, I think it's guaranteed to come next year, but that's
+[11:55.560 --> 11:56.560]  a whole year off.
+[11:56.560 --> 11:57.560]  Right.
+[11:57.560 --> 12:03.000]  And that's one of those, that's where Apple's annual cadence sort of hurts them.
+[12:03.000 --> 12:08.040]  There's no technical reason why they WWDC could come and go, and they don't say anything
+[12:08.040 --> 12:11.280]  about a co-pilot like feature for Xcode.
+[12:11.280 --> 12:14.320]  And they could call you to come to New York two months from now.
+[12:14.320 --> 12:15.320]  Oh yeah.
+[12:15.320 --> 12:18.720]  And come see these developers who we've seeded with this thing and it's coming out in October
+[12:18.720 --> 12:24.440]  or something like that, but it's probable major new Xcode features, and this would be
+[12:24.440 --> 12:27.400]  pretty major, typically only come once a year.
+[12:27.400 --> 12:29.800]  And they're the sort of thing they preview at WWDC.
+[12:29.800 --> 12:32.000]  So I'd be looking, looking for that.
+[12:32.000 --> 12:33.800]  Somewhere like your biggest strength is your biggest weakness.
+[12:33.800 --> 12:37.480]  And like for Apple, like Apple culture is incredibly strong, but it also means they
+[12:37.480 --> 12:41.240]  just can't get engineers often who won't relocate to Cupertino.
+[12:41.240 --> 12:45.800]  And the same way they, they are so good at having this integration of hardware, software
+[12:45.800 --> 12:49.840]  and platform technologies, but that takes two or three years to coordinate.
+[12:49.840 --> 12:53.520]  And then when something is changing so fast, the way the generative AI and just the whole
+[12:53.520 --> 12:56.160]  AI field are, it's like a butterfly keyboard.
+[12:56.160 --> 12:58.880]  You just don't have bandwidth to fix it for three years.
+[12:58.880 --> 13:03.960]  Can you not have bandwidth to offer something like this for a year if it's purely software
+[13:03.960 --> 13:07.960]  or for three years if it's hardware accelerated, something like that.
+[13:07.960 --> 13:11.760]  Let me take a break here and thank our first sponsor.
+[13:11.760 --> 13:14.080]  It's our good friends at Squarespace.
+[13:14.080 --> 13:23.760]  Squarespace, of course, is the all in one platform where you can build your brand online.
+[13:23.760 --> 13:25.000]  In other words, what do you do?
+[13:25.000 --> 13:26.920]  You're building a website, right?
+[13:26.920 --> 13:30.360]  And it sounds a little pedestrian.
+[13:30.360 --> 13:32.360]  People have been making their own websites.
+[13:32.360 --> 13:39.400]  There have been tools and services to help non-web developer people build and design
+[13:39.400 --> 13:43.600]  their own website 30 years.
+[13:43.600 --> 13:48.880]  But Squarespace has really taken this to a new level.
+[13:48.880 --> 13:57.440]  And the degree to which you get a direct manipulation, what you see is what you get.
+[13:57.440 --> 14:05.080]  Editing, tweaking, content creation, updating your blog, designing your whole website, tweaking
+[14:05.080 --> 14:10.700]  it from either starting with one of their great templates or starting from scratch with
+[14:10.700 --> 14:16.080]  your own design and doing all of the CSS and design stuff on your own.
+[14:16.080 --> 14:21.160]  At whatever level you want to interact with it, just using one of their many, many, many
+[14:21.160 --> 14:26.340]  templates and just choosing which elements to put there or starting from scratch with
+[14:26.340 --> 14:30.200]  your own design or somewhere in the middle where you start with one of their templates
+[14:30.200 --> 14:32.760]  and tweak it, Squarespace lets you do it.
+[14:32.760 --> 14:39.440]  But you do it right in the browser and so there's no guesswork like how will this look
+[14:39.440 --> 14:44.440]  when it's actually in the browser because you, the Squarespace account owner who are
+[14:44.440 --> 14:50.320]  doing it, what you're seeing as you're moving stuff around is what the people who come visit
+[14:50.320 --> 14:54.120]  your website will see except without the ability to actually edit it.
+[14:54.120 --> 15:02.800]  It's that direct manipulation of an experience and a terrific way to send your non-technical
+[15:02.800 --> 15:08.000]  friends who come to you as their resident nerd friend for help creating a new website
+[15:08.000 --> 15:12.520]  or I have an old website for my business and I want to update it with a new one, what should
+[15:12.520 --> 15:13.520]  I do?
+[15:13.520 --> 15:17.760]  Send them to Squarespace and if you want to do me a favor, send them a code for my show
+[15:17.760 --> 15:21.080]  which is squarespace.com slash talk show.
+[15:21.080 --> 15:25.660]  You get a free trial when you're ready to launch that just remember that same code talk
+[15:25.660 --> 15:30.840]  show when you pay, you get 10% off your first purchase.
+[15:30.840 --> 15:36.960]  You can pre-purchase a whole year, squarespace.com slash talk show.
+[15:36.960 --> 15:41.640]  Also in the news this week, Joanna Stern and Nicole Nguyen at the Wall Street Journal had
+[15:41.640 --> 15:47.360]  a follow-up on their, to me, Blockbuster story from February about the repercussions.
+[15:47.360 --> 15:49.160]  I've been talking about it on the show a little bit.
+[15:49.160 --> 15:54.480]  I want to have Joanna on the show soon to talk about it in detail because I can definitely
+[15:54.480 --> 15:58.480]  go two hours, three hours just talking about this.
+[15:58.480 --> 16:06.880]  The gist of their original story from February just to catch everybody up is that if an adversary
+[16:06.880 --> 16:12.920]  and we're talking mostly about thieves, if a thief has both your iPhone and your iPhone
+[16:12.920 --> 16:22.600]  device passcode, it more or less gives them root privileges in computer science terms,
+[16:22.600 --> 16:25.120]  god mode in game terms.
+[16:25.120 --> 16:33.120]  It's game over for just about everything built into the system on your phone including and
+[16:33.120 --> 16:39.840]  this is the part where it's like non-intuitive, your iCloud account because with just the
+[16:39.840 --> 16:44.960]  device passcode, you can go to settings and then the thing at the top for your iCloud
+[16:44.960 --> 16:52.000]  or Apple ID, the picture of you, you tap into that and then type security and password there
+[16:52.000 --> 16:57.480]  and you can just change the iCloud password without entering the old one.
+[16:57.480 --> 17:02.500]  And it's not as far-fetched as people think because in a bar situation, somebody could
+[17:02.500 --> 17:06.560]  be recording you, putting it in, they could be shoulder surfing you, putting it in.
+[17:06.560 --> 17:11.040]  If you're just not looking at your phone properly and you get fed up with face ID, touch ID,
+[17:11.040 --> 17:14.440]  type it in, they could get it and then when you're not paying attention, get your phone
+[17:14.440 --> 17:20.240]  as well which I think is how a lot of these attacks are happening.
+[17:20.240 --> 17:26.320]  They uncovered that and it's sort of like many security problems, there's a social engineering
+[17:26.320 --> 17:32.400]  aspect to it where either they work as a team and somebody shoulder surfs and somebody else
+[17:32.400 --> 17:39.600]  steals the phone, the one scam they do is look for people who are maybe out together
+[17:39.600 --> 17:45.720]  and make bar or temporary friends with them and say, hey, hand me your phone, let me take
+[17:45.720 --> 17:49.100]  a picture of you guys while you're celebrating this thing.
+[17:49.100 --> 17:52.520]  And that's not when they steal the phone but they take the phone and then when they hand
+[17:52.520 --> 17:58.460]  it back, if you squeeze the power and volume buttons to hard lock it, now the next time
+[17:58.460 --> 18:03.060]  you use your phone, all of a sudden face ID doesn't work anymore, you have to enter your
+[18:03.060 --> 18:07.040]  passcode and that's where they can see you enter your passcode because part of the mystery
+[18:07.040 --> 18:11.760]  of this whole thing is you don't really enter your passcode that often and ever since their
+[18:11.760 --> 18:16.720]  story came out, it's made me keenly aware of when I do and it almost never happens in
+[18:16.720 --> 18:24.500]  public although it did during COVID which is something and I don't know if the fact
+[18:24.500 --> 18:30.540]  that we were locked in and going to the grocery store felt like an adventure where you're
+[18:30.540 --> 18:31.540]  risking your life.
+[18:31.540 --> 18:33.660]  The zombie apocalypse.
+[18:33.660 --> 18:39.460]  It's like maybe I'm guessing phone thefts were down because people weren't going to
+[18:39.460 --> 18:44.020]  bars which is where this happens but we were entering our passcodes over and over and over
+[18:44.020 --> 18:49.240]  again because you couldn't use face ID with a mask while masks were mandatory.
+[18:49.240 --> 18:51.380]  I know it's a feature they have now.
+[18:51.380 --> 18:55.860]  But it still is kind of hit and miss because I've been traveling a lot lately and it is
+[18:55.860 --> 18:58.300]  still hit and miss from quite a bit.
+[18:58.300 --> 19:01.340]  Like it's me, I don't look down right or I don't hold the phone high up enough or whatever
+[19:01.340 --> 19:06.500]  it is but I don't want to put my passcode in so I force myself to do it properly but
+[19:06.500 --> 19:09.100]  it takes a while and it's frustrating.
+[19:09.100 --> 19:14.260]  The follow up that Joanna and Nicole had this week which is interesting too is that they've
+[19:14.260 --> 19:18.960]  uncovered that what some of these thieves are doing and it does seem like there's some kind
+[19:18.960 --> 19:25.160]  of checklist out there like here's how to run an iPhone theft scheme and what they want
+[19:25.160 --> 19:30.020]  to do is they take Shoulder Surf or somehow otherwise obtain your passcode, observe you
+[19:30.020 --> 19:33.900]  doing it, then they steal your phone and now they have your passcode and then they lock
+[19:33.900 --> 19:39.020]  you out of your iCloud because when you do change the iCloud password it says would you
+[19:39.020 --> 19:44.580]  like to, let's say you have a Mac and an iPad at home too.
+[19:44.580 --> 19:48.140]  When you change the passcode on the phone though it says would you like to lock out
+[19:48.140 --> 19:53.860]  all of your other devices and it's a feature intended to help people who think their account
+[19:53.860 --> 20:00.700]  has been compromised by a thief like somebody else maybe just has stolen their password
+[20:00.700 --> 20:05.500]  right not your device and your password but they just have your Apple ID or you think
+[20:05.500 --> 20:09.500]  somebody might have your Apple ID email and password combination.
+[20:09.500 --> 20:13.380]  Would you like to log everybody else out as you change the number and that's supposed
+[20:13.380 --> 20:19.100]  to be a feature for you but a thief who has your phone and your device passcode and then
+[20:19.100 --> 20:26.180]  changes your iCloud slash Apple ID pass password yes lock out your other devices now you're
+[20:26.180 --> 20:27.180]  like.
+[20:27.180 --> 20:30.420]  I think it's fair to point out that most of the time this won't work because most systems
+[20:30.420 --> 20:36.020]  require your current password to reset the password and Apple like security and convenience
+[20:36.020 --> 20:40.500]  are always at war like you make something less convenient regular people get locked
+[20:40.500 --> 20:44.980]  out of their own stuff you make it more convenient bad actors get into your stuff so it's a trade-off
+[20:44.980 --> 20:49.200]  but Apple's trade-off here is allowing the passcode which is simple easier to shoulder
+[20:49.200 --> 20:54.480]  surf and easier to enter to reset the password instead of requiring the previous password
+[20:54.480 --> 21:01.580]  to reset it right and it is absolutely it's not an accident it is by design and it is
+[21:01.580 --> 21:08.040]  I have been told reliably by people at Apple way more people order I don't know if it's
+[21:08.040 --> 21:14.040]  entire they wouldn't put an exact factor on it like 10x or 15x or 20x or whatever but
+[21:14.040 --> 21:19.180]  some number in that realm more people get locked out of their Apple ID because they
+[21:19.180 --> 21:24.540]  forget their Apple ID password but they of course still know their phone passcode right
+[21:24.540 --> 21:28.600]  we've talked about that like the huge support burden that it was before Apple started encrypt
+[21:28.600 --> 21:33.140]  it like why they didn't encrypt right all these backups because people lost access to
+[21:33.140 --> 21:39.980]  their backups right but it's it's a feature intended to help people that does help people
+[21:39.980 --> 21:47.040]  on a daily basis way more people than who do get their phone stolen and have their passcode
+[21:47.040 --> 21:52.980]  stolen with the phone but the downside of it is the people who do have their phone and
+[21:52.980 --> 21:58.100]  passcode stolen now this feature can be used against them because you think oh my phone
+[21:58.100 --> 22:02.340]  I don't know where my phone is I was you know and if you suspect it was stolen or maybe
+[22:02.340 --> 22:06.520]  you know it was stolen or you're almost sure it was stolen like hey it was that weird guy
+[22:06.520 --> 22:13.220]  at the bar I think I'll bet he stole my phone because he's gone and my phone's gone shit
+[22:13.220 --> 22:17.820]  well let me run home I've and get on my iPad or get on my Mac and see what's going on well
+[22:17.820 --> 22:23.100]  you can be five minutes away but you get home and you're already locked out of iCloud and
+[22:23.100 --> 22:28.000]  your passwords change now that and your friends can't get in because you can't use it on their
+[22:28.000 --> 22:33.840]  web browser either right because the the thief has stolen or changed like yeah yeah your
+[22:33.840 --> 22:39.200]  iCloud password now the the next step what they're calling chapter two in their story
+[22:39.200 --> 22:47.600]  is is they've encountered a bunch of people who victims who have in addition to having
+[22:47.600 --> 22:55.000]  their password changed the the thieves have added a recovery key to their account which
+[22:55.000 --> 23:01.520]  again this recovery key is a feature apple added to help people protect their accounts
+[23:01.520 --> 23:05.800]  but a thief who's taken over your account and locked out your other devices and then
+[23:05.800 --> 23:12.320]  adds a recovery key means that some of these people are like locked out of their apple
+[23:12.320 --> 23:17.260]  id permanently yeah and they can never get that key right they'll never get that key
+[23:17.260 --> 23:24.200]  and even if they themselves had previously set a recovery key the thief can override
+[23:24.200 --> 23:31.120]  it because with the device in hand and the passcode that device that iphone is considered
+[23:31.120 --> 23:39.840]  one of the trusted devices in your chain and that therefore can be used to do all of this
+[23:39.840 --> 23:46.720]  and by when you change the password and it asks you do you want to log out all the all
+[23:46.720 --> 23:50.600]  your other devices or keep them logged in because you're just change just changing your
+[23:50.600 --> 23:56.600]  password at that point none of your other devices are trusted devices anymore and now
+[23:56.600 --> 24:01.160]  the only trusted device is the iphone that the thief has and the irony here is that like
+[24:01.160 --> 24:06.920]  the original version of icloud two factor used a recovery key and so many people would
+[24:06.920 --> 24:11.120]  lot would lose it and lose access to everything that apple switched to the current system
+[24:11.120 --> 24:15.680]  which allows them to recover for you i mean like who knows in the future but lets them
+[24:15.680 --> 24:19.160]  well actually now we know there's a recovery option but it let them recover it for people
+[24:19.160 --> 24:23.680]  because we know that people do lose access to these things i'll stop going on and wait
+[24:23.680 --> 24:31.040]  and do a whole show on it with joanna hopefully soon but my key advice to people is to just
+[24:31.040 --> 24:36.000]  the the best advice i can give is actually the simplest just be very very cognizant of
+[24:36.000 --> 24:41.080]  where and when you type your passcode and i don't think you need to to be safe from
+[24:41.080 --> 24:46.000]  this i don't think you need to set i don't even think you need to set an alphanumeric
+[24:46.000 --> 24:50.760]  passcode in general now i know that's what a lot of people who are paranoid are doing
+[24:50.760 --> 24:55.120]  and it certainly doesn't hurt in other words switching from entering a number one two three
+[24:55.120 --> 25:01.080]  four five six seven to something with letters and numbers or letters and numbers and punctuation
+[25:01.080 --> 25:06.480]  and it's certainly harder to shoulder surf that sort of thing so it does make you more
+[25:06.480 --> 25:13.080]  secure but if you're just cognizant of the fact like that you just never type your passcode
+[25:13.080 --> 25:19.360]  into your phone if you think anybody stranger could see it you're almost certainly safe
+[25:19.360 --> 25:25.080]  from this you really are and i think even a numeric passcode is still fine i would just
+[25:25.080 --> 25:29.160]  say if you're going to stick with the numeric passcode and what i'm doing is just switch
+[25:29.160 --> 25:35.600]  to one of not just going from four to six six is the new default just yeah you can make
+[25:35.600 --> 25:40.120]  one when you change your passcode for your device you can make it an arbitrary length
+[25:40.120 --> 25:46.260]  like could be seven characters could be five characters but even five i think in some ways
+[25:46.260 --> 25:53.480]  is more secure than the standard six because the interface for those custom lengths doesn't
+[25:53.480 --> 25:59.600]  tell the thief how long it is it be by definition right right when you have the system standard
+[25:59.600 --> 26:05.160]  six digit passcode you don't even have to hit the an energy you just type one two three
+[26:05.160 --> 26:12.200]  four five six and when you type the six you're done and it's and it tries the six digit passcode
+[26:12.200 --> 26:17.600]  you did if you set a custom length one even if it's five you still have to hit like an
+[26:17.600 --> 26:23.240]  ok button because it doesn't tell you how long it is i think that's fine make it like
+[26:23.240 --> 26:27.580]  seven digits anybody can remember memorize seven or eight digits which is what my pixel
+[26:27.580 --> 26:30.680]  does by default i don't know if you can change it but like you have to press a button when
+[26:30.680 --> 26:35.120]  you're finished typing in your passcode yeah you do have to it it's it's a different i
+[26:35.120 --> 26:40.920]  it's never quite i it's funny now that i've gotten more paranoid about it in light of
+[26:40.920 --> 26:46.160]  this story and and and our sort of realization of just how important that device passcode
+[26:46.160 --> 26:50.880]  is i've thought about it more but when apple first switched to that it kind of annoyed
+[26:50.880 --> 26:57.880]  me it never felt right to me that that on the sixth digit it automatically submitted
+[26:57.880 --> 27:02.200]  because up till then you can backtrack right there's there is a delete button yes right
+[27:02.200 --> 27:08.720]  so if you make a mistake but if you make a mistake on the sixth and final digit you can't
+[27:08.720 --> 27:14.140]  correct it and that felt wrong to me but i realize now that i've changed to a custom
+[27:14.140 --> 27:19.120]  length alphanumeric that i did get used to that you get used to it either way but i did
+[27:19.120 --> 27:23.760]  develop the muscle memory where i was like oh man what this you know now i've got to
+[27:23.760 --> 27:27.400]  go all the way done i got to go all the way up here and hit an ok button the only thing
+[27:27.400 --> 27:31.140]  to be careful about there is people can like because one version of this attack is recording
+[27:31.140 --> 27:35.040]  you entering the passcode and that like that's much rare because it's much harder to get
+[27:35.040 --> 27:40.200]  away with recording people but if if you are and it is obvious what you are typing that
+[27:40.200 --> 27:44.080]  that won't protect you it is a layer of protection but just your i think your original advice
+[27:44.080 --> 27:48.240]  like just be very careful where you're entering your passcode and often we don't like sometimes
+[27:48.240 --> 27:51.740]  it is an emergency you have to check it but like you don't we don't always need to pick
+[27:51.740 --> 27:57.280]  up our phones as often as we think we do well the thing about if you're being recorded alpha
+[27:57.280 --> 28:02.860]  numeric doesn't really help because yeah the if anything it might even be easier as long
+[28:02.860 --> 28:09.640]  as they have in sharp focus because with the alpha numeric it pops up a thing for every
+[28:09.640 --> 28:14.000]  character you press and again it's if it's all of these features meant to help you it's
+[28:14.000 --> 28:18.280]  all trade-offs being used against you it's like all of a sudden the thief doesn't have
+[28:18.280 --> 28:22.680]  to guess which key your thumb was on there's a pop-up that tells you which which letter
+[28:22.680 --> 28:26.520]  or number was in it is simple in essence like if you make it easier for humans to get in
+[28:26.520 --> 28:29.500]  it's easier for humans to get in and if you make it harder for humans to get in it is
+[28:29.500 --> 28:34.040]  harder for humans to get in it's just there are good and bad actor humans involved just
+[28:34.040 --> 28:38.120]  like my basic advice and again i know people are going on and on about this screen time
+[28:38.120 --> 28:44.760]  as a passcode but the and it it it would help a naive thief but the truth is you can reset
+[28:44.760 --> 28:51.000]  your screen time passcode with a device passcode you just say you forgot the screen time passcode
+[28:51.000 --> 28:55.440]  and that you forgot your apple id password if they haven't reset that already because
+[28:55.440 --> 28:59.600]  you've protected it with screen time and then it just lets you use the device passcode so
+[28:59.600 --> 29:02.880]  the screen time code basically like you're just all in once you have yeah the screen
+[29:02.880 --> 29:07.920]  time thing it would help a naive thief but not a thief who's who knows that you the device
+[29:07.920 --> 29:13.720]  passcode lets you override everything so anyway be very very protective of your passcode and
+[29:13.720 --> 29:17.200]  and one of the things that stood out to me in the story because this is another trade-off
+[29:17.200 --> 29:23.800]  that is really tough and security is recovering these these accounts because now you don't
+[29:23.800 --> 29:29.200]  have the recovery key and one of the examples was someone who had all of his child's photographs
+[29:29.200 --> 29:32.800]  like these like they'd never taken them off the device they were all there and they desperately
+[29:32.800 --> 29:36.800]  wanted to have it restored and this is the same thing when you forget your password and
+[29:36.800 --> 29:42.840]  you have to go to apple and it is a lengthy and frustrating process to prove your identity
+[29:42.840 --> 29:47.880]  to prove ownership of that device and get it recovered and people who lose their devices
+[29:47.880 --> 29:53.320]  constantly like i remember constantly complaining why is it so hard it's my phone just let me
+[29:53.320 --> 29:58.600]  back into it and it's hard because every criminal who stole a phone is was walking into an apple
+[29:58.600 --> 30:03.840]  store saying i forgot my password can you just unlock it for me can you remove the the
+[30:03.840 --> 30:08.640]  the access for this and just let me have it and all of these social engineering attacks
+[30:08.640 --> 30:13.720]  sim swapping which is when you convince a carrier to change a number to your sim card
+[30:13.720 --> 30:17.820]  instead of the original owner sim card all of these attacks are based on convincing customer
+[30:17.820 --> 30:23.580]  support at the carrier or at the manufacturer that you are the legitimate owner so they
+[30:23.580 --> 30:29.520]  have to be incredibly careful to make sure they keep every bad actor bad actor out who's
+[30:29.520 --> 30:34.520]  trying to use the process to hijack the process and still let in the people who actually do
+[30:34.520 --> 30:39.700]  own those phones and those devices and those things and it is sometimes really tough to
+[30:39.700 --> 30:47.080]  figure those out it's i i'm not jealous of anybody who works on those features at apple
+[30:47.080 --> 30:55.040]  i think it's it's no well you can win because you can create features that help people and
+[30:55.040 --> 30:58.440]  make the world a better place but you're never going to solve it all right there's always
+[30:58.440 --> 31:04.760]  going to be edge cases that fall edge cases yeah that it's i mean one thing that i keep
+[31:04.760 --> 31:08.980]  coming back to and i know you and i talk about this a lot when you're on my show these security
+[31:08.980 --> 31:17.440]  features the we're talking about thieves stealing your phone and your passcode and that it's
+[31:17.440 --> 31:23.660]  that and your passcode part that really i think should make people feel a little less
+[31:23.660 --> 31:28.200]  concerned about this it's a real problem i'm not trying to downplay it but in terms of
+[31:28.200 --> 31:32.620]  like should you a listener of this podcast be spooked and worried that somebody's going
+[31:32.620 --> 31:37.480]  to do this and and drain your bank account because they've taken over your icloud account
+[31:37.480 --> 31:45.640]  etc um i think as long as long as it scared you straight and you're like hey i'm aware
+[31:45.640 --> 31:51.080]  of this story and you're just paranoid about your passcode and just don't enter it in a
+[31:51.080 --> 31:56.740]  bar or go to the bathroom before you if you get locked out and be suspicious if your phone
+[31:56.740 --> 32:03.760]  has been sitting on the bar top or a tabletop and and you come back to it and face id doesn't
+[32:03.760 --> 32:09.780]  work and it says hey your passcode is required to enter your phone you know and every once
+[32:09.780 --> 32:15.500]  in a while you know that happens when you restart your phone it happens if face id is
+[32:15.500 --> 32:20.580]  trying if somebody's trying to use face id with your phone a couple of times five times
+[32:20.580 --> 32:24.660]  or something like that and it five times and you're out now it needs a passcode but if
+[32:24.660 --> 32:29.020]  you're not expecting to enter your passcode but you're out in public and your phone suddenly
+[32:29.020 --> 32:34.180]  is asking your passcode be a little suspicious about it and don't just blindly type it in
+[32:34.180 --> 32:38.220]  right there look around your shoulders think about where you are then go to the restroom
+[32:38.220 --> 32:43.680]  yeah go to the restroom or walk away and do it and just be i think that just being aware
+[32:43.680 --> 32:49.580]  of the story gives anybody who's listening to this a huge advantage over the masses who
+[32:49.580 --> 32:55.820]  are still being affected by these these criminal rings i mean honestly it's what it is it's
+[32:55.820 --> 32:59.340]  also like there's a other like there are other attack vectors that are very similar to this
+[32:59.340 --> 33:02.940]  like the evil roommate or the evil like you have someone over cleaning your house right
+[33:02.940 --> 33:06.780]  and they're watching you and or you like you have a roommate they have a disagreement with
+[33:06.780 --> 33:10.960]  or you like you and like a significant other get into an argument these are all attacks
+[33:10.960 --> 33:15.860]  that they can use so this is not like the the way that this is being done is novel but
+[33:15.860 --> 33:20.740]  this exploit itself isn't necessarily novel so it is always worth i think like the fine
+[33:20.740 --> 33:25.980]  line when like someone is like a really good security journalist some some people just
+[33:25.980 --> 33:29.340]  want to scare you they want to scare you to get attention and they want to sensationalize
+[33:29.340 --> 33:34.100]  you and they want to do that to get clicks and to get like whatever and that becomes
+[33:34.100 --> 33:38.460]  malware because they are going out of their way to unnecessarily make you scared of something
+[33:38.460 --> 33:42.220]  the good side of that is to inform you like they don't panic you they give you context
+[33:42.220 --> 33:46.340]  they give you like how reasonable is this attack what is your threat level and you can
+[33:46.340 --> 33:49.820]  figure that out and then they inform you so you can protect yourself and i love that joanna
+[33:49.820 --> 33:53.980]  is always on the right side of that yeah it would be interesting it would be interesting
+[33:53.980 --> 33:57.940]  to hear if there's anything on that front of wwdc either i mean and again i don't think
+[33:57.940 --> 34:01.780]  they would present it as hey we fixed this glaring hole that joanna started and nicole
+[34:01.780 --> 34:07.340]  newin uncovered we won't cut to this video of craig in a bar right but it but it might
+[34:07.340 --> 34:11.220]  be something that you know like hey here's a new improved security feature coming in
+[34:11.220 --> 34:17.180]  ios 17 yeah that you realize solves the problem that they uncovered so that is another or
+[34:17.180 --> 34:20.540]  it's not even in the keynote but afterwards people start to hear and share that they've
+[34:20.540 --> 34:27.700]  heard that all right moving on a big topic at last year's wwdc was what they're called
+[34:27.700 --> 34:31.860]  i don't think they called it carplay 2.0 i think they called it next generation carplay
+[34:31.860 --> 34:37.360]  yeah but it got a surprising amount to a lot of people of of screen time during the keynote
+[34:37.360 --> 34:44.560]  at wwdc last year and apple was very and the main point of next generation carplay was
+[34:44.560 --> 34:50.120]  sort of moving beyond a simple for lack of a better description all right carplay is
+[34:50.120 --> 34:57.480]  in a little rectangle somewhere on your car's dashboard on a like a a notebook size screen
+[34:57.480 --> 35:05.060]  of some sort somewhere on your dashboard but it's a rectangle to hey carplay can do everything
+[35:05.060 --> 35:11.220]  on your dashboard and a car maker who embraces next generation carplay it could be carplay
+[35:11.220 --> 35:16.920]  all the way from the driver's side across the dash to the passenger side filling in
+[35:16.920 --> 35:24.040]  all of these irregular shaped screens because that's where the speedometer is and and that
+[35:24.040 --> 35:32.040]  carplay can integrate with instead of just providing a way to play overcast podcasts
+[35:32.040 --> 35:38.480]  and apple music and use apple maps on your car to integrating with the car itself so
+[35:38.480 --> 35:44.940]  that the car can have diagnostic info and all the other stuff that modern computerized
+[35:44.940 --> 35:51.420]  cars need to do blah blah blah blah blah here we are and nine months later general motors
+[35:51.420 --> 35:58.360]  announced that their future electronic vehicles are not going to have carplay and android
+[35:58.360 --> 36:04.680]  auto support yeah and instead they're going to do something more akin to what tesla and
+[36:04.680 --> 36:12.360]  rivian have uniquely done which is sort of go their own way except tesla has their entire
+[36:12.360 --> 36:18.000]  own software stack that runs their cars rivian has written their entire own software stack
+[36:18.000 --> 36:26.040]  that runs their cars and gm is using google's android automotive not to be now this is where
+[36:26.040 --> 36:31.820]  the name is really confusing android auto is like carplay for android phones yes android
+[36:31.820 --> 36:39.460]  automotive is sort of a lower level thing which is sort of like it's it's a foundation
+[36:39.460 --> 36:48.140]  for gm to build their own computer interface for their cars akin to rivian and tesla but
+[36:48.140 --> 36:54.140]  it won't there won't be any way to get a carplay and android automotive doesn't let you use
+[36:54.140 --> 37:00.580]  android auto right it's like an embedded system like embedded linux or q and x like most entertainment
+[37:00.580 --> 37:04.500]  like infotainment had q and x back in the day microsoft tried really hard with like
+[37:04.500 --> 37:09.400]  the windows mobile i forget what version it was but basically like an underlying stack
+[37:09.400 --> 37:14.780]  that you then build your interface and entertainment system on top of i think jason snell wins
+[37:14.780 --> 37:20.740]  the award for the best summary his headline was general motors hates your iphone but it
+[37:20.740 --> 37:28.660]  is how people feel and i do think it's interesting i get why and and speaking of marquez brownlee
+[37:28.660 --> 37:34.100]  he had i forget his name the ceo of rivian was on his show recently a great episode and
+[37:34.100 --> 37:38.780]  he asked him about it and you got the answer that you would expect that hey they see the
+[37:38.780 --> 37:44.460]  software they see them he didn't i'm putting some words in his mouth but rivian sees themselves
+[37:44.460 --> 37:50.740]  as something more akin to apple where it's the don't run windows yeah the whole experience
+[37:50.740 --> 37:56.740]  is is their game it's not just we'll do everything up to the entertainment center but then we'll
+[37:56.740 --> 38:01.240]  just farm that out to your your phone whether it's like you mentioned tesla doesn't have
+[38:01.240 --> 38:04.620]  carplay and there are still people especially people at apple who have tons of teslas who
+[38:04.620 --> 38:08.540]  don't have carplay yeah you can definitely when you visit apple you could definitely
+[38:08.540 --> 38:14.640]  see in the employee parking lot a lot of teslas when you go that way with tesla and rivian
+[38:14.640 --> 38:19.820]  and marco armand and i when marco was on this show recently i spoke about the extended test
+[38:19.820 --> 38:24.780]  drive of a rivian that i had last summer i spent like two hours driving one it's a great
+[38:24.780 --> 38:29.660]  experience i would consider buying a rivian even though it doesn't support tesla because
+[38:29.660 --> 38:35.920]  i'm i'm pretty sure and based on reviews from other people i know quinn nelson is he owns
+[38:35.920 --> 38:41.260]  a rivian and has done a lot people with good taste have said hey the rivian is doing good
+[38:41.260 --> 38:47.420]  stuff with their software um but that's the bar right if you're going to say you can't
+[38:47.420 --> 38:55.140]  do carplay then you better have a good interface right and i just don't i do not expect gm
+[38:55.140 --> 39:01.900]  to come up with like a good alternative like a oh okay this is fine i kind of wish you
+[39:01.900 --> 39:06.260]  had carplay but this is good enough i think people who know carplay are going to be like
+[39:06.260 --> 39:11.460]  oh my god this is terrible i can't believe this yeah or is it off like even if the interface
+[39:11.460 --> 39:15.140]  isn't quite as good because it would take years just just to get the experience to build
+[39:15.140 --> 39:21.440]  good is it offering such like incredible differentiation like features that are only possible if you
+[39:21.440 --> 39:26.840]  do control the whole stack that it is a fair trade-off in value yeah i don't know and why
+[39:26.840 --> 39:33.220]  would they do this well it's it's not just like with rivian and tesla i really get the
+[39:33.220 --> 39:39.620]  that the controlling the experience is is part of it and it and that there are people
+[39:39.620 --> 39:45.000]  at those companies i think in rivian's case up to the ceo level who really do care about
+[39:45.000 --> 39:50.740]  the experience enough that that and they really think it is the best move for the customers
+[39:50.740 --> 39:54.420]  they consider themselves software companies the same way apple does like right into fully
+[39:54.420 --> 39:59.620]  integrated yeah product companies i think at gm this decision there might be people
+[39:59.620 --> 40:04.900]  at gm who really are looking forward to designing their custom interface who think they can
+[40:04.900 --> 40:10.680]  do as good enough job but i think the decision was clearly made by people looking at the
+[40:10.680 --> 40:17.140]  numbers and their ceo has even said that they're looking to generate 20 to 20 20 to 30 billion
+[40:17.140 --> 40:23.820]  dollars a year in services revenue by like 2030 or some year like that not not the immediate
+[40:23.820 --> 40:29.660]  future but not the distant future because it's like you're only going to get a couple
+[40:29.660 --> 40:35.580]  of years of integrated service with your you buy the new car you can't connect carplay
+[40:35.580 --> 40:40.900]  and it's at some point they're going to demand that you pay 20 bucks a month just to get
+[40:40.900 --> 40:48.620]  maps and and music and whatever else it's that damn services revenue yeah no absolutely
+[40:48.620 --> 40:53.140]  well we i mean we saw a lot of companies try to offer like what we're just considered basic
+[40:53.140 --> 40:58.740]  features now is subscribing bmw famously trying to just right subscribe make everything a
+[40:58.740 --> 41:03.900]  subscription service your steering wheel see it was like seat warmers right it was yeah
+[41:03.900 --> 41:08.580]  i swear to god some i i really think it was the seat warmers which is ridiculous so they're
+[41:08.580 --> 41:14.820]  going to put a seat warmer i think in every bmw but you only get to use the seat warmer
+[41:14.820 --> 41:20.580]  that is in the car you own if you're paying ten dollars or twenty dollars probably more
+[41:20.580 --> 41:27.260]  than ten dollars a month to bmw just sort of it it crosses a certain line and i it it's
+[41:27.260 --> 41:33.060]  just weird how everything is becoming a computer it's sort of like the overarching theme of
+[41:33.060 --> 41:38.540]  of the whole world that we cover everything is becoming a computer our headphones are
+[41:38.540 --> 41:44.100]  little mini computers right of course like system on a chip in your ear or a package
+[41:44.100 --> 41:50.200]  in your ear it's yeah like a kind of surprisingly powerful computer just right in your ear our
+[41:50.200 --> 41:58.120]  cars are obviously computerized out the wazoo and there's it's like the car is like a series
+[41:58.120 --> 42:03.640]  of computers right there's each door is a computer that has its own chips and so that
+[42:03.640 --> 42:10.180]  that silicon shortage during covid when the whole world's supply chain locked up and then
+[42:10.180 --> 42:15.860]  had these i was gonna say months long but years long repercussions i still don't think
+[42:15.860 --> 42:20.720]  you can buy a playstation 5 at a store john it's really hard what else i i just saw something
+[42:20.720 --> 42:25.140]  else is surprisingly GPUs for a long time those are finally stabilized and it was cars
+[42:25.140 --> 42:29.340]  like you just could like the price for you are skyrocketed oh i know companies thought
+[42:29.340 --> 42:32.540]  people wouldn't buy they cancelled their orders they realized people were buying they tried
+[42:32.540 --> 42:36.140]  to order again and they were the back of the line and just cascade it i know what it is
+[42:36.140 --> 42:41.400]  it's i'd mentioned earlier that i just recently bought my first camera camera in years i bought
+[42:41.400 --> 42:49.580]  the rico gr 3x but the the previous camera i had bought was back in 2014 which is the
+[42:49.580 --> 42:54.400]  longest stretch of my adult life by between buying cameras like that whole stretch but
+[42:54.400 --> 42:58.820]  what i bought in 24 part of the reason is that the camera i bought in 2014 i liked and
+[42:58.820 --> 43:04.100]  used for enough years that it filled in a lot of that gap and then i just had like years
+[43:04.100 --> 43:10.460]  long gap where i pretty much shot everything on my iphone and now i'm like hey i surprising
+[43:10.460 --> 43:17.860]  how good a real camera can be with a big sensor anyway i bought in 2014 the fuji x100 s which
+[43:17.860 --> 43:26.180]  is not quite pocketable but is a a camera with a lens that it's a it's a 28 millimeter
+[43:26.180 --> 43:33.000]  no zoom prime lens a large sensor not full size but you know like micro two-thirds but
+[43:33.000 --> 43:38.180]  anyway it's a great camera people love it and there's been sequels to it and the current
+[43:38.180 --> 43:45.180]  one is the fuji x100 v people who listen to atp will know that marco armand has been going
+[43:45.180 --> 43:49.860]  through the same sort of hmm if i get a small camera should i get the rico that grouber
+[43:49.860 --> 43:56.060]  has or the x100 v which is bigger but therefore it does have better image quality but anyway
+[43:56.060 --> 44:04.520]  if you want to buy a fuji x100 v you you can't unless you want to pay up the the aftermarket
+[44:04.520 --> 44:10.920]  prices that are above the manufacturer's reset now is that because fuji can't get chips is
+[44:10.920 --> 44:17.120]  it i i suspect it is because i don't remember that ever being a problem like before covet
+[44:17.120 --> 44:22.600]  where there's some hit camera from somebody and sometimes when it's brand new sure there's
+[44:22.600 --> 44:27.680]  limited supply but the fuji x100 v has been out for a while and you it's really hard to
+[44:27.680 --> 44:33.300]  buy i even remember when i was building out my studio during lockdowns and i bought like
+[44:33.300 --> 44:38.680]  a r5 and then i bought an r5c and i it took me forever mutual friend whiskus had to tell
+[44:38.680 --> 44:42.680]  me dave whiskus had to tell me they're available at this one place in denver right now if you
+[44:42.680 --> 44:46.640]  go there and order them yeah but there's lots of things like that and everybody knows the
+[44:46.640 --> 44:52.060]  whole car market got seized up and and they just got like all of these like three dollar
+[44:52.060 --> 44:57.180]  chips there's like a or or even less maybe but yeah the legacy node like 70 millimeter
+[44:57.180 --> 45:03.680]  not right right but there's there's like some three dollar chip that controls the the windows
+[45:03.680 --> 45:10.520]  in your car and all of a sudden they couldn't get their hands on them and of course if there
+[45:10.520 --> 45:16.320]  is like a chip shortage the tsmcs of the world are going to prioritize expensive cutting
+[45:16.320 --> 45:23.380]  edge chips the leading edge no it's like five four nanometers yeah above the the ancient
+[45:23.380 --> 45:28.400]  old technology 70 cent chips that well they wouldn't even make them it was like these
+[45:28.400 --> 45:35.880]  old factories i think one of them had like a fire it was bad but it's been oddly the
+[45:35.880 --> 45:39.840]  the hold up buying a new car for a lot of people with computer chips which i don't know
+[45:39.840 --> 45:45.120]  even 20 years ago i think most people would have laughed at but here we are i i don't
+[45:45.120 --> 45:52.680]  know i i i i wouldn't be surprised if event if if before this comes to pass if gm relents
+[45:52.680 --> 45:57.580]  that it's one of the things and and one of the it is slightly curious that they've hedged
+[45:57.580 --> 46:04.840]  it where they're saying only our evs and only our new evs so like the chevy bolt which is
+[46:04.840 --> 46:10.640]  already out and is very popular very well regarded electric vehicle they're not going
+[46:10.640 --> 46:17.160]  to drop carplay from it they're only going to go with their own thing with future ev
+[46:17.160 --> 46:22.960]  models that aren't out yet we'll see i i think this is and again it's one of those stories
+[46:22.960 --> 46:29.520]  where it like caught my attention as an apple nerd and i thought well that means i'm never
+[46:29.520 --> 46:36.800]  going to buy or rent a gm car again if if this comes to pass but it was interesting
+[46:36.800 --> 46:42.040]  to me how widely the story got taken up in the larger media world and the other thing
+[46:42.040 --> 46:46.620]  about it and i heard from like df readers i didn't hear from anybody who actually sells
+[46:46.620 --> 46:52.560]  cars but i heard from people who've bought cars recently that carplay integration is
+[46:52.560 --> 46:59.000]  the car dealers are keenly aware of how popular a feature it is right and nobody selling cars
+[46:59.000 --> 47:03.400]  is hard i mean everybody makes jokes about car salesmen and they may not be everybody's
+[47:03.400 --> 47:11.360]  most popular neighborhood salesperson but it's a hard it's hard work it's hard sales
+[47:11.360 --> 47:15.700]  of any kind are hard you have to have a certain talent a certain personality and car sales
+[47:15.700 --> 47:22.320]  are especially hard and so people who sell cars they're keenly aware of what features
+[47:22.320 --> 47:28.200]  sell cars and carplay is definitely one of them and i heard from people who are just
+[47:28.200 --> 47:34.100]  like ah like five years ago or whenever i was buying a blank brand car and it was weird
+[47:34.100 --> 47:37.640]  because there were certain models that didn't have carplay and the car salesman was like
+[47:37.640 --> 47:41.680]  yeah we can't can't get rid of these damn things because everybody wants it so i'm sure
+[47:41.680 --> 47:45.820]  what you're saying about like the aftermarket i don't i don't know what full self-driving
+[47:45.820 --> 47:50.820]  costs on a tesla now i think it was originally like 5 000 and i was like 15 000 or something
+[47:50.820 --> 47:55.860]  but we've really changed the idea of buying something oh definitely right because you
+[47:55.860 --> 48:01.760]  own the car but you don't own the computer is the switch that turns that on yeah right
+[48:01.760 --> 48:10.200]  and at a philosophical level it i guess it's just i i guess where they cross a line that
+[48:10.200 --> 48:17.720]  feels gross to me is when it's a hardware feature you literally can't use without it
+[48:17.720 --> 48:26.620]  self-driving i guess it makes sense as a software feature you have to buy to get but like the
+[48:26.620 --> 48:33.080]  seat warmers to me that's offensive because the seat warmer is in your seat and it's it's
+[48:33.080 --> 48:39.000]  inert without the software ability to run it right but maybe like for them it's usually
+[48:39.000 --> 48:42.620]  a feature that's a paid upgrade and they just don't want to have to manufacture separate
+[48:42.620 --> 48:48.120]  skus for those cars so they want to like right right right yeah i guess that's the argument
+[48:48.120 --> 48:57.840]  right that that you know it but but it's sort of letting the bean counters the accountants
+[48:57.840 --> 49:03.260]  make decisions that they shouldn't be making like so okay accounting wise it makes sense
+[49:03.260 --> 49:10.480]  if they only make all the all the seats have seat warmers so they they'll save money yeah
+[49:10.480 --> 49:16.220]  even if 20 percent of customers don't maybe because they live in florida and never never
+[49:16.220 --> 49:21.080]  think they never need seat warmers don't pay for it it makes sense to just have it in the
+[49:21.080 --> 49:28.280]  seats anyway to save money on their production whereas somebody with more of a product first
+[49:28.280 --> 49:35.060]  mindset would have the mindset well even if that saves us money it grosses the customers
+[49:35.060 --> 49:40.480]  out and sullies the brand yeah it's bad for the brand right it's it's worth our brand
+[49:40.480 --> 49:47.320]  equity to spend the money to actually make heatless seats to sell to the people who don't
+[49:47.320 --> 49:52.880]  want seat heaters then to give them to them but have them blocked out by software and
+[49:52.880 --> 49:57.520]  requiring it's like if macbook like every macbook actually came with 96 gigabytes of
+[49:57.520 --> 50:09.200]  ram but exactly right we're locked right right which would be to me downright offensive yeah
+[50:09.200 --> 50:13.600]  but you know uh how far away are we from that world where everybody every everybody has
+[50:13.600 --> 50:21.680]  a uh m m4 ultra with 196 gigs of ram and out of the box though you've only got 16 gigs
+[50:21.680 --> 50:24.860]  of ram that you can access i mean again i don't think apple's gonna do it well you were
+[50:24.860 --> 50:28.360]  writing about this today it's like the you buy the phone but so much of the phone now
+[50:28.360 --> 50:32.280]  is these services and this is true for everybody and like do you want to pay for extra iCloud
+[50:32.280 --> 50:35.960]  storage and you want to pay for apple music and you want to pay for tv plus so do you
+[50:35.960 --> 50:40.560]  want to pay for apple arcade like it's just you buy the thing but there are still recurring
+[50:40.560 --> 50:44.840]  revenue streams against services on top of it that are part of the potential package
+[50:44.840 --> 50:51.560]  now right and well we can maybe we'll touch on that in a bit speaking of brands gm was
+[50:51.560 --> 50:58.760]  first the next one that i would like to say is has done damage to their brand is hbo and
+[50:58.760 --> 51:06.080]  warner so it's warner brothers discovery is the the mouth the the mouthful of a name of
+[51:06.080 --> 51:11.880]  the new parent company and they went ahead with their rumored name change and change
+[51:11.880 --> 51:18.040]  their streaming service name from hbo max to just plain max which which is there no
+[51:18.040 --> 51:24.120]  playing hbo anymore like it's just plain hbo gone no but it's only just playing hbo as
+[51:24.120 --> 51:33.080]  a cable channel okay so if you have old-fashioned cable tv
+[51:33.080 --> 51:38.880]  people listening to the show that just doesn't probably literally out of the 100 000 people
+[51:38.880 --> 51:43.220]  who listen to the show or whatever the number is there may not be one of them who this applies
+[51:43.220 --> 51:50.980]  to yeah who don't use streaming and only watch traditional cable tv but if you only watch
+[51:50.980 --> 51:56.800]  traditional cable tv and you've been a long time hbo subscriber you don't know any of
+[51:56.800 --> 52:02.800]  this has ever happened i guess the only thing you might know is they might show on on cable
+[52:02.800 --> 52:12.040]  tv hbo tell you that such and such is on hbo max they have shows hbo max was more than
+[52:12.040 --> 52:19.760]  hbo it wasn't yeah there were max originals which if you are a cable tv subscriber with
+[52:19.760 --> 52:25.660]  hbo you didn't get so again the snyder cut i think came out on hbo max during the lockdown
+[52:25.660 --> 52:30.720]  oh and yeah maybe wasn't shown on hbo yeah you're right you're right it was you know
+[52:30.720 --> 52:37.680]  what there were a bunch of warner brothers movie yeah that that happened that that went
+[52:37.680 --> 52:43.540]  like that that i think were only yeah the and that's a way that hbo max was more premium
+[52:43.540 --> 52:48.760]  than hbo but again that was sort of a lockdown thing where they were putting blockbuster
+[52:48.760 --> 52:53.820]  it was more than just the snyder cutter i think like one had a separate dc streaming
+[52:53.820 --> 52:58.600]  service for a while but they had shows on both services it was wild but the gist of
+[52:58.600 --> 53:06.440]  it is that with the new ownership in it however watered down hbo max was compared to hbo as
+[53:06.440 --> 53:15.400]  a brand the new max adds all of the discovery cable tv channels the hg tv that's like home
+[53:15.400 --> 53:22.320]  and garden tv and the food network and discovery channel which is i guess the root of the hbo
+[53:22.320 --> 53:29.920]  brother warner brothers discovery um my argument was that the exam we'll see how it goes and
+[53:29.920 --> 53:33.840]  i got a lot of it i wrote about it and i got a lot of interesting feedback most people
+[53:33.840 --> 53:39.120]  seem to agree with me some don't ben thompson doesn't agree with me he thinks this is a
+[53:39.120 --> 53:44.600]  good strategy and they that they'll there's some kind of way to design their way out of
+[53:44.600 --> 53:51.040]  that to keep hbo as a prestigious brand within the max app you know that you'll be in the
+[53:51.040 --> 53:58.320]  max app and then you go into hbo within the app and it'll be fine or i don't know it just
+[53:58.320 --> 54:03.760]  feels so undifferentiated because max is not like a brand max is like an adjective that
+[54:03.760 --> 54:08.080]  is associated with every other brand it's almost like calling your your network thick
+[54:08.080 --> 54:12.200]  with like a bunch of c's it's just like it feels like it's trying to be cool but it's
+[54:12.200 --> 54:16.320]  it's like the most generic right it's not quickster about i don't know if it's quickster
+[54:16.320 --> 54:20.800]  oh yeah that was that was well that's funny well that was when netflix was going to rename
+[54:20.800 --> 54:25.720]  their mail your discs in a red envelope to you did you see that they finally that they
+[54:25.720 --> 54:32.000]  announced yes that's what brought quickster to mind right again i don't even i used to
+[54:32.000 --> 54:37.640]  i'm i'm half worried that i've got like three of those somewhere no not in a library book
+[54:37.640 --> 54:42.040]  it's like eight billion dollars in late fees i don't know yeah i wonder i i should like
+[54:42.040 --> 54:45.760]  check my netflix account make sure they're not like charging me for that that when we
+[54:45.760 --> 54:52.640]  moved five years ago to this new house that that i had three netflix dvds it's an interesting
+[54:52.640 --> 54:56.820]  digression that they've still been doing that i i'm a little surprised they were still doing
+[54:56.820 --> 55:01.740]  it yeah quickster that that did not last that's what they were going to say netflix equals
+[55:01.740 --> 55:07.320]  streaming and quickster equals our old dvd business twitter equals x yeah i mean like
+[55:07.320 --> 55:11.960]  with the world is fun place yeah i guess in hindsight and i think in net Netflix really
+[55:11.960 --> 55:17.880]  they and again they speaking of gm sometimes corporations make decisions that are unpopular
+[55:17.880 --> 55:22.380]  and they just say okay we'll listen to you never mind and my idea that gm might just
+[55:22.380 --> 55:27.400]  say never mind on this no carplay thing netflix was like okay if you love our discs and you
+[55:27.400 --> 55:32.040]  don't want us to call it quickster okay we'll just call that netflix too we just thought
+[55:32.040 --> 55:36.680]  it would clarify streaming versus disc we'll just call them both netflix i don't think
+[55:36.680 --> 55:40.120]  hbo can walk not even sorry i don't think warner's discovery can walk max back after
+[55:40.120 --> 55:45.600]  all that at least not quickly i don't think they can't i don't think the max name i i
+[55:45.600 --> 55:50.240]  just think what they should do is i wrote about it but i'll just repeat it here is i
+[55:50.240 --> 55:55.920]  think disney shows the way where disney has disney plus and everything in disney plus
+[55:55.920 --> 56:00.920]  now the provi i don't know you can tell me how it is up in canada here it's is it the
+[56:00.920 --> 56:07.300]  us or north america only where there's disney plus is separate from hulu there is no hulu
+[56:07.300 --> 56:11.960]  in in canada so we often get those shows on disney plus or we get star is like the extra
+[56:11.960 --> 56:18.100]  tab on the side of disney plus yeah so the which is the fox stuff the i try not to be
+[56:18.100 --> 56:23.060]  too much of a provincial american who is only aware of what's going on in america but clearly
+[56:23.060 --> 56:29.160]  i am on the streaming front and i didn't realize that hulu is really only an american thing
+[56:29.160 --> 56:33.480]  in fact as i just proved 30 seconds ago i didn't even know if it was an american thing
+[56:33.480 --> 56:37.880]  or american canada canadian it's on it was or is owned by several us networks which is
+[56:37.880 --> 56:42.320]  why it is localized right it's like yeah it's like a partnership where they've got shows
+[56:42.320 --> 56:47.160]  from abc well abc is a division of disney but they've got like nbc content mixed in
+[56:47.160 --> 56:53.840]  there too but it putting aside the fact that hulu is america only if if if not for that
+[56:53.840 --> 56:58.480]  i think that it's a good division where hulu is sort of a catch-all here and they've got
+[56:58.480 --> 57:05.320]  shows from abc and nbc traditional shows and hulu a lot of hulu originals which are banned
+[57:05.320 --> 57:09.180]  and i forget there's a couple of them that have been really good lately including some
+[57:09.180 --> 57:15.280]  good movies i think boston strangler was on hulu which is a pretty good movie disney plus
+[57:15.280 --> 57:22.520]  is a separate app and even outside of america where that okay i didn't realize hulu was
+[57:22.520 --> 57:30.740]  there but i'm thinking max equals hulu a catch-all for general audience mass market content which
+[57:30.740 --> 57:36.920]  is really what discovery has specialized in and i'm not a fan of the discovery network
+[57:36.920 --> 57:43.080]  or hg tv shows or or all of that stuff but i'm not even putting it down i watch my own
+[57:43.080 --> 57:48.280]  everybody has their own garbage content that they like to watch and but it's not hbo i
+[57:48.280 --> 57:53.880]  would just say max would be their equivalent of hulu a catch-all not a catch-all like a
+[57:53.880 --> 57:59.400]  garbage bin but just sort of general interest all over the place popular programming and
+[57:59.400 --> 58:05.200]  then hbo would be their equivalent of disney plus where it's sort of a premium brand and
+[58:05.200 --> 58:09.840]  it connotes something disney content maybe even more prestigious because disney plus
+[58:09.840 --> 58:15.120]  can be a lot of mainstream like popcorn fair yeah it just but it's you're getting hbo and
+[58:15.120 --> 58:20.920]  make it separate and main tv plus feels more like traditional hbo now than hbo yeah well
+[58:20.920 --> 58:25.700]  i mg sigler is the first person i heard who put that forward but i've stolen it from him
+[58:25.700 --> 58:34.280]  liberally over the time i think i think apple tv plus is taking over the role that was traditionally
+[58:34.280 --> 58:42.380]  for 40 years played by hbo which is this is nothing but high quality content you may not
+[58:42.380 --> 58:47.240]  like every show and now h tv plus apple has enough shows that there's almost certainly
+[58:47.240 --> 58:51.680]  nobody who really just likes them all but that was never true of hbo either right where
+[58:51.680 --> 58:58.600]  they've got sports programming and gritty adult dramas like the sopranos and game of
+[58:58.600 --> 59:04.280]  thrones but also light-hearted fare and comedies and stuff like that and no franchises like
+[59:04.280 --> 59:09.080]  if you don't like if you prefer star trek to star wars dc to marvel and like warner's
+[59:09.080 --> 59:14.560]  to magic kingdom like there's nothing on dc plus for you right yeah but we'll see i don't
+[59:14.560 --> 59:23.640]  know i i think that the the part i don't know part of it is i do read the gossip media stuff
+[59:23.640 --> 59:29.920]  and this david zaslav who's the new ceo came from the discovery side it feels and the gossip
+[59:29.920 --> 59:38.320]  seems to suggest that it's every corporate murder no corporate merger is instantaneously
+[59:38.320 --> 59:46.480]  harmonious right it's always turf battle right and the whole point of mergers is that duplicated
+[59:46.480 --> 59:51.200]  effort often gets eliminated and if they're going to get rid of a marketing division or
+[59:51.200 --> 59:59.440]  whatever deficiencies right it's like now it it's like the scene in the uh the dark
+[59:59.440 --> 01:00:04.120]  night where the joker says to the guys we've got room for one of you here's a pool cue
+[01:00:04.120 --> 01:00:08.140]  you know yes yeah five minutes and it's like here's the the new marketing team the old
+[01:00:08.140 --> 01:00:14.200]  marketing team we only need one of you five minutes right but it just feels like the discovery
+[01:00:14.200 --> 01:00:20.160]  people sort of have a chip on their shoulder about hbo's premium status and that that they're
+[01:00:20.160 --> 01:00:26.320]  sort of the garbage mass market tv channels and it's like well with a powerpoint saying
+[01:00:26.320 --> 01:00:31.740]  we want to make it more accessible to audiences we'll show you hbo snobs how to how to run
+[01:00:31.740 --> 01:00:36.280]  a streaming service so we'll see here's a game of thrones sitcom we're launching in
+[01:00:36.280 --> 01:00:41.200]  right but and i guess it's just finding the right mix right and and to me the one thing
+[01:00:41.200 --> 01:00:47.160]  that the the max conglomerate almost to me they're presenting themselves almost as the
+[01:00:47.160 --> 01:00:55.760]  like as like more akin to your whole cable package right so you go back pre-streaming
+[01:00:55.760 --> 01:01:01.800]  to when cable tv was really the only game in town or even if the alternative was something
+[01:01:01.800 --> 01:01:11.120]  like direct tv it was just a different delivery method of the same idea you get 200 channels
+[01:01:11.120 --> 01:01:16.400]  and it's this is how it works and these are the channels and it's you know espn and cnn
+[01:01:16.400 --> 01:01:26.760]  and msnbc fox news and same channels different way of paying for it but you you pay us a
+[01:01:26.760 --> 01:01:33.220]  hundred dollars a month or nowadays more and you get all of this stuff and no not everybody
+[01:01:33.220 --> 01:01:38.480]  likes to watch sports but everybody's gets espn and so your five bucks of your thing
+[01:01:38.480 --> 01:01:47.920]  goes to that and not everybody wants to watch fox news or msnbc and unlikely that anybody
+[01:01:47.920 --> 01:01:53.680]  really likes watching both right if you really like yeah you probably don't like msnbc and
+[01:01:53.680 --> 01:01:58.160]  if you really like msnbc you probably don't like fox news but your cable package includes
+[01:01:58.160 --> 01:02:02.440]  both you don't get to pick and choose and that to me max is presenting himself sort
+[01:02:02.440 --> 01:02:09.040]  of like a cable package right where it's like so big and netflix is big like that too nobody
+[01:02:09.040 --> 01:02:14.400]  you you couldn't possibly you if you literally just spend 18 hours a day every day six hours
+[01:02:14.400 --> 01:02:21.480]  a day sleeping and 18 hours a day watching netflix you'd fall behind every day on new
+[01:02:21.480 --> 01:02:25.520]  stuff that they've added right there's more than 18 hours of content being added every
+[01:02:25.520 --> 01:02:31.160]  day probably to netflix and it's all sorts of stuff nobody likes at all it's but it's
+[01:02:31.160 --> 01:02:37.160]  more of a conglomerate whereas hbo even if you don't like every show it's like oh that's
+[01:02:37.160 --> 01:02:44.240]  an hbo type show right yeah yeah it's a prestige content right and if you own if you're a big
+[01:02:44.240 --> 01:02:51.000]  giant media conglomerate and you've just completed a merger to become even bigger where do you
+[01:02:51.000 --> 01:02:57.800]  draw the line on okay how much do we all cram into one mega streaming service subscription
+[01:02:57.800 --> 01:03:06.080]  and how much do we break apart right it's a it's an interesting strategic decision i
+[01:03:06.080 --> 01:03:15.000]  think disney is navigating that better than warner brothers discovery yeah yeah 100 it
+[01:03:15.000 --> 01:03:19.120]  just feels like they have better brand clarity like and better packaging and and everything
+[01:03:19.120 --> 01:03:25.480]  that's yeah all the all the like the well-run aspects of it i think well and i think i don't
+[01:03:25.480 --> 01:03:32.640]  know if it's if there's any reason to draw the correlation but it does it it does correlate
+[01:03:32.640 --> 01:03:38.800]  well to how well the two companies run their superhero franchises yes oh god you're pretty
+[01:03:38.800 --> 01:03:44.480]  where i hurt john i know that's why i've got you here the marvel universe seems much more
+[01:03:44.480 --> 01:03:51.040]  i mean it's faltered lately but yeah in general it is way better managed than than warner's
+[01:03:51.040 --> 01:03:56.360]  dc franchise you're right ah oh i have a question for you john i don't know if we want to get
+[01:03:56.360 --> 01:04:03.320]  into this but i lost my check mark today daddy elon oh check mark away i've got 420. i was
+[01:04:03.320 --> 01:04:08.520]  traveling today that i was in new york for a briefing for friday night baseball with
+[01:04:08.520 --> 01:04:13.800]  apple so i've been sort of offline i i let me check and see if i because he said it was
+[01:04:13.800 --> 01:04:16.920]  going to be april 1st and that turned out to be fool's day and nothing happened and
+[01:04:16.920 --> 01:04:20.540]  then he said 420 which sounded like a meme date so i didn't think anything would happen
+[01:04:20.540 --> 01:04:24.560]  but i got some messages saying hey your check mark is gone and i went and looked i think
+[01:04:24.560 --> 01:04:29.800]  mine's gone too i don't see it although i'm logged in as me so maybe i wouldn't see it
+[01:04:29.800 --> 01:04:35.060]  let me see what no you'd see it all right i would see it soon yeah it also says that
+[01:04:35.060 --> 01:04:43.240]  i follow myself so i'm looking for you i'm not sure yep my blue check mark is gone rip
+[01:04:43.240 --> 01:04:49.280]  well i i guess i'm fine with that i mean and i'm not i don't really i i really do and again
+[01:04:49.280 --> 01:04:54.740]  i'm not even trying to make a statement about it i've i've really decreased my twitter usage
+[01:04:54.740 --> 01:05:02.640]  and it's not i'm not making a statement i honestly just find it so much less pleasing
+[01:05:02.640 --> 01:05:10.320]  to use without tweetbot and yes it's even worse because i feel like under musk and the
+[01:05:10.320 --> 01:05:17.160]  original sin is is canceling the apis for third-party clients like twitterrific and
+[01:05:17.160 --> 01:05:22.440]  tweetbot but secondarily it is so buggy like i i don't know if this is happening to you
+[01:05:22.440 --> 01:05:25.760]  but it keeps out like i don't get mentions i will take because i have two accounts i
+[01:05:25.760 --> 01:05:30.360]  have a personal and work account and sometimes people at mention both of them and the i will
+[01:05:30.360 --> 01:05:35.020]  see like like replies in one but not the other or there'll be whole replies missing or mobile
+[01:05:35.020 --> 01:05:39.120]  and web will be different or like android and ios will be different and one of them
+[01:05:39.120 --> 01:05:43.800]  i use for work and i like i require social for work and there i just i don't get the
+[01:05:43.800 --> 01:05:48.920]  data like it feels like it's just broken mine's been broken ever since i started writing about
+[01:05:48.920 --> 01:05:55.400]  it which i think was back in february or whatever maybe january i don't know when did they when
+[01:05:55.400 --> 01:05:59.160]  did they kill the the third-party clients it just feels like forever now because there's
+[01:05:59.160 --> 01:06:02.440]  so many features i used on tweetbot that i never realized the official like just going
+[01:06:02.440 --> 01:06:07.620]  out like someone's at mention tab doesn't exist no without my my twitter official i
+[01:06:07.620 --> 01:06:13.080]  go to notifications and then within notifications there's all verified and mentions my mentions
+[01:06:13.080 --> 01:06:23.280]  show a grand total of whoa april 1st april 2nd is 1 april 7th yeah april 12th april and
+[01:06:23.280 --> 01:06:33.600]  2 from april 14th so from the last 20 days 1 2 3 4 5 6 mentions and one of them is from
+[01:06:33.600 --> 01:06:42.460]  somebody anonymous total rando mccloyd ashy 16 966 is their username i'm sorry out there
+[01:06:42.460 --> 01:06:45.840]  if you're a real person and you listen to the show but i'm throwing you into the bus
+[01:06:45.840 --> 01:06:53.400]  uh they're one of them is is a it just says to me at the talk show and then the next one
+[01:06:53.400 --> 01:06:59.520]  just says hey with a bunch of y now i don't know how those two made it through but of
+[01:06:59.520 --> 01:07:07.280]  the seven mentions twitter thinks that at grouber has had in yeah a month and no one
+[01:07:07.280 --> 01:07:10.200]  that i know still works i used to know a ton of people that works there i don't know a
+[01:07:10.200 --> 01:07:15.760]  single person anymore no me neither unfortunately well i don't know that would have helped but
+[01:07:15.760 --> 01:07:19.800]  no and so and so i'm not physical opposite like i'm not philosophically opposed twitter
+[01:07:19.800 --> 01:07:25.560]  blue like i think i make so many typos i think the editing feature is is good but the fact
+[01:07:25.560 --> 01:07:29.760]  that you don't get ample like they will not they will suppress you if you don't pay for
+[01:07:29.760 --> 01:07:33.440]  twitter blue like it's no longer like it's not a feature it's like you've now got to
+[01:07:33.440 --> 01:07:41.040]  pay to have like a presence on the service and then i'm like the person who runs it is
+[01:07:41.040 --> 01:07:46.640]  acting in a way that is constantly degrading the dignity of other human beings which makes
+[01:07:46.640 --> 01:07:53.720]  me not want to give money to them it's just i i just spend less time there so i just don't
+[01:07:53.720 --> 01:07:58.320]  use it i because a lot of people i know are gone they're just like i think they're all
+[01:07:58.320 --> 01:08:03.520]  gone yeah so i'm not caught up but i'm not caught up in the whole i know and i don't
+[01:08:03.520 --> 01:08:07.720]  blame you if you are but i know there were previous people who were verified the way
+[01:08:07.720 --> 01:08:13.400]  i was the way you were as as media people or well-known people i don't know i never
+[01:08:13.400 --> 01:08:19.480]  even asked for it i didn't even apply to be verified way back in the day it's it was because
+[01:08:19.480 --> 01:08:23.380]  i was in the pool of users you probably were at the time too when because you were writing
+[01:08:23.380 --> 01:08:28.680]  at i'm more who were like dimmed for like home cohorts i'm sure it was when matt honed
+[01:08:28.680 --> 01:08:32.720]  it well they did like out like whole outlets at a time right macworld all of i'm like all
+[01:08:32.720 --> 01:08:37.040]  of i'm more right but they realized that it was like a security thing where people people
+[01:08:37.040 --> 01:08:42.660]  were targeting high profile twitter accounts from the media to steal their accounts or
+[01:08:42.660 --> 01:08:48.240]  to masquerade as them so they that's when they created verification i never applied
+[01:08:48.240 --> 01:08:52.180]  great thread on this like the guy who was in charge of it originally said that they
+[01:08:52.180 --> 01:08:56.000]  realized early on that there was tremendous value when having media highly engaged on
+[01:08:56.000 --> 01:09:00.460]  twitter that's what drove almost all of the other engagement on twitter and they went
+[01:09:00.460 --> 01:09:04.400]  to a lot of high profile media people and said like will you work with us they're like
+[01:09:04.400 --> 01:09:08.080]  how much are you gonna pay us and it was a real sticking point that they wanted to get
+[01:09:08.080 --> 01:09:11.760]  paid to be on twitter and they finally were figured out a way that they weren't gonna
+[01:09:11.760 --> 01:09:15.060]  pay them and they would have them on twitter and they would verify them so people knew
+[01:09:15.060 --> 01:09:18.840]  that they were them and they got tremendous value out of sharing their links and great
+[01:09:18.840 --> 01:09:22.840]  growing their profiles and it was hugely important to twitter because it made twitter where the
+[01:09:22.840 --> 01:09:27.640]  news happened where people would share stories and tidbits even before they published them
+[01:09:27.640 --> 01:09:34.040]  and he like this person is just watching all of that get thrown away this person that's
+[01:09:34.040 --> 01:09:37.600]  what we're gonna call him no no sorry the person who started the program whose name
+[01:09:37.600 --> 01:09:41.920]  i don't remember okay be a program at twitter the news program at twitter i thought you
+[01:09:41.920 --> 01:09:47.160]  were dancing around saying elon musk or no no elon like yeah i just don't think he understood
+[01:09:47.160 --> 01:09:50.520]  like i think i think he doesn't understand what he doesn't understand which is a typical
+[01:09:50.520 --> 01:09:54.160]  problem for people who are very very good in certain things or are highly focused in
+[01:09:54.160 --> 01:09:57.680]  certain things is that there are huge bodies of knowledge that are just different or not
+[01:09:57.680 --> 01:10:02.520]  what you expect or can't be like like his twitter seems to be like i'm an edgelord i
+[01:10:02.520 --> 01:10:06.460]  want to say hello fellow kids things and i have enough support that nobody calls me cringe
+[01:10:06.460 --> 01:10:11.240]  when i do it and i want to be informative but that's not like understanding the core
+[01:10:11.240 --> 01:10:17.120]  value of of twitter and a lot of that core value at least for me and i think for a lot
+[01:10:17.120 --> 01:10:24.520]  of people who were using it previously is gone and i think that's the like the the larp
+[01:10:24.520 --> 01:10:27.920]  the larp edgelord community if they don't have anything to react to where they're gonna
+[01:10:27.920 --> 01:10:32.080]  go yeah like there's no long they want to yell at what is the point of being there i
+[01:10:32.080 --> 01:10:35.980]  mentioned too and i know there's other people like i said there's some people who were verified
+[01:10:35.980 --> 01:10:39.800]  who were upset that they might even they didn't even want to keep their verified badges because
+[01:10:39.800 --> 01:10:45.120]  they don't want to be mistaken for people who are paying eight dollars a month that
+[01:10:45.120 --> 01:10:51.800]  there's a lot of people who really have a visceral antithesis towards elon musk who
+[01:10:51.800 --> 01:10:56.840]  are like people have written like browser extensions to auto block anybody you encounter
+[01:10:56.840 --> 01:11:02.360]  who's a subscriber to twitter blue right you know that anybody who's giving money to to
+[01:11:02.360 --> 01:11:09.020]  elon musk for this they want to block them automatically or or whatever i don't even
+[01:11:09.020 --> 01:11:13.680]  care i don't care if i'd kept my verified badge and people thought maybe i was paying
+[01:11:13.680 --> 01:11:18.080]  i don't care i really don't and i because they changed the text to make it like i think
+[01:11:18.080 --> 01:11:21.480]  there was like pushback people didn't like people who paid for it yeah so they changed
+[01:11:21.480 --> 01:11:25.260]  the text to say you're either a legacy blue baby right or you paid for it so they wouldn't
+[01:11:25.260 --> 01:11:30.200]  be shame yeah it's it's well it's really funny how much it was becoming i forget the name
+[01:11:30.200 --> 01:11:35.560]  what is the name of that dr seuss story with the star belly oh i don't remember but it
+[01:11:35.560 --> 01:11:42.160]  was it was a stigma yeah well it but it also it the gist of the dr seuss thing some people
+[01:11:42.160 --> 01:11:47.320]  had stars on the bellies and others don't and a guy made a machine to give other people
+[01:11:47.320 --> 01:11:52.880]  stars i don't know that one oh oh my god it's a great great book but the they were like
+[01:11:52.880 --> 01:11:57.880]  my childhood was incomplete the snitches all right the star-bellied snitches wow the gist
+[01:11:57.880 --> 01:12:01.560]  of it is there are two groups of snitches and some had stars and some didn't and the
+[01:12:01.560 --> 01:12:06.260]  ones with stars felt like they were superior to the others and then a salesman came to
+[01:12:06.260 --> 01:12:09.760]  town with a machine that put stars on the other ones and everybody who didn't have a
+[01:12:09.760 --> 01:12:15.940]  star paid the guy money to get a star and then the ones who had the stars before started
+[01:12:15.940 --> 01:12:20.400]  getting their stars removed and then next thing things go haywire and some people have
+[01:12:20.400 --> 01:12:24.240]  got six stars on their bellies and some have none and everybody learns the lesson that
+[01:12:24.240 --> 01:12:28.940]  it doesn't matter whether you have a star but it's funny like the the way that that
+[01:12:28.940 --> 01:12:35.040]  machine will get goes haywire towards the end and the way kids stories go haywire and
+[01:12:35.040 --> 01:12:38.960]  some people are getting stars on their heads instead of their bellies or they've got six
+[01:12:38.960 --> 01:12:42.920]  of them or one of them's on their butt that's how it's got with these badges on twitter
+[01:12:42.920 --> 01:12:47.400]  right that's where there's blue ones for legacy verified and yellow ones for brand yeah my
+[01:12:47.400 --> 01:12:53.720]  work account has a yellow yeah and gray ones for government authorities and and there's
+[01:12:53.720 --> 01:12:58.200]  a label for this i mean one thing we've learned there's all sorts of things we could say about
+[01:12:58.200 --> 01:13:04.360]  musk and the way he's run twitter but one thing he clearly loves is revealing metadata
+[01:13:04.360 --> 01:13:08.100]  right because now it's like tweets have all except for what phone you used he took that
+[01:13:08.100 --> 01:13:12.000]  away right he took that one away for some reason which i still don't get i don't get
+[01:13:12.000 --> 01:13:16.200]  why he had such a bug in the butt about that it's gonna like marquez used to live on i
+[01:13:16.200 --> 01:13:23.240]  i know right right marquez was the king of finding some samsung tweet that was sent from
+[01:13:23.240 --> 01:13:28.960]  twitter for iphone but all sorts of stuff like the view count and the bookmark i mean
+[01:13:28.960 --> 01:13:32.740]  even like the bookmark count like count the bookmark count and you know there was the
+[01:13:32.740 --> 01:13:40.000]  whole controversy that they started labeling the pbs and nbc or not nbc mpr and the cbc
+[01:13:40.000 --> 01:13:48.400]  in canada is state-sponsored media even though as mike maznick at tektor had pointed out
+[01:13:48.400 --> 01:13:54.580]  in the previous regime pre-musk when they they would use that label just for like pravda
+[01:13:54.580 --> 01:13:59.920]  or whatever the russian yes or or north korean state media or the new china daily or whatever
+[01:13:59.920 --> 01:14:05.700]  and their example of a counter example of a good like this is not going to get the label
+[01:14:05.700 --> 01:14:11.760]  was npr npr was the example of yes they get some government funding but they're not the
+[01:14:11.760 --> 01:14:19.540]  the content is not dictated by the government so therefore that's our poster child for publicly
+[01:14:19.540 --> 01:14:24.920]  funded anyway but he just loves labeling things so everything's got labels i lost my one of
+[01:14:24.920 --> 01:14:29.080]  the dangers of becoming like very powerful is that you start to not want accountability
+[01:14:29.080 --> 01:14:33.080]  and you start to actively dislike things that hold you accountable and media is one of the
+[01:14:33.080 --> 01:14:36.760]  things not doesn't always do a very good job or does a terrible job sometimes but it's
+[01:14:36.760 --> 01:14:41.320]  one of the mechanisms that things are held accountable and people don't like that yeah
+[01:14:41.320 --> 01:14:47.760]  well that i and i guess some people twitter is i didn't expect to talk about twitter but
+[01:14:47.760 --> 01:14:53.500]  you know i am still fascinated watching it go it's i don't know is it dying i don't think
+[01:14:53.500 --> 01:15:00.820]  it's dying but it is rapidly evolving into something musk shaped and i don't i don't
+[01:15:00.820 --> 01:15:09.440]  enjoy that twitter as much even if it is busy but i kind of feel like it's it's why i'm
+[01:15:09.440 --> 01:15:15.720]  enjoying mastodon so much because that sort of people who are like me who don't like the
+[01:15:15.720 --> 01:15:22.560]  new twitter and the fact that twitter hasn't completely collapsed and driven everybody
+[01:15:22.560 --> 01:15:28.800]  to mastodon to me makes mastodon better right that mastodon is sort of it it's growing i've
+[01:15:28.800 --> 01:15:32.760]  saw some stats this week about how they're continuing to grow it wasn't just the hype
+[01:15:32.760 --> 01:15:38.560]  cycle in january or february they're still like last week was the busiest week overall
+[01:15:38.560 --> 01:15:44.600]  in the whole fetaverse that there's ever been it's it's growing but but the fact that it's
+[01:15:44.600 --> 01:15:49.140]  people say well yeah but it the whole thing of picking your own server is so confusing
+[01:15:49.140 --> 01:15:56.360]  most people won't do that i it sounds elitist but that's actually i think what we've proven
+[01:15:56.360 --> 01:16:02.360]  is that a social network that does appeal to most people ends up being unpleasant like
+[01:16:02.360 --> 01:16:11.920]  i don't want to be on a spend my time on a social platform where representation of all
+[01:16:11.920 --> 01:16:16.220]  of humanity is there because most people i don't want to hear from i mean do you know
+[01:16:16.220 --> 01:16:21.560]  hank green's worst people theory no i don't think so i might be misquoting him and i might
+[01:16:21.560 --> 01:16:24.880]  be misquoting him as hank green but there's an idea that people become upset with the
+[01:16:24.880 --> 01:16:29.520]  boundaries that are inevitably formed on a mature platform and so someone will start
+[01:16:29.520 --> 01:16:32.600]  a new platform and the people who go there are typically the people who are upset with
+[01:16:32.600 --> 01:16:35.980]  the boundaries and they're often the worst people because they're the ones smacking up
+[01:16:35.980 --> 01:16:40.540]  against those boundaries but then those people are are alone together screaming and people
+[01:16:40.540 --> 01:16:44.840]  have to say well what this can't happen like there has to be some rules like you can't
+[01:16:44.840 --> 01:16:48.560]  do crime and then they start putting a boundary in and then oh well that's child and age and
+[01:16:48.560 --> 01:16:51.940]  they put a boundary in and then oh this is costing us advertising and they put a boundary
+[01:16:51.940 --> 01:16:56.320]  and oh finally we're being sued by viacom for piracy we're putting a boundary in and
+[01:16:56.320 --> 01:17:00.720]  inevitably that becomes the mature platform and then the worst people get upset again
+[01:17:00.720 --> 01:17:06.360]  right just like regenerates that didn't happen with mastodon that's the amazing thing is
+[01:17:06.360 --> 01:17:13.240]  mastodon is the opposite of that no i i kind of feel and i kind of feel one of the reasons
+[01:17:13.240 --> 01:17:20.840]  it gets overlooked in the tech press as a success story is is that and i i'll even include
+[01:17:20.840 --> 01:17:25.940]  myself and daring fireball and what i cover in there is that we've we've all collectively
+[01:17:25.940 --> 01:17:36.220]  let ourselves get too focused on the intersection of the tech industry and the business section
+[01:17:36.220 --> 01:17:44.140]  meaning who's making the most money and mastodon is purely a technology play right it's just
+[01:17:44.140 --> 01:17:51.400]  a protocol it it's it's really a throwback to the early like the 90s or late 90s of of
+[01:17:51.400 --> 01:17:58.540]  the internet where people were just making cool things for free and to oh if we have
+[01:17:58.540 --> 01:18:02.920]  this protocol we can have a bunch of clients and we can all do this and there's no central
+[01:18:02.920 --> 01:18:09.860]  entity making billions of dollars there's the closest mastodon has to a central authority
+[01:18:09.860 --> 01:18:16.880]  is the main mastodon development team and mastodon dot social as the the which doesn't
+[01:18:16.880 --> 01:18:23.280]  have any special privileges it's just big because it's the original the the creator
+[01:18:23.280 --> 01:18:28.560]  was on neil i patel's podcast recently and basically they just they make it right now
+[01:18:28.560 --> 01:18:31.600]  they're they would like to make more money to hire some more people but basically they
+[01:18:31.600 --> 01:18:36.160]  just make enough money to support a couple of developers at this point that's it that's
+[01:18:36.160 --> 01:18:42.360]  it's very small scale like human scale amount of revenue coming in and they've built this
+[01:18:42.360 --> 01:18:46.860]  thing and it's therefore it does seems not interesting like again i just think too much
+[01:18:46.860 --> 01:18:53.960]  of the technology press has been focused for years now on what makes gobs of money as opposed
+[01:18:53.960 --> 01:18:58.180]  to what's cool and interesting technology yeah and i should point out people get sometimes
+[01:18:58.180 --> 01:19:02.280]  really angry when you criticize like it's funny like mark zuckerberg people will just
+[01:19:02.280 --> 01:19:05.900]  universally dunk on him doesn't matter what happened like you'll get universally dunked
+[01:19:05.900 --> 01:19:11.440]  on and very few people defend him elon musk has an incredible amount of people who like
+[01:19:11.440 --> 01:19:15.660]  who defend him so people get really angry when i mention that i i don't like the current
+[01:19:15.660 --> 01:19:20.360]  twitter like i'm like i might be old guy yelling at the twitter clouds and they'll point out
+[01:19:20.360 --> 01:19:24.220]  that yes like i work at youtube which is owned by google which some people think is a competitor
+[01:19:24.220 --> 01:19:29.080]  i publish everywhere i publish i'm a monetized creator on twitter i put my videos on instagram
+[01:19:29.080 --> 01:19:33.060]  i put them on nebulite put them on tick tock like i publish everywhere i just want twitter
+[01:19:33.060 --> 01:19:38.080]  to be a fantastic place where i publish and my criticism is intended to make it a better
+[01:19:38.080 --> 01:19:43.040]  place again all right let me take a break here and thank our second sponsor it's our
+[01:19:43.040 --> 01:19:50.880]  good friends at collide k-o-l-i-d-e our sponsor collide they have big news if you are an octa
+[01:19:50.880 --> 01:19:57.400]  user and if you are you know what i'm talking about and if you're not well listen up they
+[01:19:57.400 --> 01:20:06.100]  can get your entire fleet of devices to 100 compliance how well if a device isn't compliant
+[01:20:06.100 --> 01:20:12.440]  and you're using collide the user won't be able to log into your internal cloud apps
+[01:20:12.440 --> 01:20:17.800]  until they fix the problem it's that simple so their device is out of compliance they
+[01:20:17.800 --> 01:20:24.520]  can't log in but collide it's not just that they're locked out collide will help them
+[01:20:24.520 --> 01:20:28.720]  fix whatever it is that has their device out of compliance they patch one of the major
+[01:20:28.720 --> 01:20:34.660]  holes in zero trust architecture and that's device compliance without collide it department
+[01:20:34.660 --> 01:20:40.080]  struggled to solve basic problems like keeping everyone's operating system and browser up
+[01:20:40.080 --> 01:20:44.840]  to date insecure devices are logging into your company's apps because there's nothing
+[01:20:44.840 --> 01:20:51.000]  to stop them with collide it's the only trust solution that enforces compliance as part
+[01:20:51.000 --> 01:20:58.140]  of authentication and it's built to work seamlessly with octa the moment collides agent detects
+[01:20:58.140 --> 01:21:03.380]  a problem it alerts the user gives them an explicit and simple instructions how to fix
+[01:21:03.380 --> 01:21:07.320]  it and if they don't fix the problem within a set time they're blocked that's it their
+[01:21:07.320 --> 01:21:13.380]  method collides method means fewer support tickets less frustration and more importantly
+[01:21:13.380 --> 01:21:21.600]  a hundred percent fleet compliance visit collide dot com slash the talk show k o l i d e collide
+[01:21:21.600 --> 01:21:28.840]  dot com slash the talk show to learn more or book a demo my thanks to collide collide
+[01:21:28.840 --> 01:21:34.000]  dot com slash the talk show one last thing i wanted to talk about i think i've been a
+[01:21:34.000 --> 01:21:39.880]  show full of complaints and bad news here's some something no pun intended wonderful make
+[01:21:39.880 --> 01:21:48.600]  something wonderful a new book from the steve jobs archive comprised of steve jobs zone
+[01:21:48.600 --> 01:21:56.800]  words the transcripts of some talks that he gave or internal things he said at apple or
+[01:21:56.800 --> 01:22:02.520]  other companies emails that he sent to people and an awful lot of emails that he sent to
+[01:22:02.520 --> 01:22:09.600]  himself so it's from the steve jobs archive it is available in print but not for sale
+[01:22:09.600 --> 01:22:15.540]  so they and it designed by the folks that love from i will say saw mike madis was there
+[01:22:15.540 --> 01:22:20.040]  i hadn't realized that yeah he's and if you look it's one of those things people might
+[01:22:20.040 --> 01:22:25.500]  have now mike madison for people who don't know was for he did a lot of monster and the
+[01:22:25.500 --> 01:22:31.680]  original iphone and ipad camera and photo interfaces and right chat heads infamously
+[01:22:31.680 --> 01:22:38.380]  at facebook right really really good just a wonderfully talented designer i call him
+[01:22:38.380 --> 01:22:43.760]  a friend personally a very nice guy too but it did some of the design work iconic design
+[01:22:43.760 --> 01:22:52.280]  work from the original iphone like the the the delicious looking green that battery icon
+[01:22:52.280 --> 01:22:57.980]  the the battery that showed you remember there was a big green yeah textured three-dimensional
+[01:22:57.980 --> 01:23:04.480]  battery i think he did the slide to unlock too i forget what else i think he also i mean
+[01:23:04.480 --> 01:23:10.640]  also it's just very very good at broadly original design work i think he did time machine or
+[01:23:10.640 --> 01:23:15.120]  at least he worked like photorealistic stuff that that steve jobs really loved like when
+[01:23:15.120 --> 01:23:19.400]  the camera would spin around and click like shutter effect and when you could move the
+[01:23:19.400 --> 01:23:24.160]  photos apart and back together again yeah and the groupings and ipad just really tactile
+[01:23:24.160 --> 01:23:30.480]  interface yeah and but one thing and it made me before i knew that he had been involved
+[01:23:30.480 --> 01:23:34.760]  with the website version of make something wonderful i did think of him and it made me
+[01:23:34.760 --> 01:23:41.440]  wonder was scrolling the website and seeing some of the interactions and the animations
+[01:23:41.440 --> 01:23:48.960]  it reminded me of yeah the work from push pop press yeah which alas it to me it's one
+[01:23:48.960 --> 01:23:56.280]  of the great tragedies of the last decade or extended decade was after leaving apple
+[01:23:56.280 --> 01:24:02.700]  mike co-founded a company called push pop press and the first product and the idea was
+[01:24:02.700 --> 01:24:09.640]  that they were going to produce ebooks for lack of a better word but not the ebooks that
+[01:24:09.640 --> 01:24:15.200]  go into a kindle or apple books they were standalone apps and the one that shipped that
+[01:24:15.200 --> 01:24:21.320]  people might remember was a book by gore which oddly didn't last long in the app store and
+[01:24:21.320 --> 01:24:28.440]  you would think given that he's an apple board member a four-year term al gore book push
+[01:24:28.440 --> 01:24:32.940]  pop press let's see that was bought by facebook right that's how he ended up there yeah they
+[01:24:32.940 --> 01:24:39.680]  bought facebook aqua hired mike and everybody else to to work there but they didn't keep
+[01:24:39.680 --> 01:24:44.240]  push pop press going al gore's thing was called our choice so push pop i put that's right
+[01:24:44.240 --> 01:24:48.440]  yeah they still have a website although it doesn't load on like origami and all like
+[01:24:48.440 --> 01:24:53.940]  the courts like composer type stuff and yeah heads in the facebook home yeah yeah well
+[01:24:53.940 --> 01:25:01.040]  the part of it that i call a tragedy with the push pop press was the the editing tools
+[01:25:01.040 --> 01:25:07.840]  like like al gore's book was the first product of it but it was sort of like getting focused
+[01:25:07.840 --> 01:25:15.240]  on one magazine being produced by quark express yes and quark express was the real story where
+[01:25:15.240 --> 01:25:20.560]  anybody could get quark express and then you could do all this fancy graphic design and
+[01:25:20.560 --> 01:25:25.880]  yeah have all these features what they'd done is they'd had and i saw it never shipped as
+[01:25:25.880 --> 01:25:31.140]  a product to the company to the public but push pop press had developed like this editing
+[01:25:31.140 --> 01:25:37.240]  interface to make books like that and you didn't just scroll and at everything mike
+[01:25:37.240 --> 01:25:42.880]  madison's sort of if he's done broad broad i don't want to pigeonhole him into one style
+[01:25:42.880 --> 01:25:50.400]  of design but one thing an overarching theme of his work is eliminating chrome for lack
+[01:25:50.400 --> 01:25:57.200]  of a better word and so instead of having toolbars and buttons and editing modes hit
+[01:25:57.200 --> 01:26:03.320]  edit and then do this you just directly manipulate stuff yeah and pinch and zoom for everything
+[01:26:03.320 --> 01:26:08.800]  and it was just one and i saw he demoed the software for me back then and it was just
+[01:26:08.800 --> 01:26:13.840]  amazing stuff where you'd be you could be making your own book like al gore's thing
+[01:26:13.840 --> 01:26:19.280]  and you'd want to well i want to put four photos here and do you want them yeah yeah
+[01:26:19.280 --> 01:26:23.960]  be in a carousel or you want them to be in a four two by two grid and you would just
+[01:26:23.960 --> 01:26:28.520]  directly manipulate that yourself and or and then like oh but what happens when you do
+[01:26:28.520 --> 01:26:34.880]  tap one of them in the grid how does it open and you had editing tools right there on the
+[01:26:34.880 --> 01:26:40.840]  phone to change like the ease in ease out animation and you could just type numbers
+[01:26:40.840 --> 01:26:45.000]  or or drag sliders you didn't even have to type numbers you could just drag sliders to
+[01:26:45.000 --> 01:26:51.200]  to make it like a a bouncy animation like oh you tap this image and it bounces it it
+[01:26:51.200 --> 01:26:57.220]  opens up bigger than the display port and then bounces back to size and it feels light
+[01:26:57.220 --> 01:27:02.360]  and playful where you could change these drag these sliders to make it feel heavy like it
+[01:27:02.360 --> 01:27:08.360]  just like a chunk just fills the viewport just amazing software and it just never shipped
+[01:27:08.360 --> 01:27:11.760]  because facebook bought them and they didn't really they had no interest in the actual
+[01:27:11.760 --> 01:27:17.240]  pushpot press stuff they just did it to acquire them but then they built the amazing thing
+[01:27:17.240 --> 01:27:23.280]  at facebook called paper right it was like an alternative client to facebook itself that
+[01:27:23.280 --> 01:27:28.580]  was the closest i ever got to signing up for facebook not because i wanted to use facebook
+[01:27:28.580 --> 01:27:33.760]  yeah yeah yeah but because i wanted to use the paper app so i was never happier in a
+[01:27:33.760 --> 01:27:40.240]  perverse way than when they cancelled paper because then i finally felt like ah my last
+[01:27:40.240 --> 01:27:45.100]  temptation to sign up for facebook is gone but it was remarkable remarkable software
+[01:27:45.100 --> 01:27:54.520]  and it just that just never stuck though because it was like this great graceful light decluttered
+[01:27:54.520 --> 01:27:59.640]  profoundly decluttered interface and it turns out people who use facebook whatever it is
+[01:27:59.640 --> 01:28:04.960]  they're using facebook for it's not for a graceful light decluttered interface yeah
+[01:28:04.960 --> 01:28:11.200]  it's a fire hose yeah but anyway the the make something wonderful the website has that sort
+[01:28:11.200 --> 01:28:18.000]  of feel to it a very mike mattes like touch and i know he did work on it but it it shouldn't
+[01:28:18.000 --> 01:28:24.000]  be there is the credits in the book go to for design and and production go to love from
+[01:28:24.000 --> 01:28:30.080]  and my you know like apple it's not just by edict i think that's chatting with mike offline
+[01:28:30.080 --> 01:28:34.840]  a bit he's adamant that he didn't want he doesn't want me or anybody else saying this
+[01:28:34.840 --> 01:28:39.240]  was designed by mike maddis because it wasn't it was collaborative with the whole team at
+[01:28:39.240 --> 01:28:43.480]  love from but he was a big part of it i i hinted at this i don't know that i revealed
+[01:28:43.480 --> 01:28:50.200]  it but also directly involved not in the design but the lead in production of the website
+[01:28:50.200 --> 01:28:55.600]  is a fellow named lauren brichter oh oh he finished building his house finally did he
+[01:28:55.600 --> 01:29:08.360]  no he did not finish he has not finished building his house i checked because i had hadn't chatted
+[01:29:08.360 --> 01:29:12.040]  with lauren for a while for those of you who yeah like oh yeah i remember that name but
+[01:29:12.040 --> 01:29:18.420]  who's he from lauren brichter was the again back to twitter creator of tweety which became
+[01:29:18.420 --> 01:29:23.940]  the original gl stack on the iphone and then he appeared with tweety yeah while he was
+[01:29:23.940 --> 01:29:29.400]  no what no it was it he he had worked at apple and done lots of amazing stuff with the touch
+[01:29:29.400 --> 01:29:36.500]  stuff yeah at tweety the open gl stack right did that which heady stuff pull to refresh
+[01:29:36.500 --> 01:29:44.460]  invented pull to refresh in tweety so it yeah before tweety all the every twitter client
+[01:29:44.460 --> 01:29:49.760]  or every infinite scrolling thing that you used you there was refresh buttons you'd go
+[01:29:49.760 --> 01:29:56.100]  to the top and if you wanted more tweets there'd be a button like load more or refresh now it's
+[01:29:56.100 --> 01:30:03.880]  hard to pull to refresh is so integrated everywhere that it's hard ubiquitous it it that it came
+[01:30:03.880 --> 01:30:11.680]  from one person's single one one person showed twitter client named tweety and he's just
+[01:30:11.680 --> 01:30:15.080]  like i'm pulling down pulling down and i figure it should do something to do it should give
+[01:30:15.080 --> 01:30:21.560]  me more yeah it just pulled down enough and then it just fills in also did the speaking
+[01:30:21.560 --> 01:30:28.960]  of lost tragedies did when he did i think it was called tweety for ipad but or was it
+[01:30:28.960 --> 01:30:34.120]  did it debut his twitter but he went to twitter when they acquired tweety that wasn't just
+[01:30:34.120 --> 01:30:37.640]  oh we want to hire you and we're going to throw away your work tweety actually for a
+[01:30:37.640 --> 01:30:43.720]  while the twitter branded app was tweety and it was awesome and then it wasn't for but
+[01:30:43.720 --> 01:30:52.920]  the the ipad app was arguably the most innovative ipad app yeah i've ever seen because it was
+[01:30:52.920 --> 01:31:00.360]  it was an ipad app that was that lauren designed with what if we didn't just blow up the iphone
+[01:31:00.360 --> 01:31:06.480]  interface what if i create what would an interface for twitter on the ipad look like that wouldn't
+[01:31:06.480 --> 01:31:11.920]  work on the phone because you need a 9.7 or bigger screen and it was a totally different
+[01:31:11.920 --> 01:31:16.680]  multi-touch screen like it was true to the hardware right right and of course twitter
+[01:31:16.680 --> 01:31:21.920]  threw that away yes and everybody sort of forgot about the work and everybody's now
+[01:31:21.920 --> 01:31:26.160]  back to just making ipad apps and then after that he like he clowned around doing like
+[01:31:26.160 --> 01:31:31.680]  what is it some pet project called letterpress yeah yeah which i only lost several dozen
+[01:31:31.680 --> 01:31:36.600]  hours to over the years yeah letterpress but anyway lauren did the web production work
+[01:31:36.600 --> 01:31:43.040]  for the make something wonderful website anyway it's it's really great i wish that they made
+[01:31:43.040 --> 01:31:50.080]  the book available for sale sam i lucked my way i john groovered my way into a copy which
+[01:31:50.080 --> 01:31:56.000]  and it is a very very nice book and i say that just in the interest of being honest
+[01:31:56.000 --> 01:32:01.440]  i'm it's not hopefully intended as a humble brag that i got it but i wish more people
+[01:32:01.440 --> 01:32:06.880]  could get it i get it that they don't want i i guess the thinking i don't know from anybody
+[01:32:06.880 --> 01:32:13.940]  loved from or steve jobs archive why they're not selling it i i guess at some level they
+[01:32:13.940 --> 01:32:23.920]  don't want to monetize what the the stewardship they have over steve jobs his private archives
+[01:32:23.920 --> 01:32:30.640]  which they did sell the big johnny like maiden uh design in california book yeah but that
+[01:32:30.640 --> 01:32:35.600]  was apple sold that right and apple is a commercial company and so apple selling you know well
+[01:32:35.600 --> 01:32:39.160]  i don't forget how much did that cost what was like 300 dollars depends what size you
+[01:32:39.160 --> 01:32:45.200]  got like the big enormous right there but the 300 or plus whatever it was coffee table
+[01:32:45.200 --> 01:32:50.480]  book as much as people are like 300 for a book says you know me the guy who's got a
+[01:32:50.480 --> 01:32:58.000]  1500 copy of the new shining torsion copy as a book from uh lee yunkrich here yeah coffee
+[01:32:58.000 --> 01:33:03.480]  table books really good ones are very expensive apples wasn't that expensive but at least
+[01:33:03.480 --> 01:33:09.720]  apples a commercial enterprise and it but i apple wasn't comfortable with that either
+[01:33:09.720 --> 01:33:16.800]  like that book was available for sale until the day johnny officially left apple and the
+[01:33:16.800 --> 01:33:22.640]  day johnny officially left apple was the day that that book was no longer for sale so some
+[01:33:22.640 --> 01:33:31.960]  contingent at apple uh uh obviously wasn't comfortable selling a 300 coffee table book
+[01:33:31.960 --> 01:33:35.560]  i would just say if they're not comfortable making money off it they could have done it
+[01:33:35.560 --> 01:33:41.240]  and just said we're going to all the proceeds from the copies we sell we're going to donate
+[01:33:41.240 --> 01:33:47.600]  to xyz charities that steve jobs supported that lorraine powell jobs is still involved
+[01:33:47.600 --> 01:33:52.920]  with all of the proceeds will go to these charities they could have done something like
+[01:33:52.920 --> 01:33:58.760]  that i mean it's again it's it's like playing spend tim cook's money it's spend the steve
+[01:33:58.760 --> 01:34:04.220]  jobs archives time obviously selling books you know how many more thousands they would
+[01:34:04.220 --> 01:34:08.440]  have had to print then you have to ship them to people there's production involved he went
+[01:34:08.440 --> 01:34:13.700]  to apple disney blanking on the third one i don't know who the third one is i know apple
+[01:34:13.700 --> 01:34:19.320]  and disney got the biggest number of copies because that's where the pixar division went
+[01:34:19.320 --> 01:34:24.280]  and it it's not too and you can go to ebay i don't know what the prices are i haven't
+[01:34:24.280 --> 01:34:29.040]  looked recently when they first started hitting ebay in box yeah people were selling people
+[01:34:29.040 --> 01:34:32.640]  are selling them for like 500 bucks a thousand bucks i don't know if the prices come down
+[01:34:32.640 --> 01:34:38.080]  because more people have gotten rid of them it is very nice but i will say the web interface
+[01:34:38.080 --> 01:34:46.160]  is is excellent it really is and it speaking of push pop press the the one way of reading
+[01:34:46.160 --> 01:34:53.280]  this book that i think is crummy is reading it in apple books i think that the actual
+[01:34:53.280 --> 01:35:00.400]  ebook that you can read in apple books really it's it's more like a transcript of the book
+[01:35:00.400 --> 01:35:04.440]  it it's so it doesn't have the whimsy it doesn't have any of the whimsy or the animation and
+[01:35:04.440 --> 01:35:11.120]  it just i i don't know and it just you can do the it's like an approximation of the print
+[01:35:11.120 --> 01:35:17.440]  book in ebook format and yet there's something about an ebook that may a real physical paper
+[01:35:17.440 --> 01:35:23.640]  book that is tangible and it involves your other senses like touch and even smell right
+[01:35:23.640 --> 01:35:30.280]  it's a good smelling book and that's the advantage that books have and and just mimicking the
+[01:35:30.280 --> 01:35:35.520]  page i know people are excited or some people are at least noted that apple books re-added
+[01:35:35.520 --> 01:35:44.440]  the page turn curl animation and that's i'm glad they re-added that but it it the the
+[01:35:44.440 --> 01:35:52.480]  basic broad idea of what could a book on an ipad be is so much more there's a thousand
+[01:35:52.480 --> 01:35:57.200]  different things you could do other than simulate the page turn of a physical paper book and
+[01:35:57.200 --> 01:36:03.120]  yet that's where we're left at and and the website shows just how more expressive it
+[01:36:03.120 --> 01:36:07.140]  can be right the website if you're going to read on a screen which almost everybody here
+[01:36:07.140 --> 01:36:12.880]  has to do because the book isn't publicly available definitely read it in a browser
+[01:36:12.880 --> 01:36:18.120]  you know well a book has the tactility it feels analog authentic and the web page has
+[01:36:18.120 --> 01:36:22.780]  that same kind of mike madison brikker tactility feels digitally authentic and the ebook is
+[01:36:22.780 --> 01:36:27.120]  stuck in being neither yeah and that's all getting around the actual content of the book
+[01:36:27.120 --> 01:36:34.620]  which i think is is really wonderful it really is it it's like one more thing from steve
+[01:36:34.620 --> 01:36:40.880]  jobs it's like we we're getting one more steve jobs product a book of his own words and it's
+[01:36:40.880 --> 01:36:49.440]  really it's inspiring interesting insightful and sad really it just reminds me just given
+[01:36:49.440 --> 01:36:53.080]  what we write about in the companies we think about in the products that we like we think
+[01:36:53.080 --> 01:37:00.360]  about steve jobs all the time reading this book just makes it just it i'm so glad they
+[01:37:00.360 --> 01:37:07.040]  did it but a big part of it my emotional response to it is sadness that we lost him so so tragically
+[01:37:07.040 --> 01:37:16.700]  young says so many people who want to be him but don't have like the nuance that made him
+[01:37:16.700 --> 01:37:21.120]  no really dude you really you read him in his own words and you're like you know what
+[01:37:21.120 --> 01:37:24.800]  he really was one of a kind there's and there's other people who are one of a kind in their
+[01:37:24.800 --> 01:37:30.200]  own way or really want to get kindergarten about it we're all unique snowflakes renee
+[01:37:30.200 --> 01:37:35.840]  yes yes steve jobs was a more unique and better and more interesting snowflake than most of
+[01:37:35.840 --> 01:37:42.360]  us you can generate of ai any snowflake you want now john oh good way to wrap it up i'm
+[01:37:42.360 --> 01:37:46.580]  gonna call that a show thank you for your time always oh thank you yeah i love talking
+[01:37:46.580 --> 01:37:51.400]  to you i could do this we often do do this for hours your youtube channel is you compete
+[01:37:51.400 --> 01:37:57.080]  what's the best way to get to it youtube.com slash renee richie youtube.com slash renee
+[01:37:57.080 --> 01:38:01.120]  richie they'll see though i don't know if it'll be out before the show probably after
+[01:38:01.120 --> 01:38:05.920]  the show but sometime next video yeah yeah sometime next week i'll be on there they can
+[01:38:05.920 --> 01:38:13.000]  they can hear me talking and and your good content and your equal i will also give a
+[01:38:13.000 --> 01:38:16.940]  shout out here to our two sponsors of this episode are good friends at squarespace where
+[01:38:16.940 --> 01:38:21.560]  you can build your own website and collide where you can bring your whole fleet of devices
+[01:38:21.560 --> 01:38:44.040]  into compliance with octa thank you renee thanks john
