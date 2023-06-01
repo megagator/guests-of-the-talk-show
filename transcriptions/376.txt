@@ -1,0 +1,1048 @@
+[00:00.000 --> 00:04.720]  Neil Gervarry, welcome to the show. What a big week for you.
+[00:05.280 --> 00:10.320]  Yeah, thank you, John. Thank you, John. Yeah, it's been an absolutely crazy week for us. Just kind
+[00:10.320 --> 00:18.160]  of getting finally after a couple years of development, MimeStream 1.0 is out and out to
+[00:18.160 --> 00:27.280]  the world. I am super duper excited about this and my enthusiasm. Well, number one, I'll have
+[00:27.280 --> 00:37.200]  you introduce the app. What is MimeStream? So, MimeStream is a native macOS email client designed
+[00:37.200 --> 00:44.080]  specifically for Gmail and it is a little different from other email clients that most
+[00:44.080 --> 00:50.320]  people have used in the past because it specifically uses the Gmail API to integrate
+[00:50.320 --> 00:56.560]  very, very deeply with Gmail. Most other email clients are using the decades-old IMAP protocol
+[00:56.560 --> 01:02.880]  which certainly is fantastic and has its purposes, but Gmail has kind of a different way of doing
+[01:02.880 --> 01:09.280]  a lot of the basics. And by using the Gmail API, we can really natively understand a lot of what
+[01:09.280 --> 01:14.560]  Gmail does and integrate with a lot of its features like labeling and creating server-side
+[01:14.560 --> 01:21.360]  filters and having inbox categories. And so that's what MimeStream is about. It's about a niche,
+[01:21.360 --> 01:25.920]  at least to start with, but we wanted to really kind of make sure that we're able to go
+[01:25.920 --> 01:33.040]  deep into that niche. It is, yeah, so I think that's no surprise that you were able to pitch
+[01:33.040 --> 01:39.280]  it very well. It's like a two-pronged this app is different and special. And the first prong
+[01:40.240 --> 01:48.080]  is that it is Gmail-specific and uses the Gmail APIs and is very, very Gmail. We can get into that
+[01:48.080 --> 01:57.200]  first. And then the second prong is it is a very Mac-esque Mac app. And both of those things,
+[01:57.200 --> 02:04.400]  I think, I mean, well, I suppose it's not unique to be a Mac-esque Mac email client. There are
+[02:04.400 --> 02:11.680]  a few, but the Gmail-specific thing, I believe, is unique. I don't think there's anything else
+[02:11.680 --> 02:19.600]  for the Mac that is so Gmail-specific. And for those people out there, and Gmail is so popular
+[02:19.600 --> 02:25.920]  that I hesitate to waste time on the show talking about it. But even people who are long-time Gmail
+[02:25.920 --> 02:32.640]  users who, if you don't think about it from the perspective of an email client developer,
+[02:33.760 --> 02:40.400]  the, I don't know what the word is, is impotence mismatch between Gmail conceptually
+[02:40.400 --> 02:46.480]  and IMAP, but just traditional email. Traditional email is much easier to understand,
+[02:46.480 --> 02:52.880]  where it really is sort of mirrored on the file system, right? Where in a file system,
+[02:52.880 --> 02:59.040]  you've got files and you've got folders, and a file is in a folder somewhere, and that is where
+[02:59.040 --> 03:04.880]  it is. It might be a subfolder, folder A with folder B with inside it, and it's hierarchically
+[03:04.880 --> 03:12.640]  nested, and email messages on traditional email are like that. The inbox is a mailbox,
+[03:12.640 --> 03:17.600]  and messages are either in the mailbox or they're not, and if they're not, they're in some other
+[03:17.600 --> 03:28.080]  mailbox. Gmail doesn't work like that. Yeah. Now, I'm laughing, because my laughter makes it seem
+[03:28.080 --> 03:35.360]  like I'm putting Gmail down, but actually, I use Gmail, although we can get into my personal use
+[03:35.360 --> 03:41.520]  of it, which is weird. I'm not putting it down. It's sort of one of the genius ideas of the last,
+[03:41.520 --> 03:46.560]  I don't know, 20 years. It seems like a miracle that it actually works with a different fundamental
+[03:46.560 --> 03:55.120]  concept of how email is organized, yet integrates with the wider world of email seamlessly.
+[03:55.120 --> 03:58.480]  Right. There might be a billion Gmail users out there.
+[03:59.600 --> 04:05.040]  I think the number is closer to actually 1.8 billion is a number that I've read most recently
+[04:05.040 --> 04:10.720]  of the number of monthly active users they have. I mean, by all measures, Gmail is a highly
+[04:10.720 --> 04:16.160]  successful email platform that a lot of folks out there use. When it first came out, I forget what
+[04:16.160 --> 04:21.600]  the year was, but it was just such a paradigm shift for people to go from having these teeny
+[04:21.600 --> 04:28.800]  tiny 100 megabyte inboxes. They were constantly trying to keep clear and running into like,
+[04:28.800 --> 04:33.920]  oops, your inbox is full, so you couldn't get your most recent email delivered. That was a
+[04:33.920 --> 04:39.680]  constant struggle. Just Gmail with that first one gigabyte allowance, it was just such a paradigm
+[04:39.680 --> 04:46.320]  shift. So many people migrated as soon as that became available. Well, I remember that it debuted
+[04:46.320 --> 04:51.440]  on April 1st, whatever the year was. I don't know. It might be like 2004. I'll look it up for the
+[04:51.440 --> 04:56.080]  show notes. We don't have to waste time here looking it up, but it was April 1st. And it was
+[04:56.080 --> 05:01.360]  either like you just sign up, it's free, you get your name at gmail.com and you got like, I think
+[05:01.360 --> 05:05.280]  it was a gigabyte, maybe it was more, I don't know, but it was at least a gigabyte. Whereas
+[05:05.840 --> 05:11.360]  every other yahoo.com or Hotmail or AOL or wherever else you might've been hosting,
+[05:11.360 --> 05:17.520]  getting your email for free, were measured into megabytes. And like you said, everybody was
+[05:17.520 --> 05:22.960]  constantly, I don't know, archiving to a local mailbox on their computer so that most of their
+[05:22.960 --> 05:29.600]  email wasn't even on the server anymore. And it was just a daily occurrence to sort of get an
+[05:29.600 --> 05:36.240]  alert like, hey, your inbox is full. I remember those days. I mean, I remember being really
+[05:36.240 --> 05:40.160]  excited when it first came out. I was one of those people where I couldn't get an invite
+[05:40.160 --> 05:45.760]  and I had to go to eBay and like pay some guy for an invite or something. I think I paid like
+[05:45.760 --> 05:50.400]  10 bucks or something back in the day to just try and get in. But yeah, I was, I mean, as soon as I
+[05:50.400 --> 05:55.920]  got it, I was like, oh my gosh, this is such a relief to finally have the room to just let
+[05:55.920 --> 06:02.720]  all your stuff accumulate. And people thought it was a joke. I mean, because today's Google,
+[06:02.720 --> 06:06.160]  now that they've sort of got a couple of decades under their belt as a
+[06:06.160 --> 06:14.960]  industry titan, are less cheeky. Right. 20 years ago-ish, Google was sort of prankster-y.
+[06:14.960 --> 06:18.480]  There were a lot of people the day it was announced who thought this can't be real.
+[06:18.480 --> 06:23.200]  And there was an invitation system so everybody couldn't just jump on to prove it.
+[06:23.200 --> 06:27.440]  But there was, I would say it was like 50-50 people thinking like, well, this can't be true
+[06:27.440 --> 06:31.840]  that they're giving everybody email with a gigabyte of storage. But yeah, it was.
+[06:31.840 --> 06:38.240]  But yeah, it was. And here we are. So explain, you can do it better than me,
+[06:38.240 --> 06:44.800]  because you're obviously familiar with it about as perhaps as much as anybody in the world.
+[06:44.800 --> 06:50.800]  But explain for people, either even Gmail users, but especially for people who don't use Gmail or
+[06:50.800 --> 06:54.880]  only use it superficially, the conceptual difference between the way Gmail deals with
+[06:54.880 --> 07:01.600]  messages compared to traditional email. Sure. I mean, I think it boils down to this
+[07:01.600 --> 07:05.680]  really fundamental distinction that you alluded to earlier, which was the difference between
+[07:05.680 --> 07:12.880]  kind of storing things in folders slash mailboxes and what Gmail does, which is just storing
+[07:12.880 --> 07:20.800]  everything in one, effectively one mailbox, all mail, and then letting you like apply multiple
+[07:20.800 --> 07:26.640]  labels to each message. So even things that are in your inbox, it's not just in your inbox,
+[07:26.640 --> 07:32.480]  it's in all mail. It just happens to have the inbox label applied to it. So it's this
+[07:32.480 --> 07:38.640]  really, really fundamental mismatch between the way that most email clients worked before,
+[07:38.640 --> 07:44.720]  the way that IMAP works before, and the way that Gmail works. And it's powerful, right?
+[07:44.720 --> 07:48.960]  To some degree, you look at it and it's really like, it's logically correct. It's like, okay,
+[07:48.960 --> 07:53.520]  I've got this message. I can apply multiple things to it. When Gmail first got started,
+[07:53.520 --> 07:59.280]  I think that was an aspect where people had a hard time kind of like fully grasping and
+[07:59.280 --> 08:06.480]  they very quickly over the years made some UX refinements that I think made it a lot easier
+[08:06.480 --> 08:13.600]  to sort of disguise the whole labeling aspect of the system. If you didn't want to get into that,
+[08:13.600 --> 08:19.680]  you could sort of over time begin to like drag and drop a message from your inbox to some other
+[08:19.680 --> 08:24.720]  label that you could then think of as a folder. But under the hood, it's all still
+[08:24.720 --> 08:29.360]  just one box of messages that have labels on it. And that's ultimately where I think a lot of the
+[08:29.360 --> 08:36.000]  power of Gmail as a platform does come from. But it also has been a challenge to sort of
+[08:36.000 --> 08:41.200]  integrate into the broader set of email tools that were already out there because it just,
+[08:41.200 --> 08:45.520]  that doesn't map to the whole folders and messages model of the past.
+[08:45.520 --> 08:50.000]  Jay Famiglietti Yeah, I almost think it's better to think of it less as one big mailbox and more
+[08:50.000 --> 08:55.360]  like a soup, right? Like it's just all of the messages, whether you sent them or they came to
+[08:55.360 --> 09:03.040]  you, are just in a soup on your Gmail account. And labels are, it's just another word for tags
+[09:03.040 --> 09:10.320]  in another system. And like you said, being in the inbox is just a tag on a message. And when you say
+[09:10.320 --> 09:18.160]  archive in Gmail, it just takes the inbox tag off and the message disappears from your inbox. But
+[09:18.160 --> 09:23.120]  it's really hasn't gone anywhere. It's just in the soup and no longer has the inbox label.
+[09:24.320 --> 09:29.440]  Right. I am a huge fan of that. I mean, years ago, a long time at this point, I guess it's
+[09:30.000 --> 09:35.600]  10 years. But me and Brent Simmons and Dave Whiskas made an app, a notes app for the iPhone
+[09:35.600 --> 09:41.680]  called Vesper. And one of the things that distinguished it from other notes apps still,
+[09:41.680 --> 09:49.200]  even to this day is it had no folders at all. All it had were tags. And I still have it on my phone,
+[09:49.200 --> 09:54.080]  but because it doesn't sync anywhere, I don't use it. But I still miss it. Because I like the
+[09:54.080 --> 09:59.600]  tagging metaphor. And again, with Vesper, the notes were all effectively in a soup. And everything was
+[09:59.600 --> 10:05.280]  just a tag. But one of the advantages of tagging or labeling, whatever you want to call it versus
+[10:05.280 --> 10:14.960]  folders, is that a message can have more than one tag. So it could be in the inbox and it could have
+[10:14.960 --> 10:20.560]  a tag like newsletter. And there you could just go to your tag newsletter and just see all of your
+[10:20.560 --> 10:28.880]  newsletters, whether they're in the inbox still or not. And there they are. Or you could I mean,
+[10:28.880 --> 10:35.600]  the shopping, right? Like if you just want to tag something for everything you want to think about
+[10:35.600 --> 10:39.600]  buying in the future, you could just tag it shopping, but it could have other tags too.
+[10:39.600 --> 10:46.640]  So you're not making a copy of the message to have it in both label shopping and label
+[10:48.000 --> 10:52.560]  work. If it's stuff you want to buy for work or the name of a project or something like that.
+[10:52.560 --> 10:59.600]  It's just got both labels. And so it's in both contexts. And where I think things go wrong,
+[10:59.600 --> 11:07.760]  other systems go wrong, is when there's a system. And I'll hold up Apple Notes as an example,
+[11:07.760 --> 11:12.160]  which is now my primary notes app. And I like Apple Notes. And I think it's a very strong
+[11:12.160 --> 11:20.880]  built-in default app and syncing on fantastic. But my number one complaint with it is that they've
+[11:20.880 --> 11:28.080]  added tagging, but it already has a folder structure. And it's not that they're incompatible,
+[11:28.080 --> 11:31.840]  but to me, things work best if they choose one or the other.
+[11:33.360 --> 11:40.560]  Yeah, I mean, logically, I think this comes back to the point of where people sometimes have a
+[11:40.560 --> 11:46.080]  little bit of a hard time wrapping their heads around tagging systems like they're objectively
+[11:46.080 --> 11:52.400]  more powerful, right? Like objectively speaking, a tagging system is a superset of a folder system,
+[11:52.400 --> 11:57.280]  right? Because if a folder system is just at most one tag per message, and a tagging system
+[11:57.280 --> 12:03.200]  is multiple tags per message. But like all things, people are familiar with what they've
+[12:03.200 --> 12:08.160]  done in the physical world and putting items into folders is something that people are very,
+[12:08.800 --> 12:13.680]  it's easy to understand. So I think there's a lot of that that just makes the whole tagging
+[12:13.680 --> 12:18.240]  metaphor a little difficult for, especially the folks that are a little less technical
+[12:18.240 --> 12:20.960]  to like completely wrap their heads around it at first.
+[12:21.600 --> 12:26.800]  Right. And what helps with, especially like with Gmail is like you said, you can still,
+[12:26.800 --> 12:31.840]  once those labels are over in your sidebar and there you can think of them as mailboxes,
+[12:31.840 --> 12:37.040]  you can just drag a message to one. And it seems like it moves it there, but it really is just
+[12:37.040 --> 12:42.320]  applying the label, but you still have the same. If you think, well, I guess I should just click
+[12:42.320 --> 12:47.600]  and click on the message and drag it over there and drop it and that will move it there. It still
+[12:47.600 --> 12:52.080]  works for you. You don't really have to think of it as applying a label. You can think of it as
+[12:52.080 --> 12:57.680]  moving and it still works. Right. They've definitely done a good job of if you don't
+[12:57.680 --> 13:03.920]  really get labels, you can sort of use Gmail and not really think about it that much if you want.
+[13:03.920 --> 13:09.760]  So that refinement has definitely happened over the course of a few years. All right. I want to
+[13:09.760 --> 13:13.280]  keep going on the Gmail I'm app distinction, but let me take a break here and thank our first
+[13:13.280 --> 13:19.360]  sponsor and it's our good friends. New sponsor at Rocket Money. Rocket Money is a personal finance
+[13:19.360 --> 13:25.280]  app that finds and cancels your unwanted subscriptions, monitors your spending and
+[13:25.280 --> 13:31.280]  helps you lower your bills all in one place. Over 80% of people have subscriptions that they've
+[13:31.280 --> 13:36.160]  forgotten about. So the chances are you're one of them. I know I am. That's true. Every once in
+[13:36.160 --> 13:40.160]  a while I go through my credit card manually and you find stuff. You find weird stuff like
+[13:40.720 --> 13:45.040]  stars. What the hell is that? And it's like, oh, that's like a streaming service I subscribed to,
+[13:45.040 --> 13:49.520]  to get one show. I forgot to unsubscribe. I don't even remember. Subscribe to it.
+[13:49.520 --> 13:54.480]  Rocket Money will quickly you sign up for Rocket Money and it will quickly and easily find your
+[13:54.480 --> 13:59.920]  subscriptions for you through your billing history. And for any that you don't want to pay
+[13:59.920 --> 14:04.880]  anymore, you can just hit cancel and Rocket Money will cancel it for you right there. This is what
+[14:04.880 --> 14:10.720]  they do. This is what they specialize in. Easy right there in Rocket Money. It helps you manage
+[14:10.720 --> 14:15.760]  all of your finances too in one place and it automatically categorizes all of your expenses
+[14:15.760 --> 14:21.840]  so you can easily track your entire budget in real time as you spend and get alerted.
+[14:21.840 --> 14:26.000]  If anything looks off, if any kind of weird things come in, things that are outside the norm,
+[14:26.000 --> 14:31.840]  you'll get an alert that says, hey, sum up with this. Over 3 million people have used Rocket
+[14:31.840 --> 14:39.920]  Money, saving the average person up to $720 a year. Kind of remarkable. It's really great.
+[14:40.560 --> 14:44.800]  You can just it's so easy. You just sign up. It goes through your billing history,
+[14:44.800 --> 14:48.480]  finds all your subscriptions. You just find the ones you don't want anymore. Hit cancel.
+[14:48.480 --> 14:52.960]  Stop throwing your money away. Cancel your unwanted subscriptions and manage your expenses
+[14:52.960 --> 15:02.320]  the easy way by going to rocketmoney.com slash the talk show. That's rocketmoney.com slash
+[15:02.320 --> 15:08.640]  the talk show. Thank you to Rocket Money, rocketmoney.com slash the talk show.
+[15:09.440 --> 15:15.840]  So you have it. I've been using Gmail. I've told you this as we were setting up the show
+[15:15.840 --> 15:21.520]  years and years ago before the iPhone, I was a Mail Smith user. Mail Smith is a near now
+[15:21.520 --> 15:25.920]  nearly forgotten email client from bare bones software. The makers of BB Edit was sort of a
+[15:25.920 --> 15:32.400]  weird duck. It was only Mac only. It never supported IMAP, which is more or less the death
+[15:32.400 --> 15:37.600]  of it. It was a pop only. And pop was, for those of you who aren't old enough, pop was an email
+[15:37.600 --> 15:46.000]  protocol before IMAP where you effectively would have a client software on your computer.
+[15:46.000 --> 15:50.320]  It would connect to the server. And if there were new messages, it would download them to
+[15:50.320 --> 15:54.800]  your computer and delete them from the server optionally. But most people would just delete
+[15:54.800 --> 16:00.800]  them from the server. So it was a way to sort of keep all your email on your computer, which
+[16:01.600 --> 16:08.240]  is not the way people think of email anymore. But 20, 25, 30 years ago when people had like
+[16:08.240 --> 16:14.160]  five megabyte storage allotments on their server, it made sense. It was also a much,
+[16:14.160 --> 16:21.920]  much, much, much simpler protocol than IMAP. I'm sure, Neil, you're going to burst out laughing
+[16:21.920 --> 16:30.960]  when I describe IMAP as somewhat idiosyncratic. Pop is certainly a much more simple and
+[16:30.960 --> 16:36.000]  straightforward protocol compared to IMAP. So I made do with pop for years and years because I
+[16:36.000 --> 16:42.400]  only really had, I just had one main Mac at a time. At the times when I did use more than one
+[16:42.400 --> 16:49.680]  Mac, I would keep my Mailsmith installation on an external drive. And then I could just quit it,
+[16:50.320 --> 16:55.040]  take the external drive, plug it into a different Mac. It's an old way of thinking about storage
+[16:55.040 --> 16:59.360]  and working, but it was sort of like, where was my email? It wasn't in the cloud. It wasn't on a
+[16:59.360 --> 17:05.840]  Mac. It was on this like LaCie. I don't know. That's just how people used to work with their,
+[17:05.840 --> 17:12.160]  you know, all of their data really just 20 years ago. It was one of those LaCie hard drives. I
+[17:12.160 --> 17:16.080]  got FireWire one that had a rubber coating, you know, and I had backups too, but I was like,
+[17:16.080 --> 17:19.760]  I don't know if I'm putting this in my backpack and jostling it around, I should get one of these
+[17:19.760 --> 17:25.040]  rugged hard drives. But anyway, when the iPhone was announced, it was like, all of a sudden I was
+[17:25.040 --> 17:29.520]  like, well, this is the end of this because I want to, I know I'm going to want to use this.
+[17:29.520 --> 17:34.960]  Now I'm going to have two devices that I want to access my email from. So it's time to switch to
+[17:34.960 --> 17:41.200]  IMAP. Goodbye to my beloved Mailsmith. And I switched to Apple Mail, but I took the time,
+[17:41.200 --> 17:45.520]  you know, I was like, well, if I'm making this big switch, it's time for me to switch my email
+[17:45.520 --> 17:52.720]  hosting. And I switched all of my main emails, addresses to Gmail addresses. But at the time,
+[17:52.720 --> 17:58.160]  I'm pretty sure unless I'm an idiot and I missed it in 2007, I don't think you could hook up your
+[17:58.160 --> 18:03.920]  own custom domain names to Gmail officially. So the way I have things set up for 15 years now
+[18:03.920 --> 18:12.000]  is my comments at Daring Fireball address is just a forwarder that I host that forwards to a Gmail
+[18:12.000 --> 18:18.240]  account with a, it's like fireball.msk at gmail.com that nobody sees. And then I have my
+[18:18.240 --> 18:23.680]  Gmail account set up. You can say, would you like to send mail from like an alias? And it's just a
+[18:23.680 --> 18:28.480]  preference setting I set 15 years ago. So when I use that Gmail account, the outgoing mail says
+[18:28.480 --> 18:34.720]  it's from commented during Fireball and it's worked. And, and, and here's the way that it
+[18:34.720 --> 18:39.680]  works is Gmail has, I think it's an off by default setting, but you can turn it on per account to say
+[18:39.680 --> 18:47.360]  enable IMAP access to my account. And then any IMAP client can then authenticate with Google
+[18:48.160 --> 18:55.680]  and connect and will treat your Gmail account as an IMAP account. And it works mostly. I mean,
+[18:55.680 --> 18:59.840]  I've been doing it for 15 years. And one of the reasons I switched to Gmail at the time was for
+[18:59.840 --> 19:05.440]  their spam filtering, which was excellent at the time. It's still okay. I think it's gotten worse
+[19:05.440 --> 19:11.840]  over time, but, but it's on that later. Right. More on that. All right. More on that later. I'm
+[19:11.840 --> 19:16.480]  going to make a note, but more or less for 15 years, I've used Apple mail as my primary
+[19:16.480 --> 19:27.040]  email client on Mac and iOS and treating my Gmail as an IMAP server. And it's mostly worked. I mean,
+[19:27.040 --> 19:33.440]  I don't really have, I don't use lots of mailboxes. I more or less just do inbox to archive kind of
+[19:33.440 --> 19:38.480]  works. And I've just sort of sucked it up over the years. Yeah. You know, I think, I think that
+[19:38.480 --> 19:44.400]  iPhone era obviously killed all the previous email setups where people were using pop and trying to
+[19:44.400 --> 19:48.960]  store everything locally. I think once the iPhone came out and everyone was using smartphones,
+[19:48.960 --> 19:54.800]  like IMAP was just sort of minimum, minimum table stakes at that point for any reasonable
+[19:54.800 --> 20:00.160]  multi-device user experience. And it served us super well. And I think a lot of people
+[20:00.160 --> 20:07.680]  out there sort of have this impression that IMAP is this really janky, bad protocol. And it's,
+[20:07.680 --> 20:13.040]  it's actually not, there are, there are some aspects of it that are very thoughtfully
+[20:13.040 --> 20:19.680]  designed and, and can work really, really well for the use cases that it addresses.
+[20:19.680 --> 20:26.480]  The real problem with it is just that it doesn't have a good fit with the Gmail data model.
+[20:26.480 --> 20:31.040]  And that's really where it fell apart with trying to use it with, with Gmail is that there's a
+[20:31.040 --> 20:34.720]  little bit of a mismatch there, but otherwise there's a lot of people who are using it very
+[20:34.720 --> 20:40.160]  successfully with, with other services. Fast mail, for instance, is one that a lot of folks
+[20:40.160 --> 20:46.240]  are, are, are really behind. And that's something I'd love for us to eventually get to. But,
+[20:46.240 --> 20:50.400]  you know, we have to obviously start with a very specific focus to make something that's,
+[20:50.400 --> 20:54.720]  that's, that's, that's really different and get people on board. But yeah.
+[20:54.720 --> 20:59.760]  All right. So the big difference with MimeStream is right now, MimeStream 1.9. Now, how long,
+[20:59.760 --> 21:05.120]  how long have you been working on MimeStream? You said years. Oh, years. Let's see. So I
+[21:05.120 --> 21:12.320]  left Apple in 2017. And then for about two years, I worked on a couple of different things
+[21:13.120 --> 21:20.960]  kind of outside of technology. And then eventually in 2019, I decided I really,
+[21:20.960 --> 21:25.840]  really miss working on email. So I founded MimeStream in 2019 and kind of got to work
+[21:25.840 --> 21:33.360]  every day building it. And it was just me, just me in that, and that time. And in the fall of 2020,
+[21:33.360 --> 21:40.560]  I sort of opened up this public beta. I didn't actually intend to like open up a wide public
+[21:40.560 --> 21:45.840]  beta. I did a quick post to Hacker News thinking that I would get like a hundred or two hundred
+[21:45.840 --> 21:50.880]  more people to use what I was working on. And, and it sort of blew up a little bit from there,
+[21:50.880 --> 21:56.000]  a little out of my control. It all went a little faster than I was expecting. It seemed to resonate
+[21:56.000 --> 22:01.520]  with people, you know, we sort of continued developing it from there. All right. So to be
+[22:01.520 --> 22:05.280]  clear, when you were at Apple, you were at Apple for, I'm going by your LinkedIn here,
+[22:05.280 --> 22:10.560]  but for seven and a half years, you were at Apple and you worked on Apple mail and notes,
+[22:10.560 --> 22:17.920]  which is semi-related to mail, or at least was for a while because, and again, I don't want to
+[22:17.920 --> 22:25.280]  go off too much on a digression on notes apps, but until it switched to iCloud and modern iCloud
+[22:25.280 --> 22:33.520]  storage and syncing APIs, notes for syncing used IMAP. Oh yes. Oh yes. So I actually worked on the
+[22:33.520 --> 22:39.920]  first notes app for OSX back in the day. The first version and the second version used IMAP syncing
+[22:39.920 --> 22:46.400]  under the hood, which there were pros and cons, and that's not exactly the protocol that I think
+[22:46.400 --> 22:53.440]  anyone would have chosen to start a brand new notes app with, but there was already pre-existing
+[22:53.440 --> 22:59.440]  notes in mail, which were syncing with IMAP and notes on iOS, which was syncing with IMAP. So it
+[22:59.440 --> 23:04.880]  was just sort of the default choice for us as, well, we've got to be backwards compatible with
+[23:04.880 --> 23:11.600]  what people already have. So we need to do IMAP syncing of notes. Now IMAP is not a great protocol
+[23:11.600 --> 23:17.520]  for that specific use case, but it got the job done well enough. And it was a light enough user
+[23:17.520 --> 23:23.840]  experience that I think quickly got a good bit of traction. If I recall correctly, because what I
+[23:23.840 --> 23:30.480]  figured out very quickly was when notes was using IMAP for the backend for syncing,
+[23:31.760 --> 23:38.720]  no surprise, my mac.com account was pretty much rock solid. At the time, it wasn't even called
+[23:38.720 --> 23:44.800]  iCloud. It was either me.com or even mobile me or literally might've been still called mac.com as
+[23:44.800 --> 23:52.400]  the service. But because it was Apple's own IMAP servers, of course, notes is use of IMAP for
+[23:52.400 --> 23:58.480]  syncing notes was compatible with that. And what I recall is that with Gmail in particular, it
+[23:58.480 --> 24:04.400]  didn't work well at all. And, and it was something, something, cause if you think about it with you,
+[24:04.400 --> 24:10.880]  when you think about IMAP and email and a message is usually like, it's like dry ink, like it's,
+[24:10.880 --> 24:18.480]  okay, I've typed up this message. I've hit send. It goes, it leaves me. And now it's a sent message
+[24:18.480 --> 24:26.160]  on my account. Done. It's sent. I already sent it. I can't go in there and edit it and change some
+[24:26.160 --> 24:34.080]  of the words other than by making a copy of it and resending it. And when I get an email message
+[24:34.080 --> 24:40.240]  from you, it's in my box. I can't edit. I can't just open the message that Neil sent me and start
+[24:40.240 --> 24:45.680]  typing in it and edit it. That's just not, you don't want email to work that way, but a note is
+[24:45.680 --> 24:54.000]  something you just go back to and you can add, add more texts, replace. So I guess IMAP has APIs that
+[24:54.000 --> 24:59.600]  ostensibly support that sort of thing, but G G-mail did not react well to it. As I recall, every time
+[24:59.600 --> 25:05.200]  you edited a note backed by Gmail's IMAP, you'd get a new copy of the note, something like that.
+[25:05.200 --> 25:11.680]  Oh boy. It is, it is possible. It's been a few years now, so I forget some of the details.
+[25:11.680 --> 25:19.200]  Yeah. It was backed by IMAP. And IMAP, unfortunately, the only way you can really
+[25:19.200 --> 25:23.680]  change a message is by, you can, you can adjust the metadata of a message, but you can't easily
+[25:23.680 --> 25:28.880]  change the contents. You basically have to upload a whole brand new one and then delete the old one
+[25:28.880 --> 25:34.160]  and then fake it out and present it to the user as if no change has happened.
+[25:34.160 --> 25:39.440]  And so that, that actually is one of the like serious engineering challenges when it comes
+[25:39.440 --> 25:45.680]  to building an IMAP email client or really doing any kind of document editing by IMAP.
+[25:45.680 --> 25:49.280]  That it's just, it's not designed for updates of a message.
+[25:49.840 --> 25:54.800]  All right. So here we come to, to, to me, the key question of this entire interview,
+[25:54.800 --> 26:01.920]  which is, are you crazy? Yes. Because what you're saying is your story is you, you were working
+[26:01.920 --> 26:08.000]  on an email client, a major one used by hundreds of millions of people. I guess if you work,
+[26:08.000 --> 26:11.840]  did you work on the iOS version too before you left or only Mac?
+[26:11.840 --> 26:20.320]  I worked on both. So I started when I first joined, I was on the Mac mail team and then
+[26:20.320 --> 26:27.840]  got loaned to the team that was working on iPad mail for the first iPad. So I worked on that for
+[26:27.840 --> 26:34.800]  about my first year or so at the company. Then I helped shipped Lion and a lot of the new features
+[26:34.800 --> 26:43.120]  there like conversation view. So I was on the Mac side for a while, then worked on Notes for the,
+[26:43.120 --> 26:50.160]  the, the first Mac version of, of Notes. And that was another year or two, and then switched into
+[26:50.160 --> 26:57.040]  managing teams kind of as an engineering manager, managing groups that were working on the backend
+[26:57.040 --> 27:02.560]  infrastructure of, of mail. So I actually got my engineering management start working on the front
+[27:02.560 --> 27:09.120]  end of mail for the Mac and Apple Notes, but then eventually at some point either made a transition
+[27:09.120 --> 27:15.760]  over to working on the backend frameworks across the both. And in 2017, it was time for me to do
+[27:15.760 --> 27:22.560]  something new. I never really would have thought that I would go back to working on email. I knew
+[27:22.560 --> 27:27.280]  what a difficult problem domain it was. I knew it was really difficult even just to get the
+[27:27.280 --> 27:35.440]  table sticks working well, I knew would be a lot of work. So I think I had started to crave working
+[27:35.440 --> 27:40.880]  on something that was to be a little bit easier from the technology perspective. Like email is
+[27:40.880 --> 27:50.480]  just email is in some ways a house of like a tower that has just been built one layer on top of each
+[27:50.480 --> 27:57.120]  other. Like there's just a whole, everything from the bottom up is just one extension, one addition,
+[27:57.120 --> 28:02.320]  one refinement on top of each other. So it's just, it's really complicated. But yeah, it was,
+[28:02.320 --> 28:07.760]  it was, it was an interesting two years for me. I ask if you're crazy because to me,
+[28:08.480 --> 28:14.000]  and I speak with some experience actually going back a long time, but hey, I know we should make
+[28:14.000 --> 28:21.600]  a new email client is right up there with we should launch a land war in Asia. It is something
+[28:21.600 --> 28:27.040]  that people often throughout history have thought, and it's something people throughout history have
+[28:27.040 --> 28:31.840]  often started and very few make it. What I say from personal experience, I think, I don't even
+[28:31.840 --> 28:36.800]  know what year it was, but it was like 15 years ago, me and a bunch of friends, Brent Simmons,
+[28:36.800 --> 28:41.440]  again, who we did Vesper with, or I did Vesper with and a few others, we thought about start,
+[28:41.440 --> 28:47.280]  well, we tried starting an open source Mac IMAP client, which we were going to call letters,
+[28:47.280 --> 28:54.320]  which I still think is a very good name. And we got a lot of design and we had a good,
+[28:54.320 --> 29:00.160]  we had a lot of ideas for how the app would work and effectively gave up on it because we could
+[29:00.160 --> 29:07.440]  not find a good IMAP engine that may or may not be different at this point, open source, I don't
+[29:07.440 --> 29:12.240]  know. But at the time, we would need to do our own IMAP engine. And then it was deemed, well,
+[29:12.960 --> 29:18.240]  this is not a good open source project. Effectively, I mean, and what modern day
+[29:18.240 --> 29:23.680]  NetNewswire is, is exactly what we thought letters would be if we got off the ground,
+[29:23.680 --> 29:30.800]  which is open source, a great app, very, very Mac-like. And NetNewswire has its own feed
+[29:30.800 --> 29:37.520]  parsing engines, but feed parsing engines are much, much simpler and as convoluted and terrible and
+[29:37.520 --> 29:46.240]  malformed as RSS feeds can be, it's nothing like dealing with the morass of IMAP implementations
+[29:46.240 --> 29:52.320]  out there. So we gave up and it didn't work. And there have been many, many other email clients
+[29:52.320 --> 30:00.640]  over the years that have not made it. So honest to God, just let me say this, shipping a 1.0
+[30:00.640 --> 30:05.840]  is in and of itself, I mean, obviously you want to build a successful company and go from, have this
+[30:05.840 --> 30:12.240]  be a successful endeavor, but actually just making something that works is just a remarkable
+[30:12.240 --> 30:17.760]  accomplishment. It really is. Thank you, John. Thanks, John. You're absolutely right that email
+[30:17.760 --> 30:23.520]  clients are sort of extremely, they're definitely difficult to build. And I knew this going in,
+[30:23.520 --> 30:30.800]  I 100% knew this going in. And even knowing what I knew, I still underestimated how difficult and
+[30:30.800 --> 30:37.440]  how long and just how much work it would take to build something that was absolutely usable
+[30:37.440 --> 30:44.560]  as a 1.0. The thing about email is that most people have experience with it for decades.
+[30:44.560 --> 30:50.720]  And so therefore have very high expectations. It's not a brand new type of app where you're
+[30:50.720 --> 30:56.560]  just sort of learning some new novel interactions. People have memories of, oh, I used to do this in
+[30:56.560 --> 31:01.920]  Eudora. I used to do this in Outlook. I've been doing this in Thunderbird. Gmail has this feature.
+[31:02.640 --> 31:07.040]  There's just a lot of them. And they sound simple. Like to some degree, it's like, what's so hard
+[31:07.040 --> 31:12.560]  about this? It's a list of messages and you click one and you'll read it. What's so hard about that?
+[31:12.560 --> 31:18.800]  But that's like saying, what's so hard about building a car? I get behind, I've got a steering
+[31:18.800 --> 31:23.760]  wheel and an accelerator and a brake pedal. And I press the accelerator and it goes and I press
+[31:23.760 --> 31:30.320]  the brake and it stops. And obviously to build a modern car from first principles would take an
+[31:30.320 --> 31:36.880]  enormous, enormous amount of work and enormous budget. And people would immediately criticize,
+[31:36.880 --> 31:43.840]  oh, it doesn't shift very well from third to fourth gear. People are very in tune with that
+[31:43.840 --> 31:48.160]  sort of thing. And email clients and all productivity software is kind of the same way.
+[31:48.160 --> 31:52.160]  So I think that that is really what makes it difficult that a lot of people have
+[31:52.160 --> 31:56.720]  very, very high expectations. And actually the complexity goes a lot deeper than most
+[31:56.720 --> 32:01.760]  people would expect. It's just because there's so much experience that most users have with
+[32:01.760 --> 32:06.640]  these sorts of apps. I don't really think it's possible to build something that's usable in less
+[32:06.640 --> 32:14.320]  than at least a few man years of effort. You could stand up a prototype, sure. But for something that
+[32:14.320 --> 32:20.880]  checks off some of the table stakes, I don't think it's possible to do that very quickly.
+[32:20.880 --> 32:26.880]  Well, you've been using the first person plural, we. So how many people is MimeStream now?
+[32:26.880 --> 32:33.280]  So MimeStream is now five people. It started as just me. But then after I got the public
+[32:33.280 --> 32:39.360]  beta out and then we started getting a lot more users and it was clear that there was demand for
+[32:39.360 --> 32:44.240]  this. That's when I sort of decided, okay, you know what? This is actually what I'm going to really
+[32:44.240 --> 32:49.200]  focus on. I'm going to invest my money into this. I'm going to invest 100% of my time into this.
+[32:49.200 --> 32:54.320]  This is going to be like what I'm really, really going to be pushing for and gunning for. This is
+[32:54.320 --> 33:02.480]  my, I'm all at this. So around end of 2021, started hiring some folks through 2022 as well. It's been
+[33:02.480 --> 33:08.640]  great. We're a small little remote team dotted around the world. And it's been really fun.
+[33:08.640 --> 33:13.600]  Getting some more folks to work on this. Is it mostly other programmers?
+[33:14.320 --> 33:21.040]  Yeah. Right now, almost everyone is technical. I have someone that helps out with support and QA,
+[33:21.040 --> 33:27.600]  and then everyone else is developers. I have, and I, again, I used to work at Barebone Software
+[33:27.600 --> 33:31.920]  and when MailSmith was out for two years. So I've done technical support for email.
+[33:31.920 --> 33:37.280]  And it's difficult. You get a lot. I mean, we just get so much email every day. It's,
+[33:37.280 --> 33:41.280]  if I were to sit and respond to every single message, I would never be able to do anything.
+[33:42.480 --> 33:47.040]  And one of the things that makes it more stressful is the email is important.
+[33:47.600 --> 33:48.240]  Right.
+[33:48.240 --> 33:53.280]  It really is. And technical support for anything that you pay for is of course very important,
+[33:53.280 --> 34:00.080]  any kind of professional software. But email is up there. People get important emails. People
+[34:00.080 --> 34:08.480]  send important emails and when things go wrong, they're stressed. Technical support has emotional
+[34:08.480 --> 34:13.840]  support as much as tech. Yeah, that's definitely there. One of the things that people really like
+[34:13.840 --> 34:21.520]  about MimeStream is that they can get hold of us. So when something, if something isn't quite right,
+[34:21.520 --> 34:27.200]  we can take a look at it, help get them unjammed. There is some degree of handholding that we can
+[34:27.200 --> 34:32.720]  do with this. But you know, at the same time, when it comes to productivity software, I think
+[34:32.720 --> 34:38.720]  on average people, they're not very forgiving either. If you, if there's something wrong,
+[34:38.720 --> 34:43.760]  like you try to send a message and you get an error, boom, all trust you have in that app is
+[34:43.760 --> 34:50.560]  just gone. Like instant, it's eroded. You no longer trust it. And it takes a very long time to
+[34:50.560 --> 34:56.720]  build that all up again. And so that's been, that's obviously a challenge that the expectations of
+[34:56.720 --> 35:02.640]  quality are super high for this kind of productivity app. And it's taken a long time to
+[35:02.640 --> 35:08.800]  really make sure that we are there. And that's obviously a huge, huge priority for us as a
+[35:08.800 --> 35:15.200]  company. And it's something that always will be. I mean, I think that that is just the core essence
+[35:15.200 --> 35:22.160]  of the, it's one of the core essences of the product is a focus on that. I took a look at
+[35:22.160 --> 35:28.960]  MimeStream early on, just because I'm interested in Mac native, anything, and I've always been
+[35:28.960 --> 35:36.560]  vaguely dissatisfied with Apple mail. And I looked at it early and I remember thinking,
+[35:36.560 --> 35:41.520]  this is promising. And I do use Gmail on the backend, but I had this idea in my head,
+[35:41.520 --> 35:47.360]  but I kind of want to move my email off Gmail for reasons. So maybe, and this is early,
+[35:47.360 --> 35:52.960]  I'll come back and look at it later. Well, later for me was this week when the 1.0 came out because
+[35:52.960 --> 35:58.640]  the 1.0 came out, I saw a bunch of news. I got a very kind email from you saying, Hey, we're finally
+[35:58.640 --> 36:02.480]  hit 1.0. Here's some of the highlights. Here's a video with the best features. And I thought,
+[36:02.480 --> 36:07.840]  I got to look at this again. And after not having looked at it for a while, I don't know when it
+[36:07.840 --> 36:13.520]  was, it was early. So probably like two or 18 months ago or something like that. I was just
+[36:13.520 --> 36:22.240]  like, wow, like this, I mean, it is a very conservative 1.0, meaning you really, really
+[36:22.240 --> 36:31.120]  waited until it was robust feature rich and then, okay, now it's 1.0. I mean, I think, and then
+[36:31.120 --> 36:35.200]  again, maybe that's, maybe that's not too conservative. I don't, I'm not saying you made
+[36:35.200 --> 36:40.880]  a mistake because email is so important. And like you said, the reputational harm of having some
+[36:40.880 --> 36:47.600]  kind of bug hit somebody early on, it may not be recoverable, but this is way, most apps are not
+[36:47.600 --> 36:54.560]  1.0 apps are not anywhere near as featureful polished and complete as MimeStream 1.0.
+[36:55.840 --> 37:01.280]  Yeah, I think there's, at some point I might want to do like a retrospective on the journey
+[37:01.280 --> 37:05.600]  to 1.0. I've actually thought that it might be interesting for other folks if I wrote that up
+[37:05.600 --> 37:12.720]  at some point, but we did take a long time to, to get to 1.0. And I think on average, we made sure
+[37:12.720 --> 37:17.200]  that things were a little more polished and there were a little more features out there
+[37:17.200 --> 37:21.680]  than otherwise most people would push for, for 1.0. But at the same time, I think it comes back
+[37:21.680 --> 37:28.480]  to just the expectations and there's like one chance to make a good impression on users. So we
+[37:28.480 --> 37:35.280]  just, we decided to wait and make sure that we could do enough. So sometimes I look back at it
+[37:35.280 --> 37:41.040]  and I think, oh, we should have done this a year ago. And sometimes I look at it and I'm like,
+[37:41.040 --> 37:44.640]  I still feel like there could be so much more. There's still some, there's still some things
+[37:44.640 --> 37:48.800]  missing that, well, obviously we're going to be continuously developing this very aggressively
+[37:48.800 --> 37:54.640]  over what I hope is the very long-term horizon. Like I'm looking at this as something that I'm
+[37:54.640 --> 38:00.880]  going to be doing for the next 10 years or more. The foreseeable future. Right. Exactly. That's,
+[38:00.880 --> 38:05.680]  that's the way I look at this. Like I'm, I'm just, I'm all in on, on making sure that we
+[38:05.680 --> 38:12.640]  build Mindstream into being the best email clients that anyone's ever tried. That's our mission.
+[38:12.640 --> 38:17.200]  But, you know, I think the other aspect of 1.0 that was sort of challenging that we had to keep
+[38:17.200 --> 38:23.120]  putting off was just coming up with the right pricing model for it. And this is something
+[38:23.120 --> 38:29.040]  that we had been thinking about for a long time and had done a lot of research about it.
+[38:29.040 --> 38:38.880]  And it was, it was clear that the market for a like prosumer email client was there,
+[38:38.880 --> 38:43.280]  but it was also clear that a very specific type of person that was going to be willing to
+[38:44.480 --> 38:47.840]  pay for something like that. And so we had to really figure out something that was going to
+[38:47.840 --> 38:53.200]  work for the business, but also for the product. And part of it is, is kind of why we waited to
+[38:53.200 --> 38:59.840]  have a larger 1.0 than otherwise most, most apps would have done. I think. Well, what is the
+[38:59.840 --> 39:08.000]  pricing? So the pricing is, it is a subscription license. It is $4.99 a month or $49.99 a year.
+[39:08.720 --> 39:16.400]  And for launch, we are currently offering 40% off the annual plan. So that's $29.99 for the
+[39:16.400 --> 39:24.960]  first year. This is something where we tried to price it as aggressively as we could and as
+[39:24.960 --> 39:31.360]  affordably as we could, given the mission that we have in mind and the target user persona that we
+[39:31.360 --> 39:36.560]  have in mind. And this is very difficult for productivity software in general to get the
+[39:36.560 --> 39:43.040]  pricing right. And it's also really difficult as a maker to get it right. As a guy who works
+[39:43.040 --> 39:47.680]  on an email client and has been working on it for years, like I want this thing to be as popular as
+[39:47.680 --> 39:53.840]  possible. I want as many people as possible out there to be able to use the app and enjoy it.
+[39:54.480 --> 40:01.600]  But I also can't do that unless I either have a giant VC war chest, which we don't. I'm entirely
+[40:01.600 --> 40:07.600]  self-funded. I've invested a lot of my personal savings into getting this off the ground or,
+[40:07.600 --> 40:14.240]  you know, I have charged real money for it. And so we decided to charge real money for it,
+[40:14.240 --> 40:22.160]  which of course is targeted towards the professional and semi-professional users.
+[40:22.160 --> 40:28.000]  The folks that are just really light personal users, like, oh, I get some occasional Amazon
+[40:28.000 --> 40:33.840]  receipts and stuff like that. There's other great options out there. There's Apple Mail.
+[40:33.840 --> 40:39.840]  I worked on it for a long time. I think it's a great app. It's a great app for the average user.
+[40:39.840 --> 40:47.120]  It does everything that a lot of people need. And I think we did a lot of research and a lot
+[40:47.120 --> 40:54.000]  of thinking and a lot of analysis behind this. So we wound up where we think is something that is a
+[40:54.000 --> 41:01.600]  middle ground and a market that can work for the company. There's a really wide range of stuff out
+[41:01.600 --> 41:09.600]  there. It's funny. You've got some really, really high-end options recently that are like $30 a
+[41:09.600 --> 41:13.600]  month for... I know exactly who you're talking about. You're talking about superhuman, right?
+[41:14.240 --> 41:19.760]  That's right. So you've got that worth $30 a month for something that's a really high-end option.
+[41:19.760 --> 41:24.080]  And a lot of people swear by that. And then you've got, you know, a lot of stuff that's
+[41:24.080 --> 41:29.920]  free or close to free. Gmail itself is free, though not the workspace addresses. The workspace
+[41:29.920 --> 41:34.720]  addresses obviously cost money. And so this is really a little bit about just finding the right
+[41:35.680 --> 41:40.720]  niche for the product. I love the pricing. I think you nailed it. It feels right to me.
+[41:40.720 --> 41:46.800]  And I know that the whole idea of subscription pricing is still, and perhaps always will be,
+[41:46.800 --> 41:52.400]  it is electric to some people. And I know my podcast has listened by enough people
+[41:53.120 --> 41:56.240]  that there's some number of them out there listening to us who are like,
+[41:56.240 --> 42:01.920]  why not give me a lifetime purchase price? I hate subscriptions. Why don't I have a lifetime
+[42:01.920 --> 42:08.400]  subscription price? Right, right. And I completely understand that. And I think that ultimately
+[42:08.400 --> 42:13.440]  boils down to how you're using the product. And we did a lot of research behind this before
+[42:13.440 --> 42:19.280]  ultimately deciding on the pricing that we have. And I think if we had priced it with a little
+[42:19.280 --> 42:25.520]  lower, with a one-time option, certainly more people would have come in the door. There's
+[42:25.520 --> 42:30.000]  no doubt of that. But it was also really clear to us that we would not be able to
+[42:30.000 --> 42:36.080]  kind of aggressively continue to grow and build the product without at least hitting this, which
+[42:36.080 --> 42:42.240]  we very much believe is the sweet spot for our company going forward. So I think I get it. And
+[42:42.240 --> 42:46.720]  I think that the folks that aren't interested in that, I think that's completely reasonable.
+[42:47.520 --> 42:53.520]  And if you're using it for personal use, like I don't think that's necessarily, I think there's
+[42:53.520 --> 42:57.200]  a lot of other options out there if it's just for personal use. But for people that are doing
+[42:57.200 --> 43:02.960]  it professionally, what we found is that most people that are like, I'm doing multiple hours
+[43:02.960 --> 43:10.880]  of email a day, email is my job. Half my day's work is just responding to email. For that user
+[43:10.880 --> 43:17.760]  persona, it's a drop in the bucket for them. So it's really hard because you can't build stuff
+[43:17.760 --> 43:24.320]  that hits everybody's use cases. And we thought about having multiple plans, like free and
+[43:24.320 --> 43:29.600]  pro version. And we definitely thought very hard about that. Maybe someday that's something we
+[43:29.600 --> 43:37.120]  could do, but there's a whole list of reasons why that just wasn't the right fit. What's the demo
+[43:37.120 --> 43:41.920]  policy? So if you're a new user, you're a listener, you're intrigued already, you want to download
+[43:41.920 --> 43:47.840]  MimeStream. What do you get as a demo before you pay? Yeah, we try to make this super seamless for
+[43:47.840 --> 43:53.440]  people. So you can download it and there's a 14 day free trial. The trial doesn't ask for a credit
+[43:53.440 --> 43:57.600]  card. There's no account creation, nothing. You just download the app and you just press start
+[43:57.600 --> 44:03.120]  trial. That's it. So you can download it and just evaluate it and see if it's a fit for you. After
+[44:03.120 --> 44:10.480]  the 14 days are up, you can either subscribe or you can go back to Gmail. It's a very simple
+[44:10.480 --> 44:16.000]  model. The app doesn't really have any kind of data lock-in, right? It uses the Gmail API, sort
+[44:16.000 --> 44:22.640]  of the ethos of the app is to like very faithfully replicate your Gmail account. So everything you
+[44:22.640 --> 44:28.720]  do is synced right back to the server. So none of your data is orphaned in the app if it doesn't
+[44:28.720 --> 44:32.720]  work for you at the end of the 14 days. But yeah, we wanted it to have something that's super
+[44:33.360 --> 44:40.160]  low friction. And there's been a little confusion around some of that, but overall I think people
+[44:40.160 --> 44:46.080]  are pretty happy that they can try it without having to enter their credit card and start the
+[44:46.080 --> 44:50.640]  subscription that automatically renews unless you go and cancel that. We didn't really want to have
+[44:50.640 --> 44:56.960]  that kind of pattern. So we've already delineated some of the ways that writing an email client,
+[44:56.960 --> 45:02.800]  especially a serious professional email client is high stakes, lots of work, very complicated
+[45:03.440 --> 45:09.440]  and high pressure because it's very important. But we can list some upsides. And one of the upsides
+[45:09.440 --> 45:15.440]  is that you can use a new client for 14 days. And if you don't like it or choose not to buy,
+[45:16.000 --> 45:21.440]  you just stop using it. And your email is just there. You don't have 14 days worth of email
+[45:21.440 --> 45:26.880]  that's locked into MimeStream. And now I don't really want to buy it. Now I've got to export
+[45:26.880 --> 45:31.600]  14 days of email and no, you just stop using it, go back to whatever you were using before.
+[45:31.600 --> 45:37.920]  You can keep Apple mail and Gmail running while you're using MimeStream and everything syncs and
+[45:37.920 --> 45:42.160]  is up to date. So it's actually one of the areas where an email client is actually a pretty fun
+[45:42.160 --> 45:47.680]  thing to work on because you can do a demo period with no lock in, like you said, no lock in at all.
+[45:47.680 --> 45:51.520]  Right. Yeah. And a lot of people do run multiple clients simultaneously. I mean,
+[45:51.520 --> 45:56.080]  certainly right now everyone's doing it on iOS because there's no MimeStream iOS yet.
+[45:56.080 --> 46:00.640]  So obviously you got to use something else on that platform. There's a lot of great options
+[46:00.640 --> 46:05.840]  out there for folks. But yeah, I think that is one of the, that is also one of the beauties of
+[46:05.840 --> 46:10.640]  email that you can also use multiple tools. Like there's some folks that will jump into
+[46:10.640 --> 46:15.600]  Apple mail cause it's got some stuff that we don't have yet and they'll jump back to us to do other
+[46:15.600 --> 46:20.080]  things. So you can, you can really mix and match and you can't do that with a lot of other tools,
+[46:20.080 --> 46:24.080]  but email is definitely one of those areas where you can very easily mix and match features.
+[46:24.640 --> 46:31.600]  I, I, I, I'm sort of, I want to steer some of my efforts at Daring Fireball over the
+[46:31.600 --> 46:40.320]  next year or two years or as like a theme I want to recur is to sort of gently push my subscription
+[46:40.320 --> 46:46.640]  resistant readers into accepting that this is sort of where indie software has to go.
+[46:46.640 --> 46:51.840]  And I say has to, of course there are exceptions, right? There's some long-standing apps like BB
+[46:51.840 --> 46:56.640]  edit, which is not subscription. And, and just you pay for upgrades when there's a new Datto release
+[46:56.640 --> 47:02.800]  and other, other apps are experimenting. Like there's two or three that popped in mind. I think,
+[47:02.800 --> 47:10.640]  I think sketch still does it. I know agenda, which is sort of a cross between a to do app and a notes
+[47:10.640 --> 47:18.320]  app and a calendaring app. I know a panic's excellent text editor slash IDE Nova does it
+[47:19.120 --> 47:26.480]  where you pay for a subscription. And if you stop paying your subscription, you keep the
+[47:26.480 --> 47:34.240]  features you've already had. And when they launch new features, you just don't get those features.
+[47:34.240 --> 47:39.680]  Even though your app is updating to the latest version, those features are locked because your
+[47:39.680 --> 47:45.120]  accounts and then if you resubscribe, then you get those features, which is a very interesting
+[47:45.120 --> 47:51.440]  way to do it. But also to me, sounds like an enormous amount of engineering work and
+[47:51.440 --> 47:59.680]  internal factoring work to keep, you know, well, these, all these features are only
+[47:59.680 --> 48:05.120]  for people. It's complicated. I appreciate that they do it and I know it makes some people happy,
+[48:05.840 --> 48:11.520]  but it's a lot of work. And then every single minute the developer team spends on gating those
+[48:11.520 --> 48:18.320]  features to when people were subscribed, every single minute they spend in line of code, they
+[48:18.320 --> 48:22.640]  write to do that is a line of code in a minute they're not spending on just working on the app.
+[48:23.920 --> 48:30.000]  Right. And I think there's something there and I completely understand why a lot of people like
+[48:30.000 --> 48:37.120]  that model, the paid upgrades model. There are a few minor issues with it, notably on the app
+[48:37.120 --> 48:42.800]  store. It's not especially easy to do that. So, MimeStream iOS is a no brainer for us in the
+[48:42.800 --> 48:48.320]  future. It's not going to be a Mac only app forever, right? So we wanted to have a pricing
+[48:48.320 --> 48:55.200]  model that was going to work as we grew and expanded. And we thought, why, why offer
+[48:55.200 --> 48:59.600]  something that we're not going to be able to offer in the future? It's just going to make some folks
+[48:59.600 --> 49:05.440]  unhappy that we're switching on them. Let's start with the model that we can definitely stick with
+[49:05.440 --> 49:11.120]  over the long run. Cause that's one thing, like it's one thing if someone is unhappy about it now,
+[49:11.120 --> 49:15.360]  but they haven't paid, they haven't paid us the company anything yet. They've just used a free
+[49:15.360 --> 49:20.400]  beta. So I get it. But if they've paid for a previous version and then we switched the
+[49:20.400 --> 49:25.280]  licensing model on them in the future, that's, that's, that's where things get a little messier
+[49:25.280 --> 49:30.400]  and people get a little bit more upset and feel like, Oh, I signed, I paid for this,
+[49:30.400 --> 49:35.040]  assuming that I'd continue to be able to have this model available for me. And I get that.
+[49:35.040 --> 49:39.520]  And that was something that we, we wanted to avoid that situation down the road. So
+[49:39.520 --> 49:44.800]  we decided on this. There's also a little bit of the technology mix that came into place. You know,
+[49:44.800 --> 49:54.080]  MimeStream is written with a mix of SwiftUI and AppKit and SwiftUI is under some pretty heavy
+[49:54.080 --> 49:59.760]  iteration from, from Apple. And it's, it's constantly improving, but at the same time,
+[50:00.720 --> 50:09.040]  we haven't actually seen a single macOS update without requiring some degree of
+[50:09.040 --> 50:16.960]  adaptation from MimeStream to continue working correctly. In some cases, there have been some
+[50:16.960 --> 50:23.040]  updates that were like completely brutal for the app. Like it would, there was a bug or I think in
+[50:23.040 --> 50:30.160]  macOS 12.3, you could open up a compose window, type in a bunch of texts, hit send, and it would
+[50:30.160 --> 50:35.680]  seem like the message was sent. In your sent, the message had the text there, but then what was
+[50:35.680 --> 50:43.520]  actually sent was blank. And it's like the horrible bug that it was just, it's a complicated
+[50:43.520 --> 50:50.240]  list of reasons why it happened, but it was a very, very minor tweak in the OS that changed.
+[50:50.240 --> 50:54.800]  Now it wasn't necessarily like an API boundary, you know, change. It wasn't like Apple just
+[50:54.800 --> 50:59.760]  changed the API, right? They've got an API contract, but API contracts don't mean that
+[50:59.760 --> 51:06.960]  the exact behavior of everything and the exact ordering of operations remain consistent. It's
+[51:06.960 --> 51:12.160]  just an API contract. It's not a behavioral contract. And so there's an important distinction
+[51:12.160 --> 51:17.440]  there. And bugs happen, you know. Right, bugs happen. Now I'm not saying this doesn't happen
+[51:17.440 --> 51:22.480]  to apps that were written with more mature technologies like Objective-C and AppKit. Like
+[51:22.480 --> 51:27.280]  if you're an app that's written purely with that, like, sure, this happens. I'm not saying it
+[51:27.280 --> 51:35.520]  doesn't. But my experience was that this happened more frequently with the more modern technology
+[51:35.520 --> 51:42.160]  stack that we were using. So that was an issue for us. Another issue was also the Gmail API
+[51:42.800 --> 51:49.520]  and just being able to keep up with that. So while the API contract is not changing,
+[51:49.520 --> 51:56.560]  there were definitely behavioral changes that seem to be happening from time to time. I mean,
+[51:56.560 --> 52:04.160]  and what really clinched the deal for us was in February, I woke up at like 6 a.m. to adjust a
+[52:04.160 --> 52:12.320]  flood of messages in the support inbox. And there was a very, very subtle, like, error code change
+[52:12.320 --> 52:16.640]  that had happened in the Gmail API and basically made the app immediately crash on launch.
+[52:17.200 --> 52:22.800]  And this was just in February. And there was no way to even get the update out. So we had to send
+[52:22.800 --> 52:29.040]  an email blast to everyone and say, hey, please manually install this update. And so that was,
+[52:29.040 --> 52:35.280]  we've had a few other problems similar to that in the past, but crash on launch in a loop was
+[52:35.280 --> 52:42.400]  especially bad. That was a really unfortunate case. That sort of nudged us further towards,
+[52:42.400 --> 52:50.720]  we're an app that's dependent on another company's API. I can't make a lifetime promise that this
+[52:50.720 --> 52:57.600]  experience is going to work because it's not my API. It's not my promise to make. It's Google's
+[52:57.600 --> 53:03.360]  API, right? I fully understand that there is a risk whenever you build a company that is dependent
+[53:03.360 --> 53:09.120]  upon another company's API. Like there's no explicit contract between us and Google that
+[53:09.120 --> 53:15.280]  Google's going to keep their Gmail API running forever. I hope they do. Well, I just asked her
+[53:15.280 --> 53:20.000]  if they don't. Well, I think first and foremost on people's minds would be Google Reader,
+[53:20.000 --> 53:24.560]  which was canceled. So the advantage you have is Google got rid. It's not that Google just
+[53:24.560 --> 53:29.040]  eliminated Google Reader's APIs and said, you have to just come to the website. They just said,
+[53:29.040 --> 53:33.760]  we're getting rid of Google Reader. I don't think there's any chance that Google is going to ever
+[53:33.760 --> 53:38.480]  get rid of Gmail. I don't see how they could. I mean, it's as nonsensical as the idea that get
+[53:38.480 --> 53:46.080]  rid of Google search. Would they get rid of the API? Hmm. That's, I mean, I know so many enterprise
+[53:46.080 --> 53:51.520]  SaaS tools that also integrate with the API that I think it would be a little bit of a disaster
+[53:51.520 --> 53:56.080]  for them if they ever like an ecosystem disaster, if they ever got rid of it.
+[53:56.080 --> 54:01.360]  The larger risk that I could see is that maybe they could start to charge for it or have other
+[54:01.360 --> 54:06.080]  applications like that where now we have to pay for every single call that we make. And the Gmail
+[54:06.080 --> 54:12.720]  API is free for us to use. However, we still have to sort of treat it as a limited resource.
+[54:12.720 --> 54:20.960]  Okay. So as a project, we get 1 billion API queries per day. So we can't just let that all
+[54:20.960 --> 54:28.240]  go to waste. So over time, it's a continuous game of cat and mouse for us. Like every few months
+[54:28.240 --> 54:32.720]  where like that number is trending up, the number of API queries per day is trending up. We need to
+[54:32.720 --> 54:36.880]  do some work to reduce the number of queries that we're making and make things more efficient.
+[54:36.880 --> 54:43.200]  So we've done that several times. Actually, I'm embarrassed to say the night before launch,
+[54:43.200 --> 54:50.960]  I made an additional last minute change to try and reduce the number of queries base to make sure
+[54:50.960 --> 54:57.760]  that we don't trip that 1 billion limit that we have from Google. They do have a process in place
+[54:57.760 --> 55:02.400]  to request more quota. It's not that they don't. It's just that I've already gone through that a
+[55:02.400 --> 55:10.160]  few times and they haven't granted it yet. So they say that they will, but since it hasn't happened
+[55:10.160 --> 55:15.280]  yet, I'm very cautious about that constraint. I'm laughing, but I'm laughing because I'm crying.
+[55:16.960 --> 55:22.480]  All right. Let me take another break here and thank our good friends at Trade Coffee. I can say
+[55:22.480 --> 55:27.600]  that quite literally this entire podcast is fueled by Trade Coffee. I just had a whole
+[55:27.600 --> 55:33.280]  pot of it before we started recording Trade Coffee. I love this company. I love this service.
+[55:34.240 --> 55:40.240]  What is it? It is a subscription service where you get new craft coffee delivered fresh to your
+[55:40.240 --> 55:47.600]  house. It's a coffee service and it makes it so simple to discover new coffees from over 55 top
+[55:47.600 --> 55:53.600]  indie roasters around America. And it enables you to make your best cup of coffee at home every day.
+[55:53.600 --> 55:59.520]  They have a matching algorithm that curates coffee perfect for you. So you get started.
+[55:59.520 --> 56:04.080]  All their coffee is good. I've been using this for over a year at this point. I've never had a bad
+[56:04.080 --> 56:09.760]  bag of coffee from them, but you get the coffee and then you get like an email like a week later
+[56:09.760 --> 56:13.600]  and it's like, how'd you like that coffee? And you can give it a rating. And then they use that
+[56:13.600 --> 56:19.200]  to sort, Oh, this one got five stars. This one didn't give them more coffee like this. And now
+[56:19.200 --> 56:25.440]  they've sort of got my taste profile dialed in like the last six months of my trade coffee have
+[56:25.440 --> 56:30.480]  been even more enjoyable than the first. And I like the first, but the algorithm really works.
+[56:31.120 --> 56:37.120]  And it's roasted fresh to order. Fresh coffee is better coffee according to my notes here from
+[56:37.120 --> 56:43.200]  them. I'm telling you right now, coffee is like produce. It goes bad. It really does. You can't
+[56:43.200 --> 56:48.240]  see it, but when you buy stuff on the shelf at a supermarket and it's whole beans and it's been
+[56:48.240 --> 56:53.600]  sitting there even for just like a month, it is way different than coffee that was roasted three,
+[56:53.600 --> 56:58.640]  four days ago, which is what you get from trade coffee, fresh roasted coffee. They seal it up,
+[56:58.640 --> 57:04.240]  put it in a bag, mail it to you. And it's at your door, ding dong delivery. Here's your coffee. And
+[57:04.240 --> 57:10.320]  it's like three or four days old from when it was roasted. It is just terrific. It's hassle-free,
+[57:10.320 --> 57:15.840]  free shop, free shipping, customizable plans. You can adjust and tweak how much you get,
+[57:15.840 --> 57:20.480]  how often, on the fly, whenever you want. If you're going on vacation,
+[57:20.480 --> 57:26.160]  you can postpone a shipment. You can cancel at any time with no hassle whatsoever.
+[57:26.160 --> 57:29.520]  So upgrade your morning routine with Better Coffee right now. Trade
+[57:30.240 --> 57:34.480]  is offering listeners of this podcast a free bag of coffee with any subscription.
+[57:34.480 --> 57:43.040]  Just go to www.drinktrade.com slash the talk show. That's www.drinktrade.com slash the talk show.
+[57:43.040 --> 57:47.280]  Get a free bag of coffee with any subscription purchase. My thanks to trade,
+[57:47.840 --> 57:53.680]  www.drinktrade.com slash the talk show. All right. Before we move on to Mac stuff,
+[57:53.680 --> 57:58.240]  which is really, I don't want to let go. What was your, when you first said, okay,
+[57:58.240 --> 58:02.000]  I'm going to do this, I'm going to get serious. I'm going to go full time. I'm going to make,
+[58:02.000 --> 58:10.400]  make this client. When did you zero in on Gmail? What if I made a Gmail specific client for 1.0
+[58:10.400 --> 58:16.880]  as sort of the differentiating feature? That's a great question. So ultimately I think
+[58:16.880 --> 58:21.360]  it wasn't, it was another thing that just, it wasn't my initial intention to do that.
+[58:21.360 --> 58:26.880]  I initially wanted to do something that was like a little bit of a reinvention of the email
+[58:26.880 --> 58:32.080]  experience. So initially I was thinking about doing something that sort of mashed together
+[58:32.800 --> 58:38.880]  email and chat into one thing and sort of lets you sort of seamlessly move between
+[58:38.880 --> 58:43.840]  like long form and short form communication, because to some degree it's like we use two
+[58:43.840 --> 58:49.040]  different services, two different apps, two different ways of typing to each other.
+[58:49.040 --> 58:53.600]  And one is just very short messages and the expectation is a quick response. And one is
+[58:53.600 --> 58:59.200]  a longer message. And the expectation is a shorter response. I actually did a lot of like mock-ups
+[58:59.200 --> 59:04.720]  and I was showing friends and other people that I knew were kind of like email geeks about this.
+[59:04.720 --> 59:10.160]  And everyone's like, yeah, yeah, yeah, that's great. But you know, can you just make an email
+[59:10.160 --> 59:15.920]  client that syncs quickly and works well with Gmail search? And I was like, what? No, that's
+[59:15.920 --> 59:22.880]  like, it came to mind that like, it reminded me of that Henry Ford quote. If I'd asked people what
+[59:22.880 --> 59:28.320]  they wanted, they would have said faster horses. You know, I was, I was trying to show people cars
+[59:28.320 --> 59:33.360]  and people were telling me, I don't want your car. I want a faster horse. And so for a while
+[59:33.360 --> 59:38.400]  I dismissed it, but ultimately I just, I kept hearing that over and over again. And I,
+[59:39.040 --> 59:46.080]  I realized I can't ignore this. And so that really is actually kind of the like key thesis behind
+[59:46.080 --> 59:53.840]  MimeStream. It doesn't try to reinvent email. It tries to do email really, really well. And that's
+[59:53.840 --> 59:59.280]  what we're going to continue to try to do. There's a lot of services out there that I think do try to
+[59:59.280 --> 01:00:05.840]  reinvent the email. Hey, for instance, is a really great example of that. And they've done a fantastic
+[01:00:05.840 --> 01:00:11.680]  job of that. And I applaud that. And there's a certain type of user that I think that is a really
+[01:00:11.680 --> 01:00:16.800]  great fit for, but you know, there's also a lot of people out there that just, they don't want that
+[01:00:16.800 --> 01:00:21.200]  to change. They don't want their core email workflow to change. They just kind of want
+[01:00:21.200 --> 01:00:27.680]  to get through it just a little bit faster and a little bit smoother. And I happen to think
+[01:00:27.680 --> 01:00:34.160]  and hope that there's a large pool of like-minded users out there that have that same sort of desire
+[01:00:34.160 --> 01:00:41.040]  and wish. And that's the audience that we're building for. MimeStream 1.0 finally does include
+[01:00:41.040 --> 01:00:46.400]  some stuff that's like a little bit MimeStream specific. Like we have this new profiles feature
+[01:00:46.400 --> 01:00:51.360]  that allows you to group multiple accounts together, sort of treat them as different
+[01:00:51.360 --> 01:00:57.120]  sets. And that's something that is a little bit unique on the Mac, at least to MimeStream.
+[01:00:57.120 --> 01:01:05.680]  But by and large, I mean, we try to be a really faithful to Gmail's kind of feature set and just
+[01:01:05.680 --> 01:01:13.280]  faithfully merge the power of macOS with the power of Gmail. How do you find the Gmail API?
+[01:01:14.080 --> 01:01:19.040]  It exposes a lot of functionality. There are some pros and cons to it. There's definitely
+[01:01:19.760 --> 01:01:25.840]  some things that you would be surprised to hear that IMAP does better. But
+[01:01:25.840 --> 01:01:34.160]  on the whole, we were able to deliver a lot of other features. Like we're able to support labels
+[01:01:34.160 --> 01:01:39.520]  on a very first-class basis with all their colors. You can change their visibility settings. You can
+[01:01:39.520 --> 01:01:44.000]  make them visible or not visible in the message list, visible or not visible in the sidebar. You
+[01:01:44.000 --> 01:01:49.520]  can apply multiple labels to one message. You can create server-side filters in MimeStream.
+[01:01:49.520 --> 01:01:54.800]  Those sync right back to Gmail, and that will categorize and tag your messages as they come
+[01:01:54.800 --> 01:02:01.200]  in. We can get access to the message categories so you can have those same promotions, social
+[01:02:01.200 --> 01:02:07.440]  updates, forums, tabs for your inbox that you have in the Gmail web UI. You can have that in a real
+[01:02:07.440 --> 01:02:16.000]  Mac app. It gives us access to things like the Gmail aliases that you use. There's a subtle
+[01:02:16.000 --> 01:02:22.640]  distinction between using Gmail aliases and setting it up just as a different address in
+[01:02:22.640 --> 01:02:29.120]  another IMAP client. There is a subtle difference there in that using the real Gmail alias is a
+[01:02:29.120 --> 01:02:34.960]  little bit better for deliverability. Because if you have your address set up and it's going
+[01:02:34.960 --> 01:02:41.760]  through the actual SMTP server of the domain that you're sending from, you can have DKIM signing
+[01:02:41.760 --> 01:02:47.440]  and basically have better deliverability of that message compared to just sending it through the
+[01:02:47.440 --> 01:02:53.520]  Gmail SMTP server. But that's one other example of a way that we try to integrate a little bit
+[01:02:53.520 --> 01:02:59.440]  better into the ecosystem. It gave us access to the Google APIs as a whole, gave us access to
+[01:02:59.440 --> 01:03:04.480]  things like when you're writing a message back and forth with people you're communicating with,
+[01:03:04.480 --> 01:03:10.400]  we can automatically fetch their public Google profile photo and show that. So you don't have
+[01:03:10.400 --> 01:03:16.240]  to set up that up in contacts and have your own photo for people who are automatically fetching
+[01:03:16.240 --> 01:03:21.600]  them. If you get a calendar invite, we have the little banner that allows you to do a one click,
+[01:03:21.600 --> 01:03:26.560]  like just yes, accept. And it doesn't open up a browser tab, it doesn't take you out of contacts,
+[01:03:26.560 --> 01:03:31.600]  you just click accept and you're done. And so there's a lot of niceties that have that have
+[01:03:31.600 --> 01:03:39.280]  come through the Gmail API and the other broader Google APIs as a whole. The main downside to it
+[01:03:39.280 --> 01:03:48.720]  is that for high volumes of requests, it is not very efficient for high volumes of requests.
+[01:03:48.720 --> 01:03:56.240]  So MimeStream is a limited cash client partially due to that restriction. So it's not like a lot
+[01:03:56.240 --> 01:04:03.120]  of other clients that basically download a full copy of your entire account and store every single
+[01:04:03.120 --> 01:04:07.920]  message locally. If you're looking for full offline access, right now the best, you know,
+[01:04:07.920 --> 01:04:13.600]  you got to use something else right now. And so that's the one part that's a little tricky for us.
+[01:04:13.600 --> 01:04:22.960]  We've already been exploring using both IMAP and the Gmail API in harmony to basically
+[01:04:22.960 --> 01:04:28.560]  have the best of both worlds in these few edge cases where one works better than the other.
+[01:04:29.200 --> 01:04:34.240]  And that's something we are definitely going to be doing in the future, especially as we start
+[01:04:34.240 --> 01:04:40.080]  to branch out of just Gmail. But, you know, there's on the whole, it's been a good experience.
+[01:04:40.960 --> 01:04:45.760]  I just, it's one of those things that is the whole world has transitioned. And I know that
+[01:04:45.760 --> 01:04:50.080]  you calling everything the cloud is sort of a marketing term. I mean, it's just servers
+[01:04:50.080 --> 01:04:58.000]  and clients, but as cloud computing has become more robust and the default for more people,
+[01:04:58.000 --> 01:05:04.560]  for more people, especially younger people or people who spend their quote unquote desktop time
+[01:05:04.560 --> 01:05:09.760]  really just using web apps, everything by definition is in the cloud. Or at least
+[01:05:10.640 --> 01:05:17.200]  it doesn't make any sense if you're using Gmail by typing gmail.com in your browser,
+[01:05:17.200 --> 01:05:24.480]  you don't expect to have your entire Gmail archive stored locally. You'd be furious. You'd be like,
+[01:05:24.480 --> 01:05:30.000]  why, why wouldn't the world would you do that? But that's how like Apple mail works. Like Apple mail,
+[01:05:30.000 --> 01:05:35.280]  you sign up with a new IMAP account and it downloads all of your mail and there's a local
+[01:05:35.280 --> 01:05:40.320]  copy of everything that's kept in sync. And I don't know at some point it was like, well,
+[01:05:40.320 --> 01:05:46.080]  of course, like 20 some years. I mean, I guess Apple mail really goes back before Mac OS 10
+[01:05:46.080 --> 01:05:52.560]  to next it's derived from the next mail client. So I don't know, it might go back to there might be
+[01:05:52.560 --> 01:05:57.280]  code in there that goes back to 1989. I don't know, but they're close. Yeah.
+[01:06:01.520 --> 01:06:05.760]  And it makes sense. There's some, it made sense at the time that you'd want all your download,
+[01:06:05.760 --> 01:06:11.840]  your mail downloaded. I think today, no. And especially with Gmail, no, or maybe optionally,
+[01:06:11.840 --> 01:06:15.600]  you know, if you're saying that you might make that an optional feature, I mean, it's certainly
+[01:06:15.600 --> 01:06:19.920]  wouldn't hurt to have it, but I think most people would be surprised to learn that their Mac
+[01:06:19.920 --> 01:06:26.080]  downloads all of their mail. Yeah. And I think there's definitely valid use cases for it,
+[01:06:26.080 --> 01:06:32.480]  for having a full copy of everything that you can use truly offline. And I think that was more
+[01:06:32.480 --> 01:06:37.120]  important 10 years ago than it is now. Even these days, if you're getting on a plane,
+[01:06:37.120 --> 01:06:40.400]  right. And most people just tend to just, if they're trying to actually do email,
+[01:06:40.400 --> 01:06:45.040]  they're just going to pay for the eight bucks for wifi or whatever, and just be able to send
+[01:06:45.040 --> 01:06:51.040]  and receive emails. MindStream does support offline use, right? You can send messages,
+[01:06:51.040 --> 01:06:55.440]  you can read, file, and all of that. Every single thing that you do, it writes it to a journal. And
+[01:06:55.440 --> 01:07:02.880]  then when you come back online, it will replay all of those actions to the server. But if you
+[01:07:02.880 --> 01:07:09.360]  try to like scroll to really old messages from 10 years ago, and it's not already cached by our
+[01:07:09.360 --> 01:07:14.240]  adaptive caching system, if that's not already there, you can't fetch it when you're offline.
+[01:07:14.240 --> 01:07:20.800]  And we sort of thought that would be the right middle ground between the two of still letting
+[01:07:20.800 --> 01:07:25.440]  you do stuff offline if you just happen to be on a plane and you just don't, you just want to
+[01:07:25.440 --> 01:07:29.920]  respond just a few emails or just read some and you don't want to pay for the wifi, sure.
+[01:07:29.920 --> 01:07:33.840]  You can do some things online, sorry, offline, and it'll just continue to work,
+[01:07:34.640 --> 01:07:40.720]  right, as soon as you come back online. But in the future, we've gotten a few requests for full
+[01:07:40.720 --> 01:07:48.000]  offline mirroring. I wouldn't say it's a lot. I get it. I just find that, like you said,
+[01:07:48.000 --> 01:07:52.160]  even on an airplane, which is like the sort of canonical example of I need offline access to
+[01:07:52.160 --> 01:07:58.160]  blank, it's just less of a problem than it ever was before. And it's, I don't know. It's been
+[01:07:58.160 --> 01:08:02.240]  a while, it was pre-COVID the last time I was on a cruise ship. Cruise ships are probably the last
+[01:08:02.240 --> 01:08:08.800]  bastion of really terrible wifi that, but it's sort of the point like, hey, how about I get
+[01:08:08.800 --> 01:08:14.080]  offline for a week and sail the Caribbean or whatever. All right, let me take one last break
+[01:08:14.080 --> 01:08:18.400]  here. Thank our third and final sponsor. And then I want to talk Mac stuff. And our third sponsor of
+[01:08:18.400 --> 01:08:26.160]  the day is our good friends at Memberful. Memberful is where you as a creator can monetize your
+[01:08:26.160 --> 01:08:34.080]  audience with memberships. Memberful's analytics give you an easy to use in-depth view of what's
+[01:08:34.080 --> 01:08:40.720]  working, what's not, and where to double down to build your subscriber base. And maybe you're a
+[01:08:40.720 --> 01:08:45.280]  YouTube creator, maybe you're a blogger, maybe you're a podcaster. You want to set up something
+[01:08:45.280 --> 01:08:50.800]  with a membership system where people can pay to access your content. Their analytics tell you
+[01:08:50.800 --> 01:08:55.120]  what is it that the people who are already paying, what are they using? Are they reading the
+[01:08:55.120 --> 01:08:59.600]  newsletter and not listening to the podcast? Is it vice versa? Do you need to change something?
+[01:08:59.600 --> 01:09:04.720]  They let you know what works, what doesn't. And it is just the easiest way to sell memberships
+[01:09:04.720 --> 01:09:10.080]  to your audience and let you build a sustainable recurring revenue. And it is used by some of the
+[01:09:10.080 --> 01:09:14.800]  biggest independent creators on the web. And they've got everything you need. Number one,
+[01:09:15.520 --> 01:09:21.040]  you stay in control of your membership list. If you ever want to leave Memberful, you can just
+[01:09:21.040 --> 01:09:26.880]  leave. You take your subscriber list with you. It's all yours to take. It's not logged in.
+[01:09:26.880 --> 01:09:32.400]  The branding always puts your brand first. People who subscribe may not even know it's
+[01:09:32.400 --> 01:09:36.400]  going through Memberful. That's just how quietly behind the scenes the whole thing is.
+[01:09:36.400 --> 01:09:41.520]  It's not like Substack, for example, where everybody knows it's Substack this, Substack that.
+[01:09:42.160 --> 01:09:46.480]  Memberful is the complete opposite. Your brand stays first and foremost. They stay in the
+[01:09:46.480 --> 01:09:51.520]  background. But they provide all the stuff you would want. They help you with the newsletter
+[01:09:51.520 --> 01:09:57.360]  or the podcast. They offer gift subscriptions. They have Apple Pay support, of course,
+[01:09:57.360 --> 01:10:02.240]  free and paid trials, automatic referral discounts. If you want to have something like that
+[01:10:02.240 --> 01:10:06.160]  where your members can get a discount by referring other people to join,
+[01:10:06.720 --> 01:10:11.280]  all of it. And they integrate with all the tools you already use, including MailChimp,
+[01:10:11.280 --> 01:10:17.680]  WordPress, Stripe for payments, Discord. If you want to have a Discord server for members only,
+[01:10:17.680 --> 01:10:22.160]  they help you set that up. All of that is right there baked into Memberful.
+[01:10:22.160 --> 01:10:27.200]  I pay for a slew of Memberful memberships every month. I'm happy to do it. Six colors,
+[01:10:27.760 --> 01:10:33.200]  max stories, the list goes on and on of the great, great services that use Memberful that I use.
+[01:10:33.200 --> 01:10:40.880]  You can get started for free with absolutely no credit card required by going to memberful.com
+[01:10:40.880 --> 01:10:47.040]  slash talk show. No, the just memberful.com slash talk show. My thanks to Memberful.
+[01:10:48.720 --> 01:10:53.280]  So to me, the most distinguishing feature of Mime stream or I would say even more than the
+[01:10:53.280 --> 01:10:59.120]  Gmail specific focus is the fact that it is a terrific Mac app, first foremost,
+[01:10:59.120 --> 01:11:06.560]  only really at this point. And that's. I'm going to say depressing in some ways.
+[01:11:06.560 --> 01:11:12.240]  I don't I don't think I think the Mac is as a platform is in a very strange position. I don't
+[01:11:12.240 --> 01:11:17.920]  the Mac is thriving. Mac sales are up up there, the highest they've ever been. There are more
+[01:11:17.920 --> 01:11:24.160]  active Mac users than there have ever been. I would say Mac hardware is the best it's ever been.
+[01:11:24.720 --> 01:11:29.440]  It's incredible. It's and their commitment to Apple Silicon is just amazing. No,
+[01:11:29.440 --> 01:11:33.520]  no company would ever do something like this if they weren't committed to it for the long haul.
+[01:11:33.520 --> 01:11:38.960]  I think we're going to see some exciting pro hardware announcements at WWDC in a couple of
+[01:11:38.960 --> 01:11:45.360]  weeks. I, I think I don't know what's going to go on sale. I think we're going to finally hear
+[01:11:45.360 --> 01:11:51.040]  about the Mac Pro Apple Silicon story. If not, people are going to sure be wondering when we will
+[01:11:51.840 --> 01:12:00.720]  buy. All that good news as a Mac user who wants to see a bright future, we see few I see fewer
+[01:12:00.720 --> 01:12:10.960]  and fewer truly first class new Mac apps being created. And I worry about I can foresee a future
+[01:12:10.960 --> 01:12:18.560]  where true what I think of as a true Mac app is is dying out and the but Mac OS and Mac hardware
+[01:12:18.560 --> 01:12:27.360]  thrives as just as a client for doing stuff on the web and using catalyst style apps and stuff
+[01:12:27.360 --> 01:12:31.440]  like that. You know, and again, I don't want to get into it. Well, although we could talk about
+[01:12:31.440 --> 01:12:38.400]  it and see if you considered catalyst or why you chose app kit. Yeah, it's a it's a good question.
+[01:12:38.400 --> 01:12:43.360]  I think why the Mac is something that I've heard a lot of people ask. I think a lot of companies
+[01:12:43.360 --> 01:12:48.720]  that are looking to build even truly native apps for Apple's platforms tend to start with iOS just
+[01:12:48.720 --> 01:12:54.480]  because the user base is is much, much larger. And I definitely thought about that in the early days.
+[01:12:54.480 --> 01:12:58.640]  I was like, do I make this an iOS app first or do I make a Mac app first? I've got to pick one
+[01:12:58.640 --> 01:13:06.480]  platform first. Ultimately, I chose the Mac because even though it's the much smaller platform in
+[01:13:06.480 --> 01:13:12.000]  terms of user base, because that's the platform where I thought that we could make the biggest
+[01:13:12.000 --> 01:13:21.440]  difference. And there's already Gmail iOS on iOS. So if you really are deep in the Gmail ecosystem,
+[01:13:21.440 --> 01:13:27.680]  you can use the first party Gmail app to get some of those extra features if that's what you're
+[01:13:27.680 --> 01:13:34.720]  looking for. And that didn't exist on Mac OS. There's no official Gmail map for Mac OS. So we
+[01:13:34.720 --> 01:13:40.240]  thought, OK, that's that's that's a plus for us. The other thing that really struck me was that
+[01:13:41.360 --> 01:13:47.360]  I knew it was ultimately going to be targeted towards kind of the prosumer user base rather
+[01:13:47.360 --> 01:13:54.960]  than just like the lightweight personal users. And if you are actively doing like an hour,
+[01:13:54.960 --> 01:14:02.720]  two hours of email a day, like I can't imagine doing all my email just on my phone. I mean,
+[01:14:02.720 --> 01:14:08.880]  I do some for sure. I read everything. I'd say I read more email on my phone than I read on my Mac,
+[01:14:08.880 --> 01:14:15.760]  but I tend to respond through the Mac most of the time just because I got my keyboard right.
+[01:14:15.760 --> 01:14:21.200]  The real physical keyboard just makes the whole thing a lot easier. And I can drag and drop files
+[01:14:21.200 --> 01:14:28.240]  in, drag and take screenshots and do all that like nerdy stuff that I need to do to put together nice
+[01:14:28.240 --> 01:14:35.440]  responses. And so I tend to write mostly on the Mac. And people that I talk to also tend to agree
+[01:14:35.440 --> 01:14:39.680]  that if you're doing a serious volume of email, like if you're doing any sales, if you're a
+[01:14:39.680 --> 01:14:44.640]  founder, manager, real estate agent, these sorts of roles where you're communicating with people
+[01:14:44.640 --> 01:14:49.280]  a lot that like just doing it on a laptop is just a much better form factor than pecking away on a
+[01:14:49.280 --> 01:14:54.560]  phone keyboard. Not to say that people don't do email on the phone. People do way more email on
+[01:14:54.560 --> 01:15:04.000]  the phone than they do on the Mac. It's just the volume of emails sent for that. That's where we
+[01:15:04.000 --> 01:15:10.080]  decided to focus on the Mac first. I'd be lying if I didn't admit to just kind of liking the Mac
+[01:15:10.080 --> 01:15:16.240]  as a platform myself too. It was just, it's kind of where my heart is a little bit to some degree.
+[01:15:16.240 --> 01:15:23.840]  Like I just, I really love the platform. I think it's the best OS out there. I really enjoy
+[01:15:24.480 --> 01:15:30.800]  doing things on the Mac. And I just really like Mac apps, like native tight Mac apps are just
+[01:15:30.800 --> 01:15:35.200]  something I just love. I just love using them. And so I decided also kind of to mix in a little
+[01:15:35.200 --> 01:15:41.520]  bit of that personal emotion into it as well. Like it wasn't just completely a strict business
+[01:15:41.520 --> 01:15:46.640]  decision. But I think looking back at it, I still feel like it was the right move. I feel like it
+[01:15:46.640 --> 01:15:54.480]  was a missing feature set. Like if we had launched on iOS first, then MimeStream would be competing
+[01:15:54.480 --> 01:16:01.280]  against Gmail iOS. And while there are a lot of people that want MimeStream iOS to replace Gmail
+[01:16:01.280 --> 01:16:07.840]  iOS on their phone, I think it's a hard, I think it's less of a distinctive difference. And it's
+[01:16:07.840 --> 01:16:16.400]  just, it's such a huge market and people just have such deep, like steep expectations of what they're
+[01:16:16.400 --> 01:16:21.360]  getting out of productivity software that I just, I wanted to pick an area where I felt like we
+[01:16:21.360 --> 01:16:26.400]  could actually have a really kind of unique selling point. I get what you're saying. And
+[01:16:26.400 --> 01:16:34.000]  I think if you took somebody and somehow did like a Truman show style experiment and put somebody in
+[01:16:34.000 --> 01:16:39.440]  a world where they had no access to any computing device other than an iPhone, and never knew what
+[01:16:39.440 --> 01:16:44.960]  it was like to use a laptop of any kind. And all they have is an iPhone, and it's all they've ever
+[01:16:44.960 --> 01:16:49.520]  learned. And they know email and they can do email and they can get think that they're very efficient
+[01:16:49.520 --> 01:16:55.200]  on email on their phone, because it's all they've ever known. That's different than somebody who,
+[01:16:55.200 --> 01:17:00.480]  you know, in the real world where somebody knows just how efficient you can be with a real keyboard
+[01:17:00.480 --> 01:17:06.480]  on your fingers and an OS. And again, not to throw the iPad under the bus, but an OS
+[01:17:07.120 --> 01:17:14.160]  where you can look at things side by side easily and command tab switching is very fast and drag
+[01:17:14.160 --> 01:17:20.560]  and drop just is always available. And so if you know how efficient, the most efficient you've ever
+[01:17:20.560 --> 01:17:26.160]  been at email, like when you're like, Oh, I was I took a long weekend, and I'm coming at Memorial
+[01:17:26.160 --> 01:17:32.880]  Day, like now, and I'm coming back in Tuesday, and I've got 157 new emails in my inbox, what's
+[01:17:32.880 --> 01:17:37.840]  the fastest way to go through it? You nobody's going to say the phone is the fastest way that
+[01:17:37.840 --> 01:17:43.440]  whatever your fastest, most efficient you've ever been at email has been, I can almost guarantee it
+[01:17:43.440 --> 01:17:50.720]  it's been on some kind of desktop OS, whether it is in a browser app, like Gmail, if you're
+[01:17:50.720 --> 01:17:55.760]  a superpower user of all their little shortcuts and stuff, or whatever, it's probably a desktop
+[01:17:55.760 --> 01:18:02.000]  OS. And I think for a pro tool, optimizing for that is a great is the way to start where you're
+[01:18:02.000 --> 01:18:06.640]  trying to take that to the highest level it's ever been like, Oh, however efficient you've ever been
+[01:18:06.640 --> 01:18:12.400]  in the past, try MimeStream, you'll be even more efficient. Right, right. And I think it's
+[01:18:12.400 --> 01:18:18.000]  obviously designed for people that need to send and respond to a lot of email. And so that's
+[01:18:18.000 --> 01:18:23.200]  where just starting on the Mac, just it just made sense. So there's there's also the open question
+[01:18:23.200 --> 01:18:29.840]  of why Mac native technologies and why not do something cross platform like an electron app,
+[01:18:30.400 --> 01:18:37.440]  which would have enabled us to ship on Windows as well at the same time. And I wouldn't lie if I
+[01:18:37.440 --> 01:18:43.040]  I'd be lying if I said I didn't think about it in the beginning, but there's just two reasons
+[01:18:43.040 --> 01:18:47.680]  I didn't really even seriously consider that one that was just not where my heart was in terms of
+[01:18:47.680 --> 01:18:54.640]  making a product, right, I wanted to build a Mac app, because that's what I enjoy using. And there's
+[01:18:54.640 --> 01:18:59.920]  a whole list of reasons why I enjoy using it, right, so much lighter, so much more integrated
+[01:18:59.920 --> 01:19:05.440]  in the OS. But there's also just something nice about it fitting into the platform and feeling
+[01:19:05.440 --> 01:19:10.640]  like it's a part of the platform that I really like. And two, I felt like if we just made
+[01:19:10.640 --> 01:19:17.760]  something that was effectively a web app, just packaged up into electron, it almost was like,
+[01:19:17.760 --> 01:19:24.720]  what would be the point of doing that? Like, why would you then not just go use the Gmail web UI?
+[01:19:24.720 --> 01:19:31.600]  Like, what would be the sort of core essence of that product? That, to me, would then require
+[01:19:31.600 --> 01:19:38.960]  us going in more of the, like, reinvent email direction. Like Hay did. Right, like Hay and
+[01:19:38.960 --> 01:19:44.080]  trying to reinvent some of the workflows around there. And we're really trying to not disturb
+[01:19:44.080 --> 01:19:47.920]  people's workflows too much. We're trying to do them really, really well. So we're at the
+[01:19:47.920 --> 01:19:53.200]  opposite end of the spectrum from something like Hay. I spent a whole year when Hay came out,
+[01:19:53.200 --> 01:19:59.280]  I moved my public address, the one that's now commented during fireball.net again, and is back
+[01:19:59.280 --> 01:20:04.960]  to being backed by Gmail. And I'm using a mime stream now for it. But I spent a whole year where
+[01:20:04.960 --> 01:20:10.800]  I switched to Gruber at Hay.com. But I used Hay for a whole year for that. And there were parts
+[01:20:10.800 --> 01:20:16.960]  I liked. I loved their screener feature where I could screen out so much PR, which I don't want
+[01:20:16.960 --> 01:20:21.840]  in the label to spam because it's not spam. But I don't want to ever hear from these people again.
+[01:20:21.840 --> 01:20:28.640]  And it was great. But the ultimate, and their iOS app was okay. But the deal breaker for me was the
+[01:20:28.640 --> 01:20:34.720]  Mac. And I just could not abide using either the web interface or their electron wrapper for their
+[01:20:34.720 --> 01:20:40.720]  app, which is as good as it can be for that. And if I needed to use Windows, I would be all over
+[01:20:40.720 --> 01:20:46.800]  Hay. I would if I wanted to access my personal email from a Windows machine while I worked on
+[01:20:46.800 --> 01:20:53.040]  it or something like that. It's terrific for that. But it's because my brain and my personal
+[01:20:53.040 --> 01:21:02.080]  habits are so deeply ingrained with Mac OS and app kit idioms like services menu items and drag
+[01:21:02.080 --> 01:21:07.440]  and drop and just having things work the way I expect a Mac app to work without thinking.
+[01:21:08.320 --> 01:21:14.000]  I'm so ingrained in it that I know the way a Mac app should work. And so part of my excitement
+[01:21:14.000 --> 01:21:18.480]  with mime stream this week and getting back into it is every time I'd guess like, well,
+[01:21:18.480 --> 01:21:23.040]  what if I control click on this, get the contextual? Oh, yep, there's something. Oh, look at this cool
+[01:21:23.040 --> 01:21:30.640]  feature. Filter messages like this. Oh, what does that do? Oh, wait, here's a powerful filtering UI
+[01:21:30.640 --> 01:21:36.640]  where I can pick which fields based on the email I just picked. I want to filter all the emails
+[01:21:36.640 --> 01:21:40.640]  that are sent to this address because it's a mailing list. And what do I want to do with it?
+[01:21:40.640 --> 01:21:48.000]  I want to add, boom, 123 actions, take it out of the inbox. Market is red and done. Oh, and yes,
+[01:21:48.000 --> 01:21:52.800]  do I want to apply it to all of the messages already there? Yes. Boom. Done. They're out of
+[01:21:52.800 --> 01:21:59.040]  my inbox. Boy, that was easy. And it was exactly what I expected as a Mac user control click,
+[01:21:59.040 --> 01:22:06.960]  filter messages like this. Boom and go and fast, fast, fast in ways that to me, web apps never are.
+[01:22:06.960 --> 01:22:11.760]  And again, I'm not putting that I am putting them down, I guess, but I understand. But I
+[01:22:11.760 --> 01:22:16.000]  understand the upside of it, right? I understand the fact that I could sit down at any computer
+[01:22:16.000 --> 01:22:20.320]  in the world and go to hay.com and get my hay email in a familiar interface. I don't need a
+[01:22:20.320 --> 01:22:26.480]  Mac for that. And that is an advantage. But for me and the way I live and the way I work, it's not,
+[01:22:26.480 --> 01:22:31.600]  it's a disadvantage. Yeah, I think it depends on the user. I think obviously hay is a really
+[01:22:31.600 --> 01:22:37.600]  amazing product with a lot of really clever ideas in there. And I think if you're the kind of user
+[01:22:37.600 --> 01:22:42.560]  that can get your head around all of those, then I think it's a great option. My stream is just
+[01:22:42.560 --> 01:22:46.240]  totally at the opposite end of the spectrum from that of just trying to
+[01:22:46.240 --> 01:22:53.120]  be as familiar as possible. Like we follow all of the macOS human interface guidelines,
+[01:22:53.120 --> 01:22:57.920]  like pretty much we try to follow it to a T to whatever extent is possible.
+[01:22:58.480 --> 01:23:04.160]  And the upside to that has been it's really easy for people to find their bearings. Like they open
+[01:23:04.160 --> 01:23:10.720]  the app and they're like, oh, this, I know how to use this. This reminds me of the apps I've also
+[01:23:10.720 --> 01:23:15.360]  used from Apple. This reminds me of messages. This reminds me of notes. This reminds me of mail.
+[01:23:15.360 --> 01:23:20.480]  There's a lot of familiarity here. It just follows the patterns that Apple has published.
+[01:23:20.480 --> 01:23:26.160]  And so actually we've got basically no help articles even yet. We're just like very early
+[01:23:26.160 --> 01:23:31.520]  in our process, but we actually have not found that to actually really be a problem. Very few
+[01:23:31.520 --> 01:23:38.560]  people write in asking how to do something. And that's just because it just, it matches what you
+[01:23:38.560 --> 01:23:44.880]  expect if you've used other apps that are part of the system. It's the old Mac mantra that goes
+[01:23:44.880 --> 01:23:50.320]  all the way back to the eighties and the original Mac, that consistency is an advantage for users.
+[01:23:50.320 --> 01:23:55.840]  And, and that once you've learned how to use, I mean, back in the day, once you learned how
+[01:23:55.840 --> 01:24:01.120]  to use Mac paint and Mac write, and then you tried Mac draw, you were like, oh, this is
+[01:24:01.760 --> 01:24:06.320]  the, all these things that should be the same or exactly the same, except now I'm doing vector
+[01:24:06.320 --> 01:24:10.720]  drawings. And it's the only things that are different are the things specific to the domain
+[01:24:10.720 --> 01:24:17.840]  of the app itself. And, and the thing that I think gets so overlooked in the modern world,
+[01:24:17.840 --> 01:24:23.280]  where that's sort of fallen by the wayside and with so many developers and with web apps, not
+[01:24:23.280 --> 01:24:31.120]  having any one true, Hey, and again, we can argue about how much Apple's own stuff follows the human
+[01:24:31.120 --> 01:24:39.120]  interface guidelines, but there is, but there are, it's, it's so much more like language, like
+[01:24:39.120 --> 01:24:44.720]  English grammar or any language where yes, the HIG is like a grammar guide or a dictionary,
+[01:24:44.720 --> 01:24:49.680]  and you can refer to it and look up like, oh, how am I, how far, if I have three buttons in a
+[01:24:49.680 --> 01:24:55.600]  dialogue, how am I supposed to space them ostensibly? But for the most part, you learn it
+[01:24:55.600 --> 01:25:03.600]  like a language and human brains pick up on idioms in the same way that they pick up on grammar and
+[01:25:03.600 --> 01:25:10.240]  the same way you pick up on social cues. Like, and if you go, if you join a new organization
+[01:25:10.240 --> 01:25:15.040]  and you're, it's the first time you go to a meeting and you're, it's all unfamiliar.
+[01:25:16.480 --> 01:25:22.000]  You, you pick up on, oh, yeah, I see what people do. And now is this is how they behave here. This
+[01:25:22.000 --> 01:25:26.800]  is when people speak up or whatever. And then two or three meetings of the club or group or
+[01:25:26.800 --> 01:25:34.400]  whatever it is in, you intuit how it's supposed to go. And that's how great Mac software works
+[01:25:34.400 --> 01:25:40.720]  is even if you're not a developer designer, who's making it, you're just a user, your brain absorbs
+[01:25:40.720 --> 01:25:46.880]  those things. And then you don't have to think about it. And you really do gain an intuition
+[01:25:46.880 --> 01:25:53.600]  as to how an app like MimeStream works without reading a help guide or watching a five minute
+[01:25:53.600 --> 01:25:58.480]  here's how to get started video. Right, right. And I think, I think that's one of the key benefits of
+[01:25:58.480 --> 01:26:03.760]  making something that is really deeply platform native. It's just that users have a really easy
+[01:26:03.760 --> 01:26:09.040]  time getting up and running. You know where to expect if you want a specific setting, probably
+[01:26:09.040 --> 01:26:14.080]  where to look for it. If you want to do a specific action, if you want a specific keyboard shortcut,
+[01:26:14.080 --> 01:26:19.920]  probably what it is. And so there's a lot of just that consistency that pays a lot of dividends
+[01:26:19.920 --> 01:26:24.960]  in terms of getting up to speed with the app. So you mentioned that it is a mix of AppKit and
+[01:26:24.960 --> 01:26:30.160]  SwiftUI. And I know for our non-developer listeners, it's a little confusing. SwiftUI
+[01:26:30.160 --> 01:26:36.800]  is a framework and it's cross platform all the way to the watch even. And if you're doing SwiftUI,
+[01:26:36.800 --> 01:26:41.760]  you absolutely are using the Swift programming language. But if you're using the Swift
+[01:26:41.760 --> 01:26:46.800]  programming language, you might be writing SwiftUI, you might be writing AppKit on the Mac,
+[01:26:46.800 --> 01:26:53.520]  or on iOS, you might be writing UIKit, right? Which are the three main frameworks, ways of
+[01:26:53.520 --> 01:27:00.880]  organizing an app. What, what is, is MimeStream all Swift or is it a mix of Swift and Objective-C
+[01:27:00.880 --> 01:27:08.880]  or? It is like 99.9% Swift, just in a few minor cases where Objective-C was a slightly better
+[01:27:08.880 --> 01:27:14.320]  fit. We fell back there, but the vast majority of the code, at least we've written, is all in Swift.
+[01:27:15.440 --> 01:27:21.760]  In terms of the SwiftUI, Swift split, there are bits and pieces of the main window that are
+[01:27:21.760 --> 01:27:27.600]  SwiftUI. Like we've got those profile switchers, the parts of the sidebar, parts of the cells.
+[01:27:28.240 --> 01:27:32.960]  They're all in SwiftUI. The settings window is all SwiftUI. And there's, there's other parts
+[01:27:32.960 --> 01:27:38.080]  of the application that we're switching over to. Ultimately, we're going to be moving completely
+[01:27:38.080 --> 01:27:44.560]  to SwiftUI. And we've started development on MimeStream iOS, although that's still some time
+[01:27:44.560 --> 01:27:50.480]  away. Like we're, it's still in very, very early stages. MimeStream iOS is SwiftUI through and
+[01:27:50.480 --> 01:27:58.080]  through. And while I'm not sure that we would be unifying the entire front-end stack for the first
+[01:27:58.080 --> 01:28:03.520]  release, for, at least for the iOS side, I think it's mature enough that we would be going all in
+[01:28:03.520 --> 01:28:09.120]  on that for iOS. And that's very clearly the future of development on Apple's platforms.
+[01:28:09.120 --> 01:28:12.480]  And that's also clearly the future of MimeStream.
+[01:28:12.480 --> 01:28:18.880]  So that answer seems so pragmatic, which it does not surprise me. You know, to me,
+[01:28:18.880 --> 01:28:24.480]  you're a very interesting person. You were inside Apple. And so that gives you a sense
+[01:28:24.480 --> 01:28:30.720]  of where Apple is going. And you said, though, you got into this project with MimeStream with
+[01:28:30.720 --> 01:28:36.080]  at least like a 10-year horizon, foreseeable future horizon. This is built, hopefully,
+[01:28:36.080 --> 01:28:40.960]  for the long run. And so that's interesting, which you do have the advantage of starting,
+[01:28:40.960 --> 01:28:45.200]  or had the advantage a few years ago when you started, of starting from scratch with
+[01:28:46.000 --> 01:28:50.400]  modern entirely, a code base that only goes back to what, 2019?
+[01:28:51.440 --> 01:28:52.160]  Yep. Right.
+[01:28:52.960 --> 01:28:59.680]  As opposed to Apple Mail, which has a code base that goes back to 1989. And eventually,
+[01:28:59.680 --> 01:29:04.160]  eventually any successful, any successful app will run into this problem. It's just
+[01:29:04.160 --> 01:29:09.360]  like human beings, right? You either die young, which is tragic, or you get old and your body
+[01:29:09.360 --> 01:29:15.360]  starts falling apart, right? I mean, either your app doesn't make it, or eventually you've got
+[01:29:15.360 --> 01:29:20.560]  technical debt that you've got to take care of because your app is old and successful, right?
+[01:29:20.560 --> 01:29:25.200]  I mean, I have friends who work at Adobe and on Photoshop, and they laugh sometimes at
+[01:29:25.200 --> 01:29:33.280]  some of this stuff, but it helps. I mean, one of the, just a side note, but back in the day,
+[01:29:33.280 --> 01:29:42.000]  when RAM was starved on Macs and PCs, like say 1991, 1992, and Photoshop is like 2.0,
+[01:29:42.000 --> 01:29:46.400]  they had their own effectively virtual memory system. They called it a scratch disk,
+[01:29:46.400 --> 01:29:50.800]  but you could plug in an external hard drive and say, use that hard drive as scratch for
+[01:29:50.800 --> 01:29:56.480]  Photoshop because there was nowhere near enough RAM. And of course that code wasn't used anymore,
+[01:29:56.480 --> 01:30:02.240]  but then they wanted to make Photoshop for iOS where RAM is limited. And they're like, hey,
+[01:30:03.120 --> 01:30:07.440]  we've still got a really good virtual memory system in our code base. We haven't used it
+[01:30:08.000 --> 01:30:13.360]  for decades, but there it is. And it was like, oh, this is really fast now because iPads have
+[01:30:13.360 --> 01:30:18.480]  really fast SSDs. This is remarkable. There it was. But you know, that's, that's what happens
+[01:30:18.480 --> 01:30:25.520]  when an app is successful. Yeah, it is amazing how working on a mature code base, there are often
+[01:30:25.520 --> 01:30:32.480]  like multiple different ways to do the same thing. And they can often be used as alternatives
+[01:30:32.480 --> 01:30:37.040]  in different, different situations. I've definitely encountered my fair share of that.
+[01:30:37.600 --> 01:30:43.520]  Mindstream does have the advantage of being relatively fresh. 2019, so it's like all Swift
+[01:30:43.520 --> 01:30:49.520]  from, from the ground up, which has been amazing. Love Swift. It's been just amazing to develop in.
+[01:30:50.480 --> 01:30:56.960]  Swift UI was sort of, when did it come out? For MacOS Catalina, which would have been 2019?
+[01:30:56.960 --> 01:31:02.160]  Yeah, it was, it was the last in-person WWDC before COVID. So it was 2019.
+[01:31:02.160 --> 01:31:08.160]  Right. And so by that point I had already sort of built up the main window UI in, in with,
+[01:31:08.160 --> 01:31:16.160]  with AppKit and Swift UI. While 1.0 was a very solid release, actually, it felt like a little
+[01:31:16.160 --> 01:31:21.920]  bit of a stretch to try and switch a Mac app completely over at that time. It's clear to me
+[01:31:21.920 --> 01:31:27.920]  that Apple's priorities with Swift UI have been to make it really great for iOS apps first. And
+[01:31:27.920 --> 01:31:33.440]  then MacOS apps is sort of like the thing that they're getting to as, as the framework evolves
+[01:31:33.440 --> 01:31:39.680]  and matures. And it has come a long way in the last few years. Like I can't, if I were to write
+[01:31:39.680 --> 01:31:44.720]  the whole thing from scratch today, there's no question in my mind that the whole thing would be
+[01:31:44.720 --> 01:31:50.000]  Swift UI top to bottom. Interesting. There's a lot of places where you're going to need to fall back
+[01:31:50.000 --> 01:31:55.840]  to the legacy frameworks like UIKit and AppKit, and Swift UI makes that super easy to do. You
+[01:31:55.840 --> 01:32:02.160]  can mix and match. I mean, we've got code that takes Swift UI, wraps it up in AppKit, and then
+[01:32:02.160 --> 01:32:06.800]  takes that AppKit and then wraps it back in Swift UI. You can bounce back and forth and you can do
+[01:32:06.800 --> 01:32:12.880]  some pretty crazy things and it all works super, super well. So my hat's off to that team. They
+[01:32:12.880 --> 01:32:19.280]  have made incremental adoption like really easy and really straightforward. It sounds like Apple
+[01:32:19.280 --> 01:32:24.160]  is taking similar approaches. I know from people who've been poking around at the internals of the
+[01:32:24.160 --> 01:32:30.480]  new Final Cut Pro and Logic Pro for iPad, and now that wouldn't be AppKit because it's iPad,
+[01:32:30.480 --> 01:32:36.240]  but it's a mix of UIKit and Swift UI. It seems like a lot more Swift UI than you might think,
+[01:32:36.240 --> 01:32:42.480]  or one might think if you still think Swift UI is not ready for prime time. But as an interesting
+[01:32:42.480 --> 01:32:50.560]  sign of where Apple itself is going pragmatically to ship best of breed iPad apps right now,
+[01:32:51.200 --> 01:32:54.000]  it seems like they're leaning on Swift UI as much as they can.
+[01:32:54.640 --> 01:32:59.520]  Yeah. And you know what Apple themselves are saying, Swift UI is the best way to build an
+[01:32:59.520 --> 01:33:05.840]  app nowadays. Or to build a new app. They kind of emphasize that. They're not asking people to
+[01:33:05.840 --> 01:33:14.560]  rewrite like they did with Cocoa 25 years ago. Right. And I think it was a little bit of a
+[01:33:14.560 --> 01:33:22.400]  paradigm shift, but now I really enjoy writing Swift UI now compared to writing AppKit. There's
+[01:33:22.400 --> 01:33:28.240]  an entire class of bugs that a declarative UI framework just automatically takes care of for
+[01:33:28.240 --> 01:33:35.360]  you. And it's just so nice. Obviously there's a lot of walls that you run up against that I think
+[01:33:35.360 --> 01:33:43.040]  as the framework matures, they'll continue to work out some of those more difficult corner cases,
+[01:33:43.040 --> 01:33:46.880]  but there's always a great fallback path that has been great for us so far.
+[01:33:46.880 --> 01:33:52.880]  Yeah. What I hear, and again, I can't speak from firsthand. I don't write code much anymore, but
+[01:33:52.880 --> 01:34:01.360]  when UIKit first came out in 2008 in the app store, UIKit was very, very familiar to AppKit
+[01:34:01.360 --> 01:34:07.360]  developers because it was like a subset of AppKit and a modernization of certain things in AppKit.
+[01:34:07.360 --> 01:34:12.640]  And the frustration I heard from my developer friends was just when they'd run into those places
+[01:34:12.640 --> 01:34:18.720]  in UIKit that didn't exist yet and AppKit had stuff. And they're like, oh my God, this would
+[01:34:18.720 --> 01:34:24.160]  be so easy in AppKit because AppKit has this built in and UIKit didn't have it yet. But conceptually
+[01:34:24.160 --> 01:34:33.200]  they got it. Whereas SwiftUI is just a declarative framework concept. It's like pulling it inside
+[01:34:33.200 --> 01:34:40.000]  out of how you do it conceptually. And so it's not like a subset. It's just a different way of
+[01:34:40.000 --> 01:34:44.480]  thinking and doing things. And I hear it from everybody. You just said it where it's like you
+[01:34:44.480 --> 01:34:48.960]  run into these areas where something is hard or difficult or even not possible in SwiftUI and it
+[01:34:48.960 --> 01:34:53.840]  would be elsewhere and you're frustrated. But every single developer, everyone I think, I know,
+[01:34:53.840 --> 01:34:58.960]  who's really kind of dove into SwiftUI, even though they have complaints and they run into
+[01:34:58.960 --> 01:35:02.960]  those limits and it's still evolving, they're like, I can't imagine going back.
+[01:35:03.840 --> 01:35:08.320]  Yeah. I mean, there's no question. It's the future of development.
+[01:35:08.320 --> 01:35:09.040]  Even on the Mac.
+[01:35:09.040 --> 01:35:16.320]  Even on the Mac. And you can create some really nice SwiftUI apps on the Mac. And
+[01:35:16.320 --> 01:35:23.280]  there's a subtle distinction between a SwiftUI for iOS running on catalyst versus a SwiftUI app
+[01:35:23.280 --> 01:35:29.360]  running directly as a true Mac app. But when you have SwiftUI running as a true Mac app,
+[01:35:29.360 --> 01:35:35.120]  you can't tell the difference. Everything feels completely right. So I think they've done a great
+[01:35:35.120 --> 01:35:39.760]  job with that. And I'm really looking forward to this WWDC and the further improvements
+[01:35:39.760 --> 01:35:41.600]  that I'm sure we're all going to be seeing.
+[01:35:41.600 --> 01:35:46.960]  Yep. I agree too. I don't have anything else for you. Is there anything else you want to call out?
+[01:35:46.960 --> 01:35:52.720]  Anything you want to mention that I didn't ask you about? Or is that about wrap it up?
+[01:35:52.720 --> 01:36:00.880]  I think that about wraps it up. I'm hoping to really see people give MimeStream a shot and see
+[01:36:00.880 --> 01:36:07.680]  if it works for their use case. And I'm really looking forward to being able to
+[01:36:08.560 --> 01:36:16.080]  continue to develop that. And for us, this is very much the start of what we think is going to be a
+[01:36:16.080 --> 01:36:24.160]  long-term journey. And I think that there's a market out there for users that need something
+[01:36:24.160 --> 01:36:28.400]  like MimeStream. And I'm really looking forward to fulfilling our mission.
+[01:36:28.400 --> 01:36:33.280]  I'm optimistic, honestly. And it's not just because you're here and you're kind enough to
+[01:36:33.280 --> 01:36:40.560]  give your time to the show. But I think, A, the Mac isn't going anywhere. I do think there's a
+[01:36:40.560 --> 01:36:46.800]  place. I think even though we're seeing fewer and fewer new first-class Mac apps, I still think
+[01:36:46.800 --> 01:36:53.920]  they're important and they stand out. And there's a lot of Mac users who really want them. And
+[01:36:53.920 --> 01:37:00.880]  email not only isn't going anywhere. Email, I think, is having a renaissance. I think that just
+[01:37:01.440 --> 01:37:08.720]  look at my world of independent publishing and how blogging is the thing that's dying out. And
+[01:37:08.720 --> 01:37:15.920]  it's paid newsletters that are where the growth is and people are moving to. And it's because
+[01:37:15.920 --> 01:37:24.160]  people love email. And you get a newsletter in your email and you just hit space, space, space,
+[01:37:24.160 --> 01:37:30.240]  and you read it. And there's no pop-ups covering the goddamn text of the thing. You don't need ad
+[01:37:30.240 --> 01:37:37.840]  blockers. It's just there. And it's a wonderful reading experience. People love their email.
+[01:37:37.840 --> 01:37:43.280]  And so it's not going anywhere. If anything, it's, to me, having a resurgence. And people are
+[01:37:43.280 --> 01:37:52.480]  sort of realizing after a decade-long dalliance of moving everything towards these walled garden
+[01:37:52.480 --> 01:37:57.680]  social networks like Facebook and stuff, that there's something advantageous to having it just
+[01:37:57.680 --> 01:38:02.800]  be wide open. So I couldn't be happier. And I'll just say this. The other thing that's great about
+[01:38:02.800 --> 01:38:11.200]  MimeStream 1.0 is that the pitch is so specific. If you use Gmail and you care about great native
+[01:38:11.200 --> 01:38:18.320]  Mac software, MimeStream, try it. You're crazy if you don't at least try it. And if you don't use
+[01:38:18.320 --> 01:38:24.960]  Gmail, not yet, right? It's on the road. You're saying your roadmap is, what I'm hearing is yes,
+[01:38:24.960 --> 01:38:31.360]  iOS, iPad, it's on your list, your work. You've got some sort of nascent project working on it.
+[01:38:31.920 --> 01:38:39.040]  Supporting IMAP in addition to Gmail is on your list. It's on our list. I think we have to see
+[01:38:39.040 --> 01:38:44.160]  what order we're going to do things. And it's clear that a lot more users are asking for iOS
+[01:38:44.160 --> 01:38:51.120]  first than IMAP. And I think that maps to, we're starting to see even more of that with the folks
+[01:38:51.120 --> 01:38:56.880]  that are, with our switch to a paid model. The folks that are using the app are kind of all in
+[01:38:56.880 --> 01:39:03.520]  on Gmail rather than sort of using it for like a mix of accounts. And so for that user base,
+[01:39:03.520 --> 01:39:09.040]  iOS first, I think is what makes sense. But ultimately in the long term, we definitely want
+[01:39:09.040 --> 01:39:16.080]  to branch out to other protocols, other services. IMAP, I think is a no brainer at some point in the
+[01:39:16.080 --> 01:39:20.960]  future. We're really interested in Jmap support as well. We didn't talk about that, but yeah,
+[01:39:22.000 --> 01:39:27.840]  that's a new protocol that's sort of being driven by FastMail, a fantastic company with some really
+[01:39:27.840 --> 01:39:33.600]  brilliant people. And that's meant to be like a replacement for some of the more legacy internet
+[01:39:33.600 --> 01:39:40.240]  protocols like IMAP and other protocols that are used for calendaring and et cetera. It's under
+[01:39:40.240 --> 01:39:45.600]  very active development in the IETF. And we've kind of been somewhat involved in that process
+[01:39:45.600 --> 01:39:51.200]  as well. So that's an area we're really looking forward to continuing to look at. But yeah,
+[01:39:51.200 --> 01:39:55.920]  for the short term, iOS is what we have our sites on. We just, we got to focus on one thing at a
+[01:39:55.920 --> 01:40:04.640]  time. Yeah. The J in Jmap is for JSON and JSON makes developers happy in a way that XML does not
+[01:40:04.640 --> 01:40:09.440]  make developers happy. And IMAP is pre-XML. I don't even know what the hell IMAP is.
+[01:40:11.280 --> 01:40:15.360]  I mean, the other big thing with Jmap is that it's sort of like kind of over HTTP,
+[01:40:15.360 --> 01:40:21.120]  which makes it really easy to do a lot of things compared to IMAP, which is a very stateful
+[01:40:21.120 --> 01:40:27.360]  protocol and it is difficult to implement correctly. So lots of stuff on the to-do list,
+[01:40:27.360 --> 01:40:34.560]  but lots and lots of very, very, truly, I'll just say it again. It's just a splendid 1.0 release
+[01:40:34.560 --> 01:40:39.520]  really that feels like a 2.0. It feels like years of work and it really, really does show
+[01:40:39.520 --> 01:40:44.560]  in the polish and the completeness of where it is already. So again, if you're listening to this
+[01:40:44.560 --> 01:40:48.560]  and you're a Gmail user and you've used a Mac, you're nuts if you don't try MimeStream. You
+[01:40:48.560 --> 01:40:53.360]  really are. You've got to at least try it. Neil, thank you for your time. Good luck. I want to...
+[01:40:53.360 --> 01:40:54.160]  Thank you, John.
+[01:40:54.160 --> 01:40:58.400]  Can't wait to have you back on when the iPhone app ships. I won't ask you for a date.
+[01:40:59.120 --> 01:41:03.280]  Oh, it's going to be some time if you're listening. It's not in the next six months.
+[01:41:03.280 --> 01:41:08.560]  Let's say that. We're taking it seriously. There's no point in shipping it unless it's really,
+[01:41:08.560 --> 01:41:12.320]  really freaking awesome. Well, when it does arrive, it's going to be awesome.
+[01:41:12.320 --> 01:41:16.800]  Yeah. Well, that's the other thing you have going for you is that the Gmail iOS app sucks.
+[01:41:16.800 --> 01:41:18.080]  I mean...
+[01:41:18.880 --> 01:41:22.880]  Well, all right, maybe featurefully it's fine, but as an iOS app,
+[01:41:22.880 --> 01:41:29.760]  idiomatically UI wise, you've got a really juicy opportunity.
+[01:41:31.280 --> 01:41:34.960]  Right. But the core functionality of it works reasonably well,
+[01:41:34.960 --> 01:41:37.120]  but it's just it's very out of place on iOS.
+[01:41:37.120 --> 01:41:40.960]  Very much so. Anyway, let me thank our sponsors, all of them. Rocket Money,
+[01:41:40.960 --> 01:41:46.800]  go to rocket money dot com slash the talk show and track all of your subscriptions and
+[01:41:47.360 --> 01:41:51.760]  balance your budget, see where your money is going. Trade coffee, subscription
+[01:41:51.760 --> 01:41:55.920]  coffee delivered fresh to your house and memberful where you can monetize your passion
+[01:41:55.920 --> 01:42:01.120]  with membership. Thanks. And Mime Stream. What's the URL? Mime Stream dot com.
+[01:42:01.120 --> 01:42:04.640]  That's right. M-I-M-E-S-T-R-E-A-M.
+[01:42:04.640 --> 01:42:09.920]  Oh, bonus question. Bonus question. I can't believe I forgot. How come Mime Stream is not
+[01:42:09.920 --> 01:42:16.960]  in the App Store? The main reason is that we wanted to offer company licensing for groups
+[01:42:16.960 --> 01:42:21.680]  and with subscriptions, we just couldn't easily do that through the existing App Store infrastructure.
+[01:42:21.680 --> 01:42:26.880]  So we we built this whole custom licensing infrastructure for groups to be able to do
+[01:42:26.880 --> 01:42:32.320]  group subscriptions. And by the time we did that, we were just like, hey, it makes sense to just do
+[01:42:32.320 --> 01:42:37.440]  this for for everyone. It allows us to bring it out at a slightly lower price point. It gives us
+[01:42:37.440 --> 01:42:41.840]  a little bit more control over some of the billing issues, et cetera, that that people would encounter.
+[01:42:42.640 --> 01:42:49.120]  Mime Stream also has like a few minor pieces of functionality that wouldn't be possible if it
+[01:42:49.120 --> 01:42:55.040]  were an App Store app. Like you can set it to be the default email client. And for instance, that's
+[01:42:55.040 --> 01:43:01.600]  an API that's off limits to App Store apps. So there's some really minor cases like that.
+[01:43:01.600 --> 01:43:07.200]  Can you can you petition for an entitlement for that? That's been on my list. I think I've
+[01:43:07.200 --> 01:43:11.840]  submitted some feedback for that in the past, but it's on my list to sort of push for for that a
+[01:43:11.840 --> 01:43:16.240]  little bit further. Obviously, when we have Mime Stream iOS, that will be on the App Store, of
+[01:43:16.240 --> 01:43:23.200]  course. And at that time, we would probably then introduce Mime Stream Mac App Store. But I think
+[01:43:23.200 --> 01:43:28.720]  for for now, it seemed OK to continue to to do this. We also were just under a limited time
+[01:43:28.720 --> 01:43:32.240]  time frame. So we just wanted to implement one billing system. And when we were done,
+[01:43:32.240 --> 01:43:36.320]  we're like, we got a ship. It's been it's been long at that. We're not going to take another
+[01:43:36.320 --> 01:43:41.760]  month to do another billing system. You got real art of ship, real art of ship. Yes. Well,
+[01:43:41.760 --> 01:43:59.520]  thank you, Neil. Thank you. Thank you, John.
