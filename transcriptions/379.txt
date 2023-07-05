@@ -1,0 +1,1290 @@
+[00:00.000 --> 00:04.160]  WWDC last week, this must have been bittersweet.
+[00:05.520 --> 00:08.480]  Yeah, yeah, it was a lot of things at once because I mentioned in my post,
+[00:08.480 --> 00:11.920]  but it was my girlfriend's 30th birthday on the Monday, so I was kind of like,
+[00:12.560 --> 00:16.400]  how am I gonna get down there without being the worst person in the world?
+[00:16.400 --> 00:19.280]  So I was kind of like, oh, I'll bring you down with me, we can like have some fun,
+[00:19.280 --> 00:21.680]  and then everything kind of went to crap pretty quickly.
+[00:21.680 --> 00:23.600]  Yeah, we could go down there and celebrate.
+[00:23.600 --> 00:27.920]  I mean, let's face it, anything with a zero is a big round number, it's always important.
+[00:27.920 --> 00:29.920]  Yeah.
+[00:29.920 --> 00:36.320]  It really, when I read that in your post, it really was like the extra kick in the nuts, right?
+[00:36.320 --> 00:38.880]  Yeah, it was. She was so good about it though.
+[00:38.880 --> 00:41.760]  We ended up going mini golfing one night, so I think it was salvaged somewhat.
+[00:44.080 --> 00:50.400]  For anybody out there listening who's been living under a rock, Christian Selig is,
+[00:51.440 --> 00:56.800]  you are, is there a company behind Apollo or is it just Christian Selig?
+[00:56.800 --> 01:01.040]  Um, I think technically in some capacity, but yeah, it's basically just me.
+[01:01.040 --> 01:05.280]  I have a friend named Andre who works on the server backend part time,
+[01:05.280 --> 01:09.440]  because that's not my forte and he's really good at it, but yeah, it's effectively just me.
+[01:09.440 --> 01:17.040]  Right, but for the last eight years, you have been the one-person show behind Apollo, which is
+[01:18.000 --> 01:22.160]  literally an award-winning, right? You've won awards with Apollo?
+[01:22.160 --> 01:24.960]  Yeah, yeah, yeah, no, I think there's been some backstory ones and some
+[01:24.960 --> 01:27.120]  editor's choice stuff, so I've been pretty lucky.
+[01:27.120 --> 01:32.480]  Award-winning third-party client for Reddit, for iOS, and
+[01:34.720 --> 01:36.080]  Reddit, I'm laughing.
+[01:37.200 --> 01:38.720]  That's all you can do at this point.
+[01:38.720 --> 01:47.760]  I'm crying inside. Reddit has gone from a free API since forever to instituting a paid API
+[01:47.760 --> 01:53.680]  that your estimates would peg your bill. If usage of Apollo continued as it has been,
+[01:53.680 --> 01:57.680]  would cost you $20 million a year.
+[01:58.560 --> 02:02.080]  Yeah, yeah, and that's in US dollars. The Canadian dollar is not doing so hot.
+[02:03.600 --> 02:07.840]  And to top it off, as if that weren't bad enough,
+[02:07.840 --> 02:11.520]  you got about 30 days notice or 30 days on the button?
+[02:11.520 --> 02:17.440]  Yeah, 30 days from when they announced the pricing to when we started incurring charges,
+[02:17.440 --> 02:20.640]  which is kind of funny because I did the math last night and it took them 43 days
+[02:20.640 --> 02:24.880]  from the initial announcement for them to figure out what the pricing would even be,
+[02:25.760 --> 02:28.800]  and then 30 days from that to actually implement it.
+[02:31.200 --> 02:34.240]  So you came to the conclusion that you're going to have to,
+[02:34.960 --> 02:40.960]  because of this, shut Apollo down at the end of June, which again, even that is not free.
+[02:40.960 --> 02:51.360]  It really is deja vu all over again with Reddit as a third-party, exquisitely well-designed,
+[02:51.360 --> 03:00.000]  beloved paid app for Reddit is almost exactly in the same position that apps like Tweetbot
+[03:00.000 --> 03:04.560]  and Twitterrific were in for Twitter just a few months ago.
+[03:04.560 --> 03:11.440]  No, and it's funny because starting at iOS development, Paul and Craig and them were
+[03:11.440 --> 03:15.120]  just people I looked up to so much. And it's kind of funny. I've talked to them quite a bit
+[03:15.120 --> 03:19.440]  over the last two weeks. They've been honestly so kind and giving tips and sharing code for
+[03:19.440 --> 03:24.800]  how they handled it and contacts. I wish I got to talk with them so much under better circumstances,
+[03:24.800 --> 03:26.560]  but yeah, they've been awesome.
+[03:26.560 --> 03:32.160]  Yeah. And again, it's unfortunate. It really is. It's tragic. We'll get into the weeds on
+[03:32.160 --> 03:40.720]  some of these details, but part of looking for the silver lining in a cloud with the Twitter
+[03:40.720 --> 03:46.960]  situation months ago, and I'm really good friends with Craig Hockenberry and I know Paul Haddad and
+[03:46.960 --> 03:52.720]  Mark at Tapbots. And so I'm not surprised. And I know from as much as I know those guys,
+[03:52.720 --> 03:58.880]  I wasn't the least bit surprised that those guys helped each other go through the process of
+[03:58.880 --> 04:07.040]  unwinding this and sort of coordinating and working behind the scenes with Apple to coordinate
+[04:07.040 --> 04:13.760]  how to, because part of the mess of this whole thing, and it is, again, it is like deja vu all
+[04:13.760 --> 04:22.400]  over again, where Twitter yanked the rug out from under those guys. Reddit is giving you 30 days
+[04:22.400 --> 04:27.840]  notice, but it's not that much different. 30 days is closer to zero than it is to a reasonable
+[04:27.840 --> 04:35.120]  amount of time. And the problem is that you, Apollo and Tweetbot and Twitterrific were
+[04:35.120 --> 04:40.000]  monetized through subscriptions, which included annual subscription. I mean, this is it really,
+[04:40.000 --> 04:44.240]  when you think about this from a business perspective, it's just a gut punch because
+[04:44.240 --> 04:50.640]  you've got customers who might've renewed their annual subscription a month ago, right?
+[04:51.920 --> 04:56.320]  I mean, there's no, do you know, are your subscribers more or less because you've been
+[04:56.320 --> 05:00.080]  around and Paul has been around for eight years. I would guess that your subscribers
+[05:00.080 --> 05:03.680]  are evenly distributed throughout the year. There's no real reason for.
+[05:04.720 --> 05:09.040]  Yeah. Yeah. It's pretty much exactly evenly distributed through the year. And it's funny.
+[05:09.040 --> 05:12.400]  I'd also add that I had a call in January with Reddit, funnily enough, where they said they
+[05:12.400 --> 05:17.040]  had no plans to change the API in 2023. So when, when you say stuff like that, you can kind of make
+[05:17.040 --> 05:20.960]  projections that, okay, a yearly subscription is probably a safe bet. But then three months later,
+[05:20.960 --> 05:26.320]  that the tone changes a little. Yeah. And I would think, and part of what makes the Reddit
+[05:26.320 --> 05:32.480]  situation extra frustrating a hundred times for you, but even just for outside observers,
+[05:32.480 --> 05:36.560]  like me and the people listening is that at the outset, when they first started saying,
+[05:36.560 --> 05:40.320]  Hey, we're going to have to change our API rules. We're going to have to start charging
+[05:40.320 --> 05:44.400]  or something, blah, blah, blah. They, they emphasized at the outset, but we're not going
+[05:44.400 --> 05:48.880]  to do what Twitter did. And it's like, okay, that sounds all right. You understand Reddit
+[05:48.880 --> 05:55.200]  to business. I think there were suspicions until recently that they weren't profitable. And now
+[05:56.240 --> 06:02.160]  Steve Huffman confirmed that that's kind of that they're not profitable. I mean,
+[06:02.160 --> 06:08.400]  it's obviously in your interest for Reddit. If all, if things had gone well and this,
+[06:08.400 --> 06:14.240]  this weren't happening, you would still want Reddit to thrive because you've built a client
+[06:14.240 --> 06:21.280]  that is completely specific to Reddit in an ideal situation. It's a symbiotic relationship
+[06:21.280 --> 06:29.600]  where Reddit is thriving financially. Reddit is thriving as an overall community. And the,
+[06:29.600 --> 06:36.160]  the APIs are priced in a way that allows third-party apps to thrive. Right. You would
+[06:36.160 --> 06:40.160]  think, yeah, you would like, I don't think any developer I talked to at the beginning of this
+[06:40.160 --> 06:43.440]  on the Reddit side was like, this seems unreasonable. Or like, there was a sense
+[06:43.440 --> 06:46.960]  of excitement that this will kind of formalize the relationship a little bit better. Like I
+[06:46.960 --> 06:51.280]  remember Paul from tweetbot was even saying like, dang, I wish Twitter kind of did this thing. Like
+[06:51.280 --> 06:55.280]  this sounds a lot better. So it sounded like a good deal at the beginning, but yeah, the devil's
+[06:55.280 --> 07:00.160]  in the details, I guess. And again, like you said earlier this year, not that long ago, you know,
+[07:00.160 --> 07:05.040]  we're only in June. We're not even halfway through the year for them to say, we don't anticipate
+[07:05.040 --> 07:10.640]  changing the APIs this year. It certainly didn't give you any reason to think that you should
+[07:10.640 --> 07:17.200]  you should rethink the fact that you have annual subscribers. Right. Oh no, they were, they were
+[07:17.200 --> 07:21.360]  very like, we love having you like, we're not thinking this year. It might be the tune of like
+[07:21.360 --> 07:24.960]  several years. And even then it would be improvements. Like it was very like, keep doing
+[07:24.960 --> 07:30.640]  what you're doing. Yeah. What do you think happened? What changed from Reddit's perspective
+[07:30.640 --> 07:38.720]  between the beginning of this year and May? If I had to guess it would be a combination of seeing
+[07:38.720 --> 07:42.640]  what happened at Twitter and seeing you can kind of get away with this killing of the third-party
+[07:42.640 --> 07:47.840]  apps thing and a combination of wanting to IPO and try to extract all this money from
+[07:47.840 --> 07:54.320]  services that use your, use the Reddit API, like the AI platforms of the world, which is again,
+[07:54.320 --> 07:58.880]  totally fair, but like you could pretty simply in a way Apple almost does with reader apps,
+[07:58.880 --> 08:03.040]  like carve out an exception for certain kinds of apps that maybe contribute back to the platform
+[08:03.040 --> 08:08.160]  in some capacity. Yeah. And I'm not like a financial expert, but it's no secret that Reddit
+[08:08.160 --> 08:13.840]  is looking to do an IPO. And it's also not a secret. It's been publicized. TechCrunch was the
+[08:13.840 --> 08:19.680]  place I linked to, but that the, one of the lead investors in Reddit downgraded their investment
+[08:19.680 --> 08:26.080]  and downgraded their estimate of the company's valuation to beneath the level they were looking
+[08:26.080 --> 08:36.480]  to IPO at. And so in some, and I think it's fair. And again, I'm not a financial expert. I've never
+[08:36.480 --> 08:43.760]  done an IPO, but I think the very, very broad perspective that a big part of a company having
+[08:43.760 --> 08:51.440]  an IPO, obviously you'd want it to be very logical and have actual experts looking at the actual,
+[08:52.720 --> 08:57.280]  the books, as it were, have accountants and finance CFO types looking at the revenue
+[08:57.280 --> 09:08.640]  and the costs and the projections for the future and make a truly logical, calibrated,
+[09:09.440 --> 09:15.760]  defendable mathematical estimate as to what the company is worth. But the truth is the stock
+[09:15.760 --> 09:21.600]  market isn't entirely logical. Everybody knows that in every way. And an IPO is largely about
+[09:21.600 --> 09:29.840]  also about momentum and public consensus and Reddit's momentum has been on the downswing
+[09:30.480 --> 09:37.520]  recently. Just the news coming out that your lead investor has cut billions off your valuation is
+[09:37.520 --> 09:43.440]  not the direction you want to be headed when you're looking at an IPO. And I guess this is,
+[09:43.440 --> 09:52.480]  and I think it's this AI thing where they're looking at Reddit's business and who's using
+[09:52.480 --> 09:57.600]  Reddit and what it's been used for. And the fact that Reddit has been around for so long,
+[09:57.600 --> 10:02.320]  when did Reddit start? Like 2006, 2007? That sounds about the right time frame.
+[10:02.320 --> 10:05.680]  Somewhere around there. A couple of years, four or five years after I started writing
+[10:05.680 --> 10:11.760]  Daring Fireball. And it took off very quickly. I guess by today's standards of Reddit,
+[10:11.760 --> 10:16.640]  those early years were probably small, but I seem to recall that it gained traction
+[10:16.640 --> 10:26.480]  alongside Digg. And therefore it had 15, 20, close to sometime between 15 and 20 years of
+[10:27.280 --> 10:32.880]  massive amounts of, I guess, largely English language. I don't know.
+[10:34.560 --> 10:38.160]  Yeah, I think Reddit is very American. At least in my user base, it's like almost 90%.
+[10:38.160 --> 10:44.560]  I was going to, that was an assumption on my part, but I realized that if there is
+[10:44.560 --> 10:49.840]  like a very strong German or Spanish language contingent, I guess I just never ran into it,
+[10:49.840 --> 10:58.000]  but I don't see it. But lots and lots of texts written by real people open and indexable to
+[10:58.000 --> 11:02.800]  search engines. This is something that people have already said Google is already suffering
+[11:02.800 --> 11:08.320]  with search results because, and it's just a very, it's super common. I mean, I'm sure you're aware
+[11:08.320 --> 11:15.600]  of this, that it's like super common suggestion that when you're looking for how to blank or
+[11:15.600 --> 11:24.000]  recommendations on blank, just include the word Reddit in your search string to steer Google or
+[11:24.000 --> 11:28.800]  whichever search engine you use towards Reddit results. And you're way more likely to get good
+[11:28.800 --> 11:33.280]  results, right? I mean, it's the truth. Oh, absolutely. I imagine that's how a lot of
+[11:33.280 --> 11:36.320]  people find their way to Reddit in the first place. Right. I told this story a couple of
+[11:36.320 --> 11:40.640]  weeks ago where I rented a car, a stupid Kia Sorento to drive my son home from college a
+[11:40.640 --> 11:44.720]  couple of weeks ago. And I could not figure out how to open the hatch on the thing. And I felt
+[11:44.720 --> 11:49.760]  so stupid. I'm like, how is this possible? And after trying for like literally 10 minutes,
+[11:49.760 --> 11:54.640]  I Googled it and the top result was a Reddit thread. And it was exactly, it was somebody
+[11:54.640 --> 11:59.440]  in my exact situation, except this woman was like, she even said in a Reddit post, look,
+[11:59.440 --> 12:05.120]  I know this is stupid, but my husband and I just rented a 2020 Kia Sorento. We can't figure out
+[12:05.120 --> 12:09.680]  how to open the trunk. And somebody was like, oh, it's under the E in Sorento and it's really
+[12:09.680 --> 12:16.880]  a small button. And it's like, oh, thank you. God only knows what the second place result was.
+[12:16.880 --> 12:21.680]  And I remember looking at the search results and it wasn't that great. It was like this one thread
+[12:21.680 --> 12:27.920]  on Reddit gave me the answer instantly. And second place was, I don't know, read the manual. I don't
+[12:27.920 --> 12:35.440]  know. Yeah, pretty much are some wrongly written chat bot style. But so all these, in addition to
+[12:35.440 --> 12:41.280]  search engines being a great source for search engines for answers, because it's really human
+[12:41.280 --> 12:47.040]  stuff and the ranking system promotes good answers. It also turned out to have been a very
+[12:47.040 --> 12:54.560]  good data set for these AI language models. And they got to train for free off an enormous corpus
+[12:54.560 --> 13:02.080]  of very good text for training real language. And now they're looking, I guess, like Steve
+[13:02.080 --> 13:08.240]  Huffman is looking at OpenAI having a multi hundred billion dollar valuation. And they're
+[13:08.240 --> 13:14.160]  like, well, give me some of that. How about we set the API price super high so that the next time
+[13:14.160 --> 13:21.360]  somebody wants to train on our data set, we can make a fortune. And then our IPO will look
+[13:21.360 --> 13:29.520]  AI flavored. The hype buzzword of 2023. Reddit's part of it because we're the training set for this
+[13:29.520 --> 13:34.640]  and we're going to make a mint on AI training, blah, blah, blah. And then it's the old dot,
+[13:34.640 --> 13:40.160]  dot, dot gnomes and underpants profit. Right? Easy, easy.
+[13:40.160 --> 13:44.560]  And yeah, and I see that to a certain extent, but it's one of those things where I wonder
+[13:44.560 --> 13:48.720]  if that is how they landed on this, it just feels a little short sighted in so far as
+[13:48.720 --> 13:52.640]  you have these companies like OpenAI that just vacuum up all of Reddit's data and then
+[13:52.640 --> 13:56.960]  package that up and sell it as their own product, essentially. And I don't blame Reddit at all for
+[13:56.960 --> 14:02.160]  wanting to monetize that. And I also don't blame them for wanting to monetize the greater API.
+[14:02.160 --> 14:06.640]  But for services that inherently give a certain amount back to Reddit through moderator tools
+[14:06.640 --> 14:12.160]  and alternative experiences and whatnot, there's an inherent value for Reddit there that I think
+[14:12.160 --> 14:15.920]  would almost warrant carving out a separate pricing tier that might be a little bit more
+[14:15.920 --> 14:18.320]  affordable for the non-billion dollar companies.
+[14:18.320 --> 14:27.600]  Because from a certain perspective, if you're just looking at the bill from AWS or whoever
+[14:27.600 --> 14:35.600]  your Reddit's paying hosting bills to, an API call is an API call and incurs each call
+[14:35.600 --> 14:40.080]  incurs some fraction of a penny's cost to keep the server running and for the bandwidth,
+[14:40.080 --> 14:46.880]  blah, blah, blah. But strategically, it really doesn't make any sense at all to price all
+[14:46.880 --> 14:51.840]  developer, even if you're going to go to a paid API, which is reasonable, right? I don't
+[14:51.840 --> 14:58.000]  think anybody is disagreeing that it's unreasonable to go from totally free API usage to some
+[14:58.000 --> 14:58.960]  sort of paid model.
+[14:58.960 --> 15:00.480]  100%.
+[15:00.480 --> 15:08.240]  It doesn't make any sense to consider clients, just usable clients for normal users like
+[15:08.240 --> 15:14.400]  Apollo or specialized ones for moderators, which I get the impression there's a bunch
+[15:14.400 --> 15:21.360]  of tools like that, to something like OpenAI or somebody who wants to train on this massive
+[15:21.360 --> 15:25.680]  data set. It makes sense to have totally different classes. You brought up the reader
+[15:25.680 --> 15:31.680]  exception. The App Store guidelines are full of weird little exceptions for different classes
+[15:31.680 --> 15:32.160]  of apps.
+[15:33.120 --> 15:37.520]  Yeah, no, yeah. And that way I don't get it. And they even said server costs aren't
+[15:37.520 --> 15:42.080]  really the biggest thing here. It's the opportunity cost of using one app versus the other. So
+[15:42.080 --> 15:46.320]  that's where I get almost confused where it is so contingent on you're making 100
+[15:46.320 --> 15:50.880]  versus 200 API calls. If it's more so the user, why are we focusing so much on the server
+[15:50.880 --> 15:53.200]  fees? So it's very confusing.
+[15:53.200 --> 15:59.840]  Yeah, it's definitely confusing. I guess I know you just talked to The Verge on The
+[15:59.840 --> 16:05.600]  Vergecast this week. And just a couple days ago, they asked you, how sure are you that
+[16:05.600 --> 16:10.000]  come June 30th, this is really going to be the end? And your answer was 90%. Are you
+[16:10.000 --> 16:12.560]  still at 90%? Or is that crept up?
+[16:12.560 --> 16:18.000]  Or I think, yeah, it's crept up a little like, yeah, I just have pretty much no expectations
+[16:18.000 --> 16:22.400]  at this point. Not to say I don't hope they won't come around on this, but I just, yeah,
+[16:22.400 --> 16:26.800]  I don't 100% see it happening. And I feel like getting my hopes up in that way would
+[16:26.800 --> 16:30.400]  not be smart. And I'm kind of operating on the assumption that if they do, that's a
+[16:30.400 --> 16:34.160]  nice little surprise. But there's certain kind of shutdown procedures I need to go through
+[16:34.160 --> 16:38.640]  with Apple that I need to get done. And I can't kind of wait around for them to hopefully
+[16:38.640 --> 16:39.840]  finally listen to the community.
+[16:40.400 --> 16:43.120]  Yeah, it's like you got to start moving. All right, we'll come back to this. But let
+[16:43.120 --> 16:47.840]  me take a break here and thank our first sponsor of the show. And it is our good friends at
+[16:47.840 --> 16:55.120]  Memberful. Memberful is where you can go as a creator to monetize your creative efforts
+[16:55.120 --> 17:02.080]  with memberships and grow your revenue. Memberful is passionate about your success as a creator.
+[17:02.720 --> 17:09.920]  And they do everything to be on your side, to give you access to everything you need
+[17:09.920 --> 17:16.080]  to have a successful membership system. Number one, they always give you full control and
+[17:16.080 --> 17:22.640]  ownership of your audience and your brand. So people sign up for your membership when
+[17:22.640 --> 17:26.480]  you're running a system on Memberful. They don't see Memberful first. They see your
+[17:26.480 --> 17:30.160]  brand. And Memberful is just the back end. And people think they're interacting with
+[17:30.160 --> 17:34.080]  you because they are. And if you ever want to leave Memberful and go somewhere else,
+[17:34.080 --> 17:39.280]  you get to take your whole membership list with you. It is so they make it easy to leave
+[17:39.280 --> 17:43.440]  because they are so confident that you're not going to want to leave. But it gives you
+[17:43.440 --> 17:48.800]  confidence. Your brand stays foremost and you maintain ownership of your membership.
+[17:49.440 --> 17:54.080]  And why would you want to use them? Because they seamlessly integrate out of the box with
+[17:54.080 --> 17:59.600]  all of the tools you already use, including services like MailChimp, WordPress, Stripe,
+[17:59.600 --> 18:05.920]  Discord, and more. They're your accounts. These are your fans who are signing up for
+[18:05.920 --> 18:11.360]  your membership and they just want to easily plug into the stuff you already use. They
+[18:11.360 --> 18:16.000]  have everything you need to run a membership program. Powerful, easy to use checkout,
+[18:16.000 --> 18:20.320]  easy to use member portal so your members can come in and change their email address
+[18:20.320 --> 18:26.640]  or change from monthly to annual or anything like that. All of that is all built in.
+[18:26.640 --> 18:31.200]  They give you advice on how best to monetize because they only make money when you make
+[18:31.200 --> 18:36.240]  money and they know what works. They have so much experience with so many creative professionals
+[18:36.240 --> 18:42.080]  out there. You can get started for free and try Memberful with no credit card required
+[18:42.080 --> 18:47.280]  upfront. Free trial. See how everything works without giving them your credit card. And
+[18:47.280 --> 18:55.040]  then when you're ready, just go to memberful.com slash the talk show and they will know you
+[18:55.040 --> 19:01.360]  came from the show and it couldn't be easier. Memberful.com slash the talk show.
+[19:01.360 --> 19:09.520]  So let's talk about other ideas. What if? So why not? Why not just charge your customers
+[19:09.520 --> 19:15.120]  more to make up for the fees that Reddit would charge you if you kept Apollo going?
+[19:15.920 --> 19:19.680]  That's a great question. I think there's a lot of reasons, but I think if I was just
+[19:19.680 --> 19:24.160]  to give a few, the main one for me is that, not even the main, but one of them is that
+[19:24.160 --> 19:28.080]  at this point it kind of seems evident that they're not really happy having third party
+[19:28.080 --> 19:32.240]  apps around. And this was kind of like an indirect way to kind of try to push them out.
+[19:32.240 --> 19:35.920]  Seeing that through some of the actions that they've taken and decisions they've made,
+[19:35.920 --> 19:39.520]  I don't think they're particularly happy. And that kind of creates an environment where
+[19:39.520 --> 19:42.960]  it doesn't feel very productive to build it in if you're not wanted there. It doesn't
+[19:42.960 --> 19:46.320]  feel like there'll be a good working relationship going forward and a healthy future for the
+[19:46.320 --> 19:51.120]  app. So that gives me a lot of concern. And in terms of why not just say, okay, everybody's
+[19:51.120 --> 19:54.720]  paying five bucks a month now, if you want to stick around, like that would be a very
+[19:54.720 --> 19:58.160]  easy solution on the surface at least. And it becomes one of those things Apollo's
+[19:58.160 --> 20:03.600]  average user uses around 345 requests a day. To get mathy, like that's an average. So
+[20:03.600 --> 20:07.760]  for users closer to 200, a subscription, existing users closer to 500. So you've got
+[20:09.200 --> 20:13.920]  an existing subscription user using about 500 requests a day on average, which makes
+[20:13.920 --> 20:16.560]  sense that they'd use more. They're paying for the app. They probably like the service.
+[20:16.560 --> 20:21.280]  You're looking at closer to like $3.70 to keep them around. So you take Apple's cut
+[20:21.280 --> 20:25.760]  out of the five bucks, you're 10, 20 cents in the red. So your average subscription user
+[20:25.760 --> 20:30.480]  already can't stay around. But then even beyond that, I've got a subset of users around,
+[20:30.480 --> 20:34.720]  I think it's like almost 6%, which is almost like 100,000 users where they use between
+[20:34.720 --> 20:39.440]  one and 2000 requests a day. So you're looking at seven to $14 in fees a month if they'd
+[20:39.440 --> 20:42.880]  incur. So you've got kind of this system where you're like, is it going to be like,
+[20:42.880 --> 20:46.160]  I'm turning the lights off once you hit a certain amount of usage of this app? Am I
+[20:46.160 --> 20:50.000]  going to have to build Apollo in a way where, okay, I can't make this feature too good
+[20:50.000 --> 20:52.320]  because they'll use the app more and it'll cost me a bunch of money. I've kind of got
+[20:52.320 --> 20:57.680]  to shitty-ify everything. And that's not really a good way to build an app. And then
+[20:57.680 --> 21:00.800]  even beyond all that, if I could make all of that make sense, just the fact that I've
+[21:00.800 --> 21:05.760]  got a lot of existing subscribers that, as we mentioned earlier, have already paid based
+[21:05.760 --> 21:12.160]  on operating costs I kind of assumed earlier. And starting July 1st, the 50,000 or so yearly
+[21:12.160 --> 21:16.560]  subscribers I have now will start incurring at minimum a dollar, but more realistically
+[21:16.560 --> 21:22.080]  like $2 each. So you'll have a bill of $100,000 a month coming until their subscription kind
+[21:22.080 --> 21:26.560]  of all lapses. And that's almost at a point where it would be cheaper rather than giving
+[21:26.560 --> 21:29.440]  hundreds of thousands of dollars to Reddit just to kind of close up and say you can have
+[21:29.440 --> 21:39.280]  your money back. How important has it been that Apollo also heretofore up until now can
+[21:39.280 --> 21:44.880]  be used for free? I think it's just been one of those. It hasn't been super important.
+[21:44.880 --> 21:47.520]  It's just kind of been a nice thing to have. The thing that drew me to app development
+[21:47.520 --> 21:49.920]  in the first place was that you could kind of just be on the bus and see somebody using
+[21:49.920 --> 21:53.840]  something you created and that whole concept was kind of infectious. So if somebody wants
+[21:53.840 --> 21:57.360]  to use the app and they're not paying me and they're just enjoying something I like,
+[21:57.360 --> 22:00.880]  that always sounded super cool to me. And maybe if they use it after a few months,
+[22:00.880 --> 22:04.960]  they might decide to support it in some capacity. And that was really cool. I love that aspect.
+[22:04.960 --> 22:08.480]  And having people like moderators who kind of are the reason the communities are alive,
+[22:08.480 --> 22:11.680]  being able to use the app for free was really cool. So it was a really nice thing to have,
+[22:11.680 --> 22:16.720]  but it wasn't something I was 100% tied to because I do understand at a business level why
+[22:16.720 --> 22:20.320]  Reddit can't potentially give those out for free indefinitely. It's just about the price
+[22:20.320 --> 22:26.080]  they landed on to facilitate that was so high and so fast that it made things quite difficult.
+[22:29.920 --> 22:36.400]  Reddit aside and Reddit's obvious control over their own platform aside, it just seems like
+[22:36.400 --> 22:46.640]  the modern way to have a commercial indie app is a free to download app. I mean, and obviously there
+[22:46.640 --> 22:53.440]  are exceptions to every rule, but basically make the app free to download and have in-app
+[22:53.440 --> 23:00.880]  subscriptions probably monthly and annual where annual is something less than 12 times monthly
+[23:00.880 --> 23:08.480]  to encourage people to save money on an annual basis, but then to sort of regularize your income
+[23:09.360 --> 23:17.120]  by having annual subscribers instead of living month to month. And the free download is sort of
+[23:17.120 --> 23:22.880]  what people it's what used to be the shareware model of you download an app from somebody's
+[23:22.880 --> 23:29.520]  website, try it for 14 days and then decide to pay. That doesn't, it's never been said
+[23:29.520 --> 23:33.600]  supported by the app store. There's never been a free trial thing. You can have a free app
+[23:33.600 --> 23:41.760]  and then you have in-app purchases or subscriptions. It, it's, it, that's how most of
+[23:41.760 --> 23:48.320]  these apps work. I don't, I guess Tweetbot didn't have a totally free to use tier. I mean, but yeah,
+[23:48.320 --> 23:52.160]  I think that was a limitation of that whole token thing they went through. Right. Right.
+[23:52.160 --> 23:57.040]  There, so there can be exceptions. I can imagine a scenario where they came up with some sort of
+[23:57.040 --> 24:02.800]  Reddit had come up with some sort of pricing that probably would have meant you couldn't have a free
+[24:02.800 --> 24:10.240]  tier or it would have required some other hypothetical. Like if Reddit had said you can
+[24:10.240 --> 24:17.760]  keep using the API, but if it's a client app like Apollo, where it's, this is what you as a user
+[24:17.760 --> 24:23.760]  used to access Reddit instead of the official Reddit client that you'd have to show Reddit's
+[24:23.760 --> 24:31.120]  own ads to use the API. I mean, this is obviously where Twitter sort of lost interest in third party
+[24:31.120 --> 24:36.960]  clients a decade ago, right? One of the weird, one of the differences between the Twitter situation
+[24:36.960 --> 24:44.720]  and the Reddit situation is at least with Twitter developers, like the icon factory and tap bots
+[24:44.720 --> 24:51.680]  kind of knew they were on shaky ground for years. As you just emphasized earlier in the show,
+[24:51.680 --> 24:56.880]  even just earlier, like in January of this year, Reddit was like, ah, we're good till next year,
+[24:56.880 --> 25:00.880]  at least. And then we'll come up with something fair. But would you have been amenable to that if
+[25:00.880 --> 25:06.160]  they had said, look, one of the ways we're going to want to monetize this is we want to put our ads
+[25:06.160 --> 25:10.720]  in front of everybody who's using Reddit? Absolutely. I think there would have been like
+[25:10.720 --> 25:14.960]  so many different ways that they could have done this that would have been ultimately better for
+[25:14.960 --> 25:19.040]  everyone. Like that would have been an option and you could have it. So maybe the ads wouldn't come
+[25:19.040 --> 25:23.520]  through if you had Reddit Premium or something, or just you need Reddit Premium to use third party
+[25:23.520 --> 25:27.040]  apps. There would have been so many aspects that they could have done this as that I think
+[25:27.040 --> 25:29.840]  ultimately would have made a lot more sense than what they landed on and could have potentially
+[25:29.840 --> 25:34.960]  been easier. But even with the ad thing, the unfortunate thing for a lot of developers was
+[25:34.960 --> 25:39.360]  they even not only are they integrating their own ads, they're effectively not allowing you to have
+[25:39.360 --> 25:44.320]  your own free tier because they're also banning third party ads frameworks like Google's, for
+[25:44.320 --> 25:49.040]  instance, where a lot of these platforms historically also use those to power their free
+[25:49.040 --> 25:53.680]  tier. Apollo never did because I wasn't a big ad guy, but like Narwhal and a lot of the Android
+[25:53.680 --> 25:57.760]  apps were kind of like double hit because on the same day as that initial announcement they were
+[25:57.760 --> 26:02.320]  like, you have a week to get rid of your ads. And they were like, hold up, what? Like, how do I
+[26:02.320 --> 26:08.960]  monetize? Like that was kind of the whole thing. So it's very tricky here. Right. And I can imagine
+[26:08.960 --> 26:16.320]  that on the Android side of things, I can see why that's probably more common. You know, everybody
+[26:16.320 --> 26:24.960]  knows that for whatever demographic reasons, iOS users are more likely to pay than Android users.
+[26:24.960 --> 26:31.040]  And so paid apps are more of a thing. Paid subscriptions to get advanced features are
+[26:31.040 --> 26:36.000]  more of a thing in the iOS world than the Android world. And so the fact that Android
+[26:36.000 --> 26:41.680]  equivalents to Apollo, third party clients you put on your Android phone, access Reddit and
+[26:41.680 --> 26:46.240]  offer X, Y, and Z that are better than the official Reddit client or just different, right?
+[26:46.240 --> 26:52.480]  Even if it's just different and therefore better for some people monetize through their own ads.
+[26:53.920 --> 26:58.480]  For them to just say, what, you have a couple of weeks notice or a one week notice?
+[26:59.440 --> 27:04.000]  Yeah. Well, what happened was initially they said it was very confusing because as a backstory,
+[27:04.000 --> 27:08.720]  when the first announcement came out in April, I messaged a bunch of the other developers and
+[27:08.720 --> 27:12.480]  said, let's make a group chat and kind of talk here. And then a week later, they all got an
+[27:12.480 --> 27:15.760]  email that was like, we notice you have ads in your app. You have one week to get rid of them.
+[27:15.760 --> 27:21.200]  And they were like, okay, but your API guidelines say they don't come into effect until June or July
+[27:21.200 --> 27:25.520]  or whatever. What's the deal there? And then they kind of ended up backpedaling, thankfully. And I
+[27:25.520 --> 27:30.080]  think they gave them up until July 1st or maybe a little bit before then to remove them. But there
+[27:30.080 --> 27:35.280]  was definitely some running around with their hair on fire. This is the entire monetization model for
+[27:35.280 --> 27:39.600]  the app. And it's being yoinked with no opportunity to replace it with really anything.
+[27:39.600 --> 27:45.440]  Right. Because they're not even offering their own. It would be bad enough to give such short
+[27:45.440 --> 27:51.040]  notice and say, because we were going to insist that you show our ads and we're going to have
+[27:51.040 --> 27:57.440]  some sort of 70, 30 revenue split or whatever the revenue split would be on the ads. Something like
+[27:57.440 --> 28:02.720]  that. Nope. No. And I mean, say what you want about Twitter, but to my knowledge, at least
+[28:02.720 --> 28:07.360]  Twitterrific had their own, if you didn't pay, they had some sort of ad banner platform. So
+[28:07.360 --> 28:12.800]  Twitter at least was okay with advertising in some capacity throughout their API. So it's,
+[28:12.800 --> 28:19.440]  yeah, it's a weird situation. I guess the, and it's, we're back to the things that I find
+[28:19.440 --> 28:25.360]  similar between the two companies. And I find it almost baffling that the leadership at Twitter
+[28:25.360 --> 28:33.280]  and Reddit doesn't seem to see how damaging these moves are to their company's credibility.
+[28:33.280 --> 28:37.600]  Because when you're the bigger company, I mean, we say third party client, I mean,
+[28:37.600 --> 28:43.280]  when you're the first party, you have a certain responsibility. And I'm not just saying like,
+[28:43.280 --> 28:48.800]  Hey, be a good person. I realize business is business and sometimes tough decisions have to
+[28:48.800 --> 28:58.960]  be made, but as a company, your reputation is worth something. A reputation, and it's weird
+[28:58.960 --> 29:06.480]  because you can't really put a dollar sign on reputation, right? So if you conduct a poll
+[29:07.040 --> 29:14.240]  and people say, I trust Amazon, and do you trust Google? Do you trust Apple? And those
+[29:14.240 --> 29:20.640]  companies tend to do very well in those polls. Amazon in particular, people trust. What is that
+[29:20.640 --> 29:26.000]  trust worth? Well, you can't, it's impossible to put a dollar. You can't sell it. It's not
+[29:26.000 --> 29:31.680]  something you can sell, but you can make moves that damage it and that therefore damage the
+[29:31.680 --> 29:39.600]  company and damage future actions that people have. And when you're a first party and you offer
+[29:39.600 --> 29:48.720]  an API, you're implicitly saying to developers, trust us, you can build on these APIs and you can
+[29:48.720 --> 29:55.280]  invest time, you can build a strategy around it, and this is something you can count on.
+[29:55.280 --> 30:00.000]  And if we're going to change, we're going to do it like the golden rule, do unto others as you
+[30:00.000 --> 30:07.920]  would have others do to you. We'll work with you on changes. Who in the world would trust Reddit
+[30:07.920 --> 30:13.200]  going forward at this point? Same thing with Twitter, right? I mean, who in the world is
+[30:13.200 --> 30:17.600]  going to get back to building on Twitter as a platform? Well, and it's funny you say that
+[30:17.600 --> 30:20.720]  because on one of the calls, that was exactly what they said. We saw with Twitter, and once
+[30:20.720 --> 30:24.960]  you do one of those moves, you can't get developer trust back after you make one of those moves.
+[30:24.960 --> 30:28.800]  And it's fascinating to me because I don't think you can attribute a specific number,
+[30:28.800 --> 30:32.320]  but I think almost in abstract terms, at least if you compare it to a company like Apple,
+[30:32.320 --> 30:36.160]  say they decided to shut down their app store tomorrow, that would piss a lot of people off.
+[30:36.160 --> 30:40.400]  But Apple has, they sell incredible machines, they have incredible patents in the hardware and
+[30:40.400 --> 30:45.280]  software that they sell that gives their company a lot of inherent value. Where Reddit doesn't have
+[30:45.280 --> 30:50.000]  any of that. Their inherent value is solely based on the community they have and the content they
+[30:50.000 --> 30:53.280]  create. That's the reason you're going to the website, not because there's a Reddit book pro
+[30:53.280 --> 30:58.400]  or something. And I think, and even to a greater extent than services like Twitter or Facebook,
+[30:59.600 --> 31:04.720]  even more so where their content moderators are paid employees. I was looking it up and I think
+[31:04.720 --> 31:09.120]  like Facebook pays like $100 million a year contract for their moderators. And that's
+[31:09.120 --> 31:13.680]  something where it gets completely for free. And so I think when you have these like nine figure
+[31:13.680 --> 31:18.400]  amounts of money that you're getting out of goodwill from the community and the community
+[31:18.400 --> 31:21.760]  creates the fact that your company has any value whatsoever, I think it's really important to
+[31:21.760 --> 31:25.920]  balance that reputation even almost more so than Apple would have to or a hardware company like
+[31:25.920 --> 31:30.880]  that is where all your money is. Historically, I found Reddit and Steve too being the founder,
+[31:30.880 --> 31:35.760]  like had an inherent knowledge of that, how Reddit operates as a company in that community aspect.
+[31:35.760 --> 31:39.280]  And it's just been really weird over the last few weeks to kind of see it completely go in a
+[31:39.280 --> 31:45.920]  different direction. Right, because it was founded as a company. It wasn't like it turned from some
+[31:45.920 --> 31:51.600]  sort of nonprofit entity, which is sort of the sleight of hand that OpenAI pulled, right? I mean,
+[31:51.600 --> 31:58.880]  it's right there in the name. OpenAI is supposed to be OpenAI and now it's not open at all. I mean,
+[31:58.880 --> 32:05.120]  the AI part is still there. Oh, that's true. That's true. Yeah. So much closed API doesn't
+[32:05.120 --> 32:14.000]  quite have the same ring to it. But it to a almost Yeah, I'm trying to think of any commercial
+[32:15.040 --> 32:21.440]  company that is so community based or Wikipedia would be the obvious example, right? It is a
+[32:21.440 --> 32:27.040]  nonprofit organization, right? And, obviously, it's funny, right? It does operate a lot like
+[32:27.040 --> 32:33.520]  that where it is completely volunteer driven. Very volunteer driven. I mean, in terms of
+[32:35.280 --> 32:44.320]  where does the manpower for the moderation and content creation come from the closest I can
+[32:44.320 --> 32:51.200]  think of is Wikipedia, both in terms of scale and importance to the internet overall. I mean,
+[32:51.200 --> 32:57.200]  I think Wikipedia is more important than Reddit, but Reddit's in that same ballpark, at least.
+[32:57.200 --> 32:59.840]  But it is it's until you need a Kia Sorento to be open.
+[33:01.040 --> 33:06.000]  Exactly, right. Wikipedia wasn't going to help me with that. But yeah, it's just almost an
+[33:06.000 --> 33:14.960]  unfathomable amount of volunteer effort, certainly the moderators of each subreddit. But then within
+[33:14.960 --> 33:22.480]  the subreddit, the content itself comes from users who just choose to spend their time typing
+[33:22.480 --> 33:28.480]  and writing the either their thoughts or their advice or whatever the nature of the subreddit is,
+[33:29.280 --> 33:36.080]  and just generating content for free. I mean, and I guess that's similar to people who write tweets.
+[33:36.080 --> 33:41.200]  There's no such thing, though, in Twitter as the moderator role, right? For better or for worse,
+[33:41.200 --> 33:46.320]  and probably for worse, that's just a fundamental difference between the concept of Twitter and the
+[33:46.320 --> 33:52.160]  concept of Reddit. But the moderate I mean, how much time do you think the moderators on a big
+[33:52.160 --> 33:58.000]  subreddit spend? I mean, to me, it's at least a part time job. And for some, it might be closer
+[33:58.000 --> 34:02.080]  to full time in terms of Oh, I would imagine some of these subreddits are like, like just deal with
+[34:02.080 --> 34:06.560]  like literally millions of people and like and not only the time investment, but like the toxicity
+[34:06.560 --> 34:10.000]  you'd have to deal with from users and the content they'd be posting and trying to get through and
+[34:10.000 --> 34:14.080]  like dealing with the like angry mobs of people like I just can't even imagine like the mental
+[34:14.080 --> 34:19.280]  strain in addition to the time like the mental health deduction per minute would be a very high
+[34:19.280 --> 34:23.360]  even if the minutes weren't very high. So it's, yeah, it's definitely not an easy job.
+[34:23.360 --> 34:28.080]  Right. One of the reasons that we and again, Facebook is all of these successful,
+[34:28.080 --> 34:32.400]  the more successful they are, the more different they are from each other. But one of the things
+[34:32.400 --> 34:37.920]  we know from I know the Verge did a lot of research on it a few years back that with the
+[34:37.920 --> 34:43.440]  paid contractors that Facebook has to do content moderation across their products,
+[34:43.440 --> 34:49.440]  it's incredibly stressful. A lot of people burn out very quickly. They effectively no joke get
+[34:49.440 --> 34:56.080]  the like post traumatic stress and they have paid counselors. It's a big part of the
+[34:56.800 --> 35:02.560]  infrastructure that meta slash Facebook has for their content moderators, even if they're not
+[35:02.560 --> 35:09.680]  officially meta employees. A big part of it is counseling and helping people deal with the anger,
+[35:09.680 --> 35:15.040]  the hate for some of the stuff and I'm sure Reddit runs into it too with just some of the imagery
+[35:15.040 --> 35:20.960]  that comes through, you know, for sure. And you see these things that are just whether it's violence
+[35:20.960 --> 35:28.400]  or stuff to do with children or whatever it might be that you some stuff. It just isn't good to see
+[35:28.400 --> 35:33.600]  any of it, let alone to see it on a regular ongoing basis because you're moderating the
+[35:33.600 --> 35:39.840]  subreddit. And for Reddit, that's just something they didn't have to pay for. I mean, so it does
+[35:39.840 --> 35:44.880]  bring me to one question I've had, which is how in the world is Reddit not profitable at this point?
+[35:44.880 --> 35:49.440]  That it kind of boggles my mind. I mean, I'm not saying that it's easy to turn a profit,
+[35:50.000 --> 35:54.720]  but it doesn't. It seems to me that for as long as they've been around, there's no excuse for them
+[35:54.720 --> 36:01.600]  not to be profitable. Yeah, yeah. Even on a small scale, I honestly don't get it. I think they've
+[36:01.600 --> 36:05.520]  shown or we've shown through third-party apps that there's a large amount of people who are willing
+[36:05.520 --> 36:10.160]  to contribute financially to this service they care a lot about if what they get in return is
+[36:10.160 --> 36:16.000]  something they see as advantageous. And it's one of those things where it's like, yeah, you as a
+[36:16.000 --> 36:19.760]  company might not be profitable, but a lot of the third-party apps have figured out a way to be in
+[36:19.760 --> 36:24.960]  some capacity. And maybe a revenue share model where we could have helped you to become more
+[36:24.960 --> 36:30.800]  profitable could have even been on the table. You can just run through so many situations in your
+[36:30.800 --> 36:35.760]  head where the outcome would have been better than the one they landed on. It's like a recurring
+[36:35.760 --> 36:44.320]  theme for me. Companies that aspire to punching above their weight in terms of how big they
+[36:44.320 --> 36:52.000]  imagine they should be. My business, Daring Fireball, is a very, very successful business
+[36:52.000 --> 37:00.160]  for a one-person company. I do well. It's very nice. It is not a billion-dollar idea. It's orders
+[37:00.160 --> 37:04.560]  of magnitude away from that. It is a very nice living for one person. And I'm fine with that
+[37:04.560 --> 37:09.520]  because it's the work that I want to do. And I get to write what I want to write. And I get to
+[37:09.520 --> 37:18.080]  do this show, which I enjoy doing. And there's just no way to turn my business into a $50 million a
+[37:18.080 --> 37:24.080]  year business without ruining what it is. I mean, it would be nice if it was a $50 million a year
+[37:24.080 --> 37:30.080]  business. That would be very fun. But it's not, but I'm okay with that. And I kind of feel like
+[37:30.080 --> 37:35.040]  a lot of times companies like, it sounds to me like what Steve Huffman has in mind with this IPO
+[37:35.040 --> 37:45.120]  is that Reddit should be valued at like a $20, $30 billion company. And it's probably like a
+[37:45.680 --> 37:52.560]  $1 billion company, which is nice. A billion-dollar company could be very nice. There's a lot of
+[37:52.560 --> 37:56.480]  companies out there that would love to be a billion-dollar company. But if you have it
+[37:56.480 --> 38:03.520]  in your head that you should be a $20 billion company or a $50 billion company, then being a
+[38:03.520 --> 38:08.800]  $1 billion company sounds like a failure. But just because you want it to be true,
+[38:08.800 --> 38:15.920]  doesn't mean it is true. And I just don't think the nature of Reddit lends itself to being
+[38:15.920 --> 38:20.880]  as big as they think it should be. And I think that's why they're not doing things like the,
+[38:20.880 --> 38:26.000]  again, it's like people who want to keep using Apollo going forward. How about you just charge
+[38:26.000 --> 38:31.760]  us $5 a month to be Reddit premium subscribers? We'll just give you $5 a month each. And then
+[38:31.760 --> 38:36.560]  let us use third-party clients. And especially when you see that Reddit
+[38:36.560 --> 38:41.120]  is historically so much farther below other apps or other services in terms of average
+[38:41.120 --> 38:44.720]  revenue per user. I don't know if that's because of the more anonymous nature of Reddit. It makes
+[38:44.720 --> 38:49.600]  it harder to advertise too, but they don't have a very high average revenue per user.
+[38:49.600 --> 38:54.800]  So being able to say, give us $5 a month to use these third-party apps, that would be an
+[38:54.800 --> 39:00.160]  incredible amount of margin for them to have. So to the extent that it just seems like a slam dunk.
+[39:00.160 --> 39:04.000]  Right. And I just can't help but think that they look at it and don't think, well, look,
+[39:04.000 --> 39:09.600]  our poo, I don't know, is that how people pronounce ARPU, average revenue per user?
+[39:09.600 --> 39:11.920]  I've never heard it. It's localized like that, yeah.
+[39:11.920 --> 39:16.960]  I've made it up, but I'll just pretend. Average revenue per new. But ours is lower than theirs.
+[39:16.960 --> 39:23.840]  And to me, the reasonable way to look at that is, well, we can try to turn that dial up a little
+[39:23.840 --> 39:30.960]  and increase our average revenue per user. But that's going to be like a slow boil, right?
+[39:30.960 --> 39:36.480]  It's like if successful, if maybe we can do, let's try these three things and maybe we can
+[39:36.480 --> 39:41.520]  gently increase that. But it seems to me like they're like, why can't we just jump ahead to
+[39:41.520 --> 39:48.720]  a much higher ARPU instantly? And again, it comes down to like the gnome selling underpants. How?
+[39:48.720 --> 39:52.960]  I don't know. We'll do something, but we've got to do something because it's got to be much higher
+[39:52.960 --> 39:58.160]  because if it stays where it is, we're not a 20 billion dollar IPO. And it's like, well,
+[39:58.160 --> 40:03.120]  tough noogies. Maybe you're not a 20 billion dollar IPO. You're just a nice little smaller
+[40:03.120 --> 40:08.560]  business, but with an outsized reputation and importance on the internet.
+[40:09.680 --> 40:15.120]  Yeah, no, I wish I could make sense of it too. It just doesn't add up to me. And it's like, yeah,
+[40:15.120 --> 40:18.240]  I mean, Instagram sold for a billion dollars and I think everyone was really proud of that. But I
+[40:18.240 --> 40:22.800]  think like the metric and the goalposts for what is deemed as successful changes every year to
+[40:22.800 --> 40:25.920]  just going so high that if it's at the cost of the company, so be it.
+[40:26.640 --> 40:30.800]  I guess the other reason that their average revenue per user is so much lower. It's like
+[40:30.800 --> 40:38.320]  you said, part of it is the nature of a lot of Reddit content doesn't lend itself to advertising
+[40:38.320 --> 40:42.400]  as well. I mean, and I'm not just talking about not safe for work content. There's probably
+[40:42.400 --> 40:48.320]  large swaths of Reddit that just aren't as interesting to advertisers. Instagram is sort of
+[40:48.320 --> 40:55.120]  one of the reasons it's such a. There were a lot of people when Facebook bought it for one billion
+[40:55.120 --> 40:59.440]  thought, you know, Zuckerberg's crazy. I can't believe they're buying a stupid picture sharing
+[40:59.440 --> 41:04.320]  site for a billion dollars. And of course, in hindsight is one of those all time great
+[41:04.320 --> 41:10.240]  acquisitions in business history, not just like tech history, but business in general. It's like
+[41:10.240 --> 41:16.880]  Apple buying next in 1997. Just a bargain. But the nature of Instagram in hindsight,
+[41:16.880 --> 41:23.120]  because it's so visual and that they develop this culture of influencers, when everything you see
+[41:23.120 --> 41:28.400]  in Instagram is supposed to be attractive and pretty and aesthetically pleasing, it just seems
+[41:28.400 --> 41:35.520]  very natural to put ads next to it. And of course, you gain these insights into what the person is
+[41:35.520 --> 41:41.760]  interested in and you can advertise against that. And I guess some parts of Reddit aren't like that.
+[41:41.760 --> 41:48.240]  Maybe they just haven't. Maybe they could be more successful. I don't know. It's so interesting to
+[41:48.240 --> 41:52.080]  me, though, because I hear what you're saying, but I'd almost challenge that you have versus
+[41:52.080 --> 41:57.920]  Instagram and sites like that. If you're a cycling company, you can go to r slash bicycles or
+[41:57.920 --> 42:02.800]  whatever, and you can put an ad specifically for that community that you can go. I am very
+[42:02.800 --> 42:06.240]  confident anyone in this community will find this product interesting. Whereas Facebook, they'd have
+[42:06.240 --> 42:10.960]  to do some AI and detection of like, has this guy looked at a bicycle in the last 12 months?
+[42:10.960 --> 42:15.040]  But Reddit has these super hyper focused communities you can almost dial into.
+[42:15.040 --> 42:19.600]  Right. And that's my business, right? That's how Daring Fireball sponsors work. It's people who
+[42:19.600 --> 42:23.840]  come and they're like, oh, people sometimes ask, like, have I ever done like a reader survey or
+[42:23.840 --> 42:28.480]  something like that? And I haven't. Maybe I will someday. But I always say your guess as to who
+[42:28.480 --> 42:32.880]  reads Daring Fireball is probably very accurate. I don't think it's very hard to sort of guess the
+[42:32.880 --> 42:39.840]  general interests of people who read my website. And when you look at the companies that sponsor
+[42:39.840 --> 42:47.120]  my website, they they're they're seldom surprising, right? It's people who appreciate nice things and
+[42:47.120 --> 42:53.520]  people who are computer nerds. And there's right. And like you said, bicycle subreddits seem like
+[42:53.520 --> 43:00.560]  it. What do you think people who read bicycling, urban people who who talk about getting bike lanes
+[43:00.560 --> 43:05.600]  in cities and how to increase the number of people who can commute on bicycles? What type of stuff
+[43:05.600 --> 43:10.560]  do you think they're interested in? Oh, guess what? They're interested in bikes. Yeah, it's
+[43:10.560 --> 43:16.000]  pretty easy sell. Right. How bikes, helmets, biking, clothes, lights. And there's that
+[43:17.040 --> 43:21.440]  it is literally an industry and maybe they would like to advertise there just doesn't seem that
+[43:21.440 --> 43:28.720]  complicated. It just also just doesn't seem like a license to print money, right? It's right.
+[43:30.160 --> 43:34.480]  It's it's the nature of being in the business. It's a good business. It should be fulfilling
+[43:34.480 --> 43:39.360]  work. It's such an important resource on the Internet. Read it. It really there's nothing
+[43:39.360 --> 43:43.840]  else quite like it. The fact that it's not the most profitable thing in the world shouldn't be
+[43:43.840 --> 43:50.640]  the end of the world for them, but it seemingly drives all decisions. Yeah, yeah. It's like if
+[43:50.640 --> 43:54.880]  you're not profitable, maybe maybe focus on that in the short term rather than like catapulting
+[43:54.880 --> 44:00.880]  to the moon. Anyway, let me take another break here while I'm exasperated with this positive
+[44:00.880 --> 44:06.640]  attitude. Tell you about our good friends at Kolide, Kolide, K-O-L-I-D-E. They've got big
+[44:06.640 --> 44:12.720]  news. If you're an Okta user, they can get your entire fleet of devices to 100 percent compliance.
+[44:12.720 --> 44:18.560]  How? Well, if a device in your fleet isn't compliant, then the user whose device it is
+[44:18.560 --> 44:24.320]  can't log in to your company's cloud apps until they have finished fixing the problem. It's that
+[44:24.320 --> 44:29.920]  simple. Kolide patches one of the major holes in zero trust architecture, which is device
+[44:29.920 --> 44:35.360]  compliance. Without Kolide, IT departments struggle to solve basic problems like keeping
+[44:35.360 --> 44:39.920]  everybody's operating systems up to date with security updates or keeping their browsers up
+[44:39.920 --> 44:46.480]  to date with the latest versions, because it's if not as important as OS security updates or browser
+[44:46.480 --> 44:52.400]  updates to patch security holes. Browser's not up to date. You can't log in. They tell you,
+[44:52.400 --> 44:57.440]  Kolide will tell your user, this is why, because your browser's out of date, here's how to go
+[44:57.440 --> 45:03.120]  update the browser. They update the browser. Now they can log in, and they haven't gone to the IT
+[45:03.120 --> 45:08.960]  department for help. It's teach a person, give a person a fish they eat for a day, teach a person
+[45:08.960 --> 45:15.280]  to fish they eat for a lifetime. Kolide's in the business of teaching your users in your company
+[45:15.280 --> 45:22.160]  how to fish, where if by fishing, I mean not getting fished with a pH, which is something
+[45:22.160 --> 45:27.600]  they help with too. They are the only device trust solution that enforces compliance as part of
+[45:27.600 --> 45:33.520]  authentication, and it is built seamlessly to work with Okta. Their method, Kolide's method,
+[45:33.520 --> 45:40.560]  means fewer support tickets, less frustration, and most importantly, 100% of fleet compliance.
+[45:40.560 --> 45:52.800]  Visit kolide.com slash the talk show to learn more or book a demo. That's k-o-l-i-d-e dot com slash the talk show.
+[45:52.800 --> 45:58.400]  Let's zoom back out to the origins of Apollo. So when did you first get the itch to write a Reddit
+[45:58.400 --> 46:03.840]  client? I can actually remember pretty clearly. I was walking home from school or university one day,
+[46:03.840 --> 46:08.960]  and I think alien blue was like the hotness at the time, which Reddit then eventually turned into
+[46:08.960 --> 46:13.680]  the official app, and it was a great app. For me, I wanted something that felt a little bit more like
+[46:13.680 --> 46:17.920]  if Apple themselves had built a Reddit app, like something that really took the iOS human interface
+[46:17.920 --> 46:22.880]  guidelines to heart and kicked in all the cool iOS new things, and I kind of got to work on playing
+[46:22.880 --> 46:26.560]  around with what that would look like, and I got something up and running a little bit and some
+[46:26.560 --> 46:32.000]  designs, and I posted that to the Apple and the iPhone subreddits, and that thankfully resonated
+[46:32.000 --> 46:37.520]  with a lot of people. It was something they were interested in, so that summer, I think that was
+[46:37.520 --> 46:43.440]  after I graduated university that I ended up making the post, and I was kind of like, okay,
+[46:43.440 --> 46:48.240]  this has legs. I think I want to kind of see where I can take this rather than going and getting a
+[46:48.240 --> 46:52.240]  proper job. I'll see if I can see this through. And yeah, it's kind of been history since I think
+[46:52.240 --> 46:55.280]  a year and a half later, I released the actual first build. It took a little longer than I
+[46:55.280 --> 47:00.000]  thought, but then it ended up blowing up even more, and people were really happy to see it.
+[47:00.880 --> 47:06.000]  Did you have it in mind to make it a paid product from the get-go? Like,
+[47:06.000 --> 47:11.120]  hey, I could do this. If I do this, because the Reddit client is free, so
+[47:12.800 --> 47:19.200]  when there's already a default first-party client to be free, it seems more natural to think my
+[47:19.200 --> 47:23.200]  third-party client could be a paid product that I could maybe build a business around.
+[47:23.760 --> 47:27.840]  A hundred percent. It was like, funnily enough, when I started, I took so long to finish building
+[47:27.840 --> 47:32.880]  it that when I started, there was no official app. Alien Blue was independently run, and then over
+[47:32.880 --> 47:37.200]  the course of that one and a half years or whatever, it got bought out, turned into the
+[47:37.200 --> 47:42.000]  official app, sunset, and then the official app came out in its own right. So there was a whole
+[47:42.560 --> 47:46.960]  saga of things that happened in between there, but my goal from the outset was kind of Alien Blue,
+[47:46.960 --> 47:50.720]  I think, had a one-time unlock for a pro version where you got some extra features, and that was
+[47:50.720 --> 47:53.840]  kind of just what I emulated, because people seemed to like that. You use the app for as long
+[47:53.840 --> 47:56.800]  as you want, and then there's some extra stuff that if you like that, you can support the
+[47:56.800 --> 47:58.880]  developer, and hopefully you can keep building this for a while.
+[47:58.880 --> 48:05.280]  Well, and again, reminiscent of Twitter, where Twitter's original first-party client was Tweety
+[48:05.280 --> 48:11.040]  from Lauren Bricter, the sort of, well, Twitterrific was first, but Tweety sort of broke
+[48:11.040 --> 48:20.640]  out as the sort of, the most iOS-y Twitter client. Famously, Lauren invented Pull to Refresh,
+[48:20.640 --> 48:26.880]  which is hard to believe, hasn't been part of the iPhone from day one, but was actually originally
+[48:26.880 --> 48:32.960]  in Tweety. You'd get to the top of the timeline, and instead of a reload button, just pull down,
+[48:32.960 --> 48:38.800]  and a spinner would spin, and if there were more tweets, it would reload. It was so early days that
+[48:38.800 --> 48:43.680]  sometimes there weren't more tweets. I remember that, where it's like, you'd Pull to Refresh,
+[48:43.680 --> 48:50.240]  and it'd be like, no, you're still caught up. Close this, go do something else. It's been a
+[48:50.240 --> 48:58.000]  long time since Twitter ever ran out of new tweets, but then Twitter bought Tweety, hired Lauren,
+[48:58.000 --> 49:02.960]  and very quickly changed the app into something else.
+[49:04.800 --> 49:09.120]  Yeah, it's funny. Back in high school, I was like, I love Tweety, and I was like,
+[49:09.120 --> 49:13.280]  this is really cool. I'd love to build an app of my own. I ended up emailing Lauren,
+[49:13.280 --> 49:18.320]  and he gave me a few books to start to get started out with and wish me luck, and it was kind of like
+[49:18.320 --> 49:22.960]  a first starting step for everything for me for him, so he always seemed like the nicest guy.
+[49:22.960 --> 49:27.360]  He kind of disappeared. I hope he's doing well. No, he is. I was just talking to him recently
+[49:27.360 --> 49:32.400]  because he actually built, well, not single-handedly, but was sort of primarily
+[49:32.400 --> 49:38.800]  responsible for building the website for the Make Something Wonderful Steve Jobs book.
+[49:38.800 --> 49:45.120]  Oh, wow. It was Lauren Brickter who did the, which is, in my opinion, if you're not lucky enough to
+[49:45.120 --> 49:50.720]  get one of the print versions, the website is a much better experience than the ebook because
+[49:50.720 --> 49:54.080]  it's just much more dynamic, but yeah, Lauren's still around. He's doing well.
+[49:54.080 --> 49:56.480]  That's good. Yeah, that website was incredible.
+[49:58.000 --> 50:01.840]  It's very well, and when you know that Lauren Brickter had a hand in it, you're like, oh,
+[50:01.840 --> 50:07.840]  yeah, of course. Look at these nice things. Do you remember how nice, too? It makes me so sad
+[50:07.840 --> 50:15.200]  because I always think first of Tweedy as an iPhone app, but it was sort of at the end of his
+[50:15.200 --> 50:20.480]  keeping it as his own little product, but he came out with an iPad app, and it was like the most
+[50:20.480 --> 50:27.520]  innovative iPad app, I think, still to this day that I've ever seen because it wasn't just take
+[50:27.520 --> 50:32.160]  the iPhone Tweedy and make it fill the iPad screen. It was like a totally different
+[50:32.160 --> 50:39.760]  metaphor for sort of layering different sort of tabs on the left and the structure on the right.
+[50:39.760 --> 50:46.800]  It's so hard. It's impossible to explain audibly here on the podcast, but it was so totally
+[50:46.800 --> 50:53.680]  different and nothing at all like a big iPhone app and nothing like a Mac app just put on a
+[50:53.680 --> 50:59.600]  touch screen on iPad. It was just touch first, very innovative, and Twitter just scrapped it.
+[50:59.600 --> 51:06.560]  It's funny, and it kills me, too, because in continuing my Lauren Brichter homage,
+[51:07.680 --> 51:11.600]  Apollo's current iPad app isn't quite where I'd want it to be. In some ways, it is really a big
+[51:11.600 --> 51:16.480]  blown-up iPhone app. What I've been working on for a lot of the last year was almost building
+[51:16.480 --> 51:20.960]  something that reminded me of Tweedy and that you had the multi-pane swiping around. It made
+[51:20.960 --> 51:25.520]  me realize how difficult that is to do now that for him to have done that back then is just a work
+[51:25.520 --> 51:31.600]  of art. I think if I had September, I would have been able to ship something somewhat reminiscent
+[51:31.600 --> 51:35.760]  of that. There's not a lot of iPad apps that work like that nowadays, and it's a shame.
+[51:36.960 --> 51:40.880]  So you come out with Apollo. Where did the name Apollo come from?
+[51:41.520 --> 51:45.920]  It was a friend of mine. We were kind of just walking around campus talking, and names are
+[51:45.920 --> 51:51.600]  the hardest thing. I was like, Reddit is space-themed. You're kind of traversing
+[51:51.600 --> 51:57.120]  space and exploring it through this app. We kind of got on the topic of spaceships. I can't remember
+[51:57.120 --> 52:01.360]  if it was me or him, but one of us said, okay, how about Apollo? That's cool. It's kind of powerful.
+[52:01.360 --> 52:05.280]  It's a nice name. Sometimes you just hear a name, and you're like, that's it. It instantly felt
+[52:05.280 --> 52:11.360]  right. Yeah, it's hard to come up with a good name for anything. It's also hard to explain why
+[52:11.360 --> 52:16.800]  a good name is a good name. It just is. Trust me, as the guy who came up with Daring Fireball,
+[52:16.800 --> 52:21.840]  I know. It's hard to explain when you hear it. One of the neat things that,
+[52:22.800 --> 52:28.640]  to me, Apollo sort of trailblazed, it's at least one of the apps that I first became aware of this
+[52:28.640 --> 52:38.000]  as a successful monetization strategy is having access to alternative app icons as a paid
+[52:38.960 --> 52:44.160]  tier. I mean, how many custom icons does Apollo have right now?
+[52:44.160 --> 52:48.480]  It crossed a hundred earlier this year, so I think, yeah, if I go to have had all the
+[52:48.480 --> 52:50.960]  unreleased ones, I think it probably close to 120, I think.
+[52:53.040 --> 53:00.960]  Because another thing, names are hard, icons are hard, and anybody who's ever developed an indie
+[53:00.960 --> 53:08.160]  app or had anything to do with an indie app knows how passionate users are about app icons.
+[53:08.160 --> 53:16.800]  Oh, a hundred percent. And sometimes trends change. They change in the world around us,
+[53:16.800 --> 53:23.920]  graphic design-wise. Obviously, iOS 7, which we're 10 years into now, but it was a complete reset of
+[53:23.920 --> 53:31.760]  the visual aesthetic of iOS. I mean, could not be more of a wipe the slate clean moment in design.
+[53:32.480 --> 53:37.920]  Those things happen, apps that are around long enough will live through transitions like this.
+[53:37.920 --> 53:44.880]  There's no app that... My mom taught me this years ago. You were talking about your girlfriend
+[53:44.880 --> 53:50.000]  turning 30. When you cross these things, the older you get, the more people feel a little bummed,
+[53:50.000 --> 53:55.440]  like, oh, I'm 40, now I'm 50. But it's like my mom taught me years ago. I forget if it was when
+[53:55.440 --> 54:00.160]  she turned 40, maybe when she turned 40, but she just said, well, it kind of sucks getting old,
+[54:00.160 --> 54:06.880]  but either you turn 40 or you die before you're 40. And I'd rather turn 40 than die young.
+[54:06.880 --> 54:11.040]  Yeah, it's good when you put it like that. Right. And so apps are like that, right? It's
+[54:11.040 --> 54:14.880]  like you're either around for a long time and you have to go through these transitions where
+[54:14.880 --> 54:21.040]  you change the look of your app to stick with modern times or the app isn't around anymore.
+[54:21.040 --> 54:22.160]  And... That's true.
+[54:23.520 --> 54:28.240]  People get so angry when app icons change sometimes, because you can't please
+[54:28.240 --> 54:34.720]  everybody all of the time. And this idea that you could supply a dozen, two dozen,
+[54:34.720 --> 54:41.120]  or like in Apollo's case, a hundred different icons. It's brilliant because you kind of can
+[54:41.120 --> 54:47.840]  make everybody happy. You can have an app. I'd like to meet the person who subscribes to Apollo
+[54:47.840 --> 54:51.520]  and still can't find an app icon that they like. Right?
+[54:52.400 --> 54:56.480]  Honestly, yeah. And it's like one of those things that in hindsight makes so much sense,
+[54:56.480 --> 54:59.600]  because you look at the video game industry, for instance, and people love having those
+[54:59.600 --> 55:04.320]  cosmetic skins they can pay to customize their character for. And it's great because it doesn't
+[55:04.320 --> 55:07.760]  necessarily make the game worse for anyone else. It doesn't have to be an inherent,
+[55:07.760 --> 55:11.840]  unfair advantage. It's just a nice little thing to customize it. And people took to it really quick.
+[55:11.840 --> 55:14.480]  And I don't think to this day I've had really any complaints where people are like,
+[55:14.480 --> 55:19.920]  I have to pay for this? It's just a fun thing. Yeah. It's the app equivalent of the Fortnite
+[55:19.920 --> 55:27.040]  style of gameplay, right? And people are happy to pay for those costumes and custom dance moves
+[55:27.040 --> 55:33.360]  in Fortnite, but it doesn't give you any advantage in the game. And because it doesn't give you any
+[55:33.360 --> 55:39.440]  advantage in the game, everybody feels good about it. Right? So it's like, Oh, I didn't win. I lost.
+[55:39.440 --> 55:45.360]  But you know, you didn't lose because the guy you lost who paid more money. Right? Which that
+[55:45.360 --> 55:50.400]  person, they just beat you fair and square and just look better doing it. Yeah, they just look
+[55:50.400 --> 55:57.200]  better doing it. Or maybe you looked cooler on your way to losing because you had a costume that
+[55:57.200 --> 56:02.720]  you really liked. But it's so funny because we like to think human beings, we all like to think
+[56:02.720 --> 56:06.640]  we're so rational, especially when it comes to money. And I was talking about that with
+[56:06.640 --> 56:12.320]  trying to set the valuation of a company for an IPO. It's not entirely rational, right? There's
+[56:12.320 --> 56:17.520]  an emotional context to it. And our purchasing decisions as human beings are like that too.
+[56:17.520 --> 56:22.960]  And people would like to think that they pay for features, right? And it's like, I'm a rational
+[56:22.960 --> 56:30.640]  human being. And if I'm going to pay $5 a month for a pro Reddit client, it's going to be because
+[56:30.640 --> 56:38.240]  of technical features like a superior threading presentation, or the best markdown editor in any
+[56:38.240 --> 56:44.320]  Reddit client possible. But the truth is people will pay happily. It just satisfies a part of your
+[56:44.320 --> 56:50.240]  brain to pay for cool icons. Oh, 100%. Yeah, there's some synapse that fires off when you
+[56:50.240 --> 56:54.800]  see the right colors come together. Right. And for you personally, it's also must be very fun
+[56:54.800 --> 57:02.880]  because you've gotten to meet and develop a professional relationship with probably all of
+[57:02.880 --> 57:09.280]  the top icon designers out there. Yeah, I take some solace in the fact that if it all goes belly
+[57:09.280 --> 57:12.960]  up now, I don't think there was really anybody that I didn't get to talk to that I didn't get
+[57:12.960 --> 57:17.680]  to work with because yeah, that's the best part. And I'll get sometimes questions be like, oh,
+[57:17.680 --> 57:21.200]  if you're looking for an icon designer, who should I go with? And I can just kind of say,
+[57:21.200 --> 57:24.720]  scroll through the icons in Apollo, pick up when you want and like look at the who the designer was
+[57:24.720 --> 57:28.720]  and reach out. I'm like, it's almost like gallery. Right. And that's one of the things I also like
+[57:28.720 --> 57:33.200]  about the way you do it is that the credit is right there. I love this is why like the way I
+[57:33.200 --> 57:37.680]  link to things on Daring Fireball, I don't just say the New York Times reports this, I like to say,
+[57:38.240 --> 57:44.240]  so and so reporting for the New York Times so that the reporter gets credit and both to give them
+[57:44.240 --> 57:50.400]  credit. And so that readers of my site can kind of get to know some of these names and like either
+[57:50.400 --> 57:56.160]  know, oh, that's a good that's somebody who I really like at the verge. Or this is a reporter
+[57:56.160 --> 58:00.000]  at the Washington Post, who always makes me roll my eyes. So I'm already braced for it. But you
+[58:00.000 --> 58:04.160]  know, credit is important. I love that you give the credit. Yeah, it's like the end of a movie.
+[58:04.160 --> 58:08.480]  Yeah, it's nice to see. Well, it's more like the old movies, right? Like as it used to be,
+[58:08.480 --> 58:13.280]  like you could get through the movies and in the credits would take one minute. And everybody was
+[58:13.280 --> 58:17.440]  like involved with the movie now that the credits are like eight minutes long. And it's like,
+[58:17.440 --> 58:26.480]  again, I'm not putting down the caterers of the movie, or the people who drove the assistant
+[58:26.480 --> 58:31.760]  director to the set. But it's like, do they really need to be in the credits? I don't know. The line
+[58:31.760 --> 58:38.000]  has to be drawn somewhere. And to me, Hollywood sort of let that line be erased and made the
+[58:38.000 --> 58:43.200]  credit something. You know, it's always a source of contention in my family. My wife has never been
+[58:43.200 --> 58:48.720]  a fan of my like, when we go to the movies, I like to watch the credits. Well, I've had to give up.
+[58:48.720 --> 58:53.600]  I've had to give up on it. It's even even as somebody who used to try to stick through the
+[58:53.600 --> 58:58.320]  credits, because I thought I always thought they were part of the movie. You know, when they're
+[58:58.320 --> 59:02.080]  literally eight or nine minutes long, I mean, forget about it. I mean, I got to go pee. I mean,
+[59:02.080 --> 59:08.160]  it's Oh, 100%. But it's like, and a lot of the time on streaming services, they don't even give
+[59:08.160 --> 59:12.080]  you the option anymore. It's like, on to what's next, right? Show you like the first three seconds
+[59:12.080 --> 59:16.240]  of the credits before it jumps somewhere else. It made me sad. But one of the people who I know
+[59:16.240 --> 59:21.280]  has designed icons for you, my friend Brad Ellis, he does all the the he does the monthly covers for
+[59:21.280 --> 59:28.160]  dithering are me and Ben Thompson podcast does great work. And Brad is a just a just a top notch
+[59:28.160 --> 59:32.880]  person. He's just he's a personal friend. He's super talented. He amazes me, though, because
+[59:32.880 --> 59:38.640]  he's one of these designers who who doesn't have one style at all. He could do anything.
+[59:38.640 --> 59:43.920]  He had these Reddit or not Reddit Apollo icons in the works that sort of were like in the style of
+[59:43.920 --> 59:51.920]  the monopoly chance and community chess cards. Oh, they're so good. It's it kills me. It's like
+[59:51.920 --> 59:58.560]  the Reddit mascot in the style of the monopoly man. I forget his name, Mr. Pennyworth or something
+[59:58.560 --> 01:00:03.520]  like that. Right, right. The guy with the top hat and monopoly like, and it just exquisite,
+[01:00:03.520 --> 01:00:08.960]  like cardboard texture design. Oh, just so and he did my favorite thing where you're like,
+[01:00:08.960 --> 01:00:12.320]  can you do an icon for me? And he comes back with like three incredible ones. You're like,
+[01:00:12.320 --> 01:00:16.800]  Oh, that's perfect. Like, and it's, yeah, it's it. And that's my favorite part of working with
+[01:00:16.800 --> 01:00:20.400]  people is like, I always get the question, like, what do you tell them as like the design brief
+[01:00:20.400 --> 01:00:23.840]  and like with people like Brad, especially like, you can kind of just go like, go buck wild,
+[01:00:23.840 --> 01:00:28.880]  like, as long as it vaguely resembles Apollo, like, like your imagination flow, and they come
+[01:00:28.880 --> 01:00:32.960]  back to you a few weeks later, like the coolest thing. Yeah. Let me take another break here and
+[01:00:32.960 --> 01:00:37.680]  thank our next sponsor. Well, while I'm thinking of and it's our good friends at Squarespace,
+[01:00:38.400 --> 01:00:44.560]  you guys know Squarespace, it's the all in one platform where you can build a website. And it's
+[01:00:44.560 --> 01:00:50.160]  got everything you need for your own website. Starting with even just at the before you even
+[01:00:50.160 --> 01:00:54.160]  start designing a website, you need a domain name. Squarespace does domain name registration,
+[01:00:54.160 --> 01:00:59.840]  they have a great domain name registration feature, get your domain name, pick a template,
+[01:00:59.840 --> 01:01:04.720]  they have hundreds of professionally designed templates to choose from, you can just use them
+[01:01:04.720 --> 01:01:10.320]  as is swapping your website's name, your logo, that sort of thing, or start tweaking it, you can
+[01:01:10.320 --> 01:01:16.240]  tweak it a little, you can tweak it a lot. If CSS and design, you can design your own template
+[01:01:16.240 --> 01:01:21.840]  completely from scratch. So you can just use a complete out of the box template. You can start
+[01:01:21.840 --> 01:01:27.280]  with one out of the box, tweak it a little, you can do your own custom design from the ground up,
+[01:01:27.280 --> 01:01:31.840]  or you can meet somewhere in the middle, it's entirely up to you. The level of technical
+[01:01:31.840 --> 01:01:36.480]  expertise you want to use is entirely up to you. But it works all the way up to the level
+[01:01:36.480 --> 01:01:40.720]  of not even if you don't even know the difference between HTML and CSS,
+[01:01:40.720 --> 01:01:45.920]  you're fine, because you can use Squarespace in a completely WYSIWYG drag and drop manner.
+[01:01:45.920 --> 01:01:50.640]  What else do they have built in, they've got analytics, where you can see which parts of
+[01:01:50.640 --> 01:01:56.080]  your site people are coming to where they're coming from, in a really good presentation
+[01:01:56.080 --> 01:02:01.360]  that is really easy to understand. Online stores, if you want to sell stuff,
+[01:02:01.920 --> 01:02:07.680]  you can do that at Squarespace. If you want to sell your time because you're doing consulting
+[01:02:07.680 --> 01:02:12.640]  or something like that, or maybe you know somebody who's a trainer and you do training,
+[01:02:12.640 --> 01:02:17.200]  like fitness training over the web, you can do that. Anything you can sell, you could sell
+[01:02:17.200 --> 01:02:22.720]  through a Squarespace website. Email campaigns, more. Anything you can do, you want to do,
+[01:02:22.720 --> 01:02:30.320]  you can do. Where do you go to find out more? Go to squarespace.com slash talk show squarespace.com
+[01:02:30.320 --> 01:02:36.480]  slash talk show. You get a 30 day free trial with no limits, no watermarks on the website as you
+[01:02:36.480 --> 01:02:40.960]  build it for a whole month. And then when you're ready to launch, just use the offer code talk show,
+[01:02:40.960 --> 01:02:45.760]  same thing as the URL, and you get 10% off your first purchase. Go to squarespace.com
+[01:02:45.760 --> 01:02:53.040]  slash talk show for more. All right. You've mentioned that you were vaguely,
+[01:02:53.040 --> 01:02:58.720]  I guess we have to start talking about it in a past tense, unfortunately, but vaguely dissatisfied
+[01:02:58.720 --> 01:03:04.560]  with the iPad version of Apollo. And I don't know why. I've always thought of it as an iPhone app
+[01:03:04.560 --> 01:03:11.040]  first. I don't know. I guess it's just where I tend to use it, but no Mac app. And I'm curious
+[01:03:11.040 --> 01:03:16.720]  just to ask if you ever thought about that or were you too busy already, but especially with
+[01:03:16.720 --> 01:03:23.040]  the last few years with catalyst and Swift UI and things that make it easier to share a code
+[01:03:23.040 --> 01:03:28.160]  base across iOS and Mac, whether you ever looked at it or what your thoughts are.
+[01:03:29.120 --> 01:03:35.440]  Well, I was biding my time because I finally found that like AppKit historically hasn't been,
+[01:03:35.440 --> 01:03:40.240]  I think the Mac apps built that way are just wrong and I've been waiting for Swift UI. No,
+[01:03:40.240 --> 01:03:45.520]  I'm just kidding. No, I have. When I was redesigning the iPad app to hopefully like
+[01:03:45.520 --> 01:03:48.880]  take advantage of the iPad a little bit better, I was in the back of my head trying to design it
+[01:03:48.880 --> 01:03:53.520]  in a way that would also grow to the Mac. But it was kind of just a factor of like, yeah,
+[01:03:53.520 --> 01:03:59.360]  one man shop figuring out that the iPhone has X percentage of users. The iPad was like 5% of that.
+[01:03:59.360 --> 01:04:03.440]  And the Mac was like the people who currently run like the iPad version blown up on the
+[01:04:04.080 --> 01:04:08.240]  Apple Silicon stuff. Like they were like 1%. So it was kind of just like slowly walking down
+[01:04:08.240 --> 01:04:11.360]  the stairs to try to figure out how to hit everyone. And it's one of those things where
+[01:04:11.360 --> 01:04:16.160]  I would have loved to have got there. Like I use my Mac probably more than I use my iPhone most days
+[01:04:16.160 --> 01:04:19.680]  and having something there would have been really cool, but yeah, just never quite got around to it.
+[01:04:20.480 --> 01:04:31.120]  And I can't help but think that part of it too, it's like a Mac app can be the most intricate,
+[01:04:31.120 --> 01:04:38.800]  it's truly major app like Xcode, right? It's truly one of the most complex apps for any platform on
+[01:04:38.800 --> 01:04:45.920]  anywhere in the world. It's super complex app. The full version of apps like Photoshop tend to be
+[01:04:45.920 --> 01:04:51.200]  bigger. The iPad versions are often subsets. We see that even with Apple's own apps,
+[01:04:51.200 --> 01:04:58.880]  like with the new to the iPad versions of Logic and Final Cut Pro are impressive for iPad apps,
+[01:04:58.880 --> 01:05:05.920]  but especially Final Cut is a subset of the Mac app. But conversely, the other thing that's
+[01:05:05.920 --> 01:05:12.080]  weird about desktop platforms like the Mac and Windows is web apps work better there than they
+[01:05:12.080 --> 01:05:19.520]  do on mobile, right? So like just using the reddit.com or for a lot of people old.reddit.com
+[01:05:19.520 --> 01:05:29.120]  in a browser on the Mac is closer to what you expect and want anyway than using the website
+[01:05:29.120 --> 01:05:35.040]  on the phone. I think traditionally, yeah, I almost find reddit is a very specific case where
+[01:05:35.040 --> 01:05:40.000]  if you're not using old.reddit, I find the new site while technically impressive in a lot of ways
+[01:05:40.000 --> 01:05:45.840]  is quite slow. And having done a lot of API requests through reddit, you can kind of know
+[01:05:45.840 --> 01:05:49.600]  how long it takes. I don't know if many people know, but you can put just.json at the end of
+[01:05:49.600 --> 01:05:53.840]  a reddit URL and it'll load all the JSON. And so you can kind of, if a post is taking a while,
+[01:05:53.840 --> 01:05:57.440]  you can see how long it takes just to get the raw JSON response from reddit and the rest is them
+[01:05:57.440 --> 01:06:02.560]  kind of doing all the other stuff. So out of a selfish reason almost, I've long wanted a way
+[01:06:02.560 --> 01:06:07.440]  just to say, get me the JSON and represent that in a way as fast as possible just so I can quickly
+[01:06:07.440 --> 01:06:11.600]  browse reddit because I'll be browsing the current site sometimes and it takes forever to load a
+[01:06:11.600 --> 01:06:16.640]  comments thread. And I think even just building an app based off of that foundation alone, I think
+[01:06:16.640 --> 01:06:21.920]  would appeal to a lot of people. I just, just a couple episodes ago on this show, I had Neil
+[01:06:21.920 --> 01:06:28.160]  Gervari from MimeStream on and very similar, you know, MimeStream is a Gmail client just for the
+[01:06:28.160 --> 01:06:34.800]  Mac. So it's sort of the inverse of Apollo where it's Mac only for now. But people were like, oh,
+[01:06:34.800 --> 01:06:39.120]  that was a good interview. Very interesting. And he's a very interesting, very friendly person.
+[01:06:39.120 --> 01:06:43.760]  But people who hadn't tried MimeStream are like, well, I still don't get it. Why would I
+[01:06:44.320 --> 01:06:50.560]  spend $50 a year when I can just type gmail.com in my browser? And I've been doing this for a long
+[01:06:50.560 --> 01:06:55.600]  time. And it's like, you don't understand how much faster MimeStream feels, right? And it's like,
+[01:06:55.600 --> 01:07:04.640]  to me, I mean, and I'm super picky about the Mac specific UI idioms and having all the Mac
+[01:07:04.640 --> 01:07:11.040]  consistency and keyboard shortcuts and support for system services and stuff. But even putting
+[01:07:11.040 --> 01:07:17.120]  aside that MimeStream is a very good Mac app and adheres to the Mac style of design, although I
+[01:07:17.120 --> 01:07:22.800]  think that's partly what makes me faster. It's just a very fast app, right? And the other side
+[01:07:22.800 --> 01:07:26.400]  of those comments I got from people who listen to the show is they're like, I tried it after I
+[01:07:26.400 --> 01:07:31.440]  listened to your show. And I've been using Gmail forever. I can't believe how fast this is. And
+[01:07:31.440 --> 01:07:37.760]  they thought like, I don't know what people think people who aren't programmers, they got a couple
+[01:07:37.760 --> 01:07:43.280]  of emails like this about MimeStream in particular, where they thought it would definitely be slower,
+[01:07:43.280 --> 01:07:49.120]  because wouldn't just typing gmail.com always be faster, because it's going right to the source,
+[01:07:49.120 --> 01:07:54.640]  going right, right, going right to the source. But that's, that's not how, how a website like
+[01:07:54.640 --> 01:08:00.480]  gmail.com works, right? It's hundreds and hundreds of API calls going back and forth. And it's,
+[01:08:00.480 --> 01:08:07.920]  it's really no, no less complex, and no less back and forth between the device you're on,
+[01:08:07.920 --> 01:08:15.040]  and Google servers, then a client and making fast software is, it's a skill. I mean,
+[01:08:16.640 --> 01:08:20.320]  absolutely. And like I feel like, like you said, with old dot Reddit, like to a certain extent,
+[01:08:20.320 --> 01:08:25.120]  you can see where the advent of JavaScript and loading 8 zillion things has kind of perverted
+[01:08:25.120 --> 01:08:29.520]  the web. And you can see how Reddit in a lot of ways is much slower than it was than the
+[01:08:29.520 --> 01:08:34.160]  version that I don't know if they've touched since 2009. And it Yeah, it becomes like a weird
+[01:08:34.160 --> 01:08:37.920]  trade off of, I guess, features versus like, do you want the thing to load in the first place?
+[01:08:37.920 --> 01:08:43.200]  Right. And I can't help but think it's on my list of questions to ask you is why,
+[01:08:43.200 --> 01:08:48.560]  why are there are adherence adherence to old dot Reddit.com? And I don't think it's because of the
+[01:08:48.560 --> 01:08:52.320]  way it looks, even though people get used to the way something looks, and they don't want it to
+[01:08:52.320 --> 01:08:56.960]  change. I think it's just that it's faster. Yeah, I think that's a lot of it. Like it's,
+[01:08:56.960 --> 01:09:02.480]  and there's so much cruft I find on the, on the, the normal website, like with like NFTs,
+[01:09:02.480 --> 01:09:06.160]  and like all these different things they're trying to try, like it's a new thing every week, which
+[01:09:06.160 --> 01:09:09.760]  I think is a direct result of them trying to find new ways to monetize. At its core,
+[01:09:09.760 --> 01:09:15.360]  the old dot Reddit is kind of like, what gave the Reddit magic spark from the get go is just like,
+[01:09:15.360 --> 01:09:18.960]  you're just posting links, you're just reading comments, like it's just this inherently simple
+[01:09:18.960 --> 01:09:23.200]  concept. And it's kind of drifted away from that more and more as they're they kind of try to nail
+[01:09:23.200 --> 01:09:28.880]  more features on top of this simple foundation. And I think it speaks, most companies don't keep
+[01:09:28.880 --> 01:09:36.320]  the old thing around when they, you can't get the original 2009 Gmail interface. There's no
+[01:09:36.320 --> 01:09:42.000]  old dot Gmail dot com. But I don't think people who just use Gmail have as many complaints as
+[01:09:42.000 --> 01:09:48.400]  Reddit users do. But it speaks to the, the community nature of Reddit, that Reddit,
+[01:09:48.400 --> 01:09:53.680]  it didn't feel it doesn't feel weird until recently until the last month, didn't feel
+[01:09:53.680 --> 01:09:59.600]  weird that Reddit kept old dot Reddit around, even though that's an unusual move for a company that
+[01:09:59.600 --> 01:10:05.600]  totally redoes the way they do their website. But for Reddit, it felt natural because yeah, that
+[01:10:05.600 --> 01:10:09.840]  that feels like something they would do to make the community happy. But I saw a couple of comments
+[01:10:09.840 --> 01:10:16.880]  in the the Ask Me Anything that that CEO Steve Huffman did disastrous, in my opinion. Oh, I
+[01:10:16.880 --> 01:10:22.560]  thought it went well. Oh, yeah, I'm sure you did. But I saw people mentioning old dot Reddit.com.
+[01:10:22.560 --> 01:10:26.480]  And their official line is that they don't have any plans for it to go anywhere. And there were
+[01:10:26.480 --> 01:10:31.440]  like, dozens of people saying, Yeah, right. People, you know, writings on the wall. Yeah,
+[01:10:31.440 --> 01:10:36.800]  people are kissing goodbye to old dot Reddit.com. Now, because it doesn't seem like whatever the
+[01:10:36.800 --> 01:10:43.520]  logic is of forcing third party clients out the door seems like at this point, old dot Reddit is,
+[01:10:43.520 --> 01:10:49.760]  is, even though it's from them, it's more like a third party client, from their perspective,
+[01:10:49.760 --> 01:10:54.320]  from the reasons that they're pushing you out that it doesn't show it doesn't have the metrics
+[01:10:54.320 --> 01:10:59.920]  that they're measuring doesn't have a zillion JavaScript libraries. It doesn't seem good analogy.
+[01:11:00.720 --> 01:11:06.320]  Right, whatever they're thinking to force apps like Apollo out the door, it seems like it would
+[01:11:06.320 --> 01:11:11.840]  apply just as much to old dot Reddit.com. And it seems like people who love old dot Reddit.com,
+[01:11:11.840 --> 01:11:17.840]  or at least just prefer it. Totally. You can smell it coming, right? It's got like,
+[01:11:17.840 --> 01:11:22.240]  Oh, yeah. And I think Reddit's almost unique in that like their entire kind of upstart was from
+[01:11:22.240 --> 01:11:25.840]  when everyone migrated from dig because I think they had a similar redesign issue.
+[01:11:25.840 --> 01:11:29.440]  So I think Reddit was like acutely aware that like, if we botched this redesign and have no
+[01:11:29.440 --> 01:11:34.160]  way for people to go back, this could shut down everything. So like, in that same way,
+[01:11:34.160 --> 01:11:37.040]  I thought that would almost be their strategy with third party apps where they'd say like,
+[01:11:37.040 --> 01:11:43.600]  we're going to charge you an amount that is so expensive that you'll lose, like 95% of your
+[01:11:43.600 --> 01:11:47.360]  users who don't want to pay, but you'll still be able to stick around for those who do. And in
+[01:11:47.360 --> 01:11:53.200]  doing so will shrink your monthly active users from like 1.5 million to like 50,000 or 100,000.
+[01:11:53.200 --> 01:11:57.040]  And then you'll basically have the old dot Reddit effect where sure, it's still around, but the
+[01:11:57.040 --> 01:12:01.280]  amount of people that you've choked it down to is so low that if they go one step further that
+[01:12:01.280 --> 01:12:05.440]  point, then kill it, it's going to be a lot worse than if they did it from the outset. But it seemed
+[01:12:05.440 --> 01:12:09.520]  like they skipped that step with the third party apps, I don't know, intentionally or otherwise,
+[01:12:09.520 --> 01:12:14.560]  to go right to the death blow. What was your favorite part of the Steve Huffman? Ask me
+[01:12:14.560 --> 01:12:21.040]  anything. I overall like it was just a very, like, I think I said on a different interview
+[01:12:21.040 --> 01:12:25.680]  that like, that was when I was flying home from dub dub. And I like had to play it like 10 bucks
+[01:12:25.680 --> 01:12:29.120]  for airplane Wi Fi for that. And I was really disappointed that I felt like I didn't get my
+[01:12:29.120 --> 01:12:35.520]  money's worth. Like I thought he, I genuinely thought like, I've had a honestly a high opinion
+[01:12:35.520 --> 01:12:39.280]  of him as a CEO historically, just because he is one of the founders. And I think he's understood
+[01:12:39.280 --> 01:12:43.600]  how Reddit ticks really well. And I expected him to take like, the really easy slam dunk win there
+[01:12:43.600 --> 01:12:48.000]  and just go in and say, like, look, we did not handle this. Well, we were going to kind of go
+[01:12:48.000 --> 01:12:51.680]  back to the drawing board, talk to developers, figure out how we can make this right. We hear
+[01:12:51.680 --> 01:12:55.840]  you guys. And we apologize for how we handled this. And I genuinely think the community would
+[01:12:55.840 --> 01:13:00.400]  have been like, okay, he heard us like, there's gonna be steps going forward. This is reparable.
+[01:13:00.400 --> 01:13:05.040]  And then but just to go completely so far in the other direction of just like, doubling down and,
+[01:13:05.760 --> 01:13:11.120]  and being accusatory. And like the, it just it's so strange to me that he seems so
+[01:13:12.240 --> 01:13:19.520]  personally angry about stuff like me recording and leaking that phone call of him where of the
+[01:13:19.520 --> 01:13:26.240]  employee with him rather, where it's like, if I genuinely love to ask him and in the most polite
+[01:13:26.240 --> 01:13:31.680]  way possible, genuinely, like if the roles were reversed, and I said something potentially like
+[01:13:31.680 --> 01:13:37.360]  a career ending accusation against you as the CEO, and then you realized, oh, I've got evidence that
+[01:13:37.360 --> 01:13:42.240]  shows that to be completely false, like, would you not in my shoes do the exact same thing I
+[01:13:42.240 --> 01:13:46.560]  did to defend myself? And like, if the answer is yes, why are you so bothered by like,
+[01:13:46.560 --> 01:13:49.920]  why wouldn't that be an opportunity to say like, oh, crap, I really messed up here? Like, let's
+[01:13:49.920 --> 01:13:54.960]  let's dial this back and fix it. And so I guess that that would have been my favorite part where
+[01:13:54.960 --> 01:14:00.480]  it was, I was just I could not understand the strategy of it at all. Yeah, so for people who
+[01:14:01.680 --> 01:14:06.240]  don't know what you're alluding to, there was a part of that you've had some communication with
+[01:14:06.240 --> 01:14:10.880]  Reddit during this process. Oh, a lot. Yeah, it's probably been like half a dozen or more phone
+[01:14:10.880 --> 01:14:18.720]  calls. Right. But at one point, in talking about this, you you mentioned something jokingly like,
+[01:14:18.720 --> 01:14:23.600]  well, look, if it's if it's about and it seems to be before they backtracked from saying it's
+[01:14:23.600 --> 01:14:28.160]  not really about server costs. It's about the opportunity cost of what we could be making per
+[01:14:28.160 --> 01:14:34.160]  user if they weren't using these clients. But when it seemed to be talking about actual server costs,
+[01:14:34.160 --> 01:14:41.600]  you said something to the effect of well, look, if it's gonna if you think Apollo's usage is going
+[01:14:41.600 --> 01:14:47.840]  to rack up $20 million a year in costs on your point, why don't we just meet it halfway and you
+[01:14:47.840 --> 01:14:54.000]  buy it for $10 million? And we'll call it a deal as sort of a joke? Yeah, kind of. And it was almost
+[01:14:54.000 --> 01:14:57.520]  like that was like when I made the post saying the $20 million figure that was like half of what
+[01:14:57.520 --> 01:15:01.920]  people were saying too was like half the comments were like, if they're saying you're an opportunity
+[01:15:01.920 --> 01:15:06.240]  cost or server cost or what have you of this such a massive amount, like wouldn't the obvious call
+[01:15:06.240 --> 01:15:10.160]  be just to acquire you and integrate you into the existing app? And so it was like the very end of
+[01:15:10.160 --> 01:15:14.320]  the phone call. And I kind of just vocalized that. And they kind of took it the wrong way at first.
+[01:15:14.320 --> 01:15:17.680]  And then I kind of asked for clarification. I was like, Okay, like, no, like, what I mean is,
+[01:15:17.680 --> 01:15:21.680]  like, Apollo uses a lot of API requests, like, wouldn't this just be easier for both parties,
+[01:15:21.680 --> 01:15:25.680]  if you basically acquired it? And they were like, Oh, okay, so we see what you mean. Okay,
+[01:15:25.680 --> 01:15:28.720]  like, apologies for misunderstanding that. Okay, yeah, that sounds good. Right.
+[01:15:28.720 --> 01:15:35.440]  They're their first. Yeah, their first impression at in this bit of for seconds for like 30 or 40
+[01:15:35.440 --> 01:15:41.440]  seconds. They misinterpreted you as saying, Why don't you just give me $10 million? And I'll stop
+[01:15:41.440 --> 01:15:46.400]  making a fuss as right, right. Yeah, which, which is a shakedown. And that's not what you meant at
+[01:15:46.400 --> 01:15:51.280]  all. Right. And you were like, No, no, no, no, no, I think you can. Yeah, you can hear the part,
+[01:15:51.280 --> 01:15:55.760]  I think, in the phone call where I like, I was like, What the heck? Like, how did you interpret
+[01:15:55.760 --> 01:15:59.920]  that from what I said? And that's when I was kind of like, can you elaborate on how you got there?
+[01:15:59.920 --> 01:16:04.320]  And he kind of explained it. And I was like, kind of clarified what I said. And he apologized
+[01:16:04.320 --> 01:16:09.200]  multiple times. And I think we left it on a really good note. And I even sent an email off shortly
+[01:16:09.200 --> 01:16:13.440]  after that saying just like, Hey, I just want to be clear, like, like, what I was saying here, like,
+[01:16:13.440 --> 01:16:18.560]  I want to keep our relationship happy and like, positive and, and productive going forward. And
+[01:16:18.560 --> 01:16:23.840]  then I you just kind of start hearing these, like, I got the most random, like, Macedon message from
+[01:16:23.840 --> 01:16:27.920]  like, I assume would have been a Reddit employee saying, like, can you respond to the allegations
+[01:16:27.920 --> 01:16:31.920]  internally that you're like, trying to shake them down for $10 million through blackmail? And I was
+[01:16:31.920 --> 01:16:38.400]  kind of like, what? And then like a week passes. And then Steve did a call with a bunch of
+[01:16:38.400 --> 01:16:42.320]  moderators and said a similar thing, like he's trying to coerce us and blackmail us and threaten
+[01:16:42.320 --> 01:16:46.560]  us. And I was like, it was very like, I thought we were very clear here what the like, you
+[01:16:46.560 --> 01:16:53.920]  apologized. And so it was very strange. Yeah. And I, the term gaslighting gets thrown around too
+[01:16:53.920 --> 01:16:59.280]  loosely these days. It's like, it's like, we didn't, I know that it's a reference to, I think
+[01:16:59.280 --> 01:17:06.240]  a movie from, I don't know, like 80 years ago. So it's not a new term. But I don't know, in the last
+[01:17:06.800 --> 01:17:13.840]  five, six years, it just seems like it, it, it's a term that came into vogue, and it filled a void
+[01:17:13.840 --> 01:17:20.560]  in our language. And then it suddenly got overused. But it, this is a case where it really
+[01:17:20.560 --> 01:17:29.600]  applies, where it's like, you clarified this on the same call, and you had, you recorded it,
+[01:17:29.600 --> 01:17:35.040]  which was, is legal for you. It's, is that all of Canada? Or is it just like, you know, it's like a
+[01:17:35.040 --> 01:17:39.680]  Canadian law, one party consent, if you're on the phone, it is perfectly legal to record the phone
+[01:17:39.680 --> 01:17:44.480]  call. It's very clear from the, you can read the transcript, you can listen to the call. It's very
+[01:17:44.480 --> 01:17:48.880]  clear. This wasn't like an ongoing thing where Reddit spent days thinking you were trying to
+[01:17:48.880 --> 01:17:55.120]  shake them down. It was clarified instantly. But the only honest way to approach the fact that
+[01:17:55.120 --> 01:18:02.160]  Steve Huffman was still sort of going with it would be that he read like the first 15 seconds
+[01:18:02.160 --> 01:18:09.200]  of this transcript and never read the rest of it, and just went with it. And I find that very hard
+[01:18:09.200 --> 01:18:16.000]  to believe. I honestly, it's very hard for me to walk away from his disparagement of your
+[01:18:16.000 --> 01:18:23.280]  negotiations and eluding internal to Reddit that you were trying to shake down the company.
+[01:18:25.200 --> 01:18:29.840]  It just seems disingenuous. And I'm very generally, I try to be very, very hesitant
+[01:18:29.840 --> 01:18:36.640]  to accuse anybody of being a liar or dishonest, but it really, there's no other conclusion I can
+[01:18:36.640 --> 01:18:46.080]  come to. He's either dishonest in a very personal way, which it angers me, or he spouted his mouth
+[01:18:46.080 --> 01:18:52.240]  off in a disparaging way when he, all he would have had to do is read another 30 seconds of
+[01:18:52.240 --> 01:19:01.520]  transcript, which is, neither makes him look good. No, and it's one of the, and I even gave like
+[01:19:01.520 --> 01:19:05.120]  kind of like multiple opportunities to talk about it because after that first, I got that first
+[01:19:05.120 --> 01:19:09.120]  kind of anonymous message where somebody was alluding to it. I reached out to him and said,
+[01:19:09.120 --> 01:19:13.440]  hey, if there's any miscommunication here, I want to clear that up. That was not the case.
+[01:19:13.440 --> 01:19:18.960]  And then days go by, and then he says it again. And it's kind of one of those cases where you've
+[01:19:18.960 --> 01:19:24.400]  been given opportunities, I corrected it on the call, sent you another email, and then gave you
+[01:19:24.400 --> 01:19:30.640]  the audio. And then at this point, for you not to say, there must have been some wires crossed here
+[01:19:30.640 --> 01:19:35.040]  where I didn't understand everything. I apologize. To keep going on it, it was just kind of
+[01:19:35.040 --> 01:19:40.480]  bewildering. And I did feel gaslit for a bit where it was kind of like, man, if I didn't have the
+[01:19:40.480 --> 01:19:44.560]  foresight to record that, it would have been a really gross situation for me where you have a
+[01:19:44.560 --> 01:19:50.640]  multi-billion dollar company CEO going, hey, this guy over here is blackmailing our company for 10
+[01:19:50.640 --> 01:19:54.720]  figure money. That could have been potential. You Google my name, I'm going to a job interview,
+[01:19:54.720 --> 01:19:57.520]  and they're like, oh, it's that guy? The guy who blackmails companies? Yeah, we're not going to
+[01:19:57.520 --> 01:20:03.120]  hire him. And it's like, I'm like, thank God I did record it because yeah, a game of he said,
+[01:20:03.120 --> 01:20:06.800]  she said with a billionaire company isn't going to typically go too well.
+[01:20:07.360 --> 01:20:12.320]  Right. Or even if it's not even a hiring type situation, if it's just do we want to grant this
+[01:20:12.320 --> 01:20:18.320]  person developer APIs to our product? No, no, this is somebody who you let them in the front door and
+[01:20:18.320 --> 01:20:25.040]  they start shaking you down. It's not true. Cockroach. Yeah. Very, very just toast.
+[01:20:25.040 --> 01:20:31.200]  There's everybody knows there's people like that out in the world. And but it's just so
+[01:20:31.200 --> 01:20:37.680]  antithetical to Reddit and their brand and the sort of symbiotic relationship where they have
+[01:20:37.680 --> 01:20:43.760]  with the community overall, because it is it is there is no Reddit without a community. It's
+[01:20:44.640 --> 01:20:52.000]  there's it couldn't be more community driven. And it's just a weird, almost unique thing on
+[01:20:52.000 --> 01:20:58.640]  the Internet. But part of that is trust. Right. In a way that like Facebook, for example, just
+[01:20:58.640 --> 01:21:03.600]  doesn't need that level of trust. It is just is what it is. And what else are you they kind of
+[01:21:03.600 --> 01:21:09.120]  have the position of what else are you going to do? Right. Because there is no other platform with
+[01:21:09.120 --> 01:21:15.920]  three billion users all on the same platform. There's nobody else has that. Whereas with Reddit,
+[01:21:15.920 --> 01:21:20.240]  there is sort of the Well, what else are you going to do? And then we saw it this week,
+[01:21:20.240 --> 01:21:25.520]  right? We saw pretty significant protests across all of Reddit. But I'm curious now,
+[01:21:25.520 --> 01:21:32.080]  as as we record this show, it's Thursday, June 15. It does seem like it's sort of like,
+[01:21:32.080 --> 01:21:36.800]  I hate to say it, but it does seem like his sort of, hey, this is going to blow over. Like,
+[01:21:36.800 --> 01:21:41.920]  it does seem like it is sort of blowing over. I'm curious. Yeah. And I think I said something
+[01:21:41.920 --> 01:21:46.880]  to that effect in my post where I'm like, I'm like, I made that the shutting down post before
+[01:21:46.880 --> 01:21:51.200]  the separated block outs were to start. And I was kind of like, like, it's so cool. People
+[01:21:51.200 --> 01:21:56.320]  are doing that and care so much. But it's one of those things where I like he, the management at
+[01:21:56.320 --> 01:22:01.200]  Reddit seems so like sticking their heels into this and unwilling to kind of meet the community.
+[01:22:01.200 --> 01:22:04.880]  I want to even say halfway, but like 1% of the way, right, just through communication,
+[01:22:04.880 --> 01:22:09.760]  that it's not something that I see them caring about, honestly. And like, I'd love to be wrong.
+[01:22:09.760 --> 01:22:13.280]  But yeah, I just didn't want to get any expectations up just to have it kind of come
+[01:22:13.280 --> 01:22:18.160]  crashing down again. So it's, it does seem sad that they don't want to listen. But it's Yeah,
+[01:22:18.160 --> 01:22:21.760]  I don't think it's the most surprising, like, given the action so far, I suppose.
+[01:22:22.320 --> 01:22:29.280]  Yeah, it's the protests are playing out. I would, I know, some people were hoping they would
+[01:22:29.280 --> 01:22:33.840]  stay in perpetuity until they relented. And I didn't think that was realistic. But I thought
+[01:22:33.840 --> 01:22:41.360]  that more subreddits went dark, or private, whatever you want to call it for a day or two
+[01:22:41.360 --> 01:22:48.000]  days, and maybe even a third day, then I expected, especially non technical ones, like, it's not
+[01:22:48.000 --> 01:22:54.640]  surprising at all that like, our Apple shutdown, and the ones that you would think would be care
+[01:22:54.640 --> 01:23:00.880]  the most about Apollo in particular, or just third party clients in general. But there were
+[01:23:00.880 --> 01:23:06.560]  are funny, I think, shut down. I mean, some of the very top subreddits ones with, I don't know,
+[01:23:06.560 --> 01:23:12.320]  like 40 million active users. I mean, it's, it was impressive. I didn't think though, that it
+[01:23:12.320 --> 01:23:18.480]  was going to last. It's not like it. It's just not the nature of how a protest like this works. But
+[01:23:18.480 --> 01:23:26.640]  it's certainly it, if I were an executive or in leadership at Reddit, the even the fact that it
+[01:23:26.640 --> 01:23:35.440]  does seem to be passing in terms of actual subreddit staying private, I would be in a panic,
+[01:23:35.440 --> 01:23:43.280]  because it's not a place you want to be, where you've left a huge swath of your community with
+[01:23:43.280 --> 01:23:50.640]  a very bad taste in their mouth. Yeah, I think it's had like, a significant effect on Steve's
+[01:23:50.640 --> 01:23:55.840]  legacy as CEO. And it's one of those things where it's like, you almost have to wonder if it's been
+[01:23:55.840 --> 01:24:01.120]  worth the cost, because the the like, I feel like this will kind of just come up whenever
+[01:24:01.120 --> 01:24:05.600]  anybody's talking about stuff now is kind of this blemish on Reddit. And it was for what?
+[01:24:06.480 --> 01:24:09.760]  You could have just simply like, if you came back to the table and said, like I said, look,
+[01:24:09.760 --> 01:24:12.880]  we apologize for how we handle this, we want to give you more time to make sure this transition
+[01:24:12.880 --> 01:24:17.120]  can go off without your company's completely shutting down, because we recognize 30 days was
+[01:24:17.120 --> 01:24:21.200]  not nearly enough time. I feel like that would have been such an easy win that would have kind
+[01:24:21.200 --> 01:24:25.840]  of reversed everything that to have this, like this massive stain, just because you didn't want
+[01:24:25.840 --> 01:24:31.280]  to give a solitary inch is just like, even just from like a strategic standpoint as a leader, like
+[01:24:31.280 --> 01:24:35.440]  I don't, I don't understand. Yeah, I don't understand it either. And it's like I said
+[01:24:35.440 --> 01:24:40.080]  earlier, you can't put a dollar figure on reputation, but it is valuable. It's
+[01:24:41.600 --> 01:24:48.080]  incredibly valuable. And speaking of reputation, the other thing aside from this clearly provably,
+[01:24:48.080 --> 01:24:52.720]  honestly, it's you have a recording. I mean, like, as Jason Snell said, you brought receipts
+[01:24:52.720 --> 01:24:59.120]  that you did not try to blackmail them into buying your silence or support or whatever.
+[01:24:59.120 --> 01:25:05.280]  But there's also the broader implication and the one that I don't think it can't really be
+[01:25:05.280 --> 01:25:12.480]  backtracked or proven false with like, ah, it's the Perry Mason courtroom moment. Here's the
+[01:25:12.480 --> 01:25:15.600]  recording of a phone call that proves it otherwise. But it's the implication
+[01:25:15.600 --> 01:25:24.320]  that Apollo is, for honestly, for lack of a better term, poorly engineered, that it's noisier than
+[01:25:24.320 --> 01:25:34.320]  the average Reddit client would be, more API calls per user. And you've made the point in your posts
+[01:25:34.320 --> 01:25:39.920]  on this that one of the reasons is that your users are, the reason they paid for a paid client for
+[01:25:39.920 --> 01:25:47.440]  Reddit is that they're highly active Reddit users, right? I mean, can you talk me through this,
+[01:25:47.440 --> 01:25:52.720]  like what they, how they alluded to the fact that they're, they alluded to the fact that Apollo is,
+[01:25:52.720 --> 01:25:54.880]  I don't know what, a noisy API user?
+[01:25:54.880 --> 01:26:00.320]  Yeah, I think they said inefficient. And yeah, there's like so many aspects that confuse me
+[01:26:00.320 --> 01:26:04.880]  there, where it's just like, even at the high level, I think I made the analogy on Quinn
+[01:26:04.880 --> 01:26:10.000]  Nelson's YouTube channel too, but it was kind of like, historically, I guess as a reference point,
+[01:26:10.000 --> 01:26:17.200]  Apollo's average calls per day per user is about 350. And Reddit's, up until two weeks ago,
+[01:26:17.200 --> 01:26:21.040]  their rate limit, they're saying like, this is how many times we'll allow you to interact with
+[01:26:21.040 --> 01:26:25.600]  the Reddit API was 60 times per minute. So if you do the math over the course of the day, that's
+[01:26:25.600 --> 01:26:33.760]  86,400 times a day. So if Apollo's got a limit of 86,400, and it's doing 350, like that's pretty
+[01:26:33.760 --> 01:26:40.480]  50. Like that's 0.4%. Like that's, I would say, argue that's quite efficient. And I use the
+[01:26:40.480 --> 01:26:44.480]  analogy that like, if you scale those numbers, like if I was to borrow your car, and you said,
+[01:26:44.480 --> 01:26:50.480]  don't drive more than 864 miles, and I return it with three miles, I would say I did a pretty good
+[01:26:50.480 --> 01:26:54.960]  job, not, but like Reddit saying like, oh, yeah, but, you know, Bob over there only used one mile.
+[01:26:54.960 --> 01:26:57.920]  And they're saying, that's great, but I didn't know that was kind of the measuring stick we
+[01:26:57.920 --> 01:26:58.960]  were going for.
+[01:26:58.960 --> 01:27:02.720]  Or they're saying, but you drove those three miles all in three minutes.
+[01:27:02.720 --> 01:27:08.400]  Yeah, yeah, exactly. And it's like, I just don't understand why that's a comparison. And
+[01:27:08.400 --> 01:27:13.280]  like, and beyond that, it's like, yeah, there's also like the fact that if you look, you can
+[01:27:13.280 --> 01:27:16.400]  literally look at like different swaths of my user base and say like, oh, the people who pay a
+[01:27:16.400 --> 01:27:20.720]  subscription use even more than that 350. Like there's a there's an amount here where people
+[01:27:20.720 --> 01:27:25.520]  who enjoy Reddit use it more, and that shouldn't be surprising. And then there's almost a third
+[01:27:25.520 --> 01:27:29.840]  aspect where it's like, okay, if you think I am being inefficient in some ways, in comparison
+[01:27:29.840 --> 01:27:34.240]  to other clients, like I do some things like I check your price, like to see if you have any
+[01:27:34.240 --> 01:27:38.560]  notifications every so often automatically in the background and like I check, like if I think you
+[01:27:38.560 --> 01:27:42.400]  might try to load the next page, like automatically kind of load that ahead of time just to make a
+[01:27:42.400 --> 01:27:46.160]  little faster for you as the user and make things a little nicer. Like those are calls I could I
+[01:27:46.160 --> 01:27:51.920]  could get rid of like, if we're trying to kind of moving the tent pole as to what efficient is,
+[01:27:51.920 --> 01:27:55.680]  I can get rid of stuff like that and drop that countdown. But when you give us 30 days to do all
+[01:27:55.680 --> 01:28:00.320]  that, and completely revolutionize like the payment model of how we're doing the app,
+[01:28:00.320 --> 01:28:04.000]  and transition all the existing users over, test all these things, get it through app review,
+[01:28:04.000 --> 01:28:08.960]  like the laundry list becomes so massive to do in 30 days that it's just, it's not possible.
+[01:28:08.960 --> 01:28:13.600]  So it becomes such a confusing like message from Reddit as to like what you want us to do here
+[01:28:13.600 --> 01:28:17.840]  realistically as developers when, like I said, April 18 was when they were like, we're thinking
+[01:28:17.840 --> 01:28:23.600]  about doing like API pricing, and then June 1, like 43 days later, like it took them that long
+[01:28:23.600 --> 01:28:27.760]  to just even decide what that number would be. But then they only give us 30 days to actually
+[01:28:27.760 --> 01:28:32.800]  implement that number. It's just like, I don't know how that passed like a sniff test, let alone
+[01:28:32.800 --> 01:28:38.640]  made it up the door. Yeah, and speaking of sniff tests, I would say the accusation that Apollo is
+[01:28:38.640 --> 01:28:44.880]  quote, inefficient doesn't pass the sniff test, right? And it's like, I, you've written this,
+[01:28:44.880 --> 01:28:49.840]  you've said it, you just said it here on this show, that if you had more time, and they and
+[01:28:49.840 --> 01:28:57.520]  they said, we would like to re recalibrate our usage guidelines from an average number per day
+[01:28:57.520 --> 01:29:04.320]  to like a peak amount per five minutes or something like that, that you there's obvious
+[01:29:04.320 --> 01:29:08.640]  things you could do, you'd be more than willing to do whatever they would ask you to do, you would
+[01:29:08.640 --> 01:29:16.080]  try to do and and in your best effort to date, you've stayed well within their only published
+[01:29:16.080 --> 01:29:22.720]  guidelines for how much API usage you should be using. But the sniff test would me to me would be
+[01:29:24.160 --> 01:29:30.240]  a huge part of the reason that people love Apollo is how fast it is. It is a very,
+[01:29:30.240 --> 01:29:37.120]  very fast client. It is fast to load. It is super fast to scroll, which is super anybody who knows
+[01:29:37.120 --> 01:29:44.320]  I'm like a very, very, very, my understanding of how to do like complex table views in UI kit or
+[01:29:44.320 --> 01:29:49.360]  Swift UI or whatever, super. I'm not an expert in that. But I know that it's hard, right? And it's
+[01:29:49.360 --> 01:29:57.840]  like the complex scrolling views are just notoriously a source of slowness in iOS apps.
+[01:29:57.840 --> 01:30:06.480]  It's just a hard thing to do. And the nature of Reddit is incredibly intricate, because it's got
+[01:30:06.480 --> 01:30:11.840]  infinite hierarchical threading, right? And it's to me, it's it looks simple. And the more you think
+[01:30:11.840 --> 01:30:16.080]  about it, and the more you know, it's like you said, like you set out to make the Apollo client
+[01:30:17.120 --> 01:30:22.240]  that Apple would design if they made or the Reddit client that Apple would make if Apple
+[01:30:22.240 --> 01:30:27.440]  did a Reddit client. And I think Apollo absolutely fits that bill. But when you really look at
+[01:30:27.440 --> 01:30:34.640]  Apollo's threading view, you're like, there's really nothing in iOS like this with seven,
+[01:30:34.640 --> 01:30:40.240]  eight levels of threading, and how you use color to indicate the threading level. And
+[01:30:40.240 --> 01:30:48.240]  doing threading, hierarchically, is you push in, you indent. But the nature of a phone is that
+[01:30:48.240 --> 01:30:54.080]  you've got this super skinny screen, right? It's a design problem. It is a technical problem,
+[01:30:54.080 --> 01:30:59.760]  right? And Apollo, the whole reason people love it. It's like it does this really complex thing
+[01:30:59.760 --> 01:31:06.000]  really, really fast. It's clearly not inefficient. Overall, that's the whole reason it's appealing.
+[01:31:06.000 --> 01:31:12.800]  No, and yeah, and there was weird calls, or one of the calls, he said, Apollo doesn't make any
+[01:31:12.800 --> 01:31:16.640]  effort to be efficient. And it's like, I can literally go back through my emails, and I have
+[01:31:16.640 --> 01:31:21.040]  conversations where I've talked to Reddit and said, the way this API works isn't that efficient.
+[01:31:21.040 --> 01:31:25.920]  It would be great, A, if you could do it this way, or B, if the existing system has to stay
+[01:31:25.920 --> 01:31:29.920]  in place. Is there any way I could talk to someone at Reddit and make sure I'm optimizing this to the
+[01:31:29.920 --> 01:31:35.200]  fullest extent? Because Apollo has a server component as well that has a lot of functionality
+[01:31:35.200 --> 01:31:38.960]  to notify users when a new message comes in, or a subreddit they're watching, for instance.
+[01:31:38.960 --> 01:31:43.200]  And I have a really talented part-time server engineer who works on that. And we've had so
+[01:31:43.200 --> 01:31:46.720]  many conversations with Reddit where we've tried to make sure we're doing as best as
+[01:31:46.720 --> 01:31:52.400]  absolute possible. And for them to say they haven't made any attempts, it's another thing
+[01:31:52.400 --> 01:32:00.480]  where it's demonstrably false. It's just so angering. So the server component for Apollo
+[01:32:00.480 --> 01:32:06.320]  does what? So it does a few things. It's mostly around notifications. So if you have a Reddit
+[01:32:06.320 --> 01:32:11.920]  account, Reddit's API is quite primitive in so far as if you want to know if you get a private
+[01:32:11.920 --> 01:32:16.320]  message or somebody mentions you on Reddit, similar to Twitter. The way the Reddit API
+[01:32:16.320 --> 01:32:21.200]  works is I have to go to your inbox and say, is there anything new? And it says yes or no.
+[01:32:21.200 --> 01:32:25.600]  And then I go, OK, so I maybe wait 10 more seconds to go, is there anything new? No?
+[01:32:25.600 --> 01:32:29.520]  OK, anything new. And you just do that repeatedly. And if you only get a comment once every three
+[01:32:29.520 --> 01:32:35.200]  days, 99.9% of the requests are going to be just saying, no, stop asking me. And the way a lot of
+[01:32:35.200 --> 01:32:40.320]  more modern APIs get around that is it flips the tables where it's an event-based web socket API
+[01:32:40.320 --> 01:32:43.840]  where you just connect and you just say, I'm just going to sit here. The next time something comes
+[01:32:43.840 --> 01:32:47.360]  in that I should know about, you just let me know. And that's something we've proposed to Reddit
+[01:32:47.360 --> 01:32:53.280]  historically or said, is there a way that we could maybe get the JSON size of the response down so
+[01:32:53.280 --> 01:32:57.600]  that the requests would be smaller? And it's always been like, OK, maybe. And it's those
+[01:32:57.600 --> 01:33:02.880]  inefficiencies that you're stuck with. But you have to do your best within that system to make
+[01:33:02.880 --> 01:33:07.840]  them work. And there's other ones, like if you were saying, if there's a Philadelphia subreddit
+[01:33:07.840 --> 01:33:12.400]  and you want to know the next time tickets for an event that's local are being sold, you could add
+[01:33:12.400 --> 01:33:16.960]  a subreddit watcher for Philadelphia and get notified when a certain keyword match occurs.
+[01:33:16.960 --> 01:33:20.080]  And that's one of those things that we try to be really efficient with, too, where if there's
+[01:33:20.080 --> 01:33:24.640]  10,000 people watching the Philadelphia subreddit, we don't have 10,000 watchers. We have one watcher
+[01:33:24.640 --> 01:33:31.600]  that then just requests it every so often and then talks to those 10,000 people. It's funny,
+[01:33:31.600 --> 01:33:36.240]  I open sourced the server just to show we do a lot of complex stuff to make sure that this
+[01:33:36.240 --> 01:33:42.960]  is efficiently done. And yeah, so it's a lot to get because there are published, you have to stay
+[01:33:42.960 --> 01:33:48.080]  under this many requests. That has been the limit they've imposed on clients so far. So we've done
+[01:33:48.080 --> 01:33:52.720]  a lot of work to make sure we're being as efficient as possible within those limits. So it's weird.
+[01:33:52.720 --> 01:33:58.080]  Yeah. So it's the complete opposite of what they were accusing you of doing, right? Like,
+[01:33:58.080 --> 01:34:05.040]  I mean, it's when you're developing an iOS client for Reddit to have a server component,
+[01:34:05.920 --> 01:34:10.240]  it's proof that you were looking at ways to be more efficient, not inefficient.
+[01:34:10.240 --> 01:34:15.200]  Right, exactly. And I reached a limit as to what I could do efficiently on the server as
+[01:34:15.200 --> 01:34:19.760]  an iOS developer. So I even went out and found somebody, his name's Andre, who's like incredibly,
+[01:34:19.760 --> 01:34:24.080]  like he works full time as a server engineer, and he came and revamped all my code made it 100 times
+[01:34:24.080 --> 01:34:28.560]  better. So like, there's been money and lots of time and code that's gone into making this as
+[01:34:28.560 --> 01:34:32.880]  efficient as possible. And hopefully, by opening sourcing the server component, it was kind of
+[01:34:32.880 --> 01:34:36.800]  showing my cards there and saying, like, you can go in and see the work that's been done.
+[01:34:36.800 --> 01:34:44.160]  Well, I have to say you you've been not just on this show, but it shows even in your writing
+[01:34:44.160 --> 01:34:51.200]  on the Apollo app subreddit that you're remarkably upbeat about
+[01:34:52.640 --> 01:34:58.640]  what can only be described as a total shit sandwich. I mean, you've got eight years,
+[01:34:58.640 --> 01:35:06.160]  you've built an entire livelihood around Apollo, and you're just gonna, as things stand as you and
+[01:35:06.160 --> 01:35:10.880]  I talk right now, you're gonna have to pull the plug in two weeks. And your attitude is remarkably
+[01:35:10.880 --> 01:35:17.280]  upbeat, in my opinion, but I'm just curious. There's with the Twitter clients, well,
+[01:35:17.280 --> 01:35:26.000]  Twitterrific hasn't come back, but Tapbots was able to sort of take the bones of Tweetbot and
+[01:35:26.000 --> 01:35:33.360]  turn that into the foundation for ivory on Mastodon. And people there are, I know there's
+[01:35:33.360 --> 01:35:40.960]  Lemmy, which is sort of a I think activity pub, which is sort of similar or same foundations as
+[01:35:40.960 --> 01:35:46.000]  Mastodon, a sort of open source Reddit type thing. And then what's the other one that starts with a
+[01:35:46.000 --> 01:35:53.120]  K? K bin. K bin. I never even heard of that. Not the catchiest name, no. No. Is something is
+[01:35:53.120 --> 01:35:59.280]  taking Apollo and adapting it for something like that something you're considering?
+[01:35:59.280 --> 01:36:02.800]  It's tricky because it's one of those things where it's like, it would be possible, but it would be
+[01:36:02.800 --> 01:36:07.280]  so much work. And to be honest, the last few months have been pretty mentally draining. So
+[01:36:07.280 --> 01:36:12.560]  it's not something that I have a lot of fuel in the tank for necessarily. But even if it was,
+[01:36:12.560 --> 01:36:17.360]  you look at Mastodon, and I can't remember what it was, but years ago, I think it was when Twitter
+[01:36:17.360 --> 01:36:23.360]  did stuff with the tokens, there was kind of an initial burst to go to App.net and Mastodon. So
+[01:36:23.360 --> 01:36:26.800]  many of us had accounts from five years ago when Mastodon came back up. So there was kind of this
+[01:36:26.800 --> 01:36:32.240]  already understood Twitter thing that was brewing in the background that had a foundation. And with
+[01:36:32.240 --> 01:36:36.640]  Reddit, I don't think there's anything quite to that extent yet. There's a few that are kind of
+[01:36:36.640 --> 01:36:40.640]  spreading up, which are great to see, and I honestly wish them the best. But there's not
+[01:36:40.640 --> 01:36:46.560]  anything as clear as Mastodon, I don't think. And even if there was something as big and powerful
+[01:36:46.560 --> 01:36:51.920]  as Mastodon, I've even seen, with Mastodon, it's unfortunate, there's still so many people
+[01:36:51.920 --> 01:36:56.160]  I follow that just haven't made it over there for whatever reason. The last few months,
+[01:36:56.160 --> 01:37:01.680]  the vast majority have, but if I'm thinking even the most technical iOS developers I know haven't
+[01:37:01.680 --> 01:37:07.520]  been able to maybe necessarily grok Mastodon for whatever reason, it kind of creates this fear in
+[01:37:07.520 --> 01:37:12.320]  my mind that I'm like, is this going to be the most long-term thing? As much as I love it,
+[01:37:13.360 --> 01:37:17.280]  is that a hurdle where it's the de-federated, de-centralized thing? As amazing as it is to me,
+[01:37:17.280 --> 01:37:21.920]  is that going to be the same thing for everybody? And kind of investing all that time and effort
+[01:37:21.920 --> 01:37:28.240]  into something that I'm not 1000% sure will have long-term legs, even if I wish it did,
+[01:37:28.240 --> 01:37:31.760]  is like, I don't know if I have the energy to commit to that right now.
+[01:37:32.320 --> 01:37:40.240]  Yeah, and the other thing that's different, in my opinion, is as unhappy as the broad Reddit
+[01:37:40.240 --> 01:37:45.360]  community, again, like I said a couple minutes ago, it's not just the nerd subreddits that
+[01:37:45.360 --> 01:37:52.080]  protested. It really went Reddit-wide for a couple of days this week to voice their displeasure,
+[01:37:52.080 --> 01:38:03.360]  as unhappy as people are. Fundamentally, Reddit is still Reddit, and whatever drew people to Reddit
+[01:38:04.160 --> 01:38:10.320]  is still there, and the difference with Twitter is that under Elon Musk's ownership,
+[01:38:10.320 --> 01:38:18.080]  he's continuously steering Twitter. From the moment he took over till we record right now,
+[01:38:18.080 --> 01:38:25.040]  he is steering Twitter in a direction that is antithetical to what Twitter used to be
+[01:38:25.040 --> 01:38:31.040]  and offensive to people for whatever reasons, many reasons, multiple reasons, but
+[01:38:31.040 --> 01:38:39.920]  there's a large number of people who Musk's decisions pushed away and has nothing to do
+[01:38:39.920 --> 01:38:47.280]  with third-party clients, right? And for some of us, that's just one more straw breaking the
+[01:38:47.280 --> 01:38:53.200]  camel's back. It's one thing among many, but it's not just that. It's just the overall tone
+[01:38:53.200 --> 01:38:59.120]  of everything on Twitter, like, okay, I'll use your first-party client. Fine. I'll just give
+[01:38:59.120 --> 01:39:04.320]  up on that. I'll just concede the point. I'm gonna just use Twitter.com and the Twitter official app
+[01:39:04.320 --> 01:39:11.280]  on my phone. Fine. People are still like, this site sucks. I hate it. I don't like the feed,
+[01:39:11.280 --> 01:39:17.680]  whereas you don't have that with Reddit, right? It would almost be better if Elon Musk bought
+[01:39:17.680 --> 01:39:24.640]  Reddit and Twitterfied Reddit to push people to do what large communities have done by moving from
+[01:39:24.640 --> 01:39:30.400]  Twitter to Mastodon, and I don't think that's going to happen. If only Elon Musk bought Reddit
+[01:39:30.400 --> 01:39:35.600]  is not a sentence I thought I would have been agreeing with earlier this year. Well, it's like
+[01:39:35.600 --> 01:39:41.440]  I've said, I've had to eat my words where I was optimistic before he took over, because I thought
+[01:39:41.440 --> 01:39:47.680]  one thing I still think it was true is that Twitter did need a shakeup. They needed to be
+[01:39:47.680 --> 01:39:53.520]  shaken up in multiple ways, and obviously his leadership didn't go the way I hoped it would.
+[01:39:53.520 --> 01:39:59.520]  They're very well shaken. But in some ways, in some ways, I do feel like I was right that
+[01:40:01.040 --> 01:40:09.920]  it's a better outcome for me because the people who I care about most, reading their tweet-like
+[01:40:09.920 --> 01:40:15.600]  posts and interacting with them for like daring fireball, people who at Gruber me about a daring
+[01:40:15.600 --> 01:40:23.600]  fireball post, all of that that is moved to Mastodon is my overall Twitter-like experience is
+[01:40:23.600 --> 01:40:29.120]  better today than it was before Musk bought Twitter, because I've moved to Mastodon, right?
+[01:40:30.560 --> 01:40:35.200]  Right? No, that makes sense. I don't see that happening with Reddit, unfortunately. It's almost
+[01:40:35.200 --> 01:40:40.240]  like, I guess where I'm going is it would be better if Huffman's decisions were even worse,
+[01:40:40.240 --> 01:40:46.320]  so that it would just drive more people away. Yeah, no, I honestly would agree with that. It's
+[01:40:46.320 --> 01:40:52.960]  a shame he didn't even go further. Right, and in a perverse way, it's good that Musk is so bad
+[01:40:52.960 --> 01:41:00.800]  for Twitter, because it's made an entire segment. And again, it's like you said, the cognitive
+[01:41:02.000 --> 01:41:08.000]  load aspects to understanding Mastodon's federation are just complex enough that they
+[01:41:08.000 --> 01:41:13.680]  keep people who, even people who could understand it, or maybe even do, it just gives them enough
+[01:41:13.680 --> 01:41:18.640]  resistance to like, I don't know, it's just too much of a hassle. Whereas Twitter, it's just,
+[01:41:18.640 --> 01:41:24.400]  I've got a username, I type in a box, I hit return, and now it's, that's my tweet. And that's it.
+[01:41:24.400 --> 01:41:29.280]  Yeah, the amount of like people who like, I still think are incredibly smart. I met at like dub dub,
+[01:41:29.280 --> 01:41:32.080]  who were like, I just couldn't understand the whole Mastodon thing. I was just like,
+[01:41:32.080 --> 01:41:36.960]  it was a little fascinating to be like, wow, really? Like, you are very intelligent to me.
+[01:41:36.960 --> 01:41:40.960]  And not that that changed. But like, I was like, it was an interesting data point.
+[01:41:41.520 --> 01:41:45.680]  Yeah. All right. Let me take one more break here and thank our last sponsor of the show. It's our
+[01:41:45.680 --> 01:41:52.320]  good friends at Rocket Money. Rocket Money is a personal finance app that finds and cancels your
+[01:41:52.320 --> 01:41:57.840]  unwanted subscriptions, monitors your spending, and helps you lower your bills all in one place.
+[01:41:58.400 --> 01:42:04.960]  Over 80% of people, in according to Rocket Money's own polling, have subscriptions that they have
+[01:42:04.960 --> 01:42:09.360]  forgotten about. So in other words, if they came to you and you, you brought all your credit card
+[01:42:09.360 --> 01:42:14.320]  bills, and you just went through it item by item, are you going to find at least one subscription
+[01:42:14.320 --> 01:42:17.520]  that you've forgotten about that you're like, I don't know why I'm still paying for that.
+[01:42:18.080 --> 01:42:21.920]  80% of people have at least one subscription that they've forgotten about. So the odds,
+[01:42:21.920 --> 01:42:27.200]  four out of five chance is you're one of them. Rocket Money can help you identify them. It'll
+[01:42:27.200 --> 01:42:31.600]  quickly and easily find subscriptions for you. And for any of the ones you don't want to pay
+[01:42:31.600 --> 01:42:35.760]  anymore, you can just hit cancel right in Rocket Money and Rocket Money will cancel it for you
+[01:42:35.760 --> 01:42:42.000]  right there. They also help you manage all of your finances in one place, set a budget, track
+[01:42:42.000 --> 01:42:46.720]  as your month goes on, where you are in your budget, whether you're going out to eat in
+[01:42:46.720 --> 01:42:50.720]  restaurants budget, are you over budget? Are you spending more than you thought you were on takeout
+[01:42:50.720 --> 01:42:55.920]  and stuff like that? You can track anything you want right there in Rocket Money in one place,
+[01:42:55.920 --> 01:43:00.960]  and they automatically categorize your expenses. So as you're spending money throughout the month,
+[01:43:00.960 --> 01:43:05.600]  you don't have to sit there and enter stuff in one by one and pick a category and picking them out.
+[01:43:05.600 --> 01:43:08.960]  You just let Rocket Money have access to your accounts. The things come in,
+[01:43:08.960 --> 01:43:14.800]  they categorize them for you automatically. And so you can easily just absorb, observe it like
+[01:43:14.800 --> 01:43:20.560]  a dashboard and see where you're going and adjust your budget in real time. Over 3 million people
+[01:43:20.560 --> 01:43:27.600]  have used Rocket Money and the average user has saved up to $720 a year by using Rocket Money.
+[01:43:27.600 --> 01:43:31.920]  So stop throwing your money away. Cancel your unwanted subscriptions and manage your expenses
+[01:43:31.920 --> 01:43:39.600]  the easy way by going to rocketmoney.com slash the talk show. That's rocketmoney.com
+[01:43:39.600 --> 01:43:44.880]  slash the talk show. They put it in one more time. Here, I'll read the URL one more time,
+[01:43:44.880 --> 01:43:52.160]  rocketmoney.com slash the talk show. All right. Bonus period. It's sad because it had to be
+[01:43:52.160 --> 01:43:57.200]  again, I opened by saying WWDC must have been bittersweet because you must be used to
+[01:43:57.200 --> 01:44:00.240]  paying attention to WWDC each year and then thinking,
+[01:44:01.040 --> 01:44:08.800]  oh, that's cool. I could use that for blank, right? Anything that stood out to you? Did you
+[01:44:08.800 --> 01:44:13.360]  catch yourself during the keynote saying, oh my God, that's great for a few times?
+[01:44:13.360 --> 01:44:17.200]  Well, it was funny when the keynote came out, I was still at the stage where they hadn't
+[01:44:17.920 --> 01:44:21.680]  alleged blackmail and all this stuff and kind of stopped responding to my emails. So
+[01:44:21.680 --> 01:44:25.120]  I was honestly looking up there pretty starry. I'd like, this will be a fun summer,
+[01:44:25.120 --> 01:44:31.520]  especially around the Vision Pro stuff. I got lucky that a few months ago, Apple called me
+[01:44:31.520 --> 01:44:36.400]  very coyly and was like, hey, I guess in order to put your app icon on a slide, apparently they
+[01:44:36.400 --> 01:44:40.400]  need your approval and they were saying, there are certain apps that are going to be compatible
+[01:44:40.400 --> 01:44:44.240]  with the future platform we're working on and Apollo is through our testing. Could we put it
+[01:44:44.240 --> 01:44:47.920]  up there? I was like, oh, okay, that's so cool. When I saw it up there, I was like, okay, the
+[01:44:47.920 --> 01:44:51.280]  Vision Pro looks really cool. That'd be something like, I don't know what that would look like for
+[01:44:51.280 --> 01:44:56.560]  Apollo, but I sure as hell love to try. So I was really excited for that. So we'll see.
+[01:44:56.560 --> 01:45:00.640]  And yeah, there was even some more of the interactive widget stuff looked really cool
+[01:45:00.640 --> 01:45:04.160]  across the iOS and whatnot. So there was definitely a bunch of stuff that
+[01:45:04.160 --> 01:45:06.640]  would have been potentially cool to play around with.
+[01:45:06.640 --> 01:45:09.040]  Yeah. And you got a shout out during the keynote, right?
+[01:45:09.040 --> 01:45:10.800]  I did. Yeah, Mr. Federighi.
+[01:45:10.800 --> 01:45:15.200]  Mr. Federighi mentioned the word Apollo. What was the context? I have it in my notes somewhere.
+[01:45:15.200 --> 01:45:20.640]  He was talking about how you can run your iPhone widgets on your Mac, I believe. And he said,
+[01:45:20.640 --> 01:45:25.360]  Apollo for Reddit is. That's right. Right. Which is a very cool feature,
+[01:45:25.360 --> 01:45:27.360]  right? And it seems... Yeah, that was so cool.
+[01:45:28.080 --> 01:45:35.360]  Yeah, it seems like that's one of the sleeper features of this year's cycle, this sort of,
+[01:45:35.360 --> 01:45:40.640]  because the people who are already brave enough to have the betas for everything on all the...
+[01:45:40.640 --> 01:45:46.480]  I've got like a spare phone with iOS 17, but I have not. I'm too old to put developer beta
+[01:45:46.480 --> 01:45:49.920]  one on anything I actually use. I remember years past...
+[01:45:49.920 --> 01:45:53.040]  I wish I was the same way. I remember in years past,
+[01:45:53.040 --> 01:45:57.440]  developer beta ones, it seems like Apple's, they've gotten better in recent years,
+[01:45:57.440 --> 01:46:01.200]  but it's always, who knows, one year that might be really terrible. But I just remember like
+[01:46:01.840 --> 01:46:07.360]  five o'clock, four o'clock, people meeting on Monday of WWDC week and going to get a
+[01:46:07.360 --> 01:46:11.680]  beer or something. And one out of three people have like an iPhone that doesn't work anymore
+[01:46:11.680 --> 01:46:17.520]  because they put the beta on and it's like, oh shit, my phone's locked. I don't, I can't...
+[01:46:17.520 --> 01:46:20.000]  And they're from a foreign country and now they can't get home or whatever.
+[01:46:20.560 --> 01:46:24.880]  And it's like, DFU, you gotta like, they gotta like go back to their hotel and
+[01:46:24.880 --> 01:46:29.120]  connect it to iTunes so they can do like a hard reset. It's like, that hasn't happened.
+[01:46:29.120 --> 01:46:31.520]  No, but this widget thing seems really cool.
+[01:46:32.320 --> 01:46:35.840]  It does, yeah. There's so many cool things like that. And I will say that's almost the
+[01:46:35.840 --> 01:46:40.960]  one thing that I'm somewhat looking forward to not having to deal with is like, they've
+[01:46:40.960 --> 01:46:44.960]  gotten so much better Apple with letting anybody install betas on their phone, which is great for
+[01:46:44.960 --> 01:46:49.440]  testing, but you also got like a lot of noisy users who are annoyed that there's bugs in beta
+[01:46:49.440 --> 01:46:53.280]  one that relate to your app. And the amount of emails I get every year where it's like,
+[01:46:53.280 --> 01:46:56.960]  the text kind of looks funny in this one screen. I hope you fix that soon. And it's like,
+[01:46:56.960 --> 01:47:01.600]  come on beta two, it's always gone. It's not me. So I'm somewhat looking forward to not having
+[01:47:01.600 --> 01:47:09.600]  to deal with that this summer. Yeah. And yeah, I could imagine something. And again, this
+[01:47:09.600 --> 01:47:15.440]  show is about Apollo and Reddit, and I'll do another show later soon, talking more about
+[01:47:15.440 --> 01:47:21.600]  WWDC and my experience with Vision Pro. But I can sort of see that, and I'm sure you're
+[01:47:21.600 --> 01:47:28.000]  thinking the same thing, where at a basic level, when you're using Vision Pro, you do,
+[01:47:28.000 --> 01:47:34.400]  you have this, the biggest canvas in front of you imaginable, right? And so in a way that like,
+[01:47:34.400 --> 01:47:41.520]  when you go from your phone to like, a big studio display, or 27 inch iMac, or something,
+[01:47:41.520 --> 01:47:46.400]  and even just one display, but a big display on your Mac, and you feel like, ah, this is great,
+[01:47:46.400 --> 01:47:51.920]  I can spread out, I've got notes next to Safari, and I can still see messages next to them.
+[01:47:53.360 --> 01:47:59.680]  It's like, it's very clear that in the Vision OS, you can spread out in a way that makes even
+[01:47:59.680 --> 01:48:05.760]  using a big Mac display feel cramped, right? And it, for something like Reddit, like I could
+[01:48:05.760 --> 01:48:12.160]  imagine, like even if it's just two apps, but you could have like, Reddit open on the left,
+[01:48:12.160 --> 01:48:17.280]  and scroll, and then have Safari open on the right, and click lots and lots of stuff, people
+[01:48:17.280 --> 01:48:22.080]  post to Reddit or Lynx, and you click it over, or tap it over here, pinch it, whatever our verb
+[01:48:22.080 --> 01:48:27.600]  is going to be, and it's open over there, and you see them both, you just turn your head to go back
+[01:48:27.600 --> 01:48:34.080]  from Reddit, to Safari, to whatever else you have to the side of them. It's, yeah, there's so many,
+[01:48:34.080 --> 01:48:37.600]  or I was even thinking almost like in that scene in The Dark Knight, where Morgan Freeman's
+[01:48:37.600 --> 01:48:43.040]  character has the 800 screens of Gotham, yes, yes, yes, 100 different like, Reddit posts up at once,
+[01:48:43.040 --> 01:48:47.520]  just watching all the videos, and pictures, and discussions at once. Yeah, one of the,
+[01:48:47.520 --> 01:48:52.800]  one of those questions that only came to me like, on the airplane flying home, is like, ah, I should
+[01:48:52.800 --> 01:48:59.920]  have asked while I was there. It's like, what, what does a screenshot even look like? Are we
+[01:48:59.920 --> 01:49:04.240]  going to be able to take screenshots from the headset? And what would that look like? Because
+[01:49:04.240 --> 01:49:09.280]  it wouldn't be a rectangle. It's, it's not a rectangle in front of you. It's a whole field of
+[01:49:09.280 --> 01:49:15.760]  vision. And what's the action? Do you push both ears together? Yeah, or, or push the, the camera
+[01:49:15.760 --> 01:49:21.440]  button with the digital crown button? I don't know. I would, it seems like every time they come
+[01:49:21.440 --> 01:49:25.520]  out with a new platform, there's no screenshots immediately. And then they come out with this. I
+[01:49:25.520 --> 01:49:30.400]  think the, or maybe the watch had a screenshot feature right away. I forget, but I don't know,
+[01:49:30.400 --> 01:49:34.640]  just, just mash all the buttons and take a screenshot. That's a great question. But I can't
+[01:49:34.640 --> 01:49:39.360]  wait to see, I do think that part of it, it, for some users, they're going to have so many windows
+[01:49:39.360 --> 01:49:45.360]  open at a time where it's like, and you're going to see like, people complaining like, hey, how
+[01:49:45.360 --> 01:49:49.520]  come VisionOS only lets me put eight app, apps open at a time? And it's like, yeah, but you're
+[01:49:49.520 --> 01:49:54.400]  looking at eight apps all at once. You're just panning around. Like I, yeah, of course people
+[01:49:54.400 --> 01:49:59.360]  want to have the Morgan Freeman, 50 of them. And you know, as the years go on and Ram goes higher,
+[01:49:59.360 --> 01:50:04.560]  maybe you'll be able to set it up. But people who want to see lots of stuff at the same field of
+[01:50:04.560 --> 01:50:11.120]  view on the same canvas, as it were, it's, it, it's an unprecedented platform. And for something
+[01:50:12.240 --> 01:50:18.560]  inherently Reddit is sort of a multitasky, you know, and Twitter's the same way where people
+[01:50:18.560 --> 01:50:24.800]  post links. So you're bouncing between this thread and where you want to go read the links and having
+[01:50:24.800 --> 01:50:31.520]  them in the same field of view seems super, super cool. You do have another app. So I don't want to,
+[01:50:31.520 --> 01:50:36.400]  I don't want to let this show go by without mentioning it. It's called Pixel Pals. I have it
+[01:50:36.400 --> 01:50:41.680]  on my, I have it on my lock screen. I've got a little parrot there now. Thank you. Yeah. I know
+[01:50:41.680 --> 01:50:45.840]  it was, it was the silliest little thing. I had an idea for an Apollo where the, the dynamic island
+[01:50:45.840 --> 01:50:49.840]  thing, when it came out, like there was, that was like 12 pixels above it that were kind of just for
+[01:50:49.840 --> 01:50:53.040]  content to pass through that I was like, it'd be kind of cool if you could put something up there.
+[01:50:53.040 --> 01:50:57.520]  So I played around and worked with a few artists and had a few little cute ones and people like it
+[01:50:57.520 --> 01:51:01.600]  got really popular on Twitter and people really liked it. And then it got to the point where
+[01:51:01.600 --> 01:51:05.200]  there, I got a lot of emails where they're like, I don't get what Reddit is. Like, why, what, like,
+[01:51:05.200 --> 01:51:09.120]  can you just make it a separate thing? So I did that and thank God I did because it ended up kind
+[01:51:09.120 --> 01:51:13.360]  of taking on a life of its own, like on TikTok and whatnot, outside of Apollo, where like,
+[01:51:13.360 --> 01:51:16.640]  to the extent that like I looked at the analytics and it's like 90% of the people don't even have
+[01:51:16.640 --> 01:51:20.640]  Apollo installed. Oh, that's awesome. Yeah. Yeah. So it's like, thankfully I've kind of got this
+[01:51:20.640 --> 01:51:25.040]  secondary income super, so I don't have to go down to Philly and try to find a couch to sleep on this
+[01:51:25.040 --> 01:51:29.440]  month. But it's, it's, it's yeah. And it's a really different app to work on, but it's a lot
+[01:51:29.440 --> 01:51:36.400]  of fun. Are any of the changes that were announced this year to, for interactive widgets going to be
+[01:51:36.400 --> 01:51:40.960]  helpful for pixel pass? Yeah. Yeah. I think I can do some cool stuff with that. Like it was before,
+[01:51:40.960 --> 01:51:44.720]  like there was, yeah, you could do some like kind of hacks with like trying to like tapping on it
+[01:51:44.720 --> 01:51:48.160]  and I'm launching the app and I saw some apps do some cool stuff with that, but the fact that
+[01:51:48.160 --> 01:51:51.360]  Apple's got some like first party stuff where you could like, I don't know, feed them or play with
+[01:51:51.360 --> 01:51:55.680]  them or in some capacity through the widget system looks like, yeah, it's going to be, I don't feel
+[01:51:55.680 --> 01:51:59.600]  too bad that Apollo's gone in that sense that I'll have a lot of fun time to work with that this
+[01:51:59.600 --> 01:52:06.400]  summer. Yeah. It taps into, you know, and David Smith's super popular widget Smith scratches the
+[01:52:06.400 --> 01:52:14.160]  same itch and I think, you know, and, and David has very humbly taken his tremendous success with
+[01:52:14.160 --> 01:52:20.160]  that with so much, too much humility, but, but just should brag a little. Yeah. Right. But just
+[01:52:20.160 --> 01:52:24.960]  vastly under, he was like, this seems like a fun idea that a lot of people would like and just
+[01:52:24.960 --> 01:52:35.040]  vastly underestimated the latent demand from iPhone users to just customize the way there's
+[01:52:35.040 --> 01:52:40.960]  their lock screens in their home screens look right. Like it, and it used to be back in like
+[01:52:40.960 --> 01:52:46.080]  the classic Mac days, people, we were always getting icon sets from the icon factory in the
+[01:52:46.080 --> 01:52:51.520]  early days of Mac OS X. They had the candy bar app that they made in conjunction with panic where
+[01:52:51.520 --> 01:52:57.920]  you could just do whole sets of icons and replace the way folder icons looked into finder and
+[01:52:57.920 --> 01:53:04.000]  change the way your windows looked and stuff. People like doing stuff like that. And iPhone
+[01:53:04.000 --> 01:53:10.720]  was so locked down at a system level for so long that when this came up, it's like, so many people
+[01:53:10.720 --> 01:53:16.000]  just, they just want to customize it. People like to play with it. It's like being like being a
+[01:53:16.000 --> 01:53:22.240]  real developer is like, you're, you're, you're making your own injection molds for toys. But,
+[01:53:22.240 --> 01:53:26.480]  but these are like Legos where you, anybody who's not like, Oh, I'm not a professional developer,
+[01:53:26.480 --> 01:53:32.720]  but I just want to snap some pieces together to make my own car toy car. And that's what like
+[01:53:32.720 --> 01:53:38.080]  widgets Smith and pixel pals really, they, it, it just satisfies people urge to like, I just want to
+[01:53:38.080 --> 01:53:43.520]  put something fun on my lock screen. That's like my choice. Yeah, no. And it's like, I mean, it's
+[01:53:43.520 --> 01:53:47.200]  one of those things where in hindsight, of course it's popular, but yeah, it's just for so many
+[01:53:47.200 --> 01:53:51.040]  years, like there was just no way to do that. And now people are just, they use this thing so much
+[01:53:51.040 --> 01:53:54.160]  every day that to have like a little bit of personality sprinkled on one of the screens,
+[01:53:54.160 --> 01:53:58.160]  they see 10,000 times a day. It's just, it, it, something kicks off in your brain that makes you
+[01:53:58.160 --> 01:54:03.520]  a little happier. Yeah. Well, thank you very much for your time. I'm very, very sorry for the
+[01:54:03.520 --> 01:54:07.360]  overall situation, but I'm glad, glad to have it as an excuse to get you on the show for the first
+[01:54:07.360 --> 01:54:12.480]  time. And no, this has been amazing. It's all worth it. I think now. Yeah. Well, I don't know
+[01:54:12.480 --> 01:54:20.320]  about that. That's that's too kind, but you know, whatever I can do to help in your future endeavors,
+[01:54:20.320 --> 01:54:25.520]  you just let me know because I've been a fan of Apollo for as long as it's been around. And
+[01:54:25.520 --> 01:54:29.680]  certainly not, it might be the end of Apollo, but it's certainly not the end of software from you.
+[01:54:29.680 --> 01:54:33.600]  That's the goal. Thank you. But yeah. Yeah. You covered Apollo very early. And I think that was
+[01:54:33.600 --> 01:54:37.840]  a big uplift at the beginning. So I, I thank you for that as well. Well, it just, it was like a
+[01:54:37.840 --> 01:54:42.560]  lightning bolt, like, wow, this is a good app. Right. So, and it's like, it just always, I'm
+[01:54:42.560 --> 01:54:49.280]  sure there's some that I miss out there, but I, I just love identifying and, and rewarding with
+[01:54:49.280 --> 01:54:55.600]  whatever attention I can give to exquisitely well-made apps. And that is certainly the, the
+[01:54:55.600 --> 01:55:01.920]  work that you do, Christian. So thank you. Thank you and good luck and sorry. I'll take all of
+[01:55:01.920 --> 01:55:11.120]  those. Thank you. Let me also thank our sponsors for the day. We had Collide, where you can manage
+[01:55:11.120 --> 01:55:17.040]  your cross-platform fleet of devices, get them into compliance, Memberful, where you can monetize
+[01:55:17.040 --> 01:55:22.240]  your passion with membership. Who else do we have today? We had Squarespace. You can make your next
+[01:55:22.240 --> 01:55:26.320]  move, build a website at Squarespace and then Rocket Money, where you can find and cancel
+[01:55:26.320 --> 01:55:47.920]  unwanted subscriptions. My thanks to all of them.

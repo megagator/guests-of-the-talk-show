@@ -1,0 +1,956 @@
+[00:00.000 --> 00:02.480]  Hello podcast fans
+[00:07.080 --> 00:10.560]  We are delighted to be back in San Jose's historic
+[00:10.880 --> 00:15.800]  California theater for a very special live edition of the talk show
+[00:15.800 --> 00:28.640]  Won't you please make your devices silent, but your voice is loud for Mr. John Gruber
+[00:43.440 --> 00:44.920]  Hello
+[00:44.920 --> 00:46.920]  Hello
+[00:48.000 --> 00:53.040]  Am I on hmm am I on now
+[01:05.200 --> 01:07.200]  Technology
+[01:07.560 --> 01:09.560]  Never fails
+[01:09.840 --> 01:12.640]  Welcome to the talk show live from WWDC
+[01:12.640 --> 01:17.680]  2023 it is awesome to be back in the California theater
+[01:25.240 --> 01:29.400]  If you were paying attention on Monday, you may have noticed there's a lot to cover
+[01:31.480 --> 01:36.360]  So we're gonna mix it up this year and and we are going to have a number of guests
+[01:36.360 --> 01:43.720]  But before we start with that, I want to thank our presenting sponsor of the show our good friends at KOLIDE
+[01:43.720 --> 01:49.720]  K-O-L-I-D-E, KOLIDE
+[01:49.720 --> 01:58.120]  KOLIDE is a security tool for companies with Okta that need to manage their employees devices
+[01:58.120 --> 02:07.160]  If an employee's device isn't healthy, isn't in compliance, browser's out of date, software updates aren't up to date
+[02:07.160 --> 02:11.240]  Maybe they don't have the lock screen enabled. You can just walk up use their computer
+[02:12.680 --> 02:19.000]  KOLIDE identifies it. They can't log in to your company's cloud apps. That's it
+[02:19.000 --> 02:22.680]  You can't log in you get in compliance then you can log back in
+[02:22.680 --> 02:29.320]  KOLIDE does this in a very employee friendly fashion. They help the employee
+[02:29.320 --> 02:34.360]  They teach sort of like the teach a person to fish, you know
+[02:34.360 --> 02:39.160]  They'll eat for a lifetime as opposed to giving them a fish and they're hungry tomorrow
+[02:41.160 --> 02:45.720]  That's KOLIDE. They teach your employees how to get their devices into compliance
+[02:45.720 --> 02:52.680]  They can help with everything, patch management, shadow IT, they can help with fishing, credentials, stuff like that
+[02:52.680 --> 02:58.680]  Check them out at KOLIDE.com
+[02:58.680 --> 03:03.400]  K-O-L-I-D-E.com slash the talk show
+[03:03.400 --> 03:07.080]  That's KOLIDE.com slash the talk show
+[03:09.080 --> 03:11.640]  But let's get started with the talk show
+[03:11.640 --> 03:19.960]  But let's get started after that. Let me introduce our first two guests
+[03:19.960 --> 03:43.960]  John Ternes and Greg Joswiak
+[03:43.960 --> 03:50.920]  One week, John. Two Johns and the Jaws. Two Johns and the Jaws? Sounds like a movie
+[03:52.120 --> 03:56.120]  Not a very good one. Yeah, are the TP plus people here?
+[04:00.120 --> 04:05.080]  Well, John, welcome to the show. This is your first time on the show. No pressure, just a few people
+[04:05.080 --> 04:10.760]  Yeah, just a few. No, thanks. Thanks for having me. There was a lot of Mac news this week
+[04:10.760 --> 04:28.520]  that got all of 13 minutes in a very crowded keynote. It's hard to get all that into two hours.
+[04:28.520 --> 04:37.720]  This is why we have the show. I think in order that you guys introduce new Mac hardware at the show
+[04:37.720 --> 04:47.160]  the 15-inch MacBook Air, to me, the most remarkable thing about it is the price.
+[04:47.160 --> 04:55.560]  Historically, honestly, going back as far as I can remember, whatever the big screen
+[04:56.280 --> 05:03.240]  Apple laptops are, there's never been one at the consumer tier pricing-wise.
+[05:03.240 --> 05:09.560]  So, literally, just going back one week, if we went back a week and you wanted a MacBook with
+[05:09.560 --> 05:15.000]  a bigger than 13-inch screen, the starting price is $24.99 for the 16-inch MacBook Pro.
+[05:15.880 --> 05:19.960]  As of this week, that starting price- $19.99 for the 14-inch.
+[05:19.960 --> 05:28.360]  $12.99 for the 13-inch.
+[05:28.360 --> 05:29.240]  $12.99 for the 13-inch.
+[05:29.240 --> 05:30.120]  Just here to keep you honest.
+[05:30.120 --> 05:30.920]  Who invited you?
+[05:35.640 --> 05:38.040]  Bigger than 13 slash 14-inch.
+[05:41.000 --> 05:48.520]  But now, the 15-inch MacBook Air, $12.99 starting price. And spec for spec, I know that the starting
+[05:48.520 --> 05:55.800]  price of the 13-inch is now $10.99, but spec for spec, it's really only a $100 difference
+[05:55.800 --> 06:01.880]  to go from 13-inch MacBook Air to 15-inch. And I'm just curious, what took so long?
+[06:06.120 --> 06:11.240]  Well, obviously, we love the MacBook Air. MacBook Air is an amazing computer.
+[06:12.040 --> 06:15.160]  As we said, it's the world's most popular laptop.
+[06:15.160 --> 06:18.840]  And over the years, we've been interested in a larger size and something we've thought about,
+[06:18.840 --> 06:25.000]  we've explored. And I think when you're designing products, a great product can come about by making
+[06:25.000 --> 06:29.640]  kind of smart trade-offs, right? You're going to have better battery life and put in a bigger
+[06:29.640 --> 06:33.400]  battery, but then it's going to be a little bit thicker and heavier. You can add more power to
+[06:33.400 --> 06:38.040]  get more performance, but then it's going to be a little bit louder. And I think when we've made
+[06:38.040 --> 06:42.120]  models in the past and we thought about a bigger MacBook Air, we just didn't really end up with
+[06:42.120 --> 06:47.560]  something that felt like a MacBook Air. But the world's different now. We have Apple Silicon,
+[06:47.560 --> 06:55.640]  and Apple Silicon is like a cheat code for system design, right? I mean, we were able to build this
+[06:55.640 --> 07:00.920]  system and have all the performance and the battery life and, of course, the incredible thin
+[07:00.920 --> 07:06.200]  and light design, and it's every inch a MacBook Air. And so, yeah, that's what took so long. We
+[07:06.200 --> 07:10.200]  just had to have the right pieces. It's an amazing system. You've got your hands on it, hopefully the
+[07:10.200 --> 07:15.880]  hands-on. I've been using it for a while. I love it. It's a really, really good Mac.
+[07:21.880 --> 07:22.920]  Take it down a little?
+[07:22.920 --> 07:31.560]  Well, no. But I mean, I totally agree, and I don't mean this to belittle it all. I think
+[07:32.760 --> 07:38.440]  it's clearly the most popular Mac. I mean, you even said in the keynote it's the most popular
+[07:38.440 --> 07:39.000]  Mac.
+[07:39.000 --> 07:41.080]  It's the best-selling laptop in the world.
+[07:48.760 --> 07:51.400]  I was going to admonish whoever's spilling their beer.
+[07:53.160 --> 07:53.640]  It happens.
+[07:53.640 --> 07:54.440]  They're having a good time.
+[07:55.960 --> 07:59.160]  This is the early show. Wait till we do the late show.
+[07:59.160 --> 08:05.560]  But there's not a lot to say about it. It's the MacBook Air you know and love,
+[08:05.560 --> 08:11.800]  and it's a bigger size. I honestly thought if you wanted to condense the keynote further,
+[08:11.800 --> 08:17.800]  the part where they just started with a 13-inch MacBook Air and drug the corner up to make it
+[08:17.800 --> 08:18.300]  bigger.
+[08:19.480 --> 08:21.880]  I just wish that's all it took to actually build it, right?
+[08:21.880 --> 08:25.080]  I'm sure. I could have gone home early that day.
+[08:25.080 --> 08:33.720]  That's how we do it in marketing. What's the fuss?
+[08:37.720 --> 08:48.360]  Looking at the lineup now, though, it seems like the MacBook lineup is very, very clear.
+[08:48.360 --> 08:57.480]  There's two sizes. Well, with an asterisk. There's 14-inch MacBook Pro, 16-inch MacBook
+[08:57.480 --> 09:03.640]  Pro. Now, there's 13-inch MacBook Air, 15-inch MacBook Air. Do you want to optimize for smaller?
+[09:03.640 --> 09:06.600]  Do you want bigger real estate? Are you more comfortable?
+[09:09.320 --> 09:17.560]  The exception to that is the 13-inch MacBook Pro, which is the most popular MacBook Pro
+[09:17.560 --> 09:25.960]  which is still in the lineup. I'm curious where you think that product fits in the MacBook lineup.
+[09:27.960 --> 09:28.600]  Do you want to take that one?
+[09:31.080 --> 09:33.080]  Who is that product for?
+[09:33.720 --> 09:37.960]  It's still a great product. It really is. It's an entry point to a Mac web.
+[09:41.080 --> 09:41.560]  Wow.
+[09:41.560 --> 09:48.120]  Wow. You didn't tell me it'd be a tough product.
+[09:49.960 --> 09:52.760]  It's still a great product. It's the entry point to the MacBook Pro lineup.
+[09:53.640 --> 09:56.280]  We're proud of it. It's good. If you still want Touch Bar, there you go.
+[10:01.560 --> 10:05.160]  We're laughing, but my understanding is that a lot of people come into the store,
+[10:05.160 --> 10:12.040]  and that is the MacBook that they want. Not for me to tell you how to market it, but
+[10:12.040 --> 10:17.720]  if people are coming in and buying it, you should keep selling it to them. Is that the story with
+[10:17.720 --> 10:21.000]  the 13-inch MacBook Pro? People are still buying a lot of them, to your point.
+[10:22.200 --> 10:29.240]  Moving on to the desktop, which is where more of the news was this week. It seems like the lineup
+[10:29.240 --> 10:39.560]  is settled down to where the Mac Mini is the consumer prosumer range, and it does span a
+[10:39.560 --> 10:49.640]  significant range of price points to performance points. The Mac Studio is the pro desktop computer,
+[10:49.640 --> 10:58.280]  and now that it's back, the Mac Pro seems more like it's for certain specialized niches.
+[10:59.720 --> 11:04.040]  I mean, it seemed to... Honestly, I don't even think... It's not my interpretation.
+[11:04.040 --> 11:08.760]  I think it's almost the way you presented it in the keynote, that the Mac Studio is
+[11:09.480 --> 11:15.880]  the go-to desktop for most Mac Pro users, pro Mac users.
+[11:15.880 --> 11:21.080]  Yeah, I think that's absolutely true. It's been really well received. We've now given it
+[11:21.080 --> 11:28.120]  its first bump with M2 Max and M2 Ultra. Incredible performance, and it really is...
+[11:28.120 --> 11:33.000]  I think it's generated a ton of excitement and enthusiasm, and customers are loving it.
+[11:33.000 --> 11:38.920]  The satisfaction is phenomenal, and so yeah, I think it's an amazing system for those pro users.
+[11:38.920 --> 11:44.520]  But as we said in the keynote, there are a certain set of customers, certain set of workflows,
+[11:44.520 --> 11:51.160]  that really rely on that PCI expansion, and so the Mac Pro solves that problem really, really well.
+[11:51.160 --> 11:55.960]  By the way, I would say that the Mac Mini is killing it, right? It's even more than you said.
+[11:55.960 --> 12:01.720]  It is consumer. It is prosumer, but even pros use it too, and M2 Pro was a huge part of that,
+[12:01.720 --> 12:07.160]  but you see it everywhere from people's home offices to data centers.
+[12:07.160 --> 12:11.480]  It is really, as we position it, it's our most versatile Mac. It's used in a lot of places.
+[12:11.480 --> 12:16.440]  Yeah, even before the Apple Silicon transition, it seemed to be like a sort of
+[12:18.760 --> 12:26.360]  rejuvenation of interest on your part on the Mac Mini, and when you guys were talking about
+[12:26.360 --> 12:36.520]  the use cases people had, it's like any and all odd use cases where concerts and they need Macs
+[12:36.520 --> 12:43.880]  in the chain for the audio coming in and out, and the smaller the better because it's already
+[12:43.880 --> 12:49.240]  a cramped area, and it does fit. I mean, it's hard to imagine a desktop computer fitting into
+[12:49.240 --> 12:55.160]  a smaller three-dimensional space. Yeah, and then to your point, studio's just killing it with pros.
+[12:55.160 --> 12:59.640]  I mean, it's been a huge success, huge customer satisfaction, and it just got even better.
+[12:59.640 --> 13:04.760]  I think on the Mini, I mean, it does kind of fit all those little unique uses,
+[13:04.760 --> 13:10.600]  it's also just an amazing, affordable consumer device and a great entry into Apple Silicon.
+[13:10.600 --> 13:19.000]  $4.99. Yeah, I mean, it's pretty awesome. So, where does this one fit in for the desktop lineup?
+[13:19.000 --> 13:26.280]  My question would be, where does the iMac fit in? And to remind people, if anybody hasn't forgotten,
+[13:26.280 --> 13:35.320]  that's one, that's I believe the only Mac still on M1 generation Apple Silicon? It is, it's M1.
+[13:35.320 --> 13:40.760]  Look, iMac is in our DNA, it's all in ones, we love all in ones, a lot of our customers still
+[13:40.760 --> 13:45.880]  love all in ones. Apple Silicon revitalized that one as well, where it allowed us to do the first
+[13:45.880 --> 13:52.200]  new design built around Apple Silicon. It's thin, it's beautiful, that's what I use at home,
+[13:52.200 --> 13:59.080]  is my home computer. Well, I use everything, but I use that one, too. And I love it, you know,
+[14:00.840 --> 14:06.040]  whether you're a consumer, again, prosumer, enthusiast, you know, it's a great system,
+[14:06.040 --> 14:10.680]  and how much easier does it get than being an all-in-one? And it's still, even with M1,
+[14:10.680 --> 14:12.920]  it's fast. Remember, Apple Silicon's fast.
+[14:12.920 --> 14:19.320]  I had a rough, maybe, first month with the Mac Studio display, not rough, but
+[14:24.520 --> 14:26.760]  I've told this story on the show before, but
+[14:29.640 --> 14:35.800]  I love it, though. Here I am a year later, and I have no idea what's going on, but it's
+[14:35.800 --> 14:44.280]  pretty amazing, isn't it? And people who listen to my show know I have, at certain times of the
+[14:44.280 --> 14:50.840]  year, I get tons of sunlight that hits my desk directly, and it's uncanny the way that I don't
+[14:50.840 --> 14:56.040]  even notice now. It's not like, oh, I can still use my display when the sun is shining on it.
+[14:56.040 --> 15:01.640]  It's like, I don't even notice now. It's not like, oh, I can still use my display when the
+[15:01.640 --> 15:04.920]  sun is shining on it. It's like, I don't even know, and then I hold my hand in front of it,
+[15:04.920 --> 15:10.600]  and it's like, I'm in Raiders of the Lost Ark, and that beam of light is hitting my hand,
+[15:10.600 --> 15:20.120]  and yet when I take it down, I can read my screen. But it does seem, though, that's where
+[15:20.120 --> 15:26.680]  I wonder about the need for an all-in-one like the iMac, because now that Apple is fully back
+[15:26.680 --> 15:33.320]  in the display game with the studio display and the Pro Display XDR at the very truly professional
+[15:33.320 --> 15:42.040]  high end, it just doesn't seem that much more convenient to me to have an iMac with an external
+[15:42.040 --> 15:50.600]  power brick that isn't that much smaller than a Mac Mini and a studio display. But do you think
+[15:50.600 --> 15:57.240]  that the all-in-one still has legs as a, yeah, this is what some people want. They just want to
+[15:57.240 --> 16:02.440]  put it in. I think it totally does. I think the iMac is an incredible consumer desktop,
+[16:02.440 --> 16:07.080]  and you showed the power adapter here, but it's probably down on the ground, conveniently near
+[16:07.080 --> 16:16.760]  your Ethernet port using that. But I think as you get into the higher levels of performance
+[16:16.760 --> 16:22.680]  in the Pro Spaces, I think the benefit of having a Mac Studio solution and a display or a Mac Pro
+[16:22.680 --> 16:31.080]  display or a Mac Mini display really resonates with people. All right. Well, that brings us to
+[16:31.080 --> 16:41.320]  more about the Mac Pro. I don't know if you're aware of this. There are a lot of fans of the Mac
+[16:41.320 --> 16:51.640]  Pro, and a lot of the fans of the Mac Pro seemed, as ever, seems perennially concerned about the
+[16:51.640 --> 16:57.080]  future commitment of Apple to the Mac Pro. We just introduced a new one. Two days ago.
+[16:58.600 --> 17:05.480]  Well, there were. I said were, past tense. There were t-shirts printed up. I don't know if you're
+[17:05.480 --> 17:25.720]  aware of this. We may have seen those. You just gotta believe. But despite outward appearances,
+[17:25.720 --> 17:32.040]  and I do think that if you put a 2019 Mac Pro next to this week's brand new Mac Pro,
+[17:32.040 --> 17:36.840]  they're very hard to distinguish from each other from the outside. The ports are a little
+[17:36.840 --> 17:44.200]  different. I think there's more ports now. More Thunderbolt ports. But you kind of have to,
+[17:44.200 --> 17:53.560]  in photography they call it pixel peeping, you kind of have to port peep to tell them apart.
+[17:53.560 --> 17:56.360]  You'll notice the difference when you're running software, though. I'll guarantee you that.
+[17:56.360 --> 18:06.200]  But internally, it seems like a very different beast from the 2019 Mac Pro. And I'll just start
+[18:06.200 --> 18:14.840]  with RAM. The 2019 Intel model went all the way up to what still seems like a staggering 1.5
+[18:14.840 --> 18:26.760]  terabytes of RAM. And the new Mac Pro is capped at 192 gigabytes. I almost said megabytes.
+[18:26.760 --> 18:39.320]  Which really would date me. Gigabytes. And I'll just point to that as one. That's an eight-fold
+[18:39.320 --> 18:44.280]  difference in maximum RAM capacity. And I'll just point to that as one. And I'll just point
+[18:44.280 --> 18:46.360]  to that as one. That's an eight-fold difference in maximum RAM capacity. And I'm curious,
+[18:52.840 --> 18:54.280]  curious what you have to say about that.
+[18:57.480 --> 19:05.400]  Look, I think the world that we're in now with Apple Silicon is different. If you think about
+[19:05.400 --> 19:09.960]  PC architectures, they've been the same for decades. And one of the things that I think
+[19:09.960 --> 19:15.960]  a lot of people have already found is the way we can leverage memory in our architecture with the
+[19:15.960 --> 19:19.560]  bandwidth and the shared memory, the incredible bandwidth of the shared memory architecture,
+[19:21.160 --> 19:25.240]  you don't need as much memory for kind of comparable performance as you did in some
+[19:25.240 --> 19:30.680]  of those other systems. And with that 192 gigabytes, I mean, you say, yes, it's less
+[19:30.680 --> 19:38.120]  than the 1.5 terabytes, but it's way more memory for the GPU than any GPU ever had before. So
+[19:38.120 --> 19:43.480]  a lot of it depends on kind of, you get the overall view of the system, look at the workflows
+[19:43.480 --> 19:47.480]  and figure out how you're optimizing for things, which means, but of course you could run stuff
+[19:47.480 --> 19:52.760]  here. You can run anywhere else. You can't run on the old Mac Pro. You can't run on a PC,
+[19:52.760 --> 19:56.200]  you know, that unified memory is a huge advantage for us. Big, big deal for us.
+[19:56.200 --> 20:02.760]  Right. I think DaVinci Resolve is one of the ones that comes up as a, this isn't possible,
+[20:02.760 --> 20:11.160]  you know, that there are things you can do, you know, and again, not like a made up benchmark,
+[20:11.160 --> 20:15.960]  real pro workflows with, you know, it's not a matter of just running faster,
+[20:15.960 --> 20:23.320]  you just can't run them anywhere else. Right. But then I guess the other thing,
+[20:23.320 --> 20:33.080]  other than the RAM limitation is that it no longer has expandable graphics. Now the difference,
+[20:33.080 --> 20:40.040]  the primary difference between the Mac Pro, which has the M2 Ultra and a Mac Studio with the M2
+[20:40.040 --> 20:47.080]  Ultra is expandability, right? There's no PCI expansion at all in the Mac Studio because it's
+[20:47.080 --> 20:56.360]  a cute little adorable box. It is adorable. It is. It really, who said the cube was a bad form
+[20:56.360 --> 21:03.320]  factor? I mean, it's a good shape, right? It's a very nice shape. But even with this PCI expansion,
+[21:03.320 --> 21:08.360]  that does not include graphics. And so there are, so certainly there, you clearly didn't design
+[21:08.360 --> 21:14.760]  this for nobody. There are people who need this. But, you know, there are people who need this.
+[21:14.760 --> 21:23.800]  But graphics is not included. And I'm just curious what some of the use cases,
+[21:23.800 --> 21:30.040]  I know one of the examples you guys quoted in the keynote was being able to input 24 streams
+[21:30.040 --> 21:36.200]  of 4K video simultaneously. What are some of the other use cases? What is something else
+[21:36.200 --> 21:42.840]  where somebody would say, no, I need the Mac Pro, not an M2 Ultra Mac Studio? Well, there's
+[21:42.840 --> 21:48.520]  some use cases in audio workflows, some other workflows where just a massive amount of super
+[21:48.520 --> 21:54.920]  high-speed storage is really key. And so bringing kind of high-speed storage on PCI can do that and
+[21:54.920 --> 22:03.080]  enable things that you'd struggle a bit more to do on a Studio. And some of the color grading
+[22:03.080 --> 22:08.440]  workflows on some of the big projects require incredibly fast networking, right? And so custom
+[22:08.440 --> 22:13.160]  networking cards to be able to do that. So there's a bunch of different things. And I think, again,
+[22:13.720 --> 22:20.440]  the people have built whole workflows and whole infrastructure around PCI cards and all of that.
+[22:20.440 --> 22:25.560]  And so what we were able to do here is bring all the benefits of Apple Silicon to that workflow
+[22:25.560 --> 22:29.560]  and to that infrastructure. And it'll just plug right in and go. And we've done a ton of work
+[22:29.560 --> 22:34.760]  working with the card manufacturers to make sure they're ready to go on day one. And we think,
+[22:34.760 --> 22:38.600]  yeah, we think people are gonna be really thrilled with it. Still rack configuration you can do?
+[22:38.600 --> 22:44.920]  Yeah. One, I mean, obviously, industry-wide, the theme of the year clearly is AI and
+[22:46.520 --> 22:54.520]  AI training. And that whole area, it seems like all of the compute takes place on graphic cards.
+[22:56.280 --> 23:02.760]  And so I'm just wondering, with this design, with this new Mac Pro, what is the message to
+[23:02.760 --> 23:12.040]  Mac users, Pro Mac users who are looking to experiment, or if that's their work, to do
+[23:12.840 --> 23:19.800]  their own AI training? Is the idea that they're best off renting GPUs in the cloud and doing that,
+[23:20.600 --> 23:24.600]  that that's not something you envision as something you do on the desktop in front of you?
+[23:26.360 --> 23:30.120]  Is the answer that they should buy a Windows PC? I mean, that doesn't...
+[23:30.120 --> 23:37.720]  That's never the answer.
+[23:37.720 --> 23:40.120]  I mean, I think, Jaws, you can jump in.
+[23:40.120 --> 23:45.880]  Yeah. Once again, Jaws. If only Craig were here to help us.
+[23:48.760 --> 23:54.120]  Look, NVIDIA is doing a good job with that. There's no doubt about it. We wanted to focus on the
+[23:54.120 --> 23:59.160]  things that are most important to our customers, and we do those things well. John talked about it.
+[23:59.160 --> 24:03.720]  And the things we can do with our unified architecture and with our M2 Ultra are things
+[24:03.720 --> 24:07.800]  that nobody else can do and no other personal computer can do. And so we have our strengths.
+[24:07.800 --> 24:13.400]  They have theirs. They're doing a good job. Great for them, but we've got stuff that no one else
+[24:13.400 --> 24:22.360]  can do. Are there technical barriers to having expandable graphics through PCI that would be
+[24:22.360 --> 24:29.480]  only used for compute as opposed to video? Or is that just a design choice?
+[24:30.760 --> 24:35.800]  I think, I mean, fundamentally, we've built our architecture around this shared memory model
+[24:35.800 --> 24:41.720]  and that optimization. And so it's not entirely clear to me how you'd bring in another GPU and
+[24:41.720 --> 24:47.320]  do so in a way that is optimized for our systems. It just hasn't been a direction that we wanted
+[24:47.320 --> 24:51.800]  to pursue. I mean, I guess what I'm hearing is that it basically comes down to that Apple
+[24:51.800 --> 25:02.040]  Silicon is such, at an architectural level, is so different from PCs as we know them, including
+[25:03.400 --> 25:10.360]  pre-Apple Silicon Macs. I mean, not just Intel ones, but going back to PowerPC or even further.
+[25:14.040 --> 25:19.880]  And we're still so early in the Apple Silicon era for desktop computing
+[25:19.880 --> 25:24.360]  that we're still seeing where this is ultimately going to go, right? These are the earliest days
+[25:24.360 --> 25:29.400]  of Apple Silicon with a long road ahead, but it really is a very different way of thinking
+[25:30.280 --> 25:36.040]  where shared memory isn't a, oh, but that's because it's a low-end consumer laptop. That's
+[25:36.040 --> 25:41.640]  why there's shared memory between the CPU and GPU. No, in Apple Silicon, shared memory is an
+[25:41.640 --> 25:47.800]  incredible performance boost because you're not making copies when something that was being used
+[25:47.800 --> 25:53.560]  by the CPU, now the GPU needs to access the same massive amount of data.
+[25:53.560 --> 25:59.240]  Yeah, and the CPU can get unbelievable bandwidth and the GPU can get unbelievable capacity of
+[25:59.240 --> 26:03.800]  memory and it enables, like we talked about, these workflows, these kind of use cases, workflows,
+[26:04.440 --> 26:09.800]  models that you couldn't do before. And I think you said it. We're on our first or second
+[26:09.800 --> 26:16.040]  generation of Apple Silicon products across the line. And as we dig in and we work with
+[26:16.040 --> 26:20.840]  third-party developers and our own, certainly our internal developers, and we look to drive
+[26:20.840 --> 26:25.800]  optimizations, a lot of times when we find performance bottlenecks, sometimes it informs
+[26:25.800 --> 26:30.520]  what we want to do on the silicon. Sometimes it's actually, there's some fairly straightforward
+[26:30.520 --> 26:34.840]  optimizations that we go do and we see big leaps in performance. And I think a lot of our pro users,
+[26:34.840 --> 26:39.160]  I think, have been seeing that in some of these tools. You mentioned DaVinci Resolve and others
+[26:39.160 --> 26:44.280]  where it's not stagnant. We're getting better and better even on the same level of performance.
+[26:44.280 --> 26:49.240]  We're getting better and better even on the same platform as we continue to find these optimizations.
+[26:49.240 --> 26:55.960]  Yeah, one of the things, and again, the 13 minutes of keynote time really went by fast, but
+[26:55.960 --> 27:03.560]  the numbers are, it takes me back to my youth of hearing numbers like this, like the original
+[27:03.560 --> 27:10.280]  MacStudio with the M1 family of chips was last year. And it's not exactly 12 months. It's more
+[27:10.280 --> 27:19.640]  I guess 14 or 15 months, but still calendar year over year, you're quoting performance improvements
+[27:19.640 --> 27:29.160]  of 25% for this, 30% for this, 50% for something, something got up to 50%, which just seems bananas
+[27:29.160 --> 27:38.040]  to me based on the last decade plus of Moore's law coming to an end for lack of a better term.
+[27:38.040 --> 27:42.440]  I mean, performance was growing very slowly. That's one of the reasons we had to make a change.
+[27:42.440 --> 27:48.760]  And that's why you see, you're right. I mean, it's 20, 30, 40% improvements year on year,
+[27:48.760 --> 27:52.120]  but we still love the improvements of where we were with the previous platform. I mean,
+[27:52.120 --> 27:57.720]  we talked about MacBook Air is 12 times faster than the fastest Intel-based MacBook Air we had.
+[27:57.720 --> 28:01.240]  That's nuts. That's bananas, right? I mean, that's incredible.
+[28:01.240 --> 28:06.280]  So I think, sorry, just one other point on that that I think is worth making is like, for us,
+[28:06.920 --> 28:12.360]  one of the reasons why we can do that is because we're looking at this whole thing as a system.
+[28:12.360 --> 28:18.920]  It's the software, it's the silicon, it's, you know, we get to like, look at where we want to go
+[28:18.920 --> 28:24.040]  and drive these architectures and these solutions. And so it's not just about, you know, do we have
+[28:24.040 --> 28:28.040]  more teraflops? Or do we have more of this? Or do we have more of that? It's can we take that
+[28:28.040 --> 28:32.120]  particular workflow, that particular job that someone has to do? And can we make that 30%,
+[28:32.120 --> 28:37.480]  40%, 50% faster? It's really liberating to be able to work together with the team and go after
+[28:37.480 --> 28:46.680]  those specific things. I guess just to wrap up this pro segment, I'll just try to speak
+[28:46.680 --> 29:03.720]  from the perspective of the Mac Pro fans. And I think that looking at a Mac Pro that obviously
+[29:03.720 --> 29:08.440]  has significant, significant expansion, expandability features. I mean, Matthew
+[29:08.440 --> 29:13.080]  Panzareno was telling me yesterday that some of these PCI cards cost like five, six thousand
+[29:13.080 --> 29:20.280]  dollars each and people are going to max out all six slots. So if you're putting 35, $40,000 of
+[29:20.280 --> 29:28.360]  PCI cards into a machine, a $6,000 machine actually isn't that I have a starting point.
+[29:28.360 --> 29:35.000]  I mean, it's a very serious computing needs that these people have. But what if your concern is
+[29:35.000 --> 29:44.840]  that what you want is you want Apple to be making the fastest CPUs in personal computing, period,
+[29:44.840 --> 29:54.040]  full stop. And I know that Apple Silicon's at the very highest level, the advantage that it has,
+[29:54.040 --> 29:59.960]  the profound advantage that seems to, if anything, only be growing is performance per watt and
+[29:59.960 --> 30:05.880]  performance at the, you know, at almost every other tier is also good on its own. It's not just,
+[30:05.880 --> 30:09.640]  oh, performance per watt is great and you're going to get this great efficiency and battery
+[30:09.640 --> 30:14.680]  life. But yeah, it's fast. It's fast, fast, fast. And everything is snappy. But what if what you
+[30:14.680 --> 30:20.520]  really want is for Apple to make the race car of computing? Is that still something that you guys
+[30:20.520 --> 30:26.440]  are like hungry for? Yeah. And I think I think I mean, we kind of touched on it before. There's
+[30:26.440 --> 30:30.520]  you can say you want to make the most performant thing. There's a bunch of different ways to look
+[30:30.520 --> 30:35.720]  at that. And, you know, we clearly have examples where we are hands down the most performant
+[30:35.720 --> 30:40.760]  solution with M2 Ultra. And so we want to keep pushing on those. We want to find other areas
+[30:40.760 --> 30:45.400]  that we can we can make better. But I don't think we want to get, you know, all hung up on
+[30:45.960 --> 30:49.960]  kind of the legacy architecture of how many of this do you have? How many of that do you have?
+[30:49.960 --> 30:53.320]  Because we're bringing real benefit that's measurable that people can see.
+[30:53.320 --> 31:00.840]  All right, now let's, let's talk about some fun. And that's gaming. Yeah. No, I mean, I mean,
+[31:00.840 --> 31:03.960]  why else are you playing games? We think it's all fun, John.
+[31:08.920 --> 31:16.840]  But there seems to be a bit of with the the segment in the keynote with Death Stranding
+[31:16.840 --> 31:24.200]  and Hideo Kojima. Yeah, Kojima-san, how cool is that?
+[31:26.200 --> 31:32.120]  Awesome, guys. It looks awesome. And I, you know, I'm not a serious gamer, but I could tell
+[31:32.680 --> 31:37.880]  from my perspective in the audience when he came on stage and all these people started clapping,
+[31:37.880 --> 31:43.720]  he's like, oh, he must be somebody. He's somebody. He's somebody.
+[31:43.720 --> 31:48.200]  But there seems to, there feels to me like a little bit of deja vu with this. Like,
+[31:48.200 --> 31:55.880]  I've heard this before. Like, it's not like you guys have suddenly started trying to gain traction
+[31:55.880 --> 32:03.000]  in gaming desktop or PC gaming with the Mac this year. It, I've heard this before. And other
+[32:03.000 --> 32:08.440]  developers with other games have been featured in keynotes. I'm not sure if you guys have seen
+[32:08.440 --> 32:13.880]  this, but I've heard this before. And other developers with other games have been featured
+[32:13.880 --> 32:25.640]  in keynotes. And it almost seems like mysterious to me why, whether it's Mac gaming gaining traction
+[32:25.640 --> 32:34.200]  or any other company, you know, what games traction that seemingly deserves to and other
+[32:34.200 --> 32:40.520]  in the marketplace, but seemingly don't deserve to. It sometimes seems like a mystery and Mac
+[32:40.520 --> 32:44.440]  gaming seems like one of those to me. This shouldn't be a mystery. I mean,
+[32:44.440 --> 32:50.760]  the physics have changed substantially, right? We used to only have a limited amount of Macs
+[32:51.320 --> 32:58.920]  that we made that could really do high-end gaming. And the difference is now every Mac that we sell
+[32:58.920 --> 33:03.720]  is capable of doing high-end gaming because of what we've done with Apple Silicon, because
+[33:03.720 --> 33:09.320]  we've done with our unified memory, our GPUs. They are, so the economics for game developers
+[33:09.320 --> 33:14.840]  has changed substantially, right? And the performance for our users and those game
+[33:14.840 --> 33:21.000]  developers has changed substantially. And just like Coach Ma said, and we said, it's a new era
+[33:21.000 --> 33:25.560]  for Mac gaming that just truly has never existed before like this. It's a big deal.
+[33:25.560 --> 33:35.960]  And there's a lot of excitement internally about it. Yeah, someone's talking. I mean,
+[33:35.960 --> 33:39.880]  I think Jaws is right. I think it's a super exciting time for the Mac. It's obviously
+[33:39.880 --> 33:44.840]  very much the beginning. We've got, you know, work to do, but we've got developers that are
+[33:44.840 --> 33:49.880]  very excited. I mean, not just Kojima-san, we've got a lot of developers who are seeing what they
+[33:49.880 --> 33:55.800]  can do with their games. And as Jaws said, a MacBook Air is in a great game machine now.
+[33:55.800 --> 34:03.960]  That was not the case, you know, five years ago, two years ago. So, I think it has fundamentally
+[34:03.960 --> 34:10.520]  changed and we're very excited about it. Right. I mean, I'm thinking what is, what's
+[34:10.520 --> 34:15.320]  left with an M1? There's the iMac, which we mentioned, and there's still the, it's now the
+[34:15.320 --> 34:22.040]  999 M1 MacBook Air, right? And that's what you're talking about. It's a very capable game machine.
+[34:22.600 --> 34:33.240]  Right. And if somebody publishes an Apple Silicon Mac game, the slowest Mac is that MacBook Air,
+[34:33.240 --> 34:40.360]  and that's really good graphics performance and it's sort of unparalleled for a 999 laptop.
+[34:40.360 --> 34:44.360]  Yeah. And there's a lot of advantages to the fact that we share so much across our platforms
+[34:44.360 --> 34:48.680]  as well, you know, including Metal. But, you know, we sell a lot of iPads.
+[34:48.680 --> 34:51.960]  I was just about to say, and some of those iPads have M1s as well.
+[34:51.960 --> 34:56.760]  There's a lot of work that developers can do that gets used in multiple places. And so that,
+[34:56.760 --> 34:59.960]  again, has been working in our Mac's favor. Right. And then you're talking about a bigger
+[34:59.960 --> 35:07.000]  24-inch screen, which is, you know, much more fun for gaming than a 13-inch laptop display.
+[35:07.640 --> 35:12.680]  It's all fun, John. It's all fun. And I think having that game,
+[35:12.680 --> 35:16.200]  having that gaming potential in a device as thin and light as a MacBook Air,
+[35:16.200 --> 35:18.760]  as thin and light as an iPad, that's really powerful.
+[35:18.760 --> 35:24.920]  Yeah. And then, but the other thing, you know, and there's the old adage that if you,
+[35:25.800 --> 35:30.520]  the definition of insanity is repeating the same steps and expecting a different outcome.
+[35:32.360 --> 35:38.040]  The doing something different to maybe prompt or accelerate a different outcome,
+[35:38.040 --> 35:45.160]  and it really fits in at WWDC, a developer's conference, is this, the game porting toolkit,
+[35:46.120 --> 35:51.480]  which seems, you know, again, flew by. Kind of melting the internet right now is
+[35:51.480 --> 35:53.240]  what I've been told. Yeah. Really?
+[35:59.720 --> 36:06.840]  When features fly by in a keynote, especially a packed keynote, it's hard to sometimes tell
+[36:06.840 --> 36:11.160]  which ones are, hey, this is really, really cool, but it's, you know, it's just a nice little thing,
+[36:11.160 --> 36:14.280]  like better stickers. You know, I'm not putting down the sticker.
+[36:15.720 --> 36:18.680]  It's all fun, John. It's all fun.
+[36:20.360 --> 36:25.800]  It's all fun. But I don't think anybody cares as much about their stickers as
+[36:26.760 --> 36:31.880]  gamers care about games, right? Like nobody really, you know, people identify as gamers.
+[36:31.880 --> 36:35.720]  My son would say, yeah, I'm a gamer. I don't think anybody says they're a stickerer.
+[36:35.720 --> 36:40.840]  A fish, you know. I'm a sticker head, you know.
+[36:42.920 --> 36:47.720]  It started here today. I mean, people are really into games,
+[36:47.720 --> 36:54.520]  and it seems to me like the game porting toolkit is a major, major thing for game developers,
+[36:54.520 --> 37:00.600]  and it's sort of a, to borrow, if you build it, they will come from the field of dreams,
+[37:00.600 --> 37:05.960]  where you make a nice ballpark, and then dead ghost ball players will show up.
+[37:05.960 --> 37:07.000]  It's just like that.
+[37:09.000 --> 37:16.680]  But if you and your team spend years making a truly innovative computer architecture
+[37:16.680 --> 37:22.840]  with industry-leading silicon and performance and price for performance, you've built it.
+[37:23.800 --> 37:30.040]  It's not enough, this is what I'm thinking, to really accelerate Mac gaming to the forefront,
+[37:30.040 --> 37:36.600]  and the gaming toolkit is sort of like you're building public transit so that they do come.
+[37:36.600 --> 37:39.960]  You know, you'll bring them, you'll bring the game developers to this platform.
+[37:40.520 --> 37:43.880]  Yeah, I think that's, I mean, I certainly hope that's true. I think that, you know,
+[37:43.880 --> 37:50.680]  the Apple silicon story is the foundation to make this possible. It requires a lot of work from a
+[37:50.680 --> 37:54.600]  lot of teams, and obviously the software team has been doing some amazing work there. We got
+[37:54.600 --> 37:59.480]  game mode coming on the Mac, and over the past couple years, the controller support that we've
+[37:59.480 --> 38:03.880]  added for gaming has been a really big deal. So yeah, it's just a constant progress.
+[38:04.760 --> 38:09.720]  Well, I could talk to you for another hour, but we unfortunately don't have time.
+[38:09.720 --> 38:10.520]  You got somebody better.
+[38:13.480 --> 38:14.920]  No, nobody's better.
+[38:14.920 --> 38:30.280]  But, I thank you. Everybody, let's hear it for John Ternes.
+[38:34.840 --> 38:36.280]  I refuse to leave, John.
+[38:37.880 --> 38:39.400]  I thought that went pretty well.
+[38:39.400 --> 38:44.280]  Until you say everything's fun, I won't leave.
+[38:44.280 --> 38:49.560]  Well, my next guest, given this week's announcement, is a shocking surprise.
+[38:49.560 --> 39:18.920]  Ladies and gentlemen, please give it up for Mike Rockwell.
+[39:18.920 --> 39:27.640]  Now, Mike, you were here on stage with me in 2018 at WWDC. That was a very fun show, I believe.
+[39:27.640 --> 39:28.120]  I was here.
+[39:28.120 --> 39:28.920]  I believe you were here.
+[39:30.920 --> 39:31.800]  I'm on retainer.
+[39:35.240 --> 39:42.920]  Have you been busy?
+[39:42.920 --> 39:52.920]  Every WWDC since 2018, well, maybe not 2019, because it kind of felt like, okay,
+[39:52.920 --> 40:02.200]  you know, that was a nice change. The underlying theme clearly was that Apple is laying
+[40:02.200 --> 40:13.880]  a foundation with ARKit at the time for more than just doing AR on a phone or on an iPad.
+[40:13.880 --> 40:17.640]  It seemed very clear. It turns out you were.
+[40:17.640 --> 40:19.640]  That was true.
+[40:19.640 --> 40:28.440]  Let me just start by that. How gratifying is it to actually get VisionOS and Vision Pro out in the world?
+[40:28.440 --> 40:48.040]  You know, so many teams across all of Apple worked so hard for so long to get this product out.
+[40:48.040 --> 41:02.600]  It was kind of like, you know, we had the silicon engineering team and the software engineering team
+[41:02.600 --> 41:07.640]  and Craig's org and John Ternus's team and my team and the Siri team.
+[41:07.640 --> 41:13.400]  It was really every single engineering team at Apple who has worked on this product.
+[41:13.400 --> 41:16.920]  And so it was a great relief. It was a little bit like birthing a porcupine.
+[41:16.920 --> 41:21.560]  So, you know, we made it happen.
+[41:21.560 --> 41:27.800]  But we're incredibly excited by the reaction to the product.
+[41:27.800 --> 41:32.200]  And we just can't wait to get it in folks' hands.
+[41:32.200 --> 41:48.200]  I think the single, maybe single most surprising aspect is that the name was kept completely secret.
+[41:48.200 --> 41:50.200]  We told no one.
+[41:50.200 --> 41:54.200]  I didn't know the name until Monday.
+[41:54.200 --> 41:58.200]  We refuse to tell anybody because, you know, you don't tell anybody, no one can tell.
+[41:58.200 --> 42:10.200]  I'm just waiting, though, for you guys to slip up because I know that you guys both have years of experience of talking about this product and never mentioning that name.
+[42:10.200 --> 42:16.200]  I mean, it's yeah, I feel like I remember Mike before we got here. Don't say the code.
+[42:16.200 --> 42:20.200]  I know. All I've been saying is code names for the last eight years.
+[42:20.200 --> 42:26.200]  And on Monday, I got the cheat sheet of, OK, now I got to memorize all this stuff and reprogram my brain.
+[42:26.200 --> 42:28.200]  I will try not to screw up.
+[42:28.200 --> 42:38.200]  Because one of the, to me, very endearing aspects of Apple's internal culture is that you give everything code names.
+[42:38.200 --> 42:43.200]  But then you also treat the code names as secret.
+[42:43.200 --> 42:46.200]  And sometimes we have multiple code names because, you know, I got to keep you on your toes.
+[42:46.200 --> 42:49.200]  We actually have code names for the code names.
+[42:49.200 --> 42:56.200]  So you can neither confirm nor deny that it was in 301.
+[42:56.200 --> 43:03.200]  Apple Vision Pro, Apple Vision Pro.
+[43:03.200 --> 43:06.200]  I do know. I mean, and it's no surprise.
+[43:06.200 --> 43:16.200]  And I could sit here and ask you 50 questions that you won't answer because the specs that you've revealed, it's a product that is coming next year or early next year.
+[43:16.200 --> 43:28.200]  I forget what. Early next year. OK. Define early.
+[43:28.200 --> 43:35.200]  It's before late.
+[43:35.200 --> 43:38.200]  You heard it here first.
+[43:38.200 --> 43:43.200]  But people have all sorts of very reasonable, very intriguing questions.
+[43:43.200 --> 44:05.200]  I'll get back to it, but I'm incredibly fortunate enough to have been on the list of media people who got the 30 minute guided tour through an amazing amount of stuff.
+[44:05.200 --> 44:13.200]  And by the way, that's how you were when you walked out the demo. I know I'm already I started thinking about it again and I got lost.
+[44:13.200 --> 44:17.200]  I saw JAWS after my demo and he's like, what do you think? And I usually I have an answer to what you think.
+[44:17.200 --> 44:24.200]  And I was like.
+[44:24.200 --> 44:36.200]  But again, questions about frame rates and maximum nits and all this stuff, if it's not there on the Web page that you'll notice, at least I noticed there's no tech specs tab yet.
+[44:36.200 --> 44:42.200]  And I love that Apple still puts a tech specs tab up on all shipping products.
+[44:42.200 --> 44:47.200]  And I think that's great. And, you know.
+[44:47.200 --> 44:55.200]  So I'm not going to waste time asking frame rate nits, blah, blah, blah. Or if you slip up and let some of that out.
+[44:55.200 --> 45:04.200]  We have enough of each.
+[45:04.200 --> 45:17.200]  But I really can't think of a better way to go through it with them by going through everything that I saw when I got to experience it, which was emphasized, everything you see, you can talk about, write about.
+[45:17.200 --> 45:25.200]  You know, it's this is what we're revealing. And we stick to that. I can keep you here for three hours.
+[45:25.200 --> 45:37.200]  So we got to go through it. But part of it, the first part was the setup. And it it is it's a it's just the nature of of the beast, that it is a different sort of setup.
+[45:37.200 --> 45:42.200]  But it really wasn't that it didn't take that long. Right.
+[45:42.200 --> 45:45.200]  It's and it's primarily eye tracking. Yeah.
+[45:45.200 --> 45:56.200]  I mean, you know, the input system is a set of machine learned networks and we need to know about you a little bit and not a lot, but just a little bit.
+[45:56.200 --> 46:00.200]  So the first thing we want to do is understand a little bit about your hands.
+[46:00.200 --> 46:06.200]  All you have to do is hold them up for just a few seconds. And we have that's all we need.
+[46:06.200 --> 46:09.200]  And then we're able to accurately track your hands for input.
+[46:09.200 --> 46:17.200]  And then for for eye tracking, we we want it to be incredibly precise.
+[46:17.200 --> 46:22.200]  So we run you through a little bit of an exercise that you only have to do once when you get the product.
+[46:22.200 --> 46:27.200]  It's pretty fast. And it's fast. And once you've done that, you as long as you have the product, you don't have to do it again.
+[46:27.200 --> 46:31.200]  You don't have to do it every time you put it on. Nothing like that.
+[46:31.200 --> 46:37.200]  But once we have those two, then you really now have what you need to start to use the product.
+[46:37.200 --> 46:44.200]  It's magic. I mean, you saw it. I mean, I think the first time anybody does it, you're like, wow, it did exactly what it was supposed to do.
+[46:44.200 --> 46:47.200]  You look at something, you tap your fingers and it did it.
+[46:47.200 --> 46:51.200]  And Mike's team has been really kind of making sure I have units and all that.
+[46:51.200 --> 46:57.200]  And I've used it for months. Every day I use it, I'm like, how does it do that?
+[46:57.200 --> 46:59.200]  It's just magic. I mean, it's just it's magic.
+[46:59.200 --> 47:05.200]  Well, but there is at least, you know, I know the software is not finished or anything's finished,
+[47:05.200 --> 47:12.200]  but it's but it is it's almost a cinematic experience with the first run where the eye tracking stuff and the put,
+[47:12.200 --> 47:19.200]  you know, there's two phantom hands and you just put your hands to match them, like you said, is against a black background.
+[47:19.200 --> 47:25.200]  So you've got the thing on with the light shield and you just see black and there's these dots that you look at and then the hands.
+[47:25.200 --> 47:30.200]  But then you're done. And then here you are. And it's the world around you.
+[47:30.200 --> 47:39.200]  Right. And that is it is a very cinematic sort of, you know, the movie opens with black title cards and then boom,
+[47:39.200 --> 47:43.200]  you're in the movie and it's like we agonize over those details.
+[47:43.200 --> 47:47.200]  Right. We want that experience to be special from the very first second.
+[47:47.200 --> 48:01.200]  And the human interface design team did an amazing job designing an absolutely.
+[48:01.200 --> 48:07.200]  But I'll start with that, though, like that first. And there's nothing on screen except that you see the world around you.
+[48:07.200 --> 48:14.200]  So I mean, I was from my demo in like a little fake living room with someone from product marketing.
+[48:14.200 --> 48:19.200]  And of course, somebody there to make sure nothing goes wrong from PR.
+[48:19.200 --> 48:23.200]  But I'm just looking, looking at the room.
+[48:23.200 --> 48:34.200]  And what I didn't expect was that it wasn't like almost exactly what I see with my eyes without the headset on.
+[48:34.200 --> 48:44.200]  But it was exactly like so if I had it on right now and I'm looking at you two and then I lifted it up, nothing changes.
+[48:44.200 --> 48:52.200]  There's no change in perspective, no change in how wide, how narrow.
+[48:52.200 --> 49:00.200]  And I say that and as some lay person would say, well, duh, that's obviously how you'd want it to be.
+[49:00.200 --> 49:08.200]  But to me, that seems like a thousand impossible engineering problems from it was a thousand impossible engineering problems.
+[49:08.200 --> 49:17.200]  But at least, at least, you know, I mean, we have that insane idea that we wanted to make a product,
+[49:17.200 --> 49:20.200]  a spatial computer that allowed you to be in the space that you're in.
+[49:20.200 --> 49:27.200]  That was the starting point. And that generated a whole incredible list of things that we had to solve.
+[49:27.200 --> 49:30.200]  We had to make displays that were incredibly high resolution.
+[49:30.200 --> 49:34.200]  We had to make cameras that matched exactly that field of view.
+[49:34.200 --> 49:45.200]  We had to come up with a new piece of custom Apple Silicon R1 that could take those cameras and process them in such a short time that it's below your threshold of perception.
+[49:45.200 --> 49:50.200]  So you snap your fingers and it's instant. It feels like you're there.
+[49:50.200 --> 49:55.200]  And yeah, there was quite a lot of work to make that have that experience.
+[49:55.200 --> 49:59.200]  It's just not 99 percent similar perspective.
+[49:59.200 --> 50:04.200]  It is 100 percent the natural perspective and that that's uncanny.
+[50:04.200 --> 50:08.200]  You don't see pixels.
+[50:08.200 --> 50:20.200]  And I can't help but think that for your team and the era that that your team started building this, you know, like I said, you were here on the show talking about our kit five years ago.
+[50:20.200 --> 50:30.200]  Obviously, this was whether this is exact, you know, nothing's exactly as you plan five years in advance, but you're building towards a new platform based on this.
+[50:30.200 --> 50:36.200]  But it just strikes me that the first run experience, really, there's no UI Chrome until you start doing something.
+[50:36.200 --> 50:44.200]  You're just seeing, you know, there were there were these guiding principles that we had in development of this product that we wanted to achieve.
+[50:44.200 --> 50:52.200]  The first one was we wanted it to be useful and we wanted to build an incredibly powerful tool, not a toy.
+[50:52.200 --> 50:57.200]  And that drove a whole set of decisions around making these displays that have incredible resolution.
+[50:57.200 --> 51:01.200]  So you can render text so that that's a big deal, right?
+[51:01.200 --> 51:15.200]  If you ever use it, you know, other things when you see it firsthand, it's astonishing because you look at a window, a safari window, and you can read the finest point text on there and it looks super cool.
+[51:15.200 --> 51:19.200]  And it not only looks crisp when you're viewing it straight there, you can go off angle.
+[51:19.200 --> 51:28.200]  And if any of you've ever tried to do text on a 3D system where there's not a one to one relationship between the pixels and the image, it's not an easy thing to do.
+[51:28.200 --> 51:40.200]  And so we had to invent entirely new glyph rendering mechanism to be able to do that.
+[51:40.200 --> 51:45.200]  But one of the second most important principles to us was we wanted you to be connected.
+[51:45.200 --> 51:55.200]  We wanted this device to not isolate you from anybody that you were with and connect you both in the room and at a distance.
+[51:55.200 --> 51:59.200]  And so that drove us to do, you know, two incredibly important technologies.
+[51:59.200 --> 52:09.200]  One was the ability to do pass through video at exactly the same resolution at exactly the right angles and with great dynamic range and just looking amazing.
+[52:09.200 --> 52:18.200]  But also to have people be able to see you and the device, which was a whole other interesting challenge and innovation, because, of course, you know, you have displays in front of your eyes.
+[52:18.200 --> 52:21.200]  So how do you make it possible for people to see your eyes?
+[52:21.200 --> 52:26.200]  And then we had to invent an entirely new way to be able to work with folks at a distance.
+[52:26.200 --> 52:37.200]  And all of those things came together to, you know, to be able to make this product that's really different and new and allows for possibilities that are super exciting.
+[52:37.200 --> 52:43.200]  All right. Kudos to the marketing team for the name EyeSight.
+[52:43.200 --> 52:52.200]  All right. I mean, yes, Apple invented EyeSight.
+[52:52.200 --> 52:55.200]  But it works. It's a perfect name for the future.
+[52:55.200 --> 53:00.200]  You didn't want the code name. I'll tell you that.
+[53:00.200 --> 53:03.200]  It's a number I got.
+[53:03.200 --> 53:06.200]  I thought it was going to be like googly eyes.
+[53:06.200 --> 53:07.200]  It's just a number.
+[53:07.200 --> 53:11.200]  Slinky eyes.
+[53:11.200 --> 53:16.200]  No, but it even harks back to an older Apple product, the EyeSight camera.
+[53:16.200 --> 53:18.200]  Right. And that's like an inside joke.
+[53:18.200 --> 53:23.200]  And it would have been a great name even if that didn't exist. But it's really pretty cool.
+[53:23.200 --> 53:25.200]  I did not get to experience that.
+[53:25.200 --> 53:31.200]  EyeSight, I mean, number one, because I was the one wearing the helmet or not the helmet, the headset.
+[53:31.200 --> 53:33.200]  I'm the one wearing it. So I couldn't see myself.
+[53:33.200 --> 53:35.200]  I don't even know if it was on yet.
+[53:35.200 --> 53:37.200]  And nobody, you know, I didn't get to see that yet.
+[53:37.200 --> 53:45.200]  But when that was rumored as one of the features, I was skeptical because I thought, well, what about parallax?
+[53:45.200 --> 53:53.200]  I could imagine that you'd make it so that if I'm looking at you straight on, sure, your eyes painted on the front are fine.
+[53:53.200 --> 53:55.200]  But then I go over here.
+[53:55.200 --> 53:57.200]  That does not work if you do it that way.
+[53:57.200 --> 53:58.200]  Right. And I thought so.
+[53:58.200 --> 54:00.200]  It looks very strange if you do that.
+[54:00.200 --> 54:03.200]  We don't do that.
+[54:03.200 --> 54:06.200]  Well, why don't you talk about your lenticular system?
+[54:06.200 --> 54:13.200]  Yeah. So what we did, we needed to create a separate view for anybody looking at you from any angle.
+[54:13.200 --> 54:20.200]  So we created a lenticular display, the very first curved lenticular display that's ever been made.
+[54:20.200 --> 54:27.200]  And we actually render separate views of your eyes for every person who is looking at you.
+[54:27.200 --> 54:28.200]  I'm not joking.
+[54:28.200 --> 54:29.200]  That's actually what goes on.
+[54:29.200 --> 54:39.200]  And so what happens is we're able to place the rendering position back at your eyes and when you do your enrollment for your persona, it's exactly you.
+[54:39.200 --> 54:41.200]  And it is exactly what you're doing.
+[54:41.200 --> 54:43.200]  We're not like using AI to blink for you or anything.
+[54:43.200 --> 54:46.200]  It's exactly how you're looking when you're squinting wherever you're looking.
+[54:46.200 --> 54:48.200]  It is what you're doing.
+[54:48.200 --> 54:49.200]  And it's instant.
+[54:49.200 --> 54:51.200]  The latency is essentially zero.
+[54:51.200 --> 54:55.200]  So you can have a natural interaction with anybody as they walk in.
+[54:55.200 --> 54:58.200]  And it's it's really astounding.
+[54:58.200 --> 55:04.200]  I mean, it's something that I think when folks see it, people feel like the device is transparent.
+[55:04.200 --> 55:06.200]  It just looks like it's transparent.
+[55:06.200 --> 55:11.200]  And it makes it so that you don't feel disconnected from people.
+[55:11.200 --> 55:14.200]  And it was really a fundamental core value of what we were trying to do.
+[55:14.200 --> 55:20.200]  Don't make me cut off the open bar next year, people.
+[55:20.200 --> 55:24.200]  They're drinking already.
+[55:24.200 --> 55:30.200]  Or maybe maybe we'll switch the plastic cups.
+[55:30.200 --> 55:36.200]  But you mentioned that it's about isolation or avoiding isolation because it seems.
+[55:36.200 --> 55:43.200]  And I've experienced it and I don't have anywhere near as much experience using other VR headsets as even my son.
+[55:43.200 --> 55:51.200]  Certainly you guys who did all the product research, I'm sure you're intimately familiar with everything, but I've used them enough that it is isolating.
+[55:51.200 --> 56:00.200]  And isolating and disorienting, where you put them on.
+[56:00.200 --> 56:11.200]  And if you're intended to move at all, by the time you take it off, it's like you were playing pin the tail on the donkey and you don't know which way you're pointed.
+[56:11.200 --> 56:18.200]  It's very disorienting. And, you know, you have somebody walk into the room and they tap you on the shoulder and you jump through the roof because you're disoriented.
+[56:18.200 --> 56:26.200]  And so, you know, there were many things that we did to make this a device that is fantastic for connecting, for collaborating.
+[56:26.200 --> 56:30.200]  So, of course, looking through at the world, having people be able to see you.
+[56:30.200 --> 56:34.200]  But also, sometimes you want to have the digital content up.
+[56:34.200 --> 56:38.200]  And so, all right, what's going on over there?
+[56:38.200 --> 56:43.200]  And when you have that, well, what happens if somebody walks in the room?
+[56:43.200 --> 56:46.200]  Well, the digital content may be blocking them.
+[56:46.200 --> 56:50.200]  Well, if they're looking at you, they actually break through and you can see them.
+[56:50.200 --> 56:54.200]  And when that happens, they can see your eyes.
+[56:54.200 --> 56:57.200]  It's just awesome.
+[56:57.200 --> 56:58.200]  Right.
+[56:58.200 --> 57:00.200]  That's an important part because that's what we said.
+[57:00.200 --> 57:06.200]  We wanted to add to your world, not take you into some strange other world.
+[57:06.200 --> 57:12.200]  Right.
+[57:12.200 --> 57:18.200]  But that's just there locally. Then at a distance, you know, we wanted to allow you to collaborate.
+[57:18.200 --> 57:27.200]  And, you know, the personas were, I mean, that was a really hard problem because, of course, you know, you're wearing a device and you can't use FaceTime.
+[57:27.200 --> 57:28.200]  That's not going to work.
+[57:28.200 --> 57:29.200]  So what do you do?
+[57:29.200 --> 57:31.200]  You can't use your phone FaceTime.
+[57:31.200 --> 57:40.200]  So we had to create a really authentic representation of you that you would be happy to interact with folks, you know, at a distance.
+[57:40.200 --> 57:43.200]  And that experience is pretty magical.
+[57:43.200 --> 57:47.200]  You got to see, you know, kind of the one of one of the iterations of it.
+[57:47.200 --> 57:56.200]  Some of you may not have seen so too, but turns out that personas don't only have to live in a window.
+[57:56.200 --> 57:58.200]  They actually are volumetric.
+[57:58.200 --> 58:09.200]  So if you go take a look at the end of that, you can see a sneak peek of what they're really going to become over time.
+[58:09.200 --> 58:23.200]  Well, along those same lines, one of the one of the earlier parts of the demo that I went through was looking at spatial photos and spatial video, which and it's a great device for looking at regular photos and for watching regular video and movies.
+[58:23.200 --> 58:38.200]  But the spatial photos and spatial video are the stills and videos that you record with Vision Pro using the button on the left.
+[58:38.200 --> 58:45.200]  And I'm going to keep using the word uncanny.
+[58:45.200 --> 58:49.200]  And I mentioned it to you the other day that we don't like that word.
+[58:49.200 --> 58:51.200]  I know I'm looking for a better word.
+[58:51.200 --> 58:55.200]  Awesome.
+[58:55.200 --> 58:57.200]  But I get it.
+[58:57.200 --> 59:17.200]  You know, uncanny valley is a negative thing, but it's like the uncanny Spider-Man, though. It's just like, wow, because it really didn't feel like looking at photos or a video.
+[59:17.200 --> 59:19.200]  It felt like looking at a memory.
+[59:19.200 --> 59:22.200]  It feels like you have a time machine.
+[59:22.200 --> 59:38.200]  That's exactly what it feels like. So you think about those moments that are so special with your with your kids or your family, or if you have an elderly parent that you capture that moment and you go back there and it evokes all the same feelings and emotions that you had.
+[59:38.200 --> 59:44.200]  And you think about having a parent who lives on the other side of the country and you've got kids and shooting this.
+[59:44.200 --> 59:52.200]  They will feel so close to the ones that they love. And it's really powerful. It's something that we're incredibly excited about.
+[59:52.200 --> 01:00:01.200]  And and I think once folks experience, it's I mean, it's really profound, you know, off the top of my head, anticipating this device.
+[01:00:01.200 --> 01:00:07.200]  I don't know if you guys noticed, but it was rumored to be coming out this year.
+[01:00:07.200 --> 01:00:16.200]  But I was thinking displays and I because, you know, I'm a visual person and I know that it's an incredibly hard challenge.
+[01:00:16.200 --> 01:00:24.200]  Where I was going earlier was that the bar had been raised across Apple's platforms a decade ago to retina resolution.
+[01:00:24.200 --> 01:00:32.200]  You're not supposed to see individual pixels when you're using Apple devices anymore. And Apple Watch launched in the retina era.
+[01:00:32.200 --> 01:00:35.200]  There was never a pre retina watch.
+[01:00:35.200 --> 01:00:38.200]  And again, not I don't know if anybody works on the watch team.
+[01:00:38.200 --> 01:00:42.200]  You're doing great work, but you only had a little screen this big to worry about.
+[01:00:42.200 --> 01:00:53.200]  Your your team is filling your entire field of vision at retina resolution and pulled it off.
+[01:00:53.200 --> 01:01:00.200]  But that's what I was thinking. I was like, there's you know, you know that this is going to have to look amazing because there's that's Apple's.
+[01:01:00.200 --> 01:01:04.200]  That's where the bar is now. You can't have pre retina thing.
+[01:01:04.200 --> 01:01:13.200]  And I was thinking compute power. Right. And because all of this is going to be complicated and it's going to require advanced silicon compute power.
+[01:01:13.200 --> 01:01:18.200]  We know Apple Silicon is good, but it's all sorts of traditional computer engineering problems.
+[01:01:18.200 --> 01:01:25.200]  I wasn't thinking this device is going to have amazing cameras for shooting things for your memory.
+[01:01:25.200 --> 01:01:31.200]  It just I knew it would have cameras because you want to see what's going around you.
+[01:01:31.200 --> 01:01:37.200]  But I didn't anticipate that it would shoot things that take your breath away.
+[01:01:37.200 --> 01:01:48.200]  Yeah. You know, I will say that was something that as we were using the device and we were doing development that in some ways we we had this idea.
+[01:01:48.200 --> 01:01:55.200]  We tried it and then it took our breath away and we were like, whoa, that is amazing.
+[01:01:55.200 --> 01:01:58.200]  And we said we have to put that in the product.
+[01:01:58.200 --> 01:02:05.200]  It was a little bit of a discovery as we had done the pass through video, you know, in that journey that that we found it.
+[01:02:05.200 --> 01:02:14.200]  And we had one of the engineers on the team had his I think she's three or four year old daughter.
+[01:02:14.200 --> 01:02:24.200]  And, you know, we we did some video captures of her and, you know, it was bringing tears to everybody's eyes because they were thinking about having those moments again with folks that they love.
+[01:02:24.200 --> 01:02:28.200]  It was so incredibly powerful. We just felt like we had to put it in the product.
+[01:02:28.200 --> 01:02:32.200]  Yeah, that was a feeling everybody had truly. It's like, wow, I wish I had this with my kids were little.
+[01:02:32.200 --> 01:02:37.200]  Because to your point, it wasn't like watching a video, wasn't like seeing a picture.
+[01:02:37.200 --> 01:02:41.200]  It was reliving that moment in a way that nothing's ever delivered in that way.
+[01:02:41.200 --> 01:02:45.200]  It's really exciting for us to be able to get out.
+[01:02:45.200 --> 01:03:10.200]  And one of the one of the demos I experienced was watching cinematic movies and Avatar to the way of water, which, of course, everybody knows James Cameron is way at his whole career at the forefront of camera technology and shooting in large formats.
+[01:03:10.200 --> 01:03:18.200]  And when he does 3-D, he's doing 3-D at like the most extreme level that any Hollywood, you know, Hollywood picture has ever done.
+[01:03:18.200 --> 01:03:23.200]  It looked amazing. It's the best 3-D Hollywood movie experience I've ever seen.
+[01:03:23.200 --> 01:03:26.200]  I don't like watching movies in 3-D usually.
+[01:03:26.200 --> 01:03:29.200]  I'm one of the people who like it like we were talking about.
+[01:03:29.200 --> 01:03:31.200]  Sure. Where I watched Up.
+[01:03:31.200 --> 01:03:34.200]  And there's that whole opening tearjerker scene with the man and his wife.
+[01:03:34.200 --> 01:03:36.200]  And I remember that vividly. And that's like 15 minutes.
+[01:03:36.200 --> 01:03:40.200]  And then we got out of the movie and I was like, what happened after that?
+[01:03:40.200 --> 01:03:42.200]  And that's how my mind is with 3-D movies.
+[01:03:42.200 --> 01:03:50.200]  But this it's so much brighter, but it's still a rectangular frame that James Cameron defined.
+[01:03:50.200 --> 01:03:51.200]  And you can make it big.
+[01:03:51.200 --> 01:03:54.200]  And it's it's the best 3-D movie viewing experience I've ever seen.
+[01:03:54.200 --> 01:04:00.200]  But it's very clear you're watching a movie and it's out there in front of you in a rectangle.
+[01:04:00.200 --> 01:04:09.200]  And yes, it's amazing depth and it doesn't look like some cheap gimmick where there's just two or three planes that are flat.
+[01:04:09.200 --> 01:04:11.200]  It's it's 3-D, but it's a movie.
+[01:04:11.200 --> 01:04:18.200]  But spatial videos that you've shot yourself, there is no crisp rectangle.
+[01:04:18.200 --> 01:04:21.200]  There's like a hazy opening and it's like a portal.
+[01:04:21.200 --> 01:04:30.200]  And it really looks like you could dive through the portal and like like you're it's a Harry Potter movie where somebody.
+[01:04:30.200 --> 01:04:37.200]  You know, we experimented with a lot of ways to present these spatial memories or spatial video and spatial photos.
+[01:04:37.200 --> 01:04:49.200]  And and when they when they centered on that, that idea of kind of a almost a dreamlike portal that you look through, it really resonated with everybody.
+[01:04:49.200 --> 01:04:54.200]  And we felt like, OK, that's that is the way that is fantastic.
+[01:04:54.200 --> 01:05:01.200]  One of the things you guys do, and I'm curious how much of it again, I'm thinking the answer is, oh, it was like an amazing ton of work.
+[01:05:01.200 --> 01:05:10.200]  But like one of the spatial memories or I call them memories, but it feels like spatial videos was little kids and a birthday cake.
+[01:05:10.200 --> 01:05:12.200]  And the cake is in the foreground.
+[01:05:12.200 --> 01:05:16.200]  And it looked like it was about this close to me.
+[01:05:16.200 --> 01:05:22.200]  And so I reached out with my finger and I do that all the time, like a Disney World or wherever else.
+[01:05:22.200 --> 01:05:28.200]  And I see 3D. If something's out there, I'm like, what happens if I do this? It was really interesting what happened.
+[01:05:28.200 --> 01:05:32.200]  It's like my finger didn't really disappear. It's sort of.
+[01:05:32.200 --> 01:05:38.200]  Yeah. So one of the things that we do that is, you know, if you're going to have digital content in the world,
+[01:05:38.200 --> 01:05:44.200]  especially if you're going to allow both indirect interaction, which is what we do here with Gaze and Pinch,
+[01:05:44.200 --> 01:05:49.200]  but you can actually directly press on things in the device, too.
+[01:05:49.200 --> 01:05:55.200]  We lost my train of thought there. Well, like when I put my finger through the cake.
+[01:05:55.200 --> 01:05:59.200]  Oh, yeah. So, yeah. So the thing we're talking about was if you're going to do that, you know,
+[01:05:59.200 --> 01:06:05.200]  digital content is we can't like how do we put it behind your hands?
+[01:06:05.200 --> 01:06:10.200]  Because if we just draw it, it's just going to draw on top of your hands and you're not going to see your hands.
+[01:06:10.200 --> 01:06:18.200]  So we had to do a very sophisticated, real time matting algorithm that recognizes where your hands are,
+[01:06:18.200 --> 01:06:25.200]  does an outline on our one, then composites it with the video coming through and the contour putting down.
+[01:06:25.200 --> 01:06:30.200]  So you can actually have your hands in front of the digital content and interact with it.
+[01:06:30.200 --> 01:06:37.200]  And you it just seems natural. But there's a lot going on behind the scenes to make that one single thing possible.
+[01:06:37.200 --> 01:06:42.200]  So Gruber, John, why don't you give me John?
+[01:06:42.200 --> 01:06:46.200]  What are you talking about the butterfly? What? Tell him about the butterfly.
+[01:06:46.200 --> 01:06:51.200]  Oh, right. So the butterfly jump into the end, John.
+[01:06:51.200 --> 01:06:56.200]  Well, it's germane to this. All right. Yeah, well,
+[01:06:56.200 --> 01:07:01.200]  the three most compelling demos was the dinosaur adventure, dinosaur expedition.
+[01:07:01.200 --> 01:07:06.200]  But it starts with, I guess, a prehistoric butterfly. I don't know.
+[01:07:06.200 --> 01:07:11.200]  Yeah. So butterflies are around that we didn't just like, you know, teleport them back in time.
+[01:07:11.200 --> 01:07:16.200]  But but we have that starts and it's now ruining the wonderful thing.
+[01:07:16.200 --> 01:07:20.200]  Thank you, Jaws. The surprise. This butterfly flies out into the room.
+[01:07:20.200 --> 01:07:25.200]  And if you hold your hand out, it lands on your finger. And it's it's amazing.
+[01:07:25.200 --> 01:07:29.200]  We had so many people tell us they actually felt the butterfly land on their finger.
+[01:07:29.200 --> 01:07:32.200]  It was it's that realistic and compelling.
+[01:07:32.200 --> 01:07:38.200]  And because of our super precise hand tracking and our ability to do the compositing and all the stuff that I've talked about,
+[01:07:38.200 --> 01:07:41.200]  it just feels like it's there. It's so freaking cool, right?
+[01:07:41.200 --> 01:07:44.200]  Because it's sort of it's like your brain is a prediction engine.
+[01:07:44.200 --> 01:07:51.200]  And one of the reasons we feel like we perceive everything in real time is that our brain is constantly in all sorts of senses anticipating.
+[01:07:51.200 --> 01:07:56.200]  And so when your brain sees this butterfly about to land, it like it feels it.
+[01:07:56.200 --> 01:08:01.200]  It tells the finger, get ready. You know, you're going to feel, you know, a weird tickle.
+[01:08:01.200 --> 01:08:06.200]  We won't break all of the, you know, secrets out on that. Well, it's definitely worth people are going to talk.
+[01:08:06.200 --> 01:08:10.200]  OK. Yeah. So the dinosaur does come out of the portal into your room.
+[01:08:10.200 --> 01:08:17.200]  And it's it's one of I think it's a pretty amazing AR experience.
+[01:08:17.200 --> 01:08:26.200]  And you can really it truly is. I mean, and again, it's it when the dinosaur comes out and, you know, eight, nine, 10 feet tall.
+[01:08:26.200 --> 01:08:31.200]  Certainly a lot bigger than me and look dangerous.
+[01:08:31.200 --> 01:08:42.200]  It's so realistic, though, that, you know, even cynical me, who's not going to pretend to be freaked out during, you know, professional press demo of a new tech product.
+[01:08:42.200 --> 01:08:45.200]  It's like there's a part of my brain going like, what are you doing?
+[01:08:45.200 --> 01:08:49.200]  What are you doing? And it's like your brain is saying, am I going to get eaten? Right.
+[01:08:49.200 --> 01:08:58.200]  It's like if you told me, you know, that Apple had invented a new kind of cookware and you can put a pan on a hot stove and just let it run.
+[01:08:58.200 --> 01:09:00.200]  And then you're like, here, go ahead. Put your hand on it.
+[01:09:00.200 --> 01:09:02.200]  Yeah, I'd be like, I don't know.
+[01:09:02.200 --> 01:09:05.200]  And there's a part of my brain, red. We're telling you.
+[01:09:05.200 --> 01:09:09.200]  Yeah, there's a part of my brain that was like, are you really going to get this close to this dinosaur?
+[01:09:09.200 --> 01:09:13.200]  And it's really, really compelling.
+[01:09:13.200 --> 01:09:24.200]  Did you see that in the keynote? And that kind of makes me think one of the things I wanted to make sure I got out tonight is when a lot of people ask us about what they were seeing in the keynote, was it real?
+[01:09:24.200 --> 01:09:34.200]  Right. Because, look, one of the challenges we had in making the video is the fact we have to take this incredible spatial experience and try to translate it onto a 2D screen.
+[01:09:34.200 --> 01:09:42.200]  But all the UI you see, all the stuff that came, you know, that we were showing coming out of the device was rendered on device.
+[01:09:42.200 --> 01:09:46.200]  And it's out there, even in the third person view, that's composited onto a scene.
+[01:09:46.200 --> 01:09:52.200]  So this isn't like us having graphic artists with an M2 Ultra, you know, coming up with all this stuff.
+[01:09:52.200 --> 01:09:53.200]  This is all coming off.
+[01:09:53.200 --> 01:09:54.200]  It's all rendered real time.
+[01:09:54.200 --> 01:10:12.200]  Yeah, real time. And then, you know, that's how we showed it in the film. And, you know, that's important. That was not fake.
+[01:10:12.200 --> 01:10:19.200]  I'm trying to think of another adjective or another synonym for uncanny.
+[01:10:19.200 --> 01:10:38.200]  Whatever that synonym is, the part that, to me, it just, and I kept trying to break it or trick it, was the best I can describe it is the stability of things in your environment when you're using Vision Pro is 100%.
+[01:10:38.200 --> 01:10:52.200]  So if you've set up, like in my demo, I think it was Messages, Safari, and Photos, three windows, make them each bigger than any display I've ever owned in a carousel around me.
+[01:10:52.200 --> 01:11:03.200]  And no matter what I did or look at, they stay as completely stable in the space around me as my actual studio display on my desk, right?
+[01:11:03.200 --> 01:11:20.200]  And in the way that my brain, you don't think about it, but you just expect that if you're at your desk and you turn around to talk to somebody and then you come back, that your display is going to be literally exactly where it was, and you'd be freaked out if it was moved.
+[01:11:20.200 --> 01:11:34.200]  But no other, you know, we laugh, but no other AR experience that I've ever seen has that sort of stability. I mean, they get good, and hopefully all shipping products get it close, but not 100% stable.
+[01:11:34.200 --> 01:11:38.200]  And I'm just blown away by that.
+[01:11:38.200 --> 01:11:42.200]  Yep.
+[01:11:42.200 --> 01:11:46.200]  How do you do it? Let me tell you the question. How do you do it?
+[01:11:46.200 --> 01:11:51.200]  It's a secret. Just little magic pixies in there.
+[01:11:51.200 --> 01:12:12.200]  No, I mean, it is the combination of all of these cameras and sensors and the real-time silicon, and in particular, I talked about on VisionOS that there's this real-time part of the system that we have, and that is where these algorithms run,
+[01:12:12.200 --> 01:12:26.200]  and we have the system so tightly tuned that we're able to make it just rock solid, and you can trust it. It just is always there, and it is using all these cameras to do that.
+[01:12:26.200 --> 01:12:38.200]  And the other thing that's interesting, and you may or may not have seen it in the keynote, is we can also do this on a plane, which for those who are in this kind of space,
+[01:12:38.200 --> 01:12:50.200]  that's not an easy thing to do, because planes kind of like turn and fly and move around, and the IMU on the system, how does it know what to do in that case, because it doesn't have a fixed inertial space.
+[01:12:50.200 --> 01:13:05.200]  So there's some magic going on there, but you can get that same level of stability when you use it on a plane, which means that when you're at 40,000 feet, and the baby's crying next to you, and you really kind of want to be somewhere else, you can be.
+[01:13:05.200 --> 01:13:34.200]  My last question would be, or nearly last question, 34.99 is a very pro-price, and the software that I was shown, and again, we're waiting until early next year until it ships, but was very consumer-y.
+[01:13:34.200 --> 01:13:39.200]  It's Safari, Mail, Messages, Photos.
+[01:13:39.200 --> 01:13:44.200]  Is this going to be something for pro software, too?
+[01:13:44.200 --> 01:14:02.200]  I mean, again, I know future products, blah, blah, blah, we don't talk about them, but like, for example, Final Cut Pro just came to the iPad, and people have been looking for that for a long time.
+[01:14:02.200 --> 01:14:12.200]  Well, let me say a couple things on the kinds of things that are awesome on the product that might be pro use cases that you would do.
+[01:14:12.200 --> 01:14:28.200]  One is collaboration. I mean, all of us are doing some form of hybrid work, or working from different places, or working on the road, and this product has superpowers for doing that, because you can create the perfect environment for you to work,
+[01:14:28.200 --> 01:14:43.200]  and I know many of you have been on Webexes or Zoom calls, and somebody's presenting something, and what you see is a bunch of people in a conference room, and they're all about one little tiny thing, and so you get one pixel per person.
+[01:14:43.200 --> 01:14:55.200]  When you have this Vision Pro, that can be a massive window, and you can have the presentation, and you can be working with folks in that way, and it's pretty amazing.
+[01:14:55.200 --> 01:15:09.200]  The other thing is you take something like Freeform, which is a fantastic collaboration app, and when you share it inside of Vision Pro, you are able to have multiple people go up and work on it.
+[01:15:09.200 --> 01:15:13.200]  It really is like you're in the same room, so you start to think about collaboration use cases.
+[01:15:13.200 --> 01:15:26.200]  The last thing is we talked about bringing the monitor from your Mac into here, so let's say you've got a MacBook Air with a smaller screen, not the new one that's awesome, but they're all awesome.
+[01:15:26.200 --> 01:15:30.200]  We love them all. Now, JAWS is going to cattle prod me.
+[01:15:30.200 --> 01:15:32.200]  They're all fun, Mike.
+[01:15:32.200 --> 01:15:52.200]  We love them all, but you have them with a smaller screen, and you're on the road, you can now take that and have a 4K monitor, and you might be running Final Cut Pro, or you might even have a Mac Studio that you've taken with you, and now you can have a massive monitor and be running Final Cut Pro with 20, what is it, how many 8K streams, 22 8K streams?
+[01:15:52.200 --> 01:15:53.200]  22 8K streams.
+[01:15:53.200 --> 01:16:04.200]  Yeah, running, and you see that inside of Vision Pro, and by the way, you've also got iPad and iOS apps that can run in here, too, unchanged.
+[01:16:04.200 --> 01:16:14.200]  You can bring those down, and it's amazing when you take an iPad app that's used for some professional use case, and you now have it on a large screen.
+[01:16:14.200 --> 01:16:23.200]  All of those can coexist in here, and you think about creating the perfect space for productivity, this device is able to do it.
+[01:16:23.200 --> 01:16:33.200]  We showed you a lot of cases that are fantastic for consumers, but it is a super-powered device for somebody who is trying to get work done.
+[01:16:33.200 --> 01:16:45.200]  John, let me just add a little bit to it, because it's no accident we did this at WWDC. It's a developer conference.
+[01:16:45.200 --> 01:16:54.200]  This is the idea, just like our opening video, where the thought bubbles go above developers' heads and they chase those ideas, that's what we want to start here.
+[01:16:54.200 --> 01:17:03.200]  You even saw a taste of it. Susan Prescott, in her section, showed PTC doing that Alfa Romeo car.
+[01:17:03.200 --> 01:17:15.200]  I'm telling you, when you see that in headset, you swear to God it's real, because you can get in it, and you're like, why is it not supporting my back?
+[01:17:15.200 --> 01:17:25.200]  Mike's working on that part. It's just unbelievable stuff with that assembly line that you put in your room.
+[01:17:25.200 --> 01:17:30.200]  Things, remember, don't have to be in Windows. It's great that a lot of apps work in Windows, and it's amazing.
+[01:17:30.200 --> 01:17:36.200]  Those all work, and like Mike said, we'll have hundreds of thousands of things that work today that will go in here.
+[01:17:36.200 --> 01:17:40.200]  Microsoft even brought their stuff over. People are excited, but stuff doesn't have to live in Windows.
+[01:17:40.200 --> 01:17:45.200]  You saw the mindfulness app, and that's a nice one, because it shows you that digital content can be all around you.
+[01:17:45.200 --> 01:17:49.200]  It can be anywhere. It doesn't have to be put in a rectangle.
+[01:17:49.200 --> 01:17:54.200]  We're pretty excited about where it's going to go. We've already had a lot of enterprises already expressing interest.
+[01:17:54.200 --> 01:17:59.200]  We've made this platform extremely easy for folks to develop for.
+[01:17:59.200 --> 01:18:03.200]  We put an immense amount of effort in there for developers.
+[01:18:03.200 --> 01:18:15.200]  If you're an iOS developer, you go into Xcode, you set destination to VisionOS, and you compile.
+[01:18:15.200 --> 01:18:22.200]  Now you have the starting point for you to be able to create a completely spatial application.
+[01:18:22.200 --> 01:18:28.200]  If you're somebody who has started in Unity, we have done something that's really unprecedented.
+[01:18:28.200 --> 01:18:39.200]  We've made a shared simulation where you can have apps that are written in our tools and apps that are written in Unity share the same 3D space.
+[01:18:39.200 --> 01:18:42.200]  In fact, cast shadows on each other. That's never been done.
+[01:18:42.200 --> 01:18:52.200]  This is an incredibly powerful multi-app, multi-tasking operating system that will allow for just amazing productivity and pro-use cases.
+[01:18:52.200 --> 01:19:00.200]  I want to correct myself because credit credit, JigSpace did the call. Sorry, no one had to text me that.
+[01:19:00.200 --> 01:19:05.200]  PTC did the assembly line. Great developers, great job.
+[01:19:05.200 --> 01:19:09.200]  What I'm hearing here is...
+[01:19:09.200 --> 01:19:15.200]  I think JigSpace just left.
+[01:19:15.200 --> 01:19:21.200]  One thing I couldn't gauge from 30 minutes with it is how precise input tracking can be with just your fingers.
+[01:19:21.200 --> 01:19:26.200]  It sounds to me like you get the hang of it and you really get past something like...
+[01:19:26.200 --> 01:19:31.200]  Look, just a fundamental introduction demo for you today.
+[01:19:31.200 --> 01:19:38.200]  You can be very precise in there. I saw one of the videos you guys did where somebody was handwriting.
+[01:19:38.200 --> 01:19:45.200]  It can be incredibly precise. The hand tracking is just very, very precise.
+[01:19:45.200 --> 01:19:48.200]  I'm not going to quote the numbers here because they'll get in trouble.
+[01:19:48.200 --> 01:19:56.200]  We had to do that because we didn't want your hands to require you to hold controllers.
+[01:19:56.200 --> 01:20:05.200]  That is unbelievably freeing because now you can actually use input devices that you might use for productivity for other things like a keyboard and a trackpad.
+[01:20:05.200 --> 01:20:10.200]  You can look at your phone. You can look at your watch all while you're using the device.
+[01:20:10.200 --> 01:20:15.200]  All the things that you're used to doing, you're not prevented from doing those things.
+[01:20:15.200 --> 01:20:22.200]  It's very, very precise. When you use Freeform in there, you'll see just how precise.
+[01:20:22.200 --> 01:20:26.200]  You can do drawing. Somebody from the Freeform team is here.
+[01:20:26.200 --> 01:20:35.200]  Well, I told John I could talk his ear off for a lot longer. I could talk your ear about this off a lot longer.
+[01:20:35.200 --> 01:20:40.200]  But it is time to move on. Mike, congratulations. Let me just say that.
+[01:20:40.200 --> 01:21:03.200]  Ladies and gentlemen, Mike Rockwell.
+[01:21:03.200 --> 01:21:06.200]  Sorry. Once again, I'm not leaving.
+[01:21:06.200 --> 01:21:10.200]  We're running a little long. I think it's going pretty well. It's having fun.
+[01:21:10.200 --> 01:21:17.200]  All right. Everything is fun, John.
+[01:21:17.200 --> 01:21:39.200]  I'll just cut right to the chase. Ladies and gentlemen, Craig Federighi.
+[01:21:39.200 --> 01:21:48.200]  Thank you. Did you saunter and not run out here? I thought I had a little bounce in my step.
+[01:21:48.200 --> 01:21:52.200]  Kind of excited about this whole Vision Pro thing.
+[01:21:52.200 --> 01:21:56.200]  Got me a little pumped. Yeah.
+[01:21:56.200 --> 01:22:02.200]  Well, the fun part's over.
+[01:22:02.200 --> 01:22:07.200]  I kid.
+[01:22:07.200 --> 01:22:14.200]  I have to ask, though, what's it like not not to be the star?
+[01:22:14.200 --> 01:22:19.200]  It's OK. Wow. OK. Wow. Yeah. Wow.
+[01:22:19.200 --> 01:22:23.200]  Well, your run of eight shows ended really kind of abruptly. It really did.
+[01:22:23.200 --> 01:22:27.200]  That was it. That was it. Yeah. Yeah. No, it's all right.
+[01:22:27.200 --> 01:22:31.200]  Team feel pretty good about it. Team play.
+[01:22:31.200 --> 01:22:41.200]  I guess so. It's very exciting to not watch the keynote. He's in it for like an hour and 20 minutes.
+[01:22:41.200 --> 01:22:47.200]  By duration alone. Is that really it? Yeah.
+[01:22:47.200 --> 01:22:51.200]  It's all anyone was talking about, really. I think when the show ended, you're still a star to me, Craig.
+[01:22:51.200 --> 01:22:57.200]  Oh, Joss. All right. Well, let me just start.
+[01:22:57.200 --> 01:23:13.200]  Let's move on. It's it's ducking great to see you.
+[01:23:13.200 --> 01:23:17.200]  That was I mean, that's a good one.
+[01:23:17.200 --> 01:23:29.200]  We agree. Thank you. But we are I mentioned it before when John was out here that that we're going through industry wide worldwide.
+[01:23:29.200 --> 01:23:35.200]  An A.I. moment. Right. Something is leveled up. Something is different on this front than before.
+[01:23:35.200 --> 01:23:42.200]  And your ducking joke was in the context of something that's true of feature everybody uses.
+[01:23:42.200 --> 01:23:49.200]  Right. And yeah, autocorrect. And that autocorrect is now, I guess, reengineered.
+[01:23:49.200 --> 01:23:55.200]  I mean, it's not tweaked and a little better. It sounds to me like this is a new way of doing autocorrect.
+[01:23:55.200 --> 01:24:02.200]  Yeah. Yeah, it is. So we as I as I mentioned briefly and I was like, blah, blah, blah, blah, blah.
+[01:24:02.200 --> 01:24:06.200]  Where's the vision probe? Blah, blah.
+[01:24:06.200 --> 01:24:16.200]  There. So we use a transformer language model. We did not in the past. I mean, if you look at the field around text prediction, what are called LSTM's were kind of in vogue for many years.
+[01:24:16.200 --> 01:24:25.200]  And that's what we used. And now we use a much more powerful classic model called transformer models, which are used for all kinds of all the hotness you're hearing about now is built around transformer models.
+[01:24:25.200 --> 01:24:34.200]  Now, this is one that's meant to be incredibly fast on device so that on every keystroke we can be predicting the next word with much greater accuracy.
+[01:24:34.200 --> 01:24:43.200]  But it's not just about for us the model. A lot of what we did is the experience. So as you're typing, sometimes it's ambiguous how we should autocorrect.
+[01:24:43.200 --> 01:24:49.200]  And now we make sure that if we did do an autocorrect, we actually leave a little blue highlight to tell you, like we did it.
+[01:24:49.200 --> 01:24:53.200]  And if you just tap, you can correct you can say, no, no, no, not that this right.
+[01:24:53.200 --> 01:24:58.200]  And so we want to make it really easy to use use autocorrect.
+[01:24:58.200 --> 01:25:04.200]  And we also do multi-word autocorrections, which is part of what the power of the language model lets us do.
+[01:25:04.200 --> 01:25:11.200]  And so often you find it doesn't just protect predict the word you're typing, but several words ahead of what you're typing.
+[01:25:11.200 --> 01:25:17.200]  You just hit the space bar and take it all in. So I think it's really around optimizing the whole experience.
+[01:25:17.200 --> 01:25:21.200]  But I think your broader question about AI, I mean, I don't know.
+[01:25:21.200 --> 01:25:31.200]  We didn't say I don't know if we said the words AI during the talk, and we certainly didn't say it much in the Vision Pro thing.
+[01:25:31.200 --> 01:25:40.200]  But everything you guys were just talking about, all the magic that makes that experience happen is because of amazing work with machine learning.
+[01:25:40.200 --> 01:25:49.200]  I mean, the fact it can see your hands, the fact your hands are properly matted with respect to the images behind it and the windows.
+[01:25:49.200 --> 01:25:52.200]  The fact it's tracking your eyes. All of this is machine learning.
+[01:25:52.200 --> 01:26:00.200]  And I think for us, it's the experience that is the headline and the technology is all in support of that.
+[01:26:00.200 --> 01:26:11.200]  Right. It's sort of like.
+[01:26:11.200 --> 01:26:25.200]  When you're talking about the performance of 8K video output rendering, you're not going to get into the weeds in the keynote talking about the silicon level things that make that happen.
+[01:26:25.200 --> 01:26:30.200]  And in some ways, that's AI is something from the user's perspective that's in the box.
+[01:26:30.200 --> 01:26:33.200]  You don't really worry about that. That's how it's done.
+[01:26:33.200 --> 01:26:46.200]  And I don't think you guys mentioned AI in the keynote once, which I'm not surprised that you didn't, because I do think it's sort of like us to AI, AI, AI.
+[01:26:46.200 --> 01:26:51.200]  But it's there. Right. It is. It's everywhere. Right.
+[01:26:51.200 --> 01:26:56.200]  That's what I guess. Yeah, it's everywhere. But the great point, we're just talking about what it does for you versus how it does it.
+[01:26:56.200 --> 01:26:58.200]  Right.
+[01:26:58.200 --> 01:27:08.200]  What are there other features like in iOS 17 or any of the new operating systems that are AI backed that maybe we wouldn't think are. Oh, my God.
+[01:27:08.200 --> 01:27:11.200]  Yeah, it is. It is almost it is almost every one.
+[01:27:11.200 --> 01:27:19.200]  So whether you're pulling a sticker out of a photo or now live stickers out of photos.
+[01:27:19.200 --> 01:27:22.200]  Yeah.
+[01:27:22.200 --> 01:27:28.200]  They're stickers. Do you see that? They're stickers out there. They're out there.
+[01:27:28.200 --> 01:27:38.200]  All right. One, I mean, I don't know if you may have noticed that, you know, we had a lot to talk about in the two plus hours of that keynote.
+[01:27:38.200 --> 01:27:45.200]  And so things were packed so tight that if you blinked, you could you could miss a feature or really major detail feature.
+[01:27:45.200 --> 01:27:58.200]  One of the things we talked about with PDF was this fact that you could literally take a picture of a form like, you know, your kid brings home like a thing and you could just take a picture of it.
+[01:27:58.200 --> 01:28:07.200]  And it will figure out where all the fields are that you need to fill out and what they're asking you and then suggest to you what you should be filling out in that form.
+[01:28:07.200 --> 01:28:16.200]  Right. That's just it's like magic paper. Right. It's automatic. But that's you aren't having to think about it. You're not in you know, you're not chatting with the thing.
+[01:28:16.200 --> 01:28:24.200]  It's it's it's doing the job for you.
+[01:28:24.200 --> 01:28:30.200]  By the way, another cool one was even before the conference. Right. We did personal voice, which is went over very well for us.
+[01:28:30.200 --> 01:28:35.200]  That's right. Yeah.
+[01:28:35.200 --> 01:28:47.200]  Well, going back last to last year, I distinctly remember you mentioning with last year's feature of text detection in images.
+[01:28:47.200 --> 01:29:01.200]  You know, whether it's whether they're screenshots or photographs, you know, you take a picture of a restaurant and it's not even perpendicular, but you can like just select the name of the restaurant even though it's in a font because it's the logo of the restaurant.
+[01:29:01.200 --> 01:29:09.200]  That's right. You copy and paste it. And all of a sudden, anything that looks like text that I can't just copy and paste feels broken.
+[01:29:09.200 --> 01:29:21.200]  Right. And it sounds to me like that's what you're saying, like with this PDF form thing where like we've all had PDF forms that have been electronic from creation output to PDF.
+[01:29:21.200 --> 01:29:30.200]  Now you've got it in the forms. The fields are there because it's digital. Right. But now, you know, you take a picture of a piece of paper and the fields are there.
+[01:29:30.200 --> 01:29:41.200]  Well, you know, you see the field. Right. You know, when you tap on the field, what you want to have happen. Now the device knows what you mean. Now it can see the form and it knows what to do for you.
+[01:29:41.200 --> 01:29:51.200]  And I think that's how we view all these things are transparent part of meeting the most natural expression of your experience of your of your intent when you're using the device.
+[01:29:51.200 --> 01:30:02.200]  And are you saying that, like, for example, a super common field on any form would be one that's labeled date. And so if there's a field labeled date, it might already prompt you like today's date.
+[01:30:02.200 --> 01:30:10.200]  Yeah. First name, last name, credit card. It'll give away your Social Security number. I mean, all the stuff is just.
+[01:30:10.200 --> 01:30:20.200]  No, no, you have control. He's kidding.
+[01:30:20.200 --> 01:30:33.200]  But speaking of privacy is a fundamental human right.
+[01:30:33.200 --> 01:30:40.200]  Speaking of privacy, though, it's another recurring theme every year at this show that I do with you guys.
+[01:30:40.200 --> 01:30:54.200]  Where Apple's top prioritization of privacy and you guys reiterate it every time it's a human right.
+[01:30:54.200 --> 01:31:12.200]  But going back in time, like a decade to before I when it was the shift towards cloud computing and the knock was, well, all of these companies that are the leaders in cloud computing are the ones that aren't as focused on privacy.
+[01:31:12.200 --> 01:31:24.200]  And that's why Apple might be behind. And now, you know, years ago, I mean, I think iCloud is invisible at this point, which is the biggest compliment that I pay to it.
+[01:31:24.200 --> 01:31:34.200]  And it, you know, and you said we talked about differential privacy several years ago. And you really amazed me with the math, you know, off the top of your head.
+[01:31:34.200 --> 01:31:42.200]  Like, I was like, I didn't tell them to prepare for that question. And it's still there. But I kind of hear it again now.
+[01:31:42.200 --> 01:31:47.200]  And it's as though people don't remember that you guys went through this like, no, no, no.
+[01:31:47.200 --> 01:31:55.200]  Our focus on privacy isn't going to hold us back from succeeding in cloud computing and cloud storage.
+[01:31:55.200 --> 01:32:17.200]  And I feel like the knock now is that Apple's focus on our rock unshakable focus on privacy is going to hold you back from advancing in AI, where so many of the services and products that are popping up the chats and stuff like that.
+[01:32:17.200 --> 01:32:31.200]  And so I'm curious to hear your argument that, no, Apple's stance on privacy isn't going to slow you down at taking advantage of state of the art AI.
+[01:32:31.200 --> 01:32:39.200]  No, Apple stayed on privacy will not slow us down.
+[01:32:39.200 --> 01:32:47.200]  The answer was in the question, wasn't it? Somebody knows we're running long.
+[01:32:47.200 --> 01:33:05.200]  No, not at all. I mean, just not at all. If you look at everything that is being done now, it's it's become less and less the case over time, not more and more that the data that's interesting to train these models is data that is, you know,
+[01:33:05.200 --> 01:33:18.200]  publicly available data, not personal data. We do not need your personal data to make our system smart. And when we need to get specific data for a specific person, hand tracking data, eye tracking data, we're not doing that by spying on people.
+[01:33:18.200 --> 01:33:37.200]  We're, you know, we're going to go out and get it the right way. And we can do that, you know, being respecting users privacy takes thinking about it carefully, doing great engineering and design up front, but it doesn't stop you from building a great experience.
+[01:33:37.200 --> 01:34:05.200]  And so that's, and I think one of the things that people that makes you guys hard for people to, to guess where you are, is that you hold your fire until you're ready, and you're not coming out with stuff like, for example, let's just say you're a company
+[01:34:05.200 --> 01:34:22.200]  that already makes VR headset type things and, and everybody thinks next Monday, your biggest computer rival company is going to come out with a big new VR headset type thing.
+[01:34:22.200 --> 01:34:36.200]  And you're like, let's just tell them what we're going to come out with in September.
+[01:34:36.200 --> 01:34:40.200]  Farfetch'd hypothetical.
+[01:34:40.200 --> 01:35:02.200]  I'm a creative writer, but Apple doesn't do that. I was going to say Apple doesn't seem to do that, but Apple doesn't do that. And so if the whole industry, you know, starting like late last year and it's AI this and AI chat that and language models and language and training these massive things that are extremely computationally expensive.
+[01:35:02.200 --> 01:35:12.200]  And it is, you know, only the biggest companies can possibly fund. I'm sure I'm sure it was tremendously expensive to train the model for this new just the autocorrect feature.
+[01:35:12.200 --> 01:35:27.200]  I mean, it's not something that you can do in your garage. You need massive, massive paralyzation. But you guys aren't going to pop pipe up in the middle of January like us to, you know, we've got AI stuff coming.
+[01:35:27.200 --> 01:35:41.200]  The point is to get the point is to get it right, right to and I think it's, you know, there are a lot of exciting kind of experiments being carried on in public and a lot of press releases being done. But for us, it is deliver the deliver the experience.
+[01:35:41.200 --> 01:35:57.200]  Do you think that there's and I know it was like a very oft repeated Steve Jobs axiom that technology is not enough, and it's you can't start with technology and work backwards to a product.
+[01:35:57.200 --> 01:36:00.200]  You've got to start with a vision for a product.
+[01:36:00.200 --> 01:36:13.200]  And if parts of it can't be realized, then you invent technology to realize that part of it. And is that sort of where people are distracted by AI at the moment where the technology itself is amazing.
+[01:36:13.200 --> 01:36:15.200]  I mean, there's no doubt about it.
+[01:36:15.200 --> 01:36:38.200]  But what a lot of it is like, Well, what's the product. Yeah, I mean, this is not a new dynamic in our industry, right? If you look at any area of technology, I think what we've seen is whether it was the microprocessor bitmap displays touch technology, the internet, all of these things.
+[01:36:38.200 --> 01:37:00.200]  In the end, had a lot of experimentation going on in public. And then in the end, were great areas for Apple to figure out the right way to deliver compelling customer value.
+[01:37:00.200 --> 01:37:23.200]  Shifting gears zooming up a little bit, I'm going to talk about something I don't think you guys have a name for it. But I'm going to call it the Apple experience. And one of the other oft repeated things I would say exemplified several years ago at WWDC with you on stage with are the iPad and Mac OS converging into one.
+[01:37:23.200 --> 01:37:36.200]  No, right. It's one of my favorite slides of all time. Big No, had a big period was yes, made a big thud dust dropped up.
+[01:37:36.200 --> 01:37:59.200]  But there is an overarching Apple experience that these multiple platforms, the Mac is the Mac iPad is iPad. I mean, and and I think as the years have gone by with the forking of iOS to iOS and iPad OS iPad OS is justifying that more and more each year as a distinct
+[01:37:59.200 --> 01:38:14.200]  Aside from screen, you know, take the biggest iPhone and the iPad mini where they're as close as they can get screen size. It's a it feels different. They feel like different platforms. The naming seems justified.
+[01:38:14.200 --> 01:38:32.200]  But there's an overarching Apple experience that you guys are cool. It's not just happening. It's not just falling out of nowhere by coincidence, but there's a familiarity. You know, you're using notes across all of these apps and it's as consistent as can be.
+[01:38:32.200 --> 01:38:44.200]  And I think that really shows this week with vision OS and with my brief demo with it how familiar some of it is even though the overall experience was
+[01:38:44.200 --> 01:39:03.200]  Silence me and flabbergasted me, but yet my memories of is like, oh, it's just notes. Yep, 100% and I think we want each of the platforms to be the best embodiment of what they can be, but in a way that is as consistent as it can be with.
+[01:39:03.200 --> 01:39:25.200]  So you carry from one to the other and I am finding that every year, the movement from one of my devices to another is is without thought, you know that you you just move from one to the other, your data is there, the experience is consistent, the even the way that
+[01:39:25.200 --> 01:39:34.200]  Different gestures and actions they are. Oh, well, that's of course how you would do that on a Mac. That thing I just did on my iPad, the way I do it on the Mac is this way and that's how you do it.
+[01:39:34.200 --> 01:39:51.200]  And so this has is not an accident. It's part of the way that we view that we want the entire experience to feel like it is the work of a single hand the design, you know, designing hand that said I am I am penning
+[01:39:51.200 --> 01:40:09.200]  The right Mac experience and the right iPad experience the right Apple Watch experience, but with it with a common set of values across all of them and I feel better than ever this year, the way that is shining through.
+[01:40:09.200 --> 01:40:21.200]  So I, I feel like it's only fair. We talked a year ago about the new then new system preferences in Mac OS.
+[01:40:21.200 --> 01:40:45.200]  No, you laugh I do recall I was skeptical and I thought it was my favorite part of last year show I thought your, your answer to the question of why why make it look like this is this just a superficial iOS application of a 20 plus year Mac stalwart
+[01:40:45.200 --> 01:41:00.200]  Yeah, application, and I won't repeat what you said but it you know it reassured me at the show and I will say a year later and you know full time on on Ventura, since it came out.
+[01:41:00.200 --> 01:41:10.200]  You were right, I now.
+[01:41:10.200 --> 01:41:21.200]  I love the Mac itself Do I love it, am I do I like the new system preferences better or night. Am I getting no system set system settings I've already misspoke in.
+[01:41:21.200 --> 01:41:31.200]  You know what I'm going to do this for the rest of my career call it system shares but system settings system preferences was the old one. I'm glad we renamed it so at least has a different name.
+[01:41:31.200 --> 01:41:40.200]  I don't like it better, but I don't have victory was short lived, but that wasn't.
+[01:41:40.200 --> 01:42:05.200]  But your answer wasn't as brief as nope, this is better. The answer was about consistency and sort of that Apple experience that all things considered, making this a more consistent and more familiar interface for everybody and have the settings in everything have more of a consistent feel and make people feel like they're going to be able to find what they're looking for.
+[01:42:05.200 --> 01:42:19.200]  I do think it paid off and it did improve dramatically from the WWDC build to when it shipped. I mean, it's, yeah, it's actually quite a bit. I don't know if you've installed the know I have a yet but it's quite a bit better as well.
+[01:42:19.200 --> 01:42:38.200]  I believe. Yeah, yeah. That's, that's right. I think it is, you know, there is a strength in muscle memory and familiarity so there's an extent to which any change, you know, takes takes a certain amount of activation energy, but over week when we make these changes
+[01:42:38.200 --> 01:42:55.200]  we aren't thinking just about the impact on it. In the next year we're thinking about what do we want to live with what's setting the stage for the future of these platforms. I mean it's, it is a great privilege at Apple to, to be part of stewarding platforms where you're
+[01:42:55.200 --> 01:43:11.200]  thinking 1020 years what is this, where are we taking this thing and some of these transitions, you know, pay off over, over the long term. And so, I feel, you know, very good about where we're headed there.
+[01:43:11.200 --> 01:43:29.200]  In addition to the the sharing of consistency and I don't know if there's a good segue or not but it feels like it to me but there's there's a family consistency across these platforms that is getting more converged.
+[01:43:29.200 --> 01:43:41.200]  And a lot of those features though to me involve a seemingly more and more involve actual sharing between people, friends and family, intimate things.
+[01:43:41.200 --> 01:43:50.200]  A big applause line at least in my section in the back door and the keynote was for family password sharing. Yeah, right.
+[01:43:50.200 --> 01:44:07.200]  And it's, you know, from my perspective where I, I get some of the get lots of emails from my readers and some of them it seems like maybe they'd be better sent to support at apple.com.
+[01:44:07.200 --> 01:44:23.200]  But, but as, as the system and and iCloud sinking of passwords has gotten better and better with each year and it's you know, obviously it's very obvious how built in good password security past keys.
+[01:44:23.200 --> 01:44:37.200]  The built in support for the authenticator code for which is sort of a generation behind past keys moving forward but that is built in and it auto fills and safari and all this stuff.
+[01:44:37.200 --> 01:44:53.200]  And that is that is also great but I need to share a bunch of really important passwords with my wife and or with my kids or with my, you know, whoever it is who you're sharing something as intimate as banking passwords or something like that.
+[01:44:53.200 --> 01:45:01.200]  And as so long as we're using some other product that has it. We're going to keep everything there until it does it. This seems like a real.
+[01:45:01.200 --> 01:45:10.200]  It's like a ride flying by on Monday, but I know that it's going to change the password store. There's a lot of people who are already like yeah I can't wait for the fall. I'm going to go all in with this.
+[01:45:10.200 --> 01:45:23.200]  Yeah, 100%. And of course it's all backed by end end encrypted storage on iCloud so you are when you are sharing with your spouse or with your roommates.
+[01:45:23.200 --> 01:45:33.200]  And that is every bit as secure as it is between your own devices. And so, we engineered it, we engineered it the right way.
+[01:45:33.200 --> 01:45:38.200]  Apple is not a social network company like with a capital S and a capital S.
+[01:45:38.200 --> 01:45:53.200]  There are companies, you know, they make movies called the social network and maybe they're similar, similar culturally to the sort of companies that would pre announce headsets because they're anxious.
+[01:45:53.200 --> 01:46:20.200]  But, lowercase s lowercase and social network, it really feels like a lot more each year, more features across these platforms are involved with your users literal social network, their spouse, their kids, their friends, their core friends and I, I think from the people I know it just seems to me like more and more people
+[01:46:20.200 --> 01:46:45.200]  when they're sharing things like photos and videos from a vacation. They're doing it privately, whether it's in iMessage or WhatsApp or anything else but that it's siloed from the public internet completely and in a channel that is just get through end to end encryption, just between the people.
+[01:46:45.200 --> 01:47:01.200]  And I think that gets undervalued out there because it's not a social network with the trademark after it that makes billions of dollars in ad revenue. It's just literally building features around the actual social fabric of people's lives.
+[01:47:01.200 --> 01:47:24.200]  Well, we have that this year. New features around airdrop, name drop, doing just what you said, right? Make that easier, better and because we all do that, right? And I think it's pretty cool, right? And you know, and again, it ties into the launch of vision OS and with so many of these day one features of vision OS being about avoiding isolation.
+[01:47:24.200 --> 01:47:38.200]  Whether, you know, again, the two way like two sides of the same coin eyesight for people to see that you're paying attention to them and breakthrough so that when you're in there, somebody comes by you, you don't jump out of your seat when they tap you on the shoulder.
+[01:47:38.200 --> 01:47:58.200]  I think our focus is on your real close and meaningful relationships, people that are actually your friends and just seems more healthy to me.
+[01:47:58.200 --> 01:48:15.200]  Well, it's it's a last line, but I think I think it's really meaningful, though, and I and I think it's more and more and and I do think it feels to me like you guys feel a responsibility for this because you realize your your again.
+[01:48:15.200 --> 01:48:23.200]  It's a major new platform you're adding to the portfolio in the Apple overall Apple ecosystem.
+[01:48:23.200 --> 01:48:33.200]  Yeah, well, it's trying it's tried to say at this point, but we really do build the products we want for ourselves and for families and for the people we care about.
+[01:48:33.200 --> 01:48:46.200]  And the features we build are in part because we know how meaningful they they would be, we want to do the we want to put something out there that is
+[01:48:46.200 --> 01:49:02.200]  going to do good in the world and that we could recommend to those friends and family. So when it comes to the kind of communication features we're building, we're not trying to build something that's going to lead you off into some kind of social pathology.
+[01:49:02.200 --> 01:49:18.200]  We're trying to build something that helps you foster supportive relationships. And when we build a device like Vision Pro, it's not something to isolate you. It's something to connect you. And so I think that's
+[01:49:18.200 --> 01:49:43.200]  what we're trying to do. I think it's a privilege to get to work at a place where doing the right thing for your customers is always the right answer for what you should do with the product.
+[01:49:43.200 --> 01:49:54.200]  Wow. Okay. As always, uncomfortable questions. Rockwell get a blitz round?
+[01:49:54.200 --> 01:50:05.200]  Big story last year going through this year heading into next year is our regulations in the European Union. One of them.
+[01:50:05.200 --> 01:50:28.200]  Rockwell definitely didn't get European competition regulation. But one of them is, at least as I understand it right now, that at some point next year, side loading is going to be mandated on mobile platforms that are defined by a definition that applies to iOS and Android.
+[01:50:28.200 --> 01:50:39.200]  For lack of a better definition. Android. That's off to you. But a lot of people were anticipating in Monday.
+[01:50:39.200 --> 01:50:48.200]  Wrong room.
+[01:50:48.200 --> 01:51:01.200]  One of the things people were anticipating Monday was, is this going to come up? And as far as I can, it certainly didn't come up in the keynote. But as far as I can tell, in everything else released about iOS 17, there's no word about it.
+[01:51:01.200 --> 01:51:25.200]  And I'm curious if there is something there that I missed or it's still not set in stone. Where does this stand? Well, I guess I'd return to my previous comment, which is we want to make sure that whatever we do is the right thing for our customers and the safety of our customers.
+[01:51:25.200 --> 01:51:43.200]  We are working with the EU on what safe compliance could look like and don't have anything more to talk about today. I don't know if that was a blitz answer.
+[01:51:43.200 --> 01:52:12.200]  Another recent story that really caught my eye was I think two, maybe three reports in the Wall Street Journal from my friend Joanna Stern and Nicole Nguyen about thieves, rings of thieves who figured out that your device passcode with your iPhone by design, not by oversight, is the keys to your entire iPhone kingdom.
+[01:52:12.200 --> 01:52:28.200]  And of course, nobody wants to have their iPhones stolen, but it's an order of magnitude worse if your iPhone is stolen by a thief whose scheme is to somehow surreptitiously snoop your passcode.
+[01:52:28.200 --> 01:52:35.200]  And now they've got your phone and they're in your phone because you can get in with your passcode.
+[01:52:35.200 --> 01:52:50.200]  And it seems from their reporting that it's not a massive problem, but it's not an obscure problem either. And it didn't seem like there's any news on that front as to how to possibly mitigate it.
+[01:52:50.200 --> 01:53:14.200]  I guess I just say that first, I mean, it's a super bad thing if someone gets your phone from you and steals it and has your passcode. It has always been the case that if someone has your phone and your passcode, any phone, and you have your passcode, you're now in someone's email.
+[01:53:14.200 --> 01:53:23.200]  And for virtually every service in the past, once you have someone's email, usually the password reset function is send me an email to confirm.
+[01:53:23.200 --> 01:53:32.200]  And so this kind of situation of owning access to a phone that has those communication channels has always been problematic.
+[01:53:32.200 --> 01:53:46.200]  And so features like Face ID are in part to help make sure that you can access your device without using your passcode all the time in all of these situations where someone might attempt to shoulder surf you.
+[01:53:46.200 --> 01:53:55.200]  And so I think that protects a lot of users. We continue to look at other ways to address this.
+[01:53:55.200 --> 01:54:02.200]  This is, as you say, a rare problem, but nonetheless, an important one. So we're continuing to work on it.
+[01:54:02.200 --> 01:54:05.200]  You're on it. We are on it.
+[01:54:05.200 --> 01:54:09.200]  That about wraps it up for me.
+[01:54:09.200 --> 01:54:19.200]  I do want to, as usual, give thanks. I have a list of people here. I want to thank my wife, Amy.
+[01:54:19.200 --> 01:54:23.200]  She runs
+[01:54:23.200 --> 01:54:28.200]  anything that happens before the show starts. I don't know what would I don't know how this would happen without her.
+[01:54:28.200 --> 01:54:33.200]  My friend, Paul, the voice who does the introduction.
+[01:54:33.200 --> 01:54:37.200]  I want to thank our presenting sponsor, Collide. Just a great company.
+[01:54:37.200 --> 01:54:42.200]  Very, very happy to have them sponsoring the show. I want to thank everybody here at the California theater.
+[01:54:42.200 --> 01:54:48.200]  This staff here is so nice. Oh, my God.
+[01:54:48.200 --> 01:54:53.200]  I hope you guys in the lobby have had as pleasant experience with the staff up there.
+[01:54:53.200 --> 01:54:58.200]  The ushers, as I have with everybody backstage here, they're just the nicest people to work with.
+[01:54:58.200 --> 01:55:03.200]  I want to thank my friends at Sandwich. They are shooting this.
+[01:55:03.200 --> 01:55:08.200]  If you're watching this on YouTube instead of being in the theater, all of this is thanks to them.
+[01:55:08.200 --> 01:55:12.200]  They are also they're good friends, but they are the most remarkable people.
+[01:55:12.200 --> 01:55:19.200]  I love them. My friend, Caleb Sexton, my audio editor, audio engineer handles all the sound.
+[01:55:19.200 --> 01:55:24.200]  Just absolutely terrific. And last of all, of course, I want to thank all of you for coming here.
+[01:55:24.200 --> 01:55:30.200]  Thank you. Thank you.
+[01:55:30.200 --> 01:55:37.200]  It's an incredible thrill.
+[01:55:37.200 --> 01:55:49.200]  But I have one more question.
+[01:55:49.200 --> 01:55:54.200]  I was socializing last night with a little birdie.
+[01:55:54.200 --> 01:56:07.200]  Who told me that I'm like like last year in the keynote when when crack product marketers made it seem as though you could shoot basketball 60 feet.
+[01:56:07.200 --> 01:56:11.200]  He can. He did. It was real. Sure.
+[01:56:11.200 --> 01:56:24.200]  Sure. Jaws. All right. I believe in you, Craig. I was told and refused to believe that that was actually you playing guitar in the keynote.
+[01:56:24.200 --> 01:56:43.200]  So now before you answer this, if any of you are at the live remarks, you know, live show that we had in at Apple Park this week, Craig made a big deal out of the fact that marketing makes him dress up in silly clothes and do weird gags.
+[01:56:43.200 --> 01:56:58.200]  And he was hoping that wasn't going to happen again this year. And lo and behold, it did. Right. Craig showed up in a really cool outfit and we took advantage of the fact that Craig is a guitar player.
+[01:56:58.200 --> 01:57:02.200]  So I sold him out again.
+[01:57:02.200 --> 01:57:23.200]  Right. So I'm going to make him do it again. So, John, I may have John and I may have conspired on this and we're going to spring it on Craig right now, but.
+[01:57:23.200 --> 01:57:37.200]  Start with this seriously. Start start with this. OK. Now, only I had a guitar.
+[01:57:37.200 --> 01:57:41.200]  Oh, and there it is. Here it is.
+[01:57:41.200 --> 01:57:49.200]  OK. Craig, do you know what to do with this? I'm not sure, Jaws. Maybe you can instruct me on how to what to do with this.
+[01:57:49.200 --> 01:57:57.200]  All right. Well, I'll leave you be here. But once again, marketing wins.
+[01:57:57.200 --> 01:58:26.200]  How does this thing work? So is it true, Craig? Did you do that lick in the keynote? I don't know, man.
+[01:58:26.200 --> 01:58:53.200]  Thank you very much. Good night.
+[01:58:53.200 --> 01:59:12.200]  Thank you. Thank you, guys.
