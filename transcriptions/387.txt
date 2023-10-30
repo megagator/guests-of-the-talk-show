@@ -1,0 +1,2056 @@
+[00:00.000 --> 00:03.020]  I've got two special guests here. Welcome to the talk show
+[00:03.060 --> 00:07.700]  Ben Sandofsky and Sebastian de with you two are the co
+[00:07.700 --> 00:12.180]  founders, co partners, co makers of Luxe is that that's the
+[00:12.180 --> 00:15.660]  company name? Yeah, that's right. Or is it Luxe camera? I
+[00:15.660 --> 00:18.700]  wasn't sure it's Luxe dot camera as the as the URL.
+[00:19.620 --> 00:25.440]  Luxe Optics incorporated legally in our file paperwork. I love
+[00:25.440 --> 00:28.740]  it. I love it. That's a little bit like in the paperwork. My
+[00:28.740 --> 00:35.180]  company is the daring fireball company. And when I filed the
+[00:35.180 --> 00:37.260]  paperwork, my accountant was like, why not just daring
+[00:37.260 --> 00:40.860]  fireball? Doesn't that make more sense? And I was like, Yeah, but
+[00:40.860 --> 00:44.100]  I kind of want like the old timey feel I wanted to. I wanted
+[00:44.100 --> 00:47.300]  to sound like it's been around since like 1907 or something
+[00:47.300 --> 00:53.500]  like that. Best known for halide the professional camera app for
+[00:53.500 --> 00:57.020]  the iPhone. And you guys now have a second app Orion, which
+[00:57.020 --> 01:01.220]  we'll talk about later. But welcome to the show. Before we
+[01:01.220 --> 01:04.420]  talk about your work, we've got upcoming news Apple has
+[01:04.420 --> 01:10.260]  surprised us with a evening online event next Monday, as we
+[01:10.260 --> 01:15.740]  speak with the headline scary fast, and a pretty obvious
+[01:15.740 --> 01:20.740]  strong hint with the animation that turns into the finder logo,
+[01:20.740 --> 01:23.660]  which I guess is also the unofficial Mac logo that this is
+[01:23.660 --> 01:27.140]  a Mac oriented event. You guys, what do you guys think? It's it
+[01:27.140 --> 01:29.180]  there. There was a lot of speculation before this event
+[01:29.180 --> 01:33.780]  that there'd be no new Macs this year, and now something, but
+[01:33.780 --> 01:36.300]  nobody really knows what, which I think is super exciting.
+[01:37.620 --> 01:41.140]  I think so far, just like the the rumor conflicts in the like
+[01:41.140 --> 01:43.820]  last part of this year have been the most amusing to me, because
+[01:43.820 --> 01:46.580]  there was that whole iPod, iPad thing. I'm not sure if you
+[01:46.580 --> 01:48.620]  follow that. But there were a bunch of people who said there
+[01:48.620 --> 01:51.740]  was going to be new iPads. And then just we just got a new
+[01:51.740 --> 01:56.140]  pencil. And now there there are people saying no, there's gonna
+[01:56.140 --> 01:58.580]  be like suddenly there's a Mac event and other people saying
+[01:58.580 --> 02:02.340]  no, there's nothing coming anymore. And now we've got we
+[02:02.340 --> 02:05.300]  don't know what we're getting. It's like I still want to
+[02:05.300 --> 02:07.340]  believe we're going to get something super out of left
+[02:07.340 --> 02:11.060]  field. And it's going to be this new, like a big iMac Pro
+[02:11.060 --> 02:14.220]  that nobody ever saw coming. But you know, what do you think
+[02:14.220 --> 02:16.620]  Ben? I think that like, it's like that year when they were
+[02:16.620 --> 02:20.380]  releasing iOS, and they put out a press release that Mac OS
+[02:20.380 --> 02:22.860]  would be delayed because they had to pull off engineers,
+[02:22.860 --> 02:27.260]  right? So I imagine everyone in the company working on all the
+[02:27.260 --> 02:30.300]  frameworks and everything is super focused on getting vision
+[02:30.300 --> 02:34.020]  Pro out. So we're going to see some speed bumps, but we're not
+[02:34.060 --> 02:36.300]  this wouldn't be the year that you'd see something
+[02:36.300 --> 02:40.220]  revolutionary. And it occurred to me, the one thing if I had to
+[02:40.220 --> 02:41.980]  guess is they're probably going to give a release date for
+[02:41.980 --> 02:45.060]  Resident Evil four, just because that ties into Halloween, and
+[02:45.060 --> 02:47.020]  they kind of didn't announce that it would be coming to the
+[02:47.020 --> 02:51.020]  Mac. And if you go to the Capcom website, it says that they even
+[02:51.020 --> 02:53.420]  say on the Capcom website, the date in the App Store is a
+[02:53.420 --> 02:56.540]  placeholder of December 31. Because you always think of
+[02:56.540 --> 02:59.740]  Resident Evil when you think of New Year's, but they'll probably
+[02:59.740 --> 03:03.580]  like either announce Resident Evil the day of and it'll it'll
+[03:03.620 --> 03:06.220]  they'll there'll probably be a narrative around gaming on the
+[03:06.220 --> 03:08.860]  Mac finally, because that's also what they were pushing over
+[03:08.860 --> 03:11.460]  summer with the cross compatibility stuff. And some
+[03:11.460 --> 03:14.620]  people were able to hack it already using I guess the SDKs
+[03:14.620 --> 03:17.420]  to run PC games on the Mac. So I'm guessing we'll be gaming
+[03:17.420 --> 03:21.260]  focused in some in some horror, cutesy skits.
+[03:22.220 --> 03:23.860]  That's good. So that's really good.
+[03:24.540 --> 03:30.820]  Yeah, they're I, I almost feel bad for them. I guess it's
+[03:30.820 --> 03:34.540]  better than nothing. But they've been promoting the heck out of
+[03:34.540 --> 03:38.420]  both of these Resident Evil titles for I don't know if it's
+[03:38.420 --> 03:42.300]  even a full year, but you know, obviously lot large on iOS. But
+[03:42.300 --> 03:45.580]  but you know, they came up at WWDC, they keep coming up,
+[03:45.580 --> 03:52.060]  right? And it's like, the it's fair to call it a dearth of
+[03:52.060 --> 03:55.660]  AAA games for the Mac, right? The Mac is not in a great shape
+[03:55.700 --> 04:03.380]  for AAA games. And there's a whole bunch of reasons for that
+[04:03.380 --> 04:06.780]  we can actually delve into them. But the Resident Evil ones, I
+[04:06.780 --> 04:12.420]  guess, are written to metal API's, which is why they're able
+[04:12.420 --> 04:16.500]  to like work. What wasn't the demo at WWDC when they talked
+[04:16.500 --> 04:20.460]  about the built in ray tracing support in the GPU in the a 17
+[04:20.460 --> 04:24.220]  Pro, I think they showed the Resident Evil was the footage
+[04:24.220 --> 04:27.060]  taking advantage of it. They also had a demo that Apple
+[04:27.060 --> 04:30.620]  itself wrote, it was sort of like a pretend game, which sort
+[04:30.620 --> 04:33.420]  of speaks to how few games there are that they had to sort of
+[04:33.420 --> 04:37.100]  make like it was like some kind of futuristic spaceship, metal
+[04:37.100 --> 04:40.780]  hallway type thing. And they're like, here it is, running at 12
+[04:40.780 --> 04:44.140]  frames per second on an older chip. And here it is with ray
+[04:44.140 --> 04:46.860]  tracing, running at a full 60 frames per second, blah, blah,
+[04:46.860 --> 04:50.180]  blah. But the Resident Evil games are the few the handful of
+[04:50.180 --> 04:55.100]  major titles that that actually could run great on the Mac. So I
+[04:55.100 --> 04:59.620]  def and the Halloween tie in. Yeah, right. Yeah, there's that
+[04:59.620 --> 05:00.940]  seems like a really good shoe in.
+[05:00.940 --> 05:04.060]  There's a so there's a certain irony in Resident Evil four
+[05:04.060 --> 05:06.940]  specifically, because this is the remake. And the original
+[05:06.940 --> 05:10.500]  version that came out for GameCube in 2002 was announced
+[05:10.500 --> 05:13.180]  was at a time when Nintendo was in trouble, like they didn't
+[05:13.180 --> 05:16.300]  have any third party devs building for GameCube. So
+[05:16.300 --> 05:19.780]  there's a set of games called the Capcom five, which were all
+[05:19.820 --> 05:22.780]  sensibly the time going to be GameCube exclusives. And it kind
+[05:22.780 --> 05:25.580]  of injected new life in the system. And Resident Evil four
+[05:25.780 --> 05:29.180]  was like the tentpole that and it ended up being like one of
+[05:29.180 --> 05:32.340]  the most influential games of that whole era. So there's
+[05:32.340 --> 05:36.460]  something funny about now, Apple partnering with Capcom, although
+[05:36.460 --> 05:39.420]  it wasn't a launch title. iOS wasn't the launch title for
+[05:39.420 --> 05:41.420]  resident before this time, but there's just something funny
+[05:41.420 --> 05:43.260]  that they're sort of playing that game to try to prove to
+[05:43.260 --> 05:46.300]  people, we can do triple A gaming, just like with black
+[05:46.300 --> 05:48.500]  magic design. There's just certain partners that Apple
+[05:48.500 --> 05:50.940]  loves to work with and be like, look what we can do with the
+[05:50.940 --> 05:53.100]  system if you really like lean into it.
+[05:53.380 --> 05:56.780]  Yeah. Ben, are you a longtime Nintendo fan?
+[05:56.780 --> 05:59.340]  I guess, yeah, I had a Nintendo instead of a Genesis. So I guess
+[05:59.340 --> 06:03.380]  that that shows my divide. Yeah, yeah, I guess I stopped gaming
+[06:03.380 --> 06:06.540]  right when I got a job out of school. And then so I missed
+[06:06.540 --> 06:09.700]  that whole era. And then as I've gotten older, I've been able to
+[06:09.700 --> 06:12.020]  rediscover the games I couldn't afford when I was growing up.
+[06:12.020 --> 06:12.380]  So
+[06:12.900 --> 06:14.660]  so you're like more of a retro gamer?
+[06:14.980 --> 06:18.820]  Yeah, yeah. Although I can't, I can't do that on my iPhone. But
+[06:18.820 --> 06:19.300]  yeah,
+[06:19.340 --> 06:24.780]  no. I'm sort of the same way I grew up. I love it is it. I
+[06:24.780 --> 06:29.580]  would say one of the most if you could talk to my teenage or even
+[06:29.580 --> 06:36.180]  college age self. I think the most surprising thing my younger
+[06:36.180 --> 06:40.260]  self would learn about my now 50 year old self is that I no
+[06:40.260 --> 06:43.260]  longer really play video games. I mean, honestly, I think my
+[06:43.260 --> 06:46.380]  younger self would be like, Oh, my God, did I have a stroke or
+[06:46.380 --> 06:50.500]  something? Is it? Is something wrong with me? But for me, and
+[06:50.500 --> 06:53.260]  it's been it sounds like something similar sort of.
+[06:53.260 --> 06:59.860]  happened. It was like, once I started working, working, it's
+[06:59.860 --> 07:03.500]  like something had to give time wise. And for me, it was video
+[07:03.500 --> 07:08.300]  games. It's like I still watch lots of movies late at night.
+[07:08.300 --> 07:10.940]  Like, I guess that's the time I'd spend but I just don't play
+[07:10.940 --> 07:13.860]  games anymore. But I appreciate it. But I'm the same way. Like
+[07:13.860 --> 07:17.740]  we have a switch and we have two switches because my son took one
+[07:17.740 --> 07:20.180]  to college. But the one that's hooked up in our living room,
+[07:20.180 --> 07:24.660]  the games I'm most likely to play are like classic arcade
+[07:24.660 --> 07:31.380]  games that I got dig dug. It's just just like the 1987 coin op
+[07:31.380 --> 07:36.060]  dig dug or something like that. And I got they re they re
+[07:36.060 --> 07:42.020]  released my beloved golden eye for the Nintendo 64. Oh, yeah.
+[07:42.060 --> 07:45.940]  Yeah. So I play that but I don't I'm not I'm not really up on the
+[07:45.980 --> 07:48.660]  new games. I was thinking about getting this new Mario game that
+[07:48.660 --> 07:51.420]  came out. I feel like one of these days I got to get one of
+[07:51.420 --> 07:56.020]  these new games. I know I do not want to play. What's that one
+[07:56.020 --> 07:59.180]  that everybody spends like 300 hours playing Breath of the
+[07:59.180 --> 08:04.340]  Wild? Yeah, I was Zelda Zelda, the Zelda games. Yeah. And I
+[08:04.380 --> 08:08.100]  read about them. I enjoy reading the reviews. I guess the game
+[08:08.100 --> 08:11.820]  tracks how many hours you play and I have friends who they're
+[08:11.820 --> 08:14.460]  like hundreds of hours in and I'm like, I don't know where
+[08:14.460 --> 08:18.180]  that time would come from. Like, that game terrifying. I don't
+[08:18.180 --> 08:21.300]  think that game terrifies me. Because I'm afraid that I would
+[08:21.300 --> 08:22.180]  like it. You know,
+[08:22.220 --> 08:25.460]  I played an hour and a half opening of it. And it's a
+[08:25.460 --> 08:29.260]  tutorial that shows you all the mechanics. And like, it's
+[08:29.260 --> 08:31.940]  supposed to be a sandbox. I get it. But I'm like, I if I can't
+[08:31.940 --> 08:34.940]  get through the tutorial one sitting, I have a list of games
+[08:34.940 --> 08:37.780]  for like my retirement. Like, I'm gonna play through all the
+[08:37.780 --> 08:41.980]  like 100 hour Final Fantasy games. So you know, as I'm
+[08:41.980 --> 08:44.780]  getting ready to shuffle off my mortal coil, I can just check
+[08:44.780 --> 08:48.300]  all of these experiences. But like now the Mario one, what's
+[08:48.300 --> 08:52.100]  remarkable also, and this like speaks to Nintendo specifically
+[08:52.100 --> 08:55.260]  is they were saying that there's like no game passes to it, you
+[08:55.260 --> 08:58.340]  don't have to buy the Platinum tier game, it's like a $60 game,
+[08:58.620 --> 09:01.540]  you plug it in, and you just start playing. There's no
+[09:01.540 --> 09:05.060]  microtransactions doesn't even have to do like a 10 gigabyte
+[09:05.060 --> 09:07.700]  download when you plug it in, which is the worst experience
+[09:07.700 --> 09:10.540]  for a kid on Christmas. They just love a download screen. And
+[09:10.540 --> 09:13.460]  there's like no companies that make this anymore. Maybe that's
+[09:13.460 --> 09:16.660]  why I like the retro games is like I download. I'm Oh, no,
+[09:16.660 --> 09:19.380]  sorry, I buy these games, of course. No, I download like a
+[09:19.380 --> 09:22.100]  one megabyte title. And it's like 10 hours of entertainment
+[09:22.100 --> 09:24.460]  without any of the BS that you get right now.
+[09:26.620 --> 09:28.820]  Sebastian, you a game player? A gamer?
+[09:28.860 --> 09:31.540]  Yeah, but I'm like generationally different. I my
+[09:31.540 --> 09:35.900]  parents never bothered to get us a console or anything. My dad
+[09:35.900 --> 09:39.940]  got into PCs. So I grew up with a PC and was somewhat weary. I
+[09:39.940 --> 09:43.780]  love computers as a little kid. I found them very complicated
+[09:43.780 --> 09:47.500]  and confusing, probably because they weren't max was later
+[09:47.500 --> 09:51.220]  introduced to max. So I played PC games, we did have like Sonic
+[09:51.220 --> 09:53.580]  the Hedgehog, which was like at that point started coming out
+[09:53.580 --> 09:57.140]  for the PC. It was a brand new thing called the CD. So it was a
+[09:57.140 --> 10:00.900]  game called Sonic CD. And it came with a CD you could put in
+[10:00.900 --> 10:04.060]  your in your stereo to to play the soundtrack, which I was
+[10:04.060 --> 10:08.820]  jamming on for a while. Good stuff. So yeah, GTA one old like
+[10:08.820 --> 10:12.060]  DOS games like Wolfenstein 3d. I have my memories of playing
+[10:12.060 --> 10:16.700]  that with with my buddies in elementary school on DOS GTA one
+[10:16.700 --> 10:22.100]  is probably the last like major AAA title that I played I and I
+[10:22.100 --> 10:26.340]  love that game. I was I'm still blown away by it. I'm it's so
+[10:26.340 --> 10:32.860]  good. It really was sort of the the type of game my friends and
+[10:32.860 --> 10:36.860]  I would fantasize about like as 12 year olds like wouldn't it be
+[10:36.860 --> 10:39.620]  great if like you could just have like a whole world you
+[10:39.620 --> 10:42.300]  could just go wherever you want and do whatever you want and
+[10:42.460 --> 10:45.580]  just want to steal cars. You just steal people's cars. It
+[10:45.580 --> 10:48.460]  seems so alive to me honestly, I was actually just last week
+[10:48.460 --> 10:51.300]  looking into two if you want to like quickly because I have a
+[10:51.300 --> 10:54.020]  kid now. So my only experience of video games now is watching
+[10:54.020 --> 10:56.020]  a speed run, which is very appropriate. It's like someone
+[10:56.020 --> 10:59.980]  does the game in three minutes. But it I just recall how
+[10:59.980 --> 11:03.260]  incredibly alive it felt and like so open and free and
+[11:03.260 --> 11:05.820]  because of the lack of internet access I had, but there were
+[11:05.820 --> 11:08.500]  just rumors of like, Oh, there might be a tank there or like a
+[11:08.500 --> 11:12.060]  plane in the game or a boat you could find it. There was the
+[11:12.060 --> 11:15.140]  possibilities were endless and just there was a lot left to the
+[11:15.140 --> 11:18.100]  imagination. I thought that was really cool. But I actually kind
+[11:18.100 --> 11:21.260]  of got my my start in quote unquote software design helping
+[11:21.300 --> 11:24.660]  people make like mods for quake three and half life. So I would
+[11:24.660 --> 11:28.940]  do like textures and yeah, those kind of things. And I was in
+[11:29.220 --> 11:32.500]  fun. I was in junior high. That was I think quake one and I
+[11:32.500 --> 11:35.420]  remember creating a quake love one level that was based on my
+[11:35.420 --> 11:40.860]  high school, which now is a call. And I saw the
+[11:40.860 --> 11:42.020]  architecture I knew.
+[11:42.820 --> 11:45.460]  But no, like that. No, that's the sort of thing that back
+[11:45.460 --> 11:48.940]  then you might even get like, they'll they might even set up
+[11:48.940 --> 11:51.740]  like a little demo in the lobby of the school. Like look what
+[11:51.740 --> 11:55.940]  our talented senior Ben made. It's a live 3d rendering of our
+[11:55.940 --> 12:01.300]  high school. Whereas now Yes, that is a red flag. Knock on the
+[12:01.300 --> 12:07.420]  door. I mean, it's, it's funny. It's funny, but what becomes
+[12:07.420 --> 12:11.540]  controversial or a red flag over time? Let me say that I do know
+[12:11.540 --> 12:14.980]  this and and I know like in broad strokes, and I think it's
+[12:14.980 --> 12:18.060]  worth talking about for this speculating about this event
+[12:18.060 --> 12:23.820]  next week and the gaming. It's almost a mystery. And I think it
+[12:23.820 --> 12:31.060]  is within Apple to how they just the Mac just can't gain traction
+[12:31.060 --> 12:35.820]  with games. And it's not technical, right? For the Intel
+[12:35.820 --> 12:40.140]  years, maybe there was something there about well, not maybe
+[12:40.140 --> 12:44.980]  definitely there's something there with Apple's sort of fuck
+[12:44.980 --> 12:50.660]  you stance towards Nvidia, like CPU wise, Macs across the board
+[12:50.660 --> 12:54.460]  were literally peer to peer with PCs, because they're just using
+[12:54.460 --> 13:00.820]  Intel chip sets and stuff. But on the GPU side, the Macs sort
+[13:00.820 --> 13:05.540]  of you're going to use AMD video and and like it stance was a
+[13:05.540 --> 13:09.100]  setback. But not not so much. It's not like you can't game
+[13:09.100 --> 13:12.500]  with the video cards that you can get for the Intel Macs. The
+[13:12.500 --> 13:18.340]  game companies just didn't write to those API's they wrote to the
+[13:18.460 --> 13:22.140]  the windows gaming API's, you know, and that was it things
+[13:22.140 --> 13:26.100]  like steam, you could get steam on the Mac, but it's right, it's
+[13:26.100 --> 13:30.300]  missing so many of the games that you can get on the all the
+[13:30.300 --> 13:32.300]  other platforms that steam runs on.
+[13:32.380 --> 13:35.020]  But it's almost cyclical or something like yeah, remember
+[13:35.020 --> 13:37.460]  when steam came to the Mac and there seems like there's these
+[13:37.460 --> 13:40.500]  moments in time where like it's like the Mac is back in gaming
+[13:40.500 --> 13:43.660]  and then you don't know if it's Apple like not like following
+[13:43.660 --> 13:46.540]  through with it or people seeing that the market is just smaller
+[13:46.540 --> 13:49.220]  than they would like it to be or but it is there's these little
+[13:49.260 --> 13:52.100]  peaks and bumps and then there's this long valley afterwards in
+[13:52.100 --> 13:54.540]  which we kind of forget about the Mac as a gaming platform
+[13:54.540 --> 13:58.380]  again. Now, here we are again with like now this time it's for
+[13:58.380 --> 14:00.740]  real. We're gonna get some real AAA games everyone.
+[14:00.820 --> 14:06.220]  My son who's a sophomore in college, I got a gaming PC when
+[14:06.220 --> 14:09.820]  he was 1314. That's what he really wanted. And I mentioned
+[14:09.820 --> 14:12.020]  it here on the show, at least maybe I've written about it. But
+[14:12.020 --> 14:15.340]  somehow I've mentioned this and some people I don't have any
+[14:15.340 --> 14:18.140]  kind of religious attachment. We're not religiously Apple
+[14:18.140 --> 14:21.260]  users. It's not a religion. I use Apple stuff because I like
+[14:21.260 --> 14:25.100]  it the best. And you know, there were there wasn't even like a
+[14:25.100 --> 14:28.740]  moment of hesitation like oh, no PCs gonna enter our household
+[14:28.940 --> 14:32.060]  internet. No, it's like that's what he wanted. And I you know,
+[14:32.060 --> 14:34.300]  he really, you know, he knew what he was talking about. He
+[14:34.300 --> 14:37.300]  did the research and I could you know, that was the rule is you
+[14:37.300 --> 14:40.260]  explained to me what kind of system you want and why and what
+[14:40.260 --> 14:43.860]  components and that means you're serious about it. But a couple
+[14:43.860 --> 14:46.940]  of years ago, somebody at Apple, like at an engineering level
+[14:46.980 --> 14:50.380]  reached out to me and just said that people within Apple noticed
+[14:50.380 --> 14:56.140]  that if my son bought a gaming PC, what's going on and and just
+[14:56.140 --> 14:59.740]  asked me questions about which games he plays and why why he
+[14:59.900 --> 15:03.780]  didn't want to do it on a Mac and and basically a typical
+[15:03.780 --> 15:07.940]  Apple person but maybe said, we're doubling back on this
+[15:07.940 --> 15:13.140]  whole aspect and taking a look at why the Mac isn't considered
+[15:13.180 --> 15:17.780]  a top tier platform for games. And we're just trying to
+[15:17.780 --> 15:20.420]  reevaluate it from the ground up, which I thought was
+[15:20.420 --> 15:23.980]  interesting, but I to me haven't seen much come out of it other
+[15:23.980 --> 15:28.220]  than the fact that they do seem to have gaming segments every
+[15:28.220 --> 15:31.740]  keynote now, no matter what it is, right. It's a it used to be
+[15:31.740 --> 15:34.820]  sort of come and go like if they really had something to show off
+[15:34.820 --> 15:37.540]  on the video for the iPhone, there'd be a gaming segment, but
+[15:37.540 --> 15:41.140]  now it's like, every time. I mean, it's my thinking is,
+[15:41.940 --> 15:44.140]  sorry, I was gonna say my thinking is that they don't
+[15:44.220 --> 15:46.980]  they don't actually really care about gaming on the Mac at all.
+[15:46.980 --> 15:49.380]  It's just that their future much like how they've been talking
+[15:49.380 --> 15:52.780]  about AR and beating the AR drum for like, years before the
+[15:52.780 --> 15:56.420]  vision pro is announced, is that they need developers to be on
+[15:56.420 --> 16:00.260]  board making really good games for the vision pro to be like a
+[16:00.260 --> 16:03.780]  very compelling experience and for the iPhone and the iPad to
+[16:03.780 --> 16:07.220]  be great gaming platforms, maybe even the Apple TV. But you know,
+[16:07.260 --> 16:09.980]  I doubt you know, now that we have one architecture you're
+[16:09.980 --> 16:12.180]  building for that it's that much easier to just deploy it on
+[16:12.180 --> 16:16.900]  there and monetize that game but I feel like strategy wise, I
+[16:16.900 --> 16:20.100]  don't think there's a top exec at Apple that was like, we got
+[16:20.100 --> 16:23.820]  to do something about this Mac gaming thing. I think it's more
+[16:23.820 --> 16:27.780]  strategic than that. Right. So I mean, as far as third party
+[16:27.780 --> 16:31.180]  devs, it's as simple as the number of Mac users out there is
+[16:31.180 --> 16:33.860]  a rounding error. So there are some engineers like okay, it'll
+[16:33.860 --> 16:36.940]  cost us this amount to port it and is how much we can make. But
+[16:36.940 --> 16:39.660]  Apple solution if you look at what Sony's done is they have
+[16:39.660 --> 16:43.180]  their own studios that like made horizon zero west and it's part
+[16:43.180 --> 16:47.140]  of the Activision like the or all the stuff that leaked. They
+[16:47.140 --> 16:52.380]  spent something like $300 million on one of these games as
+[16:52.380 --> 16:56.220]  like their tent pole for the PlayStation five. And so if you
+[16:56.220 --> 16:59.460]  look at how much Apple spends on like Apple TV productions, if
+[16:59.460 --> 17:04.060]  they put a similar budget into a Mac exclusive triple A or Mac
+[17:04.100 --> 17:08.660]  iPhone, iPad, right exclusive right triple A title, then they
+[17:08.660 --> 17:11.340]  could change the narrative. But clearly that isn't at the top of
+[17:11.340 --> 17:15.740]  their priorities. Yeah, I think the Apple TV example is I can't
+[17:15.740 --> 17:20.180]  think of a better analogy where they they didn't have their own
+[17:20.180 --> 17:23.660]  streaming channel, they decided they were going to make one and
+[17:23.700 --> 17:27.700]  they put a lot of money into it. And yes, they knew they had to
+[17:27.700 --> 17:30.780]  kind of bootstrap it. And yes, when they launched over only a
+[17:30.780 --> 17:34.020]  handful of shows. And that's why the price was 499 a month.
+[17:34.020 --> 17:41.140]  Because I would say right now, today, Apple TV plus is a fully
+[17:41.580 --> 17:44.780]  has a full tank of original content. I would almost say they
+[17:44.780 --> 17:47.220]  don't need more. I mean, I could always fit more sports in or
+[17:47.220 --> 17:50.140]  something like that. But, you know, I feel like it's plenty of
+[17:50.140 --> 17:53.340]  original shows. Maybe they don't have so many original movies,
+[17:53.340 --> 17:56.140]  but they've got Martin Scorsese's flowers of the
+[17:56.140 --> 17:59.900]  killer moon, which is getting all these accolades from
+[17:59.940 --> 18:03.180]  arguably the best living director on the planet and in
+[18:03.180 --> 18:07.020]  arguably one of so it's hard to say, see how they could be more
+[18:07.020 --> 18:10.180]  serious about TV and movies, right? They got a Scorsese movie,
+[18:10.500 --> 18:13.620]  nothing like that on games. Apple Arcade is a real deal. And
+[18:13.620 --> 18:16.140]  yes, they run they raised the prices this week for all of this
+[18:16.140 --> 18:22.420]  stuff. But it's like Apple Arcade to me is so clearly. And
+[18:22.420 --> 18:26.100]  I know I think it's the rule actually, that all the Apple
+[18:26.100 --> 18:29.900]  arcade games are across all of Apple's devices. There might be
+[18:29.900 --> 18:33.780]  some exceptions, where they've got some that maybe need a
+[18:33.780 --> 18:38.340]  gaming controller, and they're only for the Apple TV or the Mac
+[18:38.340 --> 18:41.420]  or something. I don't know. But for the most part, they all run
+[18:41.420 --> 18:47.740]  Mac, Apple TV, iPad and iPhone. Like that's part of the deal to
+[18:47.740 --> 18:52.660]  make arcade Apple Arcade games, but they're not the PC games
+[18:52.660 --> 18:54.260]  that gamers want to play.
+[18:54.740 --> 18:58.460]  This is gonna say like the first wave of the Apple Arcade titles
+[18:58.460 --> 19:00.740]  were a bunch of original titles that I don't know if they
+[19:00.980 --> 19:04.140]  co-financed to make so they were they were exclusives like
+[19:04.140 --> 19:07.020]  sayonara wild hearts, which was great. It was right. And a
+[19:07.020 --> 19:09.780]  permanent active but so there's a bunch of original titles at
+[19:09.780 --> 19:12.940]  first, but then they gradually moved over to convincing
+[19:12.940 --> 19:16.140]  companies to take their freeware or the freemium games that had
+[19:16.140 --> 19:20.300]  Blake gem systems and take out the gems like the Castlevania
+[19:20.300 --> 19:22.580]  game. It was so embarrassing was the exact same game, but they
+[19:22.580 --> 19:25.580]  just gave you unlimited gems. So it's the same grind mechanic,
+[19:25.740 --> 19:27.860]  but someone just clicked a button that said like free play
+[19:27.860 --> 19:32.620]  basically. So I it could also be that they recognize the type of
+[19:32.620 --> 19:36.540]  people who are into arcade are way, way more casual and aren't
+[19:36.540 --> 19:39.180]  interested in indie level titles. I don't know.
+[19:39.620 --> 19:43.580]  Right. Right. I mean, and casual gaming is a big deal. But it's
+[19:43.580 --> 19:46.380]  not what a scary fast event is about.
+[19:47.300 --> 19:51.100]  Yeah, yeah. Yeah. And it is it is it is really to the point
+[19:51.100 --> 19:54.620]  that like Apple TV plus is sort of like HBO and its attitude
+[19:54.620 --> 19:57.900]  where you just have super high quality stuff. They really
+[19:57.900 --> 20:01.420]  don't. There's no filler like Netflix is always kind of like
+[20:01.420 --> 20:03.420]  people are kind of laughing about how half the shows that
+[20:03.420 --> 20:06.940]  come out seem to be some sort of like crazy filler thing, but
+[20:06.940 --> 20:09.980]  arcade. I don't want to say it's filler. There's tons of
+[20:09.980 --> 20:12.380]  amazing games from developers. I know and respect a ton on
+[20:12.380 --> 20:16.060]  there, but it's it's not quite the same sort of imagine if
+[20:16.060 --> 20:17.980]  Apple had an in house studio, it would look quite a bit
+[20:17.980 --> 20:21.820]  different right right. That's I mean that would be my idea if I
+[20:21.820 --> 20:25.100]  were there would be like give because these these AAA titles,
+[20:25.100 --> 20:29.980]  they do have budgets, very similar to the budgets for major
+[20:29.980 --> 20:35.980]  motion pictures 100 $200 million budgets. Let's put $500 million
+[20:35.980 --> 20:41.820]  to make three games and get name brand game designers, the
+[20:41.820 --> 20:46.540]  people that gamers love, and put the money into it and making
+[20:46.540 --> 20:51.100]  make them exclusive and make the gaming get get piss off all of
+[20:51.100 --> 20:55.900]  Reddit that this game is only available right. Oh man make
+[20:55.900 --> 21:00.700]  the gamer brain explode right go back turn the dial all the
+[21:00.700 --> 21:05.020]  way back to when Halo was going to be a Mac exclusive. Wow
+[21:05.020 --> 21:10.380]  right and right do it actually do it and make a Mac exclusive
+[21:10.380 --> 21:14.220]  or whatever whichever ones of the other platforms Apple
+[21:14.220 --> 21:18.860]  Silicon exclusive game that makes the gamers go nuts that
+[21:18.860 --> 21:22.700]  they their gaming PC can't play it. This is what Valve did with
+[21:22.700 --> 21:25.820]  their with their headset right like they they added they made
+[21:25.820 --> 21:28.780]  the new sequel to Half Life Alex, which actually I think
+[21:28.780 --> 21:31.660]  some of the old firewatch people worked on they made that
+[21:31.660 --> 21:35.500]  exclusive to their their headset their VR thing or VR
+[21:35.500 --> 21:39.420]  platform to to sort of push that forward and I think that
+[21:39.420 --> 21:43.980]  would behoove Apple to to have titles like that like absolute
+[21:43.980 --> 21:48.220]  blow out huge like AAA game title have a have an have an
+[21:48.220 --> 21:50.780]  installment on the vision and maybe on the other platforms. I
+[21:50.780 --> 21:53.100]  mean it's basically the Nintendo playbook where
+[21:53.100 --> 21:56.780]  Nintendo releases underpowered hardware like years behind the
+[21:56.780 --> 22:00.300]  others, but it's the only place you can get Mario and Zelda and
+[22:00.300 --> 22:03.980]  Animal Crossing and you don't even want any of the ports of
+[22:03.980 --> 22:05.740]  the other stuff coming on the other platforms cuz they look
+[22:05.740 --> 22:09.580]  dog ugly like so yeah just become like a Nintendo and have
+[22:09.580 --> 22:13.260]  your own IP and just release it only on your devices and you
+[22:13.260 --> 22:16.860]  will be able to sell more iPads. You're saying this scary
+[22:16.860 --> 22:19.980]  fast in this in this event pertains to their acquisition of
+[22:19.980 --> 22:24.300]  Nintendo and it's actually by Mario Kart.
+[22:24.940 --> 22:29.440]  I don't know the colors don't quite job. I I would love for
+[22:29.440 --> 22:33.280]  them to acquire Hideo Kojima and have this most bizarre
+[22:33.280 --> 22:37.520]  postmodern like two hours of Mads Mikkelsen ranting about
+[22:37.520 --> 22:42.640]  like nano machines like we did it. We have our IP here. I
+[22:42.640 --> 22:45.840]  guess that the the just to cycle back to exactly what we
+[22:45.840 --> 22:51.360]  expect is the is it going to be the M3 or not right and II'm a
+[22:51.360 --> 22:54.080]  little confused. I'm not a silicon expert and I think I
+[22:54.080 --> 22:56.560]  miss wrote a little bit this week when I was speculating
+[22:56.560 --> 23:00.880]  about the event when I even speculated that whenever the M3
+[23:00.880 --> 23:06.080]  might come that it would be derived from the A17 Pro
+[23:06.080 --> 23:10.320]  hardware. Apparently the A17 Pro is sort of a dead end in
+[23:10.320 --> 23:13.920]  that way. The more I kinda knew that before I should know more
+[23:13.920 --> 23:19.760]  cuz Ben Thompson from my other podcast knows more and but and I
+[23:19.760 --> 23:23.200]  listen to ATP where John Siracusa knows the stuff
+[23:23.200 --> 23:25.840]  Stone Cold. I guess it comes down to all right forget if
+[23:25.840 --> 23:28.960]  it's derived from the A17 Pro or not. I think that the big
+[23:28.960 --> 23:33.360]  question is are they is the M3 set for the three nanometer
+[23:33.360 --> 23:37.920]  process at TSMC or not no matter which A series thing
+[23:37.920 --> 23:41.440]  it's most derived from. Let's just say there's going to be
+[23:41.440 --> 23:47.840]  obviously there will be an M3 chip family either coming next
+[23:47.840 --> 23:52.240]  week starting or starting sometime next year. II don't
+[23:52.240 --> 23:54.720]  even think it seemed as far as I can tell though nobody really
+[23:54.720 --> 23:57.520]  is even certain whether it's going to be three nanometer and
+[23:57.520 --> 24:00.800]  if it is, I guess it's gonna be this slightly different process
+[24:00.800 --> 24:03.600]  than the one like a sort of second generation three
+[24:03.600 --> 24:07.040]  nanometer process from the A17 Pro, but I guess that's the
+[24:07.040 --> 24:10.400]  question is is can they hold an event that's worth holding an
+[24:10.400 --> 24:14.160]  actual event where people are supposed to watch and media are
+[24:14.160 --> 24:17.840]  coming to New York for for briefings and stuff like that.
+[24:17.840 --> 24:22.400]  If they're only announcing Macs that are still based on the M2
+[24:22.400 --> 24:27.760]  family. Yeah, I'm guessing it has to be like I can't see
+[24:27.760 --> 24:30.640]  them having a spec bump cuz they updated the MacBook Pros
+[24:30.640 --> 24:35.280]  this year right like and then having another update this year
+[24:35.280 --> 24:38.560]  that is what would they say like now the screen is brighter
+[24:38.560 --> 24:42.160]  and the battery is better or it's screwed off. We're doing
+[24:42.160 --> 24:48.480]  the touch bar again. It's back. Well, we went for years for so
+[24:48.480 --> 24:52.880]  many years, especially I don't know maybe like those the teen
+[24:52.880 --> 24:56.560]  years of the the 2000s leading up to that point where they had
+[24:56.560 --> 25:00.080]  that Mac round table to say. Hey, we're gonna we we really do
+[25:00.080 --> 25:02.800]  care about pros and we really we know we backed ourselves into
+[25:02.800 --> 25:09.680]  a thermal corner with the trash can Mac Pro and practically
+[25:09.680 --> 25:14.240]  said we're they said we're going to have a pro iMac coming
+[25:14.240 --> 25:17.120]  out later this year and we asked that will it be called the
+[25:17.120 --> 25:20.640]  iMac Pro and they were like we're gonna have a pro iMac
+[25:20.640 --> 25:24.240]  coming out later this year like that's always how Apple people
+[25:24.240 --> 25:26.400]  are like they've been trained like we're not gonna tell you
+[25:26.400 --> 25:33.360]  what the name is. But I don't know I kind of feel my gut
+[25:33.360 --> 25:36.160]  feeling and I could be wrong like that they could come out
+[25:36.160 --> 25:39.440]  with some Macs that run the M3 like here's the introduction
+[25:39.440 --> 25:44.720]  first M3 Macs. My gut feeling says no though and to me the
+[25:44.720 --> 25:50.800]  big tell was that the 15 inch MacBook Air with the M2 only
+[25:50.800 --> 25:56.320]  came out at WWDC, which is just a couple months ago like that
+[25:56.320 --> 26:01.520]  to me is a sign was a really strong sign that the M2 is here
+[26:01.520 --> 26:06.640]  for is going to be current for a bit and the M3 is sort of a
+[26:06.640 --> 26:10.640]  next year's sort of thing and I could see them especially. I
+[26:10.640 --> 26:13.200]  don't know if it would just be iMacs. I don't know what else
+[26:13.200 --> 26:16.880]  they could speed bump, but if they just say now the iMac is on
+[26:16.880 --> 26:22.800]  the M2 and we have an iMac Pro that has the M2 Pro or it's just
+[26:22.800 --> 26:26.240]  like the the same chips in the 14 and 16 inch MacBook Pros.
+[26:26.960 --> 26:31.200]  Could they justify calling that scary fast? I kind of feel like
+[26:31.200 --> 26:33.840]  they'd sort of be spinning it because these are chips we've
+[26:33.840 --> 26:39.200]  seen before, but if we're going to have to wait until next year
+[26:39.200 --> 26:43.280]  for the beginning of the M3 series and then later to get to
+[26:43.280 --> 26:50.720]  the higher end M3 hardware, it seems like this is where product
+[26:50.720 --> 26:54.560]  marketers earn their keep and calling saying that the M2 and
+[26:54.560 --> 27:00.400]  the M2 Pro are still scary fast at the end of 2023 carrying into
+[27:00.400 --> 27:05.360]  2024 is a way to sort of fill that gap with hey don't worry
+[27:05.360 --> 27:08.400]  these things are and they are they are they are really this is
+[27:08.400 --> 27:12.320]  really fast hardware. Yeah. I mean you call the two that
+[27:12.320 --> 27:15.920]  the Vision Pro is going to be shipping with the yeah two
+[27:15.920 --> 27:19.840]  suppose right right and I I keep thinking it would be
+[27:19.840 --> 27:22.720]  slightly weird for them to introduce even if they're
+[27:22.720 --> 27:29.440]  consumer products to $1300 MacBook Airs with the M3 but
+[27:29.440 --> 27:33.680]  this $3500 headset that's coming in like I don't know end of
+[27:33.680 --> 27:38.240]  January or February or something for 3500 has the M2 is
+[27:39.440 --> 27:45.440]  it's it's they can do it when I reread their hype from WWDC
+[27:45.440 --> 27:49.200]  about the Vision Pro and they really really really emphasize
+[27:49.200 --> 27:55.280]  the R1 chip in that like like they're here's the thing that
+[27:55.280 --> 28:00.240]  only Apple can do here's what sets this thing apart silicon
+[28:00.240 --> 28:04.640]  wise from anybody else in the headset game it's the R1 that
+[28:04.640 --> 28:08.560]  they're talking about it's the R1 that enables this
+[28:08.560 --> 28:11.920]  incredibly low latency from the cameras to what you see in the
+[28:11.920 --> 28:15.040]  headset it's they they I don't even know if they really talked
+[28:15.040 --> 28:18.480]  about they're like it has the blazingly fast M2 chip in it but
+[28:18.480 --> 28:23.120]  they didn't really talk about that at all as having any sort
+[28:23.120 --> 28:27.440]  of major part to play and what's what makes Vision Pro
+[28:28.160 --> 28:32.880]  special different low latency super engaging etc etc it's all
+[28:32.880 --> 28:36.640]  about the R1 so I think they could do it but I still feel
+[28:36.640 --> 28:41.200]  like it's it's just like one part of the song that would be
+[28:41.200 --> 28:46.560]  like a discordant note yeah anything else what do you so what
+[28:46.560 --> 28:49.440]  do we think I I that's what I I'm kind of guessing if you
+[28:49.440 --> 28:52.160]  wanted me to guess I'm gonna guess it's all about iMacs and
+[28:52.160 --> 28:56.000]  that nothing else is gonna get updated cuz I just I see yeah I
+[28:56.000 --> 29:00.240]  suspect that too honestly it feels iMac-y to me yeah when
+[29:00.240 --> 29:07.600]  was the uh Mac Pro release oh oh that was wasn't that WWDC
+[29:07.600 --> 29:10.160]  was it they did the the Mac Studio yeah cuz they did the
+[29:10.160 --> 29:13.840]  Mac Studio update you were right they showed you sitting
+[29:13.840 --> 29:16.960]  behind that was the studio update but yeah but the Mac the
+[29:16.960 --> 29:20.320]  Mac Pro came after that because they were like and now we also
+[29:20.320 --> 29:24.240]  finally are finishing the lineup John Ternus famously got
+[29:24.240 --> 29:27.280]  quoted over and over again that will return to the Mac Pro in a
+[29:27.280 --> 29:30.320]  future point in time which is the most concrete announcement
+[29:30.320 --> 29:32.960]  on the hardware plans Apple's ever made right and then they
+[29:32.960 --> 29:37.040]  finally did it but then the iMac is now I don't know how
+[29:37.040 --> 29:39.120]  long it's it's since the introduction of the M1
+[29:39.120 --> 29:43.120]  basically has been untouched right yeah definitely yeah just
+[29:43.120 --> 29:46.320]  came out everybody was excited about the colors everybody was
+[29:46.320 --> 29:50.800]  sort of had strong opinions about the chin and colors on
+[29:50.800 --> 29:54.400]  the chin and the fact that there still is a chin and yeah
+[29:54.400 --> 29:58.480]  and everybody loved the colored cables and and then what
+[29:58.480 --> 30:02.720]  nothing since not a word and then no more fun colors in it
+[30:02.720 --> 30:05.760]  it's alright the last time they shipped anything with fun
+[30:05.760 --> 30:09.200]  colors right and I was like kinda sleuthing on this online
+[30:09.200 --> 30:12.720]  and I I posted this on on all the Twitter like social network
+[30:12.720 --> 30:15.920]  Twitter adjacent social networks now that there was this
+[30:15.920 --> 30:18.480]  weird leak happening around iPhone release time where they
+[30:18.480 --> 30:21.440]  were supposedly going to be these color matched cables
+[30:21.440 --> 30:24.160]  coming with every iPhone which never materialized cuz they
+[30:24.160 --> 30:26.960]  were USB C cables people thought they would go with the
+[30:26.960 --> 30:30.160]  iPhones and they're all in funny colors right but I bet
+[30:30.160 --> 30:32.480]  that would be that would go with cuz the accessories on the
+[30:32.480 --> 30:36.000]  iMac famously are color matched which is really cool to the
+[30:36.000 --> 30:39.120]  actual iMacs and those have color matching lightning cables
+[30:39.120 --> 30:42.240]  now and that's obviously not gonna be a thing anymore. Yeah,
+[30:42.240 --> 30:46.800]  but the the little finder face. Yeah. Also the the the the the
+[30:46.800 --> 30:49.600]  iMacs have these really cool wallpapers that take a little
+[30:49.600 --> 30:52.800]  bite out of the hello script. Yeah. The first Macintosh.
+[30:52.800 --> 30:55.440]  Yeah. If anything screams first Macintosh, it's the finder
+[30:55.440 --> 30:58.640]  face right. So maybe that'll be like the the thing they remixed
+[30:58.640 --> 31:01.840]  with the iMacs this time. So maybe it'll be like M two comes
+[31:01.840 --> 31:05.680]  to iMac. Maybe there'll be a tease or an introduction of a
+[31:05.680 --> 31:08.880]  bigger iMac, which is scary fast. Maybe they'll put the M
+[31:08.880 --> 31:12.560]  three in that for the first time and maybe they'll spec bump
+[31:12.560 --> 31:15.520]  the MacBook pros and showcase how they're both great for
+[31:15.520 --> 31:18.800]  gaming and for developing your vision pro game on it because
+[31:18.800 --> 31:23.120]  it's even more crazy and fast. Also, I think they're overdue
+[31:23.120 --> 31:26.480]  for an XDR display update cuz it still doesn't do promotion.
+[31:26.480 --> 31:29.120]  Oh man. Be still my beating heart. Yes, displays. That
+[31:29.120 --> 31:35.440]  would be great. Yeah. That that would be super fun. I have to
+[31:35.440 --> 31:39.680]  me II own the studio display, not the XDR but maybe if they
+[31:39.680 --> 31:43.440]  came out with an a new XDR, I might upgrade find a new home
+[31:43.440 --> 31:47.520]  for my studio display but it the thing that would most
+[31:47.520 --> 31:49.840]  excite me about it is even if I don't buy it, it would just
+[31:49.840 --> 31:53.040]  tell me that Apple is definitely committed to staying
+[31:53.040 --> 31:58.160]  in the display game. Yes. Yes. Like I was so mad for so long
+[31:58.160 --> 32:00.880]  that they weren't making displays and seemingly that
+[32:00.880 --> 32:03.600]  they'd sort of done the displays what they long ago did
+[32:03.600 --> 32:07.760]  with printers like screw this. We're not making them anymore
+[32:07.760 --> 32:12.160]  and I miss Apple printers. Apple printers were great and
+[32:12.160 --> 32:14.640]  like back in college at the newspaper at the student
+[32:14.640 --> 32:20.000]  newspaper, we bought HP laser jets but Apple is still making
+[32:20.000 --> 32:25.280]  Apple's existence in the game made HP compete in terms of oh
+[32:25.280 --> 32:28.160]  it's it's great. You just hook it up. Get it on your get it on
+[32:28.160 --> 32:31.760]  your Ethernet and it just works. Apple's absence from the
+[32:31.760 --> 32:36.640]  printer game has helped the printer industry devolve into
+[32:36.640 --> 32:39.920]  hell. Yeah. I'm honestly amazed that this is not something that
+[32:39.920 --> 32:42.720]  like some fancy direct-to-consumer startup has
+[32:42.720 --> 32:46.320]  solved yet or I know it has because it's if you look back,
+[32:46.320 --> 32:48.400]  we're going to be like living in this future right with these
+[32:48.400 --> 32:51.440]  like amazing generative AI tools where the future is
+[32:51.440 --> 32:53.920]  truly here and you're talking to a completely virtual human
+[32:53.920 --> 32:56.960]  with complete autonomous general intelligence and in the
+[32:56.960 --> 32:58.800]  meantime, your printer is still going to be this piece of ****
+[32:58.800 --> 33:01.840]  that doesn't work and you have to turn it on and off 20 times
+[33:01.840 --> 33:07.920]  to print a piece of paper. Yeah. Yeah. So, XDR update with
+[33:07.920 --> 33:10.720]  promotion. Man, that would be great because that would to me
+[33:10.720 --> 33:13.520]  solidify. Yeah, we're in this. We're in this for the long run.
+[33:13.520 --> 33:15.920]  We're going to keep making displays because we we can't
+[33:15.920 --> 33:20.800]  trust anybody else to make good ones. Ben, question. So, what
+[33:20.800 --> 33:24.480]  what do you what's your hardware as a as a the developer
+[33:24.480 --> 33:28.960]  of the duo? What Mac are you using? So, it's funny like the
+[33:28.960 --> 33:34.320]  first version of Halide was built on the first MacBook that
+[33:34.320 --> 33:38.800]  was with a single USB. It's like 2014. The the thirteen inch
+[33:38.800 --> 33:42.000]  one. That one. It was mostly an act of rebellion to see like if
+[33:42.000 --> 33:45.440]  you don't really need a large Mac. No, it wasn't the
+[33:45.440 --> 33:47.120]  twelve-inch. It was twelve-inch. Yeah, I think it was.
+[33:47.120 --> 33:48.960]  Yeah, that's right. That's right. But it was the it was the
+[33:48.960 --> 33:52.400]  first single. I still have the Mac just as a goof but it's
+[33:52.400 --> 33:55.920]  like, yeah, the single USB port and then eventually I grew
+[33:55.920 --> 34:00.320]  beyond that and for a while, I was when it first came out the
+[34:00.320 --> 34:05.440]  M one Mac mini with an XDR display which I was amazed to
+[34:05.440 --> 34:08.880]  see worked really well. Right. Like you couldn't author like
+[34:08.880 --> 34:13.280]  4k video and and resolve on it but it was more than enough for
+[34:13.280 --> 34:18.560]  what we needed and so now I'm on the M one MacBook Pro and
+[34:18.560 --> 34:21.120]  then I have because of the Apple Design Awards, they give
+[34:21.120 --> 34:24.560]  you this prize package of like every item. So, I have the Mac
+[34:24.560 --> 34:28.400]  Studio that they have with the Ultra which I can't use in the
+[34:28.400 --> 34:32.000]  couch. So, so I end up still using the MacBook Pro but when
+[34:32.000 --> 34:34.080]  it does involve something like if you're training a machine
+[34:34.080 --> 34:38.400]  learning model or you're having to push HDR video, then yeah, I
+[34:38.400 --> 34:41.280]  bring out the big guns. Yeah. Sebastian, what's your what's
+[34:41.280 --> 34:46.160]  your hardware? Well, I used to, so I do some 3D work and I
+[34:46.160 --> 34:49.120]  used to, I was lusting for this for a long time. I was like an
+[34:49.120 --> 34:52.800]  age-long Mac Pro user back in the day. This is the Zeon
+[34:52.800 --> 34:56.800]  cheese grater and so when they came out with the 2019 Mac
+[34:56.800 --> 35:00.000]  Pro, I actually used our our proceeds from the app we
+[35:00.000 --> 35:03.200]  launched that year, Spectre to buy one. One of the new Intel
+[35:03.200 --> 35:08.320]  ones and that thing aged like milk. That was just incredible.
+[35:08.320 --> 35:11.040]  It's true. I think it got outperformed like a MacBook
+[35:11.040 --> 35:14.000]  Air basically by the moment the Apple Silicon came out. Even
+[35:14.000 --> 35:19.280]  for 3D stuff. It's actually kind of amazing. And so nowadays
+[35:19.280 --> 35:23.120]  my MacBook Pro M1 Max does everything and it's it's
+[35:23.120 --> 35:26.880]  perfect. So, I have it hooked up to a pro display XDR and I
+[35:26.880 --> 35:30.400]  will say they they claimed that the Apple Silicon like the Mac
+[35:30.400 --> 35:33.440]  Studio would beat the Mac Pro in every respect but I did get
+[35:33.440 --> 35:36.560]  the wheels on the Mac Pro and on a slight incline. I will
+[35:36.560 --> 35:40.000]  tell you that the Mac Pro is still way faster than the Mac
+[35:40.000 --> 35:44.480]  Studio which hardly moves at all. That's me. I'm the I love
+[35:44.480 --> 35:48.400]  just having one Mac that I use whether I'm on the road on the
+[35:48.400 --> 35:51.120]  couch or at my desk that I can look up to a display. So me,
+[35:51.120 --> 35:55.520]  I've the fourteen-inch M1 MacBook Pro Max literally
+[35:55.520 --> 36:03.920]  maxed out. Max chip 64 gigs of RAM and my terrible horrible
+[36:03.920 --> 36:10.000]  hoarder browser tab habit. The only thing I'm jealous about
+[36:10.000 --> 36:13.680]  with the M2 MacBook Pros is that that you can get up to 96
+[36:13.680 --> 36:18.800]  gigs of RAM but. Right. I even with my horrible hundreds of
+[36:18.800 --> 36:24.000]  Safari tabs open at a time habit. I still it can go weeks
+[36:24.000 --> 36:29.360]  and still have swap at zero. So, it's it's the first first Mac
+[36:29.360 --> 36:33.280]  that I've had ever that never swaps because of my browser tab
+[36:33.280 --> 36:38.080]  habit. So, maybe sixty-four is good for me. Um alright, I'm
+[36:38.080 --> 36:41.520]  gonna guess iMac but we'll see. There's no more. We'll find out
+[36:41.520 --> 36:44.800]  next week. Let's take a break and let me thank our good
+[36:44.800 --> 36:48.320]  friends at Trade Coffee. I don't have any trade coffee in
+[36:48.320 --> 36:50.320]  front of me right now because we're recording in the
+[36:50.320 --> 36:55.200]  afternoon but it's it's coursing through my veins as we
+[36:55.200 --> 36:59.440]  speak. My caffeine for the day came from Trade. I love Trade
+[36:59.440 --> 37:04.720]  Coffee. Here's the deal. It is a subscription service. They are
+[37:04.720 --> 37:08.720]  not a single roaster. It's not like Trade is at it got like a
+[37:08.720 --> 37:11.760]  factory where they roast beans. What Trade is is sort of an
+[37:11.760 --> 37:16.400]  umbrella on top of like I think it's over fifty different
+[37:16.400 --> 37:20.240]  independent independent roasters around the country
+[37:20.240 --> 37:24.240]  with over 450 different coffees. So, all sorts of
+[37:24.240 --> 37:28.560]  really small tiny independent roasters from around the around
+[37:28.560 --> 37:31.760]  the country. Trade works with them and your subscription,
+[37:31.760 --> 37:36.240]  they they keep sending you new and original coffees from
+[37:36.240 --> 37:39.280]  different roasters around the country. I got one the last
+[37:39.280 --> 37:42.080]  batch, the batch I drank today just had a nice little
+[37:42.080 --> 37:45.440]  handwritten note on the bag. Thanks, John from the name of
+[37:45.440 --> 37:49.520]  the roaster and it was great coffee. It's it's like really
+[37:49.520 --> 37:52.880]  small roasters who just really sweat the details over their
+[37:52.880 --> 37:56.800]  beans and with Trade overall, when you sign up for an
+[37:56.800 --> 37:59.600]  account, you tell them as the coffee comes. Hey, I really
+[37:59.600 --> 38:03.360]  like that or that one not so much and then they use that to
+[38:03.360 --> 38:05.760]  algorithms aren't bad all the time. This is a great
+[38:05.760 --> 38:09.120]  algorithm. They use what you like what you dislike to
+[38:09.120 --> 38:14.320]  adjust which beans they send to you on your subscription and
+[38:14.320 --> 38:18.320]  for me, it only took a couple of rounds before they zeroed in
+[38:18.320 --> 38:21.920]  right on the bullseye of the type of coffees that I like to
+[38:21.920 --> 38:26.880]  drink and make at home. It is absolutely terrific over 450
+[38:26.880 --> 38:29.440]  different coffees. But again, if you're overwhelmed by that,
+[38:29.440 --> 38:31.440]  they've got a couple of questions up front that can
+[38:31.440 --> 38:34.160]  help you get started. It's not overwhelming to get started.
+[38:34.160 --> 38:36.480]  Even if you're not sure they will guide you through that
+[38:36.480 --> 38:40.000]  process. And the very best thing about it, in addition to
+[38:40.000 --> 38:42.480]  the fact that these things come from small independent roasters
+[38:42.480 --> 38:47.040]  is that as I always say here, coffee is produce, it starts
+[38:47.040 --> 38:50.720]  going bad as soon as it's roasted and you get your trade
+[38:50.720 --> 38:56.240]  coffee delivered to you 345 days after it was roasted. It's
+[38:56.240 --> 39:00.240]  that fresh. It is as fresh as it can possibly be nothing you
+[39:00.240 --> 39:04.080]  buy on a supermarket shelf can possibly compete on freshness
+[39:04.080 --> 39:07.120]  alone, let alone quality but the freshness angle alone. You
+[39:07.120 --> 39:10.080]  just cannot buy store bought coffee that competes with the
+[39:10.080 --> 39:13.360]  stuff that you get from trade and it just makes such a huge
+[39:13.360 --> 39:15.760]  difference. Once you go to fresh coffee, you just will
+[39:15.760 --> 39:19.520]  never ever go back. I am a super happy subscriber of
+[39:19.520 --> 39:22.320]  trade. But I'm also very happy that they continue to sponsor
+[39:22.320 --> 39:26.560]  the show. What do you do to get started? It is so easy. Upgrade
+[39:26.560 --> 39:29.040]  your morning routine with better coffee trade is offering
+[39:29.040 --> 39:32.320]  talk show listeners a free bag of coffee with any subscription
+[39:32.320 --> 39:38.720]  go to drink trade.com slash the talk show. That's drink trade
+[39:38.720 --> 39:43.920]  dot com slash the talk show and you get a free bag of coffee
+[39:43.920 --> 39:48.400]  with any subscription purchase drink trade.com slash the talk
+[39:48.400 --> 39:52.560]  show. Alright, what do you what kind of grinder do you use?
+[39:52.560 --> 39:58.560]  Oh, I have a it's like a big burr grinder. Encore? No. Oh,
+[39:58.560 --> 40:02.000]  wait. Yes, the Encore. Yeah, that's it. What's the name of
+[40:02.000 --> 40:05.920]  the company though? Baratza. There we go. What what is it?
+[40:05.920 --> 40:10.240]  It's Baratza. I think yes, Baratza Encore. Yes. Thank you.
+[40:10.240 --> 40:13.840]  You knew that's my grinder. I've had it for years. It runs
+[40:13.840 --> 40:17.680]  like a champ. The only thing I could not stand about it.
+[40:17.680 --> 40:19.600]  Alright, I'm going to have to make a note here. I will put it.
+[40:19.600 --> 40:22.800]  I will put it in the show note for this section. I will make
+[40:22.800 --> 40:28.080]  the album art a picture, a photo of my grinder. I could
+[40:28.080 --> 40:33.760]  not stand the font that the word Encore. It's terrible. It's
+[40:33.760 --> 40:40.080]  like that. Yes. Yes, it is. It is like like Zapfino and it's
+[40:40.080 --> 40:43.120]  right there on the front of the grinder and I had it for years
+[40:43.120 --> 40:46.640]  and every **** morning because I make coffee for myself every
+[40:46.640 --> 40:50.560]  morning. I wake up. I grind coffee and I did it every day.
+[40:50.560 --> 40:53.920]  I mean, like unless I'm not home or like I have like an
+[40:53.920 --> 40:56.400]  early flight to the airport or something, some kind of morning
+[40:56.400 --> 40:59.280]  appointment. I make coffee and I had to stare at this ugly ****
+[40:59.280 --> 41:02.560]  logo and so I took my label maker. I've got one of those
+[41:02.560 --> 41:07.360]  old old school ones that the the plastic, you know what I
+[41:07.360 --> 41:10.080]  mean? The old school personal label maker. There was a punch
+[41:10.080 --> 41:12.880]  through basically, right? Yeah, that punch through to make the
+[41:12.880 --> 41:16.080]  colored tape turn white by the pressure of the plastic and
+[41:16.080 --> 41:19.360]  just wrote the word Encore with it and taped it over it cuz I
+[41:19.360 --> 41:22.480]  kinda like the look of that. I love the industrial look of
+[41:22.480 --> 41:26.320]  those old school labels and every single morning, I look at
+[41:26.320 --> 41:29.280]  that little handmade label I put there and it makes me so
+[41:29.280 --> 41:32.720]  happy that it and and it just fits perfectly over the Encore
+[41:32.720 --> 41:35.680]  look. I will put it in the show notes and I'll I'll send you
+[41:35.680 --> 41:39.200]  guys a picture. I I bought a shredder like a small shredder
+[41:39.200 --> 41:43.280]  for my office and it was the design itself. I liked it. It's
+[41:43.280 --> 41:46.240]  kinda cute but it had a gigantic logo over the top and I
+[41:46.240 --> 41:50.160]  took some black gaffers tape and from a distance, you can no
+[41:50.160 --> 41:53.280]  longer see the logo.
+[41:54.320 --> 41:58.320]  Oh man, I've done that too with the gaff tape is number one. A
+[41:58.320 --> 42:00.800]  Merlin man taught me this years ago that every household should
+[42:00.800 --> 42:03.760]  have some black gaffers tape because it's it's the greatest
+[42:03.760 --> 42:07.680]  tape in the world. Like the whole point of it is it comes
+[42:07.680 --> 42:10.080]  from the gaffers in the movie industry. You have to tape like
+[42:10.080 --> 42:12.880]  cables and lights and stuff like that but then they have to
+[42:12.880 --> 42:15.440]  take the tape off and move cuz they, you know, we need a new
+[42:15.440 --> 42:17.760]  setup. We need to move the lights. So, it's like sticky
+[42:17.760 --> 42:22.000]  enough to keep stuff in place but it's not like duct tape
+[42:22.000 --> 42:24.560]  where like, oh god, as soon as you can't peel it off and then
+[42:24.560 --> 42:27.920]  there's residue behind. It's like no residue. Like this
+[42:27.920 --> 42:31.680]  perfect mid ground of sticky enough to stick and yet doesn't
+[42:31.680 --> 42:36.800]  leave residue and it is perfect for covering up labels, shiny
+[42:36.800 --> 42:40.560]  things, annoying things. II use gaff tape on one of my old
+[42:40.560 --> 42:44.240]  Kindles cuz II don't know. At one point, Amazon for reasons
+[42:44.240 --> 42:47.840]  that II cannot understand. I mean, there's a lot of things
+[42:47.840 --> 42:50.960]  wrong with every Kindle but one of the Kindles I bought had a
+[42:50.960 --> 42:55.920]  shiny Amazon logo on the front underneath the book and I'm
+[42:55.920 --> 42:58.720]  like, it's bad enough you put it. I mean, it's I have so many
+[42:58.720 --> 43:01.680]  complaints about the buttons and the lack of buttons and
+[43:01.680 --> 43:04.400]  everything but it's like this god damn shiny logo and then
+[43:04.400 --> 43:07.760]  nice little piece of gaff tape over it. Ah, problem solved.
+[43:07.760 --> 43:11.440]  Done. Yeah. Well, even Apple doesn't put the MacBook Pro
+[43:11.440 --> 43:14.960]  text on the front of the screen anymore. So, if they don't put
+[43:14.960 --> 43:18.080]  their brand on it as a company like you really shouldn't be
+[43:18.080 --> 43:20.720]  putting your logo prominently on your product like that. Like
+[43:20.720 --> 43:23.440]  really, it's not necessary. Yeah. They went back to the
+[43:23.440 --> 43:26.160]  MacBook logo at one point. They it's like they had it then they
+[43:26.160 --> 43:28.720]  went away with it and I thought, good. It shouldn't be
+[43:28.720 --> 43:31.520]  there and then it came back. I don't know if it was for the
+[43:31.520 --> 43:36.720]  original M one MacBook Air or maybe maybe when the MacBook
+[43:36.720 --> 43:40.480]  Air went retina. Remember there was that weird gap. Oh yeah.
+[43:40.480 --> 43:43.920]  Where the MacBook Air was not retina and everything else was
+[43:43.920 --> 43:47.120]  and if I but maybe that was it but one of those things like
+[43:47.120 --> 43:49.680]  let's just say it was the the original retina MacBook Air.
+[43:49.680 --> 43:52.400]  They put the MacBook Air logo back under the screen and I
+[43:52.400 --> 43:56.080]  remember asking I asked Phil Schiller. I was like, why did
+[43:56.080 --> 44:00.240]  you do that? And it is one of those non-answer answers and I
+[44:00.240 --> 44:05.200]  can tell I could just tell there there was a discussion
+[44:05.200 --> 44:08.560]  about it. Yeah. That's funny when you get to kind of get
+[44:08.560 --> 44:10.720]  that feeling. Well, they stamp it into the bottom of the
+[44:10.720 --> 44:13.680]  MacBook pronoun. Yeah. It's really nice. Yeah, which is
+[44:13.680 --> 44:17.040]  really really nice. I love it. It makes me very happy every
+[44:17.040 --> 44:19.440]  time I pick it up from the desk and I'm reminded of it. I'm
+[44:19.440 --> 44:23.840]  like, yeah, that's nice stamped in there. Alright, let's talk
+[44:23.840 --> 44:26.480]  Halide. I mean, I think it's safe to say this. That's the
+[44:26.480 --> 44:29.120]  flagship app you guys make. I forgot to mention Spectre
+[44:29.120 --> 44:33.920]  earlier at some basic level. You're the Halide company for
+[44:33.920 --> 44:36.400]  now. Yeah. I mean, things can change your adapting. Where did
+[44:36.400 --> 44:39.200]  the idea what you tell me tell the audience? I mean, I think
+[44:39.200 --> 44:41.040]  people have heard about it. I've linked to it enough, but
+[44:41.040 --> 44:46.960]  what is Halide? Halide is basically a camera for your
+[44:46.960 --> 44:50.720]  iPhone that tries to find the middle ground between a full
+[44:50.720 --> 44:56.320]  fledged complicated DSLR and Apple's camera app. So it's an
+[44:56.320 --> 44:58.560]  app that's easy enough to understand and to help you
+[44:58.560 --> 45:01.200]  learn photography and take better photos because you get
+[45:01.200 --> 45:06.000]  more control over the process but not so completely
+[45:06.000 --> 45:08.480]  complicated that it's almost like stepping into an airplane
+[45:08.480 --> 45:10.480]  cockpit and being overwhelmed with all the knobs and
+[45:10.480 --> 45:13.680]  switches. Ben, what would your what would your one line pitch
+[45:13.680 --> 45:17.520]  be? Well, it's funny cuz yeah, it's changed over time and I
+[45:17.520 --> 45:20.000]  mean that was the original idea is that we wanted something
+[45:20.000 --> 45:24.080]  that would be if we can't carry around a digital SLR back when
+[45:24.080 --> 45:27.840]  it first came out, all I wanted was manual shutter speed
+[45:27.840 --> 45:31.600]  control ISO and things like there weren't any iPhone apps
+[45:31.600 --> 45:35.200]  that did focus peaking, which is a pretty standard feature in
+[45:35.200 --> 45:40.080]  cameras. So this was before computational photography was
+[45:40.080 --> 45:45.600]  on everyone's lips and so after that, then now what is the
+[45:45.600 --> 45:49.120]  definition of manual has changed. So now, especially we
+[45:49.120 --> 45:53.040]  use it more because we give control over turning down some
+[45:53.040 --> 45:56.320]  of the processing that Apple includes out of the box. They
+[45:56.320 --> 45:58.720]  give APIs for it but just because they don't wanna turn
+[45:58.720 --> 46:01.600]  the first-party camera into a cockpit. You have to expose on
+[46:01.600 --> 46:06.000]  the API level and so it's also a focus tool. So again like the
+[46:06.000 --> 46:09.680]  first-party camera, it would suck to work there because they
+[46:09.680 --> 46:14.160]  have the task of having one app that does video and
+[46:14.160 --> 46:17.840]  photography because you you see a camera icon, you tap on it
+[46:17.840 --> 46:22.000]  and so Halide just does photography despite everyone's
+[46:22.000 --> 46:25.600]  request to add video and it's just does one tool really like
+[46:25.600 --> 46:30.800]  this one specific thing. That's a perfect description. I agree
+[46:30.800 --> 46:34.240]  that I would, I don't know if I would not wanna work on Apple's
+[46:34.240 --> 46:38.000]  camera team because of what you just said or if I would want to
+[46:38.000 --> 46:42.960]  because it's such a challenge and I happen to think it's one
+[46:42.960 --> 46:50.160]  of the best Apple UI teams that they have consistently like and
+[46:50.160 --> 46:54.880]  it is. It's a task and it go back to like the original
+[46:54.880 --> 46:58.480]  iPhone camera like the early years that the skeuomorphic
+[46:58.480 --> 47:02.640]  years that Steve Jobs was still alive years and it really was
+[47:02.640 --> 47:06.160]  just a shutter button right and and the revolutionary
+[47:06.160 --> 47:09.440]  breakthrough was pinch to zoom right. I mean that you could
+[47:09.440 --> 47:14.560]  pinch to zoom on the viewfinder and like everything else in
+[47:14.560 --> 47:19.120]  iOS, there's no lag when you pinch to zoom right and that
+[47:19.120 --> 47:22.240]  that was a huge feature but otherwise, so I'm not down
+[47:22.240 --> 47:25.120]  playing the the amount of software that went into it and
+[47:25.120 --> 47:28.480]  of course, I'm sure from the early years onward with the
+[47:28.480 --> 47:31.920]  super crappy sensors back then that the image processing to
+[47:31.920 --> 47:34.720]  try to get a decent looking image is hard. Lots and lots of
+[47:34.720 --> 47:38.880]  software not putting it down but UI wise man was it simple
+[47:38.880 --> 47:42.160]  right. I mean it didn't even have video right and then oh
+[47:42.160 --> 47:44.880]  okay, we'll shoot video then then they added one little
+[47:44.880 --> 47:49.760]  switch next to the shutter still or video. That's it right.
+[47:49.760 --> 47:52.160]  Yeah. That was the beginning of the end because we got the HDR
+[47:52.160 --> 47:55.520]  toggle for a while right right and and I actually remember
+[47:55.520 --> 47:57.840]  them at some point at a keynote and I remember I think it was
+[47:57.840 --> 48:00.400]  Steve that introduced this or maybe it was Phil, but he was
+[48:00.400 --> 48:03.680]  talking about how they had patented this new thing where
+[48:03.680 --> 48:07.600]  you tap to focus and tap to tap to expose and tap to focus
+[48:07.600 --> 48:10.400]  basically that this was this really revolutionary new thing.
+[48:10.400 --> 48:13.040]  It's super universal now right. It's everywhere and I'm sure
+[48:13.040 --> 48:16.320]  it's more of a defensive patent if they even can say
+[48:16.320 --> 48:21.200]  exclusivity to that at all, but it it belies how complicated or
+[48:21.200 --> 48:24.880]  at least different cameras were before then where I mean the
+[48:24.880 --> 48:26.880]  first iPhone had a fixed focus lens. I didn't even have a lot
+[48:26.880 --> 48:29.920]  of focus. It's just everything that's in focus already wasn't
+[48:29.920 --> 48:32.240]  and then they yeah they started adding little things like video
+[48:32.240 --> 48:37.840]  and autofocus and things we consider to be MVP things now
+[48:37.840 --> 48:42.400]  right. It's probably either of you can think of an example
+[48:42.400 --> 48:45.920]  that even competes with it. Tell me, but I would say it's
+[48:45.920 --> 48:54.080]  the most fiddly app Apple ships with iOS. I mean fiddly and I
+[48:54.080 --> 48:56.320]  don't mean this in a disparaging way. II just mean
+[48:56.320 --> 48:58.800]  that it really does have a lot of stuff in it right. I mean
+[48:58.800 --> 49:03.600]  you get to pick which lens you get to drag up and pick aspect
+[49:03.600 --> 49:10.560]  ratio. You could apply one of their filters in the viewfinder
+[49:10.560 --> 49:13.920]  before you shoot if you want what I'm looking at it right
+[49:13.920 --> 49:16.800]  now as we speak, you've got to be able to flip the camera
+[49:16.800 --> 49:21.920]  around turn the flash on and off turn in video. You can turn
+[49:21.920 --> 49:25.360]  action mode on and they've gotta make all these decisions
+[49:25.360 --> 49:29.440]  like action mode isn't a separate mode that you swipe
+[49:29.440 --> 49:34.160]  left to right on. It's a toggle on regular video. You get to
+[49:34.160 --> 49:39.200]  switch between four K and HD. You get to pick the frame rate
+[49:39.200 --> 49:43.280]  243060 all these little. That's a lot of stuff to pack on
+[49:43.280 --> 49:48.160]  screen and yet still like you guys said fundamentally it has
+[49:48.160 --> 49:54.880]  to be for I would guess at least 95% of iPhone owners tap
+[49:54.880 --> 49:59.600]  the app icon frame tap the shutter. So like you were
+[49:59.600 --> 50:03.120]  saying like picking lenses even beyond giving control, it needs
+[50:03.120 --> 50:07.200]  to intuit what the user intended more so than what they
+[50:07.200 --> 50:11.520]  actually get so like you can pick a three X or a five X lens
+[50:11.520 --> 50:14.320]  in the app and you think it's a lens, but if the system
+[50:14.320 --> 50:16.320]  detects that it's too low of a light or if you're trying to
+[50:16.320 --> 50:18.960]  focus on something closer than the minimum focus distance,
+[50:18.960 --> 50:22.160]  it'll quietly switch over for the user. So it has to deal
+[50:22.160 --> 50:24.640]  with like these leaky abstractions when when when
+[50:24.640 --> 50:27.360]  they had that year, they had the macro mode and people were
+[50:27.360 --> 50:30.320]  complaining about how shift snapped from perspective. Well
+[50:30.320 --> 50:33.200]  unless unless you have like a motor on the lens that's moving
+[50:33.200 --> 50:38.000]  things around like you just can't make it transparent. So
+[50:38.000 --> 50:40.800]  it has it's tasked with making it feel like it's this magic
+[50:40.800 --> 50:44.080]  box. You press the zoom button you tap the button and it just
+[50:44.080 --> 50:46.800]  works, but then they have to go against all of these leaky
+[50:46.800 --> 50:50.880]  abstractions. Yeah. Yeah. I think I wrote about this in my
+[50:50.880 --> 50:54.400]  review like briefly, but Apple has always had this clear
+[50:54.400 --> 50:56.720]  fundamental philosophy around their camera design where their
+[50:56.720 --> 51:01.040]  camera app is not just an app. They see camera as a product
+[51:01.040 --> 51:03.760]  that is just as big of a product as iPhone and the moment
+[51:03.760 --> 51:07.280]  you're in that experience, they might talk about different
+[51:07.280 --> 51:09.520]  lenses and they have different sensors and all these different
+[51:09.520 --> 51:13.360]  specs or whatever, but for you as a user, it's just one camera
+[51:13.360 --> 51:19.200]  and it just happens to be able to zoom from 0.5 X to 25 X out
+[51:19.200 --> 51:22.480]  and it just can do all these things and they do insane stuff
+[51:22.480 --> 51:25.520]  in the factory like matching up components to micron level
+[51:25.520 --> 51:27.920]  stuff right to make sure that this kind of like lens
+[51:27.920 --> 51:30.800]  switching doesn't go all jarring like they go through
+[51:30.800 --> 51:33.840]  stuff like you wouldn't believe the kind of integration between
+[51:33.840 --> 51:36.800]  hardware and software that they do in that team to to have what
+[51:36.800 --> 51:39.440]  they do. It's truly like some of the most amazing engineering
+[51:39.440 --> 51:42.880]  today that they do there. Yeah. They spend less time on
+[51:42.880 --> 51:46.640]  that in the keynotes anymore and I think for good reasons.
+[51:46.640 --> 51:50.000]  They have plenty of other stuff to talk about, but like I would
+[51:50.000 --> 51:55.040]  say like the last few years of Phil Schiller as head of
+[51:55.040 --> 51:58.960]  product marketing and Schiller being the like in the spot
+[51:58.960 --> 52:03.040]  where JAWS is now talking about like focus pixels and stuff
+[52:03.040 --> 52:08.400]  like that like they they they were some of the most technical
+[52:08.400 --> 52:13.200]  slides and segments of an Apple keynote. I think ever
+[52:13.200 --> 52:19.120]  like uncharacteristically so yeah. Yeah. Yeah. Really and it
+[52:19.120 --> 52:24.080]  really helps that Schiller himself is a pretty serious
+[52:24.080 --> 52:28.880]  longtime prosumer photographer and knows it and and therefore
+[52:28.880 --> 52:32.400]  really wasn't like just reading off a script like he really
+[52:32.400 --> 52:38.640]  understands the actual hardware engineering complexity of of
+[52:38.640 --> 52:42.720]  what they're doing and his and his enthusiasm for it. I think
+[52:42.720 --> 52:45.840]  helped carry through those segments of those keynotes for
+[52:45.840 --> 52:48.080]  the people out in the audience who really just want to point
+[52:48.080 --> 52:50.480]  and shoot, but it's like an explanation for what they're
+[52:50.480 --> 52:54.880]  doing. And the other thing, but like what you said Sebastian
+[52:54.880 --> 52:58.720]  like that they're sort of see camera as its own product to me
+[52:58.720 --> 53:02.400]  is also exemplified and this is a theme I want to come back to
+[53:02.400 --> 53:06.320]  with you guys but with the the UI theming of the camera app
+[53:06.320 --> 53:16.160]  right like post iOS seven Apple really refocus the company on a
+[53:16.160 --> 53:20.560]  sort of doesn't matter which app it is. We're all going to
+[53:20.560 --> 53:26.080]  stick to this sort of UI aesthetic and do things like
+[53:26.080 --> 53:31.920]  color hints. So okay notes gets yellow and camera or a calendar
+[53:31.920 --> 53:35.600]  gets red. I think and so you can pick a custom spot color,
+[53:35.600 --> 53:39.840]  but you're going to stick to this very very consistent look
+[53:39.840 --> 53:45.280]  and and they've it's 10 years now since I was seven or or
+[53:45.280 --> 53:49.280]  right. Yeah. I was seventeen to I was seven. If anything, I
+[53:49.280 --> 53:52.640]  think they've not just stuck with it, but have gotten more
+[53:52.640 --> 53:59.840]  consistent and camera isn't foreign to that look right.
+[53:59.840 --> 54:03.360]  It's it's like they've found a look for it that it doesn't
+[54:03.360 --> 54:07.440]  look like it's out of place, but it's its own language right
+[54:07.440 --> 54:10.320]  and again. We'll come back to it with you guys like custom
+[54:10.320 --> 54:15.760]  version of San Francisco font right like a sort of industrial
+[54:15.760 --> 54:20.080]  cameras ask version of the font for all the little bits of
+[54:20.080 --> 54:23.520]  text like switching from photo to video to portrait like I'm
+[54:23.520 --> 54:26.880]  looking at that capital R and portrait right there and it
+[54:26.880 --> 54:30.240]  doesn't look like they are in any other variant of San
+[54:30.240 --> 54:33.200]  Francisco, but it's perfect for this right, but that's the type
+[54:33.200 --> 54:36.480]  of details they sweat. So on the one hand it raises the bar
+[54:36.480 --> 54:41.200]  and I think they do a great job, but on the other hand the
+[54:41.200 --> 54:46.400]  quality of it in some ways makes it harder to be a third
+[54:46.400 --> 54:51.440]  party camera app. Oh yeah. Yeah. I think yeah, even if you
+[54:51.440 --> 54:53.840]  look back since I was seven, it's the one that stayed the
+[54:53.840 --> 54:56.160]  closest to that redesign to back then. They were the only
+[54:56.160 --> 54:58.640]  ones who weren't using alvetica even in I was seven. It was
+[54:58.640 --> 55:01.440]  right. I didn't like type in there right, but the design
+[55:01.440 --> 55:03.920]  still looks a lot like that and if you go to all these
+[55:03.920 --> 55:06.800]  android phones, it's kind of this magical thing like since
+[55:06.800 --> 55:08.720]  the iphone came out, people look at the hardware design
+[55:08.720 --> 55:11.360]  like oh everything looks like a blackberry and then it looks
+[55:11.360 --> 55:15.440]  like it looks like an iphone, but every camera app. This is
+[55:15.440 --> 55:18.640]  like amusing to me. It's like no no end because I designed
+[55:18.640 --> 55:21.840]  camera app. So like I know there's a lot of ways to like
+[55:21.840 --> 55:25.040]  you know solve this problem, but somehow they all look
+[55:25.040 --> 55:27.680]  exactly like the iphone camera with the same swipey thing at
+[55:27.680 --> 55:30.480]  the bottom to change between modes and the same little lens
+[55:30.480 --> 55:33.840]  picker and and inevitably as apple changes a little tiny
+[55:33.840 --> 55:36.480]  fundamental thing. It just somehow trickles out to the
+[55:36.480 --> 55:39.520]  android phones too. It just shows that they are really like
+[55:39.520 --> 55:42.160]  in a place where they're a market leader on this because
+[55:42.160 --> 55:46.000]  yeah, it's really hard to find it. It's hard to find an
+[55:46.000 --> 55:49.520]  android phone that doesn't use black background with yellow as
+[55:49.520 --> 55:53.120]  the spot color as the color scheme of their camera app
+[55:53.120 --> 55:57.280]  right, which is exactly like apples and the defenders of
+[55:57.280 --> 55:59.600]  that are like well. What other colors are you going to use and
+[55:59.600 --> 56:03.200]  it's like you can use any color you want.
+[56:04.160 --> 56:08.480]  Ben, I think I interrupted you. Oh no like it's kind of no
+[56:08.480 --> 56:10.880]  better illustration of the Google approach and the Apple
+[56:10.880 --> 56:13.600]  approach is that Google for a few years there was ahead of
+[56:13.600 --> 56:16.800]  like they did the night mode stuff and like if you read the
+[56:16.800 --> 56:19.520]  research papers like Mark Lavoie and like all that team
+[56:19.520 --> 56:23.040]  was doing was like revolutionary and it didn't take
+[56:23.040 --> 56:27.200]  that long to find an apple and apple did its own thing, but
+[56:27.200 --> 56:32.080]  Google never set the design language or the productization
+[56:32.080 --> 56:34.640]  of a lot of these things. They never wrapped it up in a way
+[56:34.640 --> 56:36.880]  that you'd be like. Oh, this makes sense. Even when you get
+[56:36.880 --> 56:40.720]  to like stuff like that weird mode now where you can cut out
+[56:40.720 --> 56:43.840]  people's faces from different photos. Yeah and like it's just
+[56:43.840 --> 56:47.840]  like no. I do not want this. That's the worst demo you you
+[56:47.840 --> 56:51.760]  convinced me never to buy this camera. This is awful. I watch a
+[56:51.760 --> 56:55.360]  lot of sports, especially in the fall so and it's so this is
+[56:55.360 --> 56:58.720]  the time of year and it's I think it's helpful. It's like I
+[56:58.720 --> 57:02.400]  watch football. I watch playoff baseball. I like to watch live
+[57:02.400 --> 57:04.480]  and so it's like the only time of the year where I watch
+[57:04.480 --> 57:07.200]  normal TV commercials and then I go months and months where I
+[57:07.200 --> 57:11.200]  only watch stuff streaming or or otherwise skip the commercials
+[57:11.200 --> 57:14.000]  and so I've seen the Google Pixel eight commercials a lot
+[57:14.000 --> 57:17.040]  and the more I see their commercials showing that
+[57:17.040 --> 57:21.840]  feature the the best take feature the more it it like
+[57:21.840 --> 57:26.640]  rankles me. It's like it's not like a subtle like. Oh, we'll
+[57:26.640 --> 57:31.040]  go back you half a second because it was better than when
+[57:31.040 --> 57:33.760]  you hit the shutter. It is like no. This is completely
+[57:33.760 --> 57:37.680]  manipulated and they show all these faces being moved around
+[57:37.680 --> 57:40.720]  and it's like this is not a photograph. This was not a
+[57:40.720 --> 57:44.800]  moment in time. It's funny is I actually so I've been for some
+[57:44.800 --> 57:47.360]  reason been re watching a lot of the old keynotes where Apple
+[57:47.360 --> 57:49.920]  is introducing camera features and I think it's Phil Schiller
+[57:49.920 --> 57:53.520]  with the iPhone seven or maybe even earlier that introduced a
+[57:53.520 --> 57:56.400]  feature where if you take a burst with the iPhone camera,
+[57:56.400 --> 57:59.680]  it'll intelligently go through the burst to see where people
+[57:59.680 --> 58:03.200]  blinked and or and or smiled and pick the frame with the
+[58:03.200 --> 58:06.480]  fewest closed eyes. Basically right and it's like there's a
+[58:06.480 --> 58:10.080]  lot of ways like to Ben's point where you can wrap this up as a
+[58:10.080 --> 58:13.120]  product where the marketing slash communication around it
+[58:13.120 --> 58:17.120]  doesn't give you that icky feeling, but Google is not the
+[58:17.120 --> 58:20.560]  best positioned or right traditionally the best company
+[58:20.560 --> 58:23.200]  at doing that right. Maybe Facebook is slightly worse yet,
+[58:23.200 --> 58:27.760]  but like they're just they're good at getting the ick. Yeah,
+[58:27.760 --> 58:30.880]  it would be like if you took a burst of a dozen photos or
+[58:30.880 --> 58:33.840]  still is, I think you take a burst of a dozen photos and
+[58:33.840 --> 58:37.520]  they algorithmically think these two are the good ones and
+[58:37.520 --> 58:40.480]  they'll put like a dot in the corner and so like you you're
+[58:40.480 --> 58:43.440]  welcome just to go through and pixel people all twelve of
+[58:43.440 --> 58:46.480]  them, but you get to the one with the dot and you're like
+[58:46.480 --> 58:48.560]  yeah, that does look like a good one. Okay. keep that one
+[58:48.560 --> 58:50.880]  through the rest of the way. Well, if I were to design the
+[58:50.880 --> 58:52.480]  products, let's just put it this way you would just take
+[58:52.480 --> 58:55.040]  the photo and it would just automatically compose one where
+[58:55.040 --> 58:57.280]  everybody looks their best instead of like I think there's
+[58:57.280 --> 59:00.480]  something rather inhuman about swapping people's heads out.
+[59:00.480 --> 59:04.880]  Yes, it'll never not feel weird. So like if we're going to
+[59:04.880 --> 59:08.320]  keep this into the Halloween theme like great for Halloween
+[59:08.320 --> 59:10.720]  a little scary. Otherwise, I'm going to take people's heads
+[59:10.720 --> 59:13.760]  and change them. When did you guys start Halide? When was the
+[59:13.760 --> 59:18.160]  first version? I want to say we well we we met in 2016 for
+[59:18.160 --> 59:21.440]  coffee and we shipped. We we put a line in the sand. We're
+[59:21.440 --> 59:23.920]  like we gotta finish this up before we're going to be busy.
+[59:23.920 --> 59:28.480]  So like the week before 2017. Okay. That's right. Yeah. Yeah.
+[59:28.480 --> 59:31.280]  Ben actually slid into my Twitter Dms back when it was
+[59:31.280 --> 59:34.080]  Twitter. He was like, hey, there's this new APIs for
+[59:34.080 --> 59:37.760]  manual controls for the camera app and he read. I wrote a what
+[59:37.760 --> 59:40.400]  was it a review of the Leica M that you read. Yeah. Yeah.
+[59:40.400 --> 59:44.480]  You're a 2 year long review of the M8. Yeah. Yeah. Yeah.
+[59:44.480 --> 59:47.200]  And maybe it was the M240 or something. But anyway, one of
+[59:47.200 --> 59:49.920]  the cameras I used to write camera reviews and he was like
+[59:49.920 --> 59:52.560]  this guy seems like a fun fun dude to design a camera app
+[59:52.560 --> 59:55.040]  with. We kind of knew each other a little bit, but that's
+[59:55.040 --> 59:57.200]  when we we started in earnest and we thought it would just
+[59:57.200 --> 01:00:00.480]  be like a a scratch on each kind of situation. We thought
+[01:00:00.480 --> 01:00:03.600]  everything out there was kind of bad or at least not to our
+[01:00:03.600 --> 01:00:06.800]  liking and then we just decided. Oh, why don't we take
+[01:00:06.800 --> 01:00:09.440]  a stab at this and make a camera that we think is nice to
+[01:00:09.440 --> 01:00:12.400]  use and then eventually I think we were kind of on and off. It
+[01:00:12.400 --> 01:00:15.280]  was just a side project and then yeah, I think you Ben
+[01:00:15.280 --> 01:00:18.000]  maybe we're like we gotta ship this thing at some point. Let's
+[01:00:18.000 --> 01:00:20.720]  like put in a little sprint and and and just get it out and
+[01:00:20.720 --> 01:00:23.360]  maybe a couple people will download it and you know we'll
+[01:00:23.360 --> 01:00:25.680]  move on. It's funny like some of the stuff that didn't make
+[01:00:25.680 --> 01:00:28.560]  1.0. We didn't have the volume button capture stuff built in
+[01:00:28.560 --> 01:00:33.280]  cuz it required a really hacky way to work. So like 1.0. There
+[01:00:33.280 --> 01:00:35.520]  is no way to press the volume button to capture cuz it was
+[01:00:35.520 --> 01:00:40.800]  like so hacky. We we can't take it later. Yeah. Can I take a
+[01:00:40.800 --> 01:00:43.360]  volume button aside because we're gonna write a blog post
+[01:00:43.360 --> 01:00:45.520]  about this. So Apple has announced nobody. Nobody's
+[01:00:45.520 --> 01:00:48.000]  aware of this, but at WWC during State of Union, Apple
+[01:00:48.000 --> 01:00:49.920]  announced all these really amazing features like zero
+[01:00:49.920 --> 01:00:52.880]  shutter lag like so our app can now take a photo before you've
+[01:00:52.880 --> 01:00:54.960]  even pressed the shutter button. It's like crazy rolling
+[01:00:54.960 --> 01:00:59.040]  buffer stuff like really cool. We've got that the one feature
+[01:00:59.040 --> 01:01:02.720]  they haven't released on iOS yet is an API to take photos
+[01:01:02.720 --> 01:01:08.160]  with the volume buttons and back in 2010, there was an app
+[01:01:08.160 --> 01:01:11.440]  called Camera Plus. Yes, they figured this out that they
+[01:01:11.440 --> 01:01:13.920]  could just look at the volume and then if you press the
+[01:01:13.920 --> 01:01:18.000]  volume button, it would take a photo and Apple unceremoniously
+[01:01:18.000 --> 01:01:21.040]  kick them off the app store thing. There's no way in hell
+[01:01:21.040 --> 01:01:25.840]  you can do that and then the next year, Scott Forstall is on
+[01:01:25.840 --> 01:01:29.040]  stage showing off the iPhone four or something or the four
+[01:01:29.040 --> 01:01:31.520]  S and he's like and check it out. You can just take a photo
+[01:01:31.520 --> 01:01:35.600]  with the volume button and since then, there's okay. So a
+[01:01:35.600 --> 01:01:38.160]  camera plus was reinstated the same year by the way after
+[01:01:38.160 --> 01:01:40.880]  going to the press, which they were explicitly told that
+[01:01:40.880 --> 01:01:43.680]  wouldn't help. Yeah. It never works. It never works. It never
+[01:01:43.680 --> 01:01:47.200]  works. Never go to the press and but we still don't have an
+[01:01:47.200 --> 01:01:49.440]  API for this. So sometimes someone says like, hey, it's
+[01:01:49.440 --> 01:01:51.920]  weird. When I open hell, I have my volume changes a little bit
+[01:01:51.920 --> 01:01:55.360]  and we're like, yeah, so because you can only detect if
+[01:01:55.360 --> 01:01:58.560]  the volume changes but if you're at 0% and someone presses
+[01:01:58.560 --> 01:02:01.360]  down, you don't get an event for it and like it's a it's a
+[01:02:01.360 --> 01:02:05.120]  death by a thousand cuts of like okay. If you bring up the
+[01:02:05.120 --> 01:02:07.520]  photo reviewer and you don't want to be able to, it's it's
+[01:02:07.520 --> 01:02:10.640]  like all these little stupid things and finally our
+[01:02:10.640 --> 01:02:13.360]  longstanding national nightmare is over whenever they release
+[01:02:13.360 --> 01:02:17.200]  this. They're finally fixing it this year, possibly 13 years
+[01:02:17.200 --> 01:02:20.240]  later. We might get an API to do this, but it's interesting
+[01:02:20.240 --> 01:02:22.560]  too because it makes you think. Okay. What if you're like
+[01:02:22.560 --> 01:02:25.760]  suddenly something really loud plays like and then you want to
+[01:02:25.760 --> 01:02:27.920]  change the volume, but there's an app that hijacks the volume
+[01:02:27.920 --> 01:02:31.200]  button and you can't do that right. I kind of get that but
+[01:02:31.200 --> 01:02:33.840]  still it. I just wanted to say like, Oh yeah, I think we're
+[01:02:33.840 --> 01:02:38.720]  finally be able to do this now. So yeah, it's funny and I
+[01:02:38.720 --> 01:02:41.520]  remember the camera plus situation. I remember it being
+[01:02:41.520 --> 01:02:44.080]  and it was it was a pretty big hit app. I don't know if
+[01:02:44.080 --> 01:02:46.480]  they're still doing well. I mean you guys might be more
+[01:02:46.480 --> 01:02:49.360]  aware of I mean they're if they are they're somewhat of a
+[01:02:49.360 --> 01:02:52.000]  competitor, but I know it was a hit for a while and it did
+[01:02:52.000 --> 01:02:54.560]  cool things with filters and stuff like that. It had had a
+[01:02:54.560 --> 01:02:57.440]  nice UI. I guess what I remember when that was
+[01:02:57.440 --> 01:03:02.240]  controversial. It's like on the one hand. It's a very obvious
+[01:03:02.240 --> 01:03:04.640]  feature right and it's like the way it's like you said like the
+[01:03:04.640 --> 01:03:06.960]  way forestall presented it. It's like yeah, isn't this
+[01:03:06.960 --> 01:03:11.680]  obvious like all of a sudden like and it to me it goes back
+[01:03:11.680 --> 01:03:16.320]  to the original Steve Jobs presentation of the original
+[01:03:16.320 --> 01:03:19.120]  iPhone where it's like why aren't we gonna put buttons
+[01:03:19.120 --> 01:03:22.240]  because every app wants its own button. So we'll just make them
+[01:03:22.240 --> 01:03:26.400]  all in software right and it's sort of like hey this little
+[01:03:26.400 --> 01:03:30.000]  rectangle in your hand becomes these different things you open
+[01:03:30.000 --> 01:03:32.640]  the calculator app and you're just holding a calculator.
+[01:03:32.640 --> 01:03:34.400]  That's what it looks like. It just looks like it's a
+[01:03:34.400 --> 01:03:37.280]  calculator. You open the calendar app and it's like it's
+[01:03:37.280 --> 01:03:39.920]  a it's you have a pocket calendar in your hand. That's
+[01:03:39.920 --> 01:03:44.640]  what it is. It's not it's you know and and that skeuomorphic
+[01:03:44.640 --> 01:03:47.840]  look even emphasize that more right. It's like look it's a
+[01:03:47.840 --> 01:03:50.480]  little calendar with leather at the top and stuff like that.
+[01:03:50.480 --> 01:03:54.880]  That's what it is. It's not a system running an app in the
+[01:03:54.880 --> 01:03:59.280]  system. The little device becomes this thing and so yes
+[01:03:59.280 --> 01:04:02.400]  when it becomes a camera, it doesn't it make all the sense
+[01:04:02.400 --> 01:04:05.680]  in the world that there's an actual physical button to hit
+[01:04:05.680 --> 01:04:08.000]  to take a picture. It's like that's the way forestall
+[01:04:08.000 --> 01:04:12.720]  presented it, but II feel like conversely at that time there
+[01:04:12.720 --> 01:04:18.240]  was sort of a philosophy at Apple that the app gets the
+[01:04:18.240 --> 01:04:21.440]  screen right. You go from corner to corner. You get the
+[01:04:21.440 --> 01:04:26.160]  whole screen, but just the screen. The hardware was the
+[01:04:26.160 --> 01:04:29.920]  systems right so like and obviously, for example, it it
+[01:04:29.920 --> 01:04:34.400]  would literally be disastrous if an app could take over the
+[01:04:34.400 --> 01:04:36.960]  home button back then right cuz you needed the home button to
+[01:04:36.960 --> 01:04:40.160]  get out of the app right. So the home button obviously had
+[01:04:40.160 --> 01:04:46.160]  to be off limits. API wise taps and it's like volume though.
+[01:04:46.160 --> 01:04:49.360]  It's like oh yeah. Why not for a camera app? Let them take
+[01:04:49.360 --> 01:04:52.720]  volume, but I feel like there is this philosophy of no no no
+[01:04:52.720 --> 01:04:55.680]  those are actual volume buttons and the user should be able to
+[01:04:55.680 --> 01:04:59.040]  use them to change the volume at any at all times. so you
+[01:04:59.040 --> 01:05:01.760]  can't use them for a camera shutter. You can't use them as
+[01:05:01.760 --> 01:05:05.440]  the buttons for a game. You can't cuz I think people tried
+[01:05:05.440 --> 01:05:08.640]  the same thing back then with games like and obviously volume
+[01:05:08.640 --> 01:05:11.440]  buttons aren't good for twitchiness, but you know I
+[01:05:11.440 --> 01:05:13.040]  don't know you could do something in a game with a
+[01:05:13.040 --> 01:05:16.560]  hardware button. Yeah. So it's it's almost like the same
+[01:05:16.560 --> 01:05:20.880]  reason Max ship with the right button disabled so they don't
+[01:05:20.880 --> 01:05:23.840]  want to allow developers to make the assumption you can
+[01:05:23.840 --> 01:05:26.720]  build an experience around this hardware component because who
+[01:05:26.720 --> 01:05:29.680]  knows maybe Apple in the future will change from clicky
+[01:05:29.680 --> 01:05:33.120]  buttons to like a swipey dial or something right and also
+[01:05:33.120 --> 01:05:35.840]  just as far as like usability. They don't wanna teach people
+[01:05:35.840 --> 01:05:39.440]  to exit this canvas and start pressing buttons on the side as
+[01:05:39.440 --> 01:05:44.320]  a core interaction right right right and even now, it's like
+[01:05:44.320 --> 01:05:47.360]  it. I know some people get confused and it's actually kinda
+[01:05:47.360 --> 01:05:51.520]  clever, but it's like the the they call it the side button.
+[01:05:51.520 --> 01:05:55.200]  It doesn't really have a name, but the the side button has to
+[01:05:55.200 --> 01:05:59.680]  be off limits to apps for security reasons like that's
+[01:05:59.680 --> 01:06:03.680]  why when you verify that's why it's used for Apple Pay and
+[01:06:03.680 --> 01:06:06.000]  it's like when you do an Apple Pay, they're like you have to
+[01:06:06.000 --> 01:06:09.680]  double click this button and then they show on the screen on
+[01:06:09.680 --> 01:06:13.200]  your phone. This button right here, you've got to double click
+[01:06:13.200 --> 01:06:17.520]  this to confirm because if it if the interaction for the
+[01:06:17.520 --> 01:06:20.560]  payment was entirely on screen, there'd be nothing to prevent
+[01:06:20.560 --> 01:06:24.800]  an app from putting up a fake confirmation button and all of
+[01:06:24.800 --> 01:06:27.600]  a sudden you're think you're paying one way and you're
+[01:06:27.600 --> 01:06:30.320]  actually getting ripped off and paying another, but the fact
+[01:06:30.320 --> 01:06:34.240]  that that hardware button is off limits to the software means
+[01:06:34.240 --> 01:06:38.160]  that when you double click it to confirm you can be the
+[01:06:38.160 --> 01:06:41.440]  software can be assured. Yes, the user at an actual human
+[01:06:41.440 --> 01:06:45.120]  being actually double click that actual button right. Yeah.
+[01:06:45.120 --> 01:06:47.280]  There was a brief moment in time where the subscription app
+[01:06:47.280 --> 01:06:50.880]  craze started and the all the iPhones and home buttons and
+[01:06:50.880 --> 01:06:54.560]  your touch ID sensor was there and these scummy apps would
+[01:06:54.560 --> 01:06:57.520]  just throw out random paywalls and when people try to exit
+[01:06:57.520 --> 01:07:00.000]  right, sometimes it would just trigger them to purchase it and
+[01:07:00.000 --> 01:07:03.040]  I was like this is something that was this wasn't thought
+[01:07:03.040 --> 01:07:05.600]  through very well and I wonder if like they're they saw a big
+[01:07:05.600 --> 01:07:08.800]  dip in app store revenue after that. Yeah. I don't know it was
+[01:07:08.800 --> 01:07:11.200]  a real thing. I know that that was a real problem and I talked
+[01:07:11.200 --> 01:07:13.920]  to somebody who's involved somebody who's on the team that
+[01:07:13.920 --> 01:07:17.920]  made the original iPhone ten and they said like that was the
+[01:07:17.920 --> 01:07:21.840]  biggest problem with the touch ID sensor on the home button
+[01:07:21.840 --> 01:07:25.840]  was that they and and those type of things when you're an
+[01:07:25.840 --> 01:07:30.320]  honest person like most people are and like everybody most
+[01:07:30.320 --> 01:07:33.360]  people at Apple are it doesn't even pop into your head that
+[01:07:33.360 --> 01:07:37.280]  you would give people a reason to use the home button to exit
+[01:07:37.280 --> 01:07:40.160]  and then time it so that you pop up a confirmation for a
+[01:07:40.160 --> 01:07:43.600]  payment at that time and then as their thumb hits the button,
+[01:07:43.600 --> 01:07:46.000]  you've just confirmed a payment when all you wanted to do is
+[01:07:46.000 --> 01:07:48.880]  get out of this app that is seemingly locked you in. Well,
+[01:07:48.880 --> 01:07:51.840]  I remember hearing a rumor that when the iPad first came out,
+[01:07:51.840 --> 01:07:54.480]  there were games you could download for your cat and it
+[01:07:54.480 --> 01:07:57.120]  would just like show this thing would run on screen and this
+[01:07:57.120 --> 01:07:59.840]  your cat would pop the screen and you'd let the app run for
+[01:07:59.840 --> 01:08:02.080]  10 minutes and leave it with your cat and then 10 minutes
+[01:08:02.080 --> 01:08:06.240]  later, it would show a pop up by 100 gems for $20 and the cat
+[01:08:06.240 --> 01:08:11.280]  would be like, yeah, okay. Oh, yeah. I like brilliant. That's
+[01:08:11.280 --> 01:08:15.840]  horrible. But you know what? Right. It is. I always think
+[01:08:15.840 --> 01:08:18.720]  that when new scams come out, it's like oftentimes I'm like, I
+[01:08:18.720 --> 01:08:21.680]  hate you and I don't know how you sleep at night. But I
+[01:08:21.680 --> 01:08:25.520]  admire the cleverness of the hole you found in the system
+[01:08:25.520 --> 01:08:28.240]  here that you're exploiting. The other part though, just
+[01:08:28.240 --> 01:08:32.000]  circling back to, okay, you're going to make a business out of
+[01:08:32.000 --> 01:08:35.680]  a pro camera app for the phone. You've got Apple's camera app
+[01:08:35.680 --> 01:08:39.520]  on one side and so the built-in camera app that everybody has
+[01:08:39.520 --> 01:08:43.440]  and has all the first party advantages in addition to the
+[01:08:43.440 --> 01:08:48.000]  fact that it's not just like like all of Apple's built-in
+[01:08:48.000 --> 01:08:50.000]  apps have the first party advantage because they're built
+[01:08:50.000 --> 01:08:56.400]  in the camera app has the additional advantage of being
+[01:08:56.400 --> 01:09:00.320]  marketing wise the primary thing that Apple sells phones
+[01:09:00.320 --> 01:09:05.920]  about right like the the one thing that they've every single
+[01:09:05.920 --> 01:09:13.280]  year for at least I would say like the iPhone four era onward
+[01:09:13.280 --> 01:09:17.040]  has had entire marketing campaign campaigns just about
+[01:09:17.040 --> 01:09:20.960]  the camera right like shot on iPhone is the longest running
+[01:09:20.960 --> 01:09:24.480]  ad campaign the company has ever had and I don't think it's
+[01:09:24.480 --> 01:09:27.040]  going to stop. I think it has at least another 10 years ahead
+[01:09:27.040 --> 01:09:29.840]  of it. Well, they'll just keep running the exact same ad shot
+[01:09:29.840 --> 01:09:34.960]  on iPhone and just show really cool photos blown up to
+[01:09:34.960 --> 01:09:38.560]  billboard size. So you're competing against this app that
+[01:09:38.560 --> 01:09:42.640]  has the full attention of the company A-level talent within
+[01:09:42.640 --> 01:09:46.480]  the company and then on the other side, the app store has a
+[01:09:46.480 --> 01:09:51.440]  lot of camera apps. Yeah right. It's a crowded field and so I
+[01:09:51.440 --> 01:09:55.200]  feel like a lot of people. Let's go back to 2017. You're
+[01:09:55.200 --> 01:09:57.280]  like hey, maybe we should make this app and scratch our own
+[01:09:57.280 --> 01:10:00.160]  itch would be like well. I hope you guys don't have any hopes
+[01:10:00.160 --> 01:10:02.400]  of making a business out of it because you might getting
+[01:10:02.400 --> 01:10:05.600]  squeezed on both sides right. That's what you said. My actual
+[01:10:05.600 --> 01:10:08.640]  mom said that my mom was aware of the fact there were so many
+[01:10:08.640 --> 01:10:10.880]  camera apps. She's like well, it seems like there's an awful
+[01:10:10.880 --> 01:10:13.760]  lot of apps already doing camera stuff in the app store
+[01:10:13.760 --> 01:10:16.400]  and I was like well, it's not really for about making money.
+[01:10:16.400 --> 01:10:19.920]  It's more about like doing what we like to do. I like design. I
+[01:10:19.920 --> 01:10:24.000]  like iPhones. I like cameras. Why not right and we were very
+[01:10:24.000 --> 01:10:26.640]  surprised to see it take off so much and like kind of resonate
+[01:10:26.640 --> 01:10:30.080]  and I think it was because it was so opinionated and we
+[01:10:30.080 --> 01:10:32.720]  didn't we never to this day don't make an illusion that
+[01:10:32.720 --> 01:10:36.160]  we're trying to compete with Apple's camera right for one.
+[01:10:36.160 --> 01:10:38.800]  The silicon advantage is crazy. They can literally do all sorts
+[01:10:38.800 --> 01:10:41.280]  of stuff we can never do and I don't really blame them for it.
+[01:10:41.280 --> 01:10:43.840]  If they want to stay on the cutting edge, they can't build
+[01:10:43.840 --> 01:10:47.200]  an API for every single invention they do and and all
+[01:10:47.200 --> 01:10:49.840]  that sort of thing and we don't want to. I don't want to be on
+[01:10:49.840 --> 01:10:52.080]  the design team that has to make a camera for every single
+[01:10:52.080 --> 01:10:55.200]  person under the sun like literally every person on this
+[01:10:55.200 --> 01:10:58.000]  planet needs to be able to use their camera app. We have a
+[01:10:58.000 --> 01:11:00.800]  luxury of designing for a niche and that's that's a really nice
+[01:11:00.800 --> 01:11:04.240]  luxury to have, but we just went really overboard with that
+[01:11:04.240 --> 01:11:07.920]  niche. We're like okay. Let's we I think one of the biggest
+[01:11:07.920 --> 01:11:11.200]  things we saw which started our collaboration was just that
+[01:11:11.200 --> 01:11:14.720]  cameras are delightful objects. They're super tactile. If you
+[01:11:14.720 --> 01:11:17.280]  give a camera to a child, they play with the knobs and the
+[01:11:17.280 --> 01:11:21.520]  dials and the clickiness on the aperture ring and and the phone
+[01:11:21.520 --> 01:11:24.720]  kind of by definition will have to lose that you're tapping
+[01:11:24.720 --> 01:11:29.200]  this pane of glass, but what could we do to make it as
+[01:11:29.200 --> 01:11:32.160]  tactile as possible and we kind of we went a little overboard
+[01:11:32.160 --> 01:11:34.800]  with it as we tend to do with our apps, but we put like a
+[01:11:34.800 --> 01:11:37.440]  little little sort of virtual paper manual that you would
+[01:11:37.440 --> 01:11:39.680]  kind of leave through that was styled after an old Polaroid
+[01:11:39.680 --> 01:11:42.400]  manual and we made a custom typeface that was kind of
+[01:11:42.400 --> 01:11:46.000]  looked like the before Apple had one. I will add that that
+[01:11:46.000 --> 01:11:48.560]  kind of looked like the sort of etched lettering you would see
+[01:11:48.560 --> 01:11:51.840]  on like a like or his ice lens and and those kind of little
+[01:11:51.840 --> 01:11:53.760]  things. Some things didn't work and we dropped them and
+[01:11:53.760 --> 01:11:56.240]  something worked and and it just resonated with people and
+[01:11:56.240 --> 01:11:58.640]  back then it was all about like now you can take raw photos on
+[01:11:58.640 --> 01:12:01.520]  your iPhone too, which the first party camera couldn't do
+[01:12:01.520 --> 01:12:03.920]  and then sometimes you could get a nicer shot of it if you
+[01:12:03.920 --> 01:12:07.040]  put some effort into into editing that and I think that's
+[01:12:07.040 --> 01:12:11.920]  kind of the the note we we hit. Yeah. I think that on the
+[01:12:11.920 --> 01:12:16.960]  Apple side of things, a healthy ecosystem, a healthy reason to
+[01:12:16.960 --> 01:12:20.400]  build an SDK to begin with is that you want other companies
+[01:12:20.400 --> 01:12:23.520]  to fill in the stuff that is not your primary fields and
+[01:12:23.520 --> 01:12:26.640]  like as much as I love the aperture for Mac, I think it
+[01:12:26.640 --> 01:12:29.280]  makes sense that this is not the fields or this is not an
+[01:12:29.280 --> 01:12:32.160]  app that Apple wanted to be in. They wanna build products for
+[01:12:32.160 --> 01:12:35.040]  the broadest possible market and so I think there's a lot to
+[01:12:35.040 --> 01:12:37.200]  be said that like, yeah, we don't wanna compete with the
+[01:12:37.200 --> 01:12:41.120]  first party camera. Mind you, you can you can like get an
+[01:12:41.120 --> 01:12:43.760]  extra 10% of extra features like you can know nothing about
+[01:12:43.760 --> 01:12:46.720]  raw or white balance or any of that and you just want manual
+[01:12:46.720 --> 01:12:50.080]  focus and focus peaking and these little things and we have
+[01:12:50.080 --> 01:12:53.520]  users who use the app just like that cuz they just want that
+[01:12:53.520 --> 01:12:56.560]  little extra something and that's cool but then once you
+[01:12:56.560 --> 01:12:59.680]  start getting into pro raw like we would actually so like last
+[01:12:59.680 --> 01:13:01.840]  year we were able to ship something that allowed you to
+[01:13:01.840 --> 01:13:04.960]  say 48 megapixel JPEGs when you could only do it with pro
+[01:13:04.960 --> 01:13:07.760]  raw which I didn't realize was available in the first party
+[01:13:07.760 --> 01:13:12.000]  camera until recently like so giving people who are a little
+[01:13:12.000 --> 01:13:15.360]  more sophisticated that extra whatever they want. I think
+[01:13:15.360 --> 01:13:18.640]  that's a lot of the bread and butter now as far as other apps
+[01:13:18.640 --> 01:13:21.920]  in the app store that could be doing the same thing. Are there
+[01:13:21.920 --> 01:13:28.160]  ever too many love songs? No, I'm I'm a jerk. No. I mean like
+[01:13:28.160 --> 01:13:31.840]  there's more realistic is like there's a market for a Porsche,
+[01:13:31.840 --> 01:13:36.640]  a Ferrari, a Mercedes, right? You don't need to dominate
+[01:13:36.640 --> 01:13:39.200]  something. If we were building a social network, yeah, we'd be
+[01:13:39.200 --> 01:13:42.720]  totally screwed because that's a zero sum game but as far as
+[01:13:42.720 --> 01:13:45.600]  something where people want quality experience, I think it's
+[01:13:45.600 --> 01:13:50.480]  much fairer to compete on quality and value add than
+[01:13:50.480 --> 01:13:54.800]  worrying about one winner takes all. Yeah, that's that's my
+[01:13:54.800 --> 01:13:59.840]  take. I mean and I say this from the vaguely similar
+[01:13:59.840 --> 01:14:03.280]  perspective of somebody who before Halide worked on a notes
+[01:14:03.280 --> 01:14:06.800]  app right which had the same problem right with me and Brent
+[01:14:06.800 --> 01:14:09.840]  Simmons and Dave Whiskas made Vesper which was sort of to
+[01:14:09.840 --> 01:14:13.520]  notes apps. What Halide is to camera apps. Apple makes a good
+[01:14:13.520 --> 01:14:17.520]  notes app. There's lots and lots of notes apps in the app
+[01:14:17.520 --> 01:14:20.560]  store and we didn't make it but I think I think we could have
+[01:14:20.560 --> 01:14:24.000]  for other reasons but I still think that our basic idea that
+[01:14:24.000 --> 01:14:26.640]  our idea when we got started is if we're better than everybody
+[01:14:26.640 --> 01:14:30.720]  else, we have a chance and II think that's where Halide has
+[01:14:30.720 --> 01:14:35.840]  thrived is it's great, right? It looks great. It is fast. It
+[01:14:35.840 --> 01:14:40.320]  has you guys come up with cutting it. Whatever is capable
+[01:14:40.320 --> 01:14:44.240]  from the hardware you guys can take advantage of it and do and
+[01:14:44.240 --> 01:14:47.520]  it technically impressive things in addition to the fact
+[01:14:47.520 --> 01:14:51.440]  that you've got the visually pleasant things like a
+[01:14:51.440 --> 01:14:56.480]  commissioning a custom typeface right which is I love I love
+[01:14:56.480 --> 01:14:59.440]  Seb calling it a little overboard. I mean it's a lot
+[01:14:59.440 --> 01:15:04.240]  overboard but that right it is it's a lot overboard and we we
+[01:15:04.240 --> 01:15:08.240]  talk a lot privately and we not privately but personally on on
+[01:15:08.240 --> 01:15:12.640]  chat and I've told you from like the beginning how much I
+[01:15:12.640 --> 01:15:18.240]  love the shutter button in Halide. It is the nicest. I'm
+[01:15:18.240 --> 01:15:20.800]  looking at it right now. It is still it is like the nicest
+[01:15:20.800 --> 01:15:24.720]  little thing I can I press it even I'm not there's nothing in
+[01:15:24.720 --> 01:15:28.480]  the frame that's worth taking and I just like pressing it. It
+[01:15:28.480 --> 01:15:33.920]  is a beautiful beautiful. It's the nicest looking button on
+[01:15:33.920 --> 01:15:38.960]  the entire iPhone in any app. It is right. I like to and we
+[01:15:38.960 --> 01:15:42.160]  built a tiny physics engine for Specter's dial. So when you
+[01:15:42.160 --> 01:15:44.480]  flick it, we didn't use any of the stuff they have just like
+[01:15:44.480 --> 01:15:47.120]  yeah, I wanna this will be fun and I think one of the
+[01:15:47.120 --> 01:15:51.200]  difficult things especially if you're a two-person team is
+[01:15:51.200 --> 01:15:54.160]  having a taste of like you love Apple products. You love
+[01:15:54.160 --> 01:15:57.760]  premium products but also recognizing like the
+[01:15:57.760 --> 01:16:00.320]  limitations and I think it's something we've worked on that
+[01:16:00.320 --> 01:16:04.240]  we can't spend the same resources. Apple does on one
+[01:16:04.240 --> 01:16:10.160]  feature years getting something or you end up like well you end
+[01:16:10.160 --> 01:16:13.360]  up like humane but like right you end up never shipping
+[01:16:13.360 --> 01:16:16.880]  anything right. So like for us, we end up we're getting better
+[01:16:16.880 --> 01:16:20.080]  now. I think it making fighting the right battles and knowing
+[01:16:20.080 --> 01:16:22.720]  where most attention is gonna be going and like the analogy
+[01:16:22.720 --> 01:16:26.480]  going back to games would be Apple is a AAA gaming studio of
+[01:16:26.480 --> 01:16:31.040]  apps and for us, you can still build a polished and authentic
+[01:16:31.040 --> 01:16:34.560]  and cozy. I don't know experience even if you're a
+[01:16:34.560 --> 01:16:38.320]  two-person team as long as you pick the right battles is one
+[01:16:38.320 --> 01:16:42.240]  of the I feel like now that Apple has got it's always been
+[01:16:42.240 --> 01:16:45.680]  an issue with Apple. Apple's always had AA unique
+[01:16:45.680 --> 01:16:50.160]  relationship with third-party developers in a way that let's
+[01:16:50.160 --> 01:16:55.840]  say their biggest long-term rival Microsoft as always
+[01:16:55.840 --> 01:16:58.800]  everybody mocks Balmer for the developers developers
+[01:16:58.800 --> 01:17:01.440]  developers developers developers developers because
+[01:17:01.440 --> 01:17:06.000]  he was all sweaty but it's a funny thing but there is a
+[01:17:06.000 --> 01:17:10.560]  truth to it though that Microsoft has relationship to
+[01:17:10.560 --> 01:17:14.000]  third-party developers was like maybe we won't do everything
+[01:17:14.000 --> 01:17:16.800]  you want but you will at least listen to you and there's open
+[01:17:16.800 --> 01:17:19.360]  channels and we'll tell you why and we'll tell you all sorts of
+[01:17:19.360 --> 01:17:23.600]  things and it's just everything I know about it. It's way less
+[01:17:23.600 --> 01:17:26.320]  of a black box than the third-party developer
+[01:17:26.320 --> 01:17:30.240]  relationship with Apple right like just reporting bugs or
+[01:17:30.240 --> 01:17:35.840]  getting progress on bugs you've reported when in feedback, I'm
+[01:17:35.840 --> 01:17:40.400]  never gonna not call it radar, but yeah, it it anybody's
+[01:17:40.400 --> 01:17:44.240]  listen to any podcast with developers on it is gonna find
+[01:17:44.240 --> 01:17:47.520]  at some point find a developer really really mad about a
+[01:17:47.520 --> 01:17:52.400]  really good bug report like totally reproducible like three
+[01:17:52.400 --> 01:17:56.000]  lines. I have an Xcode project that is three lines of source
+[01:17:56.000 --> 01:17:59.440]  code that reproduce the bug every time and it doesn't get
+[01:17:59.440 --> 01:18:03.120]  fixed and they don't hear anything and then a year later
+[01:18:03.120 --> 01:18:06.080]  it's fixed and it's like what what happened or whatever or
+[01:18:06.080 --> 01:18:12.300]  never gets fixed but. It did and it's just an overall large
+[01:18:12.300 --> 01:18:15.420]  just writ large even from the power user perspective, the
+[01:18:15.420 --> 01:18:20.940]  fear that Apple is so focused on the consumer and the just
+[01:18:20.940 --> 01:18:24.780]  stick to the camera. They just hit the shutter button level of
+[01:18:24.780 --> 01:18:30.220]  usability across the system that they're losing their
+[01:18:30.220 --> 01:18:34.940]  desire to appease power users, but it seems to me that with
+[01:18:34.940 --> 01:18:37.820]  the camera in addition to the fact that they obviously spend
+[01:18:37.820 --> 01:18:40.860]  an inordinate amount of attention on their own camera
+[01:18:40.860 --> 01:18:47.740]  app that they have provided and continue to provide additional
+[01:18:47.740 --> 01:18:52.060]  APIs for apps like Halide or like on the video side film
+[01:18:52.060 --> 01:18:55.820]  mic for pros like pro type apps that they're serious about
+[01:18:55.820 --> 01:19:01.820]  providing in addition to their own app camera APIs. So Ben
+[01:19:01.820 --> 01:19:05.820]  like how where am I right to say that that that they're
+[01:19:05.820 --> 01:19:09.100]  pretty they seem pretty enthusiastic about providing
+[01:19:09.100 --> 01:19:12.700]  APIs for people like you. Yeah. I mean they're like when they
+[01:19:12.700 --> 01:19:15.900]  launch pro raw. That's a perfect example because we just spent
+[01:19:15.900 --> 01:19:20.540]  like 18 months building mark two and like we have features in
+[01:19:20.540 --> 01:19:23.500]  there to make raw easier and like a month or actually right
+[01:19:23.500 --> 01:19:25.820]  before we launched it and that's and here's pro raw like
+[01:19:25.820 --> 01:19:27.980]  wow. I could have saved 3 months of my life if I'd known
+[01:19:27.980 --> 01:19:30.220]  that was coming. Well, that's going up there. So they're not
+[01:19:30.220 --> 01:19:32.780]  gonna like compare that to again like a partner. If you're if
+[01:19:32.780 --> 01:19:35.020]  you're working with Sony on the next PlayStation, they seed you
+[01:19:35.020 --> 01:19:38.540]  hardware years in advance so that you can help them on
+[01:19:38.540 --> 01:19:41.420]  launch day sell the new thing and I get that cuz on the flip
+[01:19:41.420 --> 01:19:43.260]  side look at all that stuff that's leaked around the switch
+[01:19:43.260 --> 01:19:47.020]  too right right. But so on the that all said like as soon as
+[01:19:47.020 --> 01:19:49.980]  they launched pro rod, they said that and we're also gonna
+[01:19:49.980 --> 01:19:52.060]  be shipping an API at this before the end of the year and
+[01:19:52.060 --> 01:19:54.940]  they did and they even kind of explain like where it was
+[01:19:54.940 --> 01:19:59.740]  coming from and what the intent of this is so sometimes like I
+[01:19:59.740 --> 01:20:03.980]  would say most of the time they try to get something out as soon
+[01:20:03.980 --> 01:20:06.300]  as after public launch as possible, but then there's
+[01:20:06.300 --> 01:20:09.980]  stuff like night mode, which is our we're asking users. What do
+[01:20:09.980 --> 01:20:12.540]  they miss most in the app and it's night mode and they just
+[01:20:12.540 --> 01:20:15.900]  don't expose that as an API to third party devs and I kinda
+[01:20:15.900 --> 01:20:18.140]  get why because there are certain features in the first
+[01:20:18.140 --> 01:20:21.980]  party camera like panorama mode where it's just like so niche
+[01:20:21.980 --> 01:20:25.500]  and it would be kind of how do you expose that to a third
+[01:20:25.500 --> 01:20:28.700]  party app without then hand holding them through the
+[01:20:28.700 --> 01:20:32.620]  usability, but that said like we'd kill for night mode like
+[01:20:32.620 --> 01:20:36.380]  it's the number one pain point. Yeah. Yeah and stuff just
+[01:20:36.380 --> 01:20:39.100]  randomly breaks right like like Ben said like we don't get
+[01:20:39.100 --> 01:20:42.380]  like advanced iPhone hardware and the speaking of a black box
+[01:20:42.380 --> 01:20:46.220]  like they're obviously not going to put anything API wise
+[01:20:46.220 --> 01:20:49.820]  ahead of time into the development versions of iOS. So
+[01:20:49.820 --> 01:20:54.300]  by the time the new devices hit like clockwork usually our app
+[01:20:54.300 --> 01:20:57.260]  is super broken depending on what's going on the final
+[01:20:57.260 --> 01:21:00.860]  version of iOS or the final new device and that can be kind of
+[01:21:00.860 --> 01:21:03.980]  a scramble for us. A lot of our users assume that we are buddy
+[01:21:03.980 --> 01:21:06.220]  buddy with Apple and then we just get to play with the new
+[01:21:06.220 --> 01:21:08.700]  iPhones, but like we're just in line with everybody else in the
+[01:21:08.700 --> 01:21:11.740]  morning trying to get a device so we can start troubleshooting
+[01:21:11.740 --> 01:21:14.460]  it and sometimes that also means that you don't get an
+[01:21:14.460 --> 01:21:18.140]  answer to your bugs. So when the ten came out and the ten are
+[01:21:18.140 --> 01:21:22.300]  we had a new portrait depth mode in and we were like there's
+[01:21:22.300 --> 01:21:26.220]  a weird issue with the depth thing going on and they just
+[01:21:26.220 --> 01:21:28.460]  couldn't they couldn't get an answer to us because they were
+[01:21:28.460 --> 01:21:31.580]  too busy being secretive about it and trying presumably to
+[01:21:31.580 --> 01:21:34.140]  ship this and then we weren't sure if it was going to be
+[01:21:34.140 --> 01:21:36.620]  fixed or not in the final shipping version of iOS. So we
+[01:21:36.620 --> 01:21:41.420]  just ended up building our own portrait blur for it because
+[01:21:41.420 --> 01:21:44.700]  I mean, it's also like there was an issue with saving photos
+[01:21:44.700 --> 01:21:47.740]  the camera roll that was a bug in one of the demons. I learned
+[01:21:47.740 --> 01:21:50.940]  way too much about internals of iOS and how photos are saved to
+[01:21:50.940 --> 01:21:54.060]  an asset demon through this, but for like a year, it was the
+[01:21:54.060 --> 01:21:56.860]  number one bug and we ended up having to build like a feature
+[01:21:56.860 --> 01:22:00.060]  we called rescue where before we try to write the camera roll
+[01:22:00.060 --> 01:22:02.780]  because sometimes photos would disappear like we would save
+[01:22:02.780 --> 01:22:06.540]  you a local copy and it involves like to sort of show
+[01:22:06.540 --> 01:22:09.180]  Apple and I kind of wonder like how much they have as far as
+[01:22:09.180 --> 01:22:11.820]  telemetry when they run these bugs, but we showed them
+[01:22:11.820 --> 01:22:14.460]  statistics based on how many people are using this and it's
+[01:22:14.460 --> 01:22:17.260]  almost like if you're in a large company as if it's almost
+[01:22:17.260 --> 01:22:19.900]  as if we're the we're the satellite office of Apple
+[01:22:19.900 --> 01:22:23.340]  reporting bugs. Sometimes we're like you have a PM at a large
+[01:22:23.340 --> 01:22:25.660]  company and their priority is the next big thing and if
+[01:22:25.660 --> 01:22:28.140]  you're at a large company, you have to make a case based on
+[01:22:28.140 --> 01:22:30.940]  reason of like this is how many people are impacted. It's not
+[01:22:30.940 --> 01:22:34.860]  just me insisting you fix this bug. Here's a concrete case. If
+[01:22:34.860 --> 01:22:37.660]  I had a keynote, I'd show you it like and so we've gotten
+[01:22:37.660 --> 01:22:40.380]  better at that too and I think that over time as we've been
+[01:22:40.380 --> 01:22:43.580]  better at reporting the bugs. I think that they've gotten
+[01:22:43.580 --> 01:22:46.140]  better as soon as they see one from our company. I think
+[01:22:46.140 --> 01:22:48.540]  they're better at getting it screaming like oh, it's those
+[01:22:48.540 --> 01:22:51.740]  guys. We better move that one to the top of the line. They're
+[01:22:51.740 --> 01:22:56.380]  pretty good at this so. Alright, I brought up video.
+[01:22:56.380 --> 01:22:59.580]  What about have you guys have you guys considered adding
+[01:22:59.580 --> 01:23:05.660]  video or is is still photography a big enough
+[01:23:05.660 --> 01:23:12.860]  ongoing bite and specialization for Halide Halide is not going
+[01:23:12.860 --> 01:23:18.300]  to record video. I love video right, but I love video right.
+[01:23:18.300 --> 01:23:23.820]  Halide's never I'm so happy to announce. Halide is never I
+[01:23:23.820 --> 01:23:27.580]  love ever ever going to get video and it will not get
+[01:23:27.580 --> 01:23:34.120]  emojis. And yeah, yeah and and there are apps like I said
+[01:23:34.120 --> 01:23:37.080]  like there's filmic. I think is it black magic who just came
+[01:23:37.080 --> 01:23:40.680]  out with a new app. It's similar because the video
+[01:23:40.680 --> 01:23:43.000]  capabilities of these things are better and better and
+[01:23:43.000 --> 01:23:47.480]  people really are. It's I know when Soderberg shot his first
+[01:23:47.480 --> 01:23:50.600]  the first like real feature Steven Soderberg film on an
+[01:23:50.600 --> 01:23:54.760]  iphone. It kinda had it was like part of the the the
+[01:23:54.760 --> 01:23:56.760]  aesthetic of the movie. I forget what the title of that
+[01:23:56.760 --> 01:23:59.400]  first one was, but then he shot another one and it's like this
+[01:23:59.400 --> 01:24:02.040]  doesn't look like it was shot on a phone. It's not supposed
+[01:24:02.040 --> 01:24:05.880]  to and it's they're not shooting with the built-in
+[01:24:05.880 --> 01:24:08.360]  camera app. They're using filmic or or one of those
+[01:24:08.360 --> 01:24:11.960]  things. There's there's I would I would the best analogy I have
+[01:24:11.960 --> 01:24:15.000]  when we built Halide in twenty. Well, we talked about in 2016
+[01:24:15.000 --> 01:24:18.600]  and that fall, they released raw for iphone in iOS ten and
+[01:24:18.600 --> 01:24:21.560]  that was when Sebastian are like we gotta do this and like
+[01:24:21.560 --> 01:24:25.960]  I would say that with log video on iphone. That's it's raw
+[01:24:25.960 --> 01:24:30.120]  moment of like okay. Now now you can really treat this more
+[01:24:30.120 --> 01:24:34.920]  as a filmmaking device and like I'm excited like a lifetime
+[01:24:34.920 --> 01:24:38.840]  ago. I my my first career I wanted out of school was to
+[01:24:38.840 --> 01:24:41.960]  work in visual effects and I loved like it turns out
+[01:24:41.960 --> 01:24:45.560]  building for websites. One fraction is difficult like you
+[01:24:45.560 --> 01:24:48.360]  can actually have you can actually have a life outside of
+[01:24:48.360 --> 01:24:52.280]  work, but along the short is like I love I love video and I
+[01:24:52.280 --> 01:24:55.000]  love what they're doing with it and it'd be my dream to play
+[01:24:55.000 --> 01:24:57.640]  around with it. But it's you also have to realize like if
+[01:24:57.640 --> 01:24:59.800]  you start adding a bunch of features like the halide, you
+[01:24:59.800 --> 01:25:02.360]  don't end up with a horse. You end up with a camel like I
+[01:25:02.360 --> 01:25:05.160]  could use another hump there. Oh, it should have a lot of
+[01:25:05.160 --> 01:25:07.400]  water so you can walk right over a few days and before you
+[01:25:07.400 --> 01:25:11.320]  know it, you end up with this like terrible product and so
+[01:25:11.320 --> 01:25:13.880]  half of our struggle is just like saying no to stuff that
+[01:25:13.880 --> 01:25:17.240]  we really wanna build like with with Orion like that was
+[01:25:17.240 --> 01:25:20.040]  originally gonna be we're looking at you could hook up
+[01:25:20.040 --> 01:25:22.840]  webcams to your iPad and like okay. Well, maybe that'd be
+[01:25:22.840 --> 01:25:25.080]  cool if you could get manual control over a webcam and
+[01:25:25.080 --> 01:25:28.280]  halide for iPad and now it sucked so we're like let's not
+[01:25:28.280 --> 01:25:31.080]  build that that isn't good enough and so it ended up being
+[01:25:31.080 --> 01:25:33.560]  like okay. Well, then Orion came about it like with just
+[01:25:33.560 --> 01:25:36.440]  this one off thing for that purpose. Yeah. Yeah. Spectre is
+[01:25:36.440 --> 01:25:39.160]  also a good example. We had a lot of people ask us with the
+[01:25:39.160 --> 01:25:41.320]  first version of halide like why can't I take a long
+[01:25:41.320 --> 01:25:44.040]  exposure? You're limited to one third of a second and we
+[01:25:44.040 --> 01:25:47.160]  said, well, that's the actual hardware limit on the API level
+[01:25:47.160 --> 01:25:49.240]  for the camera. You can't take a longer frame than that and
+[01:25:49.240 --> 01:25:51.400]  they said, well, there's these other apps that do long
+[01:25:51.400 --> 01:25:54.200]  exposures and I would get some somewhat upset being like,
+[01:25:54.200 --> 01:25:57.160]  well, it's not real. It's they just stitch together a bunch of
+[01:25:57.160 --> 01:25:59.720]  photos. It's not a real long exposure and then I realized
+[01:25:59.720 --> 01:26:02.360]  like I'm being impure for the sake of it and it doesn't make
+[01:26:02.360 --> 01:26:04.920]  any sense. What if what if we were to make this and like what
+[01:26:04.920 --> 01:26:07.640]  would it look like? So me and Ben, we sit down and we we work
+[01:26:07.640 --> 01:26:10.280]  on this long exposure thing and it looked really cool but we
+[01:26:10.280 --> 01:26:13.080]  had to make all these different decisions and and options and
+[01:26:13.080 --> 01:26:15.960]  things that didn't really feel true to something that would
+[01:26:15.960 --> 01:26:17.640]  fit in halide. It was starting to kind of look like Homer
+[01:26:17.640 --> 01:26:20.040]  Simpson's car from the Simpsons. We had like three
+[01:26:20.040 --> 01:26:22.200]  different horns for different sounds. So we thought what if
+[01:26:22.200 --> 01:26:24.840]  we spin it into an app on its own and that actually gave us
+[01:26:24.840 --> 01:26:28.040]  the opportunity where halide is somewhat for intermediate
+[01:26:28.040 --> 01:26:30.760]  users. If you graduate from the camera app, maybe you want to
+[01:26:30.760 --> 01:26:32.680]  you understand what shutter speed is etcetera. You know
+[01:26:32.680 --> 01:26:35.560]  what raw files are. What if we make it a long exposure? You
+[01:26:35.560 --> 01:26:37.240]  don't have to think about anything like that. We don't
+[01:26:37.240 --> 01:26:40.440]  even use a single word from the photographic lexicon and we
+[01:26:40.440 --> 01:26:43.880]  just make it and we make things easier too. So we just like
+[01:26:43.880 --> 01:26:47.000]  build use AI to like we're not require a tripod anymore. We
+[01:26:47.000 --> 01:26:49.080]  don't make it technical at all. You just tap the button and
+[01:26:49.080 --> 01:26:51.640]  get a long exposure if you don't even know what that is
+[01:26:51.640 --> 01:26:55.960]  and that was a really good decision and and I think we we
+[01:26:55.960 --> 01:26:58.920]  really try to make sure we we fit everything within sort of
+[01:26:58.920 --> 01:27:02.040]  the core of what makes it a meaningful addition to the app
+[01:27:02.040 --> 01:27:04.280]  rather than kind of try to shoehorn in more and more
+[01:27:04.280 --> 01:27:07.960]  features because we can. Yeah. Yeah. So we were talking about
+[01:27:07.960 --> 01:27:13.320]  Spectre. Spectre is an app that is dedicated to long exposures.
+[01:27:13.320 --> 01:27:17.000]  I mean is it a simple way of putting it so like a water
+[01:27:17.000 --> 01:27:21.400]  fountain or a fountain or nighttime shot of cars driving
+[01:27:21.400 --> 01:27:24.920]  fast by you or what are other examples that are great for a
+[01:27:24.920 --> 01:27:27.640]  long exposure. My favorite example of it is was actually
+[01:27:27.640 --> 01:27:30.440]  and this was a funny because it was launched the year before
+[01:27:30.440 --> 01:27:33.560]  the pandemic and then for a while our primary use case fell
+[01:27:33.560 --> 01:27:36.200]  away because Ben was in this place in Kyoto. We have these
+[01:27:36.200 --> 01:27:39.240]  beautiful orange gates and there's always tons of tourists
+[01:27:39.240 --> 01:27:41.800]  that are taking photos but tourists tend to take a photo
+[01:27:41.800 --> 01:27:44.360]  and move on. So if you just set us exposure time of like five
+[01:27:44.360 --> 01:27:47.160]  nine seconds, they just disappear. They just get
+[01:27:47.160 --> 01:27:49.800]  averaged out in a long exposure and so you can take pictures of
+[01:27:49.800 --> 01:27:53.560]  super busy places and make all the people disappear and
+[01:27:53.560 --> 01:27:55.400]  normally that would take figuring out the exposure
+[01:27:55.400 --> 01:27:58.760]  logic. So it doesn't end up all blown out and the tripod and
+[01:27:58.760 --> 01:28:01.400]  whatever now you just grab your iphone take a picture and then
+[01:28:01.400 --> 01:28:04.040]  at worst the people got super blurry and it kind of becomes a
+[01:28:04.040 --> 01:28:07.960]  texture and that was a really really fun use case for it like
+[01:28:07.960 --> 01:28:11.720]  you said waterfall. What's most fun about this and okay going
+[01:28:11.720 --> 01:28:15.160]  back to like emergent gameplay like the Zelda games where you
+[01:28:15.160 --> 01:28:17.320]  figure out a solution to a problem and that's half the
+[01:28:17.320 --> 01:28:20.360]  fun. Like what's amazing is building an app like Spectre.
+[01:28:20.360 --> 01:28:23.320]  We have users who are doing this really abstract art with
+[01:28:23.320 --> 01:28:26.040]  it where they're deliberately shaking things up and it looks
+[01:28:26.040 --> 01:28:30.040]  like these phantom so to speak images and so it's really fun
+[01:28:30.040 --> 01:28:33.160]  to build things like that and see people find uses for it
+[01:28:33.160 --> 01:28:37.160]  that we couldn't have predicted. Yeah. Yeah. I go back.
+[01:28:37.160 --> 01:28:40.920]  I'm old enough and enthusiastic enough that I my early years of
+[01:28:40.920 --> 01:28:45.640]  photography were on film actual film and I it's long long
+[01:28:45.640 --> 01:28:49.320]  exposures were possible. Of course, I don't know like SLR
+[01:28:49.320 --> 01:28:52.760]  is you could set the exposure for really long 10 seconds if
+[01:28:52.760 --> 01:28:58.600]  you want, but the need to keep the camera completely stable
+[01:28:58.600 --> 01:29:03.400]  was so important that you really if you really were into
+[01:29:03.400 --> 01:29:07.400]  long exposures, you'd get an external shutter for the camera
+[01:29:07.400 --> 01:29:13.400]  because even if the camera was on a firmly grounded tripod
+[01:29:13.400 --> 01:29:16.120]  you're physically hitting the shutter button on the camera
+[01:29:16.120 --> 01:29:20.520]  would move the camera enough that like the initial opening
+[01:29:20.520 --> 01:29:25.480]  second or fractions of a second would screw it up and the whole
+[01:29:25.480 --> 01:29:28.600]  for the whole photo would be a bit a bit blurry. You actually
+[01:29:28.600 --> 01:29:31.640]  needed like a little clicker like they were like the
+[01:29:31.640 --> 01:29:34.520]  clickers on jeopardy that like a little pen that you hold in
+[01:29:34.520 --> 01:29:38.520]  your hand and and click so that the camera wouldn't move at all
+[01:29:38.520 --> 01:29:41.720]  and I remember learning that even things like well if you're
+[01:29:41.720 --> 01:29:43.640]  outside and it's windy, you're kind of screwed. You're never
+[01:29:43.640 --> 01:29:46.680]  going to get a good long exposure. It's and then you'd
+[01:29:46.680 --> 01:29:50.760]  see when you like behind the scenes at National Geographic
+[01:29:50.760 --> 01:29:53.320]  and they show you. I know which I always I'm sure you guys do
+[01:29:53.320 --> 01:29:55.800]  too. It's like I almost love the behind the scenes stuff
+[01:29:55.800 --> 01:29:59.000]  more than the actual footage and you'd see that they build
+[01:29:59.000 --> 01:30:01.960]  like a tent around the camera to keep the wind from moving
+[01:30:01.960 --> 01:30:04.920]  the tripod like not in the frame, but it's like they built
+[01:30:04.920 --> 01:30:07.720]  like a shed for the photographer to stand in to stay
+[01:30:07.720 --> 01:30:11.560]  out of the elements because any little. Meanwhile, now you'd
+[01:30:11.560 --> 01:30:13.480]  specter you're just holding your phone in front of your
+[01:30:13.480 --> 01:30:17.080]  face right. Yeah. Oh like look at night mode with your iPhone
+[01:30:17.080 --> 01:30:19.880]  where you keep a pitch black room and you don't even have
+[01:30:19.880 --> 01:30:21.880]  like any landmarks. So there's actually a little plus to make
+[01:30:21.880 --> 01:30:24.920]  sure you stay aligned because right and it'll just throw away
+[01:30:24.920 --> 01:30:27.240]  the stuff. We can't use it. It'll just start auto align the
+[01:30:27.240 --> 01:30:29.960]  images and it was kind of cool that year because I always
+[01:30:29.960 --> 01:30:33.000]  thought it would be kind of technical and niche, but it it
+[01:30:33.000 --> 01:30:35.640]  did really well when it launched and that year Apple
+[01:30:35.640 --> 01:30:38.920]  picked it as the iPhone app of the year as kind of a showcase
+[01:30:38.920 --> 01:30:42.520]  thing and I always thought that was funny because I kind of
+[01:30:42.520 --> 01:30:45.160]  cynically assumed Apple cares more about revenue with these
+[01:30:45.160 --> 01:30:48.200]  things or they could have nominated some easy some
+[01:30:48.200 --> 01:30:50.600]  absolute money maker app and it just makes millions of dollars,
+[01:30:50.600 --> 01:30:52.760]  but they just went with a pretty niche little thing and
+[01:30:52.760 --> 01:30:56.280]  that was really cool to me that that was like what happened.
+[01:30:56.280 --> 01:30:58.200]  Alright, let me take a break here and thank our second
+[01:30:58.200 --> 01:31:01.880]  sponsor for the show. It's our good friends at Squarespace. Oh
+[01:31:01.880 --> 01:31:07.240]  man. Squarespace is the all in one platform where you can
+[01:31:07.240 --> 01:31:11.640]  build your own website and my number one recommendation and
+[01:31:11.640 --> 01:31:17.240]  as 2023 we head into the end of the year. This is the year
+[01:31:17.240 --> 01:31:23.720]  where it overall broad strokes just proves with the decline of
+[01:31:23.720 --> 01:31:28.520]  Twitter, the rise of threads all these other micro networks
+[01:31:28.520 --> 01:31:33.080]  going on. You should have your own home on the internet, your
+[01:31:33.080 --> 01:31:36.440]  own website and that's home base and then you can have
+[01:31:36.440 --> 01:31:40.760]  little mini profiles and posts other places, but you want your
+[01:31:40.760 --> 01:31:44.760]  own presence on the web and the easiest way to do it is with
+[01:31:44.760 --> 01:31:48.040]  Squarespace. Squarespace all in one to everything from
+[01:31:48.040 --> 01:31:52.120]  templates to choose from their new next generation Fluid
+[01:31:52.120 --> 01:31:55.320]  Engine, which is what they call it. It's always been drag and
+[01:31:55.320 --> 01:31:58.280]  drop at Squarespace. Fluid Engine is their next generation
+[01:31:58.280 --> 01:32:02.280]  website design system and the biggest difference from the
+[01:32:02.280 --> 01:32:05.640]  previous tools that they had is that Fluid Engine is designed
+[01:32:05.640 --> 01:32:09.480]  from the ground up to work just as well with touch that it does
+[01:32:09.480 --> 01:32:13.000]  on a mouse based system and so you can design your website on
+[01:32:13.000 --> 01:32:16.520]  your phone or your iPad or something like that, but even on
+[01:32:16.520 --> 01:32:19.720]  your phone, you can make these tweaks and drag and drop to
+[01:32:19.720 --> 01:32:23.800]  your heart's content is just absolutely the best website
+[01:32:23.800 --> 01:32:28.760]  template configuration building visual tool that I've seen on
+[01:32:28.760 --> 01:32:32.120]  any app anywhere and everybody who signs up for Squarespace
+[01:32:32.120 --> 01:32:35.640]  just gets it. Other features, online stores build it. You
+[01:32:35.640 --> 01:32:37.720]  could do it right in Squarespace. Everything from the
+[01:32:37.720 --> 01:32:41.400]  catalog to the presentation to the actual ecommerce and
+[01:32:41.400 --> 01:32:43.960]  processing the payments and stuff like that. When you do
+[01:32:43.960 --> 01:32:46.200]  payments through Squarespace, you can accept credit cards,
+[01:32:46.200 --> 01:32:49.560]  Paypal, Apple Pay, everything you'd want. You can even
+[01:32:49.560 --> 01:32:52.440]  integrate with the new stuff like after pay and clear pay
+[01:32:52.440 --> 01:32:55.080]  and stuff like that. They've got integrations like that
+[01:32:55.080 --> 01:32:59.480]  built right in like I said flexible website templates that
+[01:32:59.480 --> 01:33:03.000]  you can either use as is or you can tweak to your heart's
+[01:33:03.000 --> 01:33:08.200]  content. Analytics everything like that just an absolutely
+[01:33:08.200 --> 01:33:11.800]  great analytics dashboard that is you know, speaking about
+[01:33:11.800 --> 01:33:14.760]  airplane cockpits again, nothing at all like most
+[01:33:14.760 --> 01:33:20.760]  analytics where it looks like I don't know like a 27 tab Excel
+[01:33:20.760 --> 01:33:24.280]  spreadsheet. No Squarespace analytics are just like how
+[01:33:24.280 --> 01:33:27.480]  much traffic you're getting. Where is it coming from? Where's
+[01:33:27.480 --> 01:33:31.160]  it going to super simple? Everything you need to know.
+[01:33:31.160 --> 01:33:34.920]  It's really just beautiful and great. So where do you go? Go to
+[01:33:34.920 --> 01:33:40.120]  Squarespace.com for a free trial and if you go to
+[01:33:40.120 --> 01:33:44.280]  Squarespace.com slash talk show, they'll know you came from
+[01:33:44.280 --> 01:33:50.440]  the show and Squarespace.com slash talk show gets you 10% off
+[01:33:50.440 --> 01:33:54.200]  your first purchase of a website or domain. My thanks to
+[01:33:54.200 --> 01:33:57.560]  Squarespace for their continuing support of the talk
+[01:33:57.560 --> 01:34:05.320]  show. Let's talk let's go back and talk UI design trends. Oh
+[01:34:05.320 --> 01:34:09.800]  boy, it's funny. And again, I still I still have so much
+[01:34:09.800 --> 01:34:16.760]  affinity for Vesper. But when we did Vesper, it was in the iOS
+[01:34:16.760 --> 01:34:19.960]  six era. I was five and I was I think maybe it was I was five
+[01:34:19.960 --> 01:34:23.000]  when we got started or I was six and you know, everything had
+[01:34:23.000 --> 01:34:28.360]  depth and texture and stuff like that. And it felt like the
+[01:34:28.360 --> 01:34:33.000]  winds were blowing in the other direction. And our first
+[01:34:33.000 --> 01:34:36.440]  version of Vesper shipped before I forget what year but I
+[01:34:36.440 --> 01:34:39.640]  guess it was 2013 when I was seven came out. We shipped like
+[01:34:39.640 --> 01:34:42.440]  in May before we definitely like you guys. We were
+[01:34:42.440 --> 01:34:46.280]  desperately wanted to ship before WWDC and it had a look
+[01:34:46.280 --> 01:34:51.080]  and feel surprisingly iOS seven like and I was seven dropped as
+[01:34:51.080 --> 01:34:54.360]  a surprise on everybody. I mean that was a well kept secret
+[01:34:54.360 --> 01:34:59.400]  within Apple. It just was sort of we correctly tell kind of
+[01:34:59.400 --> 01:35:05.320]  felt a shift in trends, flatter, simpler sort of lack
+[01:35:05.320 --> 01:35:10.680]  of depth. I but I kind of feel like with Apple when they went
+[01:35:10.680 --> 01:35:14.040]  with with where they went with iOS seven was even further and
+[01:35:14.040 --> 01:35:17.560]  like the complete almost complete lack of button shapes
+[01:35:17.560 --> 01:35:20.280]  for buttons anymore like Vesper still had buttons. They just
+[01:35:20.280 --> 01:35:23.080]  didn't have 3D depth there, but they were outlined and they
+[01:35:23.080 --> 01:35:26.680]  highlighted when you tap them and I was seven introduced a
+[01:35:26.680 --> 01:35:29.160]  sort of you know what we don't really need buttons. We for
+[01:35:29.160 --> 01:35:32.120]  most things we could just use text and make it a certain
+[01:35:32.120 --> 01:35:35.240]  color and you just tap the text which to me made the whole
+[01:35:35.240 --> 01:35:40.840]  system feel more website than appy, which in a way that I I
+[01:35:40.840 --> 01:35:43.640]  never really liked and I feel like they've come back a little
+[01:35:43.640 --> 01:35:49.320]  bit on some of those things and where they are with the overall
+[01:35:49.320 --> 01:35:51.800]  look. I think it looks better than ever and they've gotten
+[01:35:51.800 --> 01:35:57.080]  some more depth, but at this point, I'm II just feel like
+[01:35:57.080 --> 01:36:02.120]  we're ready for someone for for apps to start having like holy
+[01:36:02.120 --> 01:36:08.280]  **** that looks lickable again right is it just me. Yeah, I
+[01:36:08.280 --> 01:36:11.400]  think it's really what's really interesting is I don't think I
+[01:36:11.400 --> 01:36:13.640]  know a single designer that didn't feel like Apple
+[01:36:13.640 --> 01:36:17.320]  overcorrected a little too hard with iOS seven right and
+[01:36:17.320 --> 01:36:19.240]  obviously there was a lot of changes in like leadership
+[01:36:19.240 --> 01:36:22.680]  structure and direction at that time and I will say this as a
+[01:36:22.680 --> 01:36:25.320]  disclaimer that I worked at Apple on some of the most
+[01:36:25.320 --> 01:36:30.600]  egregious cited examples of the pre IOS seven days there might
+[01:36:30.600 --> 01:36:33.000]  have might or may not have been some stitch leather with my
+[01:36:33.000 --> 01:36:39.160]  name on it involved at the rich Corinthian. But there was
+[01:36:39.160 --> 01:36:41.720]  someone who really liked that back then at Apple and that
+[01:36:41.720 --> 01:36:45.560]  person is not there anymore and I think what the coolest thing
+[01:36:45.560 --> 01:36:49.320]  has been to see the return of it. Some designers in my
+[01:36:49.320 --> 01:36:52.040]  opinion, some of my are looking at it and seeing like alright.
+[01:36:52.040 --> 01:36:54.040]  I can use my layer effects again. Let's dust off
+[01:36:54.040 --> 01:36:57.480]  Photoshop, but if you look at the way this sort of I don't
+[01:36:57.480 --> 01:36:59.240]  like to use the word skeuomorphism because a lot of
+[01:36:59.240 --> 01:37:01.640]  these things don't look like right. If you look at the
+[01:37:01.640 --> 01:37:04.280]  definition of skeuomorphic, it's it's an object that is
+[01:37:04.280 --> 01:37:06.600]  looking like the thing it's trying to depict. So a calendar
+[01:37:06.600 --> 01:37:08.920]  if it looks like a physical paper calendar and be paper on
+[01:37:08.920 --> 01:37:11.720]  the digital interface, even though it has no reason to be
+[01:37:11.720 --> 01:37:16.200]  the the new sort of era of tactile interfaces is like the
+[01:37:16.200 --> 01:37:19.560]  dynamic island. For instance, where the the the visual flare
+[01:37:19.560 --> 01:37:21.960]  doesn't come from being able to add layer effects and having
+[01:37:21.960 --> 01:37:24.440]  these juicy retina displays that can display all these
+[01:37:24.440 --> 01:37:28.520]  gradients and colors. It's being able to do motion blur and
+[01:37:28.520 --> 01:37:31.560]  animation and seeing like the way that shape can expand is
+[01:37:31.560 --> 01:37:33.960]  almost liquid right. You can see it kind of like sticking
+[01:37:33.960 --> 01:37:37.160]  together and popping apart. You see this in all of Apple's
+[01:37:37.160 --> 01:37:39.800]  like latest and greatest stuff is that the fluidity of the
+[01:37:39.800 --> 01:37:43.320]  gesture based interaction. The iPhone 10 having these
+[01:37:43.320 --> 01:37:46.600]  incredibly supple fluid transformations of vector
+[01:37:46.600 --> 01:37:49.720]  shapes, progressive gradient blurs, these little things that
+[01:37:49.720 --> 01:37:53.000]  are honestly our design tools are not at all equipped to do.
+[01:37:53.000 --> 01:37:55.320]  We've had our design tools go more and more in that direction
+[01:37:55.320 --> 01:37:58.280]  since I was having of being able to make boxes with text on
+[01:37:58.280 --> 01:38:01.800]  them and none of them do this kind of this is like code your
+[01:38:01.800 --> 01:38:05.960]  own stuff game engine stuff and Apple increasingly is is
+[01:38:05.960 --> 01:38:08.040]  showing that their direction that the way they're looking at
+[01:38:08.040 --> 01:38:11.080]  it is this evolution of having these beautiful layered
+[01:38:11.080 --> 01:38:15.240]  surfaces that are glassy and blurry and fluid and and and
+[01:38:15.240 --> 01:38:18.120]  that's really cool and I think that that's kind of like the
+[01:38:18.120 --> 01:38:22.120]  direction that UI is going into and it's it's way more subtle
+[01:38:22.120 --> 01:38:26.600]  and interactive and beautiful than we can comprehend right
+[01:38:26.600 --> 01:38:30.200]  now right like it's it doesn't fit into that old aqua
+[01:38:30.200 --> 01:38:33.080]  framework anymore where it's just a bitmap that looks
+[01:38:33.080 --> 01:38:35.800]  different. It's actually the way things behave to your
+[01:38:35.800 --> 01:38:42.520]  finger with physics and that yeah, it's super cool. Yeah.
+[01:38:42.520 --> 01:38:44.920]  Well, I'll just say lickable was probably the wrong thing
+[01:38:44.920 --> 01:38:48.120]  for me to say cuz lickable applies specifically to aqua
+[01:38:48.120 --> 01:38:52.840]  where it looks like candy. I II just sort of mean like apps
+[01:38:52.840 --> 01:38:56.600]  that when you just look at them at first first look, you're
+[01:38:56.600 --> 01:39:01.640]  like whoa. What's that right that and I feel like that's
+[01:39:01.640 --> 01:39:06.120]  been missing for a while. There's a certain sameness to
+[01:39:06.120 --> 01:39:19.460]  everything and and to me, I also think a sort of hey. It's
+[01:39:19.460 --> 01:39:24.580]  like there's a lot of super talented designers like you and
+[01:39:24.580 --> 01:39:28.420]  and peers of you and your friends who who know my friend
+[01:39:28.420 --> 01:39:33.300]  Brad Ellis who know how to make extraordinary good little
+[01:39:33.300 --> 01:39:35.780]  buttons or icons or something like that and there's a sort of
+[01:39:35.780 --> 01:39:39.860]  a who needs them will just make all these icons just be
+[01:39:39.860 --> 01:39:43.700]  completely flat. If if it's completely flat with no
+[01:39:43.700 --> 01:39:47.940]  lighting or texture, we don't need them right as opposed to
+[01:39:47.940 --> 01:39:51.460]  when it felt like everything needed some depth and lighting
+[01:39:51.460 --> 01:39:55.140]  and texture. If you didn't have a good designer, your thing
+[01:39:55.140 --> 01:39:58.980]  stood out cuz it looked like **** right and and if nobody's
+[01:39:58.980 --> 01:40:02.580]  trying it, then yours can be made by untalented designers
+[01:40:02.580 --> 01:40:05.780]  and it doesn't really stick out like a sore thumb. Well, it's
+[01:40:05.780 --> 01:40:07.860]  unfortunate is I feel like there's been this sort of like
+[01:40:07.860 --> 01:40:11.140]  wave of fun police coming into the world where people are just
+[01:40:11.140 --> 01:40:14.340]  like why is it looking like this and oh you shouldn't be
+[01:40:14.340 --> 01:40:17.140]  spending time on that and even with Orion, we had to do a big
+[01:40:17.140 --> 01:40:21.380]  extent where there was some guy who was his forces was on
+[01:40:21.380 --> 01:40:25.060]  Twitter or X. You wanna call it nowadays. He's like well like
+[01:40:25.060 --> 01:40:28.020]  how does this even meaningfully impact your conversion rates or
+[01:40:28.020 --> 01:40:30.420]  whatever nonsense like that. It's like it's like the finance
+[01:40:30.420 --> 01:40:33.300]  boys took over like something that really was a group of
+[01:40:33.300 --> 01:40:37.220]  enthusiasts making things for the sake of creating the art
+[01:40:37.220 --> 01:40:41.540]  like there's art to making apps just like video games and for
+[01:40:41.540 --> 01:40:44.820]  some strange reason, I think it has something to do with again
+[01:40:44.820 --> 01:40:48.340]  the design tools as well. It's harder to make things that are
+[01:40:48.340 --> 01:40:52.020]  really overtly fun and it's much harder for an organization
+[01:40:52.020 --> 01:40:54.740]  which app organizations are much more serious and big now
+[01:40:54.740 --> 01:40:59.460]  to justify or quote unquote take the risk of being visually
+[01:40:59.460 --> 01:41:03.300]  distinct and fitting that into their quote design system or
+[01:41:03.300 --> 01:41:06.900]  whatever it is nowadays to justify that kind of flare and
+[01:41:06.900 --> 01:41:11.060]  I think every user notices and appreciates it honestly like
+[01:41:11.060 --> 01:41:15.220]  there is no end to the people actually. I don't know like it
+[01:41:15.220 --> 01:41:18.100]  doesn't go unappreciated is what I'm trying to say and and I
+[01:41:18.100 --> 01:41:21.060]  think we are seeing more and more people, especially on the
+[01:41:21.060 --> 01:41:25.540]  web. Interestingly before apps people more using fun effects
+[01:41:25.540 --> 01:41:28.420]  using more depth and and making things a bit more attractive
+[01:41:28.420 --> 01:41:31.060]  and I really think we're hopefully going to see that in
+[01:41:31.060 --> 01:41:34.500]  in apps as well because I mean if if we're any example of it
+[01:41:34.500 --> 01:41:36.740]  like people really appreciate it. We get so many messages
+[01:41:36.740 --> 01:41:40.980]  from people saying like we we love that. There's just fun and
+[01:41:40.980 --> 01:41:44.340]  cool cool things going on in here and there's it's it's a
+[01:41:44.340 --> 01:41:47.540]  huge app store. It's it's never been this big. I think, but
+[01:41:47.540 --> 01:41:51.460]  there really are still not very many apps where people go that
+[01:41:51.460 --> 01:41:54.100]  far and they really get noticed when you put that kind of love
+[01:41:54.100 --> 01:41:59.380]  and care into something. Yeah, Ben. Yeah II think that I get
+[01:41:59.380 --> 01:42:03.700]  why I was seven was a response like post modernism. It was a
+[01:42:03.700 --> 01:42:08.820]  response to things had gone too far in one direction and I I
+[01:42:08.820 --> 01:42:10.580]  personally went through a period of like an interior
+[01:42:10.580 --> 01:42:13.460]  design where I love modernism and super clean lines and
+[01:42:13.460 --> 01:42:16.340]  everything, but then I don't know if it's a sign of my age,
+[01:42:16.340 --> 01:42:19.300]  but in interior design, it turns out there's this really
+[01:42:19.300 --> 01:42:23.220]  cool aesthetic where if you take a modern and contrast it
+[01:42:23.220 --> 01:42:27.860]  with like pre-war and ornate or nation or whatever you'd say
+[01:42:27.860 --> 01:42:31.380]  like the two styles next to each other play off each other
+[01:42:31.380 --> 01:42:35.860]  really really well because when you see this flare, it has
+[01:42:35.860 --> 01:42:39.860]  something to contrast against and so hopefully now you'll see
+[01:42:39.860 --> 01:42:43.620]  it used tastefully and it'll actually be a stronger look
+[01:42:43.620 --> 01:42:47.300]  with like a sort of a baseline tabula. This is what the OS
+[01:42:47.300 --> 01:42:49.780]  level is and now people are going to feel more comfortable
+[01:42:49.780 --> 01:42:52.260]  sort of dipping their toes like with iOS is it's sort of real
+[01:42:52.260 --> 01:42:55.860]  itself back, but yeah, I want to see a Baroque app. I want to
+[01:42:55.860 --> 01:43:02.020]  see gargoyles and a ridiculous flare where it counts well and
+[01:43:02.020 --> 01:43:06.900]  that brings us to Orion. Orion is your guys new app sort of a
+[01:43:06.900 --> 01:43:10.500]  mini app. You guys even said you guys sort of built it in
+[01:43:10.500 --> 01:43:14.980]  six weeks or no that might be too short, but 45 days 45 well
+[01:43:14.980 --> 01:43:21.300]  six weeks right six times eight six. Yeah. What is Orion? I can
+[01:43:21.300 --> 01:43:25.380]  go for this one. So we discovered when we're looking
+[01:43:25.380 --> 01:43:29.460]  into the external camera API with iPad that it kind of
+[01:43:29.460 --> 01:43:33.700]  sucked as a camera API, but it turned out that you could plug
+[01:43:33.700 --> 01:43:37.540]  in these capture dongles that you buy off Amazon for 15 bucks
+[01:43:37.540 --> 01:43:40.100]  and you can plug in an HDMI source and suddenly you can use
+[01:43:40.100 --> 01:43:43.380]  your iPad as an external monitor and so we're like okay.
+[01:43:43.380 --> 01:43:47.460]  What if we were to kind of like Spectre do like a one off app
+[01:43:47.460 --> 01:43:51.140]  that does one thing particularly well, it wouldn't be an ongoing
+[01:43:51.140 --> 01:43:55.620]  business and if you were to do this one thing, how would you
+[01:43:55.620 --> 01:43:59.300]  go over the top and have fun with it and it was kind of like
+[01:43:59.300 --> 01:44:04.500]  it was more for us and having fun and just yeah. If it made
+[01:44:04.500 --> 01:44:08.180]  money cool, if it was an art project, that's great and so
+[01:44:08.180 --> 01:44:12.660]  it's useful if you're if you need to play a console game on
+[01:44:12.660 --> 01:44:15.140]  your iPad and you don't have a monitor. If you have a server
+[01:44:15.140 --> 01:44:17.540]  in a closet like a Mac Mini that's not hooked up to a
+[01:44:17.540 --> 01:44:20.500]  screen and you just need to quickly log in and fix
+[01:44:20.500 --> 01:44:23.780]  something you could use it. I have it hooked up to a dongle
+[01:44:23.780 --> 01:44:25.860]  that does composite input and so I have it hooked up to my
+[01:44:25.860 --> 01:44:28.340]  Super Nintendo and I was able to get some rounds of Street
+[01:44:28.340 --> 01:44:31.540]  Fighter two off. So it's like a portable monitor and we're able
+[01:44:31.540 --> 01:44:35.300]  to layer on like CRT effects. Oh and in the case of like
+[01:44:35.300 --> 01:44:38.340]  Nintendo Switch, which only does 1080p we're able to do some
+[01:44:38.340 --> 01:44:42.260]  stuff like upscale to 4k using metal effects. So it's like the
+[01:44:42.260 --> 01:44:46.820]  old it's it's it's it's an overkill monitor for iPad.
+[01:44:46.820 --> 01:44:50.900]  Right. Let you use your iPad as an ad just as a display.
+[01:44:50.900 --> 01:44:54.100]  Alright. What's what's the path to get a Super Nintendo hooked
+[01:44:54.100 --> 01:44:57.460]  up to it though? Cuz Super Nintendo doesn't do HDMI out.
+[01:44:57.460 --> 01:45:00.100]  Oh no. So you buy a little dongle. I forgot who it was
+[01:45:00.100 --> 01:45:04.020]  like Star Tech or one of these companies makes an S video and
+[01:45:04.020 --> 01:45:08.740]  analog input to USB C. Alright and then you plug that into the
+[01:45:08.740 --> 01:45:11.540]  iPad. It shows up as a webcam. I guess it was for like if you
+[01:45:11.540 --> 01:45:14.260]  had one of those little camcorders for home movies
+[01:45:14.260 --> 01:45:17.620]  right and there's like all these Chinese companies like
+[01:45:17.620 --> 01:45:20.260]  they're all the same chip sets so you can pick any of the
+[01:45:20.260 --> 01:45:23.620]  dozen off Amazon and they all do the same thing. But you only
+[01:45:23.620 --> 01:45:26.260]  need one adapter though. I was thinking you might need like S
+[01:45:26.260 --> 01:45:31.300]  video to HDMI and an HDMI to USB C. Yeah. I'm kind of
+[01:45:31.300 --> 01:45:33.940]  surprised that you don't have some daisy chain of like crazy
+[01:45:33.940 --> 01:45:37.140]  dongles like sticking out. No. No. It's right. There's S
+[01:45:37.140 --> 01:45:41.620]  video right to USB C. Cuz at one point I had to do that with
+[01:45:41.620 --> 01:45:46.980]  my Apple extended keyboard two which is ADB out my beloved
+[01:45:46.980 --> 01:45:54.820]  keyboard and it went I added old I made USB A adapter so it
+[01:45:54.820 --> 01:45:58.660]  went one adapter was all I needed but then once the
+[01:45:58.660 --> 01:46:02.340]  machine stopped having USB A ports then I needed a USB A to
+[01:46:02.340 --> 01:46:06.180]  USB C dongle and a dongle to a dongle. You're starting to
+[01:46:06.180 --> 01:46:09.780]  stretch things but it's getting into some absurd territory
+[01:46:09.780 --> 01:46:13.300]  right but there's a guy over in Hong Kong. I forget his name
+[01:46:13.300 --> 01:46:16.340]  Johnny something but he goes by the name Tinker Boy but he
+[01:46:16.340 --> 01:46:19.140]  makes a he like 3D prints a bunch of custom dongles and
+[01:46:19.140 --> 01:46:22.980]  he's got AA. It's a much better adapter than the old. I made
+[01:46:22.980 --> 01:46:26.100]  one but now it goes. He's got one and he sent me a prototype
+[01:46:26.100 --> 01:46:29.300]  that goes right to USB C and there's just something in the
+[01:46:29.300 --> 01:46:32.500]  back of my brain that is so much happier knowing that I've
+[01:46:32.500 --> 01:46:36.980]  just got one adapter than an adapter to an adapter but yeah
+[01:46:36.980 --> 01:46:41.780]  but that's a cool the the the Mac Mini in a closet type
+[01:46:41.780 --> 01:46:45.300]  scenario. I mean it's it's not just a toy right. It's not just
+[01:46:45.300 --> 01:46:48.340]  like sure playing the old Super Nintendo games is alright. Now
+[01:46:48.340 --> 01:46:50.820]  it's a toy. It's you're you're playing video games, but that's
+[01:46:50.820 --> 01:46:55.380]  actually a cool use case right cuz you don't want to if 99.8%
+[01:46:55.380 --> 01:47:00.900]  of the time the the Mac and the little Mac Mini can run headless
+[01:47:00.900 --> 01:47:04.740]  why even waste money on the cheapest to cheap displays to
+[01:47:04.740 --> 01:47:07.940]  keep in there and if you can just walk in just walk around
+[01:47:07.940 --> 01:47:10.420]  with the iPad you already have and hook it up with one thing
+[01:47:10.420 --> 01:47:13.220]  and all of a sudden that's super useful right. It is
+[01:47:13.220 --> 01:47:17.380]  actually useful. When I told my son about Orion, he was so
+[01:47:17.380 --> 01:47:20.900]  happy. He said I've been I've been wanting a way in his dorm
+[01:47:20.900 --> 01:47:25.380]  room to play his switch on a bigger screen. I mean is his
+[01:47:25.380 --> 01:47:28.420]  iPad. He has an iPad Pro, though so 13 inch display is a
+[01:47:28.420 --> 01:47:32.740]  lot for him in a in with the limited viewing distance you
+[01:47:32.740 --> 01:47:36.260]  can get in a college dorm room. He was like. Oh my god. He
+[01:47:36.260 --> 01:47:40.100]  wants it just for that and you guys built. There's so much fun
+[01:47:40.100 --> 01:47:43.780]  stuff in there again custom typeface right up to two custom
+[01:47:43.780 --> 01:47:47.860]  typefaces because why not but yeah, we saw I just thought
+[01:47:47.860 --> 01:47:50.260]  that it would be really neat to base it off of kind of the
+[01:47:50.260 --> 01:47:57.220]  80s VHS CRT TV vibes and they they have those pixel. It was
+[01:47:57.220 --> 01:48:00.100]  the the dawn of the pixel typeface the dawn of like
+[01:48:00.100 --> 01:48:03.140]  digital type. So they had these pixel fonts and I work with my
+[01:48:03.140 --> 01:48:06.900]  really good friend. I did the type. He's an amazing type
+[01:48:06.900 --> 01:48:09.620]  designer in Holland. So we just had these late night sessions
+[01:48:09.620 --> 01:48:13.220]  with a couple bottles of bourbon and and a couple
+[01:48:13.220 --> 01:48:15.300]  computers and we're sitting together sketching up like
+[01:48:15.300 --> 01:48:18.580]  making pixel fonts and doing all the styling after it. So
+[01:48:18.580 --> 01:48:21.220]  there's actually a bit of a blue screen on this on screen
+[01:48:21.220 --> 01:48:24.420]  display almost VHS screen. If you don't have anything
+[01:48:24.420 --> 01:48:27.620]  connected and yeah, all the menus we use we use we use the
+[01:48:27.620 --> 01:48:30.020]  custom type in there. We we kind of just went by granted
+[01:48:30.020 --> 01:48:32.820]  with it. We wanted to feel a little physical again. So you
+[01:48:32.820 --> 01:48:35.060]  you open the app for the first time you get to unbox it.
+[01:48:35.060 --> 01:48:38.260]  There's a little tear away strip and you cable Sasser wrote
+[01:48:38.260 --> 01:48:42.900]  a little amazing tune for the retro logo made for it. It's a
+[01:48:42.900 --> 01:48:45.620]  little over the top again, but we figured we might as well.
+[01:48:45.620 --> 01:48:48.420]  It's it's a free app so you can actually check it out like we
+[01:48:48.420 --> 01:48:51.300]  don't charge any money for just using using all the the the
+[01:48:51.300 --> 01:48:56.260]  core functionality. But we want to just like make it make it
+[01:48:56.260 --> 01:48:58.980]  really fun without getting too much in a way of actually using
+[01:48:58.980 --> 01:49:02.180]  it. I would literally say to the people listening. I mean
+[01:49:02.180 --> 01:49:05.540]  this sincerely that it even if you in the back of your head
+[01:49:05.540 --> 01:49:08.100]  think well, that's a neat idea for an app. But I if you're
+[01:49:08.100 --> 01:49:11.940]  thinking I literally have no place in my life where I would
+[01:49:11.940 --> 01:49:15.700]  like to use my iPad as an external display. You should
+[01:49:15.700 --> 01:49:20.980]  still download Orion and unbox it just to do the unboxing and
+[01:49:20.980 --> 01:49:25.220]  see the little because it's the sort of things that exemplify
+[01:49:25.220 --> 01:49:29.140]  what I'm talking about that I miss right that it really does
+[01:49:29.140 --> 01:49:32.180]  look like a piece of cardboard strip that you're peeling off
+[01:49:32.180 --> 01:49:38.660]  as you open it up and it's that is it's I would say that just
+[01:49:38.660 --> 01:49:42.420]  that unboxing animation alone exemplifies what I'm talking
+[01:49:42.420 --> 01:49:47.620]  about. It's has no point. No, no, no. Well, no point other
+[01:49:47.620 --> 01:49:51.460]  than to bring joy right then to be fun to look cool and be fun
+[01:49:51.460 --> 01:49:55.700]  and something that just looks cool and is fun and is like
+[01:49:55.700 --> 01:49:58.900]  pops into your head as I mean, I guess we've spoiled it for
+[01:49:58.900 --> 01:50:01.780]  everybody, but I'm using it as a reason to get it. But if you
+[01:50:01.780 --> 01:50:04.180]  for all the people who've downloaded it or or in the
+[01:50:04.180 --> 01:50:07.380]  future, we'll just go to the app store and stumble across it
+[01:50:07.380 --> 01:50:09.940]  read the description and say yes, this is exactly what I've
+[01:50:09.940 --> 01:50:14.260]  been saying. I want to just plug HDMI into my iPad for for
+[01:50:14.260 --> 01:50:18.260]  X situation. They get this all of a sudden a part of their
+[01:50:18.260 --> 01:50:20.900]  brain will light up like what the hell is this? I have to
+[01:50:20.900 --> 01:50:23.780]  peel off a piece of cardboard to open and it's like, oh,
+[01:50:23.780 --> 01:50:26.420]  that's fun, right? But it's like all of a sudden there's
+[01:50:26.420 --> 01:50:29.300]  certain neurons in these people's brains that will get
+[01:50:29.300 --> 01:50:33.620]  lit up with joy or at worst. I mean, what's the worst that
+[01:50:33.620 --> 01:50:37.220]  could happen is somebody who literally has doesn't have the
+[01:50:37.220 --> 01:50:41.540]  gene to experience fun. Well, then they've wasted one and a
+[01:50:41.540 --> 01:50:44.020]  half seconds of their life peeling off a thing they didn't
+[01:50:44.020 --> 01:50:46.900]  need to otherwise peel off. I do like the entertainment
+[01:50:46.900 --> 01:50:49.220]  fantasy. There's someone out there that that actually really
+[01:50:49.220 --> 01:50:59.460]  pissed off. Oh, I do know there is this. You know there is. But
+[01:50:59.460 --> 01:51:02.660]  the other thing that you guys do, and I'm guessing hearing
+[01:51:02.660 --> 01:51:05.700]  from your use case, Ben, and and of course, I think it's
+[01:51:05.700 --> 01:51:07.540]  true. I think you guys would both agree. I mean, you said it
+[01:51:07.540 --> 01:51:13.860]  with Halide, especially when you're an indie and the smaller
+[01:51:13.860 --> 01:51:17.460]  it is, it has to be true that you're scratching your own
+[01:51:17.460 --> 01:51:21.060]  itch and that you love the thing you're making, right? Like
+[01:51:21.060 --> 01:51:27.060]  if Rich Segal weren't himself a heavy BB Edit user, BB Edit
+[01:51:27.060 --> 01:51:30.660]  wouldn't be going right. It's the fact that Rich Segal
+[01:51:30.660 --> 01:51:35.140]  himself is one of the biggest users of BB Edit in the world
+[01:51:35.140 --> 01:51:40.260]  and okay. so it makes sense that he's been spent 30 years
+[01:51:40.260 --> 01:51:44.180]  working on the same app, but one of the fun things in Orion
+[01:51:44.180 --> 01:51:48.580]  is that you guys have modes to simulate CRTs right and that
+[01:51:48.580 --> 01:51:52.740]  is it. That's gotta come from you wanting to hook up your
+[01:51:52.740 --> 01:51:56.100]  Super Nintendo to it right. Yeah. Yeah. Well also I just
+[01:51:56.100 --> 01:51:59.700]  wanted to learn could you is it possible to build something
+[01:51:59.700 --> 01:52:03.060]  that would emulate CRTs at a retina level on the display?
+[01:52:03.060 --> 01:52:06.100]  How would that look and then like once I started watching
+[01:52:06.100 --> 01:52:09.460]  videos about how CRTs actually worked when I was growing up
+[01:52:09.460 --> 01:52:12.100]  like okay. Well, if we're gonna build one CRT, there are
+[01:52:12.100 --> 01:52:16.260]  actually three popular types of CRTs, the trinitron, which is
+[01:52:16.260 --> 01:52:20.340]  like the Cadillac of CRTs and so once you go down that path,
+[01:52:20.340 --> 01:52:23.140]  why not we'll just include three ones. So if anything, I
+[01:52:23.140 --> 01:52:24.900]  don't care if you use the mode. I just wanted to see if I could
+[01:52:24.900 --> 01:52:29.780]  build it, you know, but like which is which tends to be a
+[01:52:29.780 --> 01:52:33.300]  precarious path, but yeah, so I've been using it for that and
+[01:52:33.300 --> 01:52:37.940]  it's been interesting to seeing like the preservation of old
+[01:52:37.940 --> 01:52:41.140]  games that are even if they're re released by the companies.
+[01:52:41.140 --> 01:52:43.380]  They aren't displayed like they were originally like the
+[01:52:43.380 --> 01:52:47.140]  original artists who programmed it intended because displays
+[01:52:47.140 --> 01:52:50.500]  today are razor sharp and they don't blur the details right
+[01:52:50.500 --> 01:52:53.860]  and and Jesus even tie back to like photography about like
+[01:52:53.860 --> 01:52:58.500]  having everything super sharp and invisible kinda takes away
+[01:52:58.500 --> 01:53:03.460]  some of the magic of imagery right. Yeah right right. Yeah.
+[01:53:03.460 --> 01:53:06.420]  I know there's everybody out there listening who plays
+[01:53:06.420 --> 01:53:10.180]  retro games through emulators knows exactly what I'm talking
+[01:53:10.180 --> 01:53:15.220]  about, but if you're not this issue of hey when we first got
+[01:53:15.220 --> 01:53:20.100]  to like LCD LED displays that are flat and they're so pixel
+[01:53:20.100 --> 01:53:23.620]  perfect and sharp even not counting retina right, but it's
+[01:53:23.620 --> 01:53:27.620]  just they're just so super sharp that when you play these
+[01:53:27.620 --> 01:53:31.380]  retro games on these on modern screens through an emulator,
+[01:53:31.380 --> 01:53:37.620]  you see perfectly square sharp corner. Each pixel is like
+[01:53:37.620 --> 01:53:43.620]  that and so it's like you're seeing the art in a way that is
+[01:53:43.620 --> 01:53:48.900]  the clearest as possible of what it is pixel by pixel, but
+[01:53:48.900 --> 01:53:51.620]  the overall effect is nothing like what it looked like when
+[01:53:51.620 --> 01:53:54.580]  you were actually playing back in the day right like you know
+[01:53:54.580 --> 01:53:58.980]  like I'll just go back to Pac Man Pac Man looked like a
+[01:53:58.980 --> 01:54:03.140]  yellow circle a perfect circle. It did not look like a little
+[01:54:03.140 --> 01:54:06.340]  pixel and as everybody who's ever tried to do pixel art
+[01:54:06.340 --> 01:54:10.260]  knows making like a circle is hard when you've got square
+[01:54:10.260 --> 01:54:13.620]  pixels. Pac Man just looked like a circle. Nobody thought
+[01:54:13.620 --> 01:54:16.180]  that there were any kind of pixels or jagged involved.
+[01:54:16.180 --> 01:54:22.080]  There is sort of a. It was like anti aliasing without actually
+[01:54:22.080 --> 01:54:25.600]  doing any algorithmic anti aliasing the actual nature of a
+[01:54:25.600 --> 01:54:31.440]  CRT display has some of that blurring effect of anti
+[01:54:31.440 --> 01:54:35.360]  aliasing. So like if I think it was Mega Man three that did
+[01:54:35.360 --> 01:54:39.040]  this where they deliberately drew the graphics in such a way
+[01:54:39.040 --> 01:54:42.560]  that the individual pixels would hit phosphor so that
+[01:54:42.560 --> 01:54:45.440]  there's a sequence with a stars in the background and as your
+[01:54:45.440 --> 01:54:48.080]  character walks across the stars twinkle in different
+[01:54:48.080 --> 01:54:50.640]  colors, but if you show it on a monitor display, it's like oh
+[01:54:50.640 --> 01:54:54.560]  they're white, but if they would they would have that there
+[01:54:54.560 --> 01:54:57.200]  were some and we haven't built it yet, but in certain games,
+[01:54:57.200 --> 01:55:00.560]  they do transparency effects by hacking the interlacing and it
+[01:55:00.560 --> 01:55:03.360]  was like leaning into the limitations of the hardware to
+[01:55:03.360 --> 01:55:07.120]  to accomplish specific visual effects right. It's super
+[01:55:07.120 --> 01:55:09.920]  clever stuff. Yeah. It was like a half transparent waterfall in
+[01:55:09.920 --> 01:55:13.280]  some game where it was only that the effect falls apart on
+[01:55:13.280 --> 01:55:19.280]  the LCD because there is no interlacing whatsoever right.
+[01:55:19.280 --> 01:55:22.240]  So it's a free app. People can download it and use it, but you
+[01:55:22.240 --> 01:55:25.200]  can upgrade right. There's there's a because I know I did
+[01:55:25.200 --> 01:55:27.440]  it instantly because I thought well whatever it unlocks. I
+[01:55:27.440 --> 01:55:30.320]  want it. I think it's the four K upscaling in the CRT effects
+[01:55:30.320 --> 01:55:33.440]  and we we have a few custom icons coming that we want to
+[01:55:33.440 --> 01:55:36.480]  bundle in one one use case been in and cover that I use it for
+[01:55:36.480 --> 01:55:40.560]  is a lot of modern cameras that you can use for vlogging or
+[01:55:40.560 --> 01:55:43.760]  yeah. You can hook it up as a monitor, which usually costs a
+[01:55:43.760 --> 01:55:46.800]  couple 100 bucks at least so you can have a sort of screen
+[01:55:46.800 --> 01:55:49.200]  that faces you so you don't have to look at the back of
+[01:55:49.200 --> 01:55:51.840]  your camera to see your framing and your exposure that that
+[01:55:51.840 --> 01:55:55.040]  works pretty nicely too and we we're going to add a few a few.
+[01:55:55.040 --> 01:55:57.680]  We want to add a few features for that to make that work a
+[01:55:57.680 --> 01:56:01.360]  little bit better. Yeah and that's another use case too
+[01:56:01.360 --> 01:56:07.040]  where you might not want to even buy even just a $300
+[01:56:07.040 --> 01:56:09.280]  standalone monitor for that purpose. If you're not going to
+[01:56:09.280 --> 01:56:12.240]  use it all the time and if you own you're like well, I'm not
+[01:56:12.240 --> 01:56:15.040]  going to use it much so I'm going to go spend only a little
+[01:56:15.040 --> 01:56:17.680]  bit of money. Well, then you're going to get a **** display
+[01:56:17.680 --> 01:56:20.640]  right. Whereas you've got an iPad, you've got an Apple
+[01:56:20.640 --> 01:56:24.000]  quality display and then you can just use it for that
+[01:56:24.000 --> 01:56:26.880]  purpose when you want to use it for that purpose and it's you
+[01:56:26.880 --> 01:56:30.320]  know as better than any display at that size that you can get
+[01:56:30.320 --> 01:56:32.880]  from any company in the world and you can even screen record
+[01:56:32.880 --> 01:56:35.600]  it right. So let's say if you are like on a location you want
+[01:56:35.600 --> 01:56:38.080]  to just run a little sample shoot. You can literally just
+[01:56:38.080 --> 01:56:41.680]  screen record the output and and use that you can take
+[01:56:41.680 --> 01:56:44.480]  captures of your framing and quickly send it out. It's it's
+[01:56:44.480 --> 01:56:46.800]  just really neat that you have this whole iPad. It's almost
+[01:56:46.800 --> 01:56:49.840]  like your camera is kind of like running iOS for the output.
+[01:56:49.840 --> 01:56:53.280]  That's funny like a DP II shared some Dms and he works on
+[01:56:53.280 --> 01:56:55.760]  like actual real real productions. I think actually
+[01:56:55.760 --> 01:56:59.120]  an Apple TV show and he was saying like on set the most
+[01:56:59.120 --> 01:57:03.600]  reliable hardware or iPads like as far as like screens and so
+[01:57:03.600 --> 01:57:05.120]  he's like yeah, we're definitely going to give this a
+[01:57:05.120 --> 01:57:07.600]  run. There's limitations because you start talking about
+[01:57:07.600 --> 01:57:11.840]  SDI connections and everything but an iPad as far as a device.
+[01:57:11.840 --> 01:57:14.400]  It's funny we think about it like it's for your grandparents,
+[01:57:14.400 --> 01:57:16.720]  but it's like no, it's a device that just works and if you're
+[01:57:16.720 --> 01:57:18.960]  on a set that's going to it's going to cost us a million
+[01:57:18.960 --> 01:57:22.000]  dollars today. We can't be futzing around with control alt
+[01:57:22.000 --> 01:57:24.720]  delete to to get things running because it's going to cost us
+[01:57:24.720 --> 01:57:28.480]  money. Right or worrying that the display isn't capable of
+[01:57:28.480 --> 01:57:31.680]  really conveying the color and any meaningfully accurate sense
+[01:57:31.680 --> 01:57:34.320]  or something like that. Yeah, that's a big one. Yeah. Right.
+[01:57:34.320 --> 01:57:40.480]  Yeah. Right. And and and as opposed to Apple who obsesses
+[01:57:40.480 --> 01:57:43.840]  over the color accuracy of of every display that leaves the
+[01:57:43.840 --> 01:57:47.280]  factory. Well, you this has been a great talk. I appreciate
+[01:57:47.280 --> 01:57:50.080]  the time. I don't think I have anything else to cover and
+[01:57:50.080 --> 01:57:54.880]  unless you guys do. Alright. No. Alright. Any last guesses
+[01:57:54.880 --> 01:57:58.080]  for the event that's coming anything else that come to mind?
+[01:57:58.080 --> 01:58:01.920]  Alright. Here's one. Everybody wants to know. How is it going
+[01:58:01.920 --> 01:58:05.920]  to open? II think it's going to open with Tim Cook saying good
+[01:58:05.920 --> 01:58:08.480]  evening, right? Right. Good morning. Good morning. Good
+[01:58:08.480 --> 01:58:10.880]  morning. Good morning. But I think he's I think it has to
+[01:58:10.880 --> 01:58:13.120]  open with him saying good evening. I don't think there's
+[01:58:13.120 --> 01:58:16.400]  anything magical about him saying good morning. Like I've
+[01:58:16.400 --> 01:58:18.320]  seen people on Twitter saying he's still going to say good
+[01:58:18.320 --> 01:58:22.160]  morning and maybe because if it's filmed in the daytime or
+[01:58:22.160 --> 01:58:24.320]  something like that, but it would make sense. But I know if
+[01:58:24.320 --> 01:58:26.800]  they're going to air it at eight o'clock at night, I think I
+[01:58:26.800 --> 01:58:31.040]  think the whole thing will be dark, right? Like like the jaws
+[01:58:31.040 --> 01:58:34.720]  sections of the iPhone keynotes, right? The Kayan
+[01:58:34.720 --> 01:58:38.320]  Drance's sections where she does the non-pro phones are in
+[01:58:38.320 --> 01:58:40.720]  the daytime. I don't know how many people notice this, but
+[01:58:40.720 --> 01:58:44.240]  ever since it's been Kayan and Jaws, her sections are in the
+[01:58:44.240 --> 01:58:47.520]  daytime for non-pro phones. And then it always shifts to
+[01:58:47.520 --> 01:58:50.640]  nighttime for pro because I don't know, in Apple's mind,
+[01:58:50.640 --> 01:58:53.360]  pro is dark. I guess this whole event is going to be dark. I
+[01:58:53.360 --> 01:58:55.280]  don't know. I never noticed that. That's that's a good
+[01:58:55.280 --> 01:58:59.520]  catch. If I had Apple's budget, I would do an hour and a half
+[01:58:59.520 --> 01:59:03.200]  long video hosted by the Cryptkeeper. Just like an hour
+[01:59:03.200 --> 01:59:06.640]  and a half. Good evening, boys and girls. Today we have an
+[01:59:06.640 --> 01:59:12.080]  update for you. Just like play it straight and I would, yeah,
+[01:59:12.080 --> 01:59:16.960]  that's why I don't have their money. No. My last thought is,
+[01:59:16.960 --> 01:59:19.840]  I was going to say, my last thought is is is I'm super happy
+[01:59:19.840 --> 01:59:22.800]  with my M1 Macs. If the only thing that could get me to
+[01:59:22.800 --> 01:59:27.120]  upgrade if they suddenly came out with an M3 Macs MacBook
+[01:59:27.120 --> 01:59:32.320]  Pro that's completely black, like actually beautiful black
+[01:59:32.320 --> 01:59:36.560]  Mac. Yeah, I would instantly want to buy that. I would look
+[01:59:36.560 --> 01:59:41.360]  at my laptop and be like, you terrible obsolete thing. I would
+[01:59:41.360 --> 01:59:44.560]  do that. I would do the exact same thing because I have more
+[01:59:44.560 --> 01:59:49.760]  money than sense and would instantly try to trade in my
+[01:59:49.760 --> 01:59:54.800]  perfectly good. Like I said, I never swap. The only thing I'm
+[01:59:54.800 --> 01:59:56.960]  really concerned about is RAM. It's got more RAM than I need,
+[01:59:56.960 --> 02:00:00.560]  but I would instantly upgrade just to get true black and it
+[02:00:00.560 --> 02:00:03.920]  makes me so furious. The worst thing they created was the
+[02:00:03.920 --> 02:00:07.760]  trading program. So now I have like, oh, I guess I have to
+[02:00:07.760 --> 02:00:12.000]  upgrade now I have like $1,000 credit for every I can buy so
+[02:00:12.000 --> 02:00:15.120]  many gems in the App Store now. But like, it's so tempting like
+[02:00:15.120 --> 02:00:18.880]  yeah, I can just trade in my old Mac and get some credit. Yeah,
+[02:00:18.880 --> 02:00:26.160]  I feel like they haven't flexed on Mac hardware lust in a while,
+[02:00:26.160 --> 02:00:30.080]  right? Like, just I don't even care what it does. I just want a
+[02:00:30.080 --> 02:00:33.280]  box that looks like that, right? Like the Mac Studio is
+[02:00:33.280 --> 02:00:39.440]  not a sexy box, right? It's it's not ugly. It is not. I don't
+[02:00:39.440 --> 02:00:42.560]  have any complaints about it, but I don't look at a Mac
+[02:00:42.560 --> 02:00:46.080]  Studio and think, oh, I need that. I need that on my desk,
+[02:00:46.080 --> 02:00:50.640]  right? If they made a black laptop the way I'm I think you
+[02:00:50.640 --> 02:00:52.960]  are too. I would just be like, I don't even care what the specs
+[02:00:52.960 --> 02:00:56.800]  are. I just give it to me. Take my money. Remember when they
+[02:00:56.800 --> 02:00:59.120]  charged more? Remember when they charged more when to put
+[02:00:59.120 --> 02:01:02.000]  the plastic MacBooks? They weren't pro level, but they had
+[02:01:02.000 --> 02:01:07.520]  the black one was like $200 more. I had it. I paid it. They
+[02:01:07.520 --> 02:01:10.720]  should do that again. I would if I worked there and see that I
+[02:01:10.720 --> 02:01:14.480]  should not work there. I should I have the right job just
+[02:01:14.480 --> 02:01:17.200]  telling them what to do not doing it. But I would say yes,
+[02:01:17.200 --> 02:01:20.400]  let's charge more. Let's charge more for the black version that
+[02:01:20.400 --> 02:01:25.040]  does no other advantages other than being black because idiots
+[02:01:25.040 --> 02:01:31.200]  like me and you will give them the money. That's a very good
+[02:01:31.200 --> 02:01:37.440]  prediction though. I like that Lux camera is your home and you
+[02:01:37.440 --> 02:01:40.640]  can go from there to all of the apps we mentioned halide being
+[02:01:40.640 --> 02:01:43.040]  the big one but specter which I should have mentioned up front
+[02:01:43.040 --> 02:01:47.760]  and now the new one Orion you guys and again II always link I
+[02:01:47.760 --> 02:01:51.600]  love love love your camera review every year camera system
+[02:01:51.600 --> 02:01:54.640]  review which people who listen to the show probably remember
+[02:01:54.640 --> 02:01:57.040]  it was just a few weeks ago. I linked to it and you guys are
+[02:01:57.040 --> 02:02:00.800]  both on social media. You can people can can look for you.
+[02:02:00.800 --> 02:02:03.120]  Thank you for your time. I'll also thank our sponsors. We had
+[02:02:03.120 --> 02:02:06.400]  Squarespace where you can build your own website and trade
+[02:02:06.400 --> 02:02:10.000]  coffee where you can subscribe to get coffee fresh coffee
+[02:02:10.000 --> 02:02:13.040]  delivered right to your home. Alright. Thanks guys. Thanks.
+[02:02:13.040 --> 02:02:25.680]  Thank you.
